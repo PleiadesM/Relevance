@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-07T18:18:42Z",
+ "generated_at": "2026-07-07T21:40:00Z",
  "private_summary": {
   "configured": 0,
   "total": 2
@@ -95,7 +95,7 @@
   },
   {
    "category": "open",
-   "count": 2,
+   "count": 8,
    "error": null,
    "id": "hn_frontpage_ai",
    "name": "Hacker News (AI filter)",
@@ -139,7 +139,7 @@
   },
   {
    "category": "open",
-   "count": 18,
+   "count": 22,
    "error": null,
    "id": "nyt_homepage",
    "name": "The New York Times",
