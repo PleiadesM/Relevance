@@ -1,0 +1,229 @@
+{
+ "generated_at": "2026-07-07T15:12:12Z",
+ "private_summary": {
+  "configured": 0,
+  "total": 2
+ },
+ "sources": [
+  {
+   "category": "open",
+   "count": 50,
+   "error": null,
+   "id": "openai_blog",
+   "name": "OpenAI News",
+   "ok": true,
+   "section": "news",
+   "skip_reason": null,
+   "type": "rss"
+  },
+  {
+   "category": "open",
+   "count": 20,
+   "error": null,
+   "id": "google_ai_blog",
+   "name": "Google AI Blog",
+   "ok": true,
+   "section": "news",
+   "skip_reason": null,
+   "type": "rss"
+  },
+  {
+   "category": "open",
+   "count": 50,
+   "error": null,
+   "id": "deepmind_blog",
+   "name": "Google DeepMind Blog",
+   "ok": true,
+   "section": "news",
+   "skip_reason": null,
+   "type": "rss"
+  },
+  {
+   "category": "open",
+   "count": 50,
+   "error": null,
+   "id": "huggingface_blog",
+   "name": "Hugging Face Blog",
+   "ok": true,
+   "section": "news",
+   "skip_reason": null,
+   "type": "rss"
+  },
+  {
+   "category": "open",
+   "count": 10,
+   "error": null,
+   "id": "mit_tr_ai",
+   "name": "MIT Technology Review · AI",
+   "ok": true,
+   "section": "news",
+   "skip_reason": null,
+   "type": "rss"
+  },
+  {
+   "category": "open",
+   "count": 10,
+   "error": null,
+   "id": "verge_ai",
+   "name": "The Verge · AI",
+   "ok": true,
+   "section": "news",
+   "skip_reason": null,
+   "type": "rss"
+  },
+  {
+   "category": "open",
+   "count": 20,
+   "error": null,
+   "id": "ars_ai",
+   "name": "Ars Technica · AI",
+   "ok": true,
+   "section": "news",
+   "skip_reason": null,
+   "type": "rss"
+  },
+  {
+   "category": "open",
+   "count": 30,
+   "error": null,
+   "id": "simonwillison",
+   "name": "Simon Willison",
+   "ok": true,
+   "section": "news",
+   "skip_reason": null,
+   "type": "rss"
+  },
+  {
+   "category": "open",
+   "count": 4,
+   "error": null,
+   "id": "hn_frontpage_ai",
+   "name": "Hacker News (AI filter)",
+   "ok": true,
+   "section": "news",
+   "skip_reason": null,
+   "type": "rss"
+  },
+  {
+   "category": "open",
+   "count": 25,
+   "error": null,
+   "id": "bbc_world",
+   "name": "BBC World",
+   "ok": true,
+   "section": "news",
+   "skip_reason": null,
+   "type": "rss"
+  },
+  {
+   "category": "open",
+   "count": 45,
+   "error": null,
+   "id": "guardian_world",
+   "name": "The Guardian · World",
+   "ok": true,
+   "section": "news",
+   "skip_reason": null,
+   "type": "rss"
+  },
+  {
+   "category": "open",
+   "count": 10,
+   "error": null,
+   "id": "npr_news",
+   "name": "NPR News",
+   "ok": true,
+   "section": "news",
+   "skip_reason": null,
+   "type": "rss"
+  },
+  {
+   "category": "open",
+   "count": 21,
+   "error": null,
+   "id": "nyt_homepage",
+   "name": "The New York Times",
+   "ok": true,
+   "section": "news",
+   "skip_reason": null,
+   "type": "rss"
+  },
+  {
+   "category": "open",
+   "count": 43,
+   "error": null,
+   "id": "bbc_zhongwen",
+   "name": "BBC 中文",
+   "ok": true,
+   "section": "news",
+   "skip_reason": null,
+   "type": "rss"
+  },
+  {
+   "category": "optional",
+   "count": 7,
+   "error": null,
+   "id": "arxiv_datavis",
+   "name": "arXiv cs.HC + cs.GR",
+   "ok": true,
+   "section": "papers",
+   "skip_reason": null,
+   "type": "arxiv"
+  },
+  {
+   "category": "optional",
+   "count": 50,
+   "error": null,
+   "id": "openalex_datavis",
+   "name": "OpenAlex · information visualization",
+   "ok": true,
+   "section": "papers",
+   "skip_reason": null,
+   "type": "openalex"
+  },
+  {
+   "category": "optional",
+   "count": 0,
+   "error": null,
+   "id": "s2_datavis",
+   "name": "Semantic Scholar · data visualization",
+   "ok": true,
+   "section": "papers",
+   "skip_reason": null,
+   "type": "semanticscholar"
+  },
+  {
+   "category": "optional",
+   "count": 15,
+   "error": null,
+   "id": "crossref_techcomm_journals",
+   "name": "TechComm journals (CrossRef)",
+   "ok": true,
+   "section": "papers",
+   "skip_reason": null,
+   "type": "crossref"
+  },
+  {
+   "category": "optional",
+   "count": 40,
+   "error": null,
+   "id": "openalex_techcomm",
+   "name": "OpenAlex · technical communication",
+   "ok": true,
+   "section": "papers",
+   "skip_reason": null,
+   "type": "openalex"
+  },
+  {
+   "category": "optional",
+   "count": 6,
+   "error": null,
+   "id": "arxiv_hci_writing",
+   "name": "arXiv cs.HC (writing & docs)",
+   "ok": true,
+   "section": "papers",
+   "skip_reason": null,
+   "type": "arxiv"
+  }
+ ]
+}

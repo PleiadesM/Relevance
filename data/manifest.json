@@ -1,20 +1,57 @@
 {
- "schema_version": 1,
  "app": "personal-newsdash",
  "app_version": "0.1.0",
- "status": "awaiting_first_build",
- "generated_at": null,
- "build_id": null,
+ "build_id": "20260707T151212Z",
+ "generated_at": "2026-07-07T15:12:12Z",
+ "schema_version": 1,
+ "sections": [
+  {
+   "category": "open",
+   "count": 103,
+   "encrypted": false,
+   "file": "news.json",
+   "id": "news",
+   "kind": "news",
+   "status": "ok"
+  },
+  {
+   "category": "optional",
+   "count": 15,
+   "encrypted": false,
+   "file": "papers.json",
+   "id": "papers",
+   "kind": "papers",
+   "status": "ok"
+  },
+  {
+   "category": "private",
+   "encrypted": true,
+   "file": null,
+   "id": "schedule",
+   "kind": "schedule",
+   "status": "not_configured"
+  },
+  {
+   "category": "private",
+   "encrypted": true,
+   "file": null,
+   "id": "courses",
+   "kind": "courses",
+   "status": "not_configured"
+  }
+ ],
  "site": {
-  "title": "Personal Newsdash",
+  "default_language": "en",
   "languages": [
    "en",
    "zh"
   ],
-  "default_language": "en",
+  "subtitle": "",
   "theme": "the-type",
   "timezone": "UTC",
+  "title": "Personal Newsdash",
   "visibility": "public"
  },
- "sections": []
+ "source_status_file": "source-status.json",
+ "status": "ok"
 }
