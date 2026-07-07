@@ -150,6 +150,11 @@ def main(argv=None) -> None:
             # feeds are untrusted: only http(s) URLs may become links
             result = [it for it in result
                       if it.url.startswith(("http://", "https://"))]
+            # a declared source language beats per-item detection (fetchers
+            # only see titles, which are too short for reliable detection)
+            if source.lang in ("zh", "en"):
+                for it in result:
+                    it.lang = source.lang
             items_by_section.setdefault(source.section, []).extend(result)
             status.record(source, ok=True, count=len(result))
             print(f"[{source.id}] ok, {len(result)} items")

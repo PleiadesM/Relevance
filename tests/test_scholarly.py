@@ -37,7 +37,22 @@ def test_openalex_parse(make_ctx, make_source):
     assert paper.id == item_id(doi="10.1145/999")
     assert paper.venue == "ACM CHI"
     assert paper.summary == "We revisit declarative visualization grammars."
+    assert paper.extra["citations"] == 42
     assert "mailto=x%40y.edu" in responses.calls[0].request.url
+
+
+@responses.activate
+def test_openalex_follow_filter(make_ctx, make_source):
+    """Follows: a filter-only source (no query) queries by author id."""
+    responses.get(openalex.API, body=(FIX / "openalex_works.json").read_text())
+    source = make_source(id="follow", type="openalex", category="optional",
+                         section="following",
+                         filter="authorships.author.id:A5023888391")
+    items = openalex.fetch(source, make_ctx())
+    assert len(items) == 1
+    url = responses.calls[0].request.url
+    assert "authorships.author.id%3AA5023888391" in url
+    assert "search=" not in url
 
 
 @responses.activate
@@ -51,6 +66,7 @@ def test_crossref_issn_mode(make_ctx, make_source):
     assert paper.venue == "Journal of Business and Technical Communication"
     assert paper.authors == ["Mary Sue", "Li Wang"]
     assert paper.summary.startswith("We examine")
+    assert paper.extra["citations"] == 3
     assert "issn%3A1050-6519" in responses.calls[0].request.url
 
 
@@ -65,6 +81,7 @@ def test_semanticscholar_parse(make_ctx, make_source):
     assert paper.extra["doi"] == "10.1109/vis.2026.42"
     assert paper.extra["arxiv_id"] == "2507.00042"
     assert paper.venue == "IEEE VIS"
+    assert paper.extra["citations"] == 17
 
 
 @responses.activate

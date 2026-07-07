@@ -98,3 +98,55 @@ def test_missing_url_for_rss_rejected(make_repo):
     })
     with pytest.raises(ConfigError):
         load_config(root, env={})
+
+
+def test_source_lang_parsed(repo_root):
+    cfg = load_config(repo_root, env={})
+    zhongwen = next(s for s in cfg.sources if s.id == "bbc_zhongwen")
+    assert zhongwen.lang == "zh"
+    bbc = next(s for s in cfg.sources if s.id == "bbc_world")
+    assert bbc.lang is None  # unset -> per-item detection
+
+
+def test_openalex_filter_replaces_query(make_repo):
+    """Follows: an openalex source may carry filter instead of query."""
+    root = make_repo(sources={
+        "schema_version": 1, "presets": [],
+        "sources": [{"id": "follow_x", "type": "openalex", "section": "following",
+                     "filter": "authorships.author.id:A5023888391"}],
+    })
+    cfg = load_config(root, env={})
+    src = next(s for s in cfg.sources if s.id == "follow_x")
+    assert src.active and src.filter.endswith("A5023888391")
+    assert "following" in cfg.sections
+
+
+def test_openalex_without_query_or_filter_rejected(make_repo):
+    root = make_repo(sources={
+        "schema_version": 1, "presets": [],
+        "sources": [{"id": "oa_bare", "type": "openalex", "section": "papers"}],
+    })
+    with pytest.raises(ConfigError):
+        load_config(root, env={})
+
+
+def test_top_level_tag_rules_apply_to_feed_sections(make_repo):
+    root = make_repo(sources={
+        "schema_version": 1, "presets": [],
+        "sources": [
+            {"id": "feed_a", "type": "rss", "section": "news",
+             "url": "https://a.example/feed.xml"},
+            {"id": "arxiv_b", "type": "arxiv", "section": "papers", "query": "cat:cs.HC"},
+        ],
+        "tag_rules": [
+            {"tag": "llm", "any": ["LLM"]},
+            {"tag": "vis-only", "any": ["chart"], "section": "papers"},
+        ],
+    })
+    cfg = load_config(root, env={})
+    news_tags = [r.tag for r in cfg.tag_rules["news"]]
+    papers_tags = [r.tag for r in cfg.tag_rules["papers"]]
+    assert "llm" in news_tags and "llm" in papers_tags
+    assert "vis-only" in papers_tags and "vis-only" not in news_tags
+    # global rules are unscoped, unlike pack rules
+    assert all(r.source_ids is None for r in cfg.tag_rules["news"])

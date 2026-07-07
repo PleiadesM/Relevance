@@ -126,8 +126,19 @@ crypto tests together.
 ```
 
 Papers additionally carry `"authors": ["…"]` (≤6), `"venue": "arXiv cs.HC"`,
-and `extra.doi` / `extra.arxiv_id` / `extra.abstract_snippet`. Items are
-sorted `published_at` descending, capped at 300 per section.
+and `extra.doi` / `extra.arxiv_id` / `extra.abstract_snippet`. When the
+upstream API reports a citation count, papers also carry
+`extra.citations` (int ≥ 0); its presence switches the item to the
+citation-aware score blend (see `scripts/newsdash/scoring.py`) and the
+frontend renders a citations badge. Items are sorted `published_at`
+descending, capped at 300 per section.
+
+The `following` section (scholars/labs tracking) is `kind: "papers"` and
+uses this same payload shape; the frontend groups it by source by default.
+
+`item.lang` is `"zh"` or `"en"`: forced by the source's config `lang` when
+declared, else detected per item. The frontend's 中文/English filter and the
+overview strip's language split key off it.
 
 ### `schedule` (kind: schedule)
 
@@ -185,7 +196,12 @@ open + optional items only, rolling `archive_days`, capped at 3000.
 1. Never write decrypted content or the passphrase to storage. The derived
    key bytes may be persisted only behind the explicit "remember on this
    device" opt-in.
-2. Annotations UI (highlight/excerpt/note, Clippings) renders only while
-   unlocked (`manifest.crypto` present + successful check-block decrypt).
+2. Annotations UI (highlight/excerpt/note, Clippings) and the Favorites UI
+   (stars, Favorites view) render only while unlocked (`manifest.crypto`
+   present + successful check-block decrypt). Both live in local storage
+   (IndexedDB `newsdash` db: `annotations` + `favorites` stores) and never
+   leave the device.
 3. Locking wipes the in-memory key, any remembered key, and all decrypted
    section data, then re-renders.
+4. The numeric overview strip is computed client-side from already-loaded
+   sections — private counts must never be added to plaintext files for it.

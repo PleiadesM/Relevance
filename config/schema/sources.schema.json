@@ -24,9 +24,23 @@
     "sources": {
       "type": "array",
       "items": { "$ref": "#/$defs/source" }
+    },
+    "tag_rules": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/tag_rule" }
     }
   },
   "$defs": {
+    "tag_rule": {
+      "type": "object",
+      "required": ["tag", "any"],
+      "additionalProperties": false,
+      "properties": {
+        "tag": { "type": "string", "pattern": "^[a-z0-9-]{2,32}$" },
+        "any": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+        "section": { "type": "string", "pattern": "^[a-z0-9_-]{2,32}$" }
+      }
+    },
     "source": {
       "type": "object",
       "required": ["id"],
@@ -43,6 +57,8 @@
         "url": { "type": "string", "pattern": "^https?://" },
         "path": { "type": "string", "minLength": 1 },
         "query": { "type": "string", "minLength": 1 },
+        "filter": { "type": "string", "minLength": 1 },
+        "lang": { "enum": ["zh", "en", "auto"] },
         "keywords": { "type": "array", "items": { "type": "string", "minLength": 1 } },
         "issn": { "type": "array", "items": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{3}[0-9Xx]$" } },
         "max_results": { "type": "integer", "minimum": 1, "maximum": 200 },

@@ -1,17 +1,23 @@
-// Annotation storage: IndexedDB first, localStorage fallback (iOS private
-// browsing). Records carry an itemSnapshot so clippings outlive the rolling
-// feed window, and a schema field so v0.2 sync needs no migration.
+// Annotation + favorites storage: IndexedDB first, localStorage fallback
+// (iOS private browsing). Records carry an itemSnapshot so clippings and
+// favorites outlive the rolling feed window, and a schema field so v0.2
+// sync needs no migration.
 //
-// Record shape:
+// Annotation record shape:
 // { id, itemId, sectionId, type: "highlight"|"excerpt"|"note",
 //   quote, prefix, suffix, note, color,
 //   itemSnapshot: { title, url, source, published_at, summary },
 //   createdAt, updatedAt, schema: 1 }
+//
+// Favorite record shape (keyed by itemId — starring twice replaces):
+// { itemId, sectionId, itemSnapshot, createdAt, schema: 1 }
 
 const DB_NAME = "newsdash";
-const DB_VERSION = 1;
+const DB_VERSION = 2; // v2 adds the favorites store
 const STORE = "annotations";
+const FAV_STORE = "favorites";
 const LS_KEY = "nd.annotations";
+const LS_FAV_KEY = "nd.favorites";
 
 let dbPromise = null;
 let useFallback = false;
@@ -34,6 +40,10 @@ function openDb() {
         store.createIndex("createdAt", "createdAt");
         store.createIndex("type", "type");
       }
+      if (!db.objectStoreNames.contains(FAV_STORE)) {
+        const favs = db.createObjectStore(FAV_STORE, { keyPath: "itemId" });
+        favs.createIndex("createdAt", "createdAt");
+      }
     };
     request.onsuccess = () => resolve(request.result);
     request.onerror = () => reject(request.error);
@@ -45,22 +55,22 @@ function openDb() {
   return dbPromise;
 }
 
-function lsRead() {
-  try { return JSON.parse(localStorage.getItem(LS_KEY) || "[]"); }
+function lsRead(key = LS_KEY) {
+  try { return JSON.parse(localStorage.getItem(key) || "[]"); }
   catch { return []; }
 }
 
-function lsWrite(list) {
-  try { localStorage.setItem(LS_KEY, JSON.stringify(list)); }
+function lsWrite(list, key = LS_KEY) {
+  try { localStorage.setItem(key, JSON.stringify(list)); }
   catch (err) { console.warn("annotation save failed:", err); }
 }
 
-async function withStore(mode, fn) {
+async function withStore(mode, fn, storeName = STORE) {
   const db = await openDb();
   if (useFallback || !db) return null;
   return new Promise((resolve, reject) => {
-    const tx = db.transaction(STORE, mode);
-    const result = fn(tx.objectStore(STORE));
+    const tx = db.transaction(storeName, mode);
+    const result = fn(tx.objectStore(storeName));
     tx.oncomplete = () => resolve(result?.result ?? result);
     tx.onerror = () => reject(tx.error);
   });
@@ -121,6 +131,42 @@ export async function listAnnotations() {
 export async function listForItem(itemId) {
   const all = await listAnnotations();
   return all.filter((r) => r.itemId === itemId);
+}
+
+// ---- favorites -----------------------------------------------------------
+
+export async function addFavorite(record) {
+  await openDb();
+  if (useFallback) {
+    const list = lsRead(LS_FAV_KEY).filter((r) => r.itemId !== record.itemId);
+    list.push(record);
+    lsWrite(list, LS_FAV_KEY);
+    return record;
+  }
+  await withStore("readwrite", (store) => store.put(record), FAV_STORE);
+  return record;
+}
+
+export async function removeFavorite(itemId) {
+  await openDb();
+  if (useFallback) {
+    lsWrite(lsRead(LS_FAV_KEY).filter((r) => r.itemId !== itemId), LS_FAV_KEY);
+    return;
+  }
+  await withStore("readwrite", (store) => store.delete(itemId), FAV_STORE);
+}
+
+export async function listFavorites() {
+  await openDb();
+  const list = useFallback
+    ? lsRead(LS_FAV_KEY)
+    : (await withStore("readonly", (store) => store.getAll(), FAV_STORE)) || [];
+  return list.sort((a, b) => (b.createdAt || "").localeCompare(a.createdAt || ""));
+}
+
+export async function favoriteIdSet() {
+  const all = await listFavorites();
+  return new Set(all.map((r) => r.itemId));
 }
 
 // Obsidian-friendly Markdown export, grouped by day.

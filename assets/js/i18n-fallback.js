@@ -1,4 +1,11 @@
-{
+// GENERATED from i18n/en.json — do not edit by hand.
+// Regenerate: python3 scripts/gen_i18n_fallback.py
+// Purpose: the network copies of i18n/*.json can fail behind a flaky
+// CDN; this embedded English dictionary guarantees the chrome never
+// renders raw keys like "app.tagline". Parity with en.json is pinned
+// by tests/test_i18n_fallback.mjs.
+
+export const FALLBACK_EN = {
   "app": {
     "tagline": "Your news, your papers, your schedule — one page.",
     "updated": "Updated {time}",
@@ -149,12 +156,20 @@
     "skipped": "Awaiting secrets",
     "disabled": "Disabled",
     "privateSummary": "{configured} of {total} private sources configured",
-    "categories": { "open": "Open", "optional": "Optional", "private": "Private" }
+    "categories": {
+      "open": "Open",
+      "optional": "Optional",
+      "private": "Private"
+    }
   },
   "settings": {
     "title": "Settings",
     "theme": "Theme",
-    "themes": { "the-type": "The Type", "nyt": "Newsprint", "bear": "Bear" },
+    "themes": {
+      "the-type": "The Type",
+      "nyt": "Newsprint",
+      "bear": "Bear"
+    },
     "language": "Language",
     "privacy": "Private mode",
     "print": "Print today's brief",
@@ -162,4 +177,4 @@
     "aboutBody": "Personal Newsdash — a serverless, self-hosted news · schedule · research dashboard. Data updates via GitHub Actions; private sections are AES-256 encrypted and decrypted only in your browser.",
     "version": "Version"
   }
-}
+};

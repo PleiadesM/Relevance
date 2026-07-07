@@ -52,6 +52,25 @@ The first deploy takes **1–5 minutes**. After that, each data refresh can lag 
 
 > If the page shows an **"awaiting first build"** screen, the pipeline hasn't produced data yet — go back to step 2 and make sure "Update Newsdash" ran green.
 
+### 3a. Custom domain (optional)
+
+If you point your own domain at the site (Settings → Pages → **Custom domain**),
+GitHub commits a `CNAME` file to the repo root — **keep it**. Then set DNS at
+your registrar so the domain resolves **straight to GitHub Pages**, not to a
+registrar CDN/parking service:
+
+- **Apex** (`example.com`) → four `A` records:
+  `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
+  (and/or the matching `AAAA` records from GitHub's docs).
+- **`www` subdomain** → one `CNAME` → `<your-username>.github.io`
+  (your username **exactly** — a typo silently breaks it).
+- **Turn off** any registrar "CDN"/"parking"/proxy on the domain (e.g.
+  Namecheap **Supersonic CDN**). Those sit in front of your real origin and
+  return **502** because GitHub Pages isn't wired up as their origin.
+
+DNS changes take minutes to hours to propagate; verify with
+`dig +short example.com` (should show the GitHub IPs above).
+
 ## 4. Personalize via the setup issue
 
 You never need to edit JSON by hand. The repo ships an issue form that a bot reads and applies.
@@ -210,6 +229,7 @@ What to expect:
 |---|---|
 | **Build is red** in Actions | Open the failed run's log — the error line tells you which source or secret misbehaved. A `private` site with no `NEWSDASH_PASSPHRASE` refuses to publish by design: add the secret ([step 5](#5-private-mode-and-the-passphrase)) and re-run. |
 | **Page looks stale** | The Pages CDN caches ~10 minutes — wait it out, hard-refresh. Still stale? Check [Actions](../../actions) that "Update Newsdash" actually ran green recently. |
+| **502 / "trouble connecting"** on a custom domain | Your registrar's CDN/parking (e.g. Namecheap Supersonic CDN) is intercepting the domain and can't reach GitHub as its origin. Fix DNS per [step 3a](#3a-custom-domain-optional): apex `A` records → GitHub's four IPs, `www` `CNAME` → `<username>.github.io` (check for typos), disable the registrar CDN. The site always stays reachable at the raw `https://<username>.github.io/<repo>/` URL meanwhile. |
 | **Schedule is empty / errored** | Google regenerates your "secret address" URL if you ever click *Reset* (or Google resets it for you) — the old URL in your secret then dies. Copy the new secret address, rebuild `ics-sources.json`, re-encode ([step 6c](#6c-encode-and-add-the-secret)), update the `ICS_SOURCES_B64` secret, re-run the workflow. |
 | **"Awaiting first build" screen** | The pipeline has never run. Actions tab → Update Newsdash → Run workflow ([step 2](#2-first-build)). |
 | **Updates silently stopped** | GitHub **auto-disables cron workflows after 60 days without repo activity**. Actions tab → the workflow shows a "scheduled workflows disabled" banner → click **Enable**. Any commit also resets the clock. |

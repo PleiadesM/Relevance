@@ -45,6 +45,8 @@ jobs:
           node-version: "22"
       - name: Cross-language envelope proof
         run: node tests/test_crypto_webcrypto.mjs
+      - name: i18n fallback parity
+        run: node tests/test_i18n_fallback.mjs
       - name: ES module syntax check
         run: |
           set -e

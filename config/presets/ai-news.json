@@ -74,6 +74,10 @@
     { "tag": "model-release", "any": ["release", "launch", "introducing", "announcing", "now available"] },
     { "tag": "research", "any": ["paper", "research", "study", "benchmark"] },
     { "tag": "dev-tools", "any": ["api", "sdk", "cli", "developer", "open source", "open-source"] },
-    { "tag": "policy", "any": ["regulation", "policy", "safety", "governance", "lawsuit", "copyright"] }
+    { "tag": "policy", "any": ["regulation", "policy", "safety", "governance", "lawsuit", "copyright"] },
+    { "tag": "agents", "any": ["agent", "agentic", "autonomous", "tool use", "computer use"] },
+    { "tag": "robotics", "any": ["robot", "robotics", "embodied", "humanoid"] },
+    { "tag": "multimodal", "any": ["multimodal", "vision", "image generation", "video generation", "speech", "audio"] },
+    { "tag": "business", "any": ["funding", "acquisition", "valuation", "revenue", "partnership", "billion"] }
   ]
 }

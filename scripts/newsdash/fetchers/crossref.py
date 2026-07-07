@@ -40,6 +40,9 @@ def _work_to_item(work: dict, source) -> Item | None:
         for a in (work.get("author") or [])
     ][:6]
     abstract = strip_html(work.get("abstract") or "")
+    extra = {"doi": doi, "abstract_snippet": clip(abstract, 500)}
+    if isinstance(work.get("is-referenced-by-count"), int):
+        extra["citations"] = work["is-referenced-by-count"]
     return Item(
         id=item_id(doi=doi),
         title=title,
@@ -54,7 +57,7 @@ def _work_to_item(work: dict, source) -> Item | None:
         lang="en",
         authors=[a for a in authors if a],
         venue=venue,
-        extra={"doi": doi, "abstract_snippet": clip(abstract, 500)},
+        extra=extra,
         weight=source.weight,
     )
 

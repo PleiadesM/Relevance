@@ -10,6 +10,7 @@ import { fmtDateTime, initI18n, t } from "./i18n.js";
 import { get, prefs, set } from "./store.js";
 import * as clippingsView from "./views/clippings.js";
 import * as coursesView from "./views/courses.js";
+import * as favoritesView from "./views/favorites.js";
 import * as feedView from "./views/feed.js";
 import * as scheduleView from "./views/schedule.js";
 import * as settingsView from "./views/settings.js";
@@ -17,7 +18,7 @@ import { fixDocLinks } from "./views/shared.js";
 import * as sourcesView from "./views/sources.js";
 import * as todayView from "./views/today.js";
 
-const SECTION_ORDER = ["news", "papers", "schedule", "courses"];
+const SECTION_ORDER = ["news", "papers", "following", "schedule", "courses"];
 const viewEl = () => document.getElementById("view");
 
 // ---- routing -------------------------------------------------------------
@@ -33,7 +34,7 @@ function routes() {
   const list = ["today"];
   for (const id of SECTION_ORDER) if (sectionIds.includes(id)) list.push(id);
   for (const id of sectionIds) if (!list.includes(id)) list.push(id);
-  list.push("clippings", "sources", "settings");
+  list.push("clippings", "favorites", "sources", "settings");
   return list;
 }
 
@@ -46,6 +47,7 @@ function renderView() {
 
   if (route === "today") todayView.render(container);
   else if (route === "clippings") clippingsView.render(container);
+  else if (route === "favorites") favoritesView.render(container);
   else if (route === "sources") sourcesView.render(container);
   else if (route === "settings") settingsView.render(container);
   else if (sections[route]?.entry.kind === "schedule") scheduleView.render(container);

@@ -34,12 +34,18 @@ def _clean_doi(doi: str | None) -> str | None:
 def fetch(source, ctx) -> list[Item]:
     lookback = ctx.site.windows.papers_days * 3  # indexing lags publication
     from_date = (ctx.now - timedelta(days=lookback)).date().isoformat()
+    # source.filter composes into the filter expression: this is how follows
+    # work (authorships.author.id:A… / authorships.institutions.lineage:I…).
+    filters = [f"from_publication_date:{from_date}"]
+    if source.filter:
+        filters.append(source.filter)
     params = {
-        "search": source.query,
-        "filter": f"from_publication_date:{from_date}",
+        "filter": ",".join(filters),
         "sort": "publication_date:desc",
         "per-page": min(source.max_results, 50),
     }
+    if source.query:
+        params["search"] = source.query
     mailto = ctx.env.get("CONTACT_MAILTO", "").strip()
     if mailto:
         params["mailto"] = mailto
@@ -70,6 +76,9 @@ def fetch(source, ctx) -> list[Item]:
             for a in work.get("authorships", [])
         ][:6]
         abstract = _invert_abstract(work.get("abstract_inverted_index"))
+        extra = {"doi": doi, "abstract_snippet": clip(abstract, 500)}
+        if isinstance(work.get("cited_by_count"), int):
+            extra["citations"] = work["cited_by_count"]
         items.append(Item(
             id=item_id(doi=doi, url=url),
             title=title,
@@ -84,7 +93,7 @@ def fetch(source, ctx) -> list[Item]:
             lang="en",
             authors=[a for a in authors if a],
             venue=venue,
-            extra={"doi": doi, "abstract_snippet": clip(abstract, 500)},
+            extra=extra,
             weight=source.weight,
         ))
     return items

@@ -32,8 +32,10 @@ function annotatableFor(node) {
   return element?.closest?.("[data-annotatable]") || null;
 }
 
-function handleSelection() {
-  if (!get().unlocked) return;
+function handleSelection(e) {
+  // A tap on the toolbar itself must not re-run selection handling — it
+  // would tear down and rebuild the toolbar before the button's click lands.
+  if (toolbar && e?.target instanceof Node && toolbar.contains(e.target)) return;
   const sel = document.getSelection();
   if (!sel || sel.isCollapsed || sel.rangeCount === 0) return hideToolbar();
   const range = sel.getRangeAt(0);
@@ -41,6 +43,13 @@ function handleSelection() {
   if (!container) return hideToolbar();
   const itemEl = container.closest("[data-item-id]");
   if (!itemEl) return hideToolbar();
+
+  if (!get().unlocked) {
+    // Discoverability, not decryption: selecting text while locked offers
+    // the unlock modal when private mode exists at all.
+    if (get().manifest?.crypto) showUnlockHint(range.getBoundingClientRect());
+    return;
+  }
 
   const selector = computeSelector(container, range);
   if (!selector || !selector.exact.trim()) return hideToolbar();
@@ -97,7 +106,36 @@ function showToolbar(rect) {
     el("button", { onclick: () => save("excerpt") }, t("annotate.excerpt")),
     el("button", { onclick: () => saveWithNote() }, t("annotate.note")),
   );
-  document.getElementById("toolbar-root").appendChild(toolbar);
+  armToolbar(toolbar);
+  positionToolbar(rect);
+}
+
+function showUnlockHint(rect) {
+  hideToolbar();
+  toolbar = el("div", { class: "anno-toolbar" },
+    el("button", {
+      class: "anno-unlock-hint",
+      onclick: () => {
+        hideToolbar();
+        document.dispatchEvent(new CustomEvent("nd:unlock-request"));
+      },
+    }, `🔒 ${t("annotate.unlockHint")}`),
+  );
+  armToolbar(toolbar);
+  positionToolbar(rect);
+}
+
+// Pressing a toolbar button collapses the text selection by default, which
+// fires selectionchange -> hideToolbar and removes the button before its
+// click event can land. Cancelling pointerdown/mousedown keeps the selection
+// (and the toolbar) alive; click still fires.
+function armToolbar(node) {
+  node.addEventListener("pointerdown", (e) => e.preventDefault());
+  node.addEventListener("mousedown", (e) => e.preventDefault());
+  document.getElementById("toolbar-root").appendChild(node);
+}
+
+function positionToolbar(rect) {
   const top = window.scrollY + rect.top - toolbar.offsetHeight - 8;
   toolbar.style.top = `${Math.max(window.scrollY + 4, top)}px`;
   toolbar.style.left = `${Math.max(8, window.scrollX + rect.left)}px`;

@@ -1,8 +1,10 @@
-// The Today view: a morning brief — schedule strip, due-soon course work,
-// top stories by score, latest papers. Locked private blocks render a lock
-// placeholder instead of leaking that they're empty.
+// The Today view: a morning brief — numeric overview strip, schedule strip,
+// due-soon course work, top stories by score, top papers, followed scholars.
+// Locked private blocks render a lock placeholder instead of leaking that
+// they're empty.
 
 import { renderAnnotationsIn } from "../annotate.js";
+import { favoriteIdSet } from "../annodb.js";
 import { clear, el, safeHref } from "../dom.js";
 import { fmtDate, fmtDateTime, fmtRelative, fmtTime, getLang, t } from "../i18n.js";
 import { get } from "../store.js";
@@ -83,26 +85,76 @@ function dueSoonBlock() {
   );
 }
 
-function storiesBlock() {
+function storiesBlock(cardOpts) {
   const section = get().sections.news;
   if (!section || section.status !== "ok") return null;
   const top = [...(section.payload?.items || [])]
     .sort((a, b) => b.score - a.score).slice(0, 6);
   if (!top.length) return null;
   return block(t("today.topStories"), "news",
-    el("div", { class: "story-grid" }, top.map((item) => itemCard(item, "news"))));
+    el("div", { class: "story-grid" }, top.map((item) => itemCard(item, "news", cardOpts))));
 }
 
-function papersBlock() {
+function papersBlock(cardOpts) {
   const section = get().sections.papers;
   if (!section || section.status !== "ok") return null;
-  const latest = (section.payload?.items || []).slice(0, 5);
-  if (!latest.length) return null;
+  // priority order: the best-scored (recency · relevance · citations) first
+  const top = [...(section.payload?.items || [])]
+    .sort((a, b) => (b.score ?? 0) - (a.score ?? 0)).slice(0, 5);
+  if (!top.length) return null;
   return block(t("today.latestPapers"), "papers",
-    latest.map((item) => itemCard(item, "papers")));
+    top.map((item) => itemCard(item, "papers", cardOpts)));
 }
 
-export function render(container) {
+function followingBlock(cardOpts) {
+  const section = get().sections.following;
+  if (!section || section.status !== "ok") return null;
+  const top = [...(section.payload?.items || [])]
+    .sort((a, b) => (b.score ?? 0) - (a.score ?? 0)).slice(0, 5);
+  if (!top.length) return null;
+  return block(t("nav.following"), "following",
+    top.map((item) => itemCard(item, "following", cardOpts)));
+}
+
+// AI-News-Radar-style numeric overview: fresh count, totals, source health,
+// language split, favorites. Computed client-side from loaded sections so
+// encrypted-section counts never leak into public files.
+function overviewStrip(favCount) {
+  const { sections, sourceStatus, unlocked } = get();
+  const feedItems = Object.values(sections)
+    .filter((s) => s.status === "ok" && Array.isArray(s.payload?.items))
+    .flatMap((s) => s.payload.items);
+  if (!feedItems.length) return null;
+
+  const todayKey = localDay(new Date().toISOString());
+  const newToday = feedItems.filter((i) => localDay(i.published_at) === todayKey).length;
+  const zh = feedItems.filter((i) => i.lang === "zh").length;
+  const en = feedItems.length - zh;
+
+  const tile = (value, label) => el("div", { class: "stat-tile" },
+    el("span", { class: "stat-num" }, value),
+    el("span", { class: "stat-label" }, label));
+
+  const active = (sourceStatus?.sources || []).filter((s) => !s.skip_reason);
+  const tiles = [
+    tile(String(newToday), t("overview.newToday")),
+    tile(String(feedItems.length), t("overview.items")),
+    active.length
+      ? tile(`${active.filter((s) => s.ok).length}/${active.length}`, t("overview.sourcesOk"))
+      : null,
+    zh && en ? tile(`${en} EN · ${zh} 中文`, t("overview.languages")) : null,
+    unlocked && favCount != null
+      ? el("a", { class: "stat-tile", href: "#/favorites" },
+          el("span", { class: "stat-num" }, `★ ${favCount}`),
+          el("span", { class: "stat-label" }, t("overview.favorites")))
+      : null,
+  ];
+  return el("div", { class: "overview-strip" }, tiles);
+}
+
+export async function render(container) {
+  const unlocked = get().unlocked;
+  const favs = unlocked ? await favoriteIdSet() : null;
   clear(container);
   const dateLabel = new Intl.DateTimeFormat(getLang() === "zh" ? "zh-CN" : "en-US", {
     weekday: "long", year: "numeric", month: "long", day: "numeric",
@@ -111,7 +163,11 @@ export function render(container) {
     el("h2", { class: "today-greeting" }, greeting()),
     el("p", { class: "today-date" }, dateLabel),
   ));
-  const blocks = [scheduleBlock(), dueSoonBlock(), storiesBlock(), papersBlock()]
+  const strip = overviewStrip(favs ? favs.size : null);
+  if (strip) container.appendChild(strip);
+  const cardOpts = { favs };
+  const blocks = [scheduleBlock(), dueSoonBlock(), storiesBlock(cardOpts),
+                  papersBlock(cardOpts), followingBlock(cardOpts)]
     .filter(Boolean);
   if (!blocks.length) container.appendChild(emptyCard());
   const grid = el("div", { class: "today-grid" }, blocks);

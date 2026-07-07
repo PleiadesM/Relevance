@@ -48,6 +48,31 @@
       "name": "Radiance Fields (YouTube)",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCvxZ0tCKgCrrgfGu_175NIA",
       "weight": 1.0
+    },
+    {
+      "id": "ics_calendars",
+      "category": "private",
+      "type": "ics",
+      "section": "schedule",
+      "name": "My calendars",
+      "secret_ref": ["ICS_SOURCES_B64"],
+      "enabled": "auto"
+    },
+    {
+      "id": "canvas",
+      "category": "private",
+      "type": "canvas",
+      "section": "courses",
+      "name": "Canvas",
+      "secret_ref": ["CANVAS_BASE_URL", "CANVAS_TOKEN"],
+      "enabled": "auto"
     }
+  ],
+  "tag_rules": [
+    { "tag": "llm", "any": ["LLM", "large language model", "GPT", "Claude", "Gemini", "大模型", "语言模型"] },
+    { "tag": "visualization", "any": ["visualization", "visual analytics", "visual analysis", "chart", "可视化"] },
+    { "tag": "hci", "any": ["human-computer interaction", "human computer interaction", "user study", "interaction design", "人机交互"] },
+    { "tag": "embodied", "any": ["embodied", "robotics", "world model", "具身"] },
+    { "tag": "techcomm", "any": ["technical communication", "rhetoric", "writing", "documentation"] }
   ]
 }

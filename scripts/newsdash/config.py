@@ -43,10 +43,13 @@ DEFAULT_CATEGORY_BY_TYPE = {
     "semanticscholar": "optional",
 }
 
-# Sections the v0.1 frontend knows how to render, and what lives in them.
+# Sections the frontend knows how to render, and what lives in them.
+# "following" is the scholars/labs tracking section: papers-kind so followed
+# authors' works carry authors/venue, but it accepts any feed source too.
 SECTION_KINDS = {
     "news": "news",
     "papers": "papers",
+    "following": "papers",
     "schedule": "schedule",
     "courses": "courses",
 }
@@ -92,6 +95,11 @@ class SourceConfig:
     url: str | None = None
     path: str | None = None
     query: str | None = None
+    # OpenAlex filter expression (e.g. "authorships.author.id:A…" to follow
+    # a scholar, "authorships.institutions.lineage:I…" to follow a lab).
+    filter: str | None = None
+    # Source content language: "zh"/"en" forces items; None/"auto" detects.
+    lang: str | None = None
     keywords: list[str] = field(default_factory=list)
     issn: list[str] = field(default_factory=list)
     max_results: int = 50
@@ -154,7 +162,7 @@ def _schemas(schema_dir: Path):
 def _source_from_dict(raw: dict, preset: str | None = None) -> SourceConfig:
     src = SourceConfig(id=raw["id"], preset=preset)
     for key in ("category", "type", "section", "name", "url", "path", "query",
-                "max_results", "weight", "enabled"):
+                "filter", "lang", "max_results", "weight", "enabled"):
         if key in raw:
             setattr(src, key, raw[key])
     if "keywords" in raw:
@@ -169,7 +177,7 @@ def _source_from_dict(raw: dict, preset: str | None = None) -> SourceConfig:
 def _apply_override(src: SourceConfig, raw: dict) -> None:
     """Field-by-field override of a preset source by a custom entry."""
     for key in ("category", "type", "section", "name", "url", "path", "query",
-                "max_results", "weight", "enabled"):
+                "filter", "lang", "max_results", "weight", "enabled"):
         if key in raw:
             setattr(src, key, raw[key])
     if "keywords" in raw:
@@ -205,7 +213,10 @@ def _semantic_check(src: SourceConfig) -> None:
             raise ConfigError(f"source '{sid}': opml requires url or path")
     elif src.type in URL_TYPES and not src.url:
         raise ConfigError(f"source '{sid}': type {src.type} requires url")
-    if src.type in QUERY_TYPES and not src.query:
+    if src.type == "openalex":
+        if not (src.query or src.filter):
+            raise ConfigError(f"source '{sid}': openalex requires query or filter")
+    elif src.type in QUERY_TYPES and not src.query:
         raise ConfigError(f"source '{sid}': type {src.type} requires query")
     if src.type == "crossref" and not (src.query or src.issn):
         raise ConfigError(f"source '{sid}': crossref requires query or issn")
@@ -292,6 +303,19 @@ def load_config(repo_root: Path, env: Mapping[str, str] | None = None) -> Config
     for src in sources:
         _semantic_check(src)
         _resolve_enabled(src, env)
+
+    # Top-level tag rules apply to every source of the targeted section(s) —
+    # unlike pack rules, which stay scoped to their own pack's sources.
+    # Appended after pack rules so the more specific tags win the MAX_TAGS race.
+    feed_sections = [
+        s for s in dict.fromkeys(src.section for src in sources)
+        if SECTION_KINDS.get(s, "news") in ("news", "papers")
+    ]
+    for raw in doc.get("tag_rules", []):
+        targets = [raw["section"]] if raw.get("section") else feed_sections
+        for sec in targets:
+            tag_rules.setdefault(sec, []).append(
+                TagRule(tag=raw["tag"], any=list(raw["any"]), source_ids=None))
 
     interests = doc.get("interests", {})
     return Config(

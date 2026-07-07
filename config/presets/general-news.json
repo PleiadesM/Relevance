@@ -38,12 +38,15 @@
       "type": "rss",
       "name": "BBC 中文",
       "url": "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml",
+      "lang": "zh",
       "weight": 0.8
     }
   ],
   "tag_rules": [
     { "tag": "breaking", "any": ["breaking", "live updates", "快讯", "突发"] },
     { "tag": "tech", "any": ["technology", "tech", "科技"] },
-    { "tag": "science", "any": ["science", "climate", "health", "科学"] }
+    { "tag": "science", "any": ["science", "climate", "health", "科学"] },
+    { "tag": "business", "any": ["economy", "market", "business", "trade", "经济", "贸易", "股市"] },
+    { "tag": "politics", "any": ["election", "president", "parliament", "congress", "政治", "选举"] }
   ]
 }

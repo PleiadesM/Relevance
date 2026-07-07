@@ -39,11 +39,16 @@
     "keywords": ["data visualization", "LLM"],   // 供给评分公式里 0.35 的相关度项
     "boost": 0.15                                 // 命中任一关键词的额外加分（0–0.5）
   },
-  "sources": [ /* 自定义信源 + 对预置信源的覆盖 */ ]
+  "sources": [ /* 自定义信源 + 对预置信源的覆盖 */ ],
+  "tag_rules": [                                  // 全局标签规则：作用于该栏目的所有
+    { "tag": "llm", "any": ["LLM", "大模型"] },    // 信源（包内规则只作用于本包信源）；
+    { "tag": "vis", "any": ["chart"], "section": "papers" }  // 省略 section 则覆盖全部内容栏目
+  ]
 }
 ```
 
-**评分公式**：`0.45·新鲜度 + 0.35·关键词相关度 + 0.20·信源权重`；新鲜度按指数衰减（半衰期：新闻 12 小时 / 论文 84 小时）。日程与课程从不评分——按时间排列。
+**评分公式**：`0.45·新鲜度 + 0.35·关键词相关度 + 0.20·信源权重`；新鲜度按指数衰减（半衰期：新闻 12 小时 / 论文 84 小时）。信源报告了引用数的论文改用
+`0.35·新鲜度 + 0.25·相关度 + 0.15·权重 + 0.25·引用影响力`（对数缩放，约 1000 次引用饱和），高被引论文优先展示——前端的"优先"排序与今日页都基于此。日程与课程从不评分——按时间排列。
 
 **按 id 覆盖预置信源**——同 `id` 条目按字段合并：
 
@@ -62,14 +67,25 @@
 | `opml` | open | `url` 或 `path` | `RSS_MAX_FEEDS` 限制展开数（默认 10） |
 | `feed-json` | open | `url` | JSON Feed 1.x 或裸数组 |
 | `static-page` | open | `url`（+ `query` CSS 选择器） | 条目以构建时间为时间戳 |
-| `arxiv` | optional | `query` | 如 `cat:cs.HC OR cat:cs.GR` |
-| `openalex` | optional | `query` | 只有配 `OPENALEX_API_KEY` 才可靠 |
+| `arxiv` | optional | `query` | 如 `cat:cs.HC OR cat:cs.GR`，或 `au:"Jane Doe"` |
+| `openalex` | optional | `query` 和/或 `filter` | 只有配 `OPENALEX_API_KEY` 才可靠 |
 | `crossref` | optional | `issn` 列表或 `query` | 期刊追踪；按记录创建日期算新旧 |
 | `semanticscholar` | optional | `query` | 免密钥尽力而为 |
 | `ics` | private | `secret_ref` | URL 全部在 `ICS_SOURCES_B64` 里——**绝不**写进配置 |
 | `canvas` | private | `secret_ref` | `CANVAS_BASE_URL` + `CANVAS_TOKEN` |
 
-通用字段：`id`（snake_case，唯一）、`name`、`section`（`news`/`papers`/`schedule`/`courses`）、`weight`（0–1，默认 0.8）、`max_results`（默认 50）。Schema **拒绝**在 `category: "private"` 信源上出现 `url`/`path`。
+通用字段：`id`（snake_case，唯一）、`name`、`section`（`news`/`papers`/`following`/`schedule`/`courses`）、`weight`（0–1，默认 0.8）、`max_results`（默认 50）、`lang`（`"zh"`/`"en"` 固定该信源条目的语言，供前端"中文/English"筛选；省略则逐条自动检测）。Schema **拒绝**在 `category: "private"` 信源上出现 `url`/`path`。
+
+### 关注学者与实验室（`following` 栏目）
+
+把任意信源指向 `section: "following"`，就会得到独立的"关注"导航页，按被关注对象分组。最合适的是带 `filter` 的 `openalex` 信源——复制粘贴模板见 `examples/follows.sources.snippet.json`：
+
+```json
+{ "id": "follow_jane_doe", "type": "openalex", "section": "following",
+  "name": "Jane Doe", "filter": "authorships.author.id:A5023888391" }
+```
+
+在 <https://openalex.org> 搜索学者，作者页 URL 结尾即 `A…` id；实验室/机构用 `authorships.institutions.lineage:I…`。arXiv 作者检索（`au:"Jane Doe"`）和实验室博客 RSS 指向同一栏目同样可行。全部免密钥——零 Secret 构建保持绿色。
 
 ## 5. 信源包（`config/presets/<id>.json`）
 
@@ -114,6 +130,9 @@
 | 归档留更久 | `windows.archive_days` |
 | 关掉某个预置源 | `sources.json` 加 `{ "id": "...", "enabled": false }` |
 | 追踪一本期刊 | 新建 crossref 信源，填它的 `issn` |
+| 关注某学者/实验室 | openalex 信源加 `filter` + `section: "following"`（见 §4） |
+| 给全站加主题标签 | `sources.json` 顶层 `tag_rules`（见 §3） |
+| 把某信源标为中文 | 信源上加 `"lang": "zh"` |
 | 提升我的主题 | `interests.keywords`（+ `boost`） |
 | 立刻停掉 Canvas | Variable `CANVAS_ENABLED=0` |
 | 换默认主题/语言 | `site.json → theme` / `default_language` |

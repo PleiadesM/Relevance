@@ -1,20 +1,38 @@
 // Bilingual UI strings. Both dictionaries load once at boot; switching
 // language is synchronous after that. Content items stay in their source
 // language — only the chrome translates.
+//
+// Resilience: each dictionary fetch retries (the hosting CDN can 502
+// intermittently), and t() bottoms out on the embedded English fallback —
+// the UI must never render a raw key like "app.tagline".
 
+import { FALLBACK_EN } from "./i18n-fallback.js";
 import { prefs } from "./store.js";
 
 const dicts = { en: null, zh: null };
 let current = "en";
 
+async function fetchDict(lang, tries = 3) {
+  for (let attempt = 0; attempt < tries; attempt++) {
+    try {
+      const resp = await fetch(`i18n/${lang}.json`, { cache: "no-cache" });
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      return await resp.json();
+    } catch (err) {
+      if (attempt === tries - 1) {
+        console.warn(`i18n/${lang}.json failed after ${tries} tries:`, err);
+        return null;
+      }
+      await new Promise((r) => setTimeout(r, 400 * (attempt + 1) ** 2));
+    }
+  }
+  return null;
+}
+
 export async function initI18n(preferred) {
-  const results = await Promise.all(
-    ["en", "zh"].map((l) =>
-      fetch(`i18n/${l}.json`, { cache: "no-cache" }).then((r) => r.json())
-        .catch(() => ({}))),
-  );
-  dicts.en = results[0];
-  dicts.zh = results[1];
+  const [en, zh] = await Promise.all([fetchDict("en"), fetchDict("zh")]);
+  dicts.en = en || FALLBACK_EN;
+  dicts.zh = zh || {}; // zh keys then fall through to en via t()
   setLang(preferred || "en", { persist: false });
 }
 
@@ -41,6 +59,7 @@ function lookup(dict, key) {
 export function t(key, vars) {
   let text = lookup(dicts[current] || {}, key)
     ?? lookup(dicts.en || {}, key)
+    ?? lookup(FALLBACK_EN, key)
     ?? key;
   if (vars) {
     for (const [k, v] of Object.entries(vars)) {

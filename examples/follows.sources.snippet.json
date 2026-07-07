@@ -1,0 +1,56 @@
+{
+  "_comment": [
+    "Follow scholars and labs: copy entries into the `sources` array of",
+    "config/sources.json, replace the ids, and run",
+    "`python scripts/validate_config.py`. Everything here is keyless — the",
+    "zero-secret build stays green.",
+    "",
+    "Finding OpenAlex ids: search the person at https://openalex.org — the",
+    "author page URL ends in their id (https://openalex.org/A5023888391 ->",
+    "authorships.author.id:A5023888391). Institutions/labs work the same",
+    "way with an I… id and the authorships.institutions.lineage filter.",
+    "A lab blog is just an rss source pointed at section `following`."
+  ],
+  "sources": [
+    {
+      "id": "follow_scholar_example",
+      "category": "optional",
+      "type": "openalex",
+      "section": "following",
+      "name": "Prof. Example Scholar",
+      "filter": "authorships.author.id:A5023888391",
+      "max_results": 25,
+      "weight": 1.0
+    },
+    {
+      "id": "follow_lab_example",
+      "category": "optional",
+      "type": "openalex",
+      "section": "following",
+      "name": "Example University HCI Lab",
+      "filter": "authorships.institutions.lineage:I1174212",
+      "query": "visualization OR human-computer interaction",
+      "max_results": 25,
+      "weight": 0.9
+    },
+    {
+      "id": "follow_scholar_arxiv_example",
+      "category": "optional",
+      "type": "arxiv",
+      "section": "following",
+      "name": "Example Scholar (arXiv)",
+      "query": "au:\"Example Scholar\"",
+      "max_results": 20,
+      "weight": 1.0
+    },
+    {
+      "id": "follow_lab_blog_example",
+      "category": "open",
+      "type": "rss",
+      "section": "following",
+      "name": "Example Lab Blog",
+      "url": "https://lab.example.edu/blog/feed.xml",
+      "weight": 0.9
+    }
+  ]
+}

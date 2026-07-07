@@ -10,7 +10,7 @@ from ..http import DEFAULT_TIMEOUT
 from ..models import Item, clip, item_id
 
 API = "https://api.semanticscholar.org/graph/v1/paper/search"
-FIELDS = "title,abstract,url,publicationDate,venue,authors,externalIds"
+FIELDS = "title,abstract,url,publicationDate,venue,authors,externalIds,citationCount"
 
 
 def fetch(source, ctx) -> list[Item]:
@@ -42,6 +42,10 @@ def fetch(source, ctx) -> list[Item]:
         if not url:
             continue
         abstract = paper.get("abstract") or ""
+        extra = {"doi": doi, "arxiv_id": arxiv_id,
+                 "abstract_snippet": clip(abstract, 500)}
+        if isinstance(paper.get("citationCount"), int):
+            extra["citations"] = paper["citationCount"]
         items.append(Item(
             id=item_id(doi=doi, arxiv_id=arxiv_id, url=url),
             title=title,
@@ -56,8 +60,7 @@ def fetch(source, ctx) -> list[Item]:
             lang="en",
             authors=[a.get("name", "") for a in (paper.get("authors") or [])][:6],
             venue=paper.get("venue") or None,
-            extra={"doi": doi, "arxiv_id": arxiv_id,
-                   "abstract_snippet": clip(abstract, 500)},
+            extra=extra,
             weight=source.weight,
         ))
     return items

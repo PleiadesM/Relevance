@@ -14,9 +14,11 @@
     "today": "今日",
     "news": "新闻",
     "papers": "论文",
+    "following": "关注",
     "schedule": "日程",
     "courses": "课程",
     "clippings": "摘录",
+    "favorites": "收藏",
     "sources": "信源",
     "settings": "设置"
   },
@@ -51,14 +53,22 @@
     "schedule": "日程",
     "today": "今天",
     "tomorrow": "明天",
+    "yesterday": "昨天",
     "noEvents": "暂无日程。",
     "dueSoon": "即将截止",
     "noDue": "未来 7 天没有待交作业。",
     "topStories": "头条",
-    "latestPapers": "最新论文",
+    "latestPapers": "优选论文",
     "lockedBlock": "解锁后可见。",
     "allDay": "全天",
     "more": "更多 →"
+  },
+  "overview": {
+    "newToday": "今日新增",
+    "items": "条目",
+    "sourcesOk": "信源正常",
+    "languages": "语言",
+    "favorites": "收藏"
   },
   "feed": {
     "search": "搜索…",
@@ -70,7 +80,25 @@
     "last7d": "最近 7 天",
     "itemCount": "{n} 条",
     "alsoIn": "其他报道",
-    "noMatches": "没有符合筛选条件的内容。"
+    "noMatches": "没有符合筛选条件的内容。",
+    "sortNewest": "最新",
+    "sortTop": "优先",
+    "langAll": "全部语言",
+    "langZh": "中文",
+    "langEn": "English",
+    "groupBySource": "按信源",
+    "groupNone": "时间线",
+    "citations": "被引 {n}",
+    "newBadge": "新",
+    "allTags": "全部标签"
+  },
+  "fav": {
+    "title": "收藏",
+    "empty": "还没有收藏。点击条目上的 ☆ 即可收藏。",
+    "searchPlaceholder": "搜索收藏…",
+    "add": "加入收藏",
+    "remove": "移除收藏",
+    "lockedHint": "解锁私密模式后才能查看收藏。"
   },
   "schedule": {
     "empty": "此时间段内没有日程。",
@@ -106,7 +134,8 @@
     "highlight": "高亮",
     "excerpt": "摘录",
     "note": "笔记",
-    "saved": "已保存到摘录。"
+    "saved": "已保存到摘录。",
+    "unlockHint": "解锁后可高亮与笔记"
   },
   "sources": {
     "title": "信源健康",

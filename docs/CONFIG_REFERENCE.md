@@ -43,12 +43,20 @@ what's wrong.
     "keywords": ["data visualization", "LLM"],   // fuels the 0.35 relevance term
     "boost": 0.15                                 // extra credit for any match (0–0.5)
   },
-  "sources": [ /* custom sources + preset overrides */ ]
+  "sources": [ /* custom sources + preset overrides */ ],
+  "tag_rules": [                                  // global rules (unlike pack rules,
+    { "tag": "llm", "any": ["LLM", "大模型"] },    // these hit EVERY source of the
+    { "tag": "vis", "any": ["chart"], "section": "papers" }  // section; omit `section`
+  ]                                               // to target all feed sections
 }
 ```
 
 **Score formula**: `0.45·recency + 0.35·keyword-relevance + 0.20·source-weight`;
-recency decays exponentially (half-life 12 h news / 84 h papers). Events and
+recency decays exponentially (half-life 12 h news / 84 h papers). Papers whose
+source reports a citation count use
+`0.35·recency + 0.25·relevance + 0.15·weight + 0.25·citation-impact` instead
+(log-scaled, saturating ≈1000 citations) so the best-cited work ranks first —
+the frontend's "Top priority" sort and the Today page use this. Events and
 courses are never scored — they stay time-ordered.
 
 **Override a preset source by id** — same `id` merges field-by-field:
@@ -71,17 +79,36 @@ source without touching config: set the GitHub *Variable*
 | `opml` | open | `url` or `path` | `RSS_MAX_FEEDS` caps expansion (default 10) |
 | `feed-json` | open | `url` | JSON Feed 1.x or bare array |
 | `static-page` | open | `url` (+ `query` CSS selector) | items stamped with build time |
-| `arxiv` | optional | `query` | e.g. `cat:cs.HC OR cat:cs.GR` |
-| `openalex` | optional | `query` | reliable only with `OPENALEX_API_KEY` |
+| `arxiv` | optional | `query` | e.g. `cat:cs.HC OR cat:cs.GR`, or `au:"Jane Doe"` |
+| `openalex` | optional | `query` and/or `filter` | reliable only with `OPENALEX_API_KEY` |
 | `crossref` | optional | `issn` list or `query` | journal tracking; created-date recency |
 | `semanticscholar` | optional | `query` | best-effort keyless |
 | `ics` | private | `secret_ref` | URLs live in `ICS_SOURCES_B64` — **never** in config |
 | `canvas` | private | `secret_ref` | `CANVAS_BASE_URL` + `CANVAS_TOKEN` |
 
 Common fields: `id` (snake_case, unique), `name`, `section`
-(`news`/`papers`/`schedule`/`courses`), `weight` (0–1, default 0.8),
-`max_results` (default 50). The schema **rejects** `url`/`path` on
-`category: "private"` sources.
+(`news`/`papers`/`following`/`schedule`/`courses`), `weight` (0–1, default
+0.8), `max_results` (default 50), `lang` (`"zh"`/`"en"` forces the items'
+language for the frontend's 中文/English filter; omit to auto-detect per
+item). The schema **rejects** `url`/`path` on `category: "private"` sources.
+
+### Follow scholars and labs (the `following` section)
+
+Point any source at `section: "following"` and it gets its own nav tab,
+grouped by who you follow. The natural fit is `openalex` with a `filter`
+instead of a `query` — see `examples/follows.sources.snippet.json` for
+copy-paste entries:
+
+```json
+{ "id": "follow_jane_doe", "type": "openalex", "section": "following",
+  "name": "Jane Doe", "filter": "authorships.author.id:A5023888391" }
+```
+
+Find the id by searching the person on <https://openalex.org> — their author
+page URL ends in the `A…` id. Labs/institutions use
+`authorships.institutions.lineage:I…`. arXiv author queries (`au:"Jane Doe"`)
+and lab-blog RSS feeds pointed at the same section work too. All keyless —
+the zero-secret build stays green.
 
 ## 5. Preset packs (`config/presets/<id>.json`)
 
@@ -128,6 +155,9 @@ never fires on a BBC story.
 | Keep archive longer | `windows.archive_days` |
 | Mute one preset feed | `sources.json`: `{ "id": "...", "enabled": false }` |
 | Follow a journal | crossref source with its `issn` |
+| Follow a scholar/lab | openalex source with `filter` + `section: "following"` (§4) |
+| Add topic tags everywhere | top-level `tag_rules` in `sources.json` (§3) |
+| Mark a feed as Chinese | `"lang": "zh"` on the source |
 | Boost my topics | `interests.keywords` (+ `boost`) |
 | Stop Canvas *now* | Variable `CANVAS_ENABLED=0` |
 | Different theme/language default | `site.json → theme` / `default_language` |
