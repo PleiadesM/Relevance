@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-07T15:48:18Z",
+ "generated_at": "2026-07-07T18:18:42Z",
  "private_summary": {
   "configured": 0,
   "total": 2
@@ -95,7 +95,7 @@
   },
   {
    "category": "open",
-   "count": 3,
+   "count": 2,
    "error": null,
    "id": "hn_frontpage_ai",
    "name": "Hacker News (AI filter)",
@@ -106,7 +106,7 @@
   },
   {
    "category": "open",
-   "count": 26,
+   "count": 28,
    "error": null,
    "id": "bbc_world",
    "name": "BBC World",
@@ -139,7 +139,7 @@
   },
   {
    "category": "open",
-   "count": 22,
+   "count": 18,
    "error": null,
    "id": "nyt_homepage",
    "name": "The New York Times",
@@ -172,7 +172,7 @@
   },
   {
    "category": "optional",
-   "count": 0,
+   "count": 50,
    "error": null,
    "id": "openalex_datavis",
    "name": "OpenAlex · information visualization",
@@ -224,6 +224,39 @@
    "section": "papers",
    "skip_reason": null,
    "type": "arxiv"
+  },
+  {
+   "category": "open",
+   "count": 0,
+   "error": "403 Client Error: Forbidden for url: https://drfeifei.substack.com/feed",
+   "id": "feifei_li_substack",
+   "name": "Dr. Fei-Fei Li",
+   "ok": false,
+   "section": "news",
+   "skip_reason": null,
+   "type": "rss"
+  },
+  {
+   "category": "open",
+   "count": 10,
+   "error": null,
+   "id": "karpathy_blog",
+   "name": "Andrej Karpathy",
+   "ok": true,
+   "section": "news",
+   "skip_reason": null,
+   "type": "rss"
+  },
+  {
+   "category": "open",
+   "count": 15,
+   "error": null,
+   "id": "radiance_fields_yt",
+   "name": "Radiance Fields (YouTube)",
+   "ok": true,
+   "section": "news",
+   "skip_reason": null,
+   "type": "rss"
   }
  ]
 }

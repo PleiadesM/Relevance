@@ -12,13 +12,14 @@
    "category": "optional",
    "extra": {
     "abstract_snippet": "In weather risk communication, there is a disconnect between numerical models and community members’ experiences. To help resolve this issue, the authors propose a topological method to identify community risk thresholds, arguing that they offer a middle ground that enables more robust communication about risk. The authors surveyed 1,429 participants, including decision-makers and public audience members, who responded to probabilistic visualizations from five National Weather Service offices.…",
+    "citations": 0,
     "doi": "10.1177/10506519261455873"
    },
    "id": "fa92926bdad83e60",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-06T07:20:52Z",
-   "score": 0.5058,
+   "score": 0.3808,
    "section": "papers",
    "source": "TechComm journals (CrossRef)",
    "source_id": "crossref_techcomm_journals",
@@ -44,7 +45,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-05T21:02:23Z",
-   "score": 0.663,
+   "score": 0.655,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -73,13 +74,15 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-04T18:24:00Z",
-   "score": 0.5895,
+   "score": 0.5837,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
    "summary": "Low-dimensional projections support interactive visual analysis of high-dimensional data embeddings, but their structure often does not align with analyst-defined semantic relationships. Recent LLM-augmented semantic steering methods address this gap by externalizing analyst intent from…",
    "tags": [
-    "ml-vis"
+    "ml-vis",
+    "llm",
+    "visualization"
    ],
    "title": "Scalable Semantic Steering of Embedding Projections",
    "url": "https://arxiv.org/abs/2607.03978v1",
@@ -102,7 +105,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-04T12:23:46Z",
-   "score": 0.5359,
+   "score": 0.5305,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -130,7 +133,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-04T05:53:57Z",
-   "score": 0.5222,
+   "score": 0.5172,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -156,12 +159,14 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-03T15:56:42Z",
-   "score": 0.5362,
+   "score": 0.532,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
    "summary": "Visualizations can help audiences understand the scale of tragedies, such as the consequences of natural disasters, war, genocide, and pandemics. In these cases, a visualization designer's default behavior may be to focus on communicating quantitative information: numbers, statistics, and trends.…",
-   "tags": [],
+   "tags": [
+    "visualization"
+   ],
    "title": "Evaluating Affective Objectives: Statistical Numbing in Data Visualization",
    "url": "https://arxiv.org/abs/2607.03445v1",
    "venue": "arXiv cs.HC"
@@ -181,7 +186,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-03T15:37:35Z",
-   "score": 0.4957,
+   "score": 0.4915,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -210,12 +215,14 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-03T07:12:07Z",
-   "score": 0.662,
+   "score": 0.6582,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
    "summary": "User experience (UX) designers face barriers when creating data visualizations due to limited domain expertise in visualization or unfamiliarity with specialized tools. This highlights a clear need for effective methods to build visualization literacy. To address this, we evaluated three…",
-   "tags": [],
+   "tags": [
+    "visualization"
+   ],
    "title": "A Comparative Study of Static, Scrollytelling, and Chatbot Visualization Onboarding Techniques for UX Designers",
    "url": "https://arxiv.org/abs/2607.03023v1",
    "venue": "arXiv cs.HC"
@@ -238,7 +245,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-03T03:18:02Z",
-   "score": 0.5162,
+   "score": 0.5125,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -267,7 +274,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-02T20:54:05Z",
-   "score": 0.2746,
+   "score": 0.2712,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -290,13 +297,14 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-02T19:18:21Z",
-   "score": 0.4649,
+   "score": 0.4616,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
    "summary": "Generative artificial intelligence (GenAI) systems such as ChatGPT, Claude, and Gemini have made information seeking faster, more conversational, and more cognitively comfortable. These affordances can support learning and productivity, but they can also encourage a repetitive pattern in which…",
    "tags": [
-    "ai-writing"
+    "ai-writing",
+    "llm"
    ],
    "title": "Doom Researching: A Conceptual Framework for Repetitive AI-Assisted Information Seeking, Cognitive Offloading, and the Illusion of Knowing",
    "url": "https://arxiv.org/abs/2607.02723v1",
@@ -316,13 +324,15 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-02T17:23:57Z",
-   "score": 0.6424,
+   "score": 0.6392,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
    "summary": "Large language model personas are increasingly used to approximate diverse users during early-stage visualization design, but it remains unclear whether persona-conditioned outputs reflect stable personality effects or artifacts of model choice and task framing. We examine this question across two…",
    "tags": [
-    "ml-vis"
+    "ml-vis",
+    "llm",
+    "visualization"
    ],
    "title": "When Do LLM Personas Support Visualization Design? A Cross-Model Study of Color Assignment and Chart Choice",
    "url": "https://arxiv.org/abs/2607.02455v1",
@@ -345,7 +355,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-02T16:02:55Z",
-   "score": 0.4607,
+   "score": 0.4575,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -372,12 +382,14 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-02T13:34:43Z",
-   "score": 0.305,
+   "score": 0.3019,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
    "summary": "Exploring similar nodes in attributed networks represents a key challenge in data mining. While recent representation learning methods embed networks into low-dimensional vectors, they often implicitly assume a uniform and continuous feature space. This paper proposes a visual analytics approach…",
-   "tags": [],
+   "tags": [
+    "visualization"
+   ],
    "title": "Visual Analytics of Neighborhood Attribute Profiles for Exploring Structural Equivalence",
    "url": "https://arxiv.org/abs/2607.02163v1",
    "venue": "arXiv cs.HC"
@@ -389,18 +401,21 @@
    "category": "optional",
    "extra": {
     "abstract_snippet": "",
+    "citations": 0,
     "doi": "10.1080/10572252.2026.2693557"
    },
    "id": "cb801404ae54e32f",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-02T02:30:17Z",
-   "score": 0.4846,
+   "score": 0.357,
    "section": "papers",
    "source": "TechComm journals (CrossRef)",
    "source_id": "crossref_techcomm_journals",
    "summary": "",
-   "tags": [],
+   "tags": [
+    "techcomm"
+   ],
    "title": "“Storying the Process”: Intergenerational Succession and Tactical Technical Communication in a Rural Nonprofit",
    "url": "https://doi.org/10.1080/10572252.2026.2693557",
    "venue": "Technical Communication Quarterly"
@@ -408,7 +423,7 @@
  ],
  "meta": {
   "count": 15,
-  "generated_at": "2026-07-07T15:48:18Z",
+  "generated_at": "2026-07-07T18:18:42Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -425,7 +440,7 @@
    },
    {
     "category": "optional",
-    "count": 0,
+    "count": 50,
     "error": null,
     "id": "openalex_datavis",
     "name": "OpenAlex · information visualization",
