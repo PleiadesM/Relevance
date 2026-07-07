@@ -23,27 +23,31 @@
   },
   "sources": [
     {
-      "id": "ics_calendars",
-      "category": "private",
-      "type": "ics",
-      "section": "schedule",
-      "name": "My calendars",
-      "secret_ref": [
-        "ICS_SOURCES_B64"
-      ],
-      "enabled": "auto"
+      "id": "feifei_li_substack",
+      "category": "open",
+      "type": "rss",
+      "section": "news",
+      "name": "Dr. Fei-Fei Li",
+      "url": "https://drfeifei.substack.com/feed",
+      "weight": 1.0
     },
     {
-      "id": "canvas",
-      "category": "private",
-      "type": "canvas",
-      "section": "courses",
-      "name": "Canvas",
-      "secret_ref": [
-        "CANVAS_BASE_URL",
-        "CANVAS_TOKEN"
-      ],
-      "enabled": "auto"
+      "id": "karpathy_blog",
+      "category": "open",
+      "type": "rss",
+      "section": "news",
+      "name": "Andrej Karpathy",
+      "url": "https://karpathy.github.io/feed.xml",
+      "weight": 1.0
+    },
+    {
+      "id": "radiance_fields_yt",
+      "category": "open",
+      "type": "rss",
+      "section": "news",
+      "name": "Radiance Fields (YouTube)",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCvxZ0tCKgCrrgfGu_175NIA",
+      "weight": 1.0
     }
   ]
 }
