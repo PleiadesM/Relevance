@@ -60,10 +60,27 @@ def test_happy_path_returns_all_four_keys():
     assert req.headers["Authorization"] == "Bearer sk-test"
     body = json.loads(req.body)
     assert body["model"] == "gpt-4o-mini"
+    assert body["response_format"] == {"type": "json_object"}
     # capped: only the first MAX_NEWS_ITEMS/MAX_PAPER_ITEMS appear in the prompt
     prompt = body["messages"][1]["content"]
     assert "Story 19" in prompt and "Story 20" not in prompt
     assert "Paper 9" in prompt and "Paper 10" not in prompt
+
+
+@responses.activate
+def test_markdown_fenced_json_is_unwrapped():
+    # some OpenAI-compatible providers still fence JSON in ```json ... ```
+    # even with response_format set — must not break parsing.
+    fenced = "```json\n" + json.dumps({
+        "brief": "b", "news_summary": "n", "papers_summary": "p",
+        "image_query": "q",
+    }) + "\n```"
+    responses.post(CHAT_URL, json={"choices": [{"message": {"content": fenced}}]})
+    payloads = make_payloads(news=[news_item(1)])
+    env = {"LLM_API_KEY": "sk-test"}
+    result = summarize(payloads, env, make_session())
+    assert result == {"brief": "b", "news_summary": "n", "papers_summary": "p",
+                       "image_query": "q"}
 
 
 @responses.activate
@@ -92,3 +109,19 @@ def test_http_error_returns_none():
     payloads = make_payloads(news=[news_item(1)])
     env = {"LLM_API_KEY": "sk-test"}
     assert summarize(payloads, env, make_session()) is None
+
+
+@responses.activate
+def test_empty_string_base_url_falls_back_to_default():
+    # GitHub Actions sets an env var to "" (not absent) when a workflow
+    # references ${{ vars.X }} for a Variable that was never created —
+    # env.get(key, default) would NOT catch this (the key exists), only
+    # `or default` does. Regression test for exactly that failure mode
+    # (surfaced in production as requests.exceptions.MissingSchema).
+    responses.post(CHAT_URL, body=(FIX / "chat_completion.json").read_text())
+    payloads = make_payloads(news=[news_item(1)])
+    env = {"LLM_API_KEY": "sk-test", "LLM_BASE_URL": "", "LLM_MODEL": ""}
+    result = summarize(payloads, env, make_session())
+    assert result is not None
+    assert responses.calls[0].request.url == CHAT_URL
+    assert json.loads(responses.calls[0].request.body)["model"] == "gpt-4o-mini"

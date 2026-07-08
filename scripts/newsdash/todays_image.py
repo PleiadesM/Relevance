@@ -51,8 +51,12 @@ def find_todays_image(image_query: str, env: Mapping[str, str],
                    params={"q": image_query, "rows": 10, "api_key": api_key})
         rows = (resp.json().get("response") or {}).get("rows") or []
         return _first_cc0_image(rows)
+    except requests.HTTPError as exc:
+        status = exc.response.status_code if exc.response is not None else "?"
+        print(f"[todays-image] error: HTTPError ({status})")
+        return None
     except Exception as exc:  # noqa: BLE001 — resilience by design
-        print(f"[todays-image] error: {type(exc).__name__}")
+        print(f"[todays-image] error: {type(exc).__name__}: {str(exc)[:200]}")
         return None
 
 
@@ -61,8 +65,11 @@ def caption_todays_image(image: dict, top_story_title: str, env: Mapping[str, st
     api_key = env.get("LLM_API_KEY", "").strip()
     if not api_key:
         return None
-    base_url = env.get("LLM_BASE_URL", "https://api.openai.com/v1").strip()
-    model = env.get("LLM_MODEL", "gpt-4o-mini").strip()
+    # `or default`, not `.get(key, default)` — see summarize.py's comment:
+    # GitHub Actions emits an empty-string env var, not an absent one, when
+    # a referenced `vars.X` doesn't exist in the repo.
+    base_url = (env.get("LLM_BASE_URL") or "https://api.openai.com/v1").strip()
+    model = (env.get("LLM_MODEL") or "gpt-4o-mini").strip()
     prompt = (
         "In one short sentence, explain a loose, creative connection "
         f'between the public domain image "{image.get("title", "")}" and '
@@ -79,6 +86,10 @@ def caption_todays_image(image: dict, top_story_title: str, env: Mapping[str, st
         resp.raise_for_status()
         caption = resp.json()["choices"][0]["message"]["content"].strip()
         return caption[:CAPTION_MAX_LEN] or None
+    except requests.HTTPError as exc:
+        status = exc.response.status_code if exc.response is not None else "?"
+        print(f"[todays-image] caption error: HTTPError ({status})")
+        return None
     except Exception as exc:  # noqa: BLE001 — resilience by design
-        print(f"[todays-image] caption error: {type(exc).__name__}")
+        print(f"[todays-image] caption error: {type(exc).__name__}: {str(exc)[:200]}")
         return None

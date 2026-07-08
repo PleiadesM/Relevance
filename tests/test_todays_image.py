@@ -86,3 +86,14 @@ def test_caption_http_error_returns_none():
     responses.post(CHAT_URL, status=500)
     env = {"LLM_API_KEY": "sk-test"}
     assert caption_todays_image(IMAGE, "Some story", env, make_session()) is None
+
+
+@responses.activate
+def test_caption_empty_string_base_url_falls_back_to_default():
+    # Same GitHub-Actions-empty-string-Variable regression as
+    # test_llm_summary.py — `or default`, not `.get(key, default)`.
+    responses.post(CHAT_URL, json={"choices": [{"message": {"content": "A caption."}}]})
+    env = {"LLM_API_KEY": "sk-test", "LLM_BASE_URL": "", "LLM_MODEL": ""}
+    caption = caption_todays_image(IMAGE, "Some story", env, make_session())
+    assert caption == "A caption."
+    assert responses.calls[0].request.url == CHAT_URL
