@@ -8,7 +8,7 @@ import { favoriteIdSet } from "../annodb.js";
 import { clear, el, safeHref } from "../dom.js";
 import { fmtDate, fmtDateTime, fmtRelative, fmtTime, getLang, t } from "../i18n.js";
 import { get } from "../store.js";
-import { itemCard } from "./feed.js";
+import { itemCard, toggleFavorite } from "./feed.js";
 import { emptyCard, lockedCard } from "./shared.js";
 
 function isTheType() {
@@ -257,7 +257,8 @@ function heroGrid() {
   return children.length ? el("div", { class: "hero-grid" }, children) : null;
 }
 
-function featuredArticleCard(item) {
+function featuredArticleCard(item, favs) {
+  const starred = favs?.has(item.id);
   return el("article", {
     class: `item featured-article kind-${item.kind}`,
     dataset: { itemId: item.id, sectionId: "news" },
@@ -270,6 +271,16 @@ function featuredArticleCard(item) {
         datetime: item.published_at,
         title: fmtDateTime(item.published_at, { year: "numeric" }),
       }, fmtRelative(item.published_at)),
+      typeof item.score === "number"
+        ? el("span", { class: "item-score" }, item.score.toFixed(2)) : null,
+      favs
+        ? el("button", {
+            class: `fav-star${starred ? " active" : ""}`,
+            title: starred ? t("fav.remove") : t("fav.add"),
+            "aria-pressed": String(Boolean(starred)),
+            onclick: (e) => toggleFavorite(item, "news", favs, e.currentTarget),
+          }, starred ? "★" : "☆")
+        : null,
     ),
     el("h2", { class: "item-title" },
       el("a", {
@@ -291,7 +302,7 @@ function theTypeFeedSection(favs) {
   const cardOpts = { favs };
   return el("div", { class: "the-type-feed" },
     el("h2", { class: "feed-section-header" }, t("today.todaysFeed")),
-    featuredArticleCard(featured),
+    featuredArticleCard(featured, favs),
     rest.length
       ? el("div", { class: "item-list" }, rest.map((item) => itemCard(item, "news", cardOpts)))
       : null,

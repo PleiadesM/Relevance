@@ -28,7 +28,7 @@ function dayLabel(key) {
   return fmtDate(key);
 }
 
-async function toggleFavorite(item, sectionId, favs, btn) {
+export async function toggleFavorite(item, sectionId, favs, btn) {
   if (favs.has(item.id)) {
     await removeFavorite(item.id);
     favs.delete(item.id);
