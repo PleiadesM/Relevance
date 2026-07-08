@@ -31,7 +31,7 @@ It is designed to help those who need to cope with a large amount of information
 
 ---
 ## Main Functions
-- **Collecting news, recent papers, and trends:** The app supports RSS and an in-built collector to fetch the latest news online.
+- **Collecting news, recent papers, and trends:** The app supports RSS and an in-built collector to fetch the latest news online. If the full text is available, the link will direct to an individual page. Otherwise, the link will direct to the source page.
 - **Generating a website:** A website will be deployed with the collected news.
 - **Auto-Update:** The website will be updated automatically. By default, it refreshes every two hours. You can change it easily ([see the instructions below](#automatic-updategithub-actions-and-configuration)).
 - **AI Summary (need an LLM API key):** Use an LLM to score the news according to your interest, and generate a total summary on the homepage.
