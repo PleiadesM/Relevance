@@ -19,3 +19,6 @@ Thumbs.db
 
 # Local scratch build output (the real data/ IS committed by Actions)
 /data-local/
+
+# Session handoff notes — personal working notes, not project history
+HANDOFF.md
