@@ -1,16 +1,8 @@
 {
- "brief": "Today's news includes a German school attack, IMF economic slowdown, and rising US-Iran tensions, while papers explore AI coding assistants and weather visualization.",
+ "brief": "Trump's combative NATO summit and Ukraine Patriot missile deal dominate news, while HCI research papers explore game world generation, prompt engineering, and weather visualization.",
  "meta": {
-  "generated_at": "2026-07-08T14:39:16Z"
+  "generated_at": "2026-07-08T17:51:10Z"
  },
- "news_summary": "A teenager was arrested after a school attack in Germany, the IMF projects slower global growth, and conflicts continue in the Middle East and Ukraine.",
- "papers_summary": "Papers cover AI-enhanced coding tools, interactive weather model explanations, and EEG-based speech decoding.",
- "todays_image": {
-  "caption": "A desk from a school named \"Hope\" becomes a haunting symbol of how such spaces can turn from places of learning into sites of violence.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2010_22_253_001",
-  "source_name": "National Museum of African American History and Culture",
-  "source_url": "https://nmaahc.si.edu/object/nmaahc_2010.22.5",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2010_22_253_001",
-  "title": "Desk from the Hope School"
- }
+ "news_summary": "Trump at NATO summit criticizes allies and offers Ukraine license to produce Patriot missiles; other top stories include Clacton byelection, Gaza aid worker killed, and US charges in Indian gang leader murder.",
+ "papers_summary": "Papers feature advances in long-horizon video world generation (AlayaWorld), an agentic tutor for prompt engineering, and interactive weather visualization tools (GeoXplain)."
 }
