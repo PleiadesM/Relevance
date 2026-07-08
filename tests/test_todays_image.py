@@ -40,10 +40,13 @@ def test_happy_path_extracts_first_cc0_row():
     req_url = responses.calls[0].request.url
     assert "q=automatons" in req_url
     # Most Smithsonian records have no digitized media at all — the search
-    # must itself be narrowed to CC0 media-bearing records, not rely on
-    # media happening to appear in the first page of a bare keyword search.
+    # must itself be narrowed to media-bearing records, not rely on media
+    # happening to appear in the first page of a bare keyword search. There
+    # is no confirmed-documented CC0 search filter field (unlike
+    # online_media_type), so a wider `rows` compensates instead —
+    # `_first_cc0_image` remains the sole authority on the CC0 check.
     assert "online_media_type%3AImages" in req_url
-    assert "media_usage%3ACC0" in req_url
+    assert "rows=100" in req_url
 
 
 @responses.activate

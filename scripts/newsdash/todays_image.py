@@ -48,15 +48,20 @@ def find_todays_image(image_query: str, env: Mapping[str, str],
         return None
     try:
         # Most Smithsonian records have no digitized media at all, so a bare
-        # keyword search over just `rows` hits mostly comes back empty of
-        # media entirely — narrow the search itself to media-bearing CC0
-        # records (Lucene-style query filter, per the API's own docs) rather
-        # than gambling on media showing up in the first page of results.
-        # `_first_cc0_image` stays as a defensive re-check either way.
+        # keyword search mostly comes back empty of media entirely — narrow
+        # to media-bearing records via `online_media_type:Images` (a
+        # documented filter field). There's no confirmed-documented filter
+        # field for CC0 specifically (an earlier attempt at "AND
+        # media_usage:CC0" was unverified against Smithsonian's own docs and
+        # very likely matched nothing, since Open Access's CC0 flag lives at
+        # media[].usage.access in the response body, not as an indexed
+        # top-level search field) — so widen `rows` instead to improve the
+        # odds that at least one of the image-bearing rows happens to carry
+        # a CC0 media entry. `_first_cc0_image` is the sole source of truth
+        # for the actual CC0 check either way.
         resp = get(session, f"{API_BASE}search",
-                   params={"q": f"{image_query} AND online_media_type:Images "
-                                 "AND media_usage:CC0",
-                           "rows": 10, "api_key": api_key})
+                   params={"q": f"{image_query} AND online_media_type:Images",
+                           "rows": 100, "api_key": api_key})
         body = resp.json().get("response") or {}
         image = _first_cc0_image(body.get("rows") or [])
         if image is None:
