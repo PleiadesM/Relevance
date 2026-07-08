@@ -28,6 +28,7 @@ The contemporary internet can be overwhelming. We don't always read what we want
 To do that, you can create your own repository with this template, and it will generate a website for you ([see the instructions below](#quick-start)). Then, you can use the in-repo AI agent (page skill and 书童 skill) to customize the sources that you are interested in.
 
 It is designed to help those who need to cope with a large amount of information and want to let the information they care about "pop to the surface and float in a sea of random variability." For researchers, Relevance tracks the recent papers in the field. For developers, it traces the latest technological stacks. For investors, it obtains the most relevant business reports.
+
 ---
 ## Main Functions
 - **Collecting news, recent papers, and trends:** The app supports RSS and an in-built collector to fetch the latest news online.
