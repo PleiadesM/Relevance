@@ -8,7 +8,7 @@
     "notConfigured": "此栏目尚未配置。",
     "notConfiguredHint": "请在仓库设置中添加所需的 Secrets，等待下一次更新。详见配置指南。",
     "setupGuide": "配置指南",
-    "noscript": "个人新闻台需要启用 JavaScript 才能显示。Personal Newsdash needs JavaScript."
+    "noscript": "及君需要启用 JavaScript 才能显示。Relevance needs JavaScript."
   },
   "nav": {
     "today": "今日",
@@ -26,9 +26,9 @@
     "title": "只差一步——等待首次构建",
     "body": "仪表盘还没有生成第一份数据快照。如果你刚刚部署，请依次完成：",
     "step1": "启用 GitHub Actions（Actions 标签页 → 启用工作流）。",
-    "step2": "手动运行一次 “Update Newsdash” 工作流（Actions → Update Newsdash → Run workflow），或等待定时任务。",
+    "step2": "手动运行一次 “Update Relevance” 工作流（Actions → Update Relevance → Run workflow），或等待定时任务。",
     "step3": "启用 GitHub Pages（Settings → Pages → 从分支部署，main / root）。",
-    "step4": "打开仓库中的 “Set up my Newsdash” Issue，选择信源、主题、语言与隐私模式。",
+    "step4": "打开仓库中的 “Set up my Relevance” Issue，选择信源、主题、语言与隐私模式。",
     "refresh": "刷新"
   },
   "login": {
@@ -171,7 +171,7 @@
     "aiSummaryConfigured": "已配置——今日页面可能显示 AI 每日简报与「今日一图」。",
     "aiSummaryNotConfigured": "尚未配置。仪表盘所有者可添加 LLM_API_KEY Secret 以启用 AI 每日简报与「今日一图」。",
     "about": "关于",
-    "aboutBody": "个人新闻台（Personal Newsdash）——无服务器、自部署的新闻 · 日程 · 研究仪表盘。数据由 GitHub Actions 自动更新；私密栏目以 AES-256 加密，仅在你的浏览器中解密。",
+    "aboutBody": "及君（Relevance）——无服务器、自部署的新闻 · 日程 · 研究仪表盘。数据由 GitHub Actions 自动更新；私密栏目以 AES-256 加密，仅在你的浏览器中解密。",
     "version": "版本"
   }
 }

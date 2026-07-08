@@ -1,9 +1,9 @@
 # The onboarding questionnaire ("guiding page on GitHub"). Field labels are
 # the parser contract: scripts/apply_issue_setup.py keys on the English part
 # of each label (before " ·"). Change them together or tests will fail.
-name: "Set up my Newsdash · 配置我的新闻台"
+name: "Set up my Relevance · 配置我的及君"
 description: "Choose sources, theme, language, and privacy — the bot applies it and rebuilds. 选择信源、主题、语言与隐私，机器人自动应用并重建。"
-title: "[setup] My Newsdash preferences"
+title: "[setup] My Relevance preferences"
 labels: ["newsdash-setup"]
 body:
   - type: markdown
@@ -54,7 +54,7 @@ body:
     id: title
     attributes:
       label: "Site title · 站点标题"
-      placeholder: "Personal Newsdash"
+      placeholder: "Relevance"
     validations:
       required: false
 

@@ -15,7 +15,7 @@ export const FALLBACK_EN = {
     "notConfigured": "This section isn't set up yet.",
     "notConfiguredHint": "Add the required secrets in your repository settings, then wait for the next update. See the setup guide.",
     "setupGuide": "Setup guide",
-    "noscript": "Personal Newsdash needs JavaScript to render your dashboard. 个人新闻台需要启用 JavaScript 才能显示。"
+    "noscript": "Relevance needs JavaScript to render your dashboard. 及君需要启用 JavaScript 才能显示。"
   },
   "nav": {
     "today": "Today",
@@ -33,9 +33,9 @@ export const FALLBACK_EN = {
     "title": "Almost there — one build away",
     "body": "This dashboard hasn't produced its first data snapshot yet. If you just deployed, do the following:",
     "step1": "Enable GitHub Actions for your repository (Actions tab → enable workflows).",
-    "step2": "Run the “Update Newsdash” workflow once (Actions → Update Newsdash → Run workflow), or wait for the schedule.",
+    "step2": "Run the “Update Relevance” workflow once (Actions → Update Relevance → Run workflow), or wait for the schedule.",
     "step3": "Enable GitHub Pages (Settings → Pages → deploy from branch, main / root).",
-    "step4": "Open the “Set up my Newsdash” issue in your repository to choose sources, theme, language, and privacy.",
+    "step4": "Open the “Set up my Relevance” issue in your repository to choose sources, theme, language, and privacy.",
     "refresh": "Refresh"
   },
   "login": {
@@ -186,7 +186,7 @@ export const FALLBACK_EN = {
     "aiSummaryConfigured": "Configured — an AI daily brief and Today's Image may appear on the Today page.",
     "aiSummaryNotConfigured": "Not configured. The dashboard owner can add an LLM_API_KEY secret to enable an AI daily brief and Today's Image.",
     "about": "About",
-    "aboutBody": "Personal Newsdash — a serverless, self-hosted news · schedule · research dashboard. Data updates via GitHub Actions; private sections are AES-256 encrypted and decrypted only in your browser.",
+    "aboutBody": "Relevance — a serverless, self-hosted news · schedule · research dashboard. Data updates via GitHub Actions; private sections are AES-256 encrypted and decrypted only in your browser.",
     "version": "Version"
   }
 };

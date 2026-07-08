@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Personal Newsdash pipeline orchestrator.
+"""Relevance pipeline orchestrator.
 
 Usage::
 
@@ -43,7 +43,7 @@ MAX_ARCHIVE_ITEMS = 3000
 
 
 def parse_args(argv=None):
-    ap = argparse.ArgumentParser(description="Build Personal Newsdash data files")
+    ap = argparse.ArgumentParser(description="Build Relevance data files")
     ap.add_argument("--output-dir", required=True, help="directory for generated JSON")
     ap.add_argument("--smoke", action="store_true",
                     help="skip all network fetches; emit valid-but-empty outputs")

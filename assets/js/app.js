@@ -86,10 +86,10 @@ function renderHeader() {
   ensureTheTypeFonts();
   const { manifest, unlocked } = get();
   document.getElementById("site-title-link").textContent =
-    manifest?.site?.title || "Personal Newsdash";
+    manifest?.site?.title || "Relevance";
   document.getElementById("site-subtitle").textContent =
     manifest?.site?.subtitle || t("app.tagline");
-  document.title = manifest?.site?.title || "Personal Newsdash";
+  document.title = manifest?.site?.title || "Relevance";
 
   const updated = document.getElementById("updated-at");
   updated.textContent = manifest?.generated_at

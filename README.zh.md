@@ -1,10 +1,12 @@
 <div align="center">
 
-# Personal Newsdash · 个人新闻台
+# 及君 Relevance
 
-## 你的新闻、论文与日程——一页自动更新，唯你能解锁｜Page Skill｜书童Skill
+## 一处汇集：与你相关的新闻、论文与博客
 
-**一个无服务器的「新闻 · 日程 · 研究」仪表盘：GitHub Actions 定时生成静态 JSON，GitHub Pages 直接托管；一切私人内容都以 AES-256-GCM 密文发布——只有你的口令、在你的浏览器里，才能打开。**
+*所谓「重要」，不过是我们从某一时刻的诸种可能性中，为应对那一刻的需求、化解其偶然性而恰好选中的东西——用晚近实用主义者罗伯特·布兰顿（Robert Brandom）的话说，就是我们任由其"浮出水面、漂浮在随机变异的海洋里"的东西。*
+
+*——塔玛金（Tamarkin），2022，《说来无关：一部无关与相关的历史》（Apropos of Something: A History of Irrelevance and Relevance）*
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-static%20site-green?style=flat-square)](docs/SETUP.zh.md)
 [![Actions](https://img.shields.io/badge/GitHub%20Actions-cron%20updates-blue?style=flat-square)](.github/workflows/update.yml)
@@ -12,114 +14,47 @@
 [![Template](https://img.shields.io/badge/GitHub-template%20repo-8250df?style=flat-square)](docs/SETUP.zh.md)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
 
-[English](README.md) · [配置指南](docs/SETUP.zh.md) · [安全模型](docs/SECURITY_MODEL.zh.md) · [书童Skill](skills/newsdash/README.md) · [数据契约](docs/DATA_CONTRACT.md)
+[English](README.md) · [配置指南](docs/SETUP.zh.md) · [安全模型](docs/SECURITY_MODEL.zh.md) · [Page Skill](skills/newsdash/README.md) · [数据契约](docs/DATA_CONTRACT.md)
 
 </div>
 
 ---
+## 这是什么？
 
-## 30 秒选边上车
+当下的互联网令人应接不暇。我们并不总能读到自己想读的、看到自己想看的。15 秒的 YouTube 广告猜测我们的需求，还常常想说服我们：它展示的正是我们想要的。这个被"劣化"（enshittified）的环境，换句话说，与我们并不相关。
 
-**① 只想要一个属于自己的仪表盘** → 点 **Use this template**（使用此模板），启用 Actions，启用 Pages。三次点击、零 API Key——默认信源包（AI 资讯 + 综合新闻）第一次构建就能出一个可用的页面。
+**及君**（Relevance）是一个 **GitHub 模板仓库**，专为你打造与你相关的信息流。它是 [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar)（伯乐Skill｜Scout Skill）的续作，从分散的信源中收集新闻，挑出你最感兴趣的部分，并生成一个托管在 GitHub 上（免费）的网页，每隔几小时自动更新，电脑和手机都能读。
 
-**② 想按自己的口味定制** → 打开 **「Set up my Newsdash · 配置我的新闻台」** Issue 表单，填好语言、主题、信源包和兴趣关键词——机器人自动提交配置并重建。也可以把 [书童Skill 启动提示词](#给-agent-看的教程) 粘贴给 Claude Code / Codex，让它访谈你。
+要做到这一点，你可以用这个模板创建自己的仓库，它就会为你生成一个网站（[见下文说明](#快速开始)）。然后，你可以用仓库内置的 AI 智能体（Page Skill 与书童 Skill）来定制你感兴趣的信源。
 
-**③ 想要私密模式** → 只需添加**一个**仓库 Secret：`NEWSDASH_PASSPHRASE`。流水线只发布密文；解密只发生在你的浏览器里。输入口令，就是登录。
-
-三条路其实是一条路：先有一页 → 变成你的 → 再上锁。
+它是为那些需要应对海量信息、并希望让自己在意的信息"浮出水面、漂浮在随机变异的海洋里"的人设计的。对研究者，及君追踪该领域的最新论文；对开发者，它追踪最新的技术栈；对投资者，它获取最相关的商业报告。
 
 ---
+## 主要功能
+- **收集新闻、最新论文与趋势：** 应用支持 RSS，并内置抓取器获取最新的在线新闻。
+- **生成网站：** 收集到的新闻会被部署为一个网站。
+- **自动更新：** 网站会自动更新，默认每两小时刷新一次，你也可以轻松修改（[见下文说明](#自动更新github-actions-与配置)）。
+- **AI 摘要（需要 LLM API Key）：** 用 LLM 按你的兴趣给新闻打分，并在首页生成一份总摘要。
+- **今日一图（需要 LLM API Key 与 Smithsonian API Key）：** 让 LLM 根据当天收集到的信源生成关键词，再到 [Smithsonian Open Access](https://www.si.edu/openaccess) 检索一张与当日主题相符的图片。
+- **私密模式：** "私密"在这里有两层含义：完整私密模式与私密可见性。前者是指你部署的整个网页都被加密（[见下文说明](#私密模式及其管理)），需要口令才能访问；私密可见性则是指部分信息只对你自己可见，比如收藏、高亮与笔记。因此，设置一个口令是必要的。
+- **收藏、批注与笔记：** 你也可以高亮收集到的文字，这些内容存放在你本地的浏览器存储中，只有你能看到，且需要设置口令才能读取。
+- **主题：** 提供多套主题，目前 `The Type`（字砌）功能最完整。
+- **说来无关（开发中，需要 LLM API Key）：** 这个应用在帮你收集最相关信息的同时，也会尝试展示一些完全无关的信息，稍微打破一下你的信息茧房。
 
-## 这是什么
-
-Personal Newsdash 是一个 **GitHub 模板仓库**，用来搭建单人信息仪表盘。Python 流水线在 GitHub Actions 上定时运行，把静态 JSON 写进 `data/` 并提交回仓库，GitHub Pages 上的纯 JavaScript 页面直接读取渲染。没有后端、没有构建工具链，核心流程零 API Key。
-
-它是 [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar)（伯乐Skill｜Scout Skill）的续作，并把视野放宽：**从 AI 资讯雷达，扩展到一个人一整天要读的所有信息。** 雷达判断的是 *AI 新闻的信源*，新闻台整理的是 *你一天的阅读*，分成三类：
-
-| 类别 | 覆盖内容 | 抓取方式 | 落点 |
-|---|---|---|---|
-| **公开信源（Open）** | AI 资讯 + 综合新闻 | `rss` / `opml` / `feed-json` / `static-page`——明文、免密钥 | `news` 栏目 |
-| **可选信源（Optional）** | 你所在领域的学术动态 | 免密钥学术 API：`arxiv` / `openalex` / `crossref` / `semanticscholar` | `papers` 栏目 |
-| **私密信源（Private）** | 个人日程 + 课程动态 | ICS 日历（Google 私密 iCal、Outlook、Canvas 日历源）与 Canvas LMS REST API——凭据 URL 和 Token **只**存放在 GitHub Secrets | `schedule` + `courses` 栏目，**永远加密** |
-
-仓库内置的维护侧智能体叫 **Page Skill｜书童Skill**——书童是书斋里的伴读小童；英文 "Page" 一语三关：伴读的书童、你读的页面、还有 GitHub Pages。与雷达的伯乐正好成对：伯乐相马，书童捧书。
-
-开箱自带三套主题——`the-type`（字砌：衬线为骨、朱砂点睛的排印风）、`nyt`（报纸头版）、`bear`（Bear Blog 极简、自动深色）——界面支持中英文随时切换。
-
-## 能做什么
-
-### 给学生
-
-- 一页看完整个早晨：今天的课程与日程（ICS 日历）、Canvas 公告和待交作业（**含提交状态**），加上你的新闻订阅
-- 一切私人内容在 Pages 上均为加密存储；用口令解锁就是唯一的登录方式
-- 解锁后可以高亮、摘录、写笔记；「摘录」视图可导出 Obsidian 友好的 Markdown（批注仅存在本地 IndexedDB）
-
-### 给研究者
-
-- 用免密钥学术 API 追踪自己的领域：内置 `academic-datavis`（arXiv cs.HC + cs.GR）与 `academic-techcomm`（用 CrossRef 按 ISSN 追踪 TCQ、JBTC、IEEE ToPC、JTWC、Written Communication 五刊）
-- 论文按 DOI 优先去重，7 天窗口、比新闻更慢的衰减——arXiv 周末静默不会清空你的论文流
-- 在 `config/sources.json` 里写下兴趣关键词即可加权排序——排序本身确定、免费、零 LLM 调用。一个可选的附加功能（默认关闭，配置 Key 才开启）可生成 AI 每日简报与分栏摘要——见下文「可选 AI 增强功能」
-
-### 给开发者与 Agent
-
-- 零密钥核心链路：无服务器、无数据库、无构建工具，前端直接读 Pages 上的静态 JSON
-- 流水线与前端之间有一份成文且被测试锁定的[数据契约](docs/DATA_CONTRACT.md)，包括加密信封格式和 WebCrypto 参考解密代码
-- 信源包 + 按字段覆盖：在 `sources[]` 里写一个同 `id` 条目就能停用或调权某个预置信源，无需复制整包
-- 内置 **书童Skill**：为新信源分类（公开/私密/可选）、口述 Secrets 配置（绝不经手值）、维护流水线
-
-## 工作原理
-
-```mermaid
-flowchart LR
-    config["config/site.json + sources.json + 信源包"] --> classify["书童Skill 判断每个信源"]
-
-    classify --> open["公开：RSS / OPML / feed-JSON / 静态页面"]
-    classify --> optional["可选：arXiv / OpenAlex / CrossRef / Semantic Scholar"]
-    classify --> private["私密：ICS 日历 / Canvas（仅 Secrets）"]
-
-    open --> pipeline["抓取、归一化、去重、评分"]
-    optional --> pipeline
-    private --> pipeline
-
-    pipeline --> matrix{"可见性矩阵"}
-    matrix -->|"公开站点的 open + optional"| plain["news.json / papers.json（明文）"]
-    matrix -->|"私密栏目永远加密；私密站点全部加密"| enc["*.enc.json（AES-256-GCM）"]
-
-    plain --> manifest["manifest.json（最后写入）"]
-    enc --> manifest
-    manifest --> pages["GitHub Pages"]
-    pages --> unlock["浏览器输入口令 = 登录：解密 + 批注"]
-```
-
-每个信源独立抓取——单个信源失败不会拖垮整次构建。条目先按规范化 URL（剥离 UTM）去重，论文按 DOI 优先，再按标题指纹兜底。评分公式：`0.45 · 新鲜度（指数衰减，新闻半衰期 12 小时 / 论文 84 小时）+ 0.35 · 兴趣关键词相关度 + 0.20 · 信源权重`。日程与课程从不评分——按时间排列。`manifest.json` 最后写入，是前端的原子提交点。
-
-## 数据产物
-
-每次运行都会重新生成 `data/` 下的一组静态 JSON——页面只读取这些文件。完整字段见[数据契约](docs/DATA_CONTRACT.md)。
-
-| 文件 | 内容 | 可见性 |
-|---|---|---|
-| `manifest.json` | 发现入口：站点配置、栏目清单、口令校验块、用于破缓存的 `build_id` | **永远明文** |
-| `news.json` | 公开新闻，24 小时窗口，已去重评分 | `visibility: "public"` 时明文；私密模式加密 |
-| `papers.json` | 学术条目，7 天窗口，含作者/期刊/DOI | 公开时明文；私密模式加密 |
-| `schedule.enc.json` | 日历事件，RRULE 已按你的时区展开 | **永远加密** |
-| `courses.enc.json` | Canvas 公告 + 待交作业（含提交状态） | **永远加密** |
-| `source-status.json` | 各信源抓取健康度；私密信源只显示汇总，细节在加密载荷内 | 公开时明文；私密模式加密 |
-| `archive.json` | 公开 + 可选条目的 14 天滚动归档（上限 3000 条） | 公开时明文；私密模式加密 |
-
-首次构建成功之前，manifest 报告 `status: "awaiting_first_build"`，页面会渲染引导屏而不是一片空白。
-
+---
 ## 快速开始
 
 ### 路线 A——模板（无需本地环境）
+如果你想生成一个网页并托管上线，请用这条路线。
 
-1. 点击 **Use this template → Create a new repository**（建议公开仓库——原因见 [Actions 配置](#github-actions-与配置)）。
-2. 打开 **Actions** 标签页启用工作流（模板仓库会显示提示条）。用 *Run workflow* 手动跑一次 **Update Newsdash**，或等定时任务——第一次零密钥构建即可用默认信源包出结果。
+1. 点击 **Use this template → Create a new repository**（建议公开仓库——原因见 [Actions 配置](#自动更新github-actions-与配置)）。
+2. 打开 **Actions** 标签页启用工作流（模板仓库会显示提示条）。用 *Run workflow* 手动跑一次 **Update Relevance**，或等定时任务——第一次零密钥构建即可用默认信源包出结果。
 3. **Settings → Pages → Deploy from a branch → `main` / `(root)`**。你的仪表盘就上线了。
-4. 打开 **Issues → New issue → 「Set up my Newsdash · 配置我的新闻台」**，填表：语言、可见性、主题、标题、时区、信源包、自定义 RSS、兴趣关键词。配置工作流（仅响应仓库所有者）会提交你的配置、重新构建，并用中英双语回帖：Pages 链接、Secrets 清单与直达链接、base64 配方、AI 启动提示词。
+4. 打开 **Issues → New issue → 「Set up my Relevance · 配置我的及君」**，填表：语言、可见性、主题、标题、时区、信源包、自定义 RSS、兴趣关键词。配置工作流（仅响应仓库所有者）会提交你的配置、重新构建，并用中英双语回帖：Pages 链接、Secrets 清单与直达链接、base64 配方、AI 启动提示词。
 5. 私密 / 可选信源：按回帖清单添加 Secrets（或看[配置指南](docs/SETUP.zh.md)）——密钥一旦存在，对应信源即自动开启。
 
 ### 路线 B——本地
+如果你想在本地或自己的服务器上运行，请用这条路线。
 
 ```bash
 git clone https://github.com/<your-username>/<your-repo>.git
@@ -138,12 +73,15 @@ http://localhost:8899
 
 其他常用命令：`--smoke`（不联网，产出合法的空数据）、`--only open|private|optional`（按类别调试）、`python scripts/validate_config.py`（校验配置）、`python -m pytest -q`（81 个测试）、`node tests/test_crypto_webcrypto.mjs`（用 Python 加密的测试向量验证浏览器侧解密）。`scripts/encrypt_tool.py encrypt|decrypt|make-vector` 从环境变量读取口令——绝不走命令行参数。
 
+更详细的指引，请阅读[配置指南](docs/SETUP.zh.md)。
+
+---
 ## 给 Agent 看的教程
 
-想让 Claude Code / Codex 帮你从头配好？粘贴这段：
+完成初次部署后，你可以用 Claude Code / Codex 调用 Page Skill 与书童 Skill 来定制你的信源。粘贴这段：
 
 ```text
-Use Page Skill for Personal Newsdash. Interview me first: which preset packs I want
+Use Page Skill for Relevance. Interview me first: which preset packs I want
 (ai-news, general-news, academic-datavis, academic-techcomm), my interest keywords,
 my theme and timezone, and whether the site should be public or private. Then classify
 any extra sources I give you as Open, Private, or Optional. Walk me through every
@@ -151,12 +89,13 @@ GitHub secret step by step — but never ask me to paste a secret value into the
 and never commit tokens, calendar URLs, or passphrases into the repo.
 ```
 
-书童只**口述** Secrets 配置——建哪个、在哪建、值怎么生成——但绝不经手值本身。
+这个技能只会**口述** Secrets 配置——建哪个、在哪建、值怎么生成——但绝不经手值本身。Secret 是 GitHub 提供的一项功能，用来存放 LLM API Key、口令之类的敏感信息。想了解更多，[见下文说明](docs/SETUP.zh.md)。
 
 - `skills/newsdash/` —— **Page Skill｜书童**（维护侧）：信源分类、维护流水线与配置、指导部署。见其[说明页](skills/newsdash/README.md)。
-- 读者侧的消费 Skill（对 Agent 说「今天我的新闻台上有什么？」）排在 v0.2。
+- 读者侧的消费 Skill（对 Agent 说「今天我的及君上有什么？」）排在 v0.2。
 
-## GitHub Actions 与配置
+---
+## 自动更新——GitHub Actions 与配置
 
 `.github/workflows/update.yml` 已经配好：
 
@@ -165,7 +104,7 @@ and never commit tokens, calendar URLs, or passphrases into the repo.
 - **有密钥就自动开**：`enabled: "auto"` 的信源只在 `secret_ref` 列出的环境变量齐备时运行。没密钥就不抓、也不报错——栏目只显示 `not_configured`，页面给出配置提示。
 - 注意：仓库约 60 天无活动后 GitHub 会自动停掉定时任务（一键恢复）；Pages CDN 缓存约 10 分钟，靠轮换的 `build_id` 破解；数据提交会让历史慢慢变大（窗口是滚动的，压缩配方见文档）。
 
-### Secrets
+## 私密模式及其管理
 
 | Secret | 开启 | 备注 |
 |---|---|---|
@@ -205,6 +144,51 @@ and never commit tokens, calendar URLs, or passphrases into the repo.
 > **私密站点是一个加密的公开站点——而不是一个私有仓库。** 免费版 GitHub Pages 永远可被公网访问。
 
 完整威胁模型与不变量清单：[docs/SECURITY_MODEL.zh.md](docs/SECURITY_MODEL.zh.md)。
+---
+## 工作原理
+
+```mermaid
+flowchart LR
+    config["config/site.json + sources.json + 信源包"] --> classify["Page Skill 判断每个信源"]
+
+    classify --> open["公开：RSS / OPML / feed-JSON / 静态页面"]
+    classify --> optional["可选：arXiv / OpenAlex / CrossRef / Semantic Scholar"]
+    classify --> private["私密：ICS 日历 / Canvas（仅 Secrets）"]
+
+    open --> pipeline["抓取、归一化、去重、评分"]
+    optional --> pipeline
+    private --> pipeline
+
+    pipeline --> matrix{"可见性矩阵"}
+    matrix -->|"公开站点的 open + optional"| plain["news.json / papers.json（明文）"]
+    matrix -->|"私密栏目永远加密；私密站点全部加密"| enc["*.enc.json（AES-256-GCM）"]
+
+    plain --> manifest["manifest.json（最后写入）"]
+    enc --> manifest
+    manifest --> pages["GitHub Pages"]
+    pages --> unlock["浏览器输入口令 = 登录：解密 + 批注"]
+```
+
+每个信源独立抓取——单个信源失败不会拖垮整次构建。条目先按规范化 URL（剥离 UTM）去重，论文按 DOI 优先，再按标题指纹兜底。评分公式：`0.45 · 新鲜度（指数衰减，新闻半衰期 12 小时 / 论文 84 小时）+ 0.35 · 兴趣关键词相关度 + 0.20 · 信源权重`。日程与课程从不评分——按时间排列。`manifest.json` 最后写入，是前端的原子提交点。
+
+## 数据产物
+
+每次运行都会重新生成 `data/` 下的一组静态 JSON——页面只读取这些文件。完整字段见[数据契约](docs/DATA_CONTRACT.md)。
+
+| 文件 | 内容 | 可见性 |
+|---|---|---|
+| `manifest.json` | 发现入口：站点配置、栏目清单、口令校验块、用于破缓存的 `build_id` | **永远明文** |
+| `news.json` | 公开新闻，24 小时窗口，已去重评分 | `visibility: "public"` 时明文；私密模式加密 |
+| `papers.json` | 学术条目，7 天窗口，含作者/期刊/DOI | 公开时明文；私密模式加密 |
+| `schedule.enc.json` | 日历事件，RRULE 已按你的时区展开 | **永远加密** |
+| `courses.enc.json` | Canvas 公告 + 待交作业（含提交状态） | **永远加密** |
+| `source-status.json` | 各信源抓取健康度；私密信源只显示汇总，细节在加密载荷内 | 公开时明文；私密模式加密 |
+| `archive.json` | 公开 + 可选条目的 14 天滚动归档（上限 3000 条） | 公开时明文；私密模式加密 |
+
+首次构建成功之前，manifest 报告 `status: "awaiting_first_build"`，页面会渲染引导屏而不是一片空白。
+
+---
+
 
 ## License
 

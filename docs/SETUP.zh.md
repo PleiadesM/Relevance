@@ -1,4 +1,4 @@
-# 配置指南——从零到你自己的新闻台
+# 配置指南——从零到你自己的及君
 
 [English](SETUP.md)
 
@@ -23,7 +23,7 @@
 ## 1. 创建你的副本
 
 1. 在本仓库页面点绿色的 **Use this template** 按钮 → **Create a new repository**。
-2. 随便起名（比如 `newsdash`）。
+2. 随便起名（比如 `relevance`）。
 3. **保持 Public（公开）。** 这一点重要，原因如下：
    - GitHub Pages **只对公开仓库免费**——私有仓库的 Pages 需要付费套餐。
    - 公开仓库的 Actions 分钟数**不限量**；私有仓库每月只有 2000 分钟。
@@ -33,7 +33,7 @@
 ## 2. 第一次构建
 
 1. 打开新仓库的 **Actions** 标签页。如果看到「工作流已禁用」的提示条，点 **"I understand my workflows, go ahead and enable them"**。
-2. 左侧列表点 **Update Newsdash**。
+2. 左侧列表点 **Update Relevance**。
 3. 点 **Run workflow** → **Run workflow**（绿色按钮，保持 `main` 分支）。
 4. 等运行变**绿**（通常 1–3 分钟）。这次构建会抓取默认新闻包并把结果提交进 `data/` 目录。
 
@@ -52,13 +52,13 @@
 
 首次部署需要 **1–5 分钟**。之后每次数据更新可能比构建晚 **约 10 分钟**——那是 GitHub Pages 的 CDN 缓存，不是故障；页面下次加载时会自动破缓存。
 
-> 如果页面显示 **「等待首次构建」**，说明流水线还没产出数据——回到第 2 步确认 "Update Newsdash" 跑绿了。
+> 如果页面显示 **「等待首次构建」**，说明流水线还没产出数据——回到第 2 步确认 "Update Relevance" 跑绿了。
 
 ## 4. 用配置 Issue 个性化
 
 你不需要手改任何 JSON。仓库自带一张 Issue 表单，机器人读取并自动应用。
 
-1. 打开 **Issues → New issue**，选 **「Set up my Newsdash · 配置我的新闻台」**。
+1. 打开 **Issues → New issue**，选 **「Set up my Relevance · 配置我的及君」**。
 2. 填表：
 
    | 字段 | 改变什么 |
@@ -90,7 +90,7 @@
 1. 进入 **Settings → Secrets and variables → Actions → New repository secret**。
 2. 名称：`NEWSDASH_PASSPHRASE`
 3. 值：**至少 4 个随机单词**，例如 `maple lantern crater bicycle`。加密文件是公开可下载的，弱口令可能被离线爆破——长度胜过小聪明。
-4. 点 **Add secret**，然后到 Actions 重跑一次 **Update Newsdash** 让新口令生效。
+4. 点 **Add secret**，然后到 Actions 重跑一次 **Update Relevance** 让新口令生效。
 
 要点：
 
@@ -157,19 +157,19 @@
 
 复制输出的一整行，新建仓库 Secret，名称 **`ICS_SOURCES_B64`**（Settings → Secrets and variables → Actions → New repository secret）。
 
-最后：日程是**私密栏目，因此还需要 `NEWSDASH_PASSPHRASE`**（[第 5 步](#5-私密模式与口令)）——没有它构建就没有加密密钥，栏目会显示未配置。重跑 **Update Newsdash**，你的日程就会出现在解锁之后。
+最后：日程是**私密栏目，因此还需要 `NEWSDASH_PASSPHRASE`**（[第 5 步](#5-私密模式与口令)）——没有它构建就没有加密密钥，栏目会显示未配置。重跑 **Update Relevance**，你的日程就会出现在解锁之后。
 
 ## 7. Canvas 课程
 
-除了日历事件，新闻台还能显示 Canvas 的**公告和待交作业**（含是否已提交）。这用到 Canvas REST API：
+除了日历事件，及君还能显示 Canvas 的**公告和待交作业**（含是否已提交）。这用到 Canvas REST API：
 
-1. 在 Canvas：**Account → Settings** → 滚动到 **Approved Integrations** → 点 **+ New Access Token**。用途写 "newsdash" 之类，生成。
+1. 在 Canvas：**Account → Settings** → 滚动到 **Approved Integrations** → 点 **+ New Access Token**。用途写 "relevance" 之类，生成。
 2. 立刻复制 Token（Canvas 只显示这一次）。
 3. 添加两个仓库 Secret：
    - `CANVAS_BASE_URL` —— 你学校的 Canvas 根地址，如 `https://canvas.iastate.edu`
    - `CANVAS_TOKEN` —— 刚生成的 Token
 
-> ⚠️ **Canvas Token 拥有你账户的全部权限**——成绩、私信、一切，而不只是新闻台读取的部分。每学期轮换一次（在 Canvas 删除旧 Token、生成新的、更新 Secret）。有些学校会强制 Token 过期；如果课程栏目突然报错，先查 Token 是否过期。
+> ⚠️ **Canvas Token 拥有你账户的全部权限**——成绩、私信、一切，而不只是及君读取的部分。每学期轮换一次（在 Canvas 删除旧 Token、生成新的、更新 Secret）。有些学校会强制 Token 过期；如果课程栏目突然报错，先查 Token 是否过期。
 
 和日程一样，课程是私密栏目：需要 `NEWSDASH_PASSPHRASE`。
 
@@ -202,13 +202,13 @@
 1. 在你选定的服务商自己的后台申请一个 API Key。
 2. 添加为仓库 Secret：**Settings → Secrets and variables → Actions → New repository secret**，名称 **`LLM_API_KEY`**。
 3. 如果不是用 OpenAI，还需添加两个仓库**变量**（Variables 标签页，不是 Secrets）——**`LLM_BASE_URL`** 与 **`LLM_MODEL`**，取上表对应的值。
-4. 重跑 **Update Newsdash**。一次构建之后，今日页面就应该出现简报。
+4. 重跑 **Update Relevance**。一次构建之后，今日页面就应该出现简报。
 
 **加上今日一图（可选，同样需要上面的 LLM Key）。** 图片来自 [Smithsonian Open Access API](https://www.si.edu/openaccess)——官方、有文档，且只会展示明确标注 CC0（真正无版权限制）的图片。
 
 1. 打开 <https://api.data.gov/signup/>，填姓名和邮箱即可——不需要机构隶属或审批，就是普通的免费 API 申请，Key 几秒内就会发到邮箱。
 2. 添加为仓库 Secret，名称 **`SMITHSONIAN_API_KEY`**。
-3. 重跑 **Update Newsdash**。
+3. 重跑 **Update Relevance**。
 
 这两个功能只会读取你的 `news`/`papers` 条目——绝不涉及日程或课程——且在端点暂时不可达时会静默跳过（不报错、不产生费用）。你站点的 `Settings` 页面会显示是否「已配置」。完整说明、急停开关（`LLM_SUMMARY_ENABLED=0` / `TODAYS_IMAGE_ENABLED=0`）与数据流出模型：见 [CONFIG_REFERENCE.zh.md §4a](CONFIG_REFERENCE.zh.md#4a-可选-ai-增强功能每日简报--今日一图) 与 [SECURITY_MODEL.zh.md §3a](SECURITY_MODEL.zh.md#3a-可选-ai-增强功能的数据流出默认关闭)。
 
@@ -237,11 +237,11 @@
 | 症状 | 可能原因 → 解法 |
 |---|---|
 | Actions 里**构建红了** | 打开失败运行的日志——报错行会指出哪个信源或密钥出了问题。`private` 站点缺 `NEWSDASH_PASSPHRASE` 时会**故意**拒绝发布：补上 Secret（[第 5 步](#5-私密模式与口令)）再重跑。 |
-| **页面内容陈旧** | Pages CDN 缓存约 10 分钟——等一等、强刷。还旧？去 Actions 确认 "Update Newsdash" 最近确实跑绿了。 |
+| **页面内容陈旧** | Pages CDN 缓存约 10 分钟——等一等、强刷。还旧？去 Actions 确认 "Update Relevance" 最近确实跑绿了。 |
 | **日程空了 / 报错** | 你在 Google 点过 *重置* 私密地址（或 Google 替你重置了），Secret 里的旧 URL 就失效了。复制新地址、重建 `ics-sources.json`、重新编码（[6c](#6c-编码并添加-secret)）、更新 `ICS_SOURCES_B64`、重跑工作流。 |
-| **「等待首次构建」屏** | 流水线从没跑过。Actions → Update Newsdash → Run workflow（[第 2 步](#2-第一次构建)）。 |
+| **「等待首次构建」屏** | 流水线从没跑过。Actions → Update Relevance → Run workflow（[第 2 步](#2-第一次构建)）。 |
 | **更新悄悄停了** | 仓库 **60 天无活动后 GitHub 自动停用定时工作流**。Actions 标签页会显示提示条 → 点 **Enable**。任何一次提交也会重置计时。 |
-| **「口令错误」** | 检查拼写、空格、大小写——必须与 Secret 完全一致。刚改过 Secret？要等下一次 "Update Newsdash" 跑完重新加密后，站点才认*新*口令。 |
+| **「口令错误」** | 检查拼写、空格、大小写——必须与 Secret 完全一致。刚改过 Secret？要等下一次 "Update Relevance" 跑完重新加密后，站点才认*新*口令。 |
 | **私密栏目显示「未配置」** | 构建时缺该栏目的密钥。日程需要 `ICS_SOURCES_B64` **加** `NEWSDASH_PASSPHRASE`；课程需要 `CANVAS_BASE_URL` + `CANVAS_TOKEN` **加** `NEWSDASH_PASSPHRASE`。补齐后重跑。 |
 | **AI 简报 / 今日一图没出现** | 先看你站点的 `Settings` 页面——它会显示 `LLM_API_KEY` 是否已配置。如果显示已配置但仍不出现：确认 `LLM_BASE_URL`/`LLM_MODEL` 确实对应你的服务商（[第 8a 步](#8a-ai-每日简报--今日一图可选)）；查看最近一次 Actions 运行日志里是否有 `[llm-summary] error: …` 这行。今日一图本身就可能在某次运行中正常地不出现——只有当天内容恰好匹配到一张真正 CC0 授权的 Smithsonian 图片时才会显示。 |
 

@@ -20,7 +20,7 @@ other data file as `<file>?v=<build_id>` — GitHub Pages' CDN caches for
   "generated_at": "2026-07-06T18:17:03Z",
   "build_id": "20260706T181703Z",
   "site": {
-    "title": "Personal Newsdash", "subtitle": "",
+    "title": "Relevance", "subtitle": "",
     "languages": ["en", "zh"], "default_language": "en",
     "theme": "the-type",               // "the-type" | "nyt" | "bear"
     "timezone": "America/Chicago",

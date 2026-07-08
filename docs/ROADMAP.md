@@ -1,6 +1,6 @@
 # Roadmap
 
-Personal Newsdash ships small and stays honest. This page is the single place to check
+Relevance ships small and stays honest. This page is the single place to check
 what exists today (v0.1), what is on deck (v0.2), and what will never happen.
 
 House rule: a feature only lands if it stays serverless and keeps the privacy model
@@ -25,7 +25,7 @@ intact (see [DATA_CONTRACT.md](DATA_CONTRACT.md)). No exceptions for "just this 
       `academic-techcomm` presets.
 - [x] **Annotations, local-only** — highlight / excerpt / note stored in IndexedDB,
       displayed only after unlock; Clippings view exports Obsidian-friendly Markdown.
-- [x] **Issue-ops onboarding** — "Set up my Newsdash" issue form → owner-guarded
+- [x] **Issue-ops onboarding** — "Set up my Relevance" issue form → owner-guarded
       workflow commits your config, dispatches a build, and replies with bilingual
       next steps.
 - [x] **Page Skill｜书童Skill** — in-repo maintainer skill for agents
@@ -74,7 +74,7 @@ Being upfront beats a stale "coming soon":
 
 - **Multi-user auth.** One site, one passphrase, one reader: you. Accounts, roles, and
   sharing flows all imply a server and a trust model this project deliberately does
-  not have. Deploy a second Newsdash instead — it's a template.
+  not have. Deploy a second Relevance instead — it's a template.
 - **Anything server-side.** No API server, no database, no edge functions, no
   "tiny proxy just for X". Every feature must survive as static files on GitHub Pages
   plus a cron job on GitHub Actions, or it doesn't ship.

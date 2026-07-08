@@ -1,7 +1,7 @@
 # Page Skill｜书童Skill
 
-**The maintainer-side agent skill for [Personal Newsdash](../../README.md).**
-Open your Newsdash repo in Claude Code / Codex and the skill turns setup and
+**The maintainer-side agent skill for [Relevance](../../README.md).**
+Open your Relevance repo in Claude Code / Codex and the skill turns setup and
 maintenance into a conversation: it interviews you, writes your config,
 classifies new sources, and walks you through every GitHub Secret — without
 ever touching a secret value.
@@ -9,7 +9,7 @@ ever touching a secret value.
 ## Kickoff prompt
 
 ```text
-Use Page Skill for Personal Newsdash. Interview me first: which preset packs I want
+Use Page Skill for Relevance. Interview me first: which preset packs I want
 (ai-news, general-news, academic-datavis, academic-techcomm), my interest keywords,
 my theme and timezone, and whether the site should be public or private. Then classify
 any extra sources I give you as Open, Private, or Optional. Walk me through every
@@ -39,7 +39,7 @@ horses, the 书童 carries your books.
 
 # 中文说明
 
-**Page Skill｜书童Skill** 是 Personal Newsdash（个人新闻台）内置的维护侧智能体技能。
+**Page Skill｜书童Skill** 是及君（Relevance）内置的维护侧智能体技能。
 在 Claude Code / Codex 中打开你的仓库，它会以对话的方式完成配置：先访谈你的需求，
 替你修改 `config/`，为新信源分类，并一步步指导你在 GitHub 上添加各个 Secret——
 但绝不经手任何密钥的值。
@@ -47,6 +47,6 @@ horses, the 书童 carries your books.
 **为什么叫「书童」？** 书童是书斋里的伴读小童：管先生的日程、取当日的书报、
 理往来的信件——却从不拆先生的私信。英文 "Page" 恰好一语三关：伴读的书童（page boy）、
 你读的页面（pages）、还有他每两小时洒扫一遍的 GitHub Pages。ai-news-radar 的
-伯乐相马，新闻台的书童捧书。
+伯乐相马，及君的书童捧书。
 
 **启动提示词**（粘贴给你的智能体即可，中文交流亦可）：见上方 Kickoff prompt。

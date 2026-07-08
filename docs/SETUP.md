@@ -1,4 +1,4 @@
-# Setup Guide — from zero to your own Newsdash
+# Setup Guide — from zero to your own Relevance
 
 This is the click-by-click walkthrough. No terminal required for the core path — everything happens in the GitHub web UI. If you get stuck at any step, jump to the [Troubleshooting table](#11-troubleshooting) at the bottom.
 
@@ -21,7 +21,7 @@ This is the click-by-click walkthrough. No terminal required for the core path �
 ## 1. Create your copy
 
 1. On this repository's page, click the green **Use this template** button → **Create a new repository**.
-2. Name it whatever you like (e.g. `newsdash`).
+2. Name it whatever you like (e.g. `relevance`).
 3. **Keep it Public.** This matters, so here's why:
    - GitHub Pages hosting is **free only on public repos** — private repos need a paid plan for Pages.
    - Public repos get **unlimited free Actions minutes**; private repos get only 2,000 minutes/month.
@@ -31,7 +31,7 @@ This is the click-by-click walkthrough. No terminal required for the core path �
 ## 2. First build
 
 1. Open the **Actions** tab of your new repo. If you see a banner saying workflows are disabled, click **"I understand my workflows, go ahead and enable them"**.
-2. In the left sidebar, click **Update Newsdash**.
+2. In the left sidebar, click **Update Relevance**.
 3. Click **Run workflow** → **Run workflow** (green button, keep the `main` branch).
 4. Wait for the run to go **green** (usually 1–3 minutes). This first build fetches the default news packs and commits the results to the `data/` folder.
 
@@ -50,7 +50,7 @@ After this, the build re-runs itself automatically every 2 hours — no further 
 
 The first deploy takes **1–5 minutes**. After that, each data refresh can lag up to **~10 minutes** behind the build — that's the GitHub Pages CDN cache, not a bug. The site busts the cache automatically on its next load.
 
-> If the page shows an **"awaiting first build"** screen, the pipeline hasn't produced data yet — go back to step 2 and make sure "Update Newsdash" ran green.
+> If the page shows an **"awaiting first build"** screen, the pipeline hasn't produced data yet — go back to step 2 and make sure "Update Relevance" ran green.
 
 ### 3a. Custom domain (optional)
 
@@ -75,7 +75,7 @@ DNS changes take minutes to hours to propagate; verify with
 
 You never need to edit JSON by hand. The repo ships an issue form that a bot reads and applies.
 
-1. Go to **Issues → New issue** and pick **"Set up my Newsdash · 配置我的新闻台"**.
+1. Go to **Issues → New issue** and pick **"Set up my Relevance · 配置我的及君"**.
 2. Fill in the form:
 
    | Field | What it changes |
@@ -107,7 +107,7 @@ One secret turns on encryption for everything personal:
 1. Go to **Settings → Secrets and variables → Actions → New repository secret**.
 2. Name: `NEWSDASH_PASSPHRASE`
 3. Value: **at least 4 random words**, e.g. `maple lantern crater bicycle`. Because the encrypted files are publicly downloadable, a weak passphrase can be brute-forced offline — length beats cleverness here.
-4. Click **Add secret**, then re-run **Update Newsdash** (Actions tab) so the new passphrase takes effect.
+4. Click **Add secret**, then re-run **Update Relevance** (Actions tab) so the new passphrase takes effect.
 
 Things to know:
 
@@ -174,19 +174,19 @@ In a terminal, from the folder containing the file:
 
 Copy the single long line it prints, then add it as a new repository secret named **`ICS_SOURCES_B64`** (Settings → Secrets and variables → Actions → New repository secret).
 
-Finally: the schedule is a **private section, so it also requires `NEWSDASH_PASSPHRASE`** ([step 5](#5-private-mode-and-the-passphrase)) — without it the build has no key to encrypt with and the section shows as not configured. Re-run **Update Newsdash** and your schedule appears behind the unlock.
+Finally: the schedule is a **private section, so it also requires `NEWSDASH_PASSPHRASE`** ([step 5](#5-private-mode-and-the-passphrase)) — without it the build has no key to encrypt with and the section shows as not configured. Re-run **Update Relevance** and your schedule appears behind the unlock.
 
 ## 7. Canvas courses
 
-Beyond calendar events, Newsdash can show Canvas **announcements and upcoming assignments** (with whether you've submitted). This uses the Canvas REST API:
+Beyond calendar events, Relevance can show Canvas **announcements and upcoming assignments** (with whether you've submitted). This uses the Canvas REST API:
 
-1. In Canvas: **Account → Settings** → scroll to **Approved Integrations** → click **+ New Access Token**. Give it a purpose like "newsdash" and generate.
+1. In Canvas: **Account → Settings** → scroll to **Approved Integrations** → click **+ New Access Token**. Give it a purpose like "relevance" and generate.
 2. Copy the token immediately (Canvas shows it only once).
 3. Add two repository secrets:
    - `CANVAS_BASE_URL` — your institution's Canvas root, e.g. `https://canvas.iastate.edu`
    - `CANVAS_TOKEN` — the token you just generated
 
-> ⚠️ **A Canvas access token grants full access to your Canvas account** — grades, messages, everything, not just what Newsdash reads. Rotate it every semester (delete the old token in Canvas, generate a new one, update the secret). Some institutions force tokens to expire; if your courses section suddenly errors, an expired token is the first thing to check.
+> ⚠️ **A Canvas access token grants full access to your Canvas account** — grades, messages, everything, not just what Relevance reads. Rotate it every semester (delete the old token in Canvas, generate a new one, update the secret). Some institutions force tokens to expire; if your courses section suddenly errors, an expired token is the first thing to check.
 
 Like the schedule, courses are a private section: `NEWSDASH_PASSPHRASE` is required.
 
@@ -219,13 +219,13 @@ Off by default — nothing changes until you add a key. Once you do, the Today p
 1. Get an API key from your chosen provider's own dashboard.
 2. Add it as a repository secret: **Settings → Secrets and variables → Actions → New repository secret**, name **`LLM_API_KEY`**.
 3. If you're not using OpenAI, also add two repository **variables** (Variables tab, not Secrets) — **`LLM_BASE_URL`** and **`LLM_MODEL`** — with the values from the table above.
-4. Re-run **Update Newsdash**. Within one build, a brief should appear on the Today page.
+4. Re-run **Update Relevance**. Within one build, a brief should appear on the Today page.
 
 **Add Today's Image (optional, needs the LLM key above too).** Images come from the [Smithsonian Open Access API](https://www.si.edu/openaccess) — official, documented, and only ever CC0-licensed (truly rights-free) images are shown.
 
 1. Go to <https://api.data.gov/signup/> and fill in your name + email — no institutional affiliation or approval needed, it's a casual free-tier signup like any other API. A key arrives by email in seconds.
 2. Add it as a repository secret named **`SMITHSONIAN_API_KEY`**.
-3. Re-run **Update Newsdash**.
+3. Re-run **Update Relevance**.
 
 Both features only ever read your `news`/`papers` items — never your schedule or courses — and skip silently (no error, no cost) if something's temporarily unreachable. `Settings` on your live site shows whether this is "configured." Full details, kill switches (`LLM_SUMMARY_ENABLED=0` / `TODAYS_IMAGE_ENABLED=0`), and the privacy/egress model: [CONFIG_REFERENCE.md §4a](CONFIG_REFERENCE.md#4a-optional-ai-enrichment-daily-brief--todays-image) and [SECURITY_MODEL.md §3a](SECURITY_MODEL.md#3a-optional-ai-enrichment-egress-off-by-default).
 
@@ -254,12 +254,12 @@ What to expect:
 | Symptom | Likely cause → fix |
 |---|---|
 | **Build is red** in Actions | Open the failed run's log — the error line tells you which source or secret misbehaved. A `private` site with no `NEWSDASH_PASSPHRASE` refuses to publish by design: add the secret ([step 5](#5-private-mode-and-the-passphrase)) and re-run. |
-| **Page looks stale** | The Pages CDN caches ~10 minutes — wait it out, hard-refresh. Still stale? Check [Actions](../../actions) that "Update Newsdash" actually ran green recently. |
+| **Page looks stale** | The Pages CDN caches ~10 minutes — wait it out, hard-refresh. Still stale? Check [Actions](../../actions) that "Update Relevance" actually ran green recently. |
 | **502 / "trouble connecting"** on a custom domain | Your registrar's CDN/parking (e.g. Namecheap Supersonic CDN) is intercepting the domain and can't reach GitHub as its origin. Fix DNS per [step 3a](#3a-custom-domain-optional): apex `A` records → GitHub's four IPs, `www` `CNAME` → `<username>.github.io` (check for typos), disable the registrar CDN. The site always stays reachable at the raw `https://<username>.github.io/<repo>/` URL meanwhile. |
 | **Schedule is empty / errored** | Google regenerates your "secret address" URL if you ever click *Reset* (or Google resets it for you) — the old URL in your secret then dies. Copy the new secret address, rebuild `ics-sources.json`, re-encode ([step 6c](#6c-encode-and-add-the-secret)), update the `ICS_SOURCES_B64` secret, re-run the workflow. |
-| **"Awaiting first build" screen** | The pipeline has never run. Actions tab → Update Newsdash → Run workflow ([step 2](#2-first-build)). |
+| **"Awaiting first build" screen** | The pipeline has never run. Actions tab → Update Relevance → Run workflow ([step 2](#2-first-build)). |
 | **Updates silently stopped** | GitHub **auto-disables cron workflows after 60 days without repo activity**. Actions tab → the workflow shows a "scheduled workflows disabled" banner → click **Enable**. Any commit also resets the clock. |
-| **"Wrong passphrase"** | Check spelling, spacing, and case — it must match the secret exactly. Just changed the secret? The site accepts the *new* passphrase only after the next successful "Update Newsdash" run re-encrypts the data. |
+| **"Wrong passphrase"** | Check spelling, spacing, and case — it must match the secret exactly. Just changed the secret? The site accepts the *new* passphrase only after the next successful "Update Relevance" run re-encrypts the data. |
 | **Private section says "not configured"** | The build ran without that section's secrets. Schedule needs `ICS_SOURCES_B64` **and** `NEWSDASH_PASSPHRASE`; courses need `CANVAS_BASE_URL` + `CANVAS_TOKEN` **and** `NEWSDASH_PASSPHRASE`. Add what's missing, re-run. |
 | **AI brief / Today's Image doesn't appear** | Check `Settings` on your live site — it reports whether `LLM_API_KEY` is configured at all. If it says configured but nothing shows: confirm `LLM_BASE_URL`/`LLM_MODEL` actually match your provider ([step 8a](#8a-ai-daily-brief--todays-image-optional)); check the latest Actions run's log for a `[llm-summary] error: …` line. Today's Image specifically can legitimately be silently absent on any given run — it only shows when a genuinely CC0-licensed Smithsonian image matches that day's content. |
 

@@ -1,11 +1,11 @@
 ---
 name: newsdash
-description: "Use when working on Personal Newsdash, Page Skill, 书童Skill, 个人新闻台: setting up or personalizing a deployment (set up my newsdash / 配置我的新闻台), adding news/calendar/course/paper sources, guiding GitHub Secrets, fixing a stale dashboard, themes, GitHub Actions, or GitHub Pages deployment."
+description: "Use when working on Relevance, Page Skill, 书童Skill, 及君: setting up or personalizing a deployment (set up my relevance / 配置我的及君), adding news/calendar/course/paper sources, guiding GitHub Secrets, fixing a stale dashboard, themes, GitHub Actions, or GitHub Pages deployment."
 ---
 
 # Page Skill｜书童Skill
 
-The maintainer-side skill for Personal Newsdash. The 书童 (page) is a scholar's
+The maintainer-side skill for Relevance. The 书童 (page) is a scholar's
 study attendant: minds the schedule, fetches the readings, sorts the
 correspondence — and never reads the master's sealed letters. That last part
 is the point: **this skill narrates secrets setup; it never touches secret
@@ -29,7 +29,7 @@ When this skill triggers inside the repo, read these first (as needed):
 
 ## Onboarding interview
 
-When a user asks you to set up or personalize their Newsdash, interview them
+When a user asks you to set up or personalize their Relevance, interview them
 in this order (one topic at a time, don't dump a questionnaire):
 
 1. **Visibility first.** Explain the trade-off in one paragraph: *public* =
@@ -48,7 +48,7 @@ in this order (one topic at a time, don't dump a questionnaire):
 Then apply it via ONE of:
 
 - **The setup issue** (preferred for beginners): tell them to open
-  *Issues → "Set up my Newsdash · 配置我的新闻台"* and what to pick — the
+  *Issues → "Set up my Relevance · 配置我的及君"* and what to pick — the
   owner-guarded workflow applies it and comments next steps; or
 - **Direct edit**: modify `config/site.json` / `config/sources.json`, run
   `python scripts/validate_config.py`, and commit.

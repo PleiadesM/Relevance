@@ -171,7 +171,7 @@ export async function favoriteIdSet() {
 
 // Obsidian-friendly Markdown export, grouped by day.
 export function exportMarkdown(annotations) {
-  const lines = ["# Newsdash clippings", ""];
+  const lines = ["# Relevance clippings", ""];
   let currentDay = null;
   const sorted = [...annotations].sort(
     (a, b) => (b.createdAt || "").localeCompare(a.createdAt || ""));

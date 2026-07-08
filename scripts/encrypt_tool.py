@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Encrypt/decrypt Newsdash envelopes for local debugging and fixtures.
+"""Encrypt/decrypt Relevance envelopes for local debugging and fixtures.
 
 The passphrase is read from an environment variable (default
 ``NEWSDASH_PASSPHRASE``), never from argv, so it stays out of shell history

@@ -1,4 +1,4 @@
-/* Personal Newsdash — theme-agnostic base. Every color/font/spacing token
+/* Relevance — theme-agnostic base. Every color/font/spacing token
    comes from the CSS variables each theme defines (assets/themes/*.css).
    No external requests: system fonts only — except the-type, which lazily
    loads Google Fonts only when it's the active theme (assets/js/app.js

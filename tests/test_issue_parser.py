@@ -65,7 +65,7 @@ def test_minimal_form_keeps_defaults(issue_repo):
     body = (FIX / "setup_minimal.md").read_text(encoding="utf-8")
     summary, warnings = ios.apply(body, issue_repo)
     site = read_json(issue_repo / "config" / "site.json")
-    assert site["title"] == "Personal Newsdash"  # _No response_ keeps existing
+    assert site["title"] == "Relevance"  # _No response_ keeps existing
     assert site["timezone"] == before["timezone"]  # untouched fields survive
     assert site["theme"] == "bear"
     sources = read_json(issue_repo / "config" / "sources.json")

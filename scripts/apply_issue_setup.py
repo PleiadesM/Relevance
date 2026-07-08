@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Issue-ops onboarding: parse the "Set up my Newsdash" issue-form body,
+"""Issue-ops onboarding: parse the "Set up my Relevance" issue-form body,
 rewrite config/site.json + config/sources.json, and emit the bilingual
 comment the workflow posts back.
 
@@ -230,7 +230,7 @@ def success_comment(summary: dict, warnings: list[str], repo: str) -> str:
     lines += [
         "",
         "A rebuild is running: "
-        f"[Actions → Update Newsdash](https://github.com/{repo}/actions/workflows/update.yml)",
+        f"[Actions → Update Relevance](https://github.com/{repo}/actions/workflows/update.yml)",
         "",
         "## Next steps · 后续步骤", "",
         f"1. **Enable GitHub Pages** (once): [Settings → Pages](https://github.com/{repo}/settings/pages)"
