@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-08T04:40:42Z",
+ "generated_at": "2026-07-08T04:56:14Z",
  "private_summary": {
   "configured": 0,
   "total": 2
@@ -183,7 +183,7 @@
   },
   {
    "category": "optional",
-   "count": 0,
+   "count": 30,
    "error": null,
    "id": "s2_datavis",
    "name": "Semantic Scholar · data visualization",
@@ -249,11 +249,11 @@
   },
   {
    "category": "open",
-   "count": 15,
-   "error": null,
+   "count": 0,
+   "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCvxZ0tCKgCrrgfGu_175NIA",
    "id": "radiance_fields_yt",
    "name": "Radiance Fields (YouTube)",
-   "ok": true,
+   "ok": false,
    "section": "news",
    "skip_reason": null,
    "type": "rss"
