@@ -1,8 +1,16 @@
 {
- "brief": "Tensions escalate between US and Iran as new strikes are launched; domestic news includes Telstra outage, vet sector reforms, and Emmy surprises. AI research advances with world generation and prompt engineering tools.",
+ "brief": "US military strikes on Iran escalate tensions in the Middle East, while Australia faces emergency service disruptions due to a Telstra outage. In research, new AI models advance game world generation and weather forecasting visualization.",
  "meta": {
-  "generated_at": "2026-07-08T23:22:13Z"
+  "generated_at": "2026-07-08T23:37:13Z"
  },
- "news_summary": "US military strikes Iran again as Trump threatens more; Telstra faces secondary outage affecting triple-zero calls; Emmys snub 'Amazing Race' while 'Love Island USA' host gets nod.",
- "papers_summary": "New papers present AlayaWorld for long-horizon video world generation and Prompt Coach for teaching prompt engineering, alongside tools for visualizing weather models and Chinese paintings."
+ "news_summary": "US launches fresh strikes on Iran as Trump threatens further action; Telstra's triple-zero issues persist, affecting emergency calls in Australia.",
+ "papers_summary": "Papers introduce AlayaWorld for long-horizon video game generation and a prompt engineering tutor; also present GeoXplain for on-the-fly visual explanations of weather foundation models.",
+ "todays_image": {
+  "caption": "Just as the Douglas M-2 once carried mail across open skies, modern military aircraft now deliver strikes that turn diplomatic routes into aerial battlefields.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-234863_101z",
+  "source_name": "National Postal Museum",
+  "source_url": "https://postalmuseum.si.edu/object/npm_0.234863.101",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-234863_101z",
+  "title": "Douglas M-2 model"
+ }
 }

@@ -1,0 +1,30 @@
+{
+ "full_text": "In the brief history of AI security, the prompt injection has quickly become the top threat. Large language models are inherently unable to distinguish between legitimate instructions provided by users and malicious ones sneaked into emails, source code, and other third-party content the models are processing. This makes it trivial to surreptitiously inject malicious commands that the LLM readily follows. With no way to enforce this crucial boundary between trusted and untrusted sources, AI engine developers are left to erect elaborate guardrails designed to mitigate the damage rather than solve the root cause. To date, most prompt injections have fallen into a class known as push, in which each potential victim is targeted. For example, the adversary injects malicious instructions into an individual email or calendar invitation. Because the injection must then be sent (or pushed) to each specific target, the scale of the attack is limited, hampering mass exploits that hit the Internet at large. Read full article Comments",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/f1bc70530c21e70d.json",
+  "id": "f1bc70530c21e70d",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-07-08T07:00:51Z",
+  "score": 0.6053,
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai",
+  "summary": "\"HalluSquatting\" weaponizes LLMs' inability to say \"I don't know.\"",
+  "tags": [
+   "llm"
+  ],
+  "title": "Hackers can use 9 of the most popular AI tools to assemble massive botnets",
+  "url": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/"
+ },
+ "meta": {
+  "generated_at": "2026-07-08T23:37:13Z",
+  "item_id": "f1bc70530c21e70d",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai"
+ }
+}
