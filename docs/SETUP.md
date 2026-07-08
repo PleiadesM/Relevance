@@ -203,6 +203,32 @@ Tick **Data visualization** and/or **Technical communication** in the setup issu
 
 One polite thing to do: set the **`CONTACT_MAILTO`** *variable* (note: **Variables tab**, not Secrets — Settings → Secrets and variables → Actions → **Variables** → New repository variable) to your email address. CrossRef and OpenAlex route requests with a contact email into their faster, more reliable "polite pools". It's not a secret; it just identifies your bot as a good citizen.
 
+### 8a. AI daily brief + Today's Image (optional)
+
+Off by default — nothing changes until you add a key. Once you do, the Today page gets an AI-written daily brief, a one-line summary inside "Top stories" and "Top papers," and — with a second key — a "Today's Image" block: a public-domain image loosely matched to the day's content, with a one-sentence AI caption.
+
+**Get an LLM key.** `LLM_API_KEY` works with any OpenAI-Chat-Completions-compatible provider — pick whichever you already have an account with:
+
+| Provider | `LLM_BASE_URL` | `LLM_MODEL` example |
+|---|---|---|
+| OpenAI | `https://api.openai.com/v1` (default — you can omit this variable) | `gpt-4o-mini` (default) |
+| DeepSeek | `https://api.deepseek.com` | `deepseek-v4-flash` |
+| OpenRouter | `https://openrouter.ai/api/v1` | any model slug it lists |
+| Groq | `https://api.groq.com/openai/v1` | any model it lists |
+
+1. Get an API key from your chosen provider's own dashboard.
+2. Add it as a repository secret: **Settings → Secrets and variables → Actions → New repository secret**, name **`LLM_API_KEY`**.
+3. If you're not using OpenAI, also add two repository **variables** (Variables tab, not Secrets) — **`LLM_BASE_URL`** and **`LLM_MODEL`** — with the values from the table above.
+4. Re-run **Update Newsdash**. Within one build, a brief should appear on the Today page.
+
+**Add Today's Image (optional, needs the LLM key above too).** Images come from the [Smithsonian Open Access API](https://www.si.edu/openaccess) — official, documented, and only ever CC0-licensed (truly rights-free) images are shown.
+
+1. Go to <https://api.data.gov/signup/> and fill in your name + email — no institutional affiliation or approval needed, it's a casual free-tier signup like any other API. A key arrives by email in seconds.
+2. Add it as a repository secret named **`SMITHSONIAN_API_KEY`**.
+3. Re-run **Update Newsdash**.
+
+Both features only ever read your `news`/`papers` items — never your schedule or courses — and skip silently (no error, no cost) if something's temporarily unreachable. `Settings` on your live site shows whether this is "configured." Full details, kill switches (`LLM_SUMMARY_ENABLED=0` / `TODAYS_IMAGE_ENABLED=0`), and the privacy/egress model: [CONFIG_REFERENCE.md §4a](CONFIG_REFERENCE.md#4a-optional-ai-enrichment-daily-brief--todays-image) and [SECURITY_MODEL.md §3a](SECURITY_MODEL.md#3a-optional-ai-enrichment-egress-off-by-default).
+
 ## 9. Let AI do it for you
 
 If you use Claude Code, Codex, or a similar coding agent, the repo ships a maintainer skill — **Page Skill｜书童Skill** — that automates steps 4–8. Open your repo in the agent and paste:
@@ -235,6 +261,7 @@ What to expect:
 | **Updates silently stopped** | GitHub **auto-disables cron workflows after 60 days without repo activity**. Actions tab → the workflow shows a "scheduled workflows disabled" banner → click **Enable**. Any commit also resets the clock. |
 | **"Wrong passphrase"** | Check spelling, spacing, and case — it must match the secret exactly. Just changed the secret? The site accepts the *new* passphrase only after the next successful "Update Newsdash" run re-encrypts the data. |
 | **Private section says "not configured"** | The build ran without that section's secrets. Schedule needs `ICS_SOURCES_B64` **and** `NEWSDASH_PASSPHRASE`; courses need `CANVAS_BASE_URL` + `CANVAS_TOKEN` **and** `NEWSDASH_PASSPHRASE`. Add what's missing, re-run. |
+| **AI brief / Today's Image doesn't appear** | Check `Settings` on your live site — it reports whether `LLM_API_KEY` is configured at all. If it says configured but nothing shows: confirm `LLM_BASE_URL`/`LLM_MODEL` actually match your provider ([step 8a](#8a-ai-daily-brief--todays-image-optional)); check the latest Actions run's log for a `[llm-summary] error: …` line. Today's Image specifically can legitimately be silently absent on any given run — it only shows when a genuinely CC0-licensed Smithsonian image matches that day's content. |
 
 ---
 
