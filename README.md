@@ -21,7 +21,7 @@
 ---
 ## What is this?
 
-The contemporary internet can be overwhelming. We don't always read what we want to read or see what we want to see. The 15-second YouTube ads guess what we need and often try to convince us that what they show is what we want. This enshittified environment is, in other words, not relevant to us.
+The contemporary internet can be overwhelming. We don't always read what we want to read or see what we want to see. The 15-second YouTube ads guess what we need and often try to convince us that what they show is what we want. Much information in this environment is, in other words, not relevant to us.
 
 *Relevance* is a **GitHub template repository** tailoring relevant information streams specifically for you. It is the successor to [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar) (Scout Skill｜伯乐Skill), and it collects scattered news from different sources, selects the news that is of the most interest to you, and generates a webpage hosted on GitHub (for free), which updates every few hours automatically, and you can read it on both your computer and phone.
 
