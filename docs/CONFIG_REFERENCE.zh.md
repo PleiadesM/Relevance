@@ -63,7 +63,7 @@
 
 | `type` | 默认类别 | 必填 | 说明 |
 |---|---|---|---|
-| `rss` | open | `url` | 可加 `keywords` 做标题过滤 |
+| `rss` | open | `url` | 可加 `keywords` 做标题过滤；若 RSS/Atom 自带足量正文，会自动进入站内全文阅读 |
 | `opml` | open | `url` 或 `path` | `RSS_MAX_FEEDS` 限制展开数（默认 10） |
 | `feed-json` | open | `url` | JSON Feed 1.x 或裸数组 |
 | `static-page` | open | `url`（+ `query` CSS 选择器） | 条目以构建时间为时间戳 |
@@ -75,6 +75,8 @@
 | `canvas` | private | `secret_ref` | `CANVAS_BASE_URL` + `CANVAS_TOKEN` |
 
 通用字段：`id`（snake_case，唯一）、`name`、`section`（`news`/`papers`/`following`/`schedule`/`courses`）、`weight`（0–1，默认 0.8）、`max_results`（默认 50）、`lang`（`"zh"`/`"en"` 固定该信源条目的语言，供前端"中文/English"筛选；省略则逐条自动检测）。Schema **拒绝**在 `category: "private"` 信源上出现 `url`/`path`。
+
+v1 的全文阅读器没有配置开关。仅对 RSS/Atom 信源，若 feed 条目本身提供足量嵌入正文，管线会标记 **可阅读全文**，把清洗后的纯文本写入 `data/articles/`，前端通过 `#/read/<section>/<item_id>` 打开。只有摘要的 feed 仍与过去一样跳转到原站。
 
 ### 关注学者与实验室（`following` 栏目）
 

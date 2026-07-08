@@ -33,6 +33,8 @@ class Item:
     authors: list[str] = field(default_factory=list)
     venue: str | None = None
     extra: dict = field(default_factory=dict)
+    full_text: str = ""  # transient; written to per-article files only
+    full_text_file: str | None = None
     weight: float = 0.8  # transient (source weight); not serialized
 
     def to_dict(self) -> dict:
@@ -55,6 +57,9 @@ class Item:
         if self.kind == "paper":
             d["authors"] = self.authors
             d["venue"] = self.venue
+        if self.full_text_file:
+            d["full_text_available"] = True
+            d["full_text_file"] = self.full_text_file
         return d
 
 

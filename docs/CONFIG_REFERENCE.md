@@ -75,7 +75,7 @@ source without touching config: set the GitHub *Variable*
 
 | `type` | Category default | Needs | Notes |
 |---|---|---|---|
-| `rss` | open | `url` | optional `keywords` title filter |
+| `rss` | open | `url` | optional `keywords` title filter; embedded RSS/Atom content becomes an internal full-text reader when substantial |
 | `opml` | open | `url` or `path` | `RSS_MAX_FEEDS` caps expansion (default 10) |
 | `feed-json` | open | `url` | JSON Feed 1.x or bare array |
 | `static-page` | open | `url` (+ `query` CSS selector) | items stamped with build time |
@@ -91,6 +91,13 @@ Common fields: `id` (snake_case, unique), `name`, `section`
 0.8), `max_results` (default 50), `lang` (`"zh"`/`"en"` forces the items'
 language for the frontend's 中文/English filter; omit to auto-detect per
 item). The schema **rejects** `url`/`path` on `category: "private"` sources.
+
+The full-text reader has no config switch in v1. For RSS/Atom sources only,
+the pipeline marks an item **Full Text Available** when the feed itself
+contains substantial embedded article text; Relevance stores sanitized
+plaintext under `data/articles/` and the frontend opens it through
+`#/read/<section>/<item_id>`. Summary-only feeds still link to the original
+site exactly as before.
 
 ### Follow scholars and labs (the `following` section)
 

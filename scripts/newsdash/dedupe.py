@@ -81,6 +81,8 @@ def dedupe_items(items: list[Item]) -> list[Item]:
                 entry = {"source": item.source, "url": item.url}
                 if entry not in also:
                     also.append(entry)
+            if item.full_text and not winner.full_text:
+                winner.full_text = item.full_text
             # a duplicate may know identities the winner lacked (e.g. DOI)
             for k in keys:
                 claimed.setdefault(k, winner)

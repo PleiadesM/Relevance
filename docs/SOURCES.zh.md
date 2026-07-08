@@ -34,6 +34,7 @@
 ```
 
 信息量太大的源？加标题过滤：`"keywords": ["visualization", "accessibility"]`。
+若 feed 自身嵌入了足量正文（Atom `content` 或 RSS `content:encoded`），及君会把这些条目标为**可阅读全文**并在站内阅读器打开。若 feed 只有摘要，v1 不会再抓原文页面。
 
 **OPML**——整份订阅列表。提交文件（`"path": "feeds/follow.opml"`）或走 `FOLLOW_OPML_B64` Secret（构建时解码，绝不提交真实文件）。
 

@@ -1,5 +1,7 @@
 # Data Contract — pipeline ⇄ frontend
 
+[中文](DATA_CONTRACT.zh.md)
+
 This is the single interface document between the Python pipeline
 (`scripts/`) and the static frontend (`index.html` + `assets/js/`). If you
 change anything here, change both sides and the tests in the same commit.
@@ -76,9 +78,11 @@ One JSON object per file:
   break across platforms otherwise.
 - One salt (and thus one derived key) per pipeline run; every file gets a
   fresh random nonce. Derive once per session, decrypt N files.
-- The AAD binds a ciphertext to its section id: compute it from the section
-  you are loading (`newsdash:v1:` + section id), do not trust the envelope's
-  `aad` field (it is informational).
+- The AAD binds a ciphertext to what you are loading: section files use
+  `newsdash:v1:` + section id, source status uses `newsdash:v1:source-status`,
+  insights uses `newsdash:v1:insights`, and full-text article files use
+  `newsdash:v1:article:<section_id>:<item_id>`. Compute this locally; do not
+  trust the envelope's `aad` field (it is informational).
 - Verify the passphrase against `manifest.crypto.check` (plaintext is the
   ASCII string `newsdash:ok`, AAD `newsdash:v1:check`) *before* downloading
   data files — instant wrong-passphrase UX.
@@ -121,6 +125,8 @@ crypto tests together.
     "category": "open", "section": "news", "kind": "news",
     "published_at": "2026-07-06T12:34:00Z",
     "summary": "plaintext, ≤300 chars",
+    "full_text_available": true,          // present only when RSS/Atom embedded content qualified
+    "full_text_file": "articles/news/a1b2c3d4e5f60708.json",
     "tags": ["model-release"], "lang": "en", "score": 0.73,
     "extra": { "also_in": [ { "source": "…", "url": "…" } ] }
   } ]
@@ -141,6 +147,32 @@ uses this same payload shape; the frontend groups it by source by default.
 `item.lang` is `"zh"` or `"en"`: forced by the source's config `lang` when
 declared, else detected per item. The frontend's 中文/English filter and the
 overview strip's language split key off it.
+
+RSS/Atom entries that include substantial embedded full content (for example
+Atom `content` or RSS `content:encoded`) additionally carry
+`full_text_available: true` and `full_text_file`. The pipeline stores only
+sanitized plaintext, never upstream HTML, and never fetches article pages for
+this v1 reader. `full_text_file` points to a generated sibling under
+`data/articles/<section>/<item_id>.json` when plaintext, or `.enc.json` when
+`visibility: "private"`.
+
+Full-text article files are loaded on demand by `#/read/<section>/<item_id>`:
+
+```jsonc
+{
+  "meta": { "generated_at": "…Z", "section": "news",
+            "item_id": "a1b2c3d4e5f60708",
+            "source": "OpenAI News", "source_id": "openai_blog" },
+  "item": { /* same summary item shape, including full_text_file */ },
+  "full_text": "sanitized plaintext body, capped at 50,000 chars"
+}
+```
+
+In private visibility the article payload uses the same envelope parameters
+as other encrypted files, with AAD
+`newsdash:v1:article:<section_id>:<item_id>`. Article files are per-build
+generated data; the rolling archive deliberately strips `full_text_available`
+and `full_text_file` so it cannot point at stale article files.
 
 ### `schedule` (kind: schedule)
 
@@ -189,9 +221,13 @@ Events are RRULE-expanded occurrences within
 
 `source-status`: `{ generated_at, sources: [entry…], private_summary:
 { total, configured } }` — private sources appear **only** in the aggregate
-here; their detail rides inside the encrypted section metas.
+here; their detail rides inside the encrypted section metas. Public source
+entries include `full_text_count` (integer, usually `0`) for the current
+build, so the frontend can mark sources that produced at least one embedded
+full-text RSS item.
 `archive`: `{ meta: { generated_at, days, count }, items: [item…] }` —
-open + optional items only, rolling `archive_days`, capped at 3000.
+open + optional items only, rolling `archive_days`, capped at 3000. Archive
+items are summary-only and omit `full_text_available` / `full_text_file`.
 
 ### `insights.json` / `insights.enc.json` — optional AI enrichment
 

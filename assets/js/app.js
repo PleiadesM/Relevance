@@ -12,6 +12,7 @@ import * as clippingsView from "./views/clippings.js";
 import * as coursesView from "./views/courses.js";
 import * as favoritesView from "./views/favorites.js";
 import * as feedView from "./views/feed.js";
+import * as readerView from "./views/reader.js";
 import * as scheduleView from "./views/schedule.js";
 import * as settingsView from "./views/settings.js";
 import { fixDocLinks } from "./views/shared.js";
@@ -46,6 +47,10 @@ function renderView() {
     a.classList.toggle("active", a.dataset.route === route));
 
   if (route === "today") todayView.render(container);
+  else if (route.startsWith("read/")) {
+    const [, sectionId, itemId] = route.split("/");
+    readerView.render(container, sectionId, itemId);
+  }
   else if (route === "clippings") clippingsView.render(container);
   else if (route === "favorites") favoritesView.render(container);
   else if (route === "sources") sourcesView.render(container);

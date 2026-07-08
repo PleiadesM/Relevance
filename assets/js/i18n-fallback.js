@@ -106,7 +106,16 @@ export const FALLBACK_EN = {
     "groupNone": "Timeline",
     "citations": "{n} citations",
     "newBadge": "NEW",
-    "allTags": "All tags"
+    "allTags": "All tags",
+    "fullTextAvailable": "Full Text Available",
+    "original": "Original"
+  },
+  "reader": {
+    "back": "Back to feed",
+    "unavailable": "Full text unavailable",
+    "unavailableBody": "This item does not include embedded full text in the current feed snapshot.",
+    "stale": "Reader file unavailable",
+    "staleBody": "This article may have rolled out of the latest generated data. Open the original source instead."
   },
   "fav": {
     "title": "Favorites",
@@ -164,6 +173,8 @@ export const FALLBACK_EN = {
     "failed": "Failed",
     "skipped": "Awaiting secrets",
     "disabled": "Disabled",
+    "fullText": "Full text",
+    "fullTextCount": "{n}",
     "privateSummary": "{configured} of {total} private sources configured",
     "categories": {
       "open": "Open",

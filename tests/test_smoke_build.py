@@ -1,6 +1,9 @@
 import json
+from datetime import datetime, timezone
+from email.utils import format_datetime
 
 import pytest
+import responses
 
 import build as build_mod
 from newsdash import crypto
@@ -8,6 +11,19 @@ from newsdash import crypto
 
 def read(path):
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def rss_with_full_text(url="https://a.example/story"):
+    pub = format_datetime(datetime.now(timezone.utc), usegmt=True)
+    body = " ".join(f"fulltext-{i}" for i in range(140))
+    return f"""<?xml version="1.0"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<channel><title>T</title>
+<item><title>Full story</title><link>{url}</link>
+<pubDate>{pub}</pubDate>
+<description>Short summary</description>
+<content:encoded><![CDATA[<article><p>{body}</p></article>]]></content:encoded>
+</item></channel></rss>"""
 
 
 def test_smoke_zero_secret(tmp_path, monkeypatch, repo_root):
@@ -110,3 +126,68 @@ def test_private_visibility_encrypts_everything(tmp_path, monkeypatch, make_repo
     assert manifest["source_status_file"] == "source-status.enc.json"
     assert not (out / "news.json").exists()
     assert (out / "archive.enc.json").exists()
+
+
+@responses.activate
+def test_rss_full_text_generates_article_file_and_status(tmp_path, monkeypatch, make_repo):
+    monkeypatch.delenv("NEWSDASH_PASSPHRASE", raising=False)
+    responses.get("https://a.example/feed.xml", body=rss_with_full_text())
+    root = make_repo(sources={"schema_version": 1, "presets": [], "sources": [
+        {"id": "feed_a", "type": "rss", "section": "news",
+         "name": "A", "url": "https://a.example/feed.xml"},
+    ]})
+    out = tmp_path / "d"
+    build_mod.main(["--output-dir", str(out), "--repo-root", str(root)])
+
+    news = read(out / "news.json")
+    item = news["items"][0]
+    assert item["full_text_available"] is True
+    assert item["full_text_file"].startswith("articles/news/")
+    assert item["full_text_file"].endswith(".json")
+    article = read(out / item["full_text_file"])
+    assert article["item"]["id"] == item["id"]
+    assert article["full_text"].startswith("fulltext-0")
+
+    status = read(out / "source-status.json")
+    assert status["sources"][0]["full_text_count"] == 1
+
+    archive = read(out / "archive.json")
+    archived = archive["items"][0]
+    assert "full_text_available" not in archived
+    assert "full_text_file" not in archived
+
+
+@responses.activate
+def test_private_visibility_encrypts_article_files(tmp_path, monkeypatch, make_repo):
+    passphrase = "four random words here"
+    monkeypatch.setenv("NEWSDASH_PASSPHRASE", passphrase)
+    responses.get("https://a.example/feed.xml", body=rss_with_full_text())
+    root = make_repo(
+        site={"schema_version": 1, "title": "T", "visibility": "private",
+              "languages": ["en"], "default_language": "en",
+              "theme": "bear", "timezone": "UTC"},
+        sources={"schema_version": 1, "presets": [], "sources": [
+            {"id": "feed_a", "type": "rss", "section": "news",
+             "name": "A", "url": "https://a.example/feed.xml"},
+        ]},
+    )
+    out = tmp_path / "d"
+    build_mod.main(["--output-dir", str(out), "--repo-root", str(root)])
+
+    news = crypto.decrypt_json(read(out / "news.enc.json"), passphrase, "news")
+    item = news["items"][0]
+    assert item["full_text_available"] is True
+    assert item["full_text_file"].startswith("articles/news/")
+    assert item["full_text_file"].endswith(".enc.json")
+
+    article = crypto.decrypt_json(
+        read(out / item["full_text_file"]),
+        passphrase,
+        f"article:news:{item['id']}",
+    )
+    assert article["item"]["id"] == item["id"]
+    assert article["full_text"].startswith("fulltext-0")
+
+    status = crypto.decrypt_json(
+        read(out / "source-status.enc.json"), passphrase, "source-status")
+    assert status["sources"][0]["full_text_count"] == 1

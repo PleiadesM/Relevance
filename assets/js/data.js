@@ -79,6 +79,22 @@ export async function loadAllSections() {
   set({ sections, sourceStatus, insights });
 }
 
+export async function loadArticle(item) {
+  const { manifest, cryptoKey } = get();
+  const file = item?.full_text_file;
+  if (!manifest || !file) return { status: "missing", payload: null };
+  try {
+    const doc = await fetchData(file, manifest.build_id);
+    if (!file.endsWith(".enc.json")) return { status: "ok", payload: doc };
+    if (!cryptoKey) return { status: "locked", payload: null };
+    const sectionId = `article:${item.section}:${item.id}`;
+    return { status: "ok", payload: await decryptEnvelope(doc, cryptoKey, sectionId) };
+  } catch (err) {
+    console.error(`article ${item.id}:`, err);
+    return { status: "error", payload: null };
+  }
+}
+
 export function dropDecrypted() {
   const { manifest } = get();
   const sections = {};

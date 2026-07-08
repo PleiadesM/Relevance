@@ -48,6 +48,10 @@ them to `presets`.
 ```
 
 Firehose? Add a title filter: `"keywords": ["visualization", "accessibility"]`.
+If the feed embeds substantial article bodies (Atom `content` or RSS
+`content:encoded`), Relevance marks those items **Full Text Available** and
+opens them in the internal reader. It does not scrape article pages when a
+feed is summary-only.
 
 **OPML** — a whole subscription list. Committed file
 (`"path": "feeds/follow.opml"`) or private via the `FOLLOW_OPML_B64` secret

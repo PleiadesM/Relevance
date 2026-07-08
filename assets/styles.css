@@ -207,9 +207,55 @@ button:focus-visible, a:focus-visible {
   color: var(--fg-muted);
 }
 .also-in { font-family: var(--font-meta); font-size: 0.76rem; color: var(--fg-muted); }
+.original-link {
+  font-family: var(--font-meta);
+  font-size: 0.76rem;
+  color: var(--fg-muted);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+}
+.original-link:hover { color: var(--accent); }
 
 mark.nd-highlight { background: var(--highlight-bg); color: inherit; padding: 0 0.05em; }
 mark.nd-highlight.has-note { border-bottom: 2px dotted var(--accent); cursor: help; }
+
+/* ---- full-text reader ---- */
+
+.reader-article {
+  max-width: var(--measure);
+  margin: 0 auto;
+}
+.reader-back {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-family: var(--font-meta);
+  font-size: 0.82rem;
+  color: var(--fg-muted);
+  text-decoration: none;
+}
+.reader-back:hover { color: var(--accent); }
+.reader-title {
+  margin: 0.35rem 0 0.6rem;
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  line-height: 1.12;
+  letter-spacing: 0;
+}
+.reader-summary {
+  margin: 0 0 0.8rem;
+  color: var(--fg-muted);
+  font-size: 1.02rem;
+}
+.reader-actions {
+  margin: 0 0 calc(var(--space) * 1.4);
+  font-family: var(--font-meta);
+}
+.reader-body {
+  font-size: 1.05rem;
+  line-height: 1.78;
+}
+.reader-body p { margin: 0 0 1.05em; }
 
 /* ---- today ---- */
 
@@ -505,6 +551,17 @@ a.stat-tile:hover .stat-num { color: var(--accent); }
   border-radius: 2px;
   padding: 0.1em 0.45em;
 }
+.full-text-badge {
+  font-family: var(--font-meta);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 2px;
+  padding: 0.08em 0.45em;
+  white-space: nowrap;
+}
 .cite-badge { font-variant-numeric: tabular-nums; }
 
 /* ---- responsiveness, motion, print ---- */
@@ -512,6 +569,7 @@ a.stat-tile:hover .stat-num { color: var(--accent); }
 @media (max-width: 40rem) {
   .masthead-inner { flex-direction: column; gap: 0.3rem; }
   .masthead-meta { width: 100%; }
+  .reader-title { font-size: 1.75rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {

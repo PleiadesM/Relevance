@@ -53,6 +53,17 @@ export async function toggleFavorite(item, sectionId, favs, btn) {
   btn.setAttribute("aria-pressed", String(active));
 }
 
+export function itemLinkAttrs(item, sectionId) {
+  if (item.full_text_file) {
+    return { href: `#/read/${sectionId}/${item.id}` };
+  }
+  return {
+    href: safeHref(item.url),
+    target: "_blank",
+    rel: "noopener noreferrer",
+  };
+}
+
 // opts: { favs: Set|null (unlocked only), newSince: ISO|null }
 export function itemCard(item, sectionId, opts = {}) {
   const isPaper = item.kind === "paper";
@@ -71,6 +82,9 @@ export function itemCard(item, sectionId, opts = {}) {
         title: fmtDateTime(item.published_at, { year: "numeric" }),
       }, fmtRelative(item.published_at)),
       isNew ? el("span", { class: "new-badge" }, t("feed.newBadge")) : null,
+      item.full_text_available
+        ? el("span", { class: "full-text-badge" }, t("feed.fullTextAvailable"))
+        : null,
       typeof citations === "number" && citations > 0
         ? el("span", { class: "cite-badge" }, t("feed.citations", { n: citations }))
         : null,
@@ -87,7 +101,7 @@ export function itemCard(item, sectionId, opts = {}) {
     ),
     el("h3", { class: "item-title" },
       el("a", {
-        href: safeHref(item.url), target: "_blank", rel: "noopener noreferrer",
+        ...itemLinkAttrs(item, sectionId),
         "data-annotatable": "",
       }, item.title),
     ),
@@ -99,12 +113,20 @@ export function itemCard(item, sectionId, opts = {}) {
     item.summary
       ? el("p", { class: "item-summary", "data-annotatable": "" }, item.summary)
       : null,
-    (item.tags?.length || item.extra?.also_in?.length)
+    (item.tags?.length || item.extra?.also_in?.length || item.full_text_available)
       ? el("div", { class: "item-tags" },
           (item.tags || []).map((tag) => el("span", { class: "tag" }, tag)),
           item.extra?.also_in?.length
             ? el("span", { class: "also-in" },
                 `${t("feed.alsoIn")}: ${item.extra.also_in.map((s) => s.source).join(", ")}`)
+            : null,
+          item.full_text_available
+            ? el("a", {
+                class: "original-link",
+                href: safeHref(item.url),
+                target: "_blank",
+                rel: "noopener noreferrer",
+              }, t("feed.original"))
             : null)
       : null,
   );

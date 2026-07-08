@@ -8,7 +8,7 @@ import { favoriteIdSet } from "../annodb.js";
 import { clear, el, safeHref } from "../dom.js";
 import { fmtDate, fmtDateTime, fmtRelative, fmtTime, getLang, t } from "../i18n.js";
 import { get } from "../store.js";
-import { itemCard, toggleFavorite } from "./feed.js";
+import { itemCard, itemLinkAttrs, toggleFavorite } from "./feed.js";
 import { emptyCard, lockedCard } from "./shared.js";
 
 function isTheType() {
@@ -271,6 +271,9 @@ function featuredArticleCard(item, favs) {
         datetime: item.published_at,
         title: fmtDateTime(item.published_at, { year: "numeric" }),
       }, fmtRelative(item.published_at)),
+      item.full_text_available
+        ? el("span", { class: "full-text-badge" }, t("feed.fullTextAvailable"))
+        : null,
       typeof item.score === "number"
         ? el("span", { class: "item-score" }, item.score.toFixed(2)) : null,
       favs
@@ -284,11 +287,20 @@ function featuredArticleCard(item, favs) {
     ),
     el("h2", { class: "item-title" },
       el("a", {
-        href: safeHref(item.url), target: "_blank", rel: "noopener noreferrer",
+        ...itemLinkAttrs(item, "news"),
         "data-annotatable": "",
       }, item.title),
     ),
     item.summary ? el("p", { class: "item-summary", "data-annotatable": "" }, item.summary) : null,
+    item.full_text_available
+      ? el("div", { class: "item-tags" },
+          el("a", {
+            class: "original-link",
+            href: safeHref(item.url),
+            target: "_blank",
+            rel: "noopener noreferrer",
+          }, t("feed.original")))
+      : null,
   );
 }
 

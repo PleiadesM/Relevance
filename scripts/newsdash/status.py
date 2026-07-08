@@ -22,6 +22,7 @@ class StatusEntry:
     type: str
     ok: bool
     count: int = 0
+    full_text_count: int = 0
     error: str | None = None
     skip_reason: str | None = None
 
@@ -34,6 +35,7 @@ class StatusEntry:
             "type": self.type,
             "ok": self.ok,
             "count": self.count,
+            "full_text_count": self.full_text_count,
             "error": self.error,
             "skip_reason": self.skip_reason,
         }
@@ -49,6 +51,7 @@ class StatusAccumulator:
         *,
         ok: bool,
         count: int = 0,
+        full_text_count: int = 0,
         error: Exception | str | None = None,
         skip_reason: str | None = None,
     ) -> None:
@@ -68,6 +71,7 @@ class StatusAccumulator:
                 type=source.type,
                 ok=ok,
                 count=count,
+                full_text_count=full_text_count,
                 error=message,
                 skip_reason=skip_reason,
             )

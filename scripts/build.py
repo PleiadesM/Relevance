@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import argparse
 import os
+import shutil
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -40,6 +41,7 @@ from newsdash.todays_image import caption_todays_image, find_todays_image
 FUTURE_SLACK_SECONDS = 2 * 3600  # tolerate slightly future-dated feed items
 MAX_ITEMS_PER_SECTION = 300
 MAX_ARCHIVE_ITEMS = 3000
+ARTICLE_ROOT = "articles"
 
 
 def parse_args(argv=None):
@@ -80,6 +82,53 @@ def load_previous_archive(out_dir: Path, passphrase: str | None) -> list[dict]:
     except (crypto.DecryptError, ValueError, KeyError) as exc:
         print(f"[archive] previous archive unreadable ({type(exc).__name__}); starting fresh")
     return []
+
+
+def article_section_id(section: str, item_id: str) -> str:
+    return f"article:{section}:{item_id}"
+
+
+def article_file_name(section: str, item_id: str, encrypted: bool) -> str:
+    suffix = ".enc.json" if encrypted else ".json"
+    return f"{ARTICLE_ROOT}/{section}/{item_id}{suffix}"
+
+
+def archive_item(item: dict) -> dict:
+    """Keep the rolling archive summary-only; article files are per build."""
+    d = dict(item)
+    d.pop("full_text_available", None)
+    d.pop("full_text_file", None)
+    return d
+
+
+def write_article_file(
+    out_dir: Path,
+    *,
+    section: str,
+    item,
+    generated_at: str,
+    encrypted: bool,
+    key: bytes | None,
+    salt: bytes | None,
+) -> None:
+    item.full_text_file = article_file_name(section, item.id, encrypted)
+    payload = {
+        "meta": {
+            "generated_at": generated_at,
+            "section": section,
+            "item_id": item.id,
+            "source": item.source,
+            "source_id": item.source_id,
+        },
+        "item": item.to_dict(),
+        "full_text": item.full_text,
+    }
+    path = out_dir / item.full_text_file
+    if encrypted:
+        write_json(path, crypto.encrypt_json(
+            payload, article_section_id(section, item.id), key, salt))
+    else:
+        write_json(path, payload)
 
 
 def main(argv=None) -> None:
@@ -158,7 +207,12 @@ def main(argv=None) -> None:
                 for it in result:
                     it.lang = source.lang
             items_by_section.setdefault(source.section, []).extend(result)
-            status.record(source, ok=True, count=len(result))
+            status.record(
+                source,
+                ok=True,
+                count=len(result),
+                full_text_count=sum(1 for it in result if getattr(it, "full_text", "")),
+            )
             print(f"[{source.id}] ok, {len(result)} items")
 
     # ---- assemble section payloads --------------------------------------
@@ -177,6 +231,7 @@ def main(argv=None) -> None:
 
     payloads: dict[str, dict] = {}
     manifest_sections: list[dict] = []
+    shutil.rmtree(out_dir / ARTICLE_ROOT, ignore_errors=True)
 
     for section in cfg.sections:
         kind = SECTION_KINDS.get(section, "news")
@@ -202,6 +257,17 @@ def main(argv=None) -> None:
                 score_item(it, now, cfg.interests_keywords, cfg.interests_boost)
             items.sort(key=lambda it: it.published_at, reverse=True)
             items = items[:MAX_ITEMS_PER_SECTION]
+            for it in items:
+                if it.full_text:
+                    write_article_file(
+                        out_dir,
+                        section=section,
+                        item=it,
+                        generated_at=generated_at,
+                        encrypted=encrypted,
+                        key=key,
+                        salt=salt,
+                    )
             payloads[section] = {
                 "meta": {
                     "generated_at": generated_at,
@@ -301,10 +367,14 @@ def main(argv=None) -> None:
 
     # ---- archive (open + optional items only; never private data) -------
     previous = load_previous_archive(out_dir, passphrase)
-    archive_map = {d["id"]: d for d in previous if isinstance(d, dict) and "id" in d}
+    archive_map = {
+        d["id"]: archive_item(d)
+        for d in previous
+        if isinstance(d, dict) and "id" in d
+    }
     for section, payload in payloads.items():
         for item in payload.get("items", []):
-            archive_map[item["id"]] = item
+            archive_map[item["id"]] = archive_item(item)
     cutoff = now.timestamp() - win.archive_days * 86400
 
     def _fresh(d: dict) -> bool:

@@ -34,6 +34,7 @@ export function render(container) {
       el("th", {}, t("sources.type")),
       el("th", {}, t("sources.category")),
       el("th", {}, t("sources.status")),
+      el("th", { class: "num" }, t("sources.fullText")),
       el("th", { class: "num" }, t("sources.items")),
     )),
     el("tbody", {}, rows.map((entry) => {
@@ -43,6 +44,8 @@ export function render(container) {
         el("td", {}, entry.type),
         el("td", {}, t(`sources.categories.${entry.category}`)),
         el("td", {}, label),
+        el("td", { class: "num" },
+          entry.full_text_count ? t("sources.fullTextCount", { n: entry.full_text_count }) : "—"),
         el("td", { class: "num" }, entry.skip_reason ? "—" : String(entry.count)),
       );
     })),

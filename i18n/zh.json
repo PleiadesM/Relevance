@@ -99,7 +99,16 @@
     "groupNone": "时间线",
     "citations": "被引 {n}",
     "newBadge": "新",
-    "allTags": "全部标签"
+    "allTags": "全部标签",
+    "fullTextAvailable": "可阅读全文",
+    "original": "原文"
+  },
+  "reader": {
+    "back": "返回列表",
+    "unavailable": "暂无全文",
+    "unavailableBody": "此条目在当前 feed 快照中没有嵌入全文。",
+    "stale": "阅读文件不可用",
+    "staleBody": "这篇文章可能已经不在最新生成的数据中。请打开原文阅读。"
   },
   "fav": {
     "title": "收藏",
@@ -157,6 +166,8 @@
     "failed": "失败",
     "skipped": "等待配置",
     "disabled": "已停用",
+    "fullText": "全文",
+    "fullTextCount": "{n}",
     "privateSummary": "私密信源已配置 {configured} / {total}",
     "categories": { "open": "公开", "optional": "可选", "private": "私密" }
   },
