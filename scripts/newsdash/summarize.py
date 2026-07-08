@@ -21,7 +21,12 @@ MAX_NEWS_ITEMS = 20
 MAX_PAPER_ITEMS = 10
 RESPONSE_KEYS = ("brief", "news_summary", "papers_summary", "image_query")
 
-MAX_RESPONSE_TOKENS = 500
+# Reasoning-capable models (DeepSeek reasoner/R1-style, o1-style, etc.) spend
+# part of this same budget on a hidden chain-of-thought before ever emitting
+# visible content — a low cap can exhaust itself entirely on reasoning and
+# come back with finish_reason="length" and an empty `content`. 2000 leaves
+# headroom for that without meaningfully changing cost for plain chat models.
+MAX_RESPONSE_TOKENS = 2000
 
 # Providers that support strict JSON mode (OpenAI, DeepSeek, and most
 # OpenAI-compatible gateways) enforce two things: the literal word "json"
@@ -65,7 +70,16 @@ def _post_chat(base_url: str, api_key: str, model: str, messages: list[dict],
         timeout=LLM_TIMEOUT,
     )
     resp.raise_for_status()
-    return resp.json()["choices"][0]["message"]["content"]
+    choice = resp.json()["choices"][0]
+    content = (choice.get("message") or {}).get("content") or ""
+    if not content.strip():
+        # Surfaces as a clear ValueError instead of a downstream
+        # JSONDecodeError("Expecting value: line 1 column 1 (char 0)") when
+        # _extract_json is handed "" — see MAX_RESPONSE_TOKENS comment for
+        # the usual cause (reasoning models truncated before real content).
+        finish_reason = choice.get("finish_reason", "?")
+        raise ValueError(f"empty completion content (finish_reason={finish_reason})")
+    return content
 
 
 def _extract_json(content: str) -> dict:

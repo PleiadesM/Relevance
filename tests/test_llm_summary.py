@@ -104,6 +104,22 @@ def test_missing_key_in_json_returns_none():
 
 
 @responses.activate
+def test_empty_completion_content_returns_none(capsys):
+    # Reasoning-capable models can burn the whole token budget on hidden
+    # chain-of-thought and come back with an empty `content` and
+    # finish_reason="length" — must not surface as a confusing
+    # JSONDecodeError("Expecting value: line 1 column 1 (char 0)").
+    responses.post(CHAT_URL, json={
+        "choices": [{"message": {"content": ""}, "finish_reason": "length"}],
+    })
+    payloads = make_payloads(news=[news_item(1)])
+    env = {"LLM_API_KEY": "sk-test"}
+    assert summarize(payloads, env, make_session()) is None
+    err = capsys.readouterr().out
+    assert "finish_reason=length" in err
+
+
+@responses.activate
 def test_http_error_returns_none():
     responses.post(CHAT_URL, status=500)
     payloads = make_payloads(news=[news_item(1)])
