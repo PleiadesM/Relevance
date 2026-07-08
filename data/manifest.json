@@ -1,36 +1,36 @@
 {
  "app": "personal-newsdash",
  "app_version": "0.1.0",
- "build_id": "20260707T154818Z",
+ "build_id": "20260708T034150Z",
  "crypto": {
   "alg": "AES-256-GCM",
   "check": {
    "aad": "newsdash:v1:check",
-   "ct": "7Se8xX3lPg3fng0vXAziER1sD6PrdCiybwQH",
-   "nonce": "8GfKL2dUhTakd+1T"
+   "ct": "tAP+9ljIWyUjzxkeh45vojdVWR9miKA1A2Gl",
+   "nonce": "oLWj6mUDt1FRi0rL"
   },
   "kdf": {
    "hash": "SHA-256",
    "iterations": 600000,
    "name": "PBKDF2",
-   "salt": "cIUorp+/VKRwebkMYQH5iQ=="
+   "salt": "Xk9WutMvceJp7rxUzZLfJw=="
   }
  },
- "generated_at": "2026-07-07T15:48:18Z",
+ "generated_at": "2026-07-08T03:41:50Z",
  "schema_version": 1,
  "sections": [
   {
    "category": "open",
-   "count": 106,
+   "count": 115,
    "encrypted": false,
    "file": "news.json",
    "id": "news",
    "kind": "news",
-   "status": "ok"
+   "status": "degraded"
   },
   {
    "category": "optional",
-   "count": 15,
+   "count": 13,
    "encrypted": false,
    "file": "papers.json",
    "id": "papers",
@@ -62,7 +62,7 @@
   ],
   "subtitle": "",
   "theme": "the-type",
-  "timezone": "UTC",
+  "timezone": "America/Chicago",
   "title": "Personal Newsdash",
   "visibility": "public"
  },
