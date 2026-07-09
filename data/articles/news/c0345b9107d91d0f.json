@@ -1,0 +1,31 @@
+{
+ "full_text": "OpenAI is facing calls for \"serious sanctions\" after fighting to keep news organizations from snooping through millions of logs to find evidence of users skirting their paywalls by prompting ChatGPT to regurgitate their articles. This evidence is considered among the most important to both sides, potentially either dooming OpenAI as an infringer or exonerating its chatbot technology as a transformative fair use of news sites' content. In a sanctions motion Thursday, news organizations suing OpenAI—led by The New York Times—accused the AI firm of repeatedly lying for years to conceal evidence of infringement that could hobble OpenAI's defense. Read full article Comments",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/c0345b9107d91d0f.json",
+  "id": "c0345b9107d91d0f",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-07-09T18:57:53Z",
+  "score": 0.7638,
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai",
+  "summary": "OpenAI may be sanctioned for hiding, deleting ChatGPT logs in NYT copyright fight.",
+  "tags": [
+   "policy",
+   "llm"
+  ],
+  "title": "OpenAI may have made a fatal misstep in copyright fight with news orgs",
+  "url": "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/"
+ },
+ "meta": {
+  "generated_at": "2026-07-09T20:02:35Z",
+  "item_id": "c0345b9107d91d0f",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai"
+ }
+}

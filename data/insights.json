@@ -1,28 +1,28 @@
 {
- "brief": "Today's news features breakthroughs in biomimetic robotics, escalating Middle East tensions, and AI's role in deepfake abuse, while research papers explore visualization incentives, brain-computer interfaces, and sign language recognition.",
+ "brief": "Graham Platner's Senate campaign implodes amid disarray, OpenAI releases GPT-5.6, and Wally Funk passes away. Research highlights include performance-based incentives in visualization and multimodal sign language recognition.",
  "meta": {
-  "generated_at": "2026-07-09T18:07:20Z"
+  "generated_at": "2026-07-09T20:02:35Z"
  },
- "news_summary": "A robot inspired by diving birds can swim and fly, and a class action lawsuit against AI makers expands over deepfake child sexual abuse material. The US launches airstrikes against Iran, and Maine faces political turmoil as a Senate candidate's withdrawal deadline looms.",
- "papers_summary": "Research on performance-based incentives in visualization experiments and a landscape analysis of brain-computer interface trials in China highlight human-computer interaction advances. A multimodal smart glove for sign language recognition using deep learning is also presented.",
+ "news_summary": "Graham Platner's Maine Senate campaign suspends amid internal chaos; Maine says no official withdrawal yet. OpenAI releases GPT-5.6 model lineup. Wally Funk, who set an age record for space travel, dies at 87. EPA proposes weakening heavy-duty truck pollution rules.",
+ "papers_summary": "Papers explore performance-based incentives in visualization experiments, clinical translation of brain-computer interfaces in China, and a smart glove for sign language recognition using deep learning. Compositional analysis of traditional Chinese paintings via a visual analytics system is also presented.",
  "summaries": {
   "en": {
-   "brief": "Today's news features breakthroughs in biomimetic robotics, escalating Middle East tensions, and AI's role in deepfake abuse, while research papers explore visualization incentives, brain-computer interfaces, and sign language recognition.",
-   "news_summary": "A robot inspired by diving birds can swim and fly, and a class action lawsuit against AI makers expands over deepfake child sexual abuse material. The US launches airstrikes against Iran, and Maine faces political turmoil as a Senate candidate's withdrawal deadline looms.",
-   "papers_summary": "Research on performance-based incentives in visualization experiments and a landscape analysis of brain-computer interface trials in China highlight human-computer interaction advances. A multimodal smart glove for sign language recognition using deep learning is also presented."
+   "brief": "Graham Platner's Senate campaign implodes amid disarray, OpenAI releases GPT-5.6, and Wally Funk passes away. Research highlights include performance-based incentives in visualization and multimodal sign language recognition.",
+   "news_summary": "Graham Platner's Maine Senate campaign suspends amid internal chaos; Maine says no official withdrawal yet. OpenAI releases GPT-5.6 model lineup. Wally Funk, who set an age record for space travel, dies at 87. EPA proposes weakening heavy-duty truck pollution rules.",
+   "papers_summary": "Papers explore performance-based incentives in visualization experiments, clinical translation of brain-computer interfaces in China, and a smart glove for sign language recognition using deep learning. Compositional analysis of traditional Chinese paintings via a visual analytics system is also presented."
   },
   "zh": {
-   "brief": "今日中文新闻聚焦中国异见者董广平偷渡韩国、广西洪灾、澳门国安法首案起诉、德国华人性侵案跨国网络、台湾毒油事件及英国大选热门候选人对华政策等。无重要论文发表。",
-   "news_summary": "BBC中文报道多起涉及中国社会与政治事件：异见者董广平成功偷渡韩国后赴加拿大；广西洪灾预警失效致民众措手不及；澳门前议员欧锦新被控颠覆罪面临25年刑期；德国华人Telegram群组涉及跨国迷奸案；台湾毒油流入超商暴露监管漏洞；英国首相候选人贝安德的对华政策引发关注。",
-   "papers_summary": "今日无中文优先论文，英文论文涉及可视化实验激励、脑机接口临床试验、传统中国画构图分析等。"
+   "brief": "英国工党启动新党魁选举，贝安德成热门人选；中国异见者董广平偷渡韩国成功；广西洪灾预警失效引发质疑；澳门国安法首案起诉颠覆罪。",
+   "news_summary": "英国工党议员开始提名新党魁接替施纪贤，贝安德被视为下任首相热门；中国异见者董广平自述偷渡韩国经历；广西洪灾预警系统失灵致民众措手不及；澳门前议员欧锦新被控颠覆国家政权罪。",
+   "papers_summary": "今日无优先中文论文，英文论文涉及可视化、脑机接口、手语识别等AI相关研究。"
   }
  },
  "todays_image": {
-  "caption": "While Robonaut 1A was built for the void of space, today's robot defies gravity and buoyancy alike, proving that machines can now conquer any frontier.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2025-00372",
-  "source_name": "National Air and Space Museum",
-  "source_url": "http://n2t.net/ark:/65665/nv9971fdc5a-43bf-46ca-9b7a-bd8680991e22",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2025-00372",
-  "title": "Robonaut 1A"
+  "caption": "Both the vintage ballot box and the Maine fiasco reflect how the mechanisms of democracy can be bent or broken by the personalities they were meant to contain.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-JN2026-00282-000001",
+  "source_name": "National Museum of American History",
+  "source_url": null,
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-JN2026-00282-000001&max=150",
+  "title": "Ballot box, mid-20th century"
  }
 }
