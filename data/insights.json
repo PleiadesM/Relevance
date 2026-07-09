@@ -1,16 +1,28 @@
 {
- "brief": "US military strikes on Iran escalate tensions in the Middle East, while Australia faces emergency service disruptions due to a Telstra outage. In research, new AI models advance game world generation and weather forecasting visualization.",
+ "brief": "Political scandal and military escalation dominate the news as Graham Platner exits the Senate race over sexual assault allegations and US-Iran tensions flare with fresh strikes. In tech, AI model comparisons and the Bun rewrite in Rust highlight ongoing innovation, while research papers explore generative world models, prompt engineering education, and weather communication.",
  "meta": {
-  "generated_at": "2026-07-08T23:37:13Z"
+  "generated_at": "2026-07-09T00:59:31Z"
  },
- "news_summary": "US launches fresh strikes on Iran as Trump threatens further action; Telstra's triple-zero issues persist, affecting emergency calls in Australia.",
- "papers_summary": "Papers introduce AlayaWorld for long-horizon video game generation and a prompt engineering tutor; also present GeoXplain for on-the-fly visual explanations of weather foundation models.",
+ "news_summary": "Graham Platner ends his Maine Senate campaign following a sexual assault allegation, as Democrats scramble for a replacement. The US launches strikes on Iran and Trump threatens escalation, while a Telstra outage disrupts emergency calls in Australia. In tech, comparisons of Grok 4.5, GPT-5.5, and Claude emerge alongside the Bun rewrite in Rust and a John Deere right-to-repair settlement.",
+ "papers_summary": "Papers introduce AlayaWorld for long-horizon video world generation and Prompt Coach for teaching prompt engineering. Other research explores perceived system predictability, weather foundation model explanations with GeoXplain, and EEG-based imagined speech decoding with hybrid CNN-SNN architectures.",
+ "summaries": {
+  "en": {
+   "brief": "Political scandal and military escalation dominate the news as Graham Platner exits the Senate race over sexual assault allegations and US-Iran tensions flare with fresh strikes. In tech, AI model comparisons and the Bun rewrite in Rust highlight ongoing innovation, while research papers explore generative world models, prompt engineering education, and weather communication.",
+   "news_summary": "Graham Platner ends his Maine Senate campaign following a sexual assault allegation, as Democrats scramble for a replacement. The US launches strikes on Iran and Trump threatens escalation, while a Telstra outage disrupts emergency calls in Australia. In tech, comparisons of Grok 4.5, GPT-5.5, and Claude emerge alongside the Bun rewrite in Rust and a John Deere right-to-repair settlement.",
+   "papers_summary": "Papers introduce AlayaWorld for long-horizon video world generation and Prompt Coach for teaching prompt engineering. Other research explores perceived system predictability, weather foundation model explanations with GeoXplain, and EEG-based imagined speech decoding with hybrid CNN-SNN architectures."
+  },
+  "zh": {
+   "brief": "美伊衝突升級，特朗普稱協議告吹，而中國低調參與伊朗最高領袖葬禮。德國華人性侵案受害者首度公開控訴。同時，AI研究在遊戲世界生成和提示工程教育上取得進展。",
+   "news_summary": "美伊徹夜交火，特朗普威脅更多打擊，三艘國際船舶被擊中；中國派代表出席哈梅內伊葬禮，顯示伊朗外交新動向。德國華人性侵案受害者公開經歷，學者分析犯罪心理。",
+   "papers_summary": "AI研究提出長時程可遊玩視頻世界生成框架AlayaWorld，以及基於智能體的提示工程教育工具Prompt Coach，並在傳統中國畫知識圖譜可視化方面有創新方法。"
+  }
+ },
  "todays_image": {
-  "caption": "Just as the Douglas M-2 once carried mail across open skies, modern military aircraft now deliver strikes that turn diplomatic routes into aerial battlefields.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-234863_101z",
-  "source_name": "National Postal Museum",
-  "source_url": "https://postalmuseum.si.edu/object/npm_0.234863.101",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-234863_101z",
-  "title": "Douglas M-2 model"
+  "caption": "The sickle and flail separate grain from chaff, much like this scandal has sifted the field of candidates, leaving only a new nominee.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1994.91.249_1",
+  "source_name": "Smithsonian American Art Museum",
+  "source_url": "https://americanart.si.edu/collections/search/artwork/?id=35349",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1994.91.249_1",
+  "title": "Evolution of the sickle and the flail--33-Horse Team Combined Harvester-- Walla Walla, Washington"
  }
 }
