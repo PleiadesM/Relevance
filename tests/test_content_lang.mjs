@@ -14,6 +14,7 @@ const { setLang } = await import("../assets/js/i18n.js");
 const {
   contentLang,
   filterItemsForContentLang,
+  localizedApropos,
   localizedInsights,
 } = await import("../assets/js/content_lang.js");
 
@@ -46,9 +47,22 @@ if (localizedInsights(insights).brief !== "ZH") {
   throw new Error("Chinese mode should use summaries.zh");
 }
 
+const apropos = {
+  summaries: {
+    en: { summary: "EN detour", why_irrelevant: "EN why" },
+    zh: { summary: "ZH detour", why_irrelevant: "ZH why" },
+  },
+};
+if (localizedApropos(apropos).summary !== "ZH detour") {
+  throw new Error("Chinese mode should use Apropos summaries.zh");
+}
+
 setLang("en", { persist: false });
 if (localizedInsights({ brief: "legacy" }).brief !== "legacy") {
   throw new Error("English mode should support legacy scalar insights");
+}
+if (localizedApropos({ summaries: { en: { summary: "EN only" } } }).summary !== "EN only") {
+  throw new Error("Apropos should fall back to English summaries");
 }
 
 setLang("zh", { persist: false });

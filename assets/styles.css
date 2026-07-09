@@ -300,6 +300,96 @@ mark.nd-highlight.has-note { border-bottom: 2px dotted var(--accent); cursor: he
 .todays-image-source { margin: 0; font-family: var(--font-meta); font-size: 0.78rem; }
 .todays-image-source a { color: inherit; }
 
+.apropos-card {
+  position: relative;
+  margin: calc(var(--space) * 2) 0 0;
+  padding: clamp(1rem, 3vw, 1.4rem);
+  border: 1px solid var(--rule-strong);
+  border-radius: 8px;
+  background: var(--bg-elev);
+  overflow: hidden;
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+}
+.apropos-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 4px;
+  background: var(--accent);
+}
+.apropos-card:hover,
+.apropos-card:focus-within {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+.apropos-kicker {
+  margin: 0 0 0.55rem;
+  font-family: var(--font-meta);
+  font-size: 0.68rem;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.apropos-body {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(14rem, 0.52fr);
+  gap: clamp(1rem, 3vw, 2rem);
+  align-items: end;
+}
+.apropos-title {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 1.75rem;
+  line-height: 1.12;
+  letter-spacing: 0;
+}
+.apropos-topic {
+  margin: 0.4rem 0 0;
+  font-family: var(--font-meta);
+  font-size: 0.78rem;
+  color: var(--fg-muted);
+}
+.apropos-summary {
+  margin: 0.85rem 0 0;
+  max-width: 54rem;
+  font-size: 1rem;
+  line-height: 1.55;
+}
+.apropos-why {
+  margin: 0.45rem 0 0;
+  font-family: var(--font-meta);
+  font-size: 0.82rem;
+  color: var(--fg-muted);
+}
+.apropos-source {
+  display: flex;
+  flex-direction: column;
+  gap: 0.16rem;
+  min-width: 0;
+  padding-left: 1rem;
+  border-left: 1px solid var(--rule-strong);
+  font-family: var(--font-meta);
+  text-decoration: none;
+  color: var(--fg);
+}
+.apropos-source:hover .apropos-source-title { color: var(--accent); }
+.apropos-source-label {
+  font-size: 0.68rem;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  color: var(--fg-muted);
+}
+.apropos-source-title {
+  font-size: 0.95rem;
+  font-weight: 650;
+  line-height: 1.35;
+}
+.apropos-source-meta {
+  font-size: 0.76rem;
+  color: var(--fg-muted);
+}
+
 .day-group { margin-bottom: 0.7rem; }
 .day-label { margin: 0 0 0.3rem; font-family: var(--font-meta); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--fg-muted); }
 
@@ -570,6 +660,14 @@ a.stat-tile:hover .stat-num { color: var(--accent); }
   .masthead-inner { flex-direction: column; gap: 0.3rem; }
   .masthead-meta { width: 100%; }
   .reader-title { font-size: 1.75rem; }
+  .apropos-title { font-size: 1.45rem; }
+  .apropos-body { grid-template-columns: 1fr; }
+  .apropos-source {
+    padding-left: 0;
+    padding-top: 0.75rem;
+    border-left: none;
+    border-top: 1px solid var(--rule-strong);
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

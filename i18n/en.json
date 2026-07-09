@@ -67,7 +67,10 @@
     "imageSource": "Source:",
     "todaysFeed": "Today's Feed",
     "featured": "Featured",
-    "photoOfTheDay": "Photo of the Day"
+    "photoOfTheDay": "Photo of the Day",
+    "aproposTitle": "Apropos-of-Nothing",
+    "aproposKicker": "Not for you, probably",
+    "aproposSource": "Source"
   },
   "overview": {
     "newToday": "New today",
@@ -179,8 +182,8 @@
     "privacy": "Private mode",
     "print": "Print today's brief",
     "aiSummary": "AI summary",
-    "aiSummaryConfigured": "Configured — an AI daily brief and Today's Image may appear on the Today page.",
-    "aiSummaryNotConfigured": "Not configured. The dashboard owner can add an LLM_API_KEY secret to enable an AI daily brief and Today's Image.",
+    "aiSummaryConfigured": "Configured — an AI daily brief, Today's Image, and Apropos-of-Nothing may appear on the Today page.",
+    "aiSummaryNotConfigured": "Not configured. The dashboard owner can add an LLM_API_KEY secret to enable an AI daily brief and Apropos-of-Nothing.",
     "about": "About",
     "aboutBody": "Relevance — a serverless, self-hosted news · schedule · research dashboard. Data updates via GitHub Actions; private sections are AES-256 encrypted and decrypted only in your browser.",
     "version": "Version"

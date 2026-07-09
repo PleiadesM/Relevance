@@ -34,12 +34,12 @@
 - **收集新闻、最新论文与趋势：** 应用支持 RSS，并内置抓取器获取最新的在线新闻。
 - **生成网站：** 收集到的新闻会被部署为一个网站。
 - **自动更新：** 网站会自动更新，默认每两小时刷新一次，你也可以轻松修改（[见下文说明](#自动更新github-actions-与配置)）。
-- **AI 摘要（需要 LLM API Key）：** 用 LLM 按你的兴趣给新闻打分，并在首页生成一份总摘要。
+- **AI 摘要（需要 LLM API Key）：** 用 LLM 按你的兴趣给新闻打分，在首页生成总摘要，并在页末加入一张离题新闻卡片。
 - **今日一图（需要 LLM API Key 与 Smithsonian API Key）：** 让 LLM 根据当天收集到的信源生成关键词，再到 [Smithsonian Open Access](https://www.si.edu/openaccess) 检索一张与当日主题相符的图片。
 - **私密模式：** "私密"在这里有两层含义：完整私密模式与私密可见性。前者是指你部署的整个网页都被加密（[见下文说明](#私密模式及其管理)），需要口令才能访问；私密可见性则是指部分信息只对你自己可见，比如收藏、高亮与笔记。因此，设置一个口令是必要的。
 - **收藏、批注与笔记：** 你也可以高亮收集到的文字，这些内容存放在你本地的浏览器存储中，只有你能看到，且需要设置口令才能读取。
 - **主题：** 提供多套主题，目前 `The Type`（字砌）功能最完整。
-- **说来无关（开发中，需要 LLM API Key）：** 这个应用在帮你收集最相关信息的同时，也会尝试展示一些完全无关的信息，稍微打破一下你的信息茧房。
+- **无关一则（需要 LLM API Key）：** 这个应用在帮你收集最相关信息的同时，也会让你的 LLM 找一条完全无关的公开新闻，附短摘要与来源链接，稍微打破一下你的信息茧房。
 
 ---
 ## 快速开始
@@ -114,7 +114,7 @@ and never commit tokens, calendar URLs, or passphrases into the repo.
 | `CANVAS_TOKEN` | `courses` 栏目 | Canvas → Account → Settings → **+ New Access Token**。Token 是全账户权限——每学期轮换 |
 | `OPENALEX_API_KEY` | 可选 | OpenAlex 现在大多拒绝免密钥请求；无 Key 时该信源尽力而为 |
 | `FOLLOW_OPML_B64` | 可选 | 兼容雷达的私人 OPML，构建时解码到 `feeds/follow.opml` |
-| `LLM_API_KEY` | 可选——AI 每日简报 | 你自己的 OpenAI Chat Completions 兼容端点 Key（OpenAI、OpenRouter、Groq、Together、自建服务等）。默认关闭，见下文 |
+| `LLM_API_KEY` | 可选——AI 每日简报 + 无关一则 | 你自己的 OpenAI Chat Completions 兼容端点 Key（OpenAI、OpenRouter、Groq、Together、自建服务等）。默认关闭，见下文 |
 | `SMITHSONIAN_API_KEY` | 可选——今日一图 | 在 [api.data.gov/signup](https://api.data.gov/signup/) 免费申请（该 Key 通用于所有 api.data.gov API）。需同时配置 `LLM_API_KEY` |
 
 ### Variables（急停开关 + 微调）
@@ -124,14 +124,14 @@ and never commit tokens, calendar URLs, or passphrases into the repo.
 | `CONTACT_MAILTO` | 加入 CrossRef/OpenAlex 的礼貌池（更好的限速待遇） |
 | `ICS_CALENDARS_ENABLED` / `CANVAS_ENABLED` | 设为 `0` 即急停该信源 |
 | `RSS_MAX_FEEDS` | OPML 展开的订阅数上限（默认 10） |
-| `LLM_BASE_URL` / `LLM_MODEL` | AI 每日简报的端点与模型（默认：`https://api.openai.com/v1`、`gpt-4o-mini`） |
-| `LLM_SUMMARY_ENABLED` / `TODAYS_IMAGE_ENABLED` | 设为 `0` 即可急停对应功能，同时保留 Key |
+| `LLM_BASE_URL` / `LLM_MODEL` | AI 增强功能的端点与模型（默认：`https://api.openai.com/v1`、`gpt-4o-mini`） |
+| `LLM_SUMMARY_ENABLED` / `TODAYS_IMAGE_ENABLED` / `APROPOS_OF_NOTHING_ENABLED` | 设为 `0` 即可急停对应 AI 功能，同时保留 Key |
 
 一句话方针，值得背下来：**密钥进 Secrets；调参进配置文件；Variables 只当急停开关。**
 
 ### 可选 AI 增强功能
 
-默认关闭，仅在服务端运行（用你自己的 Key，绝非访客提供的 Key），且有预算控制：每次定时构建（约每 2 小时一次）最多两次简短 LLM 调用与一次图库检索，绝不按访客次数调用。配置 `LLM_API_KEY` 后，今日页面会出现 AI 撰写的每日简报，以及「头条」「优选论文」栏目各一行摘要。再配置 `SMITHSONIAN_API_KEY`，就会出现「今日一图」栏目：从 [Smithsonian Open Access API](https://www.si.edu/openaccess) 中挑选一张与当日内容有松散、创意关联的公共领域图片，附一句 AI 生成的说明与来源链接。只有 Smithsonian 明确标注 `CC0` 的图片才会被展示。此功能只读取你的 `news`/`papers` 条目——绝不涉及日程或课程。完整字段说明见 [CONFIG_REFERENCE.md](docs/CONFIG_REFERENCE.zh.md)。
+默认关闭，仅在服务端运行（用你自己的 Key，绝非访客提供的 Key），且有预算控制：只随定时构建（约每 2 小时一次）运行，绝不按访客次数调用。配置 `LLM_API_KEY` 后，今日页面会出现 AI 撰写的每日简报、「头条」「优选论文」栏目各一行摘要，以及「无关一则」卡片：一条刻意偏离当前信息流的公开新闻，附 AI 短摘要与来源链接。再配置 `SMITHSONIAN_API_KEY`，就会出现「今日一图」栏目：从 [Smithsonian Open Access API](https://www.si.edu/openaccess) 中挑选一张与当日内容有松散、创意关联的公共领域图片，附一句 AI 生成的说明与来源链接。只有 Smithsonian 明确标注 `CC0` 的图片才会被展示。此功能只读取你的 `news`/`papers` 条目的标题与短摘要——绝不涉及日程、课程、口令或全文正文。完整字段说明见 [CONFIG_REFERENCE.md](docs/CONFIG_REFERENCE.zh.md)。
 
 其余一切都是 `config/` 下的纯 JSON——`site.json`（标题、可见性、主题、时区、时间窗口）与 `sources.json`（信源包、兴趣、信源），全部由 JSON Schema 校验。Schema **禁止**在 `category: "private"` 的信源上写 `url`/`path`——凭据 URL 从结构上就进不了仓库。
 

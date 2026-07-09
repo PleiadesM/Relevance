@@ -26,6 +26,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from newsdash import crypto
+from newsdash.apropos import find_apropos_of_nothing
 from newsdash.config import SECTION_KINDS, ConfigError, load_config
 from newsdash.dedupe import dedupe_items
 from newsdash.fetchers import FetchContext, get_fetcher
@@ -335,12 +336,13 @@ def main(argv=None) -> None:
             print(f"[{section}] {count} items -> {plain_file.name}")
         manifest_sections.append(entry)
 
-    # ---- AI daily brief + Today's Image (optional, off by default) ------
+    # ---- AI daily brief + Today's Image + Apropos-of-Nothing ------------
     # Bolt-on enrichment per docs/ROADMAP.md: reads only news/papers
     # payloads (never schedule/courses), never runs during --smoke, and
     # follows encrypt_all exactly like every other section.
     insights_file = None
     if not args.smoke:
+        insights = {}
         summary = summarize(payloads, env, ctx.session)
         if summary:
             image = find_todays_image(summary.get("image_query", ""), env, ctx.session)
@@ -351,16 +353,23 @@ def main(argv=None) -> None:
                 if caption:
                     summary["todays_image"] = {**image, "caption": caption}
             summary.pop("image_query", None)
+            insights.update(summary)
+
+        apropos = find_apropos_of_nothing(payloads, env, ctx.session)
+        if apropos:
+            insights["apropos_of_nothing"] = apropos
+
+        if insights:
             insights_plain = out_dir / "insights.json"
             insights_enc = out_dir / "insights.enc.json"
             if encrypt_all:
                 write_json(insights_enc,
-                           crypto.encrypt_json(summary, "insights", key, salt))
+                           crypto.encrypt_json(insights, "insights", key, salt))
                 remove_if_exists(insights_plain)
                 insights_file = insights_enc.name
             else:
                 write_json(insights_plain,
-                           {"meta": {"generated_at": generated_at}, **summary})
+                           {"meta": {"generated_at": generated_at}, **insights})
                 remove_if_exists(insights_enc)
                 insights_file = insights_plain.name
             print(f"[insights] -> {insights_file}")

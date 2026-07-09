@@ -203,9 +203,9 @@ Tick **Data visualization** and/or **Technical communication** in the setup issu
 
 One polite thing to do: set the **`CONTACT_MAILTO`** *variable* (note: **Variables tab**, not Secrets — Settings → Secrets and variables → Actions → **Variables** → New repository variable) to your email address. CrossRef and OpenAlex route requests with a contact email into their faster, more reliable "polite pools". It's not a secret; it just identifies your bot as a good citizen.
 
-### 8a. AI daily brief + Today's Image (optional)
+### 8a. AI daily brief + Today's Image + Apropos-of-Nothing (optional)
 
-Off by default — nothing changes until you add a key. Once you do, the Today page gets an AI-written daily brief, a one-line summary inside "Top stories" and "Top papers," and — with a second key — a "Today's Image" block: a public-domain image loosely matched to the day's content, with a one-sentence AI caption.
+Off by default — nothing changes until you add a key. Once you do, the Today page gets an AI-written daily brief, a one-line summary inside "Top stories" and "Top papers," and an "Apropos-of-Nothing" card at the end: one intentionally off-profile public-news item with a short AI summary and source link. With a second key, it also gets a "Today's Image" block: a public-domain image loosely matched to the day's content, with a one-sentence AI caption.
 
 **Get an LLM key.** `LLM_API_KEY` works with any OpenAI-Chat-Completions-compatible provider — pick whichever you already have an account with:
 
@@ -227,7 +227,7 @@ Off by default — nothing changes until you add a key. Once you do, the Today p
 2. Add it as a repository secret named **`SMITHSONIAN_API_KEY`**.
 3. Re-run **Update Relevance**.
 
-Both features only ever read your `news`/`papers` items — never your schedule or courses — and skip silently (no error, no cost) if something's temporarily unreachable. `Settings` on your live site shows whether this is "configured." Full details, kill switches (`LLM_SUMMARY_ENABLED=0` / `TODAYS_IMAGE_ENABLED=0`), and the privacy/egress model: [CONFIG_REFERENCE.md §4a](CONFIG_REFERENCE.md#4a-optional-ai-enrichment-daily-brief--todays-image) and [SECURITY_MODEL.md §3a](SECURITY_MODEL.md#3a-optional-ai-enrichment-egress-off-by-default).
+These features only ever read your `news`/`papers` item titles and short summaries — never your schedule, courses, passphrase, or full-text article bodies — and skip silently (no error, no cost) if something's temporarily unreachable. `Settings` on your live site shows whether this is "configured." Full details, kill switches (`LLM_SUMMARY_ENABLED=0` / `TODAYS_IMAGE_ENABLED=0` / `APROPOS_OF_NOTHING_ENABLED=0`), and the privacy/egress model: [CONFIG_REFERENCE.md §4a](CONFIG_REFERENCE.md#4a-optional-ai-enrichment-daily-brief--todays-image--apropos-of-nothing) and [SECURITY_MODEL.md §3a](SECURITY_MODEL.md#3a-optional-ai-enrichment-egress-off-by-default).
 
 ## 9. Let AI do it for you
 
@@ -261,7 +261,7 @@ What to expect:
 | **Updates silently stopped** | GitHub **auto-disables cron workflows after 60 days without repo activity**. Actions tab → the workflow shows a "scheduled workflows disabled" banner → click **Enable**. Any commit also resets the clock. |
 | **"Wrong passphrase"** | Check spelling, spacing, and case — it must match the secret exactly. Just changed the secret? The site accepts the *new* passphrase only after the next successful "Update Relevance" run re-encrypts the data. |
 | **Private section says "not configured"** | The build ran without that section's secrets. Schedule needs `ICS_SOURCES_B64` **and** `NEWSDASH_PASSPHRASE`; courses need `CANVAS_BASE_URL` + `CANVAS_TOKEN` **and** `NEWSDASH_PASSPHRASE`. Add what's missing, re-run. |
-| **AI brief / Today's Image doesn't appear** | Check `Settings` on your live site — it reports whether `LLM_API_KEY` is configured at all. If it says configured but nothing shows: confirm `LLM_BASE_URL`/`LLM_MODEL` actually match your provider ([step 8a](#8a-ai-daily-brief--todays-image-optional)); check the latest Actions run's log for a `[llm-summary] error: …` line. Today's Image specifically can legitimately be silently absent on any given run — it only shows when a genuinely CC0-licensed Smithsonian image matches that day's content. |
+| **AI brief / Today's Image / Apropos-of-Nothing doesn't appear** | Check `Settings` on your live site — it reports whether `LLM_API_KEY` is configured at all. If it says configured but nothing shows: confirm `LLM_BASE_URL`/`LLM_MODEL` actually match your provider ([step 8a](#8a-ai-daily-brief--todays-image--apropos-of-nothing-optional)); check the latest Actions run's log for `[llm-summary] error: …` or `[apropos-of-nothing:*] error: …`. Today's Image and Apropos-of-Nothing can legitimately be absent on a given run if their public searches find no suitable sourced result. |
 
 ---
 

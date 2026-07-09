@@ -119,19 +119,21 @@ page URL ends in the `A…` id. Labs/institutions use
 and lab-blog RSS feeds pointed at the same section work too. All keyless —
 the zero-secret build stays green.
 
-### 4a. Optional AI enrichment (daily brief + Today's Image)
+### 4a. Optional AI enrichment (daily brief + Today's Image + Apropos-of-Nothing)
 
 Not a source — a build-time bolt-on, off by default, no config-file
 surface at all (every knob is an env var, read the same way
 `CONTACT_MAILTO`/`OPENALEX_API_KEY` already are). Server-side only: your
 own key, never a visitor-supplied one. The build asks the LLM for separate
 English and Chinese summary editions, plus a small image caption call only
-when a CC0 image is found; it also performs at most one image-archive search
-per scheduled build (never per visitor) — budget-gated by design.
+when a CC0 image is found. It may also ask the LLM for a deliberately
+off-profile public-news query, search GDELT's public DOC API once, and write
+a short sourced "Apropos-of-Nothing" card. All of this happens per scheduled
+build, never per visitor — budget-gated by design.
 
 | Set this secret… | …to get |
 |---|---|
-| `LLM_API_KEY` | Language-specific AI daily briefs after the greeting, plus one-line summaries inside "Top stories" and "Top papers" on the Today page |
+| `LLM_API_KEY` | Language-specific AI daily briefs after the greeting, one-line summaries inside "Top stories" and "Top papers," and an "Apropos-of-Nothing" card at the end of Today that links to one intentionally off-profile public-news item |
 | `LLM_API_KEY` **and** `SMITHSONIAN_API_KEY` | The above, plus a "Today's Image" block: a public-domain image from the [Smithsonian Open Access API](https://www.si.edu/openaccess) loosely/creatively matched to the day's content, with a one-sentence AI caption and a source link |
 
 `LLM_API_KEY` targets any OpenAI-Chat-Completions-compatible endpoint
@@ -145,6 +147,9 @@ api.data.gov API, Smithsonian included.
 Hard guarantees:
 
 - Reads only your `news`/`papers` items — **never** schedule or courses.
+- Apropos-of-Nothing sends only news/papers titles and short summaries to the
+  configured LLM, then searches public news through GDELT; visitor browsers
+  never contact either service for that card.
 - Generates English and Chinese summaries separately. Each summary sees both
   English and Chinese inputs, but prioritizes the active target language.
 - **Never** during `--smoke` (no network calls at all), regardless of which
@@ -154,8 +159,9 @@ Hard guarantees:
 - Follows the exact same public/private encryption rule as every other
   section: plaintext when `visibility: "public"`, encrypted when
   `visibility: "private"`.
-- `LLM_SUMMARY_ENABLED=0` / `TODAYS_IMAGE_ENABLED=0` (Variables) force
-  either feature off without removing the key.
+- `LLM_SUMMARY_ENABLED=0` / `TODAYS_IMAGE_ENABLED=0` /
+  `APROPOS_OF_NOTHING_ENABLED=0` (Variables) force individual AI features
+  off without removing the key.
 
 See `docs/DATA_CONTRACT.md`'s `insights.json` section for the exact payload
 shape.
@@ -191,13 +197,13 @@ never fires on a BBC story.
 | `CANVAS_BASE_URL`, `CANVAS_TOKEN` | Secret | `canvas` source |
 | `OPENALEX_API_KEY` | Secret | reliable `openalex` |
 | `FOLLOW_OPML_B64` | Secret | private OPML |
-| `LLM_API_KEY` | Secret | AI daily brief + per-section summaries (§4a) |
+| `LLM_API_KEY` | Secret | AI daily brief + per-section summaries + Apropos-of-Nothing (§4a) |
 | `SMITHSONIAN_API_KEY` | Secret | Today's Image (§4a); requires `LLM_API_KEY` too |
 | `CONTACT_MAILTO` | Variable | CrossRef/OpenAlex polite pools |
 | `<ID>_ENABLED` | Variable | `0` = emergency stop for source `<id>` |
 | `RSS_MAX_FEEDS` | Variable | OPML expansion cap |
 | `LLM_BASE_URL` / `LLM_MODEL` | Variable | AI endpoint + model (§4a) |
-| `LLM_SUMMARY_ENABLED` / `TODAYS_IMAGE_ENABLED` | Variable | `0` = emergency stop for either AI feature |
+| `LLM_SUMMARY_ENABLED` / `TODAYS_IMAGE_ENABLED` / `APROPOS_OF_NOTHING_ENABLED` | Variable | `0` = emergency stop for an AI feature |
 
 ## 7. "I want to change X" quick table
 
@@ -213,7 +219,7 @@ never fires on a BBC story.
 | Add topic tags everywhere | top-level `tag_rules` in `sources.json` (§3) |
 | Mark a feed as Chinese | `"lang": "zh"` on the source |
 | Boost my topics | `interests.keywords` (+ `boost`) |
-| Turn on an AI daily brief | Secret `LLM_API_KEY` (§4a) |
+| Turn on AI enrichment | Secret `LLM_API_KEY` (§4a) |
 | Add Today's Image | Secret `SMITHSONIAN_API_KEY` (+ `LLM_API_KEY`) (§4a) |
 | Stop Canvas *now* | Variable `CANVAS_ENABLED=0` |
 | Different theme/language default | `site.json → theme` / `default_language` |

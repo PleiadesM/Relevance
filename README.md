@@ -34,12 +34,12 @@ It is designed to help those who need to cope with a large amount of information
 - **Collecting news, recent papers, and trends:** The app supports RSS and an in-built collector to fetch the latest news online. If the full text is available, the link will direct to an individual page. Otherwise, the link will direct to the source page.
 - **Generating a website:** A website will be deployed with the collected news.
 - **Auto-Update:** The website will be updated automatically. By default, it refreshes every two hours. You can change it easily ([see the instructions below](#automatic-updategithub-actions-and-configuration)).
-- **AI Summary (need an LLM API key):** Use an LLM to score the news according to your interest, and generate a total summary on the homepage.
+- **AI Summary (need an LLM API key):** Use an LLM to score the news according to your interest, generate a total summary on the homepage, and add a small off-profile news card at the end.
 - **Today's Image (need an LLM API key and Smithsonian API key):** Let an LLM generate keywords according to the collected sources, and then search the [Smithsonian Open Access](https://www.si.edu/openaccess) and select an image that matches the main themes of the day.
 - **Private Modes:** There are two layers of meaning regarding private modes: full private mode and private visibility. The first one is that the whole webpage you deploy is encrypted ([see the instructions below](#private-mode-and-its-management)) and requires a passphrase to visit. Private visibility means that some information is only visible to you, like favorites, highlights, and notes. So, setting a passphrase is necessary.
 - **Favorite, annotations, and notes:** You can also highlight the texts that you collected, which are stored in your local cookies. This is only visible to you, and you need to set up the passphrase to read them.
 - **Themes:** There are several themes available. Currently, `The Type` is the most functional one.
-- **Apropos of nothing (In development, need an LLM API key):** While this app helps you to collect the most relevant information, it also tries to display totally irrelevant information to break the echo chamber a little bit.
+- **Apropos-of-Nothing (need an LLM API key):** While this app helps you collect the most relevant information, it also asks your LLM to find a totally irrelevant public-news item and displays it with a short summary and source link.
 
 ---
 ## Quick start
@@ -113,7 +113,7 @@ The skill **narrates** secrets setup — which secret to create, where, and how 
 | `CANVAS_TOKEN` | `courses` section | Canvas → Account → Settings → **+ New Access Token**. Tokens are full-account — rotate each semester |
 | `OPENALEX_API_KEY` | Optional | OpenAlex now rejects most keyless requests; without a key that fetcher is best-effort |
 | `FOLLOW_OPML_B64` | Optional | Your radar-compatible OPML, decoded to `feeds/follow.opml` at build time |
-| `LLM_API_KEY` | Optional — AI daily brief | Your own key for an OpenAI-Chat-Completions-compatible endpoint (OpenAI, OpenRouter, Groq, Together, self-hosted, …). Off by default; see below |
+| `LLM_API_KEY` | Optional — AI daily brief + Apropos-of-Nothing | Your own key for an OpenAI-Chat-Completions-compatible endpoint (OpenAI, OpenRouter, Groq, Together, self-hosted, …). Off by default; see below |
 | `SMITHSONIAN_API_KEY` | Optional — Today's Image | Free key from [api.data.gov/signup](https://api.data.gov/signup/) (works across every api.data.gov API). Requires `LLM_API_KEY` too |
 
 ### Variables (kill switches + tuning)
@@ -123,14 +123,14 @@ The skill **narrates** secrets setup — which secret to create, where, and how 
 | `CONTACT_MAILTO` | Joins the CrossRef/OpenAlex polite pools (better rate limits) |
 | `ICS_CALENDARS_ENABLED` / `CANVAS_ENABLED` | Set `0` for an emergency stop of that source |
 | `RSS_MAX_FEEDS` | Cap on OPML feeds (default 10) |
-| `LLM_BASE_URL` / `LLM_MODEL` | Endpoint + model for the AI daily brief (defaults: `https://api.openai.com/v1`, `gpt-4o-mini`) |
-| `LLM_SUMMARY_ENABLED` / `TODAYS_IMAGE_ENABLED` | Set `0` for an emergency stop of either feature, keeping the key |
+| `LLM_BASE_URL` / `LLM_MODEL` | Endpoint + model for AI enrichment (defaults: `https://api.openai.com/v1`, `gpt-4o-mini`) |
+| `LLM_SUMMARY_ENABLED` / `TODAYS_IMAGE_ENABLED` / `APROPOS_OF_NOTHING_ENABLED` | Set `0` for an emergency stop of an AI feature, keeping the key |
 
 Policy line, worth memorizing: **keys live in Secrets; tuning lives in config files; Variables exist only as kill switches.**
 
 ### Optional AI enrichment
 
-Off by default, server-side only (your own key, never a visitor-supplied one), and budget-gated: at most two short LLM calls and one image-archive search per scheduled build (every ~2h), never per visitor. Add `LLM_API_KEY` to get an AI-written daily brief plus a one-line summary on the Today page's "Top stories" and "Top papers" blocks. Add `SMITHSONIAN_API_KEY` too and a **Today's Image** block appears: a public-domain image from the [Smithsonian Open Access API](https://www.si.edu/openaccess), loosely and creatively matched to the day's content, with a one-sentence AI caption and a source link. Only images explicitly marked `CC0` by the Smithsonian are ever shown. The enrichment reads only your `news`/`papers` items — never schedule or courses. See [CONFIG_REFERENCE.md](docs/CONFIG_REFERENCE.md) for the full contract.
+Off by default, server-side only (your own key, never a visitor-supplied one), and budget-gated per scheduled build (every ~2h), never per visitor. Add `LLM_API_KEY` to get an AI-written daily brief, one-line summaries on the Today page's "Top stories" and "Top papers" blocks, and an **Apropos-of-Nothing** card that links to one intentionally off-profile public-news item. Add `SMITHSONIAN_API_KEY` too and a **Today's Image** block appears: a public-domain image from the [Smithsonian Open Access API](https://www.si.edu/openaccess), loosely and creatively matched to the day's content, with a one-sentence AI caption and a source link. Only images explicitly marked `CC0` by the Smithsonian are ever shown. The enrichment reads only your `news`/`papers` item titles and short summaries — never schedule, courses, passphrases, or full-text article bodies. See [CONFIG_REFERENCE.md](docs/CONFIG_REFERENCE.md) for the full contract.
 
 Everything else is plain JSON under `config/` — `site.json` (title, visibility, theme, timezone, time windows) and `sources.json` (presets, interests, sources), both JSON-Schema validated. The schema **forbids** `url`/`path` on `category: "private"` sources, so a capability URL can never leak into the repo by config mistake.
 

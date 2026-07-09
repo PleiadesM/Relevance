@@ -42,7 +42,7 @@ other data file as `<file>?v=<build_id>` — GitHub Pages' CDN caches for
       "file": "schedule.enc.json", "encrypted": true, "status": "ok" }
   ],
   "source_status_file": "source-status.json",
-  "insights_file": "insights.json",       // AI brief/summaries/image; null if absent
+  "insights_file": "insights.json",       // AI brief/summaries/image/apropos; null if absent
   "ai_summary": { "enabled": true }        // was LLM_API_KEY configured this run?
 }
 ```
@@ -239,8 +239,8 @@ unless `LLM_API_KEY` is configured; even then it may legitimately be absent
 on a given run (nothing to summarize yet, or a transient upstream failure —
 distinguish "configured" (`manifest.ai_summary.enabled`) from "has content
 this run" (`insights_file` non-null)). Built only from `news`/`papers`
-items — never schedule/courses. Follows `encrypt_all` exactly like any
-other section.
+items — never schedule/courses or full-text article bodies. Follows
+`encrypt_all` exactly like any other section.
 
 ```jsonc
 {
@@ -267,6 +267,26 @@ other section.
     "source_name": "Cooper Hewitt, Smithsonian Design Museum",
     "source_url": "https://www.si.edu/object/…",
     "caption": "One AI-generated sentence connecting the image to today's top story"
+  },
+  "apropos_of_nothing": {                  // omitted if no off-profile item was found this run
+    "topic": "competitive pumpkin growing",
+    "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+    "summaries": {
+      "en": {
+        "summary": "One short AI summary of the chosen irrelevant item.",
+        "why_irrelevant": "One short note on why this is outside the feed."
+      },
+      "zh": {
+        "summary": "One short Simplified Chinese summary.",
+        "why_irrelevant": "One short Simplified Chinese note."
+      }
+    },
+    "source": {
+      "title": "Giant pumpkin champion breaks local record",
+      "url": "https://example.org/pumpkin",
+      "name": "example.org",
+      "published_at": "2026-07-08T10:00:00Z"
+    }
   }
 }
 ```
@@ -283,6 +303,13 @@ image with an explicit Smithsonian
 `usage.access: "CC0"` media entry (`scripts/newsdash/todays_image.py`) —
 rights-uncertain results are never surfaced.
 
+`apropos_of_nothing` is a build-time echo-chamber break. The configured LLM
+first sees only `news`/`papers` titles and short summaries and proposes
+benign off-profile search terms. The pipeline then searches public news via
+the GDELT DOC API (`mode=artlist`, `format=json`, one week), and the LLM
+writes a short bilingual card for one sourced result. No visitor browser ever
+contacts GDELT or the LLM endpoint for this block.
+
 ## Privacy invariants (frontend must uphold)
 
 1. Never write decrypted content or the passphrase to storage. The derived
@@ -297,7 +324,7 @@ rights-uncertain results are never surfaced.
    section data, then re-renders.
 4. The numeric overview strip is computed client-side from already-loaded
    sections — private counts must never be added to plaintext files for it.
-5. The AI daily brief and Today's Image are build-time enrichment, not
+5. The AI daily brief, Today's Image, and Apropos-of-Nothing are build-time enrichment, not
    runtime calls — no visitor's browser ever contacts the LLM endpoint.
    Today's Image *is* hotlinked from Smithsonian's CDN at view time
    (`referrerpolicy="no-referrer"`); the AI-generated text has no runtime

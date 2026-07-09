@@ -49,7 +49,7 @@ async function loadSourceStatus(manifest, key) {
   }
 }
 
-// AI daily brief / summaries / Today's Image — a sibling file, not a
+// AI daily brief / summaries / Today's Image / Apropos-of-Nothing — a sibling file, not a
 // manifest section (keeps it out of nav routing; see docs/DATA_CONTRACT.md).
 async function loadInsights(manifest, key) {
   const file = manifest.insights_file;

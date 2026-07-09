@@ -33,7 +33,7 @@ Variables go to the *Variables* tab on the same page.
   grant **full account access**; suggest an expiry date and rotating each
   semester.
 
-## LLM_API_KEY + SMITHSONIAN_API_KEY (optional AI daily brief + Today's Image)
+## LLM_API_KEY + SMITHSONIAN_API_KEY (optional AI daily brief + Apropos-of-Nothing + Today's Image)
 
 Off by default — nothing changes until the user adds `LLM_API_KEY`. Explain
 before narrating: this is the *only* feature that sends any of the user's
@@ -44,8 +44,8 @@ through it.
 
 1. **`LLM_API_KEY`** (secret) — any OpenAI-Chat-Completions-compatible
    provider key: OpenAI, OpenRouter, Groq, Together, or a self-hosted
-   endpoint. This alone unlocks the AI daily brief + per-section summaries
-   on the Today page.
+   endpoint. This alone unlocks the AI daily brief, per-section summaries,
+   and Apropos-of-Nothing card on the Today page.
 2. **`LLM_BASE_URL`** / **`LLM_MODEL`** (variables, optional) — only needed
    if not using OpenAI directly. Defaults: `https://api.openai.com/v1`,
    `gpt-4o-mini`.
@@ -54,8 +54,9 @@ through it.
    `https://api.data.gov/signup/`, fills in name + email, gets a key by
    email immediately (one key works across every api.data.gov API,
    Smithsonian's Open Access API included).
-4. **`LLM_SUMMARY_ENABLED=0`** / **`TODAYS_IMAGE_ENABLED=0`** (variables) —
-   emergency stop for either feature without removing the key.
+4. **`LLM_SUMMARY_ENABLED=0`** / **`TODAYS_IMAGE_ENABLED=0`** /
+   **`APROPOS_OF_NOTHING_ENABLED=0`** (variables) — emergency stop for an
+   AI feature without removing the key.
 
 ## Optional
 

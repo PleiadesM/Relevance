@@ -186,9 +186,9 @@
 
 一个礼貌的小动作：把 **`CONTACT_MAILTO`** *变量*（注意是 **Variables 标签页**，不是 Secrets——Settings → Secrets and variables → Actions → **Variables** → New repository variable）设成你的邮箱。CrossRef 和 OpenAlex 会把带联系邮箱的请求放进更快更稳的「礼貌池」。它不是密钥，只是自报家门。
 
-### 8a. AI 每日简报 + 今日一图（可选）
+### 8a. AI 每日简报 + 今日一图 + 无关一则（可选）
 
-默认关闭——不加 Key 就什么都不会变。加了之后，今日页面会出现 AI 撰写的每日简报，「头条」「优选论文」栏目各附一行摘要；再加第二个 Key，还会出现「今日一图」栏目：一张与当日内容有松散关联的公共领域图片，附一句 AI 生成的说明。
+默认关闭——不加 Key 就什么都不会变。加了之后，今日页面会出现 AI 撰写的每日简报，「头条」「优选论文」栏目各附一行摘要；页末还会出现「无关一则」卡片：一条刻意偏离当前信息流的公开新闻，附短 AI 摘要与来源链接。再加第二个 Key，还会出现「今日一图」栏目：一张与当日内容有松散关联的公共领域图片，附一句 AI 生成的说明。
 
 **获取一个 LLM Key。** `LLM_API_KEY` 兼容任何 OpenAI Chat Completions 格式的服务商——用你已有账号的那个即可：
 
@@ -210,7 +210,7 @@
 2. 添加为仓库 Secret，名称 **`SMITHSONIAN_API_KEY`**。
 3. 重跑 **Update Relevance**。
 
-这两个功能只会读取你的 `news`/`papers` 条目——绝不涉及日程或课程——且在端点暂时不可达时会静默跳过（不报错、不产生费用）。你站点的 `Settings` 页面会显示是否「已配置」。完整说明、急停开关（`LLM_SUMMARY_ENABLED=0` / `TODAYS_IMAGE_ENABLED=0`）与数据流出模型：见 [CONFIG_REFERENCE.zh.md §4a](CONFIG_REFERENCE.zh.md#4a-可选-ai-增强功能每日简报--今日一图) 与 [SECURITY_MODEL.zh.md §3a](SECURITY_MODEL.zh.md#3a-可选-ai-增强功能的数据流出默认关闭)。
+这些功能只会读取你的 `news`/`papers` 条目的标题与短摘要——绝不涉及日程、课程、口令或全文正文——且在端点暂时不可达时会静默跳过（不报错、不产生费用）。你站点的 `Settings` 页面会显示是否「已配置」。完整说明、急停开关（`LLM_SUMMARY_ENABLED=0` / `TODAYS_IMAGE_ENABLED=0` / `APROPOS_OF_NOTHING_ENABLED=0`）与数据流出模型：见 [CONFIG_REFERENCE.zh.md §4a](CONFIG_REFERENCE.zh.md#4a-可选-ai-增强功能每日简报--今日一图--无关一则) 与 [SECURITY_MODEL.zh.md §3a](SECURITY_MODEL.zh.md#3a-可选-ai-增强功能的数据流出默认关闭)。
 
 ## 9. 让 AI 替你配置
 
@@ -243,7 +243,7 @@
 | **更新悄悄停了** | 仓库 **60 天无活动后 GitHub 自动停用定时工作流**。Actions 标签页会显示提示条 → 点 **Enable**。任何一次提交也会重置计时。 |
 | **「口令错误」** | 检查拼写、空格、大小写——必须与 Secret 完全一致。刚改过 Secret？要等下一次 "Update Relevance" 跑完重新加密后，站点才认*新*口令。 |
 | **私密栏目显示「未配置」** | 构建时缺该栏目的密钥。日程需要 `ICS_SOURCES_B64` **加** `NEWSDASH_PASSPHRASE`；课程需要 `CANVAS_BASE_URL` + `CANVAS_TOKEN` **加** `NEWSDASH_PASSPHRASE`。补齐后重跑。 |
-| **AI 简报 / 今日一图没出现** | 先看你站点的 `Settings` 页面——它会显示 `LLM_API_KEY` 是否已配置。如果显示已配置但仍不出现：确认 `LLM_BASE_URL`/`LLM_MODEL` 确实对应你的服务商（[第 8a 步](#8a-ai-每日简报--今日一图可选)）；查看最近一次 Actions 运行日志里是否有 `[llm-summary] error: …` 这行。今日一图本身就可能在某次运行中正常地不出现——只有当天内容恰好匹配到一张真正 CC0 授权的 Smithsonian 图片时才会显示。 |
+| **AI 简报 / 今日一图 / 无关一则没出现** | 先看你站点的 `Settings` 页面——它会显示 `LLM_API_KEY` 是否已配置。如果显示已配置但仍不出现：确认 `LLM_BASE_URL`/`LLM_MODEL` 确实对应你的服务商（[第 8a 步](#8a-ai-每日简报--今日一图--无关一则可选)）；查看最近一次 Actions 运行日志里是否有 `[llm-summary] error: …` 或 `[apropos-of-nothing:*] error: …`。今日一图与无关一则都可能在某次运行中正常缺席——公开检索没有找到合适来源时就会跳过。 |
 
 ---
 

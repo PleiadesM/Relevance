@@ -27,3 +27,11 @@ export function localizedInsights(insights) {
         }
       : null);
 }
+
+export function localizedApropos(apropos) {
+  if (!apropos) return null;
+  const lang = contentLang();
+  return apropos.summaries?.[lang]
+    || apropos.summaries?.en
+    || null;
+}

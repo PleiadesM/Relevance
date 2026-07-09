@@ -26,6 +26,39 @@ def llm_completion(**fields):
     return {"choices": [{"message": {"content": json.dumps(payload)}}]}
 
 
+def apropos_query_completion():
+    return {"choices": [{"message": {"content": json.dumps({
+        "topic": "competitive pumpkin growing",
+        "search_terms": ["pumpkin championship", "giant pumpkin"],
+        "why_irrelevant": "Far from this dashboard's usual feed.",
+    })}}]}
+
+
+def apropos_summary_completion():
+    return {"choices": [{"message": {"content": json.dumps({
+        "choice": 1,
+        "summaries": {
+            "en": {
+                "summary": "A giant pumpkin contest picked a new winner.",
+                "why_irrelevant": "A cheerful detour from the usual feed.",
+            },
+            "zh": {
+                "summary": "一场巨型南瓜比赛选出了新冠军。",
+                "why_irrelevant": "这是一条轻松的题外话。",
+            },
+        },
+    })}}]}
+
+
+def gdelt_apropos_response():
+    return {"articles": [{
+        "title": "Giant pumpkin champion breaks local record",
+        "url": "https://example.org/pumpkin",
+        "domain": "example.org",
+        "seendate": "20260708100000",
+    }]}
+
+
 def rss_with_full_text(url="https://a.example/story"):
     pub = format_datetime(datetime.now(timezone.utc), usegmt=True)
     body = " ".join(f"fulltext-{i}" for i in range(140))
@@ -160,6 +193,10 @@ def test_build_writes_bilingual_insights(tmp_path, monkeypatch, make_repo):
         papers_summary="中文论文",
         image_query="compass clock",
     ))
+    responses.post(CHAT_URL, json=apropos_query_completion())
+    responses.get("https://api.gdeltproject.org/api/v2/doc/doc",
+                  json=gdelt_apropos_response())
+    responses.post(CHAT_URL, json=apropos_summary_completion())
     root = make_repo(sources={"schema_version": 1, "presets": [], "sources": [
         {"id": "feed_en", "type": "rss", "section": "news",
          "name": "A", "url": "https://a.example/feed.xml", "lang": "en"},
@@ -180,6 +217,8 @@ def test_build_writes_bilingual_insights(tmp_path, monkeypatch, make_repo):
     }
     assert insights["brief"] == "EN brief"
     assert "image_query" not in insights
+    assert insights["apropos_of_nothing"]["source"]["url"] == "https://example.org/pumpkin"
+    assert insights["apropos_of_nothing"]["summaries"]["zh"]["summary"].startswith("一场")
 
 
 @responses.activate

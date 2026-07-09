@@ -5,7 +5,7 @@
 
 import { renderAnnotationsIn } from "../annotate.js";
 import { favoriteIdSet } from "../annodb.js";
-import { filterItemsForContentLang, localizedInsights } from "../content_lang.js";
+import { filterItemsForContentLang, localizedApropos, localizedInsights } from "../content_lang.js";
 import { clear, el, safeHref } from "../dom.js";
 import { fmtDate, fmtDateTime, fmtRelative, fmtTime, getLang, t } from "../i18n.js";
 import { get } from "../store.js";
@@ -136,6 +136,40 @@ function todaysImageBlock() {
             href: safeHref(image.source_url), target: "_blank", rel: "noopener",
           }, image.title ? `${image.title} — ${image.source_name}` : image.source_name),
         ),
+      ),
+    ),
+  );
+}
+
+function aproposOfNothingBlock() {
+  const apropos = get().insights?.apropos_of_nothing;
+  const text = localizedApropos(apropos);
+  const source = apropos?.source;
+  if (!text?.summary || !source?.url) return null;
+  const sourceMeta = [
+    source.name,
+    source.published_at ? fmtDate(source.published_at) : null,
+  ].filter(Boolean).join(" · ");
+  return el("section", { class: "apropos-card", tabindex: "0" },
+    el("div", { class: "apropos-kicker" }, t("today.aproposKicker")),
+    el("div", { class: "apropos-body" },
+      el("div", { class: "apropos-copy" },
+        el("h2", { class: "apropos-title" }, t("today.aproposTitle")),
+        apropos.topic ? el("p", { class: "apropos-topic" }, apropos.topic) : null,
+        el("p", { class: "apropos-summary" }, text.summary),
+        text.why_irrelevant
+          ? el("p", { class: "apropos-why" }, text.why_irrelevant)
+          : null,
+      ),
+      el("a", {
+        class: "apropos-source",
+        href: safeHref(source.url),
+        target: "_blank",
+        rel: "noopener noreferrer",
+      },
+        el("span", { class: "apropos-source-label" }, t("today.aproposSource")),
+        el("span", { class: "apropos-source-title" }, source.title || source.url),
+        sourceMeta ? el("span", { class: "apropos-source-meta" }, sourceMeta) : null,
       ),
     ),
   );
@@ -347,10 +381,15 @@ function renderTheType(container, favs) {
   const cardOpts = { favs };
   const restBlocks = [scheduleBlock(), dueSoonBlock(), papersBlock(cardOpts), followingBlock(cardOpts)]
     .filter(Boolean);
+  const apropos = aproposOfNothingBlock();
   if (restBlocks.length) {
     container.appendChild(el("div", { class: "today-grid nd-fadein nd-fadein-d2" }, restBlocks));
-  } else if (!grid && !feedSection) {
+  } else if (!grid && !feedSection && !apropos) {
     container.appendChild(emptyCard());
+  }
+  if (apropos) {
+    apropos.classList.add("nd-fadein", "nd-fadein-d2");
+    container.appendChild(apropos);
   }
 }
 
@@ -383,8 +422,11 @@ export async function render(container) {
   const blocks = [scheduleBlock(), dueSoonBlock(), todaysImageBlock(),
                   storiesBlock(cardOpts), papersBlock(cardOpts), followingBlock(cardOpts)]
     .filter(Boolean);
-  if (!blocks.length) container.appendChild(emptyCard());
-  const grid = el("div", { class: "today-grid" }, blocks);
-  container.appendChild(grid);
+  const apropos = aproposOfNothingBlock();
+  if (!blocks.length && !apropos) container.appendChild(emptyCard());
+  if (blocks.length) {
+    container.appendChild(el("div", { class: "today-grid" }, blocks));
+  }
+  if (apropos) container.appendChild(apropos);
   renderAnnotationsIn(container);
 }

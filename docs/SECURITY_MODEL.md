@@ -64,7 +64,7 @@ Every `*.enc.json` file is one envelope:
 
 ### 3a. Optional AI enrichment egress (off by default)
 
-Two distinct data flows, only present if you've added `LLM_API_KEY`
+Three distinct data flows, only present if you've added `LLM_API_KEY`
 and/or `SMITHSONIAN_API_KEY` — see `docs/CONFIG_REFERENCE.md` §4a:
 
 - **Build-time (server → LLM endpoint).** Once per scheduled build, the
@@ -76,6 +76,10 @@ and/or `SMITHSONIAN_API_KEY` — see `docs/CONFIG_REFERENCE.md` §4a:
   named, fixed API). The resulting text is baked into
   `insights.json`/`.enc.json` at build time; no visitor's browser ever
   contacts the LLM endpoint.
+- **Build-time (server → GDELT DOC API).** If Apropos-of-Nothing is enabled,
+  the pipeline searches GDELT once with LLM-generated off-profile public-news
+  terms. The request does **not** include private schedule/course data, full
+  article bodies, passphrases, tokens, or source capability URLs.
 - **Runtime (visitor's browser → Smithsonian CDN).** If Today's Image
   renders, the `<img>` tag is hotlinked directly from Smithsonian's image
   CDN (`ids.si.edu`) — the **first** runtime third-party asset load this
