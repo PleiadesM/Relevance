@@ -1,28 +1,28 @@
 {
- "brief": "Political scandal and military escalation dominate the news as Graham Platner exits the Senate race over sexual assault allegations and US-Iran tensions flare with fresh strikes. In tech, AI model comparisons and the Bun rewrite in Rust highlight ongoing innovation, while research papers explore generative world models, prompt engineering education, and weather communication.",
+ "brief": "US-Iran tensions escalate with airstrikes over tanker attacks, while Australia deals with Telstra outage affecting triple-zero calls and Graham Platner suspends his Senate campaign amid sexual assault allegations. In academia, new HCI research explores visualization incentives, brain-computer interfaces in China, and sign language recognition.",
  "meta": {
-  "generated_at": "2026-07-09T00:59:31Z"
+  "generated_at": "2026-07-09T04:11:50Z"
  },
- "news_summary": "Graham Platner ends his Maine Senate campaign following a sexual assault allegation, as Democrats scramble for a replacement. The US launches strikes on Iran and Trump threatens escalation, while a Telstra outage disrupts emergency calls in Australia. In tech, comparisons of Grok 4.5, GPT-5.5, and Claude emerge alongside the Bun rewrite in Rust and a John Deere right-to-repair settlement.",
- "papers_summary": "Papers introduce AlayaWorld for long-horizon video world generation and Prompt Coach for teaching prompt engineering. Other research explores perceived system predictability, weather foundation model explanations with GeoXplain, and EEG-based imagined speech decoding with hybrid CNN-SNN architectures.",
+ "news_summary": "US launches airstrikes on Iran for a second day after Trump says ceasefire agreement is 'over', following tanker attacks in the Strait of Hormuz. In Australia, Telstra's outage disrupts triple-zero calls, and Democrat Graham Platner suspends his Senate campaign after sexual assault accusation.",
+ "papers_summary": "Research on performance-based incentives in visualization experiments and clinical translation of brain-computer interfaces in China lead the arXiv papers, along with studies on sign language recognition using smart gloves and AI-powered programming environments.",
  "summaries": {
   "en": {
-   "brief": "Political scandal and military escalation dominate the news as Graham Platner exits the Senate race over sexual assault allegations and US-Iran tensions flare with fresh strikes. In tech, AI model comparisons and the Bun rewrite in Rust highlight ongoing innovation, while research papers explore generative world models, prompt engineering education, and weather communication.",
-   "news_summary": "Graham Platner ends his Maine Senate campaign following a sexual assault allegation, as Democrats scramble for a replacement. The US launches strikes on Iran and Trump threatens escalation, while a Telstra outage disrupts emergency calls in Australia. In tech, comparisons of Grok 4.5, GPT-5.5, and Claude emerge alongside the Bun rewrite in Rust and a John Deere right-to-repair settlement.",
-   "papers_summary": "Papers introduce AlayaWorld for long-horizon video world generation and Prompt Coach for teaching prompt engineering. Other research explores perceived system predictability, weather foundation model explanations with GeoXplain, and EEG-based imagined speech decoding with hybrid CNN-SNN architectures."
+   "brief": "US-Iran tensions escalate with airstrikes over tanker attacks, while Australia deals with Telstra outage affecting triple-zero calls and Graham Platner suspends his Senate campaign amid sexual assault allegations. In academia, new HCI research explores visualization incentives, brain-computer interfaces in China, and sign language recognition.",
+   "news_summary": "US launches airstrikes on Iran for a second day after Trump says ceasefire agreement is 'over', following tanker attacks in the Strait of Hormuz. In Australia, Telstra's outage disrupts triple-zero calls, and Democrat Graham Platner suspends his Senate campaign after sexual assault accusation.",
+   "papers_summary": "Research on performance-based incentives in visualization experiments and clinical translation of brain-computer interfaces in China lead the arXiv papers, along with studies on sign language recognition using smart gloves and AI-powered programming environments."
   },
   "zh": {
-   "brief": "美伊衝突升級，特朗普稱協議告吹，而中國低調參與伊朗最高領袖葬禮。德國華人性侵案受害者首度公開控訴。同時，AI研究在遊戲世界生成和提示工程教育上取得進展。",
-   "news_summary": "美伊徹夜交火，特朗普威脅更多打擊，三艘國際船舶被擊中；中國派代表出席哈梅內伊葬禮，顯示伊朗外交新動向。德國華人性侵案受害者公開經歷，學者分析犯罪心理。",
-   "papers_summary": "AI研究提出長時程可遊玩視頻世界生成框架AlayaWorld，以及基於智能體的提示工程教育工具Prompt Coach，並在傳統中國畫知識圖譜可視化方面有創新方法。"
+   "brief": "美伊冲突升级，特朗普称停火协议结束；台湾管制事後避孕藥引發爭議；德国性侵案受害者发声。研究方面探讨中国脑机接口临床转化与传统绘画分析。",
+   "news_summary": "美伊彻夜交火，特朗普称停火协议作废并发动新空袭；台湾拟加强事后避孕药管制，引发女性不便与风险担忧；德国华人性侵案首位受害者公开经历。",
+   "papers_summary": "英文论文探讨中国脑机接口临床试验的现状与监管，以及基于构图图的传统中国画分析系统。"
   }
  },
  "todays_image": {
-  "caption": "The sickle and flail separate grain from chaff, much like this scandal has sifted the field of candidates, leaving only a new nominee.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1994.91.249_1",
-  "source_name": "Smithsonian American Art Museum",
-  "source_url": "https://americanart.si.edu/collections/search/artwork/?id=35349",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1994.91.249_1",
-  "title": "Evolution of the sickle and the flail--33-Horse Team Combined Harvester-- Walla Walla, Washington"
+  "caption": "Like the way Lobophora sp. algae forms intricate networks on reefs, Telstra is weaving a more reliable emergency call system, while Hanson's podcast with Tommy Robinson tangles the lines of public discourse.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3a20dbcaf-62f6-4dd2-b936-69074b28dad5",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7/90",
+  "title": "Lobophora sp."
  }
 }
