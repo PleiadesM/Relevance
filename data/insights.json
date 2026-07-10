@@ -1,28 +1,28 @@
 {
- "brief": "Regulatory moves target tech giants and AI risks while natural disasters and political tensions dominate headlines. Research explores AI in crime linkage and creative coding, alongside visualization tools for data analysis.",
+ "brief": "Today's news features the murder of former UK MP Ann Widdecombe, ongoing controversies around ICE shootings, and a deadly wildfire in Spain. Research highlights include visual analytics for missing data and AI use in crime linkage.",
  "meta": {
-  "generated_at": "2026-07-10T14:49:52Z"
+  "generated_at": "2026-07-10T18:00:12Z"
  },
- "news_summary": "UK proposes banning scam ads and giving Bank of England powers over tech firms; Typhoon Bavi threatens East Asia; Spain wildfire kills 12. Political turmoil includes Trump firing election officials and US-Iran mediation.",
- "papers_summary": "Studies examine AI-assisted crime linkage analysis and brain-computer interface clinical translation in China. Visualization research covers missing data diagnosis and compositional analysis of Chinese paintings.",
+ "news_summary": "A man is arrested for the murder of former MP Ann Widdecombe; federal immigration agents have shot at least 21 people since last year, resulting in five deaths; a fast-spreading wildfire in southern Spain has killed at least 12.",
+ "papers_summary": "Papers explore visual analytics for missing data imputation, AI-assisted crime linkage, and a landscape analysis of brain-computer interface clinical trials in China.",
  "summaries": {
   "en": {
-   "brief": "Regulatory moves target tech giants and AI risks while natural disasters and political tensions dominate headlines. Research explores AI in crime linkage and creative coding, alongside visualization tools for data analysis.",
-   "news_summary": "UK proposes banning scam ads and giving Bank of England powers over tech firms; Typhoon Bavi threatens East Asia; Spain wildfire kills 12. Political turmoil includes Trump firing election officials and US-Iran mediation.",
-   "papers_summary": "Studies examine AI-assisted crime linkage analysis and brain-computer interface clinical translation in China. Visualization research covers missing data diagnosis and compositional analysis of Chinese paintings."
+   "brief": "Today's news features the murder of former UK MP Ann Widdecombe, ongoing controversies around ICE shootings, and a deadly wildfire in Spain. Research highlights include visual analytics for missing data and AI use in crime linkage.",
+   "news_summary": "A man is arrested for the murder of former MP Ann Widdecombe; federal immigration agents have shot at least 21 people since last year, resulting in five deaths; a fast-spreading wildfire in southern Spain has killed at least 12.",
+   "papers_summary": "Papers explore visual analytics for missing data imputation, AI-assisted crime linkage, and a landscape analysis of brain-computer interface clinical trials in China."
   },
   "zh": {
-   "brief": "今日重點：福建鞋廠火災致28人遇難、美伊衝突持續、印尼兒童販運案引發關注。國際方面，英國擬立法打擊詐騙廣告，AI風險警示及強颱風逼近東亞。研究聚焦AI應用於犯罪關聯分析、腦機介面臨床轉化及手語辨識。",
-   "news_summary": "中國新聞包括晉江鞋廠大火、廣西水庫失效、美伊互相攻擊；國際焦點為英國詐騙廣告禁令、強颱風巴維逼近、以及印度女童遭性侵案。",
-   "papers_summary": "本日論文探討AI在犯罪關聯分析中的應用、缺失資料視覺化、中國腦機介面臨床試驗，以及基於深度學習的手語辨識手套。"
+   "brief": "今日多地灾祸频发：福建鞋厂大火致28死、广西水坝失守、超强台风逼近；英国前议员谋杀案嫌疑犯被捕；同时，英国工党启动党魁选举、全球AI与科研进展持续。",
+   "news_summary": "福建晋江鞋厂大火致28人遇难，习近平指示严查；广西北部湾水坝在暴雨中失守，引发老旧设施安全讨论；超强台风巴威逼近台湾，多地停班停课。国际方面，英国前议员安·维德库姆被谋杀，嫌疑人被捕；新加坡夫妇收养印尼男婴涉人口贩运；美伊冲突持续。",
+   "papers_summary": "学术研究聚焦AI辅助犯罪分析、缺失数据可视化和脑机接口临床转化等领域；此外，深度学习用于手语识别、AI在隐私擦除中的信任问题等主题也有新进展。"
   }
  },
  "todays_image": {
-  "caption": "Both the mid-20th century ballot box and today's proposed ban on scam ads aim to preserve trust in democratic and commercial systems by safeguarding against manipulation.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-JN2026-00282-000001",
+  "caption": "A fire badge for a foreman suggests a change in command, just as Democrats grapple with their own leadership switch in Maine.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q27348",
   "source_name": "National Museum of American History",
   "source_url": null,
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-JN2026-00282-000001&max=150",
-  "title": "Ballot box, mid-20th century"
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q27348&max=150",
+  "title": "Fire Badge \"Chicago Fire Dept. Foreman\""
  }
 }
