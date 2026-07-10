@@ -1,28 +1,20 @@
 {
- "brief": "Today's news features the murder of former UK MP Ann Widdecombe, ongoing controversies around ICE shootings, and a deadly wildfire in Spain. Research highlights include visual analytics for missing data and AI use in crime linkage.",
+ "brief": "The Trump administration appoints a climate science critic to oversee a key federal climate report and cuts endangered species protections, while ICE enforcement actions spark controversy and fatal shootings.",
  "meta": {
-  "generated_at": "2026-07-10T18:00:12Z"
+  "generated_at": "2026-07-10T19:49:23Z"
  },
- "news_summary": "A man is arrested for the murder of former MP Ann Widdecombe; federal immigration agents have shot at least 21 people since last year, resulting in five deaths; a fast-spreading wildfire in southern Spain has killed at least 12.",
- "papers_summary": "Papers explore visual analytics for missing data imputation, AI-assisted crime linkage, and a landscape analysis of brain-computer interface clinical trials in China.",
+ "news_summary": "Matthew Wielicki, who dismisses climate warnings, will lead the National Climate Assessment; EPA fires a microplastics whistleblower; Missouri declares emergency from floods; ICE shootings in Houston and deportation of a pardoned immigrant draw scrutiny.",
+ "papers_summary": "HCI papers explore missing data diagnosis, crime linkage analysis, and AI in high-stakes decisions; AI research includes a GPT-5.6 proof of a mathematical conjecture and Boko Haram's use of frontier AI.",
  "summaries": {
   "en": {
-   "brief": "Today's news features the murder of former UK MP Ann Widdecombe, ongoing controversies around ICE shootings, and a deadly wildfire in Spain. Research highlights include visual analytics for missing data and AI use in crime linkage.",
-   "news_summary": "A man is arrested for the murder of former MP Ann Widdecombe; federal immigration agents have shot at least 21 people since last year, resulting in five deaths; a fast-spreading wildfire in southern Spain has killed at least 12.",
-   "papers_summary": "Papers explore visual analytics for missing data imputation, AI-assisted crime linkage, and a landscape analysis of brain-computer interface clinical trials in China."
+   "brief": "The Trump administration appoints a climate science critic to oversee a key federal climate report and cuts endangered species protections, while ICE enforcement actions spark controversy and fatal shootings.",
+   "news_summary": "Matthew Wielicki, who dismisses climate warnings, will lead the National Climate Assessment; EPA fires a microplastics whistleblower; Missouri declares emergency from floods; ICE shootings in Houston and deportation of a pardoned immigrant draw scrutiny.",
+   "papers_summary": "HCI papers explore missing data diagnosis, crime linkage analysis, and AI in high-stakes decisions; AI research includes a GPT-5.6 proof of a mathematical conjecture and Boko Haram's use of frontier AI."
   },
   "zh": {
-   "brief": "今日多地灾祸频发：福建鞋厂大火致28死、广西水坝失守、超强台风逼近；英国前议员谋杀案嫌疑犯被捕；同时，英国工党启动党魁选举、全球AI与科研进展持续。",
-   "news_summary": "福建晋江鞋厂大火致28人遇难，习近平指示严查；广西北部湾水坝在暴雨中失守，引发老旧设施安全讨论；超强台风巴威逼近台湾，多地停班停课。国际方面，英国前议员安·维德库姆被谋杀，嫌疑人被捕；新加坡夫妇收养印尼男婴涉人口贩运；美伊冲突持续。",
-   "papers_summary": "学术研究聚焦AI辅助犯罪分析、缺失数据可视化和脑机接口临床转化等领域；此外，深度学习用于手语识别、AI在隐私擦除中的信任问题等主题也有新进展。"
+   "brief": "今日新闻聚焦福建鞋厂大火致28人遇难、美国伊朗互相攻击、台风巴威逼近台湾，以及新加坡夫妇涉嫌收养被贩运儿童案件。研究方面暂无中文优先论文，但英文论文涉及脑机接口临床转化、中国画可视化分析等。",
+   "news_summary": "福建泉州晋江鞋厂大火导致28人死亡，习近平要求严肃追责；美国伊朗冲突升级，美方打击90个伊朗目标；台风巴威逼近台湾，多数县市停班停课；新加坡夫妇收养印尼男婴疑似涉及人口贩运。",
+   "papers_summary": "英文论文中，一篇分析中国脑机接口临床试验转化现状，另一篇提出传统中国画构图可视化分析系统CompoVista。"
   }
- },
- "todays_image": {
-  "caption": "A fire badge for a foreman suggests a change in command, just as Democrats grapple with their own leadership switch in Maine.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q27348",
-  "source_name": "National Museum of American History",
-  "source_url": null,
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q27348&max=150",
-  "title": "Fire Badge \"Chicago Fire Dept. Foreman\""
  }
 }
