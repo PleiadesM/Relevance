@@ -1,28 +1,28 @@
 {
- "brief": "Today's news covers broadcaster Derryn Hinch's death, escalating bird flu concerns, and controversies over ICE shootings and election commission firings, while research highlights advances in AI for crime linkage and missing data analysis.",
+ "brief": "Today's news highlights deadly wildfires in Spain, a US private equity bid for easyJet, and the death of Ann Widdecombe. Research papers explore missing data visualization, AI in crime linkage, and brain-computer interface trials in China.",
  "meta": {
-  "generated_at": "2026-07-10T04:12:12Z"
+  "generated_at": "2026-07-10T07:50:18Z"
  },
- "news_summary": "Derryn Hinch dies at 82; H5 bird flu found in Australian seabird; electronic tagging expansion criticized; ICE shooting victim not intended target; wildfires kill 12 in Spain; factory fire kills 28 in China; Trump fires election commission members.",
- "papers_summary": "Studies present tools for visualizing missing data, using AI in crime linkage analysis, and developing brain-computer interfaces for clinical translation, alongside interactive systems for traditional Chinese painting composition and sign language recognition.",
+ "news_summary": "At least 11 dead in Spanish wildfire, Telstra outage controversy, Ebola death toll reaches 600, Apollo bids £5.7bn for easyJet, and Ann Widdecombe dies at 78.",
+ "papers_summary": "Papers cover ImputeViz for missing data, AI for crime linkage, performance incentives in visualization, BCI trials in China, and compositional analysis of traditional Chinese paintings.",
  "summaries": {
   "en": {
-   "brief": "Today's news covers broadcaster Derryn Hinch's death, escalating bird flu concerns, and controversies over ICE shootings and election commission firings, while research highlights advances in AI for crime linkage and missing data analysis.",
-   "news_summary": "Derryn Hinch dies at 82; H5 bird flu found in Australian seabird; electronic tagging expansion criticized; ICE shooting victim not intended target; wildfires kill 12 in Spain; factory fire kills 28 in China; Trump fires election commission members.",
-   "papers_summary": "Studies present tools for visualizing missing data, using AI in crime linkage analysis, and developing brain-computer interfaces for clinical translation, alongside interactive systems for traditional Chinese painting composition and sign language recognition."
+   "brief": "Today's news highlights deadly wildfires in Spain, a US private equity bid for easyJet, and the death of Ann Widdecombe. Research papers explore missing data visualization, AI in crime linkage, and brain-computer interface trials in China.",
+   "news_summary": "At least 11 dead in Spanish wildfire, Telstra outage controversy, Ebola death toll reaches 600, Apollo bids £5.7bn for easyJet, and Ann Widdecombe dies at 78.",
+   "papers_summary": "Papers cover ImputeViz for missing data, AI for crime linkage, performance incentives in visualization, BCI trials in China, and compositional analysis of traditional Chinese paintings."
   },
   "zh": {
-   "brief": "今日焦點包括巴威颱風侵襲台灣，多縣市停班停課，以及英國工黨新黨魁選舉、中國異議者偷渡韓國等事件。同時，學術論文中無優先中文項目，但英文論文中探討了中國腦機介面臨床試驗與傳統繪畫視覺分析。",
-   "news_summary": "颱風巴威近30年暴風半徑最大，台灣12縣市停班停課。其他重要新聞包括英國工黨選舉新黨魁、中國異見者董廣平偷渡韓國、廣西洪災、澳門國安法首案起訴、德國華人性侵案、台灣毒油事件等。",
-   "papers_summary": "今日無優先中文論文。相關英文論文探討了中國腦機介面臨床試驗的現狀與傳統中國繪畫的組成分析。"
+   "brief": "颱風巴威來襲，台灣嚴陣以待；福建鞋廠大火致28死；美伊衝突加劇；廣西水庫潰堤引發安全擔憂。今日無優先論文。",
+   "news_summary": "颱風巴威以近30年最大暴風半徑逼近台灣，多縣市停班停課；福建泉州晉江鞋廠大火28人遇難，習近平批示嚴肅追責；美伊互相發動攻擊，威脅停火協議；廣西老舊水庫因暴雨潰堤，洪災預警失靈引發討論。",
+   "papers_summary": "今日無優先中文論文。"
   }
  },
  "todays_image": {
-  "caption": "The handcuffs from Gates's arrest and the tragic ends of Hinch and the missing girl both symbolize the moment when personal freedom is finally, and often unjustly, taken away.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2010_11_001",
-  "source_name": "National Museum of African American History and Culture",
-  "source_url": "https://nmaahc.si.edu/object/nmaahc_2010.11",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2010_11_001",
-  "title": "Handcuffs used in the arrest of Henry Louis Gates, Jr."
+  "caption": "Just as a fire hose section connects to fight fires, home swapping connects strangers to fight expensive holidays.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-ET2016-09862-000001",
+  "source_name": "National Museum of American History",
+  "source_url": null,
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-ET2016-09862-000001&max=150",
+  "title": "Fire Hose Section"
  }
 }
