@@ -1,28 +1,28 @@
 {
- "brief": "Wildfires in Spain and a massive typhoon threaten East Asia, while EU regulators accuse Meta of addictive design and UK shops deploy facial recognition. Research highlights include a dashboard for missing data, AI in crime linkage, and visual analysis of traditional Chinese paintings.",
+ "brief": "Regulatory moves target tech giants and AI risks while natural disasters and political tensions dominate headlines. Research explores AI in crime linkage and creative coding, alongside visualization tools for data analysis.",
  "meta": {
-  "generated_at": "2026-07-10T11:17:15Z"
+  "generated_at": "2026-07-10T14:49:52Z"
  },
- "news_summary": "At least 11 die in southern Spain wildfires; Typhoon Bavi threatens Taiwan and China. EU accuses Meta of addictive design; UK shops launch facial recognition alerting police. UK politics sees Farage and Reform viewed as sleazy.",
- "papers_summary": "Papers explore tools for missing data (ImputeViz), AI-assisted crime linkage, and a composition-graph system for traditional Chinese paintings. Other works cover brain-computer interface trials in China and sign language recognition gloves.",
+ "news_summary": "UK proposes banning scam ads and giving Bank of England powers over tech firms; Typhoon Bavi threatens East Asia; Spain wildfire kills 12. Political turmoil includes Trump firing election officials and US-Iran mediation.",
+ "papers_summary": "Studies examine AI-assisted crime linkage analysis and brain-computer interface clinical translation in China. Visualization research covers missing data diagnosis and compositional analysis of Chinese paintings.",
  "summaries": {
   "en": {
-   "brief": "Wildfires in Spain and a massive typhoon threaten East Asia, while EU regulators accuse Meta of addictive design and UK shops deploy facial recognition. Research highlights include a dashboard for missing data, AI in crime linkage, and visual analysis of traditional Chinese paintings.",
-   "news_summary": "At least 11 die in southern Spain wildfires; Typhoon Bavi threatens Taiwan and China. EU accuses Meta of addictive design; UK shops launch facial recognition alerting police. UK politics sees Farage and Reform viewed as sleazy.",
-   "papers_summary": "Papers explore tools for missing data (ImputeViz), AI-assisted crime linkage, and a composition-graph system for traditional Chinese paintings. Other works cover brain-computer interface trials in China and sign language recognition gloves."
+   "brief": "Regulatory moves target tech giants and AI risks while natural disasters and political tensions dominate headlines. Research explores AI in crime linkage and creative coding, alongside visualization tools for data analysis.",
+   "news_summary": "UK proposes banning scam ads and giving Bank of England powers over tech firms; Typhoon Bavi threatens East Asia; Spain wildfire kills 12. Political turmoil includes Trump firing election officials and US-Iran mediation.",
+   "papers_summary": "Studies examine AI-assisted crime linkage analysis and brain-computer interface clinical translation in China. Visualization research covers missing data diagnosis and compositional analysis of Chinese paintings."
   },
   "zh": {
-   "brief": "今日焦点包括福建鞋厂火灾致28人死亡、超强台风巴威逼近台湾和福建、以及新加坡夫妇收养印尼男婴疑涉人口贩运案件。论文方面关注AI在犯罪关联分析和缺失数据可视化中的应用。",
-   "news_summary": "福建泉州晋江鞋厂大火造成28人遇难，习近平指示严肃追责；超强台风巴威逼近台湾，12县市停班停课；新加坡夫妇收养印尼男婴案揭露儿童贩运问题。",
-   "papers_summary": "arXiv论文展示AI辅助犯罪关联分析系统的工业研究，以及用于诊断缺失数据和比较插补方法的可视化仪表板ImputeViz。"
+   "brief": "今日重點：福建鞋廠火災致28人遇難、美伊衝突持續、印尼兒童販運案引發關注。國際方面，英國擬立法打擊詐騙廣告，AI風險警示及強颱風逼近東亞。研究聚焦AI應用於犯罪關聯分析、腦機介面臨床轉化及手語辨識。",
+   "news_summary": "中國新聞包括晉江鞋廠大火、廣西水庫失效、美伊互相攻擊；國際焦點為英國詐騙廣告禁令、強颱風巴維逼近、以及印度女童遭性侵案。",
+   "papers_summary": "本日論文探討AI在犯罪關聯分析中的應用、缺失資料視覺化、中國腦機介面臨床試驗，以及基於深度學習的手語辨識手套。"
   }
  },
  "todays_image": {
-  "caption": "Like the woven inscriptions of authority on a Tiraz tapestry, Pauline Hanson's pseudo-events fabricate a global brand of far-right appeal.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-11304_01-000001",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/11304",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-11304_01-000001",
-  "title": "Tiraz tapestry"
+  "caption": "Both the mid-20th century ballot box and today's proposed ban on scam ads aim to preserve trust in democratic and commercial systems by safeguarding against manipulation.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-JN2026-00282-000001",
+  "source_name": "National Museum of American History",
+  "source_url": null,
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-JN2026-00282-000001&max=150",
+  "title": "Ballot box, mid-20th century"
  }
 }
