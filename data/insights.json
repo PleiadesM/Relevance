@@ -1,28 +1,28 @@
 {
- "brief": "Today's news highlights deadly wildfires in Spain, a US private equity bid for easyJet, and the death of Ann Widdecombe. Research papers explore missing data visualization, AI in crime linkage, and brain-computer interface trials in China.",
+ "brief": "Wildfires in Spain and a massive typhoon threaten East Asia, while EU regulators accuse Meta of addictive design and UK shops deploy facial recognition. Research highlights include a dashboard for missing data, AI in crime linkage, and visual analysis of traditional Chinese paintings.",
  "meta": {
-  "generated_at": "2026-07-10T07:50:18Z"
+  "generated_at": "2026-07-10T11:17:15Z"
  },
- "news_summary": "At least 11 dead in Spanish wildfire, Telstra outage controversy, Ebola death toll reaches 600, Apollo bids £5.7bn for easyJet, and Ann Widdecombe dies at 78.",
- "papers_summary": "Papers cover ImputeViz for missing data, AI for crime linkage, performance incentives in visualization, BCI trials in China, and compositional analysis of traditional Chinese paintings.",
+ "news_summary": "At least 11 die in southern Spain wildfires; Typhoon Bavi threatens Taiwan and China. EU accuses Meta of addictive design; UK shops launch facial recognition alerting police. UK politics sees Farage and Reform viewed as sleazy.",
+ "papers_summary": "Papers explore tools for missing data (ImputeViz), AI-assisted crime linkage, and a composition-graph system for traditional Chinese paintings. Other works cover brain-computer interface trials in China and sign language recognition gloves.",
  "summaries": {
   "en": {
-   "brief": "Today's news highlights deadly wildfires in Spain, a US private equity bid for easyJet, and the death of Ann Widdecombe. Research papers explore missing data visualization, AI in crime linkage, and brain-computer interface trials in China.",
-   "news_summary": "At least 11 dead in Spanish wildfire, Telstra outage controversy, Ebola death toll reaches 600, Apollo bids £5.7bn for easyJet, and Ann Widdecombe dies at 78.",
-   "papers_summary": "Papers cover ImputeViz for missing data, AI for crime linkage, performance incentives in visualization, BCI trials in China, and compositional analysis of traditional Chinese paintings."
+   "brief": "Wildfires in Spain and a massive typhoon threaten East Asia, while EU regulators accuse Meta of addictive design and UK shops deploy facial recognition. Research highlights include a dashboard for missing data, AI in crime linkage, and visual analysis of traditional Chinese paintings.",
+   "news_summary": "At least 11 die in southern Spain wildfires; Typhoon Bavi threatens Taiwan and China. EU accuses Meta of addictive design; UK shops launch facial recognition alerting police. UK politics sees Farage and Reform viewed as sleazy.",
+   "papers_summary": "Papers explore tools for missing data (ImputeViz), AI-assisted crime linkage, and a composition-graph system for traditional Chinese paintings. Other works cover brain-computer interface trials in China and sign language recognition gloves."
   },
   "zh": {
-   "brief": "颱風巴威來襲，台灣嚴陣以待；福建鞋廠大火致28死；美伊衝突加劇；廣西水庫潰堤引發安全擔憂。今日無優先論文。",
-   "news_summary": "颱風巴威以近30年最大暴風半徑逼近台灣，多縣市停班停課；福建泉州晉江鞋廠大火28人遇難，習近平批示嚴肅追責；美伊互相發動攻擊，威脅停火協議；廣西老舊水庫因暴雨潰堤，洪災預警失靈引發討論。",
-   "papers_summary": "今日無優先中文論文。"
+   "brief": "今日焦点包括福建鞋厂火灾致28人死亡、超强台风巴威逼近台湾和福建、以及新加坡夫妇收养印尼男婴疑涉人口贩运案件。论文方面关注AI在犯罪关联分析和缺失数据可视化中的应用。",
+   "news_summary": "福建泉州晋江鞋厂大火造成28人遇难，习近平指示严肃追责；超强台风巴威逼近台湾，12县市停班停课；新加坡夫妇收养印尼男婴案揭露儿童贩运问题。",
+   "papers_summary": "arXiv论文展示AI辅助犯罪关联分析系统的工业研究，以及用于诊断缺失数据和比较插补方法的可视化仪表板ImputeViz。"
   }
  },
  "todays_image": {
-  "caption": "Just as a fire hose section connects to fight fires, home swapping connects strangers to fight expensive holidays.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-ET2016-09862-000001",
-  "source_name": "National Museum of American History",
-  "source_url": null,
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-ET2016-09862-000001&max=150",
-  "title": "Fire Hose Section"
+  "caption": "Like the woven inscriptions of authority on a Tiraz tapestry, Pauline Hanson's pseudo-events fabricate a global brand of far-right appeal.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-11304_01-000001",
+  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/11304",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-11304_01-000001",
+  "title": "Tiraz tapestry"
  }
 }
