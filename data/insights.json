@@ -1,20 +1,28 @@
 {
- "brief": "The Trump administration appoints a climate science critic to oversee a key federal climate report and cuts endangered species protections, while ICE enforcement actions spark controversy and fatal shootings.",
+ "brief": "Today's news covers controversial immigration enforcement, environmental rollbacks, and AI developments, while papers explore visual analytics, crime linkage, and sign language recognition.",
  "meta": {
-  "generated_at": "2026-07-10T19:49:23Z"
+  "generated_at": "2026-07-10T21:19:24Z"
  },
- "news_summary": "Matthew Wielicki, who dismisses climate warnings, will lead the National Climate Assessment; EPA fires a microplastics whistleblower; Missouri declares emergency from floods; ICE shootings in Houston and deportation of a pardoned immigrant draw scrutiny.",
- "papers_summary": "HCI papers explore missing data diagnosis, crime linkage analysis, and AI in high-stakes decisions; AI research includes a GPT-5.6 proof of a mathematical conjecture and Boko Haram's use of frontier AI.",
+ "news_summary": "The Trump administration pursues deregulation and immigration crackdowns, as ICE operations spark controversy; meanwhile, AI models compete in app-building and New York City bans deceptive subscriptions.",
+ "papers_summary": "Research includes a dashboard for handling missing data, an industrial study of AI in crime linkage, and a multimodal smart glove for sign language recognition.",
  "summaries": {
   "en": {
-   "brief": "The Trump administration appoints a climate science critic to oversee a key federal climate report and cuts endangered species protections, while ICE enforcement actions spark controversy and fatal shootings.",
-   "news_summary": "Matthew Wielicki, who dismisses climate warnings, will lead the National Climate Assessment; EPA fires a microplastics whistleblower; Missouri declares emergency from floods; ICE shootings in Houston and deportation of a pardoned immigrant draw scrutiny.",
-   "papers_summary": "HCI papers explore missing data diagnosis, crime linkage analysis, and AI in high-stakes decisions; AI research includes a GPT-5.6 proof of a mathematical conjecture and Boko Haram's use of frontier AI."
+   "brief": "Today's news covers controversial immigration enforcement, environmental rollbacks, and AI developments, while papers explore visual analytics, crime linkage, and sign language recognition.",
+   "news_summary": "The Trump administration pursues deregulation and immigration crackdowns, as ICE operations spark controversy; meanwhile, AI models compete in app-building and New York City bans deceptive subscriptions.",
+   "papers_summary": "Research includes a dashboard for handling missing data, an industrial study of AI in crime linkage, and a multimodal smart glove for sign language recognition."
   },
   "zh": {
-   "brief": "今日新闻聚焦福建鞋厂大火致28人遇难、美国伊朗互相攻击、台风巴威逼近台湾，以及新加坡夫妇涉嫌收养被贩运儿童案件。研究方面暂无中文优先论文，但英文论文涉及脑机接口临床转化、中国画可视化分析等。",
-   "news_summary": "福建泉州晋江鞋厂大火导致28人死亡，习近平要求严肃追责；美国伊朗冲突升级，美方打击90个伊朗目标；台风巴威逼近台湾，多数县市停班停课；新加坡夫妇收养印尼男婴疑似涉及人口贩运。",
-   "papers_summary": "英文论文中，一篇分析中国脑机接口临床试验转化现状，另一篇提出传统中国画构图可视化分析系统CompoVista。"
+   "brief": "今日中文新闻聚焦福建鞋厂大火致28人遇难、新加坡收养案引发儿童贩运质疑、台风巴威逼近台湾，以及一起罕见的医疗虐待案件。研究方面暂无中文论文报道。",
+   "news_summary": "福建晋江鞋厂火灾造成28人死亡，习近平要求严肃追责；新加坡夫妇收养印尼男婴疑涉人口贩运；台风巴威逼近台湾，多地停班停课。",
+   "papers_summary": "今日无中文论文报道。"
   }
+ },
+ "todays_image": {
+  "caption": "Sphagnum moss quietly absorbs and preserves the past, much like the buried history of a pardoned sex offender finally unearthed by deportation.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3ce897179cd9c454381cd1db594653ba7",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3c2b41d0e-aa65-433c-a8dc-c503f6658a71",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3ce897179cd9c454381cd1db594653ba7/90",
+  "title": "Sphagnum girgensohnii Russow"
  }
 }
