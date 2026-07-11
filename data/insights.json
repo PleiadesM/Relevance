@@ -1,24 +1,24 @@
 {
- "brief": "Today's news highlights White House involvement in an FBI investigation of Times reporters, a fatal bonfire incident in Belfast, and a heatwave in the UK, while research papers introduce tools for missing data imputation and AI-assisted crime linkage analysis.",
+ "brief": "A 28-year-old man is arrested for the murder of former MP Ann Widdecombe; Trump stirs anger with video of Somali schoolchildren; Poland pledges memorial to WWII victims; Gaza aid worker killed; and AI papers explore missing data visualization and crime linkage analysis.",
  "meta": {
-  "generated_at": "2026-07-11T21:02:55Z"
+  "generated_at": "2026-07-11T23:09:00Z"
  },
- "news_summary": "The White House directed FBI Director Patel to oversee an investigation involving Times reporters; a man died after falling from an Eleventh Night bonfire in Belfast; heatwave conditions persist in England and Wales; and China braces for a second typhoon in a week.",
- "papers_summary": "Notable papers include ImputeViz for diagnosing missing data, a study on AI use in crime linkage analysis, and CompoVista for compositional analysis of traditional Chinese paintings.",
+ "news_summary": "A suspect is held in the Ann Widdecombe murder case; Trump's repost of Somali schoolchildren sparks outrage in Minnesota; Poland announces a memorial for WWII victims of Ukrainian nationalists; a Palestinian aid worker organizing World Cup screenings is killed by an Israeli strike; Kansas votes on electing its supreme court, targeting abortion rights.",
+ "papers_summary": "ImputeViz offers a dashboard for diagnosing missing data and comparing imputation methods; an industrial study examines how analysts use AI for high-stakes crime linkage; and a landscape analysis reviews clinical translation of brain-computer interfaces in China.",
  "summaries": {
   "en": {
-   "brief": "Today's news highlights White House involvement in an FBI investigation of Times reporters, a fatal bonfire incident in Belfast, and a heatwave in the UK, while research papers introduce tools for missing data imputation and AI-assisted crime linkage analysis.",
-   "news_summary": "The White House directed FBI Director Patel to oversee an investigation involving Times reporters; a man died after falling from an Eleventh Night bonfire in Belfast; heatwave conditions persist in England and Wales; and China braces for a second typhoon in a week.",
-   "papers_summary": "Notable papers include ImputeViz for diagnosing missing data, a study on AI use in crime linkage analysis, and CompoVista for compositional analysis of traditional Chinese paintings."
+   "brief": "A 28-year-old man is arrested for the murder of former MP Ann Widdecombe; Trump stirs anger with video of Somali schoolchildren; Poland pledges memorial to WWII victims; Gaza aid worker killed; and AI papers explore missing data visualization and crime linkage analysis.",
+   "news_summary": "A suspect is held in the Ann Widdecombe murder case; Trump's repost of Somali schoolchildren sparks outrage in Minnesota; Poland announces a memorial for WWII victims of Ukrainian nationalists; a Palestinian aid worker organizing World Cup screenings is killed by an Israeli strike; Kansas votes on electing its supreme court, targeting abortion rights.",
+   "papers_summary": "ImputeViz offers a dashboard for diagnosing missing data and comparing imputation methods; an industrial study examines how analysts use AI for high-stakes crime linkage; and a landscape analysis reviews clinical translation of brain-computer interfaces in China."
   },
   "zh": {
-   "brief": "中国遭遇一周内第二场台风，大规模疏散；德国宣判华人跨国性侵案。国际新闻聚焦美国政治、AI版权争议及中东局势。研究方面，多篇论文探讨可视化、犯罪关联分析及中国传统文化数字化。",
-   "news_summary": "台风巴威登陆中国东部，浙江疏散近200万人，台湾15万户停电。德国宣判“德国老司机驾校”Telegram跨国性侵案，多名中国籍主犯落网。",
-   "papers_summary": "本日研究包括缺失数据可视化工具ImputeViz、AI在犯罪关联分析中的应用、脑机接口临床试验，以及基于知识图谱的中国传统绘画可视化分析框架。"
+   "brief": "今日主要新闻聚焦台风巴威侵袭中国和台湾，导致大规模疏散和停电；同时，德国判决一起涉及中国公民的跨国性侵案。研究方面，值得关注的论文包括可视化数据缺失诊断工具、人工智能在犯罪关联分析中的应用，以及中国传统绘画构图分析系统。",
+   "news_summary": "台风巴威在中国浙江等地导致超过76万人疏散，台湾15万户停电；德国法院对由中国人组成的“老司机”性侵网络成员作出判决。",
+   "papers_summary": "arXiv论文涉及缺失数据可视化诊断（ImputeViz）、高风险犯罪关联分析中分析师使用AI的案例研究，以及基于构图图的中国传统绘画视觉分析系统（CompoVista）。"
   }
  },
  "todays_image": {
-  "caption": "The historic telegram, a once-revolutionary method for transmitting urgent directives, mirrors today's story of the White House issuing a direct order to Patel, highlighting how the core act of sending authoritative messages endures across ",
+  "caption": "The telegram, once a symbol of urgent communication, mirrors the stark, swift delivery of news about a shocking arrest—a modern dispatch of a different kind of tragedy.",
   "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-1982_0157_731z",
   "source_name": "National Postal Museum",
   "source_url": "https://postalmuseum.si.edu/object/npm_1982.0157.731",
