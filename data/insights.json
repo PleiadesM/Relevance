@@ -1,28 +1,40 @@
 {
- "brief": "Today's news highlights a tick epidemic and tech giants' emissions nearing half of France, while papers explore AI for crime linkage and brain-computer interfaces in China.",
- "meta": {
-  "generated_at": "2026-07-11T11:18:19Z"
+ "apropos_of_nothing": {
+  "query": "(\"yarn bombing\" OR \"knitted graffiti\")",
+  "source": {
+   "name": "volumeone.org",
+   "published_at": "2026-07-09T14:15:00Z",
+   "title": "DECI , Water Street BID Plan New Events Ahead Of Eaux Claires",
+   "url": "https://volumeone.org/articles/2026/07/09/395319-deci-water-street-bid-plan-new-events-ahead-of-eaux-claires"
+  },
+  "summaries": {
+   "en": {
+    "summary": "DECI and Water Street BID announce new events ahead of the Eaux Claires festival.",
+    "why_irrelevant": "Focuses on local arts and festival planning, unrelated to politics, crime, or AI."
+   },
+   "zh": {
+    "summary": "DECI与Water Street BID宣布欧克莱尔音乐节前的新活动。",
+    "why_irrelevant": "涉及本地艺术和节日策划，与政治、犯罪、AI无关。"
+   }
+  },
+  "topic": "yarn bombing"
  },
- "news_summary": "Ticks are expanding their territory, and Microsoft, Amazon, and Google's datacentre emissions are approaching half of France's total. Other top stories include Iran's top diplomat in Oman for Strait of Hormuz talks, an NHS anaesthetist shortage, and a statue for Alfred Dreyfus in Paris.",
- "papers_summary": "Research presents AI-assisted crime linkage analysis and clinical translation of brain-computer interfaces in China. Other papers cover missing data visualization and traditional Chinese painting composition analysis.",
+ "brief": "Tensions rise between Iran and the US as talks resume, while Asia braces for Typhoon Bavi. Research explores AI-assisted crime linkage, missing data visualization, and sign language recognition.",
+ "meta": {
+  "generated_at": "2026-07-11T13:51:23Z"
+ },
+ "news_summary": "A speedboat capsizes off Vietnam killing 15 including Indian tourists; former UK MP Ann Widdecombe may have been killed 24 hours before discovery; Typhoon Bavi hits Taiwan and China.",
+ "papers_summary": "New papers examine how analysts use AI for crime linkage, propose visual analytics for missing data (ImputeViz), and introduce a multimodal smart glove for sign language recognition.",
  "summaries": {
   "en": {
-   "brief": "Today's news highlights a tick epidemic and tech giants' emissions nearing half of France, while papers explore AI for crime linkage and brain-computer interfaces in China.",
-   "news_summary": "Ticks are expanding their territory, and Microsoft, Amazon, and Google's datacentre emissions are approaching half of France's total. Other top stories include Iran's top diplomat in Oman for Strait of Hormuz talks, an NHS anaesthetist shortage, and a statue for Alfred Dreyfus in Paris.",
-   "papers_summary": "Research presents AI-assisted crime linkage analysis and clinical translation of brain-computer interfaces in China. Other papers cover missing data visualization and traditional Chinese painting composition analysis."
+   "brief": "Tensions rise between Iran and the US as talks resume, while Asia braces for Typhoon Bavi. Research explores AI-assisted crime linkage, missing data visualization, and sign language recognition.",
+   "news_summary": "A speedboat capsizes off Vietnam killing 15 including Indian tourists; former UK MP Ann Widdecombe may have been killed 24 hours before discovery; Typhoon Bavi hits Taiwan and China.",
+   "papers_summary": "New papers examine how analysts use AI for crime linkage, propose visual analytics for missing data (ImputeViz), and introduce a multimodal smart glove for sign language recognition."
   },
   "zh": {
-   "brief": "今日重点新闻包括台风巴威袭击台湾和中国大陆，造成大规模停电和撤离；德国宣判一起由华人主导的跨国性侵案。研究方面，虽然没有优先语言论文，但英文论文关注了AI在犯罪关联分析中的应用以及中国传统绘画的可视化分析。",
-   "news_summary": "台风巴威暴风圈进入台湾陆地，全台15万户停电，中国三地撤离逾76万人；德国宣判“德国老司机驾校”Telegram跨国性侵案，核心成员相继落网。",
-   "papers_summary": "虽然没有优先语言论文，但英文论文涉及AI辅助犯罪关联分析、中国传统绘画可视化等前沿研究。"
+   "brief": "今日頭條：颱風巴威襲台中國撤離76萬人；德國華人跨國性侵案宣判。",
+   "news_summary": "颱風巴威暴風圈進入台灣陸地，造成15萬戶停電，中國三地撤離逾76萬人。同時，德國宣判一起由中國籍男性組成的跨國性侵案，核心成員落網。",
+   "papers_summary": "今日無重點中文研究論文。英文方面，有研究提出視覺化儀表板ImputeViz用於缺失數據診斷與插補方法比較。"
   }
- },
- "todays_image": {
-  "caption": "Like Lobophora sp. uses chemical defenses to survive in its environment, humans must now wage chemical warfare against the tick invasion.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3a20dbcaf-62f6-4dd2-b936-69074b28dad5",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7/90",
-  "title": "Lobophora sp."
  }
 }
