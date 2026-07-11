@@ -1,28 +1,28 @@
 {
- "brief": "Today's news highlights tensions over immigration enforcement, trade secret lawsuits, and environmental deregulation, while research explores AI in crime analysis, missing data visualization, and brain-computer interfaces.",
+ "brief": "Today's news spans political maneuvering, infrastructure disputes, natural disasters, and AI controversies, while research papers explore visual analytics, human-computer interaction, and cultural heritage.",
  "meta": {
-  "generated_at": "2026-07-10T23:12:21Z"
+  "generated_at": "2026-07-11T03:39:05Z"
  },
- "news_summary": "Trump promotes discounted gas while his administration faces backlash over an ICE shooting and habitat protections rollback; Apple sues OpenAI for alleged trade secret theft.",
- "papers_summary": "New visualization tools address missing data imputation and compositional analysis of Chinese paintings, while studies investigate AI's role in crime linkage and brain-computer interfaces.",
+ "news_summary": "Key stories include the opening of a US-Canada bridge despite Trump's opposition, Meta's AI feature pull, and a devastating Venezuela earthquake.",
+ "papers_summary": "Papers on missing data imputation, crime linkage AI, and visualization incentives highlight advances in human-centered computing.",
  "summaries": {
   "en": {
-   "brief": "Today's news highlights tensions over immigration enforcement, trade secret lawsuits, and environmental deregulation, while research explores AI in crime analysis, missing data visualization, and brain-computer interfaces.",
-   "news_summary": "Trump promotes discounted gas while his administration faces backlash over an ICE shooting and habitat protections rollback; Apple sues OpenAI for alleged trade secret theft.",
-   "papers_summary": "New visualization tools address missing data imputation and compositional analysis of Chinese paintings, while studies investigate AI's role in crime linkage and brain-computer interfaces."
+   "brief": "Today's news spans political maneuvering, infrastructure disputes, natural disasters, and AI controversies, while research papers explore visual analytics, human-computer interaction, and cultural heritage.",
+   "news_summary": "Key stories include the opening of a US-Canada bridge despite Trump's opposition, Meta's AI feature pull, and a devastating Venezuela earthquake.",
+   "papers_summary": "Papers on missing data imputation, crime linkage AI, and visualization incentives highlight advances in human-centered computing."
   },
   "zh": {
-   "brief": "今日中文新闻聚焦福建鞋厂火灾致28人死亡、美伊冲突升级、台风巴威逼近台湾，以及新加坡夫妇收养疑遭贩卖男婴案。研究方面涵盖可视化、AI与犯罪分析等。",
-   "news_summary": "福建泉州晋江鞋厂大火造成28人遇难，习近平指示严肃追责；美伊互相发动攻击，哈梅内伊下葬之际冲突加剧；台风巴威靠近台湾，多地停班停课；新加坡夫妇收养印尼男婴涉人口贩卖引发关注。",
-   "papers_summary": "arXiv论文涉及缺失数据诊断、犯罪关联分析、脑机接口临床试验、中国画可视化等研究方向。"
+   "brief": "今日焦点包括福建鞋厂大火致28死，当局展开追责；一名母亲长期虚构子女疾病被揭发；新加坡夫妇收养印尼男婴涉人口贩运；美伊冲突持续。学术方面无中文论文，但全球研究关注AI在视觉分析、手语识别等领域的应用。",
+   "news_summary": "福建晋江鞋厂火灾造成28人死亡，习近平要求严肃追责；BBC中文揭露两起儿童虐待案：新加坡夫妇收养印尼男婴疑涉人口贩运，以及母亲多年虚构女儿重病进行精神虐待；美伊互相发动攻击，哈梅内伊下葬期间冲突升级。",
+   "papers_summary": "今日无优先中文论文，但全球研究涉及AI在犯罪关联分析、脑机接口临床转化、传统中国画可视化等领域的应用。"
   }
  },
  "todays_image": {
-  "caption": "A century-old telegram sent during World War I and a modern political pitch for \"Freedom Fuel\" both use wartime rhetoric to frame energy as a national security issue.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-1982_0157_727a",
-  "source_name": "National Postal Museum",
-  "source_url": "https://postalmuseum.si.edu/object/npm_1982.0157.727",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-1982_0157_727a",
-  "title": "Telegram to John Jordan, September 5, 1918"
+  "caption": "The garden bridge design embodies an unimpeded creative vision, much like the new Detroit-Canada bridge opening despite political obstruction.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1909-12-17MattFlynn",
+  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/16892",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1909-12-17MattFlynn",
+  "title": "Design for Bridge in Garden Pavilion"
  }
 }

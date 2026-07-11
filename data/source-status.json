@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-10T23:12:21Z",
+ "generated_at": "2026-07-11T03:39:05Z",
  "private_summary": {
   "configured": 0,
   "total": 2
@@ -103,7 +103,7 @@
   },
   {
    "category": "open",
-   "count": 5,
+   "count": 4,
    "error": null,
    "full_text_count": 0,
    "id": "hn_frontpage_ai",
@@ -115,7 +115,7 @@
   },
   {
    "category": "open",
-   "count": 20,
+   "count": 21,
    "error": null,
    "full_text_count": 0,
    "id": "bbc_world",
@@ -151,7 +151,7 @@
   },
   {
    "category": "open",
-   "count": 26,
+   "count": 25,
    "error": null,
    "full_text_count": 0,
    "id": "nyt_homepage",
@@ -163,7 +163,7 @@
   },
   {
    "category": "open",
-   "count": 43,
+   "count": 42,
    "error": null,
    "full_text_count": 0,
    "id": "bbc_zhongwen",
@@ -211,7 +211,7 @@
   },
   {
    "category": "optional",
-   "count": 14,
+   "count": 12,
    "error": null,
    "full_text_count": 0,
    "id": "crossref_techcomm_journals",
