@@ -1,28 +1,28 @@
 {
- "brief": "Randolph Mantooth, star of 'Emergency!', dies at 80; Trump administration rolls back wildlife protections and escalates media pressure; new research explores visual analytics for missing data and crime linkage.",
+ "brief": "Police release a suspect in the Widdecombe murder case as Spain battles deadly wildfires, McConnell's health remains unclear, and a new dinosaur species is discovered. Research highlights visual analytics for missing data and AI-assisted crime linkage, alongside advances in brain-computer interfaces and sign language recognition.",
  "meta": {
-  "generated_at": "2026-07-11T06:25:04Z"
+  "generated_at": "2026-07-11T09:47:07Z"
  },
- "news_summary": "Randolph Mantooth, who played firefighter-paramedic John Gage, has died. The Trump administration narrowed the Endangered Species Act and subpoenaed Times journalists, while a Canada-U.S. bridge deal was finalized and a Spanish wildfire killed at least 12.",
- "papers_summary": "Papers introduce ImputeViz for diagnosing missing data, study AI use in crime linkage analysis, and present a visual analytics system for traditional Chinese paintings.",
+ "news_summary": "A man arrested on suspicion of Ann Widdecombe's murder is released; Spain's wildfire kills at least 12, including four Britons; Mitch McConnell's health questions persist; a Dreyfus statue gets a permanent home in Paris; and a new dinosaur species is found in Thailand.",
+ "papers_summary": "ImputeViz provides a dashboard for missing data diagnosis, while a study examines how analysts use AI in crime linkage. Other papers cover brain-computer interface trials in China, a smart glove for sign language recognition, and visual analytics for traditional Chinese paintings.",
  "summaries": {
   "en": {
-   "brief": "Randolph Mantooth, star of 'Emergency!', dies at 80; Trump administration rolls back wildlife protections and escalates media pressure; new research explores visual analytics for missing data and crime linkage.",
-   "news_summary": "Randolph Mantooth, who played firefighter-paramedic John Gage, has died. The Trump administration narrowed the Endangered Species Act and subpoenaed Times journalists, while a Canada-U.S. bridge deal was finalized and a Spanish wildfire killed at least 12.",
-   "papers_summary": "Papers introduce ImputeViz for diagnosing missing data, study AI use in crime linkage analysis, and present a visual analytics system for traditional Chinese paintings."
+   "brief": "Police release a suspect in the Widdecombe murder case as Spain battles deadly wildfires, McConnell's health remains unclear, and a new dinosaur species is discovered. Research highlights visual analytics for missing data and AI-assisted crime linkage, alongside advances in brain-computer interfaces and sign language recognition.",
+   "news_summary": "A man arrested on suspicion of Ann Widdecombe's murder is released; Spain's wildfire kills at least 12, including four Britons; Mitch McConnell's health questions persist; a Dreyfus statue gets a permanent home in Paris; and a new dinosaur species is found in Thailand.",
+   "papers_summary": "ImputeViz provides a dashboard for missing data diagnosis, while a study examines how analysts use AI in crime linkage. Other papers cover brain-computer interface trials in China, a smart glove for sign language recognition, and visual analytics for traditional Chinese paintings."
   },
   "zh": {
-   "brief": "今日新闻聚焦德国华人跨国性侵案、新加坡夫妇收养涉人口贩运男婴案以及母亲长期虐待伪装疾病的案例。研究方面，多篇论文探讨可视化分析、AI犯罪关联及脑机接口等领域。",
-   "news_summary": "德国宣判'老司机驾校'跨国性侵案核心成员，新加坡夫妇收养男婴疑涉人口贩运，另有一名女子自幼被母亲强迫接受不必要医疗，实为长期虐待。",
-   "papers_summary": "多篇计算机科学论文涉及缺失数据可视化诊断、AI在犯罪关联中的工业应用、以及中国脑机接口临床试验的现状分析。"
+   "brief": "颱風巴威侵襲台灣與中國東南沿海，造成大規模停電和人員撤離。德國華人跨國性侵案宣判，揭露隱密的性暴力網絡。國際研究持續關注AI成本、人機互動與犯罪分析。",
+   "news_summary": "颱風巴威導致台灣15萬戶停電，中國三地撤離逾76萬人；德國宣判一宗由中國籍男性主導的Telegram跨國性侵案，核心成員落網。",
+   "papers_summary": "今日研究聚焦於AI在犯罪連結分析中的應用、遺漏資料視覺化診斷，以及腦機介面在中國的臨床轉譯等領域。"
   }
  },
  "todays_image": {
-  "caption": "The \"HIBERNIA\" fire engine plate and Randolph Mantooth's iconic role as a firefighter in 'Emergency!' both symbolize the enduring legacy of the men and machines that serve on the front lines of emergency response.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q00827",
-  "source_name": "National Museum of American History",
-  "source_url": null,
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q00827&max=150",
-  "title": "Fire Engine Plate, \"HIBERNIA\""
+  "caption": "Ancient bones in a museum and a murder investigation both involve cold cases, but only one is truly extinct.",
+  "image_url": "http://ids.si.edu/ids/deliveryService?id=SIA-SIA_000095_B44_F13_005&max=1024",
+  "source_name": "Smithsonian Institution Archives",
+  "source_url": "https://siarchives.si.edu/collections/siris_arc_402459",
+  "thumbnail_url": "http://ids.si.edu/ids/deliveryService?id=SIA-SIA_000095_B44_F13_005&max=150",
+  "title": "Hall of Dinosaurs and Fossil Reptiles, Museum of Natural History"
  }
 }
