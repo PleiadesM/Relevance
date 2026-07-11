@@ -1,28 +1,28 @@
 {
- "brief": "Today's news spans political maneuvering, infrastructure disputes, natural disasters, and AI controversies, while research papers explore visual analytics, human-computer interaction, and cultural heritage.",
+ "brief": "Randolph Mantooth, star of 'Emergency!', dies at 80; Trump administration rolls back wildlife protections and escalates media pressure; new research explores visual analytics for missing data and crime linkage.",
  "meta": {
-  "generated_at": "2026-07-11T03:39:05Z"
+  "generated_at": "2026-07-11T06:25:04Z"
  },
- "news_summary": "Key stories include the opening of a US-Canada bridge despite Trump's opposition, Meta's AI feature pull, and a devastating Venezuela earthquake.",
- "papers_summary": "Papers on missing data imputation, crime linkage AI, and visualization incentives highlight advances in human-centered computing.",
+ "news_summary": "Randolph Mantooth, who played firefighter-paramedic John Gage, has died. The Trump administration narrowed the Endangered Species Act and subpoenaed Times journalists, while a Canada-U.S. bridge deal was finalized and a Spanish wildfire killed at least 12.",
+ "papers_summary": "Papers introduce ImputeViz for diagnosing missing data, study AI use in crime linkage analysis, and present a visual analytics system for traditional Chinese paintings.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans political maneuvering, infrastructure disputes, natural disasters, and AI controversies, while research papers explore visual analytics, human-computer interaction, and cultural heritage.",
-   "news_summary": "Key stories include the opening of a US-Canada bridge despite Trump's opposition, Meta's AI feature pull, and a devastating Venezuela earthquake.",
-   "papers_summary": "Papers on missing data imputation, crime linkage AI, and visualization incentives highlight advances in human-centered computing."
+   "brief": "Randolph Mantooth, star of 'Emergency!', dies at 80; Trump administration rolls back wildlife protections and escalates media pressure; new research explores visual analytics for missing data and crime linkage.",
+   "news_summary": "Randolph Mantooth, who played firefighter-paramedic John Gage, has died. The Trump administration narrowed the Endangered Species Act and subpoenaed Times journalists, while a Canada-U.S. bridge deal was finalized and a Spanish wildfire killed at least 12.",
+   "papers_summary": "Papers introduce ImputeViz for diagnosing missing data, study AI use in crime linkage analysis, and present a visual analytics system for traditional Chinese paintings."
   },
   "zh": {
-   "brief": "今日焦点包括福建鞋厂大火致28死，当局展开追责；一名母亲长期虚构子女疾病被揭发；新加坡夫妇收养印尼男婴涉人口贩运；美伊冲突持续。学术方面无中文论文，但全球研究关注AI在视觉分析、手语识别等领域的应用。",
-   "news_summary": "福建晋江鞋厂火灾造成28人死亡，习近平要求严肃追责；BBC中文揭露两起儿童虐待案：新加坡夫妇收养印尼男婴疑涉人口贩运，以及母亲多年虚构女儿重病进行精神虐待；美伊互相发动攻击，哈梅内伊下葬期间冲突升级。",
-   "papers_summary": "今日无优先中文论文，但全球研究涉及AI在犯罪关联分析、脑机接口临床转化、传统中国画可视化等领域的应用。"
+   "brief": "今日新闻聚焦德国华人跨国性侵案、新加坡夫妇收养涉人口贩运男婴案以及母亲长期虐待伪装疾病的案例。研究方面，多篇论文探讨可视化分析、AI犯罪关联及脑机接口等领域。",
+   "news_summary": "德国宣判'老司机驾校'跨国性侵案核心成员，新加坡夫妇收养男婴疑涉人口贩运，另有一名女子自幼被母亲强迫接受不必要医疗，实为长期虐待。",
+   "papers_summary": "多篇计算机科学论文涉及缺失数据可视化诊断、AI在犯罪关联中的工业应用、以及中国脑机接口临床试验的现状分析。"
   }
  },
  "todays_image": {
-  "caption": "The garden bridge design embodies an unimpeded creative vision, much like the new Detroit-Canada bridge opening despite political obstruction.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1909-12-17MattFlynn",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/16892",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1909-12-17MattFlynn",
-  "title": "Design for Bridge in Garden Pavilion"
+  "caption": "The \"HIBERNIA\" fire engine plate and Randolph Mantooth's iconic role as a firefighter in 'Emergency!' both symbolize the enduring legacy of the men and machines that serve on the front lines of emergency response.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q00827",
+  "source_name": "National Museum of American History",
+  "source_url": null,
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q00827&max=150",
+  "title": "Fire Engine Plate, \"HIBERNIA\""
  }
 }
