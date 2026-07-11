@@ -1,28 +1,28 @@
 {
- "brief": "Today's headlines feature escalating Iran tensions, a controversial ICE shooting, and press freedom concerns with subpoenas of NYT journalists, while research highlights AI-assisted crime linkage, visualization for missing data, and cultural heritage analysis of traditional Chinese paintings.",
+ "brief": "Today's news highlights White House involvement in an FBI investigation of Times reporters, a fatal bonfire incident in Belfast, and a heatwave in the UK, while research papers introduce tools for missing data imputation and AI-assisted crime linkage analysis.",
  "meta": {
-  "generated_at": "2026-07-11T19:29:50Z"
+  "generated_at": "2026-07-11T21:02:55Z"
  },
- "news_summary": "Key news includes Iran's vow of revenge amid talks in Oman, an ICE shooting in Houston, a US congressman detained by Israeli settlers, Trump's controversial posts, a deadly typhoon in China, and Justice Department subpoenas of NYT reporters.",
- "papers_summary": "Papers cover a visual analytics dashboard for missing data (ImputeViz), an industrial study of AI in crime linkage, performance-based incentives in visualization experiments, landscape of brain-computer interface trials in China, and composition analysis of traditional Chinese paintings.",
+ "news_summary": "The White House directed FBI Director Patel to oversee an investigation involving Times reporters; a man died after falling from an Eleventh Night bonfire in Belfast; heatwave conditions persist in England and Wales; and China braces for a second typhoon in a week.",
+ "papers_summary": "Notable papers include ImputeViz for diagnosing missing data, a study on AI use in crime linkage analysis, and CompoVista for compositional analysis of traditional Chinese paintings.",
  "summaries": {
   "en": {
-   "brief": "Today's headlines feature escalating Iran tensions, a controversial ICE shooting, and press freedom concerns with subpoenas of NYT journalists, while research highlights AI-assisted crime linkage, visualization for missing data, and cultural heritage analysis of traditional Chinese paintings.",
-   "news_summary": "Key news includes Iran's vow of revenge amid talks in Oman, an ICE shooting in Houston, a US congressman detained by Israeli settlers, Trump's controversial posts, a deadly typhoon in China, and Justice Department subpoenas of NYT reporters.",
-   "papers_summary": "Papers cover a visual analytics dashboard for missing data (ImputeViz), an industrial study of AI in crime linkage, performance-based incentives in visualization experiments, landscape of brain-computer interface trials in China, and composition analysis of traditional Chinese paintings."
+   "brief": "Today's news highlights White House involvement in an FBI investigation of Times reporters, a fatal bonfire incident in Belfast, and a heatwave in the UK, while research papers introduce tools for missing data imputation and AI-assisted crime linkage analysis.",
+   "news_summary": "The White House directed FBI Director Patel to oversee an investigation involving Times reporters; a man died after falling from an Eleventh Night bonfire in Belfast; heatwave conditions persist in England and Wales; and China braces for a second typhoon in a week.",
+   "papers_summary": "Notable papers include ImputeViz for diagnosing missing data, a study on AI use in crime linkage analysis, and CompoVista for compositional analysis of traditional Chinese paintings."
   },
   "zh": {
-   "brief": "颱風巴威侵襲中國浙江與台灣，數百萬人撤離；德國宣判一起主要由中國籍男性組成的跨國性侵案。",
-   "news_summary": "颱風巴威登陸中國浙江，近200萬人撤離，台灣15萬戶停電；德國法院判決「老司機駕校」跨國性侵案多名成員。",
-   "papers_summary": "今日無中文重點論文，英文論文集中於可視化與人機交互領域。"
+   "brief": "中国遭遇一周内第二场台风，大规模疏散；德国宣判华人跨国性侵案。国际新闻聚焦美国政治、AI版权争议及中东局势。研究方面，多篇论文探讨可视化、犯罪关联分析及中国传统文化数字化。",
+   "news_summary": "台风巴威登陆中国东部，浙江疏散近200万人，台湾15万户停电。德国宣判“德国老司机驾校”Telegram跨国性侵案，多名中国籍主犯落网。",
+   "papers_summary": "本日研究包括缺失数据可视化工具ImputeViz、AI在犯罪关联分析中的应用、脑机接口临床试验，以及基于知识图谱的中国传统绘画可视化分析框架。"
   }
  },
  "todays_image": {
-  "caption": "The delicate, foreign patterns of the Chinese wallpaper mask the room's interior tensions, much like diplomatic talks in Oman paper over the Khamenei's vow for revenge.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1948-40-52MattFlynn",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/98526",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1948-40-52MattFlynn",
-  "title": "Interior with Chinese Wallpaper"
+  "caption": "The historic telegram, a once-revolutionary method for transmitting urgent directives, mirrors today's story of the White House issuing a direct order to Patel, highlighting how the core act of sending authoritative messages endures across ",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-1982_0157_731z",
+  "source_name": "National Postal Museum",
+  "source_url": "https://postalmuseum.si.edu/object/npm_1982.0157.731",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-1982_0157_731z",
+  "title": "Telegram"
  }
 }
