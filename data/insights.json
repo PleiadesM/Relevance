@@ -1,28 +1,28 @@
 {
- "brief": "A 28-year-old man is arrested for the murder of former MP Ann Widdecombe; Trump stirs anger with video of Somali schoolchildren; Poland pledges memorial to WWII victims; Gaza aid worker killed; and AI papers explore missing data visualization and crime linkage analysis.",
+ "brief": "US and Iran exchange strikes over Strait of Hormuz, while a Toronto street festival shooting kills two and floods in Missouri prompt helicopter rescues. Research papers explore AI in crime linkage, missing data visualization, and brain-computer interfaces in China.",
  "meta": {
-  "generated_at": "2026-07-11T23:09:00Z"
+  "generated_at": "2026-07-12T03:54:06Z"
  },
- "news_summary": "A suspect is held in the Ann Widdecombe murder case; Trump's repost of Somali schoolchildren sparks outrage in Minnesota; Poland announces a memorial for WWII victims of Ukrainian nationalists; a Palestinian aid worker organizing World Cup screenings is killed by an Israeli strike; Kansas votes on electing its supreme court, targeting abortion rights.",
- "papers_summary": "ImputeViz offers a dashboard for diagnosing missing data and comparing imputation methods; an industrial study examines how analysts use AI for high-stakes crime linkage; and a landscape analysis reviews clinical translation of brain-computer interfaces in China.",
+ "news_summary": "US launches strikes on Iran after a vessel was hit in the Strait of Hormuz; Toronto police search for a shooter after two killed at a street festival; Missouri floods rescue hundreds from a summer camp.",
+ "papers_summary": "Papers include ImputeViz for missing data diagnosis, a study of AI in crime linkage analysis, and a landscape analysis of brain-computer interface trials in China.",
  "summaries": {
   "en": {
-   "brief": "A 28-year-old man is arrested for the murder of former MP Ann Widdecombe; Trump stirs anger with video of Somali schoolchildren; Poland pledges memorial to WWII victims; Gaza aid worker killed; and AI papers explore missing data visualization and crime linkage analysis.",
-   "news_summary": "A suspect is held in the Ann Widdecombe murder case; Trump's repost of Somali schoolchildren sparks outrage in Minnesota; Poland announces a memorial for WWII victims of Ukrainian nationalists; a Palestinian aid worker organizing World Cup screenings is killed by an Israeli strike; Kansas votes on electing its supreme court, targeting abortion rights.",
-   "papers_summary": "ImputeViz offers a dashboard for diagnosing missing data and comparing imputation methods; an industrial study examines how analysts use AI for high-stakes crime linkage; and a landscape analysis reviews clinical translation of brain-computer interfaces in China."
+   "brief": "US and Iran exchange strikes over Strait of Hormuz, while a Toronto street festival shooting kills two and floods in Missouri prompt helicopter rescues. Research papers explore AI in crime linkage, missing data visualization, and brain-computer interfaces in China.",
+   "news_summary": "US launches strikes on Iran after a vessel was hit in the Strait of Hormuz; Toronto police search for a shooter after two killed at a street festival; Missouri floods rescue hundreds from a summer camp.",
+   "papers_summary": "Papers include ImputeViz for missing data diagnosis, a study of AI in crime linkage analysis, and a landscape analysis of brain-computer interface trials in China."
   },
   "zh": {
-   "brief": "今日主要新闻聚焦台风巴威侵袭中国和台湾，导致大规模疏散和停电；同时，德国判决一起涉及中国公民的跨国性侵案。研究方面，值得关注的论文包括可视化数据缺失诊断工具、人工智能在犯罪关联分析中的应用，以及中国传统绘画构图分析系统。",
-   "news_summary": "台风巴威在中国浙江等地导致超过76万人疏散，台湾15万户停电；德国法院对由中国人组成的“老司机”性侵网络成员作出判决。",
-   "papers_summary": "arXiv论文涉及缺失数据可视化诊断（ImputeViz）、高风险犯罪关联分析中分析师使用AI的案例研究，以及基于构图图的中国传统绘画视觉分析系统（CompoVista）。"
+   "brief": "中国一周内遭遇两个台风，近200万人疏散；韩国寺庙举办相亲活动助单身男女交友；德国破获华人跨国性侵案。研究方面涉及脑机接口在中国临床试验、传统绘画可视化等。",
+   "news_summary": "双台风接连登陆中国，浙江等地大规模疏散；韩国僧人组织30小时山林静修相亲；德国宣判华人跨国性侵案。",
+   "papers_summary": "学术论文研究脑机接口在中国的临床试验进展，以及基于知识图谱的传统中国画可视化分析系统。"
   }
  },
  "todays_image": {
-  "caption": "The telegram, once a symbol of urgent communication, mirrors the stark, swift delivery of news about a shocking arrest—a modern dispatch of a different kind of tragedy.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-1982_0157_731z",
+  "caption": "The first helicopter mail sack symbolizes early innovation in overcoming geographic barriers, much like today's conflict over the Strait of Hormuz, a strategic chokepoint for global energy transit.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-1982_0157_518",
   "source_name": "National Postal Museum",
-  "source_url": "https://postalmuseum.si.edu/object/npm_1982.0157.731",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-1982_0157_731z",
-  "title": "Telegram"
+  "source_url": "https://postalmuseum.si.edu/object/npm_1982.0157.518",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-1982_0157_518",
+  "title": "First helicopter mail sack"
  }
 }
