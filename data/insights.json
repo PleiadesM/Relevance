@@ -1,28 +1,28 @@
 {
- "brief": "US and Iran exchange strikes over Strait of Hormuz, while a Toronto street festival shooting kills two and floods in Missouri prompt helicopter rescues. Research papers explore AI in crime linkage, missing data visualization, and brain-computer interfaces in China.",
+ "brief": "China evacuates nearly 2 million as second typhoon hits, while US Senator Lindsey Graham dies at 71 and US-Iran tensions escalate over the Strait of Hormuz.",
  "meta": {
-  "generated_at": "2026-07-12T03:54:06Z"
+  "generated_at": "2026-07-12T06:45:13Z"
  },
- "news_summary": "US launches strikes on Iran after a vessel was hit in the Strait of Hormuz; Toronto police search for a shooter after two killed at a street festival; Missouri floods rescue hundreds from a summer camp.",
- "papers_summary": "Papers include ImputeViz for missing data diagnosis, a study of AI in crime linkage analysis, and a landscape analysis of brain-computer interface trials in China.",
+ "news_summary": "Typhoon landfall in Zhejiang prompts mass evacuations, and Senator Lindsey Graham's sudden death dominates US politics, alongside renewed US-Iran strikes and a Toronto festival shooting.",
+ "papers_summary": "HCI research spans missing data visualization, AI in crime linkage, BCI clinical trials in China, and sign language recognition via smart gloves.",
  "summaries": {
   "en": {
-   "brief": "US and Iran exchange strikes over Strait of Hormuz, while a Toronto street festival shooting kills two and floods in Missouri prompt helicopter rescues. Research papers explore AI in crime linkage, missing data visualization, and brain-computer interfaces in China.",
-   "news_summary": "US launches strikes on Iran after a vessel was hit in the Strait of Hormuz; Toronto police search for a shooter after two killed at a street festival; Missouri floods rescue hundreds from a summer camp.",
-   "papers_summary": "Papers include ImputeViz for missing data diagnosis, a study of AI in crime linkage analysis, and a landscape analysis of brain-computer interface trials in China."
+   "brief": "China evacuates nearly 2 million as second typhoon hits, while US Senator Lindsey Graham dies at 71 and US-Iran tensions escalate over the Strait of Hormuz.",
+   "news_summary": "Typhoon landfall in Zhejiang prompts mass evacuations, and Senator Lindsey Graham's sudden death dominates US politics, alongside renewed US-Iran strikes and a Toronto festival shooting.",
+   "papers_summary": "HCI research spans missing data visualization, AI in crime linkage, BCI clinical trials in China, and sign language recognition via smart gloves."
   },
   "zh": {
-   "brief": "中国一周内遭遇两个台风，近200万人疏散；韩国寺庙举办相亲活动助单身男女交友；德国破获华人跨国性侵案。研究方面涉及脑机接口在中国临床试验、传统绘画可视化等。",
-   "news_summary": "双台风接连登陆中国，浙江等地大规模疏散；韩国僧人组织30小时山林静修相亲；德国宣判华人跨国性侵案。",
-   "papers_summary": "学术论文研究脑机接口在中国的临床试验进展，以及基于知识图谱的传统中国画可视化分析系统。"
+   "brief": "中国本周遭遇第二个台风登陆，近200万人疏散；台湾也受台风巴威影响，15万户停电。韩国寺院举办静修相亲活动，帮助单身男女寻找爱情。美国参议员林赛·格雷厄姆去世。研究方面，多篇论文关注可视化、犯罪关联分析和智能手套手语识别。",
+   "news_summary": "中国浙江因台风疏散近200万人，台湾屏东和兰屿出现14级强风。韩国僧人组织30小时山林静修相亲，帮助单身男女。美国参议员林赛·格雷厄姆病逝。",
+   "papers_summary": "今日论文涵盖缺失数据可视化诊断工具ImputeViz、高风险犯罪关联分析中AI的使用、以及基于深度学习的智能手套手语识别等研究。"
   }
  },
  "todays_image": {
-  "caption": "The first helicopter mail sack symbolizes early innovation in overcoming geographic barriers, much like today's conflict over the Strait of Hormuz, a strategic chokepoint for global energy transit.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-1982_0157_518",
-  "source_name": "National Postal Museum",
-  "source_url": "https://postalmuseum.si.edu/object/npm_1982.0157.518",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-1982_0157_518",
-  "title": "First helicopter mail sack"
+  "caption": "The bristled seeds of Digitaria setigera Roth could be scattered far and wide by the same typhoon winds now battering China.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m33b75d8e5976348efafbee708158e5030",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/31dd07d0d-3741-4161-a629-756a0041a339",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m33b75d8e5976348efafbee708158e5030/90",
+  "title": "Digitaria setigera Roth"
  }
 }
