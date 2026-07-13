@@ -1,28 +1,48 @@
 {
- "brief": "Today's news highlights the deaths of Senator Lindsey Graham and actor Sam Neill, alongside escalating US-Iran tensions that sent oil prices soaring and a deadly bar fire in Bangkok. Research papers focus on AI coding assistants and wearable sensing in high-stakes contexts.",
- "meta": {
-  "generated_at": "2026-07-13T07:36:00Z"
+ "apropos_of_nothing": {
+  "query": "(\"ferret racing\" OR \"ferret competition\")",
+  "source": {
+   "name": "thescottishfarmer.co.uk",
+   "published_at": "2026-07-07T07:45:00Z",
+   "title": "JCB celebrates 80 years with employee festival | The Scottish Farmer",
+   "url": "https://www.thescottishfarmer.co.uk/news/26256293.jcb-celebrates-80-years-employee-festival/"
+  },
+  "summaries": {
+   "en": {
+    "summary": "JCB celebrated its 80th anniversary with an employee festival in Scotland.",
+    "why_irrelevant": "Because industrial machinery news is far from competitive ferret racing."
+   },
+   "zh": {
+    "summary": "JCB在苏格兰举办员工庆典，庆祝成立80周年。",
+    "why_irrelevant": "因为工业机械新闻与竞技雪貂赛跑相去甚远。"
+   }
+  },
+  "topic": "competitive ferret racing"
  },
- "news_summary": "Republican Senator Lindsey Graham and actor Sam Neill have died; US-Iran strikes over the Strait of Hormuz have caused oil prices to leap and markets to fall; a bar fire in Bangkok has killed at least 27 people.",
- "papers_summary": "Papers explore configurable AI coding assistants for developer control and the behavioral implications of mandatory wearable sensing in institutions.",
+ "brief": "Actor Sam Neill dies at 78, a Bangkok bar fire kills at least 27, and Senator Lindsey Graham dies, while research explores AI coding assistants and brain-computer interfaces.",
+ "meta": {
+  "generated_at": "2026-07-13T11:27:23Z"
+ },
+ "news_summary": "Sam Neill, star of Jurassic Park, dies at 78; a Bangkok bar fire kills at least 27; Senator Lindsey Graham dies of an aortic tear, complicating Republican agenda; and Iran-U.S. strikes raise oil prices.",
+ "papers_summary": "Papers cover AI coding assistants that give developers control, behavioral probing in mandatory wearables, micro-level AI feedback in tutoring, and a landscape analysis of brain-computer interface trials in China.",
  "summaries": {
   "en": {
-   "brief": "Today's news highlights the deaths of Senator Lindsey Graham and actor Sam Neill, alongside escalating US-Iran tensions that sent oil prices soaring and a deadly bar fire in Bangkok. Research papers focus on AI coding assistants and wearable sensing in high-stakes contexts.",
-   "news_summary": "Republican Senator Lindsey Graham and actor Sam Neill have died; US-Iran strikes over the Strait of Hormuz have caused oil prices to leap and markets to fall; a bar fire in Bangkok has killed at least 27 people.",
-   "papers_summary": "Papers explore configurable AI coding assistants for developer control and the behavioral implications of mandatory wearable sensing in institutions."
+   "brief": "Actor Sam Neill dies at 78, a Bangkok bar fire kills at least 27, and Senator Lindsey Graham dies, while research explores AI coding assistants and brain-computer interfaces.",
+   "news_summary": "Sam Neill, star of Jurassic Park, dies at 78; a Bangkok bar fire kills at least 27; Senator Lindsey Graham dies of an aortic tear, complicating Republican agenda; and Iran-U.S. strikes raise oil prices.",
+   "papers_summary": "Papers cover AI coding assistants that give developers control, behavioral probing in mandatory wearables, micro-level AI feedback in tutoring, and a landscape analysis of brain-computer interface trials in China."
   },
   "zh": {
-   "brief": "今日焦點包括Pokemon Go十週年、曼谷酒吧大火致27死、台灣曾現蹤的食腦微生物威脅擴大，以及颱風巴威登陸浙江。國際方面，美國參議員葛理漢和演員山姆·尼爾去世。",
-   "news_summary": "優先中文新聞涵蓋Pokemon Go十週年、曼谷酒吧大火、食腦微生物、高溫對女性影響及颱風巴威。國際新聞中，美國參議員葛理漢和演員山姆·尼爾逝世。",
-   "papers_summary": "今日無相關論文報告。"
+   "brief": "美国参议员格雷厄姆去世，曼谷酒吧火灾致27死，台风巴威袭击华北，伊朗与美国交火推高油价。学术方面，AI编程助手、可穿戴传感、脑机接口临床转化等研究发布。",
+   "news_summary": "美国共和党参议员林赛·格雷厄姆因主动脉破裂去世，引发华盛顿政治震荡；曼谷酒吧大火至少27人死亡；台风巴威北上影响华北，河北多地洪涝；伊朗与美国相互打击，油价上涨。",
+   "papers_summary": "计算机人类交互领域多项研究：AI编程助手可配置性、强制性可穿戴传感、脑机接口在中国临床转化分析等。"
   }
  },
  "todays_image": {
-  "caption": "Just as Lobophora sp. algae can undergo a rapid, unforeseen bloom that disrupts its ecosystem, Senator Lindsey Graham's sudden illness abruptly ended a long-standing political presence.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3a20dbcaf-62f6-4dd2-b936-69074b28dad5",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7/90",
-  "title": "Lobophora sp."
+  "caption": "The sudden extinction of a political dinosaur mirrors the fossilized remains in the museum hall.",
+  "image_url": "http://ids.si.edu/ids/deliveryService?id=SIA-SIA_000095_B44_F13_010&max=1024",
+  "source_name": "Smithsonian Institution Archives",
+  "source_url": "https://siarchives.si.edu/collections/siris_arc_402464",
+  "thumbnail_url": "http://ids.si.edu/ids/deliveryService?id=SIA-SIA_000095_B44_F13_010&max=150",
+  "title": "Hall of Dinosaurs and Fossil Reptiles, Museum of Natural History"
  }
 }
