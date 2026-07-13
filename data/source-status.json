@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-12T23:07:58Z",
+ "generated_at": "2026-07-13T03:57:12Z",
  "private_summary": {
   "configured": 0,
   "total": 2
@@ -115,7 +115,7 @@
   },
   {
    "category": "open",
-   "count": 28,
+   "count": 31,
    "error": null,
    "full_text_count": 0,
    "id": "bbc_world",
@@ -151,7 +151,7 @@
   },
   {
    "category": "open",
-   "count": 16,
+   "count": 17,
    "error": null,
    "full_text_count": 0,
    "id": "nyt_homepage",
@@ -163,7 +163,7 @@
   },
   {
    "category": "open",
-   "count": 42,
+   "count": 43,
    "error": null,
    "full_text_count": 0,
    "id": "bbc_zhongwen",
@@ -175,7 +175,7 @@
   },
   {
    "category": "optional",
-   "count": 5,
+   "count": 4,
    "error": null,
    "full_text_count": 0,
    "id": "arxiv_datavis",
@@ -199,7 +199,7 @@
   },
   {
    "category": "optional",
-   "count": 30,
+   "count": 0,
    "error": null,
    "full_text_count": 0,
    "id": "s2_datavis",
