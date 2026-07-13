@@ -1,48 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "(\"ferret racing\" OR \"ferret competition\")",
-  "source": {
-   "name": "thescottishfarmer.co.uk",
-   "published_at": "2026-07-07T07:45:00Z",
-   "title": "JCB celebrates 80 years with employee festival | The Scottish Farmer",
-   "url": "https://www.thescottishfarmer.co.uk/news/26256293.jcb-celebrates-80-years-employee-festival/"
-  },
-  "summaries": {
-   "en": {
-    "summary": "JCB celebrated its 80th anniversary with an employee festival in Scotland.",
-    "why_irrelevant": "Because industrial machinery news is far from competitive ferret racing."
-   },
-   "zh": {
-    "summary": "JCB在苏格兰举办员工庆典，庆祝成立80周年。",
-    "why_irrelevant": "因为工业机械新闻与竞技雪貂赛跑相去甚远。"
-   }
-  },
-  "topic": "competitive ferret racing"
- },
- "brief": "Actor Sam Neill dies at 78, a Bangkok bar fire kills at least 27, and Senator Lindsey Graham dies, while research explores AI coding assistants and brain-computer interfaces.",
+ "brief": "A deadly Bangkok bar fire and escalating US-Iran strikes dominate today's news, while papers explore configurable AI coding assistants and the ethical implications of mandatory wearable sensing.",
  "meta": {
-  "generated_at": "2026-07-13T11:27:23Z"
+  "generated_at": "2026-07-13T15:09:40Z"
  },
- "news_summary": "Sam Neill, star of Jurassic Park, dies at 78; a Bangkok bar fire kills at least 27; Senator Lindsey Graham dies of an aortic tear, complicating Republican agenda; and Iran-U.S. strikes raise oil prices.",
- "papers_summary": "Papers cover AI coding assistants that give developers control, behavioral probing in mandatory wearables, micro-level AI feedback in tutoring, and a landscape analysis of brain-computer interface trials in China.",
+ "news_summary": "At least 28 die in a Bangkok bar fire with inaccessible exits; US and Iran exchange fresh strikes over the Strait of Hormuz, and the UK signs a £5.2bn trade deal with Switzerland.",
+ "papers_summary": "Research highlights include designing AI coding assistants that give developers more control, and a study on the opaque nature of mandatory workplace wearables that monitor behavior.",
  "summaries": {
   "en": {
-   "brief": "Actor Sam Neill dies at 78, a Bangkok bar fire kills at least 27, and Senator Lindsey Graham dies, while research explores AI coding assistants and brain-computer interfaces.",
-   "news_summary": "Sam Neill, star of Jurassic Park, dies at 78; a Bangkok bar fire kills at least 27; Senator Lindsey Graham dies of an aortic tear, complicating Republican agenda; and Iran-U.S. strikes raise oil prices.",
-   "papers_summary": "Papers cover AI coding assistants that give developers control, behavioral probing in mandatory wearables, micro-level AI feedback in tutoring, and a landscape analysis of brain-computer interface trials in China."
+   "brief": "A deadly Bangkok bar fire and escalating US-Iran strikes dominate today's news, while papers explore configurable AI coding assistants and the ethical implications of mandatory wearable sensing.",
+   "news_summary": "At least 28 die in a Bangkok bar fire with inaccessible exits; US and Iran exchange fresh strikes over the Strait of Hormuz, and the UK signs a £5.2bn trade deal with Switzerland.",
+   "papers_summary": "Research highlights include designing AI coding assistants that give developers more control, and a study on the opaque nature of mandatory workplace wearables that monitor behavior."
   },
   "zh": {
-   "brief": "美国参议员格雷厄姆去世，曼谷酒吧火灾致27死，台风巴威袭击华北，伊朗与美国交火推高油价。学术方面，AI编程助手、可穿戴传感、脑机接口临床转化等研究发布。",
-   "news_summary": "美国共和党参议员林赛·格雷厄姆因主动脉破裂去世，引发华盛顿政治震荡；曼谷酒吧大火至少27人死亡；台风巴威北上影响华北，河北多地洪涝；伊朗与美国相互打击，油价上涨。",
-   "papers_summary": "计算机人类交互领域多项研究：AI编程助手可配置性、强制性可穿戴传感、脑机接口在中国临床转化分析等。"
+   "brief": "曼谷酒吧大火致至少27死，颱風巴威橫掃華東後北移引發洪水；國際上美伊衝突持續，英國政局變化，AI研究進展顯著。",
+   "news_summary": "曼谷酒吧大火造成27死、22重傷，目擊者描述逃生慘況；颱風巴威襲擊華東後北上，河北洪水致千餘人被困。國際方面，美參議員葛蘭姆辭世，英國貝安德拜相幾成定局，美伊互換打擊。",
+   "papers_summary": "arXiv新研究涵蓋可配置AI編碼助手、強制穿戴感測行為探測、高風險犯罪關聯分析等議題，關注人機互動與隱私。"
   }
  },
  "todays_image": {
-  "caption": "The sudden extinction of a political dinosaur mirrors the fossilized remains in the museum hall.",
-  "image_url": "http://ids.si.edu/ids/deliveryService?id=SIA-SIA_000095_B44_F13_010&max=1024",
-  "source_name": "Smithsonian Institution Archives",
-  "source_url": "https://siarchives.si.edu/collections/siris_arc_402464",
-  "thumbnail_url": "http://ids.si.edu/ids/deliveryService?id=SIA-SIA_000095_B44_F13_010&max=150",
-  "title": "Hall of Dinosaurs and Fossil Reptiles, Museum of Natural History"
+  "caption": "The fiery tragedy in Bangkok ironically echoes the dormant irony of a fire engine plate named \"HIBERNIA\"—a symbol of sleep overshadowed by deadly flames.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q00827",
+  "source_name": "National Museum of American History",
+  "source_url": null,
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q00827&max=150",
+  "title": "Fire Engine Plate, \"HIBERNIA\""
  }
 }
