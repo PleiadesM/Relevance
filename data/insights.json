@@ -1,28 +1,48 @@
 {
- "brief": "Escalating US-Iran strikes and a deadly Bangkok bar fire dominate headlines, while research explores AI-assisted creativity and data communication challenges.",
- "meta": {
-  "generated_at": "2026-07-14T06:23:02Z"
+ "apropos_of_nothing": {
+  "query": "(\"lawn mower racing\" OR \"lawn mower racing championship\")",
+  "source": {
+   "name": "norfolkdailynews.com",
+   "published_at": "2026-07-08T23:00:00Z",
+   "title": "Boone County Fair features events for all ages",
+   "url": "https://norfolkdailynews.com/news/boone-county-fair-features-events-for-all-ages/article_636e6d15-0ab3-4aef-81f8-4416f9b74ca2.html"
+  },
+  "summaries": {
+   "en": {
+    "summary": "The Boone County Fair in Nebraska offers demolition derbies and livestock shows for all ages.",
+    "why_irrelevant": "It is a local community event far removed from global politics or AI."
+   },
+   "zh": {
+    "summary": "内布拉斯加州的布恩县博览会提供老少皆宜的拆车大赛和牲畜展览。",
+    "why_irrelevant": "这是一个地方社区活动，远离全球政治或人工智能话题。"
+   }
+  },
+  "topic": "lawn mower racing"
  },
- "news_summary": "US strikes Iran for third consecutive night as UAE reports tanker hits in Hormuz; Bangkok bar fire death toll reaches 30 with negligence suspected.",
- "papers_summary": "Papers examine AI tools for collaborative writing, emotional expression in climate TikTok videos, and issues in data narratives.",
+ "brief": "Tensions escalate in the Strait of Hormuz as the US imposes a blockade and tolls, while a deadly Bangkok bar fire highlights global safety lapses. Research explores AI's role in communication and creative writing, from climate change narratives to playful email tones.",
+ "meta": {
+  "generated_at": "2026-07-14T10:08:22Z"
+ },
+ "news_summary": "The US reinstates a blockade in the Strait of Hormuz and announces a 20% toll on cargo, prompting Iranian retaliation; a Bangkok bar fire kills 30, raising concerns over blocked exits and flammable materials; US political developments include Trump's retribution campaign and Supreme Court security requests.",
+ "papers_summary": "Studies examine how AI assists creative writing through collaborative games (FIERO), how TikTok users express climate change anxiety through personal narratives, and how playful AI tone in professional emails affects recipient engagement.",
  "summaries": {
   "en": {
-   "brief": "Escalating US-Iran strikes and a deadly Bangkok bar fire dominate headlines, while research explores AI-assisted creativity and data communication challenges.",
-   "news_summary": "US strikes Iran for third consecutive night as UAE reports tanker hits in Hormuz; Bangkok bar fire death toll reaches 30 with negligence suspected.",
-   "papers_summary": "Papers examine AI tools for collaborative writing, emotional expression in climate TikTok videos, and issues in data narratives."
+   "brief": "Tensions escalate in the Strait of Hormuz as the US imposes a blockade and tolls, while a deadly Bangkok bar fire highlights global safety lapses. Research explores AI's role in communication and creative writing, from climate change narratives to playful email tones.",
+   "news_summary": "The US reinstates a blockade in the Strait of Hormuz and announces a 20% toll on cargo, prompting Iranian retaliation; a Bangkok bar fire kills 30, raising concerns over blocked exits and flammable materials; US political developments include Trump's retribution campaign and Supreme Court security requests.",
+   "papers_summary": "Studies examine how AI assists creative writing through collaborative games (FIERO), how TikTok users express climate change anxiety through personal narratives, and how playful AI tone in professional emails affects recipient engagement."
   },
   "zh": {
-   "brief": "今日中国政坛重磅消息：马兴瑞被双开；台风巴威横扫华东后北移致河北严重水灾；曼谷酒吧大火死亡人数升至30人。学术方面暂无重点。",
-   "news_summary": "马兴瑞被开除党籍公职，成为习近平时代又一位落马的政治局委员；台风巴威给华东华北带来强降雨，河北宽城约1800人被困；曼谷酒吧大火死亡升至30人，警方调查疏忽责任；英属直布罗陀与西班牙撤除边境检查站；霸王龙化石将拍卖，估值创纪录；美国参议员葛兰姆去世，曾为特朗普盟友；中国留学生被指为墨西哥‘芬太尼王’。",
-   "papers_summary": "今日无重点论文。"
+   "brief": "今日重點：南海仲裁案十年未息，美國宣布封鎖荷姆茲海峽，曼谷酒吧大火30死。研究聚焦AI協作寫作與數據敘事誤區。",
+   "news_summary": "中國前政治局委員馬興瑞被雙開；英國改革黨發言人韋黛琴命案升級為反恐調查；直布羅陀邊境開放。國際方面，美國宣布對荷姆茲海峽實施封鎖並收費，曼谷酒吧大火疑因出口受阻。",
+   "papers_summary": "多篇論文探討AI輔助寫作對溝通效果的影響，以及數據敘事中的常見錯誤。另有研究分析TikTok短影音中民眾對氣候變化的情緒表達。"
   }
  },
  "todays_image": {
-  "caption": "Like the Lobophora sp. clinging to reefs, the Strait of Hormuz anchors global oil flows, now churning under strikes and tanker hits.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3a20dbcaf-62f6-4dd2-b936-69074b28dad5",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7/90",
-  "title": "Lobophora sp."
+  "caption": "The AGM-86B ALCM’s long-range precision strike mirrors the sudden, targeted backlash that finally caught up with the Democratic establishment.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19820121000-NASM2019-00593",
+  "source_name": "National Air and Space Museum",
+  "source_url": "http://n2t.net/ark:/65665/nv94c0f0ad1-9108-476e-b4d0-eeecff910345",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19820121000-NASM2019-00593",
+  "title": "Missile, Cruise, Air-launched, Flight Test, AGM-86B ALCM"
  }
 }
