@@ -1,48 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "(\"sandcastle competition\" OR \"sand sculpture contest\")",
-  "source": {
-   "name": "dailyecho.co.uk",
-   "published_at": "2026-07-10T05:00:00Z",
-   "title": "The legend of an extinct circada that could make a comeback",
-   "url": "https://www.dailyecho.co.uk/news/26266027.legend-extinct-circada-make-comeback/"
-  },
-  "summaries": {
-   "en": {
-    "summary": "An extinct cicada species may return to the wild.",
-    "why_irrelevant": "It's a nature oddity, far from political or tech topics."
-   },
-   "zh": {
-    "summary": "一种已灭绝的蝉可能重返野外。",
-    "why_irrelevant": "这是自然趣闻，远离政治或科技话题。"
-   }
-  },
-  "topic": "sandcastle building competitions"
- },
- "brief": "U.S. news features Trump paying $5M to E. Jean Carroll, New York pausing AI datacenters, and ICE halting vehicle stops after shootings. A T. rex fossil sells for $50.1 million. Research highlights AI-assisted writing and visualization tools.",
+ "brief": "US-Iran tensions over the Strait of Hormuz escalate with Trump's flip-flop on tolls, while the Fed's new chair avoids committing to rate hikes. Meanwhile, SpaceXAI's Grok tool uploads user codebases to the cloud, and new research explores AI's role in creative writing and data narratives.",
  "meta": {
-  "generated_at": "2026-07-14T17:33:20Z"
+  "generated_at": "2026-07-14T19:41:27Z"
  },
- "news_summary": "Trump pays $5.6 million to E. Jean Carroll; New York becomes first state to pause AI datacenters; ICE suspends vehicle stops after two fatal shootings; T. rex fossil fetches $50.1 million.",
- "papers_summary": "Studies explore AI in creative writing, playful AI in emails, and a taxonomy of data narrative failures, alongside tools for cryptocurrency manipulation risk and graph sampling visualization.",
+ "news_summary": "Trump drops Strait of Hormuz toll plan, claiming Gulf states will invest in the US instead, as inflation slows to 3.5% in June. The Fed's Kevin Warsh reiterates a pledge to curb inflation without specifying how, and SpaceXAI disables its Grok coding tool after it uploaded users' codebases to Google Cloud.",
+ "papers_summary": "New papers examine AI in collaborative creative writing (FIERO), playful AI in professional email, and a visual analytics system for cryptocurrency manipulation. Another study provides a taxonomy of issues in data narratives, and a course reflection on teaching AI coding tools for visualization.",
  "summaries": {
   "en": {
-   "brief": "U.S. news features Trump paying $5M to E. Jean Carroll, New York pausing AI datacenters, and ICE halting vehicle stops after shootings. A T. rex fossil sells for $50.1 million. Research highlights AI-assisted writing and visualization tools.",
-   "news_summary": "Trump pays $5.6 million to E. Jean Carroll; New York becomes first state to pause AI datacenters; ICE suspends vehicle stops after two fatal shootings; T. rex fossil fetches $50.1 million.",
-   "papers_summary": "Studies explore AI in creative writing, playful AI in emails, and a taxonomy of data narrative failures, alongside tools for cryptocurrency manipulation risk and graph sampling visualization."
+   "brief": "US-Iran tensions over the Strait of Hormuz escalate with Trump's flip-flop on tolls, while the Fed's new chair avoids committing to rate hikes. Meanwhile, SpaceXAI's Grok tool uploads user codebases to the cloud, and new research explores AI's role in creative writing and data narratives.",
+   "news_summary": "Trump drops Strait of Hormuz toll plan, claiming Gulf states will invest in the US instead, as inflation slows to 3.5% in June. The Fed's Kevin Warsh reiterates a pledge to curb inflation without specifying how, and SpaceXAI disables its Grok coding tool after it uploaded users' codebases to Google Cloud.",
+   "papers_summary": "New papers examine AI in collaborative creative writing (FIERO), playful AI in professional email, and a visual analytics system for cryptocurrency manipulation. Another study provides a taxonomy of issues in data narratives, and a course reflection on teaching AI coding tools for visualization."
   },
   "zh": {
-   "brief": "今日重點：中國異見人士董廣平駕艇偷渡韓國，南海仲裁案十年爭議未息，英國改革黨發言人韋黛琴命案轉為反恐調查。論文方面聚焦AI輔助寫作與數據敘事中的偏差問題。",
-   "news_summary": "中國異見人士董廣平冒險駕艇穿越黃海偷渡韓國；南海仲裁案十年後仍爭議不斷；英國改革黨發言人韋黛琴遇害案升級為反恐調查。",
-   "papers_summary": "多篇論文探討AI在創意寫作、電子郵件互動及數據敘事中的應用與風險，包括協作遊戲促進寫作、氣候焦慮的短影音表達，以及數據敘事常見錯誤的分類。"
+   "brief": "今日焦點：中國異見人士董廣平駕艇偷渡韓國，南海仲裁案十年爭議未平，馬興瑞被雙開。國際方面，SpaceX上市熱潮消退，直布羅陀邊防撤關迎來新紀元，以及霸王龍化石高價拍賣。研究領域關注AI協作寫作、氣候敘事與數據可視化偏誤。",
+   "news_summary": "中國異見人士董廣平冒險駕艇穿越黃海偷渡韓國；南海仲裁案十年後仍爭議不斷；政治局委員馬興瑞被雙開。此外，SpaceX IPO熱情降溫，英國改革黨發言人韋黛琴命案轉為反恐調查，直布羅陀與西班牙撤除邊防，以及霸王龍化石拍賣估值創紀錄。",
+   "papers_summary": "「FIERO」透過遊戲促進創意寫作；「Playful AI」研究AI在專業郵件中的語氣影響；「DiffLens」可視化圖抽樣差異；「數據敘事問題分類學」梳理溝通失誤。"
   }
  },
  "todays_image": {
-  "caption": "Both the fossilized remains of ancient disasters and the Hillsborough amendment represent long-neglected truths that must be unearthed and confronted in the halls of power.",
-  "image_url": "http://ids.si.edu/ids/deliveryService?id=SIA-SIA_000095_B44_F13_005&max=1024",
-  "source_name": "Smithsonian Institution Archives",
-  "source_url": "https://siarchives.si.edu/collections/siris_arc_402459",
-  "thumbnail_url": "http://ids.si.edu/ids/deliveryService?id=SIA-SIA_000095_B44_F13_005&max=150",
-  "title": "Hall of Dinosaurs and Fossil Reptiles, Museum of Natural History"
+  "caption": "The brown algae _Lobophora_ clings tenaciously to reefs against powerful currents, much like the wife held fast to her husband against the violent suction of a cabin pressure loss.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3a20dbcaf-62f6-4dd2-b936-69074b28dad5",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7/90",
+  "title": "Lobophora sp."
  }
 }
