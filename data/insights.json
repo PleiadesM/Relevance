@@ -1,28 +1,48 @@
 {
- "brief": "OpenAI faces another high-profile lawsuit; Iran-U.S. tensions escalate with oil tanker strikes in the Gulf; research explores AI in creative writing, email tone, and climate change communication.",
- "meta": {
-  "generated_at": "2026-07-14T14:10:40Z"
+ "apropos_of_nothing": {
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "source": {
+   "name": "finance.sina.com.cn",
+   "published_at": "2026-07-08T03:30:00Z",
+   "title": "河南95后小伙977元拍下沙漠瓜田 ， 顺手拍下  榴莲中的爱马仕 _ 新浪科技 _ 新浪网",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-07-08/doc-inihaicz1421809.shtml"
+  },
+  "summaries": {
+   "en": {
+    "summary": "A post-95 guy in Henan bought a desert melon field for 977 yuan and also bought a premium durian.",
+    "why_irrelevant": "It's a random piece of Chinese agricultural news far from personal interests."
+   },
+   "zh": {
+    "summary": "河南一位95后小伙用977元拍下沙漠瓜田，还顺手拍下“榴莲中的爱马仕”。",
+    "why_irrelevant": "这是一条与中国农业新闻相关的随机信息，与用户日常关注内容无关。"
+   }
+  },
+  "topic": "competitive pumpkin growing"
  },
- "news_summary": "OpenAI sued again; Iran strikes oil tankers in the Strait of Hormuz, oil prices rise above $85; U.S. inflation cools to 3.5% in June.",
- "papers_summary": "Papers examine collaborative creative writing with FIERO, personal narratives on climate change in TikTok videos, and the impact of AI-assisted writing on email recipient engagement.",
+ "brief": "A T. rex fossil sells for $50.1M, banks post record earnings, New York halts data center construction, and UK Covid inquiry reveals £10bn in wasted PPE. Research explores AI's role in writing and communication.",
+ "meta": {
+  "generated_at": "2026-07-14T15:43:17Z"
+ },
+ "news_summary": "T. rex fossil reclaims top price; big banks face risks amid earnings; New York bans data centers for a year; UK Covid inquiry condemns 'VIP lane' PPE contracts; Iran tensions escalate after oil tanker strikes.",
+ "papers_summary": "Papers examine AI-assisted writing tools (FIERO, playful email tone, U-Lens for uncertainty), visual analytics for crypto manipulation, and data narrative quality issues.",
  "summaries": {
   "en": {
-   "brief": "OpenAI faces another high-profile lawsuit; Iran-U.S. tensions escalate with oil tanker strikes in the Gulf; research explores AI in creative writing, email tone, and climate change communication.",
-   "news_summary": "OpenAI sued again; Iran strikes oil tankers in the Strait of Hormuz, oil prices rise above $85; U.S. inflation cools to 3.5% in June.",
-   "papers_summary": "Papers examine collaborative creative writing with FIERO, personal narratives on climate change in TikTok videos, and the impact of AI-assisted writing on email recipient engagement."
+   "brief": "A T. rex fossil sells for $50.1M, banks post record earnings, New York halts data center construction, and UK Covid inquiry reveals £10bn in wasted PPE. Research explores AI's role in writing and communication.",
+   "news_summary": "T. rex fossil reclaims top price; big banks face risks amid earnings; New York bans data centers for a year; UK Covid inquiry condemns 'VIP lane' PPE contracts; Iran tensions escalate after oil tanker strikes.",
+   "papers_summary": "Papers examine AI-assisted writing tools (FIERO, playful email tone, U-Lens for uncertainty), visual analytics for crypto manipulation, and data narrative quality issues."
   },
   "zh": {
-   "brief": "今日中国异见人士董广平驾艇偷渡韩国引发关注，同时南海仲裁案十年争议未平、SpaceX IPO热潮消退。国际方面，中东冲突升级推动油价突破85美元，美伊对峙持续。学术领域暂无中文论文。",
-   "news_summary": "董广平第四次偷渡失败后冒险驾艇穿越黄海，凸显中国异见人士困境；南海仲裁案十年未解，直布罗陀边境撤关迎来新纪元。中东局势紧张，伊朗袭击油轮后美国报复，油价上涨。",
-   "papers_summary": "今日无中文论文。英文论文涵盖AI辅助写作、加密货币操纵可视化及气候变化叙事等主题。"
+   "brief": "今日要闻：中国异见人士董广平驾艇偷渡韩国；南海仲裁案十年争议未平；马兴瑞被“双开”。科研方面，多项研究探讨AI在写作、可视化及加密货币中的应用与风险。",
+   "news_summary": "董广平冒险驾艇穿越黄海偷渡韩国；南海仲裁案十周年争议持续；马兴瑞因严重违纪被开除党籍公职；直布罗陀与西班牙边境撤关；霸王龙化石以5010万美元成交。",
+   "papers_summary": "FIERO通过协作游戏激发创意写作；TikTok视频中个人叙事表达气候焦虑；AI撰写邮件对收件人参与度的影响；加密货币操纵风险的视觉分析工具ManiScope；数据叙事失败的分类学。"
   }
  },
  "todays_image": {
-  "caption": "Like the invasive Lobophora sp. seaweed that spreads where it's unwanted, Sam Altman's string of lawsuits is an accumulation he could do without.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3a20dbcaf-62f6-4dd2-b936-69074b28dad5",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7/90",
-  "title": "Lobophora sp."
+  "caption": "The museum hall once showcased the very T. rex fossil that just reclaimed its throne with a record-breaking $50.1 million sale.",
+  "image_url": "http://ids.si.edu/ids/deliveryService?id=SIA-SIA_000095_B44_F13_010&max=1024",
+  "source_name": "Smithsonian Institution Archives",
+  "source_url": "https://siarchives.si.edu/collections/siris_arc_402464",
+  "thumbnail_url": "http://ids.si.edu/ids/deliveryService?id=SIA-SIA_000095_B44_F13_010&max=150",
+  "title": "Hall of Dinosaurs and Fossil Reptiles, Museum of Natural History"
  }
 }
