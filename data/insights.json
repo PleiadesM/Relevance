@@ -1,28 +1,28 @@
 {
- "brief": "Today's news spans transit improvements in the Bronx, warnings of Russian infrastructure attacks, and controversies over ICE tactics and Epstein ties. Papers explore cross-domain emotion recognition, graph database visualization, and AI research assistants.",
+ "brief": "Trump overturns DHS halt to ICE traffic stops amid fatal shootings; Buzz Aldrin's pen sells for $850k; new research explores multimodal emotion detection and graph database visualization.",
  "meta": {
-  "generated_at": "2026-07-15T14:07:13Z"
+  "generated_at": "2026-07-15T15:48:04Z"
  },
- "news_summary": "Mamdani pushes Bronx bus lane; Lithuania warns of Russian infrastructure strikes; Trump defends ICE traffic stops; Epstein files scrutiny continues; Russia hits Black Sea tankers; Utah bans Stephen King collection; Starmer's final PMQs.",
- "papers_summary": "CD-MED introduces cross-domain multimodal emotion descriptors; GraphPolaris enables query and visualization of graph databases; Aïra rethinks AI assistants for interdisciplinary science.",
+ "news_summary": "The White House overturned a DHS halt on ICE traffic stops after two fatal shootings, drawing criticism. Meanwhile, wildfires spread smoke across the Northeast, and Buzz Aldrin's mission-saving pen sold for over $850,000.",
+ "papers_summary": "New papers introduce CD-MED for cross-domain multimodal emotion detection in digital objects, GraphPolaris for graph database visualization, and Aïra for interdisciplinary AI research assistants.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans transit improvements in the Bronx, warnings of Russian infrastructure attacks, and controversies over ICE tactics and Epstein ties. Papers explore cross-domain emotion recognition, graph database visualization, and AI research assistants.",
-   "news_summary": "Mamdani pushes Bronx bus lane; Lithuania warns of Russian infrastructure strikes; Trump defends ICE traffic stops; Epstein files scrutiny continues; Russia hits Black Sea tankers; Utah bans Stephen King collection; Starmer's final PMQs.",
-   "papers_summary": "CD-MED introduces cross-domain multimodal emotion descriptors; GraphPolaris enables query and visualization of graph databases; Aïra rethinks AI assistants for interdisciplinary science."
+   "brief": "Trump overturns DHS halt to ICE traffic stops amid fatal shootings; Buzz Aldrin's pen sells for $850k; new research explores multimodal emotion detection and graph database visualization.",
+   "news_summary": "The White House overturned a DHS halt on ICE traffic stops after two fatal shootings, drawing criticism. Meanwhile, wildfires spread smoke across the Northeast, and Buzz Aldrin's mission-saving pen sold for over $850,000.",
+   "papers_summary": "New papers introduce CD-MED for cross-domain multimodal emotion detection in digital objects, GraphPolaris for graph database visualization, and Aïra for interdisciplinary AI research assistants."
   },
   "zh": {
-   "brief": "今日中国新闻聚焦经济放缓至4.3%、小红书的合规举报、以及一名被控间谍罪的地震学家；国际方面，特朗普施压ICE重启交通检查、Epstein案新进展；学术界无中文论文，全球研究侧重人机交互与AI。",
-   "news_summary": "中国二季度GDP增速降至4.3%，创2022年底新低；小红书前员工向香港监管机构举报公司合规问题，可能影响上市；地震学家陈友麟因涉嫌间谍罪被中国拘留近两年。其他热点包括香港独立书店回忆、世界盃补水暂停致进球增多、以及霸王龙化石创拍卖纪录。",
-   "papers_summary": "今日无中文论文，国际arXiv论文主要涉及跨领域情感描述、图数据库可视化、AI研究助手、以及人机协作平台等HCI领域研究。"
+   "brief": "今日中国新闻聚焦经济增速放缓至4.3%、间谍案拘留地震学家、香港书店被捕事件引发大陆读者回忆，同时霸王龙化石创下拍卖纪录。论文方面，AI与可视化研究成为热点。",
+   "news_summary": "中国二季度GDP增速放缓至4.3%，创2022年底以来新低；地震学家陈友麟因涉嫌间谍罪被拘留近两年；香港独立书店负责人被捕引发大陆读者集体回忆；霸王龙化石以5010万美元成交。",
+   "papers_summary": "arXiv论文涵盖多模态情感描述、图数据库可视化、AI研究助手及低资源语言健康 misinformation 检测等方向。"
   }
  },
  "todays_image": {
-  "caption": "The lotus, known for its ability to rise quickly through murky water, mirrors the Mamdani project's aim to cut through congestion and speed up Bronx bus transit.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m33036ea01fa344f949180fc2ee5bab1a0",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3987fbdc3-0eea-4565-bff9-56f24dd52923",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m33036ea01fa344f949180fc2ee5bab1a0/90",
-  "title": "Lotus major Sm."
+  "caption": "Both the wrecked train and the pressure to resume traffic stops evoke the disastrous consequences of unchecked momentum and reckless authority.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-A.2009-45",
+  "source_name": "National Postal Museum",
+  "source_url": "https://postalmuseum.si.edu/object/npm_A.2009-45",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-A.2009-45",
+  "title": "Photograph of post card of wrecked train near Beitner, Michigan"
  }
 }
