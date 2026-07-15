@@ -1,28 +1,28 @@
 {
- "brief": "Escalating Iran-US tensions over oil routes and China's economic slowdown dominate global news, while research papers explore AI in communication, data visualization, and emotional analysis.",
+ "brief": "Today's news spans political shifts from Sierra Leone dropping treason charges to U.S. Senate hearings for Trump nominees, China's economic slowdown, and Spain-Gibraltar border deal. Research highlights advances in human-computer interaction, AI-assisted writing, and health misinformation detection.",
  "meta": {
-  "generated_at": "2026-07-15T10:14:49Z"
+  "generated_at": "2026-07-15T11:48:18Z"
  },
- "news_summary": "Iran threatens to block Strait of Hormuz amid US blockade; China's GDP growth hits 4.3%, lowest since 2022; Thames Water's debt rises to £18.5bn; Ukraine targets Russian ships near Crimea; Spain and Gibraltar celebrate border deal.",
- "papers_summary": "Papers address multimodal emotion descriptors for digital objects (CD-MED), graph database visualization (GraphPolaris), AI research assistants for interdisciplinary science (Aïra), and real-time generation of listener nodding in avatars.",
+ "news_summary": "Sierra Leone drops treason charges against ex-president Koroma; Senate confirmation hearings for Todd Blanche and Jay Clayton; China's economy grows 4.3% in Q2, slowest since 2022; Spain and Gibraltar remove border controls; Iran threatens trade routes amid U.S. strikes.",
+ "papers_summary": "Papers explore cross-domain multimodal emotion descriptors (CD-MED), graph database visualization (GraphPolaris), interdisciplinary AI research assistants (Aïra), and health misinformation in low-resource languages using SLMs.",
  "summaries": {
   "en": {
-   "brief": "Escalating Iran-US tensions over oil routes and China's economic slowdown dominate global news, while research papers explore AI in communication, data visualization, and emotional analysis.",
-   "news_summary": "Iran threatens to block Strait of Hormuz amid US blockade; China's GDP growth hits 4.3%, lowest since 2022; Thames Water's debt rises to £18.5bn; Ukraine targets Russian ships near Crimea; Spain and Gibraltar celebrate border deal.",
-   "papers_summary": "Papers address multimodal emotion descriptors for digital objects (CD-MED), graph database visualization (GraphPolaris), AI research assistants for interdisciplinary science (Aïra), and real-time generation of listener nodding in avatars."
+   "brief": "Today's news spans political shifts from Sierra Leone dropping treason charges to U.S. Senate hearings for Trump nominees, China's economic slowdown, and Spain-Gibraltar border deal. Research highlights advances in human-computer interaction, AI-assisted writing, and health misinformation detection.",
+   "news_summary": "Sierra Leone drops treason charges against ex-president Koroma; Senate confirmation hearings for Todd Blanche and Jay Clayton; China's economy grows 4.3% in Q2, slowest since 2022; Spain and Gibraltar remove border controls; Iran threatens trade routes amid U.S. strikes.",
+   "papers_summary": "Papers explore cross-domain multimodal emotion descriptors (CD-MED), graph database visualization (GraphPolaris), interdisciplinary AI research assistants (Aïra), and health misinformation in low-resource languages using SLMs."
   },
   "zh": {
-   "brief": "今日新聞涵蓋中國經濟放緩、霸王龍化石拍賣創紀錄、胎盤走私、異見人士偷渡等話題；科研論文方面無中文優先項目，英文論文多聚焦人機互動與AI溝通。",
-   "news_summary": "中國第二季度GDP增長放緩至4.3%，為2022年底以來最低；巴基斯坦掀起胎盤走私調查，揭露全球市場；霸王龍化石以5010萬美元拍出，創恐龍標本紀錄；異見人士董廣平駕艇穿越黃海偷渡。",
-   "papers_summary": "今日無中文科研論文，英文論文多涉及人工智能與人機互動，如跨模態情感描述、圖數據庫可視化、文化敏感性錯誤信息檢測等。"
+   "brief": "今日重點包括中國經濟增速放緩至4.3%創2022年底新低、涉芬太尼供應鏈的中國毒梟「王哥」在美受審，以及霸王龍化石創拍賣紀錄。",
+   "news_summary": "中國第二季經濟增長4.3%低於目標，同時張智棟（王哥）因涉嫌掌控中美芬太尼供應鏈被關押美國；霸王龍化石以5010萬美元成交創紀錄。",
+   "papers_summary": "本日研究聚焦人工智能在跨領域科學協作、情感計算與低資源語言健康錯誤訊息檢測方面的進展，另有多篇論文探討人類-機器人互動中的凝視與點頭生成。"
   }
  },
  "todays_image": {
-  "caption": "The dismissal of Rastafarians' cannabis bid parallels the overlooked potential of Lobophora sp., both natural entities entangled in societal debate despite their inherent value.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3a20dbcaf-62f6-4dd2-b936-69074b28dad5",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7/90",
-  "title": "Lobophora sp."
+  "caption": "The T. rex's reign ended in extinction, much like the attempted coup charge against Sierra Leone's ex-president has now been dropped, allowing a former ruler to escape a political extinction.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3767225037e1e43faad6bd4010644fb57",
+  "source_name": "NMNH - Paleobiology Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3e09b29ad-36bd-4e85-88e8-f6ac46ffefc4",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3767225037e1e43faad6bd4010644fb57/90",
+  "title": "Tyrannosaurus rex Osborn, 1905"
  }
 }
