@@ -1,44 +1,24 @@
 {
- "apropos_of_nothing": {
-  "query": "(\"dog grooming competition\" OR \"creative dog grooming\")",
-  "source": {
-   "name": "beenews.com",
-   "published_at": "2026-07-13T23:00:00Z",
-   "title": "Laundromutt naming sponsor for 2026 Dog Days of Kenmore",
-   "url": "https://www.beenews.com/ken_ton_bee/ken_ton_bee/arts_and_entertainment/laundromutt-naming-sponsor-for-2026-dog-days-of-kenmore/article_f047671a-70d3-4497-bff1-a70cf9f9c2d8.html"
-  },
-  "summaries": {
-   "en": {
-    "summary": "Laundromutt is the naming sponsor for the 2026 Dog Days of Kenmore event.",
-    "why_irrelevant": "It's a niche local pet business sponsorship far from typical user interests."
-   },
-   "zh": {
-    "summary": "Laundromutt成为2026年肯莫尔犬日活动的冠名赞助商。",
-    "why_irrelevant": "这是一个小众的本地宠物企业赞助，远离用户常见关注点。"
-   }
-  },
-  "topic": "competitive dog grooming championships"
- },
- "brief": "ICE shootings and policy changes dominate US news, while Supreme Court justices testify on security and Texas faces catastrophic flooding. Research explores collaborative writing, AI communication, and data visualization challenges.",
+ "brief": "Today's news highlights tensions over AI and data centers, Iran-Hormuz clashes, and a Supreme Court security hearing, while papers explore multimodal emotion detection and AI research tools.",
  "meta": {
-  "generated_at": "2026-07-14T23:10:01Z"
+  "generated_at": "2026-07-15T03:30:33Z"
  },
- "news_summary": "Several ICE shootings in Maine, Florida, and Houston have led to a pause on most vehicle stops, putting pressure on Senator Collins. Meanwhile, Supreme Court justices Kagan and Barrett testified on security threats, and Texas faces catastrophic flooding.",
- "papers_summary": "New research on collaborative writing games, AI-assisted email tone, and data narrative failures highlights human-AI interaction challenges. Visualization tools for cryptocurrency and graph sampling also feature.",
+ "news_summary": "PM vows to protect Australian content from AI; Supreme Court justices testify on security; U.S. advances permanent daylight saving time; boat sinks near Alcatraz; Iran tensions escalate.",
+ "papers_summary": "Papers introduce CD-MED for cross-domain emotion analysis, GraphPolaris for graph database queries, and Aïra for interdisciplinary AI research assistance.",
  "summaries": {
   "en": {
-   "brief": "ICE shootings and policy changes dominate US news, while Supreme Court justices testify on security and Texas faces catastrophic flooding. Research explores collaborative writing, AI communication, and data visualization challenges.",
-   "news_summary": "Several ICE shootings in Maine, Florida, and Houston have led to a pause on most vehicle stops, putting pressure on Senator Collins. Meanwhile, Supreme Court justices Kagan and Barrett testified on security threats, and Texas faces catastrophic flooding.",
-   "papers_summary": "New research on collaborative writing games, AI-assisted email tone, and data narrative failures highlights human-AI interaction challenges. Visualization tools for cryptocurrency and graph sampling also feature."
+   "brief": "Today's news highlights tensions over AI and data centers, Iran-Hormuz clashes, and a Supreme Court security hearing, while papers explore multimodal emotion detection and AI research tools.",
+   "news_summary": "PM vows to protect Australian content from AI; Supreme Court justices testify on security; U.S. advances permanent daylight saving time; boat sinks near Alcatraz; Iran tensions escalate.",
+   "papers_summary": "Papers introduce CD-MED for cross-domain emotion analysis, GraphPolaris for graph database queries, and Aïra for interdisciplinary AI research assistance."
   },
   "zh": {
-   "brief": "Today's news highlights a Chinese dissident's perilous sea escape, SpaceX IPO jitters, and a T-rex fossil auction. Papers explore AI's role in creative writing and climate narratives, and data storytelling pitfalls.",
-   "news_summary": "Key news include the Taiwan Strait crossing of dissident Dong Guangping, reaction to South China Sea arbitration anniversary, and the 'double removal' of Ma Xingrui. Also: Gibraltar border opens, SpaceX IPO cools, and a T-rex fossil heads to auction.",
-   "papers_summary": "Research on collaborative game-based writing (FIERO), emotional climate narratives on TikTok, and the impact of AI-assisted email tone. A taxonomy of data narrative failures is also published."
+   "brief": "今日新闻涵盖香港独立书店记忆、霸王龙化石拍卖纪录、小红书上市疑云等话题，同时学界关注多模态情感描述与AI研究助手等进展。",
+   "news_summary": "霸王龙化石创拍卖纪录，小红书前员工实名举报引发上市担忧；南海仲裁案十年争议未解，马兴瑞被“双开”成为关注焦点。",
+   "papers_summary": "英文论文聚焦跨领域多模态情感描述（CD-MED）、图数据库可视化系统（GraphPolaris）以及面向跨学科科学的AI研究助手（Aïra）等前沿研究。"
   }
  },
  "todays_image": {
-  "caption": "Sailors navigate treacherous waters, much like Senator Collins faces political turbulence after an ICE shooting in her coastal home state of Maine.",
+  "caption": "Just as sailors navigate uncharted waters, the PM steers Australia's cultural heritage away from being commandeered by AI's vast, power-hungry datacentres.",
   "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-B2B7C616F9072-000001",
   "source_name": "Cooper Hewitt, Smithsonian Design Museum",
   "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/13163",

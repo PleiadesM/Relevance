@@ -2,6 +2,211 @@
  "items": [
   {
    "authors": [
+    "Elnara Kadyrgali",
+    "Muragul Muratbekova",
+    "Pakizar Shamoi"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Digital objects express emotions through different modalities. For example, a movie may include visual scenes, audio, dialogue, and facial expressions, while a song may contain melody, rhythm, lyrics, and vocal tone. Because existing emotion recognition models are usually modality-specific, it is difficult to compare such objects directly. This paper proposes CD-MED, a Cross-Domain Multimodal Emotion Descriptor for representing heterogeneous digital objects in a common emotional space. Each…",
+    "arxiv_id": "2607.12958"
+   },
+   "id": "a14369f258faa43f",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-14T16:54:51Z",
+   "score": 0.7892,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Digital objects express emotions through different modalities. For example, a movie may include visual scenes, audio, dialogue, and facial expressions, while a song may contain melody, rhythm, lyrics, and vocal tone. Because existing emotion recognition models are usually modality-specific, it is…",
+   "tags": [],
+   "title": "CD-MED: Cross-Domain Multimodal Emotion Descriptor for Visual Comparison of Digital Objects",
+   "url": "https://arxiv.org/abs/2607.12958v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Michael Behrisch",
+    "Sjoerd Vink",
+    "Leonardo Christino",
+    "Remco Chang"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Graph databases are increasingly adopted as alternatives to tabular, aggregation-focused data models used in business intelligence (BI) systems such as Tableau, Power BI, and Looker. They capture complex relationships between entities, processes, and events, enabling analysis of information propagation in networks. As a result, graph analysis is central to applications such as fraud detection, social influence analysis, and supply chain resilience. Despite these advantages, existing tools do…",
+    "also_in": [
+     {
+      "source": "arXiv cs.HC (writing & docs)",
+      "url": "https://arxiv.org/abs/2607.12845v1"
+     }
+    ],
+    "arxiv_id": "2607.12845"
+   },
+   "id": "ab5f9f23f347de4e",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-14T14:59:39Z",
+   "score": 0.5877,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Graph databases are increasingly adopted as alternatives to tabular, aggregation-focused data models used in business intelligence (BI) systems such as Tableau, Power BI, and Looker. They capture complex relationships between entities, processes, and events, enabling analysis of information…",
+   "tags": [
+    "systems",
+    "visualization"
+   ],
+   "title": "GraphPolaris: A System for Query, Analysis, and Visualization of Graph Databases",
+   "url": "https://arxiv.org/abs/2607.12845v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Diya Mirji",
+    "Tiffany Degbotse",
+    "Sharmil Nanjappa",
+    "Jiayi Zhou",
+    "Vishnu Manoj",
+    "Vihaan Nama"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Scientific discovery increasingly depends on interdisciplinary teams whose members contribute distinct expertise, conceptual frameworks, vocabularies, assumptions, and standards of evidence. Today's AI research assistants are largely designed to support individual researchers through literature review, writing assistance, coding, and data analysis. While these capabilities improve personal productivity, they provide little support for the collaborative reasoning required to integrate knowledge…",
+    "arxiv_id": "2607.12736"
+   },
+   "id": "e4e81c42db707010",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-14T13:06:49Z",
+   "score": 0.7316,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Scientific discovery increasingly depends on interdisciplinary teams whose members contribute distinct expertise, conceptual frameworks, vocabularies, assumptions, and standards of evidence. Today's AI research assistants are largely designed to support individual researchers through literature…",
+   "tags": [
+    "ai-writing",
+    "ux"
+   ],
+   "title": "Aïra: Rethinking AI Research Assistants for Interdisciplinary Science",
+   "url": "https://arxiv.org/abs/2607.12736v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Farnaz Farid",
+    "Raihan Alam",
+    "Al Al-Areqi",
+    "Farhad Ahamed",
+    "Muhammad Hassan Khan",
+    "Sadia Hossain"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Artificial Intelligence (AI) technologies, while serving as a foundational enabler for modern social media and digital health services, exert a bivalent effect by simultaneously acting as a combatant against and a spread vector for misinformation. A prevalent challenge in mitigating this issue arises in non-English contexts and low socioeconomic classes, where limited data hinders the training of AI models for effective detection. Consequently, culturally and linguistically diverse (CALD)…",
+    "arxiv_id": "2607.12336"
+   },
+   "id": "f42604b5c31d6f9f",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-14T04:34:05Z",
+   "score": 0.695,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Artificial Intelligence (AI) technologies, while serving as a foundational enabler for modern social media and digital health services, exert a bivalent effect by simultaneously acting as a combatant against and a spread vector for misinformation. A prevalent challenge in mitigating this issue…",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "Evaluating Health Misinformation in Low-Resource Languages: Integrating Small Language Models with a Culturally-Sensitive Responsible NLP Framework (Bangla as a Case Study)",
+   "url": "https://arxiv.org/abs/2607.12336v1",
+   "venue": "arXiv cs.CL"
+  },
+  {
+   "authors": [
+    "Kazushi Kato",
+    "Koji Inoue",
+    "Taiga Mori",
+    "Divesh Lala",
+    "Tatsuya Kawahara"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "In human dialogue, we achieve smooth communication by expressing nonverbal cues such as eye contact, nodding, and facial expressions with precise timing. It is expected for conversational avatars to express these cues appropriately to realize natural and human-like interactions. This study focuses on nodding, which is crucial for demonstrating active listening and encouraging further user utterances. We propose a model that predicts both timing and kinematic parameters representing the motion…",
+    "arxiv_id": "2607.12329"
+   },
+   "id": "ca40de771e82da87",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-14T04:18:06Z",
+   "score": 0.5014,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "In human dialogue, we achieve smooth communication by expressing nonverbal cues such as eye contact, nodding, and facial expressions with precise timing. It is expected for conversational avatars to express these cues appropriately to realize natural and human-like interactions. This study focuses…",
+   "tags": [],
+   "title": "Real-time Generation of Listener Nodding via Prediction of Kinematic Parameters for Avatar Dialogue Systems",
+   "url": "https://arxiv.org/abs/2607.12329v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Jens V. Rüppel",
+    "Tim Schreiter",
+    "Andrey Rudenko",
+    "Achim J. Lilienthal"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Robot gaze is a major component of human-robot dialogue coordination. Most studies of gaze in human-robot dialogue focus on face-to-face social conversations, but little is known about gaze in demanding task-focused interactions. In this paper, we investigate how the gaze of a robot game partner affects human visual attention and if humans tend to direct confirmation-seeking gazes towards the robot. In our study, we let participants play a collaborative word association game with a NAO robot…",
+    "arxiv_id": "2607.12181"
+   },
+   "id": "de4b702ff1a44766",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-13T22:00:47Z",
+   "score": 0.4767,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Robot gaze is a major component of human-robot dialogue coordination. Most studies of gaze in human-robot dialogue focus on face-to-face social conversations, but little is known about gaze in demanding task-focused interactions. In this paper, we investigate how the gaze of a robot game partner…",
+   "tags": [],
+   "title": "Analysis of Mutual and Referential Human and Robot Gazes in a Collaborative Word Association Game",
+   "url": "https://arxiv.org/abs/2607.12181v1",
+   "venue": "arXiv cs.RO"
+  },
+  {
+   "authors": [
+    "Mohammad Amin Samadi",
+    "Pedro Martins De Bastos",
+    "Jaeyoon Choi",
+    "Spencer JaQuay",
+    "Seehee Park",
+    "Nia Nixon"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "An AI teammate's design properties (personality, communication style, when it speaks) can shape a team's trust, coordination, and decisions. Studying this rigorously demands infrastructure no existing tool provides: reproducible configuration of an AI teammate embedded in instrumented, real-time collaboration sustained over time. We present the Team Research and AI Integration Lab (TRAIL), a web platform that makes the AI teammate a configurable, reproducible design object, pairing a Big Five…",
+    "arxiv_id": "2607.12180"
+   },
+   "id": "33458413caa99326",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-13T21:59:13Z",
+   "score": 0.6691,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "An AI teammate's design properties (personality, communication style, when it speaks) can shape a team's trust, coordination, and decisions. Studying this rigorously demands infrastructure no existing tool provides: reproducible configuration of an AI teammate embedded in instrumented, real-time…",
+   "tags": [
+    "ai-writing",
+    "ux"
+   ],
+   "title": "TRAIL: A Platform for Configurable Human--AI Teaming Experiments",
+   "url": "https://arxiv.org/abs/2607.12180v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
     "Chu Zhang",
     "XiaoKe Zeng",
     "Jin Zhang",
@@ -18,7 +223,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-13T17:27:30Z",
-   "score": 0.6684,
+   "score": 0.6525,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -49,7 +254,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-13T16:54:22Z",
-   "score": 0.4739,
+   "score": 0.4581,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -73,7 +278,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-13T16:06:23Z",
-   "score": 0.8034,
+   "score": 0.7877,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -105,7 +310,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-13T12:02:50Z",
-   "score": 0.8287,
+   "score": 0.8138,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -137,7 +342,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-13T11:26:27Z",
-   "score": 0.4941,
+   "score": 0.4793,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -168,7 +373,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-12T06:48:52Z",
-   "score": 0.7017,
+   "score": 0.6911,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -193,19 +398,13 @@
    "category": "optional",
    "extra": {
     "abstract_snippet": "Data narratives increasingly shape public understanding, but their failures are rarely just isolated factual errors or deceptive charts. Instead, they emerge through a broader meaning-making process in which quantitative evidence is transformed into claims, representations, and arguments. While prior work has examined these failures across disparate fields (e.g., statistics, visualization, and fact-checking), the community lacks a holistic lens to explain how these issues arise, propagate, and…",
-    "also_in": [
-     {
-      "source": "arXiv cs.HC (writing & docs)",
-      "url": "https://arxiv.org/abs/2607.10523v1"
-     }
-    ],
     "arxiv_id": "2607.10523"
    },
    "id": "c661c0cbd45f0528",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-12T00:54:15Z",
-   "score": 0.5875,
+   "score": 0.5776,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -216,50 +415,17 @@
    "title": "How Data Narratives Go Wrong: A Taxonomy of Issues Across the Data Communication Process",
    "url": "https://arxiv.org/abs/2607.10523v1",
    "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Zhongzheng Xu",
-    "Taehyun Yang",
-    "Fumeng Yang"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Generative Artificial Intelligence (GenAI) coding tools are transforming visualization education. They can assist with implementation and design, but they can also let students bypass intended learning trajectories. In this paper, we share our retrospective experience managing and teaching AI use in an upper-level visualization course. We implemented prompt injections, asked oral checkout questions, and taught two AI coding labs. Prior to our coding labs, at least half of the students had…",
-    "also_in": [
-     {
-      "source": "arXiv cs.HC (writing & docs)",
-      "url": "https://arxiv.org/abs/2607.09938v1"
-     }
-    ],
-    "arxiv_id": "2607.09938"
-   },
-   "id": "967756990cc03c4e",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-10T19:40:51Z",
-   "score": 0.5302,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Generative Artificial Intelligence (GenAI) coding tools are transforming visualization education. They can assist with implementation and design, but they can also let students bypass intended learning trajectories. In this paper, we share our retrospective experience managing and teaching AI use…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "\"Code Is Cheap. Show Me the Talk.\": Lessons from Teaching and Managing AI Coding Tool Usage in a Visualization Course",
-   "url": "https://arxiv.org/abs/2607.09938v1",
-   "venue": "arXiv cs.HC"
   }
  ],
  "meta": {
-  "count": 8,
-  "generated_at": "2026-07-14T23:10:01Z",
+  "count": 14,
+  "generated_at": "2026-07-15T03:30:33Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
    {
     "category": "optional",
-    "count": 4,
+    "count": 5,
     "error": null,
     "full_text_count": 0,
     "id": "arxiv_datavis",
@@ -319,7 +485,7 @@
    },
    {
     "category": "optional",
-    "count": 6,
+    "count": 10,
     "error": null,
     "full_text_count": 0,
     "id": "arxiv_hci_writing",
