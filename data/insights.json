@@ -1,28 +1,28 @@
 {
- "brief": "Today's news covers AI safety and agent development, geopolitical tensions in the Strait of Hormuz, and health alerts for Cyclospora. Papers explore emotion-aware digital objects, AI research assistants, and human-AI collaboration in creative writing.",
+ "brief": "Today's news features the US Mint's Trump coin, wildfires in Ontario impacting air quality, and ongoing ICE controversies. Research papers introduce CD-MED for multimodal emotion descriptors and GraphPolaris for graph database visualization.",
  "meta": {
-  "generated_at": "2026-07-15T17:37:03Z"
+  "generated_at": "2026-07-15T19:34:38Z"
  },
- "news_summary": "OpenAI introduces GPT-Red to enhance model security, while US strikes in the Strait of Hormuz and ICE shootings dominate headlines. Health warnings about Cyclospora and wildfires in Ontario also feature.",
- "papers_summary": "Research on multimodal emotion descriptors, AI assistants for interdisciplinary science, and creative writing through collaborative gameplay highlights advances in human-computer interaction.",
+ "news_summary": "The US Treasury announced a new $1 coin featuring Trump, the first living president on US currency. Wildfires in Ontario cause poor air quality in Toronto and NYC, while ICE faces scrutiny over traffic stops and detainee deaths.",
+ "papers_summary": "CD-MED proposes cross-domain multimodal emotion descriptors for digital objects, and GraphPolaris offers a new system for querying and visualizing graph databases.",
  "summaries": {
   "en": {
-   "brief": "Today's news covers AI safety and agent development, geopolitical tensions in the Strait of Hormuz, and health alerts for Cyclospora. Papers explore emotion-aware digital objects, AI research assistants, and human-AI collaboration in creative writing.",
-   "news_summary": "OpenAI introduces GPT-Red to enhance model security, while US strikes in the Strait of Hormuz and ICE shootings dominate headlines. Health warnings about Cyclospora and wildfires in Ontario also feature.",
-   "papers_summary": "Research on multimodal emotion descriptors, AI assistants for interdisciplinary science, and creative writing through collaborative gameplay highlights advances in human-computer interaction."
+   "brief": "Today's news features the US Mint's Trump coin, wildfires in Ontario impacting air quality, and ongoing ICE controversies. Research papers introduce CD-MED for multimodal emotion descriptors and GraphPolaris for graph database visualization.",
+   "news_summary": "The US Treasury announced a new $1 coin featuring Trump, the first living president on US currency. Wildfires in Ontario cause poor air quality in Toronto and NYC, while ICE faces scrutiny over traffic stops and detainee deaths.",
+   "papers_summary": "CD-MED proposes cross-domain multimodal emotion descriptors for digital objects, and GraphPolaris offers a new system for querying and visualizing graph databases."
   },
   "zh": {
-   "brief": "今日中國新聞聚焦於經濟增長放緩、間諜案及芬太尼毒梟引渡，同時霸王龍化石創拍賣紀錄。學術方面多項研究探討AI輔助寫作、情感分析與人機協作。",
-   "news_summary": "中國經濟第二季增長放緩至4.3%，創2022年底以來新低；地震學家陳友麟因涉朝鮮核試驗研究被以間諜罪拘留近兩年；涉嫌主導中美芬太尼供應鏈的中國毒梟「王哥」張智棟在美受審；霸王龍化石以5010萬美元拍出，創最貴恐龍標本紀錄。",
-   "papers_summary": "多篇論文關注AI在跨領域情感描述、圖數據庫可視化、研究助手設計及低資源語言健康錯誤信息檢測中的應用，另有人機協作實驗平台與創意寫作協作遊戲的研究。"
+   "brief": "今日新闻聚焦中国拘留地震学家、经济增长放缓至4.3%、毒枭王哥的跨国网络以及霸王龙化石拍卖纪录。研究论文涉及跨模态情感描述符和图数据库可视化。",
+   "news_summary": "中国拘留研究朝鲜核试验的地震学家，经济增速创2022年底以来新低；毒枭张智栋（王哥）被美国指控；霸王龙化石以5010万美元成交。",
+   "papers_summary": "英文预印本研究包括跨模态情感描述符、图数据库可视化、AI研究助手等，未涉及中文论文。"
   }
  },
  "todays_image": {
-  "caption": "Both a lighthouse design and building the agent \"Shippy\" involve constructing a guiding beacon to navigate complex environments.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-CH1078",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/30588",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-CH1078",
-  "title": "Design for a Lighthouse"
+  "caption": "Both the Tyrannosaurus rex and the Trump $1 coin are apex predators of their respective eras, dominating through sheer force of presence.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3767225037e1e43faad6bd4010644fb57",
+  "source_name": "NMNH - Paleobiology Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3e09b29ad-36bd-4e85-88e8-f6ac46ffefc4",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3767225037e1e43faad6bd4010644fb57/90",
+  "title": "Tyrannosaurus rex Osborn, 1905"
  }
 }
