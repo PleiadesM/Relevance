@@ -1,28 +1,28 @@
 {
- "brief": "Today's news spans political shifts from Sierra Leone dropping treason charges to U.S. Senate hearings for Trump nominees, China's economic slowdown, and Spain-Gibraltar border deal. Research highlights advances in human-computer interaction, AI-assisted writing, and health misinformation detection.",
+ "brief": "Today's news spans transit improvements in the Bronx, warnings of Russian infrastructure attacks, and controversies over ICE tactics and Epstein ties. Papers explore cross-domain emotion recognition, graph database visualization, and AI research assistants.",
  "meta": {
-  "generated_at": "2026-07-15T11:48:18Z"
+  "generated_at": "2026-07-15T14:07:13Z"
  },
- "news_summary": "Sierra Leone drops treason charges against ex-president Koroma; Senate confirmation hearings for Todd Blanche and Jay Clayton; China's economy grows 4.3% in Q2, slowest since 2022; Spain and Gibraltar remove border controls; Iran threatens trade routes amid U.S. strikes.",
- "papers_summary": "Papers explore cross-domain multimodal emotion descriptors (CD-MED), graph database visualization (GraphPolaris), interdisciplinary AI research assistants (Aïra), and health misinformation in low-resource languages using SLMs.",
+ "news_summary": "Mamdani pushes Bronx bus lane; Lithuania warns of Russian infrastructure strikes; Trump defends ICE traffic stops; Epstein files scrutiny continues; Russia hits Black Sea tankers; Utah bans Stephen King collection; Starmer's final PMQs.",
+ "papers_summary": "CD-MED introduces cross-domain multimodal emotion descriptors; GraphPolaris enables query and visualization of graph databases; Aïra rethinks AI assistants for interdisciplinary science.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans political shifts from Sierra Leone dropping treason charges to U.S. Senate hearings for Trump nominees, China's economic slowdown, and Spain-Gibraltar border deal. Research highlights advances in human-computer interaction, AI-assisted writing, and health misinformation detection.",
-   "news_summary": "Sierra Leone drops treason charges against ex-president Koroma; Senate confirmation hearings for Todd Blanche and Jay Clayton; China's economy grows 4.3% in Q2, slowest since 2022; Spain and Gibraltar remove border controls; Iran threatens trade routes amid U.S. strikes.",
-   "papers_summary": "Papers explore cross-domain multimodal emotion descriptors (CD-MED), graph database visualization (GraphPolaris), interdisciplinary AI research assistants (Aïra), and health misinformation in low-resource languages using SLMs."
+   "brief": "Today's news spans transit improvements in the Bronx, warnings of Russian infrastructure attacks, and controversies over ICE tactics and Epstein ties. Papers explore cross-domain emotion recognition, graph database visualization, and AI research assistants.",
+   "news_summary": "Mamdani pushes Bronx bus lane; Lithuania warns of Russian infrastructure strikes; Trump defends ICE traffic stops; Epstein files scrutiny continues; Russia hits Black Sea tankers; Utah bans Stephen King collection; Starmer's final PMQs.",
+   "papers_summary": "CD-MED introduces cross-domain multimodal emotion descriptors; GraphPolaris enables query and visualization of graph databases; Aïra rethinks AI assistants for interdisciplinary science."
   },
   "zh": {
-   "brief": "今日重點包括中國經濟增速放緩至4.3%創2022年底新低、涉芬太尼供應鏈的中國毒梟「王哥」在美受審，以及霸王龍化石創拍賣紀錄。",
-   "news_summary": "中國第二季經濟增長4.3%低於目標，同時張智棟（王哥）因涉嫌掌控中美芬太尼供應鏈被關押美國；霸王龍化石以5010萬美元成交創紀錄。",
-   "papers_summary": "本日研究聚焦人工智能在跨領域科學協作、情感計算與低資源語言健康錯誤訊息檢測方面的進展，另有多篇論文探討人類-機器人互動中的凝視與點頭生成。"
+   "brief": "今日中国新闻聚焦经济放缓至4.3%、小红书的合规举报、以及一名被控间谍罪的地震学家；国际方面，特朗普施压ICE重启交通检查、Epstein案新进展；学术界无中文论文，全球研究侧重人机交互与AI。",
+   "news_summary": "中国二季度GDP增速降至4.3%，创2022年底新低；小红书前员工向香港监管机构举报公司合规问题，可能影响上市；地震学家陈友麟因涉嫌间谍罪被中国拘留近两年。其他热点包括香港独立书店回忆、世界盃补水暂停致进球增多、以及霸王龙化石创拍卖纪录。",
+   "papers_summary": "今日无中文论文，国际arXiv论文主要涉及跨领域情感描述、图数据库可视化、AI研究助手、以及人机协作平台等HCI领域研究。"
   }
  },
  "todays_image": {
-  "caption": "The T. rex's reign ended in extinction, much like the attempted coup charge against Sierra Leone's ex-president has now been dropped, allowing a former ruler to escape a political extinction.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3767225037e1e43faad6bd4010644fb57",
-  "source_name": "NMNH - Paleobiology Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3e09b29ad-36bd-4e85-88e8-f6ac46ffefc4",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3767225037e1e43faad6bd4010644fb57/90",
-  "title": "Tyrannosaurus rex Osborn, 1905"
+  "caption": "The lotus, known for its ability to rise quickly through murky water, mirrors the Mamdani project's aim to cut through congestion and speed up Bronx bus transit.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m33036ea01fa344f949180fc2ee5bab1a0",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3987fbdc3-0eea-4565-bff9-56f24dd52923",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m33036ea01fa344f949180fc2ee5bab1a0/90",
+  "title": "Lotus major Sm."
  }
 }
