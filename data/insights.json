@@ -1,20 +1,28 @@
 {
- "brief": "Canadian wildfires degrade US air quality, FDA approves new cholesterol pill, Genoa bridge officials sentenced, and AI-generated book controversy emerges alongside studies on academic networking and AI adoption in public agencies.",
+ "brief": "Astronomers discover an atmosphere on a nearby Earthlike planet, boosting the search for life. Linus Torvalds dismisses critics of AI in Linux, while Texas faces historic flooding. Research explores AI adoption in public agencies and academic networking in precarious transitions.",
  "meta": {
-  "generated_at": "2026-07-16T17:39:08Z"
+  "generated_at": "2026-07-16T19:33:12Z"
  },
- "news_summary": "More than 800 Canadian wildfires cause hazardous air in Michigan and Minnesota; FDA approves a new pill to slash cholesterol; Italian officials get prison for Genoa bridge collapse; AI-generated unauthorized biographies pollute Amazon.",
- "papers_summary": "Research tracks academic networking amid precarity, L2 writing positioning patterns, and AI adoption in a state DOT, along with tools for multivariate graph analysis and LLM-generated text detection.",
+ "news_summary": "Key news includes the first detection of an atmosphere on a potentially habitable exoplanet, Linus Torvalds' defiant stance on AI in Linux, and devastating floods in central Texas.",
+ "papers_summary": "Papers examine Generative AI adoption in a state DOT, bot integration in open-source projects, and academic networking during career transitions.",
  "summaries": {
   "en": {
-   "brief": "Canadian wildfires degrade US air quality, FDA approves new cholesterol pill, Genoa bridge officials sentenced, and AI-generated book controversy emerges alongside studies on academic networking and AI adoption in public agencies.",
-   "news_summary": "More than 800 Canadian wildfires cause hazardous air in Michigan and Minnesota; FDA approves a new pill to slash cholesterol; Italian officials get prison for Genoa bridge collapse; AI-generated unauthorized biographies pollute Amazon.",
-   "papers_summary": "Research tracks academic networking amid precarity, L2 writing positioning patterns, and AI adoption in a state DOT, along with tools for multivariate graph analysis and LLM-generated text detection."
+   "brief": "Astronomers discover an atmosphere on a nearby Earthlike planet, boosting the search for life. Linus Torvalds dismisses critics of AI in Linux, while Texas faces historic flooding. Research explores AI adoption in public agencies and academic networking in precarious transitions.",
+   "news_summary": "Key news includes the first detection of an atmosphere on a potentially habitable exoplanet, Linus Torvalds' defiant stance on AI in Linux, and devastating floods in central Texas.",
+   "papers_summary": "Papers examine Generative AI adoption in a state DOT, bot integration in open-source projects, and academic networking during career transitions."
   },
   "zh": {
-   "brief": "中國在全球好感度調查中首次超越美國；泰國曼谷酒吧大火致32死，暴露法規漏洞；台灣白色恐怖檔案解密引發歷史補課潮；學術打假風波持續。美國FDA批准新型降膽固醇藥物，意大利法官因大橋坍塌判刑。",
-   "news_summary": "皮尤調查顯示全球對中國好感度首超美國，習近平支持率高於特朗普；霍爾木茲海峽替代路線難以取代其戰略地位；LV告茉莉奶白案引發維權與輿論衝突；泰國曼谷酒吧大火揭示監管與腐敗問題。",
-   "papers_summary": "研究探討學術流動與不穩定網絡、L2學生寫作中的定位模式、以及AI生成文本的檢測方法。"
+   "brief": "今日新聞涵蓋地緣政治轉變、監管失靈與社交媒體正義；研究論文探討AI團隊動態與學術網絡。",
+   "news_summary": "皮尤調查顯示全球對中國好感度超越美國；曼谷大火凸顯泰國監管漏洞；台灣政治受難者後代追尋真相；香港國安法搜查獨立書店。",
+   "papers_summary": "跨領域研究關注學術網絡中的流動與不穩定性、AI在公共機構的採用，以及低資源語言中的錯誤訊息檢測。"
   }
+ },
+ "todays_image": {
+  "caption": "The Froebel's emphasis on nurturing growth through structured play mirrors astronomers' discovery of an atmosphere that could sustain life on a nearby Earthlike planet.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-CHP6465",
+  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/57060",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-CHP6465",
+  "title": "The Froebel"
  }
 }
