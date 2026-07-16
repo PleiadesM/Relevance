@@ -23,7 +23,8 @@ Source of truth: `docs/DATA_CONTRACT.md` (envelope + manifest contract) and
 - The passphrase (only ever in the `NEWSDASH_PASSPHRASE` env/secret).
 - Decrypted payloads — not in CI logs, PR bodies, issue comments, or files.
   `scripts/encrypt_tool.py decrypt` is for the user's own terminal only.
-- ICS URLs and the decoded `ICS_SOURCES_B64` JSON (in-process only).
+- Private-source capability URLs / tokens and any decoded secret payloads
+  (in-process only).
 - Private-source error detail: reduce to exception class names
   (requests errors embed URLs — see `scripts/newsdash/status.py`).
 
@@ -32,7 +33,6 @@ Source of truth: `docs/DATA_CONTRACT.md` (envelope + manifest contract) and
 - `visibility: "private"` + missing passphrase ⇒ **build fails loudly**
   (never silently publish plaintext).
 - Private sources configured + missing passphrase ⇒ build fails loudly.
-- `schedule`/`courses` payloads must never exist as plaintext files —
-  CI's guard job greps for exactly that.
+- Private-section payloads must never exist as plaintext files.
 - The archive only ever contains open + optional items.
-- Build logs never print private counts, titles, or calendar names.
+- Build logs never print private counts, titles, or names.

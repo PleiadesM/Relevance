@@ -4,8 +4,6 @@ Every fetcher shares one interface (radar-compatible, config-driven)::
 
     fetch(source: SourceConfig, ctx: FetchContext)
         -> list[Item]                      # news / paper fetchers
-        -> {"events": [...], "calendars": [...]}   # ics
-        -> {"courses": [...]}              # canvas
 
 Modules import lazily so a missing optional dependency only breaks the
 source that needs it, never the whole build."""
@@ -31,8 +29,6 @@ _MODULES = {
     "openalex": "newsdash.fetchers.openalex",
     "crossref": "newsdash.fetchers.crossref",
     "semanticscholar": "newsdash.fetchers.semanticscholar",
-    "ics": "newsdash.fetchers.ics",
-    "canvas": "newsdash.fetchers.canvas",
 }
 
 

@@ -92,11 +92,6 @@ change; keyless runs are best-effort (0 items when throttled).
 **Semantic Scholar** — shared keyless pool, frequently 429s; best-effort by
 design. Neither ever fails your build.
 
-**ICS / Canvas** — private; config carries only `secret_ref`. The default
-`config/sources.json` already has both entries wired to `ICS_SOURCES_B64` and
-`CANVAS_BASE_URL`+`CANVAS_TOKEN`; they activate the moment the secrets exist.
-Recipes: [SETUP.md §6–7](SETUP.md).
-
 ## 4. Curation discipline (the 伯乐 inheritance)
 
 1. Prefer, in order: official feed → public generated feed → OPML → focused

@@ -311,13 +311,12 @@
 [data-theme="the-type"] .item-list .item .item-title { font-size: 19px; font-weight: 600; letter-spacing: -0.3px; }
 [data-theme="the-type"] .item-list .item .item-summary { font-size: 13px; color: rgba(0, 0, 0, 0.4); }
 
-/* ---- today blocks (schedule, due-soon, papers, following) ---- */
+/* ---- today blocks (papers, following) ---- */
 
 [data-theme="the-type"] .today-block { border-top: 1px solid var(--fg); padding-top: 0.7rem; }
 [data-theme="the-type"] .item-title { font-weight: 600; }
 [data-theme="the-type"] .item-source { color: var(--accent); font-weight: 500; }
 [data-theme="the-type"] .tag { border-radius: 0; border-color: var(--rule); }
-[data-theme="the-type"] .course-card,
 [data-theme="the-type"] .clipping { border-radius: 0; background: transparent; }
 [data-theme="the-type"] blockquote { font-style: italic; }
 [data-theme="the-type"] .apropos-card {

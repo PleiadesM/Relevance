@@ -1,6 +1,6 @@
 {
   "app": {
-    "tagline": "你的新闻、论文与日程——尽在一页。",
+    "tagline": "你的新闻与论文——尽在一页。",
     "updated": "更新于 {time}",
     "loading": "加载中…",
     "empty": "这里还没有内容。",
@@ -15,8 +15,6 @@
     "news": "新闻",
     "papers": "论文",
     "following": "关注",
-    "schedule": "日程",
-    "courses": "课程",
     "clippings": "摘录",
     "favorites": "收藏",
     "sources": "信源",
@@ -50,17 +48,11 @@
     "greetingMorning": "早上好",
     "greetingAfternoon": "下午好",
     "greetingEvening": "晚上好",
-    "schedule": "日程",
     "today": "今天",
-    "tomorrow": "明天",
     "yesterday": "昨天",
-    "noEvents": "暂无日程。",
-    "dueSoon": "即将截止",
-    "noDue": "未来 7 天没有待交作业。",
     "topStories": "头条",
     "latestPapers": "优选论文",
     "lockedBlock": "解锁后可见。",
-    "allDay": "全天",
     "more": "更多 →",
     "aiSummaryLabel": "AI 摘要",
     "todaysImage": "今日一图",
@@ -121,19 +113,6 @@
     "remove": "移除收藏",
     "lockedHint": "解锁私密模式后才能查看收藏。"
   },
-  "schedule": {
-    "empty": "此时间段内没有日程。",
-    "calendars": "日历"
-  },
-  "courses": {
-    "announcements": "公告",
-    "upcoming": "待交作业",
-    "due": "截止于 {time}",
-    "submitted": "已提交",
-    "points": "{n} 分",
-    "noUpcoming": "暂无待交作业。",
-    "noAnnouncements": "暂无最新公告。"
-  },
   "clippings": {
     "title": "摘录",
     "empty": "还没有任何高亮、摘录或笔记。选中任意条目中的文字即可开始。",
@@ -185,7 +164,7 @@
     "aiSummaryConfigured": "已配置——今日页面可能显示 AI 每日简报、「今日一图」与「无关一则」。",
     "aiSummaryNotConfigured": "尚未配置。仪表盘所有者可添加 LLM_API_KEY Secret 以启用 AI 每日简报与「无关一则」。",
     "about": "关于",
-    "aboutBody": "及君（Relevance）——无服务器、自部署的新闻 · 日程 · 研究仪表盘。数据由 GitHub Actions 自动更新；私密栏目以 AES-256 加密，仅在你的浏览器中解密。",
+    "aboutBody": "及君（Relevance）——无服务器、自部署的新闻 · 研究仪表盘。数据由 GitHub Actions 自动更新；私密栏目以 AES-256 加密，仅在你的浏览器中解密。",
     "version": "版本"
   }
 }

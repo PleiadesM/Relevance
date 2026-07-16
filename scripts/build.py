@@ -166,9 +166,6 @@ def main(argv=None) -> None:
                        site=cfg.site, repo_root=repo_root, verbose=args.verbose)
 
     items_by_section: dict[str, list] = {}
-    schedule_events: list = []
-    schedule_calendars: list[dict] = []
-    courses: list[dict] = []
 
     for source in cfg.sources:
         if args.only and source.category != args.only:
@@ -189,32 +186,22 @@ def main(argv=None) -> None:
                 print(f"[{source.id}] error: {type(exc).__name__}: {str(exc)[:160]}")
             continue
 
-        if source.type == "ics":
-            schedule_events.extend(result["events"])
-            schedule_calendars.extend(result["calendars"])
-            status.record(source, ok=True, count=len(result["events"]))
-            print(f"[{source.id}] ok (private; detail withheld)")
-        elif source.type == "canvas":
-            courses.extend(result["courses"])
-            status.record(source, ok=True, count=len(result["courses"]))
-            print(f"[{source.id}] ok (private; detail withheld)")
-        else:
-            # feeds are untrusted: only http(s) URLs may become links
-            result = [it for it in result
-                      if it.url.startswith(("http://", "https://"))]
-            # a declared source language beats per-item detection (fetchers
-            # only see titles, which are too short for reliable detection)
-            if source.lang in ("zh", "en"):
-                for it in result:
-                    it.lang = source.lang
-            items_by_section.setdefault(source.section, []).extend(result)
-            status.record(
-                source,
-                ok=True,
-                count=len(result),
-                full_text_count=sum(1 for it in result if getattr(it, "full_text", "")),
-            )
-            print(f"[{source.id}] ok, {len(result)} items")
+        # feeds are untrusted: only http(s) URLs may become links
+        result = [it for it in result
+                  if it.url.startswith(("http://", "https://"))]
+        # a declared source language beats per-item detection (fetchers
+        # only see titles, which are too short for reliable detection)
+        if source.lang in ("zh", "en"):
+            for it in result:
+                it.lang = source.lang
+        items_by_section.setdefault(source.section, []).extend(result)
+        status.record(
+            source,
+            ok=True,
+            count=len(result),
+            full_text_count=sum(1 for it in result if getattr(it, "full_text", "")),
+        )
+        print(f"[{source.id}] ok, {len(result)} items")
 
     # ---- assemble section payloads --------------------------------------
     win = cfg.site.windows
@@ -281,31 +268,6 @@ def main(argv=None) -> None:
                 "items": [it.to_dict() for it in items],
             }
             count = len(items)
-        elif kind == "schedule":
-            schedule_events.sort(key=lambda ev: ev.start)
-            payloads[section] = {
-                "meta": {
-                    "generated_at": generated_at,
-                    "section": section,
-                    "kind": kind,
-                    "timezone": cfg.site.timezone,
-                    "calendars": schedule_calendars,
-                    "sources": status.for_section(section),
-                },
-                "events": [ev.to_dict() for ev in schedule_events],
-            }
-            count = len(schedule_events)
-        elif kind == "courses":
-            payloads[section] = {
-                "meta": {
-                    "generated_at": generated_at,
-                    "section": section,
-                    "kind": kind,
-                    "sources": status.for_section(section),
-                },
-                "courses": courses,
-            }
-            count = len(courses)
         else:  # pragma: no cover — SECTION_KINDS covers v0.1 sections
             continue
 
@@ -338,8 +300,8 @@ def main(argv=None) -> None:
 
     # ---- AI daily brief + Today's Image + Apropos-of-Nothing ------------
     # Bolt-on enrichment per docs/ROADMAP.md: reads only news/papers
-    # payloads (never schedule/courses), never runs during --smoke, and
-    # follows encrypt_all exactly like every other section.
+    # payloads, never runs during --smoke, and follows encrypt_all exactly
+    # like every other section.
     insights_file = None
     if not args.smoke:
         insights = {}

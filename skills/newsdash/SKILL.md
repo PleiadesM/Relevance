@@ -1,13 +1,13 @@
 ---
 name: newsdash
-description: "Use when working on Relevance, Page Skill, 书童Skill, 及君: setting up or personalizing a deployment (set up my relevance / 配置我的及君), adding news/calendar/course/paper sources, guiding GitHub Secrets, fixing a stale dashboard, themes, GitHub Actions, or GitHub Pages deployment."
+description: "Use when working on Relevance, Page Skill, 书童Skill, 及君: setting up or personalizing a deployment (set up my relevance / 配置我的及君), adding news/paper sources, guiding GitHub Secrets, fixing a stale dashboard, themes, GitHub Actions, or GitHub Pages deployment."
 ---
 
 # Page Skill｜书童Skill
 
 The maintainer-side skill for Relevance. The 书童 (page) is a scholar's
-study attendant: minds the schedule, fetches the readings, sorts the
-correspondence — and never reads the master's sealed letters. That last part
+study attendant: fetches the readings, sorts the correspondence — and never
+reads the master's sealed letters. That last part
 is the point: **this skill narrates secrets setup; it never touches secret
 values.**
 
@@ -33,7 +33,7 @@ When a user asks you to set up or personalize their Relevance, interview them
 in this order (one topic at a time, don't dump a questionnaire):
 
 1. **Visibility first.** Explain the trade-off in one paragraph: *public* =
-   news/papers readable by anyone, schedule/courses always encrypted;
+   news/papers readable by anyone, any private sections always encrypted;
    *private* = everything encrypted, site opens with a passphrase gate.
    Either way the repo stays public and privacy comes from encryption —
    "a private site is an encrypted public site."
@@ -42,8 +42,6 @@ in this order (one topic at a time, don't dump a questionnaire):
 4. **Academic fields** — map to `academic-datavis` / `academic-techcomm`, or
    craft new sources for other fields: arXiv category queries (`cat:cs.CL`),
    CrossRef ISSN tracking for journals. Add their interest keywords.
-5. **Private sources** — which calendars (Google / Outlook / Canvas ICS)?
-   Which LMS (Canvas base URL)?
 
 Then apply it via ONE of:
 
@@ -109,10 +107,9 @@ the site (data can lag ~10 min behind the Pages CDN).
 
 ## Safety rules (hard block)
 
-- Never commit or log: the passphrase, Canvas tokens, ICS URLs (capability
-  URLs **are** credentials), decoded `ICS_SOURCES_B64`, `.env` values, or
-  decrypted private payloads.
-- Never print decrypted schedule/courses content into CI logs, PR bodies, or
+- Never commit or log: the passphrase, source capability URLs / tokens
+  (they **are** credentials), `.env` values, or decrypted private payloads.
+- Never print decrypted private-section content into CI logs, PR bodies, or
   issue comments. Public repos have public logs. Local decryption via
   `scripts/encrypt_tool.py decrypt` only at the user's explicit request,
   output to their terminal only.

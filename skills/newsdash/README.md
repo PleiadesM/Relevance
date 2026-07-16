@@ -14,14 +14,14 @@ Use Page Skill for Relevance. Interview me first: which preset packs I want
 my theme and timezone, and whether the site should be public or private. Then classify
 any extra sources I give you as Open, Private, or Optional. Walk me through every
 GitHub secret step by step — but never ask me to paste a secret value into the chat,
-and never commit tokens, calendar URLs, or passphrases into the repo.
+and never commit tokens or passphrases into the repo.
 ```
 
 ## Why "Page｜书童"?
 
-A 书童 is the scholar's study attendant in classical China: he keeps the
-master's schedule, fetches the day's readings, sorts the correspondence — and
-never breaks the seal on a private letter. "Page" carries the same triple
+A 书童 is the scholar's study attendant in classical China: he fetches the
+day's readings, sorts the correspondence — and never breaks the seal on a
+private letter. "Page" carries the same triple
 duty in English: the page boy who attends, the pages you read, and the GitHub
 Pages he sweeps every two hours. Where ai-news-radar's 伯乐 (Scout) judged
 horses, the 书童 carries your books.
@@ -30,10 +30,10 @@ horses, the 书童 carries your books.
 
 | Will | Won't |
 |---|---|
-| Interview you and edit `config/` for you | Ask you to paste a passphrase, token, or calendar URL into chat |
+| Interview you and edit `config/` for you | Ask you to paste a passphrase or token into chat |
 | Tell you the exact secret name + settings URL + terminal one-liner | Echo, store, or commit any secret value |
 | Classify new sources (Open / Private / Optional) and write the config entry | Add a capability URL to the repo (the schema blocks it anyway) |
-| Run the validators and watch the deploy | Print your decrypted schedule into a log |
+| Run the validators and watch the deploy | Print your decrypted private sections into a log |
 
 ---
 

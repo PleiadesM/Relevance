@@ -26,9 +26,6 @@
       "properties": {
         "news_hours": { "type": "integer", "minimum": 1, "maximum": 168 },
         "papers_days": { "type": "integer", "minimum": 1, "maximum": 60 },
-        "schedule_past_days": { "type": "integer", "minimum": 0, "maximum": 30 },
-        "schedule_horizon_days": { "type": "integer", "minimum": 1, "maximum": 90 },
-        "courses_horizon_days": { "type": "integer", "minimum": 1, "maximum": 120 },
         "archive_days": { "type": "integer", "minimum": 1, "maximum": 90 }
       }
     }

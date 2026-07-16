@@ -14,11 +14,9 @@ cookie ⇒ `private` (secret_ref only). Scholarly API ⇒ `optional`. Else `open
 | `crossref` | `issn` (list) or `query` | ISSN format `1234-5678`; check the journal actually registers with CrossRef | Recency = record *created* date (right for slow journals); 30 s timeout — CrossRef is slow |
 | `openalex` | `query` | — | Best-effort keyless since the 2026 credits change; reliable only with `OPENALEX_API_KEY` |
 | `semanticscholar` | `query` | — | Shared keyless pool, 429s often; best-effort by design |
-| `ics` | `secret_ref: ["ICS_SOURCES_B64"]` | Never accept a calendar URL into config — it's a credential | URLs live in the secret's JSON payload (`examples/ics-sources.example.json`) |
-| `canvas` | `secret_ref: ["CANVAS_BASE_URL", "CANVAS_TOKEN"]` | — | REST: active courses → announcements → upcoming assignments w/ submission state |
 
 Every source: unique snake_case `id`, human `name`, `section`
-(`news`/`papers`/`schedule`/`courses`), `weight` 0–1 (feeds the 0.20 score
+(`news`/`papers`/`following`), `weight` 0–1 (feeds the 0.20 score
 term), `max_results`. New source of unknown quality → `weight: 0.5`, watch
 `source-status.json` for a week, then promote or drop (伯乐 discipline).
 

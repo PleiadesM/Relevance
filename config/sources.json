@@ -48,24 +48,6 @@
       "name": "Radiance Fields (YouTube)",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCvxZ0tCKgCrrgfGu_175NIA",
       "weight": 1.0
-    },
-    {
-      "id": "ics_calendars",
-      "category": "private",
-      "type": "ics",
-      "section": "schedule",
-      "name": "My calendars",
-      "secret_ref": ["ICS_SOURCES_B64"],
-      "enabled": "auto"
-    },
-    {
-      "id": "canvas",
-      "category": "private",
-      "type": "canvas",
-      "section": "courses",
-      "name": "Canvas",
-      "secret_ref": ["CANVAS_BASE_URL", "CANVAS_TOKEN"],
-      "enabled": "auto"
     }
   ],
   "tag_rules": [

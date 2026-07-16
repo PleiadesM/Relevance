@@ -17,9 +17,6 @@ intact (see [DATA_CONTRACT.md](DATA_CONTRACT.md)). No exceptions for "just this 
 - [x] **Encryption login** — private sections encrypted with AES-256-GCM
       (PBKDF2-HMAC-SHA256, 600k iterations); entering the passphrase in the browser
       *is* the login. `visibility: "private"` encrypts everything behind a full-page gate.
-- [x] **ICS calendars + Canvas courses** — private schedule from Google / Outlook /
-      Canvas ICS feeds; Canvas LMS announcements and upcoming assignments with
-      submission state.
 - [x] **Scholarly fetchers** — `arxiv`, `crossref` (reliable keyless), `openalex`,
       `semanticscholar` (best-effort keyless), with `academic-datavis` and
       `academic-techcomm` presets.
@@ -36,8 +33,8 @@ intact (see [DATA_CONTRACT.md](DATA_CONTRACT.md)). No exceptions for "just this 
       "Apropos-of-Nothing" card that searches public news through GDELT,
       and a public-domain "Today's Image" (Smithsonian Open Access API,
       CC0-only) with a one-sentence AI caption via `SMITHSONIAN_API_KEY`.
-      Reads only `news`/`papers` titles and short summaries — never schedule,
-      courses, passphrases, or full-text article bodies. Item translation
+      Reads only `news`/`papers` titles and short summaries — never
+      passphrases or full-text article bodies. Item translation
       (bundled in the original "LLM enrichment" line below) did **not** ship
       in this pass and remains a v0.2 candidate.
 
@@ -66,8 +63,6 @@ rule above.
 - **`deploy-pages` no-commit mode + history-squash workflow** — publish `data/` via
   the Pages artifact API instead of committing it, and a one-click workflow to squash
   the bot-commit history that accumulates in the meantime.
-- **OAuth calendar adapters** — Google / Microsoft OAuth as an alternative to secret
-  ICS URLs, which regenerate and silently kill your schedule.
 
 ## Not planned
 

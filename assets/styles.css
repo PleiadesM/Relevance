@@ -390,47 +390,6 @@ mark.nd-highlight.has-note { border-bottom: 2px dotted var(--accent); cursor: he
   color: var(--fg-muted);
 }
 
-.day-group { margin-bottom: 0.7rem; }
-.day-label { margin: 0 0 0.3rem; font-family: var(--font-meta); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--fg-muted); }
-
-.event-row {
-  display: flex;
-  gap: 0.7rem;
-  align-items: baseline;
-  padding: 0.25rem 0;
-  border-bottom: 1px dotted var(--rule);
-  font-size: 0.92rem;
-}
-.event-time { font-family: var(--font-meta); font-size: 0.8rem; color: var(--fg-muted); min-width: 4.4rem; font-variant-numeric: tabular-nums; }
-.event-title { flex: 1; }
-.event-loc, .event-cal { font-family: var(--font-meta); font-size: 0.76rem; color: var(--fg-muted); }
-
-.due-row { display: flex; gap: 0.6rem; align-items: baseline; padding: 0.3rem 0; border-bottom: 1px dotted var(--rule); font-size: 0.92rem; flex-wrap: wrap; }
-.due-course { font-family: var(--font-meta); font-size: 0.76rem; color: var(--accent); font-weight: 600; }
-.due-title { flex: 1; text-decoration: none; color: var(--fg); }
-.due-title:hover { color: var(--accent); }
-.due-when { font-family: var(--font-meta); font-size: 0.8rem; color: var(--fg-muted); }
-.due-points { font-family: var(--font-meta); font-size: 0.76rem; color: var(--fg-muted); }
-.due-submitted { font-family: var(--font-meta); font-size: 0.76rem; color: var(--fg-muted); }
-.due-row.submitted .due-title { text-decoration: line-through; color: var(--fg-muted); }
-
-/* ---- agenda / courses ---- */
-
-.agenda-day { margin-bottom: calc(var(--space) * 1.4); max-width: var(--measure); }
-.agenda-date { margin: 0 0 0.4rem; font-family: var(--font-heading); font-size: 1rem; border-bottom: 2px solid var(--fg); padding-bottom: 0.2rem; }
-.calendar-legend { font-family: var(--font-meta); font-size: 0.82rem; }
-
-.course-card { border: 1px solid var(--rule); border-radius: var(--radius); padding: var(--space); margin-bottom: var(--space); background: var(--bg-elev); box-shadow: var(--shadow); }
-.course-header h2 { margin: 0 0 0.6rem; font-size: 1.1rem; font-family: var(--font-heading); }
-.course-header a { text-decoration: none; color: var(--fg); }
-.course-columns { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(18rem, 100%), 1fr)); gap: var(--space); }
-.course-col h3 { margin: 0 0 0.4rem; font-family: var(--font-meta); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--fg-muted); }
-.announcement { padding: 0.35rem 0; border-bottom: 1px dotted var(--rule); }
-.ann-title { text-decoration: none; color: var(--fg); font-weight: 600; font-size: 0.95rem; }
-.ann-title:hover { color: var(--accent); }
-.ann-when { font-family: var(--font-meta); font-size: 0.76rem; color: var(--fg-muted); margin-left: 0.5rem; }
-.ann-snippet { margin: 0.15rem 0 0; font-size: 0.88rem; color: var(--fg-muted); }
-
 /* ---- clippings ---- */
 
 .clippings-list { max-width: var(--measure); }

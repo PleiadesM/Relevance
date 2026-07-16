@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-Relevance (及君): serverless news · schedule · research dashboard template —
+Relevance (及君): serverless news · research dashboard template —
 Python pipeline on Actions cron → static JSON in `data/` → vanilla-JS site on
 GitHub Pages. Private sections are AES-256-GCM encrypted; the passphrase is the login.
 Formerly "Personal Newsdash" — renamed 2026-07-08; internal identifiers
@@ -22,7 +22,7 @@ There is a **sibling private repo**, `PleiadesM/Apropos_PleiadesM`
 (`~/Documents/GitHub/Apropos_PleiadesM`), forked from this one at commit
 `fb76545` (2026-07-08). That repo is the owner's actual personal deployment:
 it will carry private sources/config this public template deliberately
-does not (more personal calendars/notes/sources), and its site visibility
+does not (more personal notes/sources), and its site visibility
 is meant to move to `private` (passphrase-gated) as that content is added.
 The two repos will diverge over time — **don't assume a fix or feature made
 in one has been ported to the other**; check before assuming parity, and
@@ -69,9 +69,9 @@ node tests/test_crypto_webcrypto.mjs                   # crypto envelope cross-c
 
 ## Hard rules
 
-- Never commit or log: the passphrase, tokens, ICS URLs (they are credentials),
-  decoded `ICS_SOURCES_B64`, or decrypted private payloads. Actions logs on
-  public repos are public — never print private counts/titles/details.
+- Never commit or log: the passphrase, tokens, capability URLs (they are
+  credentials), or decrypted private payloads. Actions logs on public repos
+  are public — never print private counts/titles/details.
 - Never weaken crypto parameters (`scripts/newsdash/crypto.py`) or add a
   plaintext fallback for private sections. The envelope is pinned by
   `tests/test_crypto_webcrypto.mjs`.

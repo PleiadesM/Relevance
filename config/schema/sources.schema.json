@@ -50,7 +50,7 @@
         "category": { "enum": ["open", "private", "optional"] },
         "type": {
           "enum": ["rss", "opml", "feed-json", "static-page", "arxiv", "openalex",
-                   "crossref", "semanticscholar", "ics", "canvas"]
+                   "crossref", "semanticscholar"]
         },
         "section": { "type": "string", "pattern": "^[a-z0-9_-]{2,32}$" },
         "name": { "type": "string", "minLength": 1, "maxLength": 120 },

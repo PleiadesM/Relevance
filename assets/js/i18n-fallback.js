@@ -7,7 +7,7 @@
 
 export const FALLBACK_EN = {
   "app": {
-    "tagline": "Your news, your papers, your schedule — one page.",
+    "tagline": "Your news and your papers — one page.",
     "updated": "Updated {time}",
     "loading": "Loading…",
     "empty": "Nothing here yet.",
@@ -22,8 +22,6 @@ export const FALLBACK_EN = {
     "news": "News",
     "papers": "Papers",
     "following": "Following",
-    "schedule": "Schedule",
-    "courses": "Courses",
     "clippings": "Clippings",
     "favorites": "Favorites",
     "sources": "Sources",
@@ -57,17 +55,11 @@ export const FALLBACK_EN = {
     "greetingMorning": "Good morning",
     "greetingAfternoon": "Good afternoon",
     "greetingEvening": "Good evening",
-    "schedule": "Schedule",
     "today": "Today",
-    "tomorrow": "Tomorrow",
     "yesterday": "Yesterday",
-    "noEvents": "No events.",
-    "dueSoon": "Due soon",
-    "noDue": "Nothing due in the next 7 days.",
     "topStories": "Top stories",
     "latestPapers": "Top papers",
     "lockedBlock": "Unlock to see this.",
-    "allDay": "all day",
     "more": "More →",
     "aiSummaryLabel": "AI summary",
     "todaysImage": "Today's Image",
@@ -128,19 +120,6 @@ export const FALLBACK_EN = {
     "remove": "Remove from favorites",
     "lockedHint": "Unlock private mode to see your favorites."
   },
-  "schedule": {
-    "empty": "No events in this window.",
-    "calendars": "Calendars"
-  },
-  "courses": {
-    "announcements": "Announcements",
-    "upcoming": "Upcoming work",
-    "due": "Due {time}",
-    "submitted": "Submitted",
-    "points": "{n} pts",
-    "noUpcoming": "No upcoming work.",
-    "noAnnouncements": "No recent announcements."
-  },
   "clippings": {
     "title": "Clippings",
     "empty": "No highlights, excerpts, or notes yet. Select text in any item to start.",
@@ -200,7 +179,7 @@ export const FALLBACK_EN = {
     "aiSummaryConfigured": "Configured — an AI daily brief, Today's Image, and Apropos-of-Nothing may appear on the Today page.",
     "aiSummaryNotConfigured": "Not configured. The dashboard owner can add an LLM_API_KEY secret to enable an AI daily brief and Apropos-of-Nothing.",
     "about": "About",
-    "aboutBody": "Relevance — a serverless, self-hosted news · schedule · research dashboard. Data updates via GitHub Actions; private sections are AES-256 encrypted and decrypted only in your browser.",
+    "aboutBody": "Relevance — a serverless, self-hosted news · research dashboard. Data updates via GitHub Actions; private sections are AES-256 encrypted and decrypted only in your browser.",
     "version": "Version"
   }
 };

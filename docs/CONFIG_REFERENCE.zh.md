@@ -11,8 +11,6 @@
 | 更新频率 | 每 2 小时（`17 */2 * * *`） | `update.yml` 的 cron 行 |
 | 新闻窗口 | 24 小时 | `site.json → windows.news_hours` |
 | 论文窗口 | 7 天 | `windows.papers_days` |
-| 日程窗口 | −1 天 … +14 天 | `windows.schedule_past_days` / `schedule_horizon_days` |
-| 课程视野 | 30 天 | `windows.courses_horizon_days` |
 | 归档保留 | 14 天（上限 3000 条） | `windows.archive_days` |
 | 启用的信源包 | `ai-news`、`general-news` | `sources.json → presets` |
 | 主题 / 语言 | `the-type` / `en` | `site.json` |
@@ -23,11 +21,11 @@
 | 键 | 取值 | 作用 |
 |---|---|---|
 | `title`、`subtitle` | 字符串 | 报头文字与 `<title>` |
-| `visibility` | `"public"` \| `"private"` | **public**：新闻/论文明文，日程/课程永远加密。**private**：*所有*文件加密、站点直接进口令门；缺 `NEWSDASH_PASSPHRASE` 时构建**直接失败** |
+| `visibility` | `"public"` \| `"private"` | **public**：新闻/论文明文，任何私密栏目永远加密。**private**：*所有*文件加密、站点直接进口令门；缺 `NEWSDASH_PASSPHRASE` 时构建**直接失败** |
 | `languages` | `["en","zh"]` 的子集 | 提供哪些界面语言 |
 | `default_language` | `"en"` \| `"zh"` | 访客切换之前的默认界面语言与内容语言 |
 | `theme` | `"the-type"` \| `"nyt"` \| `"bear"` | 默认主题（访客可切换，按浏览器记忆） |
-| `timezone` | IANA 名称 | 日程开窗与事件时区偏移（显示用访客本地时钟） |
+| `timezone` | IANA 名称 | 日界与开窗边界（显示用访客本地时钟） |
 | `windows.*` | 整数 | 见总览表；Schema 限定合理范围 |
 
 ## 3. `config/sources.json`
@@ -48,7 +46,7 @@
 ```
 
 **评分公式**：`0.45·新鲜度 + 0.35·关键词相关度 + 0.20·信源权重`；新鲜度按指数衰减（半衰期：新闻 12 小时 / 论文 84 小时）。信源报告了引用数的论文改用
-`0.35·新鲜度 + 0.25·相关度 + 0.15·权重 + 0.25·引用影响力`（对数缩放，约 1000 次引用饱和），高被引论文优先展示——前端的"优先"排序与今日页都基于此。日程与课程从不评分——按时间排列。
+`0.35·新鲜度 + 0.25·相关度 + 0.15·权重 + 0.25·引用影响力`（对数缩放，约 1000 次引用饱和），高被引论文优先展示——前端的"优先"排序与今日页都基于此。
 
 **按 id 覆盖预置信源**——同 `id` 条目按字段合并：
 
@@ -57,7 +55,7 @@
 { "id": "verge_ai", "weight": 0.4 }
 ```
 
-**`enabled`**：`true`（常开）· `false`（关闭）· `"auto"`（`secret_ref` 列出的环境变量齐备时开——有密钥就自动开）。不动配置的急停：把 GitHub *Variable* `<信源ID大写>_ENABLED` 设为 `0`（如 `CANVAS_ENABLED=0`）。
+**`enabled`**：`true`（常开）· `false`（关闭）· `"auto"`（`secret_ref` 列出的环境变量齐备时开——有密钥就自动开）。不动配置的急停：把 GitHub *Variable* `<信源ID大写>_ENABLED` 设为 `0`（如 `HN_FRONTPAGE_AI_ENABLED=0`）。
 
 ## 4. 信源类型
 
@@ -71,10 +69,8 @@
 | `openalex` | optional | `query` 和/或 `filter` | 只有配 `OPENALEX_API_KEY` 才可靠 |
 | `crossref` | optional | `issn` 列表或 `query` | 期刊追踪；按记录创建日期算新旧 |
 | `semanticscholar` | optional | `query` | 免密钥尽力而为 |
-| `ics` | private | `secret_ref` | URL 全部在 `ICS_SOURCES_B64` 里——**绝不**写进配置 |
-| `canvas` | private | `secret_ref` | `CANVAS_BASE_URL` + `CANVAS_TOKEN` |
 
-通用字段：`id`（snake_case，唯一）、`name`、`section`（`news`/`papers`/`following`/`schedule`/`courses`）、`weight`（0–1，默认 0.8）、`max_results`（默认 50）、`lang`（`"zh"`/`"en"` 固定该信源条目的语言；省略则逐条自动检测）。当前界面语言也会筛选可见新闻/研究内容：英文模式只显示英文条目，中文模式只显示中文条目。Schema **拒绝**在 `category: "private"` 信源上出现 `url`/`path`。
+通用字段：`id`（snake_case，唯一）、`name`、`section`（`news`/`papers`/`following`）、`weight`（0–1，默认 0.8）、`max_results`（默认 50）、`lang`（`"zh"`/`"en"` 固定该信源条目的语言；省略则逐条自动检测）。当前界面语言也会筛选可见新闻/研究内容：英文模式只显示英文条目，中文模式只显示中文条目。Schema **拒绝**在 `category: "private"` 信源上出现 `url`/`path`。
 
 v1 的全文阅读器没有配置开关。仅对 RSS/Atom 信源，若 feed 条目本身提供足量嵌入正文，管线会标记 **可阅读全文**，把清洗后的纯文本写入 `data/articles/`，前端通过 `#/read/<section>/<item_id>` 打开。只有摘要的 feed 仍与过去一样跳转到原站。
 
@@ -108,7 +104,7 @@ OpenRouter、Groq、Together、自建 Ollama/vLLM 均可；用 `LLM_BASE_URL` /
 
 硬性保证：
 
-- 只读取你的 `news`/`papers` 条目——**绝不**涉及日程或课程。
+- 只读取你的 `news`/`papers` 条目。
 - “无关一则”只把新闻/论文标题与短摘要发给你配置的 LLM，再检索 GDELT 的公开新闻；访客浏览器不会为这张卡片联系 LLM 或 GDELT。
 - 如果 GDELT 被限流，或公开新闻检索没有可用结果，这次构建只会省略“无关一则”
   卡片；不会让仪表盘失败或降级。
@@ -148,8 +144,6 @@ OpenRouter、Groq、Together、自建 Ollama/vLLM 均可；用 `LLM_BASE_URL` /
 | 名称 | 类型 | 谁需要 |
 |---|---|---|
 | `NEWSDASH_PASSPHRASE` | Secret | 一切加密（私密栏目；`visibility:"private"` 时全站） |
-| `ICS_SOURCES_B64` | Secret | `ics` 信源 |
-| `CANVAS_BASE_URL`、`CANVAS_TOKEN` | Secret | `canvas` 信源 |
 | `OPENALEX_API_KEY` | Secret | 稳定的 `openalex` |
 | `FOLLOW_OPML_B64` | Secret | 私人 OPML |
 | `LLM_API_KEY` | Secret | AI 每日简报 + 分栏摘要 + 无关一则（§4a） |
@@ -176,7 +170,7 @@ OpenRouter、Groq、Together、自建 Ollama/vLLM 均可；用 `LLM_BASE_URL` /
 | 提升我的主题 | `interests.keywords`（+ `boost`） |
 | 开启 AI 增强功能 | Secret `LLM_API_KEY`（§4a） |
 | 加上今日一图 | Secret `SMITHSONIAN_API_KEY`（+ `LLM_API_KEY`）（§4a） |
-| 立刻停掉 Canvas | Variable `CANVAS_ENABLED=0` |
+| 立刻停掉某个信源 | Variable `<信源ID大写>_ENABLED=0` |
 | 换默认主题/语言 | `site.json → theme` / `default_language` |
 | 改站名 | `site.json → title` |
 

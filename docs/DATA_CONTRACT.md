@@ -38,8 +38,8 @@ other data file as `<file>?v=<build_id>` — GitHub Pages' CDN caches for
   "sections": [
     { "id": "news", "kind": "news", "category": "open",
       "file": "news.json", "encrypted": false, "count": 142, "status": "ok" },
-    { "id": "schedule", "kind": "schedule", "category": "private",
-      "file": "schedule.enc.json", "encrypted": true, "status": "ok" }
+    { "id": "papers", "kind": "papers", "category": "optional",
+      "file": "papers.json", "encrypted": false, "count": 37, "status": "ok" }
   ],
   "source_status_file": "source-status.json",
   "insights_file": "insights.json",       // AI brief/summaries/image/apropos; null if absent
@@ -176,49 +176,6 @@ as other encrypted files, with AAD
 generated data; the rolling archive deliberately strips `full_text_available`
 and `full_text_file` so it cannot point at stale article files.
 
-### `schedule` (kind: schedule)
-
-```jsonc
-{
-  "meta": { "generated_at": "…Z", "section": "schedule", "kind": "schedule",
-            "timezone": "America/Chicago",
-            "calendars": [ { "id": "gcal_personal", "name": "Personal",
-                             "ok": true, "count": 12 } ],
-            "sources": [ /* full private status detail lives here */ ] },
-  "events": [ {
-    "id": "…", "calendar_id": "gcal_personal", "calendar": "Personal",
-    "title": "Advisor meeting",
-    "start": "2026-07-07T14:00:00-05:00",   // ISO-8601 with site-tz offset
-    "end": "2026-07-07T15:00:00-05:00",     // or null
-    "all_day": false,                        // all-day: start/end are "YYYY-MM-DD"
-    "location": "Ross 203", "url": null,
-    "status": "confirmed", "recurring": true
-  } ]
-}
-```
-
-Events are RRULE-expanded occurrences within
-`[today − schedule_past_days, today + schedule_horizon_days]`, sorted by
-`start`.
-
-### `courses` (kind: courses)
-
-```jsonc
-{
-  "meta": { "generated_at": "…Z", "section": "courses", "kind": "courses",
-            "sources": [ /* full private detail */ ] },
-  "courses": [ {
-    "id": 118234, "code": "ENGL 5920C", "name": "…", "url": "https://canvas…",
-    "announcements": [ { "id": 99, "title": "…", "url": "…",
-                         "posted_at": "2026-07-05T16:00:00Z",
-                         "snippet": "plaintext ≤240 chars" } ],
-    "upcoming": [ { "id": 555, "type": "assignment", "title": "…",
-                    "due_at": "2026-07-10T04:59:00Z", "points_possible": 20,
-                    "url": "…", "submitted": false } ]
-  } ]
-}
-```
-
 ### `source-status.json` / `archive.json`
 
 `source-status`: `{ generated_at, sources: [entry…], private_summary:
@@ -239,7 +196,7 @@ unless `LLM_API_KEY` is configured; even then it may legitimately be absent
 on a given run (nothing to summarize yet, or a transient upstream failure —
 distinguish "configured" (`manifest.ai_summary.enabled`) from "has content
 this run" (`insights_file` non-null)). Built only from `news`/`papers`
-items — never schedule/courses or full-text article bodies. Follows
+items — never full-text article bodies. Follows
 `encrypt_all` exactly like any other section.
 
 ```jsonc

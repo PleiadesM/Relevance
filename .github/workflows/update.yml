@@ -50,15 +50,10 @@ jobs:
           # Policy: keys live in Secrets; tuning lives in config files;
           # Variables exist only as kill switches (<ID>_ENABLED=0).
           NEWSDASH_PASSPHRASE: ${{ secrets.NEWSDASH_PASSPHRASE }}
-          ICS_SOURCES_B64: ${{ secrets.ICS_SOURCES_B64 }}
-          CANVAS_BASE_URL: ${{ secrets.CANVAS_BASE_URL }}
-          CANVAS_TOKEN: ${{ secrets.CANVAS_TOKEN }}
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           SMITHSONIAN_API_KEY: ${{ secrets.SMITHSONIAN_API_KEY }}
           CONTACT_MAILTO: ${{ vars.CONTACT_MAILTO }}
-          ICS_CALENDARS_ENABLED: ${{ vars.ICS_CALENDARS_ENABLED }}
-          CANVAS_ENABLED: ${{ vars.CANVAS_ENABLED }}
           RSS_MAX_FEEDS: ${{ vars.RSS_MAX_FEEDS }}
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}

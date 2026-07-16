@@ -1,16 +1,15 @@
-// The Today view: a morning brief — numeric overview strip, schedule strip,
-// due-soon course work, top stories by score, top papers, followed scholars.
-// Locked private blocks render a lock placeholder instead of leaking that
-// they're empty.
+// The Today view: a morning brief — numeric overview strip, top stories by
+// score, top papers, followed scholars. Locked private blocks render a lock
+// placeholder instead of leaking that they're empty.
 
 import { renderAnnotationsIn } from "../annotate.js";
 import { favoriteIdSet } from "../annodb.js";
 import { filterItemsForContentLang, localizedApropos, localizedInsights } from "../content_lang.js";
 import { clear, el, safeHref } from "../dom.js";
-import { fmtDate, fmtDateTime, fmtRelative, fmtTime, getLang, t } from "../i18n.js";
+import { fmtDate, fmtDateTime, fmtRelative, getLang, t } from "../i18n.js";
 import { get } from "../store.js";
 import { itemCard, itemLinkAttrs, toggleFavorite } from "./feed.js";
-import { emptyCard, lockedCard } from "./shared.js";
+import { emptyCard } from "./shared.js";
 
 function isTheType() {
   return document.documentElement.dataset.theme === "the-type";
@@ -38,56 +37,6 @@ function localDay(iso) {
   const d = new Date(iso);
   const p = (n) => String(n).padStart(2, "0");
   return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
-}
-
-function eventRow(event) {
-  return el("div", { class: "event-row" },
-    el("span", { class: "event-time" },
-      event.all_day ? t("today.allDay") : fmtTime(event.start)),
-    el("span", { class: "event-title" }, event.title),
-    event.location ? el("span", { class: "event-loc" }, event.location) : null,
-  );
-}
-
-function scheduleBlock() {
-  const section = get().sections.schedule;
-  if (!section || section.status === "not_configured") return null;
-  if (section.status === "locked") return block(t("today.schedule"), "schedule", lockedCard());
-  const events = section.payload?.events || [];
-  const todayKey = localDay(new Date().toISOString());
-  const tomorrowKey = localDay(new Date(Date.now() + 86400_000).toISOString());
-  const groups = [[t("today.today"), todayKey], [t("today.tomorrow"), tomorrowKey]]
-    .map(([label, key]) => [label, events.filter((e) => localDay(e.start) === key)]);
-  return block(t("today.schedule"), "schedule",
-    groups.map(([label, dayEvents]) =>
-      el("div", { class: "day-group" },
-        el("h3", { class: "day-label" }, label),
-        dayEvents.length
-          ? dayEvents.map(eventRow)
-          : el("p", { class: "muted" }, t("today.noEvents")),
-      )),
-  );
-}
-
-function dueSoonBlock() {
-  const section = get().sections.courses;
-  if (!section || section.status === "not_configured") return null;
-  if (section.status === "locked") return block(t("today.dueSoon"), "courses", lockedCard());
-  const horizon = Date.now() + 7 * 86400_000;
-  const due = (section.payload?.courses || [])
-    .flatMap((c) => (c.upcoming || []).map((a) => ({ ...a, course: c.code || c.name })))
-    .filter((a) => a.due_at && new Date(a.due_at).getTime() <= horizon && !a.submitted)
-    .sort((a, b) => a.due_at.localeCompare(b.due_at));
-  return block(t("today.dueSoon"), "courses",
-    due.length
-      ? due.slice(0, 6).map((a) => el("div", { class: "due-row" },
-          el("span", { class: "due-course" }, a.course),
-          el("a", { class: "due-title", href: safeHref(a.url), target: "_blank", rel: "noopener" }, a.title),
-          el("span", { class: "due-when", title: fmtDateTime(a.due_at) },
-            fmtRelative(a.due_at)),
-        ))
-      : el("p", { class: "muted" }, t("today.noDue")),
-  );
 }
 
 function storiesBlock(cardOpts) {
@@ -379,7 +328,7 @@ function renderTheType(container, favs) {
   }
 
   const cardOpts = { favs };
-  const restBlocks = [scheduleBlock(), dueSoonBlock(), papersBlock(cardOpts), followingBlock(cardOpts)]
+  const restBlocks = [papersBlock(cardOpts), followingBlock(cardOpts)]
     .filter(Boolean);
   const apropos = aproposOfNothingBlock();
   if (restBlocks.length) {
@@ -419,7 +368,7 @@ export async function render(container) {
   const strip = overviewStrip(favs ? favs.size : null);
   if (strip) container.appendChild(strip);
   const cardOpts = { favs };
-  const blocks = [scheduleBlock(), dueSoonBlock(), todaysImageBlock(),
+  const blocks = [todaysImageBlock(),
                   storiesBlock(cardOpts), papersBlock(cardOpts), followingBlock(cardOpts)]
     .filter(Boolean);
   const apropos = aproposOfNothingBlock();

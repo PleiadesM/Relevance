@@ -11,33 +11,11 @@ Variables go to the *Variables* tab on the same page.
 - Rotation: update the secret → `gh workflow run update.yml`. Old ciphertext
   remains in git history (see SECURITY_MODEL §rotation).
 
-## ICS_SOURCES_B64 (personal schedule)
-
-1. User copies `examples/ics-sources.example.json` to a **local, uncommitted**
-   file and fills in real calendar URLs:
-   - Google: *Calendar Settings → your calendar → "Secret address in iCal format"*
-   - Outlook: *Settings → Calendar → Shared calendars → Publish a calendar → ICS*
-   - Canvas: *Calendar → "Calendar feed" (bottom right)*
-2. Encode **in their own terminal**:
-   - macOS: `base64 -i ics-sources.json | tr -d '\n'`
-   - Linux: `base64 -w0 ics-sources.json`
-   - Windows PowerShell: `[Convert]::ToBase64String([IO.File]::ReadAllBytes("ics-sources.json"))`
-3. Paste the output as the secret value; delete the local file afterwards.
-4. Remind: these URLs are credentials. If one leaks, regenerate it at the
-   provider (Google: "Reset" next to the secret address).
-
-## CANVAS_BASE_URL + CANVAS_TOKEN (courses)
-
-- Base URL: the school's Canvas origin, e.g. `https://canvas.iastate.edu` (no path).
-- Token: *Canvas → Account → Settings → "+ New Access Token"*. Warn: tokens
-  grant **full account access**; suggest an expiry date and rotating each
-  semester.
-
 ## LLM_API_KEY + SMITHSONIAN_API_KEY (optional AI daily brief + Apropos-of-Nothing + Today's Image)
 
 Off by default — nothing changes until the user adds `LLM_API_KEY`. Explain
 before narrating: this is the *only* feature that sends any of the user's
-content (news/paper titles + short summaries — never schedule/courses,
+content (news/paper titles + short summaries — never private-section content,
 never the passphrase) to a third-party endpoint the user chooses, once per
 scheduled build (never per visitor). Get informed opt-in before walking
 through it.
@@ -63,7 +41,7 @@ through it.
 - `OPENALEX_API_KEY` (secret) — makes the OpenAlex fetcher reliable.
 - `FOLLOW_OPML_B64` (secret) — base64 of a private OPML file.
 - `CONTACT_MAILTO` (variable) — any email; joins CrossRef/OpenAlex polite pools.
-- `ICS_CALENDARS_ENABLED=0` / `CANVAS_ENABLED=0` (variables) — emergency stops.
+- `<UPPERCASED_SOURCE_ID>_ENABLED=0` (variable) — emergency stop for a source.
 
 ## Verify after each secret
 

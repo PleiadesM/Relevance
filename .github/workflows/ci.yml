@@ -30,9 +30,6 @@ jobs:
       - name: Smoke build (encrypted)
         env:
           NEWSDASH_PASSPHRASE: "ci smoke passphrase only"
-          ICS_SOURCES_B64: "W10="
-          CANVAS_BASE_URL: "https://canvas.example.edu"
-          CANVAS_TOKEN: "ci-dummy"
         run: python scripts/build.py --output-dir /tmp/nd-smoke-enc --smoke
 
   webcrypto:
@@ -60,15 +57,6 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v5
-      - name: No plaintext private section files
-        run: |
-          set -e
-          for name in schedule courses; do
-            if [ -f "data/${name}.json" ]; then
-              echo "::error::data/${name}.json exists as plaintext — private sections must be *.enc.json"
-              exit 1
-            fi
-          done
       - name: No token-looking strings in config
         # examples/ intentionally contains PLACEHOLDER capability-URL shapes,
         # so only config/ and feeds/ are scanned here.

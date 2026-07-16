@@ -1,10 +1,10 @@
 """Source-status accumulation with private-source redaction.
 
 The public ``source-status.json`` only details open and optional sources.
-Private sources appear there as an aggregate count; their per-calendar /
-per-course detail rides inside the encrypted section payload metas, and
-error strings for private sources are reduced to the exception class name
-(requests errors can echo capability URLs)."""
+Private sources appear there as an aggregate count; their per-item detail
+rides inside the encrypted section payload metas, and error strings for
+private sources are reduced to the exception class name (requests errors
+can echo capability URLs)."""
 
 from __future__ import annotations
 

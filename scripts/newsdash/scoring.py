@@ -2,8 +2,7 @@
 0.45·recency + 0.35·interest-keyword relevance + 0.20·source weight.
 Papers whose source reports a citation count switch to a four-part blend
 (0.35·recency + 0.25·relevance + 0.15·weight + 0.25·citation impact) so the
-best-cited work surfaces first; log-scaled, saturating around 10³ citations.
-Schedule events and course work are never scored — time orders them."""
+best-cited work surfaces first; log-scaled, saturating around 10³ citations."""
 
 from __future__ import annotations
 

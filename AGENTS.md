@@ -7,7 +7,7 @@ Working rules for coding agents (Claude Code / Codex / others) in this repo.
    then `docs/DATA_CONTRACT.md` before touching pipeline or frontend.
 2. **Safety rules (hard block)** — the full list lives in
    `skills/newsdash/SKILL.md`; the non-negotiables:
-   - no secrets, tokens, ICS URLs, or decrypted private data in commits, logs,
+   - no secrets, tokens, capability URLs, or decrypted private data in commits, logs,
      PR bodies, or issue comments (public repos have public logs);
    - no weakening of crypto params; no plaintext fallback for private sections;
    - keep the setup-from-issue owner guard and the private-source URL ban in

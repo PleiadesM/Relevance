@@ -18,29 +18,29 @@ def _roundtrip(payload, section, passphrase, iterations=FAST_ITER):
 
 def test_roundtrip():
     payload = {"a": 1, "zh": "你好", "nested": {"x": [1, 2, 3]}}
-    env = _roundtrip(payload, "schedule", "open sesame")
-    assert crypto.decrypt_json(env, "open sesame", "schedule") == payload
+    env = _roundtrip(payload, "section_a", "open sesame")
+    assert crypto.decrypt_json(env, "open sesame", "section_a") == payload
 
 
 def test_wrong_passphrase_fails():
-    env = _roundtrip({"a": 1}, "schedule", "right")
+    env = _roundtrip({"a": 1}, "section_a", "right")
     with pytest.raises(crypto.DecryptError):
-        crypto.decrypt_json(env, "wrong", "schedule")
+        crypto.decrypt_json(env, "wrong", "section_a")
 
 
 def test_section_mismatch_fails():
-    env = _roundtrip({"a": 1}, "courses", "pass")
+    env = _roundtrip({"a": 1}, "section_b", "pass")
     with pytest.raises(crypto.DecryptError):
-        crypto.decrypt_json(env, "pass", "schedule")
+        crypto.decrypt_json(env, "pass", "section_a")
 
 
 def test_tampered_ciphertext_fails():
-    env = _roundtrip({"a": 1}, "schedule", "pass")
+    env = _roundtrip({"a": 1}, "section_a", "pass")
     raw = bytearray(base64.b64decode(env["ct"]))
     raw[0] ^= 0xFF
     env["ct"] = base64.b64encode(bytes(raw)).decode()
     with pytest.raises(crypto.DecryptError):
-        crypto.decrypt_json(env, "pass", "schedule")
+        crypto.decrypt_json(env, "pass", "section_a")
 
 
 def test_nfc_normalization():

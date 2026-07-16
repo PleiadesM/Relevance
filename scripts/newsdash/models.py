@@ -63,38 +63,6 @@ class Item:
         return d
 
 
-@dataclass
-class Event:
-    """One calendar occurrence (recurrences already expanded)."""
-
-    id: str
-    calendar_id: str
-    calendar: str
-    title: str
-    start: str  # ISO-8601 with offset, or YYYY-MM-DD when all_day
-    end: str | None
-    all_day: bool
-    location: str | None = None
-    url: str | None = None
-    status: str = "confirmed"
-    recurring: bool = False
-
-    def to_dict(self) -> dict:
-        return {
-            "id": self.id,
-            "calendar_id": self.calendar_id,
-            "calendar": self.calendar,
-            "title": self.title,
-            "start": self.start,
-            "end": self.end,
-            "all_day": self.all_day,
-            "location": self.location,
-            "url": self.url,
-            "status": self.status,
-            "recurring": self.recurring,
-        }
-
-
 def iso_utc(dt: datetime) -> str:
     return dt.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 

@@ -13,9 +13,9 @@ body:
         comment back with your next steps (Pages link, secrets checklist, AI-assisted setup prompt).
         提交后机器人会更新 `config/`、触发重建，并回帖告诉你后续步骤。
 
-        > ⚠️ **Never paste secrets here** — no passphrase, calendar URLs, or Canvas tokens.
+        > ⚠️ **Never paste secrets here** — no passphrase, capability URLs, or tokens.
         > Those go in **Settings → Secrets and variables → Actions**.
-        > **切勿在此粘贴任何密钥**（口令、日历 URL、Canvas Token 都属于密钥）。
+        > **切勿在此粘贴任何密钥**（口令、凭据 URL、Token 都属于密钥）。
 
   - type: dropdown
     id: language
@@ -109,5 +109,5 @@ body:
     attributes:
       label: "Acknowledgement · 确认"
       options:
-        - label: "I understand secrets (passphrase, calendar URLs, Canvas token) go in Settings → Secrets, never in this issue. 我了解所有密钥只应配置在 Settings → Secrets，绝不写进本 Issue。"
+        - label: "I understand secrets (passphrase, capability URLs, tokens) go in Settings → Secrets, never in this issue. 我了解所有密钥只应配置在 Settings → Secrets，绝不写进本 Issue。"
           required: true

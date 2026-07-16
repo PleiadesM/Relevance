@@ -86,7 +86,7 @@ Use Page Skill for Relevance. Interview me first: which preset packs I want
 my theme and timezone, and whether the site should be public or private. Then classify
 any extra sources I give you as Open, Private, or Optional. Walk me through every
 GitHub secret step by step — but never ask me to paste a secret value into the chat,
-and never commit tokens, calendar URLs, or passphrases into the repo.
+and never commit tokens or passphrases into the repo.
 ```
 
 这个技能只会**口述** Secrets 配置——建哪个、在哪建、值怎么生成——但绝不经手值本身。Secret 是 GitHub 提供的一项功能，用来存放 LLM API Key、口令之类的敏感信息。想了解更多，[见下文说明](docs/SETUP.zh.md)。
@@ -109,9 +109,6 @@ and never commit tokens, calendar URLs, or passphrases into the repo.
 | Secret | 开启 | 备注 |
 |---|---|---|
 | `NEWSDASH_PASSPHRASE` | 全部加密 | 至少 4 个随机单词。轮换 = 改 Secret + 重跑（旧密文仍留在 git 历史里） |
-| `ICS_SOURCES_B64` | `schedule` 栏目 | JSON 数组 `[{id,name,url}]` 的 base64——见 `examples/ics-sources.example.json`。编码：macOS `base64 -i ics-sources.json \| tr -d '\n'`；Linux `base64 -w0 ics-sources.json` |
-| `CANVAS_BASE_URL` | `courses` 栏目 | 如 `https://canvas.iastate.edu` |
-| `CANVAS_TOKEN` | `courses` 栏目 | Canvas → Account → Settings → **+ New Access Token**。Token 是全账户权限——每学期轮换 |
 | `OPENALEX_API_KEY` | 可选 | OpenAlex 现在大多拒绝免密钥请求；无 Key 时该信源尽力而为 |
 | `FOLLOW_OPML_B64` | 可选 | 兼容雷达的私人 OPML，构建时解码到 `feeds/follow.opml` |
 | `LLM_API_KEY` | 可选——AI 每日简报 + 无关一则 | 你自己的 OpenAI Chat Completions 兼容端点 Key（OpenAI、OpenRouter、Groq、Together、自建服务等）。默认关闭，见下文 |
@@ -122,7 +119,6 @@ and never commit tokens, calendar URLs, or passphrases into the repo.
 | Variable | 用途 |
 |---|---|
 | `CONTACT_MAILTO` | 加入 CrossRef/OpenAlex 的礼貌池（更好的限速待遇） |
-| `ICS_CALENDARS_ENABLED` / `CANVAS_ENABLED` | 设为 `0` 即急停该信源 |
 | `RSS_MAX_FEEDS` | OPML 展开的订阅数上限（默认 10） |
 | `LLM_BASE_URL` / `LLM_MODEL` | AI 增强功能的端点与模型（默认：`https://api.openai.com/v1`、`gpt-4o-mini`） |
 | `LLM_SUMMARY_ENABLED` / `TODAYS_IMAGE_ENABLED` / `APROPOS_OF_NOTHING_ENABLED` | 设为 `0` 即可急停对应 AI 功能，同时保留 Key |
@@ -131,14 +127,14 @@ and never commit tokens, calendar URLs, or passphrases into the repo.
 
 ### 可选 AI 增强功能
 
-默认关闭，仅在服务端运行（用你自己的 Key，绝非访客提供的 Key），且有预算控制：只随定时构建（约每 2 小时一次）运行，绝不按访客次数调用。配置 `LLM_API_KEY` 后，今日页面会出现 AI 撰写的每日简报、「头条」「优选论文」栏目各一行摘要，以及「无关一则」卡片：一条刻意偏离当前信息流的公开新闻，附 AI 短摘要与来源链接。再配置 `SMITHSONIAN_API_KEY`，就会出现「今日一图」栏目：从 [Smithsonian Open Access API](https://www.si.edu/openaccess) 中挑选一张与当日内容有松散、创意关联的公共领域图片，附一句 AI 生成的说明与来源链接。只有 Smithsonian 明确标注 `CC0` 的图片才会被展示。此功能只读取你的 `news`/`papers` 条目的标题与短摘要——绝不涉及日程、课程、口令或全文正文。完整字段说明见 [CONFIG_REFERENCE.md](docs/CONFIG_REFERENCE.zh.md)。
+默认关闭，仅在服务端运行（用你自己的 Key，绝非访客提供的 Key），且有预算控制：只随定时构建（约每 2 小时一次）运行，绝不按访客次数调用。配置 `LLM_API_KEY` 后，今日页面会出现 AI 撰写的每日简报、「头条」「优选论文」栏目各一行摘要，以及「无关一则」卡片：一条刻意偏离当前信息流的公开新闻，附 AI 短摘要与来源链接。再配置 `SMITHSONIAN_API_KEY`，就会出现「今日一图」栏目：从 [Smithsonian Open Access API](https://www.si.edu/openaccess) 中挑选一张与当日内容有松散、创意关联的公共领域图片，附一句 AI 生成的说明与来源链接。只有 Smithsonian 明确标注 `CC0` 的图片才会被展示。此功能只读取你的 `news`/`papers` 条目的标题与短摘要——绝不涉及口令或全文正文。完整字段说明见 [CONFIG_REFERENCE.md](docs/CONFIG_REFERENCE.zh.md)。
 
 其余一切都是 `config/` 下的纯 JSON——`site.json`（标题、可见性、主题、时区、时间窗口）与 `sources.json`（信源包、兴趣、信源），全部由 JSON Schema 校验。Schema **禁止**在 `category: "private"` 的信源上写 `url`/`path`——凭据 URL 从结构上就进不了仓库。
 
 ## 隐私与安全
 
 - **私密模式是口令加密，不是访问控制。** 流水线用 AES-256-GCM 加密；密钥由 NFC 规范化后的口令经 PBKDF2-HMAC-SHA256（16 字节盐、600 000 次迭代）派生；浏览器用 WebCrypto 解密。`visibility: "public"` 时公开/可选栏目保持明文、私密栏目永远加密；`visibility: "private"` 时全站加密、页面直接进入口令门。
-- **密钥永不触碰仓库。** 日历凭据 URL 和 Canvas Token 只存在于 GitHub Secrets；Actions 日志不打印私密栏目的条数、标题与错误细节；`source-status.json` 把私密信源折叠成一行汇总。
+- **密钥永不触碰仓库。** 凭据只存在于 GitHub Secrets；Actions 日志不打印私密栏目的条数、标题与错误细节；`source-status.json` 把私密信源折叠成一行汇总。
 - **密文是公开的，所以口令承担全部重量。** 弱口令可被离线爆破——请用至少 4 个随机单词。元数据（文件大小、更新节奏、配置了哪些栏目）仍会泄露，我们如实写明而不是假装没有。
 
 > **私密站点是一个加密的公开站点——而不是一个私有仓库。** 免费版 GitHub Pages 永远可被公网访问。
@@ -153,7 +149,7 @@ flowchart LR
 
     classify --> open["公开：RSS / OPML / feed-JSON / 静态页面"]
     classify --> optional["可选：arXiv / OpenAlex / CrossRef / Semantic Scholar"]
-    classify --> private["私密：ICS 日历 / Canvas（仅 Secrets）"]
+    classify --> private["私密：仅 Secrets 的信源"]
 
     open --> pipeline["抓取、归一化、去重、评分"]
     optional --> pipeline
@@ -169,7 +165,7 @@ flowchart LR
     pages --> unlock["浏览器输入口令 = 登录：解密 + 批注"]
 ```
 
-每个信源独立抓取——单个信源失败不会拖垮整次构建。条目先按规范化 URL（剥离 UTM）去重，论文按 DOI 优先，再按标题指纹兜底。评分公式：`0.45 · 新鲜度（指数衰减，新闻半衰期 12 小时 / 论文 84 小时）+ 0.35 · 兴趣关键词相关度 + 0.20 · 信源权重`。日程与课程从不评分——按时间排列。`manifest.json` 最后写入，是前端的原子提交点。
+每个信源独立抓取——单个信源失败不会拖垮整次构建。条目先按规范化 URL（剥离 UTM）去重，论文按 DOI 优先，再按标题指纹兜底。评分公式：`0.45 · 新鲜度（指数衰减，新闻半衰期 12 小时 / 论文 84 小时）+ 0.35 · 兴趣关键词相关度 + 0.20 · 信源权重`。`manifest.json` 最后写入，是前端的原子提交点。
 
 ## 数据产物
 
@@ -180,8 +176,6 @@ flowchart LR
 | `manifest.json` | 发现入口：站点配置、栏目清单、口令校验块、用于破缓存的 `build_id` | **永远明文** |
 | `news.json` | 公开新闻，24 小时窗口，已去重评分 | `visibility: "public"` 时明文；私密模式加密 |
 | `papers.json` | 学术条目，7 天窗口，含作者/期刊/DOI | 公开时明文；私密模式加密 |
-| `schedule.enc.json` | 日历事件，RRULE 已按你的时区展开 | **永远加密** |
-| `courses.enc.json` | Canvas 公告 + 待交作业（含提交状态） | **永远加密** |
 | `source-status.json` | 各信源抓取健康度；私密信源只显示汇总，细节在加密载荷内 | 公开时明文；私密模式加密 |
 | `archive.json` | 公开 + 可选条目的 14 天滚动归档（上限 3000 条） | 公开时明文；私密模式加密 |
 

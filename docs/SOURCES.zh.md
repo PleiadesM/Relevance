@@ -58,8 +58,6 @@
 
 **OpenAlex**——2026 年改积分制后，只有配 `OPENALEX_API_KEY` 才稳定；免密钥时尽力而为（被限流就是 0 条）。**Semantic Scholar**——共享免密钥池、经常 429；设计上就是尽力而为。两者都不会搞垮你的构建。
 
-**ICS / Canvas**——私密；配置里只有 `secret_ref`。默认 `config/sources.json` 已把两个条目接到 `ICS_SOURCES_B64` 和 `CANVAS_BASE_URL`+`CANVAS_TOKEN` 上；Secrets 一到位即自动开启。配方见 [SETUP.zh.md 第 6–7 步](SETUP.zh.md)。
-
 ## 4. 选源之道（伯乐家法）
 
 1. 优先级：官方 feed → 公开生成的 feed → OPML → 定向静态抓取 → **不如不加**。

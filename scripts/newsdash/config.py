@@ -30,13 +30,10 @@ class ConfigError(Exception):
 
 URL_TYPES = {"rss", "opml", "feed-json", "static-page"}
 QUERY_TYPES = {"arxiv", "openalex", "semanticscholar"}
-SECRET_TYPES = {"ics", "canvas"}
-SOURCE_TYPES = URL_TYPES | QUERY_TYPES | SECRET_TYPES | {"crossref"}
+SOURCE_TYPES = URL_TYPES | QUERY_TYPES | {"crossref"}
 
 # Category a source falls into when the config does not say.
 DEFAULT_CATEGORY_BY_TYPE = {
-    "ics": "private",
-    "canvas": "private",
     "arxiv": "optional",
     "openalex": "optional",
     "crossref": "optional",
@@ -50,8 +47,6 @@ SECTION_KINDS = {
     "news": "news",
     "papers": "papers",
     "following": "papers",
-    "schedule": "schedule",
-    "courses": "courses",
 }
 
 
@@ -59,9 +54,6 @@ SECTION_KINDS = {
 class Windows:
     news_hours: int = 24
     papers_days: int = 7
-    schedule_past_days: int = 1
-    schedule_horizon_days: int = 14
-    courses_horizon_days: int = 30
     archive_days: int = 14
 
 

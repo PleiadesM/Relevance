@@ -15,8 +15,6 @@ what's wrong.
 | Update frequency | every 2 h (`17 */2 * * *`) | `update.yml` cron line |
 | News window | 24 h | `site.json → windows.news_hours` |
 | Papers window | 7 days | `windows.papers_days` |
-| Schedule window | −1 d … +14 d | `windows.schedule_past_days` / `schedule_horizon_days` |
-| Courses horizon | 30 days | `windows.courses_horizon_days` |
 | Archive retention | 14 days (cap 3000 items) | `windows.archive_days` |
 | Presets on | `ai-news`, `general-news` | `sources.json → presets` |
 | Theme / language | `the-type` / `en` | `site.json` |
@@ -27,11 +25,11 @@ what's wrong.
 | Key | Values | Effect |
 |---|---|---|
 | `title`, `subtitle` | strings | Masthead text + `<title>` |
-| `visibility` | `"public"` \| `"private"` | **public**: news/papers plaintext, schedule/courses always encrypted. **private**: *every* file encrypted; site boots to a passphrase gate; build **fails** if `NEWSDASH_PASSPHRASE` is missing |
+| `visibility` | `"public"` \| `"private"` | **public**: news/papers plaintext, any private sections always encrypted. **private**: *every* file encrypted; site boots to a passphrase gate; build **fails** if `NEWSDASH_PASSPHRASE` is missing |
 | `languages` | subset of `["en","zh"]` | Offered UI languages |
 | `default_language` | `"en"` \| `"zh"` | Chrome and content language before the visitor toggles |
 | `theme` | `"the-type"` \| `"nyt"` \| `"bear"` | Default theme (visitors can switch; their choice persists per browser) |
-| `timezone` | IANA name | Schedule windowing + event offsets (display uses the *viewer's* clock) |
+| `timezone` | IANA name | Day/window boundaries (display uses the *viewer's* clock) |
 | `windows.*` | integers | See overview table; schema enforces sane ranges |
 
 ## 3. `config/sources.json`
@@ -56,8 +54,7 @@ recency decays exponentially (half-life 12 h news / 84 h papers). Papers whose
 source reports a citation count use
 `0.35·recency + 0.25·relevance + 0.15·weight + 0.25·citation-impact` instead
 (log-scaled, saturating ≈1000 citations) so the best-cited work ranks first —
-the frontend's "Top priority" sort and the Today page use this. Events and
-courses are never scored — they stay time-ordered.
+the frontend's "Top priority" sort and the Today page use this.
 
 **Override a preset source by id** — same `id` merges field-by-field:
 
@@ -69,7 +66,7 @@ courses are never scored — they stay time-ordered.
 **`enabled`**: `true` (always) · `false` (off) · `"auto"` (on iff every env
 var named in `secret_ref` is set — key present ⇒ on). Emergency stop for any
 source without touching config: set the GitHub *Variable*
-`<UPPERCASED_SOURCE_ID>_ENABLED=0` (e.g. `CANVAS_ENABLED=0`).
+`<UPPERCASED_SOURCE_ID>_ENABLED=0` (e.g. `HN_FRONTPAGE_AI_ENABLED=0`).
 
 ## 4. Source types
 
@@ -83,11 +80,9 @@ source without touching config: set the GitHub *Variable*
 | `openalex` | optional | `query` and/or `filter` | reliable only with `OPENALEX_API_KEY` |
 | `crossref` | optional | `issn` list or `query` | journal tracking; created-date recency |
 | `semanticscholar` | optional | `query` | best-effort keyless |
-| `ics` | private | `secret_ref` | URLs live in `ICS_SOURCES_B64` — **never** in config |
-| `canvas` | private | `secret_ref` | `CANVAS_BASE_URL` + `CANVAS_TOKEN` |
 
 Common fields: `id` (snake_case, unique), `name`, `section`
-(`news`/`papers`/`following`/`schedule`/`courses`), `weight` (0–1, default
+(`news`/`papers`/`following`), `weight` (0–1, default
 0.8), `max_results` (default 50), `lang` (`"zh"`/`"en"` forces the items'
 language; omit to auto-detect per item). The active UI language also filters
 visible news/research content: English mode shows only English items, and
@@ -146,7 +141,7 @@ api.data.gov API, Smithsonian included.
 
 Hard guarantees:
 
-- Reads only your `news`/`papers` items — **never** schedule or courses.
+- Reads only your `news`/`papers` items.
 - Apropos-of-Nothing sends only news/papers titles and short summaries to the
   configured LLM, then searches public news through GDELT; visitor browsers
   never contact either service for that card.
@@ -196,8 +191,6 @@ never fires on a BBC story.
 | Name | Kind | Needed by |
 |---|---|---|
 | `NEWSDASH_PASSPHRASE` | Secret | any encryption (private sections; everything when `visibility:"private"`) |
-| `ICS_SOURCES_B64` | Secret | `ics` sources |
-| `CANVAS_BASE_URL`, `CANVAS_TOKEN` | Secret | `canvas` source |
 | `OPENALEX_API_KEY` | Secret | reliable `openalex` |
 | `FOLLOW_OPML_B64` | Secret | private OPML |
 | `LLM_API_KEY` | Secret | AI daily brief + per-section summaries + Apropos-of-Nothing (§4a) |
@@ -224,7 +217,7 @@ never fires on a BBC story.
 | Boost my topics | `interests.keywords` (+ `boost`) |
 | Turn on AI enrichment | Secret `LLM_API_KEY` (§4a) |
 | Add Today's Image | Secret `SMITHSONIAN_API_KEY` (+ `LLM_API_KEY`) (§4a) |
-| Stop Canvas *now* | Variable `CANVAS_ENABLED=0` |
+| Stop one source *now* | Variable `<UPPERCASED_SOURCE_ID>_ENABLED=0` |
 | Different theme/language default | `site.json → theme` / `default_language` |
 | Rename the site | `site.json → title` |
 

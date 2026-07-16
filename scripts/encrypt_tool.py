@@ -7,8 +7,8 @@ and process listings. Decryption prints to stdout only — never write
 decrypted private data into the repo or CI logs.
 
 Subcommands:
-    encrypt      --in payload.json --section schedule [--out out.enc.json]
-    decrypt      --in schedule.enc.json [--section schedule]
+    encrypt      --in payload.json --section news [--out out.enc.json]
+    decrypt      --in news.enc.json [--section news]
     make-vector  [--out tests/fixtures/crypto-vector.json]
 """
 

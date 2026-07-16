@@ -37,7 +37,7 @@ def test_full_form_applies(issue_repo):
     sources = read_json(issue_repo / "config" / "sources.json")
     assert sources["presets"] == ["ai-news", "academic-datavis", "academic-techcomm"]
     ids = [s["id"] for s in sources["sources"]]
-    assert "ics_calendars" in ids and "canvas" in ids  # private entries preserved
+    assert "feifei_li_substack" in ids  # non-custom entries preserved
     customs = [s for s in sources["sources"] if s["id"].startswith("custom_rss_")]
     assert len(customs) == 2
     assert {c["url"] for c in customs} == {

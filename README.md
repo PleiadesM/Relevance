@@ -86,7 +86,7 @@ Use Page Skill for Relevance. Interview me first: which preset packs I want
 my theme and timezone, and whether the site should be public or private. Then classify
 any extra sources I give you as Open, Private, or Optional. Walk me through every
 GitHub secret step by step — but never ask me to paste a secret value into the chat,
-and never commit tokens, calendar URLs, or passphrases into the repo.
+and never commit tokens or passphrases into the repo.
 ```
 
 The skill **narrates** secrets setup — which secret to create, where, and how to encode it — but never touches the values themselves. A secret is a GitHub function that stores sensitive information like LLM API keys and passphrases. To know more, [see the instructions below](docs/SETUP.md).
@@ -108,9 +108,6 @@ The skill **narrates** secrets setup — which secret to create, where, and how 
 | Secret | Unlocks | Notes |
 |---|---|---|
 | `NEWSDASH_PASSPHRASE` | All encryption | Use ≥4 random words. Rotation = change secret + re-run (old ciphertext stays in git history) |
-| `ICS_SOURCES_B64` | `schedule` section | Base64 of a JSON array `[{id,name,url}]` — see `examples/ics-sources.example.json`. Encode: `base64 -i ics-sources.json \| tr -d '\n'` (macOS) / `base64 -w0 ics-sources.json` (Linux) |
-| `CANVAS_BASE_URL` | `courses` section | e.g. `https://canvas.iastate.edu` |
-| `CANVAS_TOKEN` | `courses` section | Canvas → Account → Settings → **+ New Access Token**. Tokens are full-account — rotate each semester |
 | `OPENALEX_API_KEY` | Optional | OpenAlex now rejects most keyless requests; without a key that fetcher is best-effort |
 | `FOLLOW_OPML_B64` | Optional | Your radar-compatible OPML, decoded to `feeds/follow.opml` at build time |
 | `LLM_API_KEY` | Optional — AI daily brief + Apropos-of-Nothing | Your own key for an OpenAI-Chat-Completions-compatible endpoint (OpenAI, OpenRouter, Groq, Together, self-hosted, …). Off by default; see below |
@@ -121,7 +118,6 @@ The skill **narrates** secrets setup — which secret to create, where, and how 
 | Variable | Purpose |
 |---|---|
 | `CONTACT_MAILTO` | Joins the CrossRef/OpenAlex polite pools (better rate limits) |
-| `ICS_CALENDARS_ENABLED` / `CANVAS_ENABLED` | Set `0` for an emergency stop of that source |
 | `RSS_MAX_FEEDS` | Cap on OPML feeds (default 10) |
 | `LLM_BASE_URL` / `LLM_MODEL` | Endpoint + model for AI enrichment (defaults: `https://api.openai.com/v1`, `gpt-4o-mini`) |
 | `LLM_SUMMARY_ENABLED` / `TODAYS_IMAGE_ENABLED` / `APROPOS_OF_NOTHING_ENABLED` | Set `0` for an emergency stop of an AI feature, keeping the key |
@@ -130,14 +126,14 @@ Policy line, worth memorizing: **keys live in Secrets; tuning lives in config fi
 
 ### Optional AI enrichment
 
-Off by default, server-side only (your own key, never a visitor-supplied one), and budget-gated per scheduled build (every ~2h), never per visitor. Add `LLM_API_KEY` to get an AI-written daily brief, one-line summaries on the Today page's "Top stories" and "Top papers" blocks, and an **Apropos-of-Nothing** card that links to one intentionally off-profile public-news item. Add `SMITHSONIAN_API_KEY` too and a **Today's Image** block appears: a public-domain image from the [Smithsonian Open Access API](https://www.si.edu/openaccess), loosely and creatively matched to the day's content, with a one-sentence AI caption and a source link. Only images explicitly marked `CC0` by the Smithsonian are ever shown. The enrichment reads only your `news`/`papers` item titles and short summaries — never schedule, courses, passphrases, or full-text article bodies. See [CONFIG_REFERENCE.md](docs/CONFIG_REFERENCE.md) for the full contract.
+Off by default, server-side only (your own key, never a visitor-supplied one), and budget-gated per scheduled build (every ~2h), never per visitor. Add `LLM_API_KEY` to get an AI-written daily brief, one-line summaries on the Today page's "Top stories" and "Top papers" blocks, and an **Apropos-of-Nothing** card that links to one intentionally off-profile public-news item. Add `SMITHSONIAN_API_KEY` too and a **Today's Image** block appears: a public-domain image from the [Smithsonian Open Access API](https://www.si.edu/openaccess), loosely and creatively matched to the day's content, with a one-sentence AI caption and a source link. Only images explicitly marked `CC0` by the Smithsonian are ever shown. The enrichment reads only your `news`/`papers` item titles and short summaries — never passphrases or full-text article bodies. See [CONFIG_REFERENCE.md](docs/CONFIG_REFERENCE.md) for the full contract.
 
 Everything else is plain JSON under `config/` — `site.json` (title, visibility, theme, timezone, time windows) and `sources.json` (presets, interests, sources), both JSON-Schema validated. The schema **forbids** `url`/`path` on `category: "private"` sources, so a capability URL can never leak into the repo by config mistake.
 
 ## Privacy and security
 
 - **Private mode is passphrase encryption, not access control.** The pipeline encrypts with AES-256-GCM; the key is PBKDF2-HMAC-SHA256 over your NFC-normalized passphrase (16-byte salt, 600 000 iterations); your browser decrypts via WebCrypto. `visibility: "public"` keeps open + optional sections plaintext while private sections are always encrypted; `visibility: "private"` encrypts everything and boots the site to a passphrase gate.
-- **Secrets never touch the repo.** Calendar capability URLs and Canvas tokens live only in GitHub Secrets; Actions logs withhold private-section counts, titles, and error detail; `source-status.json` redacts private sources down to an aggregate.
+- **Secrets never touch the repo.** Capability URLs and tokens for private sources live only in GitHub Secrets; Actions logs withhold private-section counts, titles, and error detail; `source-status.json` redacts private sources down to an aggregate.
 - **The ciphertext is public, so the passphrase carries the load.** Weak passphrases can be brute-forced offline — use at least 4 random words. Metadata (file sizes, update cadence, which sections you configured) still leaks and is documented, not hidden.
 
 > **A private site is an encrypted public site — not a private repo.** GitHub Pages is always publicly reachable on free plans.
@@ -152,7 +148,7 @@ flowchart LR
 
     classify --> open["Open: RSS / OPML / feed-JSON / static pages"]
     classify --> optional["Optional: arXiv / OpenAlex / CrossRef / Semantic Scholar"]
-    classify --> private["Private: ICS calendars / Canvas (Secrets only)"]
+    classify --> private["Private: Secrets-only sources"]
 
     open --> pipeline["Fetch, normalize, dedupe, score"]
     optional --> pipeline
@@ -168,7 +164,7 @@ flowchart LR
     pages --> unlock["Passphrase in browser = login: decrypt + annotations"]
 ```
 
-Each source is fetched in isolation — one failure never kills the build. Items are deduped by canonical URL (UTM stripped), DOI-first for papers, then title fingerprint. Scoring is `0.45 · recency (exponential decay, 12 h half-life for news / 84 h for papers) + 0.35 · interest-keyword relevance + 0.20 · source weight`. Events and courses are never scored — they stay time-ordered. `manifest.json` is written last as the frontend's atomic commit point.
+Each source is fetched in isolation — one failure never kills the build. Items are deduped by canonical URL (UTM stripped), DOI-first for papers, then title fingerprint. Scoring is `0.45 · recency (exponential decay, 12 h half-life for news / 84 h for papers) + 0.35 · interest-keyword relevance + 0.20 · source weight`. `manifest.json` is written last as the frontend's atomic commit point.
 
 ## Data outputs
 
@@ -179,8 +175,6 @@ Every run regenerates a set of static JSON files under `data/` — the page read
 | `manifest.json` | Discovery: site config, section list, crypto check block, `build_id` for cache busting | **Always plaintext** |
 | `news.json` | Open news items, 24 h window, deduped and scored | Plaintext when `visibility: "public"`; encrypted in private mode |
 | `papers.json` | Optional scholarly items, 7-day window, authors/venue/DOI | Plaintext when public; encrypted in private mode |
-| `schedule.enc.json` | Calendar events, RRULE-expanded in your timezone | **Always encrypted** |
-| `courses.enc.json` | Canvas announcements + upcoming assignments with submission state | **Always encrypted** |
 | `source-status.json` | Per-source fetch health; private sources appear only as an aggregate — their detail rides inside the encrypted payloads | Plaintext when public; encrypted in private mode |
 | `archive.json` | Rolling 14-day archive of open + optional items (cap 3000) | Plaintext when public; encrypted in private mode |
 

@@ -32,4 +32,4 @@ _No response_
 
 ### Acknowledgement · 确认
 
-- [x] I understand secrets (passphrase, calendar URLs, Canvas token) go in Settings → Secrets, never in this issue. 我了解所有密钥只应配置在 Settings → Secrets，绝不写进本 Issue。
+- [x] I understand secrets (passphrase, capability URLs, tokens) go in Settings → Secrets, never in this issue. 我了解所有密钥只应配置在 Settings → Secrets，绝不写进本 Issue。

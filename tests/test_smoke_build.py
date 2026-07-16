@@ -73,8 +73,7 @@ def rss_with_full_text(url="https://a.example/story"):
 
 
 def test_smoke_zero_secret(tmp_path, monkeypatch, repo_root):
-    for var in ("NEWSDASH_PASSPHRASE", "ICS_SOURCES_B64", "CANVAS_BASE_URL",
-                "CANVAS_TOKEN", "LLM_API_KEY", "SMITHSONIAN_API_KEY"):
+    for var in ("NEWSDASH_PASSPHRASE", "LLM_API_KEY", "SMITHSONIAN_API_KEY"):
         monkeypatch.delenv(var, raising=False)
     out = tmp_path / "data"
     build_mod.main(["--output-dir", str(out), "--smoke"])
@@ -87,10 +86,6 @@ def test_smoke_zero_secret(tmp_path, monkeypatch, repo_root):
     by_id = {s["id"]: s for s in manifest["sections"]}
     assert by_id["news"]["file"] == "news.json"
     assert by_id["news"]["encrypted"] is False
-    assert by_id["schedule"]["status"] == "not_configured"
-    assert by_id["schedule"]["file"] is None
-    assert not (out / "schedule.enc.json").exists()
-    assert not (out / "schedule.json").exists()
 
     news = read(out / "news.json")
     assert news["items"] == []
@@ -115,26 +110,28 @@ def test_smoke_never_calls_llm_or_smithsonian_even_with_keys_set(tmp_path, monke
     assert not (out / "insights.enc.json").exists()
 
 
-def test_smoke_with_private_secrets(tmp_path, monkeypatch):
+def test_smoke_with_private_secrets(tmp_path, monkeypatch, make_repo):
     monkeypatch.setenv("NEWSDASH_PASSPHRASE", "correct horse battery staple")
-    monkeypatch.setenv("ICS_SOURCES_B64", "W10=")
-    monkeypatch.setenv("CANVAS_BASE_URL", "https://canvas.example.edu")
-    monkeypatch.setenv("CANVAS_TOKEN", "dummy")
+    monkeypatch.setenv("PRIVATE_FEED_TOKEN", "dummy")
+    root = make_repo(sources={"schema_version": 1, "presets": [], "sources": [
+        {"id": "private_papers", "category": "private", "type": "openalex",
+         "section": "research", "name": "Private", "query": "cat:cs.HC",
+         "secret_ref": ["PRIVATE_FEED_TOKEN"], "enabled": "auto"},
+    ]})
     out = tmp_path / "data"
-    build_mod.main(["--output-dir", str(out), "--smoke"])
+    build_mod.main(["--output-dir", str(out), "--smoke", "--repo-root", str(root)])
 
     manifest = read(out / "manifest.json")
     assert manifest["crypto"]["kdf"]["iterations"] == crypto.PBKDF2_ITERATIONS
     by_id = {s["id"]: s for s in manifest["sections"]}
-    assert by_id["schedule"]["file"] == "schedule.enc.json"
-    assert by_id["schedule"]["encrypted"] is True
-    assert "count" not in by_id["schedule"]
-    assert not (out / "schedule.json").exists(), "plaintext private file must never exist"
-    assert not (out / "courses.json").exists()
+    assert by_id["research"]["file"] == "research.enc.json"
+    assert by_id["research"]["encrypted"] is True
+    assert "count" not in by_id["research"]
+    assert not (out / "research.json").exists(), "plaintext private file must never exist"
 
-    env = read(out / "schedule.enc.json")
-    payload = crypto.decrypt_json(env, "correct horse battery staple", "schedule")
-    assert payload["events"] == []
+    env = read(out / "research.enc.json")
+    payload = crypto.decrypt_json(env, "correct horse battery staple", "research")
+    assert payload["items"] == []
 
     check = manifest["crypto"]["check"]
     full = {"v": 1, "alg": crypto.ALG, "kdf": manifest["crypto"]["kdf"], **check}

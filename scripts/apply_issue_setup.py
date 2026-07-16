@@ -248,21 +248,11 @@ def success_comment(summary: dict, warnings: list[str], repo: str) -> str:
         ]
         step += 1
     lines += [
-        f"{step}. **Personal schedule (optional)** — add `ICS_SOURCES_B64` "
-        f"([add secret](https://github.com/{repo}/settings/secrets/actions/new)): "
-        "copy `examples/ics-sources.example.json`, fill in your calendar ICS URLs "
-        "(Google: *Settings → Secret address in iCal format*; Outlook: *Publish calendar*; "
-        "Canvas: *Calendar → Calendar feed*), then in your own terminal: "
-        "`base64 -i ics-sources.json | tr -d '\\n'` and paste the output as the secret value. "
-        "Also add `NEWSDASH_PASSPHRASE` if you haven't — private sections require it.",
-        f"{step + 1}. **Canvas courses (optional)** — add `CANVAS_BASE_URL` "
-        "(e.g. `https://canvas.youruniversity.edu`) and `CANVAS_TOKEN` "
-        "(Canvas → Account → Settings → *+ New Access Token*).",
-        f"{step + 2}. **Or let AI walk you through it** — open this repo in Claude Code / Codex and paste: "
+        f"{step}. **Or let AI walk you through it** — open this repo in Claude Code / Codex and paste: "
         "更推荐让 AI 带你配置——在 Claude Code 里粘贴：",
         "",
-        "   > Use the Page Skill (书童Skill) in this repo. Interview me about my news sources, "
-        "academic fields, calendars, and Canvas; update config/ for me; then guide me through "
+        "   > Use the Page Skill (书童Skill) in this repo. Interview me about my news sources "
+        "and academic fields; update config/ for me; then guide me through "
         "adding each GitHub Secret myself. Never ask me to paste secret values into chat, and "
         "never commit URLs that contain tokens.",
         "",
