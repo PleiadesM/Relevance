@@ -1,28 +1,28 @@
 {
- "brief": "US military actions escalate against Iran while domestic political divides deepen over Israel aid and a World Cup controversy erupts. Research advances explore multimodal emotion, graph databases, and human-AI teaming.",
+ "brief": "Escalating US-Iran military strikes include disabling an oil tanker in the Strait of Hormuz, while domestic US news covers wildfires, Texas floods, and new tariffs on Brazil. Academic research highlights generative AI adoption in public agencies and the integration of bots into open-source software teams.",
  "meta": {
-  "generated_at": "2026-07-15T23:11:02Z"
+  "generated_at": "2026-07-16T03:34:17Z"
  },
- "news_summary": "US warships blockaded Iranian ports and launched fresh strikes as Trump warned Tehran; Argentina's World Cup celebration with a Falklands banner sparked criticism, while over 100 House Democrats voted to end military aid to Israel.",
- "papers_summary": "Papers present new systems for cross-domain emotion analysis (CD-MED), graph database visualization (GraphPolaris), and platforms for human-AI teaming experiments (TRAIL), alongside studies on misinformation in low-resource languages and AI-assisted writing.",
+ "news_summary": "The US military launched fresh strikes on Iran and disabled an oil tanker attempting to breach a blockade, as Trump warned Tehran to 'better behave.' Meanwhile, an Iranian-American woman was released from custody in Iran, the Trump administration imposed new tariffs on Brazil, and wildfires and flash floods affected parts of the US.",
+ "papers_summary": "Research on generative AI adoption in a state department of transportation reveals how employee acceptance evolves, while another study examines how bot adoption affects the institutional fabric of open-source projects. Additional papers cover multimodal interaction analysis and health misinformation detection in low-resource languages.",
  "summaries": {
   "en": {
-   "brief": "US military actions escalate against Iran while domestic political divides deepen over Israel aid and a World Cup controversy erupts. Research advances explore multimodal emotion, graph databases, and human-AI teaming.",
-   "news_summary": "US warships blockaded Iranian ports and launched fresh strikes as Trump warned Tehran; Argentina's World Cup celebration with a Falklands banner sparked criticism, while over 100 House Democrats voted to end military aid to Israel.",
-   "papers_summary": "Papers present new systems for cross-domain emotion analysis (CD-MED), graph database visualization (GraphPolaris), and platforms for human-AI teaming experiments (TRAIL), alongside studies on misinformation in low-resource languages and AI-assisted writing."
+   "brief": "Escalating US-Iran military strikes include disabling an oil tanker in the Strait of Hormuz, while domestic US news covers wildfires, Texas floods, and new tariffs on Brazil. Academic research highlights generative AI adoption in public agencies and the integration of bots into open-source software teams.",
+   "news_summary": "The US military launched fresh strikes on Iran and disabled an oil tanker attempting to breach a blockade, as Trump warned Tehran to 'better behave.' Meanwhile, an Iranian-American woman was released from custody in Iran, the Trump administration imposed new tariffs on Brazil, and wildfires and flash floods affected parts of the US.",
+   "papers_summary": "Research on generative AI adoption in a state department of transportation reveals how employee acceptance evolves, while another study examines how bot adoption affects the institutional fabric of open-source projects. Additional papers cover multimodal interaction analysis and health misinformation detection in low-resource languages."
   },
   "zh": {
-   "brief": "今日中国焦点包括香港国安法下独立书店被查、地震学家被拘、经济增速放缓至4.3%，以及阿根廷队因福克兰群岛横幅面临处罚。国际方面，美国对伊朗实施海上封锁，AI泡沫论文引发讨论。",
-   "news_summary": "香港国安处搜查两家独立书店并逮捕五人，涉嫌出售煽动刊物；地震学家陈友麟因间谍罪被拘近两年；中国二季度GDP增速降至4.3%创2022年底以来新低；阿根廷队因展示福克兰群岛主权横幅面临国际足联处罚。",
-   "papers_summary": "今日无华语论文，但英文研究涉及多模态情感描述、图数据库可视化工具及AI助理在跨学科科学中的应用，同时一篇MIT论文探讨AI泡沫与投机增长。"
+   "brief": "皮尤研究显示全球对中国的正面看法首次超过美国，香港突击搜查独立书店并逮捕五人，中国经济增速放缓至4.3%；科学领域关注女性四色视觉和ADHD与月经周期关联；英文论文则涉及AI在公共部门的采纳和多模态群体交互研究。",
+   "news_summary": "皮尤调查显示全球对华好感度首次超越美国；香港警方以涉嫌出售煽动性书籍为由搜查两家独立书店并逮捕五人；中国二季度GDP增速降至4.3%，为2022年底以来最低；此外，蒋方舟论文造假、芬太尼毒枭“王哥”案、女性四色视觉等话题也引发关注。",
+   "papers_summary": "无优先中文论文；英文论文包括生成式AI在州交通局的纵向采纳研究、基于谓词逻辑的多变量图可视化分析、以及多模态群体语言交互语料库等。"
   }
  },
  "todays_image": {
-  "caption": "Like the Tyrannosaurus rex defending its territory, the U.S. military's blockade of Iranian ports reasserts dominance after a fragile truce collapses.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3767225037e1e43faad6bd4010644fb57",
-  "source_name": "NMNH - Paleobiology Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3e09b29ad-36bd-4e85-88e8-f6ac46ffefc4",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3767225037e1e43faad6bd4010644fb57/90",
-  "title": "Tyrannosaurus rex Osborn, 1905"
+  "caption": "Like the Lobophora sp. algae, which can break free from its anchor to drift in the open ocean, the Iranian American woman was released from the confines of detention.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3a20dbcaf-62f6-4dd2-b936-69074b28dad5",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7/90",
+  "title": "Lobophora sp."
  }
 }
