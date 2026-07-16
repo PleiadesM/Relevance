@@ -1,28 +1,28 @@
 {
- "brief": "Texas faces severe flooding with dozens rescued, Ukraine protests erupt over defense minister sacking, and US strikes expand in the Middle East, while studies on academic networking and AI adoption in public agencies are published.",
+ "brief": "Escalating Middle East tensions and Canadian wildfires dominate headlines, while UK and Ukraine see political shake-ups. Research explores AI adoption in public agencies and health misinformation in low-resource languages.",
  "meta": {
-  "generated_at": "2026-07-16T10:20:45Z"
+  "generated_at": "2026-07-16T14:19:32Z"
  },
- "news_summary": "Heavy rains in Texas lead to widespread flooding and rescues; Ukraine sees mass protests after President Zelenskyy removes defense minister Mykhailo Fedorov; US expands strikes to northern Iran amid regional tensions; Pentagon plans to screen all troops for low testosterone; TSMC announces $100 billion additional investment in US operations.",
- "papers_summary": "A study examines how academics in precarious positions build networks for publishing, while another tracks generative AI adoption in a state Department of Transportation. Research also focuses on health misinformation in low-resource languages like Bangla.",
+ "news_summary": "Canadian wildfires worsen US air quality as Trump meets new senator; Gaza recovery plan scaled down; Ukraine defense minister's ousting sparks protests. Hong Kong raids independent bookstores, and diesel prices hit $5 amid Gulf tensions.",
+ "papers_summary": "Studies examine generative AI adoption in state transportation agencies and health misinformation detection in Bangla. Other research maps academic networking in precarious transitions and bots in open-source projects.",
  "summaries": {
   "en": {
-   "brief": "Texas faces severe flooding with dozens rescued, Ukraine protests erupt over defense minister sacking, and US strikes expand in the Middle East, while studies on academic networking and AI adoption in public agencies are published.",
-   "news_summary": "Heavy rains in Texas lead to widespread flooding and rescues; Ukraine sees mass protests after President Zelenskyy removes defense minister Mykhailo Fedorov; US expands strikes to northern Iran amid regional tensions; Pentagon plans to screen all troops for low testosterone; TSMC announces $100 billion additional investment in US operations.",
-   "papers_summary": "A study examines how academics in precarious positions build networks for publishing, while another tracks generative AI adoption in a state Department of Transportation. Research also focuses on health misinformation in low-resource languages like Bangla."
+   "brief": "Escalating Middle East tensions and Canadian wildfires dominate headlines, while UK and Ukraine see political shake-ups. Research explores AI adoption in public agencies and health misinformation in low-resource languages.",
+   "news_summary": "Canadian wildfires worsen US air quality as Trump meets new senator; Gaza recovery plan scaled down; Ukraine defense minister's ousting sparks protests. Hong Kong raids independent bookstores, and diesel prices hit $5 amid Gulf tensions.",
+   "papers_summary": "Studies examine generative AI adoption in state transportation agencies and health misinformation detection in Bangla. Other research maps academic networking in precarious transitions and bots in open-source projects."
   },
   "zh": {
-   "brief": "今日多條中國及全球新聞交織：LV與茉莉奶白商標案引發社交媒體審判、泰國曼谷大火暴露安全漏洞、阿根廷球員因福克蘭群島橫幅面臨處分；皮尤調查顯示全球對中國好感度首超美國。學術界關注AI採用與社交網絡研究，論文涉及虛擬助手、健康錯誤信息等。",
-   "news_summary": "重點新聞包括LV訴茉莉奶白案後的網絡審判、曼谷酒吧大火原因剖析、阿根廷國旗橫幅事件、皮尤全球好感度調查、台灣白色恐怖檔案探索、蔣方舟學術造假爭議、女性第四種視錐細胞、香港國安搜查書店、地震學家陳友麟被拘留、大陸讀者與香港書店回憶、世界盃補水暫停與進球關聯、以及芬太尼毒梟張智棟案。此外，美國德州洪水、烏克蘭國防部長被解職引發抗議、伊朗局勢等國際新聞亦值得關注。",
-   "papers_summary": "論文方面，研究探討學術流動與網絡構建、L2學生寫作定位模式、AI採用中的角色遷移、多變量圖可視化、開源項目中機器人採用、多模態情緒描述、圖數據庫查詢系統、跨學科AI研究助手及低資源語言健康錯誤信息檢測。"
+   "brief": "今日全球新闻涵盖中国国际形象提升、霍尔木兹海峡替代路线争议、泰国曼谷酒吧大火反思、香港国安法再引关注等热点。学术研究关注生成式AI采用、开源社区机器人协作及低资源语言健康信息鉴别。",
+   "news_summary": "皮尤调查显示全球对华好感首次超越美国；曼谷酒吧大火暴露泰国法规漏洞；香港国安搜查独立书店引争议。此外，乌克兰国防部长被撤职引发抗议，加拿大野火影响美国空气质量。",
+   "papers_summary": "研究指出生成式AI在政府部门的采纳面临期望调整挑战；一项论文提出基于谓词逻辑的多变量图可视化分析工具ZipLine。"
   }
  },
  "todays_image": {
-  "caption": "Just as a 19th-century patent model envisioned a lifeboat for rescue, today's Texas flood rescues rely on modern lifeboats to save dozens from raging waters.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-2009-5587",
-  "source_name": "National Museum of American History",
-  "source_url": null,
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-2009-5587&max=150",
-  "title": "Patent Model, Life Boat"
+  "caption": "The brown algae *Lobophora* sp. creates floating mats that disrupt ecosystems, much like Trump's meeting with Darline Graham might stir political currents in the White House.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3a20dbcaf-62f6-4dd2-b936-69074b28dad5",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7/90",
+  "title": "Lobophora sp."
  }
 }
