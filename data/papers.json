@@ -2,6 +2,121 @@
  "items": [
   {
    "authors": [
+    "Qiuya Jing",
+    "Yingying Liu"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "As ChatGPT is increasingly used in second language (L2) writing practice and research, its potential to provide feedback and revision has attracted much scholarly attention. However, it remains largely unknown whether and how ChatGPT revision can influence rhetorical move-steps. This study investigates the effects of ChatGPT revision on rhetorical move-steps in English personal statements (PSs) written by L2 English undergraduate students, using a combination of corpus data and stimulated…",
+    "citations": 0,
+    "doi": "10.1177/07410883261461562"
+   },
+   "id": "96b4422cdd406e27",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-17T07:45:03Z",
+   "score": 0.6275,
+   "section": "papers",
+   "source": "TechComm journals (CrossRef)",
+   "source_id": "crossref_techcomm_journals",
+   "summary": "As ChatGPT is increasingly used in second language (L2) writing practice and research, its potential to provide feedback and revision has attracted much scholarly attention. However, it remains largely unknown whether and how ChatGPT revision can influence rhetorical move-steps. This study…",
+   "tags": [
+    "ai-writing",
+    "llm",
+    "techcomm"
+   ],
+   "title": "“It Tends to Remove Things I Originally Wanted to Emphasize”: Effects of ChatGPT Revision on Rhetorical Move-Steps in Personal Statements",
+   "url": "https://doi.org/10.1177/07410883261461562",
+   "venue": "Written Communication"
+  },
+  {
+   "authors": [
+    "Mojtaba Sayyad Mahernia"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Studies on the writing process through the analysis of pauses, highlight a link between content formulation and linguistic units. From a text linguistics perspective, particularly Systemic Functional Linguistics (SFL), this relationship becomes even more apparent. This study investigates the location and duration of pauses in relation to syntagmatic units and their functional roles using an SFL-based framework, answering: (1) In what syntagmatic and functional contexts do pauses occur during…",
+    "citations": 0,
+    "doi": "10.1177/07410883261461550"
+   },
+   "id": "43624525f600d68a",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-17T07:42:02Z",
+   "score": 0.4898,
+   "section": "papers",
+   "source": "TechComm journals (CrossRef)",
+   "source_id": "crossref_techcomm_journals",
+   "summary": "Studies on the writing process through the analysis of pauses, highlight a link between content formulation and linguistic units. From a text linguistics perspective, particularly Systemic Functional Linguistics (SFL), this relationship becomes even more apparent. This study investigates the…",
+   "tags": [
+    "techcomm"
+   ],
+   "title": "Syntagmatic and Functional Context of Pauses During Writing: A Hallidayan Perspective",
+   "url": "https://doi.org/10.1177/07410883261461550",
+   "venue": "Written Communication"
+  },
+  {
+   "authors": [
+    "Patrick Phuoc Do",
+    "Chau M. Ta",
+    "Chaoli Wang"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Multimodal large language models (MLLMs) are increasingly used to interpret visualizations, yet current evaluations remain largely chart-centric and provide limited evidence of understanding of scientific visualization (SciVis). We benchmark six MLLMs on the scientific visualization literacy assessment test, a standardized SciVis literacy assessment comprising 49 items based on 18 scientific visualizations and illustrations, spanning 8 techniques and 11 task types. We evaluate three…",
+    "arxiv_id": "2607.15176"
+   },
+   "id": "9710cdbe3ca6a288",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-16T16:29:34Z",
+   "score": 0.8971,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Multimodal large language models (MLLMs) are increasingly used to interpret visualizations, yet current evaluations remain largely chart-centric and provide limited evidence of understanding of scientific visualization (SciVis). We benchmark six MLLMs on the scientific visualization literacy…",
+   "tags": [
+    "eval-study",
+    "ml-vis",
+    "llm",
+    "visualization"
+   ],
+   "title": "Benchmarking Multimodal Large Language Models for Scientific Visualization Literacy",
+   "url": "https://arxiv.org/abs/2607.15176v1",
+   "venue": "arXiv cs.AI"
+  },
+  {
+   "authors": [
+    "Junhao Zhao",
+    "Romain Vuillemot",
+    "Petra Isenberg",
+    "Lijie Yao"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "We investigate how to support authoring narrative visualizations in motion in sports videos, drawing on automated data preparation, systematic analysis, technology probe design, and evaluation, using swimming races as a case study. Sports videos are widely broadcast and shared across social media, where content creators increasingly seek to present and explain complex events to general audiences. Visualization in motion has been explored as an efficient way to embed data into videos and to move…",
+    "arxiv_id": "2607.14924"
+   },
+   "id": "4f267f925a8b53c6",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-16T12:41:10Z",
+   "score": 0.5484,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "We investigate how to support authoring narrative visualizations in motion in sports videos, drawing on automated data preparation, systematic analysis, technology probe design, and evaluation, using swimming races as a case study. Sports videos are widely broadcast and shared across social media,…",
+   "tags": [
+    "eval-study",
+    "systems",
+    "visualization"
+   ],
+   "title": "Authoring Narrative Visualization in Motion: Visual Storytelling in Swimming Videos",
+   "url": "https://arxiv.org/abs/2607.14924v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
     "Baraa Khuder",
     "Bojana Petrić"
    ],
@@ -15,7 +130,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-16T06:30:56Z",
-   "score": 0.4133,
+   "score": 0.4018,
    "section": "papers",
    "source": "TechComm journals (CrossRef)",
    "source_id": "crossref_techcomm_journals",
@@ -42,7 +157,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-16T06:28:36Z",
-   "score": 0.4132,
+   "score": 0.4017,
    "section": "papers",
    "source": "TechComm journals (CrossRef)",
    "source_id": "crossref_techcomm_journals",
@@ -54,22 +169,218 @@
    "title": "Positioning Patterns and L2 Students’ Genre Performance in Source-Based Argumentative Writing",
    "url": "https://doi.org/10.1177/07410883261461558",
    "venue": "Written Communication"
+  },
+  {
+   "authors": [
+    "Samuel Reinders",
+    "Munazza Zaib",
+    "Bongshin Lee",
+    "Ingrid Zukerman",
+    "Matthew Butler",
+    "Thien Autran"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Combining refreshable tactile displays (RTDs) with conversational AI offers a promising approach to accessible data visualization for people who are blind or have low vision (BLV). However, it remains an open question how these modalities should be integrated to support accessible data experiences. We address this through a co-design process with three BLV co-designers. Building on our prior Wizard-of-Oz study, we created a conversational tactile data interface (CTDI) that combines an RTD with…",
+    "arxiv_id": "2607.14588"
+   },
+   "id": "9f98b035345be13f",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-16T05:34:04Z",
+   "score": 0.8526,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Combining refreshable tactile displays (RTDs) with conversational AI offers a promising approach to accessible data visualization for people who are blind or have low vision (BLV). However, it remains an open question how these modalities should be integrated to support accessible data experiences.…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Conversational Tactile Data Interfaces: Co-Designing Accessible Data Experiences with Blind Users Using Refreshable Tactile Displays and Conversational AI",
+   "url": "https://arxiv.org/abs/2607.14588v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Frank Elavsky",
+    "Chieri Nnadozie",
+    "Lucas Nadolskis",
+    "Patrick Carrington",
+    "Dominik Moritz"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "When sighted practitioners author accessible data visualizations, they build navigation structures (the nodes, edges, and input bindings that govern how assistive technologies traverse an interface) entirely in code, with no visual representation. Without a representation to react to, practitioners cannot develop judgment about what makes navigation good or bad, and the quality ceiling of non-visual experiences is set by the absence of a feedback loop. We address this problem through…",
+    "arxiv_id": "2607.14579"
+   },
+   "id": "f9380ad5cfb310fe",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-16T05:16:17Z",
+   "score": 0.7115,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "When sighted practitioners author accessible data visualizations, they build navigation structures (the nodes, edges, and input bindings that govern how assistive technologies traverse an interface) entirely in code, with no visual representation. Without a representation to react to, practitioners…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Skeleton: Visual Authoring of Non-visual Data Experiences",
+   "url": "https://arxiv.org/abs/2607.14579v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Omidreza Shoghli",
+    "Fatemeh Banani Ardecani",
+    "Amin Mohamadi Hezaveh"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Generative AI tools are increasingly being piloted in public agencies, but limited evidence explains how employee acceptance changes after hands-on use. This study examines Microsoft 365 Copilot adoption during an eight-week pilot at a state Department of Transportation. A matched two-wave survey measured perceived usefulness, perceived ease of use, behavioral intention, and trust before and after participation. After matching and response-quality screening, the sample included 124 employees.…",
+    "arxiv_id": "2607.13798"
+   },
+   "id": "aa77733d70a5c793",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-15T13:02:55Z",
+   "score": 0.6555,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Generative AI tools are increasingly being piloted in public agencies, but limited evidence explains how employee acceptance changes after hands-on use. This study examines Microsoft 365 Copilot adoption during an eight-week pilot at a state Department of Transportation. A matched two-wave survey…",
+   "tags": [],
+   "title": "Persona Migration and Expectation Recalibration in Generative AI Adoption: A Longitudinal Study at a State Department of Transportation",
+   "url": "https://arxiv.org/abs/2607.13798v1",
+   "venue": "arXiv cs.CY"
+  },
+  {
+   "authors": [
+    "Sjoerd Vink",
+    "Suyang Li",
+    "Brian Montambault",
+    "Michael Behrisch",
+    "Mingwei Li",
+    "Remco Chang"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Multivariate graphs unite two distinct data perspectives: a topological structure defined by nodes and edges, and attribute data associated with each node. Analyzing such graphs therefore requires reasoning across two complementary spaces. However, existing systems typically emphasize the analysis of one space at a time, focusing either on topology or on attributes. As a result, exploration, analysis, and pattern discovery that depend on their interaction remain difficult. In this paper, we…",
+    "arxiv_id": "2607.13767"
+   },
+   "id": "6fc4b858c5b8fbc1",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-15T12:29:02Z",
+   "score": 0.4612,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Multivariate graphs unite two distinct data perspectives: a topological structure defined by nodes and edges, and attribute data associated with each node. Analyzing such graphs therefore requires reasoning across two complementary spaces. However, existing systems typically emphasize the analysis…",
+   "tags": [
+    "systems",
+    "visualization"
+   ],
+   "title": "ZipLine: Visual Analysis of Multivariate Graphs with Predicate Logic",
+   "url": "https://arxiv.org/abs/2607.13767v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Michael Correll",
+    "Lucy Havens",
+    "Mahsan Nourani"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "The persuasive power of data visualizations can go awry: for instance, in an explainable AI (XAI) context, visualizations can produce over-trust of predictive models. In this paper, we use a crowdsourced study to show that providing accurate (but superfluous or irrelevant) data in a model explanation can, in fact, result in unjustified trust and other positive beliefs about a model, even when the model is patently discriminatory and unfair. Our results suggest that XAI designers and developers…",
+    "arxiv_id": "2607.14152"
+   },
+   "id": "5a5616ab94f843a2",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-14T17:48:35Z",
+   "score": 0.7416,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "The persuasive power of data visualizations can go awry: for instance, in an explainable AI (XAI) context, visualizations can produce over-trust of predictive models. In this paper, we use a crowdsourced study to show that providing accurate (but superfluous or irrelevant) data in a model…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "\"Trust Junk\" Leads to Unjustified Support for Highly Discriminatory Predictive Models",
+   "url": "https://arxiv.org/abs/2607.14152v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Elnara Kadyrgali",
+    "Muragul Muratbekova",
+    "Pakizar Shamoi"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Digital objects express emotions through different modalities. For example, a movie may include visual scenes, audio, dialogue, and facial expressions, while a song may contain melody, rhythm, lyrics, and vocal tone. Because existing emotion recognition models are usually modality-specific, it is difficult to compare such objects directly. This paper proposes CD-MED, a Cross-Domain Multimodal Emotion Descriptor for representing heterogeneous digital objects in a common emotional space. Each…",
+    "arxiv_id": "2607.12958"
+   },
+   "id": "a14369f258faa43f",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-14T16:54:51Z",
+   "score": 0.5994,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Digital objects express emotions through different modalities. For example, a movie may include visual scenes, audio, dialogue, and facial expressions, while a song may contain melody, rhythm, lyrics, and vocal tone. Because existing emotion recognition models are usually modality-specific, it is…",
+   "tags": [],
+   "title": "CD-MED: Cross-Domain Multimodal Emotion Descriptor for Visual Comparison of Digital Objects",
+   "url": "https://arxiv.org/abs/2607.12958v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Michael Behrisch",
+    "Sjoerd Vink",
+    "Leonardo Christino",
+    "Remco Chang"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Graph databases are increasingly adopted as alternatives to tabular, aggregation-focused data models used in business intelligence (BI) systems such as Tableau, Power BI, and Looker. They capture complex relationships between entities, processes, and events, enabling analysis of information propagation in networks. As a result, graph analysis is central to applications such as fraud detection, social influence analysis, and supply chain resilience. Despite these advantages, existing tools do…",
+    "arxiv_id": "2607.12845"
+   },
+   "id": "ab5f9f23f347de4e",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-14T14:59:39Z",
+   "score": 0.4022,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Graph databases are increasingly adopted as alternatives to tabular, aggregation-focused data models used in business intelligence (BI) systems such as Tableau, Power BI, and Looker. They capture complex relationships between entities, processes, and events, enabling analysis of information…",
+   "tags": [
+    "systems",
+    "visualization"
+   ],
+   "title": "GraphPolaris: A System for Query, Analysis, and Visualization of Graph Databases",
+   "url": "https://arxiv.org/abs/2607.12845v1",
+   "venue": "arXiv cs.HC"
   }
  ],
  "meta": {
-  "count": 2,
-  "generated_at": "2026-07-17T06:25:54Z",
+  "count": 13,
+  "generated_at": "2026-07-17T10:10:32Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
    {
     "category": "optional",
-    "count": 0,
-    "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60",
+    "count": 9,
+    "error": null,
     "full_text_count": 0,
     "id": "arxiv_datavis",
     "name": "arXiv cs.HC + cs.GR",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
@@ -100,7 +411,7 @@
    },
    {
     "category": "optional",
-    "count": 11,
+    "count": 13,
     "error": null,
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
@@ -125,7 +436,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC&sortBy=submittedDate&sortOrder=descending&max_results=40",
+    "error": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC&sortBy=submittedDate&sortOrder=descending&max_results=40 (Caused by ReadTimeo",
     "full_text_count": 0,
     "id": "arxiv_hci_writing",
     "name": "arXiv cs.HC (writing & docs)",
