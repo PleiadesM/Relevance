@@ -4,28 +4,28 @@
  },
  "app": "personal-newsdash",
  "app_version": "0.1.0",
- "build_id": "20260717T153745Z",
+ "build_id": "20260717T172903Z",
  "crypto": {
   "alg": "AES-256-GCM",
   "check": {
    "aad": "newsdash:v1:check",
-   "ct": "g+owjB2G5ItoTLTS2A5clACkdX59U4qKtrMO",
-   "nonce": "hh70LDY4BoCBID8R"
+   "ct": "er6G/nafepA24SrkKKXnWiqkGpVCSwmCmPlO",
+   "nonce": "gNO7UZSuh5sOyEAO"
   },
   "kdf": {
    "hash": "SHA-256",
    "iterations": 600000,
    "name": "PBKDF2",
-   "salt": "RelSux6yaZS8ndifcUka8g=="
+   "salt": "6Wj8fCylR8LSNCSR2KVleA=="
   }
  },
- "generated_at": "2026-07-17T15:37:45Z",
+ "generated_at": "2026-07-17T17:29:03Z",
  "insights_file": "insights.json",
  "schema_version": 1,
  "sections": [
   {
    "category": "open",
-   "count": 139,
+   "count": 122,
    "encrypted": false,
    "file": "news.json",
    "id": "news",

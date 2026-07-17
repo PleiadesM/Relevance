@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-17T15:37:45Z",
+ "generated_at": "2026-07-17T17:29:03Z",
  "private_summary": {
   "configured": 0,
   "total": 2
@@ -103,7 +103,7 @@
   },
   {
    "category": "open",
-   "count": 7,
+   "count": 6,
    "error": null,
    "full_text_count": 0,
    "id": "hn_frontpage_ai",
@@ -151,7 +151,7 @@
   },
   {
    "category": "open",
-   "count": 32,
+   "count": 26,
    "error": null,
    "full_text_count": 0,
    "id": "nyt_homepage",
@@ -187,7 +187,7 @@
   },
   {
    "category": "optional",
-   "count": 50,
+   "count": 0,
    "error": null,
    "full_text_count": 0,
    "id": "openalex_datavis",
@@ -223,7 +223,7 @@
   },
   {
    "category": "optional",
-   "count": 40,
+   "count": 0,
    "error": null,
    "full_text_count": 0,
    "id": "openalex_techcomm",
