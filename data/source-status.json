@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-17T10:10:32Z",
+ "generated_at": "2026-07-17T11:38:56Z",
  "private_summary": {
   "configured": 0,
   "total": 2
@@ -151,7 +151,7 @@
   },
   {
    "category": "open",
-   "count": 25,
+   "count": 28,
    "error": null,
    "full_text_count": 0,
    "id": "nyt_homepage",
@@ -163,7 +163,7 @@
   },
   {
    "category": "open",
-   "count": 44,
+   "count": 43,
    "error": null,
    "full_text_count": 0,
    "id": "bbc_zhongwen",
@@ -211,7 +211,7 @@
   },
   {
    "category": "optional",
-   "count": 13,
+   "count": 15,
    "error": null,
    "full_text_count": 0,
    "id": "crossref_techcomm_journals",
@@ -235,12 +235,12 @@
   },
   {
    "category": "optional",
-   "count": 0,
-   "error": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC&sortBy=submittedDate&sortOrder=descending&max_results=40 (Caused by ReadTimeo",
+   "count": 13,
+   "error": null,
    "full_text_count": 0,
    "id": "arxiv_hci_writing",
    "name": "arXiv cs.HC (writing & docs)",
-   "ok": false,
+   "ok": true,
    "section": "papers",
    "skip_reason": null,
    "type": "arxiv"

@@ -1,28 +1,28 @@
 {
- "brief": "Today's news spans Trump's election interference claims, a deadly school bus crash in Uganda, and escalating Middle East conflict, while research explores AI's role in writing and data visualization.",
+ "brief": "Trump's unsubstantiated election fraud claims and US-Iran military escalation dominate headlines, while new research explores the interplay of writing and drawing in children's compositions and the bias of AI detection tools against autistic writers.",
  "meta": {
-  "generated_at": "2026-07-17T10:10:32Z"
+  "generated_at": "2026-07-17T11:38:56Z"
  },
- "news_summary": "Trump alleges China meddled in the 2020 election, contrasting with US intelligence; a school bus crash in Uganda kills at least 20; the US and Iran exchange strikes amid Strait of Hormuz tensions.",
- "papers_summary": "Studies examine ChatGPT's impact on personal statements, multimodal LLMs for visualization literacy, and authoring accessible data experiences, highlighting AI's influence on writing and communication.",
+ "news_summary": "President Trump delivered a primetime speech alleging Chinese interference in the 2020 election without new evidence, as US-Iran strikes intensify and Texas flooding leaves at least two dead. Andy Burnham becomes leader of the UK Labour Party.",
+ "papers_summary": "Studies examine children's multimodal writing combining drawing and text, the impact of ChatGPT revision on personal statements, and the misclassification of autistic writing as AI-generated, alongside benchmarks for multimodal LLMs in scientific visualization.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans Trump's election interference claims, a deadly school bus crash in Uganda, and escalating Middle East conflict, while research explores AI's role in writing and data visualization.",
-   "news_summary": "Trump alleges China meddled in the 2020 election, contrasting with US intelligence; a school bus crash in Uganda kills at least 20; the US and Iran exchange strikes amid Strait of Hormuz tensions.",
-   "papers_summary": "Studies examine ChatGPT's impact on personal statements, multimodal LLMs for visualization literacy, and authoring accessible data experiences, highlighting AI's influence on writing and communication."
+   "brief": "Trump's unsubstantiated election fraud claims and US-Iran military escalation dominate headlines, while new research explores the interplay of writing and drawing in children's compositions and the bias of AI detection tools against autistic writers.",
+   "news_summary": "President Trump delivered a primetime speech alleging Chinese interference in the 2020 election without new evidence, as US-Iran strikes intensify and Texas flooding leaves at least two dead. Andy Burnham becomes leader of the UK Labour Party.",
+   "papers_summary": "Studies examine children's multimodal writing combining drawing and text, the impact of ChatGPT revision on personal statements, and the misclassification of autistic writing as AI-generated, alongside benchmarks for multimodal LLMs in scientific visualization."
   },
   "zh": {
-   "brief": "Xi Jinping prioritizes open-source AI at World AI Conference; etomidate drug crisis spreads in East Asia; Nolan's 'The Odyssey' premieres with IMAX innovation; Trump revives election interference claims. Research explores ChatGPT's writing effects and multimodal LLM visualization.",
-   "news_summary": "President Xi Jinping attends World AI Conference for the first time, emphasizing open-source strategy amid US competition. Etomidate-based e-cigarettes cause youth health crisis across East Asia. Christopher Nolan's 'The Odyssey' premieres as first all-IMAX film. Trump alleges China meddled in 2020 election, contradicting US intelligence.",
-   "papers_summary": "Studies examine ChatGPT's effects on rhetorical moves in L2 writing and benchmark multimodal LLMs for scientific visualization literacy, while other research maps academic networking in precarious transitions."
+   "brief": "今日重點：香港禁書清單持續擴大，英國新首相貝安德成謎，習近平首現AI大會強調開源，依托咪酯毒品在東亞蔓延，特朗普再提選舉舞弊指控。",
+   "news_summary": "港區國安法後書籍頻遭下架；英國新首相貝安德背景神秘；LV訴茉莉奶白案引發輿論審判；習近平出席世界AI大會，力推開源戰略；依托咪酯電子煙毒品在青少年中擴散；特朗普收緊學生簽證、指控中國干預選舉。",
+   "papers_summary": "今日無重點論文。"
   }
  },
  "todays_image": {
-  "caption": "The brown algae Lobophora sp. can overgrow and disrupt coral ecosystems, much like China rejects Trump’s claims of interference in U.S. politics.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3a20dbcaf-62f6-4dd2-b936-69074b28dad5",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7/90",
-  "title": "Lobophora sp."
+  "caption": "The tanker's camouflage hides its true intentions, much like unproven claims of foreign interference obscure underlying concerns about election integrity.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-FA9FF020C6222-000001",
+  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/131054",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-FA9FF020C6222-000001",
+  "title": "Starboard Side and Details of 5075 Tanker, Showing Camouflage"
  }
 }
