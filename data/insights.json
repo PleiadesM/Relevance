@@ -1,28 +1,28 @@
 {
- "brief": "Today's news spans US political tensions, natural disasters, and international conflicts, while research papers explore AI adoption, misinformation, and academic writing.",
+ "brief": "Trump's prime-time address on election security, Canada wildfires causing air quality alerts across US cities, and a Cyclospora outbreak linked to Taco Bell lettuce dominate today's news. Research explores causal analysis of urban driving data, the misclassification of autistic writing as AI-generated, and accessible data interfaces for blind users.",
  "meta": {
-  "generated_at": "2026-07-16T23:09:25Z"
+  "generated_at": "2026-07-17T03:34:32Z"
  },
- "news_summary": "Major US news includes Trump's upcoming address, a Florida candidate arrested for threatening him, and deadly Texas floods, alongside Canadian wildfire smoke affecting air quality and ongoing Iran conflict.",
- "papers_summary": "Research covers academic networking, L2 writing, AI adoption in public agencies, graph visualization, and health misinformation in low-resource languages, with a focus on tools and linguistic analysis.",
+ "news_summary": "Trump delivered a primetime speech making unverified claims about election meddling, while Canada wildfires blanket major US cities with smoke. A Cyclospora outbreak traced to Taylor Farms lettuce sent to Taco Bell, and US strikes hit Iran as tensions escalate over the Strait of Hormuz.",
+ "papers_summary": "Papers on arXiv cover exploratory causal analysis of urban driving data, benchmarking multimodal LLMs for scientific visualization, and the misclassification of autistic writing as AI-generated. Studies also address academic networking in precarious transitions and co-designing accessible tactile data interfaces.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans US political tensions, natural disasters, and international conflicts, while research papers explore AI adoption, misinformation, and academic writing.",
-   "news_summary": "Major US news includes Trump's upcoming address, a Florida candidate arrested for threatening him, and deadly Texas floods, alongside Canadian wildfire smoke affecting air quality and ongoing Iran conflict.",
-   "papers_summary": "Research covers academic networking, L2 writing, AI adoption in public agencies, graph visualization, and health misinformation in low-resource languages, with a focus on tools and linguistic analysis."
+   "brief": "Trump's prime-time address on election security, Canada wildfires causing air quality alerts across US cities, and a Cyclospora outbreak linked to Taco Bell lettuce dominate today's news. Research explores causal analysis of urban driving data, the misclassification of autistic writing as AI-generated, and accessible data interfaces for blind users.",
+   "news_summary": "Trump delivered a primetime speech making unverified claims about election meddling, while Canada wildfires blanket major US cities with smoke. A Cyclospora outbreak traced to Taylor Farms lettuce sent to Taco Bell, and US strikes hit Iran as tensions escalate over the Strait of Hormuz.",
+   "papers_summary": "Papers on arXiv cover exploratory causal analysis of urban driving data, benchmarking multimodal LLMs for scientific visualization, and the misclassification of autistic writing as AI-generated. Studies also address academic networking in precarious transitions and co-designing accessible tactile data interfaces."
   },
   "zh": {
-   "brief": "今日新闻聚焦白宫雇员利用特朗普演说内幕下注、全球对华好感度变化、霍尔木兹海峡替代路线争议、曼谷大火及台湾白色恐怖等事件。学术方面关注学术网络流动与生成式AI采用等研究。",
-   "news_summary": "重点新闻包括特朗普演说内幕交易、中国国际形象上升、霍尔木兹海峡战略重要性、曼谷酒吧火灾、福克兰群岛争议、台湾政治档案解密以及蒋方舟论文风波等。",
-   "papers_summary": "今日无优先论文，相关研究涉及学术网络转型、健康错误信息检测、生成式AI采用等。"
+   "brief": "今日重点：诺兰执导的《奥德赛》上映，白宫职员利用特朗普演讲内幕下注获利，皮尤调查显示全球对华好感度首次超越美国，霍尔木兹海峡紧张局势升级。研究方面关注AI文本检测对自闭症写作的误判及人机协作抛接球技术。",
+   "news_summary": "中文新闻聚焦诺兰史诗电影《奥德赛》，白宫读稿机操作员涉内幕交易，皮尤报告称更多国家对中国好感胜于美国，以及霍尔木兹海峡替代路线探讨、LV诉茉莉奶白案、曼谷火灾反复发生、阿根廷因福克兰群岛横幅遭FIFA处罚。",
+   "papers_summary": "英文研究揭示AI生成文本检测模型对自闭症写作的偏见，探索人机抛接球规划，并介绍游泳视频中叙事可视化的自动生成方法。"
   }
  },
  "todays_image": {
-  "caption": "Like the floating marsh marigold \"Caltha natans\" drifts without reproach, the Blue Angels' close beach flyby went unpunished.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m36fcfe22774654ef28a115a2adda9e5ac",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3b130e1fd-fbb3-4ca9-ba8c-4598770d7a01",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m36fcfe22774654ef28a115a2adda9e5ac/90",
-  "title": "Caltha natans Pall."
+  "caption": "Like binoculars focusing on Friendship 7, the Cyclospora outbreak zoomed in on a hidden contamination in Taco Bell's lettuce.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19670199000_PS01",
+  "source_name": "National Air and Space Museum",
+  "source_url": "http://n2t.net/ark:/65665/nv908238acb-2fa3-43f1-90df-caf0069ddd20",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19670199000_PS01",
+  "title": "Binoculars, Friendship 7"
  }
 }

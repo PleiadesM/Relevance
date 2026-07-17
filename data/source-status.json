@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-16T23:09:25Z",
+ "generated_at": "2026-07-17T03:34:32Z",
  "private_summary": {
   "configured": 0,
   "total": 2
@@ -103,7 +103,7 @@
   },
   {
    "category": "open",
-   "count": 8,
+   "count": 6,
    "error": null,
    "full_text_count": 0,
    "id": "hn_frontpage_ai",
@@ -175,7 +175,7 @@
   },
   {
    "category": "optional",
-   "count": 6,
+   "count": 9,
    "error": null,
    "full_text_count": 0,
    "id": "arxiv_datavis",
@@ -235,7 +235,7 @@
   },
   {
    "category": "optional",
-   "count": 12,
+   "count": 13,
    "error": null,
    "full_text_count": 0,
    "id": "arxiv_hci_writing",
