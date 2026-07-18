@@ -4,28 +4,28 @@
  },
  "app": "personal-newsdash",
  "app_version": "0.1.0",
- "build_id": "20260718T171306Z",
+ "build_id": "20260718T192326Z",
  "crypto": {
   "alg": "AES-256-GCM",
   "check": {
    "aad": "newsdash:v1:check",
-   "ct": "Lmb79k3ZlAjFet4iWQxezeM3YVW19L2SmvS/",
-   "nonce": "JBm7KqkVJCnf3EEe"
+   "ct": "vwVdEKQ3caRvrBOCLwfY7xJtqJtaFsnRVTe3",
+   "nonce": "yGoGZ39L2TtBIkUj"
   },
   "kdf": {
    "hash": "SHA-256",
    "iterations": 600000,
    "name": "PBKDF2",
-   "salt": "Uc0D9dwQDnzRxEuV00bTVA=="
+   "salt": "BWv0B1vfUHr9WxpLKzoORA=="
   }
  },
- "generated_at": "2026-07-18T17:13:06Z",
+ "generated_at": "2026-07-18T19:23:26Z",
  "insights_file": "insights.json",
  "schema_version": 1,
  "sections": [
   {
    "category": "open",
-   "count": 83,
+   "count": 81,
    "encrypted": false,
    "file": "news.json",
    "id": "news",
@@ -40,22 +40,6 @@
    "id": "papers",
    "kind": "papers",
    "status": "ok"
-  },
-  {
-   "category": "private",
-   "encrypted": true,
-   "file": null,
-   "id": "schedule",
-   "kind": "schedule",
-   "status": "not_configured"
-  },
-  {
-   "category": "private",
-   "encrypted": true,
-   "file": null,
-   "id": "courses",
-   "kind": "courses",
-   "status": "not_configured"
   }
  ],
  "site": {
