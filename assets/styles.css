@@ -548,6 +548,10 @@ a.stat-tile:hover .stat-num { color: var(--accent); }
 .seg button.active { background: var(--fg); color: var(--bg); }
 .seg button.active:hover { color: var(--bg); }
 
+.tabs { display: flex; gap: 1.1rem; border-bottom: 1px solid var(--rule); margin: 0.4rem 0 1.1rem; }
+.tabs a { padding: 0.3rem 0.05rem; color: var(--fg-muted); text-decoration: none; border-bottom: 2px solid transparent; margin-bottom: -1px; }
+.tabs a.active { color: var(--fg); border-bottom-color: var(--accent); }
+
 .tag-row { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: var(--space); }
 .tag-chip {
   font-family: var(--font-meta);

@@ -16,8 +16,6 @@
     "papers": "Papers",
     "following": "Following",
     "clippings": "Clippings",
-    "favorites": "Favorites",
-    "sources": "Sources",
     "settings": "Settings"
   },
   "onboarding": {
@@ -121,6 +119,7 @@
     "highlights": "Highlights",
     "excerpts": "Excerpts",
     "notes": "Notes",
+    "tabs": { "favorites": "Favorites", "notes": "Notes" },
     "export": "Export Markdown",
     "delete": "Delete",
     "editNote": "Edit note",
@@ -155,6 +154,7 @@
   },
   "settings": {
     "title": "Settings",
+    "tabs": { "general": "General", "sources": "Sources" },
     "theme": "Theme",
     "themes": { "the-type": "The Type", "nyt": "Newsprint", "bear": "Bear" },
     "language": "Language",

@@ -3,14 +3,28 @@
 import { clear, el } from "../dom.js";
 import { getLang, setLang, t } from "../i18n.js";
 import { get, prefs } from "../store.js";
+import { tabBar } from "./shared.js";
+import * as sourcesView from "./sources.js";
 
 const THEMES = ["the-type", "nyt", "bear"];
 
-export function render(container) {
+export function render(container, tab = "general") {
+  if (tab !== "sources") tab = "general"; // unknown tab -> default
   clear(container);
-  const { manifest, unlocked } = get();
-
   container.appendChild(el("h2", {}, t("settings.title")));
+  container.appendChild(tabBar("settings", [
+    ["general", t("settings.tabs.general")],
+    ["sources", t("settings.tabs.sources")],
+  ], tab));
+  const body = el("div", { class: "tab-body" });
+  container.appendChild(body);
+
+  if (tab === "sources") sourcesView.render(body);
+  else renderGeneral(body);
+}
+
+function renderGeneral(container) {
+  const { manifest, unlocked } = get();
 
   // theme
   container.appendChild(el("section", { class: "settings-group" },

@@ -23,8 +23,6 @@ export const FALLBACK_EN = {
     "papers": "Papers",
     "following": "Following",
     "clippings": "Clippings",
-    "favorites": "Favorites",
-    "sources": "Sources",
     "settings": "Settings"
   },
   "onboarding": {
@@ -128,6 +126,10 @@ export const FALLBACK_EN = {
     "highlights": "Highlights",
     "excerpts": "Excerpts",
     "notes": "Notes",
+    "tabs": {
+      "favorites": "Favorites",
+      "notes": "Notes"
+    },
     "export": "Export Markdown",
     "delete": "Delete",
     "editNote": "Edit note",
@@ -166,6 +168,10 @@ export const FALLBACK_EN = {
   },
   "settings": {
     "title": "Settings",
+    "tabs": {
+      "general": "General",
+      "sources": "Sources"
+    },
     "theme": "Theme",
     "themes": {
       "the-type": "The Type",

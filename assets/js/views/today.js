@@ -159,7 +159,7 @@ function overviewStrip(favCount) {
       ? tile(`${active.filter((s) => s.ok).length}/${active.length}`, t("overview.sourcesOk"))
       : null,
     unlocked && favCount != null
-      ? el("a", { class: "stat-tile", href: "#/favorites" },
+      ? el("a", { class: "stat-tile", href: "#/clippings/favorites" },
           el("span", { class: "stat-num" }, `★ ${favCount}`),
           el("span", { class: "stat-label" }, t("overview.favorites")))
       : null,

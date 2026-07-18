@@ -16,8 +16,6 @@
     "papers": "论文",
     "following": "关注",
     "clippings": "摘录",
-    "favorites": "收藏",
-    "sources": "信源",
     "settings": "设置"
   },
   "onboarding": {
@@ -121,6 +119,7 @@
     "highlights": "高亮",
     "excerpts": "摘录",
     "notes": "笔记",
+    "tabs": { "favorites": "收藏", "notes": "笔记" },
     "export": "导出 Markdown",
     "delete": "删除",
     "editNote": "编辑笔记",
@@ -155,6 +154,7 @@
   },
   "settings": {
     "title": "设置",
+    "tabs": { "general": "通用", "sources": "信源" },
     "theme": "主题",
     "themes": { "the-type": "字砌", "nyt": "报纸", "bear": "小熊" },
     "language": "语言",

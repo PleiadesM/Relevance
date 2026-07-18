@@ -25,7 +25,7 @@ export function render(container) {
     return;
   }
 
-  container.appendChild(el("h2", {}, t("sources.title")));
+  container.appendChild(el("h3", {}, t("sources.title")));
 
   const rows = sourceStatus.sources || [];
   const table = el("table", { class: "sources-table" },

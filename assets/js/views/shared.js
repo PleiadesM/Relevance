@@ -43,3 +43,20 @@ export function fixDocLinks(root) {
     link.href = `https://github.com/${match[1]}/${repo}/blob/main/${link.dataset.repoDoc}`;
   }
 }
+
+// The deployer's repo root URL, derived like fixDocLinks() from the GitHub
+// Pages origin; null when not on a *.github.io host (custom domains).
+export function repoUrl() {
+  const match = window.location.hostname.match(/^([\w-]+)\.github\.io$/);
+  if (!match) return null;
+  const repo = window.location.pathname.split("/")[1];
+  if (!repo) return null;
+  return `https://github.com/${match[1]}/${repo}`;
+}
+
+// Tab bar for a merged page. Plain anchors so deep-linking and rerender
+// come free via the existing hashchange handler.
+export function tabBar(pageId, tabs, activeId) {
+  return el("nav", { class: "tabs" }, tabs.map(([id, label]) =>
+    el("a", { href: `#/${pageId}/${id}`, class: id === activeId ? "active" : "" }, label)));
+}

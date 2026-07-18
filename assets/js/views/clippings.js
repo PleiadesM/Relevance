@@ -6,12 +6,27 @@ import { deleteAnnotation, exportMarkdown, listAnnotations, updateAnnotation } f
 import { clear, el, safeHref } from "../dom.js";
 import { fmtDateTime, t } from "../i18n.js";
 import { get } from "../store.js";
-import { lockedCard } from "./shared.js";
+import * as favoritesView from "./favorites.js";
+import { lockedCard, tabBar } from "./shared.js";
 
 const state = { q: "", type: "" };
 
-export async function render(container) {
+export function render(container, tab = "favorites") {
+  if (tab !== "notes") tab = "favorites"; // unknown tab -> default
   clear(container);
+  container.appendChild(el("h2", {}, t("clippings.title")));
+  container.appendChild(tabBar("clippings", [
+    ["favorites", t("clippings.tabs.favorites")],
+    ["notes", t("clippings.tabs.notes")],
+  ], tab));
+  const body = el("div", { class: "tab-body" });
+  container.appendChild(body);
+
+  if (tab === "favorites") favoritesView.render(body);
+  else renderNotes(body);
+}
+
+async function renderNotes(container) {
   if (!get().unlocked) {
     container.appendChild(el("p", { class: "muted" }, t("clippings.lockedHint")));
     container.appendChild(lockedCard());

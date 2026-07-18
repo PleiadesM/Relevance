@@ -9,12 +9,10 @@ import { clear, el } from "./dom.js";
 import { fmtDateTime, initI18n, t } from "./i18n.js";
 import { get, prefs, set } from "./store.js";
 import * as clippingsView from "./views/clippings.js";
-import * as favoritesView from "./views/favorites.js";
 import * as feedView from "./views/feed.js";
 import * as readerView from "./views/reader.js";
 import * as settingsView from "./views/settings.js";
 import { fixDocLinks } from "./views/shared.js";
-import * as sourcesView from "./views/sources.js";
 import * as todayView from "./views/today.js";
 
 const SECTION_ORDER = ["news", "papers", "following"];
@@ -22,8 +20,16 @@ const viewEl = () => document.getElementById("view");
 
 // ---- routing -------------------------------------------------------------
 
+// Old top-level routes now live as tabs; redirect (replaceState so the
+// back button isn't polluted with the dead route).
+const LEGACY = { favorites: "clippings/favorites", sources: "settings/sources" };
+
 function parseRoute() {
   const hash = window.location.hash.replace(/^#\/?/, "");
+  if (LEGACY[hash]) {
+    history.replaceState(null, "", `#/${LEGACY[hash]}`);
+    return LEGACY[hash];
+  }
   return hash || "today";
 }
 
@@ -33,7 +39,7 @@ function routes() {
   const list = ["today"];
   for (const id of SECTION_ORDER) if (sectionIds.includes(id)) list.push(id);
   for (const id of sectionIds) if (!list.includes(id)) list.push(id);
-  list.push("clippings", "favorites", "sources", "settings");
+  list.push("clippings", "settings");
   return list;
 }
 
@@ -41,20 +47,21 @@ function renderView() {
   const route = parseRoute();
   const container = viewEl();
   const sections = get().sections;
+  // subroutes (clippings/notes, settings/sources) keep the parent nav
+  // item highlighted.
   document.querySelectorAll("#nav a").forEach((a) =>
-    a.classList.toggle("active", a.dataset.route === route));
+    a.classList.toggle("active", a.dataset.route === route.split("/")[0]));
 
-  if (route === "today") todayView.render(container);
-  else if (route.startsWith("read/")) {
+  if (route.startsWith("read/")) {
     const [, sectionId, itemId] = route.split("/");
     readerView.render(container, sectionId, itemId);
+  } else {
+    const [page, tab] = route.split("/");
+    if (page === "clippings") clippingsView.render(container, tab);
+    else if (page === "settings") settingsView.render(container, tab);
+    else if (sections[page]) feedView.render(container, page);
+    else todayView.render(container);
   }
-  else if (route === "clippings") clippingsView.render(container);
-  else if (route === "favorites") favoritesView.render(container);
-  else if (route === "sources") sourcesView.render(container);
-  else if (route === "settings") settingsView.render(container);
-  else if (sections[route]) feedView.render(container, route);
-  else todayView.render(container);
 
   fixDocLinks(container);
   container.focus({ preventScroll: true });
