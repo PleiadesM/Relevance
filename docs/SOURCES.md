@@ -74,6 +74,21 @@ stamped with build time and stay "fresh" while listed.
   "name": "Dept news", "url": "https://dept.example.edu/news", "query": "h3 a" }
 ```
 
+**Private feed** — classify a source as private the moment fetching it
+needs a token or capability URL (Google's "secret iCal address" is the
+canonical case). The URL itself goes into **one GitHub Secret**,
+`SRC_<ID>_URL` — never into `config/sources.json`, never into a setup issue
+or PR. The config entry carries only the secret's name:
+
+```json
+{ "id": "my_feed", "category": "private", "type": "rss",
+  "section": "private", "name": "My private feed",
+  "enabled": "auto", "secret_ref": ["SRC_MY_FEED_URL"] }
+```
+
+See `docs/CONFIG_REFERENCE.md`'s "Private URL sources" for the full
+mechanism (naming rule, `enabled: "auto"`, skip behavior).
+
 **arXiv** — category and field queries, e.g. `cat:cs.CL`,
 `cat:cs.HC AND abs:accessibility`. Built-in 3 s throttle; weekends are quiet
 by nature.

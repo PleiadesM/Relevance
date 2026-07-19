@@ -15,6 +15,7 @@
     "news": "新闻",
     "papers": "论文",
     "following": "关注",
+    "private": "🔒 私密",
     "clippings": "摘录",
     "settings": "设置"
   },
@@ -150,7 +151,33 @@
     "fullText": "全文",
     "fullTextCount": "{n}",
     "privateSummary": "私密信源已配置 {configured} / {total}",
-    "categories": { "open": "公开", "optional": "可选", "private": "私密" }
+    "categories": { "open": "公开", "optional": "可选", "private": "私密" },
+    "add": {
+      "title": "添加信源",
+      "kind": {
+        "rss": "RSS / 网页",
+        "scholar": "学者",
+        "journal": "期刊",
+        "private": "私密订阅"
+      },
+      "ph": {
+        "rss": "网页或订阅地址",
+        "scholar": "学者姓名",
+        "journal": "期刊名称或 ISSN",
+        "private": "订阅昵称——切勿填写链接"
+      },
+      "promptLabel": "将此提示词粘贴给 Claude（书童Skill）：",
+      "copy": "复制",
+      "copied": "已复制 ✓",
+      "issueLink": "……或通过 GitHub Issue 添加",
+      "privateWarning": "切勿把私密链接或 Token 粘贴到聊天或 Issue——Issue 是公开的。配置中只写 Secret 名称，值填写在仓库 Settings → Secrets 中。",
+      "prompt": {
+        "rss": "请使用本仓库的书童Skill（skills/newsdash）。将此网页或订阅添加为公开信源：{input}。如有需要请自动发现 feed，检查其健康度，给出配置片段，验证并提交。",
+        "scholar": "请使用本仓库的书童Skill（skills/newsdash）。关注学者 {input}：查找其 OpenAlex 作者 ID，在 following 栏目添加 openalex 信源（filter authorships.author.id:…），然后验证并提交。",
+        "journal": "请使用本仓库的书童Skill（skills/newsdash）。通过 Crossref 追踪期刊 {input}：核验 ISSN，在 papers 栏目添加 crossref 信源，然后验证并提交。",
+        "private": "请使用本仓库的书童Skill（skills/newsdash）。我有一个需要凭据链接的私密订阅（{input}）。请将其添加为私密信源（category 'private'、section 'private'、enabled 'auto'、secret_ref ['SRC_<ID>_URL']），过程中不得要求我把链接粘贴到聊天、配置或 Issue；然后指导我自行添加 GitHub Secret 并验证下一次构建。"
+      }
+    }
   },
   "settings": {
     "title": "设置",

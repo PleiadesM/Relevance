@@ -47,6 +47,20 @@
 
 **static-page**——没有任何 feed 时的最后手段。`query` 是要收割的链接的 CSS 选择器。注意：静态页面没有时间戳，条目以构建时间为准、在页上一天就「新鲜」一天。
 
+**私密信源**——只要抓取需要 Token 或凭据 URL，就把它归为私密（Google 的
+「iCal 私密地址」是最典型的例子）。地址本身只进**一个 GitHub
+Secret**——`SRC_<ID>_URL`——绝不写进 `config/sources.json`，也绝不出现在
+配置 Issue 或 PR 里。配置条目只保留 Secret 的名字：
+
+```json
+{ "id": "my_feed", "category": "private", "type": "rss",
+  "section": "private", "name": "我的私密信源",
+  "enabled": "auto", "secret_ref": ["SRC_MY_FEED_URL"] }
+```
+
+完整机制（命名规则、`enabled: "auto"`、跳过行为）见
+`docs/CONFIG_REFERENCE.zh.md`「私密 URL 信源」一节。
+
 **arXiv**——分类与字段查询，如 `cat:cs.CL`、`cat:cs.HC AND abs:accessibility`。内置 3 秒节流；周末安静是常态。
 
 **CrossRef**——期刊追踪的主力（`academic-techcomm` 就是这样跟住从不上 arXiv 的期刊的）。新旧按记录在 CrossRef *创建*的时间算——对慢节奏期刊而言，「本周新文」正是这个意思：

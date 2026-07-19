@@ -114,6 +114,33 @@ page URL ends in the `A…` id. Labs/institutions use
 and lab-blog RSS feeds pointed at the same section work too. All keyless —
 the zero-secret build stays green.
 
+### Private URL sources
+
+A source is **private** (`category: "private"`) when fetching it needs a
+capability URL or token — the schema **rejects** `url`/`path` on these
+entries, so the coordinates never enter the repo. Instead, `secret_ref`
+names exactly one GitHub Secret whose *value* is the full capability URL
+(must start with `https://`); it is read into memory at build time and
+never written to config, logs, or any output file. Supported private
+`type`s: `rss`, `feed-json`, `static-page`. `section` defaults to
+`"private"` — the frontend renders it as its own locked (🔒) page, gated
+behind unlock, and it appears only once you've actually configured one.
+
+```json
+{ "id": "my_feed", "category": "private", "type": "rss",
+  "section": "private", "name": "My private feed",
+  "enabled": "auto", "secret_ref": ["SRC_MY_FEED_URL"] }
+```
+
+The secret name must match `^SRC_[A-Z0-9_]+$` (convention: `SRC_<ID>_URL`,
+uppercased from the source's `id`). With `enabled: "auto"`, this is exactly
+the general `secret_ref` rule from §3: the source is on iff every secret
+named in `secret_ref` is present — here that's the one `SRC_<ID>_URL`. Leave
+it unset and the source skips cleanly with `skip_reason: "not_configured"`
+(zero-secret builds stay green); `validate_config.py` prints a `waiting:
+<id> (set secret: SRC_…)` hint. The `<ID>_ENABLED=0` kill switch still
+overrides everything, private sources included.
+
 ### 4a. Optional AI enrichment (daily brief + Today's Image + Apropos-of-Nothing)
 
 Not a source — a build-time bolt-on, off by default, no config-file
@@ -195,6 +222,7 @@ never fires on a BBC story.
 | `FOLLOW_OPML_B64` | Secret | private OPML |
 | `LLM_API_KEY` | Secret | AI daily brief + per-section summaries + Apropos-of-Nothing (§4a) |
 | `SMITHSONIAN_API_KEY` | Secret | Today's Image (§4a); requires `LLM_API_KEY` too |
+| `SRC_<ID>_URL` | Secret | Capability URL for one private source (`category: "private"`, `secret_ref`) — see §4 |
 | `CONTACT_MAILTO` | Variable | CrossRef/OpenAlex polite pools |
 | `<ID>_ENABLED` | Variable | `0` = emergency stop for source `<id>` |
 | `RSS_MAX_FEEDS` | Variable | OPML expansion cap |
@@ -213,6 +241,7 @@ never fires on a BBC story.
 | Follow a journal | crossref source with its `issn` |
 | Follow a scholar/lab | openalex source with `filter` + `section: "following"` (§4) |
 | Add topic tags everywhere | top-level `tag_rules` in `sources.json` (§3) |
+| Add a private feed | add a config entry (`category: "private"`, `secret_ref`) + set one matching `SRC_<ID>_URL` secret (§4) |
 | Mark a feed as Chinese | `"lang": "zh"` on the source |
 | Boost my topics | `interests.keywords` (+ `boost`) |
 | Turn on AI enrichment | Secret `LLM_API_KEY` (§4a) |

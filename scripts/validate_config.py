@@ -33,6 +33,11 @@ def main() -> None:
         print(f"{category:>8}: {len(group)} sources "
               f"({active} active, {waiting} awaiting secrets)")
     print(f"sections: {', '.join(cfg.sections)}")
+    # Nudge the maintainer toward the exact secret to set — names only, never
+    # values, so this stays safe to print in public Actions logs.
+    for src in cfg.sources:
+        if src.category == "private" and src.skip_reason == "not_configured":
+            print(f"waiting: {src.id} (set secret: {', '.join(src.secret_ref)})")
     print("config OK")
 
 

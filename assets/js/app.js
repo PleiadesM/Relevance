@@ -15,7 +15,7 @@ import * as settingsView from "./views/settings.js";
 import { fixDocLinks } from "./views/shared.js";
 import * as todayView from "./views/today.js";
 
-const SECTION_ORDER = ["news", "papers", "following"];
+const SECTION_ORDER = ["news", "papers", "following", "private"];
 const viewEl = () => document.getElementById("view");
 
 // ---- routing -------------------------------------------------------------

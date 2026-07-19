@@ -14,7 +14,8 @@ jobs:
     # Owner guard: only the repository owner's setup issues are applied —
     # drive-by issues on public repos must never rewrite config.
     if: >-
-      contains(github.event.issue.labels.*.name, 'newsdash-setup') &&
+      (contains(github.event.issue.labels.*.name, 'newsdash-setup') ||
+       contains(github.event.issue.labels.*.name, 'newsdash-source')) &&
       github.event.issue.user.login == github.repository_owner
     runs-on: ubuntu-latest
     timeout-minutes: 10

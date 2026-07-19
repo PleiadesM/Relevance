@@ -9,12 +9,17 @@ Security invariants enforced here:
 - private sources may not carry a ``url`` (capability URLs live in Secrets);
 - ``enabled: "auto"`` resolves to on only when every env var named in
   ``secret_ref`` is present and non-empty (key-present => on);
+- for a private feed source, ``secret_ref[0]`` names the ONE GitHub Secret
+  (convention: ``SRC_<ID>_URL``) whose value is the capability URL; it is
+  read from the environment at load time into ``src.url`` in process memory
+  only and is never written, logged, or echoed in any message;
 - ``<ID>_ENABLED=0`` in the environment is a kill switch for any source.
 """
 
 from __future__ import annotations
 
 import json
+import re
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Mapping
@@ -31,6 +36,13 @@ class ConfigError(Exception):
 URL_TYPES = {"rss", "opml", "feed-json", "static-page"}
 QUERY_TYPES = {"arxiv", "openalex", "semanticscholar"}
 SOURCE_TYPES = URL_TYPES | QUERY_TYPES | {"crossref"}
+# Private feed types whose capability URL is supplied via secret_ref[0]
+# (a GitHub Secret named SRC_<ID>_URL) rather than a config-carried url.
+PRIVATE_URL_TYPES = {"rss", "feed-json", "static-page"}
+
+# Env keys carrying per-source capability URLs, overlaid from the
+# NEWSDASH_SOURCE_SECRETS blob (all secrets JSON) at load time.
+_SRC_SECRET_KEY = re.compile(r"^SRC_[A-Z0-9_]+$")
 
 # Category a source falls into when the config does not say.
 DEFAULT_CATEGORY_BY_TYPE = {
@@ -47,6 +59,7 @@ SECTION_KINDS = {
     "news": "news",
     "papers": "papers",
     "following": "papers",
+    "private": "news",
 }
 
 
@@ -200,10 +213,12 @@ def _semantic_check(src: SourceConfig) -> None:
             )
         if not src.secret_ref:
             raise ConfigError(f"source '{sid}': private sources need secret_ref")
+    # Private sources carry no url/path (forbidden above); their capability
+    # URL arrives via secret_ref[0] at load time, so exempt them here.
     if src.type == "opml":
-        if not (src.url or src.path):
+        if src.category != "private" and not (src.url or src.path):
             raise ConfigError(f"source '{sid}': opml requires url or path")
-    elif src.type in URL_TYPES and not src.url:
+    elif src.type in URL_TYPES and not src.url and src.category != "private":
         raise ConfigError(f"source '{sid}': type {src.type} requires url")
     if src.type == "openalex":
         if not (src.query or src.filter):
@@ -230,6 +245,49 @@ def _resolve_enabled(src: SourceConfig, env: Mapping[str, str]) -> None:
     src.active, src.skip_reason = True, None
 
 
+def _resolve_private_url(src: SourceConfig, env: Mapping[str, str]) -> None:
+    """Read a private feed's capability URL from ``secret_ref[0]`` into src.url.
+
+    No-op unless the source is an active private feed type. The URL value is
+    NEVER echoed in any message or log: an invalid/absent value only flips the
+    source to inactive with skip_reason "not_configured". On success the URL
+    lives solely in ``src.url`` in process memory for the fetcher to use.
+    """
+    if (src.category != "private" or src.type not in PRIVATE_URL_TYPES
+            or not src.active):
+        return
+    value = env.get(src.secret_ref[0], "").strip()
+    if not value.startswith(("http://", "https://")):
+        src.active, src.skip_reason = False, "not_configured"
+        return
+    src.url = value
+
+
+def overlay_source_secrets(env: Mapping[str, str]) -> Mapping[str, str]:
+    """Fold per-source capability URLs from NEWSDASH_SOURCE_SECRETS into env.
+
+    The workflow passes ``toJSON(secrets)`` as NEWSDASH_SOURCE_SECRETS so that
+    per-source ``SRC_<ID>_URL`` secrets need not each be wired explicitly. Only
+    keys matching ``^SRC_[A-Z0-9_]+$`` with string values are lifted, and only
+    when not already present in env (a real env var always wins). The blob key
+    itself is dropped from the returned copy. Parse failures are ignored. None
+    of this is ever printed.
+    """
+    merged = {k: v for k, v in env.items() if k != "NEWSDASH_SOURCE_SECRETS"}
+    blob = env.get("NEWSDASH_SOURCE_SECRETS")
+    if blob:
+        try:
+            parsed = json.loads(blob)
+        except (ValueError, TypeError):
+            parsed = None
+        if isinstance(parsed, dict):
+            for k, v in parsed.items():
+                if (isinstance(k, str) and isinstance(v, str)
+                        and _SRC_SECRET_KEY.match(k) and k not in merged):
+                    merged[k] = v
+    return merged
+
+
 def load_site(repo_root: Path) -> SiteConfig:
     schema_dir = repo_root / "config" / "schema"
     site_schema, _, _, registry = _schemas(schema_dir)
@@ -250,6 +308,7 @@ def load_site(repo_root: Path) -> SiteConfig:
 
 def load_config(repo_root: Path, env: Mapping[str, str] | None = None) -> Config:
     env = env if env is not None else {}
+    env = overlay_source_secrets(env)
     schema_dir = repo_root / "config" / "schema"
     _, sources_schema, preset_schema, registry = _schemas(schema_dir)
 
@@ -295,6 +354,7 @@ def load_config(repo_root: Path, env: Mapping[str, str] | None = None) -> Config
     for src in sources:
         _semantic_check(src)
         _resolve_enabled(src, env)
+        _resolve_private_url(src, env)
 
     # Top-level tag rules apply to every source of the targeted section(s) —
     # unlike pack rules, which stay scoped to their own pack's sources.

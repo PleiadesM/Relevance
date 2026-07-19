@@ -22,6 +22,7 @@ export const FALLBACK_EN = {
     "news": "News",
     "papers": "Papers",
     "following": "Following",
+    "private": "🔒 Private",
     "clippings": "Clippings",
     "settings": "Settings"
   },
@@ -164,6 +165,32 @@ export const FALLBACK_EN = {
       "open": "Open",
       "optional": "Optional",
       "private": "Private"
+    },
+    "add": {
+      "title": "Add a source",
+      "kind": {
+        "rss": "RSS / Page",
+        "scholar": "Scholar",
+        "journal": "Journal",
+        "private": "Private feed"
+      },
+      "ph": {
+        "rss": "Page or feed URL",
+        "scholar": "Scholar name",
+        "journal": "Journal name or ISSN",
+        "private": "Feed nickname — never the URL"
+      },
+      "promptLabel": "Paste this to Claude (Page Skill):",
+      "copy": "Copy",
+      "copied": "Copied ✓",
+      "issueLink": "…or add it via a GitHub issue",
+      "privateWarning": "Never paste the feed's URL or token into chat or issues — issues are public. Only the secret's NAME goes in config; the value goes into the repo's Settings → Secrets.",
+      "prompt": {
+        "rss": "Use the Page Skill (skills/newsdash) in this repo. Add this page or feed as an open source: {input}. Autodiscover the feed if needed, check its health, propose the config snippet, validate, and commit.",
+        "scholar": "Use the Page Skill (skills/newsdash) in this repo. Follow the scholar {input}: find their OpenAlex author ID and add an openalex source (filter authorships.author.id:…) in the 'following' section, then validate and commit.",
+        "journal": "Use the Page Skill (skills/newsdash) in this repo. Track the journal {input} via Crossref: verify the ISSN and add a crossref source in the 'papers' section, then validate and commit.",
+        "private": "Use the Page Skill (skills/newsdash) in this repo. I have a private feed ({input}) that needs a capability URL. Add it as a private source (category 'private', section 'private', enabled 'auto', secret_ref ['SRC_<ID>_URL']) WITHOUT asking me to paste the URL into chat, config, or issues; then guide me through adding the GitHub Secret myself and verifying the next build."
+      }
     }
   },
   "settings": {

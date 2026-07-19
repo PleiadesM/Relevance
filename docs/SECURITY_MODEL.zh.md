@@ -45,7 +45,23 @@
 - 构建日志不打印私密栏目的条数、标题、名称——公开仓库的 **Actions 日志是公开的**。
 - `source-status.json` 只以汇总形式显示私密信源（`已配置 n / m`）；细节随加密载荷走。
 
-### 3a. 可选 AI 增强功能的数据流出（默认关闭）
+### 3a. 单信源 Secret 的传输方式
+
+私密信源（`category: "private"`）无需在工作流里逐一具名，就能把自己的
+凭据 URL 送到构建过程：**整份** GitHub Actions Secrets 表通过
+`NEWSDASH_SOURCE_SECRETS: ${{ toJSON(secrets) }}` 一次性传进**唯一一个**
+构建步骤（见 `.github/workflows/update.yml`）；在
+`scripts/newsdash/config.py` 里，这份数据只会被过滤出匹配
+`^SRC_[A-Z0-9_]+$` 的键，且这些键绝不会覆盖已经存在的真实环境变量。无论
+经过这层过滤与否，Actions 自带的日志脱敏对每个 Secret 值都生效。解析出的
+凭据 URL 此后只存在于**构建进程的内存**里——也就是那次运行的
+`src.url`——绝不写进配置、绝不写日志（私密信源的报错只保留异常类名）、
+也绝不出现在任何输出文件里，包括 `source-status.json`（它永远只能看到
+汇总的 `private_summary`）。把这一点当作不变量：**一旦某个私密信源的
+URL 被贴到任何公开场合**——Issue、PR、日志、聊天——立即视同泄露，马上
+轮换/重新生成（见 §5）。
+
+### 3b. 可选 AI 增强功能的数据流出（默认关闭）
 
 只有配置了 `LLM_API_KEY` 和/或 `SMITHSONIAN_API_KEY`（见
 `docs/CONFIG_REFERENCE.zh.md` §4a）才会出现以下三种数据流：

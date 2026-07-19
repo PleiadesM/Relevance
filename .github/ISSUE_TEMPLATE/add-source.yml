@@ -1,0 +1,126 @@
+# Add / update / remove a single source. Field labels are the parser contract:
+# scripts/apply_issue_setup.py keys on the English part of each label (before
+# " ·"). Change them together or tests/test_issue_parser.py will fail.
+name: "Add or edit a source · 添加或编辑信源"
+description: "Add, update, or remove one news/paper source — including private ones — without ever pasting a secret. 添加、更新或移除单个信源（含私密信源），且无需粘贴任何密钥。"
+title: "[source] "
+labels: ["newsdash-source"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A bot will patch `config/sources.json`, rebuild, and comment back.
+
+        > ⚠️ **NEVER paste a private or capability URL, token, or any secret anywhere in this issue.**
+        > For a **private** source you reference only the **secret NAME** here; the actual value goes in
+        > **Settings → Secrets and variables → Actions**. GitHub issues on this repo are **public** —
+        > a capability URL pasted here is a leaked credential and will be rejected.
+        >
+        > ⚠️ **切勿在本 Issue 的任何位置粘贴私密/凭据 URL、Token 或任何密钥。**
+        > 私密信源在此只引用 **Secret 名称**；真实值请放入 **Settings → Secrets and variables → Actions**。
+        > 本仓库的 Issue 是**公开**的——粘贴于此的凭据 URL 视为已泄露，将被拒绝。
+
+  - type: dropdown
+    id: action
+    attributes:
+      label: "Action · 操作"
+      description: "What to do with this source. 对该信源执行的操作。"
+      options:
+        - "Add · 添加"
+        - "Update · 更新"
+        - "Remove · 移除"
+    validations:
+      required: true
+
+  - type: input
+    id: source-id
+    attributes:
+      label: "Source ID · 信源标识"
+      description: "lowercase snake_case, e.g. my_feed. Required for Update/Remove; for Add it is auto-derived from Name if left empty. 小写下划线命名，如 my_feed。更新/移除时必填；添加时留空则自动由名称生成。"
+      placeholder: "my_feed"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: "Category · 类别"
+      description: "Private = capability URL lives in a GitHub Secret, never in config. 私密＝凭据 URL 只存于 GitHub Secret，绝不入库。"
+      options:
+        - "Open · 公开"
+        - "Optional · 可选"
+        - "Private · 私密"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: "Type · 类型"
+      options:
+        - "rss"
+        - "feed-json"
+        - "static-page"
+        - "opml"
+        - "arxiv"
+        - "openalex"
+        - "crossref"
+        - "semanticscholar"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: section
+    attributes:
+      label: "Section · 栏目"
+      options:
+        - "news"
+        - "papers"
+        - "following"
+        - "private"
+    validations:
+      required: false
+
+  - type: input
+    id: name
+    attributes:
+      label: "Name · 名称"
+      description: "Human-readable label shown in the dashboard. 仪表盘上显示的名称。"
+      placeholder: "My Feed"
+    validations:
+      required: false
+
+  - type: input
+    id: url-or-query
+    attributes:
+      label: "URL or query (public sources only) · 地址或查询（仅公开信源）"
+      description: "Feed URL (rss/feed-json/static-page/opml) or a query (arxiv/openalex/semanticscholar). Leave EMPTY for private sources — a filled URL on a private source is treated as a LEAKED credential and rejected. 留空表示私密信源；私密信源填写地址将被视为凭据泄露并拒绝。"
+      placeholder: "https://example.com/feed.xml"
+    validations:
+      required: false
+
+  - type: input
+    id: issn
+    attributes:
+      label: "ISSN(s) · 期刊号"
+      description: "Comma-separated, crossref only. 逗号分隔，仅 crossref 使用。"
+      placeholder: "1234-5678, 2345-6789"
+    validations:
+      required: false
+
+  - type: input
+    id: secret-name
+    attributes:
+      label: "Secret name (private sources only) · Secret 名称（仅私密信源）"
+      description: "The NAME of the GitHub Secret holding the capability URL — NOT the URL. Must match ^SRC_[A-Z0-9_]+$; if empty it is derived from the source id. 存放凭据 URL 的 GitHub Secret 名称（不是 URL 本身），需匹配 ^SRC_[A-Z0-9_]+$；留空则由信源标识推导。"
+      placeholder: "SRC_MY_FEED_URL"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: ack
+    attributes:
+      label: "Acknowledgement · 确认"
+      options:
+        - label: "I did not paste any secret or capability URL into this issue · 我没有在本 Issue 中粘贴任何密钥或凭据链接"
+          required: true

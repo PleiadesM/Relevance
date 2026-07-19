@@ -411,6 +411,15 @@ mark.nd-highlight.has-note { border-bottom: 2px dotted var(--accent); cursor: he
 .sources-table tr.status-failed td { color: var(--accent); }
 .sources-table tr.status-skipped td, .sources-table tr.status-disabled td { color: var(--fg-muted); }
 
+/* ---- add a source ---- */
+
+.add-source { margin-top: calc(var(--space) * 1.6); max-width: var(--measure); display: flex; flex-direction: column; align-items: flex-start; gap: 0.6rem; }
+.add-source .seg { margin: 0; }
+.add-source-input { width: 100%; max-width: 28rem; }
+.add-source-label { font-family: var(--font-meta); font-size: 0.82rem; color: var(--fg-muted); }
+.add-source .warn { color: var(--accent); font-size: 0.85rem; max-width: var(--measure); }
+.prompt-box { width: 100%; min-height: 7.5rem; font-family: var(--font-mono); font-size: 0.82rem; line-height: 1.5; resize: vertical; }
+
 /* ---- settings ---- */
 
 .settings-group { margin-bottom: calc(var(--space) * 1.6); max-width: var(--measure); }

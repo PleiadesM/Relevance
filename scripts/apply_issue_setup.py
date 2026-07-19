@@ -41,6 +41,22 @@ FIELD_EXTRA_RSS = "Extra RSS feeds"
 FIELD_INTERESTS = "Interest keywords"
 FIELD_ACK = "Acknowledgement"
 
+# add-source.yml field labels (English segment is the parser contract).
+FIELD_ACTION = "Action"
+FIELD_SOURCE_ID = "Source ID"
+FIELD_CATEGORY = "Category"
+FIELD_TYPE = "Type"
+FIELD_SECTION = "Section"
+FIELD_NAME = "Name"
+FIELD_URL_QUERY = "URL or query (public sources only)"
+FIELD_ISSN = "ISSN(s)"
+FIELD_SECRET_NAME = "Secret name (private sources only)"
+
+URL_TYPES = {"rss", "feed-json", "static-page", "opml"}
+QUERY_TYPES = {"arxiv", "openalex", "semanticscholar"}
+SECRET_NAME_RE = re.compile(r"^SRC_[A-Z0-9_]+$")
+SOURCE_ID_RE = re.compile(r"^[a-z0-9_]{2,64}$")
+
 OPEN_PACK_MAP = [("AI news", "ai-news"), ("General news", "general-news")]
 ACADEMIC_PACK_MAP = [("Data visualization", "academic-datavis"),
                      ("Technical communication", "academic-techcomm")]
@@ -48,7 +64,8 @@ ACADEMIC_PACK_MAP = [("Data visualization", "academic-datavis"),
 CUSTOM_RSS_PREFIX = "custom_rss_"
 
 SECRET_PATTERN = re.compile(
-    r"(github_pat_|ghp_[A-Za-z0-9]{20,}|/calendar/ical/.+/private|Bearer\s+[A-Za-z0-9._-]{20,})",
+    r"(github_pat_|ghp_[A-Za-z0-9]{20,}|/calendar/ical/.+/private|Bearer\s+[A-Za-z0-9._-]{20,}"
+    r"|[?&](token|key|secret|sig|signature)=)",
     re.IGNORECASE,
 )
 
@@ -208,6 +225,318 @@ def apply(body: str, repo_root: Path) -> tuple[dict, list[str]]:
     return summary, warnings
 
 
+def _dropdown(fields: dict[str, str], key: str) -> str:
+    """Selected dropdown value; keep only the English part before ' ·'."""
+    return field(fields, key).split("·")[0].strip()
+
+
+def _slugify(name: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "_", name.lower()).strip("_")[:64]
+
+
+def _preset_source_ids(repo_root: Path, sources: dict) -> set[str]:
+    """Ids provided by the presets currently referenced in sources.json."""
+    ids: set[str] = set()
+    for preset_id in sources.get("presets", []):
+        pack_path = repo_root / "config" / "presets" / f"{preset_id}.json"
+        try:
+            pack = json.loads(pack_path.read_text(encoding="utf-8"))
+        except (FileNotFoundError, json.JSONDecodeError):
+            continue
+        for raw in pack.get("sources", []):
+            if isinstance(raw, dict) and raw.get("id"):
+                ids.add(raw["id"])
+    return ids
+
+
+def _existing_source_category(repo_root: Path, sources: dict, sid: str,
+                             customs: list[dict], idx: int | None) -> str:
+    """Effective category of an already-configured source `sid`, or "".
+
+    Mirrors the merge load_config performs: a custom entry's own `category`
+    wins; otherwise the category comes from whichever preset pack defines the
+    id (the source's own `category`, else the pack default). Used to protect an
+    EXISTING private source regardless of the category the issue submits.
+    """
+    if idx is not None and customs[idx].get("category"):
+        return customs[idx]["category"]
+    for preset_id in sources.get("presets", []):
+        pack_path = repo_root / "config" / "presets" / f"{preset_id}.json"
+        try:
+            pack = json.loads(pack_path.read_text(encoding="utf-8"))
+        except (FileNotFoundError, json.JSONDecodeError):
+            continue
+        for raw in pack.get("sources", []):
+            if isinstance(raw, dict) and raw.get("id") == sid:
+                return raw.get("category") or pack.get("category", "")
+    return ""
+
+
+LEAK_MESSAGE = (
+    "This source is marked **private**, but the URL/query field is not empty. "
+    "A capability URL pasted into a public issue must be treated as LEAKED: "
+    "rotate/regenerate it now, put the new value only in Settings → Secrets, and "
+    "leave this field blank. "
+    "该信源为私密，但填写了地址/查询字段。粘贴于公开 Issue 的凭据 URL 必须视为已泄露："
+    "请立即重新生成，新值只放入 Settings → Secrets，并将此字段留空。"
+)
+
+CATEGORY_LOCK_MESSAGE = (
+    "This source is currently **private**. Its category cannot be changed to "
+    "public/optional through the issue flow, because a private source's "
+    "capability URL lives in a GitHub Secret that must be rotated first. To "
+    "de-privatize it, rotate the credential, then use the Page Skill (书童Skill) "
+    "or open a pull request. "
+    "该信源当前为**私密**。无法通过 Issue 流程将其类别改为公开/可选："
+    "私密信源的凭据 URL 存放于 GitHub Secret，需先轮换。如需转为公开，"
+    "请先轮换凭据，再使用书童 Skill 或提交 Pull Request。"
+)
+
+# Static, value-free message for a post-write validation failure in the source
+# flow. The raw ConfigError / jsonschema text embeds the offending value, which
+# would be echoed into the public issue comment and the ::error:: Actions log —
+# so it must NEVER be interpolated here. Config is restored before this raises.
+SOURCE_VALIDATION_MESSAGE = (
+    "The resulting configuration did not pass validation, so nothing was "
+    "applied (the previous config was restored). Please check this source's "
+    "Type / Category / Section / URL combination against docs/CONFIG_REFERENCE.md "
+    "and try again. Details are withheld here to avoid echoing any submitted value. "
+    "生成的配置未通过校验，已回滚，未作任何改动。请对照 docs/CONFIG_REFERENCE.md "
+    "检查该信源的 类型 / 类别 / 栏目 / 地址 组合后重试。为避免回显提交内容，此处不显示详细报错。"
+)
+
+
+def apply_source(fields: dict[str, str], repo_root: Path) -> tuple[dict, list[str]]:
+    """Add/update/remove one source in config/sources.json from a parsed form.
+
+    The whole-body SECRET_PATTERN gate is expected to have run already (see
+    apply_any). Security invariants this enforces:
+    - never writes a url/query/issn/path onto a private source;
+    - an EXISTING private source is protected by a category-transition guard:
+      any URL/query/ISSN targeting it is treated as a leaked capability URL and
+      rejected without echoing the value, and its category can never be flipped
+      off "private" via the issue flow;
+    - never echoes a rejected URL value, nor raw validation detail (which can
+      embed a submitted value), back in any message or the ::error:: log line.
+    """
+    warnings: list[str] = []
+
+    if "[x]" not in fields.get(FIELD_ACK, "").lower():
+        raise ValueError("The acknowledgement checkbox is required. 需要勾选确认项。")
+
+    action = _dropdown(fields, FIELD_ACTION).lower()
+    if action not in ("add", "update", "remove"):
+        raise ValueError(f"unknown action {action!r}; expected Add/Update/Remove.")
+
+    id_raw = field(fields, FIELD_SOURCE_ID)
+    name = field(fields, FIELD_NAME)
+    category = _dropdown(fields, FIELD_CATEGORY).lower()
+    stype = _dropdown(fields, FIELD_TYPE)
+    section = _dropdown(fields, FIELD_SECTION)
+    url_or_query = field(fields, FIELD_URL_QUERY)
+    issn_raw = field(fields, FIELD_ISSN)
+    secret_name = field(fields, FIELD_SECRET_NAME)
+
+    if action == "add" and not id_raw:
+        sid = _slugify(name)
+    else:
+        sid = id_raw.strip().lower()
+    if not SOURCE_ID_RE.match(sid):
+        raise ValueError(
+            "Source ID must be lowercase snake_case matching ^[a-z0-9_]{2,64}$ "
+            "(supply Source ID, or a Name to derive it from for Add). "
+            "信源标识需为小写下划线命名，匹配 ^[a-z0-9_]{2,64}$。"
+        )
+
+    sources_path = repo_root / "config" / "sources.json"
+    sources = json.loads(sources_path.read_text(encoding="utf-8"))
+    customs: list[dict] = sources.setdefault("sources", [])
+    idx = next((i for i, s in enumerate(customs) if s.get("id") == sid), None)
+
+    is_private = False
+    entry: dict = {}
+    change = ""
+
+    if action == "remove":
+        if sid in _preset_source_ids(repo_root, sources):
+            # documented preset-mute: an override {"id", "enabled": false}
+            if idx is not None:
+                customs[idx]["enabled"] = False
+            else:
+                customs.append({"id": sid, "enabled": False})
+            change = f"muted preset source `{sid}` (override `enabled: false`)"
+        elif idx is not None:
+            customs.pop(idx)
+            change = f"removed custom source `{sid}`"
+        else:
+            raise ValueError(
+                f"no source with id `{sid}` found to remove. 未找到要移除的信源。")
+    else:  # add / update
+        entry = dict(customs[idx]) if idx is not None else {"id": sid}
+        entry["id"] = sid
+
+        # Category-transition guard: if the source ALREADY exists as private
+        # (custom entry or preset), it is protected no matter what category the
+        # issue submits. This keys off the EXISTING category, not the submitted
+        # one, closing the leak where Update+Category=open (or blank) would
+        # otherwise flip private→open with a capability URL persisted/echoed.
+        existing_category = _existing_source_category(
+            repo_root, sources, sid, customs, idx)
+        if existing_category == "private":
+            # (a) any URL/query/ISSN targeting a private source in a public
+            # issue is a leaked-credential event — reject, never echo. This
+            # fires BEFORE the write/validate gate so the jsonschema message
+            # (which embeds the value) can never reach any surface.
+            if url_or_query or issn_raw:
+                raise ValueError(LEAK_MESSAGE)  # never echo the value back
+            # (b) category may not be changed off "private" via the issue flow.
+            if category in ("open", "optional"):
+                raise ValueError(CATEGORY_LOCK_MESSAGE)  # static, no echo
+            # (c) blank category inherits "private" and keeps all invariants.
+            category = "private"
+
+        is_private = category == "private"
+        if is_private:
+            if url_or_query or issn_raw:
+                raise ValueError(LEAK_MESSAGE)  # never echo the value back
+            if secret_name and not SECRET_NAME_RE.match(secret_name):
+                # the NAME is not a secret; echoing the name is fine
+                raise ValueError(
+                    f"Secret name `{secret_name}` is invalid; it must match "
+                    "^SRC_[A-Z0-9_]+$ (e.g. SRC_MY_FEED_URL). "
+                    f"Secret 名称 `{secret_name}` 不合法，需匹配 ^SRC_[A-Z0-9_]+$。"
+                )
+            entry["category"] = "private"
+            entry["enabled"] = "auto"
+            # preserve an existing secret_ref on update; default on fresh add
+            entry["secret_ref"] = ([secret_name] if secret_name
+                                   else entry.get("secret_ref")
+                                   or [f"SRC_{sid.upper()}_URL"])
+            entry["section"] = section or entry.get("section") or "private"
+            if stype:
+                entry["type"] = stype
+            if name:
+                entry["name"] = name
+            # a private source must never carry url/query/issn/path
+            for k in ("url", "query", "issn", "path"):
+                entry.pop(k, None)
+            change = f"private source `{sid}` referencing secret `{entry['secret_ref'][0]}`"
+        else:
+            if category:
+                entry["category"] = category
+            if stype:
+                entry["type"] = stype
+            if section:
+                entry["section"] = section
+            if name:
+                entry["name"] = name
+            etype = entry.get("type", "")
+            if etype in URL_TYPES:
+                if url_or_query:
+                    entry["url"] = url_or_query
+                    entry.pop("query", None)
+            elif etype in QUERY_TYPES:
+                if url_or_query:
+                    entry["query"] = url_or_query
+                    entry.pop("url", None)
+            elif etype == "crossref":
+                if issn_raw:
+                    entry["issn"] = [x.strip() for x in issn_raw.split(",") if x.strip()]
+                elif url_or_query:
+                    entry["query"] = url_or_query
+            if action == "add":
+                entry.setdefault("category", "open")
+                entry.setdefault("section", "news")
+                entry.setdefault("weight", 0.8)
+            change = f"{action}ed source `{sid}`"
+
+        if idx is not None:
+            customs[idx] = entry
+        else:
+            customs.append(entry)
+
+    # write → validate → restore-on-failure, same gate as apply()
+    original_sources = sources_path.read_text(encoding="utf-8")
+    sources_path.write_text(json.dumps(sources, ensure_ascii=False, indent=2) + "\n",
+                            encoding="utf-8")
+    try:
+        load_config(repo_root, env={})
+    except ConfigError as exc:
+        sources_path.write_text(original_sources, encoding="utf-8")
+        # Static message only: `exc` embeds the offending value (jsonschema
+        # echoes it) and would leak into the public comment + ::error:: log.
+        raise ValueError(SOURCE_VALIDATION_MESSAGE) from exc
+
+    summary = {
+        "kind": "source",
+        "action": action,
+        "id": sid,
+        "private": is_private,
+        "change": change,
+        "secret_ref": entry.get("secret_ref", []),
+        "entry": entry,
+    }
+    return summary, warnings
+
+
+def apply_any(body: str, repo_root: Path) -> tuple[dict, list[str]]:
+    """Whole-body secret gate, then dispatch to apply_source or apply()."""
+    if SECRET_PATTERN.search(body):
+        raise ValueError(
+            "The issue body contains something that looks like a credential. "
+            "Nothing was applied — please edit the issue to remove it, and "
+            "rotate that credential if it was real."
+        )
+    fields = parse_form(body)
+    if field(fields, FIELD_ACTION):
+        return apply_source(fields, repo_root)
+    return apply(body, repo_root)
+
+
+def success_comment_source(summary: dict, warnings: list[str], repo: str) -> str:
+    owner, _, name = repo.partition("/")
+    action = summary["action"]
+    sid = summary["id"]
+    lines = [
+        "## ✅ Source change applied · 信源已更新", "",
+        f"- **Action · 操作**: `{action}`",
+        f"- **Source ID · 信源标识**: `{sid}`",
+    ]
+    if summary.get("change"):
+        lines.append(f"- {summary['change']}")
+    if warnings:
+        lines += ["", "### ⚠️ Notes"] + [f"- {w}" for w in warnings]
+
+    if action == "add" and summary["private"]:
+        secret = summary["secret_ref"][0]
+        secrets_url = f"https://github.com/{owner}/{name}/settings/secrets/actions/new"
+        lines += [
+            "", "## Next steps · 后续步骤", "",
+            f"1. **Create the secret `{secret}`** at {secrets_url} — paste the full "
+            "capability URL as the value (it must start with `https://`). Paste it "
+            "**ONLY there**, never back into this issue. "
+            f"在 Secrets 页面创建 `{secret}`，值为完整凭据 URL（须以 https:// 开头）；值只粘贴在 Secrets 页面。",
+            "2. **Ensure the `NEWSDASH_PASSPHRASE` secret is set** — private sections "
+            "refuse to build without it. 确保已配置 `NEWSDASH_PASSPHRASE`，否则私密内容不会构建。",
+            "3. **Run the update workflow** "
+            f"([Actions → Update Relevance](https://github.com/{repo}/actions/workflows/update.yml)) "
+            "and check the 🔒 Private tab after you unlock. 运行更新工作流后，解锁并查看 🔒 私密标签页。",
+        ]
+    elif action in ("add", "update") and not summary["private"]:
+        entry = summary.get("entry", {})
+        lines += [
+            "", "Config entry · 配置条目 (public — URLs are fine here):",
+            "```json", json.dumps(entry, ensure_ascii=False, indent=2), "```",
+        ]
+
+    lines += [
+        "",
+        "A rebuild is running: "
+        f"[Actions → Update Relevance](https://github.com/{repo}/actions/workflows/update.yml)",
+    ]
+    return "\n".join(lines) + "\n"
+
+
 def success_comment(summary: dict, warnings: list[str], repo: str) -> str:
     owner, _, name = repo.partition("/")
     site_url = f"https://{owner}.github.io/{name}/"
@@ -285,15 +614,16 @@ def main() -> None:
     body = Path(args.body_file).read_text(encoding="utf-8")
 
     try:
-        summary, warnings = apply(body, repo_root)
+        summary, warnings = apply_any(body, repo_root)
     except (ValueError, ConfigError, json.JSONDecodeError) as exc:
         Path(args.comment_out).write_text(error_comment(str(exc)), encoding="utf-8")
         print(f"::error::setup rejected: {exc}")
         sys.exit(2)
 
-    Path(args.comment_out).write_text(
-        success_comment(summary, warnings, args.repo), encoding="utf-8")
-    print(f"applied: {json.dumps(summary, ensure_ascii=False)}")
+    comment = (success_comment_source if summary.get("kind") == "source"
+               else success_comment)(summary, warnings, args.repo)
+    Path(args.comment_out).write_text(comment, encoding="utf-8")
+    print(f"applied: {json.dumps({k: v for k, v in summary.items() if k != 'entry'}, ensure_ascii=False)}")
 
 
 if __name__ == "__main__":

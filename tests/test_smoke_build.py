@@ -139,6 +139,64 @@ def test_smoke_with_private_secrets(tmp_path, monkeypatch, make_repo):
         == crypto.CHECK_PLAINTEXT
 
 
+PRIVATE_CAP_URL = "https://feeds.example/cap/deadbeef0123"
+
+
+def _private_rss_repo(make_repo):
+    return make_repo(sources={"schema_version": 1, "presets": [], "sources": [
+        {"id": "src_x", "category": "private", "type": "rss",
+         "section": "private", "name": "X",
+         "secret_ref": ["SRC_X_URL"], "enabled": "auto"},
+    ]})
+
+
+def _assert_url_absent_from_output(out):
+    """Byte-scan every file under the output dir for the capability URL."""
+    needle = PRIVATE_CAP_URL.encode("utf-8")
+    scanned = 0
+    for path in out.rglob("*"):
+        if path.is_file():
+            assert needle not in path.read_bytes(), f"URL leaked into {path.name}"
+            scanned += 1
+    assert scanned > 0
+
+
+def test_smoke_private_rss_encrypts_and_never_leaks_url(tmp_path, monkeypatch, make_repo):
+    monkeypatch.setenv("NEWSDASH_PASSPHRASE", "correct horse battery staple")
+    monkeypatch.setenv("SRC_X_URL", PRIVATE_CAP_URL)
+    out = tmp_path / "data"
+    build_mod.main(["--output-dir", str(out), "--smoke",
+                    "--repo-root", str(_private_rss_repo(make_repo))])
+
+    manifest = read(out / "manifest.json")
+    by_id = {s["id"]: s for s in manifest["sections"]}
+    assert by_id["private"]["file"] == "private.enc.json"
+    assert by_id["private"]["encrypted"] is True
+    assert (out / "private.enc.json").exists()
+    assert not (out / "private.json").exists()
+    # The resolved capability URL lives only in build-process memory; --smoke
+    # never fetches it and nothing may write it to any output file.
+    _assert_url_absent_from_output(out)
+
+
+def test_smoke_private_rss_zero_secret_skips_green(tmp_path, monkeypatch, make_repo):
+    # Same config, but the SRC_X_URL secret is absent: the build must stay green
+    # (exit 0) with the source skipped, not fail.
+    monkeypatch.delenv("SRC_X_URL", raising=False)
+    monkeypatch.delenv("NEWSDASH_PASSPHRASE", raising=False)
+    out = tmp_path / "data"
+    build_mod.main(["--output-dir", str(out), "--smoke",
+                    "--repo-root", str(_private_rss_repo(make_repo))])
+
+    manifest = read(out / "manifest.json")
+    by_id = {s["id"]: s for s in manifest["sections"]}
+    assert by_id["private"]["status"] == "not_configured"
+    # no passphrase needed because no private source is active
+    assert not (out / "private.enc.json").exists()
+    status = read(out / "source-status.json")
+    assert status["private_summary"] == {"total": 1, "configured": 0}
+
+
 def test_private_visibility_requires_passphrase(tmp_path, monkeypatch, make_repo):
     monkeypatch.delenv("NEWSDASH_PASSPHRASE", raising=False)
     root = make_repo(site={

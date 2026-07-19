@@ -60,7 +60,26 @@ Every `*.enc.json` file is one envelope:
 - `source-status.json` shows private sources only as an aggregate
   (`configured n of m`); their detail rides inside the encrypted payloads.
 
-### 3a. Optional AI enrichment egress (off by default)
+### 3a. Per-source secret transport
+
+Private sources (`category: "private"`) get their capability URL to the
+build without ever naming it explicitly in the workflow. The **entire**
+GitHub Actions secrets map is passed into exactly **one** build step via
+`NEWSDASH_SOURCE_SECRETS: ${{ toJSON(secrets) }}` (see
+`.github/workflows/update.yml`); inside `scripts/newsdash/config.py`, that
+blob is filtered to keys matching `^SRC_[A-Z0-9_]+$` only, and a matching
+key never overwrites a real environment variable that's already set.
+Actions' own log masking applies to every secret value regardless of this
+filtering. The resolved capability URL then lives in **build-process
+memory only** — `src.url`, for that run — and is never written to config,
+never logged (private-source errors are reduced to exception class names),
+and never lands in any output file, including `source-status.json` (which
+only ever sees the aggregate `private_summary`). Treat this as an
+invariant: **if a private source's URL is ever pasted anywhere public** —
+an issue, a PR, a log, a chat — treat it as leaked and rotate/regenerate it
+immediately (see §5).
+
+### 3b. Optional AI enrichment egress (off by default)
 
 Three distinct data flows, only present if you've added `LLM_API_KEY`
 and/or `SMITHSONIAN_API_KEY` — see `docs/CONFIG_REFERENCE.md` §4a:

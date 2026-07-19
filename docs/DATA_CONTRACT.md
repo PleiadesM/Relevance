@@ -58,6 +58,14 @@ Rules:
   descriptive lives inside the encrypted payload's `meta`.
 - `visibility: "private"` → every section (plus `source_status_file` and the
   archive) is encrypted and the app boots to a full-page login gate.
+- `id: "private"` is a first-class `kind: "news"` section fed by
+  `category: "private"` sources (see `docs/CONFIG_REFERENCE.md`'s "Private
+  URL sources"). It appears in `sections[]` only once at least one private
+  source is configured, and — regardless of the site's own
+  `visibility` — is **always** `encrypted: true` and omits `count` exactly
+  like any other encrypted section; a public site with a private feed
+  configured still ships that one section as ciphertext behind the same
+  login gate.
 
 ## Encryption envelope (`*.enc.json`)
 
@@ -180,7 +188,9 @@ and `full_text_file` so it cannot point at stale article files.
 
 `source-status`: `{ generated_at, sources: [entry…], private_summary:
 { total, configured } }` — private sources appear **only** in the aggregate
-here; their detail rides inside the encrypted section metas. Public source
+here (never a per-source entry, never a name, count, or error for a private
+source); their detail rides inside the encrypted `private` section's own
+`meta`. Public source
 entries include `full_text_count` (integer, usually `0`) for the current
 build, so the frontend can mark sources that produced at least one embedded
 full-text RSS item.

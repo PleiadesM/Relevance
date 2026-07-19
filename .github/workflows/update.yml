@@ -50,6 +50,9 @@ jobs:
           # Policy: keys live in Secrets; tuning lives in config files;
           # Variables exist only as kill switches (<ID>_ENABLED=0).
           NEWSDASH_PASSPHRASE: ${{ secrets.NEWSDASH_PASSPHRASE }}
+          # Per-source capability URLs (SRC_<ID>_URL); only ^SRC_ keys are read
+          # (filtered in config.py); Actions masks secret values in logs.
+          NEWSDASH_SOURCE_SECRETS: ${{ toJSON(secrets) }}
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           SMITHSONIAN_API_KEY: ${{ secrets.SMITHSONIAN_API_KEY }}
