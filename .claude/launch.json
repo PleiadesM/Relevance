@@ -6,6 +6,12 @@
       "runtimeExecutable": "python3",
       "runtimeArgs": ["-m", "http.server", "8899", "--bind", "127.0.0.1"],
       "port": 8899
+    },
+    {
+      "name": "apropos-static",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8898", "--bind", "127.0.0.1", "--directory", "/Users/pleiadesm./Documents/GitHub/Apropos_PleiadesM"],
+      "port": 8898
     }
   ]
 }
