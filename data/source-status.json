@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-20T11:11:27Z",
+ "generated_at": "2026-07-20T14:31:59Z",
  "private_summary": {
   "configured": 0,
   "total": 0
@@ -81,7 +81,7 @@
    "category": "open",
    "count": 20,
    "error": null,
-   "full_text_count": 20,
+   "full_text_count": 19,
    "id": "ars_ai",
    "name": "Ars Technica · AI",
    "ok": true,
@@ -115,7 +115,7 @@
   },
   {
    "category": "open",
-   "count": 29,
+   "count": 34,
    "error": null,
    "full_text_count": 0,
    "id": "bbc_world",
@@ -151,7 +151,7 @@
   },
   {
    "category": "open",
-   "count": 18,
+   "count": 24,
    "error": null,
    "full_text_count": 0,
    "id": "nyt_homepage",
