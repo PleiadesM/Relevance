@@ -81,6 +81,42 @@ def test_unknown_preset_rejected(make_repo):
         load_config(root, env={})
 
 
+def _site(**overrides):
+    base = {
+        "schema_version": 1, "title": "T", "visibility": "public",
+        "languages": ["en"], "default_language": "en",
+        "theme": "bear", "timezone": "UTC",
+    }
+    base.update(overrides)
+    return base
+
+
+def test_ranking_defaults_when_absent(make_repo):
+    root = make_repo(site=_site())
+    cfg = load_config(root, env={})
+    assert cfg.site.ranking.highlights is True
+    assert cfg.site.ranking.max_per_source == 2
+
+
+def test_ranking_explicit_values_parse(make_repo):
+    root = make_repo(site=_site(ranking={"highlights": False, "max_per_source": 4}))
+    cfg = load_config(root, env={})
+    assert cfg.site.ranking.highlights is False
+    assert cfg.site.ranking.max_per_source == 4
+
+
+def test_ranking_max_per_source_zero_rejected(make_repo):
+    root = make_repo(site=_site(ranking={"max_per_source": 0}))
+    with pytest.raises(ConfigError):
+        load_config(root, env={})
+
+
+def test_ranking_unknown_key_rejected(make_repo):
+    root = make_repo(site=_site(ranking={"bogus": True}))
+    with pytest.raises(ConfigError):
+        load_config(root, env={})
+
+
 def test_bad_theme_rejected(make_repo):
     root = make_repo(site={
         "schema_version": 1, "title": "T", "visibility": "public",
@@ -160,3 +196,57 @@ def test_top_level_tag_rules_apply_to_feed_sections(make_repo):
     assert "vis-only" in papers_tags and "vis-only" not in news_tags
     # global rules are unscoped, unlike pack rules
     assert all(r.source_ids is None for r in cfg.tag_rules["news"])
+
+
+# ---- section metadata (custom nav tabs) ---------------------------------
+
+
+def test_sections_metadata_absent_defaults_empty(make_repo):
+    root = make_repo(site=_site())
+    cfg = load_config(root, env={})
+    assert cfg.site.sections == []
+
+
+def test_sections_metadata_parses(make_repo):
+    root = make_repo(site=_site(sections=[
+        {"id": "ai", "label": {"en": "AI", "zh": "AI 前沿"},
+         "order": 1, "kind": "news"},
+        {"id": "climate", "label": {"en": "Climate"}},
+    ]))
+    cfg = load_config(root, env={})
+    by_id = {m.id: m for m in cfg.site.sections}
+    assert by_id["ai"].label == {"en": "AI", "zh": "AI 前沿"}
+    assert by_id["ai"].order == 1
+    assert by_id["ai"].kind == "news"
+    assert by_id["climate"].order is None and by_id["climate"].kind is None
+
+
+def test_sections_metadata_duplicate_id_rejected(make_repo):
+    root = make_repo(site=_site(sections=[
+        {"id": "ai", "label": {"en": "AI"}},
+        {"id": "ai", "label": {"en": "AI again"}},
+    ]))
+    with pytest.raises(ConfigError):
+        load_config(root, env={})
+
+
+def test_sections_metadata_kind_override_on_builtin_rejected(make_repo):
+    root = make_repo(site=_site(sections=[
+        {"id": "news", "label": {"en": "News"}, "kind": "news"},
+    ]))
+    with pytest.raises(ConfigError):
+        load_config(root, env={})
+
+
+def test_sections_metadata_empty_label_rejected(make_repo):
+    root = make_repo(site=_site(sections=[{"id": "ai", "label": {}}]))
+    with pytest.raises(ConfigError):
+        load_config(root, env={})
+
+
+def test_sections_metadata_bad_id_pattern_rejected(make_repo):
+    root = make_repo(site=_site(sections=[
+        {"id": "A!", "label": {"en": "Bad"}},
+    ]))
+    with pytest.raises(ConfigError):
+        load_config(root, env={})

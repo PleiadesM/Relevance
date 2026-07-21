@@ -26,7 +26,11 @@ other data file as `<file>?v=<build_id>` — GitHub Pages' CDN caches for
     "languages": ["en", "zh"], "default_language": "en",
     "theme": "the-type",               // "the-type" | "nyt" | "bear"
     "timezone": "America/Chicago",
-    "visibility": "public"             // "public" | "private"
+    "visibility": "public",            // "public" | "private"
+    "ranking": {                       // homepage Highlights knobs; absent on manifests built before this key
+      "highlights": true,              // show the mixed Highlights block
+      "max_per_source": 2              // per-source diversity cap (int ≥ 1)
+    }
   },
   "crypto": {                          // present iff a passphrase is configured
     "alg": "AES-256-GCM",
@@ -39,7 +43,10 @@ other data file as `<file>?v=<build_id>` — GitHub Pages' CDN caches for
     { "id": "news", "kind": "news", "category": "open",
       "file": "news.json", "encrypted": false, "count": 142, "status": "ok" },
     { "id": "papers", "kind": "papers", "category": "optional",
-      "file": "papers.json", "encrypted": false, "count": 37, "status": "ok" }
+      "file": "papers.json", "encrypted": false, "count": 37, "status": "ok" },
+    { "id": "ai", "kind": "news", "category": "open",           // custom section with metadata
+      "file": "ai.json", "encrypted": false, "count": 12, "status": "ok",
+      "label": { "en": "AI", "zh": "AI 前沿" } }                 // optional; present iff config gave one
   ],
   "source_status_file": "source-status.json",
   "insights_file": "insights.json",       // AI brief/summaries/image/apropos; null if absent
@@ -58,6 +65,22 @@ Rules:
   descriptive lives inside the encrypted payload's `meta`.
 - `visibility: "private"` → every section (plus `source_status_file` and the
   archive) is encrypted and the app boots to a full-page login gate.
+- `site.ranking` drives the homepage **Highlights** block. When it is absent
+  (older manifest) or `highlights` is `false`, the frontend renders no
+  Highlights block at all; otherwise it pools loaded `news`/`papers`-kind
+  sections, caps each source at `max_per_source` (min 1, default 2), shows ≤ 10
+  items, and still hides itself if fewer than 3 survive.
+- A section entry's optional `label: {en?, zh?}` (from `config/site.json`'s
+  `sections[]`) is the friendly nav-tab name. The frontend resolves the display
+  name `label[activeLang] → label.en → label.zh`, and — when no usable `label`
+  is present — falls back to the i18n key `nav.<id>`, then the raw id. Labels
+  are public plaintext, emitted even on private sites (readable before login),
+  so they must never carry private detail.
+- A section's `kind` may be overridden by `sections[]` metadata for **custom
+  sections only** (the config layer rejects a `kind` override on the built-ins
+  `news`/`papers`/`following`/`private`). Section entries are ordered by their
+  metadata `order` (stable sort; entries without `order` follow the ordered
+  ones in config order).
 - `id: "private"` is a first-class `kind: "news"` section fed by
   `category: "private"` sources (see `docs/CONFIG_REFERENCE.md`'s "Private
   URL sources"). It appears in `sections[]` only once at least one private

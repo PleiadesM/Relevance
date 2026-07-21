@@ -472,6 +472,40 @@ mark.nd-highlight.has-note { border-bottom: 2px dotted var(--accent); cursor: he
   75% { transform: translateX(-3px); }
 }
 
+/* ---- first-deploy tutorial ---- */
+.tutorial-modal { width: min(34rem, 94vw); }
+.tut-head {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 1rem;
+}
+.tut-heading { margin: 0; font-family: var(--font-heading); font-size: 1.15rem; }
+.tut-skip {
+  background: none; border: none; color: var(--fg-muted);
+  font: inherit; font-size: 0.85rem; cursor: pointer; padding: 0.2rem 0.3rem;
+}
+.tut-skip:hover { color: var(--fg); text-decoration: underline; }
+.tut-body { margin: 0.9rem 0 0.3rem; min-height: 8.5rem; }
+.tut-title { margin: 0 0 0.5rem; font-family: var(--font-heading); font-size: 1.05rem; }
+.tut-text { margin: 0 0 0.7rem; line-height: 1.55; }
+.tut-note { font-size: 0.85rem; margin: 0.5rem 0 0; line-height: 1.5; }
+.tut-action {
+  display: inline-block; margin-top: 0.2rem; padding: 0.45rem 0.9rem;
+  border-radius: var(--radius); background: var(--accent);
+  color: var(--accent-fg); border: 1px solid var(--accent);
+  text-decoration: none; font-family: var(--font-meta); font-size: 0.9rem;
+}
+.tut-action:hover { opacity: 0.9; }
+.tut-foot {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-top: 1rem; gap: 1rem;
+}
+.tut-foot .modal-actions { margin-top: 0; }
+.tut-dots { display: flex; gap: 0.4rem; }
+.tut-dot {
+  width: 0.5rem; height: 0.5rem; border-radius: 50%;
+  background: var(--rule-strong); opacity: 0.4;
+}
+.tut-dot.active { opacity: 1; background: var(--accent); }
+
 .anno-toolbar {
   position: absolute;
   z-index: 50;

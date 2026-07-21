@@ -20,5 +20,11 @@ Thumbs.db
 # Local scratch build output (the real data/ IS committed by Actions)
 /data-local/
 
+# Source Studio — local, offline source-editing workspace; never committed.
+# The generated page and the plan it emits stay on the deployer's machine.
+/newsdash-studio/
+source-studio*.html
+*.plan.json
+
 # Session handoff notes — personal working notes, not project history
 HANDOFF.md

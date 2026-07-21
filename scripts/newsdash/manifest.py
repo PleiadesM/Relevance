@@ -36,6 +36,10 @@ def build_manifest(
             "theme": site.theme,
             "timezone": site.timezone,
             "visibility": site.visibility,
+            "ranking": {
+                "highlights": site.ranking.highlights,
+                "max_per_source": site.ranking.max_per_source,
+            },
         },
         "sections": sections,
         "source_status_file": None,  # set by the builder

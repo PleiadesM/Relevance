@@ -9,7 +9,7 @@ import pytest
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
-from newsdash.config import SiteConfig, SourceConfig, Windows  # noqa: E402
+from newsdash.config import Ranking, SiteConfig, SourceConfig, Windows  # noqa: E402
 from newsdash.fetchers import FetchContext  # noqa: E402
 from newsdash.http import make_session  # noqa: E402
 
@@ -27,7 +27,7 @@ def make_ctx():
         site = SiteConfig(
             title="Test", subtitle="", visibility="public",
             languages=["en"], default_language="en", theme="bear",
-            timezone=tz, windows=Windows(),
+            timezone=tz, windows=Windows(), ranking=Ranking(),
         )
         return FetchContext(session=make_session(), now=now, env=env or {},
                             site=site, repo_root=REPO_ROOT)

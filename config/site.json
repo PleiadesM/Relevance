@@ -15,5 +15,9 @@
     "news_hours": 24,
     "papers_days": 7,
     "archive_days": 14
+  },
+  "ranking": {
+    "highlights": true,
+    "max_per_source": 2
   }
 }

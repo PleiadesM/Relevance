@@ -32,7 +32,16 @@ def main() -> None:
         waiting = sum(1 for s in group if s.skip_reason == "not_configured")
         print(f"{category:>8}: {len(group)} sources "
               f"({active} active, {waiting} awaiting secrets)")
-    print(f"sections: {', '.join(cfg.sections)}")
+    meta_by_id = {m.id: m for m in cfg.site.sections}
+
+    def _fmt_section(sid: str) -> str:
+        m = meta_by_id.get(sid)
+        if m and m.label:
+            lbl = m.label.get("en") or m.label.get("zh")
+            return f'{sid} ("{lbl}")'
+        return sid
+
+    print(f"sections: {', '.join(_fmt_section(s) for s in cfg.sections)}")
     # Nudge the maintainer toward the exact secret to set — names only, never
     # values, so this stays safe to print in public Actions logs.
     for src in cfg.sources:

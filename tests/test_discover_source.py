@@ -8,7 +8,7 @@ import pytest
 
 import discover_source as ds
 from conftest import FIXED_NOW
-from newsdash.config import Config, SiteConfig, SourceConfig, Windows
+from newsdash.config import Config, Ranking, SiteConfig, SourceConfig, Windows
 
 FIXTURES = Path(__file__).resolve().parent / "fixtures" / "discover"
 
@@ -16,7 +16,7 @@ FIXTURES = Path(__file__).resolve().parent / "fixtures" / "discover"
 def _config(*sources: SourceConfig) -> Config:
     site = SiteConfig(title="t", subtitle="", visibility="public",
                       languages=["en"], default_language="en", theme="bear",
-                      timezone="UTC", windows=Windows())
+                      timezone="UTC", windows=Windows(), ranking=Ranking())
     return Config(site=site, sources=list(sources), tag_rules={},
                   interests_keywords=[], interests_boost=0.15)
 
@@ -399,3 +399,167 @@ def test_cli_probe_opml_json_reports_dropped_capability(monkeypatch, capsys):
     for tok in FAKE_TOKENS:
         assert tok not in out
     assert "calendar.google.com" not in out
+
+
+# --------------------------------------------------------------------------- #
+# report — health-check a saved source plan (step 2)
+# --------------------------------------------------------------------------- #
+
+SAMPLE_FEED = (FIXTURES / "sample_feed.xml").read_bytes()
+EMPTY_FEED = (FIXTURES / "empty_feed.xml").read_bytes()
+
+
+def _plan(*sources):
+    return {"schema": "newsdash-source-plan/v1", "sources": list(sources)}
+
+
+def _by_id(report):
+    return {r["id"]: r for r in report["sources"]}
+
+
+def test_report_classifies_healthy_empty_and_unhealthy():
+    plan = _plan(
+        {"id": "good", "name": "Good", "category": "open", "type": "rss",
+         "section": "news", "url": "https://good.example/feed", "weight": 0.5},
+        {"id": "empty", "name": "Empty", "category": "open", "type": "rss",
+         "section": "news", "url": "https://empty.example/feed", "weight": 0.8},
+        {"id": "broken", "name": "Broken", "category": "open", "type": "rss",
+         "section": "news", "url": "https://broken.example/feed", "weight": 0.8},
+    )
+    feeds = {"https://good.example/feed": SAMPLE_FEED,
+             "https://empty.example/feed": EMPTY_FEED,
+             "https://broken.example/feed": None}
+    report = ds.build_report(plan, now=FIXED_NOW, fetch=lambda u: feeds[u])
+    rows = _by_id(report)
+
+    assert rows["good"]["status"] == "ok"
+    assert rows["good"]["health"]["count"] == 3
+    assert rows["good"]["health"]["recommended_weight"] == 0.8
+    # planned 0.5 vs recommended 0.8 -> the recommendation nudges the weight
+    assert "consider weight 0.8" in rows["good"]["recommendation"]
+    assert rows["empty"]["status"] == "empty"
+    assert rows["broken"]["status"] == "unhealthy"
+    assert report["summary"] == {
+        "total": 3, "ok": 1, "empty": 1, "unhealthy": 1, "private": 0,
+        "api": 0, "capability": 0, "with_duplicates": 0,
+    }
+
+
+def test_report_private_source_not_probed():
+    calls = []
+    plan = _plan({"id": "priv", "name": "Secret feed", "category": "private",
+                  "type": "rss", "section": "private", "enabled": "auto",
+                  "secret_ref": ["SRC_PRIV_URL"]})
+
+    def fetch(url):
+        calls.append(url)
+        return SAMPLE_FEED
+
+    report = ds.build_report(plan, now=FIXED_NOW, fetch=fetch)
+    row = report["sources"][0]
+    assert row["status"] == "private"
+    assert row["probed"] is False
+    assert calls == []                        # a private source is never fetched
+
+
+def test_report_capability_url_flagged_never_fetched_or_echoed(capsys):
+    calls = []
+    cap = "https://feeds.example.com/rss?token=deadbeefdeadbeef"
+    plan = _plan({"id": "leak", "name": "Leaky", "category": "open",
+                  "type": "rss", "section": "news", "url": cap, "weight": 0.8})
+
+    def fetch(url):
+        calls.append(url)
+        return SAMPLE_FEED
+
+    report = ds.build_report(plan, now=FIXED_NOW, fetch=fetch)
+    row = report["sources"][0]
+    assert row["status"] == "capability"
+    assert calls == []                        # gated before any fetch
+    # the capability URL/token appears nowhere in the serialized report
+    blob = json.dumps(report)
+    assert cap not in blob and "deadbeef" not in blob and "token=" not in blob
+
+
+def test_report_scholarly_api_source_marked_not_probed():
+    plan = _plan({"id": "arxiv_cl", "name": "arXiv cs.CL", "category": "optional",
+                  "type": "arxiv", "section": "papers", "query": "cat:cs.CL"})
+    report = ds.build_report(plan, now=FIXED_NOW, fetch=lambda u: SAMPLE_FEED)
+    assert report["sources"][0]["status"] == "api"
+    assert report["sources"][0]["probed"] is False
+
+
+def test_report_flags_duplicate_within_plan():
+    plan = _plan(
+        {"id": "guardian_world", "name": "Guardian World", "category": "open",
+         "type": "rss", "section": "news", "url": "https://theguardian.com/world/rss"},
+        {"id": "guardian_tech", "name": "Guardian Tech", "category": "open",
+         "type": "rss", "section": "news", "url": "https://www.theguardian.com/technology/rss"},
+    )
+    report = ds.build_report(plan, now=FIXED_NOW, fetch=lambda u: None)
+    rows = _by_id(report)
+    assert any(d["source_id"] == "guardian_tech" for d in rows["guardian_world"]["duplicates"])
+    assert any(d["source_id"] == "guardian_world" for d in rows["guardian_tech"]["duplicates"])
+    assert report["summary"]["with_duplicates"] == 2
+
+
+def test_report_scrubs_credential_in_name():
+    # A user pasting a URL/token into the NAME field must not surface it in the
+    # (shareable) report — the name falls back to the schema-safe id.
+    plan = _plan(
+        {"id": "leaky_name", "name": "https://feeds.ex/rss?token=deadbeefsecret",
+         "category": "open", "type": "rss", "section": "news",
+         "url": "https://ok.example/feed", "weight": 0.8},
+    )
+    report = ds.build_report(plan, now=FIXED_NOW, fetch=lambda u: SAMPLE_FEED)
+    row = report["sources"][0]
+    assert row["name"] == "leaky_name"                 # scrubbed to the id
+    assert "name hidden" in row["recommendation"]
+    assert "deadbeef" not in json.dumps(report) and "token=" not in json.dumps(report)
+
+
+def test_report_ordinary_long_name_not_scrubbed():
+    plan = _plan(
+        {"id": "ml", "name": "MachineLearningResearchWeekly", "category": "open",
+         "type": "rss", "section": "news", "url": "https://ok.example/feed"},
+    )
+    report = ds.build_report(plan, now=FIXED_NOW, fetch=lambda u: SAMPLE_FEED)
+    assert report["sources"][0]["name"] == "MachineLearningResearchWeekly"
+
+
+def test_report_ignores_malformed_source_entry():
+    plan = {"schema": "newsdash-source-plan/v1",
+            "sources": ["not-a-dict", {"id": "good", "name": "Good", "category": "open",
+                        "type": "rss", "section": "news", "url": "https://ok.example/feed"}]}
+    report = ds.build_report(plan, now=FIXED_NOW, fetch=lambda u: SAMPLE_FEED)
+    assert report["summary"]["total"] == 1               # the bad entry is dropped
+    assert report["sources"][0]["id"] == "good"
+
+
+def test_report_json_never_contains_a_url():
+    plan = _plan(
+        {"id": "good", "name": "Good", "category": "open", "type": "rss",
+         "section": "news", "url": "https://good.example/feed", "weight": 0.8},
+    )
+    report = ds.build_report(plan, now=FIXED_NOW, fetch=lambda u: SAMPLE_FEED)
+    blob = json.dumps(report)
+    assert "http://" not in blob and "https://" not in blob
+
+
+def test_cmd_report_writes_file_and_rejects_bad_schema(tmp_path, monkeypatch, capsys):
+    plan_path = tmp_path / "sources.plan.json"
+    out_path = tmp_path / "report.json"
+
+    plan_path.write_text(json.dumps({"schema": "wrong/v9", "sources": []}))
+    rc = ds.cmd_report(plan_path, out_path=out_path, now=FIXED_NOW, as_json=False)
+    assert rc == 2 and not out_path.exists()
+
+    plan_path.write_text(json.dumps(_plan(
+        {"id": "good", "name": "Good", "category": "open", "type": "rss",
+         "section": "news", "url": "https://good.example/feed", "weight": 0.8})))
+    monkeypatch.setattr(ds, "_fetch", lambda u: SAMPLE_FEED)
+    rc = ds.cmd_report(plan_path, out_path=out_path, now=FIXED_NOW, as_json=False)
+    assert rc == 0 and out_path.exists()
+    written = json.loads(out_path.read_text())
+    assert written["schema"] == "newsdash-source-report/v1"
+    assert written["sources"][0]["status"] == "ok"

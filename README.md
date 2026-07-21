@@ -78,7 +78,14 @@ For a more detailed guideline, please read [the setup guide](docs/SETUP.md).
 ---
 ## Tutorial for agents
 
-After the initial deployment, you can use Claude Code / Codex to employ the Page Skill and the 书童 Skill to customize your sources. Paste this:
+**First visit — a guided welcome.** The first time your freshly deployed site
+loads successfully, it greets you with a short pop-up tutorial: a five-slide
+walkthrough of setup as a to-do checklist, with buttons that deep-link into your
+*own* repo (the setup Issue form, the Actions Secrets page, and this skill's
+README). Tick "don't show again" to dismiss it; you can reopen it any time from
+**Settings → About → "Setup guide."**
+
+After the initial deployment, you can use Claude Code / Codex to employ the Page Skill and the 书童 Skill to customize your sources. Working in a cloned repo, the skill runs a **guided four-step workflow**: (1) **Source Studio** — a local HTML editor for curating sources into a plan; (2) **Test & report** — health-checks each source and renders a shareable freshness chart/report; (3) **Priority** — interviews your interests and tunes keyword `interests`, per-source `weight`, and the homepage-variety `ranking` knob; (4) **Categories** — groups sources into named nav tabs with friendly bilingual labels. For a quick chat-only pass instead, paste this:
 
 ```text
 Use Page Skill for Relevance. Interview me first: which preset packs I want

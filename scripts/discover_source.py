@@ -24,9 +24,11 @@ import argparse
 import json
 import re
 import sys
+from collections import Counter
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
+from types import SimpleNamespace
 from urllib.parse import urljoin, urlparse, urlsplit, parse_qsl
 
 # The package lives under scripts/; make it importable when run as a script.
@@ -672,6 +674,215 @@ def cmd_dupcheck(target: str, *, repo_root: Path, as_json: bool) -> int:
     return 1
 
 
+# --------------------------------------------------------------------------- #
+# Report: health-check a saved source plan (step 2 of the guided setup)
+#
+# Reads a `sources.plan.json` from the Source Studio and, for each source,
+# reports health / freshness / a recommended weight / duplicate overlaps and a
+# plain-language recommendation. SAFETY: the report references sources by
+# id/name only — it NEVER stores a source url. A capability URL that slipped in
+# as an "open" source is flagged (status "capability") and never fetched or
+# echoed; a private source is reported by name only and not probed (its
+# capability URL lives in a Secret, not here).
+# --------------------------------------------------------------------------- #
+
+PLAN_SCHEMA = "newsdash-source-plan/v1"
+REPORT_SCHEMA = "newsdash-source-report/v1"
+QUERY_TYPES = {"arxiv", "openalex", "crossref", "semanticscholar"}
+
+
+def report_kind(source: dict) -> str:
+    """A friendly kind label for the report (mirrors the Studio's kinds)."""
+    if source.get("category") == "private":
+        return "private"
+    t = source.get("type")
+    if t == "openalex":
+        return "scholar"
+    if t == "crossref":
+        return "journal"
+    if t in ("arxiv", "semanticscholar"):
+        return "topic"
+    if "youtube.com/feeds" in (source.get("url") or ""):
+        return "youtube"
+    return {"opml": "advanced", "feed-json": "advanced",
+            "static-page": "advanced"}.get(t, "news")
+
+
+def _name_looks_sensitive(name: str) -> bool:
+    """True if a source NAME appears to contain a URL or credential. The report
+    is advertised as safe to share, so a name a user pasted a token/URL into is
+    replaced by the (schema-safe) source id. Deliberately narrow — marker-based,
+    not the length heuristic — so ordinary long CamelCase names are not scrubbed."""
+    if not name:
+        return False
+    if "://" in name:
+        return True
+    low = name.lower()
+    if "eyj" in low:  # JWT header prefix
+        return True
+    return any(f"{p}=" in low for p in CAPABILITY_QUERY_PARAMS)
+
+
+def _plan_dupes(source: dict, all_sources: list[dict]) -> list[dict]:
+    """Overlaps between ``source`` and the OTHER sources in the same plan
+    (by registrable host or shared ISSN). Never includes a URL."""
+    others = SimpleNamespace(sources=[
+        SourceConfig(id=s.get("id", ""), url=s.get("url"), issn=list(s.get("issn") or []))
+        for s in all_sources if s is not source
+    ])
+    candidate = {"url": source.get("url"), "issn": source.get("issn"), "id": ""}
+    return find_duplicates(candidate, others)
+
+
+def _weight_note(planned, recommended) -> str:
+    if planned is None or recommended is None:
+        return ""
+    if abs(float(planned) - float(recommended)) >= 0.2:
+        return f" (consider weight {recommended})"
+    return ""
+
+
+def report_one(source: dict, all_sources: list[dict], now: datetime,
+               fetch=_fetch) -> dict:
+    """Health-check one planned source. The result NEVER contains a URL."""
+    sid = source.get("id", "")
+    raw_name = source.get("name") or sid
+    name_scrubbed = _name_looks_sensitive(raw_name)
+    result = {
+        "id": sid,
+        "name": sid if name_scrubbed else raw_name,
+        "kind": report_kind(source),
+        "section": source.get("section", ""),
+        "category": source.get("category", "open"),
+        "type": source.get("type", ""),
+        "planned_weight": source.get("weight"),
+        "duplicates": _plan_dupes(source, all_sources),
+        "probed": False,
+        "health": None,
+        "error": None,
+    }
+    category = source.get("category")
+    stype = source.get("type")
+    url = source.get("url")
+    advice = ""
+
+    if category == "private":
+        result["status"] = "private"
+        advice = ("private feed — not health-checked locally; add its "
+                  "SRC_<ID>_URL secret so the pipeline can fetch it")
+    elif url:
+        if is_capability_url(url):
+            # Never fetch and never echo — flag and route to the private protocol.
+            result["status"] = "capability"
+            advice = ("this looks like a capability URL — make it a PRIVATE "
+                      "source (secret_ref), never store the URL in config")
+        else:
+            raw = fetch(url)
+            if raw is None:
+                result["status"] = "unhealthy"
+                result["error"] = "fetch failed"
+                advice = "could not fetch — check the URL by hand"
+            else:
+                stats = probe_feed(raw, now)
+                result["probed"] = True
+                if stats.get("ok"):
+                    result["status"] = "ok"
+                    result["health"] = {
+                        "count": stats["count"],
+                        "cadence_per_week": stats["cadence_per_week"],
+                        "newest": stats["newest"].date().isoformat(),
+                        "oldest": stats["oldest"].date().isoformat(),
+                        "recommended_weight": stats["weight"],
+                    }
+                    cad = stats["cadence_per_week"] or 0
+                    advice = ("healthy — keep" if cad >= 1
+                              else "healthy but sparse — a lower weight may fit")
+                    advice += _weight_note(source.get("weight"), stats["weight"])
+                elif stats.get("count") == 0 or "dated" in (stats.get("error") or ""):
+                    result["status"] = "empty"
+                    result["error"] = stats.get("error")
+                    advice = ("parses but has no recent dated entries — verify "
+                              "the feed or lower its priority")
+                else:
+                    result["status"] = "unhealthy"
+                    result["error"] = stats.get("error")
+                    advice = "feed did not parse — check the URL by hand"
+    elif stype in QUERY_TYPES:
+        result["status"] = "api"
+        advice = ("scholarly API source — freshness depends on the API; "
+                  "not health-probed here")
+    else:
+        result["status"] = "unfetched"
+        advice = "no URL to probe"
+
+    if result["duplicates"]:
+        advice += "; overlaps " + ", ".join(
+            f"{d['source_id']} ({d['kind']})" for d in result["duplicates"])
+    if name_scrubbed:
+        advice = ("name hidden (it looked like a URL/credential — use a plain "
+                  "name); ") + advice
+    result["recommendation"] = advice
+    return result
+
+
+def build_report(plan: dict, *, now: datetime, fetch=None) -> dict:
+    """Assemble the full report for a plan. Pure but for ``fetch`` (injectable;
+    resolved at call time so tests can monkeypatch ``_fetch``)."""
+    if fetch is None:
+        fetch = _fetch
+    # Ignore malformed (non-dict) source entries rather than crashing on them.
+    sources = [s for s in plan.get("sources", []) if isinstance(s, dict)]
+    rows = [report_one(s, sources, now, fetch) for s in sources]
+    counts = Counter(r["status"] for r in rows)
+    summary = {
+        "total": len(rows),
+        "ok": counts.get("ok", 0),
+        "empty": counts.get("empty", 0),
+        "unhealthy": counts.get("unhealthy", 0),
+        "private": counts.get("private", 0),
+        "api": counts.get("api", 0),
+        "capability": counts.get("capability", 0),
+        "with_duplicates": sum(1 for r in rows if r["duplicates"]),
+    }
+    return {"schema": REPORT_SCHEMA, "sources": rows, "summary": summary}
+
+
+def cmd_report(plan_path: Path, *, out_path: Path, now: datetime,
+               as_json: bool) -> int:
+    try:
+        plan = json.loads(Path(plan_path).read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        print(f"report: cannot read plan ({exc})", file=sys.stderr)
+        return 2
+    if plan.get("schema") != PLAN_SCHEMA:
+        print(f"report: not a {PLAN_SCHEMA} plan (got {plan.get('schema')!r})",
+              file=sys.stderr)
+        return 2
+
+    report = build_report(plan, now=now)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(json.dumps(report, indent=2, ensure_ascii=False),
+                        encoding="utf-8")
+
+    if as_json:
+        print(json.dumps(report, indent=2, ensure_ascii=False))
+        return 0
+
+    s = report["summary"]
+    print(f"Report written to {out_path}")
+    line = (f"  {s['total']} sources: {s['ok']} ok, {s['empty']} empty, "
+            f"{s['unhealthy']} unhealthy, {s['private']} private, {s['api']} api")
+    if s["capability"]:
+        line += f", {s['capability']} CAPABILITY (make private!)"
+    print(line)
+    if s["with_duplicates"]:
+        print(f"  {s['with_duplicates']} with possible duplicates")
+    for r in report["sources"]:
+        print(f"  [{r['status']}] {r['name']}: {r['recommendation']}")
+    print("\nRender it: python scripts/build_source_report.py")
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="discover_source.py",
@@ -691,6 +902,12 @@ def build_parser() -> argparse.ArgumentParser:
 
     p_dup = sub.add_parser("dupcheck", help="check a URL or ISSN against config")
     p_dup.add_argument("target", help="feed URL or ISSN")
+
+    p_report = sub.add_parser("report", help="health-check a saved source plan")
+    p_report.add_argument("--plan", type=Path, required=True,
+                          help="sources.plan.json emitted by the Source Studio")
+    p_report.add_argument("--out", type=Path, default=None,
+                          help="report JSON (default: newsdash-studio/source-report.json)")
 
     return parser
 
@@ -715,6 +932,10 @@ def main(argv: list[str] | None = None) -> int:
     if args.command == "dupcheck":
         return cmd_dupcheck(args.target, repo_root=args.repo_root,
                             as_json=args.as_json)
+
+    if args.command == "report":
+        out = args.out or (args.repo_root / "newsdash-studio" / "source-report.json")
+        return cmd_report(args.plan, out_path=out, now=now, as_json=args.as_json)
 
     return 2  # unreachable: subparser is required
 

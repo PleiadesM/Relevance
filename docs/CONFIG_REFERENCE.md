@@ -31,6 +31,50 @@ what's wrong.
 | `theme` | `"the-type"` \| `"nyt"` \| `"bear"` | Default theme (visitors can switch; their choice persists per browser) |
 | `timezone` | IANA name | Day/window boundaries (display uses the *viewer's* clock) |
 | `windows.*` | integers | See overview table; schema enforces sane ranges |
+| `ranking.*` | object | Homepage "Highlights" variety knobs — see §2a |
+| `sections` | array | Friendly bilingual nav-tab labels + ordering for custom sections — see §2b |
+
+### 2a. `ranking` — the homepage Highlights block
+
+```json
+"ranking": { "highlights": true, "max_per_source": 2 }
+```
+
+| Key | Values | Default | Effect |
+|---|---|---|---|
+| `ranking.highlights` | boolean | `true` | Show the mixed **Highlights** block at the top of Today — the highest-scored items pooled across every loaded news/papers-kind section |
+| `ranking.max_per_source` | integer ≥ 1 | `2` | Per-source diversity cap: how many items any single feed may contribute to Highlights, so no one source hogs the front page |
+
+The block pools only loaded (`status: "ok"`) `news`/`papers`-kind sections,
+sorts by score, applies the per-source cap, shows at most 10 items, and hides
+itself entirely when fewer than 3 survive. Set `highlights: false` to drop the
+block; a manifest built before this key existed also hides it (the frontend
+treats a missing `ranking` as off). Schema-enforced: `max_per_source` must be
+an integer ≥ 1 (`config.py` re-checks and errors otherwise). Interview-and-tune
+protocol: `skills/newsdash/references/priority-interview.md`.
+
+### 2b. `sections` — friendly bilingual nav tabs
+
+Optional metadata that renames and reorders nav tabs. It never *creates* a
+section (sources' `section` field does that — see §4); metadata for a section
+that doesn't materialize is ignored.
+
+```json
+"sections": [
+  { "id": "ai", "label": { "en": "AI", "zh": "AI 前沿" }, "order": 1, "kind": "news" }
+]
+```
+
+| Field | Values | Required | Effect |
+|---|---|---|---|
+| `id` | `^[a-z0-9_-]{2,32}$` | yes | The section id this metadata applies to; must be unique across the array |
+| `label` | object with `en` and/or `zh` (each non-empty) | yes | Bilingual nav-tab name; at least one of `en`/`zh` must be present. **Public plaintext in the manifest** — never put private/secret info here |
+| `order` | integer | no | Stable-sorts the nav; entries without `order` keep their relative position *after* ordered ones |
+| `kind` | `"news"` \| `"papers"` | no | Rendering override for **custom sections only** — rejected for the built-ins `news`/`papers`/`following`/`private` so it can never redirect the private pipeline |
+
+Label display falls back `label[activeLang]` → `label.en` → `label.zh` →
+the i18n key `nav.<id>` → the raw id. Full clustering guidance and the proposal format:
+`skills/newsdash/references/categories.md`.
 
 ## 3. `config/sources.json`
 
@@ -244,6 +288,8 @@ never fires on a BBC story.
 | Add a private feed | add a config entry (`category: "private"`, `secret_ref`) + set one matching `SRC_<ID>_URL` secret (§4) |
 | Mark a feed as Chinese | `"lang": "zh"` on the source |
 | Boost my topics | `interests.keywords` (+ `boost`) |
+| Tune the homepage Highlights block | `site.json → ranking` (§2a) |
+| Rename / reorder a nav tab | `site.json → sections[]` (§2b) |
 | Turn on AI enrichment | Secret `LLM_API_KEY` (§4a) |
 | Add Today's Image | Secret `SMITHSONIAN_API_KEY` (+ `LLM_API_KEY`) (§4a) |
 | Stop one source *now* | Variable `<UPPERCASED_SOURCE_ID>_ENABLED=0` |

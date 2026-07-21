@@ -109,6 +109,12 @@ function renderGeneral(container) {
       `${t("settings.version")}: ${manifest?.app_version || "?"} · `,
       el("a", { href: "https://github.com", target: "_blank", rel: "noopener",
                 dataset: { repoDoc: "README.md" } }, "GitHub"),
+      " · ",
+      el("a", { href: "#", class: "reopen-tutorial",
+                onclick: (e) => {
+                  e.preventDefault();
+                  document.dispatchEvent(new CustomEvent("nd:show-tutorial"));
+                } }, t("app.setupGuide")),
     ),
   ));
 }

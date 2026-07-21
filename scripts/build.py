@@ -17,6 +17,7 @@ lines never print counts, titles, or error detail here.
 from __future__ import annotations
 
 import argparse
+import math
 import os
 import shutil
 import sys
@@ -219,10 +220,15 @@ def main(argv=None) -> None:
 
     payloads: dict[str, dict] = {}
     manifest_sections: list[dict] = []
+    section_meta = {m.id: m for m in cfg.site.sections}
     shutil.rmtree(out_dir / ARTICLE_ROOT, ignore_errors=True)
 
     for section in cfg.sections:
-        kind = SECTION_KINDS.get(section, "news")
+        meta = section_meta.get(section)
+        # A metadata kind override applies to custom sections only (the config
+        # semantic check forbids it for built-ins), so it can never redirect
+        # the private-section pipeline.
+        kind = meta.kind if (meta and meta.kind) else SECTION_KINDS.get(section, "news")
         sources = cfg.sources_for_section(section)
         category = section_category(sources)
         sec_status = status.section_status(section)
@@ -281,6 +287,8 @@ def main(argv=None) -> None:
             "status": sec_status,
             "file": None,
         }
+        if meta and meta.label:
+            entry["label"] = dict(meta.label)
         if sec_status == "not_configured":
             remove_if_exists(plain_file)
             remove_if_exists(enc_file)
@@ -297,6 +305,14 @@ def main(argv=None) -> None:
             entry["count"] = count
             print(f"[{section}] {count} items -> {plain_file.name}")
         manifest_sections.append(entry)
+
+    # Order nav tabs by section metadata `order`; entries without one keep
+    # their current relative position after ordered ones (stable sort).
+    manifest_sections.sort(
+        key=lambda e: (section_meta[e["id"]].order
+                       if section_meta.get(e["id"])
+                       and section_meta[e["id"]].order is not None
+                       else math.inf))
 
     # ---- AI daily brief + Today's Image + Apropos-of-Nothing ------------
     # Bolt-on enrichment per docs/ROADMAP.md: reads only news/papers

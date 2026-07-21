@@ -9,7 +9,7 @@ import { clear, el, safeHref } from "../dom.js";
 import { fmtDate, fmtDateTime, fmtRelative, getLang, t } from "../i18n.js";
 import { get } from "../store.js";
 import { itemCard, itemLinkAttrs, toggleFavorite } from "./feed.js";
-import { emptyCard } from "./shared.js";
+import { emptyCard, sectionLabel } from "./shared.js";
 
 function isTheType() {
   return document.documentElement.dataset.theme === "the-type";
@@ -130,8 +130,43 @@ function followingBlock(cardOpts) {
   const top = filterItemsForContentLang(section.payload?.items || [])
     .sort((a, b) => (b.score ?? 0) - (a.score ?? 0)).slice(0, 5);
   if (!top.length) return null;
-  return block(t("nav.following"), "following",
+  return block(sectionLabel("following"), "following",
     top.map((item) => itemCard(item, "following", cardOpts)));
+}
+
+// A config-driven mixed "Highlights" block: the highest-scored items pooled
+// across every LOADED content section, with a per-source diversity cap so no
+// single feed dominates. Driven by manifest.site.ranking (Stage D); renders
+// nothing when highlights are off or there isn't enough variety. Gathers only
+// status==="ok" sections (the locked/private guard) — never touches sections
+// that aren't unlocked and loaded.
+function highlightsBlock(cardOpts) {
+  const ranking = get().manifest?.site?.ranking;
+  if (!ranking || !ranking.highlights) return null;
+  const maxPerSource = Math.max(1, ranking.max_per_source ?? 2);
+
+  const pool = Object.values(get().sections)
+    .filter((s) => s.status === "ok" && Array.isArray(s.payload?.items)
+      && (s.entry?.kind === "news" || s.entry?.kind === "papers"))
+    .flatMap((s) => filterItemsForContentLang(s.payload.items))
+    .slice()
+    .sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
+
+  const perSource = new Map();
+  const picked = [];
+  for (const item of pool) {
+    if (picked.length >= 10) break;
+    const key = item.source_id || item.source || "";
+    const used = perSource.get(key) || 0;
+    if (used >= maxPerSource) continue;
+    perSource.set(key, used + 1);
+    picked.push(item);
+  }
+  if (picked.length < 3) return null;
+
+  return block(t("today.highlights"), null,
+    el("div", { class: "story-grid" },
+      picked.map((item) => itemCard(item, item.section || "news", cardOpts))));
 }
 
 // AI-News-Radar-style numeric overview: fresh count, totals, source health,
@@ -321,6 +356,12 @@ function renderTheType(container, favs) {
   if (grid) hero.appendChild(grid);
   container.appendChild(hero);
 
+  const highlights = highlightsBlock({ favs });
+  if (highlights) {
+    highlights.classList.add("nd-fadein", "nd-fadein-d1");
+    container.appendChild(highlights);
+  }
+
   const feedSection = theTypeFeedSection(favs);
   if (feedSection) {
     feedSection.classList.add("nd-fadein", "nd-fadein-d1");
@@ -368,7 +409,7 @@ export async function render(container) {
   const strip = overviewStrip(favs ? favs.size : null);
   if (strip) container.appendChild(strip);
   const cardOpts = { favs };
-  const blocks = [todaysImageBlock(),
+  const blocks = [highlightsBlock(cardOpts), todaysImageBlock(),
                   storiesBlock(cardOpts), papersBlock(cardOpts), followingBlock(cardOpts)]
     .filter(Boolean);
   const apropos = aproposOfNothingBlock();

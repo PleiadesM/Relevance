@@ -81,6 +81,7 @@ def test_smoke_zero_secret(tmp_path, monkeypatch, repo_root):
     manifest = read(out / "manifest.json")
     assert manifest["status"] == "ok"
     assert manifest["site"]["visibility"] == "public"
+    assert manifest["site"]["ranking"] == {"highlights": True, "max_per_source": 2}
     assert "crypto" not in manifest
 
     by_id = {s["id"]: s for s in manifest["sections"]}
@@ -339,3 +340,38 @@ def test_private_visibility_encrypts_article_files(tmp_path, monkeypatch, make_r
     status = crypto.decrypt_json(
         read(out / "source-status.enc.json"), passphrase, "source-status")
     assert status["sources"][0]["full_text_count"] == 1
+
+
+def test_smoke_custom_section_carries_label_kind_and_orders(tmp_path, monkeypatch, make_repo):
+    # A custom section ("ai") with site.json metadata: the manifest entry must
+    # carry the bilingual label + the overridden kind, and ordered entries must
+    # sort ahead of unordered ones.
+    monkeypatch.delenv("NEWSDASH_PASSPHRASE", raising=False)
+    root = make_repo(
+        site={
+            "schema_version": 1, "title": "T", "visibility": "public",
+            "languages": ["en", "zh"], "default_language": "en",
+            "theme": "bear", "timezone": "UTC",
+            "sections": [
+                {"id": "ai", "label": {"en": "AI", "zh": "AI 前沿"},
+                 "order": 1, "kind": "news"},
+            ],
+        },
+        sources={"schema_version": 1, "presets": [], "sources": [
+            {"id": "world", "type": "rss", "section": "news",
+             "name": "World", "url": "https://a.example/feed.xml"},
+            {"id": "ai_feed", "type": "rss", "section": "ai",
+             "name": "AI Feed", "url": "https://b.example/feed.xml"},
+        ]},
+    )
+    out = tmp_path / "data"
+    build_mod.main(["--output-dir", str(out), "--smoke", "--repo-root", str(root)])
+    manifest = read(out / "manifest.json")
+    by_id = {s["id"]: s for s in manifest["sections"]}
+    assert by_id["ai"]["label"] == {"en": "AI", "zh": "AI 前沿"}
+    assert by_id["ai"]["kind"] == "news"
+    # built-in "news" section stays label-free
+    assert "label" not in by_id["news"]
+    # the ordered section (order=1) sorts ahead of the unordered "news"
+    ids = [s["id"] for s in manifest["sections"]]
+    assert ids.index("ai") < ids.index("news")

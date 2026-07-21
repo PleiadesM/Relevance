@@ -12,8 +12,9 @@ import * as clippingsView from "./views/clippings.js";
 import * as feedView from "./views/feed.js";
 import * as readerView from "./views/reader.js";
 import * as settingsView from "./views/settings.js";
-import { fixDocLinks } from "./views/shared.js";
+import { fixDocLinks, sectionLabel } from "./views/shared.js";
 import * as todayView from "./views/today.js";
+import { showTutorial, tutorialSeen } from "./tutorial.js";
 
 const SECTION_ORDER = ["news", "papers", "following", "private"];
 const viewEl = () => document.getElementById("view");
@@ -90,14 +91,23 @@ function ensureTheTypeFonts() {
   );
 }
 
+// The product wordmark localizes to 及君 in Chinese mode — but only when the
+// deployer kept the default title. A custom site title is shown verbatim.
+function brandTitle() {
+  const title = get().manifest?.site?.title;
+  const lang = document.documentElement.getAttribute("data-lang") || "en";
+  if (!title || title === "Relevance") return lang === "zh" ? "及君" : "Relevance";
+  return title;
+}
+
 function renderHeader() {
   ensureTheTypeFonts();
   const { manifest, unlocked } = get();
-  document.getElementById("site-title-link").textContent =
-    manifest?.site?.title || "Relevance";
+  const brand = brandTitle();
+  document.getElementById("site-title-link").textContent = brand;
   document.getElementById("site-subtitle").textContent =
     manifest?.site?.subtitle || t("app.tagline");
-  document.title = manifest?.site?.title || "Relevance";
+  document.title = brand;
 
   const updated = document.getElementById("updated-at");
   updated.textContent = manifest?.generated_at
@@ -121,13 +131,23 @@ function renderHeader() {
   clear(nav);
   for (const route of routes()) {
     nav.appendChild(el("a", { href: `#/${route}`, dataset: { route } },
-      t(`nav.${route}`) === `nav.${route}` ? route : t(`nav.${route}`)));
+      sectionLabel(route)));
   }
 }
 
 function renderAll() {
   renderHeader();
   renderView();
+}
+
+// First-run only: show the setup tutorial once the site is live and readable
+// (never over the awaiting-build screen or the private gate). Callers invoke
+// this after content has rendered; the "seen" flag makes it a one-time popup.
+function maybeShowTutorial() {
+  if (tutorialSeen() || isGated()) return;
+  const { manifest } = get();
+  if (!manifest || manifest.status === "awaiting_first_build") return;
+  showTutorial();
 }
 
 // ---- unlock / lock -------------------------------------------------------
@@ -216,6 +236,7 @@ async function unlock(passphrase, remember) {
     set({ cryptoKey: key, unlocked: true });
     await loadAllSections();
     renderAll();
+    maybeShowTutorial();
     return true;
   } catch (err) {
     console.error("unlock failed:", err);
@@ -297,6 +318,7 @@ async function boot() {
   document.addEventListener("nd:unlock-request", showUnlockModal);
   document.addEventListener("nd:lock", lock);
   document.addEventListener("nd:rerender", renderCurrent);
+  document.addEventListener("nd:show-tutorial", showTutorial);
   window.addEventListener("hashchange", renderCurrent);
 
   await tryRememberedKey();
@@ -322,6 +344,7 @@ async function refreshContent() {
   }
   await loadAllSections();
   renderAll();
+  maybeShowTutorial();
 }
 
 function renderCurrent() {

@@ -97,6 +97,120 @@ When the user brings a **topic, a web page, or an OPML export** instead of a
 ready feed URL, don't guess — reach for `scripts/discover_source.py`
 (Discovery, below) to find and vet the feed first.
 
+## Guided setup — the Source Studio workflow
+
+For a deployer who has cloned the repo and is working with you (Claude Code,
+Codex, …), prefer this hands-on, four-step flow over a chat questionnaire. Each
+step is one turn; pause for the user between them.
+
+1. **Source Studio** — run `python scripts/build_source_studio.py` to generate a
+   local, gitignored HTML editor. The user curates sources there (add/remove,
+   public/private, friendly kinds, weights) and Saves a `sources.plan.json`; you
+   apply it. Full protocol: `references/source-studio.md`.
+2. **Test & report** — health-check each source and show the results + weight /
+   dedupe recommendations, then add sources by description.
+3. **Priority** — interview the user's interests, then tune `interests` +
+   per-source `weight` and diversify the homepage.
+4. **Categories** — propose a set of named nav tabs (sections), assign sources
+   to them, and give each a friendly bilingual label.
+
+### Step 1 — Source Studio
+
+Generate it, tell the user to open `newsdash-studio/source-studio.html`, edit,
+and Save / Copy the plan. Then apply it per `references/source-studio.md`: run
+every `url` past the capability-URL gate (`scripts/discover_source.py`), write
+`plan.sources` into `config/sources.json` (preserving `interests`/`tag_rules`),
+set `presets`, and `python scripts/validate_config.py`. **A private source in
+the plan carries a `secret_ref` name and never a `url`** — keep it that way.
+
+### Step 2 — Test & report
+
+Health-check the planned sources and show the user the result:
+
+```bash
+python scripts/discover_source.py report --plan newsdash-studio/sources.plan.json
+python scripts/build_source_report.py
+```
+
+The first writes `newsdash-studio/source-report.json` (per-source status,
+freshness/cadence, a recommended weight, duplicate overlaps); the second renders
+`newsdash-studio/source-report.html` — a freshness chart + a table with a
+plain-language recommendation per source. The report references sources by name
+only and **never prints a URL**, so it is safe to share. Walk the user through it:
+
+- **ok** — healthy; keep. If the recommended weight differs from the planned one, offer to adjust.
+- **empty / unhealthy** — parses with no recent items, or failed to fetch; verify the URL or drop it.
+- **capability** — an "open" source whose URL looks like a credential; move it to a
+  private source (`secret_ref`), never store the URL. (The Studio blocks this, but a hand-edited plan can trip it.)
+- **private / api** — not health-checked locally (private URLs live in Secrets; scholarly APIs depend on the service).
+- **duplicates** — two sources share a host or ISSN; drop or merge one.
+
+Apply the keep/drop/weight decisions to `config/sources.json`, re-run
+`validate_config.py`. Then **add sources by description**: when the user says
+"follow X" or "add this blog", use `scripts/discover_source.py probe <url>` +
+`references/source-intake.md` to find and vet the feed, then slot it in.
+
+### Step 3 — Priority & homepage variety
+
+Now make the ranking feel like the owner's. Interview them per
+`references/priority-interview.md` — read `scripts/newsdash/scoring.py` first so
+your promises match the real formula (recency + keyword relevance + weight).
+The interview maps their answers onto four knobs:
+
+- `interests.keywords` + `interests.boost` in `config/sources.json` — what
+  topics lift an item (boost `0.0`–`0.5`, default `0.15`).
+- per-source `weight` (`0`–`1`) — a steady thumb on the scale for trusted
+  feeds; override preset weights by id, never edit the pack.
+- `ranking` in `config/site.json` — homepage variety. `{"highlights": true,
+  "max_per_source": 2}`: `highlights` toggles the mixed top-of-page Highlights
+  block; `max_per_source` (minimum `1`) caps how many items one feed may
+  contribute so no single source hogs the front page.
+
+Apply, then validate + smoke build and sanity-read the ordering:
+
+```bash
+python scripts/validate_config.py
+python scripts/build.py --output-dir /tmp/nd --smoke
+```
+
+Because `--smoke` feeds are empty, also eyeball a live build (or the deployed
+`data/news.json`) to confirm the owner's keywords and trusted sources actually
+surface. Full protocol and the answers→config mapping table live in
+`references/priority-interview.md`.
+
+### Step 4 — Categories (custom tabs)
+
+Finally, give the dashboard its shape. Cluster the existing sources into a
+handful of named nav tabs (sections), reusing the Studio's per-source `section`
+assignment from step 1, and give each tab a friendly **bilingual** label so the
+nav reads "AI 前沿" rather than a raw `ai` id. Custom sections already build and
+route — this step only adds their metadata.
+
+Propose 4–7 tabs (the built-ins `news`/`papers` stay), show the owner a table of
+tab id, en/zh label, and which sources move in, then apply: set `section` on the
+moving sources in `config/sources.json`, and add a `sections[]` block to
+`config/site.json`:
+
+```json
+"sections": [
+  { "id": "ai", "label": { "en": "AI", "zh": "AI 前沿" }, "order": 1, "kind": "news" }
+]
+```
+
+`order` and `kind` are optional (`kind` is a custom-sections-only news-/
+papers-rendering override — rejected on built-ins); `label` needs at least one
+of en/zh. Validate + smoke build and confirm `manifest.sections[].label`:
+
+```bash
+python scripts/validate_config.py
+python scripts/build.py --output-dir /tmp/nd --smoke
+```
+
+Labels are **public plaintext** in the manifest (readable before login) — never
+put private or secret info in them, and keep private sources in the `private`
+section. Full clustering guidance, the proposal format, and the rules live in
+`references/categories.md`.
+
 ## Manage sources
 
 The ongoing side of source work: knowing what's configured, reading its

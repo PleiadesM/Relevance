@@ -1,7 +1,8 @@
 // Small shared state cards (locked / empty / error / not-configured).
 
 import { el } from "../dom.js";
-import { t } from "../i18n.js";
+import { getLang, t } from "../i18n.js";
+import { get } from "../store.js";
 
 export function lockedCard() {
   return el("div", { class: "state-card locked-card" },
@@ -30,6 +31,24 @@ export function emptyCard() {
 
 export function errorCard() {
   return el("div", { class: "state-card" }, el("p", { class: "muted" }, t("app.error")));
+}
+
+// Friendly display name for a section/route. Custom sections carry a
+// bilingual `label` in the manifest (label[lang] -> en -> zh); everything
+// else falls back to the i18n `nav.<id>` key, then the raw id. Non-section
+// routes (today/clippings/settings) have no manifest entry and so resolve
+// straight through the i18n fallback.
+export function sectionLabel(sectionId) {
+  const entry = (get().manifest?.sections || []).find((s) => s.id === sectionId);
+  const label = entry?.label;
+  if (label) {
+    const lang = getLang();
+    const picked = label[lang] || label.en || label.zh;
+    if (picked) return picked;
+  }
+  const key = `nav.${sectionId}`;
+  const translated = t(key);
+  return translated === key ? sectionId : translated;
 }
 
 // Point doc links at the deployer's own repo when the site runs on

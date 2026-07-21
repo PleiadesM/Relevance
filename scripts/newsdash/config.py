@@ -71,6 +71,28 @@ class Windows:
 
 
 @dataclass
+class Ranking:
+    # Homepage variety knobs: whether to show the mixed "Highlights" block,
+    # and how many items any single source may contribute to it.
+    highlights: bool = True
+    max_per_source: int = 2
+
+
+@dataclass
+class SectionMeta:
+    """Friendly, orderable metadata for a nav tab (section).
+
+    Attached to the manifest so the frontend can show a bilingual label
+    instead of the raw section id, and (custom sections only) override how
+    the section renders. Labels are public plaintext in the manifest.
+    """
+    id: str
+    label: dict  # {"en": ..., "zh": ...}; at least one key present
+    order: int | None = None
+    kind: str | None = None
+
+
+@dataclass
 class SiteConfig:
     title: str
     subtitle: str
@@ -80,6 +102,8 @@ class SiteConfig:
     theme: str
     timezone: str
     windows: Windows
+    ranking: Ranking
+    sections: list[SectionMeta] = field(default_factory=list)
 
 
 @dataclass
@@ -294,6 +318,10 @@ def load_site(repo_root: Path) -> SiteConfig:
     doc = _load_json(repo_root / "config" / "site.json")
     _validate(doc, site_schema, registry, "config/site.json")
     win = Windows(**doc.get("windows", {}))
+    rank = Ranking(**doc.get("ranking", {}))
+    if rank.max_per_source < 1:
+        raise ConfigError("config/site.json: ranking.max_per_source must be >= 1")
+    sections = _parse_sections(doc.get("sections", []))
     return SiteConfig(
         title=doc["title"],
         subtitle=doc.get("subtitle", ""),
@@ -303,7 +331,40 @@ def load_site(repo_root: Path) -> SiteConfig:
         theme=doc["theme"],
         timezone=doc["timezone"],
         windows=win,
+        ranking=rank,
+        sections=sections,
     )
+
+
+def _parse_sections(raw_sections: list[dict]) -> list[SectionMeta]:
+    """Parse & semantically check optional section metadata (nav tabs).
+
+    Schema has already checked shape (id pattern, label en/zh, kind enum).
+    Here we enforce cross-field rules: ids are unique, a ``kind`` override is
+    rejected for built-in sections (news/papers/following/private) so it can
+    never redirect the private-section pipeline, and a label must carry at
+    least one of en/zh.
+    """
+    sections: list[SectionMeta] = []
+    seen: set[str] = set()
+    for raw in raw_sections:
+        sid = raw["id"]
+        if sid in seen:
+            raise ConfigError(
+                f"config/site.json: duplicate section metadata id {sid!r}")
+        seen.add(sid)
+        label = dict(raw.get("label", {}))
+        if not any(label.get(k) for k in ("en", "zh")):
+            raise ConfigError(
+                f"config/site.json: section {sid!r} label needs 'en' or 'zh'")
+        kind = raw.get("kind")
+        if kind is not None and sid in SECTION_KINDS:
+            raise ConfigError(
+                f"config/site.json: kind override not allowed for built-in "
+                f"section {sid!r}")
+        sections.append(SectionMeta(
+            id=sid, label=label, order=raw.get("order"), kind=kind))
+    return sections
 
 
 def load_config(repo_root: Path, env: Mapping[str, str] | None = None) -> Config:
