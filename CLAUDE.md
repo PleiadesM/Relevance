@@ -11,12 +11,11 @@ workflow" below for why.
 
 ## This repo's role: the public template
 
-This repo (`PleiadesM/Personal_Newsdash`) is the **public-facing template**,
-aimed at a generic audience who might fork/use it themselves. Its product
-name/branding is **Relevance (及君)** as of 2026-07-08 — the repo itself
-(folder name, GitHub repo name, Pages URL) was deliberately **not** renamed
-in that pass, only user-facing text (README, site title, UI strings, docs
-prose). If a future session renames the repo/URL too, update this note.
+This repo (`PleiadesM/Relevance`, at `~/Documents/GitHub/Relevance`) is the
+**public-facing template**, aimed at a generic audience who might fork/use it
+themselves. Its product name/branding is **Relevance (及君)** as of
+2026-07-08; the GitHub repo and local folder were later renamed to match
+(observed 2026-07-21 — formerly `PleiadesM/Personal_Newsdash`).
 
 There is a **sibling private repo**, `PleiadesM/Apropos_PleiadesM`
 (`~/Documents/GitHub/Apropos_PleiadesM`), forked from this one at commit
@@ -39,12 +38,12 @@ plan document.
 Three standard modes (default; an explicit user-specified scope for a
 given round overrides them):
 
-1. **Both repos** — the change is needed in both `Personal_Newsdash`
+1. **Both repos** — the change is needed in both `Relevance`
    (public) and `Apropos_PleiadesM` (private). **Start with the private
    repo**: implement and test the change there first, then port it to the
    public repo. Never the other direction — the private repo can carry
    real/private test data and is where regressions are cheapest to catch.
-2. **Public only** — the change belongs only to `Personal_Newsdash` (e.g.
+2. **Public only** — the change belongs only to `Relevance` (e.g.
    the rebrand, generic template features aimed at external forkers). Do
    not port it to the private repo unless asked.
 3. **Private only** — the change belongs only to `Apropos_PleiadesM` (e.g.
