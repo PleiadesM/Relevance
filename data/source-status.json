@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-20T23:13:12Z",
+ "generated_at": "2026-07-21T03:41:56Z",
  "private_summary": {
   "configured": 0,
   "total": 0
@@ -151,7 +151,7 @@
   },
   {
    "category": "open",
-   "count": 25,
+   "count": 22,
    "error": null,
    "full_text_count": 0,
    "id": "nyt_homepage",
@@ -175,7 +175,7 @@
   },
   {
    "category": "optional",
-   "count": 11,
+   "count": 7,
    "error": null,
    "full_text_count": 0,
    "id": "arxiv_datavis",
@@ -211,7 +211,7 @@
   },
   {
    "category": "optional",
-   "count": 15,
+   "count": 13,
    "error": null,
    "full_text_count": 0,
    "id": "crossref_techcomm_journals",
@@ -235,7 +235,7 @@
   },
   {
    "category": "optional",
-   "count": 8,
+   "count": 6,
    "error": null,
    "full_text_count": 0,
    "id": "arxiv_hci_writing",
