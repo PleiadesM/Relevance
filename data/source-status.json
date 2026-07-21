@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-21T03:41:56Z",
+ "generated_at": "2026-07-21T06:39:59Z",
  "private_summary": {
   "configured": 0,
   "total": 0
@@ -151,7 +151,7 @@
   },
   {
    "category": "open",
-   "count": 22,
+   "count": 20,
    "error": null,
    "full_text_count": 0,
    "id": "nyt_homepage",
@@ -175,12 +175,12 @@
   },
   {
    "category": "optional",
-   "count": 7,
-   "error": null,
+   "count": 0,
+   "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60",
    "full_text_count": 0,
    "id": "arxiv_datavis",
    "name": "arXiv cs.HC + cs.GR",
-   "ok": true,
+   "ok": false,
    "section": "papers",
    "skip_reason": null,
    "type": "arxiv"
@@ -235,12 +235,12 @@
   },
   {
    "category": "optional",
-   "count": 6,
-   "error": null,
+   "count": 0,
+   "error": "429 Client Error: Too Many Requests for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC&sortBy=submittedDate&sortOrder=descending&max_results=40",
    "full_text_count": 0,
    "id": "arxiv_hci_writing",
    "name": "arXiv cs.HC (writing & docs)",
-   "ok": true,
+   "ok": false,
    "section": "papers",
    "skip_reason": null,
    "type": "arxiv"
@@ -271,12 +271,12 @@
   },
   {
    "category": "open",
-   "count": 15,
-   "error": null,
+   "count": 0,
+   "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCvxZ0tCKgCrrgfGu_175NIA",
    "full_text_count": 0,
    "id": "radiance_fields_yt",
    "name": "Radiance Fields (YouTube)",
-   "ok": true,
+   "ok": false,
    "section": "news",
    "skip_reason": null,
    "type": "rss"

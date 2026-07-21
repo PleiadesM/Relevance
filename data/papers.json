@@ -2,95 +2,6 @@
  "items": [
   {
    "authors": [
-    "Sadra Sabouri",
-    "Zeinabsadat Saghi",
-    "Jordan Lee Boyd-Graber",
-    "Jonathan May",
-    "Jonathan K. Kummerfeld",
-    "Souti Chattopadhyay"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Prior work on AI-assisted information evaluation has largely focused on what AI systems communicate, comparing explanation types and formats, with responses predominantly cast in directive rhetoric where the system delivers a verdict and the user passively accepts it. While debate-style interactions have recently shown promise in prompting critical evaluation over deference, the rhetorical patterns that structure AI responses and how they might induce reflection, uncertainty, or independent…",
-    "arxiv_id": "2607.17627"
-   },
-   "id": "701b3f5cdf392312",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-20T07:36:25Z",
-   "score": 0.7068,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Prior work on AI-assisted information evaluation has largely focused on what AI systems communicate, comparing explanation types and formats, with responses predominantly cast in directive rhetoric where the system delivers a verdict and the user passively accepts it. While debate-style…",
-   "tags": [
-    "ai-writing",
-    "techcomm"
-   ],
-   "title": "It Matters How You Say It: Exploring Rhetorical Patterns for AI-Assisted Information Evaluation",
-   "url": "https://arxiv.org/abs/2607.17627v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Ruei-Che Chang",
-    "Wenqian Xu",
-    "Dingzeyu Li",
-    "Bryan Wang",
-    "Anhong Guo"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Computer Use Agents (CUAs) can autonomously execute complex, multi-step tasks within GUIs, enhancing efficiency through parallel multitasking. However, our formative studies with CUA experts and GenAI users indicated that current feedback is primarily text-based, requiring sustained attention to monitor progress and offering limited visibility to trace past GUI interactions. Based on the findings, we developed a prototype system, Sidekick, for communicating CUAs' status with multimodal feedback…",
-    "arxiv_id": "2607.17527"
-   },
-   "id": "fc08650f00499277",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-20T04:03:38Z",
-   "score": 0.6921,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Computer Use Agents (CUAs) can autonomously execute complex, multi-step tasks within GUIs, enhancing efficiency through parallel multitasking. However, our formative studies with CUA experts and GenAI users indicated that current feedback is primarily text-based, requiring sustained attention to…",
-   "tags": [
-    "ai-writing",
-    "ux"
-   ],
-   "title": "Sidekick: Designing Communication for Effective Multitasking with Computer Use Agents",
-   "url": "https://arxiv.org/abs/2607.17527v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Meng Chen",
-    "Amy Pavel"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "People increasingly use chatbots such as ChatGPT for everyday analysis tasks. While chatbots unify many analysis functions (e.g., scripts, visualizations, summaries), long conversations become hard to navigate, making it difficult to revisit prior steps or reuse successful workflows. LLMs now generate high-fidelity GUI code that enables people to create customized analysis tools beyond text. Yet, what new opportunities generative UIs bring to analysis work remain unclear. We interviewed six…",
-    "arxiv_id": "2607.17394"
-   },
-   "id": "3d22c1f020620b4a",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-19T19:53:01Z",
-   "score": 0.7006,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "People increasingly use chatbots such as ChatGPT for everyday analysis tasks. While chatbots unify many analysis functions (e.g., scripts, visualizations, summaries), long conversations become hard to navigate, making it difficult to revisit prior steps or reuse successful workflows. LLMs now…",
-   "tags": [
-    "ml-vis",
-    "llm",
-    "visualization"
-   ],
-   "title": "TaskArtisan: Designing Composable Generative Widgets for LLM-Assisted Analysis",
-   "url": "https://arxiv.org/abs/2607.17394v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
     "Clay Spinuzzi"
    ],
    "category": "optional",
@@ -103,7 +14,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-19T16:01:32Z",
-   "score": 0.3789,
+   "score": 0.3709,
    "section": "papers",
    "source": "TechComm journals (CrossRef)",
    "source_id": "crossref_techcomm_journals",
@@ -114,211 +25,6 @@
    "title": "Testing the Battery: How a Startup’s Design Objects Cohere as a Fractional Object",
    "url": "https://doi.org/10.1177/07410883261461546",
    "venue": "Written Communication"
-  },
-  {
-   "authors": [
-    "Nisha Devasia",
-    "Michele Newman",
-    "Safinah Ali",
-    "Julie A. Kientz",
-    "Jin Ha Lee"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "In recent years, interest in eudaimonic player experiences (PX) - concerning reflection, meaning-making, and personal growth - has increased. However, most games user research methods are not well-suited to study eudaimonic PX, as they have been developed to evaluate features of hedonic PX, such as flow, immersion, and playability. To more deeply explore eudaimonic PX, we require methods that can 1) investigate how moment-to-moment PX shapes player reflection and 2) explore how players reengage…",
-    "arxiv_id": "2607.17128"
-   },
-   "id": "77f147301d5c6d7c",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-19T08:34:05Z",
-   "score": 0.6218,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "In recent years, interest in eudaimonic player experiences (PX) - concerning reflection, meaning-making, and personal growth - has increased. However, most games user research methods are not well-suited to study eudaimonic PX, as they have been developed to evaluate features of hedonic PX, such as…",
-   "tags": [
-    "ai-writing"
-   ],
-   "title": "SAVEstate: A Method for Documenting Player Reflection in Digital Games",
-   "url": "https://arxiv.org/abs/2607.17128v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Andrew Anderson",
-    "David Piorkowski",
-    "Justin Weisz",
-    "Margaret Burnett",
-    "Kush Varshney"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Large language model (LLM) code explanations can support people in solving code-related problems, yet prior work has shown that people have diverse problem-solving styles. If explanations fail to meet people's problem-solving needs, they may be less productive in their occupations and miss opportunities to learn and grow. Although some research has examined how LLMs can adapt their outputs to a user's age or expertise, no prior work has examined how LLMs can adapt their code explanations to…",
-    "arxiv_id": "2607.17022"
-   },
-   "id": "45ffe5a98e449920",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-19T01:20:42Z",
-   "score": 0.7396,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Large language model (LLM) code explanations can support people in solving code-related problems, yet prior work has shown that people have diverse problem-solving styles. If explanations fail to meet people's problem-solving needs, they may be less productive in their occupations and miss…",
-   "tags": [
-    "ai-writing",
-    "llm"
-   ],
-   "title": "Can LLM Code Explanations Adapt to Diverse Problem-Solvers' Needs?",
-   "url": "https://arxiv.org/abs/2607.17022v1",
-   "venue": "arXiv cs.SE"
-  },
-  {
-   "authors": [
-    "Mohammad Arvan",
-    "Amber E. Osterholt",
-    "Bailee Rue",
-    "Yuvaneswaren Ramakrishnan Sureshbabu",
-    "Krishna Riteshkumar Patel",
-    "Rebecca T. Feinstein"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Introduction. Clinical and Translational Science Award (CTSA) programs must document their scholars' research impact, but assembling each scholar's record by hand takes staff an estimated 15 hours and does not scale to a full cohort. An artificial intelligence (AI) agent could serve as a tool to gather scholar data across platforms and disciplines. Methods. We built a human-in-the-loop AI agent that assembles a dossier of sourced evidence for each scholar and drafts one-sentence Translational…",
-    "arxiv_id": "2607.16989"
-   },
-   "id": "12adc72b790b54f2",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-18T22:34:52Z",
-   "score": 0.5916,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Introduction. Clinical and Translational Science Award (CTSA) programs must document their scholars' research impact, but assembling each scholar's record by hand takes staff an estimated 15 hours and does not scale to a full cohort. An artificial intelligence (AI) agent could serve as a tool to…",
-   "tags": [
-    "ai-writing"
-   ],
-   "title": "Real-World Evaluation of an AI Agent Drafting Translational Impact Summaries",
-   "url": "https://arxiv.org/abs/2607.16989v1",
-   "venue": "arXiv cs.CL"
-  },
-  {
-   "authors": [
-    "Luke Fiorante",
-    "Leslie Liu",
-    "Adam Xu",
-    "Xianmei Lei",
-    "Darwin Chiu",
-    "Krys Blackwood"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "While Mars rover operators plan drives across hazardous Martian terrain and diagnose unexpected faults, the necessary information is distributed across separate systems and often reconstructed through manual correlation and memory. To address this challenge, we partnered with Mars rover operators at the NASA Jet Propulsion Laboratory to introduce Hindsight, a visual analytics system that unifies previously disparate rover drive data into a single workspace for search, comparison, and…",
-    "arxiv_id": "2607.16537"
-   },
-   "id": "dfee5023c5cdb174",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-17T22:24:15Z",
-   "score": 0.5718,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "While Mars rover operators plan drives across hazardous Martian terrain and diagnose unexpected faults, the necessary information is distributed across separate systems and often reconstructed through manual correlation and memory. To address this challenge, we partnered with Mars rover operators…",
-   "tags": [
-    "systems"
-   ],
-   "title": "Hindsight: Similarity-Based Analytics for Mars Rover Drive Retrieval",
-   "url": "https://arxiv.org/abs/2607.16537v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Andres Karjus",
-    "Janika Leoste",
-    "Tiia Õun"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Generative AI is increasingly used for feedback in higher education, but evidence from repeated classroom use remains limited. This short paper analyses 2988 reflective essay-feedback-appraisal instances from 283 Estonian bachelor students across one semester. Students obtained and assessed feedback from a self-selected AI tool using a uniform prompt. The present analysis of the anonymized text corpus covers essay content, AI feedback, and its perceived helpfulness. Students found feedback…",
-    "arxiv_id": "2607.16115"
-   },
-   "id": "413c60c9550ea182",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-17T16:53:00Z",
-   "score": 0.5204,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Generative AI is increasingly used for feedback in higher education, but evidence from repeated classroom use remains limited. This short paper analyses 2988 reflective essay-feedback-appraisal instances from 283 Estonian bachelor students across one semester. Students obtained and assessed…",
-   "tags": [
-    "pedagogy",
-    "ai-writing",
-    "techcomm"
-   ],
-   "title": "Student Evaluation of Repeated AI Feedback Across a Semester of Writing",
-   "url": "https://arxiv.org/abs/2607.16115v1",
-   "venue": "arXiv cs.CY"
-  },
-  {
-   "authors": [
-    "Maeve Hutchinson",
-    "Abderrahmane Wassim Mehdaoui",
-    "Pranava Madhyastha"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Understanding how vision-language models (VLMs) interpret data visualizations remains an open problem, and is increasingly important as these models are used for analytical tasks where reliable reasoning is essential. We introduce a lightweight, diagnostic saliency map method tailored for text generation over images using transformer models, the current state-of-the-art models in visualization interpretation. Our approach aggregates the language model's attention over the visual tokens across…",
-    "arxiv_id": "2607.16105"
-   },
-   "id": "fbd10fe46dfe7415",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-17T16:40:23Z",
-   "score": 0.7,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Understanding how vision-language models (VLMs) interpret data visualizations remains an open problem, and is increasingly important as these models are used for analytical tasks where reliable reasoning is essential. We introduce a lightweight, diagnostic saliency map method tailored for text…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "Attention-Guided Saliency Maps for Interpreting Visualization Literacy in VLMs",
-   "url": "https://arxiv.org/abs/2607.16105v1",
-   "venue": "arXiv cs.CV"
-  },
-  {
-   "authors": [
-    "Théophane Loloum",
-    "Fabien Vivodtzev",
-    "David Hébert",
-    "Baptiste Reynier",
-    "Michel Arrigoni",
-    "Julien Tierny"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "This application paper presents DebrisTracer, a framework for the reliable tracking of debris in hypervelocity impact fast imaging. These noisy and highly specific datasets capture the ejection of a large number of debris fragments after the impact of a projectile launched at hypervelocity into a target material. The reliable estimation of debris mass and speed distributions is of major importance in aerospace applications. We document how to extend an off-the-shelf topology tracking framework…",
-    "arxiv_id": "2607.15986"
-   },
-   "id": "33717867e1630e96",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-17T14:24:05Z",
-   "score": 0.363,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "This application paper presents DebrisTracer, a framework for the reliable tracking of debris in hypervelocity impact fast imaging. These noisy and highly specific datasets capture the ejection of a large number of debris fragments after the impact of a projectile launched at hypervelocity into a…",
-   "tags": [
-    "systems"
-   ],
-   "title": "DebrisTracer: Reliable Tracking in Hypervelocity Impact Fast Imaging",
-   "url": "https://arxiv.org/abs/2607.15986v1",
-   "venue": "arXiv cs.LG"
   },
   {
    "authors": [
@@ -334,7 +40,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-17T11:09:40Z",
-   "score": 0.4095,
+   "score": 0.4053,
    "section": "papers",
    "source": "TechComm journals (CrossRef)",
    "source_id": "crossref_techcomm_journals",
@@ -363,7 +69,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-17T10:20:03Z",
-   "score": 0.2708,
+   "score": 0.2666,
    "section": "papers",
    "source": "TechComm journals (CrossRef)",
    "source_id": "crossref_techcomm_journals",
@@ -389,7 +95,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-17T10:17:55Z",
-   "score": 0.2707,
+   "score": 0.2665,
    "section": "papers",
    "source": "TechComm journals (CrossRef)",
    "source_id": "crossref_techcomm_journals",
@@ -416,7 +122,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-17T07:45:03Z",
-   "score": 0.4046,
+   "score": 0.4006,
    "section": "papers",
    "source": "TechComm journals (CrossRef)",
    "source_id": "crossref_techcomm_journals",
@@ -444,7 +150,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-17T07:42:02Z",
-   "score": 0.2671,
+   "score": 0.263,
    "section": "papers",
    "source": "TechComm journals (CrossRef)",
    "source_id": "crossref_techcomm_journals",
@@ -455,88 +161,6 @@
    "title": "Syntagmatic and Functional Context of Pauses During Writing: A Hallidayan Perspective",
    "url": "https://doi.org/10.1177/07410883261461550",
    "venue": "Written Communication"
-  },
-  {
-   "authors": [
-    "Hyeon Jeon",
-    "Sungbok Shin",
-    "Niklas Elmqvist"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "When domain experts create charts, the bottleneck is rarely the data, but knowing the optimal next step in chart design. The visualization design space is vast, and while domain experts can recognize a good design when they see it, it is often challenging to determine the exact path to get there. To address this, we present VISAUTOCOMPLETE, a system inspired by text autocompletion that reconceptualizes visualization design as a sequential process, recommending concrete next steps at each stage…",
-    "arxiv_id": "2607.15608"
-   },
-   "id": "bfb1f0944eefd9a1",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-17T04:09:00Z",
-   "score": 0.5368,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "When domain experts create charts, the bottleneck is rarely the data, but knowing the optimal next step in chart design. The visualization design space is vast, and while domain experts can recognize a good design when they see it, it is often challenging to determine the exact path to get there.…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "Visualization Autocomplete: Visualization Authoring via Stepwise Design Recommendations",
-   "url": "https://arxiv.org/abs/2607.15608v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Hongyu Zhu",
-    "Lin Chen",
-    "Yuming Fu",
-    "Mounim A. El-Yacoubi",
-    "Mingsheng Shang"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Electroencephalography (EEG)-based emotion recognition captures affective neural signals with high temporal precision, but cross-subject variability and label noise remain critical challenges to its practical healthcare deployment. Existing label-denoising methods lack physiological grounding, while physiology-informed approaches rely on hand-crafted hyperparameters. To bridge these two paradigms, we propose PhyDA, a plug-and-play, tuning-free framework that unifies neurophysiological priors…",
-    "arxiv_id": "2607.15566"
-   },
-   "id": "7c05f4aa64d554b0",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-17T02:17:23Z",
-   "score": 0.5336,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Electroencephalography (EEG)-based emotion recognition captures affective neural signals with high temporal precision, but cross-subject variability and label noise remain critical challenges to its practical healthcare deployment. Existing label-denoising methods lack physiological grounding,…",
-   "tags": [
-    "ml-vis"
-   ],
-   "title": "Physiological Prior-Driven Label Enhancement for Cross-Subject EEG Emotion Recognition",
-   "url": "https://arxiv.org/abs/2607.15566v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Zhicheng Liu"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Scene-centric visualization systems expose semantic components, such as marks, encodings, layouts, and axes, as first-class objects that can be directly manipulated. Existing interaction abstractions, however, are largely based on event streams, signals, and data selections rather than semantic scene components. This mismatch makes interactions involving scene components less natural to specify and limits the expressive power of scene-centric visualization systems. We present Interactive…",
-    "arxiv_id": "2607.15523"
-   },
-   "id": "fb24bdcaac83532f",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-17T00:19:59Z",
-   "score": 0.5304,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Scene-centric visualization systems expose semantic components, such as marks, encodings, layouts, and axes, as first-class objects that can be directly manipulated. Existing interaction abstractions, however, are largely based on event streams, signals, and data selections rather than semantic…",
-   "tags": [
-    "systems",
-    "visualization"
-   ],
-   "title": "Interactive Mascot: A Scene-Centric Interaction Grammar for Data Visualizations",
-   "url": "https://arxiv.org/abs/2607.15523v2",
-   "venue": "arXiv cs.HC"
   },
   {
    "authors": [
@@ -553,7 +177,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-16T06:30:56Z",
-   "score": 0.2367,
+   "score": 0.2337,
    "section": "papers",
    "source": "TechComm journals (CrossRef)",
    "source_id": "crossref_techcomm_journals",
@@ -580,7 +204,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-16T06:28:36Z",
-   "score": 0.2367,
+   "score": 0.2337,
    "section": "papers",
    "source": "TechComm journals (CrossRef)",
    "source_id": "crossref_techcomm_journals",
@@ -595,19 +219,19 @@
   }
  ],
  "meta": {
-  "count": 21,
-  "generated_at": "2026-07-21T03:41:56Z",
+  "count": 8,
+  "generated_at": "2026-07-21T06:39:59Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
    {
     "category": "optional",
-    "count": 7,
-    "error": null,
+    "count": 0,
+    "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60",
     "full_text_count": 0,
     "id": "arxiv_datavis",
     "name": "arXiv cs.HC + cs.GR",
-    "ok": true,
+    "ok": false,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
@@ -662,12 +286,12 @@
    },
    {
     "category": "optional",
-    "count": 6,
-    "error": null,
+    "count": 0,
+    "error": "429 Client Error: Too Many Requests for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC&sortBy=submittedDate&sortOrder=descending&max_results=40",
     "full_text_count": 0,
     "id": "arxiv_hci_writing",
     "name": "arXiv cs.HC (writing & docs)",
-    "ok": true,
+    "ok": false,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
