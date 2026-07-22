@@ -3,10 +3,16 @@ name: Update Relevance
 on:
   workflow_dispatch: {}
   schedule:
-    # 2-hourly at :17 (dodges top-of-hour scheduler congestion).
-    # Private repos get 2000 free Actions minutes/month — this cadence uses
-    # ~900. On a public repo you may safely drop to "*/30 * * * *".
-    - cron: "17 */2 * * *"
+    # All at :17 (dodges top-of-hour scheduler congestion). Which one actually
+    # runs is picked by the NEWSDASH_UPDATE_FREQ repo Variable via the
+    # job-level `if:` below — unmatched schedules skip before any runner spins
+    # up, so they cost zero billed minutes.
+    # Actions minutes/month at ~2.5 min/run: 2h ≈ 900, 3x ≈ 225, daily ≈ 75.
+    # Private repos get 2000 free minutes/month — set the variable to 3x or
+    # daily to stay well under. workflow_dispatch always runs regardless.
+    - cron: "17 */2 * * *"      # 2h (default)
+    - cron: "17 5,13,21 * * *"  # 3x
+    - cron: "17 13 * * *"       # daily
 
 concurrency:
   group: update-newsdash-${{ github.ref }}
@@ -17,6 +23,16 @@ permissions:
 
 jobs:
   update:
+    # Run only the schedule matching NEWSDASH_UPDATE_FREQ (unset/empty == 2h).
+    # A job-level skip spins up NO runner, so unmatched crons bill 0 minutes.
+    # workflow_dispatch (manual) always runs. The 13:17 UTC overlap of the 3x
+    # and daily crons — and the even-hour overlap with 2h — is fine: exactly
+    # one branch matches per run, the rest skip at zero cost.
+    if: >-
+      github.event_name != 'schedule' ||
+      (github.event.schedule == '17 */2 * * *'     && (vars.NEWSDASH_UPDATE_FREQ == '' || vars.NEWSDASH_UPDATE_FREQ == '2h')) ||
+      (github.event.schedule == '17 5,13,21 * * *' && vars.NEWSDASH_UPDATE_FREQ == '3x') ||
+      (github.event.schedule == '17 13 * * *'      && vars.NEWSDASH_UPDATE_FREQ == 'daily')
     timeout-minutes: 12
     runs-on: ubuntu-latest
     steps:

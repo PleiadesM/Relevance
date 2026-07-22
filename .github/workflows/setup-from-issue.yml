@@ -70,6 +70,38 @@ jobs:
         # Bot pushes don't retrigger workflows by design; dispatch explicitly.
         run: gh workflow run update.yml --ref "${{ github.ref_name }}"
 
+      # Set the NEWSDASH_UPDATE_FREQ repo Variable to the cadence chosen in the
+      # setup form (uses the permissions.actions:write granted above). Runs only
+      # when the parser emitted a non-empty update_freq. Never fails the
+      # workflow: if the API is unavailable, it appends a manual-path note to the
+      # result comment instead. The value is re-validated against the whitelist
+      # here too — issue-form input is untrusted (the API can POST arbitrary
+      # body text even though the dropdown constrains the UI).
+      - name: Set update-frequency variable
+        if: steps.apply.outcome == 'success' && steps.apply.outputs.update_freq != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FREQ: ${{ steps.apply.outputs.update_freq }}
+        run: |
+          case "$FREQ" in
+            2h|3x|daily) ;;
+            *) echo "::warning::ignoring unexpected update frequency"; exit 0 ;;
+          esac
+          if gh api -X PATCH "repos/${GITHUB_REPOSITORY}/actions/variables/NEWSDASH_UPDATE_FREQ" \
+                -f name=NEWSDASH_UPDATE_FREQ -f value="$FREQ" \
+             || gh api -X POST "repos/${GITHUB_REPOSITORY}/actions/variables" \
+                -f name=NEWSDASH_UPDATE_FREQ -f value="$FREQ"; then
+            echo "Set NEWSDASH_UPDATE_FREQ=$FREQ"
+          else
+            {
+              printf '\n> ⚠️ **Couldn'"'"'t set the update-frequency variable automatically.** '
+              printf 'Set it yourself: Settings → Secrets and variables → Actions → Variables → '
+              printf 'New variable, name `NEWSDASH_UPDATE_FREQ`, value `%s`. ' "$FREQ"
+              printf '未能自动设置更新频率变量，请手动前往 Settings → Secrets and variables → Actions → '
+              printf 'Variables 新建变量 `NEWSDASH_UPDATE_FREQ`，值填 `%s`。\n' "$FREQ"
+            } >> "$RUNNER_TEMP/comment.md"
+          fi
+
       - name: Comment back
         env:
           GH_TOKEN: ${{ github.token }}

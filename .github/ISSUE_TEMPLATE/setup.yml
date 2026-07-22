@@ -67,6 +67,18 @@ body:
     validations:
       required: false
 
+  - type: dropdown
+    id: update-frequency
+    attributes:
+      label: "Update frequency · 更新频率"
+      description: "How often Actions rebuilds the dashboard. 3×/day is recommended for private repos to save Actions minutes; you can change it anytime later in Settings → Secrets and variables → Actions → Variables. 机器人重建仪表盘的频率。私有仓库推荐每天3次以节省 Actions 分钟数；之后可随时在 Settings → Secrets and variables → Actions → Variables 修改。"
+      options:
+        - "Every 2 hours (default) · 每2小时（默认）"
+        - "3 times a day · 每天3次"
+        - "Once a day · 每天1次"
+    validations:
+      required: false
+
   - type: checkboxes
     id: open-presets
     attributes:

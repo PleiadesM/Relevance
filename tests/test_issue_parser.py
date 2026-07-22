@@ -104,10 +104,41 @@ def test_form_labels_match_template():
     template = (REPO_ROOT / ".github" / "ISSUE_TEMPLATE" / "setup.yml") \
         .read_text(encoding="utf-8")
     for label in (ios.FIELD_LANGUAGE, ios.FIELD_VISIBILITY, ios.FIELD_THEME,
-                  ios.FIELD_TITLE, ios.FIELD_TIMEZONE, ios.FIELD_OPEN_PACKS,
-                  ios.FIELD_ACADEMIC_PACKS, ios.FIELD_EXTRA_RSS,
-                  ios.FIELD_INTERESTS, ios.FIELD_ACK):
+                  ios.FIELD_TITLE, ios.FIELD_TIMEZONE, ios.FIELD_UPDATE_FREQ,
+                  ios.FIELD_OPEN_PACKS, ios.FIELD_ACADEMIC_PACKS,
+                  ios.FIELD_EXTRA_RSS, ios.FIELD_INTERESTS, ios.FIELD_ACK):
         assert f'label: "{label} ·' in template, f"form label drifted: {label}"
+
+
+# --- update-frequency knob (NEWSDASH_UPDATE_FREQ repo Variable) ------------
+
+def _with_update_freq(value: str) -> str:
+    """A minimal valid setup body with an Update frequency selection appended."""
+    base = (FIX / "setup_minimal.md").read_text(encoding="utf-8")
+    return base + f"\n### {ios.FIELD_UPDATE_FREQ} · 更新频率\n\n{value}\n"
+
+
+def test_update_freq_valid_option_maps_to_variable(issue_repo):
+    body = _with_update_freq("3 times a day · 每天3次")
+    summary, warnings = ios.apply(body, issue_repo)
+    assert summary["update_freq"] == "3x"
+    assert not any("update frequency" in w.lower() for w in warnings)
+    # the knob is a repo Variable, never written into config files
+    site = read_json(issue_repo / "config" / "site.json")
+    assert "update_freq" not in site and "update_frequency" not in site
+
+
+def test_update_freq_absent_yields_no_output(issue_repo):
+    body = (FIX / "setup_minimal.md").read_text(encoding="utf-8")
+    summary, warnings = ios.apply(body, issue_repo)
+    assert summary["update_freq"] == ""  # falsy -> workflow skips the var step
+
+
+def test_update_freq_junk_ignored_with_warning(issue_repo):
+    body = _with_update_freq("Every 5 minutes turbo · 涡轮")
+    summary, warnings = ios.apply(body, issue_repo)
+    assert summary["update_freq"] == ""  # not on the whitelist -> ignored
+    assert any("update frequency" in w.lower() for w in warnings)
 
 
 # --- add-source flow ------------------------------------------------------

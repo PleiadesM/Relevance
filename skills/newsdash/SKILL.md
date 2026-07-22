@@ -335,6 +335,25 @@ sig params, private-calendar paths) with exit code `3` and a "classify as
 private, do not probe" message — that's the signal to switch to the private
 protocol above, not to work around it.
 
+## Update frequency
+
+How often Actions rebuilds the site is controlled by the **repo Variable
+`NEWSDASH_UPDATE_FREQ`** — not by config files. Three values:
+
+- `2h` (default; also when unset/empty) — every 2 h, ≈ 900 Actions min/month
+- `3x` — 05:17 / 13:17 / 21:17 UTC, ≈ 225 min/month
+- `daily` — 13:17 UTC, ≈ 75 min/month (at ~2.5 min/run)
+
+`update.yml` defines all three crons; a job-level `if:` runs only the one that
+matches the Variable and skips the rest **before any runner starts** (zero
+billed minutes). Private repos get 2000 free min/month — pick `3x` or `daily`.
+
+Set it three ways: the **setup Issue form** (Update frequency dropdown, applied
+by the bot); the CLI — `gh variable set NEWSDASH_UPDATE_FREQ --body "3x"`; or
+the UI — Settings → Secrets and variables → Actions → Variables. A manual
+`workflow_dispatch` run (`gh workflow run update.yml`) always builds regardless
+of the Variable.
+
 ## Validate
 
 ```bash

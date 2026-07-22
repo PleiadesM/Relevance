@@ -37,6 +37,8 @@ This is the click-by-click walkthrough. No terminal required for the core path �
 
 After this, the build re-runs itself automatically every 2 hours — no further clicks needed.
 
+**Want it to run less often?** The cadence is a repo Variable, `NEWSDASH_UPDATE_FREQ`: `2h` (default, ≈ 900 Actions min/month), `3x` a day (≈ 225), or `daily` (≈ 75), at ~2.5 min/run. On a **private** repo (only 2,000 free min/month) pick `3x` or `daily` to stay well under. You can set it right in the setup form ([step 4](#4-personalize-via-the-setup-issue)), or later at Settings → Secrets and variables → Actions → Variables. A manual **Run workflow** always rebuilds regardless.
+
 ## 3. Enable Pages
 
 1. Go to **Settings → Pages**.

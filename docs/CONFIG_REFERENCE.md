@@ -267,6 +267,7 @@ never fires on a BBC story.
 | `LLM_API_KEY` | Secret | AI daily brief + per-section summaries + Apropos-of-Nothing (§4a) |
 | `SMITHSONIAN_API_KEY` | Secret | Today's Image (§4a); requires `LLM_API_KEY` too |
 | `SRC_<ID>_URL` | Secret | Capability URL for one private source (`category: "private"`, `secret_ref`) — see §4 |
+| `NEWSDASH_UPDATE_FREQ` | Variable | update cadence: `2h` (default/unset) · `3x` · `daily` — see §7 |
 | `CONTACT_MAILTO` | Variable | CrossRef/OpenAlex polite pools |
 | `<ID>_ENABLED` | Variable | `0` = emergency stop for source `<id>` |
 | `RSS_MAX_FEEDS` | Variable | OPML expansion cap |
@@ -277,7 +278,8 @@ never fires on a BBC story.
 
 | I want to… | Edit |
 |---|---|
-| Update more/less often | `update.yml` cron (public repo: `*/30 * * * *` is fine; private repo: mind the 2000 min/month) |
+| Slow down / speed up scheduled updates | Variable `NEWSDASH_UPDATE_FREQ` = `2h` (default) / `3x` / `daily` (§6) — no code edit needed |
+| Change the *exact* cron times | `update.yml` schedule block (advanced; the Variable picks which cron runs) |
 | Longer news window | `site.json → windows.news_hours` |
 | Deeper paper lookback | `windows.papers_days` |
 | Keep archive longer | `windows.archive_days` |

@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import sys
 from pathlib import Path
@@ -39,7 +40,18 @@ FIELD_OPEN_PACKS = "Open news packs"
 FIELD_ACADEMIC_PACKS = "Academic packs"
 FIELD_EXTRA_RSS = "Extra RSS feeds"
 FIELD_INTERESTS = "Interest keywords"
+FIELD_UPDATE_FREQ = "Update frequency"
 FIELD_ACK = "Acknowledgement"
+
+# Update-frequency dropdown → NEWSDASH_UPDATE_FREQ repo-Variable value. The
+# knob is a repo Variable, never written into config files; the workflow reads
+# `update_freq` from GITHUB_OUTPUT and sets the Variable. Values are pinned to
+# this whitelist — anything else (junk API body) maps to "" and is ignored.
+UPDATE_FREQ_MAP = {
+    "Every 2 hours (default)": "2h",
+    "3 times a day": "3x",
+    "Once a day": "daily",
+}
 
 # add-source.yml field labels (English segment is the parser contract).
 FIELD_ACTION = "Action"
@@ -158,6 +170,14 @@ def apply(body: str, repo_root: Path) -> tuple[dict, list[str]]:
         except Exception:
             warnings.append(f"unknown timezone {tz!r} ignored (kept {site['timezone']!r})")
 
+    # Update frequency is NOT a config value — it maps to the NEWSDASH_UPDATE_FREQ
+    # repo Variable, surfaced via GITHUB_OUTPUT for the workflow to set. An
+    # unknown/absent selection maps to "" (workflow leaves the Variable alone).
+    freq_raw = _dropdown(fields, FIELD_UPDATE_FREQ)
+    update_freq = UPDATE_FREQ_MAP.get(freq_raw, "")
+    if freq_raw and not update_freq:
+        warnings.append(f"unknown update frequency {freq_raw!r} ignored")
+
     # sources.json --------------------------------------------------------
     presets: list[str] = []
     open_checked = checked_labels(fields.get(FIELD_OPEN_PACKS, ""))
@@ -221,6 +241,7 @@ def apply(body: str, repo_root: Path) -> tuple[dict, list[str]]:
         "presets": presets,
         "extra_feeds": added_feeds,
         "interests": sources.get("interests", {}).get("keywords", []),
+        "update_freq": update_freq,
     }
     return summary, warnings
 
@@ -553,6 +574,12 @@ def success_comment(summary: dict, warnings: list[str], repo: str) -> str:
         lines.append(f"- **Extra feeds · 自定义订阅**: {len(summary['extra_feeds'])} added")
     if summary["interests"]:
         lines.append(f"- **Interests · 兴趣词**: {', '.join(summary['interests'][:8])}")
+    if summary.get("update_freq"):
+        _freq_label = {"2h": "every 2 hours · 每2小时",
+                       "3x": "3×/day · 每天3次",
+                       "daily": "once a day · 每天1次"}.get(
+                           summary["update_freq"], summary["update_freq"])
+        lines.append(f"- **Update frequency · 更新频率**: `{summary['update_freq']}` ({_freq_label})")
     if warnings:
         lines += ["", "### ⚠️ Notes"] + [f"- {w}" for w in warnings]
 
@@ -623,6 +650,16 @@ def main() -> None:
     comment = (success_comment_source if summary.get("kind") == "source"
                else success_comment)(summary, warnings, args.repo)
     Path(args.comment_out).write_text(comment, encoding="utf-8")
+
+    # Surface the chosen update cadence to the workflow, which sets the
+    # NEWSDASH_UPDATE_FREQ repo Variable. Value is whitelisted (2h|3x|daily);
+    # an empty/absent selection writes nothing, so the workflow skips the
+    # variable step and the current cadence is left untouched.
+    gh_output = os.environ.get("GITHUB_OUTPUT")
+    if gh_output and summary.get("update_freq"):
+        with open(gh_output, "a", encoding="utf-8") as fh:
+            fh.write(f"update_freq={summary['update_freq']}\n")
+
     print(f"applied: {json.dumps({k: v for k, v in summary.items() if k != 'entry'}, ensure_ascii=False)}")
 
 
