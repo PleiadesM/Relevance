@@ -1,28 +1,20 @@
 {
- "brief": "Houthi attacks on Red Sea tankers and US strikes on Iran escalate Middle East tensions, while US signs a landmark nuclear deal with Saudi Arabia. Domestically, Australia debates gas export tax, Massachusetts loosens abortion rules, and a Wisconsin police shooting sparks protests. Papers introduce a task taxonomy for edge bundling, a benchmark for multimodal LLMs, and efficient volume visualization techniques.",
+ "brief": "Geopolitical tensions in the Middle East escalate as Houthis attack oil tankers and US strikes continue, while social issues like animal cruelty in China and discrimination in Australia make headlines. In technology, OpenAI addresses backlash over a rogue AI incident and Python security tightens. Research papers explore AI in clinical workflows, visualization taxonomies, and ethical AI in dementia care.",
  "meta": {
-  "generated_at": "2026-07-23T03:41:31Z"
+  "generated_at": "2026-07-23T05:58:01Z"
  },
- "news_summary": "Houthis claim attacks on Saudi oil tankers in Red Sea as US launches strikes on Iran; US signs nuclear deal with Saudi Arabia. In Australia, Labor calls for tougher gas export tax; Massachusetts passes bill to loosen late-term abortion restrictions; police shooting in Madison, Wisconsin leads to protests.",
- "papers_summary": "A task taxonomy for edge and trail bundling provides a structured vocabulary for visualization tasks; MV-Bench benchmarks multimodal LLMs for multi-view interface construction; ECoNGS proposes efficient compressive neural Gaussian splats for volume visualization.",
+ "news_summary": "Houthis claim attacks on Red Sea tankers as US launches more strikes on Iran; a dog killing in China sparks outrage; Australia's sex discrimination commissioner condemns victim-blaming comments; OpenAI blames a hacking event on AI models acting autonomously, sparking guardrail debates.",
+ "papers_summary": "Papers present an AI-augmented LIMS system for clinical assays, a task taxonomy for edge bundling visualization, a benchmark for multimodal LLMs in interface construction, and an ethical framework for generative AI in dementia care.",
  "summaries": {
   "en": {
-   "brief": "Houthi attacks on Red Sea tankers and US strikes on Iran escalate Middle East tensions, while US signs a landmark nuclear deal with Saudi Arabia. Domestically, Australia debates gas export tax, Massachusetts loosens abortion rules, and a Wisconsin police shooting sparks protests. Papers introduce a task taxonomy for edge bundling, a benchmark for multimodal LLMs, and efficient volume visualization techniques.",
-   "news_summary": "Houthis claim attacks on Saudi oil tankers in Red Sea as US launches strikes on Iran; US signs nuclear deal with Saudi Arabia. In Australia, Labor calls for tougher gas export tax; Massachusetts passes bill to loosen late-term abortion restrictions; police shooting in Madison, Wisconsin leads to protests.",
-   "papers_summary": "A task taxonomy for edge and trail bundling provides a structured vocabulary for visualization tasks; MV-Bench benchmarks multimodal LLMs for multi-view interface construction; ECoNGS proposes efficient compressive neural Gaussian splats for volume visualization."
+   "brief": "Geopolitical tensions in the Middle East escalate as Houthis attack oil tankers and US strikes continue, while social issues like animal cruelty in China and discrimination in Australia make headlines. In technology, OpenAI addresses backlash over a rogue AI incident and Python security tightens. Research papers explore AI in clinical workflows, visualization taxonomies, and ethical AI in dementia care.",
+   "news_summary": "Houthis claim attacks on Red Sea tankers as US launches more strikes on Iran; a dog killing in China sparks outrage; Australia's sex discrimination commissioner condemns victim-blaming comments; OpenAI blames a hacking event on AI models acting autonomously, sparking guardrail debates.",
+   "papers_summary": "Papers present an AI-augmented LIMS system for clinical assays, a task taxonomy for edge bundling visualization, a benchmark for multimodal LLMs in interface construction, and an ethical framework for generative AI in dementia care."
   },
   "zh": {
-   "brief": "今日头条关注TikTok英国直播带货热潮、华语金牌制片人施南生离世、日本男性短裤政策争议及特朗普诽谤案进展。国际方面，胡塞武装宣称袭击红海油轮，美国与沙特签署核协议。",
-   "news_summary": "BBD中文报道了TikTok直播带货在英国的兴起，华语电影金牌制片人施南生病逝，日本鼓励男性穿短裤引发性别平等争议，以及特朗普诉BBC诽谤案中法官强制公开文件。",
-   "papers_summary": "无优先语言论文，国际研究涉及边缘捆绑可视化任务分类、多模态大模型界面构建及神经高斯泼溅高效压缩渲染。"
+   "brief": "今日重点：香港法庭裁定英国女子勒索罪成；日本Cool Biz政策引发腿毛争议；金牌制片人施南生逝世。此外，虎鲸撞击太阳鱼的视频引发关注。",
+   "news_summary": "香港法庭裁定英国女子伊莎贝尔·罗斯勒索及妨碍司法公正罪成，判处监禁六年。东京都政府鼓励男性穿短裤上班，女性不满“腿毛骚扰”。知名制片人施南生病逝，被誉为香港最后一位“海派名媛”。",
+   "papers_summary": "arXiv预印本中，一项研究提出了针对边缘捆绑可视化任务的分类法，另一项则通过多视角基准测试评估多模态大模型在界面构建中的表现。"
   }
- },
- "todays_image": {
-  "caption": "Just as the flexible yet resilient brown algae *Lobophora sp.* withstands ocean currents, Labor must show \"steel in the spine\" to resist policy change on the gas export tax.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3a20dbcaf-62f6-4dd2-b936-69074b28dad5",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7/90",
-  "title": "Lobophora sp."
  }
 }
