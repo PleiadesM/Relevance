@@ -1,20 +1,28 @@
 {
- "brief": "Google's soaring AI costs, UK pub tax cuts, Houthi Red Sea attacks, and India's exam scandal dominate headlines, while new papers explore AI in clinical workflows and volume visualization.",
+ "brief": "EU fines Google €890m for antitrust violations; US-Saudi nuclear deal prompts nonproliferation fears; oil prices near $100 amid Houthi and Iran tensions; new papers introduce AI-augmented lab workflows and a taxonomy for edge bundling.",
  "meta": {
-  "generated_at": "2026-07-23T07:29:19Z"
+  "generated_at": "2026-07-23T10:34:05Z"
  },
- "news_summary": "Google plans up to $190bn in AI investments; UK pubs get 20% business rate cut funded by vape shop surcharge; Houthis claim Red Sea tanker attacks; India's Modi promises to punish corrupt officials amid exam leak protests.",
- "papers_summary": "A HIPAA-compliant AI system for clinical assays and a neural Gaussian splatting approach for volume visualization highlight advances in healthcare and graphics.",
+ "news_summary": "EU fines Google €890m for search and app anti-competitive practices; US and Saudi Arabia sign landmark nuclear cooperation agreement; oil prices near $100 as Houthis attack Red Sea tankers and US strikes Iran; Ukraine escalates long-range attacks on Russian commercial warehouses.",
+ "papers_summary": "New research includes a HIPAA-compliant AI LIMS architecture (FMRP-LEAN) for clinical assays, a task taxonomy for edge bundling in visualization, and a benchmark (MV-Bench) for multimodal LLMs in multi-view interface construction.",
  "summaries": {
   "en": {
-   "brief": "Google's soaring AI costs, UK pub tax cuts, Houthi Red Sea attacks, and India's exam scandal dominate headlines, while new papers explore AI in clinical workflows and volume visualization.",
-   "news_summary": "Google plans up to $190bn in AI investments; UK pubs get 20% business rate cut funded by vape shop surcharge; Houthis claim Red Sea tanker attacks; India's Modi promises to punish corrupt officials amid exam leak protests.",
-   "papers_summary": "A HIPAA-compliant AI system for clinical assays and a neural Gaussian splatting approach for volume visualization highlight advances in healthcare and graphics."
+   "brief": "EU fines Google €890m for antitrust violations; US-Saudi nuclear deal prompts nonproliferation fears; oil prices near $100 amid Houthi and Iran tensions; new papers introduce AI-augmented lab workflows and a taxonomy for edge bundling.",
+   "news_summary": "EU fines Google €890m for search and app anti-competitive practices; US and Saudi Arabia sign landmark nuclear cooperation agreement; oil prices near $100 as Houthis attack Red Sea tankers and US strikes Iran; Ukraine escalates long-range attacks on Russian commercial warehouses.",
+   "papers_summary": "New research includes a HIPAA-compliant AI LIMS architecture (FMRP-LEAN) for clinical assays, a task taxonomy for edge bundling in visualization, and a benchmark (MV-Bench) for multimodal LLMs in multi-view interface construction."
   },
   "zh": {
-   "brief": "今日新闻聚焦美沙核协议引发的核扩散担忧、英国女子在香港勒索案、TikTok直播带货风潮以及华语电影制片人施南生逝世；学术方面缺乏中文论文，英文论文涉及AI、视觉化等计算科学领域。",
-   "news_summary": "美国与沙特签署核协议引发中东核扩散风险；英国女子在香港被控勒索和妨碍司法公正；TikTok直播带货在英国迅速流行；华语电影金牌制片施南生病逝。",
-   "papers_summary": "无中文论文，英文论文主要围绕AI辅助临床工作流、边缘捆绑任务分类、多模态界面构建、生成式AI在痴呆症护理中的伦理考量等计算科学主题。"
+   "brief": "香港47人案被告胡志偉在英機場險被遣返，台灣收緊陸配參政權，美沙核協議引發核擴散擔憂；歐盟對Google罰款8.9億歐元，油價逼近100美元。研究方面關注AI輔助臨床檢測工作流優化及可視化任務分類。",
+   "news_summary": "香港民主派前議員胡志偉在倫敦希斯羅機場被扣留後獲准入境，台灣修法將陸配參選資格改為「除籍滿十年」，美沙簽署核能合作協議可能加劇中東核擴散風險。中國電影《澎湖海戰》傳出撤檔，TikTok直播帶貨在英國興起。",
+   "papers_summary": "兩篇arXiv論文分別提出HIPAA合規的AI增強臨床檢測LIMS架構（FMRP-LEAN）和邊緣捆綁可視化任務分類法（Task Taxonomy for Edge and Trail Bundling），旨在優化工作流與提升可視化理解。"
   }
+ },
+ "todays_image": {
+  "caption": "Just as Lobophora sp. clings stubbornly to reefs, the political entanglements of former Hong Kong legislator Hu Zhiwei followed him across the ocean, nearly snagging him on a UK runway.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3a20dbcaf-62f6-4dd2-b936-69074b28dad5",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7/90",
+  "title": "Lobophora sp."
  }
 }
