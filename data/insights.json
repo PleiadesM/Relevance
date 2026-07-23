@@ -1,28 +1,28 @@
 {
- "brief": "Geopolitical tensions rise with US-Iran strikes and nuclear deal with Saudi Arabia, while AI labs face scrutiny over training practices. Research explores AI's role in dementia care and information evaluation.",
+ "brief": "Houthi attacks on Red Sea tankers and US strikes on Iran escalate Middle East tensions, while US signs a landmark nuclear deal with Saudi Arabia. Domestically, Australia debates gas export tax, Massachusetts loosens abortion rules, and a Wisconsin police shooting sparks protests. Papers introduce a task taxonomy for edge bundling, a benchmark for multimodal LLMs, and efficient volume visualization techniques.",
  "meta": {
-  "generated_at": "2026-07-22T23:14:38Z"
+  "generated_at": "2026-07-23T03:41:31Z"
  },
- "news_summary": "US military sites hit by Iranian strikes, Trump threatens retaliation; Tesla profits slide despite revenue growth; House passes defense bill amid Iran war divide.",
- "papers_summary": "Papers focus on ethical AI for social connectedness in dementia care, and rhetorical patterns in AI-assisted information evaluation.",
+ "news_summary": "Houthis claim attacks on Saudi oil tankers in Red Sea as US launches strikes on Iran; US signs nuclear deal with Saudi Arabia. In Australia, Labor calls for tougher gas export tax; Massachusetts passes bill to loosen late-term abortion restrictions; police shooting in Madison, Wisconsin leads to protests.",
+ "papers_summary": "A task taxonomy for edge and trail bundling provides a structured vocabulary for visualization tasks; MV-Bench benchmarks multimodal LLMs for multi-view interface construction; ECoNGS proposes efficient compressive neural Gaussian splats for volume visualization.",
  "summaries": {
   "en": {
-   "brief": "Geopolitical tensions rise with US-Iran strikes and nuclear deal with Saudi Arabia, while AI labs face scrutiny over training practices. Research explores AI's role in dementia care and information evaluation.",
-   "news_summary": "US military sites hit by Iranian strikes, Trump threatens retaliation; Tesla profits slide despite revenue growth; House passes defense bill amid Iran war divide.",
-   "papers_summary": "Papers focus on ethical AI for social connectedness in dementia care, and rhetorical patterns in AI-assisted information evaluation."
+   "brief": "Houthi attacks on Red Sea tankers and US strikes on Iran escalate Middle East tensions, while US signs a landmark nuclear deal with Saudi Arabia. Domestically, Australia debates gas export tax, Massachusetts loosens abortion rules, and a Wisconsin police shooting sparks protests. Papers introduce a task taxonomy for edge bundling, a benchmark for multimodal LLMs, and efficient volume visualization techniques.",
+   "news_summary": "Houthis claim attacks on Saudi oil tankers in Red Sea as US launches strikes on Iran; US signs nuclear deal with Saudi Arabia. In Australia, Labor calls for tougher gas export tax; Massachusetts passes bill to loosen late-term abortion restrictions; police shooting in Madison, Wisconsin leads to protests.",
+   "papers_summary": "A task taxonomy for edge and trail bundling provides a structured vocabulary for visualization tasks; MV-Bench benchmarks multimodal LLMs for multi-view interface construction; ECoNGS proposes efficient compressive neural Gaussian splats for volume visualization."
   },
   "zh": {
-   "brief": "日本Cool Biz政策引爭議，特朗普被令交出文件，金門機場工程引矛盾，烏克蘭軍總司令被解職，貝克漢推廣足球。研究方面聚焦AI輔助分析與可視化工具。",
-   "news_summary": "日本鼓勵男性穿短褲引發女性不滿；特朗普誹謗案強制公開文件；廈門翔安機場設計引金門居民分歧；澤連斯基解除瑟爾斯基職務；貝克漢持續推動美國足球發展。",
-   "papers_summary": "多篇論文探討生成式AI在失智照護、程式設計學習與互動可視化中的應用，另有關於火星車駕駛檢索系統的研究。"
+   "brief": "今日头条关注TikTok英国直播带货热潮、华语金牌制片人施南生离世、日本男性短裤政策争议及特朗普诽谤案进展。国际方面，胡塞武装宣称袭击红海油轮，美国与沙特签署核协议。",
+   "news_summary": "BBD中文报道了TikTok直播带货在英国的兴起，华语电影金牌制片人施南生病逝，日本鼓励男性穿短裤引发性别平等争议，以及特朗普诉BBC诽谤案中法官强制公开文件。",
+   "papers_summary": "无优先语言论文，国际研究涉及边缘捆绑可视化任务分类、多模态大模型界面构建及神经高斯泼溅高效压缩渲染。"
   }
  },
  "todays_image": {
-  "caption": "Both highlight unexpected interventions—pelicans aiding in fishing and visual evidence revealing damage from unseen forces.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-106153_02",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/106153",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-106153_02",
-  "title": "Indians Catching Fish with the Help of Pelicans"
+  "caption": "Just as the flexible yet resilient brown algae *Lobophora sp.* withstands ocean currents, Labor must show \"steel in the spine\" to resist policy change on the gas export tax.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3a20dbcaf-62f6-4dd2-b936-69074b28dad5",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7/90",
+  "title": "Lobophora sp."
  }
 }
