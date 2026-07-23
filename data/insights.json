@@ -1,28 +1,20 @@
 {
- "brief": "Geopolitical tensions escalate with Houthi attacks on Red Sea tankers and a diesel crisis threatening farmers, while tech firms grapple with security breaches and AI ethics. Research advances include a HIPAA-compliant AI system for clinical workflows and ethical guidelines for AI in dementia care.",
+ "brief": "Google's soaring AI costs, UK pub tax cuts, Houthi Red Sea attacks, and India's exam scandal dominate headlines, while new papers explore AI in clinical workflows and volume visualization.",
  "meta": {
-  "generated_at": "2026-07-23T06:38:38Z"
+  "generated_at": "2026-07-23T07:29:19Z"
  },
- "news_summary": "Houthis claim attacks on Red Sea tankers amid US strikes on Iran; OpenAI blames AI models for a hacking incident, sparking guardrail debates. Other highlights include orcas ramming sunfish, a diesel crisis from Strait of Hormuz closure, and New Zealand booking hotels for a 2026 solar eclipse.",
- "papers_summary": "Papers propose a HIPAA-compliant AI-augmented LIMS for clinical workflows, a task taxonomy for edge bundling in visualization, and an ethical framework for generative AI in dementia care, emphasizing person-centered design.",
+ "news_summary": "Google plans up to $190bn in AI investments; UK pubs get 20% business rate cut funded by vape shop surcharge; Houthis claim Red Sea tanker attacks; India's Modi promises to punish corrupt officials amid exam leak protests.",
+ "papers_summary": "A HIPAA-compliant AI system for clinical assays and a neural Gaussian splatting approach for volume visualization highlight advances in healthcare and graphics.",
  "summaries": {
   "en": {
-   "brief": "Geopolitical tensions escalate with Houthi attacks on Red Sea tankers and a diesel crisis threatening farmers, while tech firms grapple with security breaches and AI ethics. Research advances include a HIPAA-compliant AI system for clinical workflows and ethical guidelines for AI in dementia care.",
-   "news_summary": "Houthis claim attacks on Red Sea tankers amid US strikes on Iran; OpenAI blames AI models for a hacking incident, sparking guardrail debates. Other highlights include orcas ramming sunfish, a diesel crisis from Strait of Hormuz closure, and New Zealand booking hotels for a 2026 solar eclipse.",
-   "papers_summary": "Papers propose a HIPAA-compliant AI-augmented LIMS for clinical workflows, a task taxonomy for edge bundling in visualization, and an ethical framework for generative AI in dementia care, emphasizing person-centered design."
+   "brief": "Google's soaring AI costs, UK pub tax cuts, Houthi Red Sea attacks, and India's exam scandal dominate headlines, while new papers explore AI in clinical workflows and volume visualization.",
+   "news_summary": "Google plans up to $190bn in AI investments; UK pubs get 20% business rate cut funded by vape shop surcharge; Houthis claim Red Sea tanker attacks; India's Modi promises to punish corrupt officials amid exam leak protests.",
+   "papers_summary": "A HIPAA-compliant AI system for clinical assays and a neural Gaussian splatting approach for volume visualization highlight advances in healthcare and graphics."
   },
   "zh": {
-   "brief": "香港法庭裁定一名英國女子勒索罪成，判監六年；TikTok直播帶貨在英國迅速興起；香港金牌製片人施南生逝世。此外，日本辦公室推行男性穿短褲政策引發爭議。",
-   "news_summary": "英國女子伊莎貝爾·羅斯在香港被裁定勒索及妨礙司法公正罪成，判監六年。TikTok直播帶貨在英國日益普及。香港知名製片人施南生病逝，被譽為最後的「海派名媛」。日本東京推行「Cool Biz」政策鼓勵男性穿短褲上班，但女性認為不公平，因女性仍須穿絲襪。",
-   "papers_summary": "今日無優先中文論文，但英文論文涵蓋臨床工作流程優化、可視化任務分類、多模態大語言模型評測等主題。"
+   "brief": "今日新闻聚焦美沙核协议引发的核扩散担忧、英国女子在香港勒索案、TikTok直播带货风潮以及华语电影制片人施南生逝世；学术方面缺乏中文论文，英文论文涉及AI、视觉化等计算科学领域。",
+   "news_summary": "美国与沙特签署核协议引发中东核扩散风险；英国女子在香港被控勒索和妨碍司法公正；TikTok直播带货在英国迅速流行；华语电影金牌制片施南生病逝。",
+   "papers_summary": "无中文论文，英文论文主要围绕AI辅助临床工作流、边缘捆绑任务分类、多模态界面构建、生成式AI在痴呆症护理中的伦理考量等计算科学主题。"
   }
- },
- "todays_image": {
-  "caption": "In the wild, orcas hunt in coordinated pods to breach security of prey, much like hackers breached Origin Energy's customer data while activists faced a legal barrier in WA.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b31635f408b04a599a2d44b6265b844b",
-  "source_name": "NMNH - Vertebrate Zoology - Mammals Division",
-  "source_url": "http://n2t.net/ark:/65665/33c7397de-e9bd-4ce7-ab50-ff1d97e353da",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b31635f408b04a599a2d44b6265b844b/90",
-  "title": "Orcinus orca (Linnaeus, 1758)"
  }
 }
