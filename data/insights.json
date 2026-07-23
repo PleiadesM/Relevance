@@ -1,20 +1,28 @@
 {
- "brief": "The arrest of the Tate brothers and Trump's subpoena controversies dominate US news, while France evacuates 20,000 due to wildfires. In tech, Claude's voice mode expands and Patreon lays off 20% of staff. The Fields Medal awards highlight achievements in mathematics.",
+ "brief": "The US imposes new global tariffs tied to forced labor, stocks tumble amid AI spending concerns, and four young mathematicians receive Fields Medals. Amazon updates Alexa Plus with smarter home control, while research papers explore clinical workflow optimization and visualization techniques.",
  "meta": {
-  "generated_at": "2026-07-23T19:44:07Z"
+  "generated_at": "2026-07-23T21:20:01Z"
  },
- "news_summary": "The Tate brothers lose right-wing support after arrest, Trump drops subpoena for Jewish student groups, and France faces major wildfires. Other stories include the Fields Medals, ICE detention expansion, and US-Saudi nuclear deal conditions.",
- "papers_summary": "New papers cover clinical assay workflow optimization with AI, a task taxonomy for edge bundling in visualization, and ethical perspectives on generative AI for dementia care. Also, a benchmark for multimodal LLMs in interface construction.",
+ "news_summary": "The Trump administration announces new tariffs linked to forced labor, replacing expiring duties; markets slide as AI spending worries hit Google and Tesla. Other key stories include UN warning on Middle East escalation, Fields Medals awarded, and a Louisiana candidate accused of rape.",
+ "papers_summary": "Papers present a HIPAA-compliant AI-augmented LIMS for clinical assays, a task taxonomy for edge bundling, benchmarking of MLLMs for multi-view interface construction, and ethical considerations on generative AI for dementia care.",
  "summaries": {
   "en": {
-   "brief": "The arrest of the Tate brothers and Trump's subpoena controversies dominate US news, while France evacuates 20,000 due to wildfires. In tech, Claude's voice mode expands and Patreon lays off 20% of staff. The Fields Medal awards highlight achievements in mathematics.",
-   "news_summary": "The Tate brothers lose right-wing support after arrest, Trump drops subpoena for Jewish student groups, and France faces major wildfires. Other stories include the Fields Medals, ICE detention expansion, and US-Saudi nuclear deal conditions.",
-   "papers_summary": "New papers cover clinical assay workflow optimization with AI, a task taxonomy for edge bundling in visualization, and ethical perspectives on generative AI for dementia care. Also, a benchmark for multimodal LLMs in interface construction."
+   "brief": "The US imposes new global tariffs tied to forced labor, stocks tumble amid AI spending concerns, and four young mathematicians receive Fields Medals. Amazon updates Alexa Plus with smarter home control, while research papers explore clinical workflow optimization and visualization techniques.",
+   "news_summary": "The Trump administration announces new tariffs linked to forced labor, replacing expiring duties; markets slide as AI spending worries hit Google and Tesla. Other key stories include UN warning on Middle East escalation, Fields Medals awarded, and a Louisiana candidate accused of rape.",
+   "papers_summary": "Papers present a HIPAA-compliant AI-augmented LIMS for clinical assays, a task taxonomy for edge bundling, benchmarking of MLLMs for multi-view interface construction, and ethical considerations on generative AI for dementia care."
   },
   "zh": {
-   "brief": "今日重點包括香港前議員胡志偉在英國機場被扣留、台灣收緊陸配參選資格、美國與沙特核協議引發核擴散擔憂，以及施南生逝世。學術方面多篇關於AI與可視化的研究發表。",
-   "news_summary": "香港民主派前議員胡志偉在倫敦希斯羅機場被扣留後獲准入英；台灣新規要求陸配「除籍滿十年」方可參選，引發兩岸爭議；美國與沙特簽署核協議，專家憂加劇中東核擴散；英國女子誣告強姦被判刑；TikTok直播帶貨在英國興起；華語電影製片施南生病逝。",
-   "papers_summary": "多篇arXiv論文探討AI臨床工作流程優化、邊緣捆綁任務分類、多模態大語言模型基準測試，以及生成式AI在失智症護理中的倫理考量。"
+   "brief": "今日焦点：胡志伟英国机场险被遣返，台湾收紧陆配参选资格，中国电影《澎湖海战》因历史敏感撤档。美沙核协议引发扩散担忧，知名制片人施南生病逝。",
+   "news_summary": "香港民主派前议员胡志伟在伦敦希斯罗机场被扣留，险些被遣返，最终获准入境；台湾修改陆配参选资格，要求“除籍满十年”引发争议；中国电影《澎湖海战》因触及“反清复明”民间史观而撤档。",
+   "papers_summary": "今日无中文论文，英文论文涵盖AI辅助临床工作流优化、边缘捆绑可视化任务分类、多模态大模型评估等。"
   }
+ },
+ "todays_image": {
+  "caption": "Just as a popcorn orchid blooms unexpectedly amid a jungle of leaves, the new tariffs will burst onto the global trade landscape following the lapse of previous duties.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3cf1c7dad88c9494fb6e9f3cf54a51a53",
+  "source_name": "NMNH - Education & Outreach",
+  "source_url": "http://n2t.net/ark:/65665/3603a16bc-c597-4333-b907-84f012f638db",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3cf1c7dad88c9494fb6e9f3cf54a51a53/90",
+  "title": "Popcorn Orchid"
  }
 }
