@@ -8,6 +8,11 @@ round of significant changes lands. Format loosely follows
 [Keep a Changelog](https://keepachangelog.com/); versions follow semver
 (minor = feature round, patch = fixes).
 
+## [0.4.2] — 2026-07-24
+
+### Fixed
+- Apropos-of-Nothing card had stopped appearing (0 of the last 40 builds): GDELT rate-limits GitHub's shared runner IPs and the single attempt gave up, zero-result niche queries skipped silently, and one malformed LLM response killed the run. Now: 429 backoff (20s/40s), a broadened unquoted 2-week fallback query when the exact-phrase search has no hits, one retry on malformed LLM JSON, and every skip path logs.
+
 ## [0.4.1] — 2026-07-23
 
 ### Fixed

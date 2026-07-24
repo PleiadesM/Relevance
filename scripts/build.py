@@ -339,6 +339,7 @@ def main(argv=None) -> None:
         apropos = find_apropos_of_nothing(payloads, env, ctx.session)
         if apropos:
             insights["apropos_of_nothing"] = apropos
+            print(f"[apropos-of-nothing] -> ok ({apropos['topic']})")
 
         if insights:
             insights_plain = out_dir / "insights.json"

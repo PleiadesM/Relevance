@@ -3,6 +3,7 @@ from urllib.parse import parse_qs, urlparse
 
 import responses
 
+import newsdash.apropos as apropos_mod
 from newsdash.apropos import GDELT_DOC_URL, find_apropos_of_nothing
 from newsdash.http import make_session
 
@@ -114,15 +115,85 @@ def test_happy_path_searches_public_news_and_returns_card_payload():
 
 
 @responses.activate
-def test_gdelt_429_is_best_effort_skip(capsys):
+def test_gdelt_429_is_best_effort_skip(capsys, monkeypatch):
+    sleeps = []
+    monkeypatch.setattr(apropos_mod, "GDELT_RETRY_SLEEPS", (0, 0))
+    monkeypatch.setattr(apropos_mod.time, "sleep", lambda s: sleeps.append(s))
+
     responses.post(CHAT_URL, json=query_completion())
+    responses.get(GDELT_DOC_URL, status=429)
+    responses.get(GDELT_DOC_URL, status=429)
     responses.get(GDELT_DOC_URL, status=429)
 
     env = {"LLM_API_KEY": "sk-test", "LLM_MODEL": "gpt-4o-mini"}
     result = find_apropos_of_nothing(make_payloads(), env, make_session())
 
     assert result is None
-    assert len(responses.calls) == 2
+    assert len(responses.calls) == 4
     out = capsys.readouterr().out
     assert "GDELT rate-limited (429)" in out
+    assert ("skipped: GDELT rate-limited (429); will try again next build"
+            in out)
     assert "[apropos-of-nothing:search] error" not in out
+    assert sleeps == [0, 0]
+
+
+@responses.activate
+def test_gdelt_429_then_200_retries_and_succeeds(monkeypatch):
+    sleeps = []
+    monkeypatch.setattr(apropos_mod, "GDELT_RETRY_SLEEPS", (0, 0))
+    monkeypatch.setattr(apropos_mod.time, "sleep", lambda s: sleeps.append(s))
+
+    responses.post(CHAT_URL, json=query_completion())
+    responses.get(GDELT_DOC_URL, status=429)
+    responses.get(GDELT_DOC_URL, json=gdelt_response())
+    responses.post(CHAT_URL, json=summary_completion())
+
+    env = {"LLM_API_KEY": "sk-test", "LLM_MODEL": "gpt-4o-mini"}
+    result = find_apropos_of_nothing(make_payloads(), env, make_session())
+
+    assert result is not None
+    assert result["topic"] == "competitive pumpkin growing"
+    assert sleeps == [0]
+
+
+@responses.activate
+def test_gdelt_zero_results_retries_broadened_query(monkeypatch):
+    sleeps = []
+    monkeypatch.setattr(apropos_mod, "GDELT_RETRY_SLEEPS", (0, 0))
+    monkeypatch.setattr(apropos_mod.time, "sleep", lambda s: sleeps.append(s))
+
+    responses.post(CHAT_URL, json=query_completion())
+    responses.get(GDELT_DOC_URL, json={"articles": []})
+    responses.get(GDELT_DOC_URL, json=gdelt_response())
+    responses.post(CHAT_URL, json=summary_completion())
+
+    env = {"LLM_API_KEY": "sk-test", "LLM_MODEL": "gpt-4o-mini"}
+    result = find_apropos_of_nothing(make_payloads(), env, make_session())
+
+    assert result is not None
+    gdelt_calls = [c for c in responses.calls if c.request.url.startswith(GDELT_DOC_URL)]
+    assert len(gdelt_calls) == 2
+    second_params = parse_qs(urlparse(gdelt_calls[1].request.url).query)
+    assert second_params["timespan"] == ["2weeks"]
+    assert '"' not in second_params["query"][0]
+    assert sleeps == []
+
+
+@responses.activate
+def test_llm_query_malformed_then_valid_retries_once(monkeypatch):
+    sleeps = []
+    monkeypatch.setattr(apropos_mod, "GDELT_RETRY_SLEEPS", (0, 0))
+    monkeypatch.setattr(apropos_mod.time, "sleep", lambda s: sleeps.append(s))
+
+    responses.post(CHAT_URL, json={"choices": [{"message": {"content": "{not json"}}]})
+    responses.post(CHAT_URL, json=query_completion())
+    responses.get(GDELT_DOC_URL, json=gdelt_response())
+    responses.post(CHAT_URL, json=summary_completion())
+
+    env = {"LLM_API_KEY": "sk-test", "LLM_MODEL": "gpt-4o-mini"}
+    result = find_apropos_of_nothing(make_payloads(), env, make_session())
+
+    assert result is not None
+    assert result["topic"] == "competitive pumpkin growing"
+    assert sleeps == []

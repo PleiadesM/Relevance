@@ -9,6 +9,7 @@ asks the LLM for a short bilingual summary of one result.
 from __future__ import annotations
 
 import re
+import time
 from datetime import datetime, timezone
 from typing import Mapping
 
@@ -25,6 +26,7 @@ MAX_CONTEXT_NEWS = 18
 MAX_CONTEXT_PAPERS = 8
 MAX_GDELT_RESULTS = 8
 GDELT_SOFT_FAIL_STATUSES = {429}
+GDELT_RETRY_SLEEPS = (20, 40)  # seconds between attempts when GDELT rate-limits; tests monkeypatch this
 QUERY_KEYS = ("topic", "search_terms", "why_irrelevant")
 SUMMARY_LANGS = ("en", "zh")
 
@@ -77,25 +79,31 @@ def _context_prompt(payloads: dict[str, dict]) -> str:
 def _llm_json(label: str, base_url: str, api_key: str, model: str,
               messages: list[dict], session: requests.Session,
               env: Mapping[str, str]) -> dict | None:
-    try:
-        content = post_chat(
-            base_url, api_key, model, messages, session, json_mode=True,
-            extra_body=resolve_extra_body(env))
-        result = extract_json(content)
-        if not isinstance(result, dict):
-            raise ValueError("json root was not an object")
-        return result
-    except requests.HTTPError as exc:
-        status = exc.response.status_code if exc.response is not None else "?"
-        detail = ""
-        if exc.response is not None:
-            detail = exc.response.text.strip().replace(api_key, "***")[:200]
-        print(f"[apropos-of-nothing:{label}] error: HTTPError ({status}) {detail}")
-        return None
-    except Exception as exc:  # noqa: BLE001 - enrichment must not fail builds
-        print(f"[apropos-of-nothing:{label}] error: {type(exc).__name__}: "
-              f"{str(exc)[:200]}")
-        return None
+    for attempt in (1, 2):
+        try:
+            content = post_chat(
+                base_url, api_key, model, messages, session, json_mode=True,
+                extra_body=resolve_extra_body(env))
+            result = extract_json(content)
+            if not isinstance(result, dict):
+                raise ValueError("json root was not an object")
+            return result
+        except requests.HTTPError as exc:
+            status = exc.response.status_code if exc.response is not None else "?"
+            detail = ""
+            if exc.response is not None:
+                detail = exc.response.text.strip().replace(api_key, "***")[:200]
+            print(f"[apropos-of-nothing:{label}] error: HTTPError ({status}) {detail}")
+            return None
+        except Exception as exc:  # noqa: BLE001 - enrichment must not fail builds
+            if attempt == 1:
+                print(f"[apropos-of-nothing:{label}] {type(exc).__name__}: "
+                      f"{str(exc)[:200]}; retrying once")
+                continue
+            print(f"[apropos-of-nothing:{label}] error: {type(exc).__name__}: "
+                  f"{str(exc)[:200]}")
+            return None
+    return None
 
 
 def _clean_term(value) -> str:
@@ -137,11 +145,19 @@ def _quote_query_term(term: str) -> str:
     return term
 
 
-def _gdelt_query(terms: list[str]) -> str:
-    quoted = [_quote_query_term(t) for t in terms]
-    if len(quoted) == 1:
-        return quoted[0]
-    return "(" + " OR ".join(quoted) + ")"
+def _gdelt_query(terms: list[str], *, exact: bool = True) -> str:
+    if exact:
+        quoted = [_quote_query_term(t) for t in terms]
+        if len(quoted) == 1:
+            return quoted[0]
+        return "(" + " OR ".join(quoted) + ")"
+    broadened = [
+        f"({t})" if " " in t else t
+        for t in terms
+    ]
+    if len(broadened) == 1:
+        return broadened[0]
+    return "(" + " OR ".join(broadened) + ")"
 
 
 def _parse_article_date(value) -> str | None:
@@ -203,31 +219,60 @@ def _normalize_articles(doc: dict) -> list[dict]:
     return articles
 
 
-def _search_gdelt(terms: list[str], session: requests.Session) -> tuple[str, list[dict]]:
-    query = _gdelt_query(terms)
+def _gdelt_attempts(query: str, timespan: str,
+                     session: requests.Session) -> list[dict] | None:
     params = {
         "query": query,
         "mode": "artlist",
         "format": "json",
         "maxrecords": str(MAX_GDELT_RESULTS),
-        "timespan": "1week",
+        "timespan": timespan,
         "sort": "datedesc",
     }
-    try:
-        doc = get(session, GDELT_DOC_URL, params=params).json()
-        return query, _normalize_articles(doc)
-    except requests.HTTPError as exc:
-        status = exc.response.status_code if exc.response is not None else None
-        if status in GDELT_SOFT_FAIL_STATUSES:
-            print("[apropos-of-nothing:search] skipped: GDELT rate-limited "
-                  f"({status}); will try again next build")
-            return query, []
-        print(f"[apropos-of-nothing:search] error: HTTPError: {str(exc)[:200]}")
+    sleeps = list(GDELT_RETRY_SLEEPS) + [None]
+    for sleep in sleeps:
+        try:
+            doc = get(session, GDELT_DOC_URL, params=params).json()
+            return _normalize_articles(doc)
+        except requests.HTTPError as exc:
+            status = exc.response.status_code if exc.response is not None else None
+            if status in GDELT_SOFT_FAIL_STATUSES and sleep is not None:
+                print("[apropos-of-nothing:search] GDELT rate-limited "
+                      f"({status}); retrying in {sleep}s")
+                time.sleep(sleep)
+                continue
+            if status in GDELT_SOFT_FAIL_STATUSES:
+                print("[apropos-of-nothing:search] skipped: GDELT rate-limited "
+                      f"({status}); will try again next build")
+                return None
+            print(f"[apropos-of-nothing:search] error: HTTPError: {str(exc)[:200]}")
+            return None
+        except Exception as exc:  # noqa: BLE001 - optional enrichment
+            print(f"[apropos-of-nothing:search] error: {type(exc).__name__}: "
+                  f"{str(exc)[:200]}")
+            return None
+    return None
+
+
+def _search_gdelt(terms: list[str], session: requests.Session) -> tuple[str, list[dict]]:
+    query = _gdelt_query(terms)
+    articles = _gdelt_attempts(query, "1week", session)
+    if articles is None:
         return query, []
-    except Exception as exc:  # noqa: BLE001 - optional enrichment
-        print(f"[apropos-of-nothing:search] error: {type(exc).__name__}: "
-              f"{str(exc)[:200]}")
-        return query, []
+    if articles:
+        return query, articles
+
+    broad = _gdelt_query(terms, exact=False)
+    print(f"[apropos-of-nothing:search] 0 results for {query}; "
+          f"retrying broadened {broad} over 2weeks")
+    articles = _gdelt_attempts(broad, "2weeks", session)
+    if articles is None:
+        return broad, []
+    if not articles:
+        print("[apropos-of-nothing:search] skipped: 0 results even for "
+              f"broadened query {broad}")
+        return broad, []
+    return broad, articles
 
 
 def _candidate_lines(articles: list[dict]) -> str:
