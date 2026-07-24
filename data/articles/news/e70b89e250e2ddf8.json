@@ -1,0 +1,31 @@
+{
+ "full_text": "Anyone who has used the Internet in recent years is probably used to encountering telltale signs of LLM prompting that lazy users sometimes forget to remove from their AI-generated pabulum. But a Canadian legislator took that idea to an embarrassing new level this week, reading an apparent LLM prompt instruction into the record during a floor speech. Bill Oliver, a Progressive Conservative Party member of the legislative assembly of New Brunswick, noted in a speech last month that \"One of the dangers associated with creating advocacy offices is that citizens often develop expectations that exceed the powers actually granted to those offices.\" He then went on to say out loud that \"here’s a more natural, flowing version of that section that reads like a legislative speech rather than a series of short points,\" a line with all the hallmarks of an LLM presenting an alternative style option in response to a prompt. The odd reading went more or less unnoticed at the time, but video of the remarks started spreading around social media networks like Reddit and Threads earlier this week. In Canada, the snafu is now getting mainstream attention from the likes of the Canadian Broadcasting Corporation and The Toronto Star , the latter of which called it a sign of \"a growing divide in our society: between the elites, who are only too happy to delegate their duties to the Borg; and the masses, who find this objectionable.\" Read full article Comments",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/e70b89e250e2ddf8.json",
+  "id": "e70b89e250e2ddf8",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-07-24T21:25:15Z",
+  "score": 0.7389,
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai",
+  "summary": "\"Here’s a more natural, flowing version of that section...\"",
+  "tags": [
+   "multimodal",
+   "llm"
+  ],
+  "title": "Canadian legislator reads out apparent LLM response in floor speech",
+  "url": "https://arstechnica.com/ai/2026/07/canadian-legislator-reads-out-apparent-llm-response-in-floor-speech/"
+ },
+ "meta": {
+  "generated_at": "2026-07-24T23:14:52Z",
+  "item_id": "e70b89e250e2ddf8",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai"
+ }
+}

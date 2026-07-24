@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"vintage tractor restoration\" OR \"antique tractor club\"",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "Iron Mountain Daily News",
-   "published_at": "2026-07-14T07:02:00Z",
-   "title": "Tractor ride to VA set for Wednesday",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPT2RLTkFfTktuNU16SzNRY2FlYmIzVHZHdktrN2tYcDJYelhrXzNDZ3hBUFBqTXNGQTl1Y3R1TG44akZUREhWcWtrUUlxWXp5RWFNWDJqUWVDX2M2T2VSVkRHaDRFcDdZN0M0Sm9tbURWN3VVbVFoUUcyVzVMSXNMRG45V242eVFpX3ZsdEhLSTRQZU52NXc?oc=5"
+   "name": "yangtse.com",
+   "published_at": "2026-07-20T08:45:00Z",
+   "title": "视频｜404 . 8斤 ！ 宿迁试种出一巨型南瓜 ， 母体  重801斤",
+   "url": "https://www.yangtse.com/news/jiangsu/202607/t20260720_374032.html"
   },
   "summaries": {
    "en": {
-    "summary": "A group of tractor enthusiasts plan a ride to the VA hospital on Wednesday.",
-    "why_irrelevant": "It's a local community event with no connection to trending topics."
+    "summary": "A 404.8-pound giant pumpkin was successfully cultivated in Suqian, China, with the parent pumpkin weighing 801 pounds.",
+    "why_irrelevant": "This is a hyper-specific local agriculture story far from typical user feeds."
    },
    "zh": {
-    "summary": "一群拖拉机爱好者计划周三骑行去退伍军人医院。",
-    "why_irrelevant": "这是一个地方社区活动，与热点话题无关。"
+    "summary": "宿迁试种出重404.8斤的巨型南瓜，母体南瓜重达801斤。",
+    "why_irrelevant": "这是一个过分具体的本地农业新闻，远离典型用户信息流。"
    }
   },
-  "topic": "vintage tractor restoration clubs"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Tariffs, AI token efficiency, and a cyclospora outbreak headline today's news, while research explores usable AI for product advising, creative writing, and visualization.",
+ "brief": "Escalating conflicts in the West Bank and Iran, along with wildfires in the US and Europe, dominate the news. Research focuses on usability of AI in product advice, political mapping, and creative writing tools.",
  "meta": {
-  "generated_at": "2026-07-24T21:19:16Z"
+  "generated_at": "2026-07-24T23:14:52Z"
  },
- "news_summary": "Trump administration admits halting grants to non-supporting states, imposes new tariffs citing forced labor, and faces a small-business lawsuit. Anthropic's Opus 5 focuses on efficiency, and a cyclospora outbreak linked to iceberg lettuce expands to nine states.",
- "papers_summary": "Papers examine usability of LLM-based product advisors, wearable AI for fiction writing, and a semantics-driven visualization language, alongside ethical considerations for AI in dementia care.",
+ "news_summary": "Tensions rise with killings in the West Bank, a credible Iranian threat forcing Trump's plane switch, and wildfires in Oregon, France, and Spain. Paramount pauses Warner merger, Democrats revamp primary calendar, ICC removes chief prosecutor, and measles cases hit a US record.",
+ "papers_summary": "Studies explore usability of LLM-based product advisors, geographic-legislative association needs, wearable AI for fiction writing, and augmented reality for deaf students. Other papers cover data visualization languages, clinical workflow optimization, and ethical AI for dementia care.",
  "summaries": {
   "en": {
-   "brief": "Tariffs, AI token efficiency, and a cyclospora outbreak headline today's news, while research explores usable AI for product advising, creative writing, and visualization.",
-   "news_summary": "Trump administration admits halting grants to non-supporting states, imposes new tariffs citing forced labor, and faces a small-business lawsuit. Anthropic's Opus 5 focuses on efficiency, and a cyclospora outbreak linked to iceberg lettuce expands to nine states.",
-   "papers_summary": "Papers examine usability of LLM-based product advisors, wearable AI for fiction writing, and a semantics-driven visualization language, alongside ethical considerations for AI in dementia care."
+   "brief": "Escalating conflicts in the West Bank and Iran, along with wildfires in the US and Europe, dominate the news. Research focuses on usability of AI in product advice, political mapping, and creative writing tools.",
+   "news_summary": "Tensions rise with killings in the West Bank, a credible Iranian threat forcing Trump's plane switch, and wildfires in Oregon, France, and Spain. Paramount pauses Warner merger, Democrats revamp primary calendar, ICC removes chief prosecutor, and measles cases hit a US record.",
+   "papers_summary": "Studies explore usability of LLM-based product advisors, geographic-legislative association needs, wearable AI for fiction writing, and augmented reality for deaf students. Other papers cover data visualization languages, clinical workflow optimization, and ethical AI for dementia care."
   },
   "zh": {
-   "brief": "今日新闻聚焦美国对60个贸易伙伴加征新关税，指控其未能禁止强迫劳动产品进口，同时白宫指控中国AI公司窃取技术。此外，香港出版环境变化、年轻女性糖尿病上升等议题也受关注。研究论文方面，多篇探讨生成式AI在用户体验、医疗、无障碍等领域的应用与挑战。",
-   "news_summary": "美国宣布对60个贸易伙伴征收10%至12.5%新关税，涉及中国、台湾等，本周五生效。白宫指控中国AI公司‘月之暗面’通过蒸馏技术窃取Anthropic模型。香港出版环境持续收紧，BBC中文回顾相关事件。",
-   "papers_summary": "多篇计算机科学论文探讨AI可用性，如透明对话式产品顾问、智能眼镜创作辅助、增强现实无障碍等。此外，一项研究提出语义驱动的可视化中间语言Flint，另一篇评估逻辑编程的可视化查询工具。"
+   "brief": "今日新聞聚焦美中AI技術竊取指控、美國對60個貿易夥伴課徵新關稅，以及紅海航運危機加劇；研究方面關注AI在產品推薦、創意寫作及醫療照護中的應用與倫理。",
+   "news_summary": "美國指控中國AI公司「月之暗面」竊取Anthropic技術，並以強迫勞動為由對60個貿易夥伴加徵關稅；胡塞武裝威脅曼德海峽可能引發紅海航運危機。",
+   "papers_summary": "多篇論文探討AI在對話式產品顧問、創意寫作輔助及失智症照護中的應用，強調可用性、透明性與倫理議題。"
   }
  },
  "todays_image": {
-  "caption": "Like icebergs drifting apart from a warming political climate, the five non-voting states were left isolated and unsupported.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-22802_03-000001",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/22802",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-22802_03-000001",
-  "title": "Five Floating Icebergs, Canada"
+  "caption": "The \"Fair Mount Company Cape\" evokes an old covering held back from view, much like the merger delay cloaks the future of Paramount and Warner Bros. in uncertainty.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2012q28329",
+  "source_name": "National Museum of American History",
+  "source_url": null,
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2012q28329&max=150",
+  "title": "Fair Mount Company Cape"
  }
 }
