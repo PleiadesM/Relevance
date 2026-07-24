@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "lawn mowing competition OR competitive mowing sport",
+  "query": "\"vintage tractor restoration\" OR \"antique tractor club\"",
   "source": {
-   "name": "Newsbug.info",
-   "published_at": "2026-07-20T23:30:00Z",
-   "title": "White County Fair tractor, lawn mower ribbon winners",
-   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOaEN6T3JEeGt1ZmhMU1dZWnk5ZElsb3JGREdTYTZLYXRqY2FYLW9YVm9qcE9BalRzNFhwN18zOEEtS2doOTgzdVgzTmswZmdZVlFUb2lXRnRWWHgtSWsybmtlbktmVWJsaEtVS3VSZzF5VUJQa2J5MWpnYS1uZFppV0I4ZHN6a04xX0FHZnFkZDFUc2NVT0xOV3VVY2drbklOTV9GV040RHdudGVZalNGb1hOdUtwS2FabC1jRDZ3bFF0LWQ3V0ZRV2dtbmtoQnR1MkZZdDhOTlhLMVpmeFIwSVZoTFg1RjhxbGZmSDd3?oc=5"
+   "name": "Iron Mountain Daily News",
+   "published_at": "2026-07-14T07:02:00Z",
+   "title": "Tractor ride to VA set for Wednesday",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPT2RLTkFfTktuNU16SzNRY2FlYmIzVHZHdktrN2tYcDJYelhrXzNDZ3hBUFBqTXNGQTl1Y3R1TG44akZUREhWcWtrUUlxWXp5RWFNWDJqUWVDX2M2T2VSVkRHaDRFcDdZN0M0Sm9tbURWN3VVbVFoUUcyVzVMSXNMRG45V242eVFpX3ZsdEhLSTRQZU52NXc?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "White County Fair awards ribbons for tractor and lawn mower competitions.",
-    "why_irrelevant": "A local fair event far removed from global politics or tech trends."
+    "summary": "A group of tractor enthusiasts plan a ride to the VA hospital on Wednesday.",
+    "why_irrelevant": "It's a local community event with no connection to trending topics."
    },
    "zh": {
-    "summary": "怀特县博览会给拖拉机和割草机比赛颁发绶带。",
-    "why_irrelevant": "一个远离全球政治或科技趋势的地方性集市活动。"
+    "summary": "一群拖拉机爱好者计划周三骑行去退伍军人医院。",
+    "why_irrelevant": "这是一个地方社区活动，与热点话题无关。"
    }
   },
-  "topic": "the history of competitive lawn mowing"
+  "topic": "vintage tractor restoration clubs"
  },
- "brief": "US businesses sue over tariffs, Paramount delays merger, wildfires rage in France and Spain, and measles cases hit a record high.",
+ "brief": "Tariffs, AI token efficiency, and a cyclospora outbreak headline today's news, while research explores usable AI for product advising, creative writing, and visualization.",
  "meta": {
-  "generated_at": "2026-07-24T19:44:33Z"
+  "generated_at": "2026-07-24T21:19:16Z"
  },
- "news_summary": "Two US small businesses sue Trump administration over new tariffs; Paramount agrees to delay Warner Bros. merger. Wildfires force tens of thousands to flee in France and Spain; measles cases reach a record high in the US.",
- "papers_summary": "Studies explore usability of conversational AI, geographic-legislative associations, wearable AI for fiction writing, and AR accessibility for deaf students.",
+ "news_summary": "Trump administration admits halting grants to non-supporting states, imposes new tariffs citing forced labor, and faces a small-business lawsuit. Anthropic's Opus 5 focuses on efficiency, and a cyclospora outbreak linked to iceberg lettuce expands to nine states.",
+ "papers_summary": "Papers examine usability of LLM-based product advisors, wearable AI for fiction writing, and a semantics-driven visualization language, alongside ethical considerations for AI in dementia care.",
  "summaries": {
   "en": {
-   "brief": "US businesses sue over tariffs, Paramount delays merger, wildfires rage in France and Spain, and measles cases hit a record high.",
-   "news_summary": "Two US small businesses sue Trump administration over new tariffs; Paramount agrees to delay Warner Bros. merger. Wildfires force tens of thousands to flee in France and Spain; measles cases reach a record high in the US.",
-   "papers_summary": "Studies explore usability of conversational AI, geographic-legislative associations, wearable AI for fiction writing, and AR accessibility for deaf students."
+   "brief": "Tariffs, AI token efficiency, and a cyclospora outbreak headline today's news, while research explores usable AI for product advising, creative writing, and visualization.",
+   "news_summary": "Trump administration admits halting grants to non-supporting states, imposes new tariffs citing forced labor, and faces a small-business lawsuit. Anthropic's Opus 5 focuses on efficiency, and a cyclospora outbreak linked to iceberg lettuce expands to nine states.",
+   "papers_summary": "Papers examine usability of LLM-based product advisors, wearable AI for fiction writing, and a semantics-driven visualization language, alongside ethical considerations for AI in dementia care."
   },
   "zh": {
-   "brief": "今日新闻聚焦美国以强迫劳动为由对60个贸易伙伴加征关税、美中AI技术争端升级、以及欧洲野火与麻疹疫情。论文主要涉及人机交互与AI辅助工具的设计研究。",
-   "news_summary": "美国宣布对60个贸易伙伴征收10%-12.5%关税，理由是强迫劳动问题，涵盖中国、台湾等；白宫指控中国AI公司‘月之暗面’窃取Anthropic技术。此外，法国和西班牙野火迫使超10万人撤离，美国麻疹病例创30年新高。",
-   "papers_summary": "多篇论文探讨AI在对话系统、创意写作、增强现实及临床工作流中的应用，强调可解释性与用户体验；另有一篇研究评估可视化工具对逻辑编程学习的效果。"
+   "brief": "今日新闻聚焦美国对60个贸易伙伴加征新关税，指控其未能禁止强迫劳动产品进口，同时白宫指控中国AI公司窃取技术。此外，香港出版环境变化、年轻女性糖尿病上升等议题也受关注。研究论文方面，多篇探讨生成式AI在用户体验、医疗、无障碍等领域的应用与挑战。",
+   "news_summary": "美国宣布对60个贸易伙伴征收10%至12.5%新关税，涉及中国、台湾等，本周五生效。白宫指控中国AI公司‘月之暗面’通过蒸馏技术窃取Anthropic模型。香港出版环境持续收紧，BBC中文回顾相关事件。",
+   "papers_summary": "多篇计算机科学论文探讨AI可用性，如透明对话式产品顾问、智能眼镜创作辅助、增强现实无障碍等。此外，一项研究提出语义驱动的可视化中间语言Flint，另一篇评估逻辑编程的可视化查询工具。"
   }
  },
  "todays_image": {
-  "caption": "The aster flower's name means \"star,\" and the merger delay buys time for the studio stars to align.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3d1b2a964-ed98-4ee0-8f71-927381c84000",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c/90",
-  "title": "Chaetopappa asteroides (Nutt.) DC."
+  "caption": "Like icebergs drifting apart from a warming political climate, the five non-voting states were left isolated and unsupported.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-22802_03-000001",
+  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/22802",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-22802_03-000001",
+  "title": "Five Floating Icebergs, Canada"
  }
 }

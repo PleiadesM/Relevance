@@ -1,7 +1,7 @@
 {
  "meta": {
-  "count": 2,
-  "generated_at": "2026-07-24T19:44:33Z",
+  "count": 4,
+  "generated_at": "2026-07-24T21:19:16Z",
   "scope": "public"
  },
  "threads": [
@@ -10,8 +10,8 @@
     {
      "item_id": "32d0d5d1dc6f2b2e",
      "phrase": {
-      "en": "Trump vows to investigate EU fines",
-      "zh": "特朗普誓言调查欧盟罚款"
+      "en": "Trump vows to investigate EU",
+      "zh": "特朗普誓言调查欧盟"
      },
      "section": "news",
      "source": "BBC World",
@@ -20,8 +20,8 @@
     {
      "item_id": "2f705f014bab13a9",
      "phrase": {
-      "en": "Threatens 'substantial' tariffs",
-      "zh": "威胁征收‘实质性’关税"
+      "en": "Trump threatens substantial tariffs",
+      "zh": "特朗普威胁大幅加征关税"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -30,18 +30,18 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Trump threatens tariffs on EU over fines on US tech giants, escalating trade tensions.",
-    "zh": "特朗普因欧盟对美国科技公司罚款威胁加征关税，贸易紧张升级。"
+    "en": "Trump threatens heavy tariffs on Europe over fines of US tech giants, reigniting trade war fears.",
+    "zh": "特朗普威胁对欧洲征收高额关税，以报复欧盟对美国科技公司的罚款，重燃贸易战担忧。"
    },
    "id": "t1",
    "keyword": {
-    "en": "EU-US tech tariffs",
-    "zh": "欧美科技关税"
+    "en": "US tariffs on EU",
+    "zh": "美国对欧盟关税"
    },
    "relates_to": [],
    "why_now": {
-    "en": "Today Trump vowed to investigate EU fines on Google, Apple, Meta, Amazon.",
-    "zh": "今日特朗普誓言调查欧盟对谷歌、苹果、Meta、亚马逊的罚款。"
+    "en": "Trump's latest tariff threat against EU today.",
+    "zh": "特朗普今日最新威胁对欧盟加征关税。"
    }
   },
   {
@@ -49,8 +49,8 @@
     {
      "item_id": "e32db4bc6a085575",
      "phrase": {
-      "en": "Tens of thousands flee homes",
-      "zh": "数万人逃离家园"
+      "en": "Wildfires drive tens of thousands from homes",
+      "zh": "野火迫使数万人离家"
      },
      "section": "news",
      "source": "The New York Times",
@@ -59,8 +59,8 @@
     {
      "item_id": "a9dca2653fcac13b",
      "phrase": {
-      "en": "Over 100,000 flee or lock down",
-      "zh": "超10万人撤离或封锁"
+      "en": "100,000 flee or lockdown",
+      "zh": "10万人逃离或封锁"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -70,7 +70,7 @@
      "item_id": "783148f1732e3681",
      "phrase": {
       "en": "Wildfires rage across Spain and France",
-      "zh": "山火肆虐西班牙和法国"
+      "zh": "野火肆虐西班牙和法国"
      },
      "section": "news",
      "source": "BBC World",
@@ -79,8 +79,8 @@
     {
      "item_id": "6cd75902153faa78",
      "phrase": {
-      "en": "Cap Ferret evacuated, fires merge",
-      "zh": "卡普费雷特疏散，山火合并"
+      "en": "France evacuates Cap Ferret, Spanish wildfires merge",
+      "zh": "法国撤离费雷角，西班牙野火合并"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -89,18 +89,98 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Huge wildfires force mass evacuations in France and Spain, with tens of thousands displaced.",
-    "zh": "法国和西班牙大规模山火迫使数万人疏散。"
+    "en": "Deadly wildfires in France and Spain force mass evacuations, prompting national emergencies.",
+    "zh": "法国和西班牙致命野火迫使大规模撤离，引发国家紧急状态。"
    },
    "id": "t2",
    "keyword": {
     "en": "wildfires France Spain",
-    "zh": "法西山火"
+    "zh": "法国西班牙野火"
    },
    "relates_to": [],
    "why_now": {
-    "en": "Today wildfires in Cap Ferret and Madrid region drove over 100,000 from homes.",
-    "zh": "今日卡普费雷特和马德里地区山火导致超10万人撤离。"
+    "en": "Major wildfires ongoing today in both countries.",
+    "zh": "今日两国均发生重大野火。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "47883d6c013d5701",
+     "phrase": {
+      "en": "France turns to Spain to learn coping",
+      "zh": "法国向西班牙学习应对"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/24/world/europe/france-spain-climate-heat-wildfires.html"
+    },
+    {
+     "item_id": "a9dca2653fcac13b",
+     "phrase": {
+      "en": "Spain declares national emergency",
+      "zh": "西班牙宣布国家紧急状态"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/jul/24/france-evacuation-cap-ferret-peninsula-wildfire"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "France turns to Spain to learn how to cope with heat and wildfires amid climate change.",
+    "zh": "法国向西班牙学习如何应对高温和野火。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "wildfire preparedness",
+    "zh": "野火防范"
+   },
+   "relates_to": [
+    "t2"
+   ],
+   "why_now": {
+    "en": "French delegation to visit Spain as fires rage.",
+    "zh": "法国代表团将访问西班牙，正值野火肆虐。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "eeb5df466a0d4bf8",
+     "phrase": {
+      "en": "Bridge opens, Americans told to stay home",
+      "zh": "大桥开通，美国人被要求待家里"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/24/world/canada/canada-gordie-howe-bridge-trump.html"
+    },
+    {
+     "item_id": "8b61d4c958aa9559",
+     "phrase": {
+      "en": "Small businesses sue over tariffs",
+      "zh": "小企业起诉关税"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/live/2026/jul/24/donald-trump-tariffs-white-house-correspondents-dinner-latest-news-updates"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Canada opens Gordie Howe International Bridge, but Americans told to stay home due to Trump tariffs.",
+    "zh": "加拿大开通戈迪·豪国际大桥，但美国人因特朗普关税被要求待在家里。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "Gordie Howe Bridge",
+    "zh": "戈迪·豪大桥"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "Bridge opens today amid US-Canada tensions.",
+    "zh": "大桥今日开通，正值美加紧张。"
    }
   }
  ]
