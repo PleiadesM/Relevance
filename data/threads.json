@@ -1,37 +1,115 @@
 {
  "meta": {
   "count": 6,
-  "generated_at": "2026-07-24T14:09:17Z",
+  "generated_at": "2026-07-24T15:42:37Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "item_id": "783148f1732e3681",
+     "phrase": {
+      "en": "National emergency declared",
+      "zh": "宣布国家紧急状态"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/videos/cz641jd4p4lo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "6cd75902153faa78",
+     "phrase": {
+      "en": "Evacuations in France and Spain",
+      "zh": "法国和西班牙疏散"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/jul/24/france-spain-wildfires-cap-ferret-europe-latest-news-updates"
+    },
+    {
+     "item_id": "a9dca2653fcac13b",
+     "phrase": {
+      "en": "80,000 flee wildfires",
+      "zh": "八万人逃离野火"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/jul/24/france-evacuation-cap-ferret-peninsula-wildfire"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Massive wildfires scorch Spain and France, forcing tens of thousands to flee their homes.",
+    "zh": "大规模野火席卷西班牙和法国，数万人被迫撤离家园。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "wildfires in Europe",
+    "zh": "欧洲野火"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "Spain declares emergency as fires merge near Madrid; France evacuates Cap Ferret.",
+    "zh": "西班牙宣布紧急状态，马德里附近火势合并；法国疏散费雷角。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "394529f59dccd5f8",
+     "phrase": {
+      "en": "US strikes, Iran targets bases",
+      "zh": "美国打击，伊朗攻击基地"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/jul/24/us-iran-donald-trump-iraq-bahrain-kuwait-jordan-latest-news-updates"
+    },
+    {
+     "item_id": "070c8e5234bdcdc8",
+     "phrase": {
+      "en": "Trump threatens massive attack",
+      "zh": "特朗普威胁大规模攻击"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/07/24/g-s1-135417/us-iran-war-updates"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "US strikes Iran and Tehran retaliates, raising fears of a wider war in the Middle East.",
+    "zh": "美国空袭伊朗，德黑兰报复，引发中东战争扩大担忧。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "US-Iran conflict",
+    "zh": "美伊冲突"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "Trump vows 'major military punishment'; Omani delegation arrives for talks.",
+    "zh": "特朗普誓言‘重大军事惩罚’；阿曼代表团抵达谈判。"
+   }
+  },
+  {
+   "angles": [
+    {
      "item_id": "8b61d4c958aa9559",
      "phrase": {
       "en": "Democrats call it a sales tax",
-      "zh": "民主党称之为销售税"
+      "zh": "民主党称其为销售税"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/us-news/live/2026/jul/24/donald-trump-tariffs-white-house-correspondents-dinner-latest-news-updates"
     },
     {
-     "item_id": "4b722151ec75d05e",
-     "phrase": {
-      "en": "costly for households",
-      "zh": "让家庭付出代价"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/24/business/dealbook/trump-trade-war-economy.html"
-    },
-    {
      "item_id": "f6633a2323ca2d25",
      "phrase": {
-      "en": "asks if tariffs are working",
-      "zh": "质疑关税是否奏效"
+      "en": "Are tariffs working?",
+      "zh": "关税有效吗？"
      },
      "section": "news",
      "source": "BBC World",
@@ -40,7 +118,7 @@
     {
      "item_id": "9a8dda30a35ed2ed",
      "phrase": {
-      "en": "allies object to forced labor claims",
+      "en": "Allies object to forced labor claims",
       "zh": "盟友反对强迫劳动指控"
      },
      "section": "news",
@@ -50,244 +128,151 @@
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Trump's renewed tariffs spark debate over who pays and whether they work.",
-    "zh": "特朗普重启关税，引发谁买单、是否有效的争论。"
+    "en": "New US tariffs on 85 countries spark criticism from Democrats and allies alike.",
+    "zh": "美国对85国加征新关税，引发民主党和盟友批评。"
    },
-   "id": "t1",
+   "id": "t3",
    "keyword": {
-    "en": "tariffs",
-    "zh": "关税"
+    "en": "Trump tariffs",
+    "zh": "特朗普关税"
    },
-   "relates_to": [],
-   "why_now": {
-    "en": "Trump announces new tariffs on over 80 countries today.",
-    "zh": "特朗普今日宣布对80多国加征新关税。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "6cd75902153faa78",
-     "phrase": {
-      "en": "France evacuates Cap Ferret",
-      "zh": "法国疏散费雷角"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/jul/24/france-spain-wildfires-cap-ferret-europe-latest-news-updates"
-    },
-    {
-     "item_id": "783148f1732e3681",
-     "phrase": {
-      "en": "fires rage across both countries",
-      "zh": "两国山火肆虐"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/videos/cz641jd4p4lo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "47883d6c013d5701",
-     "phrase": {
-      "en": "France learns from Spain's coping",
-      "zh": "法国向西班牙学习应对"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/24/world/europe/france-spain-climate-heat-wildfires.html"
-    }
+   "relates_to": [
+    "t5"
    ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "France and Spain battle wildfires, forcing mass evacuations.",
-    "zh": "法国和西班牙山火肆虐，大规模疏散。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "wildfires",
-    "zh": "山火"
-   },
-   "relates_to": [],
    "why_now": {
-    "en": "Major wildfires ongoing in France and Spain today.",
-    "zh": "法国和西班牙今日遭遇严重山火。"
+    "en": "Trump unveils sweeping tariffs; allies object.",
+    "zh": "特朗普推出全面关税；盟友反对。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "f104d25dfe2f0bac",
+     "full_text_file": "articles/news/22eb600d2dd3bec3.json",
+     "item_id": "22eb600d2dd3bec3",
      "phrase": {
-      "en": "legality of AI music",
-      "zh": "AI音乐合法性"
+      "en": "Tech-broification of science",
+      "zh": "科学的科技兄弟化"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/24/arts/music/ai-music-faq.html"
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants"
     },
     {
      "full_text_file": "articles/news/9950bfed769fda8f.json",
      "item_id": "9950bfed769fda8f",
      "phrase": {
-      "en": "EPA may limit public input",
-      "zh": "EPA或限制公众意见"
+      "en": "AI firms want more data centers",
+      "zh": "AI公司需要更多数据中心"
      },
      "section": "news",
      "source": "Ars Technica · AI",
      "url": "https://arstechnica.com/tech-policy/2026/07/ai-firms-want-more-data-centers-trumps-epa-may-give-neighbors-less-say/"
     },
     {
-     "item_id": "38b4343660926ceb",
+     "item_id": "7ed1b8a1c6575888",
      "phrase": {
-      "en": "building app with AI took a year",
-      "zh": "用AI构建应用耗时一年"
+      "en": "Open weights and AI leadership",
+      "zh": "开放权重与AI领导力"
      },
      "section": "news",
      "source": "Hacker News (AI filter)",
-     "url": "https://www.alexhyett.com/videos/tried-building-app-with-ai-it-took-a-year/"
-    },
-    {
-     "item_id": "9e060c6415654c76",
-     "phrase": {
-      "en": "wearable AI for writing",
-      "zh": "可穿戴AI辅助写作"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.21394v1"
+     "url": "https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "divergent",
    "gloss": {
-    "en": "AI music and data centers raise legal and ethical questions.",
-    "zh": "AI音乐与数据中心引发法律和伦理疑问。"
+    "en": "US government launches $5 billion AI-driven science initiative, signaling a new era.",
+    "zh": "美国政府启动50亿美元人工智能科学计划，标志新时代开启。"
    },
-   "id": "t3",
+   "id": "t4",
    "keyword": {
-    "en": "AI regulation",
-    "zh": "AI监管"
+    "en": "AI science funding",
+    "zh": "人工智能科学资助"
    },
    "relates_to": [],
    "why_now": {
-    "en": "New AI music capabilities and data center rules debated today.",
-    "zh": "今日讨论AI音乐能力及数据中心新规。"
+    "en": "First 'Genesis Mission' grants announced by Trump administration.",
+    "zh": "特朗普政府公布首批‘创世纪任务’资助。"
    }
   },
   {
    "angles": [
     {
+     "item_id": "7c610fe039570a33",
+     "phrase": {
+      "en": "Oil above $100, rate hike fears",
+      "zh": "油价超100美元，加息担忧"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising"
+    },
+    {
      "item_id": "070c8e5234bdcdc8",
      "phrase": {
-      "en": "Trump threatens major escalation",
-      "zh": "特朗普威胁大幅升级"
+      "en": "Trump threatens massive attack",
+      "zh": "特朗普威胁大规模攻击"
      },
      "section": "news",
      "source": "NPR News",
      "url": "https://www.npr.org/2026/07/24/g-s1-135417/us-iran-war-updates"
-    },
-    {
-     "item_id": "8b26fcd2b3e911ad",
-     "phrase": {
-      "en": "Iranians feel trapped",
-      "zh": "伊朗人感到陷入困境"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/24/world/middleeast/iran-war-cycle.html"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Trump threatens escalation as war devastates Iranian lives.",
-    "zh": "特朗普威胁升级，战争摧毁伊朗民生。"
-   },
-   "id": "t4",
-   "keyword": {
-    "en": "Iran",
-    "zh": "伊朗"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "Trump threatens 'massive attack' on Iran today.",
-    "zh": "特朗普今日威胁对伊朗发动‘大规模攻击’。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "1a9a01c127ca8d1c",
-     "phrase": {
-      "en": "nun detained by ICE",
-      "zh": "修女被ICE拘留"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/jul/24/texas-nun-detained-ice-speaks-out"
-    },
-    {
-     "item_id": "d4926aec9d64ef98",
-     "phrase": {
-      "en": "former nun's cloistered life",
-      "zh": "前修女的隐居生活"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/07/24/nx-s1-5904598/a-former-nun-explains-why-she-ran-away-from-her-cloistered-life"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Texas nun detained by ICE speaks out, highlighting immigration tensions.",
-    "zh": "德州修女被ICE拘留后发声，凸显移民紧张局势。"
+    "en": "Escalating Middle East conflict pushes crude oil above $100, threatening global economies.",
+    "zh": "中东冲突升级推动原油突破100美元，威胁全球经济。"
    },
    "id": "t5",
    "keyword": {
-    "en": "detained nun",
-    "zh": "被拘留修女"
+    "en": "Middle East oil prices",
+    "zh": "中东油价"
    },
-   "relates_to": [],
+   "relates_to": [
+    "t2"
+   ],
    "why_now": {
-    "en": "Sister Leticia Ugboaja speaks publicly for the first time today.",
-    "zh": "莱蒂西亚修女今日首次公开讲话。"
+    "en": "Iran attacks and US strikes raise oil supply fears.",
+    "zh": "伊朗袭击和美国打击引发石油供应担忧。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "0d0d3c060e158b54",
+     "item_id": "8afe287a4c372d8d",
      "phrase": {
-      "en": "settler attack kills five",
-      "zh": "定居者袭击致五人死亡"
+      "en": "Cockroach activist ends strike",
+      "zh": "蟑螂活动人士结束绝食"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/jul/24/palestinians-israeli-killed-west-bank-shooting"
+     "url": "https://www.theguardian.com/world/2026/jul/24/india-cockroach-protest-sonam-wangchuk-ends-hunger-strike"
     },
     {
      "item_id": "2bbbd241993b4a31",
      "phrase": {
-      "en": "Tanzanian lecturer held for protests",
-      "zh": "坦桑尼亚讲师因抗议被捕"
+      "en": "Lecturer charged with terrorism",
+      "zh": "讲师被控恐怖主义"
      },
      "section": "news",
      "source": "BBC World",
      "url": "https://www.bbc.co.uk/news/articles/cd9w2xnxe1qo?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "Settler attack kills four Palestinians and one Israeli, escalating conflict.",
-    "zh": "定居者袭击造成四名巴勒斯坦人和一名以色列人死亡，冲突升级。"
+    "en": "From India to Tanzania, activists face hunger strikes, arrests, and terrorism charges.",
+    "zh": "从印度到坦桑尼亚，活动人士面临绝食、逮捕和恐怖主义指控。"
    },
    "id": "t6",
    "keyword": {
-    "en": "West Bank violence",
-    "zh": "西岸暴力"
+    "en": "protest and crackdown",
+    "zh": "抗议与镇压"
    },
    "relates_to": [],
    "why_now": {
-    "en": "Deadly shooting in West Bank today.",
-    "zh": "今日西岸发生致命枪击事件。"
+    "en": "Indian activist ends strike; Tanzanian lecturer charged with terrorism.",
+    "zh": "印度活动人士结束绝食；坦桑尼亚讲师被控恐怖主义。"
    }
   }
  ]
