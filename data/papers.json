@@ -15,7 +15,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-23T16:58:34Z",
-   "score": 0.5669,
+   "score": 0.5617,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -26,34 +26,6 @@
    ],
    "title": "Transparent by Design, Usable in Practice? A Formative Usability Study of a Conversational Product Advisor",
    "url": "https://arxiv.org/abs/2607.21513v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Ashu Gupta",
-    "Cameron Owens",
-    "Benjamin Wilson-Langman",
-    "Max Hill",
-    "Jason Cox",
-    "Joshua Clinton"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Political legislation affects the well-being and livelihoods of constituents. In the U.S. Congress a representative's voting record on bills and legislation is public. These bills have themes associated with them, such as veterans' affairs, coastal monitoring, agricultural appropriations, etc. A bill on veterans' affairs may affect a constituency differently if they have a high percentage of veterans. In this work, we demonstrate how congressional vote outcomes can be merged with typical…",
-    "arxiv_id": "2607.21502"
-   },
-   "id": "fde64d4ce07cba6c",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-23T16:50:58Z",
-   "score": 0.7988,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Political legislation affects the well-being and livelihoods of constituents. In the U.S. Congress a representative's voting record on bills and legislation is public. These bills have themes associated with them, such as veterans' affairs, coastal monitoring, agricultural appropriations, etc. A…",
-   "tags": [],
-   "title": "A Needs Assessment for Measuring Geographic - Legislative Associations in the U.S. House of Representatives",
-   "url": "https://arxiv.org/abs/2607.21502v1",
    "venue": "arXiv cs.HC"
   },
   {
@@ -74,7 +46,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-23T14:56:51Z",
-   "score": 0.7497,
+   "score": 0.7446,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -101,7 +73,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-23T13:10:00Z",
-   "score": 0.5489,
+   "score": 0.5439,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -111,36 +83,6 @@
    ],
    "title": "Reimagining the Augmented Reality Accessibility Ecosystem for Deaf Students: Service Provider Perspectives in Experiential Learning",
    "url": "https://arxiv.org/abs/2607.21289v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Yunhai Wang",
-    "Kecheng Lu",
-    "Junhao Chen",
-    "Alper Sarikaya",
-    "Chenglong Wang"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "We present Flint, an intermediate language that enables authors to create high-quality visualizations from concise, semantics-driven specifications without explicitly configuring low-level parameters such as scales, axes, and formatting. Unlike prior systems that infer default configurations from surface-level data representations, often producing brittle choices, Flint introduces a hierarchical data semantic model that allows users to specify the meanings of data fields structurally and helps…",
-    "arxiv_id": "2607.20775"
-   },
-   "id": "6c55f12f043ac39c",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-22T22:42:34Z",
-   "score": 0.7199,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "We present Flint, an intermediate language that enables authors to create high-quality visualizations from concise, semantics-driven specifications without explicitly configuring low-level parameters such as scales, axes, and formatting. Unlike prior systems that infer default configurations from…",
-   "tags": [
-    "systems",
-    "visualization"
-   ],
-   "title": "Flint: A Semantics-Driven Data Visualization Intermediate Language",
-   "url": "https://arxiv.org/abs/2607.20775v1",
    "venue": "arXiv cs.HC"
   },
   {
@@ -158,7 +100,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-22T17:11:52Z",
-   "score": 0.6591,
+   "score": 0.6552,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -169,65 +111,6 @@
    "title": "FMRP-LEAN: A HIPAA-Compliant AI-Augmented LIMS Architecture for End-to-End Clinical Assay Workflow Optimization",
    "url": "https://arxiv.org/abs/2607.20382v1",
    "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Markus Wallinger",
-    "Stephen G. Kobourov"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Edge bundling reduces visual clutter by aggregating similar edges, yet practitioners lack a structured vocabulary for reasoning about the tasks that bundled visualizations support. Such a vocabulary is needed both to evaluate the general utility of bundling and to compare different bundling approaches. We address this gap by assembling a corpus of 102 papers, 49 of which contain explicit bundling tasks, spanning node-link diagrams, geographic trail sets, and parallel coordinate plots. From this…",
-    "arxiv_id": "2607.20089"
-   },
-   "id": "24f490d21175fb42",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-22T12:40:08Z",
-   "score": 0.683,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Edge bundling reduces visual clutter by aggregating similar edges, yet practitioners lack a structured vocabulary for reasoning about the tasks that bundled visualizations support. Such a vocabulary is needed both to evaluate the general utility of bundling and to compare different bundling…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "A Task Taxonomy for Edge and Trail Bundling",
-   "url": "https://arxiv.org/abs/2607.20089v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Yue Zhao",
-    "Hongxu Liu",
-    "Feiyu Wang",
-    "Xiaoyu Yang",
-    "Tong Ge",
-    "Zhen Yang"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Multimodal large language models (MLLMs) are increasingly expected to automate visualization development by generating code directly from visual designs. However, existing evaluations mainly focus on single-chart generation and overlook coordinated multi-view interface construction, which requires joint reasoning about data semantics, view coordination, and interaction logic. Consequently, MLLM capabilities in this setting remain underexplored, and the field lacks a dedicated benchmark for…",
-    "arxiv_id": "2607.19910"
-   },
-   "id": "df7012401e39111f",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-22T08:42:55Z",
-   "score": 0.8097,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Multimodal large language models (MLLMs) are increasingly expected to automate visualization development by generating code directly from visual designs. However, existing evaluations mainly focus on single-chart generation and overlook coordinated multi-view interface construction, which requires…",
-   "tags": [
-    "eval-study",
-    "ml-vis",
-    "llm",
-    "visualization"
-   ],
-   "title": "MV-Bench: Benchmarking Multimodal Large Language Models for Coordinated Multi-View Interface Construction",
-   "url": "https://arxiv.org/abs/2607.19910v1",
-   "venue": "arXiv cs.CV"
   },
   {
    "authors": [
@@ -245,7 +128,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-21T11:44:43Z",
-   "score": 0.5684,
+   "score": 0.5656,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -275,7 +158,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-21T08:55:39Z",
-   "score": 0.5613,
+   "score": 0.5586,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -289,19 +172,19 @@
   }
  ],
  "meta": {
-  "count": 10,
-  "generated_at": "2026-07-24T01:25:37Z",
+  "count": 6,
+  "generated_at": "2026-07-24T02:30:56Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
    {
     "category": "optional",
-    "count": 4,
-    "error": null,
+    "count": 0,
+    "error": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60 (Caus",
     "full_text_count": 0,
     "id": "arxiv_datavis",
     "name": "arXiv cs.HC + cs.GR",
-    "ok": true,
+    "ok": false,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
@@ -333,7 +216,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A1050-6519%2Cfrom-created-date%3A2026-06-26&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-06-26&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",

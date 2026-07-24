@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-24T01:25:37Z",
+ "generated_at": "2026-07-24T02:30:56Z",
  "private_summary": {
   "configured": 0,
   "total": 0
@@ -175,12 +175,12 @@
   },
   {
    "category": "optional",
-   "count": 4,
-   "error": null,
+   "count": 0,
+   "error": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60 (Caus",
    "full_text_count": 0,
    "id": "arxiv_datavis",
    "name": "arXiv cs.HC + cs.GR",
-   "ok": true,
+   "ok": false,
    "section": "papers",
    "skip_reason": null,
    "type": "arxiv"
@@ -212,7 +212,7 @@
   {
    "category": "optional",
    "count": 0,
-   "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A1050-6519%2Cfrom-created-date%3A2026-06-26&rows=12&sort=created&order=desc",
+   "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-06-26&rows=12&sort=created&order=desc",
    "full_text_count": 0,
    "id": "crossref_techcomm_journals",
    "name": "TechComm journals (CrossRef)",
