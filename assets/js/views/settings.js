@@ -7,7 +7,7 @@ import { get, prefs } from "../store.js";
 import { tabBar } from "./shared.js";
 import * as sourcesView from "./sources.js";
 
-const THEMES = ["the-type", "nyt", "bear"];
+const THEMES = ["the-type", "papermod", "blowfish"];
 const SCHEMES = ["light", "dark", "auto"];
 
 // Keep the Appearance chips reflecting the PREF (Auto stays active under auto),
@@ -25,12 +25,14 @@ document.addEventListener("nd:schemechange", () => {
 export function render(container, tab = "general") {
   if (tab !== "sources") tab = "general"; // unknown tab -> default
   clear(container);
-  container.appendChild(el("h2", {}, t("settings.title")));
-  container.appendChild(tabBar("settings", [
+  container.appendChild(el("h2", { class: "nd-fadein" }, t("settings.title")));
+  const tabs = tabBar("settings", [
     ["general", t("settings.tabs.general")],
     ["sources", t("settings.tabs.sources")],
-  ], tab));
-  const body = el("div", { class: "tab-body" });
+  ], tab);
+  tabs.classList.add("nd-fadein");
+  container.appendChild(tabs);
+  const body = el("div", { class: "tab-body nd-fadein nd-fadein-d1" });
   container.appendChild(body);
 
   if (tab === "sources") sourcesView.render(body);
@@ -58,6 +60,15 @@ function renderGeneral(container) {
         },
       }, t(`settings.themes.${theme}`));
     })),
+    // The three themes adapt well-known open designs; credit their originals.
+    el("p", { class: "muted small theme-credits" },
+      `${t("settings.themeCredits")} `,
+      el("a", { href: "https://www.thetype.com/", target: "_blank", rel: "noopener" }, "The Type"),
+      " · ",
+      el("a", { href: "https://github.com/adityatelange/hugo-PaperMod", target: "_blank", rel: "noopener" }, "PaperMod"),
+      " · ",
+      el("a", { href: "https://github.com/nunocoracao/blowfish", target: "_blank", rel: "noopener" }, "Blowfish"),
+    ),
   ));
 
   // appearance (color scheme): light / dark / auto. Chips reflect the PREF,

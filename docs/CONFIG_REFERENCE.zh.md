@@ -24,7 +24,7 @@
 | `visibility` | `"public"` \| `"private"` | **public**：新闻/论文明文，任何私密栏目永远加密。**private**：*所有*文件加密、站点直接进口令门；缺 `NEWSDASH_PASSPHRASE` 时构建**直接失败** |
 | `languages` | `["en","zh"]` 的子集 | 提供哪些界面语言 |
 | `default_language` | `"en"` \| `"zh"` | 访客切换之前的默认界面语言与内容语言 |
-| `theme` | `"the-type"` \| `"nyt"` \| `"bear"` | 默认主题（访客可切换，按浏览器记忆） |
+| `theme` | `"the-type"` \| `"papermod"` \| `"blowfish"` | 默认主题（访客可切换，按浏览器记忆）。旧值 `nyt`/`bear` 仍可通过校验，并自动映射为 `papermod`/`blowfish`。 |
 | `timezone` | IANA 名称 | 日界与开窗边界（显示用访客本地时钟） |
 | `windows.*` | 整数 | 见总览表；Schema 限定合理范围 |
 | `threads.*` | 对象 | 「线索 · Threads」AI 关键词聚合模块（生效时取代 Highlights）——见 §2c |

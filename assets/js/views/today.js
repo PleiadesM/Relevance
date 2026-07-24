@@ -371,8 +371,8 @@ function overviewStrip(favCount) {
 
 // ---- the-type theme: hero + numbered-feed Today layout --------------------
 // A structurally different Today layout for the-type only (see
-// assets/themes/the-type.css); nyt/bear keep the masthead+overview-strip
-// layout below untouched.
+// assets/themes/the-type.css); papermod/blowfish keep the
+// masthead+overview-strip layout below untouched.
 
 function heroDateParts() {
   const now = new Date();
@@ -402,7 +402,7 @@ function heroImageBlock(image) {
   );
 }
 
-// Distinct from overviewStrip()'s numeric strip (nyt/bear): the hero pills
+// Distinct from overviewStrip()'s numeric strip (papermod/blowfish): the hero pills
 // surface a simpler cut — how much ran through the feed today — matching
 // the mockup, computed the same client-side way (no private-count leaks).
 function statsPills() {

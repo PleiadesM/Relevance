@@ -8,6 +8,34 @@ round of significant changes lands. Format loosely follows
 [Keep a Changelog](https://keepachangelog.com/); versions follow semver
 (minor = feature round, patch = fixes).
 
+## [0.5.0] — 2026-07-23
+
+Theme round.
+
+### Added
+- **PaperMod theme** (`papermod`, 纸墨) replaces "Newsprint" — an adaptation
+  of [hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod) (MIT):
+  monochrome palette, bordered entry cards with a hover lift, title-left /
+  nav-right masthead, system fonts only.
+- **Lowkey Blowfish theme** (`blowfish`, 河豚) replaces "Bear" — an
+  adaptation of [Blowfish](https://github.com/nunocoracao/blowfish) (MIT)
+  after its `blowfish_lowkey` preset (congo scheme, fixed header): zinc
+  neutrals, violet accent, tinted tag pills, and a **sticky masthead whose
+  backdrop blur fades in with scroll** (opacity ramps over the first 300px,
+  like Blowfish's fixed header; opaque fallback where `backdrop-filter` is
+  unsupported).
+- **`the-type`'s staggered fade-in now plays on every tab** — News, Papers,
+  Clippings, Settings, and the reader, not just Today. In-view re-renders
+  (e.g. typing in the feed search) don't replay it.
+- **Theme design credits** line under the Settings theme picker (The Type ·
+  PaperMod · Blowfish).
+
+### Changed / Deprecated
+- Theme keys `nyt`/`bear` are **deprecated aliases** of
+  `papermod`/`blowfish`: stored preferences migrate on first load, configs
+  and setup issues using the old keys still validate and are normalized —
+  nothing breaks. Bear's ʕ•ᴥ•ʔ wordmark retires with the theme.
+
 ## [0.4.3] — 2026-07-24
 
 ### Fixed

@@ -158,13 +158,16 @@ export async function render(container, sectionId) {
   const favs = get().unlocked ? await favoriteIdSet() : null;
   if (token !== renderToken) return; // superseded by a newer render
   clear(container);
-  if (!section) return container.appendChild(emptyCard());
-  if (section.status === "not_configured") return container.appendChild(notConfiguredCard());
-  if (section.status === "locked") return container.appendChild(lockedCard());
-  if (section.status === "error" || !section.payload) return container.appendChild(errorCard());
+  // the-type's entrance fade plays on route changes (container rebuilt) but
+  // not on in-view re-renders (renderList only clears .item-list children).
+  const fadein = (node) => { node.classList.add("nd-fadein"); return node; };
+  if (!section) return container.appendChild(fadein(emptyCard()));
+  if (section.status === "not_configured") return container.appendChild(fadein(notConfiguredCard()));
+  if (section.status === "locked") return container.appendChild(fadein(lockedCard()));
+  if (section.status === "error" || !section.payload) return container.appendChild(fadein(errorCard()));
 
   const items = filterItemsForContentLang(section.payload.items || []);
-  if (!items.length) return container.appendChild(emptyCard());
+  if (!items.length) return container.appendChild(fadein(emptyCard()));
 
   // NEW badges mark items published since the previous visit to this section.
   const newSince = prefs.read(`seen.${sectionId}`);
@@ -181,7 +184,7 @@ export async function render(container, sectionId) {
   let group = prefs.read(`group.${sectionId}`,
     sectionId === "following" ? "source" : "none");
 
-  const list = el("div", { class: "item-list" });
+  const list = el("div", { class: "item-list nd-fadein nd-fadein-d1" });
   const count = el("span", { class: "filter-count" });
 
   const search = el("input", {
@@ -242,7 +245,7 @@ export async function render(container, sectionId) {
     .sort((a, b) => b[1] - a[1]).slice(0, 14);
   let tagRow = null;
   if (topTags.length) {
-    tagRow = el("div", { class: "tag-row" },
+    tagRow = el("div", { class: "tag-row nd-fadein" },
       el("button", {
         type: "button",
         class: `tag-chip${state.tag === "" ? " active" : ""}`,
@@ -264,8 +267,8 @@ export async function render(container, sectionId) {
     renderList();
   }
 
-  container.appendChild(el("div", { class: "filter-bar" }, search, sourceSel, timeSel, count));
-  container.appendChild(el("div", { class: "feed-controls" },
+  container.appendChild(el("div", { class: "filter-bar nd-fadein" }, search, sourceSel, timeSel, count));
+  container.appendChild(el("div", { class: "feed-controls nd-fadein" },
     sortSeg, groupSeg));
   if (tagRow) container.appendChild(tagRow);
   container.appendChild(list);

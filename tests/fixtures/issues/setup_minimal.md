@@ -8,7 +8,7 @@ Public — open sections readable by anyone · 公开
 
 ### Theme · 主题
 
-bear — minimal, auto dark mode · 小熊
+blowfish — lowkey violet, blurred nav · 河豚
 
 ### Site title · 站点标题
 

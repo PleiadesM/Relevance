@@ -1,0 +1,141 @@
+/* Theme: blowfish — an adaptation of Blowfish
+   (https://github.com/nunocoracao/blowfish, MIT), after blowfish_lowkey:
+   colorScheme congo, header fixed. A restrained violet accent on a near-white
+   / zinc surface, a title-left / nav-right masthead, and a scroll-ramped
+   blurred sticky header (the signature "fixed" Blowfish nav).
+
+   System fonts only: this theme issues NO webfont requests. Only the-type
+   ever loads Google Fonts, and app.js `ensureTheTypeFonts` gates that fetch
+   on the-type being the active theme — blowfish never triggers it. */
+
+[data-theme="blowfish"] {
+  --bg: #ffffff;
+  --bg-elev: #fafafa;
+  --bg-card: #fafafa;
+  --fg: #3f3f46;
+  --fg-muted: #71717a;
+  --accent: #7c3aed;
+  --accent-fg: #ffffff;
+  --rule: #e4e4e7;
+  --rule-strong: #d4d4d8;
+  --link: #7c3aed;
+  --highlight-bg: #ede9fe;
+  --mast-rgb: 255, 255, 255;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  --font-body: var(--font-sans);
+  --font-heading: var(--font-sans);
+  --font-meta: var(--font-sans);
+  --size-base: 16px;
+  --leading: 1.6;
+  --leading-cjk: 1.85;
+  --measure: 42rem;
+  --radius: 8px;
+  --shadow: none;
+  --page-max: 64rem;
+}
+
+html[data-scheme="dark"][data-theme="blowfish"] {
+  --bg: #27272a;
+  --bg-elev: #3f3f46;
+  --bg-card: #313135;
+  --fg: #d4d4d8;
+  --fg-muted: #a1a1aa;
+  --accent: #a78bfa;
+  --accent-fg: #27272a;
+  --rule: #3f3f46;
+  --rule-strong: #52525b;
+  --link: #a78bfa;
+  --highlight-bg: #4c1d95;
+  --mast-rgb: 39, 39, 42;
+  --overlay: rgba(0, 0, 0, 0.6);
+  --shadow-pop: rgba(0, 0, 0, 0.5);
+  --shadow-soft: rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="blowfish"] body { font-family: var(--font-sans); }
+
+/* ---- blurred sticky nav: the signature Blowfish "fixed" header. A ::before
+   layer ramps its opacity from 0 → 1 as the page scrolls (driven by the
+   --nd-scroll custom property app.js publishes on <html>), so the blurred
+   backdrop fades in only once content slides beneath it. ---- */
+
+[data-theme="blowfish"] #masthead { position: sticky; top: 0; z-index: 40; border-bottom: none; }
+[data-theme="blowfish"] #masthead::before {
+  content: ""; position: absolute; inset: 0; z-index: -1;
+  background: rgba(var(--mast-rgb), 0.25);
+  -webkit-backdrop-filter: blur(40px); backdrop-filter: blur(40px);
+  box-shadow: 0 25px 50px -12px var(--shadow-pop);
+  opacity: var(--nd-scroll, 0); pointer-events: none;
+}
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  [data-theme="blowfish"] #masthead::before { background: rgba(var(--mast-rgb), 0.94); }
+}
+@media print { [data-theme="blowfish"] #masthead { position: static; } }
+
+/* ---- masthead layout: title left, nav right. display:contents promotes
+   masthead-inner's children to direct flex items of #masthead so `order`
+   reflows title / meta / nav (same trick as the-type). ---- */
+
+[data-theme="blowfish"] #masthead {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+[data-theme="blowfish"] .masthead-inner { display: contents; }
+[data-theme="blowfish"] .masthead-titles { order: 1; }
+[data-theme="blowfish"] #site-subtitle { display: none; }
+[data-theme="blowfish"] #site-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+[data-theme="blowfish"] #nav {
+  order: 3;
+  margin: 0 0 0 auto;
+  padding: 0;
+  border-top: none;
+  font-size: 0.9rem;
+  gap: 1.1rem;
+}
+[data-theme="blowfish"] #nav a.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+[data-theme="blowfish"] .masthead-meta { order: 2; margin-left: auto; }
+
+/* ---- tag pills, tinted with the violet accent ---- */
+
+[data-theme="blowfish"] .tag,
+[data-theme="blowfish"] .tag-chip {
+  background: rgba(124, 58, 237, .08);
+  color: var(--accent);
+  border-radius: 6px;
+  text-transform: none;
+  letter-spacing: 0;
+}
+html[data-scheme="dark"][data-theme="blowfish"] .tag,
+html[data-scheme="dark"][data-theme="blowfish"] .tag-chip {
+  background: rgba(167, 139, 250, .12);
+}
+[data-theme="blowfish"] .tag-chip.active {
+  background: var(--accent);
+  color: var(--accent-fg);
+}
+
+/* ---- thread cards: an accent top border ---- */
+
+[data-theme="blowfish"] .thread-card { border-top: 3px solid var(--accent); }
+
+/* ---- responsive: nav wraps below the title on narrow screens (same override
+   the-type/papermod need over the base @media(40rem) meta rule). ---- */
+
+@media (max-width: 48rem) {
+  [data-theme="blowfish"] #nav {
+    order: 3;
+    width: 100%;
+    margin-left: 0;
+    overflow-x: auto;
+  }
+  [data-theme="blowfish"] .masthead-meta { order: 2; width: auto; margin-left: auto; }
+}

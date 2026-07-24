@@ -37,7 +37,7 @@ in this order (one topic at a time, don't dump a questionnaire):
    *private* = everything encrypted, site opens with a passphrase gate.
    Either way the repo stays public and privacy comes from encryption —
    "a private site is an encrypted public site."
-2. **Language, theme, timezone, title** (`the-type` / `nyt` / `bear`; IANA timezone).
+2. **Language, theme, timezone, title** (`the-type` / `papermod` / `blowfish`; IANA timezone).
 3. **Open packs** — `ai-news`, `general-news` — plus any custom RSS/blog feeds.
 4. **Academic fields** — map to `academic-datavis` / `academic-techcomm`, or
    craft new sources for other fields: arXiv category queries (`cat:cs.CL`),

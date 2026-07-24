@@ -26,7 +26,7 @@ def make_ctx():
     def _make(env=None, tz="America/Chicago", now=FIXED_NOW):
         site = SiteConfig(
             title="Test", subtitle="", visibility="public",
-            languages=["en"], default_language="en", theme="bear",
+            languages=["en"], default_language="en", theme="blowfish",
             timezone=tz, windows=Windows(), ranking=Ranking(),
         )
         return FetchContext(session=make_session(), now=now, env=env or {},
@@ -57,7 +57,7 @@ def make_repo(tmp_path):
         site = site or {
             "schema_version": 1, "title": "Test Dash", "visibility": "public",
             "languages": ["en", "zh"], "default_language": "en",
-            "theme": "bear", "timezone": "UTC",
+            "theme": "blowfish", "timezone": "UTC",
         }
         sources = sources or {"schema_version": 1, "presets": [], "sources": []}
         (root / "config" / "site.json").write_text(json.dumps(site), encoding="utf-8")

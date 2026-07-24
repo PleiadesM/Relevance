@@ -30,7 +30,7 @@ def test_full_form_applies(issue_repo):
     site = read_json(issue_repo / "config" / "site.json")
     assert site["default_language"] == "zh"
     assert site["visibility"] == "private"
-    assert site["theme"] == "nyt"
+    assert site["theme"] == "papermod"
     assert site["title"] == "道成的新闻台"
     assert site["timezone"] == "America/Chicago"
 
@@ -67,10 +67,22 @@ def test_minimal_form_keeps_defaults(issue_repo):
     site = read_json(issue_repo / "config" / "site.json")
     assert site["title"] == "Relevance"  # _No response_ keeps existing
     assert site["timezone"] == before["timezone"]  # untouched fields survive
-    assert site["theme"] == "bear"
+    assert site["theme"] == "blowfish"
     sources = read_json(issue_repo / "config" / "sources.json")
     assert sources["presets"] == ["ai-news", "general-news"]  # fallback
     assert any("no packs selected" in w for w in warnings)
+
+
+def test_theme_alias_in_issue_normalized(issue_repo):
+    """A deprecated theme key submitted through the setup issue (nyt) is
+    normalized to its new name (papermod) with no warning."""
+    body = (FIX / "setup_minimal.md").read_text(encoding="utf-8").replace(
+        "blowfish — lowkey violet, blurred nav · 河豚",
+        "nyt — newspaper front page · 报纸")
+    summary, warnings = ios.apply(body, issue_repo)
+    site = read_json(issue_repo / "config" / "site.json")
+    assert site["theme"] == "papermod"
+    assert not any("theme" in w.lower() for w in warnings)
 
 
 def test_malformed_body_with_credential_rejected(issue_repo):
@@ -89,7 +101,7 @@ def test_missing_ack_rejected(issue_repo):
 
 
 def test_success_comment_private_mentions_passphrase():
-    summary = {"language": "zh", "visibility": "private", "theme": "nyt",
+    summary = {"language": "zh", "visibility": "private", "theme": "papermod",
                "title": "T", "timezone": "UTC", "presets": ["ai-news"],
                "extra_feeds": [], "interests": []}
     comment = ios.success_comment(summary, [], "alice/my-dash")

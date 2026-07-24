@@ -1,5 +1,5 @@
 // Color scheme (light/dark) with an Auto mode that follows the OS. Distinct
-// from `theme` (the-type/nyt/bear): a scheme change is a pure CSS-custom-
+// from `theme` (the-type/papermod/blowfish): a scheme change is a pure CSS-custom-
 // property swap — no re-render — so it can cross-fade. The resolved scheme is
 // stamped on <html data-scheme>; the FOUC guard in index.html stamps it once
 // before first paint, and this module keeps it in sync afterward, drives the

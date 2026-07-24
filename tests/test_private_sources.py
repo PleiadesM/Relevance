@@ -115,7 +115,7 @@ def _career_repo(make_repo):
         site={
             "schema_version": 1, "title": "T", "visibility": "public",
             "languages": ["en", "zh"], "default_language": "en",
-            "theme": "bear", "timezone": "UTC",
+            "theme": "blowfish", "timezone": "UTC",
             "sections": [{"id": "career", "label": CAREER_LABEL, "kind": "news"}],
         },
         sources={"schema_version": 1, "presets": [], "sources": [

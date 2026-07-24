@@ -28,7 +28,7 @@ what's wrong.
 | `visibility` | `"public"` \| `"private"` | **public**: news/papers plaintext, any private sections always encrypted. **private**: *every* file encrypted; site boots to a passphrase gate; build **fails** if `NEWSDASH_PASSPHRASE` is missing |
 | `languages` | subset of `["en","zh"]` | Offered UI languages |
 | `default_language` | `"en"` \| `"zh"` | Chrome and content language before the visitor toggles |
-| `theme` | `"the-type"` \| `"nyt"` \| `"bear"` | Default theme (visitors can switch; their choice persists per browser) |
+| `theme` | `"the-type"` \| `"papermod"` \| `"blowfish"` | Default theme (visitors can switch; their choice persists per browser). The old values `nyt`/`bear` still validate and auto-map to `papermod`/`blowfish`. |
 | `timezone` | IANA name | Day/window boundaries (display uses the *viewer's* clock) |
 | `windows.*` | integers | See overview table; schema enforces sane ranges |
 | `ranking.*` | object | Homepage "Highlights" variety knobs — see §2a |

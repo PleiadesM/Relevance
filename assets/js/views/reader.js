@@ -63,7 +63,7 @@ export async function render(container, sectionId, itemId) {
   if (status === "locked") return container.appendChild(lockedCard());
   if (status !== "ok" || !item) return container.appendChild(errorCard());
   if (!item.full_text_file) {
-    return container.appendChild(el("div", { class: "state-card" },
+    return container.appendChild(el("div", { class: "state-card nd-fadein" },
       el("h2", {}, t("reader.unavailable")),
       el("p", { class: "muted" }, t("reader.unavailableBody")),
       el("p", {},
@@ -78,7 +78,7 @@ export async function render(container, sectionId, itemId) {
   clear(container);
   if (article.status === "locked") return container.appendChild(lockedCard());
   if (article.status !== "ok" || !article.payload?.full_text) {
-    return container.appendChild(el("div", { class: "state-card" },
+    return container.appendChild(el("div", { class: "state-card nd-fadein" },
       el("h2", {}, t("reader.stale")),
       el("p", { class: "muted" }, t("reader.staleBody")),
       el("p", {},
@@ -88,6 +88,8 @@ export async function render(container, sectionId, itemId) {
     ));
   }
 
-  container.appendChild(readerShell(item, article.payload.full_text));
+  const shell = readerShell(item, article.payload.full_text);
+  shell.classList.add("nd-fadein");
+  container.appendChild(shell);
   renderAnnotationsIn(container);
 }

@@ -15,7 +15,7 @@ FIXTURES = Path(__file__).resolve().parent / "fixtures" / "discover"
 
 def _config(*sources: SourceConfig) -> Config:
     site = SiteConfig(title="t", subtitle="", visibility="public",
-                      languages=["en"], default_language="en", theme="bear",
+                      languages=["en"], default_language="en", theme="blowfish",
                       timezone="UTC", windows=Windows(), ranking=Ranking())
     return Config(site=site, sources=list(sources), tag_rules={},
                   interests_keywords=[], interests_boost=0.15)

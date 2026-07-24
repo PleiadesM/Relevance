@@ -52,6 +52,12 @@ DEFAULT_CATEGORY_BY_TYPE = {
     "semanticscholar": "optional",
 }
 
+# Two themes were renamed in 0.5.0; the old keys still validate (see the
+# site schema enum) but are normalized to the new names here so the manifest
+# always emits the current keys. Mirrors THEME_ALIASES in assets/js/app.js and
+# the FOUC guard in index.html — keep in sync.
+_THEME_ALIASES = {"nyt": "papermod", "bear": "blowfish"}
+
 # Sections the frontend knows how to render, and what lives in them.
 # "following" is the scholars/labs tracking section: papers-kind so followed
 # authors' works carry authors/venue, but it accepts any feed source too.
@@ -341,7 +347,7 @@ def load_site(repo_root: Path) -> SiteConfig:
         visibility=doc["visibility"],
         languages=list(doc["languages"]),
         default_language=doc["default_language"],
-        theme=doc["theme"],
+        theme=_THEME_ALIASES.get(doc["theme"], doc["theme"]),
         timezone=doc["timezone"],
         windows=win,
         ranking=rank,

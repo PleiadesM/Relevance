@@ -262,9 +262,10 @@ export const FALLBACK_EN = {
     "theme": "Theme",
     "themes": {
       "the-type": "The Type",
-      "nyt": "Newsprint",
-      "bear": "Bear"
+      "papermod": "PaperMod",
+      "blowfish": "Lowkey Blowfish"
     },
+    "themeCredits": "Design credits:",
     "appearance": "Appearance",
     "schemes": {
       "light": "Light",

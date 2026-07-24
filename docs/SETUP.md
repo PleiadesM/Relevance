@@ -84,7 +84,7 @@ You never need to edit JSON by hand. The repo ships an issue form that a bot rea
    |---|---|
    | **Interface language** | Default UI language, English or Chinese. Readers can still toggle anytime on the page. |
    | **Site visibility** | **Public** = news/papers readable by anyone, personal sections still encrypted. **Private** = the *entire* site is encrypted and opens with a passphrase gate — requires the `NEWSDASH_PASSPHRASE` secret ([step 5](#5-private-mode-and-the-passphrase)). |
-   | **Theme** | `the-type` (typography-first serif), `nyt` (newspaper front page), or `bear` (minimal, compact). All three ship a designed dark variant. |
+   | **Theme** | `the-type` (typography-first serif), `papermod` (clean system-sans entry cards, adapts hugo-PaperMod), or `blowfish` (lowkey violet with a blurred sticky nav, adapts Blowfish). All three ship a designed dark variant. The old `nyt`/`bear` keys still work and map to `papermod`/`blowfish`. |
    | **Site title** | The masthead text (optional). |
    | **Timezone** | IANA name like `America/Chicago` or `Asia/Shanghai` — used for day boundaries (optional). |
    | **Open news packs** | Tick **AI news** and/or **General news**. Tick nothing and the bot keeps both defaults. |
@@ -175,7 +175,7 @@ What to expect:
 - **Unlock** — if you have encrypted sections, an unlock button asks for your passphrase (the one from `NEWSDASH_PASSPHRASE`). Wrong passphrase is detected instantly, before any data downloads.
 - **"Remember on this device"** — optional checkbox at unlock. It stores the derived key in your browser so you skip typing next time. Only use it on a device that is genuinely yours: anyone with access to that browser profile can then read your private sections. Locking the site wipes it.
 - **Annotations** — select any text in an article card and choose **Highlight**, **Excerpt**, or **Note**. Everything you save lands in the **Clippings** view, which exports **Obsidian-friendly Markdown**. Annotations are stored locally in your browser (never uploaded) and are **only visible after unlock**.
-- **Theme and language** — switch between English/中文 anytime with the language toggle; switch the theme (`the-type` / `nyt` / `bear`) from the page controls or permanently via the setup issue.
+- **Theme and language** — switch between English/中文 anytime with the language toggle; switch the theme (`the-type` / `papermod` / `blowfish`) from the page controls or permanently via the setup issue.
 - **Print brief** — the print view formats the current dashboard as a clean paper brief; just use your browser's print (⌘P / Ctrl+P).
 
 ## 9. Troubleshooting

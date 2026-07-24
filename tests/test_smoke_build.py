@@ -239,7 +239,7 @@ def test_private_visibility_requires_passphrase(tmp_path, monkeypatch, make_repo
     root = make_repo(site={
         "schema_version": 1, "title": "T", "visibility": "private",
         "languages": ["en"], "default_language": "en",
-        "theme": "bear", "timezone": "UTC",
+        "theme": "blowfish", "timezone": "UTC",
     })
     with pytest.raises(SystemExit):
         build_mod.main(["--output-dir", str(tmp_path / "d"), "--smoke",
@@ -251,7 +251,7 @@ def test_private_visibility_encrypts_everything(tmp_path, monkeypatch, make_repo
     root = make_repo(
         site={"schema_version": 1, "title": "T", "visibility": "private",
               "languages": ["en"], "default_language": "en",
-              "theme": "bear", "timezone": "UTC"},
+              "theme": "blowfish", "timezone": "UTC"},
         sources={"schema_version": 1, "presets": [], "sources": [
             {"id": "feed_a", "type": "rss", "section": "news",
              "name": "A", "url": "https://a.example/feed.xml"}]},
@@ -275,7 +275,7 @@ def test_smoke_custom_section_carries_label_kind_and_orders(tmp_path, monkeypatc
         site={
             "schema_version": 1, "title": "T", "visibility": "public",
             "languages": ["en", "zh"], "default_language": "en",
-            "theme": "bear", "timezone": "UTC",
+            "theme": "blowfish", "timezone": "UTC",
             "sections": [
                 {"id": "ai", "label": {"en": "AI", "zh": "AI 前沿"},
                  "order": 1, "kind": "news"},
@@ -394,7 +394,7 @@ def test_private_visibility_encrypts_article_files(tmp_path, monkeypatch, make_r
     root = make_repo(
         site={"schema_version": 1, "title": "T", "visibility": "private",
               "languages": ["en"], "default_language": "en",
-              "theme": "bear", "timezone": "UTC"},
+              "theme": "blowfish", "timezone": "UTC"},
         sources={"schema_version": 1, "presets": [], "sources": [
             {"id": "feed_a", "type": "rss", "section": "news",
              "name": "A", "url": "https://a.example/feed.xml"},
@@ -434,7 +434,7 @@ def _threads_repo(make_repo, *, include_private, visibility="public"):
         site={
             "schema_version": 1, "title": "T", "visibility": visibility,
             "languages": ["en", "zh"], "default_language": "en",
-            "theme": "bear", "timezone": "UTC",
+            "theme": "blowfish", "timezone": "UTC",
             "sections": [{"id": "career", "label": {"en": "Career", "zh": "求职"}}],
             "threads": {"enabled": True, "max_threads": 6,
                         "include_private": include_private},
@@ -555,7 +555,7 @@ def test_threads_private_visibility_encrypts_public_threads(tmp_path, monkeypatc
     root = make_repo(
         site={"schema_version": 1, "title": "T", "visibility": "private",
               "languages": ["en", "zh"], "default_language": "en",
-              "theme": "bear", "timezone": "UTC",
+              "theme": "blowfish", "timezone": "UTC",
               "threads": {"enabled": True}},
         sources={"schema_version": 1, "presets": [], "sources": [
             {"id": "pub_a", "type": "rss", "section": "news",
@@ -591,7 +591,7 @@ def test_threads_http_error_leaves_no_file_and_clears_stale(tmp_path, monkeypatc
     root = make_repo(
         site={"schema_version": 1, "title": "T", "visibility": "public",
               "languages": ["en", "zh"], "default_language": "en",
-              "theme": "bear", "timezone": "UTC", "threads": {"enabled": True}},
+              "theme": "blowfish", "timezone": "UTC", "threads": {"enabled": True}},
         sources={"schema_version": 1, "presets": [], "sources": [
             {"id": "pub_a", "type": "rss", "section": "news",
              "name": "PubA", "url": "https://pa.example/feed.xml"},

@@ -1,0 +1,173 @@
+/* Theme: papermod — an adaptation of hugo-PaperMod
+   (https://github.com/adityatelange/hugo-PaperMod, MIT): a clean,
+   system-sans reading surface with lightly-lifting entry cards, a compact
+   title-left / nav-right masthead, and a single hairline header rule.
+
+   System fonts only: this theme issues NO webfont requests. Only the-type
+   ever loads Google Fonts, and app.js `ensureTheTypeFonts` gates that fetch
+   on the-type being the active theme — papermod never triggers it. */
+
+[data-theme="papermod"] {
+  --bg: #ffffff;
+  --bg-elev: #f5f5f5;
+  --bg-card: #ffffff;
+  --fg: #1e1e1e;
+  --fg-muted: #6c6c6c;
+  --accent: #1e1e1e;
+  --accent-fg: #ffffff;
+  --rule: #eeeeee;
+  --rule-strong: #d6d6d6;
+  --link: #1e1e1e;
+  --highlight-bg: #fdec9e;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  --font-body: var(--font-sans);
+  --font-heading: var(--font-sans);
+  --font-meta: var(--font-sans);
+  --size-base: 16px;
+  --leading: 1.6;
+  --leading-cjk: 1.85;
+  --measure: 42rem;
+  --radius: 8px;
+  --shadow: none;
+  --page-max: 60rem;
+}
+
+html[data-scheme="dark"][data-theme="papermod"] {
+  --bg: #1d1e20;
+  --bg-elev: #2e2e33;
+  --bg-card: #2e2e33;
+  --fg: #dadadb;
+  --fg-muted: #9b9c9d;
+  --accent: #dadadb;
+  --accent-fg: #1d1e20;
+  --rule: #333333;
+  --rule-strong: #414244;
+  --link: #dadadb;
+  --highlight-bg: #4d431c;
+  --overlay: rgba(0, 0, 0, 0.6);
+  --shadow-pop: rgba(0, 0, 0, 0.5);
+  --shadow-soft: rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="papermod"] body { font-family: var(--font-sans); }
+
+/* ---- masthead: title left, nav right, one hairline rule. display:contents
+   promotes masthead-inner's children to direct flex items of #masthead so
+   `order` alone reflows title / meta / nav without touching the markup
+   (same trick as the-type). ---- */
+
+[data-theme="papermod"] #masthead {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--rule);
+  padding: 1rem 0;
+}
+[data-theme="papermod"] .masthead-inner { display: contents; }
+[data-theme="papermod"] .masthead-titles { order: 1; }
+[data-theme="papermod"] #site-subtitle { display: none; }
+[data-theme="papermod"] #site-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+[data-theme="papermod"] #nav {
+  order: 3;
+  margin: 0 0 0 auto;
+  padding: 0;
+  border-top: none;
+  font-size: 0.9rem;
+  gap: 1.1rem;
+}
+[data-theme="papermod"] #nav a.active {
+  color: var(--fg);
+  border-bottom-color: var(--accent);
+}
+
+[data-theme="papermod"] .masthead-meta { order: 2; margin-left: auto; }
+
+/* ---- entry cards with a subtle hover lift ---- */
+
+[data-theme="papermod"] .item {
+  background: var(--bg-card);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 0.9rem 1.2rem;
+  margin-bottom: 1.5rem;
+  transition: transform .25s ease, border-color .25s ease;
+}
+[data-theme="papermod"] .item:hover {
+  transform: translateY(-2px);
+  border-color: var(--rule-strong);
+}
+[data-theme="papermod"] .item-title { font-weight: 700; }
+[data-theme="papermod"] .item-source {
+  color: var(--fg-muted);
+  font-weight: 600;
+}
+[data-theme="papermod"] .item-meta {
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+/* ---- today: the BLOCK is the card; items inside reset to plain rows so we
+   never nest a card inside a card ---- */
+
+[data-theme="papermod"] .today-block {
+  background: var(--bg-card);
+  border: 1px solid var(--rule);
+  border-top: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 1rem 1.2rem 0.6rem;
+}
+[data-theme="papermod"] .today-grid .item,
+[data-theme="papermod"] .story-grid .item {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--rule);
+  border-radius: 0;
+  padding: 0.8rem 0;
+  margin-bottom: 0;
+}
+[data-theme="papermod"] .today-grid .item:hover,
+[data-theme="papermod"] .story-grid .item:hover {
+  transform: none;
+  border-color: transparent;
+  border-bottom-color: var(--rule);
+}
+
+/* ---- chips / tabs / thread cards ---- */
+
+[data-theme="papermod"] .tag,
+[data-theme="papermod"] .tag-chip {
+  border-radius: 6px;
+  text-transform: none;
+  letter-spacing: 0;
+}
+[data-theme="papermod"] .thread-card { border-radius: var(--radius); }
+
+/* ---- error carve-out: the base CSS uses --accent as the error color, but
+   PaperMod's accent is monochrome ink — that would hide failures. Restore a
+   real red for the failure surfaces only. ---- */
+
+[data-theme="papermod"] .sources-table tr.status-failed td,
+[data-theme="papermod"] .login-error,
+[data-theme="papermod"] .add-source .warn { color: #b3372c; }
+html[data-scheme="dark"][data-theme="papermod"] .sources-table tr.status-failed td,
+html[data-scheme="dark"][data-theme="papermod"] .login-error,
+html[data-scheme="dark"][data-theme="papermod"] .add-source .warn { color: #e06a55; }
+
+/* ---- responsive: nav wraps below the title on narrow screens. Overrides the
+   base @media(40rem) `.masthead-meta { width: 100% }` so the auto margin can
+   still push meta to the right (same override the-type needs). ---- */
+
+@media (max-width: 48rem) {
+  [data-theme="papermod"] #nav {
+    order: 3;
+    width: 100%;
+    margin-left: 0;
+    overflow-x: auto;
+  }
+  [data-theme="papermod"] .masthead-meta { order: 2; width: auto; margin-left: auto; }
+}

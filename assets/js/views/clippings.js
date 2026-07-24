@@ -14,12 +14,14 @@ const state = { q: "", type: "" };
 export function render(container, tab = "favorites") {
   if (tab !== "notes") tab = "favorites"; // unknown tab -> default
   clear(container);
-  container.appendChild(el("h2", {}, t("clippings.title")));
-  container.appendChild(tabBar("clippings", [
+  container.appendChild(el("h2", { class: "nd-fadein" }, t("clippings.title")));
+  const tabs = tabBar("clippings", [
     ["favorites", t("clippings.tabs.favorites")],
     ["notes", t("clippings.tabs.notes")],
-  ], tab));
-  const body = el("div", { class: "tab-body" });
+  ], tab);
+  tabs.classList.add("nd-fadein");
+  container.appendChild(tabs);
+  const body = el("div", { class: "tab-body nd-fadein nd-fadein-d1" });
   container.appendChild(body);
 
   if (tab === "favorites") favoritesView.render(body);

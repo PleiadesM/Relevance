@@ -13,8 +13,10 @@
   <script>
     (function () {
       try {
-        var themes = ["the-type", "nyt", "bear"];
+        var themes = ["the-type", "papermod", "blowfish"];
+        var aliases = { nyt: "papermod", bear: "blowfish" };
         var theme = localStorage.getItem("nd.theme");
+        theme = aliases[theme] || theme;
         if (themes.indexOf(theme) !== -1) {
           document.documentElement.dataset.theme = theme;
         }
@@ -30,8 +32,8 @@
   </script>
   <link rel="stylesheet" href="assets/styles.css">
   <link rel="stylesheet" href="assets/themes/the-type.css">
-  <link rel="stylesheet" href="assets/themes/nyt.css">
-  <link rel="stylesheet" href="assets/themes/bear.css">
+  <link rel="stylesheet" href="assets/themes/papermod.css">
+  <link rel="stylesheet" href="assets/themes/blowfish.css">
 </head>
 <body>
   <noscript>

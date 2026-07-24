@@ -18,7 +18,10 @@
       "uniqueItems": true
     },
     "default_language": { "enum": ["en", "zh"] },
-    "theme": { "enum": ["the-type", "nyt", "bear"] },
+    "theme": {
+      "enum": ["the-type", "papermod", "blowfish", "nyt", "bear"],
+      "description": "Default theme. 'nyt' and 'bear' are deprecated aliases of 'papermod' and 'blowfish' respectively — they still validate and are auto-mapped to the new keys at load time."
+    },
     "timezone": { "type": "string", "minLength": 1 },
     "windows": {
       "type": "object",

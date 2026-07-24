@@ -45,8 +45,8 @@ body:
       label: "Theme · 主题"
       options:
         - "the-type — typography-first serif · 字砌"
-        - "nyt — newspaper front page · 报纸"
-        - "bear — minimal, compact · 小熊"
+        - "papermod — clean entry cards, system sans · 纸墨"
+        - "blowfish — lowkey violet, blurred nav · 河豚"
     validations:
       required: true
 

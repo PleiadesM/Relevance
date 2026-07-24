@@ -2,11 +2,11 @@
    serif-driven, generous whitespace, hairline rules, a single vermillion
    accent, and careful CJK–Latin mixed setting. Today view is a distinct
    hero + numbered-feed layout, restructured entirely in JS (today.js)
-   and CSS (this file); nyt/bear keep the shared card layout.
+   and CSS (this file); papermod/blowfish keep the shared card layout.
 
    Fonts: Source Serif 4, Noto Serif SC, Noto Sans SC, IBM Plex Mono are
    loaded from Google Fonts, lazily, only when this theme is active
-   (assets/js/app.js `ensureTheTypeFonts`) — nyt/bear never fetch them,
+   (assets/js/app.js `ensureTheTypeFonts`) — papermod/blowfish never fetch them,
    preserving the system-fonts-only guarantee for those themes. */
 
 [data-theme="the-type"] {

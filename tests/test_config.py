@@ -85,7 +85,7 @@ def _site(**overrides):
     base = {
         "schema_version": 1, "title": "T", "visibility": "public",
         "languages": ["en"], "default_language": "en",
-        "theme": "bear", "timezone": "UTC",
+        "theme": "blowfish", "timezone": "UTC",
     }
     base.update(overrides)
     return base
@@ -125,6 +125,15 @@ def test_bad_theme_rejected(make_repo):
     })
     with pytest.raises(ConfigError):
         load_config(root, env={})
+
+
+def test_theme_alias_normalized(make_repo):
+    """Deprecated theme keys still validate (schema accepts them) and are
+    normalized to the new names at load time (nyt→papermod, bear→blowfish)."""
+    for old, new in (("bear", "blowfish"), ("nyt", "papermod")):
+        root = make_repo(site=_site(theme=old))
+        cfg = load_config(root, env={})
+        assert cfg.site.theme == new
 
 
 def test_category_defaults_by_type(make_repo):

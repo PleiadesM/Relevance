@@ -8,7 +8,7 @@ Private — everything encrypted behind a passphrase · 私密（全站加密）
 
 ### Theme · 主题
 
-nyt — newspaper front page · 报纸
+papermod — clean entry cards, system sans · 纸墨
 
 ### Site title · 站点标题
 

@@ -43,6 +43,10 @@ FIELD_INTERESTS = "Interest keywords"
 FIELD_UPDATE_FREQ = "Update frequency"
 FIELD_ACK = "Acknowledgement"
 
+# Deprecated theme keys renamed in 0.5.0 → their new names (nyt→papermod,
+# bear→blowfish). Mirrors newsdash.config._THEME_ALIASES.
+_THEME_ALIASES = {"nyt": "papermod", "bear": "blowfish"}
+
 # Update-frequency dropdown → NEWSDASH_UPDATE_FREQ repo-Variable value. The
 # knob is a repo Variable, never written into config files; the workflow reads
 # `update_freq` from GITHUB_OUTPUT and sets the Variable. Values are pinned to
@@ -153,7 +157,8 @@ def apply(body: str, repo_root: Path) -> tuple[dict, list[str]]:
     theme_raw = field(fields, FIELD_THEME)
     if theme_raw:
         theme = theme_raw.split("—")[0].split(" ")[0].strip()
-        if theme in ("the-type", "nyt", "bear"):
+        theme = _THEME_ALIASES.get(theme, theme)  # nyt→papermod, bear→blowfish
+        if theme in ("the-type", "papermod", "blowfish"):
             site["theme"] = theme
         else:
             warnings.append(f"unknown theme {theme!r} ignored")

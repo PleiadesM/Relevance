@@ -24,7 +24,7 @@ other data file as `<file>?v=<build_id>` — GitHub Pages' CDN caches for
   "site": {
     "title": "Relevance", "subtitle": "",
     "languages": ["en", "zh"], "default_language": "en",
-    "theme": "the-type",               // "the-type" | "nyt" | "bear"
+    "theme": "the-type",               // "the-type" | "papermod" | "blowfish" (nyt/bear auto-map)
     "timezone": "America/Chicago",
     "visibility": "public",            // "public" | "private"
     "ranking": {                       // homepage Highlights knobs; absent on manifests built before this key

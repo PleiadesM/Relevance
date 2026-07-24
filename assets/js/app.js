@@ -18,6 +18,10 @@ import * as todayView from "./views/today.js";
 import { showTutorial, tutorialSeen } from "./tutorial.js";
 
 const SECTION_ORDER = ["news", "papers", "following", "private"];
+// Two themes were renamed in 0.5.0 (nyt→papermod, bear→blowfish). Old stored
+// prefs and older manifests still carry the legacy keys; alias them silently
+// so nothing breaks. Mirrors the FOUC guard in index.html — keep in sync.
+const THEME_ALIASES = { nyt: "papermod", bear: "blowfish" };
 const viewEl = () => document.getElementById("view");
 
 // ---- routing -------------------------------------------------------------
@@ -72,8 +76,8 @@ function renderView() {
 // ---- header chrome -------------------------------------------------------
 
 // the-type is the only theme with a typography-first look that needs
-// non-system fonts; nyt/bear stay on the "system fonts only" guarantee
-// (assets/styles.css header comment) since this never runs for them.
+// non-system fonts; papermod/blowfish stay on the "system fonts only"
+// guarantee (assets/styles.css header comment) since this never runs for them.
 function ensureTheTypeFonts() {
   if (document.documentElement.dataset.theme !== "the-type") return;
   if (document.getElementById("the-type-fonts")) return;
@@ -314,7 +318,15 @@ async function boot() {
   }
   set({ manifest });
 
-  const theme = prefs.read("theme", manifest?.site?.theme || "the-type");
+  // Migrate a stored legacy theme key to its new name once, so the pref
+  // stops carrying a dead value; then resolve, aliasing the manifest fallback
+  // too (older manifests may still emit nyt/bear).
+  const storedTheme = prefs.read("theme");
+  if (storedTheme && THEME_ALIASES[storedTheme]) {
+    prefs.write("theme", THEME_ALIASES[storedTheme]);
+  }
+  const rawTheme = prefs.read("theme", manifest?.site?.theme || "the-type");
+  const theme = THEME_ALIASES[rawTheme] || rawTheme;
   document.documentElement.dataset.theme = theme;
   initScheme();
   await initI18n(prefs.read("lang", manifest?.site?.default_language || "en"));
@@ -343,6 +355,23 @@ async function boot() {
   document.addEventListener("nd:schemechange", updateSchemeToggle);
   document.addEventListener("nd:show-tutorial", showTutorial);
   window.addEventListener("hashchange", renderCurrent);
+
+  // Publish a 0→1 scroll ramp as --nd-scroll on <html>. rAF-throttled and
+  // passive; runs under every theme (negligible), but only blowfish.css reads
+  // it — to fade in its blurred sticky-header backdrop. One initial call
+  // covers a page loaded already scrolled (e.g. via an anchor).
+  let scrollTick = false;
+  const publishScroll = () => {
+    scrollTick = false;
+    const ramp = Math.min(1, window.scrollY / 300);
+    document.documentElement.style.setProperty("--nd-scroll", String(ramp));
+  };
+  window.addEventListener("scroll", () => {
+    if (scrollTick) return;
+    scrollTick = true;
+    requestAnimationFrame(publishScroll);
+  }, { passive: true });
+  publishScroll();
 
   await tryRememberedKey();
   await refreshContent();

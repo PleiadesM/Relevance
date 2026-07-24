@@ -12,7 +12,9 @@ intact (see [DATA_CONTRACT.md](DATA_CONTRACT.md)). No exceptions for "just this 
       vanilla-JS site on GitHub Pages. No backend, no build step, zero API keys for
       the core loop.
 - [x] **Three themes** — `the-type` (typography-first serif, vermillion accent),
-      `nyt` (newspaper front page), `bear` (Bear Blog minimalism, auto dark).
+      `papermod` (clean system-sans entry cards, adapts hugo-PaperMod),
+      `blowfish` (lowkey violet with blurred sticky nav, adapts Blowfish)
+      (renamed papermod/blowfish in 0.5.0, from the earlier nyt/bear).
 - [x] **EN/ZH bilingual** — runtime language toggle, `i18n/{en,zh}.json`.
 - [x] **Encryption login** — private sections encrypted with AES-256-GCM
       (PBKDF2-HMAC-SHA256, 600k iterations); entering the passphrase in the browser

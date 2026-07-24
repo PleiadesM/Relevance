@@ -2,7 +2,7 @@
    comes from the CSS variables each theme defines (assets/themes/*.css).
    No external requests: system fonts only — except the-type, which lazily
    loads Google Fonts only when it's the active theme (assets/js/app.js
-   `ensureTheTypeFonts`); nyt/bear never trigger that request. */
+   `ensureTheTypeFonts`); papermod/blowfish never trigger that request. */
 
 html { color-scheme: light; }
 html[data-scheme="dark"] { color-scheme: dark; }
