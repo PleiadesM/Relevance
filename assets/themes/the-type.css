@@ -20,6 +20,7 @@
   --rule-strong: rgba(var(--ink-rgb), 0.18);
   --link: #1a1a1a;
   --highlight-bg: #f9e9a0;
+  --mast-rgb: 250, 249, 246;
   --ink-rgb: 0, 0, 0;
   --bg-card: #fffdf8;
   --ok: #4caf50;
@@ -55,7 +56,9 @@
   align-items: center;
   flex-wrap: wrap;
   border-bottom: 1px solid var(--fg);
-  padding: 1.1rem 0;
+  /* padding-block only — the shared #masthead padding-inline does the
+     full-bleed bleed-compensation and must survive this more-specific rule. */
+  padding-block: 1.1rem;
 }
 [data-theme="the-type"] .masthead-inner { display: contents; }
 [data-theme="the-type"] .masthead-titles { order: 1; }
@@ -374,15 +377,8 @@
   color: rgba(var(--ink-rgb), 0.3);
 }
 
-/* ---- animations ---- */
-
-@keyframes nd-fadeIn {
-  from { opacity: 0; transform: translateY(8px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-[data-theme="the-type"] .nd-fadein { animation: nd-fadeIn 0.6s ease-out both; }
-[data-theme="the-type"] .nd-fadein-d1 { animation-delay: 0.2s; }
-[data-theme="the-type"] .nd-fadein-d2 { animation-delay: 0.3s; }
+/* nd-fadein staggered fade-in now lives unscoped in assets/styles.css
+   (shared across all themes). */
 
 /* ---- responsive ---- */
 
@@ -416,6 +412,7 @@ html[data-scheme="dark"][data-theme="the-type"] {
   --rule-strong: rgba(var(--ink-rgb), 0.3);
   --link: #eae4da;
   --highlight-bg: #4a3f14;
+  --mast-rgb: 27, 25, 23;
   --ok: #7cb96a;
   --selection: rgba(224, 106, 85, 0.3);
   --shadow-soft: rgba(0, 0, 0, 0.3);

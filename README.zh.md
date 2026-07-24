@@ -39,7 +39,7 @@
 - **今日一图（需要 LLM API Key 与 Smithsonian API Key）：** 让 LLM 根据当天收集到的信源生成关键词，再到 [Smithsonian Open Access](https://www.si.edu/openaccess) 检索一张与当日主题相符的图片。
 - **私密模式：** "私密"在这里有两层含义：完整私密模式与私密可见性。前者是指你部署的整个网页都被加密（[见下文说明](#私密模式及其管理)），需要口令才能访问；私密可见性则是指部分信息只对你自己可见，比如收藏、高亮与笔记。因此，设置一个口令是必要的。
 - **收藏、批注与笔记：** 你也可以高亮收集到的文字，这些内容存放在你本地的浏览器存储中，只有你能看到，且需要设置口令才能读取。
-- **主题：** 三套主题，各自改编自知名的开源设计——`the-type`（字砌，排版优先的衬线，功能最完整；灵感来自 [The Type](https://www.thetype.com/)）、`papermod`（纸墨，简洁的系统无衬线卡片；改编自 [hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod)）、`blowfish`（河豚，低调紫色配模糊吸顶导航；改编自 [Blowfish](https://github.com/nunocoracao/blowfish)）。每套主题都配有专门设计的深色版本——默认跟随系统，可在设置中切换 浅色/深色/自动，页头也有 ☀/☾ 切换按钮。
+- **主题：** 三套主题，各自改编自知名的开源设计——`the-type`（字砌，排版优先的衬线，功能最完整；灵感来自 [The Type](https://www.thetype.com/)）、`papermod`（纸墨，简洁的系统无衬线卡片；改编自 [hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod)）、`blowfish`（河豚，低调紫色；改编自 [Blowfish](https://github.com/nunocoracao/blowfish)）。三套主题都带有平滑的错落淡入过渡，以及随滚动渐显的整幅模糊吸顶页头。每套主题都配有专门设计的深色版本——默认跟随系统，可在设置中切换 浅色/深色/自动，页头也有 ☀/☾ 切换按钮。
 - **无关一则（需要 LLM API Key）：** 这个应用在帮你收集最相关信息的同时，也会让你的 LLM 找一条完全无关的公开新闻，附短摘要与来源链接，稍微打破一下你的信息茧房。
 
 ---

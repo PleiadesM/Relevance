@@ -569,19 +569,25 @@ export async function render(container) {
   const dateLabel = new Intl.DateTimeFormat(getLang() === "zh" ? "zh-CN" : "en-US", {
     weekday: "long", year: "numeric", month: "long", day: "numeric",
   }).format(new Date());
-  container.appendChild(el("div", { class: "today-masthead" },
+  // Container-level fade-in stagger, mirroring renderTheType's rhythm:
+  // the leading header cluster (masthead / brief / overview) at base delay,
+  // the today grid at d1, the trailing apropos card at d2.
+  container.appendChild(el("div", { class: "today-masthead nd-fadein" },
     el("h2", { class: "today-greeting" }, greeting()),
     el("p", { class: "today-date" }, dateLabel),
   ));
   const brief = localizedInsights(get().insights)?.brief;
   if (brief) {
-    container.appendChild(el("div", { class: "ai-brief-block" },
+    container.appendChild(el("div", { class: "ai-brief-block nd-fadein" },
       el("p", { class: "ai-brief-label" }, `✨ ${t("today.aiSummaryLabel")}`),
       el("p", { class: "ai-brief-text" }, brief),
     ));
   }
   const strip = overviewStrip(favs ? favs.size : null);
-  if (strip) container.appendChild(strip);
+  if (strip) {
+    strip.classList.add("nd-fadein");
+    container.appendChild(strip);
+  }
   const cardOpts = { favs };
   const blocks = [threadsBlock() || highlightsBlock(cardOpts), todaysImageBlock(),
                   storiesBlock(cardOpts), papersBlock(cardOpts), followingBlock(cardOpts)]
@@ -589,8 +595,11 @@ export async function render(container) {
   const apropos = aproposOfNothingBlock();
   if (!blocks.length && !apropos) container.appendChild(emptyCard());
   if (blocks.length) {
-    container.appendChild(el("div", { class: "today-grid" }, blocks));
+    container.appendChild(el("div", { class: "today-grid nd-fadein nd-fadein-d1" }, blocks));
   }
-  if (apropos) container.appendChild(apropos);
+  if (apropos) {
+    apropos.classList.add("nd-fadein", "nd-fadein-d2");
+    container.appendChild(apropos);
+  }
   renderAnnotationsIn(container);
 }

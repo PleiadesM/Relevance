@@ -6,6 +6,10 @@
 
 html { color-scheme: light; }
 html[data-scheme="dark"] { color-scheme: dark; }
+/* full-bleed masthead escapes #app's column via 100vw; clip (not hidden — clip
+   creates no scroll container, so position:sticky keeps working) kills the
+   phantom horizontal scrollbar that 100vw draws when a vertical bar is present. */
+html { overflow-x: clip; }
 
 * { box-sizing: border-box; }
 
@@ -20,6 +24,7 @@ html[data-scheme="dark"] { color-scheme: dark; }
   --rule: #e4e2dc;
   --rule-strong: #c9c6be;
   --link: inherit;
+  --mast-rgb: 255, 255, 255;
   --highlight-bg: #fff2a8;
   --overlay: rgba(0, 0, 0, 0.45);
   --shadow-pop: rgba(0, 0, 0, 0.3);
@@ -54,6 +59,7 @@ html[data-scheme="dark"] { color-scheme: dark; }
   --rule: #2c2c2c;
   --rule-strong: #444444;
   --link: inherit;
+  --mast-rgb: 22, 22, 22;
   --highlight-bg: #4d431c;
   --overlay: rgba(0, 0, 0, 0.6);
   --shadow-pop: rgba(0, 0, 0, 0.5);
@@ -124,7 +130,36 @@ button:focus-visible, a:focus-visible {
   flex-direction: column;
 }
 
-#masthead { border-bottom: 2px solid var(--fg); padding-top: calc(var(--space) * 1.5); }
+/* Shared sticky, full-bleed masthead with a scroll-ramped blurred backdrop.
+   The ::before opacity rides --nd-scroll (published on <html> by app.js), so
+   the blur fades in only as content slides beneath. All three themes inherit
+   this; each still sets its own border-bottom + --mast-rgb. */
+#masthead {
+  position: sticky;
+  top: 0;
+  z-index: 40;                              /* below .anno-toolbar (50) and modal (60) */
+  /* full-bleed: escape #app's centered column to span the viewport,
+     then pad content back into alignment with the column */
+  margin-inline: calc(50% - 50vw);
+  padding-inline: calc(50vw - 50%);
+  border-bottom: 2px solid var(--fg);
+  padding-top: calc(var(--space) * 1.5);
+}
+#masthead::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: rgba(var(--mast-rgb), 0.25);
+  -webkit-backdrop-filter: blur(40px);
+  backdrop-filter: blur(40px);
+  box-shadow: 0 25px 50px -12px var(--shadow-pop);
+  opacity: var(--nd-scroll, 0);
+  pointer-events: none;
+}
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  #masthead::before { background: rgba(var(--mast-rgb), 0.94); }
+}
 .masthead-inner {
   display: flex;
   align-items: baseline;
@@ -796,6 +831,18 @@ a.stat-tile:hover .stat-num { color: var(--accent); }
   }
 }
 
+/* ---- animations ---- */
+/* Staggered fade-in applied to top-level view containers (all themes). The
+   global prefers-reduced-motion kill below neutralizes these. */
+
+@keyframes nd-fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.nd-fadein { animation: nd-fadeIn 0.6s ease-out both; }
+.nd-fadein-d1 { animation-delay: 0.2s; }
+.nd-fadein-d2 { animation-delay: 0.3s; }
+
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
 }
@@ -806,7 +853,8 @@ a.stat-tile:hover .stat-num { color: var(--accent); }
   .feed-controls, .tag-row, .fav-star, .new-badge,
   .thread-touches, .thread-glyph { display: none !important; }
   .thread-card { break-inside: avoid; }
-  #masthead { border-bottom-width: 1px; }
+  #masthead { border-bottom-width: 1px; position: static; margin-inline: 0; padding-inline: 0; }
+  #masthead::before { display: none; }
   body { background: #fff; color: #000; }
   .today-grid { grid-template-columns: 1fr 1fr; gap: 1rem; }
   .item { break-inside: avoid; }

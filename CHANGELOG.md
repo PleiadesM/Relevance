@@ -8,6 +8,24 @@ round of significant changes lands. Format loosely follows
 [Keep a Changelog](https://keepachangelog.com/); versions follow semver
 (minor = feature round, patch = fixes).
 
+## [0.5.1] — 2026-07-23
+
+Theme round follow-up: one design language for motion and the masthead.
+
+### Changed
+- **The staggered page fade-in and the scroll-ramped blurred sticky
+  masthead now apply to all three themes**, not just one each: the fade
+  moved from `the-type`-scoped CSS into the shared base (the shared Today
+  layout gained the same stagger), and the masthead treatment moved from
+  `blowfish.css` into `assets/styles.css` with a per-theme blur tint
+  (`--mast-rgb`).
+- **The sticky masthead is now full-bleed** — it escapes the centered
+  column and spans the whole viewport (`margin-inline: calc(50% - 50vw)`
+  with compensating padding; `html { overflow-x: clip }` guards against the
+  scrollbar-width phantom overflow, and the scroll listener moved to a
+  document-level capture listener so the ramp survives root-overflow
+  retargeting).
+
 ## [0.5.0] — 2026-07-23
 
 Theme round.

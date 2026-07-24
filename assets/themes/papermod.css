@@ -19,6 +19,7 @@
   --rule-strong: #d6d6d6;
   --link: #1e1e1e;
   --highlight-bg: #fdec9e;
+  --mast-rgb: 255, 255, 255;
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
   --font-body: var(--font-sans);
   --font-heading: var(--font-sans);
@@ -44,6 +45,7 @@ html[data-scheme="dark"][data-theme="papermod"] {
   --rule-strong: #414244;
   --link: #dadadb;
   --highlight-bg: #4d431c;
+  --mast-rgb: 29, 30, 32;
   --overlay: rgba(0, 0, 0, 0.6);
   --shadow-pop: rgba(0, 0, 0, 0.5);
   --shadow-soft: rgba(0, 0, 0, 0.3);
@@ -61,7 +63,9 @@ html[data-scheme="dark"][data-theme="papermod"] {
   align-items: center;
   flex-wrap: wrap;
   border-bottom: 1px solid var(--rule);
-  padding: 1rem 0;
+  /* padding-block only — the shared #masthead padding-inline handles the
+     full-bleed bleed-compensation and must survive this more-specific rule. */
+  padding-block: 1rem;
 }
 [data-theme="papermod"] .masthead-inner { display: contents; }
 [data-theme="papermod"] .masthead-titles { order: 1; }

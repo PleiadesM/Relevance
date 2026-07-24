@@ -54,33 +54,21 @@ html[data-scheme="dark"][data-theme="blowfish"] {
 
 [data-theme="blowfish"] body { font-family: var(--font-sans); }
 
-/* ---- blurred sticky nav: the signature Blowfish "fixed" header. A ::before
-   layer ramps its opacity from 0 → 1 as the page scrolls (driven by the
-   --nd-scroll custom property app.js publishes on <html>), so the blurred
-   backdrop fades in only once content slides beneath it. ---- */
-
-[data-theme="blowfish"] #masthead { position: sticky; top: 0; z-index: 40; border-bottom: none; }
-[data-theme="blowfish"] #masthead::before {
-  content: ""; position: absolute; inset: 0; z-index: -1;
-  background: rgba(var(--mast-rgb), 0.25);
-  -webkit-backdrop-filter: blur(40px); backdrop-filter: blur(40px);
-  box-shadow: 0 25px 50px -12px var(--shadow-pop);
-  opacity: var(--nd-scroll, 0); pointer-events: none;
-}
-@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
-  [data-theme="blowfish"] #masthead::before { background: rgba(var(--mast-rgb), 0.94); }
-}
-@media print { [data-theme="blowfish"] #masthead { position: static; } }
-
 /* ---- masthead layout: title left, nav right. display:contents promotes
    masthead-inner's children to direct flex items of #masthead so `order`
-   reflows title / meta / nav (same trick as the-type). ---- */
+   reflows title / meta / nav (same trick as the-type). The blurred
+   scroll-ramped sticky treatment + full-bleed now live unscoped in
+   assets/styles.css (shared across all themes); blowfish keeps only its
+   own borderless look and --mast-rgb tint (defined in its token blocks). ---- */
 
 [data-theme="blowfish"] #masthead {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  padding: 1rem 0;
+  border-bottom: none;
+  /* padding-block only — the shared #masthead padding-inline handles the
+     full-bleed bleed-compensation and must not be overridden here. */
+  padding-block: 1rem;
 }
 [data-theme="blowfish"] .masthead-inner { display: contents; }
 [data-theme="blowfish"] .masthead-titles { order: 1; }

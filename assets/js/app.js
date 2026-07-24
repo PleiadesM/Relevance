@@ -357,20 +357,23 @@ async function boot() {
   window.addEventListener("hashchange", renderCurrent);
 
   // Publish a 0→1 scroll ramp as --nd-scroll on <html>. rAF-throttled and
-  // passive; runs under every theme (negligible), but only blowfish.css reads
-  // it — to fade in its blurred sticky-header backdrop. One initial call
-  // covers a page loaded already scrolled (e.g. via an anchor).
+  // passive; every theme's masthead blur (styles.css) reads it. One initial
+  // call covers a page loaded already scrolled (e.g. via an anchor).
+  // Listen on document WITH capture, not window: `html { overflow-x: clip }`
+  // (the full-bleed masthead's scrollbar guard) makes Chromium retarget page
+  // scrolls at the root element, and element scroll events don't bubble —
+  // a window listener would never fire. Capture at document catches both.
   let scrollTick = false;
   const publishScroll = () => {
     scrollTick = false;
     const ramp = Math.min(1, window.scrollY / 300);
     document.documentElement.style.setProperty("--nd-scroll", String(ramp));
   };
-  window.addEventListener("scroll", () => {
+  document.addEventListener("scroll", () => {
     if (scrollTick) return;
     scrollTick = true;
     requestAnimationFrame(publishScroll);
-  }, { passive: true });
+  }, { passive: true, capture: true });
   publishScroll();
 
   await tryRememberedKey();
