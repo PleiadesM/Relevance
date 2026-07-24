@@ -8,6 +8,13 @@ round of significant changes lands. Format loosely follows
 [Keep a Changelog](https://keepachangelog.com/); versions follow semver
 (minor = feature round, patch = fixes).
 
+## [0.5.3] — 2026-07-24
+
+### Changed
+- **papermod/blowfish Today reads top-to-bottom**: Top stories, then Top
+  papers (then Following) stack in a single full-width column — sequential
+  like the-type's feed — instead of the side-by-side two-column grid.
+
 ## [0.5.2] — 2026-07-24
 
 Today-layout polish for the shared (papermod/blowfish) view.

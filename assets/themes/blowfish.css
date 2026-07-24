@@ -114,6 +114,10 @@ html[data-scheme="dark"][data-theme="blowfish"] .tag-chip {
 
 [data-theme="blowfish"] .thread-card { border-top: 3px solid var(--accent); }
 
+/* Single-column Today: read Top stories, then Top papers — sequential like
+   the-type's feed, instead of the base auto-fit two-column grid. */
+[data-theme="blowfish"] .today-grid { grid-template-columns: 1fr; }
+
 /* ---- responsive: nav wraps below the title on narrow screens (same override
    the-type/papermod need over the base @media(40rem) meta rule). ---- */
 

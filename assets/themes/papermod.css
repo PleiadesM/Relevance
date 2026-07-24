@@ -117,6 +117,10 @@ html[data-scheme="dark"][data-theme="papermod"] {
 /* ---- today: the BLOCK is the card; items inside reset to plain rows so we
    never nest a card inside a card ---- */
 
+/* Single-column Today: read Top stories, then Top papers — sequential like
+   the-type's feed, instead of the base auto-fit two-column grid. */
+[data-theme="papermod"] .today-grid { grid-template-columns: 1fr; }
+
 [data-theme="papermod"] .today-block {
   background: var(--bg-card);
   border: 1px solid var(--rule);
