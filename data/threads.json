@@ -1,176 +1,214 @@
 {
  "meta": {
   "count": 4,
-  "generated_at": "2026-07-24T06:37:48Z",
+  "generated_at": "2026-07-24T10:27:35Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "ded69dd7ab79ad73",
+     "item_id": "783148f1732e3681",
      "phrase": {
-      "en": "US says China stole Anthropic tech",
-      "zh": "美国称中国窃取Anthropic技术"
+      "en": "France evacuates, Spain declares emergency",
+      "zh": "法国疏散，西班牙宣布紧急状态"
      },
      "section": "news",
-     "source": "BBC 中文",
-     "url": "https://www.bbc.com/zhongwen/articles/c62vqpqdqjwo/trad?at_medium=RSS&at_campaign=rss"
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/videos/cz641jd4p4lo?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "6f2c975c9b70cb7a",
+     "item_id": "6cd75902153faa78",
      "phrase": {
-      "en": "First known runaway AI agent?",
-      "zh": "首个失控AI代理？"
+      "en": "Cap Ferret evacuated, Spain warns",
+      "zh": "Cap Ferret 疏散，西班牙警告"
      },
      "section": "news",
-     "source": "Simon Willison",
-     "url": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/jul/24/france-spain-wildfires-cap-ferret-europe-latest-news-updates"
+    },
+    {
+     "item_id": "47883d6c013d5701",
+     "phrase": {
+      "en": "France learns from Spain on heat",
+      "zh": "法国向西班牙学习应对高温"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/24/world/europe/france-spain-climate-heat-wildfires.html"
+    },
+    {
+     "item_id": "0abcfb409d218a08",
+     "phrase": {
+      "en": "900 wildfires rage across Canada",
+      "zh": "加拿大爆发900场野火"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/environment/2026/jul/24/weather-tracker-wildfires-canada-argentina-heat"
+    },
+    {
+     "item_id": "b4d855c2e83e2151",
+     "phrase": {
+      "en": "Tens of thousands evacuated in France",
+      "zh": "法国数万人疏散"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cdx82rl5g0do?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Flames race across France, Spain, and Canada, forcing evacuations and declaring emergencies.",
+    "zh": "烈焰横扫法国、西班牙和加拿大，迫使疏散并宣布紧急状态。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "wildfires",
+    "zh": "野火"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "Multiple wildfires raging today in Europe and North America.",
+    "zh": "今日欧洲和北美多处野火肆虐。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "f6633a2323ca2d25",
+     "phrase": {
+      "en": "Are tariffs delivering on objectives?",
+      "zh": "关税是否达成目标？"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/videos/c5yw2xgnv2jo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "776ac4694de4da33",
+     "phrase": {
+      "en": "Australian exports hit with 12.5% tariff",
+      "zh": "澳大利亚出口被加征12.5%关税"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/australia-news/live/2026/jul/24/australia-news-live-jim-chalmers-anthony-albanese-labor-conference-gas-tax-gambling-reform-one-nation-pauline-hanson-ntwnfb"
+    },
+    {
+     "item_id": "0a2e5804ed2ed1bd",
+     "phrase": {
+      "en": "Forced labour rationale met with bewilderment",
+      "zh": "强迫劳动理由遭困惑"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/jul/24/trump-tariffs-forced-labor-us-trading-partners-react"
+    },
+    {
+     "item_id": "0fd3246454de770c",
+     "phrase": {
+      "en": "Australia hits back at unjustified tariff",
+      "zh": "澳大利亚反击不合理关税"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/australia-news/2026/jul/24/donald-trump-hits-australian-exports-to-us-with-new-higher-trade-tariff-over-claims-of-forced-labour"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "The US accuses China of stealing AI tech, but its own companies may be running amok too.",
-    "zh": "美国指控中国窃取AI技术，而自家公司也可能失控。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "AI theft and geopolitics",
-    "zh": "AI窃取与地缘政治"
-   },
-   "relates_to": [
-    "t2"
-   ],
-   "why_now": {
-    "en": "White House claims and a runaway AI agent both reported today.",
-    "zh": "白宫指控与AI代理失控报道同日出现。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "1519dd87851df788",
-     "phrase": {
-      "en": "Modi caught off guard by youth",
-      "zh": "莫迪被青年打个措手不及"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/23/world/asia/india-modi-protests-economy-cockroach-party.html"
-    },
-    {
-     "item_id": "dfd4ad969d851351",
-     "phrase": {
-      "en": "Activist breaks hunger strike",
-      "zh": "活动家结束绝食"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/23/world/asia/sonam-wangchuk-india-hunger-strike-protests-modi.html"
-    },
-    {
-     "item_id": "6e27f640db3d3257",
-     "phrase": {
-      "en": "Government to hold talks with protesters",
-      "zh": "政府将与抗议者谈判"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cjwx4x04yqzo?at_medium=RSS&at_campaign=rss"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Young Indians erupt over jobs and economy; a 26-day hunger strike ends.",
-    "zh": "印度青年因就业与经济爆发抗议；持续26天的绝食结束。"
+    "en": "Trump's tariffs stir confusion and anger among allies, with new levies on Australia and Canada.",
+    "zh": "特朗普关税引发盟友困惑和愤怒，对澳大利亚和加拿大加征新税。"
    },
    "id": "t2",
    "keyword": {
-    "en": "India unrest",
-    "zh": "印度动荡"
+    "en": "Trump tariffs",
+    "zh": "特朗普关税"
    },
    "relates_to": [],
    "why_now": {
-    "en": "Student movement explodes; hunger strike breaks.",
-    "zh": "学生运动爆发；绝食结束。"
+    "en": "Trump announces new tariffs on Australian exports today.",
+    "zh": "特朗普今日宣布对澳大利亚出口加征新关税。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "3c55eb23e60229d4",
+     "item_id": "bf54f1823abe2458",
      "phrase": {
-      "en": "Houthi attacks raise global fears",
-      "zh": "胡塞袭击引发全球担忧"
+      "en": "Cockroach protest explained",
+      "zh": "蟑螂抗议解析"
      },
      "section": "news",
      "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cvgve0vxy1yo?at_medium=RSS&at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/videos/c3307vgneveo?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "a2bbda57a6b1a04f",
+     "item_id": "1f3cee6c0570bf33",
      "phrase": {
-      "en": "UN warns crisis getting out of control",
-      "zh": "联合国警告危机失控"
+      "en": "Gen Z protesters blast through Modi media control",
+      "zh": "Z世代抗议者打破莫迪媒体控制"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/jul/23/us-iran-war-live-updates-strikes-houthis-red-sea-saudi-nuclear-deal-middle-east-crisis-latest-news"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/24/world/asia/india-cockroach-party-cjp-protest-memes.html"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Houthi threats and UN warnings signal the region is spiraling.",
-    "zh": "胡塞威胁与联合国警告显示该地区局势恶化。"
+    "en": "Thousands take to streets in India's biggest protests in years, using cockroach mascot and social media.",
+    "zh": "印度爆发多年来最大规模抗议，使用蟑螂吉祥物和社交媒体。"
    },
    "id": "t3",
    "keyword": {
-    "en": "Middle East crisis",
-    "zh": "中东危机"
+    "en": "India protests",
+    "zh": "印度抗议"
    },
    "relates_to": [],
    "why_now": {
-    "en": "Houthis target Saudi ships; UN says crisis 'out of control'.",
-    "zh": "胡塞瞄准沙特船只；联合国称危机‘失控’。"
+    "en": "Mass protests erupt across India today.",
+    "zh": "今日印度各地爆发大规模抗议。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "9f24f2cfdf1a975d",
+     "item_id": "f104d25dfe2f0bac",
      "phrase": {
-      "en": "Democrats slam tariffs as end-run",
-      "zh": "民主党抨击关税为绕道行为"
+      "en": "AI music legal and listening questions",
+      "zh": "AI音乐法律和听众问题"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/live/2026/jul/23/us-house-defense-spending-bill-donald-trump-iran-rubio-latest-news-updates"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/24/arts/music/ai-music-faq.html"
     },
     {
-     "item_id": "69a86a69c3de91ee",
+     "item_id": "a2130030f0863af6",
      "phrase": {
-      "en": "US hits dozens with new tariffs",
-      "zh": "美国对数十国加征新关税"
+      "en": "New video-action model Flux 3 X Mimic",
+      "zh": "新型视频动作模型Flux 3 X Mimic"
      },
      "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss"
+     "source": "Hacker News (AI filter)",
+     "url": "https://bfl.ai/blog/flux-3-mimic"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "divergent",
    "gloss": {
-    "en": "Trump hits 80+ countries with new tariffs, drawing sharp criticism.",
-    "zh": "特朗普对80多国加征新关税，招致尖锐批评。"
+    "en": "AI music creation raises legal and ethical questions about remixing and ownership.",
+    "zh": "AI音乐创作引发关于混音和所有权的法律与伦理问题。"
    },
    "id": "t4",
    "keyword": {
-    "en": "US tariffs",
-    "zh": "美国关税"
+    "en": "AI music",
+    "zh": "AI音乐"
    },
    "relates_to": [],
    "why_now": {
-    "en": "House passes war powers resolution related to tariffs.",
-    "zh": "众议院通过关税相关战争权力决议。"
+    "en": "New York Times publishes an AI music FAQ today.",
+    "zh": "《纽约时报》今日发布AI音乐常见问题解答。"
    }
   }
  ]

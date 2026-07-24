@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "world record sheep shearing OR golden shears competition OR shearing speed record",
+  "query": "pumpkin championship OR giant pumpkin cultivation",
   "source": {
-   "name": "Wales 247",
-   "published_at": "2026-07-14T05:10:07Z",
-   "title": "World’s fastest sheep shearers to compete at Corwen Shears",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRGVESU5fN0lDUGN0dDFVZ0lyalNpMTVjNDB6ZkxlWE9ZTGNMbFJGRUc4UmlGNjRtdHNKTllkX1EwLUttekZfRFdBamg5cm5ucEQwNktLT01OQVlxVXhCV1p2NVpwZ2ozR1E0Q1dHUlM2M2JVYkN6aG9QcXdpeEZjSWVRZUtVUE1xNVdvMw?oc=5"
+   "name": "Axios",
+   "published_at": "2026-07-02T07:00:00Z",
+   "title": "An update on Hope",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE43NnM1RUN6V05WWi1JZ0ZuTWVlUE5zVFJRbFBEVnlRZmN6MlRtWC1WRFdES2pEUGZ4R25vUDc2QU5INXZCVkJQZUVmS0tPbkEyc3FkczB4X0kySWxRVzFmNnVpdEliZFV3eWxnbjRUOWppVnljOHc?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "World's fastest sheep shearers will compete at the Corwen Shears event in Wales.",
-    "why_irrelevant": "It is a niche rural sport unrelated to mainstream news or tech."
+    "summary": "Hope's latest progress is quietly noted in a single-sentence update.",
+    "why_irrelevant": "it's a personal health milestone far removed from pumpkin lore."
    },
    "zh": {
-    "summary": "全球最快的剪羊毛选手将在威尔士的科文剪羊毛大赛中竞技。",
-    "why_irrelevant": "这是与主流新闻或科技无关的小众乡村运动。"
+    "summary": "Hope的最新进展以一句话更新低调记录。",
+    "why_irrelevant": "这是一个与南瓜传说无关的个人健康里程碑。"
    }
   },
-  "topic": "competition sheep shearing records"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "US tariffs on 80+ nations and Brent crude above $100 dominate news, while India's 'cockroach' protests continue; papers study AI transparency and usability in conversational systems.",
+ "brief": "Wildfires in France and Spain force mass evacuations, Iran conflict escalates with oil prices topping $100, and AI advances raise legal questions in music creation.",
  "meta": {
-  "generated_at": "2026-07-24T06:37:48Z"
+  "generated_at": "2026-07-24T10:27:35Z"
  },
- "news_summary": "US imposed 10% tariffs on 60+ countries for forced labor, replacing expired global levy; India's activist Wangchuk ended hunger strike but protests persist; oil topped $100 amid Iran conflict.",
- "papers_summary": "Research on conversational product advisors highlights transparency issues in LLM-based systems; studies on augmented reality for Deaf students and wearable AI for creative writing advance inclusive design.",
+ "news_summary": "Wildfires rage in France and Spain, forcing tens of thousands to evacuate tourist areas, while US-Iran conflict drives oil prices above $100 and new global tariffs take effect. AI music creation tools and Gen Z-led protests in India blur digital boundaries.",
+ "papers_summary": "Papers explore usability of conversational AI, wearable creative tools for fiction writing, and public health data workflows, alongside political visualization and ethics in dementia care.",
  "summaries": {
   "en": {
-   "brief": "US tariffs on 80+ nations and Brent crude above $100 dominate news, while India's 'cockroach' protests continue; papers study AI transparency and usability in conversational systems.",
-   "news_summary": "US imposed 10% tariffs on 60+ countries for forced labor, replacing expired global levy; India's activist Wangchuk ended hunger strike but protests persist; oil topped $100 amid Iran conflict.",
-   "papers_summary": "Research on conversational product advisors highlights transparency issues in LLM-based systems; studies on augmented reality for Deaf students and wearable AI for creative writing advance inclusive design."
+   "brief": "Wildfires in France and Spain force mass evacuations, Iran conflict escalates with oil prices topping $100, and AI advances raise legal questions in music creation.",
+   "news_summary": "Wildfires rage in France and Spain, forcing tens of thousands to evacuate tourist areas, while US-Iran conflict drives oil prices above $100 and new global tariffs take effect. AI music creation tools and Gen Z-led protests in India blur digital boundaries.",
+   "papers_summary": "Papers explore usability of conversational AI, wearable creative tools for fiction writing, and public health data workflows, alongside political visualization and ethics in dementia care."
   },
   "zh": {
-   "brief": "今日焦點：美國以強迫勞動為由對60個貿易夥伴課徵新關稅，引發全球關注；同時白宮指控中國AI公司竊取技術，中美科技戰持續升溫。",
-   "news_summary": "美國對60個貿易夥伴課徵10%-12.5%關稅，中國、台灣、歐盟等受影響；白宮指控中國月之暗面竊取Anthropic AI技術。",
-   "papers_summary": "今日無相關論文，但英文論文探討AI在產品推薦、創意寫作、可視化等領域的可用性與倫理問題。"
+   "brief": "今日重点：美国以强迫劳动为由对60个贸易伙伴加征关税，白宫指控中国AI公司窃取技术；法国野火导致数万人疏散，油价突破100美元。研究显示年轻女性2型糖尿病增加，以及为什么你总在凌晨三点醒来。",
+   "news_summary": "美国对60个贸易伙伴征10%-12.5%关税，7月24日生效；白宫指控中国月之暗面窃取Anthropic技术；法国野火致数万人撤离，油价破100美元；胡塞武装威胁曼德海峡航运；香港胡志伟英国机场险被遣返。",
+   "papers_summary": "今日论文聚焦AI可用性与透明性：大型语言模型使对话式产品顾问流畅但不透明；智能眼镜上的可穿戴AI辅助创意写作；以及用于临床工作流的HIPAA合规AI增强LIMS架构。"
   }
  },
  "todays_image": {
-  "caption": "Just as the red algae Champia parvula clings and spreads in coastal waters, the new U.S. tariffs grip and ripple through global trade with a similar invasive intensity.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m302e2e34e33724db2a314022d7b516ec7",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3a7a2ea33-c931-454e-b66a-216426d6db43",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m302e2e34e33724db2a314022d7b516ec7/90",
-  "title": "Champia parvula (C. Agardh) Harv."
+  "caption": "The Fair Mount Company Cape, a historic coastal landmark in a vintage image, and the French tourist spot being evacuated both represent beautiful natural areas now contrasted by the threat of destruction—one by time, the other by fire.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2012q28329",
+  "source_name": "National Museum of American History",
+  "source_url": null,
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2012q28329&max=150",
+  "title": "Fair Mount Company Cape"
  }
 }
