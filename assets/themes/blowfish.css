@@ -113,6 +113,10 @@ html[data-scheme="dark"][data-theme="blowfish"] .tag-chip {
 /* ---- thread cards: an accent top border ---- */
 
 [data-theme="blowfish"] .thread-card { border-top: 3px solid var(--accent); }
+/* the "now" dot gets the same violet halo the theme uses on active chips */
+[data-theme="blowfish"] .thread-timeline-point.is-now .thread-timeline-dot {
+  box-shadow: 0 0 0 3px rgba(167, 139, 250, .22);
+}
 
 /* Single-column Today: read Top stories, then Top papers — sequential like
    the-type's feed, instead of the base auto-fit two-column grid. */

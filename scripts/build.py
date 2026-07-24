@@ -376,7 +376,8 @@ def main(argv=None) -> None:
         }
         result = generate_threads(
             public_payloads, env, ctx.session,
-            scope="public", max_threads=cfg.site.threads.max_threads)
+            scope="public", max_threads=cfg.site.threads.max_threads,
+            interests=cfg.interests_keywords, now=now)
         if result:
             payload = {
                 "meta": {"generated_at": generated_at, "scope": "public",
@@ -401,7 +402,8 @@ def main(argv=None) -> None:
             }
             result = generate_threads(
                 private_payloads, env, ctx.session,
-                scope="private", max_threads=cfg.site.threads.max_threads)
+                scope="private", max_threads=cfg.site.threads.max_threads,
+                interests=cfg.interests_keywords, now=now)
             if result:
                 payload = {
                     "meta": {"generated_at": generated_at, "scope": "private",

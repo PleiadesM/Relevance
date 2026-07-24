@@ -270,6 +270,92 @@ function angleRow(angle) {
   return el("li", { class: "thread-angle" }, link);
 }
 
+// Timeline point dates are "YYYY-MM-DD" or "YYYY-MM". Both go through
+// fmtDate(), which pins date-only strings to local noon — that also dodges the
+// UTC month-shift a bare "YYYY-MM" would hit in negative-offset timezones (the
+// month gets a synthetic day 15). The year is shown only when it isn't the
+// current one; month-precision points always carry it.
+function fmtTimelineDate(v) {
+  const s = String(v || "");
+  if (/^\d{4}-\d{2}-\d{2}$/.test(s)) {
+    const sameYear = s.slice(0, 4) === String(new Date().getFullYear());
+    return fmtDate(s, {
+      weekday: undefined, year: sameYear ? undefined : "numeric",
+    });
+  }
+  if (/^\d{4}-\d{2}$/.test(s)) {
+    return fmtDate(`${s}-15`, { weekday: undefined, day: undefined, year: "numeric" });
+  }
+  return s;
+}
+
+// The caption's "return ticket", same rule as angleRow(): the in-app reader
+// when the point resolved to an item with cached full text, otherwise the
+// original in a new tab. Null when the LLM's item ref never resolved.
+function timelinePointLink(point) {
+  if (point.full_text_file && point.section && point.item_id) {
+    return el("a", { href: `#/read/${point.section}/${point.item_id}` },
+      point.source || t("feed.original"));
+  }
+  if (point.url) {
+    return el("a", { href: safeHref(point.url), target: "_blank", rel: "noopener noreferrer" },
+      point.source || t("feed.original"));
+  }
+  return null;
+}
+
+// One thread's event timeline: evenly-spaced dots (NOT date-proportional —
+// 3–6 points would cluster and collide), each showing its own date so an
+// irregular tempo stays legible. Labels live only in the single aria-live
+// caption under the track, so a long zh label degrades to ellipsis instead of
+// breaking the card. Every point is a real <button> for native keyboard/tap;
+// hover/focus/click selects, and the last point (the "now" anchor) is selected
+// and emphasized by default.
+function threadTimeline(points) {
+  const caption = el("p", { class: "thread-timeline-caption", "aria-live": "polite" });
+  const items = points.map((point, i) => {
+    const dateText = fmtTimelineDate(point.date);
+    const isNow = i === points.length - 1;
+    const label = [dateText, pickLang(point.label)].filter(Boolean).join(" — ");
+    const btn = el("button", {
+      type: "button",
+      class: "thread-timeline-btn",
+      "aria-label": isNow ? `${label} (${t("today.threadTimelineLatest")})` : label,
+      onclick: () => select(i),
+      onmouseenter: () => select(i),
+      onfocus: () => select(i),
+    },
+      el("span", { class: "thread-timeline-dot" }),
+      el("time", { class: "thread-timeline-date", datetime: point.date }, dateText),
+    );
+    return el("li", { class: `thread-timeline-point${isNow ? " is-now" : ""}` }, btn);
+  });
+
+  function select(i) {
+    items.forEach((li, j) => li.classList.toggle("is-selected", i === j));
+    clear(caption);
+    const point = points[i];
+    caption.appendChild(document.createTextNode(
+      [fmtTimelineDate(point.date), pickLang(point.label)].filter(Boolean).join(" — ")));
+    const link = timelinePointLink(point);
+    if (link) {
+      caption.appendChild(document.createTextNode(" · "));
+      caption.appendChild(link);
+    }
+  }
+
+  const wrap = el("div", {
+    class: "thread-timeline",
+    role: "group",
+    "aria-label": t("today.threadTimeline"),
+  },
+    el("ol", { class: "thread-timeline-track" }, items),
+    caption,
+  );
+  select(points.length - 1);
+  return wrap;
+}
+
 // One thread card. `list` is the full payload thread list (for resolving
 // relates_to ids to their keyword labels). Angles are deliberately NOT run
 // through filterItemsForContentLang — cross-language convergence is the point
@@ -283,8 +369,13 @@ function threadCard(thread, isPrivate, list) {
       pickLang(thread.keyword),
       convergenceGlyph(thread.convergence),
     ),
-    el("p", { class: "thread-gloss" }, pickLang(thread.gloss)),
   );
+  // Optional (older payloads have no timeline at all); a single point is not
+  // a timeline, so two is the floor.
+  if (Array.isArray(thread.timeline) && thread.timeline.length >= 2) {
+    card.appendChild(threadTimeline(thread.timeline));
+  }
+  card.appendChild(el("p", { class: "thread-gloss" }, pickLang(thread.gloss)));
   const whyNow = pickLang(thread.why_now);
   if (whyNow) {
     card.appendChild(el("p", { class: "thread-whynow" },

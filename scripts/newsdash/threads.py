@@ -23,6 +23,8 @@ Off by default the same way summarize.py is: no ``LLM_API_KEY``,
 
 from __future__ import annotations
 
+import re
+from datetime import date, datetime, timezone
 from typing import Mapping
 
 import jsonschema
@@ -37,6 +39,7 @@ from .models import clip, strip_html
 MAX_INPUT_NEWS = 30
 MAX_INPUT_PAPERS = 12
 MAX_INPUT_PRIVATE = 30
+MAX_INTERESTS = 12  # prompt-size bound on interests.keywords
 SUMMARY_CLIP = 200
 
 # Reasoning-capable models spend part of this same budget on hidden
@@ -53,9 +56,18 @@ MIN_THREADS = 2  # fewer than this and we fall back to Highlights, not a thin bl
 
 KEYWORD_CLIP = 40
 GLOSS_CLIP = 240
-WHY_NOW_CLIP = 120
+WHY_NOW_CLIP = 160  # a relevance line carries two clauses, not just an occasion
 PHRASE_MAX_WORDS = 8
 PHRASE_ZH_CLIP = 32  # safety clip for the zh angle phrase (prompt asks for ≤16字)
+
+# Per-thread event timeline (optional). The model may emit dated milestones;
+# everything below is validated here, never trusted from the model.
+TIMELINE_MAX_POINTS = 6
+TIMELINE_MIN_POINTS = 2  # fewer surviving points and we emit no timeline at all
+TIMELINE_LABEL_MAX_WORDS = 6
+TIMELINE_LABEL_ZH_CLIP = 24  # safety clip for the zh label (prompt asks for ≤12字)
+TIMELINE_MIN_YEAR = 1990
+TIMELINE_DATE_RE = re.compile(r"^\d{4}-\d{2}(-\d{2})?$")
 
 CONVERGENCE_VALUES = {"convergent", "mixed", "divergent"}
 
@@ -103,32 +115,55 @@ RESPONSE_SCHEMA = {
 }
 
 # JSON-mode requirement (same pattern as summarize.py): the literal word
-# "json" plus a shown example of the exact shape. "__MAX_THREADS__" is
-# substituted per call.
+# "json" plus a shown example of the exact shape. "__MAX_THREADS__",
+# "__READER__" and "__TODAY__" are substituted per call.
 SYSTEM_PROMPT = (
     "You are the thread editor for a personal news dashboard. You are given a "
-    "numbered list of today's items across several sources. Find up to "
-    "__MAX_THREADS__ keyword-themes where AT LEAST TWO DIFFERENT SOURCES land "
-    "on the same topic today — a theme only one source touches is not a "
+    "numbered list of today's items across several sources; an item may carry "
+    "its publication date in parentheses before the title. __READER__ Find up "
+    "to __MAX_THREADS__ keyword-themes where AT LEAST TWO DIFFERENT SOURCES "
+    "land on the same topic today — a theme only one source touches is not a "
     "thread. For each thread write: a short bilingual keyword (en + zh); a "
     "cognitively light gloss of 1-2 sentences, plain and possibly a little "
     "poetic, that a tired reader can absorb at a glance (en + zh); a one-line "
-    "'why now' note naming today's occasion for the theme (en + zh); and, for "
+    "'why_now' note telling the reader why this theme is relevant to THEM "
+    "today — tie it to a declared interest when one genuinely fits, otherwise "
+    "to what concretely changed today; address the reader as 'you', name the "
+    "hook, never flatter (en + zh); and, for "
     "every supporting item, an angle {\"item\": <the number from the list>, "
     "\"phrase\": {\"en\": \"how THAT source frames the theme, <=8 words\", "
     "\"zh\": \"<=16 characters\"}}. Reference items only by their number; do "
     "not invent items. Give each thread a convergence verdict: 'convergent' "
     "when the sources agree, 'mixed' when they partly diverge, 'divergent' "
     "when they clash. Optionally add relates_to: the numbers of OTHER threads "
-    "in this same answer that connect to this one. Respond with a single json "
-    "object shaped exactly like this example (same keys, your own values):\n"
+    "in this same answer that connect to this one. Where a thread's story "
+    "clearly unfolds over time, also add \"timeline\": 3-6 dated milestones, "
+    "oldest first, tracing how the theme arose and where it stands as of "
+    "__TODAY__; each milestone is {\"date\": \"YYYY-MM-DD\" or \"YYYY-MM\", "
+    "\"label\": {\"en\": \"<=6 words\", \"zh\": \"<=12 characters\"}, "
+    "\"item\": <optional item number>}. Use only dates the items carry or "
+    "state — never guess one, never a date after __TODAY__ — and omit "
+    "timeline entirely when the theme has no real history. Respond with a "
+    "single json object shaped exactly like this example (same keys, your own "
+    "values):\n"
     '{"threads": [{"keyword": {"en": "compute sovereignty", "zh": "算力主权"}, '
     '"gloss": {"en": "Nations race to own the chips that own the future.", '
-    '"zh": "各国竞相掌握决定未来的芯片。"}, "why_now": {"en": "Two new export '
-    'rules landed today.", "zh": "今日出台两项新出口规定。"}, "convergence": '
-    '"mixed", "relates_to": [2], "angles": [{"item": 1, "phrase": {"en": '
+    '"zh": "各国竞相掌握决定未来的芯片。"}, "why_now": {"en": "You follow chip '
+    'policy: today two new export rules redraw it.", "zh": "你关注芯片政策，'
+    '今日两项新出口规定重划版图。"}, "convergence": "mixed", "relates_to": [2], '
+    '"timeline": [{"date": "2026-03", "label": {"en": "first export curbs", '
+    '"zh": "首轮出口管制"}}, {"date": "2026-06-18", "label": {"en": "allies '
+    'join the rules", "zh": "盟友加入规则"}}, {"date": "2026-07-22", "label": '
+    '{"en": "two new rules land", "zh": "两项新规落地"}, "item": 1}], '
+    '"angles": [{"item": 1, "phrase": {"en": '
     '"frames it as security", "zh": "视为安全议题"}}, {"item": 4, "phrase": '
     '{"en": "frames it as trade", "zh": "视为贸易议题"}}]}]}'
+)
+
+# Substituted for "__READER__" per call (see generate_threads).
+READER_NO_INTERESTS = (
+    "No reader interests are configured; infer what matters to this reader "
+    "from the mix of sources and sections."
 )
 
 
@@ -163,7 +198,10 @@ def _prompt_lines(items: list[dict]) -> str:
         source = strip_html(it.get("source") or "").strip()
         kind = it.get("kind") or "news"
         summary = clip(strip_html(it.get("summary") or ""), SUMMARY_CLIP)
-        lines.append(f"[{i}] {title} ({source}) [{kind}]: {summary}")
+        # Dates anchor the timeline ask; items without one simply omit it.
+        published = str(it.get("published_at") or "")[:10]
+        stamp = f"({published}) " if published else ""
+        lines.append(f"[{i}] {stamp}{title} ({source}) [{kind}]: {summary}")
     return "\n".join(lines)
 
 
@@ -182,7 +220,80 @@ def _bilingual(raw, clip_len: int) -> dict:
     }
 
 
-def _normalize_thread(raw: dict, items: list[dict]) -> dict | None:
+def _parse_timeline_date(value) -> date | None:
+    """Accept ``YYYY-MM-DD`` or ``YYYY-MM`` (day 1) and return a real date, or
+    ``None`` for anything malformed, impossible, or prehistoric."""
+    if not isinstance(value, str) or not TIMELINE_DATE_RE.match(value):
+        return None
+    try:
+        parsed = datetime.strptime(
+            value if len(value) == 10 else f"{value}-01", "%Y-%m-%d").date()
+    except ValueError:  # e.g. 2026-02-31
+        return None
+    if parsed.year < TIMELINE_MIN_YEAR:
+        return None
+    return parsed
+
+
+def _normalize_timeline(raw, items: list[dict], today: date) -> list[dict] | None:
+    """Validate the model's optional timeline against ground truth: real past
+    dates only, sanitized bilingual labels, and item refs resolved exactly like
+    angles (a bad ref drops the ref, never the point). Returns ``None`` when
+    fewer than ``TIMELINE_MIN_POINTS`` survive — the field is then simply
+    absent, so a malformed timeline never costs an otherwise-valid thread."""
+    if not isinstance(raw, list):
+        return None
+    n = len(items)
+    dated: list[tuple[date, dict]] = []
+    seen: set[tuple[str, str, str]] = set()
+    for p in raw:
+        if not isinstance(p, dict):
+            continue
+        when = _parse_timeline_date(p.get("date"))
+        # A timeline traces how a theme arose and where it stands today;
+        # anything dated after today belongs in why_now, not here.
+        if when is None or when > today:
+            continue
+        raw_label = p.get("label") if isinstance(p.get("label"), dict) else {}
+        label = {
+            "en": _clip_words(
+                strip_html(str(raw_label.get("en") or "")).strip(),
+                TIMELINE_LABEL_MAX_WORDS),
+            "zh": clip(strip_html(str(raw_label.get("zh") or "")).strip(),
+                       TIMELINE_LABEL_ZH_CLIP),
+        }
+        if not label["en"] and not label["zh"]:
+            continue
+        key = (p["date"], label["en"], label["zh"])
+        if key in seen:
+            continue
+        seen.add(key)
+        point = {"date": p["date"], "label": label}
+        ref = p.get("item")
+        if isinstance(ref, int) and not isinstance(ref, bool) and 1 <= ref <= n:
+            item = items[ref - 1]
+            point["item_id"] = item.get("id") or ""
+            point["section"] = item.get("section") or ""
+            point["source"] = strip_html(str(item.get("source") or "")).strip()
+            point["url"] = item.get("url") or ""
+            # Same rule as angles: an in-app reader link only when the resolved
+            # item actually has a full-text file.
+            if item.get("full_text_file"):
+                point["full_text_file"] = item["full_text_file"]
+        dated.append((when, point))
+
+    dated.sort(key=lambda pair: pair[0])
+    points = [point for _, point in dated]
+    if len(points) > TIMELINE_MAX_POINTS:
+        # Keep the origin plus the most recent stretch — the two anchors that
+        # make "how it arose → where it stands" legible.
+        points = points[:1] + points[-(TIMELINE_MAX_POINTS - 1):]
+    if len(points) < TIMELINE_MIN_POINTS:
+        return None
+    return points
+
+
+def _normalize_thread(raw: dict, items: list[dict], today: date) -> dict | None:
     """Resolve the model's numeric refs against ground truth and sanitize
     every model-authored string. Returns ``None`` for a thread that, after
     dropping out-of-range refs and deduping by resolved item, does not link
@@ -230,7 +341,7 @@ def _normalize_thread(raw: dict, items: list[dict]) -> dict | None:
     if convergence not in CONVERGENCE_VALUES:
         convergence = "mixed"
 
-    return {
+    out = {
         "keyword": _bilingual(raw.get("keyword"), KEYWORD_CLIP),
         "gloss": _bilingual(raw.get("gloss"), GLOSS_CLIP),
         "why_now": _bilingual(raw.get("why_now"), WHY_NOW_CLIP),
@@ -241,6 +352,10 @@ def _normalize_thread(raw: dict, items: list[dict]) -> dict | None:
         "_relates": [r for r in (raw.get("relates_to") or [])
                      if isinstance(r, int) and not isinstance(r, bool)],
     }
+    timeline = _normalize_timeline(raw.get("timeline"), items, today)
+    if timeline is not None:
+        out["timeline"] = timeline
+    return out
 
 
 def _link_relates(threads: list[dict], positions: list[int]) -> None:
@@ -275,7 +390,9 @@ def _log_error(scope: str, exc: Exception, api_key: str) -> None:
 
 def generate_threads(payloads: dict[str, dict], env: Mapping[str, str],
                      session: requests.Session, *, scope: str,
-                     max_threads: int = 6) -> dict | None:
+                     max_threads: int = 6,
+                     interests: list[str] | None = None,
+                     now: datetime | None = None) -> dict | None:
     api_key = env.get("LLM_API_KEY", "").strip()
     if not api_key:
         return None
@@ -291,12 +408,25 @@ def generate_threads(payloads: dict[str, dict], env: Mapping[str, str],
         # produce one, so skip the call entirely (zero HTTP).
         return None
 
+    today = (now or datetime.now(timezone.utc)).date()
+    # Owner-authored config, but sanitized like every other prompt input.
+    keywords = [clip(strip_html(str(k)).strip(), KEYWORD_CLIP)
+                for k in (interests or [])]
+    keywords = [k for k in keywords if k][:MAX_INTERESTS]
+    reader = (
+        f"The reader's declared interests: {', '.join(keywords)}. Weigh what "
+        "matters to them against these."
+    ) if keywords else READER_NO_INTERESTS
+    system = (SYSTEM_PROMPT
+              .replace("__MAX_THREADS__", str(max_threads))
+              .replace("__READER__", reader)
+              .replace("__TODAY__", today.isoformat()))
+
     base_url, model = resolve_endpoint(env)
     try:
         content = post_chat(
             base_url, api_key, model,
-            [{"role": "system",
-              "content": SYSTEM_PROMPT.replace("__MAX_THREADS__", str(max_threads))},
+            [{"role": "system", "content": system},
              {"role": "user", "content": _prompt_lines(items)}],
             session, json_mode=True, max_tokens=THREADS_MAX_TOKENS,
             extra_body=resolve_extra_body(env),
@@ -316,7 +446,7 @@ def generate_threads(payloads: dict[str, dict], env: Mapping[str, str],
     for pos, raw in enumerate(raw_threads, start=1):
         if not isinstance(raw, dict) or not validator.is_valid(raw):
             continue
-        thread = _normalize_thread(raw, items)
+        thread = _normalize_thread(raw, items, today)
         if thread is None:
             continue
         threads.append(thread)

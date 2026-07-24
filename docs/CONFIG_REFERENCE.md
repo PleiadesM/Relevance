@@ -93,8 +93,13 @@ Threads replaces the client-computed Highlights block on Today: up to
 `max_threads` keyword-themes the build's LLM found at least two different
 sources converging on today, each with a bilingual gloss, a "why now" line,
 a convergence verdict, and per-source angles linking back to the underlying
-items. See `docs/DATA_CONTRACT.md`'s `threads.json` section for the exact
-payload shape and the public/private scope split.
+items. `interests.keywords` (§3, below) also personalizes the "why now" line
+— when a declared interest genuinely fits a thread, the LLM ties the
+relevance note to it — and, when a thread's story clearly unfolds over time,
+an optional per-thread event timeline. There is no new config knob for
+either: both ride the existing `threads.enabled` switch. See
+`docs/DATA_CONTRACT.md`'s `threads.json` section for the exact payload shape
+and the public/private scope split.
 
 ## 3. `config/sources.json`
 

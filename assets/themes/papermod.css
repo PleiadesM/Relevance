@@ -161,6 +161,9 @@ html[data-scheme="dark"][data-theme="papermod"] {
   letter-spacing: 0;
 }
 [data-theme="papermod"] .thread-card { border-radius: var(--radius); }
+/* PaperMod's rules are lighter than the base ink — dash the timeline track so
+   it reads as scaffolding rather than a second card border. */
+[data-theme="papermod"] .thread-timeline-track::before { border-top-style: dashed; }
 
 /* ---- error carve-out: the base CSS uses --accent as the error color, but
    PaperMod's accent is monochrome ink — that would hide failures. Restore a

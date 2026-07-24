@@ -22,8 +22,10 @@ Threads takes that seriously in four ways:
    circling the same thing — and to lift that convergence into view. The
    angles show how differently each source treats it; the reader, not the
    pipeline, decides what it means for them.
-2. **The occasion is named.** Each card carries a one-line *why now* — because
-   relevance exists only on occasions, the occasion is part of the content.
+2. **Relevance is addressed to someone.** Each card carries a one-line *why
+   now* that speaks to the reader as "you" — tied to a declared interest when
+   one genuinely fits, otherwise to what concretely changed today — because
+   relevance is never general; it is always relevance *to* someone.
 3. **The editorial hand is visible.** The block is dated, capped at six, and
    says what it is: today's footholds, chosen by a model, gone tomorrow.
    Ephemerality is not a limitation; a dashboard, like a morning paper, is an
@@ -54,6 +56,12 @@ realism or decoration but that it is flat, stable, combinable, and lets you
    sources agree is the one thing the block knows that a list of links would
    hide. Everything else is typography; ornament would only add cognitive
    load without adding a way back to the sources.
+5. **The timeline is a flat inscription too.** Where a theme's story clearly
+   unfolds over time, dated milestones sit under the title as a row of
+   evenly-spaced dots with return tickets of their own — oldest point first,
+   the last always the accented "now." It is not a chart to be read for
+   proportion; it is the same combinable, presentable-at-a-glance grammar as
+   the rest of the card, just laid out along a line instead of a page.
 
 ## Consequences that look like quirks
 

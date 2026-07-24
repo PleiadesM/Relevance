@@ -124,8 +124,10 @@ export const FALLBACK_EN = {
     "aproposKicker": "Not for you, probably",
     "aproposSource": "Source",
     "threads": "Threads",
-    "threadsWhyNow": "Why now —",
+    "threadsWhyNow": "Why is it relevant to you? —",
     "threadsTouches": "touches:",
+    "threadTimeline": "Timeline",
+    "threadTimelineLatest": "latest",
     "threadConvergent": "convergent",
     "threadMixed": "mixed",
     "threadDivergent": "divergent"

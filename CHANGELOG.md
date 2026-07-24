@@ -8,6 +8,24 @@ round of significant changes lands. Format loosely follows
 [Keep a Changelog](https://keepachangelog.com/); versions follow semver
 (minor = feature round, patch = fixes).
 
+## [0.6.0] — 2026-07-24
+
+### Added
+- **Per-thread interactive event timeline** — where a theme's story clearly
+  unfolds over time, the LLM extracts 3–6 dated milestones from the day's
+  items, the pipeline validates them (parsed, sorted, deduped, capped at 6,
+  future dates rejected, item refs resolved like angles), and the frontend
+  renders them as a hand-rolled, zero-dependency row of evenly-spaced dots
+  under the thread title — tracing how the theme arose and where it stands
+  today.
+
+### Changed
+- **"Why now" becomes "Why is it relevant to you?"** — the Threads relevance
+  line now addresses the reader directly and is personalized against
+  `interests.keywords` when a declared interest genuinely fits. The JSON
+  field name (`why_now`) is unchanged; its length clip grows from 120 to 160
+  characters per language.
+
 ## [0.5.3] — 2026-07-24
 
 ### Changed

@@ -1,18 +1,23 @@
 import json
+from datetime import datetime, timezone
 
 import responses
 
 from newsdash.http import make_session
-from newsdash.threads import THREADS_MAX_TOKENS, generate_threads
+from newsdash.threads import (THREADS_MAX_TOKENS, TIMELINE_LABEL_ZH_CLIP,
+                              WHY_NOW_CLIP, generate_threads)
 
 CHAT_URL = "https://api.openai.com/v1/chat/completions"
+
+# Fixed build clock so timeline validation ("no future dates") is deterministic.
+NOW = datetime(2026, 7, 24, 9, 0, tzinfo=timezone.utc)
 
 
 # ---- fixtures / builders ------------------------------------------------
 
 def item(i, *, source_id="s1", source="Source One", section="news",
          kind="news", score=None, title=None, url=None, summary="a summary",
-         full_text_file=None):
+         full_text_file=None, published_at=None):
     d = {
         "id": f"item{i}",
         "title": title if title is not None else f"Title {i}",
@@ -26,6 +31,8 @@ def item(i, *, source_id="s1", source="Source One", section="news",
     }
     if full_text_file:
         d["full_text_file"] = full_text_file
+    if published_at:
+        d["published_at"] = published_at
     return d
 
 
@@ -37,8 +44,15 @@ def angle(n, en="an angle here", zh="角度"):
     return {"item": n, "phrase": {"en": en, "zh": zh}}
 
 
+def point(date, en="a milestone", zh="里程碑", n=None):
+    p = {"date": date, "label": {"en": en, "zh": zh}}
+    if n is not None:
+        p["item"] = n
+    return p
+
+
 def thread(angles, *, keyword=None, gloss=None, why_now=None,
-           convergence="convergent", relates_to=None):
+           convergence="convergent", relates_to=None, timeline=None):
     t = {
         "keyword": keyword or {"en": "keyword", "zh": "关键词"},
         "gloss": gloss or {"en": "a gloss", "zh": "一段释义"},
@@ -48,6 +62,8 @@ def thread(angles, *, keyword=None, gloss=None, why_now=None,
     }
     if relates_to is not None:
         t["relates_to"] = relates_to
+    if timeline is not None:
+        t["timeline"] = timeline
     return t
 
 
@@ -290,6 +306,206 @@ def test_html_stripped_from_llm_strings():
     assert t0["gloss"]["en"] == "italic text"
     assert "<" not in t0["angles"][0]["phrase"]["en"]
     assert t0["angles"][0]["phrase"]["en"] == "bold plain"
+
+
+@responses.activate
+def test_why_now_clipped_at_160():
+    long_en = "x" * 300
+    responses.post(CHAT_URL, json=completion([
+        thread([angle(1), angle(2)], why_now={"en": long_en, "zh": "此刻"}),
+        thread([angle(1), angle(2)]),
+    ]))
+    result = generate_threads(
+        two_source_payload(), ENV, make_session(), scope="public")
+    assert WHY_NOW_CLIP == 160
+    why_now = result["threads"][0]["why_now"]["en"]
+    # clip() keeps WHY_NOW_CLIP chars and marks the cut with an ellipsis
+    assert why_now == "x" * WHY_NOW_CLIP + "…"
+
+
+# ---- prompt: item dates + reader interests ------------------------------
+
+@responses.activate
+def test_prompt_carries_item_dates_when_present():
+    responses.post(CHAT_URL, json=completion([
+        thread([angle(1), angle(2)]), thread([angle(1), angle(2)]),
+    ]))
+    pay = payloads([
+        item(1, source_id="s1", published_at="2026-07-22T10:00:00Z"),
+        item(2, source_id="s2"),
+    ])
+    generate_threads(pay, ENV, make_session(), scope="public", now=NOW)
+    prompt = json.loads(responses.calls[0].request.body)["messages"][1]["content"]
+    assert "[1] (2026-07-22) Title 1 (Source One) [news]:" in prompt
+    # an item without published_at simply omits the parenthesized date
+    assert "[2] Title 2 (Source One) [news]:" in prompt
+
+
+@responses.activate
+def test_prompt_reader_interests_line_and_today():
+    responses.post(CHAT_URL, json=completion([
+        thread([angle(1), angle(2)]), thread([angle(1), angle(2)]),
+    ]))
+    generate_threads(two_source_payload(), ENV, make_session(), scope="public",
+                     interests=["chips", "  ", "urban design"], now=NOW)
+    system = json.loads(responses.calls[0].request.body)["messages"][0]["content"]
+    assert "The reader's declared interests: chips, urban design." in system
+    assert "2026-07-24" in system
+    assert "__READER__" not in system and "__TODAY__" not in system
+
+
+@responses.activate
+def test_prompt_falls_back_without_interests():
+    responses.post(CHAT_URL, json=completion([
+        thread([angle(1), angle(2)]), thread([angle(1), angle(2)]),
+    ]))
+    generate_threads(two_source_payload(), ENV, make_session(), scope="public",
+                     interests=[], now=NOW)
+    system = json.loads(responses.calls[0].request.body)["messages"][0]["content"]
+    assert "No reader interests are configured" in system
+    assert "declared interests:" not in system
+
+
+# ---- timeline -----------------------------------------------------------
+
+@responses.activate
+def test_timeline_sorted_and_ref_resolved():
+    responses.post(CHAT_URL, json=completion([
+        thread([angle(1), angle(2)], timeline=[
+            point("2026-07-22", en="rules land", n=1),
+            point("2026-03", en="first curbs"),
+        ]),
+        thread([angle(1), angle(2)]),
+    ]))
+    pay = two_source_payload(full_text_file="articles/news/item1.json")
+    result = generate_threads(pay, ENV, make_session(), scope="public", now=NOW)
+
+    tl = result["threads"][0]["timeline"]
+    assert [p["date"] for p in tl] == ["2026-03", "2026-07-22"]
+    # unreferenced point carries no ground truth at all
+    assert "item_id" not in tl[0] and "url" not in tl[0]
+    assert tl[1]["item_id"] == "item1"
+    assert tl[1]["section"] == "news"
+    assert tl[1]["source"] == "Alpha"
+    assert tl[1]["url"] == "https://ex.test/1"
+    assert tl[1]["full_text_file"] == "articles/news/item1.json"
+    # the second thread emitted no timeline -> the key is simply absent
+    assert "timeline" not in result["threads"][1]
+
+
+@responses.activate
+def test_timeline_drops_invalid_and_future_dates():
+    responses.post(CHAT_URL, json=completion([
+        thread([angle(1), angle(2)], timeline=[
+            point("2026-03-01", en="kept one"),
+            point("last week", en="relative"),
+            point("2026-02-31", en="impossible"),
+            point("1975-01-01", en="prehistoric"),
+            point("2026-08-01", en="future"),
+            point("2026-04-01", en="kept two"),
+        ]),
+        thread([angle(1), angle(2)], timeline=[
+            point("2026-13-01", en="only bad"),
+            point("2026-04-02", en="lone survivor"),
+        ]),
+    ]))
+    result = generate_threads(
+        two_source_payload(), ENV, make_session(), scope="public", now=NOW)
+    assert [p["label"]["en"] for p in result["threads"][0]["timeline"]] == [
+        "kept one", "kept two"]
+    # a single survivor is below TIMELINE_MIN_POINTS -> no key, thread kept
+    assert "timeline" not in result["threads"][1]
+
+
+@responses.activate
+def test_timeline_cap_keeps_origin_and_latest():
+    responses.post(CHAT_URL, json=completion([
+        thread([angle(1), angle(2)], timeline=[
+            point(f"2026-01-{d:02d}", en=f"day {d}") for d in range(1, 10)
+        ]),
+        thread([angle(1), angle(2)]),
+    ]))
+    result = generate_threads(
+        two_source_payload(), ENV, make_session(), scope="public", now=NOW)
+    labels = [p["label"]["en"] for p in result["threads"][0]["timeline"]]
+    assert labels == ["day 1", "day 5", "day 6", "day 7", "day 8", "day 9"]
+
+
+@responses.activate
+def test_timeline_dedupes_identical_points():
+    responses.post(CHAT_URL, json=completion([
+        thread([angle(1), angle(2)], timeline=[
+            point("2026-03-01", en="same", zh="同"),
+            point("2026-03-01", en="same", zh="同"),
+            point("2026-04-01", en="other"),
+        ]),
+        thread([angle(1), angle(2)]),
+    ]))
+    result = generate_threads(
+        two_source_payload(), ENV, make_session(), scope="public", now=NOW)
+    tl = result["threads"][0]["timeline"]
+    assert [p["label"]["en"] for p in tl] == ["same", "other"]
+
+
+@responses.activate
+def test_timeline_labels_clipped_and_html_stripped():
+    responses.post(CHAT_URL, json=completion([
+        thread([angle(1), angle(2)], timeline=[
+            point("2026-03-01", en="<b>one</b> two three four five six seven",
+                  zh="字" * 40),
+            point("2026-04-01"),
+        ]),
+        thread([angle(1), angle(2)]),
+    ]))
+    result = generate_threads(
+        two_source_payload(), ENV, make_session(), scope="public", now=NOW)
+    label = result["threads"][0]["timeline"][0]["label"]
+    assert label["en"] == "one two three four five six…"
+    assert len(label["zh"]) <= TIMELINE_LABEL_ZH_CLIP + 1
+
+
+@responses.activate
+def test_timeline_bad_item_ref_keeps_the_point():
+    responses.post(CHAT_URL, json=completion([
+        thread([angle(1), angle(2)], timeline=[
+            point("2026-03-01", en="dangling", n=99),
+            point("2026-04-01", en="fine"),
+        ]),
+        thread([angle(1), angle(2)]),
+    ]))
+    result = generate_threads(
+        two_source_payload(), ENV, make_session(), scope="public", now=NOW)
+    tl = result["threads"][0]["timeline"]
+    assert [p["label"]["en"] for p in tl] == ["dangling", "fine"]
+    assert "item_id" not in tl[0]
+
+
+@responses.activate
+def test_malformed_timeline_never_drops_the_thread():
+    # Every shape the schema does NOT police: the thread must still survive,
+    # just without a timeline key.
+    for bad in ("not a list", [], [{"date": 5}], [{"nope": 1}], 42,
+                [{"date": "2026-03-01", "label": {"en": "", "zh": ""}},
+                 {"date": "2026-04-01", "label": "not a dict"}]):
+        responses.reset()
+        responses.post(CHAT_URL, json=completion([
+            thread([angle(1), angle(2)], timeline=bad),
+            thread([angle(1), angle(2)]),
+        ]))
+        result = generate_threads(
+            two_source_payload(), ENV, make_session(), scope="public", now=NOW)
+        assert len(result["threads"]) == 2
+        assert "timeline" not in result["threads"][0]
+
+
+@responses.activate
+def test_absent_timeline_field_is_backcompat():
+    responses.post(CHAT_URL, json=completion([
+        thread([angle(1), angle(2)]), thread([angle(1), angle(2)]),
+    ]))
+    result = generate_threads(
+        two_source_payload(), ENV, make_session(), scope="public", now=NOW)
+    assert all("timeline" not in t for t in result["threads"])
 
 
 # ---- failure modes ------------------------------------------------------

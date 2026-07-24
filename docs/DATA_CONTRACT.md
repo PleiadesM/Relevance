@@ -337,7 +337,7 @@ Two fully separated scopes:
       "id": "t1",                           // "t1"…"tN" (public) or "p1"…"pN" (private) — never collide
       "keyword": { "en": "compute sovereignty", "zh": "算力主权" },
       "gloss":   { "en": "1–2 light sentences, may be poetic", "zh": "…" },   // ≤240 chars/lang
-      "why_now": { "en": "one-line occasion note", "zh": "…" },               // ≤120 chars/lang
+      "why_now": { "en": "one-line relevance note", "zh": "…" },              // ≤160 chars/lang, why it matters to this reader
       "convergence": "convergent",          // "convergent" | "mixed" | "divergent" (invalid model output coerced to "mixed")
       "relates_to": ["t3"],                 // other thread ids from this same build; may be []
       "angles": [ {                         // ≥2 entries, resolved against ≥2 distinct sources
@@ -345,10 +345,28 @@ Two fully separated scopes:
           "phrase": { "en": "≤8 words", "zh": "≤16 characters" },
           "url": "https://…",
           "full_text_file": "articles/news/….json"   // present iff the resolved item has an in-app reader file
+      } ],
+      "timeline": [ {                       // optional; present only when ≥2 valid dated milestones survive
+          "date": "2026-05-10",              // "YYYY-MM-DD" or "YYYY-MM"; never after generated_at, never guessed
+          "label": { "en": "≤6 words", "zh": "≤12字" },
+          // only when the item ref resolved against ground truth:
+          "item_id": "…", "section": "news", "source": "…", "url": "…",
+          "full_text_file": "articles/news/….json"   // present iff the resolved item has an in-app reader file
       } ]
   } ]
 }
 ```
+
+The optional `timeline` array traces how a thread arose and where it stands
+as of the build, oldest first. Pipeline-side validation parses each point's
+date (rejecting malformed or future dates), sorts ascending, dedupes on
+`(date, en, zh)`, and caps at 6 points by keeping the earliest plus the most
+recent five (origin + now anchors). An optional per-point item reference is
+resolved exactly like angles — a bad ref just drops the reference, never the
+point. Fewer than 2 valid points after validation drops the field entirely;
+`THREAD_SCHEMA` never requires it, so a malformed timeline can never drop an
+otherwise-valid thread. Absent `timeline` means legacy (pre-0.6.0) rendering
+— the frontend card simply omits the timeline row.
 
 The private variant is identical in shape with `"scope": "private"` and
 thread ids `p1…pN`.
