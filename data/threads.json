@@ -1,7 +1,7 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-07-24T02:54:43Z",
+  "count": 6,
+  "generated_at": "2026-07-24T03:01:40Z",
   "scope": "public"
  },
  "threads": [
@@ -10,8 +10,8 @@
     {
      "item_id": "69a86a69c3de91ee",
      "phrase": {
-      "en": "targets 60 partners over forced labour",
-      "zh": "针对60个贸易伙伴"
+      "en": "US imposes tariffs on 60 partners",
+      "zh": "美国对60个伙伴加征关税"
      },
      "section": "news",
      "source": "BBC World",
@@ -20,8 +20,8 @@
     {
      "item_id": "0fd3246454de770c",
      "phrase": {
-      "en": "hit Australian exports with 12.5% tariff",
-      "zh": "对澳出口加征12.5%关税"
+      "en": "Australia hit with 12.5% tariff",
+      "zh": "澳大利亚被加征12.5%关税"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -30,8 +30,8 @@
     {
      "item_id": "6a4053a78bcda243",
      "phrase": {
-      "en": "new duties on over 80 nations around 10%",
-      "zh": "对80多国加征约10%关税"
+      "en": "New tariffs on over 80 nations",
+      "zh": "对80多个国家的新关税"
      },
      "section": "news",
      "source": "The New York Times",
@@ -40,8 +40,8 @@
     {
      "item_id": "dbcd3742779b564e",
      "phrase": {
-      "en": "trump's latest effort to circumvent Congress",
-      "zh": "绕过国会的最新努力"
+      "en": "Tariffs circumvent Congress",
+      "zh": "关税绕过国会"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -50,8 +50,8 @@
     {
      "item_id": "6df2d895b5f0f7bd",
      "phrase": {
-      "en": "fresh wave of sweeping tariffs",
-      "zh": "新一轮全面关税"
+      "en": "Fresh wave of tariffs today",
+      "zh": "今日新一轮关税"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -60,18 +60,18 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Trump hits over 80 nations with new tariffs, citing forced labour.",
-    "zh": "特朗普以强迫劳动为由对80多国加征新关税。"
+    "en": "The US slaps new retaliatory tariffs on many countries, citing forced labor and escalating global economic tensions.",
+    "zh": "美国以强迫劳动为由，对多国加征报复性关税，加剧全球经济紧张。"
    },
    "id": "t1",
    "keyword": {
-    "en": "tariffs wave",
-    "zh": "关税浪潮"
+    "en": "trade tariffs",
+    "zh": "贸易关税"
    },
    "relates_to": [],
    "why_now": {
-    "en": "New US tariff regime announced today.",
-    "zh": "美国今日宣布新关税制度。"
+    "en": "New US tariffs announced today on over 80 countries.",
+    "zh": "美国今日宣布对超过80个国家的新关税。"
    }
   },
   {
@@ -80,7 +80,7 @@
      "item_id": "3c55eb23e60229d4",
      "phrase": {
       "en": "Houthi attacks raise war fears",
-      "zh": "胡塞攻击引发战争担忧"
+      "zh": "胡塞袭击引发战争担忧"
      },
      "section": "news",
      "source": "BBC World",
@@ -89,8 +89,8 @@
     {
      "item_id": "a2bbda57a6b1a04f",
      "phrase": {
-      "en": "UN chief says crisis 'getting out of control'",
-      "zh": "联合国称危机失控"
+      "en": "UN warns crisis out of control",
+      "zh": "联合国警告危机失控"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -99,8 +99,8 @@
     {
      "item_id": "90b1d9b6f0c7c822",
      "phrase": {
-      "en": "UK 'ready to defend itself' after Iran threat",
-      "zh": "英称准备自卫"
+      "en": "UK ready to defend after threat",
+      "zh": "英国遭威胁后准备防御"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -109,8 +109,8 @@
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Houthi attacks and Iran threats escalate, UN warns crisis spiraling.",
-    "zh": "胡塞攻击与伊朗威胁升级，联合国警告危机失控。"
+    "en": "Houthi attacks and Iranian threats widen fears of a regional war, with global economic and security fallout.",
+    "zh": "胡塞武装袭击和伊朗威胁加剧地区战争担忧，全球经济和安全受到影响。"
    },
    "id": "t2",
    "keyword": {
@@ -119,57 +119,8 @@
    },
    "relates_to": [],
    "why_now": {
-    "en": "UN chief warns today of escalating crisis.",
-    "zh": "联合国秘书长今日警告危机升级。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "5440d1db45d7dd88",
-     "phrase": {
-      "en": "AI spending rattles markets",
-      "zh": "AI支出震动市场"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c235n47g8g8o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "8e9dc2f21bb2d46e",
-     "phrase": {
-      "en": "jobs at risk from AI agents",
-      "zh": "AI代理威胁就业"
-     },
-     "section": "news",
-     "source": "BBC 中文",
-     "url": "https://www.bbc.com/zhongwen/articles/cvgl8r4j1j4o/trad?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "6f2c975c9b70cb7a",
-     "phrase": {
-      "en": "runaway AI agent or stunt?",
-      "zh": "失控AI代理还是噱头？"
-     },
-     "section": "news",
-     "source": "Simon Willison",
-     "url": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Tech giants' AI spending spooks investors, stocks plunge.",
-    "zh": "科技巨头AI投入令投资者恐慌，股价暴跌。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "AI market jitters",
-    "zh": "AI市场焦虑"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "Google and Tesla shares fell sharply today.",
-    "zh": "谷歌和特斯拉股价今日大跌。"
+    "en": "UN chief warns crisis 'getting out of control' today.",
+    "zh": "联合国秘书长今日警告危机‘失控’。"
    }
   },
   {
@@ -177,8 +128,8 @@
     {
      "item_id": "dfd4ad969d851351",
      "phrase": {
-      "en": "activist breaks 26-day fast",
-      "zh": "活动家结束26天绝食"
+      "en": "Activist breaks hunger strike",
+      "zh": "活动人士结束绝食"
      },
      "section": "news",
      "source": "The New York Times",
@@ -187,8 +138,8 @@
     {
      "item_id": "1519dd87851df788",
      "phrase": {
-      "en": "Modi caught off guard by student anger",
-      "zh": "学生愤怒令莫迪措手不及"
+      "en": "Modi caught off guard by protests",
+      "zh": "莫迪被抗议打了个措手不及"
      },
      "section": "news",
      "source": "The New York Times",
@@ -197,8 +148,8 @@
     {
      "item_id": "d4039ec15c83f776",
      "phrase": {
-      "en": "'cockroaches' march on government",
-      "zh": "“蟑螂”游行抗议政府"
+      "en": "Cockroach marches on government",
+      "zh": "‘蟑螂’游行冲击政府"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -207,18 +158,178 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Student movement erupts over economic woes, Modi caught off guard.",
-    "zh": "学生运动因经济困境爆发，莫迪措手不及。"
+    "en": "Student-led protests erupt in India over economic woes, catching the government off guard.",
+    "zh": "学生领导的抗议因经济困境在印度爆发，令政府措手不及。"
    },
-   "id": "t4",
+   "id": "t3",
    "keyword": {
     "en": "India protests",
     "zh": "印度抗议"
    },
    "relates_to": [],
    "why_now": {
-    "en": "Activist breaks hunger strike, protests continue.",
-    "zh": "活动家结束绝食，抗议持续。"
+    "en": "Activist ends hunger strike amid ongoing protests today.",
+    "zh": "活动人士今日在持续抗议中结束绝食。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "8e9dc2f21bb2d46e",
+     "phrase": {
+      "en": "AI may replace jobs",
+      "zh": "AI可能取代工作"
+     },
+     "section": "news",
+     "source": "BBC 中文",
+     "url": "https://www.bbc.com/zhongwen/articles/cvgl8r4j1j4o/trad?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "6f2c975c9b70cb7a",
+     "phrase": {
+      "en": "First runaway AI agent?",
+      "zh": "首个失控AI智能体？"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything"
+    },
+    {
+     "item_id": "5440d1db45d7dd88",
+     "phrase": {
+      "en": "AI spending rattles markets",
+      "zh": "AI支出动摇市场"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c235n47g8g8o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "full_text_file": "articles/news/03496daaba1d5700.json",
+     "item_id": "03496daaba1d5700",
+     "phrase": {
+      "en": "Alexa Plus gets AI update",
+      "zh": "Alexa Plus获AI更新"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Tech giants' AI spending spooks investors, while new AI agents raise questions about autonomy.",
+    "zh": "科技巨头AI支出吓坏投资者，新AI智能体引发自主性疑问。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "AI industry",
+    "zh": "AI产业"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "Google and Tesla shares plunge today over AI spending.",
+    "zh": "谷歌和特斯拉今日因AI支出股价暴跌。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "9f24f2cfdf1a975d",
+     "phrase": {
+      "en": "Dems criticize Trump tariffs",
+      "zh": "民主党批评特朗普关税"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/live/2026/jul/23/us-house-defense-spending-bill-donald-trump-iran-rubio-latest-news-updates"
+    },
+    {
+     "item_id": "c9169c7d26bb11f3",
+     "phrase": {
+      "en": "US withdraws subpoenas vs journalists",
+      "zh": "美国撤回对记者传票"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/23/business/media/new-york-times-subpoenas-withdraw.html"
+    },
+    {
+     "item_id": "e9cb77d44e49d5a8",
+     "phrase": {
+      "en": "Democratic voters defy establishment",
+      "zh": "民主党选民反抗建制"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/23/us/politics/democrats-dccc-house.html"
+    },
+    {
+     "item_id": "ba1de4dd33412329",
+     "phrase": {
+      "en": "Trump and Thune clash over bill",
+      "zh": "特朗普与图恩就法案冲突"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/23/us/politics/trump-thune-senate-election-bill.html"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Trump clashes with Senate, Democrats defy establishment, and press freedom is tested.",
+    "zh": "特朗普与参议院冲突，民主党挑战建制派，新闻自由受考验。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "US politics",
+    "zh": "美国政治"
+   },
+   "relates_to": [
+    "t1"
+   ],
+   "why_now": {
+    "en": "Multiple political developments today in the US.",
+    "zh": "今日美国多项政治动态。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "983d68d80176b261",
+     "phrase": {
+      "en": "Thousands flee wildfires in Europe",
+      "zh": "数千人逃离欧洲野火"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/jul/23/people-evacuated-intense-wildfire-saumos-france"
+    },
+    {
+     "item_id": "0f304e8f1c6f8682",
+     "phrase": {
+      "en": "Japan PM claims 3-hour sleep",
+      "zh": "日本首相声称只睡3小时"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/videos/cz05l8ndy0mo?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Extreme heat in southern Europe triggers massive wildfires, forcing thousands to flee.",
+    "zh": "南欧极端高温引发大规模野火，数千人被迫撤离。"
+   },
+   "id": "t6",
+   "keyword": {
+    "en": "wildfires",
+    "zh": "野火"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "Thousands flee wildfires in France and Spain today.",
+    "zh": "今日法国和西班牙数千人逃离野火。"
    }
   }
  ]
