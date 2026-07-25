@@ -1,148 +1,47 @@
 {
  "meta": {
   "count": 4,
-  "generated_at": "2026-07-25T15:17:58Z",
+  "generated_at": "2026-07-25T17:13:05Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "7be54897b61e3414",
+     "item_id": "86197798b4fd9ee7",
      "phrase": {
-      "en": "Minister resigns after protests",
-      "zh": "抗议后部长辞职"
+      "en": "School robot canceled over outrage",
+      "zh": "学校机器人因愤怒被取消"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/25/world/asia/india-education-minister-resigns-cockroach-protests.html"
+     "url": "https://www.nytimes.com/2026/07/25/nyregion/robot-school-new-york-salamanca.html"
     },
     {
-     "item_id": "b72d6dc32b03f2b3",
+     "item_id": "3c8d85d807928ddb",
      "phrase": {
-      "en": "Gen-Z movement challenges Modi",
-      "zh": "Z世代运动挑战莫迪"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/07/25/g-s1-135483/india-cockroach-movement"
-    },
-    {
-     "item_id": "f684710abd9d351d",
-     "phrase": {
-      "en": "Protesters celebrate resignation",
-      "zh": "抗议者庆祝辞职"
+      "en": "Hack done by superhuman-speed AI",
+      "zh": "黑客由超人类速度AI完成"
      },
      "section": "news",
      "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/videos/cly949k3g1do?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "18ce8ba492d51e2e",
-     "phrase": {
-      "en": "Youth movement origins and impact",
-      "zh": "青年运动起源与影响"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c07rgpxe51no?at_medium=RSS&at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/cd9w22n9e4go?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "divergent",
    "gloss": {
-    "en": "India's education minister resigns after a youth-led protest movement, the 'Cockroach Janta Party', over exam paper leaks and other issues.",
-    "zh": "因试卷泄露等问题，印度青年领导的‘蟑螂人民党’抗议运动迫使教育部长辞职。"
+    "en": "Two stories question AI's place in society: a school robot is canceled after backlash, and an AI hack raises alarms about superhuman speed attacks.",
+    "zh": "两个故事质疑AI在社会中的位置：学校机器人因反对被取消，AI黑客攻击以超人类速度引发警报。"
    },
    "id": "t1",
    "keyword": {
-    "en": "student protest India",
-    "zh": "印度学生抗议"
-   },
-   "relates_to": [
-    "t4"
-   ],
-   "why_now": {
-    "en": "You follow AI and data viz: youth movements now use digital tools to organize; this story shows how data-driven protests can topple a minister.",
-    "zh": "你关注AI与数据可视化，青年运动利用数字工具组织，此故事显示数据驱动的抗议如何推翻部长。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "7b77cb7a356ae0c9",
-     "phrase": {
-      "en": "250k flee, firefighters battle",
-      "zh": "25万人逃离，消防员奋战"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/jul/25/wildfires-force-250000-people-to-evacuate-in-france-and-spain"
-    },
-    {
-     "item_id": "15ada6fadb60a1ac",
-     "phrase": {
-      "en": "Fourth firefighter dies",
-      "zh": "第四名消防员殉职"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/jul/25/fourth-firefighter-dies-colorado-wildfire-operation"
-    },
-    {
-     "item_id": "f5f2cea6e2b0894b",
-     "phrase": {
-      "en": "Live updates on evacuations",
-      "zh": "疏散最新消息"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/jul/25/france-spain-wildfires-latest-news-updates-madrid-cap-ferret-bordeaux-gironde"
-    },
-    {
-     "item_id": "5f1e5f5f6ebbe18e",
-     "phrase": {
-      "en": "Smoke chokes skies",
-      "zh": "烟雾遮蔽天空"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/25/world/europe/wildfires-photos-spain-france.html"
-    },
-    {
-     "item_id": "d5db5178e3f5584f",
-     "phrase": {
-      "en": "What to know about blazes",
-      "zh": "火情须知"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/25/world/europe/europe-fires-france-spain-what-to-know.html"
-    },
-    {
-     "item_id": "4481033635adba21",
-     "phrase": {
-      "en": "Cairngorms village evacuated",
-      "zh": "凯恩戈姆村庄撤离"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/jul/25/entire-cairngorms-village-evacuated-as-raging-wildfire-nears"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Massive wildfires in France, Spain, and the UK force over 250,000 people to evacuate, with firefighters dying and smoke reaching Madrid.",
-    "zh": "法国、西班牙和英国爆发大规模野火，迫使超25万人撤离，消防员殉职，烟雾蔓延至马德里。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "wildfires Europe",
-    "zh": "欧洲野火"
+    "en": "AI safety & ethics",
+    "zh": "AI安全与伦理"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow embodied cognition and data viz: these fires are a visceral example of climate extremes; visualize the scale with evacuation maps.",
-    "zh": "你关注具身认知与数据可视化，这些火灾是气候极端的切身例子，可用疏散地图可视化规模。"
+    "en": "You follow AI ethics: today a robot's rejection and a superfast hack both test the limits of trust in autonomous systems.",
+    "zh": "你关注AI伦理，今日机器人被拒和超快黑客攻击考验对自主系统的信任边界。"
    }
   },
   {
@@ -150,28 +49,38 @@
     {
      "item_id": "398de9215121d4cb",
      "phrase": {
-      "en": "Collins holds cash edge",
-      "zh": "柯林斯资金优势"
+      "en": "Collins' cash edge through super PACs",
+      "zh": "柯林斯通过超级PAC的资金优势"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/07/25/us/politics/collins-jackson-maine-senate-fundraising.html"
     },
     {
-     "item_id": "5ec45a03351cef48",
+     "item_id": "7ceac8f35f357871",
      "phrase": {
-      "en": "Jackson, lumberjack progressive",
-      "zh": "杰克逊，伐木工进步派"
+      "en": "Jackson clinches nomination",
+      "zh": "杰克逊赢得提名"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/25/us/politics/troy-jackson-maine-senate-democrats-platner.html"
+    },
+    {
+     "item_id": "32529eb4a7bfd023",
+     "phrase": {
+      "en": "Jackson secures nomination after chaotic race",
+      "zh": "杰克逊在混乱后确保提名"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/jul/25/democrats-troy-jackson-susan-collins-maine"
+     "url": "https://www.theguardian.com/us-news/2026/jul/25/troy-jackson-secures-democratic-nomination-maine-senate-seat"
     },
     {
      "item_id": "2e7fb7e863c1f9bc",
      "phrase": {
-      "en": "Democrats replace candidate",
-      "zh": "民主党更换候选人"
+      "en": "Democrats formally nominate Jackson",
+      "zh": "民主党正式提名杰克逊"
      },
      "section": "news",
      "source": "NPR News",
@@ -180,69 +89,179 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Democrats replace scandal-hit candidate with Troy Jackson, a lumberjack and progressive, to challenge Republican Susan Collins.",
-    "zh": "民主党更换陷入丑闻的候选人，由伐木工兼进步派特洛伊·杰克逊挑战共和党人苏珊·柯林斯。"
+    "en": "After a scandal, Democrats quickly nominate Troy Jackson to challenge Susan Collins, who holds a huge cash lead.",
+    "zh": "丑闻后，民主党紧急提名特洛伊·杰克逊挑战苏珊·柯林斯，后者拥有巨大资金优势。"
    },
-   "id": "t3",
+   "id": "t2",
    "keyword": {
     "en": "Maine Senate race",
     "zh": "缅因州参议员竞选"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow data viz: this race is data-rich; visualize donor cash edge and polling shifts as the campaign reshapes.",
-    "zh": "你关注数据可视化，这场竞选数据丰富；可视化捐赠者现金优势与民意变化。"
+    "en": "You follow political data visualization: this race's dynamics (money vs. nomination) are a rich case for visual storytelling.",
+    "zh": "你关注政治数据可视化，竞选的资金与提名博弈是视觉叙事的丰富案例。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "711bc5b5ffd4049f",
+     "item_id": "e5b90118a68bfad4",
      "phrase": {
-      "en": "Tankers brave Houthi blockade",
-      "zh": "油轮冒险穿越胡塞封锁"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/25/business/energy-environment/houthi-blockade-red-sea-maps.html"
-    },
-    {
-     "item_id": "da937556a9dbb7f4",
-     "phrase": {
-      "en": "Houthis claim missile attack",
-      "zh": "胡塞声称导弹袭击"
+      "en": "250k flee France and Spain",
+      "zh": "25万人逃离法国和西班牙"
      },
      "section": "news",
      "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/cd7le0d53y2o?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "a83e175e5b19af8d",
+     "item_id": "4481033635adba21",
      "phrase": {
-      "en": "Ceasefire collapses",
-      "zh": "停火破裂"
+      "en": "Scotland requests UK military aid",
+      "zh": "苏格兰请求英国军事援助"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/jul/25/entire-cairngorms-village-evacuated-as-raging-wildfire-nears"
+    },
+    {
+     "item_id": "f5f2cea6e2b0894b",
+     "phrase": {
+      "en": "France/Spain race to control blazes",
+      "zh": "法国和西班牙争相控制火势"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/jul/25/france-spain-wildfires-latest-news-updates-madrid-cap-ferret-bordeaux-gironde"
+    },
+    {
+     "item_id": "7b77cb7a356ae0c9",
+     "phrase": {
+      "en": "Wildfires force 250k evacuations",
+      "zh": "野火迫使25万人撤离"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/jul/25/wildfires-force-250000-people-to-evacuate-in-france-and-spain"
+    },
+    {
+     "item_id": "15ada6fadb60a1ac",
+     "phrase": {
+      "en": "Fourth firefighter dies from burns",
+      "zh": "第四名消防员因烧伤死亡"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/jul/25/fourth-firefighter-dies-colorado-wildfire-operation"
+    },
+    {
+     "item_id": "5f1e5f5f6ebbe18e",
+     "phrase": {
+      "en": "Wildfire smoke chokes skies",
+      "zh": "野火烟雾笼罩天空"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/25/us/politics/trump-iran-cease-fire-collapse.html"
+     "url": "https://www.nytimes.com/2026/07/25/world/europe/wildfires-photos-spain-france.html"
+    },
+    {
+     "item_id": "d5db5178e3f5584f",
+     "phrase": {
+      "en": "What to know about wildfires",
+      "zh": "关于野火的须知"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/25/world/europe/europe-fires-france-spain-what-to-know.html"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "The US-Iran ceasefire collapses, Houthis claim attacks on Saudi Arabia, and tankers navigate the Red Sea despite blockade.",
-    "zh": "美伊停火破裂，胡塞武装声称袭击沙特，油轮穿越红海无视封锁。"
+    "en": "Massive wildfires in France, Spain, and Scotland force over 250,000 evacuations, with firefighters dying and international aid called.",
+    "zh": "法国、西班牙和苏格兰大规模野火导致超过25万人撤离，消防员牺牲，国际援助启动。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "European wildfires crisis",
+    "zh": "欧洲野火危机"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-06",
+     "item_id": "15ada6fadb60a1ac",
+     "label": {
+      "en": "Colorado firefighter death",
+      "zh": "科罗拉多消防员死亡"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/jul/25/fourth-firefighter-dies-colorado-wildfire-operation"
+    },
+    {
+     "date": "2026-07-15",
+     "label": {
+      "en": "Cairngorms fire starts",
+      "zh": "凯恩戈姆火灾开始"
+     }
+    },
+    {
+     "date": "2026-07-25",
+     "item_id": "e5b90118a68bfad4",
+     "label": {
+      "en": "250k evacuated from Europe",
+      "zh": "欧洲25万人撤离"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cd7le0d53y2o?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "why_now": {
+    "en": "You follow climate-related data viz: this crisis offers rich real-time data to visualize evacuation, fire spread, and policy response.",
+    "zh": "你关注气候数据可视化，危机提供了丰富的实时数据来可视化撤离、火灾蔓延和政策响应。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "179579bc8933f2c0",
+     "phrase": {
+      "en": "Open-weight AI as Kubernetes moment",
+      "zh": "开放权重AI是Kubernetes时刻"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/"
+    },
+    {
+     "item_id": "3c8d85d807928ddb",
+     "phrase": {
+      "en": "AI hack raises security concerns",
+      "zh": "AI黑客引发安全担忧"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cd9w22n9e4go?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "A Hacker News essay argues open-weight AI is at a 'Kubernetes moment'—widespread adoption before standards, warning not to ruin it.",
+    "zh": "一篇HN文章认为开放权重AI正经历“Kubernetes时刻”——标准前的广泛采用，警告不要搞砸。"
    },
    "id": "t4",
    "keyword": {
-    "en": "Iran conflict",
-    "zh": "伊朗冲突"
+    "en": "open-weight AI regulation",
+    "zh": "开放权重AI监管"
    },
    "relates_to": [
     "t1"
    ],
    "why_now": {
-    "en": "You follow embodied AI and visual rhetoric: this is a geopolitical crisis with real-time data; track ship movements and ceasefire timeline visually.",
-    "zh": "你关注具身AI与视觉修辞，这是一场具有实时数据的地缘政治危机；用视觉追踪船只动向与停火时间线。"
+    "en": "You follow LLM and AI policy: this perspective connects open-weight debates to infrastructure history, directly relevant to your interests.",
+    "zh": "你关注LLM和AI政策，这一视角将开放权重辩论与基础设施历史联系，直接相关。"
    }
   }
  ]
