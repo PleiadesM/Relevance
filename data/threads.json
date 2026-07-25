@@ -1,7 +1,7 @@
 {
  "meta": {
-  "count": 6,
-  "generated_at": "2026-07-25T19:32:37Z",
+  "count": 5,
+  "generated_at": "2026-07-25T21:07:33Z",
   "scope": "public"
  },
  "threads": [
@@ -10,18 +10,28 @@
     {
      "item_id": "d6d56745ed51eb06",
      "phrase": {
-      "en": "Anthropic and OpenAI vs rest",
-      "zh": "Anthropic和OpenAI vs 其他"
+      "en": "Silicon Valley splits over Chinese AI",
+      "zh": "硅谷因中国AI分裂"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/07/25/technology/open-source-silicon-valley-china.html"
     },
     {
+     "item_id": "3c8d85d807928ddb",
+     "phrase": {
+      "en": "OpenAI hack worries about AI risks",
+      "zh": "OpenAI被黑引发AI风险担忧"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cd9w22n9e4go?at_medium=RSS&at_campaign=rss"
+    },
+    {
      "item_id": "179579bc8933f2c0",
      "phrase": {
-      "en": "open-weight AI like Kubernetes boom",
-      "zh": "开源AI像Kubernetes兴起"
+      "en": "open-weight AI as Kubernetes moment",
+      "zh": "开源重量级AI类比Kubernetes时刻"
      },
      "section": "news",
      "source": "Hacker News (AI filter)",
@@ -30,47 +40,47 @@
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Silicon Valley is split on whether to let Chinese open-weight models roam free, while some see this moment as AI's Kubernetes inflection point.",
-    "zh": "硅谷就中国开源模型是否该自由流通产生分歧，一些人认为这是AI的Kubernetes转折点。"
+    "en": "Silicon Valley is split over whether Chinese open-source AI models should be banned.",
+    "zh": "硅谷对是否封禁中国开源AI模型产生分歧。"
    },
    "id": "t1",
    "keyword": {
-    "en": "open-weight AI debate",
-    "zh": "开源AI争议"
+    "en": "AI open-source debate",
+    "zh": "AI开源之争"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow LLM policy: two sources today capture the schism over Chinese AI openness and a parallel industry trend.",
-    "zh": "你关注大模型政策，今天两个来源同时捕捉到对中国AI开放性的分歧及行业趋势。"
+    "en": "You follow LLM and AI policy: today Anthropic and OpenAI clash with the rest over border controls on AI models.",
+    "zh": "你关注LLM与AI政策，今日Anthropic和OpenAI就AI模型跨境限制与业界对立。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "61cec85f7b75d0b0",
-     "phrase": {
-      "en": "conditions set by summer extremes",
-      "zh": "极端夏季创造条件"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/25/world/europe/wildfires-europe-spain-france.html"
-    },
-    {
      "item_id": "5f1e5f5f6ebbe18e",
      "phrase": {
-      "en": "smoke chokes skies",
-      "zh": "烟霾笼罩天空"
+      "en": "wildfire smoke chokes skies",
+      "zh": "野火烟雾遮蔽天空"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/07/25/world/europe/wildfires-photos-spain-france.html"
     },
     {
+     "item_id": "61cec85f7b75d0b0",
+     "phrase": {
+      "en": "conditions created by extremes",
+      "zh": "极端条件引发野火"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/25/world/europe/wildfires-europe-spain-france.html"
+    },
+    {
      "item_id": "e5b90118a68bfad4",
      "phrase": {
-      "en": "250,000 flee",
-      "zh": "25万人撤离"
+      "en": "250k flee wildfires",
+      "zh": "25万人逃离野火"
      },
      "section": "news",
      "source": "BBC World",
@@ -79,18 +89,28 @@
     {
      "item_id": "f5f2cea6e2b0894b",
      "phrase": {
-      "en": "race to control blazes",
-      "zh": "竞相控制火势"
+      "en": "France/Spain race to control",
+      "zh": "法西竞相控制火势"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/world/live/2026/jul/25/france-spain-wildfires-latest-news-updates-madrid-cap-ferret-bordeaux-gironde"
     },
     {
+     "item_id": "4481033635adba21",
+     "phrase": {
+      "en": "Cairngorms wildfire serious",
+      "zh": "凯恩戈姆野火严峻"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/jul/25/entire-cairngorms-village-evacuated-as-raging-wildfire-nears"
+    },
+    {
      "item_id": "7b77cb7a356ae0c9",
      "phrase": {
-      "en": "winds drive towards Bordeaux",
-      "zh": "风吹向波尔多"
+      "en": "250k flee, strong winds",
+      "zh": "强风加剧火势"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -99,79 +119,42 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "More than 250,000 people flee wildfires in France and Spain as summer extremes create fire conditions.",
-    "zh": "法国和西班牙超过25万人因山火撤离，极端夏季创造了火灾条件。"
+    "en": "Thousands flee as wildfires rage across France, Spain, and Scotland, driven by extreme heat.",
+    "zh": "极端高温下法国、西班牙和苏格兰野火肆虐，数千人撤离。"
    },
    "id": "t2",
    "keyword": {
-    "en": "European wildfires",
-    "zh": "欧洲山火"
-   },
-   "relates_to": [
-    "t4"
-   ],
-   "why_now": {
-    "en": "You care about climate events: today massive evacuations and smoke choking skies in Europe are reported across multiple sources.",
-    "zh": "你关注气候事件，今天多个来源报道欧洲大规模疏散和烟霾笼罩。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "398de9215121d4cb",
-     "phrase": {
-      "en": "Collins holds cash edge",
-      "zh": "柯林斯资金占优"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/25/us/politics/collins-jackson-maine-senate-fundraising.html"
-    },
-    {
-     "item_id": "7ceac8f35f357871",
-     "phrase": {
-      "en": "Jackson clinches nomination",
-      "zh": "杰克逊获得提名"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/25/us/politics/troy-jackson-maine-senate-democrats-platner.html"
-    },
-    {
-     "item_id": "32529eb4a7bfd023",
-     "phrase": {
-      "en": "chaotic primary race",
-      "zh": "混乱的初选"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/jul/25/troy-jackson-secures-democratic-nomination-maine-senate-seat"
-    },
-    {
-     "item_id": "2e7fb7e863c1f9bc",
-     "phrase": {
-      "en": "populist message",
-      "zh": "民粹主义信息"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/07/25/nx-s1-5902982/democrats-maine-senate-race"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "After a chaotic shake-up, Troy Jackson is the new Democratic nominee with a cash disadvantage against Republican Susan Collins.",
-    "zh": "经历混乱变动后，特洛伊·杰克逊成为民主党新候选人，资金上落后于共和党人苏珊·柯林斯。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "Maine Senate race",
-    "zh": "缅因州参议员竞选"
+    "en": "wildfire crisis",
+    "zh": "野火危机"
    },
    "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-07-25",
+     "item_id": "e5b90118a68bfad4",
+     "label": {
+      "en": "250k flee wildfires",
+      "zh": "25万人逃离野火"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cd7le0d53y2o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "date": "2026-07-25",
+     "item_id": "5f1e5f5f6ebbe18e",
+     "label": {
+      "en": "Smoke chokes Spain/France",
+      "zh": "烟雾笼罩西法"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/25/world/europe/wildfires-photos-spain-france.html"
+    }
+   ],
    "why_now": {
-    "en": "You follow US politics: today the Maine Senate race sees a new nominee and a huge spending edge for Collins.",
-    "zh": "你关注美国政治，今天缅因州参议员竞选出现新候选人和柯林斯的巨额资金优势。"
+    "en": "You follow climate and data visualization: today's massive evacuations show the scale of the crisis—a prime case for visual storytelling.",
+    "zh": "你关注气候与数据可视化，今日大规模疏散展现危机规模，是视觉叙事的典型素材。"
    }
   },
   {
@@ -179,8 +162,8 @@
     {
      "item_id": "c83a278141bbd855",
      "phrase": {
-      "en": "70 million face excessive heat",
-      "zh": "7000万人面临酷热"
+      "en": "70 million face heat dome",
+      "zh": "7000万人面临热穹顶"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -189,8 +172,8 @@
     {
      "item_id": "aeee64e1160b1371",
      "phrase": {
-      "en": "Egypt also hits 106°F",
-      "zh": "埃及也达106华氏度"
+      "en": "106F in Egypt, staying cool",
+      "zh": "埃及106华氏度，如何纳凉"
      },
      "section": "news",
      "source": "NPR News",
@@ -199,121 +182,110 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "A third heat dome in a month threatens 70 million Americans with temperatures up to 105°F.",
-    "zh": "一个月内第三次热穹顶威胁7000万美国人，气温高达105华氏度。"
+    "en": "A global heatwave hits the US, Europe, and Africa, with record temperatures and health warnings.",
+    "zh": "全球热浪袭击美国、欧洲和非洲，气温破纪录，健康警告频发。"
    },
-   "id": "t4",
+   "id": "t3",
    "keyword": {
-    "en": "US heat wave",
-    "zh": "美国热浪"
+    "en": "heatwave extremes",
+    "zh": "极端热浪"
    },
    "relates_to": [
     "t2"
    ],
    "why_now": {
-    "en": "You track climate extremes: today's report of a scorching US heat wave hitting 70 million people is directly relevant.",
-    "zh": "你追踪气候极端事件，今天报道的炙热热浪波及7000万人直接相关。"
+    "en": "You follow climate and embodied cognition: extreme heat affects human performance and decision-making, a real-world trigger for your interest.",
+    "zh": "你关注气候与具身认知：极端高温影响人类表现与决策，与你关注点现实交汇。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "86197798b4fd9ee7",
+     "item_id": "7ceac8f35f357871",
      "phrase": {
-      "en": "AI robot pulled after outrage",
-      "zh": "AI机器人因争议被撤"
+      "en": "progressive replaces Platner",
+      "zh": "进步派替代普拉特纳"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/25/nyregion/robot-school-new-york-salamanca.html"
+     "url": "https://www.nytimes.com/2026/07/25/us/politics/troy-jackson-maine-senate-democrats-platner.html"
     },
     {
-     "item_id": "91cd808c3605dde0",
+     "item_id": "398de9215121d4cb",
      "phrase": {
-      "en": "AI for dementia social connection",
-      "zh": "AI用于痴呆症社交联系"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.19007v1"
-    },
-    {
-     "item_id": "9165cdbc5004b2a9",
-     "phrase": {
-      "en": "AR accessibility for Deaf students",
-      "zh": "AR为聋哑学生提供无障碍"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.21289v1"
-    }
-   ],
-   "convergence": "divergent",
-   "gloss": {
-    "en": "A school's AI robot Sally was pulled after outrage, while papers explore AI for dementia care and educational AR for Deaf students.",
-    "zh": "学校AI机器人莎莉因争议被撤，而论文探索AI用于痴呆症护理及聋哑学生的AR教育。"
-   },
-   "id": "t5",
-   "keyword": {
-    "en": "AI in education & ethics",
-    "zh": "AI教育与伦理"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You care about embodied AI and human-computer interaction: today a real-world AI robot rejection and two HCI papers on ethical AI deployment.",
-    "zh": "你关注具身AI和人机交互，今天有真实AI机器人被拒案例和两篇关于伦理AI部署的HCI论文。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "5f1e5f5f6ebbe18e",
-     "phrase": {
-      "en": "smoke forces indoors",
-      "zh": "烟雾迫使室内避难"
+      "en": "Collins huge cash edge",
+      "zh": "科林斯资金优势巨大"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/25/world/europe/wildfires-photos-spain-france.html"
+     "url": "https://www.nytimes.com/2026/07/25/us/politics/collins-jackson-maine-senate-fundraising.html"
     },
     {
-     "item_id": "7b77cb7a356ae0c9",
+     "item_id": "32529eb4a7bfd023",
      "phrase": {
-      "en": "smoke prompts health warnings",
-      "zh": "烟雾引发健康警告"
+      "en": "chaotic primary, nomination",
+      "zh": "混乱初选获提名"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/jul/25/wildfires-force-250000-people-to-evacuate-in-france-and-spain"
-    },
-    {
-     "item_id": "aeee64e1160b1371",
-     "phrase": {
-      "en": "heat and water scarcity",
-      "zh": "高温与缺水"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/07/25/g-s1-135194/summer-heat-egypt-cairo-air-conditioning"
+     "url": "https://www.theguardian.com/us-news/2026/jul/25/troy-jackson-secures-democratic-nomination-maine-senate-seat"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Wildfire smoke from Europe and warnings about health impacts converge with a separate heat wave creating compounding risks.",
-    "zh": "欧洲山火烟雾及健康警告与另一热浪叠加，形成复合风险。"
+    "en": "After a chaotic primary, progressive Troy Jackson faces Susan Collins in a heavily funded race.",
+    "zh": "混乱初选后，进步派特洛伊·杰克逊在资金悬殊的选战中挑战苏珊·科林斯。"
    },
-   "id": "t6",
+   "id": "t4",
    "keyword": {
-    "en": "wildfire smoke & health",
-    "zh": "山火烟雾与健康"
+    "en": "Maine Senate race",
+    "zh": "缅因州参议员选战"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow politics and data visualization: the cash disparity and rapid nomination are a data-rich story.",
+    "zh": "你关注政治与数据可视化：资金差距和快速提名是数据丰富的故事。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "56e5599d94f87162",
+     "phrase": {
+      "en": "IPOs create millionaires, philanthropies want cut",
+      "zh": "IPO催生百万富翁，慈善机构想分杯羹"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/25/business/dealbook/spacex-anthropic-philanthropy.html"
+    },
+    {
+     "item_id": "3c8d85d807928ddb",
+     "phrase": {
+      "en": "OpenAI hack worries",
+      "zh": "OpenAI被黑引发担忧"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cd9w22n9e4go?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Nonprofits eye windfalls as AI startups like Anthropic and OpenAI go public, creating new millionaires.",
+    "zh": "随着Anthropic和OpenAI等AI初创公司上市造就新百万富翁，非营利组织期待慈善红利。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "IPOs and philanthropy",
+    "zh": "IPO与慈善"
    },
    "relates_to": [
-    "t2",
-    "t4"
+    "t1"
    ],
    "why_now": {
-    "en": "You follow data on climate health: today's reports connect smoke, heat, and evacuation data across sources.",
-    "zh": "你关注气候健康数据，今天的报道将烟雾、热浪和疏散数据跨源连接。"
+    "en": "You follow LLM and AI: these IPOs are a milestone for the industry, and the philanthropy angle ties to your interest in AI economics.",
+    "zh": "你关注LLM和AI：这些IPO是行业里程碑，慈善角度契合你对AI经济的兴趣。"
    }
   }
  ]
