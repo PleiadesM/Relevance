@@ -1,164 +1,155 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-07-25T03:34:52Z",
+  "count": 2,
+  "generated_at": "2026-07-25T06:27:49Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "7f855b961853b15d",
+     "item_id": "3c8d85d807928ddb",
      "phrase": {
-      "en": "frames as record blaze",
-      "zh": "记录性大火"
+      "en": "AI hack at superhuman speed",
+      "zh": "AI超速黑客攻击"
      },
      "section": "news",
      "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/czjlenp0xk8o?at_medium=RSS&at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/cd9w22n9e4go?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "a9dca2653fcac13b",
+     "item_id": "ea619a02837e25c3",
      "phrase": {
-      "en": "frames as national emergency",
-      "zh": "国家紧急状态"
+      "en": "cyber capability assessment",
+      "zh": "网络能力评估"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/jul/24/france-evacuation-cap-ferret-peninsula-wildfire"
+     "source": "Hacker News (AI filter)",
+     "url": "https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "Wildfires force 200,000+ evacuations in France and Spain as flames threaten coasts.",
-    "zh": "法国和西班牙野火迫使超过20万人撤离，火焰威胁海岸。"
+    "en": "AI hacks at superhuman speed and assessments of cyber capabilities push nations to rethink safety.",
+    "zh": "AI以超人速度发动攻击，网络能力评估迫使各国重新审视安全。"
    },
    "id": "t1",
    "keyword": {
-    "en": "wildfire emergency",
-    "zh": "野火紧急"
+    "en": "AI security & governance",
+    "zh": "AI安全与治理"
    },
    "relates_to": [],
-   "why_now": {
-    "en": "You follow climate and policy: today's evacuations show real-world impact of extreme weather.",
-    "zh": "你关注气候与政策，今日大规模疏散显示极端天气的现实冲击。"
-   }
-  },
-  {
-   "angles": [
+   "timeline": [
     {
-     "item_id": "2f705f014bab13a9",
-     "phrase": {
-      "en": "frames as retaliation",
-      "zh": "视为报复"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/jul/24/trump-european-union-tariffs"
-    },
-    {
-     "item_id": "32d0d5d1dc6f2b2e",
-     "phrase": {
-      "en": "frames as investigation vow",
-      "zh": "誓言调查"
+     "date": "2026-07-24",
+     "item_id": "3c8d85d807928ddb",
+     "label": {
+      "en": "OpenAI hack reported",
+      "zh": "OpenAI黑客事件"
      },
      "section": "news",
      "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cvgjenp4680o?at_medium=RSS&at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/cd9w22n9e4go?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "date": "2026-07-25",
+     "item_id": "ea619a02837e25c3",
+     "label": {
+      "en": "Kimi K3 assessment",
+      "zh": "Kimi K3评估"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities"
     }
    ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Trump threatens EU tariffs over fines on US tech giants, escalating trade war.",
-    "zh": "特朗普因欧盟对美国科技公司罚款威胁加征关税，贸易战升级。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "Trump tariff tech",
-    "zh": "特朗普科技关税"
-   },
-   "relates_to": [],
    "why_now": {
-    "en": "You follow AI and policy: tech regulation becomes a trade weapon, affecting global AI ecosystem.",
-    "zh": "你关注AI与政策，科技监管成为贸易武器，影响全球AI生态。"
+    "en": "You follow LLM & embodied AI: today an AI hack and a cyber assessment show AI is both weapon and target.",
+    "zh": "你关注LLM与具身AI：今日AI黑客事件和网络评估表明AI既是武器也是目标。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "9583bfb40e3dfffb",
+     "item_id": "da937556a9dbb7f4",
      "phrase": {
-      "en": "allegations detailed",
-      "zh": "指控细节"
+      "en": "tanker disabled in Hormuz",
+      "zh": "霍尔木兹油轮被毁"
      },
      "section": "news",
      "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cqjxddx12qqo?at_medium=RSS&at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "7e06af26e344b5e5",
+     "item_id": "3832b508267d65ea",
      "phrase": {
-      "en": "vote outcome reported",
-      "zh": "投票结果报道"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/07/24/g-s1-135498/icc-court-prosecutor-karim-khan-vote"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "ICC member states vote to remove chief prosecutor over sexual misconduct allegations.",
-    "zh": "国际刑事法院成员国投票免去首席检察官，因性行为不端指控。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "ICC prosecutor removed",
-    "zh": "ICC检察官免职"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow global governance: ICC's leadership crisis affects accountability for war crimes.",
-    "zh": "你关注全球治理，ICC领导危机影响战争罪行问责。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "e9c1b684a6c7f3f4",
-     "phrase": {
-      "en": "order for signs",
-      "zh": "命令加标牌"
+      "en": "Taiwan tests blockade resistance",
+      "zh": "台湾测试封锁抵抗"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/24/arts/design/smithsonian-signs-trump-executive-order.html"
+     "url": "https://www.nytimes.com/2026/07/25/world/asia/taiwan-china-ships-blockade.html"
     },
     {
-     "item_id": "34e221704bf04c2f",
+     "item_id": "79c1917afe23904f",
      "phrase": {
-      "en": "accusation of bias",
-      "zh": "指称偏见"
+      "en": "missile hits drone exhibition",
+      "zh": "导弹击中无人机展"
      },
      "section": "news",
      "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c1w10gwnj74o?at_medium=RSS&at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/cj637zd1k1ko?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "Trump orders warning labels at Smithsonian museum to correct 'inaccurate' history.",
-    "zh": "特朗普下令在史密森尼博物馆加贴警告标签以纠正‘不准确’历史。"
+    "en": "Fresh fighting, blockades, and security threats mark a volatile day across regions.",
+    "zh": "新冲突、封锁和安全威胁使今日多地动荡不安。"
    },
-   "id": "t4",
+   "id": "t2",
    "keyword": {
-    "en": "Smithsonian history warning",
-    "zh": "史密森尼历史警告"
+    "en": "conflicts & security",
+    "zh": "冲突与安全"
    },
    "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-07-25",
+     "item_id": "da937556a9dbb7f4",
+     "label": {
+      "en": "Houthi exchange fire",
+      "zh": "胡塞武装交火"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "date": "2026-07-25",
+     "item_id": "3832b508267d65ea",
+     "label": {
+      "en": "Taiwan siege test",
+      "zh": "台湾封锁演习"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/25/world/asia/taiwan-china-ships-blockade.html"
+    },
+    {
+     "date": "2026-07-25",
+     "item_id": "79c1917afe23904f",
+     "label": {
+      "en": "Russian attack on drone expo",
+      "zh": "俄袭无人机展"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cj637zd1k1ko?at_medium=RSS&at_campaign=rss"
+    }
+   ],
    "why_now": {
-    "en": "You follow visual rhetoric and policy: museum interpretation becomes a political battleground.",
-    "zh": "你关注视觉修辞与政策，博物馆阐释成为政治战场。"
+    "en": "You follow embodied AI & critical viz: geopolitical maps require critical reading of visual rhetoric in news.",
+    "zh": "你关注具身AI与批判可视化：地缘政治地图需要批判性阅读新闻中的视觉修辞。"
    }
   }
  ]
