@@ -1,47 +1,118 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-07-25T17:13:05Z",
+  "count": 6,
+  "generated_at": "2026-07-25T19:32:37Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "86197798b4fd9ee7",
+     "item_id": "d6d56745ed51eb06",
      "phrase": {
-      "en": "School robot canceled over outrage",
-      "zh": "学校机器人因愤怒被取消"
+      "en": "Anthropic and OpenAI vs rest",
+      "zh": "Anthropic和OpenAI vs 其他"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/25/nyregion/robot-school-new-york-salamanca.html"
+     "url": "https://www.nytimes.com/2026/07/25/technology/open-source-silicon-valley-china.html"
     },
     {
-     "item_id": "3c8d85d807928ddb",
+     "item_id": "179579bc8933f2c0",
      "phrase": {
-      "en": "Hack done by superhuman-speed AI",
-      "zh": "黑客由超人类速度AI完成"
+      "en": "open-weight AI like Kubernetes boom",
+      "zh": "开源AI像Kubernetes兴起"
      },
      "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cd9w22n9e4go?at_medium=RSS&at_campaign=rss"
+     "source": "Hacker News (AI filter)",
+     "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/"
     }
    ],
-   "convergence": "divergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "Two stories question AI's place in society: a school robot is canceled after backlash, and an AI hack raises alarms about superhuman speed attacks.",
-    "zh": "两个故事质疑AI在社会中的位置：学校机器人因反对被取消，AI黑客攻击以超人类速度引发警报。"
+    "en": "Silicon Valley is split on whether to let Chinese open-weight models roam free, while some see this moment as AI's Kubernetes inflection point.",
+    "zh": "硅谷就中国开源模型是否该自由流通产生分歧，一些人认为这是AI的Kubernetes转折点。"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI safety & ethics",
-    "zh": "AI安全与伦理"
+    "en": "open-weight AI debate",
+    "zh": "开源AI争议"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow AI ethics: today a robot's rejection and a superfast hack both test the limits of trust in autonomous systems.",
-    "zh": "你关注AI伦理，今日机器人被拒和超快黑客攻击考验对自主系统的信任边界。"
+    "en": "You follow LLM policy: two sources today capture the schism over Chinese AI openness and a parallel industry trend.",
+    "zh": "你关注大模型政策，今天两个来源同时捕捉到对中国AI开放性的分歧及行业趋势。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "61cec85f7b75d0b0",
+     "phrase": {
+      "en": "conditions set by summer extremes",
+      "zh": "极端夏季创造条件"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/25/world/europe/wildfires-europe-spain-france.html"
+    },
+    {
+     "item_id": "5f1e5f5f6ebbe18e",
+     "phrase": {
+      "en": "smoke chokes skies",
+      "zh": "烟霾笼罩天空"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/25/world/europe/wildfires-photos-spain-france.html"
+    },
+    {
+     "item_id": "e5b90118a68bfad4",
+     "phrase": {
+      "en": "250,000 flee",
+      "zh": "25万人撤离"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cd7le0d53y2o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "f5f2cea6e2b0894b",
+     "phrase": {
+      "en": "race to control blazes",
+      "zh": "竞相控制火势"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/jul/25/france-spain-wildfires-latest-news-updates-madrid-cap-ferret-bordeaux-gironde"
+    },
+    {
+     "item_id": "7b77cb7a356ae0c9",
+     "phrase": {
+      "en": "winds drive towards Bordeaux",
+      "zh": "风吹向波尔多"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/jul/25/wildfires-force-250000-people-to-evacuate-in-france-and-spain"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "More than 250,000 people flee wildfires in France and Spain as summer extremes create fire conditions.",
+    "zh": "法国和西班牙超过25万人因山火撤离，极端夏季创造了火灾条件。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "European wildfires",
+    "zh": "欧洲山火"
+   },
+   "relates_to": [
+    "t4"
+   ],
+   "why_now": {
+    "en": "You care about climate events: today massive evacuations and smoke choking skies in Europe are reported across multiple sources.",
+    "zh": "你关注气候事件，今天多个来源报道欧洲大规模疏散和烟霾笼罩。"
    }
   },
   {
@@ -49,8 +120,8 @@
     {
      "item_id": "398de9215121d4cb",
      "phrase": {
-      "en": "Collins' cash edge through super PACs",
-      "zh": "柯林斯通过超级PAC的资金优势"
+      "en": "Collins holds cash edge",
+      "zh": "柯林斯资金占优"
      },
      "section": "news",
      "source": "The New York Times",
@@ -60,7 +131,7 @@
      "item_id": "7ceac8f35f357871",
      "phrase": {
       "en": "Jackson clinches nomination",
-      "zh": "杰克逊赢得提名"
+      "zh": "杰克逊获得提名"
      },
      "section": "news",
      "source": "The New York Times",
@@ -69,8 +140,8 @@
     {
      "item_id": "32529eb4a7bfd023",
      "phrase": {
-      "en": "Jackson secures nomination after chaotic race",
-      "zh": "杰克逊在混乱后确保提名"
+      "en": "chaotic primary race",
+      "zh": "混乱的初选"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -79,8 +150,8 @@
     {
      "item_id": "2e7fb7e863c1f9bc",
      "phrase": {
-      "en": "Democrats formally nominate Jackson",
-      "zh": "民主党正式提名杰克逊"
+      "en": "populist message",
+      "zh": "民粹主义信息"
      },
      "section": "news",
      "source": "NPR News",
@@ -89,179 +160,160 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "After a scandal, Democrats quickly nominate Troy Jackson to challenge Susan Collins, who holds a huge cash lead.",
-    "zh": "丑闻后，民主党紧急提名特洛伊·杰克逊挑战苏珊·柯林斯，后者拥有巨大资金优势。"
+    "en": "After a chaotic shake-up, Troy Jackson is the new Democratic nominee with a cash disadvantage against Republican Susan Collins.",
+    "zh": "经历混乱变动后，特洛伊·杰克逊成为民主党新候选人，资金上落后于共和党人苏珊·柯林斯。"
    },
-   "id": "t2",
+   "id": "t3",
    "keyword": {
     "en": "Maine Senate race",
     "zh": "缅因州参议员竞选"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow political data visualization: this race's dynamics (money vs. nomination) are a rich case for visual storytelling.",
-    "zh": "你关注政治数据可视化，竞选的资金与提名博弈是视觉叙事的丰富案例。"
+    "en": "You follow US politics: today the Maine Senate race sees a new nominee and a huge spending edge for Collins.",
+    "zh": "你关注美国政治，今天缅因州参议员竞选出现新候选人和柯林斯的巨额资金优势。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "e5b90118a68bfad4",
+     "item_id": "c83a278141bbd855",
      "phrase": {
-      "en": "250k flee France and Spain",
-      "zh": "25万人逃离法国和西班牙"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cd7le0d53y2o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "4481033635adba21",
-     "phrase": {
-      "en": "Scotland requests UK military aid",
-      "zh": "苏格兰请求英国军事援助"
+      "en": "70 million face excessive heat",
+      "zh": "7000万人面临酷热"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/jul/25/entire-cairngorms-village-evacuated-as-raging-wildfire-nears"
+     "url": "https://www.theguardian.com/us-news/2026/jul/25/scorching-us-heat-wave"
     },
     {
-     "item_id": "f5f2cea6e2b0894b",
+     "item_id": "aeee64e1160b1371",
      "phrase": {
-      "en": "France/Spain race to control blazes",
-      "zh": "法国和西班牙争相控制火势"
+      "en": "Egypt also hits 106°F",
+      "zh": "埃及也达106华氏度"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/jul/25/france-spain-wildfires-latest-news-updates-madrid-cap-ferret-bordeaux-gironde"
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/07/25/g-s1-135194/summer-heat-egypt-cairo-air-conditioning"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "A third heat dome in a month threatens 70 million Americans with temperatures up to 105°F.",
+    "zh": "一个月内第三次热穹顶威胁7000万美国人，气温高达105华氏度。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "US heat wave",
+    "zh": "美国热浪"
+   },
+   "relates_to": [
+    "t2"
+   ],
+   "why_now": {
+    "en": "You track climate extremes: today's report of a scorching US heat wave hitting 70 million people is directly relevant.",
+    "zh": "你追踪气候极端事件，今天报道的炙热热浪波及7000万人直接相关。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "86197798b4fd9ee7",
+     "phrase": {
+      "en": "AI robot pulled after outrage",
+      "zh": "AI机器人因争议被撤"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/25/nyregion/robot-school-new-york-salamanca.html"
     },
     {
-     "item_id": "7b77cb7a356ae0c9",
+     "item_id": "91cd808c3605dde0",
      "phrase": {
-      "en": "Wildfires force 250k evacuations",
-      "zh": "野火迫使25万人撤离"
+      "en": "AI for dementia social connection",
+      "zh": "AI用于痴呆症社交联系"
      },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/jul/25/wildfires-force-250000-people-to-evacuate-in-france-and-spain"
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.19007v1"
     },
     {
-     "item_id": "15ada6fadb60a1ac",
+     "item_id": "9165cdbc5004b2a9",
      "phrase": {
-      "en": "Fourth firefighter dies from burns",
-      "zh": "第四名消防员因烧伤死亡"
+      "en": "AR accessibility for Deaf students",
+      "zh": "AR为聋哑学生提供无障碍"
      },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/jul/25/fourth-firefighter-dies-colorado-wildfire-operation"
-    },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.21289v1"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "A school's AI robot Sally was pulled after outrage, while papers explore AI for dementia care and educational AR for Deaf students.",
+    "zh": "学校AI机器人莎莉因争议被撤，而论文探索AI用于痴呆症护理及聋哑学生的AR教育。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "AI in education & ethics",
+    "zh": "AI教育与伦理"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about embodied AI and human-computer interaction: today a real-world AI robot rejection and two HCI papers on ethical AI deployment.",
+    "zh": "你关注具身AI和人机交互，今天有真实AI机器人被拒案例和两篇关于伦理AI部署的HCI论文。"
+   }
+  },
+  {
+   "angles": [
     {
      "item_id": "5f1e5f5f6ebbe18e",
      "phrase": {
-      "en": "Wildfire smoke chokes skies",
-      "zh": "野火烟雾笼罩天空"
+      "en": "smoke forces indoors",
+      "zh": "烟雾迫使室内避难"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/07/25/world/europe/wildfires-photos-spain-france.html"
     },
     {
-     "item_id": "d5db5178e3f5584f",
+     "item_id": "7b77cb7a356ae0c9",
      "phrase": {
-      "en": "What to know about wildfires",
-      "zh": "关于野火的须知"
+      "en": "smoke prompts health warnings",
+      "zh": "烟雾引发健康警告"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/25/world/europe/europe-fires-france-spain-what-to-know.html"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/jul/25/wildfires-force-250000-people-to-evacuate-in-france-and-spain"
+    },
+    {
+     "item_id": "aeee64e1160b1371",
+     "phrase": {
+      "en": "heat and water scarcity",
+      "zh": "高温与缺水"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/07/25/g-s1-135194/summer-heat-egypt-cairo-air-conditioning"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Massive wildfires in France, Spain, and Scotland force over 250,000 evacuations, with firefighters dying and international aid called.",
-    "zh": "法国、西班牙和苏格兰大规模野火导致超过25万人撤离，消防员牺牲，国际援助启动。"
+    "en": "Wildfire smoke from Europe and warnings about health impacts converge with a separate heat wave creating compounding risks.",
+    "zh": "欧洲山火烟雾及健康警告与另一热浪叠加，形成复合风险。"
    },
-   "id": "t3",
+   "id": "t6",
    "keyword": {
-    "en": "European wildfires crisis",
-    "zh": "欧洲野火危机"
-   },
-   "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-06",
-     "item_id": "15ada6fadb60a1ac",
-     "label": {
-      "en": "Colorado firefighter death",
-      "zh": "科罗拉多消防员死亡"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/jul/25/fourth-firefighter-dies-colorado-wildfire-operation"
-    },
-    {
-     "date": "2026-07-15",
-     "label": {
-      "en": "Cairngorms fire starts",
-      "zh": "凯恩戈姆火灾开始"
-     }
-    },
-    {
-     "date": "2026-07-25",
-     "item_id": "e5b90118a68bfad4",
-     "label": {
-      "en": "250k evacuated from Europe",
-      "zh": "欧洲25万人撤离"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cd7le0d53y2o?at_medium=RSS&at_campaign=rss"
-    }
-   ],
-   "why_now": {
-    "en": "You follow climate-related data viz: this crisis offers rich real-time data to visualize evacuation, fire spread, and policy response.",
-    "zh": "你关注气候数据可视化，危机提供了丰富的实时数据来可视化撤离、火灾蔓延和政策响应。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "179579bc8933f2c0",
-     "phrase": {
-      "en": "Open-weight AI as Kubernetes moment",
-      "zh": "开放权重AI是Kubernetes时刻"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/"
-    },
-    {
-     "item_id": "3c8d85d807928ddb",
-     "phrase": {
-      "en": "AI hack raises security concerns",
-      "zh": "AI黑客引发安全担忧"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cd9w22n9e4go?at_medium=RSS&at_campaign=rss"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "A Hacker News essay argues open-weight AI is at a 'Kubernetes moment'—widespread adoption before standards, warning not to ruin it.",
-    "zh": "一篇HN文章认为开放权重AI正经历“Kubernetes时刻”——标准前的广泛采用，警告不要搞砸。"
-   },
-   "id": "t4",
-   "keyword": {
-    "en": "open-weight AI regulation",
-    "zh": "开放权重AI监管"
+    "en": "wildfire smoke & health",
+    "zh": "山火烟雾与健康"
    },
    "relates_to": [
-    "t1"
+    "t2",
+    "t4"
    ],
    "why_now": {
-    "en": "You follow LLM and AI policy: this perspective connects open-weight debates to infrastructure history, directly relevant to your interests.",
-    "zh": "你关注LLM和AI政策，这一视角将开放权重辩论与基础设施历史联系，直接相关。"
+    "en": "You follow data on climate health: today's reports connect smoke, heat, and evacuation data across sources.",
+    "zh": "你关注气候健康数据，今天的报道将烟雾、热浪和疏散数据跨源连接。"
    }
   }
  ]
