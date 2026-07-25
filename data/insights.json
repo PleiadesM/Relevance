@@ -9,40 +9,40 @@
   },
   "summaries": {
    "en": {
-    "summary": "A giant pumpkin weighing 404.8 jin (about 202 kg) was successfully cultivated in Suqian, China.",
-    "why_irrelevant": "Completely unrelated to typical personal feed content and highly niche."
+    "summary": "A pumpkin weighing 404.8 jin was grown in Suqian, China, with its maternal vine reaching 801 jin.",
+    "why_irrelevant": "It is a niche agricultural feat far removed from typical user interests."
    },
    "zh": {
-    "summary": "江苏宿迁试种出重达404.8斤的巨型南瓜。",
-    "why_irrelevant": "与用户常规信息流完全无关，极为冷门。"
+    "summary": "江苏宿迁试种出一个重达404.8斤的巨型南瓜，母体重达801斤。",
+    "why_irrelevant": "属于小众农业成就，与用户常规关注领域相去甚远。"
    }
   },
   "topic": "competitive pumpkin growing"
  },
- "brief": "President Trump's rambling White House Correspondents' Dinner speech dominated US news, while Gaza swimming classes resume after three years of war and wildfires force mass evacuations in France and Spain. In tech, UK AI safety institute assesses Kimi K3's cyber capabilities, and a new study explores transparent design for conversational product advisors.",
+ "brief": "Trump's rambling correspondents' dinner speech and new tariffs draw headlines, as Europe battles wildfires, India's education minister resigns, and Taiwan prepares for a potential blockade.",
  "meta": {
-  "generated_at": "2026-07-25T06:27:49Z"
+  "generated_at": "2026-07-25T09:58:53Z"
  },
- "news_summary": "President Trump returned to the White House Correspondents' Association dinner, delivering a rambling, hour-long speech that included insults and quips about a third term. Meanwhile, Gaza sees swimming classes resume after three years of war, and over 220,000 people are evacuated due to wildfires in France and Spain.",
- "papers_summary": "A formative usability study highlights the need for transparent design in conversational product advisors, while another paper reimagines AR accessibility for deaf students in experiential learning. Additionally, a new benchmarking study evaluates multimodal LLMs for multi-view interface construction.",
+ "news_summary": "Trump heckles media at a rescheduled dinner; France, Spain, and the UK fight wildfires; India's education minister steps down after protests; Taiwan tests resistance to a Chinese siege.",
+ "papers_summary": "Papers explore usability of conversational AI advisors, wearable AI for writing, augmented reality for deaf students, and ethical concerns in AI for dementia care.",
  "summaries": {
   "en": {
-   "brief": "President Trump's rambling White House Correspondents' Dinner speech dominated US news, while Gaza swimming classes resume after three years of war and wildfires force mass evacuations in France and Spain. In tech, UK AI safety institute assesses Kimi K3's cyber capabilities, and a new study explores transparent design for conversational product advisors.",
-   "news_summary": "President Trump returned to the White House Correspondents' Association dinner, delivering a rambling, hour-long speech that included insults and quips about a third term. Meanwhile, Gaza sees swimming classes resume after three years of war, and over 220,000 people are evacuated due to wildfires in France and Spain.",
-   "papers_summary": "A formative usability study highlights the need for transparent design in conversational product advisors, while another paper reimagines AR accessibility for deaf students in experiential learning. Additionally, a new benchmarking study evaluates multimodal LLMs for multi-view interface construction."
+   "brief": "Trump's rambling correspondents' dinner speech and new tariffs draw headlines, as Europe battles wildfires, India's education minister resigns, and Taiwan prepares for a potential blockade.",
+   "news_summary": "Trump heckles media at a rescheduled dinner; France, Spain, and the UK fight wildfires; India's education minister steps down after protests; Taiwan tests resistance to a Chinese siege.",
+   "papers_summary": "Papers explore usability of conversational AI advisors, wearable AI for writing, augmented reality for deaf students, and ethical concerns in AI for dementia care."
   },
   "zh": {
-   "brief": "中国学者王虹获得菲尔兹奖，成为首位获此殊榮的中国公民，也是第三位女性得主。香港出版环境持续收紧，步入“禁书时代”。国际方面，特朗普在新闻晚宴上发表长篇讲话，同时美国与伊朗紧张加剧，油轮冲突再起。",
-   "news_summary": "中国学者王虹获菲尔兹奖，香港出版环境变化引关注。特朗普在白宫记者晚宴上讲话，中东局势因油轮冲突升温。",
-   "papers_summary": "AI相关研究聚焦于用户体验与可视化，如会话产品顾问的可用性、AR无障碍设计等。"
+   "brief": "今天，中国学者王虹成为首位获得菲尔兹奖的中国公民，也是第三位获此殊荣的女性。同时，香港出版环境持续收紧，步入所谓“禁书时代”。",
+   "news_summary": "中国学者王虹因破解百年难题，成为首位获得数学最高荣誉菲尔兹奖的中国公民。香港出版环境近期变化显著，BBC中文回顾了相关事件。",
+   "papers_summary": "今日未涉及中文论文内容。"
   }
  },
  "todays_image": {
-  "caption": "The aster's star-shaped flowers mirror the press's focal role, yet Trump's swipes sought to wilt their spotlight.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3d1b2a964-ed98-4ee0-8f71-927381c84000",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c/90",
-  "title": "Chaetopappa asteroides (Nutt.) DC."
+  "caption": "Like the 'HIBERNIA' fire engine plate, Trump's swipe at LeBron James was an oddly misplaced artifact from a different time.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q00827",
+  "source_name": "National Museum of American History",
+  "source_url": null,
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q00827&max=150",
+  "title": "Fire Engine Plate, \"HIBERNIA\""
  }
 }

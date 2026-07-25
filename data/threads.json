@@ -1,100 +1,125 @@
 {
  "meta": {
-  "count": 2,
-  "generated_at": "2026-07-25T06:27:49Z",
+  "count": 4,
+  "generated_at": "2026-07-25T09:58:53Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "3c8d85d807928ddb",
-     "phrase": {
-      "en": "AI hack at superhuman speed",
-      "zh": "AI超速黑客攻击"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cd9w22n9e4go?at_medium=RSS&at_campaign=rss"
-    },
-    {
      "item_id": "ea619a02837e25c3",
      "phrase": {
-      "en": "cyber capability assessment",
-      "zh": "网络能力评估"
+      "en": "LLM cyber capabilities assessed",
+      "zh": "评估大模型网络能力"
      },
      "section": "news",
      "source": "Hacker News (AI filter)",
      "url": "https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities"
+    },
+    {
+     "item_id": "3c8d85d807928ddb",
+     "phrase": {
+      "en": "AI hacked at superhuman speed",
+      "zh": "AI遭超人类速度黑客攻击"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cd9w22n9e4go?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "divergent",
    "gloss": {
-    "en": "AI hacks at superhuman speed and assessments of cyber capabilities push nations to rethink safety.",
-    "zh": "AI以超人速度发动攻击，网络能力评估迫使各国重新审视安全。"
+    "en": "Two smart-machines stories today: one tests LLMs as hackers, another shows an AI itself hacked at superhuman speed.",
+    "zh": "今日两则智能机器故事：一则测试大模型能否当黑客，另一则显示AI本身被以超人类速度攻击。"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI security & governance",
-    "zh": "AI安全与治理"
+    "en": "AI safety & security",
+    "zh": "人工智能安全"
    },
    "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-07-24",
-     "item_id": "3c8d85d807928ddb",
-     "label": {
-      "en": "OpenAI hack reported",
-      "zh": "OpenAI黑客事件"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cd9w22n9e4go?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "date": "2026-07-25",
-     "item_id": "ea619a02837e25c3",
-     "label": {
-      "en": "Kimi K3 assessment",
-      "zh": "Kimi K3评估"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities"
-    }
-   ],
    "why_now": {
-    "en": "You follow LLM & embodied AI: today an AI hack and a cyber assessment show AI is both weapon and target.",
-    "zh": "你关注LLM与具身AI：今日AI黑客事件和网络评估表明AI既是武器也是目标。"
+    "en": "You track LLM and AI trends; today a benchmark and a real exploit together frame the dual edge of AI capability.",
+    "zh": "你追踪大模型与AI趋势；今日一个基准测试和一个真实攻击共同勾勒AI能力的双刃剑。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "da937556a9dbb7f4",
+     "item_id": "f5f2cea6e2b0894b",
      "phrase": {
-      "en": "tanker disabled in Hormuz",
-      "zh": "霍尔木兹油轮被毁"
+      "en": "France, Spain, UK fires live",
+      "zh": "法、西、英山火直播"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/jul/25/france-spain-wildfires-latest-news-updates-madrid-cap-ferret-bordeaux-gironde"
+    },
+    {
+     "item_id": "4481033635adba21",
+     "phrase": {
+      "en": "Cairngorms village evacuated",
+      "zh": "凯恩戈姆村疏散"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/jul/25/entire-cairngorms-village-evacuated-as-raging-wildfire-nears"
+    },
+    {
+     "item_id": "7f855b961853b15d",
+     "phrase": {
+      "en": "220k evacuated in Europe",
+      "zh": "欧洲22万人疏散"
      },
      "section": "news",
      "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&at_campaign=rss"
-    },
+     "url": "https://www.bbc.co.uk/news/articles/czjlenp0xk8o?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Blazes across France, Spain, and Scotland force mass evacuations and test emergency response.",
+    "zh": "法国、西班牙与苏格兰大火肆虐，大规模疏散考验应急响应。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "wildfire crisis",
+    "zh": "野火危机"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about embodied AI and HCI; disaster response is a real-world arena for embodied agents and data visualization.",
+    "zh": "你关注具身AI与人机交互；灾难响应是具身智能体与数据可视化的实际战场。"
+   }
+  },
+  {
+   "angles": [
     {
      "item_id": "3832b508267d65ea",
      "phrase": {
-      "en": "Taiwan tests blockade resistance",
-      "zh": "台湾测试封锁抵抗"
+      "en": "Taiwan sea siege drills",
+      "zh": "台湾海上围堵演习"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/07/25/world/asia/taiwan-china-ships-blockade.html"
     },
     {
+     "item_id": "da937556a9dbb7f4",
+     "phrase": {
+      "en": "Houthi missile attack claim",
+      "zh": "胡塞宣称导弹攻击"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&at_campaign=rss"
+    },
+    {
      "item_id": "79c1917afe23904f",
      "phrase": {
-      "en": "missile hits drone exhibition",
-      "zh": "导弹击中无人机展"
+      "en": "Russian strike on Kyiv drone show",
+      "zh": "俄袭击基辅无人机展"
      },
      "section": "news",
      "source": "BBC World",
@@ -103,53 +128,67 @@
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Fresh fighting, blockades, and security threats mark a volatile day across regions.",
-    "zh": "新冲突、封锁和安全威胁使今日多地动荡不安。"
+    "en": "Houthi missile claim on Saudi, Taiwan blockade drills, and Russian strike on Ukraine drone show—three flashpoints today.",
+    "zh": "胡塞导弹威胁沙特、台湾封锁演习、俄罗斯袭击乌克兰无人机展——今日三个热点。"
    },
-   "id": "t2",
+   "id": "t3",
    "keyword": {
-    "en": "conflicts & security",
-    "zh": "冲突与安全"
+    "en": "geopolitical tensions",
+    "zh": "地缘政治紧张"
    },
    "relates_to": [],
-   "timeline": [
+   "why_now": {
+    "en": "You track global conflict patterns; three separate theaters converge today, each with potential tech/security angles.",
+    "zh": "你关注全球冲突模式；今日三个不同战区同时显现，每个都蕴含技术/安全角度。"
+   }
+  },
+  {
+   "angles": [
     {
-     "date": "2026-07-25",
-     "item_id": "da937556a9dbb7f4",
-     "label": {
-      "en": "Houthi exchange fire",
-      "zh": "胡塞武装交火"
+     "item_id": "05dae798eb462d6a",
+     "phrase": {
+      "en": "Trump mocks opponents, press",
+      "zh": "特朗普嘲笑对手与媒体"
      },
      "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&at_campaign=rss"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/jul/24/white-house-correspondents-dinner-trump-washington"
     },
     {
-     "date": "2026-07-25",
-     "item_id": "3832b508267d65ea",
-     "label": {
-      "en": "Taiwan siege test",
-      "zh": "台湾封锁演习"
+     "item_id": "44410c96081cd5ac",
+     "phrase": {
+      "en": "DOJ reversed leak subpoenas",
+      "zh": "司法部反转泄密传票"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/25/world/asia/taiwan-china-ships-blockade.html"
+     "url": "https://www.nytimes.com/2026/07/24/us/politics/doj-new-york-times-subpoenas-leaks.html"
     },
     {
-     "date": "2026-07-25",
-     "item_id": "79c1917afe23904f",
-     "label": {
-      "en": "Russian attack on drone expo",
-      "zh": "俄袭无人机展"
+     "item_id": "13f1509fb04da06d",
+     "phrase": {
+      "en": "rambling insults at dinner",
+      "zh": "晚宴上漫骂侮辱"
      },
      "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cj637zd1k1ko?at_medium=RSS&at_campaign=rss"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/25/us/politics/is-this-supposed-to-be-fun-trump-hurls-insults-at-correspondents-dinner.html"
     }
    ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "At the correspondents' dinner, Trump hurls insults; DOJ reverses process on leaks—a day of tension between the White House and the press.",
+    "zh": "在记者晚宴上，特朗普出言侮辱；司法部就泄密反转程序——白宫与媒体紧张一日。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "Trump & media showdown",
+    "zh": "特朗普与媒体对峙"
+   },
+   "relates_to": [],
    "why_now": {
-    "en": "You follow embodied AI & critical viz: geopolitical maps require critical reading of visual rhetoric in news.",
-    "zh": "你关注具身AI与批判可视化：地缘政治地图需要批判性阅读新闻中的视觉修辞。"
+    "en": "You study visual rhetoric and technical communication; this is a live case of how political speech and institutional messaging collide.",
+    "zh": "你研究视觉修辞与技术传播；这是政治言论与机构信息如何冲突的活案例。"
    }
   }
  ]
