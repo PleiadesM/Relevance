@@ -1,131 +1,17 @@
 {
  "meta": {
-  "count": 6,
-  "generated_at": "2026-07-24T23:14:52Z",
+  "count": 4,
+  "generated_at": "2026-07-25T03:34:52Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "87e200c35ff60736",
-     "phrase": {
-      "en": "Trump switched planes over threat",
-      "zh": "因威胁换飞机"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/24/us/politics/trump-plane-iran-threat.html"
-    },
-    {
-     "item_id": "8b61d4c958aa9559",
-     "phrase": {
-      "en": "Trump downplays Iran war effect on midterms",
-      "zh": "淡化对中期选举影响"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/live/2026/jul/24/donald-trump-tariffs-white-house-correspondents-dinner-latest-news-updates"
-    },
-    {
-     "item_id": "12ab90e682fe0e48",
-     "phrase": {
-      "en": "US expands Iran attacks",
-      "zh": "美扩大对伊打击"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/jul/24/us-expands-iran-attacks-as-trump-warns-tehran-and-houthis-over-red-sea-strikes"
-    },
-    {
-     "item_id": "394529f59dccd5f8",
-     "phrase": {
-      "en": "Iran targets US bases in region",
-      "zh": "伊朗袭击美基地"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/jul/24/us-iran-donald-trump-iraq-bahrain-kuwait-jordan-latest-news-updates"
-    },
-    {
-     "item_id": "4997ee7ff0b1d873",
-     "phrase": {
-      "en": "China tech, Russia tactics aid Iran",
-      "zh": "中俄技术战术助伊朗"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/jul/24/irans-much-improved-missile-systems-pose-a-real-threat-to-the-us"
-    },
-    {
-     "item_id": "dcc3101d41217a28",
-     "phrase": {
-      "en": "Trump switched planes in Turkey",
-      "zh": "土耳其换飞机"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/jul/24/trump-air-force-one-iran-threat"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "US strikes deep into Iran while Tehran hits back, and Trump switches planes over credible threats, making the conflict more real each day.",
-    "zh": "美国深入打击伊朗，德黑兰回击，特朗普因可靠威胁更换飞机，冲突日益真切。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "Iran war escalation",
-    "zh": "伊朗战争升级"
-   },
-   "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-07-24",
-     "item_id": "12ab90e682fe0e48",
-     "label": {
-      "en": "US strikes across Iran",
-      "zh": "美全面打击伊朗"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/jul/24/us-expands-iran-attacks-as-trump-warns-tehran-and-houthis-over-red-sea-strikes"
-    },
-    {
-     "date": "2026-07-24",
-     "item_id": "394529f59dccd5f8",
-     "label": {
-      "en": "Iran targets US bases",
-      "zh": "伊朗攻击美基地"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/jul/24/us-iran-donald-trump-iraq-bahrain-kuwait-jordan-latest-news-updates"
-    },
-    {
-     "date": "2026-07-24",
-     "item_id": "12ab90e682fe0e48",
-     "label": {
-      "en": "Trump warned Tehran",
-      "zh": "特朗普警告德黑兰"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/jul/24/us-expands-iran-attacks-as-trump-warns-tehran-and-houthis-over-red-sea-strikes"
-    }
-   ],
-   "why_now": {
-    "en": "You follow geopolitics; today's US strikes across Iran and retaliatory drone attacks mark a new phase of direct confrontation, not proxy war.",
-    "zh": "你关注地缘政治，今日美国全面打击伊朗及报复性无人机袭击标志着直接对抗的新阶段。"
-   }
-  },
-  {
-   "angles": [
-    {
      "item_id": "7f855b961853b15d",
      "phrase": {
-      "en": "worst fire in Madrid history",
-      "zh": "马德里史上最严重火灾"
+      "en": "frames as record blaze",
+      "zh": "记录性大火"
      },
      "section": "news",
      "source": "BBC World",
@@ -134,77 +20,28 @@
     {
      "item_id": "a9dca2653fcac13b",
      "phrase": {
-      "en": "200k flee or lockdown",
-      "zh": "20万人撤离或封锁"
+      "en": "frames as national emergency",
+      "zh": "国家紧急状态"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/world/2026/jul/24/france-evacuation-cap-ferret-peninsula-wildfire"
-    },
-    {
-     "item_id": "e32db4bc6a085575",
-     "phrase": {
-      "en": "fires drive tens of thousands from homes",
-      "zh": "火灾迫使数万人离家"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/24/world/europe/france-spain-wildfires.html"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Massive wildfires engulf Spain and France, forcing over 200,000 to flee as firefighters battle the worst blazes on record.",
-    "zh": "西班牙和法国大面积野火迫使超20万人撤离，消防员奋战史上最严重火灾。"
+    "en": "Wildfires force 200,000+ evacuations in France and Spain as flames threaten coasts.",
+    "zh": "法国和西班牙野火迫使超过20万人撤离，火焰威胁海岸。"
    },
-   "id": "t2",
+   "id": "t1",
    "keyword": {
-    "en": "wildfire crisis Europe",
-    "zh": "欧洲野火危机"
+    "en": "wildfire emergency",
+    "zh": "野火紧急"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about climate impacts; today's record evacuations in France and Spain show wildfires are no longer seasonal—they are a present emergency.",
-    "zh": "你关心气候影响，今日法国和西班牙创纪录的疏散表明野火不再是季节性的——它们已是当下的紧急状况。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "9583bfb40e3dfffb",
-     "phrase": {
-      "en": "ICC top prosecutor removed over misconduct",
-      "zh": "因不当行为被免"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cqjxddx12qqo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "7e06af26e344b5e5",
-     "phrase": {
-      "en": "member states vote to remove chief prosecutor",
-      "zh": "成员国投票免去首席检察官"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/07/24/g-s1-135498/icc-court-prosecutor-karim-khan-vote"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "The International Criminal Court removes its chief prosecutor Karim Khan over sexual misconduct allegations, a rare institutional upheaval.",
-    "zh": "国际刑事法院因性行为不端指控免去首席检察官卡里姆·汗的职务，这是一次罕见的机构动荡。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "ICC top prosecutor removed",
-    "zh": "国际刑事法院首席检察官被免"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow international law; today's vote removes a top prosecutor, reshaping accountability at the ICC.",
-    "zh": "你关注国际法，今日投票免去一位首席检察官，重塑国际刑事法院的问责机制。"
+    "en": "You follow climate and policy: today's evacuations show real-world impact of extreme weather.",
+    "zh": "你关注气候与政策，今日大规模疏散显示极端天气的现实冲击。"
    }
   },
   {
@@ -212,8 +49,8 @@
     {
      "item_id": "2f705f014bab13a9",
      "phrase": {
-      "en": "threatens substantial tariffs over fines",
-      "zh": "因罚款威胁加征关税"
+      "en": "frames as retaliation",
+      "zh": "视为报复"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -222,8 +59,8 @@
     {
      "item_id": "32d0d5d1dc6f2b2e",
      "phrase": {
-      "en": "vows to investigate EU over fines",
-      "zh": "誓言调查欧盟的罚款"
+      "en": "frames as investigation vow",
+      "zh": "誓言调查"
      },
      "section": "news",
      "source": "BBC World",
@@ -232,97 +69,96 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Trump threatens 'substantial' tariffs on the EU over fines on US tech giants, escalating trade war rhetoric.",
-    "zh": "特朗普威胁因欧盟对美国科技巨头罚款而加征‘实质性’关税，升级贸易战言论。"
+    "en": "Trump threatens EU tariffs over fines on US tech giants, escalating trade war.",
+    "zh": "特朗普因欧盟对美国科技公司罚款威胁加征关税，贸易战升级。"
    },
-   "id": "t4",
+   "id": "t2",
    "keyword": {
-    "en": "Trump tariffs EU tech",
-    "zh": "特朗普加征欧盟科技关税"
+    "en": "Trump tariff tech",
+    "zh": "特朗普科技关税"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow tech policy and trade; today's threat directly ties EU regulation of Google et al. to potential tariffs, affecting your field.",
-    "zh": "你关注科技政策和贸易，今日的威胁将欧盟对谷歌等的监管直接与潜在关税挂钩，影响你的领域。"
+    "en": "You follow AI and policy: tech regulation becomes a trade weapon, affecting global AI ecosystem.",
+    "zh": "你关注AI与政策，科技监管成为贸易武器，影响全球AI生态。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "5ebc50b5003e1150",
+     "item_id": "9583bfb40e3dfffb",
      "phrase": {
-      "en": "admits canceling grants to non-voting states",
-      "zh": "承认取消对非支持州拨款"
+      "en": "allegations detailed",
+      "zh": "指控细节"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/24/business/trump-state-grants-canceled.html"
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cqjxddx12qqo?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "3b7c3aa9d6b5d952",
+     "item_id": "7e06af26e344b5e5",
      "phrase": {
-      "en": "admits canceling clean energy grants to Dem states",
-      "zh": "承认取消对民主党州清洁能源拨款"
+      "en": "vote outcome reported",
+      "zh": "投票结果报道"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/jul/24/trump-administration-cancel-clean-energy-grants-democrat-states"
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/07/24/g-s1-135498/icc-court-prosecutor-karim-khan-vote"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Trump administration admits halting clean energy grants to states that did not vote for him, politicizing federal funds.",
-    "zh": "特朗普政府承认停止向未投票给他的州发放清洁能源拨款，将联邦资金政治化。"
+    "en": "ICC member states vote to remove chief prosecutor over sexual misconduct allegations.",
+    "zh": "国际刑事法院成员国投票免去首席检察官，因性行为不端指控。"
    },
-   "id": "t5",
+   "id": "t3",
    "keyword": {
-    "en": "clean energy grant retaliation",
-    "zh": "清洁能源拨款报复"
+    "en": "ICC prosecutor removed",
+    "zh": "ICC检察官免职"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about political accountability; today's court admission reveals a clear policy of partisan retaliation, relevant to your interest in government…",
-    "zh": "你关心政治问责，今日的法庭承认揭示了明确的党派报复政策，与你对政府透明度的兴趣相关。"
+    "en": "You follow global governance: ICC's leadership crisis affects accountability for war crimes.",
+    "zh": "你关注全球治理，ICC领导危机影响战争罪行问责。"
    }
   },
   {
    "angles": [
     {
-     "full_text_file": "articles/news/e70b89e250e2ddf8.json",
-     "item_id": "e70b89e250e2ddf8",
+     "item_id": "e9c1b684a6c7f3f4",
      "phrase": {
-      "en": "legislator reads LLM response in floor speech",
-      "zh": "立法者朗读LLM回复"
+      "en": "order for signs",
+      "zh": "命令加标牌"
      },
      "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/ai/2026/07/canadian-legislator-reads-out-apparent-llm-response-in-floor-speech/"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/24/arts/design/smithsonian-signs-trump-executive-order.html"
     },
     {
-     "item_id": "df7012401e39111f",
+     "item_id": "34e221704bf04c2f",
      "phrase": {
-      "en": "MLLMs benchmark for multi-view interface construction",
-      "zh": "多模态LLM基准测试"
+      "en": "accusation of bias",
+      "zh": "指称偏见"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.19910v1"
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c1w10gwnj74o?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "A Canadian legislator reads an apparent LLM-generated response during a floor speech, raising questions about AI in governance.",
-    "zh": "加拿大一名立法者在议会演讲中朗读了明显由LLM生成的回应，引发对AI在治理中使用的质疑。"
+    "en": "Trump orders warning labels at Smithsonian museum to correct 'inaccurate' history.",
+    "zh": "特朗普下令在史密森尼博物馆加贴警告标签以纠正‘不准确’历史。"
    },
-   "id": "t6",
+   "id": "t4",
    "keyword": {
-    "en": "LLM in political speech",
-    "zh": "LLM在政治演讲中"
+    "en": "Smithsonian history warning",
+    "zh": "史密森尼历史警告"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow LLM applications and technical communication; this real-world incident shows LLMs entering political discourse, a novel area for your interest in…",
-    "zh": "你关注LLM应用和技术传播，这一现实事件显示LLM进入政治话语，是你们对人机交互兴趣的新领域。"
+    "en": "You follow visual rhetoric and policy: museum interpretation becomes a political battleground.",
+    "zh": "你关注视觉修辞与政策，博物馆阐释成为政治战场。"
    }
   }
  ]
