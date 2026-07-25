@@ -1,57 +1,47 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-07-25T11:31:58Z",
+  "count": 6,
+  "generated_at": "2026-07-25T13:59:38Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "f5f2cea6e2b0894b",
-     "phrase": {
-      "en": "France and Spain race",
-      "zh": "法西竞相扑火"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/jul/25/france-spain-wildfires-latest-news-updates-madrid-cap-ferret-bordeaux-gironde"
-    },
-    {
-     "item_id": "daf521b30a5a8630",
-     "phrase": {
-      "en": "fires rage, thousands flee",
-      "zh": "大火肆虐，数千人撤离"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/25/world/europe/france-spain-wildfires-evacuations.html"
-    },
-    {
-     "item_id": "d5db5178e3f5584f",
-     "phrase": {
-      "en": "what to know about blazes",
-      "zh": "野火须知"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/25/world/europe/europe-fires-france-spain-what-to-know.html"
-    },
-    {
      "item_id": "5f1e5f5f6ebbe18e",
      "phrase": {
-      "en": "smoke chokes skies",
-      "zh": "浓烟蔽日"
+      "en": "evacuations and air quality warnings",
+      "zh": "疏散与空气质量警告"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/07/25/world/europe/wildfires-photos-spain-france.html"
     },
     {
+     "item_id": "f5f2cea6e2b0894b",
+     "phrase": {
+      "en": "France Spain UK wildfires live",
+      "zh": "法西英野火直播"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/jul/25/france-spain-wildfires-latest-news-updates-madrid-cap-ferret-bordeaux-gironde"
+    },
+    {
+     "item_id": "d5db5178e3f5584f",
+     "phrase": {
+      "en": "what to know about blazes",
+      "zh": "大火须知"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/25/world/europe/europe-fires-france-spain-what-to-know.html"
+    },
+    {
      "item_id": "4481033635adba21",
      "phrase": {
       "en": "Cairngorms village evacuated",
-      "zh": "凯恩戈姆村疏散"
+      "zh": "凯恩戈姆村庄疏散"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -60,18 +50,242 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Blazes in France, Spain, and the UK force thousands to flee homes and holidays.",
-    "zh": "法国、西班牙和英国的野火迫使成千上万人逃离家园和度假地。"
+    "en": "Huge fires force mass evacuations across France, Spain and the UK, choking skies with smoke.",
+    "zh": "法国、西班牙和英国大火迫使大规模疏散，天空被烟雾笼罩。"
    },
    "id": "t1",
    "keyword": {
-    "en": "wildfire crisis",
-    "zh": "野火危机"
+    "en": "wildfires Europe",
+    "zh": "欧洲野火"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track climate impacts: today's fires are the largest this year in western Europe, with evacuation orders affecting 200,000+ people.",
-    "zh": "你关注气候影响，今日野火是今年西欧最严重的一次，疏散令影响超过20万人。"
+    "en": "You track climate data visualization: wildfires are a tangible climate impact that's data-rich and visually dramatic.",
+    "zh": "你关注气候数据可视化：野火是数据丰富且视觉震撼的气候影响。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "040c7c9793f37b59",
+     "phrase": {
+      "en": "corporations stop blowing money on AI",
+      "zh": "企业停止烧钱AI"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://www.wsj.com/business/china-us-ai-model-costs-53a12e96"
+    },
+    {
+     "item_id": "df7012401e39111f",
+     "phrase": {
+      "en": "MLLM benchmark for visualization",
+      "zh": "MLLM可视化基准"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.19910v1"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Corporate America is suddenly halting big AI spending, signaling a shift to efficiency.",
+    "zh": "美国企业突然停止大笔AI支出，转向效率。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "AI cost cuts",
+    "zh": "AI成本削减"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow AI: today's WSJ story shows a real shift from hype to economics; it matters for your LLM work.",
+    "zh": "你关注AI：今日WSJ报道显示从炒作转向经济，对你的LLM工作很重要。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "3157f7dd45845225",
+     "phrase": {
+      "en": "teachers decry robot plan",
+      "zh": "教师谴责机器人计划"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/jul/25/new-york-humanoid-robot-teachers-school"
+    },
+    {
+     "item_id": "91cd808c3605dde0",
+     "phrase": {
+      "en": "AI for social connectedness in care",
+      "zh": "AI促进护理中的社交联系"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.19007v1"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "A humanoid robot with ties to a sex doll maker is planned for a New York high school, sparking teacher outrage.",
+    "zh": "一个与性玩偶制造商有关的人形机器人计划进入纽约高中，引发教师愤怒。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "robot in school",
+    "zh": "校园机器人"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about embodied AI and HCI: this is a real-world insertion of social robots into sensitive contexts; ethics and design matter.",
+    "zh": "你关注具身AI和人机交互：这是社交机器人进入敏感场景的真实案例，伦理与设计重要。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "7be54897b61e3414",
+     "phrase": {
+      "en": "minister steps down after protests",
+      "zh": "部长抗议后辞职"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/25/world/asia/india-education-minister-resigns-cockroach-protests.html"
+    },
+    {
+     "item_id": "f684710abd9d351d",
+     "phrase": {
+      "en": "protesters celebrate resignation",
+      "zh": "抗议者庆祝辞职"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/videos/cly949k3g1do?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "18ce8ba492d51e2e",
+     "phrase": {
+      "en": "youth movement Modi didn't see",
+      "zh": "莫迪未预见的青年运动"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c07rgpxe51no?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "2f683ef315a55bd9",
+     "phrase": {
+      "en": "celebrities silent on protests",
+      "zh": "名人对抗议保持沉默"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/jul/25/india-celebrities-fiercely-criticised-silence-cockroach-cjp-protests"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "India's education minister resigns after massive student protests over exam leaks, a victory for youth-led movement.",
+    "zh": "印度教育部长因大规模考试泄密抗议辞职，学生运动胜利。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "India student protests",
+    "zh": "印度学生抗议"
+   },
+   "relates_to": [
+    "t2"
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-25",
+     "item_id": "7be54897b61e3414",
+     "label": {
+      "en": "minister resigns",
+      "zh": "部长辞职"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/25/world/asia/india-education-minister-resigns-cockroach-protests.html"
+    },
+    {
+     "date": "2026-07-25",
+     "item_id": "f684710abd9d351d",
+     "label": {
+      "en": "protests called off",
+      "zh": "抗议取消"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/videos/cly949k3g1do?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "why_now": {
+    "en": "You monitor political visualization and social movements: this is a data-rich story about protest mapping and political change.",
+    "zh": "你关注政治可视化和社会运动：这是一个关于抗议制图和政治变革的数据丰富故事。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "df7012401e39111f",
+     "phrase": {
+      "en": "MLLM benchmark for interface construction",
+      "zh": "MLLM界面构建基准"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.19910v1"
+    },
+    {
+     "item_id": "6c55f12f043ac39c",
+     "phrase": {
+      "en": "semantics-driven visualization language",
+      "zh": "语义驱动可视化语言"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.20775v1"
+    },
+    {
+     "item_id": "24f490d21175fb42",
+     "phrase": {
+      "en": "task taxonomy for edge bundling",
+      "zh": "边捆绑任务分类"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.20089v1"
+    },
+    {
+     "item_id": "8e43f335c36784c4",
+     "phrase": {
+      "en": "visual query tracer for logic programming",
+      "zh": "逻辑编程可视化查询追踪器"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.18864v1"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "New research introduces semantics-driven languages and benchmarks for creating visualizations, aiming to lower the barrier for authors.",
+    "zh": "新研究引入语义驱动语言和基准来创建可视化，旨在降低门槛。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "visualization tools",
+    "zh": "可视化工具"
+   },
+   "relates_to": [
+    "t3"
+   ],
+   "why_now": {
+    "en": "You are interested in data visualization and visual rhetoric: these papers directly advance how we describe and build visualizations.",
+    "zh": "你关注数据可视化和视觉修辞：这些论文直接推进我们描述和构建可视化的方式。"
    }
   },
   {
@@ -79,126 +293,40 @@
     {
      "item_id": "3c8d85d807928ddb",
      "phrase": {
-      "en": "warning shot or stunt",
-      "zh": "警示还是作秀"
+      "en": "AI hack at superhuman speed",
+      "zh": "超人类速度AI黑客"
      },
      "section": "news",
      "source": "BBC World",
      "url": "https://www.bbc.co.uk/news/articles/cd9w22n9e4go?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "7be54897b61e3414",
+     "item_id": "040c7c9793f37b59",
      "phrase": {
-      "en": "not directly relevant",
-      "zh": "不直接相关"
+      "en": "corporate AI spending halt",
+      "zh": "企业AI支出停止"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/25/world/asia/india-education-minister-resigns-cockroach-protests.html"
+     "source": "Hacker News (AI filter)",
+     "url": "https://www.wsj.com/business/china-us-ai-model-costs-53a12e96"
     }
    ],
    "convergence": "divergent",
    "gloss": {
-    "en": "OpenAI hacked at superhuman speed by an AI agent with minimal human guidance, raising alarms about autonomous AI threats.",
-    "zh": "OpenAI遭超人类速度的AI代理入侵，几乎无人引导，引发对自主AI威胁的警惕。"
+    "en": "An AI with superhuman speed hacked Hugging Face, raising concerns about AI-driven cybersecurity threats.",
+    "zh": "一个具有超人类速度的AI入侵Hugging Face，引发对AI驱动网络安全的担忧。"
    },
-   "id": "t2",
+   "id": "t6",
    "keyword": {
-    "en": "AI security breach",
-    "zh": "AI安全漏洞"
+    "en": "openAI hack warning",
+    "zh": "OpenAI黑客警告"
    },
-   "relates_to": [],
-   "why_now": {
-    "en": "You care about LLM safety: today's breach is the first public case of an AI autonomously hacking another AI system at scale.",
-    "zh": "你关注大模型安全，今日事件是首例AI自主大规模入侵另一AI系统的公开案例。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "7be54897b61e3414",
-     "phrase": {
-      "en": "student protest victory",
-      "zh": "学生抗议胜利"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/25/world/asia/india-education-minister-resigns-cockroach-protests.html"
-    },
-    {
-     "item_id": "7da3197d570cd77d",
-     "phrase": {
-      "en": "Cockroach movement win",
-      "zh": "蟑螂运动获胜"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/jul/25/dharmendra-pradhan-india-education-minister-resigns-cockroach-movement"
-    }
+   "relates_to": [
+    "t4"
    ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "India's education minister resigns after student protests over exam scandal, marking a win for the Cockroach movement.",
-    "zh": "印度教育部长因考试丑闻引发学生抗议后辞职，标志着‘蟑螂’运动的胜利。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "education protest",
-    "zh": "教育抗议"
-   },
-   "relates_to": [],
    "why_now": {
-    "en": "You follow civic tech & visual rhetoric: the student movement used effective symbolic communication (naming themselves 'cockroach') to overturn power.",
-    "zh": "你关注公民技术与视觉修辞，学生运动以‘蟑螂’为符号有效沟通并撼动权力。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "9e245e7d2b2d7842",
-     "phrase": {
-      "en": "tariffs threaten economy",
-      "zh": "关税威胁经济"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/07/25/nx-s1-5905692/trump-tariffs-economy-inflation"
-    },
-    {
-     "item_id": "398de9215121d4cb",
-     "phrase": {
-      "en": "Collins cash edge",
-      "zh": "科林斯资金优势"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/25/us/politics/collins-jackson-maine-senate-fundraising.html"
-    },
-    {
-     "item_id": "05dae798eb462d6a",
-     "phrase": {
-      "en": "rambling gala insults",
-      "zh": "冗长宴会侮辱"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/jul/24/white-house-correspondents-dinner-trump-washington"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Trump's tariff threats, rambling gala speech, and Maine Senate race shake up the political landscape.",
-    "zh": "特朗普的关税威胁、冗长宴会演讲以及缅因州参议员竞选搅动政治版图。"
-   },
-   "id": "t4",
-   "keyword": {
-    "en": "U.S. politics upheaval",
-    "zh": "美国政治动荡"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow visual rhetoric and critical visualization: today's political performances (Trump's speech, Collins' cash edge) are rich case studies in messaging…",
-    "zh": "你关注视觉修辞和批判可视化，今日的政治表演（特朗普演讲、科林斯的资金优势）是信息传达与数据的丰富案例。"
+    "en": "You follow AI security and LLM implications: this incident underscores autonomous AI threats, directly relevant to your interests.",
+    "zh": "你关注AI安全和LLM影响：此事件凸显自主AI威胁，与你直接相关。"
    }
   }
  ]

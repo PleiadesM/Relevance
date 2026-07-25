@@ -1,48 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
-  "source": {
-   "name": "TVGuide.co.uk",
-   "published_at": "2026-07-21T10:37:51Z",
-   "title": "Fireman Sam on Cartoonito HD: full details and when it's on",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQWxZSVBudURoX3VJRXU1V2c2VHo5VjNMN0pHam1nSHhDUkEwcVJ4WUFOQlhjQmIyRzF0U3RGVzZJMXcwZm9qVmowN3E3NV9qMWhtd3FFa2JkTEtFcGJJOE9seDFhOTdadzQybXlWNUlnVDBhN1RCb3VvYUZIMmhsbDN4a2NLWkJYWnNB?oc=5"
-  },
-  "summaries": {
-   "en": {
-    "summary": "Fireman Sam airs on Cartoonito HD.",
-    "why_irrelevant": "It is a children's TV schedule, far from pumpkin growing."
-   },
-   "zh": {
-    "summary": "消防员山姆将在Cartoonito高清频道播出。",
-    "why_irrelevant": "这是一条儿童电视节目信息，与南瓜种植无关。"
-   }
-  },
-  "topic": "competitive pumpkin growing"
- },
- "brief": "Wildfires rage across France, Spain, and Scotland, forcing mass evacuations and choking skies; India's education minister resigns after student protests.",
+ "brief": "Trump attacks press at correspondents' dinner, wildfires rage in Europe, and India's education minister resigns after student protests. In research, studies explore usable AI, visual analytics, and accessibility tools.",
  "meta": {
-  "generated_at": "2026-07-25T11:31:58Z"
+  "generated_at": "2026-07-25T13:59:38Z"
  },
- "news_summary": "Massive wildfires in France, Spain, and the UK's Cairngorms force tens of thousands to flee or shelter, with smoke choking skies. India's education minister steps down following Cockroach youth movement protests over exam leaks. New York mayor cuts red tape for small businesses, while Zendaya's ancient jewellery sparks debate on artefact ownership.",
- "papers_summary": "Research explores usability challenges of AI conversational agents and creative writing tools, with new frameworks for data visualization and accessibility for deaf students in AR environments.",
+ "news_summary": "Trump took swipes at the press during the White House Correspondents' Dinner, while wildfires in France, Spain, and the UK forced mass evacuations. India's education minister resigned following the Cockroach Janta Party protests.",
+ "papers_summary": "Research highlights include a usability study of conversational product advisors, a visual query tracer for logic programming, and a needs assessment for legislative mapping in the U.S. House of Representatives.",
  "summaries": {
   "en": {
-   "brief": "Wildfires rage across France, Spain, and Scotland, forcing mass evacuations and choking skies; India's education minister resigns after student protests.",
-   "news_summary": "Massive wildfires in France, Spain, and the UK's Cairngorms force tens of thousands to flee or shelter, with smoke choking skies. India's education minister steps down following Cockroach youth movement protests over exam leaks. New York mayor cuts red tape for small businesses, while Zendaya's ancient jewellery sparks debate on artefact ownership.",
-   "papers_summary": "Research explores usability challenges of AI conversational agents and creative writing tools, with new frameworks for data visualization and accessibility for deaf students in AR environments."
+   "brief": "Trump attacks press at correspondents' dinner, wildfires rage in Europe, and India's education minister resigns after student protests. In research, studies explore usable AI, visual analytics, and accessibility tools.",
+   "news_summary": "Trump took swipes at the press during the White House Correspondents' Dinner, while wildfires in France, Spain, and the UK forced mass evacuations. India's education minister resigned following the Cockroach Janta Party protests.",
+   "papers_summary": "Research highlights include a usability study of conversational product advisors, a visual query tracer for logic programming, and a needs assessment for legislative mapping in the U.S. House of Representatives."
   },
   "zh": {
-   "brief": "中国学者王虹首获菲尔兹奖，成为历史上第三位女性得主。欧美山火持续肆虐，西班牙和法国数万人撤离。英国Cairngorms国家公园山火严重，整个村庄被疏散。",
-   "news_summary": "中国数学家王虹荣获菲尔兹奖，这是中国公民首次获得该奖项。同时，法国和西班牙的山火迫使数万人撤离；英国苏格兰凯恩戈姆斯国家公园的山火被描述为“非常严重”，整个村庄被疏散。",
-   "papers_summary": "今日无优先中文论文，英文论文主要关注人机交互与可视化技术，例如AI辅助写作、增强现实无障碍设计等。"
+   "brief": "中国学者王虹和同事攻克百年难题，成为首次获得菲尔兹奖的中国公民，也是历史上第三位获此殊荣的女性。国际方面，法国和西班牙野火肆虐致数十万人撤离，印度抗议学生迫使教育部长辞职。",
+   "news_summary": "中国学者首获菲尔兹奖，王虹成为第三位女性得主。法国和西班牙野火导致逾25万人撤离，印度学生抗议成功迫使教育部长下台。",
+   "papers_summary": "暂无中文论文摘要。英文研究关注AI在对话、可穿戴设备及无障碍技术中的应用，以及数据可视化工具和医疗工作流程优化。"
   }
  },
  "todays_image": {
-  "caption": "The word \"race\" connects the racial violence of the Tulsa massacre to the urgent race to contain wildfires threatening communities today.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2019_95_8_001",
-  "source_name": "National Museum of African American History and Culture",
-  "source_url": "https://nmaahc.si.edu/object/nmaahc_2019.95.8",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2019_95_8_001",
-  "title": "<I>LITTLE AFRICA ON FIRE TULSA RACE RIOT JUNE 1ST. 1921.</I>"
+  "caption": "The Fair Mount Company Cape, a garment meant to shield from the elements, mirrors Trump's verbal shield at the Correspondents' Dinner as he swiped at a press he framed as an adversary.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2012q28329",
+  "source_name": "National Museum of American History",
+  "source_url": null,
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2012q28329&max=150",
+  "title": "Fair Mount Company Cape"
  }
 }
