@@ -1,47 +1,92 @@
 {
  "meta": {
-  "count": 3,
-  "generated_at": "2026-07-26T10:11:35Z",
+  "count": 2,
+  "generated_at": "2026-07-26T11:35:47Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "6c55f12f043ac39c",
+     "item_id": "b8e989fb013ca9eb",
      "phrase": {
-      "en": "Semantics-driven visualization language",
-      "zh": "语义驱动的可视化语言"
+      "en": "Evacuation numbers climb",
+      "zh": "疏散人数攀升"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.20775v1"
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/clyj8k4nn5jo?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "5889a9d72598c08c",
+     "item_id": "052d48361a9307eb",
      "phrase": {
-      "en": "Geospatial data visualization gateway",
-      "zh": "地理空间数据可视化门户"
+      "en": "Difficult hours ahead",
+      "zh": "艰难时刻在前"
      },
-     "section": "papers",
-     "source": "Semantic Scholar · data visualization",
-     "url": "https://www.semanticscholar.org/paper/759abf8cab8dea5b0503f40d9c00f5bc3f364de2"
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/jul/26/europe-wildfires-spain-france-bordeaux-madrid-evacuations"
+    },
+    {
+     "item_id": "83d78e16f19afa46",
+     "phrase": {
+      "en": "New heat wave coming",
+      "zh": "新一轮热浪来袭"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/26/weather/europe-heat-what-to-know.html"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "New languages and platforms aim to make data visualization easier, from semantics-driven specs to collaborative web portals.",
-    "zh": "新语言和平台旨在简化数据可视化，从语义驱动的规范到协作门户。"
+    "en": "Heat and fire sweep across Europe, forcing hundreds of thousands from their homes.",
+    "zh": "酷暑与野火席卷欧洲，数十万人被迫撤离家园。"
    },
    "id": "t1",
    "keyword": {
-    "en": "data visualization tools",
-    "zh": "数据可视化工具"
+    "en": "European wildfires",
+    "zh": "欧洲野火"
    },
    "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-07-26",
+     "item_id": "b8e989fb013ca9eb",
+     "label": {
+      "en": "mass evacuations",
+      "zh": "大规模疏散"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/clyj8k4nn5jo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "date": "2026-07-26",
+     "item_id": "052d48361a9307eb",
+     "label": {
+      "en": "Sanchez warns",
+      "zh": "桑切斯警告"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/jul/26/europe-wildfires-spain-france-bordeaux-madrid-evacuations"
+    },
+    {
+     "date": "2026-07-26",
+     "item_id": "83d78e16f19afa46",
+     "label": {
+      "en": "new heat wave",
+      "zh": "新热浪袭来"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/26/weather/europe-heat-what-to-know.html"
+    }
+   ],
    "why_now": {
-    "en": "You care about data visualization: two papers today advance the craft, one with a declarative intermediate language, the other with a geospatial platform.",
-    "zh": "你关注数据可视化：今日两篇论文推进了技术，一个用声明式中间语言，另一个用地理空间平台。"
+    "en": "You follow climate-related disasters: today's evacuations are among the largest peacetime operations in France and Spain.",
+    "zh": "你关注气候灾难，今日的疏散行动是法国和西班牙和平时期最大规模之一。"
    }
   },
   {
@@ -49,8 +94,8 @@
     {
      "item_id": "7ba4bab2e15251bd",
      "phrase": {
-      "en": "Training helps spot AI faces",
-      "zh": "训练有助于识别AI脸"
+      "en": "Training to spot AI",
+      "zh": "训练识别人工智能脸"
      },
      "section": "news",
      "source": "BBC 中文",
@@ -59,112 +104,28 @@
     {
      "item_id": "7e8d4caeb9823e0b",
      "phrase": {
-      "en": "Device security against extraction",
-      "zh": "设备安全防数据提取"
+      "en": "Mobile data security",
+      "zh": "移动数据安全"
      },
      "section": "news",
      "source": "Hacker News (AI filter)",
      "url": "https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices"
     }
    ],
-   "convergence": "divergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "We are bad at spotting AI-generated faces, but short training can improve that—highlighting a new literacy need.",
-    "zh": "人类不擅长识别AI生成的脸，但短时间训练可改善——凸显新的素养需求。"
+    "en": "Humans struggle to spot AI faces, but short training can improve detection.",
+    "zh": "人类难以识别AI生成的脸，但短时训练可提高辨别能力。"
    },
    "id": "t2",
    "keyword": {
-    "en": "AI face detection",
-    "zh": "AI人脸识别"
+    "en": "AI-generated faces",
+    "zh": "AI生成人脸"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow AI and visual rhetoric: this article directly addresses visual literacy in the age of synthetic media.",
-    "zh": "你关注AI和视觉修辞：本文直接回应合成媒体时代的视觉素养。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "83d78e16f19afa46",
-     "phrase": {
-      "en": "New heat wave hits Europe",
-      "zh": "新热浪袭击欧洲"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/26/weather/europe-heat-what-to-know.html"
-    },
-    {
-     "item_id": "052d48361a9307eb",
-     "phrase": {
-      "en": "Massive evacuations in France/Spain",
-      "zh": "法国西班牙大规模疏散"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/jul/26/europe-wildfires-spain-france-bordeaux-madrid-evacuations"
-    },
-    {
-     "item_id": "b8e989fb013ca9eb",
-     "phrase": {
-      "en": "Fire whirlwinds, 340k evacuated",
-      "zh": "火旋风，34万人疏散"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/clyj8k4nn5jo?at_medium=RSS&at_campaign=rss"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "A severe heat wave drives massive evacuations in France and Spain as wildfires rage, with over 300,000 displaced.",
-    "zh": "严重热浪导致法国和西班牙大规模疏散，野火肆虐，超30万人流离失所。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "Europe wildfires crisis",
-    "zh": "欧洲野火危机"
-   },
-   "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-07-26",
-     "item_id": "83d78e16f19afa46",
-     "label": {
-      "en": "Heat wave forecast",
-      "zh": "热浪预报"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/26/weather/europe-heat-what-to-know.html"
-    },
-    {
-     "date": "2026-07-26",
-     "item_id": "052d48361a9307eb",
-     "label": {
-      "en": "Over 300,000 evacuated",
-      "zh": "超30万人疏散"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/jul/26/europe-wildfires-spain-france-bordeaux-madrid-evacuations"
-    },
-    {
-     "date": "2026-07-26",
-     "item_id": "b8e989fb013ca9eb",
-     "label": {
-      "en": "Fire whirlwinds reported",
-      "zh": "火旋风报道"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/clyj8k4nn5jo?at_medium=RSS&at_campaign=rss"
-    }
-   ],
-   "why_now": {
-    "en": "You follow data visualization and critical visualization: the scale and human impact of climate-driven disasters demand visual storytelling that you can…",
-    "zh": "你关注数据可视化和批判可视化：气候灾难的规模和影响需要你分析其中的视觉叙事。"
+    "en": "You follow visual rhetoric and AI: the ability to tell real from fake shapes trust in visual media.",
+    "zh": "你关注视觉修辞和AI，区分真假的能力塑造了视觉媒体的信任度。"
    }
   }
  ]
