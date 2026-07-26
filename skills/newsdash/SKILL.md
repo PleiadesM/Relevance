@@ -43,6 +43,12 @@ in this order (one topic at a time, don't dump a questionnaire):
    craft new sources for other fields: arXiv category queries (`cat:cs.CL`),
    CrossRef ISSN tracking for journals. Add their interest keywords.
 
+**Ordering rule:** the `NEWSDASH_PASSPHRASE` secret must be set *before*
+switching a site to `private` or adding any private source — the build
+refuses to publish plaintext otherwise. If the user wants private mode, get
+the passphrase secret in place first, then apply visibility/source changes
+(this mirrors `docs/SETUP.md` step 4 before step 5).
+
 Then apply it via ONE of:
 
 - **The setup issue** (preferred for beginners): tell them to open

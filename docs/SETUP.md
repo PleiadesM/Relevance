@@ -4,8 +4,8 @@ This is the click-by-click walkthrough. No terminal required for the core path �
 
 **Pick your pace:**
 
-- **Fast lane (10 minutes, zero keys)** → do steps 1–4. You get a live news + papers dashboard with the default packs.
-- **Full setup (add ~10 minutes)** → continue with steps 5–6 for private mode and academic packs.
+- **Fast lane (10 minutes, zero keys)** → do steps 1–3, then 5. Skip step 4. You get a live news + papers dashboard with the default packs.
+- **Full setup (add ~10 minutes)** → add step 4 (passphrase / private mode) and step 6 (academic packs).
 - **Lazy lane** → do steps 1–3, then let AI drive the rest for you ([step 7](#7-let-ai-do-it-for-you)).
 
 ---
@@ -25,7 +25,8 @@ This is the click-by-click walkthrough. No terminal required for the core path �
 3. **Keep it Public.** This matters, so here's why:
    - GitHub Pages hosting is **free only on public repos** — private repos need a paid plan for Pages.
    - Public repos get **unlimited free Actions minutes**; private repos get only 2,000 minutes/month.
-   - Worried about privacy? Your privacy does **not** come from repo visibility — it comes from **encryption** ([step 5](#5-private-mode-and-the-passphrase)). Private sections are always encrypted before they're committed, so a public repo never exposes them.
+   - Also note: **GitHub Pages serves the site publicly even when the repository itself is private** — repo visibility is not a privacy control either way.
+   - Worried about privacy? Your privacy does **not** come from repo visibility — it comes from **encryption** ([step 4](#4-private-mode-and-the-passphrase)). Private sections are always encrypted before they're committed, so a public repo never exposes them.
 4. Click **Create repository**.
 
 ## 2. First build
@@ -37,7 +38,7 @@ This is the click-by-click walkthrough. No terminal required for the core path �
 
 After this, the build re-runs itself automatically every 2 hours — no further clicks needed.
 
-**Want it to run less often?** The cadence is a repo Variable, `NEWSDASH_UPDATE_FREQ`: `2h` (default, ≈ 900 Actions min/month), `3x` a day (≈ 225), or `daily` (≈ 75), at ~2.5 min/run. On a **private** repo (only 2,000 free min/month) pick `3x` or `daily` to stay well under. You can set it right in the setup form ([step 4](#4-personalize-via-the-setup-issue)), or later at Settings → Secrets and variables → Actions → Variables. A manual **Run workflow** always rebuilds regardless.
+**Want it to run less often?** The cadence is a repo Variable, `NEWSDASH_UPDATE_FREQ`: `2h` (default, ≈ 900 Actions min/month), `3x` a day (≈ 225), or `daily` (≈ 75), at ~2.5 min/run. On a **private** repo (only 2,000 free min/month) pick `3x` or `daily` to stay well under. You can set it right in the setup form ([step 5](#5-personalize-via-the-setup-issue)), or later at Settings → Secrets and variables → Actions → Variables. A manual **Run workflow** always rebuilds regardless.
 
 ## 3. Enable Pages
 
@@ -73,36 +74,9 @@ registrar CDN/parking service:
 DNS changes take minutes to hours to propagate; verify with
 `dig +short example.com` (should show the GitHub IPs above).
 
-## 4. Personalize via the setup issue
+## 4. Private mode and the passphrase
 
-You never need to edit JSON by hand. The repo ships an issue form that a bot reads and applies.
-
-1. Go to **Issues → New issue** and pick **"Set up my Relevance · 配置我的及君"**.
-2. Fill in the form:
-
-   | Field | What it changes |
-   |---|---|
-   | **Interface language** | Default UI language, English or Chinese. Readers can still toggle anytime on the page. |
-   | **Site visibility** | **Public** = news/papers readable by anyone, personal sections still encrypted. **Private** = the *entire* site is encrypted and opens with a passphrase gate — requires the `NEWSDASH_PASSPHRASE` secret ([step 5](#5-private-mode-and-the-passphrase)). |
-   | **Theme** | `the-type` (typography-first serif), `papermod` (clean system-sans entry cards, adapts hugo-PaperMod), or `blowfish` (lowkey violet with a blurred sticky nav, adapts Blowfish). All three ship a designed dark variant. The old `nyt`/`bear` keys still work and map to `papermod`/`blowfish`. |
-   | **Site title** | The masthead text (optional). |
-   | **Timezone** | IANA name like `America/Chicago` or `Asia/Shanghai` — used for day boundaries (optional). |
-   | **Open news packs** | Tick **AI news** and/or **General news**. Tick nothing and the bot keeps both defaults. |
-   | **Academic packs** | Tick **Data visualization** and/or **Technical communication** — keyless scholarly feeds ([step 6](#6-academic-packs)). |
-   | **Extra RSS feeds** | One feed URL per line; each becomes a source in your news section. |
-   | **Interest keywords** | Comma-separated; items matching these rank higher in your feed. |
-   | **Acknowledgement** | Required checkbox: secrets never go in the issue. |
-
-3. **Submit.** The bot then:
-   - updates `config/site.json` and `config/sources.json` and commits the change,
-   - triggers a rebuild,
-   - **comments back** with your next steps (your Pages URL, a secrets checklist with deep links, and the AI kickoff prompt),
-   - **closes the issue** when everything applied cleanly.
-4. Made a typo or changed your mind? **Edit the issue body** — the bot re-runs on every edit, even after it's closed.
-
-> ⚠️ **Never paste secrets into the issue** — no passphrase, no tokens. The bot actively scans for credential-looking strings and refuses to apply anything if it finds one. Secrets go in **Settings → Secrets and variables → Actions** (next step). Also note: only issues opened by the **repository owner** are applied — other people's issues on your repo are ignored by design.
-
-## 5. Private mode and the passphrase
+**Skippable.** If you just want a public dashboard, skip straight to [step 5](#5-personalize-via-the-setup-issue) — this step only matters if you want private mode.
 
 One secret turns on encryption for everything personal:
 
@@ -119,9 +93,38 @@ Things to know:
 
 The full crypto design (AES-256-GCM, PBKDF2, envelope format) is documented in [DATA_CONTRACT.md](DATA_CONTRACT.md).
 
+## 5. Personalize via the setup issue
+
+You never need to edit JSON by hand. The repo ships an issue form that a bot reads and applies.
+
+1. Go to **Issues → New issue** and pick **"Set up my Relevance · 配置我的及君"**.
+2. Fill in the form:
+
+   | Field | What it changes |
+   |---|---|
+   | **Interface language** | Default UI language, English or Chinese. Readers can still toggle anytime on the page. |
+   | **Site visibility** | **Public** = news/papers readable by anyone, personal sections still encrypted. **Private** = the *entire* site is encrypted and opens with a passphrase gate — requires the `NEWSDASH_PASSPHRASE` secret to be set first ([step 4](#4-private-mode-and-the-passphrase)). |
+   | **Theme** | `the-type` (typography-first serif), `papermod` (clean system-sans entry cards, adapts hugo-PaperMod), or `blowfish` (lowkey violet with a blurred sticky nav, adapts Blowfish). All three ship a designed dark variant. The old `nyt`/`bear` keys still work and map to `papermod`/`blowfish`. |
+   | **Site title** | The masthead text (optional). |
+   | **Timezone** | IANA name like `America/Chicago` or `Asia/Shanghai` — used for day boundaries (optional). |
+   | **Open news packs** | Tick **AI news** and/or **General news**. Tick nothing and the bot keeps both defaults. |
+   | **Academic packs** | Tick **Data visualization** and/or **Technical communication** — keyless scholarly feeds ([step 6](#6-academic-packs)). |
+   | **Extra RSS feeds** | One feed URL per line; each becomes a source in your news section. |
+   | **Interest keywords** | Comma-separated; items matching these rank higher in your feed. |
+   | **Acknowledgement** | Required checkbox: secrets never go in the issue. |
+
+3. **Submit.** The bot then:
+   - updates `config/site.json` and `config/sources.json` and commits the change,
+   - triggers a rebuild,
+   - **comments back** with your next steps (your Pages URL, a secrets checklist with deep links, and the AI kickoff prompt),
+   - **closes the issue** when everything applied cleanly.
+4. Made a typo or changed your mind? **Edit the issue body** — the bot re-runs on every edit, even after it's closed.
+
+> ⚠️ **Never paste secrets into the issue** — no passphrase, no tokens. The bot actively scans for credential-looking strings and refuses to apply anything if it finds one. Secrets go in **Settings → Secrets and variables → Actions** ([step 4](#4-private-mode-and-the-passphrase)). Also note: the bot applies a form only when the **repository owner is both the issue's author and the person who triggered the run**. Other people's issues on your repo are ignored by design, and so is a collaborator editing *your* setup issue — otherwise anyone with write access could swap in their own answers and have the bot apply them.
+
 ## 6. Academic packs
 
-Tick **Data visualization** and/or **Technical communication** in the setup issue ([step 4](#4-personalize-via-the-setup-issue)) — no code editing needed. These pull from keyless scholarly APIs, with varying reliability:
+Tick **Data visualization** and/or **Technical communication** in the setup issue ([step 5](#5-personalize-via-the-setup-issue)) — no code editing needed. These pull from keyless scholarly APIs, with varying reliability:
 
 | Source | Keyless reliability |
 |---|---|
@@ -182,7 +185,8 @@ What to expect:
 
 | Symptom | Likely cause → fix |
 |---|---|
-| **Build is red** in Actions | Open the failed run's log — the error line tells you which source or secret misbehaved. A `private` site with no `NEWSDASH_PASSPHRASE` refuses to publish by design: add the secret ([step 5](#5-private-mode-and-the-passphrase)) and re-run. |
+| **Build is red** in Actions | Open the failed run's log — the error line tells you which source or secret misbehaved. A `private` site with no `NEWSDASH_PASSPHRASE` refuses to publish by design: add the secret ([step 4](#4-private-mode-and-the-passphrase)) and re-run. |
+| **Setup issue did nothing** — no bot comment, no config change | The run was skipped. The bot matches issues by either the `newsdash-setup`/`newsdash-source` **label** or a `[setup]` / `[source]` **title prefix** — on a fresh fork the labels don't exist yet until the first successful run creates them automatically, so a very first attempt can be dropped silently. Manual one-time bootstrap: `gh label create newsdash-setup --color 0E8A16 --description "Setup form — the bot applies these preferences"` (and the matching `gh label create newsdash-source --color 1D76DB --description "Source form — the bot applies this source change"`). Also remember: a form is applied only when the **repository owner is both its author and the person who triggered the run** — so a collaborator's edit to your setup issue will not re-fire the bot. |
 | **Page looks stale** | The Pages CDN caches ~10 minutes — wait it out, hard-refresh. Still stale? Check [Actions](../../actions) that "Update Relevance" actually ran green recently. |
 | **502 / "trouble connecting"** on a custom domain | Your registrar's CDN/parking (e.g. Namecheap Supersonic CDN) is intercepting the domain and can't reach GitHub as its origin. Fix DNS per [step 3a](#3a-custom-domain-optional): apex `A` records → GitHub's four IPs, `www` `CNAME` → `<username>.github.io` (check for typos), disable the registrar CDN. The site always stays reachable at the raw `https://<username>.github.io/<repo>/` URL meanwhile. |
 | **"Awaiting first build" screen** | The pipeline has never run. Actions tab → Update Relevance → Run workflow ([step 2](#2-first-build)). |

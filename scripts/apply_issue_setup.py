@@ -86,6 +86,41 @@ SECRET_PATTERN = re.compile(
 )
 
 
+class PassphraseRequired(ValueError):
+    """Refuse a private request while the NEWSDASH_PASSPHRASE secret is absent.
+
+    Private visibility / private sources make `scripts/build.py` hard-fail
+    ("refusing to publish plaintext") when the passphrase is missing. Rather
+    than commit that config and hand the owner a red build, the bot refuses up
+    front and leaves config/ untouched. It must NEVER downgrade the request to
+    public: publishing plaintext the owner asked to keep private is the one
+    genuinely dangerous outcome here.
+    """
+
+
+PASSPHRASE_REQUIRED_VISIBILITY = (
+    "You chose **Private** site visibility, but this repository has no "
+    "`NEWSDASH_PASSPHRASE` secret. The passphrase *is* the login, and the build "
+    "refuses to publish a private site as plaintext — so nothing was applied. "
+    "你选择了**私密**站点可见性，但本仓库尚未配置 `NEWSDASH_PASSPHRASE` Secret。"
+    "口令即登录凭据，缺少它时构建会拒绝以明文发布，因此本次未作任何改动。"
+)
+
+PASSPHRASE_REQUIRED_SOURCE = (
+    "This source is marked **private**, but this repository has no "
+    "`NEWSDASH_PASSPHRASE` secret. Private sources cannot be encrypted without "
+    "it and the build refuses to write private data as plaintext — so nothing "
+    "was applied. "
+    "该信源为**私密**，但本仓库尚未配置 `NEWSDASH_PASSPHRASE` Secret。"
+    "缺少口令时私密内容无法加密，构建会拒绝以明文写出，因此本次未作任何改动。"
+)
+
+
+def _passphrase_set_from_flag(raw: str | None) -> bool:
+    """Fail-safe parse of --passphrase-set: only the literal "true" is True."""
+    return (raw or "").strip().lower() == "true"
+
+
 def parse_form(body: str) -> dict[str, str]:
     """Issue-form bodies render as '### Label\\n\\nvalue' blocks."""
     fields: dict[str, str] = {}
@@ -126,8 +161,14 @@ def slug_for_feed(url: str, taken: set[str]) -> str:
     return slug
 
 
-def apply(body: str, repo_root: Path) -> tuple[dict, list[str]]:
-    """Mutate config files from the parsed form; returns (summary, warnings)."""
+def apply(body: str, repo_root: Path, *,
+          passphrase_set: bool = False) -> tuple[dict, list[str]]:
+    """Mutate config files from the parsed form; returns (summary, warnings).
+
+    `passphrase_set` reports whether the NEWSDASH_PASSPHRASE secret exists. It
+    defaults to False on purpose: a caller that forgets to thread it through
+    gets the refusing behaviour, never the unsafe one.
+    """
     fields = parse_form(body)
     warnings: list[str] = []
 
@@ -153,6 +194,16 @@ def apply(body: str, repo_root: Path) -> tuple[dict, list[str]]:
     vis_raw = field(fields, FIELD_VISIBILITY)
     if vis_raw:
         site["visibility"] = "private" if vis_raw.startswith("Private") else "public"
+
+    # Gate on the EFFECTIVE visibility after the form is merged, not merely on
+    # what this submission asked for. A site already configured `private` whose
+    # form leaves the field blank would otherwise slip through, get a success
+    # comment, and have its issue closed — while every build hard-fails at
+    # scripts/build.py. Choosing Public above always clears the gate, so this
+    # can never trap someone who is opting out of private mode.
+    # Refuse before any write; never silently downgrade to public.
+    if not passphrase_set and site.get("visibility") == "private":
+        raise PassphraseRequired(PASSPHRASE_REQUIRED_VISIBILITY)
 
     theme_raw = field(fields, FIELD_THEME)
     if theme_raw:
@@ -332,7 +383,8 @@ SOURCE_VALIDATION_MESSAGE = (
 )
 
 
-def apply_source(fields: dict[str, str], repo_root: Path) -> tuple[dict, list[str]]:
+def apply_source(fields: dict[str, str], repo_root: Path, *,
+                 passphrase_set: bool = False) -> tuple[dict, list[str]]:
     """Add/update/remove one source in config/sources.json from a parsed form.
 
     The whole-body SECRET_PATTERN gate is expected to have run already (see
@@ -343,7 +395,10 @@ def apply_source(fields: dict[str, str], repo_root: Path) -> tuple[dict, list[st
       rejected without echoing the value, and its category can never be flipped
       off "private" via the issue flow;
     - never echoes a rejected URL value, nor raw validation detail (which can
-      embed a submitted value), back in any message or the ::error:: log line.
+      embed a submitted value), back in any message or the ::error:: log line;
+    - refuses to configure a private source when NEWSDASH_PASSPHRASE is absent
+      (`passphrase_set=False`, the fail-safe default), because build.py would
+      then hard-fail rather than write private data as plaintext.
     """
     warnings: list[str] = []
 
@@ -425,6 +480,11 @@ def apply_source(fields: dict[str, str], repo_root: Path) -> tuple[dict, list[st
         if is_private:
             if url_or_query or issn_raw:
                 raise ValueError(LEAK_MESSAGE)  # never echo the value back
+            # Refuse before any write; never downgrade the category instead.
+            # Ordered AFTER the leak guard so a pasted capability URL still
+            # gets the rotate-now message rather than this one.
+            if not passphrase_set:
+                raise PassphraseRequired(PASSPHRASE_REQUIRED_SOURCE)
             if secret_name and not SECRET_NAME_RE.match(secret_name):
                 # the NAME is not a secret; echoing the name is fine
                 raise ValueError(
@@ -505,7 +565,8 @@ def apply_source(fields: dict[str, str], repo_root: Path) -> tuple[dict, list[st
     return summary, warnings
 
 
-def apply_any(body: str, repo_root: Path) -> tuple[dict, list[str]]:
+def apply_any(body: str, repo_root: Path, *,
+              passphrase_set: bool = False) -> tuple[dict, list[str]]:
     """Whole-body secret gate, then dispatch to apply_source or apply()."""
     if SECRET_PATTERN.search(body):
         raise ValueError(
@@ -515,8 +576,8 @@ def apply_any(body: str, repo_root: Path) -> tuple[dict, list[str]]:
         )
     fields = parse_form(body)
     if field(fields, FIELD_ACTION):
-        return apply_source(fields, repo_root)
-    return apply(body, repo_root)
+        return apply_source(fields, repo_root, passphrase_set=passphrase_set)
+    return apply(body, repo_root, passphrase_set=passphrase_set)
 
 
 def success_comment_source(summary: dict, warnings: list[str], repo: str) -> str:
@@ -624,6 +685,35 @@ def success_comment(summary: dict, warnings: list[str], repo: str) -> str:
     return "\n".join(lines) + "\n"
 
 
+def passphrase_required_comment(message: str, repo: str) -> str:
+    """Dedicated comment for PassphraseRequired — the generic error template
+    doesn't tell the owner *how* to fix it, and this failure has exactly one
+    remedy: add the secret, then re-trigger by editing the issue."""
+    secrets_url = f"https://github.com/{repo}/settings/secrets/actions/new"
+    return "\n".join([
+        "## 🔒 Passphrase secret required · 需要先配置口令 Secret", "",
+        message, "",
+        "### How to fix · 如何解决", "",
+        f"1. **Add the `NEWSDASH_PASSPHRASE` secret** — [Settings → Secrets and "
+        f"variables → Actions → New repository secret]({secrets_url}). "
+        "Pick ≥4 random words and keep them somewhere safe: this passphrase is "
+        "also your login to the site, and it cannot be recovered. "
+        "前往 Settings → Secrets and variables → Actions 新建 "
+        "`NEWSDASH_PASSPHRASE`，值请用 ≥4 个随机单词并妥善保存——它同时是你登录站点的口令，"
+        "遗失无法找回。",
+        "2. **Then edit this issue** (any edit re-runs the bot) and your choice "
+        "will be applied. 随后编辑本 Issue，机器人会自动重试并应用你的选择。", "",
+        "Nothing was changed — `config/` is untouched and this issue stays open. "
+        "Your **private** choice was *not* downgraded to public: publishing "
+        "plaintext you asked to keep private would be worse than doing nothing. "
+        "本次未作任何改动，`config/` 保持原样，Issue 仍然开启。"
+        "我们**没有**把你的私密选择降级为公开——那会以明文发布你想保密的内容。", "",
+        "Full walkthrough · 完整教程: "
+        f"[docs/SETUP.md](https://github.com/{repo}/blob/main/docs/SETUP.md) · "
+        f"[中文](https://github.com/{repo}/blob/main/docs/SETUP.zh.md)",
+    ]) + "\n"
+
+
 def error_comment(message: str) -> str:
     return (
         "## ❌ Setup not applied · 配置未应用\n\n"
@@ -639,14 +729,24 @@ def main() -> None:
     ap.add_argument("--comment-out", required=True)
     ap.add_argument("--repo", required=True, help="owner/name")
     ap.add_argument("--repo-root", default=None)
+    # Whether the NEWSDASH_PASSPHRASE secret exists, passed by the workflow as
+    # "true"/"false". Fail-safe: anything but the literal "true" means False.
+    ap.add_argument("--passphrase-set", default="false")
     args = ap.parse_args()
+    passphrase_set = _passphrase_set_from_flag(args.passphrase_set)
 
     repo_root = Path(args.repo_root) if args.repo_root \
         else Path(__file__).resolve().parent.parent
     body = Path(args.body_file).read_text(encoding="utf-8")
 
     try:
-        summary, warnings = apply_any(body, repo_root)
+        summary, warnings = apply_any(body, repo_root,
+                                      passphrase_set=passphrase_set)
+    except PassphraseRequired as exc:
+        Path(args.comment_out).write_text(
+            passphrase_required_comment(str(exc), args.repo), encoding="utf-8")
+        print("::error::setup rejected: the NEWSDASH_PASSPHRASE secret is not set")
+        sys.exit(2)
     except (ValueError, ConfigError, json.JSONDecodeError) as exc:
         Path(args.comment_out).write_text(error_comment(str(exc)), encoding="utf-8")
         print(f"::error::setup rejected: {exc}")

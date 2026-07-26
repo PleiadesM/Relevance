@@ -8,6 +8,40 @@ round of significant changes lands. Format loosely follows
 [Keep a Changelog](https://keepachangelog.com/); versions follow semver
 (minor = feature round, patch = fixes).
 
+## [0.6.1] — 2026-07-26
+
+### Fixed
+- **The setup issue form never triggered the bot.** The forms declare
+  `labels: ["newsdash-setup"]`, but GitHub can only attach a label that
+  already exists as a repository label — it does not create one — so on a
+  freshly created copy the label was silently dropped and the job's `if:`
+  never matched. (The `newsdash-source` label was missing here entirely,
+  so the add-source form had never worked.) The gate now also accepts the
+  templates' pinned `[setup]` / `[source]` title prefixes, which are the
+  only signal that exists before the labels do, and the workflow creates
+  both labels idempotently (and non-fatally) and backfills the triggering
+  issue. `labeled` is added as a manual retrigger path.
+- **The form could commit a config guaranteed to fail every build.**
+  Choosing *Private* wrote `visibility: "private"` without checking that
+  `NEWSDASH_PASSPHRASE` existed, and `scripts/build.py` then hard-fails by
+  design rather than publish private content as plaintext. The workflow now
+  probes the secret — emitting a boolean only, never the value — and the
+  parser refuses before any write, leaving `config/` untouched and the issue
+  open with a bilingual explanation. It never silently downgrades the
+  request to public. The gate keys off the *effective* post-merge
+  visibility, so an already-private site whose form omits the field is
+  caught too. `docs/SETUP.md` steps 4 and 5 were swapped so the passphrase
+  precedes the form, while the zero-keys fast lane stays skippable.
+
+### Security
+- **The setup workflow's owner guard checked the issue author but not the
+  actor.** Since `edited` is a trigger, anyone with triage/write access
+  could edit the owner's setup issue and re-fire the bot with their own
+  body while the author check still passed. It now requires the repository
+  owner to be both the issue's author and the account that fired the event.
+  This matters most on a public template, where the guard is the only thing
+  standing between a drive-by edit and a config rewrite.
+
 ## [0.6.0] — 2026-07-24
 
 ### Added

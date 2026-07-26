@@ -2,7 +2,10 @@ name: Apply setup from issue
 
 on:
   issues:
-    types: [opened, edited]
+    # `labeled` is a recovery path: if an issue slipped through without the
+    # setup label, adding the label by hand re-fires this workflow.
+    # `labeled` 是补救入口：表单漏贴标签时，事后手动加标签即可重新触发。
+    types: [opened, edited, labeled]
 
 permissions:
   contents: write
@@ -13,15 +16,83 @@ jobs:
   apply:
     # Owner guard: only the repository owner's setup issues are applied —
     # drive-by issues on public repos must never rewrite config.
+    #
+    # BOTH identity checks are required, and neither may be dropped:
+    #   * `issue.user.login`   — the issue was *authored* by the owner.
+    #   * `github.event.sender.login` — the owner is also the account that
+    #     *fired this event*. `edited` is a trigger type, so without the sender
+    #     check anyone with triage/write access could edit the owner's setup
+    #     issue, swap in their own body, and have the bot rewrite `config/`
+    #     while the author check still passed. On the public sibling template
+    #     (issues enabled, outside collaborators possible) this guard is the
+    #     only thing standing between a drive-by edit and a config rewrite.
+    # 两个身份判断缺一不可：既要是 owner 提的 issue，也要是 owner 本人触发的事件；
+    # 否则有写权限的协作者只需编辑 owner 的 issue 就能让机器人改写 config/。
+    #
+    # The title-prefix fallback exists because GitHub issue forms cannot attach
+    # a label that does not yet exist in the repo — the label is silently
+    # dropped and the job never runs. Both forms pin their title prefix
+    # (`setup.yml` → "[setup] …", `add-source.yml` → "[source] …"), so the
+    # prefix is a reliable stand-in until "Ensure setup labels exist" below has
+    # bootstrapped the labels. The prefix is NOT a security control — the two
+    # owner checks above are.
+    # 标题前缀兜底：issue 表单无法贴上仓库里尚不存在的标签，标签会被静默丢弃，
+    # 任务因此永远跳过；前缀只是路由用的兜底，鉴权仍然靠上面两个 owner 判断。
     if: >-
+      github.event.issue.user.login == github.repository_owner &&
+      github.event.sender.login == github.repository_owner &&
       (contains(github.event.issue.labels.*.name, 'newsdash-setup') ||
-       contains(github.event.issue.labels.*.name, 'newsdash-source')) &&
-      github.event.issue.user.login == github.repository_owner
+       contains(github.event.issue.labels.*.name, 'newsdash-source') ||
+       startsWith(github.event.issue.title, '[setup]') ||
+       startsWith(github.event.issue.title, '[source]'))
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
       - name: Checkout
         uses: actions/checkout@v5
+
+      # Self-heal the repo's labels. Issue forms can only request labels that
+      # already exist; on a fresh fork they don't, so the label is dropped and
+      # every setup issue silently misses the job. `--force` makes this
+      # idempotent (create, or update colour/description in place).
+      #
+      # Deliberately non-fatal (`|| true`): labels are cosmetic here, never a
+      # security control, and the title-prefix fallback in the owner guard
+      # above already makes them non-essential for triggering. Letting a label
+      # API blip — or a fork whose default workflow permissions are read-only —
+      # abort setup would reintroduce exactly the label-shaped failure this
+      # step exists to eliminate.
+      # 自愈标签：表单只能贴已存在的标签，新 fork 里标签还没建，
+      # 会被静默丢弃；--force 保证可以重复执行。此步骤刻意不阻断流程：
+      # 标签只是装饰、不参与鉴权，触发已由标题前缀兜底，
+      # 不该因为建标签失败就卡住整个配置流程。
+      - name: Ensure setup labels exist
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create newsdash-setup  --color 0E8A16 --force \
+            --description "Setup form — the bot applies these preferences" || true
+          gh label create newsdash-source --color 1D76DB --force \
+            --description "Source form — the bot applies this source change" || true
+
+      # Cosmetic backfill so the triggering issue ends up labelled like every
+      # later one. Purely for looks — it must never fail the job, and it is
+      # never used for authorization (see the owner guard above).
+      # 顺手补标签，纯装饰，绝不能因此让任务失败，也不参与鉴权。
+      - name: Backfill setup label on this issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+        run: |
+          case "$ISSUE_TITLE" in
+            '[source]'*) LABEL="newsdash-source" ;;
+            '[setup]'*)  LABEL="newsdash-setup" ;;
+            *)           LABEL="" ;;
+          esac
+          if [ -n "$LABEL" ]; then
+            gh issue edit "$ISSUE_NUMBER" --add-label "$LABEL" || true
+          fi
 
       - name: Setup Python
         uses: actions/setup-python@v6
@@ -40,6 +111,30 @@ jobs:
           ISSUE_BODY: ${{ github.event.issue.body }}
         run: printf '%s' "$ISSUE_BODY" > "$RUNNER_TEMP/issue-body.md"
 
+      # Emit ONLY a boolean saying whether NEWSDASH_PASSPHRASE exists, so the
+      # parser can refuse to commit `visibility: private` without it (that
+      # combination makes scripts/build.py hard-fail on every later run).
+      # The secret value is read into an env var and tested for emptiness —
+      # it is never echoed, never interpolated into a command line, and never
+      # written to $GITHUB_OUTPUT. Actions logs on public repos are public.
+      # Whitespace is stripped before the test so this agrees exactly with
+      # scripts/build.py's `env.get("NEWSDASH_PASSPHRASE", "").strip() or None`
+      # — an all-whitespace secret counts as ABSENT in both places. Stripping
+      # uses bash parameter expansion, not a subprocess, so the value never
+      # reaches argv or the process table. Do NOT add `set -x` to this step.
+      # 只输出一个布尔值：口令密钥是否存在。绝不打印、绝不写入任何输出。
+      - name: Detect passphrase secret
+        id: pp
+        shell: bash
+        env:
+          PASSPHRASE: ${{ secrets.NEWSDASH_PASSPHRASE }}
+        run: |
+          if [ -n "${PASSPHRASE//[[:space:]]/}" ]; then
+            echo "set=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "set=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Apply preferences
         id: apply
         continue-on-error: true
@@ -47,7 +142,8 @@ jobs:
           python scripts/apply_issue_setup.py \
             --body-file "$RUNNER_TEMP/issue-body.md" \
             --comment-out "$RUNNER_TEMP/comment.md" \
-            --repo "${{ github.repository }}"
+            --repo "${{ github.repository }}" \
+            --passphrase-set "${{ steps.pp.outputs.set }}"
 
       - name: Commit config
         if: steps.apply.outcome == 'success'
@@ -102,12 +198,26 @@ jobs:
             } >> "$RUNNER_TEMP/comment.md"
           fi
 
+      # The parser may crash before it ever writes comment.md. Posting a
+      # missing/empty file makes `gh` fail here and buries the real error, so
+      # fall back to a short pointer at the run log. The fallback carries no
+      # parser output — only the run URL — so nothing sensitive can leak.
+      # 解析脚本可能在写出 comment.md 之前就崩溃；此时退回到一条只含运行日志
+      # 链接的提示，避免掩盖真正的错误，也不泄露任何内容。
       - name: Comment back
         env:
           GH_TOKEN: ${{ github.token }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
-          gh issue comment "${{ github.event.issue.number }}" \
-            --body-file "$RUNNER_TEMP/comment.md"
+          if [ -s "$RUNNER_TEMP/comment.md" ]; then
+            gh issue comment "$ISSUE_NUMBER" \
+              --body-file "$RUNNER_TEMP/comment.md"
+          else
+            gh issue comment "$ISSUE_NUMBER" --body \
+              "⚠️ The setup bot produced no result message — it likely failed before it could report. See the run log: ${RUN_URL}
+          配置机器人没有产出结果信息，可能在生成回复前就失败了，请查看运行日志：${RUN_URL}"
+          fi
 
       - name: Close issue on success
         if: steps.apply.outcome == 'success'

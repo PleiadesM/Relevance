@@ -25,7 +25,7 @@ def read_json(path):
 
 def test_full_form_applies(issue_repo):
     body = (FIX / "setup_full.md").read_text(encoding="utf-8")
-    summary, warnings = ios.apply(body, issue_repo)
+    summary, warnings = ios.apply(body, issue_repo, passphrase_set=True)
 
     site = read_json(issue_repo / "config" / "site.json")
     assert site["default_language"] == "zh"
@@ -53,8 +53,8 @@ def test_full_form_applies(issue_repo):
 
 def test_full_form_is_idempotent(issue_repo):
     body = (FIX / "setup_full.md").read_text(encoding="utf-8")
-    ios.apply(body, issue_repo)
-    ios.apply(body, issue_repo)
+    ios.apply(body, issue_repo, passphrase_set=True)
+    ios.apply(body, issue_repo, passphrase_set=True)
     sources = read_json(issue_repo / "config" / "sources.json")
     customs = [s for s in sources["sources"] if s["id"].startswith("custom_rss_")]
     assert len(customs) == 2  # re-applying replaces, never duplicates
@@ -122,6 +122,119 @@ def test_form_labels_match_template():
         assert f'label: "{label} ·' in template, f"form label drifted: {label}"
 
 
+# --- passphrase precondition gate ------------------------------------------
+#
+# Private visibility / private sources make scripts/build.py hard-fail when
+# NEWSDASH_PASSPHRASE is absent. The bot must refuse up front and leave config
+# untouched — and must NEVER downgrade the request to public.
+
+def test_private_visibility_without_passphrase_refused(issue_repo):
+    site_before = (issue_repo / "config" / "site.json").read_text()
+    sources_before = (issue_repo / "config" / "sources.json").read_text()
+    body = (FIX / "setup_full.md").read_text(encoding="utf-8")
+
+    with pytest.raises(ios.PassphraseRequired) as ei:
+        ios.apply(body, issue_repo)  # fail-safe default: passphrase_set=False
+
+    # byte-identical: not a single field applied, and no silent public downgrade
+    assert (issue_repo / "config" / "site.json").read_text() == site_before
+    assert (issue_repo / "config" / "sources.json").read_text() == sources_before
+    assert "NEWSDASH_PASSPHRASE" in str(ei.value)
+
+
+def test_private_visibility_with_passphrase_applies(issue_repo):
+    """Regression guard: the gate must not block the legitimate private path."""
+    body = (FIX / "setup_full.md").read_text(encoding="utf-8")
+    summary, _ = ios.apply(body, issue_repo, passphrase_set=True)
+    assert summary["visibility"] == "private"
+    site = read_json(issue_repo / "config" / "site.json")
+    assert site["visibility"] == "private"
+
+
+def test_public_visibility_without_passphrase_applies(issue_repo):
+    """The zero-keys fast lane keeps working with no passphrase at all."""
+    body = (FIX / "setup_minimal.md").read_text(encoding="utf-8")
+    summary, _ = ios.apply(body, issue_repo)
+    assert summary["visibility"] == "public"
+    assert read_json(issue_repo / "config" / "site.json")["visibility"] == "public"
+
+
+def test_already_private_site_with_blank_visibility_is_refused(issue_repo):
+    """The gate keys off the EFFECTIVE visibility, not just what was submitted.
+
+    A site already configured `private` whose form leaves visibility blank used
+    to slip through, earn a success comment, and get its issue closed — while
+    every build hard-failed for want of the passphrase.
+    """
+    site_path = issue_repo / "config" / "site.json"
+    site = read_json(site_path)
+    site["visibility"] = "private"
+    site_path.write_text(json.dumps(site, ensure_ascii=False, indent=2) + "\n",
+                         encoding="utf-8")
+    before = site_path.read_text()
+    sources_before = (issue_repo / "config" / "sources.json").read_text()
+
+    # Drop the visibility answer, leaving the rest of the form intact.
+    body = (FIX / "setup_minimal.md").read_text(encoding="utf-8").replace(
+        "Public — open sections readable by anyone · 公开", "_No response_")
+
+    with pytest.raises(ios.PassphraseRequired):
+        ios.apply(body, issue_repo, passphrase_set=False)
+
+    assert site_path.read_text() == before
+    assert (issue_repo / "config" / "sources.json").read_text() == sources_before
+
+
+def test_already_private_site_can_always_switch_back_to_public(issue_repo):
+    """Choosing Public must never be trapped by the gate — it's the escape hatch."""
+    site_path = issue_repo / "config" / "site.json"
+    site = read_json(site_path)
+    site["visibility"] = "private"
+    site_path.write_text(json.dumps(site, ensure_ascii=False, indent=2) + "\n",
+                         encoding="utf-8")
+
+    body = (FIX / "setup_minimal.md").read_text(encoding="utf-8")
+    summary, _ = ios.apply(body, issue_repo, passphrase_set=False)
+
+    assert summary["visibility"] == "public"
+    assert read_json(site_path)["visibility"] == "public"
+
+
+def test_private_source_without_passphrase_refused(issue_repo):
+    before = (issue_repo / "config" / "sources.json").read_text()
+    body = (FIX / "source_add_private.md").read_text(encoding="utf-8")
+
+    with pytest.raises(ios.PassphraseRequired) as ei:
+        ios.apply_any(body, issue_repo)
+
+    assert (issue_repo / "config" / "sources.json").read_text() == before
+    assert "NEWSDASH_PASSPHRASE" in str(ei.value)
+
+
+def test_passphrase_required_is_a_valueerror():
+    """main() catches ValueError broadly; the dedicated handler must be able to
+    sit in front of it, so the subclass relationship is part of the contract."""
+    assert issubclass(ios.PassphraseRequired, ValueError)
+
+
+def test_passphrase_required_comment_names_the_secret():
+    comment = ios.passphrase_required_comment(
+        ios.PASSPHRASE_REQUIRED_VISIBILITY, "alice/my-dash")
+    assert "NEWSDASH_PASSPHRASE" in comment
+    assert "settings/secrets/actions/new" in comment
+    assert "Secrets and variables" in comment
+    assert "edit this issue" in comment.lower()
+
+
+@pytest.mark.parametrize("raw,expected", [
+    ("true", True), ("TRUE", True), ("True", True), (" true ", True),
+    ("false", False), ("", False), (None, False), ("1", False),
+    ("yes", False), ("truthy", False), ("${{ secrets.X != '' }}", False),
+])
+def test_passphrase_flag_parsing_is_fail_safe(raw, expected):
+    assert ios._passphrase_set_from_flag(raw) is expected
+
+
 # --- update-frequency knob (NEWSDASH_UPDATE_FREQ repo Variable) ------------
 
 def _with_update_freq(value: str) -> str:
@@ -187,7 +300,7 @@ def test_add_open_rss_writes_entry(issue_repo):
 
 def test_add_private_defaults(issue_repo):
     body = (FIX / "source_add_private.md").read_text(encoding="utf-8")
-    summary, warnings = ios.apply_any(body, issue_repo)
+    summary, warnings = ios.apply_any(body, issue_repo, passphrase_set=True)
     sources = read_json(issue_repo / "config" / "sources.json")
     entry = custom_by_id(sources, "my_secret")
     assert entry is not None
@@ -250,7 +363,7 @@ def test_secret_name_invalid_rejected(issue_repo):
     before = (issue_repo / "config" / "sources.json").read_text()
     body = (FIX / "source_secret_name_invalid.md").read_text(encoding="utf-8")
     with pytest.raises(ValueError, match="SRC_"):
-        ios.apply_any(body, issue_repo)
+        ios.apply_any(body, issue_repo, passphrase_set=True)
     assert (issue_repo / "config" / "sources.json").read_text() == before
 
 
@@ -291,7 +404,7 @@ def _seed_private_source(issue_repo):
     """Create the existing private source `my_secret` (custom, secret_ref only),
     the way the verifier seeded config, before running an Update against it."""
     body = (FIX / "source_add_private.md").read_text(encoding="utf-8")
-    ios.apply_any(body, issue_repo)
+    ios.apply_any(body, issue_repo, passphrase_set=True)
     entry = custom_by_id(read_json(issue_repo / "config" / "sources.json"),
                          "my_secret")
     assert entry is not None and entry["category"] == "private"

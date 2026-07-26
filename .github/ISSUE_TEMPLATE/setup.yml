@@ -32,10 +32,10 @@ body:
     id: visibility
     attributes:
       label: "Site visibility · 站点可见性"
-      description: "Private = every section is encrypted and the site opens with a passphrase gate (requires the NEWSDASH_PASSPHRASE secret). 私密＝全站加密，打开网站需输入口令（需要配置 NEWSDASH_PASSPHRASE）。"
+      description: "Private = every section is encrypted and the site opens with a passphrase gate. ⚠️ You MUST add the NEWSDASH_PASSPHRASE secret FIRST (Settings → Secrets and variables → Actions) — if it is missing, the bot refuses this form and changes nothing rather than publish your content in the clear. 私密＝全站加密，打开网站需输入口令。⚠️ 必须先在 Settings → Secrets and variables → Actions 添加 NEWSDASH_PASSPHRASE；未配置时机器人会直接拒绝本次提交、不作任何改动，以免明文发布。"
       options:
         - "Public — open sections readable by anyone · 公开"
-        - "Private — everything encrypted behind a passphrase · 私密（全站加密）"
+        - "Private — everything encrypted; REQUIRES the NEWSDASH_PASSPHRASE secret to exist first · 私密（全站加密；须先配置 NEWSDASH_PASSPHRASE）"
     validations:
       required: true
 
