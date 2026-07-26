@@ -1,48 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
-  "source": {
-   "name": "Mshale",
-   "published_at": "2026-07-24T07:25:12Z",
-   "title": "Get Rolling With Otis — Pumpkin On The Loose | Apple TV Pedro Pascal (cdtboXwIHP)",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1KUzk4WnZvc3UxUlkzdDF6SE4xMWY4d3dTU3Z4N05UNE5DUVlmejBEeGRCdjFfQjJ4Um43eXZzR1J2Q0FHLUdWSExIZFBRQXY4UWp1N1pETHY0R1E?oc=5"
-  },
-  "summaries": {
-   "en": {
-    "summary": "A news article covers the release details of an Apple TV show featuring a giant pumpkin character.",
-    "why_irrelevant": "It is a TV scheduling update, not related to farming or competition."
-   },
-   "zh": {
-    "summary": "一则新闻介绍了苹果电视节目中巨大南瓜角色的发布详情。",
-    "why_irrelevant": "这是电视节目安排更新，与农业或竞赛无关。"
-   }
-  },
-  "topic": "competitive pumpkin growing"
- },
- "brief": "A car plowed into a crowd at Berlin Pride in a suspected terror attack, killing one and injuring 16, while massive wildfires in France and Spain displaced over 300,000 people. Research papers explore AI transparency in product advisors and smart glasses for creative writing, among other HCI topics.",
+ "brief": "Wildfires in Europe force massive evacuations as heat wave continues, while a Berlin Pride ramming attack kills one and injures many. Research highlights include platforms for hearing data management, geospatial data integration, and conversational AI usability.",
  "meta": {
-  "generated_at": "2026-07-26T06:47:25Z"
+  "generated_at": "2026-07-26T10:11:35Z"
  },
- "news_summary": "A suspected Islamist terrorist drove a van into a Berlin Pride event, killing one and injuring 16, sparking a manhunt. Meanwhile, wildfires in France and Spain forced more than 300,000 people to evacuate in one of the largest peacetime operations in France.",
- "papers_summary": "Papers on HCI included a usability study of a conversational product advisor using LLMs, a needs assessment for measuring legislative associations, and a project on wearable AI for fiction writing with smart glasses.",
+ "news_summary": "Wildfires in France and Spain have displaced over 340,000 people, with more difficult hours ahead. In Berlin, a car ramming at a Pride parade leaves one dead and 16 injured, with police investigating as possible terrorism.",
+ "papers_summary": "New platforms like HearingHub and DesignSafe support multi-modal data management and visualization. Usability studies on conversational product advisors and smart glasses for creative writing explore AI integration in daily tasks.",
  "summaries": {
   "en": {
-   "brief": "A car plowed into a crowd at Berlin Pride in a suspected terror attack, killing one and injuring 16, while massive wildfires in France and Spain displaced over 300,000 people. Research papers explore AI transparency in product advisors and smart glasses for creative writing, among other HCI topics.",
-   "news_summary": "A suspected Islamist terrorist drove a van into a Berlin Pride event, killing one and injuring 16, sparking a manhunt. Meanwhile, wildfires in France and Spain forced more than 300,000 people to evacuate in one of the largest peacetime operations in France.",
-   "papers_summary": "Papers on HCI included a usability study of a conversational product advisor using LLMs, a needs assessment for measuring legislative associations, and a project on wearable AI for fiction writing with smart glasses."
+   "brief": "Wildfires in Europe force massive evacuations as heat wave continues, while a Berlin Pride ramming attack kills one and injures many. Research highlights include platforms for hearing data management, geospatial data integration, and conversational AI usability.",
+   "news_summary": "Wildfires in France and Spain have displaced over 340,000 people, with more difficult hours ahead. In Berlin, a car ramming at a Pride parade leaves one dead and 16 injured, with police investigating as possible terrorism.",
+   "papers_summary": "New platforms like HearingHub and DesignSafe support multi-modal data management and visualization. Usability studies on conversational product advisors and smart glasses for creative writing explore AI integration in daily tasks."
   },
   "zh": {
-   "brief": "柏林同志遊行遭汽車衝撞，疑為伊斯蘭極端主義恐怖襲擊，至少1死16傷。歐洲野火迫使逾30萬人撤離。AI生成臉孔辨識研究顯示短時訓練可提升準確率。",
-   "news_summary": "柏林同志驕傲遊行遇襲，嫌犯有伊斯蘭極端背景；歐洲野火肆虐，法國西班牙大規模撤離。",
-   "papers_summary": "無重點中文論文。英文研究探討對話式產品顧問的可用性、AR輔助聾生學習、以及AI寫作工具等。"
+   "brief": "柏林同志遊行遭汽車衝撞，釀1死16傷，警方搜捕涉案人士；今年最強颱風「紅霞」登陸廣東，逾71萬人疏散；歐洲野火持續肆虐，數十萬人撤離。",
+   "news_summary": "德國柏林同志驕傲遊行遭汽車衝撞，造成1死16傷，警方正全力搜捕嫌犯。同時，今年最強颱風「紅霞」登陸中國廣東，逾71萬人提前疏散，多省面臨強風暴雨。",
+   "papers_summary": "本日無優先論文，但英文語境中多篇論文探討數據可視化與AI輔助工具，如HearingHub協作平台及CRAFT智慧眼鏡創作系統。"
   }
  },
  "todays_image": {
-  "caption": "A parade float once celebrated faith; now a car desecrates celebration.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-A78CAE7A4FBB2-000001",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/69628",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-A78CAE7A4FBB2-000001",
-  "title": "A parade float in Reggio, Italy: \"Carro trionfale della Compagnia di S. Rocco\" (The Triumphal Carriage of the Company of St. Roch). Plate 2b from A. Isacchi, \"Relatione di Alfonso Isachi intorno l'origine, solennità, traslatione, et miracoli della Madonna di Reggio [...]\" published by Flaminio Bartoli, Reggio."
+  "caption": "The star-like blossoms of *Chaetopappa asteroides* stand in stark contrast to the fiery stars of destruction consuming European landscapes.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3d1b2a964-ed98-4ee0-8f71-927381c84000",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c/90",
+  "title": "Chaetopappa asteroides (Nutt.) DC."
  }
 }
