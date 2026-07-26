@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "query": "Tuna Toss OR Port Lincoln Tuna Festival",
   "source": {
-   "name": "yangtse.com",
-   "published_at": "2026-07-20T08:45:00Z",
-   "title": "视频｜404 . 8斤 ！ 宿迁试种出一巨型南瓜 ， 母体  重801斤",
-   "url": "https://www.yangtse.com/news/jiangsu/202607/t20260720_374032.html"
+   "name": "Adelaide Now",
+   "published_at": "2026-07-17T19:36:04Z",
+   "title": "King Kyle’s romantic proposal – and its South Park twist",
+   "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNTnNWT3VHNjdUSURrQ0ZUZXhUQUhKNGZyZGNMd2FNR1E0SFktY3laYVRLbmdWQW03enNUemZvRjJXTklGTFVFS29DR3NyOHM2QmxKeWFQVGtKWVBfOWVTcmFNdWRSLUJyZk91VDl1WXZBNDdQUkJyeGZVeHZubUJycXBrRllIeGRHb1pCbno2dlF5S1VSUTJ3WktKRlNucV9pQUtnSHJVRGNJTm12eVFraE52SHJ2X0hUanZJaTNaX3hyNUo5ZXQ4Z3RXeGN0czJmWnZHaGljTmd5WVJiYmJISXJZbFFVb0VGM3Z3Z2lNV3lIRDh5VmJ0eGZUSzRfZHk4Q2xJQVRRZ1c3N2x4RXhiaUVRQ2fSAZoCQVVfeXFMUDlEcWd6NUNHcFJHY2VjMHJ0ZVc5SWFJZlRSR2taZXBhZ3kxNkVDWFZ5TTlmT2pZZmswVW5VMEZTTV9BTEZweHcySFdFWFVmY2hqOFZyQWpZUVNuSG9kYU1vcEg3aXAtY2dzQlhfZjNDV1RTRklTc3pZSEVPNXFma05ZS2kzUDBxRGhnY25pZm5BQjJrVHdyM2hpZGxYSUVSaUQxak1sUWlVeXNHUFNSYjNDeURzMFVMVmpHMkNTbW9XS215dDB6WEdsMHlFa0VfVzBmaWd6VXFSSm5JZlVHQVB2RTAxMzJ0ODZGM2pXaGpTN0F6NzhHa3ZocWpWWV9PNENHbGY2cVhLbl9HRHhnNVpzZDVaZ3gxdlBn?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A pumpkin weighing over 400 kg was grown in Suqian, China, as part of an agricultural experiment.",
-    "why_irrelevant": "It is a benign horticultural feat, far from typical personal dashboard topics like politics or disasters."
+    "summary": "King Kyle's romantic proposal goes viral with a South Park twist.",
+    "why_irrelevant": "It's a niche pop-culture story from Australia, far from global or tech headlines."
    },
    "zh": {
-    "summary": "江苏宿迁试种出重达404.8斤的巨型南瓜，母体重801斤。",
-    "why_irrelevant": "这是无关政治的农业趣闻，远离用户常见的信息流内容。"
+    "summary": "King Kyle的浪漫求婚因《南方公园》的恶搞走红。",
+    "why_irrelevant": "这是澳大利亚的流行文化逸闻，远离全球或科技新闻。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "the annual Tuna Toss festival in Port Lincoln, Australia"
  },
- "brief": "Berlin Pride hit by a deadly terror attack, sparking a manhunt; Trump faces constraints on Iran policy; Europe battles wildfires and drone incidents; UK airport chaos and union strikes dominate domestic news.",
+ "brief": "Berlin Pride attack and European wildfires dominate news, while research explores transparent AI and accessibility in tech.",
  "meta": {
-  "generated_at": "2026-07-26T15:19:04Z"
+  "generated_at": "2026-07-26T17:13:38Z"
  },
- "news_summary": "A car-ramming at Berlin Pride is treated as Islamist terrorism, with police hunting a suspect. Trump hesitates on war escalation amid internal doubts, while Europe grapples with wildfires and a Romanian drone downing.",
- "papers_summary": "No priority papers were provided.",
+ "news_summary": "A van ramming at Berlin Pride kills one and injures 16, called an Islamist terrorist attack; wildfires in France and Spain force over 300,000 evacuations.",
+ "papers_summary": "Studies examine transparency in conversational AI, wearable creative tools for fiction writing, and AR accessibility for deaf students.",
  "summaries": {
   "en": {
-   "brief": "Berlin Pride hit by a deadly terror attack, sparking a manhunt; Trump faces constraints on Iran policy; Europe battles wildfires and drone incidents; UK airport chaos and union strikes dominate domestic news.",
-   "news_summary": "A car-ramming at Berlin Pride is treated as Islamist terrorism, with police hunting a suspect. Trump hesitates on war escalation amid internal doubts, while Europe grapples with wildfires and a Romanian drone downing.",
-   "papers_summary": "No priority papers were provided."
+   "brief": "Berlin Pride attack and European wildfires dominate news, while research explores transparent AI and accessibility in tech.",
+   "news_summary": "A van ramming at Berlin Pride kills one and injures 16, called an Islamist terrorist attack; wildfires in France and Spain force over 300,000 evacuations.",
+   "papers_summary": "Studies examine transparency in conversational AI, wearable creative tools for fiction writing, and AR accessibility for deaf students."
   },
   "zh": {
-   "brief": "柏林同志遊行遭汽車衝撞釀1死16傷，警方鎖定疑似伊斯蘭恐怖攻擊的嫌犯。與此同時，今年最強颱風「紅霞」登陸中國廣東，逾71萬人疏散。",
-   "news_summary": "德國柏林同志驕傲遊行遭汽車衝撞，造成至少1死16傷，警方大規模搜捕21歲嫌疑人；颱風「紅霞」登陸廣東，逾71萬人疏散。",
-   "papers_summary": "今日無重點論文。"
+   "brief": "德国柏林同志游行遭汽车冲撞，致1死16伤，警方认定恐袭并搜捕21岁嫌疑人。台风“红霞”登陆广东，逾71万人疏散。巴黎附近山火导致超33万人撤离。",
+   "news_summary": "柏林同志游行遭汽车冲撞，1死16伤，警方定性为恐袭并搜捕嫌犯。台风“红霞”登陆广东，71万余人疏散。欧洲多国山火肆虐，法国西班牙超33万人撤离。",
+   "papers_summary": "今日无中文论文，英文论文涉及AI透明度、增强现实无障碍、可视化语言等HCI领域研究。"
   }
  },
  "todays_image": {
-  "caption": "Both feature celebratory processions—one honoring a plague saint, the other a Pride event—intersected by themes of suffering and violence across centuries.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-A78CAE7A4FBB2-000001",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/69628",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-A78CAE7A4FBB2-000001",
-  "title": "A parade float in Reggio, Italy: \"Carro trionfale della Compagnia di S. Rocco\" (The Triumphal Carriage of the Company of St. Roch). Plate 2b from A. Isacchi, \"Relatione di Alfonso Isachi intorno l'origine, solennità, traslatione, et miracoli della Madonna di Reggio [...]\" published by Flaminio Bartoli, Reggio."
+  "caption": "Just as the star-shaped blooms of Chaetopappa asteroides thrive in varied soils, England's north and south experience diverging life expectancies despite a national rise in longevity.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3d1b2a964-ed98-4ee0-8f71-927381c84000",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c/90",
+  "title": "Chaetopappa asteroides (Nutt.) DC."
  }
 }
