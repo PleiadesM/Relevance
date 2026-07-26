@@ -25,9 +25,32 @@ jobs:
       - run: pip install -r requirements-dev.txt
       - run: python -m pytest -q
       - run: python scripts/validate_config.py
-      - name: Smoke build (zero secrets)
+      # The zero-secret build invariant (no secrets in env -> green build,
+      # nothing encrypted) is pinned unconditionally by the make_repo-based
+      # unit tests in tests/test_smoke_build.py, which build a synthetic
+      # template-shaped repo. That is the binding guarantee.
+      #
+      # The step below additionally proves it against THIS repo's real config —
+      # the promise every forker relies on — but only while the deployment is
+      # still public. Once a fork legitimately sets visibility: "private",
+      # build.py correctly exits 1 without a passphrase, so running it here
+      # would turn a correct hard fail into a permanently red CI. Guarding
+      # beats deleting: the public template keeps its real-config proof.
+      # 零密钥构建由单元测试无条件保证；此步骤额外用真实配置验证，
+      # 但仅在本部署仍为 public 时运行——私密部署缺少口令时理应构建失败。
+      - name: Detect site visibility
+        id: vis
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          print("value=" + json.load(open("config/site.json"))["visibility"])
+          PY
+
+      - name: Smoke build (zero secrets, public deployments only)
+        if: steps.vis.outputs.value == 'public'
         run: python scripts/build.py --output-dir /tmp/nd-smoke --smoke
-      - name: Smoke build (encrypted)
+
+      - name: Smoke build (real config, encrypted)
         env:
           NEWSDASH_PASSPHRASE: "ci smoke passphrase only"
         run: python scripts/build.py --output-dir /tmp/nd-smoke-enc --smoke

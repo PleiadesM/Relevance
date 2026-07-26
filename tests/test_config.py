@@ -4,12 +4,16 @@ from newsdash.config import ConfigError, load_config
 
 
 def test_default_repo_config_loads(repo_root):
+    """The live config of *this* deployment must stay loadable and schema-valid.
+
+    Deliberately says nothing about title/visibility/which sources are picked —
+    those are the forker's to personalize. What it catches is a genuinely broken
+    personalization: a config that no longer parses, or one that resolves to no
+    sections at all (a dashboard with nothing on it).
+    """
     cfg = load_config(repo_root, env={})
-    assert cfg.site.visibility == "public"
-    ids = {s.id for s in cfg.sources}
-    assert "openai_blog" in ids  # from ai-news preset
-    assert "bbc_world" in ids  # from general-news preset
-    assert "news" in cfg.sections
+    assert cfg.sources, "config resolves to zero sources"
+    assert cfg.sections, "config resolves to zero sections"
 
 
 def test_private_sources_wait_for_secrets(make_repo):

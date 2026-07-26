@@ -98,11 +98,29 @@ def threads_completion(threads=None):
             {"content": json.dumps({"threads": threads})}}]}
 
 
-def test_smoke_zero_secret(tmp_path, monkeypatch, repo_root):
+def _zero_secret_repo(make_repo):
+    """A synthetic, template-shaped deployment: public visibility, only keyless
+    open sources. The zero-secret build invariant is a property of the *template*,
+    not of whatever the local owner has personalized config/site.json into — so
+    these tests build against this, never against the real repo tree.
+    """
+    return make_repo(
+        site={"schema_version": 1, "title": "T", "visibility": "public",
+              "languages": ["en", "zh"], "default_language": "en",
+              "theme": "blowfish", "timezone": "UTC"},
+        sources={"schema_version": 1, "presets": [], "sources": [
+            {"id": "feed_a", "type": "rss", "section": "news",
+             "name": "A", "url": "https://a.example/feed.xml"},
+        ]},
+    )
+
+
+def test_smoke_zero_secret(tmp_path, monkeypatch, make_repo):
     for var in ("NEWSDASH_PASSPHRASE", "LLM_API_KEY", "SMITHSONIAN_API_KEY"):
         monkeypatch.delenv(var, raising=False)
     out = tmp_path / "data"
-    build_mod.main(["--output-dir", str(out), "--smoke"])
+    build_mod.main(["--output-dir", str(out), "--smoke",
+                    "--repo-root", str(_zero_secret_repo(make_repo))])
 
     manifest = read(out / "manifest.json")
     assert manifest["status"] == "ok"
@@ -128,15 +146,21 @@ def test_smoke_zero_secret(tmp_path, monkeypatch, repo_root):
     assert not (out / "threads-private.enc.json").exists()
 
 
-def test_smoke_never_calls_llm_or_smithsonian_even_with_keys_set(tmp_path, monkeypatch):
+def test_smoke_never_calls_llm_or_smithsonian_even_with_keys_set(tmp_path, monkeypatch, make_repo):
     # --smoke promises "skip all network fetches" — this must hold even when
     # both optional enrichment secrets are present in the environment.
+    monkeypatch.delenv("NEWSDASH_PASSPHRASE", raising=False)
     monkeypatch.setenv("LLM_API_KEY", "sk-should-not-be-used")
     monkeypatch.setenv("SMITHSONIAN_API_KEY", "dg-should-not-be-used")
     out = tmp_path / "data"
-    build_mod.main(["--output-dir", str(out), "--smoke"])
+    build_mod.main(["--output-dir", str(out), "--smoke",
+                    "--repo-root", str(_zero_secret_repo(make_repo))])
 
     manifest = read(out / "manifest.json")
+    assert manifest["status"] == "ok"
+    assert manifest["site"]["visibility"] == "public"
+    assert "crypto" not in manifest
+    assert all(s["encrypted"] is False for s in manifest["sections"])
     assert manifest["insights_file"] is None
     assert manifest["ai_summary"] == {"enabled": True}  # key present -> "configured"
     assert not (out / "insights.json").exists()
