@@ -1,48 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
-  "source": {
-   "name": "yangtse.com",
-   "published_at": "2026-07-20T08:45:00Z",
-   "title": "视频｜404 . 8斤 ！ 宿迁试种出一巨型南瓜 ， 母体  重801斤",
-   "url": "https://www.yangtse.com/news/jiangsu/202607/t20260720_374032.html"
-  },
-  "summaries": {
-   "en": {
-    "summary": "In Suqian, a giant pumpkin weighing 404.8 jin (about 202 kg) was successfully grown from a mother plant that weighed 801 jin.",
-    "why_irrelevant": "It is a singular agricultural oddity unrelated to the user's typical interests."
-   },
-   "zh": {
-    "summary": "宿迁试种出一巨型南瓜，重404.8斤，其母体重达801斤。",
-    "why_irrelevant": "这是一个与用户日常关注点无关的农业奇闻。"
-   }
-  },
-  "topic": "competitive pumpkin growing"
- },
- "brief": "Berlin Pride attack suspect killed in police shootout; US pauses Iran strikes; record heat and wildfires continue in Europe.",
+ "brief": "National emergency test in Australia and US tariffs dominate news; papers focus on AI usability and visualization.",
  "meta": {
-  "generated_at": "2026-07-26T21:10:10Z"
+  "generated_at": "2026-07-26T23:10:35Z"
  },
- "news_summary": "Berlin Pride ramming suspect Abdul Ballout shot dead by police; US pauses Iran bombing for second day; wildfires force mass evacuations in France and Spain.",
- "papers_summary": "New studies explore usability of conversational AI advisors, wearable AI for writing, and AR accessibility for deaf students, alongside ethical considerations of generative AI in dementia care.",
+ "news_summary": "AusAlert test blares nationwide; US tariffs called 'unjustified'; Berlin Pride attack kills one; Netanyahu accuses NYC mayor of hate speech; Israel-West Bank violence escalates.",
+ "papers_summary": "Usability study of conversational product advisors and wearable creative AI for fiction writing highlight HCI research; semantics-driven visualization language Flint introduced.",
  "summaries": {
   "en": {
-   "brief": "Berlin Pride attack suspect killed in police shootout; US pauses Iran strikes; record heat and wildfires continue in Europe.",
-   "news_summary": "Berlin Pride ramming suspect Abdul Ballout shot dead by police; US pauses Iran bombing for second day; wildfires force mass evacuations in France and Spain.",
-   "papers_summary": "New studies explore usability of conversational AI advisors, wearable AI for writing, and AR accessibility for deaf students, alongside ethical considerations of generative AI in dementia care."
+   "brief": "National emergency test in Australia and US tariffs dominate news; papers focus on AI usability and visualization.",
+   "news_summary": "AusAlert test blares nationwide; US tariffs called 'unjustified'; Berlin Pride attack kills one; Netanyahu accuses NYC mayor of hate speech; Israel-West Bank violence escalates.",
+   "papers_summary": "Usability study of conversational product advisors and wearable creative AI for fiction writing highlight HCI research; semantics-driven visualization language Flint introduced."
   },
   "zh": {
-   "brief": "柏林同志遊行遭汽車衝撞引發恐攻疑雲，嫌犯被警方擊斃；今年最強颱風「紅霞」登陸廣東，逾71萬人疏散；美國暫停對伊朗攻擊，但仍持續努力推動談判。",
-   "news_summary": "柏林同志驕傲遊行遭汽車衝撞，造成1死16傷，嫌犯在與警方對峙時被擊斃，事件被視為疑似伊斯蘭恐攻。同時，今年最強颱風「紅霞」登陸中國廣東，逾71萬人疏散，多省面臨強風暴雨威脅。國際方面，美國暫停對伊朗攻擊第二日，雙方均表示暫停行動，談判有望恢復。",
-   "papers_summary": "無優先論文，但英文論文中探討了AI透明設計、智慧眼鏡輔助寫作、AR無障礙環境等研究。"
+   "brief": "柏林同志遊行遭汽車衝撞，嫌犯被擊斃；最強颱風紅霞登陸廣東，逾71萬人疏散。",
+   "news_summary": "柏林同志遊行遭汽車衝撞，造成1死16傷，嫌犯在警方交火中被擊斃。今年最強颱風紅霞登陸廣東，逾71萬人疏散。",
+   "papers_summary": "今日無相關論文。"
   }
  },
  "todays_image": {
-  "caption": "The delicate Lanthus parvulus, a dragonfly that skims water surfaces, finds a whimsical echo in Sydney's new harbour pool and the nationwide siren test, both rippling through urban waterscapes with a sudden, shared buzz.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3714dc23bb1e04e6daaa4ea846d212343",
-  "source_name": "NMNH - Entomology Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3a2163f84-e016-4418-b85f-c7cc8f0812a4",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3714dc23bb1e04e6daaa4ea846d212343/90",
-  "title": "Lanthus parvulus"
+  "caption": "The Eastern Dwarf Siren, a silent amphibian, shares its name with the blaring AusAlert test siren, yet both signal a warning—one natural, one political.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m340180866e3f14da2aa180cb38bd07938",
+  "source_name": "NMNH - Education & Outreach",
+  "source_url": "http://n2t.net/ark:/65665/37be30768-0273-4a2a-9c25-151b51854022",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m340180866e3f14da2aa180cb38bd07938/90",
+  "title": "Eastern Dwarf Siren"
  }
 }

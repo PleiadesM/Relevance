@@ -1,56 +1,17 @@
 {
  "meta": {
   "count": 5,
-  "generated_at": "2026-07-26T21:10:10Z",
+  "generated_at": "2026-07-26T23:10:35Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "45c65650cc121f56",
-     "phrase": {
-      "en": "offloading details disempowers",
-      "zh": "交出细节反而丧失能力"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://davidnicholaswilliams.com/its-not-empowering-to-hand-off-the-details/"
-    },
-    {
-     "item_id": "9e060c6415654c76",
-     "phrase": {
-      "en": "wearable AI aids in-situ writing",
-      "zh": "可穿戴AI辅助现场写作"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.21394v1"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "When AI does the thinking, who is left to be the author?",
-    "zh": "当AI代劳思考，谁还留在作者的位置？"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "AI agency",
-    "zh": "AI代理"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You care about HCI and AI: today a piece argues offloading details isn't empowering, and a paper explores AI on smart glasses for creative writing.",
-    "zh": "你关注人机交互和AI：今天一篇文章指出交出细节并非赋能，一篇论文探索了智能眼镜上的AI创意写作。"
-   }
-  },
-  {
-   "angles": [
-    {
      "item_id": "36c5ed5e5c8e2cbd",
      "phrase": {
-      "en": "US pauses after effectiveness limit",
-      "zh": "美国暂停，认为已达效果极限"
+      "en": "US pauses strikes on Iran",
+      "zh": "美国暂停对伊朗打击"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -59,72 +20,38 @@
     {
      "item_id": "7d676030dd52c1a9",
      "phrase": {
-      "en": "both sides pause, ceasefire hope",
-      "zh": "双方暂停，和谈希望"
+      "en": "US and Iran both pause attacks",
+      "zh": "美伊双方均暂停攻击"
      },
      "section": "news",
      "source": "NPR News",
      "url": "https://www.npr.org/2026/07/26/g-s1-135593/us-pauses-attacks-iran-second-day-tehran"
     },
     {
-     "item_id": "22df75da3bb0a1cc",
+     "item_id": "a80edad510930490",
      "phrase": {
-      "en": "advisers raise munitions concern",
-      "zh": "顾问担忧弹药耗尽"
+      "en": "Pentagon updates Iran casualty count",
+      "zh": "五角大楼更新伊朗伤亡"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/25/us/politics/trump-iran-military.html"
-    },
-    {
-     "item_id": "ddb8dcf65d28f5c4",
-     "phrase": {
-      "en": "dwindling interceptors drive pause",
-      "zh": "拦截弹短缺促成暂停"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/26/world/middleeast/us-iran-war-pause.html"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/jul/26/pentagon-iran-war-troop-deaths-casualty-report"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "For two straight days both sides hold fire; dwindling munitions and ceasefire talks cool the heat.",
-    "zh": "连续两天双方停火，弹药吃紧与和谈浇灭了战火。"
+    "en": "US and Iran both pause attacks, hinting at a fragile ceasefire after days of bombing.",
+    "zh": "美伊双方同时暂停攻击，脆弱停火初现。"
    },
-   "id": "t2",
+   "id": "t1",
    "keyword": {
-    "en": "U.S.-Iran conflict pause",
-    "zh": "美伊冲突暂停"
+    "en": "Iran conflict pause",
+    "zh": "伊朗冲突暂停"
    },
    "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-07-25",
-     "item_id": "7d676030dd52c1a9",
-     "label": {
-      "en": "first pause",
-      "zh": "首次暂停"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/07/26/g-s1-135593/us-pauses-attacks-iran-second-day-tehran"
-    },
-    {
-     "date": "2026-07-26",
-     "item_id": "7d676030dd52c1a9",
-     "label": {
-      "en": "second day pause",
-      "zh": "第二天暂停"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/07/26/g-s1-135593/us-pauses-attacks-iran-second-day-tehran"
-    }
-   ],
    "why_now": {
-    "en": "You follow geopolitical crises: today multiple sources confirm a second day of pause with negotiations at play.",
-    "zh": "你关注地缘危机：今天多个来源确认第二天停火，谈判正在进行。"
+    "en": "You follow geopolitical risk: today both sides halt strikes, opening a window for diplomacy.",
+    "zh": "你关注地缘政治风险，今日双方暂停打击为外交打开窗口。"
    }
   },
   {
@@ -132,8 +59,8 @@
     {
      "item_id": "b8e989fb013ca9eb",
      "phrase": {
-      "en": "330k evacuated near Bordeaux",
-      "zh": "波尔多附近33万人撤离"
+      "en": "330,000 evacuated in France and Spain",
+      "zh": "法西33万人撤离"
      },
      "section": "news",
      "source": "BBC World",
@@ -142,116 +69,155 @@
     {
      "item_id": "052d48361a9307eb",
      "phrase": {
-      "en": "250k flee in France and Spain",
-      "zh": "法国和西班牙25万人逃离"
+      "en": "250,000+ flee in France and Spain",
+      "zh": "法西超25万人逃离"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/world/live/2026/jul/26/europe-wildfires-spain-france-bordeaux-madrid-evacuations"
+    },
+    {
+     "item_id": "d5db5178e3f5584f",
+     "phrase": {
+      "en": "massive blazes in western Europe",
+      "zh": "西欧大规模野火"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/25/world/europe/europe-fires-france-spain-what-to-know.html"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Hundreds of thousands flee as fires rage across France and Spain; a massive evacuation operation unfolds.",
-    "zh": "数十万人撤离，法国和西班牙大火肆虐，大规模疏散行动展开。"
+    "en": "Mega-fires in France and Spain force hundreds of thousands to flee, burning through tinder-dry landscapes.",
+    "zh": "法国和西班牙大火迫使数十万人撤离，干枯大地如火海。"
    },
-   "id": "t3",
+   "id": "t2",
    "keyword": {
-    "en": "Europe wildfires",
+    "en": "European wildfires",
     "zh": "欧洲野火"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track climate impacts: today the scale of evacuations and cross-border coordination is unprecedented.",
-    "zh": "你关注气候影响：今天的疏散规模和跨国协调前所未有。"
+    "en": "You care about climate impact: today over 330k evacuated, among largest civilian evacuations ever in peacetime.",
+    "zh": "你关注气候影响，今日超33万人撤离，为和平时期最大规模之一。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "26bd3f30c37e115a",
+     "item_id": "590c8e6288cba547",
      "phrase": {
-      "en": "suspect killed in police shootout",
-      "zh": "嫌疑人在警匪交火中死亡"
+      "en": "Netanyahu accuses Mamdani of hate",
+      "zh": "内塔尼亚胡指控曼达尼仇恨言论"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/jul/26/netanyahu-mamdani-icc-arrest-gaza-war-united-nations"
+    },
+    {
+     "item_id": "93457d6dfcb69564",
+     "phrase": {
+      "en": "Netanyahu criticizes Mamdani's video",
+      "zh": "内塔尼亚胡批评曼达尼视频"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/26/world/europe/berlin-gay-pride-attack.html"
-    },
-    {
-     "item_id": "7a6b80ca959f83b0",
-     "phrase": {
-      "en": "attack condemned as heinous",
-      "zh": "袭击被谴责为令人发指"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cevmdxz4872o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "0c079bdc860a7f7f",
-     "phrase": {
-      "en": "suspect shot after charging officers",
-      "zh": "嫌疑人冲撞警察后被击毙"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c62eg899l99o?at_medium=RSS&at_campaign=rss"
+     "url": "https://www.nytimes.com/2026/07/26/nyregion/netanyahu-mamdani-fox-news.html"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "A car-ramming attack at Berlin Pride is followed by a police shootout that kills the suspect.",
-    "zh": "柏林骄傲节发生汽车冲撞袭击，随后警匪交火，嫌疑人被击毙。"
+    "en": "NYC mayor calls for Netanyahu's arrest; Netanyahu fires back with accusations of hate speech.",
+    "zh": "纽约市长呼吁逮捕内塔尼亚胡，后者反击指控仇恨言论。"
    },
-   "id": "t4",
+   "id": "t3",
    "keyword": {
-    "en": "Berlin Pride attack",
-    "zh": "柏林骄傲节袭击"
+    "en": "Netanyahu vs Mamdani",
+    "zh": "内塔尼亚胡 vs 曼达尼"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You see how terrorism coverage shapes public discourse: today a single event is reported from multiple angles.",
-    "zh": "你看到恐怖主义报道如何塑造公共话语：今天同一事件有多角度报道。"
+    "en": "You follow human rights and geopolitics: today a direct clash between a city mayor and a prime minister over ICC warrants.",
+    "zh": "你关注人权与地缘，今日市长与总理就国际刑事法院逮捕令正面交锋。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "7da98e708fb99b60",
-     "phrase": {
-      "en": "focus and followthrough as superpower",
-      "zh": "专注和跟进是超级力量"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and"
-    },
-    {
      "item_id": "d2dcc9d87c3afeec",
      "phrase": {
-      "en": "LLM token resale market fraud",
-      "zh": "LLM代币转售市场欺诈"
+      "en": "inside the relay market",
+      "zh": "中转市场内部揭秘"
      },
      "section": "news",
      "source": "Simon Willison",
      "url": "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything"
+    },
+    {
+     "item_id": "45c65650cc121f56",
+     "phrase": {
+      "en": "essay on empowerment vs details",
+      "zh": "关于赋权与细节的文章"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://davidnicholaswilliams.com/its-not-empowering-to-hand-off-the-details/"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "In the new AI landscape, the competitive edge lies in focus and followthrough rather than raw capability.",
-    "zh": "新的AI格局中，竞争优势在于专注和跟进，而非单纯的能力。"
+    "en": "A deep look reveals a shady market that pools and resells LLM tokens, enabling fraud and disrupting pricing.",
+    "zh": "深入调查揭示灰色市场：拼团转售LLM token，助长欺诈，扰乱定价。"
    },
-   "id": "t5",
+   "id": "t4",
    "keyword": {
-    "en": "AI superpowers",
-    "zh": "AI超级力量"
+    "en": "LLM token reselling",
+    "zh": "LLM token转售"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track LLM and AI trends: today a post reframes AI advantage away from models toward execution.",
-    "zh": "你关注LLM和AI趋势：今天一篇文章将AI优势从模型转向执行。"
+    "en": "You follow LLM economics: today's investigation shows how token reselling undermines model access and security.",
+    "zh": "你关注LLM经济，今日调查揭露token转售如何破坏模型访问与安全。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "df7012401e39111f",
+     "phrase": {
+      "en": "MV-Bench for multi-view interfaces",
+      "zh": "多视图界面检测基准"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.19910v1"
+    },
+    {
+     "item_id": "9e060c6415654c76",
+     "phrase": {
+      "en": "wearable AI for fiction writing",
+      "zh": "可穿戴AI用于小说写作"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.21394v1"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "A new benchmark evaluates how well multimodal LLMs can create multi-view interfaces from visual designs.",
+    "zh": "新基准测试多模态大模型根据视觉设计生成多视图界面的能力。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "multimodal LLM benchmark",
+    "zh": "多模态LLM基准"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about HCI and AI: today's benchmark directly tests LLMs for interface construction, a key automation frontier.",
+    "zh": "你关注人机交互与AI，今日基准直接测试LLM构建界面的自动化前沿。"
    }
   }
  ]
