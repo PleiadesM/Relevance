@@ -1,0 +1,155 @@
+name: Package the Page Skill
+
+# Publishes skills/newsdash as a downloadable bundle so people can install the
+# Page Skill｜书童Skill on Claude, Codex, or any other agent without cloning
+# first. Runs on every published release, so the permanent URL
+#   https://github.com/<owner>/<repo>/releases/latest/download/newsdash-skill.zip
+# always serves the current skill. A prebuilt zip is deliberately NOT committed
+# to the repo — that copy goes stale the moment SKILL.md is edited.
+# 把书童Skill打包成可下载文件；每次发布 Release 自动更新，
+# 因此仓库里不再提交任何预打包的 zip（那种副本一改就过期）。
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Build the bundle
+        env:
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          STAGE="$RUNNER_TEMP/bundle"
+          mkdir -p "$STAGE"
+          cp -R skills/newsdash "$STAGE/newsdash"
+
+          # macOS cruft must never reach a published artifact.
+          find "$STAGE" \( -name '.DS_Store' -o -name '._*' \) -delete
+          rm -rf "$STAGE/__MACOSX"
+
+          # The skill drives a repo — it reads scripts/, config/ and docs/ from
+          # the user's own checkout. Say so inside the bundle, because someone
+          # who only ever sees the zip has no other way to find that out.
+          cat > "$STAGE/newsdash/INSTALL.md" <<'MD'
+          # Install the Page Skill｜书童Skill
+
+          **Read this first: the skill is not a standalone app.** It is a set of
+          instructions that teaches a coding agent how to run *your* Relevance
+          dashboard. It reads and edits `config/`, `scripts/` and `docs/` in your
+          own copy of the repo, so you need that copy checked out for the skill to
+          do anything.
+          **请先读这一句：本技能不是独立应用。** 它教你的智能体如何打理*你自己的*
+          及君仪表盘，需要读写你那份仓库里的 `config/`、`scripts/`、`docs/`，
+          所以请先把你的副本克隆到本地。
+
+          ## 1. Get your own dashboard first · 先有你自己的仪表盘
+
+          Create one from the template, then clone it:
+          <https://github.com/__REPO__>
+
+          ## 2. Install the skill · 安装技能
+
+          **Claude Code** — unzip into your skills directory:
+
+              unzip newsdash-skill.zip -d ~/.claude/skills/
+
+          Better, if you cloned the repo: symlink it instead, so the skill updates
+          itself whenever the repo does.
+          更推荐：如果你已经克隆了仓库，用符号链接，技能会随仓库自动更新。
+
+              ln -s /path/to/your-clone/skills/newsdash ~/.claude/skills/newsdash
+
+          Note the repo's own `skills/` folder is **not** a place Claude Code looks
+          for skills — that is why installing is a separate step at all.
+          注意：仓库里的 `skills/` 目录并不是 Claude Code 查找技能的位置，
+          所以才需要单独安装这一步。
+
+          **Claude apps** — upload `newsdash-skill.zip` as a personal skill. This
+          copy does not track the repo; re-upload after the skill changes.
+          上传后不会自动跟随仓库更新，技能有变动时请重新上传。
+
+          **Codex or another agent** — unzip anywhere and point the agent at the
+          folder, with your cloned dashboard open as the working directory.
+          解压到任意位置，让智能体读取该目录，并把你克隆的仓库作为工作目录。
+
+          ## 3. Use it · 开始使用
+
+          Open your clone in the agent and describe what you want — "interview me
+          about my sources", "add this feed", "why is my dashboard stale".
+          Full walkthrough and copy-paste prompts: `docs/SETUP.md`.
+
+          The skill will always walk you through adding GitHub Secrets **yourself**.
+          It never asks you to paste a secret value into chat. If any agent does,
+          refuse — that is not how this skill works.
+          技能只会引导你**自己**去添加 Secret，绝不会要求你把密钥粘贴进对话；
+          若有智能体这样要求，请拒绝。
+          MD
+          # POSIX-portable rewrite (BSD sed needs an arg to -i, GNU sed does not),
+          # so this step is dry-runnable on a maintainer's machine too.
+          sed "s|__REPO__|${REPO}|g" "$STAGE/newsdash/INSTALL.md" > "$STAGE/INSTALL.tmp"
+          mv "$STAGE/INSTALL.tmp" "$STAGE/newsdash/INSTALL.md"
+
+          (cd "$STAGE" && zip -qr "$RUNNER_TEMP/newsdash-skill.zip" newsdash)
+          echo "--- bundle contents ---"
+          unzip -l "$RUNNER_TEMP/newsdash-skill.zip"
+
+      # A skill whose frontmatter is malformed installs happily and then never
+      # triggers, which is a miserable thing to debug from the user's side —
+      # so prove the published artifact is well-formed before it ships.
+      # Deliberately no pipelines here: `unzip -p … | head -1` under
+      # `set -o pipefail` dies with SIGPIPE (exit 141) once the file is large
+      # enough for head to close first, which fails intermittently.
+      # 此处刻意不使用管道：pipefail 下 unzip -p | head 会因 SIGPIPE 间歇性失败。
+      - name: Sanity-check the bundle
+        run: |
+          set -euo pipefail
+          WORK="$RUNNER_TEMP/verify"
+          rm -rf "$WORK"
+          mkdir -p "$WORK"
+          unzip -q "$RUNNER_TEMP/newsdash-skill.zip" -d "$WORK"
+
+          SKILL="$WORK/newsdash/SKILL.md"
+          test -f "$SKILL"
+          test -f "$WORK/newsdash/INSTALL.md"
+          test -d "$WORK/newsdash/references"
+
+          FIRST=$(head -1 "$SKILL")
+          [ "$FIRST" = "---" ] || { echo "::error::SKILL.md frontmatter missing"; exit 1; }
+          grep -q '^name: newsdash$' "$SKILL"
+          grep -q '^description:' "$SKILL"
+
+          CRUFT=$(find "$WORK" \( -name '__MACOSX' -o -name '.DS_Store' -o -name '._*' \) -print)
+          [ -z "$CRUFT" ] || { echo "::error::bundle carries junk: $CRUFT"; exit 1; }
+
+          # The install note is the only thing telling a zip-only user that the
+          # skill needs their own checkout — its absence is a real defect.
+          grep -q 'not a standalone app' "$WORK/newsdash/INSTALL.md"
+          echo "bundle OK"
+
+      - name: Attach to the release
+        if: github.event_name == 'release'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.event.release.tag_name }}
+        run: gh release upload "$TAG" "$RUNNER_TEMP/newsdash-skill.zip" --clobber
+
+      # Manual runs get an artifact instead, so the packaging can be tested
+      # without publishing anything. 手动运行只产出构建产物，不会发布。
+      - name: Upload as a run artifact
+        if: github.event_name == 'workflow_dispatch'
+        uses: actions/upload-artifact@v4
+        with:
+          name: newsdash-skill
+          path: ${{ runner.temp }}/newsdash-skill.zip
+          if-no-files-found: error

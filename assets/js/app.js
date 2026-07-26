@@ -286,6 +286,7 @@ function renderOnboarding() {
       el("li", {}, t("onboarding.step2")),
       el("li", {}, t("onboarding.step3")),
       el("li", {}, t("onboarding.step4")),
+      el("li", {}, t("onboarding.step5")),
     ),
     el("p", {},
       el("a", { class: "doc-link", target: "_blank", rel: "noopener",

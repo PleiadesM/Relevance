@@ -21,12 +21,12 @@ function buildSlides() {
     { title: t("tutorial.s1Title"), body: t("tutorial.s1Body") },
     {
       title: t("tutorial.s2Title"), body: t("tutorial.s2Body"),
-      action: { href: link("/issues/new/choose"), label: t("tutorial.s2Action") },
+      note: t("tutorial.s2Note"),
+      action: { href: link("/settings/secrets/actions"), label: t("tutorial.s2Action") },
     },
     {
       title: t("tutorial.s3Title"), body: t("tutorial.s3Body"),
-      note: t("tutorial.s3Note"),
-      action: { href: link("/settings/secrets/actions"), label: t("tutorial.s3Action") },
+      action: { href: link("/issues/new/choose"), label: t("tutorial.s3Action") },
     },
     {
       title: t("tutorial.s4Title"), body: t("tutorial.s4Body"),

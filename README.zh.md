@@ -43,16 +43,31 @@
 - **无关一则（需要 LLM API Key）：** 这个应用在帮你收集最相关信息的同时，也会让你的 LLM 找一条完全无关的公开新闻，附短摘要与来源链接，稍微打破一下你的信息茧房。
 
 ---
+## 所需材料
+
+**API Key** 是服务商给你的一串像密码一样的字符串，让你的仪表盘可以代表你去抓取数据；你只需把它粘贴进 GitHub 的 Secrets 里一次，它绝不会出现在你的网站上，也绝不会被提交进仓库。
+
+| 你需要什么 | 它解锁什么 | 去哪里获取 |
+|---|---|---|
+| `NEWSDASH_PASSPHRASE`（Secret） | 任何私密内容都需要它——它**就是**网站的登录口令。没有它，私密站点会拒绝构建。 | 自己想一个——至少 4 个随机单词。 |
+| `LLM_API_KEY`（非 OpenAI 服务商还需 `LLM_BASE_URL`、`LLM_MODEL` 变量） | AI 每日简报、线索 · Threads、无关一则，以及今日一图的说明文字。没有它，这些区块只是不出现，不影响其他部分。 | 你选定的 LLM 服务商自己的后台（OpenAI、DeepSeek、OpenRouter、Groq……）。 |
+| `SMITHSONIAN_API_KEY` | 今日一图（仅 CC0 图片）。 | [api.data.gov/signup](https://api.data.gov/signup/) |
+| `OPENALEX_API_KEY` | 让 OpenAlex 变稳定——免密钥请求是尽力而为，经常被拒绝。 | [openalex.org](https://openalex.org/) |
+| `CONTACT_MAILTO`（Variable，不是密钥） | 让你进入 CrossRef/OpenAlex 的「礼貌池」。 | 你自己的邮箱地址。 |
+
+按需添加即可——[配置指南第 5 步](docs/SETUP.zh.md#5-添加你的-api-key)会逐个点到哪、写到哪。没添加的那几个，对应功能保持关闭而已。
+
+---
 ## 快速开始
 
 ### 路线 A——模板（无需本地环境）
 如果你想生成一个网页并托管上线，请用这条路线。
 
 1. 点击 **Use this template → Create a new repository**（建议公开仓库——原因见 [Actions 配置](#自动更新github-actions-与配置)）。
-2. 打开 **Actions** 标签页启用工作流（模板仓库会显示提示条）。用 *Run workflow* 手动跑一次 **Update Relevance**，或等定时任务——第一次零密钥构建即可用默认信源包出结果。
+2. 打开 **Actions** 标签页启用工作流（模板仓库会显示提示条）。用 *Run workflow* 手动跑一次 **Update Relevance**，或等定时任务——不需要任何 Secrets，第一次构建即可用默认信源包出结果。
 3. **Settings → Pages → Deploy from a branch → `main` / `(root)`**。你的仪表盘就上线了。
-4. 打开 **Issues → New issue → 「Set up my Relevance · 配置我的及君」**，填表：语言、可见性、主题、标题、时区、信源包、自定义 RSS、兴趣关键词。配置工作流（仅响应仓库所有者）会提交你的配置、重新构建，并用中英双语回帖：Pages 链接、Secrets 清单与直达链接、base64 配方、AI 启动提示词。
-5. 私密 / 可选信源：按回帖清单添加 Secrets（或看[配置指南](docs/SETUP.zh.md)）——密钥一旦存在，对应信源即自动开启。
+4. 私密 / 可选信源：按[上文所需材料表](#所需材料)添加 Secrets（或看[配置指南](docs/SETUP.zh.md#5-添加你的-api-key)）——密钥一旦存在，对应信源即自动开启。
+5. 打开 **Issues → New issue → 「Set up my Relevance · 配置我的及君」**，填表：语言、可见性、主题、标题、时区、信源包、自定义 RSS、兴趣关键词。配置工作流（仅响应仓库所有者）会提交你的配置、重新构建，并用中英双语回帖：Pages 链接、Secrets 清单与直达链接、base64 配方、AI 启动提示词。
 
 ### 路线 B——本地
 如果你想在本地或自己的服务器上运行，请用这条路线。
@@ -91,6 +106,8 @@ and never commit tokens or passphrases into the repo.
 ```
 
 这个技能只会**口述** Secrets 配置——建哪个、在哪建、值怎么生成——但绝不经手值本身。Secret 是 GitHub 提供的一项功能，用来存放 LLM API Key、口令之类的敏感信息。想了解更多，[见下文说明](docs/SETUP.zh.md)。
+
+还没装这个技能？从[最新发布版](https://github.com/PleiadesM/Relevance/releases/latest/download/newsdash-skill.zip)下载，各平台的安装步骤见 [SETUP.zh.md 第 7a 步](docs/SETUP.zh.md#7a-安装这个技能)。
 
 - `skills/newsdash/` —— **Page Skill｜书童**（维护侧）：信源分类、维护流水线与配置、指导部署。见其[说明页](skills/newsdash/README.md)。
 - 读者侧的消费 Skill（对 Agent 说「今天我的及君上有什么？」）排在 v0.2。

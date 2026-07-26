@@ -91,7 +91,7 @@ body:
     id: academic-presets
     attributes:
       label: "Academic packs · 学术论文包"
-      description: "Keyless scholarly feeds (arXiv, CrossRef, Semantic Scholar). 无需密钥的学术信源。"
+      description: "Scholarly feeds (arXiv, CrossRef, Semantic Scholar); add an OPENALEX_API_KEY for reliable OpenAlex results. 学术信源；添加 OPENALEX_API_KEY 可让 OpenAlex 结果更稳定。"
       options:
         - label: "Data visualization — arXiv cs.HC/cs.GR + more · 数据可视化"
         - label: "Technical communication — TCQ/JBTC/IEEE ToPC journals · 技术传播"

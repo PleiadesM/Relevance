@@ -43,16 +43,31 @@ It is designed to help those who need to cope with a large amount of information
 - **Apropos-of-Nothing (need an LLM API key):** While this app helps you collect the most relevant information, it also asks your LLM to find a totally irrelevant public-news item and displays it with a short summary and source link.
 
 ---
+## Requirements
+
+An **API key** is a password-like string a service gives you so your dashboard can fetch on your behalf; you paste it into GitHub's Secrets box once, it never appears on your site and is never committed.
+
+| What you need | What it unlocks | Where to get it |
+|---|---|---|
+| `NEWSDASH_PASSPHRASE` (Secret) | Required for any private content — it **is** the login to the site. Without it, a private site refuses to build. | You choose it yourself — at least 4 random words. |
+| `LLM_API_KEY` (+ `LLM_BASE_URL`, `LLM_MODEL` Variables for non-OpenAI providers) | The AI daily brief, Threads, Apropos-of-Nothing, and Today's Image captions. Absent = those blocks are simply omitted, nothing breaks. | Your chosen LLM provider's own dashboard (OpenAI, DeepSeek, OpenRouter, Groq, …). |
+| `SMITHSONIAN_API_KEY` | Today's Image (CC0-only). | [api.data.gov/signup](https://api.data.gov/signup/) |
+| `OPENALEX_API_KEY` | Makes OpenAlex reliable — keyless requests are best-effort and often rejected. | [openalex.org](https://openalex.org/) |
+| `CONTACT_MAILTO` (Variable, not a secret) | Gets you into CrossRef/OpenAlex's "polite pools". | Your own email address. |
+
+Add whichever ones you want — [step 5 of the setup guide](docs/SETUP.md#5-add-your-api-keys) walks through each, click by click. Whatever you skip simply leaves that feature switched off.
+
+---
 ## Quick start
 
 ### Route A — template (no local setup)
 If you want to make a webpage and host it online, please use this route.
 
 1. Click **Use this template → Create a new repository** (public repo recommended — see [cron notes](#automatic-updategithub-actions-and-configuration)).
-2. Go to the **Actions** tab and enable workflows (GitHub shows a banner on templated repos). Run **Update Relevance** once via *Run workflow*, or wait for the cron — the first zero-secret build goes green with the default presets.
+2. Go to the **Actions** tab and enable workflows (GitHub shows a banner on templated repos). Run **Update Relevance** once via *Run workflow*, or wait for the cron — the first build goes green with the default presets, no secrets required.
 3. **Settings → Pages → Deploy from a branch → `main` / `(root)`**. Your dashboard is live.
-4. Open **Issues → New issue → "Set up my Relevance · 配置我的及君"** and fill in the form: language, visibility, theme, title, timezone, preset packs, extra RSS, interest keywords. The setup workflow (owner-guarded) commits your config, re-runs the build, and replies with a bilingual comment — Pages link, secrets deep links, base64 recipes, and the agent kickoff prompt.
-5. For Private / Optional sources, add the secrets listed in that comment (or follow the [setup guide](docs/SETUP.md)) — every source turns itself on the moment its key exists.
+4. For Private / Optional sources, add the secrets from the [Requirements table above](#requirements) (or follow the [setup guide](docs/SETUP.md#5-add-your-api-keys)) — every source turns itself on the moment its key exists.
+5. Open **Issues → New issue → "Set up my Relevance · 配置我的及君"** and fill in the form: language, visibility, theme, title, timezone, preset packs, extra RSS, interest keywords. The setup workflow (owner-guarded) commits your config, re-runs the build, and replies with a bilingual comment — Pages link, secrets deep links, base64 recipes, and the agent kickoff prompt.
 
 ### Route B — local
 If you want to run it locally or on your own server, please use this route.
@@ -98,6 +113,8 @@ and never commit tokens or passphrases into the repo.
 ```
 
 The skill **narrates** secrets setup — which secret to create, where, and how to encode it — but never touches the values themselves. A secret is a GitHub function that stores sensitive information like LLM API keys and passphrases. To know more, [see the instructions below](docs/SETUP.md).
+
+Don't have the skill installed yet? Download it from [the latest release](https://github.com/PleiadesM/Relevance/releases/latest/download/newsdash-skill.zip) and see [SETUP.md step 7a](docs/SETUP.md#7a-install-the-skill) for per-platform install instructions.
 
 - `skills/newsdash/` — **Page Skill｜书童** (maintainer side): classify sources, maintain the pipeline and config, guide deployment. See its [README](skills/newsdash/README.md).
 - A reader-side consumer skill (ask your agent "what's on my Relevance today?") is planned for v0.2.

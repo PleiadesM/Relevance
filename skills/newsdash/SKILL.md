@@ -47,7 +47,7 @@ in this order (one topic at a time, don't dump a questionnaire):
 switching a site to `private` or adding any private source — the build
 refuses to publish plaintext otherwise. If the user wants private mode, get
 the passphrase secret in place first, then apply visibility/source changes
-(this mirrors `docs/SETUP.md` step 4 before step 5).
+(this mirrors `docs/SETUP.md` step 4 before step 6).
 
 Then apply it via ONE of:
 

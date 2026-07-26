@@ -152,7 +152,7 @@ def test_private_visibility_with_passphrase_applies(issue_repo):
 
 
 def test_public_visibility_without_passphrase_applies(issue_repo):
-    """The zero-keys fast lane keeps working with no passphrase at all."""
+    """Public visibility applies with no passphrase secret set at all."""
     body = (FIX / "setup_minimal.md").read_text(encoding="utf-8")
     summary, _ = ios.apply(body, issue_repo)
     assert summary["visibility"] == "public"

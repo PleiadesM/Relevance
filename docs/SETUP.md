@@ -1,11 +1,11 @@
 # Setup Guide — from zero to your own Relevance
 
-This is the click-by-click walkthrough. No terminal required for the core path — everything happens in the GitHub web UI. If you get stuck at any step, jump to the [Troubleshooting table](#9-troubleshooting) at the bottom.
+This is the click-by-click walkthrough. No terminal required for the core path — everything happens in the GitHub web UI. If you get stuck at any step, jump to the [Troubleshooting table](#10-troubleshooting) at the bottom.
 
 **Pick your pace:**
 
-- **Fast lane (10 minutes, zero keys)** → do steps 1–3, then 5. Skip step 4. You get a live news + papers dashboard with the default packs.
-- **Full setup (add ~10 minutes)** → add step 4 (passphrase / private mode) and step 6 (academic packs).
+- **Fast lane** → do steps 1–3, then 6 (file the setup issue with the defaults). Skip steps 4 and 5 for now — you get a live news + papers dashboard on the default packs, and you can add a passphrase or API keys later whenever you want them.
+- **Full setup (add ~10 minutes)** → also do step 4 (passphrase / private mode), step 5 (API keys), and step 8 (academic packs) before filing the setup issue.
 - **Lazy lane** → do steps 1–3, then let AI drive the rest for you ([step 7](#7-let-ai-do-it-for-you)).
 
 ---
@@ -14,7 +14,7 @@ This is the click-by-click walkthrough. No terminal required for the core path �
 
 - A **GitHub account** (free is fine).
 - About **10 minutes** for the first pass.
-- **No API keys.** The default news and academic packs run entirely keyless. Keys only enter the picture later, if you opt into private mode or AI features.
+- Optionally, one or more **API keys** if you want private mode, AI features, or more reliable academic feeds — [step 5](#5-add-your-api-keys) covers all of them. Nothing in this list is required to get a working dashboard first.
 
 ---
 
@@ -38,7 +38,7 @@ This is the click-by-click walkthrough. No terminal required for the core path �
 
 After this, the build re-runs itself automatically every 2 hours — no further clicks needed.
 
-**Want it to run less often?** The cadence is a repo Variable, `NEWSDASH_UPDATE_FREQ`: `2h` (default, ≈ 900 Actions min/month), `3x` a day (≈ 225), or `daily` (≈ 75), at ~2.5 min/run. On a **private** repo (only 2,000 free min/month) pick `3x` or `daily` to stay well under. You can set it right in the setup form ([step 5](#5-personalize-via-the-setup-issue)), or later at Settings → Secrets and variables → Actions → Variables. A manual **Run workflow** always rebuilds regardless.
+**Want it to run less often?** The cadence is a repo Variable, `NEWSDASH_UPDATE_FREQ`: `2h` (default, ≈ 900 Actions min/month), `3x` a day (≈ 225), or `daily` (≈ 75), at ~2.5 min/run. On a **private** repo (only 2,000 free min/month) pick `3x` or `daily` to stay well under. You can set it right in the setup form ([step 6](#6-personalize-via-the-setup-issue)), or later at Settings → Secrets and variables → Actions → Variables. A manual **Run workflow** always rebuilds regardless.
 
 ## 3. Enable Pages
 
@@ -76,7 +76,7 @@ DNS changes take minutes to hours to propagate; verify with
 
 ## 4. Private mode and the passphrase
 
-**Skippable.** If you just want a public dashboard, skip straight to [step 5](#5-personalize-via-the-setup-issue) — this step only matters if you want private mode.
+**Skippable.** If you just want a public dashboard, skip straight to [step 5](#5-add-your-api-keys) (or [step 6](#6-personalize-via-the-setup-issue) if you don't need any keys either) — this step only matters if you want private mode.
 
 One secret turns on encryption for everything personal:
 
@@ -93,49 +93,28 @@ Things to know:
 
 The full crypto design (AES-256-GCM, PBKDF2, envelope format) is documented in [DATA_CONTRACT.md](DATA_CONTRACT.md).
 
-## 5. Personalize via the setup issue
+## 5. Add your API keys
 
-You never need to edit JSON by hand. The repo ships an issue form that a bot reads and applies.
+**Skippable at first** — the default news and academic packs work without any of these, and every feature below simply stays off until its key shows up. Adding them here, before you file the setup issue in [step 6](#6-personalize-via-the-setup-issue), means the features you tick in that form are already live the moment the bot applies it.
 
-1. Go to **Issues → New issue** and pick **"Set up my Relevance · 配置我的及君"**.
-2. Fill in the form:
+An API key is just a password-like string a service gives you so the build can fetch on your behalf. You add it once as a GitHub Secret (or, for the couple of settings that aren't secret, a Variable); it's never committed to the repo and never shown in Actions logs.
 
-   | Field | What it changes |
-   |---|---|
-   | **Interface language** | Default UI language, English or Chinese. Readers can still toggle anytime on the page. |
-   | **Site visibility** | **Public** = news/papers readable by anyone, personal sections still encrypted. **Private** = the *entire* site is encrypted and opens with a passphrase gate — requires the `NEWSDASH_PASSPHRASE` secret to be set first ([step 4](#4-private-mode-and-the-passphrase)). |
-   | **Theme** | `the-type` (typography-first serif), `papermod` (clean system-sans entry cards, adapts hugo-PaperMod), or `blowfish` (lowkey violet with a blurred sticky nav, adapts Blowfish). All three ship a designed dark variant. The old `nyt`/`bear` keys still work and map to `papermod`/`blowfish`. |
-   | **Site title** | The masthead text (optional). |
-   | **Timezone** | IANA name like `America/Chicago` or `Asia/Shanghai` — used for day boundaries (optional). |
-   | **Open news packs** | Tick **AI news** and/or **General news**. Tick nothing and the bot keeps both defaults. |
-   | **Academic packs** | Tick **Data visualization** and/or **Technical communication** — keyless scholarly feeds ([step 6](#6-academic-packs)). |
-   | **Extra RSS feeds** | One feed URL per line; each becomes a source in your news section. |
-   | **Interest keywords** | Comma-separated; items matching these rank higher in your feed. |
-   | **Acknowledgement** | Required checkbox: secrets never go in the issue. |
+| Key | Type | Unlocks |
+|---|---|---|
+| `LLM_API_KEY` (+ `LLM_BASE_URL` / `LLM_MODEL` variables for non-OpenAI providers) | Secret | AI daily brief, Threads, Apropos-of-Nothing, and Today's Image captions — see [5a](#5a-ai-daily-brief--todays-image--apropos-of-nothing-optional) |
+| `SMITHSONIAN_API_KEY` | Secret | Today's Image (needs `LLM_API_KEY` too) — see [5a](#5a-ai-daily-brief--todays-image--apropos-of-nothing-optional) |
+| `OPENALEX_API_KEY` | Secret | Makes OpenAlex reliable — since OpenAlex's 2026 move to a credits system, keyless requests often fail |
+| `CONTACT_MAILTO` | **Variable**, not a Secret | Routes CrossRef/OpenAlex requests into their faster, more reliable "polite pools" |
 
-3. **Submit.** The bot then:
-   - updates `config/site.json` and `config/sources.json` and commits the change,
-   - triggers a rebuild,
-   - **comments back** with your next steps (your Pages URL, a secrets checklist with deep links, and the AI kickoff prompt),
-   - **closes the issue** when everything applied cleanly.
-4. Made a typo or changed your mind? **Edit the issue body** — the bot re-runs on every edit, even after it's closed.
+**Add the OpenAlex key and the contact variable:**
 
-> ⚠️ **Never paste secrets into the issue** — no passphrase, no tokens. The bot actively scans for credential-looking strings and refuses to apply anything if it finds one. Secrets go in **Settings → Secrets and variables → Actions** ([step 4](#4-private-mode-and-the-passphrase)). Also note: the bot applies a form only when the **repository owner is both the issue's author and the person who triggered the run**. Other people's issues on your repo are ignored by design, and so is a collaborator editing *your* setup issue — otherwise anyone with write access could swap in their own answers and have the bot apply them.
+1. **`OPENALEX_API_KEY`** — Settings → Secrets and variables → Actions → New repository secret.
+2. **`CONTACT_MAILTO`** — same page, but the **Variables tab** (not Secrets) → New repository variable → your email address. It's not a secret; it just identifies your bot as a good citizen to CrossRef/OpenAlex.
+3. Re-run **Update Relevance** for either to take effect.
 
-## 6. Academic packs
+These feed the [academic packs](#8-academic-packs) you'll tick in the setup issue — see that section for per-source reliability.
 
-Tick **Data visualization** and/or **Technical communication** in the setup issue ([step 5](#5-personalize-via-the-setup-issue)) — no code editing needed. These pull from keyless scholarly APIs, with varying reliability:
-
-| Source | Keyless reliability |
-|---|---|
-| **arXiv** | ✅ Reliable |
-| **CrossRef** | ✅ Reliable |
-| **OpenAlex** | ⚠️ Best-effort without a key — since OpenAlex's 2026 move to a credits system, keyless requests often fail. Add an **`OPENALEX_API_KEY`** secret to make it reliable. |
-| **Semantic Scholar** | ⚠️ Best-effort — the shared keyless pool is frequently rate-limited. |
-
-One polite thing to do: set the **`CONTACT_MAILTO`** *variable* (note: **Variables tab**, not Secrets — Settings → Secrets and variables → Actions → **Variables** → New repository variable) to your email address. CrossRef and OpenAlex route requests with a contact email into their faster, more reliable "polite pools". It's not a secret; it just identifies your bot as a good citizen.
-
-### 6a. AI daily brief + Today's Image + Apropos-of-Nothing (optional)
+### 5a. AI daily brief + Today's Image + Apropos-of-Nothing (optional)
 
 Off by default — nothing changes until you add a key. Once you do, the Today page gets an AI-written daily brief, a one-line summary inside "Top stories" and "Top papers," and an "Apropos-of-Nothing" card at the end: one intentionally off-profile public-news item with a short AI summary and source link. With a second key, it also gets a "Today's Image" block: a public-domain image loosely matched to the day's content, with a one-sentence AI caption.
 
@@ -161,9 +140,38 @@ Off by default — nothing changes until you add a key. Once you do, the Today p
 
 These features only ever read your `news`/`papers` item titles and short summaries — never your passphrase or full-text article bodies — and skip silently (no error, no cost) if something's temporarily unreachable. `Settings` on your live site shows whether this is "configured." Full details, kill switches (`LLM_SUMMARY_ENABLED=0` / `TODAYS_IMAGE_ENABLED=0` / `APROPOS_OF_NOTHING_ENABLED=0`), and the privacy/egress model: [CONFIG_REFERENCE.md §4a](CONFIG_REFERENCE.md#4a-optional-ai-enrichment-daily-brief--todays-image--apropos-of-nothing) and [SECURITY_MODEL.md §3a](SECURITY_MODEL.md#3a-optional-ai-enrichment-egress-off-by-default).
 
+## 6. Personalize via the setup issue
+
+You never need to edit JSON by hand. The repo ships an issue form that a bot reads and applies.
+
+1. Go to **Issues → New issue** and pick **"Set up my Relevance · 配置我的及君"**.
+2. Fill in the form:
+
+   | Field | What it changes |
+   |---|---|
+   | **Interface language** | Default UI language, English or Chinese. Readers can still toggle anytime on the page. |
+   | **Site visibility** | **Public** = news/papers readable by anyone, personal sections still encrypted. **Private** = the *entire* site is encrypted and opens with a passphrase gate — requires the `NEWSDASH_PASSPHRASE` secret to be set first ([step 4](#4-private-mode-and-the-passphrase)). |
+   | **Theme** | `the-type` (typography-first serif), `papermod` (clean system-sans entry cards, adapts hugo-PaperMod), or `blowfish` (lowkey violet with a blurred sticky nav, adapts Blowfish). All three ship a designed dark variant. The old `nyt`/`bear` keys still work and map to `papermod`/`blowfish`. |
+   | **Site title** | The masthead text (optional). |
+   | **Timezone** | IANA name like `America/Chicago` or `Asia/Shanghai` — used for day boundaries (optional). |
+   | **Open news packs** | Tick **AI news** and/or **General news**. Tick nothing and the bot keeps both defaults. |
+   | **Academic packs** | Tick **Data visualization** and/or **Technical communication** ([step 8](#8-academic-packs)) — add an `OPENALEX_API_KEY` in [step 5](#5-add-your-api-keys) first for reliable OpenAlex results. |
+   | **Extra RSS feeds** | One feed URL per line; each becomes a source in your news section. |
+   | **Interest keywords** | Comma-separated; items matching these rank higher in your feed. |
+   | **Acknowledgement** | Required checkbox: secrets never go in the issue. |
+
+3. **Submit.** The bot then:
+   - updates `config/site.json` and `config/sources.json` and commits the change,
+   - triggers a rebuild,
+   - **comments back** with your next steps (your Pages URL, a secrets checklist with deep links, and the AI kickoff prompt),
+   - **closes the issue** when everything applied cleanly.
+4. Made a typo or changed your mind? **Edit the issue body** — the bot re-runs on every edit, even after it's closed.
+
+> ⚠️ **Never paste secrets into the issue** — no passphrase, no tokens. The bot actively scans for credential-looking strings and refuses to apply anything if it finds one. Secrets go in **Settings → Secrets and variables → Actions** ([step 4](#4-private-mode-and-the-passphrase) / [step 5](#5-add-your-api-keys)). Also note: the bot applies a form only when the **repository owner is both the issue's author and the person who triggered the run**. Other people's issues on your repo are ignored by design, and so is a collaborator editing *your* setup issue — otherwise anyone with write access could swap in their own answers and have the bot apply them.
+
 ## 7. Let AI do it for you
 
-If you use Claude Code, Codex, or a similar coding agent, the repo ships a maintainer skill — **Page Skill｜书童Skill** — that automates steps 4–6. Open your repo in the agent and paste:
+If you use Claude Code, Codex, or a similar coding agent, the repo ships a maintainer skill — **Page Skill｜书童Skill** — that automates the passphrase, API keys, the setup issue, and academic pack selection (steps 4–6 and 8). Open your repo in the agent and paste:
 
 > Use the Page Skill (书童Skill) in this repo. Interview me about my news sources and academic fields; update config/ for me; then guide me through adding each GitHub Secret myself. Never ask me to paste secret values into chat, and never commit URLs that contain tokens.
 
@@ -173,7 +181,56 @@ What to expect:
 - It **edits `config/` for you** and validates the result.
 - For every secret, it **walks you through adding it yourself** in the GitHub UI: it tells you the exact secret name and where to find the value, but it **never asks you to paste secret values into the chat** and never writes them into files. If an agent ever asks for your actual passphrase or token value, refuse — that's not how this skill works.
 
-## 8. Reading your dashboard
+### 7a. Install the skill
+
+The skill is not a standalone app — it's instructions that teach a coding agent to run **your** dashboard: it reads and edits `config/`, `scripts/`, and `docs/` in your own checkout. So you need your own clone of the repo for it to have anything to act on. If all you have is the zip, there's no other way to learn that.
+
+**Download:** <https://github.com/PleiadesM/Relevance/releases/latest/download/newsdash-skill.zip>
+
+- **Claude Code** — `unzip newsdash-skill.zip -d ~/.claude/skills/`. Better yet, if you already have a clone: `ln -s /path/to/your-clone/skills/newsdash ~/.claude/skills/newsdash`, so the installed skill updates itself as the repo does. Note that the repo's own `skills/` folder is **not** a location Claude Code scans for skills — that's exactly why this install step exists.
+- **Claude apps** — upload the zip as a personal skill. It won't track the repo, so re-upload it whenever the skill changes.
+- **Codex / other agents** — unzip it anywhere and point the agent at the folder, keeping your cloned dashboard as the working directory.
+
+### 7b. Prompt library
+
+The kickoff prompt above is a good default, but the skill handles plenty of other jobs. Pick whichever matches what you're trying to do:
+
+**Set up my sources from scratch**
+
+> Use the Page Skill (书童Skill) in this repo. Interview me about what I actually read — my field, the publications and people I follow — then update `config/` for me and validate it. Guide me through adding any GitHub Secret myself, and never ask me to paste a secret value into chat.
+
+**Add one public feed**
+
+> Use the Page Skill in this repo. Add https://example.com/blog as an open source in my news section: find its real feed URL, pick a sensible id and name, update `config/sources.json`, and validate the result.
+
+**Add a private source without exposing its URL**
+
+> Use the Page Skill in this repo. I have a private capability URL for a feed I want in my private section. Set the source up and tell me the exact Secret name to create — but do not ask me to paste that URL into chat, into config, or into an issue.
+
+**Change how the site looks or reads**
+
+> Use the Page Skill in this repo. Switch my theme to papermod, set the site title to "My Desk", and make Chinese the default interface language. Update `config/site.json` and validate.
+
+**Work out why the dashboard is stale or red**
+
+> Use the Page Skill in this repo. My dashboard hasn't updated in days and the latest build is red. Check the most recent Actions run and `data/source-status.json`, tell me which source or secret is at fault, and exactly what to fix.
+
+**Explain what I've currently got**
+
+> Use the Page Skill in this repo. Give me a plain-English inventory of what my dashboard pulls right now: every source and its category, which ones are waiting on a secret, and which optional features are switched off.
+
+## 8. Academic packs
+
+Tick **Data visualization** and/or **Technical communication** in the setup issue ([step 6](#6-personalize-via-the-setup-issue)) — no code editing needed. These pull from scholarly APIs, with varying reliability:
+
+| Source | Keyless reliability |
+|---|---|
+| **arXiv** | ✅ Reliable |
+| **CrossRef** | ✅ Reliable |
+| **OpenAlex** | ⚠️ Best-effort without a key — since OpenAlex's 2026 move to a credits system, keyless requests often fail. Add an **`OPENALEX_API_KEY`** in [step 5](#5-add-your-api-keys) to make it reliable. |
+| **Semantic Scholar** | ⚠️ Best-effort — the shared keyless pool is frequently rate-limited. |
+
+## 9. Reading your dashboard
 
 - **Unlock** — if you have encrypted sections, an unlock button asks for your passphrase (the one from `NEWSDASH_PASSPHRASE`). Wrong passphrase is detected instantly, before any data downloads.
 - **"Remember on this device"** — optional checkbox at unlock. It stores the derived key in your browser so you skip typing next time. Only use it on a device that is genuinely yours: anyone with access to that browser profile can then read your private sections. Locking the site wipes it.
@@ -181,7 +238,7 @@ What to expect:
 - **Theme and language** — switch between English/中文 anytime with the language toggle; switch the theme (`the-type` / `papermod` / `blowfish`) from the page controls or permanently via the setup issue.
 - **Print brief** — the print view formats the current dashboard as a clean paper brief; just use your browser's print (⌘P / Ctrl+P).
 
-## 9. Troubleshooting
+## 10. Troubleshooting
 
 | Symptom | Likely cause → fix |
 |---|---|
@@ -193,7 +250,7 @@ What to expect:
 | **Updates silently stopped** | GitHub **auto-disables cron workflows after 60 days without repo activity**. Actions tab → the workflow shows a "scheduled workflows disabled" banner → click **Enable**. Any commit also resets the clock. |
 | **"Wrong passphrase"** | Check spelling, spacing, and case — it must match the secret exactly. Just changed the secret? The site accepts the *new* passphrase only after the next successful "Update Relevance" run re-encrypts the data. |
 | **Private section says "not configured"** | The build ran without that section's secrets. A private section needs its own secret(s) **and** `NEWSDASH_PASSPHRASE`. Add what's missing, re-run. |
-| **AI brief / Today's Image / Apropos-of-Nothing doesn't appear** | Check `Settings` on your live site — it reports whether `LLM_API_KEY` is configured at all. If it says configured but nothing shows: confirm `LLM_BASE_URL`/`LLM_MODEL` actually match your provider ([step 6a](#6a-ai-daily-brief--todays-image--apropos-of-nothing-optional)); check the latest Actions run's log for `[llm-summary] error: …` or `[apropos-of-nothing:*] error: …`. Today's Image and Apropos-of-Nothing can legitimately be absent on a given run if their public searches find no suitable sourced result. |
+| **AI brief / Today's Image / Apropos-of-Nothing doesn't appear** | Check `Settings` on your live site — it reports whether `LLM_API_KEY` is configured at all. If it says configured but nothing shows: confirm `LLM_BASE_URL`/`LLM_MODEL` actually match your provider ([step 5a](#5a-ai-daily-brief--todays-image--apropos-of-nothing-optional)); check the latest Actions run's log for `[llm-summary] error: …` or `[apropos-of-nothing:*] error: …`. Today's Image and Apropos-of-Nothing can legitimately be absent on a given run if their public searches find no suitable sourced result. |
 
 ---
 

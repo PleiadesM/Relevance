@@ -8,6 +8,55 @@ round of significant changes lands. Format loosely follows
 [Keep a Changelog](https://keepachangelog.com/); versions follow semver
 (minor = feature round, patch = fixes).
 
+## [0.6.3] — 2026-07-26
+
+### Fixed
+- **CI broke the moment a fork personalized itself.** Four tests asserted
+  against the live, user-editable config, so they encoded *this template's*
+  identity (`visibility == "public"`, `title == "Relevance"`) and two of
+  them built the real tree with no secrets. Setting a title or choosing
+  Private — the things this product exists to do — turned CI permanently
+  red for the forker. Invisible from here, because the template's own
+  config is exactly what the tests expected. The smoke tests now build a
+  synthetic template-shaped repo through the existing `make_repo` factory;
+  `ci.yml`'s zero-secret step is guarded on the deployment's own visibility
+  rather than deleted, so this repo keeps proving its real config builds
+  with no secrets at all.
+- `.claude/launch.json` shipped a second preview configuration pointing at
+  an absolute path on the maintainer's own machine. It published that local
+  path and was broken for everyone else. Removed; the remaining
+  configuration is generic.
+
+### Changed
+- **Onboarding follows the real dependency chain**: passphrase (4) → API
+  keys (5) → setup issue (6) → manage sources with an agent (7) → academic
+  packs (8). Keys used to sit *after* the setup issue, so a reader
+  configured their dashboard before enabling what makes it worth reading.
+  Every duplicated ordering moved with it — the README quick start, the
+  skill's step cross-reference, and the in-app tutorial slides, which had
+  keys and site setup the other way round.
+- **Dropped the "10 minutes, zero keys" pitch** for a **Requirements**
+  section in the README: one plain-language definition of what an API key
+  is, then a table of what each key unlocks and where to get it. The
+  engineering invariant is untouched — the zero-secret build must still
+  pass, and does.
+
+### Added
+- **The Page Skill is downloadable.** `release-skill.yml` packages
+  `skills/newsdash` into `newsdash-skill.zip` on every published release,
+  so `/releases/latest/download/newsdash-skill.zip` always serves the
+  current skill; no prebuilt zip is committed, because that copy goes stale
+  the moment `SKILL.md` changes. The bundle carries a generated
+  `INSTALL.md`, since the skill is not a standalone app — it drives *your*
+  checkout, and someone who only sees the zip has no other way to learn
+  that. Install instructions for Claude Code, the Claude apps and Codex are
+  in `docs/SETUP.md` §7a, including the fact that the repo's own `skills/`
+  folder is not a path Claude Code scans for skills.
+- **A prompt library** (§7b) — six worked examples covering first-time
+  source setup, adding a public feed, adding a private source without
+  exposing its URL, restyling the site, diagnosing a stale or red
+  dashboard, and auditing what is configured.
+
 ## [0.6.2] — 2026-07-26
 
 ### Fixed
