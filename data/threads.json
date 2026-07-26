@@ -1,17 +1,178 @@
 {
  "meta": {
-  "count": 2,
-  "generated_at": "2026-07-26T03:52:47Z",
+  "count": 6,
+  "generated_at": "2026-07-26T06:47:25Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "item_id": "7ba4bab2e15251bd",
+     "phrase": {
+      "en": "Training improves AI face spotting",
+      "zh": "训练提升AI脸识别"
+     },
+     "section": "news",
+     "source": "BBC 中文",
+     "url": "https://www.bbc.com/zhongwen/articles/cedjl1vvjdyo/trad?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "86197798b4fd9ee7",
+     "phrase": {
+      "en": "School robot design sparks outrage",
+      "zh": "学校机器人设计引众怒"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/25/nyregion/robot-school-new-york-salamanca.html"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Humans are bad at spotting AI faces, but an hour of training helps. A school robot saga shows how AI faces stir real emotions.",
+    "zh": "人类不擅长识别AI面孔，但一小时训练可改善。学校机器人事件显示AI面孔如何引发真实情绪。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI faces detection",
+    "zh": "AI人脸识别"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about AI and HCI: today a BBC study shows detection can be trained, and a NYT story reveals backlash against an AI-powered school robot's design.",
+    "zh": "你关注AI与人机交互：今日BBC研究显示可训练辨识，NYT报道揭示AI学校机器人设计引发反弹。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "d6d56745ed51eb06",
+     "phrase": {
+      "en": "Clash over Chinese AI openness",
+      "zh": "中国AI开放之争"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/25/technology/open-source-silicon-valley-china.html"
+    },
+    {
+     "item_id": "38781d8d2bcc1733",
+     "phrase": {
+      "en": "LLM running on $8 hardware",
+      "zh": "8美元硬件运行LLM"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://github.com/slvDev/esp32-ai"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Silicon Valley is split over restricting Chinese open-source AI models, while Hacker News discusses running LLMs on tiny hardware, hinting at open-source's reach.",
+    "zh": "硅谷在限制中国开源AI模型上分歧，而Hacker News讨论在微型硬件上运行LLM，暗示开源影响力。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "open-source AI debate",
+    "zh": "开源AI争论"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow LLM regulation and embodied AI: today Anthropic/OpenAI face off against rest of tech on Chinese open models, and someone runs a 28.9M-param LLM on…",
+    "zh": "你关注LLM监管与具身AI：今日Anthropic/OpenAI与科技界就中国开源模型对立，有人在8美元微控制器上运行2890万参数LLM。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "052d48361a9307eb",
+     "phrase": {
+      "en": "300,000 flee homes",
+      "zh": "30万人逃离家园"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/jul/26/europe-wildfires-spain-france-bordeaux-madrid-evacuations"
+    },
+    {
+     "item_id": "e5b90118a68bfad4",
+     "phrase": {
+      "en": "Spain PM warns complex hours",
+      "zh": "西班牙首相警告复杂时刻"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cd7le0d53y2o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "a1dbf1bbd537ada8",
+     "phrase": {
+      "en": "200,000 flee France and Spain",
+      "zh": "20万人逃离法西"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/07/25/nx-s1-5907963/wildfires-spain-france-evacuations"
+    },
+    {
+     "item_id": "5f1e5f5f6ebbe18e",
+     "phrase": {
+      "en": "Smoke chokes skies",
+      "zh": "烟雾笼罩天空"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/25/world/europe/wildfires-photos-spain-france.html"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Hundreds of thousands flee wildfires in France and Spain, with multiple sources covering the scale and impact.",
+    "zh": "法国和西班牙数十万人因野火疏散，多个来源报道其规模和影响。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "wildfire evacuation",
+    "zh": "野火疏散"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-07-25",
+     "item_id": "c4e570a32c5cd58c",
+     "label": {
+      "en": "initial evacuations",
+      "zh": "初步疏散"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/25/world/europe/wildfires-france-spain-bordeaux-madrid.html"
+    },
+    {
+     "date": "2026-07-26",
+     "item_id": "052d48361a9307eb",
+     "label": {
+      "en": "300,000 flee",
+      "zh": "30万人疏散"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/jul/26/europe-wildfires-spain-france-bordeaux-madrid-evacuations"
+    }
+   ],
+   "why_now": {
+    "en": "You care about critical events: today wildfires force over 300,000 to evacuate, covered by four major outlets; a key climate and emergency response story.",
+    "zh": "你关注重大事件：今日野火迫使超30万人疏散，四家主要媒体报道；关键气候与应急事件。"
+   }
+  },
+  {
+   "angles": [
+    {
      "item_id": "227dddbb58437cf0",
      "phrase": {
-      "en": "Suspected Islamic terror attack",
-      "zh": "疑似伊斯兰恐袭"
+      "en": "Suspected terror attack at Pride",
+      "zh": "骄傲节疑似恐袭"
      },
      "section": "news",
      "source": "The New York Times",
@@ -21,130 +182,115 @@
      "item_id": "fc7fd24c1e7c4418",
      "phrase": {
       "en": "Suspect linked to Islamist circles",
-      "zh": "嫌犯与伊斯兰圈子有关"
+      "zh": "嫌疑人与伊斯兰圈子有关"
      },
      "section": "news",
      "source": "NPR News",
      "url": "https://www.npr.org/2026/07/25/nx-s1-5907997/germany-lgbtq-event-dead-injured-pride"
     },
     {
-     "item_id": "ee43d19062f4eb45",
+     "item_id": "da2318bf5eab0013",
      "phrase": {
-      "en": "警方锁定一名嫌犯",
-      "zh": "警方锁定一名嫌犯"
+      "en": "Van mows crowd; fugitive suspect",
+      "zh": "货车冲撞人群；嫌犯在逃"
      },
      "section": "news",
-     "source": "BBC 中文",
-     "url": "https://www.bbc.com/zhongwen/articles/cly5q2r3pyyo/trad?at_medium=RSS&at_campaign=rss"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/jul/25/berlin-pride-march-called-off-after-car-crashes-into-crowd-of-people-near-route"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "A car plowed into a crowd at Berlin Pride, killing one and injuring many.",
-    "zh": "一辆汽车冲入柏林同志游行人群，造成一死多伤。"
+    "en": "A vehicle plows into a crowd at Berlin Pride, killing one and injuring 16; suspect tied to Islamist circles.",
+    "zh": "车辆冲入柏林骄傲节人群，致1死16伤；嫌疑人与伊斯兰圈子有关。"
    },
-   "id": "t1",
+   "id": "t4",
    "keyword": {
     "en": "Berlin Pride attack",
-    "zh": "柏林同志游行袭击"
+    "zh": "柏林骄傲节袭击"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track geopolitical risk: today's suspected terror attack in Berlin demands your attention.",
-    "zh": "你关注地缘政治风险，今日柏林的疑似恐袭值得留意。"
+    "en": "You follow current events and social issues: today a terror attack at a Pride event raises security and political questions across multiple news outlets.",
+    "zh": "你关注时事与社会议题：今日骄傲节恐怖袭击引发多新闻机构对安全与政治的讨论。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "e5b90118a68bfad4",
+     "item_id": "03020dfcc1faed93",
      "phrase": {
-      "en": "Spain PM warns of complex hours",
-      "zh": "西班牙首相警告局势复杂"
+      "en": "Trump laying groundwork to challenge",
+      "zh": "特朗普铺垫挑战结果"
      },
      "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cd7le0d53y2o?at_medium=RSS&at_campaign=rss"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/news/ng-interactive/2026/jul/26/trump-undermine-us-midterms"
     },
     {
-     "item_id": "a1dbf1bbd537ada8",
+     "item_id": "2be8c5d5dedc893d",
      "phrase": {
-      "en": "At least one death in Spain",
-      "zh": "西班牙至少一人死亡"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/07/25/nx-s1-5907963/wildfires-spain-france-evacuations"
-    },
-    {
-     "item_id": "c4e570a32c5cd58c",
-     "phrase": {
-      "en": "Hundreds of thousands evacuate",
-      "zh": "数十万人撤离"
+      "en": "Appeals court upholds blocks",
+      "zh": "上诉法院维持阻止令"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/25/world/europe/wildfires-france-spain-bordeaux-madrid.html"
-    },
-    {
-     "item_id": "5f1e5f5f6ebbe18e",
-     "phrase": {
-      "en": "Smoke chokes skies",
-      "zh": "烟雾遮蔽天空"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/25/world/europe/wildfires-photos-spain-france.html"
-    },
-    {
-     "item_id": "61cec85f7b75d0b0",
-     "phrase": {
-      "en": "Summer of extremes creates conditions",
-      "zh": "极端夏季酿成火灾条件"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/25/world/europe/wildfires-europe-spain-france.html"
+     "url": "https://www.nytimes.com/2026/07/25/us/politics/appeals-court-trump-mail-voting.html"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "Massive wildfires in France and Spain force hundreds of thousands to flee.",
-    "zh": "法国和西班牙的大规模山火迫使数十万人撤离。"
+    "en": "Courts uphold blocks on Trump's mail-voting restrictions, while Trump lays groundwork to challenge midterm results.",
+    "zh": "法院维持阻止特朗普邮寄投票限制的判决，而特朗普为挑战中期选举结果做准备。"
    },
-   "id": "t2",
+   "id": "t5",
    "keyword": {
-    "en": "European wildfires",
-    "zh": "欧洲山火"
+    "en": "mail voting battles",
+    "zh": "邮寄投票之争"
    },
    "relates_to": [],
-   "timeline": [
+   "why_now": {
+    "en": "You care about political rhetoric and data visualization: today's conflicting signals on election integrity intersect with voting access and democracy.",
+    "zh": "你关注政治修辞与数据可视化：今日关于选举诚信的矛盾信号与投票权及民主相交。"
+   }
+  },
+  {
+   "angles": [
     {
-     "date": "2026-07-25",
-     "item_id": "c4e570a32c5cd58c",
-     "label": {
-      "en": "Fires near Madrid and Bordeaux",
-      "zh": "马德里与波尔多附近火灾"
+     "item_id": "9e060c6415654c76",
+     "phrase": {
+      "en": "Wearable AI for fiction writing",
+      "zh": "可穿戴AI辅助写作"
      },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/25/world/europe/wildfires-france-spain-bordeaux-madrid.html"
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.21394v1"
     },
     {
-     "date": "2026-07-26",
-     "item_id": "e5b90118a68bfad4",
-     "label": {
-      "en": "300k flee, more warnings",
-      "zh": "30万人撤离，更多警告"
+     "item_id": "e1e18d3c528abeb2",
+     "phrase": {
+      "en": "Cloudflare new AI traffic options",
+      "zh": "Cloudflare新AI流量选项"
      },
      "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cd7le0d53y2o?at_medium=RSS&at_campaign=rss"
+     "source": "Hacker News (AI filter)",
+     "url": "https://blog.cloudflare.com/content-independence-day-ai-options/"
     }
    ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "New research explores wearable AI for fiction writing on smart glasses, and Cloudflare offers new AI traffic options, both advancing AI in creative and technical workflows.",
+    "zh": "新研究探索智能眼镜上的可穿戴AI辅助小说创作，Cloudflare提供新AI流量选项，均推动AI在创意与技术工作流中的应用。"
+   },
+   "id": "t6",
+   "keyword": {
+    "en": "AI in creative tools",
+    "zh": "AI创意工具"
+   },
+   "relates_to": [],
    "why_now": {
-    "en": "You care about climate impacts: today these fires are the clearest signal of summer extremes.",
-    "zh": "你关注气候影响，今日这些山火是夏季极端天气的最清晰信号。"
+    "en": "You follow HCI and AI: today's papers on wearable creative AI and Cloudflare's AI traffic tools directly relate to your interest in human-AI interaction and…",
+    "zh": "你关注人机交互与AI：今日关于可穿戴创意AI和Cloudflare AI流量工具的研究直接关联你对人机交互与技术传播的兴趣。"
    }
   }
  ]
