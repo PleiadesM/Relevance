@@ -1,5 +1,5 @@
 """Relevance pipeline package."""
 
-__version__ = "0.6.1"
+__version__ = "0.6.2"
 
 APP_NAME = "personal-newsdash"

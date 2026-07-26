@@ -8,6 +8,21 @@ round of significant changes lands. Format loosely follows
 [Keep a Changelog](https://keepachangelog.com/); versions follow semver
 (minor = feature round, patch = fixes).
 
+## [0.6.2] — 2026-07-26
+
+### Fixed
+- **A rebuild dispatched right after a config push could rebuild the OLD
+  config.** `setup-from-issue.yml` pushes `config/` and then immediately
+  runs `gh workflow run update.yml --ref <branch>`; GitHub can still
+  resolve that ref to the pre-push SHA, and `update.yml`'s bare
+  `actions/checkout` then checks out the dispatch SHA rather than the
+  branch tip. Found live on the private deployment: a config commit
+  setting `visibility: "private"` landed, the rebuild dispatched two
+  seconds later resolved to its parent commit, and the site was published
+  **as plaintext** while `config/site.json` already read `private`. The
+  checkout now pins `ref: ${{ github.ref_name }}`, resolving at checkout
+  time so the build always sees the tip.
+
 ## [0.6.1] — 2026-07-26
 
 ### Fixed

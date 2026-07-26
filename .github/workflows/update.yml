@@ -36,8 +36,19 @@ jobs:
     timeout-minutes: 12
     runs-on: ubuntu-latest
     steps:
+      # Check out the BRANCH TIP, not the SHA this run was dispatched at.
+      # setup-from-issue.yml pushes a config change and then immediately
+      # dispatches this workflow; GitHub can still resolve the dispatch ref to
+      # the pre-push SHA, so a bare checkout silently rebuilds the OLD config.
+      # That once published a site as plaintext seconds after its config was
+      # set to `visibility: private` — the config said private, the build that
+      # ran did not. Resolving the ref at checkout time closes that window.
+      # 必须检出分支最新提交，而不是本次运行被派发时的 SHA：配置提交推送后立刻
+      # 派发本工作流，派发端可能仍解析到推送前的 SHA，导致用旧配置重新构建。
       - name: Checkout
         uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref_name }}
 
       - name: Setup Python
         uses: actions/setup-python@v6
