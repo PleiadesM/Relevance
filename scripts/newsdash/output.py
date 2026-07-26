@@ -22,6 +22,15 @@ def read_json(path: Path):
         return json.load(fh)
 
 
+def read_json_or_none(path: Path):
+    """read_json for callers reading the *previous* build's output, where
+    absent or corrupt simply means "no previous state" rather than an error."""
+    try:
+        return read_json(path)
+    except (OSError, ValueError):
+        return None
+
+
 def remove_if_exists(path: Path) -> None:
     try:
         os.remove(path)

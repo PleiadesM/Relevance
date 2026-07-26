@@ -17,9 +17,10 @@ lines never print counts, titles, or error detail here.
 from __future__ import annotations
 
 import argparse
+import hashlib
+import json
 import math
 import os
-import shutil
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -34,7 +35,9 @@ from newsdash.fetchers import FetchContext, get_fetcher
 from newsdash.http import make_session
 from newsdash.manifest import build_manifest
 from newsdash.models import iso_utc
-from newsdash.output import read_json, remove_if_exists, write_json
+from newsdash.output import (
+    read_json, read_json_or_none, remove_if_exists, write_json,
+)
 from newsdash.scoring import apply_tags, score_item
 from newsdash.status import StatusAccumulator
 from newsdash.summarize import summarize
@@ -104,6 +107,52 @@ def archive_item(item: dict) -> dict:
     return d
 
 
+# The item snapshot an article file carries. An allowlist, not to_dict() minus
+# something: `score` decays with recency and so differs on every build, which
+# would defeat the unchanged-file check for every article forever — and a
+# future volatile field would reintroduce that silently.
+ARTICLE_ITEM_FIELDS = (
+    "id", "title", "url", "source", "source_id", "category", "section",
+    "kind", "published_at", "summary", "tags", "lang", "extra",
+    "full_text_available", "full_text_file",
+)
+
+
+def article_item_snapshot(item) -> dict:
+    return {k: v for k, v in item.to_dict().items() if k in ARTICLE_ITEM_FIELDS}
+
+
+def article_content_hash(payload: dict) -> str:
+    """Identity of everything in an article file except when it was built."""
+    body = {k: v for k, v in payload.items() if k != "meta"}
+    return hashlib.sha1(
+        json.dumps(body, ensure_ascii=False, sort_keys=True).encode("utf-8")
+    ).hexdigest()[:16]
+
+
+def load_previous_article_hashes(out_dir: Path, passphrase: str | None) -> dict[str, str]:
+    """item id -> content hash from the previous build's article files."""
+    root = out_dir / ARTICLE_ROOT
+    if not root.is_dir():
+        return {}
+    hashes: dict[str, str] = {}
+    for path in root.rglob("*.json"):
+        try:
+            doc = read_json(path)
+            if path.name.endswith(".enc.json"):
+                if not passphrase:
+                    continue
+                item_id = path.name[: -len(".enc.json")]
+                doc = crypto.decrypt_json(
+                    doc, passphrase, article_section_id(path.parent.name, item_id))
+            meta, item = doc.get("meta") or {}, doc.get("item") or {}
+            if meta.get("content_hash") and item.get("id"):
+                hashes[item["id"]] = meta["content_hash"]
+        except (crypto.DecryptError, ValueError, KeyError, OSError):
+            continue  # unreadable just means it gets rewritten
+    return hashes
+
+
 def write_article_file(
     out_dir: Path,
     *,
@@ -113,6 +162,7 @@ def write_article_file(
     encrypted: bool,
     key: bytes | None,
     salt: bytes | None,
+    previous_hashes: dict[str, str],
 ) -> None:
     item.full_text_file = article_file_name(section, item.id, encrypted)
     payload = {
@@ -123,10 +173,17 @@ def write_article_file(
             "source": item.source,
             "source_id": item.source_id,
         },
-        "item": item.to_dict(),
+        "item": article_item_snapshot(item),
         "full_text": item.full_text,
     }
+    content_hash = article_content_hash(payload)
     path = out_dir / item.full_text_file
+    # Re-encrypting unchanged text yields different ciphertext (fresh nonce),
+    # so writing unconditionally makes git store a new blob for every article
+    # on every run. Leave an unchanged file exactly as it is.
+    if previous_hashes.get(item.id) == content_hash and path.exists():
+        return
+    payload["meta"]["content_hash"] = content_hash
     if encrypted:
         write_json(path, crypto.encrypt_json(
             payload, article_section_id(section, item.id), key, salt))
@@ -211,8 +268,19 @@ def main(argv=None) -> None:
 
     salt = key = crypto_block = None
     if passphrase:
-        salt = crypto.new_salt()
-        key = crypto.derive_key(passphrase, salt)
+        # Keep the previous salt while this passphrase still opens the previous
+        # check block, so the derived key — and therefore an unchanged file's
+        # ciphertext — stays stable across builds. Re-salting every run
+        # re-encrypts every file to different bytes even when nothing changed,
+        # and ciphertext neither compresses nor deltas, so git stores the whole
+        # published tree again on every single run.
+        previous_manifest = read_json_or_none(out_dir / "manifest.json")
+        salt = crypto.reusable_salt(
+            (previous_manifest or {}).get("crypto"), passphrase)
+        if salt is None:
+            salt = crypto.new_salt()
+            print("[crypto] new salt (first build, or the passphrase changed)")
+        key = crypto.derive_key_cached(passphrase, salt, crypto.PBKDF2_ITERATIONS)
         crypto_block = {
             "alg": crypto.ALG,
             "kdf": crypto.kdf_block(salt),
@@ -223,7 +291,12 @@ def main(argv=None) -> None:
     section_categories: dict[str, str] = {}
     manifest_sections: list[dict] = []
     section_meta = {m.id: m for m in cfg.site.sections}
-    shutil.rmtree(out_dir / ARTICLE_ROOT, ignore_errors=True)
+    # Read the previous build's hashes before anything is written: they are
+    # what lets an unchanged article stay untouched. Deleting the tree up front
+    # would be simpler but forces every surviving article to be rewritten.
+    previous_hashes = ({} if args.smoke
+                       else load_previous_article_hashes(out_dir, passphrase))
+    live_articles: set[Path] = set()
 
     for section in cfg.sections:
         meta = section_meta.get(section)
@@ -264,7 +337,9 @@ def main(argv=None) -> None:
                         encrypted=encrypted,
                         key=key,
                         salt=salt,
+                        previous_hashes=previous_hashes,
                     )
+                    live_articles.add(out_dir / it.full_text_file)
             payloads[section] = {
                 "meta": {
                     "generated_at": generated_at,
@@ -423,6 +498,17 @@ def main(argv=None) -> None:
         remove_if_exists(threads_enc)
     if threads_private_file is None:
         remove_if_exists(threads_private_enc)
+
+    # Sweep articles that no longer back a live item — the replacement for the
+    # up-front rmtree.
+    articles_root = out_dir / ARTICLE_ROOT
+    if articles_root.is_dir():
+        for path in list(articles_root.rglob("*.json")):
+            if path not in live_articles:
+                remove_if_exists(path)
+        for section_dir in [d for d in articles_root.iterdir() if d.is_dir()]:
+            if not any(section_dir.iterdir()):
+                section_dir.rmdir()
 
     # ---- archive (open + optional items only; never private data) -------
     previous = load_previous_archive(out_dir, passphrase)

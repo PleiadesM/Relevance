@@ -606,3 +606,86 @@ def test_threads_http_error_leaves_no_file_and_clears_stale(tmp_path, monkeypatc
     assert manifest["threads_file"] is None
     assert manifest["threads_private_file"] is None
     assert not (out / "threads.json").exists(), "stale threads.json must be swept"
+
+
+# ---- private mode must not rewrite unchanged files -----------------------
+
+def rss_with_body(url, title="Story"):
+    pub = format_datetime(datetime.now(timezone.utc), usegmt=True)
+    body = " ".join(f"sentence-{i}" for i in range(140))
+    return f"""<?xml version="1.0"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<channel><title>T</title>
+<item><title>{title}</title><link>{url}</link>
+<pubDate>{pub}</pubDate><description>Short summary</description>
+<content:encoded><![CDATA[<article><p>{body}</p></article>]]></content:encoded>
+</item></channel></rss>"""
+
+
+def private_repo(make_repo):
+    return make_repo(
+        site={"schema_version": 1, "title": "T", "visibility": "private",
+              "languages": ["en", "zh"], "default_language": "en",
+              "theme": "blowfish", "timezone": "UTC",
+              "threads": {"enabled": False}},
+        sources={"schema_version": 1, "presets": [], "sources": [
+            {"id": "a_feed", "type": "rss", "section": "news",
+             "name": "A", "url": "https://a.example/feed.xml"},
+        ]},
+    )
+
+
+def build_twice(tmp_path, make_repo, monkeypatch, second_passphrase=None):
+    monkeypatch.setenv("NEWSDASH_PASSPHRASE", "the original passphrase")
+    monkeypatch.setenv("LLM_SUMMARY_ENABLED", "0")
+    monkeypatch.setenv("LLM_THREADS_ENABLED", "0")
+    monkeypatch.setenv("APROPOS_OF_NOTHING_ENABLED", "0")
+    for _ in range(2):
+        responses.get("https://a.example/feed.xml",
+                      body=rss_with_body("https://a.example/one"))
+    root = private_repo(make_repo)
+    out = tmp_path / "d"
+    build_mod.main(["--output-dir", str(out), "--repo-root", str(root)])
+    before = {p: p.read_bytes() for p in (out / "articles").rglob("*.json")}
+    salt_before = read(out / "manifest.json")["crypto"]["kdf"]["salt"]
+    if second_passphrase:
+        monkeypatch.setenv("NEWSDASH_PASSPHRASE", second_passphrase)
+    build_mod.main(["--output-dir", str(out), "--repo-root", str(root)])
+    after = {p: p.read_bytes() for p in (out / "articles").rglob("*.json")}
+    return out, before, after, salt_before
+
+
+@responses.activate
+def test_unchanged_article_files_are_not_rewritten(tmp_path, monkeypatch, make_repo):
+    # Ciphertext neither compresses nor deltas, so re-encrypting an unchanged
+    # article makes git store a new blob for it on every run.
+    out, before, after, salt_before = build_twice(tmp_path, make_repo, monkeypatch)
+    assert before, "expected at least one article file"
+    assert read(out / "manifest.json")["crypto"]["kdf"]["salt"] == salt_before
+    assert before == after, "an unchanged article must stay byte-identical"
+
+
+@responses.activate
+def test_rotating_the_passphrase_re_salts_and_rewrites(tmp_path, monkeypatch, make_repo):
+    out, before, after, salt_before = build_twice(
+        tmp_path, make_repo, monkeypatch, second_passphrase="a different passphrase")
+    assert read(out / "manifest.json")["crypto"]["kdf"]["salt"] != salt_before
+    assert before and after and before != after
+
+
+@responses.activate
+def test_articles_for_dropped_items_are_swept(tmp_path, monkeypatch, make_repo):
+    monkeypatch.setenv("NEWSDASH_PASSPHRASE", "the original passphrase")
+    for var in ("LLM_SUMMARY_ENABLED", "LLM_THREADS_ENABLED",
+                "APROPOS_OF_NOTHING_ENABLED"):
+        monkeypatch.setenv(var, "0")
+    responses.get("https://a.example/feed.xml",
+                  body=rss_with_body("https://a.example/one", "First"))
+    responses.get("https://a.example/feed.xml",
+                  body=rss_with_body("https://a.example/two", "Second"))
+    root = private_repo(make_repo)
+    out = tmp_path / "d"
+    build_mod.main(["--output-dir", str(out), "--repo-root", str(root)])
+    build_mod.main(["--output-dir", str(out), "--repo-root", str(root)])
+    names = {p.name for p in (out / "articles").rglob("*.json")}
+    assert len(names) == 1, f"stale article left behind: {names}"
