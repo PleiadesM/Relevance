@@ -10,6 +10,11 @@ from datetime import datetime, timezone
 from bs4 import BeautifulSoup
 
 SUMMARY_MAX = 300
+# Elements that end a paragraph. One list, used both to find blocks and to
+# skip a block that merely wraps others, so the two cannot disagree about
+# whether e.g. <div><h2>…</h2></div> emits its text once or twice.
+BLOCK_TAGS = ["p", "div", "li", "blockquote", "pre",
+              "h1", "h2", "h3", "h4", "h5", "h6"]
 _CJK_RE = re.compile(r"[㐀-鿿豈-﫿]")
 
 
@@ -71,6 +76,32 @@ def strip_html(text: str | None) -> str:
     if not text:
         return ""
     return BeautifulSoup(text, "html.parser").get_text(" ", strip=True)
+
+
+def strip_html_blocks(text: str | None) -> str:
+    """Plaintext that keeps paragraph structure, for full-text bodies only.
+
+    ``strip_html`` joins everything with spaces, which is right for a summary
+    but turns an article into one unbroken wall: the reader splits paragraphs
+    on a blank line (``/\\n{2,}/`` in views/reader.js) and finds none, so a
+    five-paragraph piece renders as a single <p>. Block-level elements become
+    blank-line separated here; summaries keep using ``strip_html``.
+    """
+    if not text:
+        return ""
+    soup = BeautifulSoup(text, "html.parser")
+    blocks = soup.find_all(BLOCK_TAGS)
+    if not blocks:
+        return soup.get_text(" ", strip=True)
+    parts = []
+    for block in blocks:
+        # a block that wraps other blocks would repeat its children's text
+        if block.find(BLOCK_TAGS):
+            continue
+        chunk = block.get_text(" ", strip=True)
+        if chunk:
+            parts.append(chunk)
+    return "\n\n".join(parts)
 
 
 def clip(text: str, limit: int = SUMMARY_MAX) -> str:
