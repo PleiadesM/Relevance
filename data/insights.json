@@ -9,40 +9,40 @@
   },
   "summaries": {
    "en": {
-    "summary": "A 404.8-pound giant pumpkin was grown in a trial in Suqian, China.",
-    "why_irrelevant": "It is a niche agricultural feat unrelated to current events, politics, or technology."
+    "summary": "A pumpkin weighing over 400 kg was grown in Suqian, China, as part of an agricultural experiment.",
+    "why_irrelevant": "It is a benign horticultural feat, far from typical personal dashboard topics like politics or disasters."
    },
    "zh": {
-    "summary": "江苏宿迁试种出重达404.8斤的巨型南瓜。",
-    "why_irrelevant": "这是一个小众的农业成就，与当前事件、政治或技术无关。"
+    "summary": "江苏宿迁试种出重达404.8斤的巨型南瓜，母体重801斤。",
+    "why_irrelevant": "这是无关政治的农业趣闻，远离用户常见的信息流内容。"
    }
   },
   "topic": "competitive pumpkin growing"
  },
- "brief": "The Berlin Pride ramming attack, now treated as Islamist terrorism, dominates today's news alongside major wildfires in Europe and new insights into blood sugar control for cognitive health. Research papers focus on transparency in AI assistants, wearable AI for writing, and visualization tools for data and logic programming.",
+ "brief": "Berlin Pride hit by a deadly terror attack, sparking a manhunt; Trump faces constraints on Iran policy; Europe battles wildfires and drone incidents; UK airport chaos and union strikes dominate domestic news.",
  "meta": {
-  "generated_at": "2026-07-26T13:53:37Z"
+  "generated_at": "2026-07-26T15:19:04Z"
  },
- "news_summary": "A van ramming at Berlin Pride killed one and injured 16; police hunt suspect Abdul Ballout, 21, linked to Islamist groups. Wildfires in France and Spain have displaced over 300,000 people, while a study suggests time-restricted eating may reduce cognitive decline in older adults.",
- "papers_summary": "New HCI research explores making conversational AI transparent, using smart glasses for creative writing, and improving augmented reality accessibility for deaf students. Other work presents semantics-driven visualization languages and benchmarking multimodal LLMs for multi-view interfaces.",
+ "news_summary": "A car-ramming at Berlin Pride is treated as Islamist terrorism, with police hunting a suspect. Trump hesitates on war escalation amid internal doubts, while Europe grapples with wildfires and a Romanian drone downing.",
+ "papers_summary": "No priority papers were provided.",
  "summaries": {
   "en": {
-   "brief": "The Berlin Pride ramming attack, now treated as Islamist terrorism, dominates today's news alongside major wildfires in Europe and new insights into blood sugar control for cognitive health. Research papers focus on transparency in AI assistants, wearable AI for writing, and visualization tools for data and logic programming.",
-   "news_summary": "A van ramming at Berlin Pride killed one and injured 16; police hunt suspect Abdul Ballout, 21, linked to Islamist groups. Wildfires in France and Spain have displaced over 300,000 people, while a study suggests time-restricted eating may reduce cognitive decline in older adults.",
-   "papers_summary": "New HCI research explores making conversational AI transparent, using smart glasses for creative writing, and improving augmented reality accessibility for deaf students. Other work presents semantics-driven visualization languages and benchmarking multimodal LLMs for multi-view interfaces."
+   "brief": "Berlin Pride hit by a deadly terror attack, sparking a manhunt; Trump faces constraints on Iran policy; Europe battles wildfires and drone incidents; UK airport chaos and union strikes dominate domestic news.",
+   "news_summary": "A car-ramming at Berlin Pride is treated as Islamist terrorism, with police hunting a suspect. Trump hesitates on war escalation amid internal doubts, while Europe grapples with wildfires and a Romanian drone downing.",
+   "papers_summary": "No priority papers were provided."
   },
   "zh": {
-   "brief": "柏林同志遊行遭汽車衝撞，警方鎖定21歲嫌犯並以恐攻調查；颱風紅霞登陸中國廣東，逾71萬人疏散；研究顯示限制進食時間可減緩老年認知衰退。",
-   "news_summary": "柏林同志遊行發生汽車衝撞事件，造成1死16傷，警方正搜捕涉案人士；今年最強颱風紅霞登陸廣東，逾71萬人疏散。",
-   "papers_summary": "一項研究指出，限制進食時間（睡前四小時不進食）可能有助於減緩老年認知衰退；另有多篇論文探討AI輔助寫作、AR無障礙及數據可視化等主題。"
+   "brief": "柏林同志遊行遭汽車衝撞釀1死16傷，警方鎖定疑似伊斯蘭恐怖攻擊的嫌犯。與此同時，今年最強颱風「紅霞」登陸中國廣東，逾71萬人疏散。",
+   "news_summary": "德國柏林同志驕傲遊行遭汽車衝撞，造成至少1死16傷，警方大規模搜捕21歲嫌疑人；颱風「紅霞」登陸廣東，逾71萬人疏散。",
+   "papers_summary": "今日無重點論文。"
   }
  },
  "todays_image": {
-  "caption": "Just as the cape once cloaked identity, the Berlin Pride attack tore away the festival's veneer of safety.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2012q28334",
-  "source_name": "National Museum of American History",
-  "source_url": null,
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2012q28334&max=150",
-  "title": "Shiffler Company Cape"
+  "caption": "Both feature celebratory processions—one honoring a plague saint, the other a Pride event—intersected by themes of suffering and violence across centuries.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-A78CAE7A4FBB2-000001",
+  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/69628",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-A78CAE7A4FBB2-000001",
+  "title": "A parade float in Reggio, Italy: \"Carro trionfale della Compagnia di S. Rocco\" (The Triumphal Carriage of the Company of St. Roch). Plate 2b from A. Isacchi, \"Relatione di Alfonso Isachi intorno l'origine, solennità, traslatione, et miracoli della Madonna di Reggio [...]\" published by Flaminio Bartoli, Reggio."
  }
 }

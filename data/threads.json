@@ -1,7 +1,7 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-07-26T13:53:37Z",
+  "count": 3,
+  "generated_at": "2026-07-26T15:19:04Z",
   "scope": "public"
  },
  "threads": [
@@ -10,8 +10,8 @@
     {
      "item_id": "052d48361a9307eb",
      "phrase": {
-      "en": "300k flee, Sánchez warns",
-      "zh": "30万人逃离，桑切斯预警"
+      "en": "300,000 flee France and Spain",
+      "zh": "30万人逃离法西"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -20,8 +20,8 @@
     {
      "item_id": "6c1bb13ab3bedb64",
      "phrase": {
-      "en": "fire near Bordeaux, wind hampers",
-      "zh": "波尔多附近山火，大风阻碍"
+      "en": "blaze near Bordeaux threatens",
+      "zh": "波尔多附近火势威胁"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -30,8 +30,8 @@
     {
      "item_id": "b8e989fb013ca9eb",
      "phrase": {
-      "en": "330k evacuated, official count",
-      "zh": "33万人疏散，官方数据"
+      "en": "330,000 evacuated, fires grow",
+      "zh": "33万人撤离，火势扩大"
      },
      "section": "news",
      "source": "BBC World",
@@ -40,8 +40,8 @@
     {
      "item_id": "83d78e16f19afa46",
      "phrase": {
-      "en": "new heat wave compounds crisis",
-      "zh": "新热浪加剧危机"
+      "en": "new heat wave piles pressure",
+      "zh": "新热浪加剧压力"
      },
      "section": "news",
      "source": "The New York Times",
@@ -50,18 +50,18 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Blazing hellscapes devour France and Spain, hundreds of thousands flee.",
-    "zh": "烈焰吞噬法国西班牙，数十万人逃离家园。"
+    "en": "Hundreds of thousands flee as blazes rage across France and Spain, straining resources.",
+    "zh": "数十万人逃离，法国和西班牙大火肆虐，资源告急。"
    },
    "id": "t1",
    "keyword": {
-    "en": "Europe wildfires",
-    "zh": "欧洲山火"
+    "en": "wildfire crisis",
+    "zh": "野火危机"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about climate embodiment: today's evacuations are the largest peacetime move in France.",
-    "zh": "你关注气候的具身影响，今日疏散规模为法国和平时期最大。"
+    "en": "You follow climate and data visualization: today's mass evacuations show scale worth mapping.",
+    "zh": "你关注气候与数据可视化，今日大规模疏散值得制图呈现。"
    }
   },
   {
@@ -69,8 +69,8 @@
     {
      "item_id": "a1a609d6549a2906",
      "phrase": {
-      "en": "suspect linked to Islamist groups",
-      "zh": "嫌疑人关联伊斯兰组织"
+      "en": "hunt for Islamist suspect",
+      "zh": "搜捕伊斯兰嫌疑人"
      },
      "section": "news",
      "source": "The New York Times",
@@ -80,7 +80,7 @@
      "item_id": "26bd3f30c37e115a",
      "phrase": {
       "en": "called terror attack",
-      "zh": "认定为恐袭"
+      "zh": "定性为恐袭"
      },
      "section": "news",
      "source": "The New York Times",
@@ -89,8 +89,8 @@
     {
      "item_id": "7a6b80ca959f83b0",
      "phrase": {
-      "en": "manhunt after Pride ramming",
-      "zh": "骄傲月撞击后追捕"
+      "en": "ramming suspect sought",
+      "zh": "追查冲撞嫌疑人"
      },
      "section": "news",
      "source": "BBC World",
@@ -99,8 +99,8 @@
     {
      "item_id": "da2318bf5eab0013",
      "phrase": {
-      "en": "wanted notice for 21-year-old",
-      "zh": "通缉21岁男子"
+      "en": "wanted notice issued",
+      "zh": "发布通缉令"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -109,8 +109,8 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "A van ramming into a Pride crowd leaves one dead; police hunt the suspect.",
-    "zh": "货车冲撞骄傲月人群致一死，警方追捕嫌疑人。"
+    "en": "A van ramming at a Pride event kills one, injures 16; police hunt an Islamist suspect.",
+    "zh": "一辆货车冲撞骄傲月活动，致1死16伤，警方追捕伊斯兰嫌疑人。"
    },
    "id": "t2",
    "keyword": {
@@ -119,106 +119,47 @@
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track AI & ethics, but today's terror intersects with your general news awareness.",
-    "zh": "你关注AI与伦理，但今日恐袭与你的一般新闻意识相交。"
+    "en": "You follow human-computer interaction and crisis response; attack patterns and manhunt comms are case studies.",
+    "zh": "你关注人机交互与危机应对，袭击模式和追捕过程是案例研究。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "66e2c8f16c9e10fd",
+     "item_id": "3da1ae974e5cfcc9",
      "phrase": {
-      "en": "chatbot subjective Qs",
-      "zh": "聊天机器人的主观问答"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/26/briefing/chatbots-answer-questions.html"
-    },
-    {
-     "item_id": "cf75fc92fc6a3f06",
-     "phrase": {
-      "en": "transparency usability study",
-      "zh": "透明性可用性研究"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.21513v1"
-    },
-    {
-     "item_id": "91cd808c3605dde0",
-     "phrase": {
-      "en": "ethical AI for dementia care",
-      "zh": "痴呆护理中的伦理AI"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.19007v1"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Papers probe how LLMs answer subjective questions and whether transparency aids user trust.",
-    "zh": "论文探究LLM如何回答主观问题以及透明性是否有助于用户信任。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "LLM evaluation & ethics",
-    "zh": "LLM评估与伦理"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow LLM and HCI: today's work directly addresses explainability and subjective response in language models.",
-    "zh": "你关注LLM和人机交互，今日工作直接涉及语言模型的可解释性和主观应答。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "03020dfcc1faed93",
-     "phrase": {
-      "en": "Trump could undermine midterms",
-      "zh": "特朗普可能破坏中期选举"
+      "en": "water failure hits Gatwick",
+      "zh": "断水影响盖特威克"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/news/ng-interactive/2026/jul/26/trump-undermine-us-midterms"
+     "url": "https://www.theguardian.com/uk-news/2026/jul/26/water-supply-failure-gatwick-airport-toilets-bars-restaurants"
     },
     {
-     "item_id": "851d2070608cc2e5",
+     "item_id": "2401649e4f819bf2",
      "phrase": {
-      "en": "Democratic party in disarray",
-      "zh": "民主党内部混乱"
+      "en": "robot parking introduced",
+      "zh": "引入机器人停车"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/26/us/politics/ken-martin-dnc-democrats.html"
-    },
-    {
-     "item_id": "fde64d4ce07cba6c",
-     "phrase": {
-      "en": "geographic-legislative associations",
-      "zh": "地理与立法关联测量"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.21502v1"
+     "source": "Hacker News (AI filter)",
+     "url": "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics/"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "divergent",
    "gloss": {
-    "en": "Trump lays groundwork to challenge November results amid a weakened Democratic party.",
-    "zh": "特朗普为挑战11月结果铺路，而民主党实力减弱。"
+    "en": "Water failure leaves Gatwick with no toilets or drinks, while a robot parking system arises amid the mess.",
+    "zh": "断水导致盖特威克机场无厕所和饮品，机器人停车系统在混乱中冒头。"
    },
-   "id": "t4",
+   "id": "t3",
    "keyword": {
-    "en": "midterm election hacking",
-    "zh": "中期选举篡改"
+    "en": "Gatwick disruption",
+    "zh": "盖特威克混乱"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You study visual rhetoric: the framing of election integrity is a key rhetorical battle today.",
-    "zh": "你研究视觉修辞，今日选举诚信的框架是关键修辞战场。"
+    "en": "You follow embodied AI and HCI: the robot parking story is a real-world automation test at a stressed airport.",
+    "zh": "你关注具身AI与人机交互，机器人停车是在紧张机场中的真实自动化测试。"
    }
   }
  ]
