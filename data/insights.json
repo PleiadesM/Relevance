@@ -1,6 +1,6 @@
 {
  "apropos_of_nothing": {
-  "query": "\"snail racing championship\" OR \"World Snail Racing Championships\"",
+  "query": "\"snail racing championship\" OR \"world snail racing\"",
   "source": {
    "name": "The Times of India",
    "published_at": "2026-07-19T23:37:00Z",
@@ -9,40 +9,40 @@
   },
   "summaries": {
    "en": {
-    "summary": "A snail named Snailor Swift won the World Snail Racing Championships.",
-    "why_irrelevant": "It is an obscure sporting event involving snails."
+    "summary": "A snail named Snailor Swift, after Taylor Swift, won the World Snail Racing Championships in Norfolk.",
+    "why_irrelevant": "It's about snail racing, not news or tech."
    },
    "zh": {
-    "summary": "一只名为“蜗牛尔·斯威夫特”的蜗牛赢得了世界蜗牛赛跑锦标赛。",
-    "why_irrelevant": "这是一个涉及蜗牛的冷门赛事，与主流新闻无关。"
+    "summary": "一只名为“蜗牛泰勒·斯威夫特”的蜗牛在诺福克的世界蜗牛赛跑锦标赛中获胜。",
+    "why_irrelevant": "这与新闻或科技无关，而是关于蜗牛赛跑。"
    }
   },
   "topic": "competitive snail racing"
  },
- "brief": "Wildfires in Spain and France force hundreds of thousands to evacuate as a heatwave grips the US and Europe, while a Berlin Pride event is cut short after a van hits a crowd, and AI and politics dominate UK and US news.",
+ "brief": "A suspected Islamist terror attack at Berlin Pride leaves one dead and 16 injured, while wildfires in France and Spain drive hundreds of thousands from their homes. New research explores usability of conversational AI, AR for deaf students, and ethical AI in dementia care.",
  "meta": {
-  "generated_at": "2026-07-25T23:10:03Z"
+  "generated_at": "2026-07-26T03:52:47Z"
  },
- "news_summary": "Fires and heatwaves impact Spain, France, the US, and the UK; a van attack at Berlin Pride kills one; Trump considers Iran strikes; Maine Senate race sees new nominee; Debian debates LLM use; Biden ghostwriter tapes to be released.",
- "papers_summary": "No research papers were provided in today's priority items.",
+ "news_summary": "Berlin Pride car attack kills one, injures 16; suspect linked to Islamist circles. Wildfires in France and Spain force over 300,000 to evacuate, with at least one death.",
+ "papers_summary": "Studies examine AI transparency in product advisors, AR accessibility for deaf students, and ethical generative AI for social connectedness in dementia care.",
  "summaries": {
   "en": {
-   "brief": "Wildfires in Spain and France force hundreds of thousands to evacuate as a heatwave grips the US and Europe, while a Berlin Pride event is cut short after a van hits a crowd, and AI and politics dominate UK and US news.",
-   "news_summary": "Fires and heatwaves impact Spain, France, the US, and the UK; a van attack at Berlin Pride kills one; Trump considers Iran strikes; Maine Senate race sees new nominee; Debian debates LLM use; Biden ghostwriter tapes to be released.",
-   "papers_summary": "No research papers were provided in today's priority items."
+   "brief": "A suspected Islamist terror attack at Berlin Pride leaves one dead and 16 injured, while wildfires in France and Spain drive hundreds of thousands from their homes. New research explores usability of conversational AI, AR for deaf students, and ethical AI in dementia care.",
+   "news_summary": "Berlin Pride car attack kills one, injures 16; suspect linked to Islamist circles. Wildfires in France and Spain force over 300,000 to evacuate, with at least one death.",
+   "papers_summary": "Studies examine AI transparency in product advisors, AR accessibility for deaf students, and ethical generative AI for social connectedness in dementia care."
   },
   "zh": {
-   "brief": "中國數學家王虹榮獲菲爾茲獎，成為首位獲得該獎的中國公民；同時歐洲野火肆虐，數十萬人被迫撤離。",
-   "news_summary": "中國學者王虹與另一人共同破解百年難題，首奪數學最高榮譽菲爾茲獎。歐洲多國野火蔓延，近30萬人撤離；柏林驕傲遊行發生車輛衝撞事件，致1死15傷。",
-   "papers_summary": "今日無相關研究報告。"
+   "brief": "今日焦点：柏林同志骄傲游行遭汽车冲撞，疑似恐怖袭击致1死16伤；法国和西班牙野火迫使数十万人疏散；另有一项研究显示，短暂训练可帮助人类识别AI生成的面孔。",
+   "news_summary": "柏林同志骄傲游行中一辆汽车冲入人群，造成至少1死16伤，警方锁定一名与伊斯兰圈子有关的嫌疑人，疑似恐怖袭击。法国和西班牙野火导致超过30万人疏散，西班牙总理警告未来数小时严峻。此外，BBC报道称人类可通过一小时训练提高识别AI生成面孔的能力。",
+   "papers_summary": "今日优先论文空缺，但英文论文涵盖AI辅助创意写作、AR无障碍、临床工作流优化等主题。"
   }
  },
  "todays_image": {
-  "caption": "A vintage fire engine plate from an era of smaller, contained blazes contrasts sharply with the modern scale of infernos forcing hundreds of thousands to flee across France and Spain.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q00800",
-  "source_name": "National Museum of American History",
-  "source_url": null,
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q00800&max=150",
-  "title": "Fire Engine Plate, \"Hayes Fire Truck\""
+  "caption": "The aster's star-like petals evoke the Pride rainbow's unity, shattered by a suspected terror attack at Berlin's celebration.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3d1b2a964-ed98-4ee0-8f71-927381c84000",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c/90",
+  "title": "Chaetopappa asteroides (Nutt.) DC."
  }
 }
