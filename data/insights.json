@@ -1,28 +1,48 @@
 {
- "brief": "Heat waves and wildfires rage across Europe, forcing mass evacuations, while a suspected terrorist attack at Berlin Pride leaves one dead. In tech, research explores transparent AI, augmented reality for accessibility, and creative writing tools.",
- "meta": {
-  "generated_at": "2026-07-26T11:35:47Z"
+ "apropos_of_nothing": {
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "source": {
+   "name": "yangtse.com",
+   "published_at": "2026-07-20T08:45:00Z",
+   "title": "视频｜404 . 8斤 ！ 宿迁试种出一巨型南瓜 ， 母体  重801斤",
+   "url": "https://www.yangtse.com/news/jiangsu/202607/t20260720_374032.html"
+  },
+  "summaries": {
+   "en": {
+    "summary": "A 404.8-pound giant pumpkin was grown in a trial in Suqian, China.",
+    "why_irrelevant": "It is a niche agricultural feat unrelated to current events, politics, or technology."
+   },
+   "zh": {
+    "summary": "江苏宿迁试种出重达404.8斤的巨型南瓜。",
+    "why_irrelevant": "这是一个小众的农业成就，与当前事件、政治或技术无关。"
+   }
+  },
+  "topic": "competitive pumpkin growing"
  },
- "news_summary": "Wildfires in France and Spain have forced over 330,000 evacuations, with Spanish PM warning of difficult hours. Berlin police hunt a suspect after a car rammed a Pride parade, killing one. US politics sees Trump reviving cold war rhetoric and push for nuclear energy.",
- "papers_summary": "Studies examine usability of conversational product advisors and AR accessibility for deaf students. New tools like Flint for visualization and NEV for logic programming aim to improve user understanding and learning.",
+ "brief": "The Berlin Pride ramming attack, now treated as Islamist terrorism, dominates today's news alongside major wildfires in Europe and new insights into blood sugar control for cognitive health. Research papers focus on transparency in AI assistants, wearable AI for writing, and visualization tools for data and logic programming.",
+ "meta": {
+  "generated_at": "2026-07-26T13:53:37Z"
+ },
+ "news_summary": "A van ramming at Berlin Pride killed one and injured 16; police hunt suspect Abdul Ballout, 21, linked to Islamist groups. Wildfires in France and Spain have displaced over 300,000 people, while a study suggests time-restricted eating may reduce cognitive decline in older adults.",
+ "papers_summary": "New HCI research explores making conversational AI transparent, using smart glasses for creative writing, and improving augmented reality accessibility for deaf students. Other work presents semantics-driven visualization languages and benchmarking multimodal LLMs for multi-view interfaces.",
  "summaries": {
   "en": {
-   "brief": "Heat waves and wildfires rage across Europe, forcing mass evacuations, while a suspected terrorist attack at Berlin Pride leaves one dead. In tech, research explores transparent AI, augmented reality for accessibility, and creative writing tools.",
-   "news_summary": "Wildfires in France and Spain have forced over 330,000 evacuations, with Spanish PM warning of difficult hours. Berlin police hunt a suspect after a car rammed a Pride parade, killing one. US politics sees Trump reviving cold war rhetoric and push for nuclear energy.",
-   "papers_summary": "Studies examine usability of conversational product advisors and AR accessibility for deaf students. New tools like Flint for visualization and NEV for logic programming aim to improve user understanding and learning."
+   "brief": "The Berlin Pride ramming attack, now treated as Islamist terrorism, dominates today's news alongside major wildfires in Europe and new insights into blood sugar control for cognitive health. Research papers focus on transparency in AI assistants, wearable AI for writing, and visualization tools for data and logic programming.",
+   "news_summary": "A van ramming at Berlin Pride killed one and injured 16; police hunt suspect Abdul Ballout, 21, linked to Islamist groups. Wildfires in France and Spain have displaced over 300,000 people, while a study suggests time-restricted eating may reduce cognitive decline in older adults.",
+   "papers_summary": "New HCI research explores making conversational AI transparent, using smart glasses for creative writing, and improving augmented reality accessibility for deaf students. Other work presents semantics-driven visualization languages and benchmarking multimodal LLMs for multi-view interfaces."
   },
   "zh": {
-   "brief": "柏林同志遊行遭汽車衝撞致1死16傷，警方搜捕涉案人士；今年最強颱風「紅霞」登陸廣東，逾71萬人疏散。",
-   "news_summary": "柏林同志遊行遭汽車衝撞，釀1死16傷，警方大規模搜捕涉案人士；今年最強颱風「紅霞」登陸廣東，逾71萬人提前疏散，多省面臨強風暴雨。",
-   "papers_summary": "本日無優先級論文。"
+   "brief": "柏林同志遊行遭汽車衝撞，警方鎖定21歲嫌犯並以恐攻調查；颱風紅霞登陸中國廣東，逾71萬人疏散；研究顯示限制進食時間可減緩老年認知衰退。",
+   "news_summary": "柏林同志遊行發生汽車衝撞事件，造成1死16傷，警方正搜捕涉案人士；今年最強颱風紅霞登陸廣東，逾71萬人疏散。",
+   "papers_summary": "一項研究指出，限制進食時間（睡前四小時不進食）可能有助於減緩老年認知衰退；另有多篇論文探討AI輔助寫作、AR無障礙及數據可視化等主題。"
   }
  },
  "todays_image": {
-  "caption": "Like the Sikorsky HO5S-1's fragile rotors, modern firefighting helicopters now face the overwhelming heat of Europe's worst wildfires, a battle where every drop of water counts against the inferno.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2019-07783",
-  "source_name": "National Air and Space Museum",
-  "source_url": "http://n2t.net/ark:/65665/nv9e0a63f17-28fa-4cc7-bd8d-aca4ac6e8a15",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2019-07783",
-  "title": "Sikorsky HO5S-1"
+  "caption": "Just as the cape once cloaked identity, the Berlin Pride attack tore away the festival's veneer of safety.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2012q28334",
+  "source_name": "National Museum of American History",
+  "source_url": null,
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2012q28334&max=150",
+  "title": "Shiffler Company Cape"
  }
 }

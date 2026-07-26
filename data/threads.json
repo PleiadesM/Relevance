@@ -1,37 +1,47 @@
 {
  "meta": {
-  "count": 2,
-  "generated_at": "2026-07-26T11:35:47Z",
+  "count": 4,
+  "generated_at": "2026-07-26T13:53:37Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "b8e989fb013ca9eb",
-     "phrase": {
-      "en": "Evacuation numbers climb",
-      "zh": "疏散人数攀升"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/clyj8k4nn5jo?at_medium=RSS&at_campaign=rss"
-    },
-    {
      "item_id": "052d48361a9307eb",
      "phrase": {
-      "en": "Difficult hours ahead",
-      "zh": "艰难时刻在前"
+      "en": "300k flee, Sánchez warns",
+      "zh": "30万人逃离，桑切斯预警"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/world/live/2026/jul/26/europe-wildfires-spain-france-bordeaux-madrid-evacuations"
     },
     {
+     "item_id": "6c1bb13ab3bedb64",
+     "phrase": {
+      "en": "fire near Bordeaux, wind hampers",
+      "zh": "波尔多附近山火，大风阻碍"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/jul/26/firefighters-in-france-battle-to-prevent-huge-blaze-from-approaching-bordeaux"
+    },
+    {
+     "item_id": "b8e989fb013ca9eb",
+     "phrase": {
+      "en": "330k evacuated, official count",
+      "zh": "33万人疏散，官方数据"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/clyj8k4nn5jo?at_medium=RSS&at_campaign=rss"
+    },
+    {
      "item_id": "83d78e16f19afa46",
      "phrase": {
-      "en": "New heat wave coming",
-      "zh": "新一轮热浪来袭"
+      "en": "new heat wave compounds crisis",
+      "zh": "新热浪加剧危机"
      },
      "section": "news",
      "source": "The New York Times",
@@ -40,92 +50,175 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Heat and fire sweep across Europe, forcing hundreds of thousands from their homes.",
-    "zh": "酷暑与野火席卷欧洲，数十万人被迫撤离家园。"
+    "en": "Blazing hellscapes devour France and Spain, hundreds of thousands flee.",
+    "zh": "烈焰吞噬法国西班牙，数十万人逃离家园。"
    },
    "id": "t1",
    "keyword": {
-    "en": "European wildfires",
-    "zh": "欧洲野火"
+    "en": "Europe wildfires",
+    "zh": "欧洲山火"
    },
    "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-07-26",
-     "item_id": "b8e989fb013ca9eb",
-     "label": {
-      "en": "mass evacuations",
-      "zh": "大规模疏散"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/clyj8k4nn5jo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "date": "2026-07-26",
-     "item_id": "052d48361a9307eb",
-     "label": {
-      "en": "Sanchez warns",
-      "zh": "桑切斯警告"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/jul/26/europe-wildfires-spain-france-bordeaux-madrid-evacuations"
-    },
-    {
-     "date": "2026-07-26",
-     "item_id": "83d78e16f19afa46",
-     "label": {
-      "en": "new heat wave",
-      "zh": "新热浪袭来"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/26/weather/europe-heat-what-to-know.html"
-    }
-   ],
    "why_now": {
-    "en": "You follow climate-related disasters: today's evacuations are among the largest peacetime operations in France and Spain.",
-    "zh": "你关注气候灾难，今日的疏散行动是法国和西班牙和平时期最大规模之一。"
+    "en": "You care about climate embodiment: today's evacuations are the largest peacetime move in France.",
+    "zh": "你关注气候的具身影响，今日疏散规模为法国和平时期最大。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "7ba4bab2e15251bd",
+     "item_id": "a1a609d6549a2906",
      "phrase": {
-      "en": "Training to spot AI",
-      "zh": "训练识别人工智能脸"
+      "en": "suspect linked to Islamist groups",
+      "zh": "嫌疑人关联伊斯兰组织"
      },
      "section": "news",
-     "source": "BBC 中文",
-     "url": "https://www.bbc.com/zhongwen/articles/cedjl1vvjdyo/trad?at_medium=RSS&at_campaign=rss"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/26/world/europe/berlin-pride-car-attack.html"
     },
     {
-     "item_id": "7e8d4caeb9823e0b",
+     "item_id": "26bd3f30c37e115a",
      "phrase": {
-      "en": "Mobile data security",
-      "zh": "移动数据安全"
+      "en": "called terror attack",
+      "zh": "认定为恐袭"
      },
      "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/26/world/europe/berlin-gay-pride-attack.html"
+    },
+    {
+     "item_id": "7a6b80ca959f83b0",
+     "phrase": {
+      "en": "manhunt after Pride ramming",
+      "zh": "骄傲月撞击后追捕"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cevmdxz4872o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "da2318bf5eab0013",
+     "phrase": {
+      "en": "wanted notice for 21-year-old",
+      "zh": "通缉21岁男子"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/jul/25/berlin-pride-march-called-off-after-car-crashes-into-crowd-of-people-near-route"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "Humans struggle to spot AI faces, but short training can improve detection.",
-    "zh": "人类难以识别AI生成的脸，但短时训练可提高辨别能力。"
+    "en": "A van ramming into a Pride crowd leaves one dead; police hunt the suspect.",
+    "zh": "货车冲撞骄傲月人群致一死，警方追捕嫌疑人。"
    },
    "id": "t2",
    "keyword": {
-    "en": "AI-generated faces",
-    "zh": "AI生成人脸"
+    "en": "Berlin Pride attack",
+    "zh": "柏林骄傲月袭击"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow visual rhetoric and AI: the ability to tell real from fake shapes trust in visual media.",
-    "zh": "你关注视觉修辞和AI，区分真假的能力塑造了视觉媒体的信任度。"
+    "en": "You track AI & ethics, but today's terror intersects with your general news awareness.",
+    "zh": "你关注AI与伦理，但今日恐袭与你的一般新闻意识相交。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "66e2c8f16c9e10fd",
+     "phrase": {
+      "en": "chatbot subjective Qs",
+      "zh": "聊天机器人的主观问答"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/26/briefing/chatbots-answer-questions.html"
+    },
+    {
+     "item_id": "cf75fc92fc6a3f06",
+     "phrase": {
+      "en": "transparency usability study",
+      "zh": "透明性可用性研究"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.21513v1"
+    },
+    {
+     "item_id": "91cd808c3605dde0",
+     "phrase": {
+      "en": "ethical AI for dementia care",
+      "zh": "痴呆护理中的伦理AI"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.19007v1"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Papers probe how LLMs answer subjective questions and whether transparency aids user trust.",
+    "zh": "论文探究LLM如何回答主观问题以及透明性是否有助于用户信任。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "LLM evaluation & ethics",
+    "zh": "LLM评估与伦理"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow LLM and HCI: today's work directly addresses explainability and subjective response in language models.",
+    "zh": "你关注LLM和人机交互，今日工作直接涉及语言模型的可解释性和主观应答。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "03020dfcc1faed93",
+     "phrase": {
+      "en": "Trump could undermine midterms",
+      "zh": "特朗普可能破坏中期选举"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/news/ng-interactive/2026/jul/26/trump-undermine-us-midterms"
+    },
+    {
+     "item_id": "851d2070608cc2e5",
+     "phrase": {
+      "en": "Democratic party in disarray",
+      "zh": "民主党内部混乱"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/26/us/politics/ken-martin-dnc-democrats.html"
+    },
+    {
+     "item_id": "fde64d4ce07cba6c",
+     "phrase": {
+      "en": "geographic-legislative associations",
+      "zh": "地理与立法关联测量"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.21502v1"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Trump lays groundwork to challenge November results amid a weakened Democratic party.",
+    "zh": "特朗普为挑战11月结果铺路，而民主党实力减弱。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "midterm election hacking",
+    "zh": "中期选举篡改"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You study visual rhetoric: the framing of election integrity is a key rhetorical battle today.",
+    "zh": "你研究视觉修辞，今日选举诚信的框架是关键修辞战场。"
    }
   }
  ]
