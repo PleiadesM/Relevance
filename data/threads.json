@@ -1,228 +1,86 @@
 {
  "meta": {
-  "count": 3,
-  "generated_at": "2026-07-26T17:13:38Z",
+  "count": 2,
+  "generated_at": "2026-07-26T19:32:21Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "b8e989fb013ca9eb",
+     "item_id": "2401649e4f819bf2",
      "phrase": {
-      "en": "evacuations top 330,000",
-      "zh": "疏散超33万人"
+      "en": "robotic parking at Gatwick",
+      "zh": "盖特威克机器人停车"
      },
      "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/clyj8k4nn5jo?at_medium=RSS&at_campaign=rss"
+     "source": "Hacker News (AI filter)",
+     "url": "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics/"
     },
     {
-     "item_id": "052d48361a9307eb",
+     "item_id": "9e060c6415654c76",
      "phrase": {
-      "en": "difficult hours ahead",
-      "zh": "艰难时刻在前"
+      "en": "wearable AI for fiction writing",
+      "zh": "可穿戴AI辅助虚构写作"
      },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/jul/26/europe-wildfires-spain-france-bordeaux-madrid-evacuations"
-    },
-    {
-     "item_id": "83d78e16f19afa46",
-     "phrase": {
-      "en": "new heat wave adds pressure",
-      "zh": "新热浪增加压力"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/26/weather/europe-heat-what-to-know.html"
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.21394v1"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Scorching Europe forces hundreds of thousands to flee, testing emergency systems.",
-    "zh": "灼热欧洲迫使数十万人逃离，考验应急系统。"
+    "en": "Smart glasses use wearable AI to help writers capture real-world inspirations for fiction, blending augmented reality with creative flow.",
+    "zh": "智能眼镜通过可穿戴AI帮助作家捕捉现实世界的灵感，融合增强现实与创作流。"
    },
    "id": "t1",
    "keyword": {
-    "en": "wildfire crisis",
-    "zh": "野火危机"
+    "en": "AI in creative writing",
+    "zh": "AI辅助创意写作"
    },
    "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-07-26",
-     "item_id": "b8e989fb013ca9eb",
-     "label": {
-      "en": "mass evacuations",
-      "zh": "大规模疏散"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/clyj8k4nn5jo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "date": "2026-07-26",
-     "item_id": "052d48361a9307eb",
-     "label": {
-      "en": "Spanish PM warns",
-      "zh": "西班牙首相警告"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/jul/26/europe-wildfires-spain-france-bordeaux-madrid-evacuations"
-    }
-   ],
    "why_now": {
-    "en": "You follow climate and data viz: today's massive evacuations create a real-world dataset for visualizing displacement at scale.",
-    "zh": "你关注气候与数据可视化：今日大规模疏散为可视化大规模流离失所提供了真实数据集。"
+    "en": "You study human computer interaction and embodied cognition: this wearable AI system bridges physical experience and digital creation.",
+    "zh": "你研究人机交互与具身认知：该可穿戴系统连接物理体验与数字创作。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "5d2f143897753165",
+     "item_id": "9165cdbc5004b2a9",
      "phrase": {
-      "en": "Islamist attack declared",
-      "zh": "定性为伊斯兰袭击"
+      "en": "AR ecosystem for Deaf students",
+      "zh": "听障学生的AR生态系统"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.21289v1"
+    },
+    {
+     "item_id": "8c37c1b651362c02",
+     "phrase": {
+      "en": "ban on surveillance pricing",
+      "zh": "禁止监控定价"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/jul/26/berlin-pride-van-knife-rampage-islamist-terrorist-attack-germany"
-    },
-    {
-     "item_id": "a1a609d6549a2906",
-     "phrase": {
-      "en": "suspect linked to groups",
-      "zh": "嫌疑人与组织有关联"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/26/world/europe/berlin-pride-car-attack.html"
-    },
-    {
-     "item_id": "26bd3f30c37e115a",
-     "phrase": {
-      "en": "hunt for suspect",
-      "zh": "追捕嫌疑人"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/26/world/europe/berlin-gay-pride-attack.html"
+     "url": "https://www.theguardian.com/us-news/2026/jul/26/new-jersey-surveillance-pricing-ban"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Deadly van and knife rampage near LGBTQ+ event is called Islamist terror.",
-    "zh": "LGBTQ+活动附近致命撞人持刀袭击被定性为伊斯兰恐怖事件。"
+    "en": "Augmented reality is being reimagined to help Deaf students in experiential learning by reducing split attention between task and interpreter.",
+    "zh": "增强现实被重新构想，帮助听障学生减少在任务与翻译间分散注意力。"
    },
    "id": "t2",
    "keyword": {
-    "en": "Berlin Pride attack",
-    "zh": "柏林骄傲节袭击"
+    "en": "AR accessibility for Deaf",
+    "zh": "AR无障碍与听障学生"
    },
    "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-07-26",
-     "item_id": "5d2f143897753165",
-     "label": {
-      "en": "attack reported",
-      "zh": "袭击报道"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/jul/26/berlin-pride-van-knife-rampage-islamist-terrorist-attack-germany"
-    },
-    {
-     "date": "2026-07-26",
-     "item_id": "a1a609d6549a2906",
-     "label": {
-      "en": "suspect details",
-      "zh": "嫌疑人详情"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/26/world/europe/berlin-pride-car-attack.html"
-    },
-    {
-     "date": "2026-07-26",
-     "item_id": "26bd3f30c37e115a",
-     "label": {
-      "en": "terror probe",
-      "zh": "恐怖调查"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/26/world/europe/berlin-gay-pride-attack.html"
-    }
-   ],
    "why_now": {
-    "en": "You think about critical visualization: the framing of this event across sources shows how security narratives are visually constructed.",
-    "zh": "你思考批判性可视化：各媒体对此事件的框架展示了安全叙事如何被视觉构建。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "f4a8a1254a84c10a",
-     "phrase": {
-      "en": "labor shortage fear",
-      "zh": "劳动力短缺担忧"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/26/us/trump-tps-labor-shortage.html"
-    },
-    {
-     "item_id": "26b4b0a922ce2762",
-     "phrase": {
-      "en": "white supremacist concept",
-      "zh": "白人至上主义概念"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/australia-news/2026/jul/27/get-rid-of-them-one-nation-senator-claims-party-will-remigrate-visa-holders-in-resurfaced-interview-ntwnfb"
-    }
-   ],
-   "convergence": "divergent",
-   "gloss": {
-    "en": "Supreme Court ruling threatens legal status for one million workers; Australian senator uses white supremacist rhetoric on deportations.",
-    "zh": "最高法院裁决威胁百万工人合法身份；澳大利亚参议员使用白人至上主义论调谈遣返。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "immigration and labor",
-    "zh": "移民与劳动力"
-   },
-   "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-07-26",
-     "item_id": "f4a8a1254a84c10a",
-     "label": {
-      "en": "court ruling",
-      "zh": "法院裁决"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/26/us/trump-tps-labor-shortage.html"
-    },
-    {
-     "date": "2026-07-26",
-     "item_id": "26b4b0a922ce2762",
-     "label": {
-      "en": "One Nation remarks",
-      "zh": "一国党言论"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/australia-news/2026/jul/27/get-rid-of-them-one-nation-senator-claims-party-will-remigrate-visa-holders-in-resurfaced-interview-ntwnfb"
-    }
-   ],
-   "why_now": {
-    "en": "You follow HCI and societal impact: policy shifts that uproot people's lives echo the ethical questions in human-centered computing.",
-    "zh": "你关注人机交互与社会影响：颠覆人们生活的政策变迁呼应了以人为本计算中的伦理问题。"
+    "en": "You follow human computer interaction and embodied cognition: this shows how AR can address embodied challenges in learning for diverse users.",
+    "zh": "你关注人机交互与具身认知：这展示了AR如何解决不同用户在学习中的具身挑战。"
    }
   }
  ]
