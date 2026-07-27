@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "query": "tractor pull championship OR modified tractor pulling",
   "source": {
-   "name": "yangtse.com",
-   "published_at": "2026-07-20T08:45:00Z",
-   "title": "视频｜404 . 8斤 ！ 宿迁试种出一巨型南瓜 ， 母体  重801斤",
-   "url": "https://www.yangtse.com/news/jiangsu/202607/t20260720_374032.html"
+   "name": "rocketcitynow.com",
+   "published_at": "2026-07-25T18:59:00Z",
+   "title": "North Alabama Championship Truck & Tractor Pull canceled due to weather conditions",
+   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPQlZGWC12Nk9WWXdfNDRSSURiZER6TTE2d3pQaWpCSGZ1eFdSMkJVNWFNUHBNVVUzQjBfSFZ4ZUFSR3ZQcnN5TVRvTkJxVjdZY0VwWU1XVTZPekE0ZTJ0a1hoT2h2MWtpNndSRWN3RnZZSlVYbExKRDd4X3NYUXlWZkhmZmdKTDdTR0h5M0xmX3dQQzJqR3BNeVduckVRTnlVYjB6RFk2Y21acXNvVVJtSnRxcFl2dVlpQVpBUVVoU3J3cnlNZjVvbFFoYnFFcllEOFhDSDFUQVJQaW1XaXl3NVdjM05CQm5mREVnSld5ZVpHbk1GQjcwMTFyVGJScjQ?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A giant pumpkin weighing 404.8 jin (about 202.4 kg) was grown experimentally in Suqian.",
-    "why_irrelevant": "It's a niche agricultural curiosity far removed from typical personal feeds."
+    "summary": "North Alabama Championship Truck & Tractor Pull canceled due to weather.",
+    "why_irrelevant": "It's a local event cancellation far from tech and politics."
    },
    "zh": {
-    "summary": "宿迁试种出一巨型南瓜，重404.8斤。",
-    "why_irrelevant": "属于小众农业奇闻，远离个人日常信息流。"
+    "summary": "北阿拉巴马州卡车和拖拉机牵引赛因天气取消。",
+    "why_irrelevant": "作为当地赛事取消，远离科技与政治。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "competitive tractor pulling"
  },
- "brief": "Tensions between the US and Iran ease as oil prices fall, while a Seattle food festival shooting leaves three dead. Research focuses on AI for healthcare communication and creative tools.",
+ "brief": "Wildfires rage in France and Spain amid heatwaves, while Trump pauses Iran strikes and UK politics focuses on council tax reform. AI research explores creative and clinical applications, from model bending for artists to virtual patients for medical training.",
  "meta": {
-  "generated_at": "2026-07-27T07:47:44Z"
+  "generated_at": "2026-07-27T11:36:49Z"
  },
- "news_summary": "US pauses strikes on Iran as oil prices slide; at least three killed in Seattle shooting. UK PM pledges Ukraine support, and a comedian clarifies a controversial interview with Australia's PM.",
- "papers_summary": "Papers explore AI-driven virtual patients for breaking bad news, tools for autism assessment, and interactive models for creative arts, highlighting explainability and user-centered design.",
+ "news_summary": "Wildfires continue in France and Spain, with progress in some areas; Trump pauses Iran strikes as Pentagon reports higher casualty figures; UK politics sees debates on council tax fairness and North Sea drilling.",
+ "papers_summary": "Papers discuss explainable AI for artists, AI-driven virtual patients for breaking bad news, and visualization tools for autism assessment and molecular analysis.",
  "summaries": {
   "en": {
-   "brief": "Tensions between the US and Iran ease as oil prices fall, while a Seattle food festival shooting leaves three dead. Research focuses on AI for healthcare communication and creative tools.",
-   "news_summary": "US pauses strikes on Iran as oil prices slide; at least three killed in Seattle shooting. UK PM pledges Ukraine support, and a comedian clarifies a controversial interview with Australia's PM.",
-   "papers_summary": "Papers explore AI-driven virtual patients for breaking bad news, tools for autism assessment, and interactive models for creative arts, highlighting explainability and user-centered design."
+   "brief": "Wildfires rage in France and Spain amid heatwaves, while Trump pauses Iran strikes and UK politics focuses on council tax reform. AI research explores creative and clinical applications, from model bending for artists to virtual patients for medical training.",
+   "news_summary": "Wildfires continue in France and Spain, with progress in some areas; Trump pauses Iran strikes as Pentagon reports higher casualty figures; UK politics sees debates on council tax fairness and North Sea drilling.",
+   "papers_summary": "Papers discuss explainable AI for artists, AI-driven virtual patients for breaking bad news, and visualization tools for autism assessment and molecular analysis."
   },
   "zh": {
-   "brief": "全球多地發生暴力事件，德國柏林驕傲遊行遭襲，美國西雅圖美食節槍擊致3死。颱風紅霞登陸中國廣東，逾71萬人疏散。科技方面，AI虛擬病人用於醫學溝通培訓，擴散模型在藝術領域的應用研究進展。",
-   "news_summary": "德國柏林驕傲遊行發生汽車衝撞襲擊，嫌疑人被警方擊斃；美國西雅圖美食節槍擊致3死4傷，警方搜捕嫌犯。今年最強颱風紅霞登陸中國廣東，逾71萬人提前疏散。",
-   "papers_summary": "一項研究利用AI驅動的虛擬病人幫助醫學生練習傳達壞消息，通過專家研究評估面部表情強度。另一項研究探索如何讓藝術家通過交互式模型彎曲技術理解和修改擴散模型。"
+   "brief": "今日重點：胡志偉獲倫敦入境保釋仍面臨遣返，引發香港國安法關注；中國女童基因編輯治療致死事件曝光，科學界譁然；柏林驕傲遊行遭襲，德國總理譴責。",
+   "news_summary": "胡志偉向BBC否認申請庇護，對遣返後能否再赴英感徬徨；女童基因編輯治療死亡案引發官方調查及學術誠信討論。",
+   "papers_summary": "今日無中文論文，但英文研究聚焦AI在創意、醫療溝通及數據可視化中的應用與倫理。"
   }
  },
  "todays_image": {
-  "caption": "The fair's promise of a bright future contrasts with the dark ambiguity of consent in a \"vibes were good\" defense, both hinging on proof.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-0_258777_97",
-  "source_name": "National Postal Museum",
-  "source_url": "https://postalmuseum.si.edu/object/npm_0.258777.97",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-0_258777_97",
-  "title": "4c Seattle World's Fair plate proof"
+  "caption": "The vintage fire engine plate's legacy of rapid emergency response echoes in the blazing speed of data processing at Meta's Louisiana data center.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q00800",
+  "source_name": "National Museum of American History",
+  "source_url": null,
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q00800&max=150",
+  "title": "Fire Engine Plate, \"Hayes Fire Truck\""
  }
 }

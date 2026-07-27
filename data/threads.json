@@ -1,155 +1,237 @@
 {
  "meta": {
   "count": 3,
-  "generated_at": "2026-07-27T07:47:44Z",
+  "generated_at": "2026-07-27T11:36:49Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "09c48c34825daedb",
+     "item_id": "20e0a0c9a0a068c5",
      "phrase": {
-      "en": "AI accounts spread dubious health advice",
-      "zh": "AI账号传播可疑健康建议"
+      "en": "pause with higher casualty",
+      "zh": "暂停伴随更高伤亡"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/technology/2026/jul/27/misleading-ai-generated-doctors-public-safety-danger-tiktok"
+     "url": "https://www.theguardian.com/us-news/2026/jul/27/first-thing-trump-pause-iran-strikes-pentagon-higher-us-casualties"
     },
     {
-     "item_id": "eaae3b48c61c14d0",
+     "item_id": "cb937322964638f7",
      "phrase": {
-      "en": "AI virtual patient for breaking bad news",
-      "zh": "AI虚拟病人用于告知坏消息"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.22118v1"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "AI-generated doctors dispense dangerous health advice on TikTok, while virtual patients train doctors in breaking bad news.",
-    "zh": "AI生成的医生在TikTok传播危险健康建议，而虚拟病人却用于培训医生告知坏消息。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "AI safety",
-    "zh": "AI安全"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You care about LLM and AI: today's research shows both the peril and promise of AI in healthcare—misinformation vs. training.",
-    "zh": "你关注LLM和AI：今天的研究同时展示了AI在医疗中的危险与希望——虚假信息与培训。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "36c5ed5e5c8e2cbd",
-     "phrase": {
-      "en": "US pauses strikes, military advises stop",
-      "zh": "美军暂停打击，军方建议停止"
+      "en": "oil dives on pause",
+      "zh": "油价因暂停暴跌"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/jul/26/us-pauses-trump-netanyahu-attacks-on-iran-talks-hormuz"
-    },
-    {
-     "item_id": "13b8956da6ba21aa",
-     "phrase": {
-      "en": "US pauses airstrikes, diplomacy moves",
-      "zh": "美暂停空袭，外交推进"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/07/27/g-s1-135611/can-the-u-s-and-iran-take-the-off-ramp"
-    },
-    {
-     "item_id": "c5a28cce61def7f1",
-     "phrase": {
-      "en": "oil falls as fighting pauses",
-      "zh": "停火致油价下跌"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/26/business/oil-prices-fall-iran-war.html"
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/clyj834jn5lo?at_medium=RSS&at_campaign=rss"
     },
     {
      "item_id": "f18f23f111db28cf",
      "phrase": {
-      "en": "oil slides, energy stocks fall",
-      "zh": "油价下滑，能源股下跌"
+      "en": "oil slides, business live",
+      "zh": "油价下滑，商业直播"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/business/live/2026/jul/27/oil-falls-us-iran-pause-fire-astrazeneca-profit-latest-economy-news"
+    },
+    {
+     "item_id": "1e460b5f60f8780e",
+     "phrase": {
+      "en": "pause amid growing risks",
+      "zh": "风险增加中的暂停"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/27/podcasts/the-headlines/us-iran-strikes-measles.html"
+    },
+    {
+     "item_id": "de74bc71201f3717",
+     "phrase": {
+      "en": "brief mention in morning news",
+      "zh": "早间新闻简要提及"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/07/27/nx-s1-5901889/morning-news-brief"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "US pauses strikes on Iran after military advises halt, oil prices fall as fighting pauses.",
-    "zh": "美军在军方建议停止后暂停对伊朗打击，油价因停火而下跌。"
+    "en": "US halts strikes on Iran, oil prices dive, as talks get a chance.",
+    "zh": "美国暂停对伊朗打击，油价暴跌，谈判获得机会。"
    },
-   "id": "t2",
+   "id": "t1",
    "keyword": {
-    "en": "Iran-US conflict",
-    "zh": "伊美冲突"
+    "en": "US-Iran pause",
+    "zh": "美伊暂停"
    },
    "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-07-27",
+     "item_id": "20e0a0c9a0a068c5",
+     "label": {
+      "en": "US pauses Iran strikes",
+      "zh": "美国暂停打击伊朗"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/jul/27/first-thing-trump-pause-iran-strikes-pentagon-higher-us-casualties"
+    },
+    {
+     "date": "2026-07-27",
+     "item_id": "cb937322964638f7",
+     "label": {
+      "en": "oil price dives",
+      "zh": "油价暴跌"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/clyj834jn5lo?at_medium=RSS&at_campaign=rss"
+    }
+   ],
    "why_now": {
-    "en": "You track geopolitics: today the US-Iran de-escalation shifts energy markets and global security.",
-    "zh": "你关注地缘政治：今日美伊局势降级影响能源市场和全球安全。"
+    "en": "You follow geopolitics and AI: the pause shifts global risk calculus, affecting chip supply chains.",
+    "zh": "你关注地缘政治和AI：暂停改变全球风险计算，影响芯片供应链。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "42ad7adc597b000a",
+     "item_id": "8ef0274ee1f577cc",
      "phrase": {
-      "en": "PM pledges Ukraine support before Zelensky visit",
-      "zh": "首相承诺支持乌克兰，泽连斯基将访"
+      "en": "what to know about shooting",
+      "zh": "枪击事件须知"
      },
      "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cy8me5vyjg2o?at_medium=RSS&at_campaign=rss"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/27/us/seattle-shooting-suspect-victims-what-happened.html"
     },
     {
-     "item_id": "21108407ebfc3688",
+     "item_id": "7bd23f818188d3ae",
      "phrase": {
-      "en": "Burnham vows to fix social care",
-      "zh": "伯纳姆誓言修复社会护理"
+      "en": "at least 3 killed",
+      "zh": "至少三人死亡"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/society/2026/jul/27/andy-burnham-vows-to-use-his-political-capital-to-fix-social-care-system"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/26/us/bite-of-seattle-shooting-center.html"
     },
     {
-     "item_id": "03aadd0459daf1e2",
+     "item_id": "de74bc71201f3717",
      "phrase": {
-      "en": "Burnham to meet Zelenskyy at naval base",
-      "zh": "伯纳姆将在海军基地会晤泽连斯基"
+      "en": "morning news brief",
+      "zh": "早间新闻简报"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/jul/26/andy-burnham-to-meet-volodymyr-zelenskyy-uk-ukraine"
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/07/27/nx-s1-5901889/morning-news-brief"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "New PM Burnham supports Ukraine and vows to fix social care, marking a shift in UK priorities.",
-    "zh": "新首相伯纳姆支持乌克兰并誓言修复社会护理，标志英国优先事项转变。"
+    "en": "Three dead at a food festival near the Space Needle; suspects sought.",
+    "zh": "太空针塔附近美食节三人死亡，嫌犯在逃。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "Seattle shooting",
+    "zh": "西雅图枪击"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-07-27",
+     "item_id": "8ef0274ee1f577cc",
+     "label": {
+      "en": "shooting at food festival",
+      "zh": "美食节枪击"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/27/us/seattle-shooting-suspect-victims-what-happened.html"
+    },
+    {
+     "date": "2026-07-27",
+     "item_id": "7bd23f818188d3ae",
+     "label": {
+      "en": "three killed, four injured",
+      "zh": "三死四伤"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/26/us/bite-of-seattle-shooting-center.html"
+    }
+   ],
+   "why_now": {
+    "en": "You follow data viz & HCI: this tragedy underscores the need for situational awareness tools.",
+    "zh": "你关注数据可视化与人机交互：此悲剧凸显情境感知工具的需求。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "75fc4aa0202d20cd",
+     "phrase": {
+      "en": "fire thunderstorms deadly",
+      "zh": "火风暴更致命"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c2350xnl4j5o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "1c2a60343c517d4d",
+     "phrase": {
+      "en": "France fights progress Spain",
+      "zh": "法国战斗西班牙进展"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/07/27/nx-s1-5909107/france-spain-wildfires-updates"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "France battles active wildfires; Spain makes progress as heat wave persists.",
+    "zh": "法国野火持续，西班牙取得进展，热浪持续。"
    },
    "id": "t3",
    "keyword": {
-    "en": "UK politics",
-    "zh": "英国政治"
+    "en": "wildfires Europe",
+    "zh": "欧洲野火"
    },
    "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-07-27",
+     "item_id": "1c2a60343c517d4d",
+     "label": {
+      "en": "France fires continue",
+      "zh": "法国野火持续"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/07/27/nx-s1-5909107/france-spain-wildfires-updates"
+    },
+    {
+     "date": "2026-07-27",
+     "item_id": "75fc4aa0202d20cd",
+     "label": {
+      "en": "fire thunderstorms",
+      "zh": "火风暴"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c2350xnl4j5o?at_medium=RSS&at_campaign=rss"
+    }
+   ],
    "why_now": {
-    "en": "You follow HCI and technical communication: policy changes affect research funding and public service design.",
-    "zh": "你关注人机交互和技术传播：政策变化影响研究经费和公共服务设计。"
+    "en": "You follow embodied AI & climate: fire-generated storms are a new risk for autonomous systems.",
+    "zh": "你关注具身AI与气候：火风暴是自主系统的新风险。"
    }
   }
  ]
