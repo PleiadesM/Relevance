@@ -1,28 +1,48 @@
 {
- "brief": "National emergency test in Australia and US tariffs dominate news; papers focus on AI usability and visualization.",
- "meta": {
-  "generated_at": "2026-07-26T23:10:35Z"
+ "apropos_of_nothing": {
+  "query": "Cueva de las Manos OR Patagonia cave paintings",
+  "source": {
+   "name": "NewsBytes",
+   "published_at": "2026-07-02T07:00:00Z",
+   "title": "5 offbeat ways to experience Patagonia",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQlpqd1Vvbm1VM01lTER4RlNmUENmUGRsUVd3dHpSWmNWNUZOV1U1T2Nab2UtTFRNc1JibUVEd2x2QWJyYUlqdmNQUmdRQnhqdEhaRjhiVGc5MHpYWndlcnFJdnpjX0pVSG9hUkdSSWFtdlhPRlptZVpySE5SWVR5UmNwTEVrOEl1OUVsbDhMWHhHSHdQNE9F?oc=5"
+  },
+  "summaries": {
+   "en": {
+    "summary": "A travel article lists five unconventional activities in Patagonia, including stargazing and glacier hiking.",
+    "why_irrelevant": "It is a travel guide from a news aggregator, not a scientific discovery or historical finding."
+   },
+   "zh": {
+    "summary": "一篇旅游文章列出了巴塔哥尼亚的五种非传统活动，包括观星和冰川徒步。",
+    "why_irrelevant": "这是一篇来自新闻聚合器的旅游指南，而非科学发现或历史发现。"
+   }
+  },
+  "topic": "prehistoric cave art in Patagonia"
  },
- "news_summary": "AusAlert test blares nationwide; US tariffs called 'unjustified'; Berlin Pride attack kills one; Netanyahu accuses NYC mayor of hate speech; Israel-West Bank violence escalates.",
- "papers_summary": "Usability study of conversational product advisors and wearable creative AI for fiction writing highlight HCI research; semantics-driven visualization language Flint introduced.",
+ "brief": "Shootings at a Seattle food festival and a Berlin pride parade leave multiple casualties, while Typhoon Noul hits China and oil prices drop amid US-Iran tensions.",
+ "meta": {
+  "generated_at": "2026-07-27T03:59:23Z"
+ },
+ "news_summary": "Multiple shootings in Seattle and Berlin cause deaths and injuries; Typhoon Noul makes landfall in China; oil prices fall as US-Iran fighting pauses.",
+ "papers_summary": "No research papers available for today.",
  "summaries": {
   "en": {
-   "brief": "National emergency test in Australia and US tariffs dominate news; papers focus on AI usability and visualization.",
-   "news_summary": "AusAlert test blares nationwide; US tariffs called 'unjustified'; Berlin Pride attack kills one; Netanyahu accuses NYC mayor of hate speech; Israel-West Bank violence escalates.",
-   "papers_summary": "Usability study of conversational product advisors and wearable creative AI for fiction writing highlight HCI research; semantics-driven visualization language Flint introduced."
+   "brief": "Shootings at a Seattle food festival and a Berlin pride parade leave multiple casualties, while Typhoon Noul hits China and oil prices drop amid US-Iran tensions.",
+   "news_summary": "Multiple shootings in Seattle and Berlin cause deaths and injuries; Typhoon Noul makes landfall in China; oil prices fall as US-Iran fighting pauses.",
+   "papers_summary": "No research papers available for today."
   },
   "zh": {
-   "brief": "柏林同志遊行遭汽車衝撞，嫌犯被擊斃；最強颱風紅霞登陸廣東，逾71萬人疏散。",
-   "news_summary": "柏林同志遊行遭汽車衝撞，造成1死16傷，嫌犯在警方交火中被擊斃。今年最強颱風紅霞登陸廣東，逾71萬人疏散。",
-   "papers_summary": "今日無相關論文。"
+   "brief": "今日焦点：台风红霞登陆广东致71万人疏散；柏林同志游行遭汽车冲撞1死16伤；同时，美国西雅图美食节发生枪击案，伊朗冲突出现停火迹象。",
+   "news_summary": "台风红霞登陆广东，中国疏散71万人；柏林同志游行遭汽车冲撞致1死16伤；西雅图美食节枪击案致2死5伤；美伊冲突暂歇，油价下跌。",
+   "papers_summary": "今日无重要论文发布。"
   }
  },
  "todays_image": {
-  "caption": "The Eastern Dwarf Siren, a silent amphibian, shares its name with the blaring AusAlert test siren, yet both signal a warning—one natural, one political.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m340180866e3f14da2aa180cb38bd07938",
-  "source_name": "NMNH - Education & Outreach",
-  "source_url": "http://n2t.net/ark:/65665/37be30768-0273-4a2a-9c25-151b51854022",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m340180866e3f14da2aa180cb38bd07938/90",
-  "title": "Eastern Dwarf Siren"
+  "caption": "The 1962 World's Fair stamp promised a future of unity and progress, but today's food festival shooting shattered that vision with bloodshed.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-0_258777_97",
+  "source_name": "National Postal Museum",
+  "source_url": "https://postalmuseum.si.edu/object/npm_0.258777.97",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-0_258777_97",
+  "title": "4c Seattle World's Fair plate proof"
  }
 }
