@@ -1,0 +1,28 @@
+{
+ "full_text": "After a big court loss last week, Google has confirmed that it won’t give up its fight to block AI bots from scraping its search results. And Reddit is weirdly along for the ride.\n\nCuriously invoking the Digital Millennium Copyright Act (DMCA), Google sued SerpApi last December. The search giant accused the web scraper of circumventing its anti-scraping technology and then selling content scraped from Google search results through an unauthorized “Google Search API” software service.\n\nAccording to Google, the anti-scraping tech was in place to protect copyrighted content in search results. Allegedly, SerpApi’s circumvention threatened to disrupt Google’s relationships with rights holders, including some who license content to Google to appear in so-called “knowledge panels” that are displayed in some search results for well-known people or entities.\n\nRead full article\n\nComments",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/05541c74941c9c53.json",
+  "id": "05541c74941c9c53",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-07-27T20:12:42Z",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai",
+  "summary": "Google's and Reddit's use of DMCA to fight web scraper is bizarre, expert says.",
+  "tags": [],
+  "title": "“Google and Reddit do not own the Internet,\" web scraper says after court win",
+  "url": "https://arstechnica.com/tech-policy/2026/07/google-wont-give-up-odd-war-against-ai-web-scraping-despite-court-loss/"
+ },
+ "meta": {
+  "content_hash": "7a901f7a76716be6",
+  "generated_at": "2026-07-27T21:22:03Z",
+  "item_id": "05541c74941c9c53",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai"
+ }
+}

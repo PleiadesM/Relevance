@@ -1,276 +1,126 @@
 {
  "meta": {
-  "count": 5,
-  "generated_at": "2026-07-27T19:52:52Z",
+  "count": 3,
+  "generated_at": "2026-07-27T21:22:03Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "full_text_file": "articles/news/b7f96b39af72afeb.json",
-     "item_id": "b7f96b39af72afeb",
+     "item_id": "cbda5ad37f0c8e09",
      "phrase": {
-      "en": "Verizon bets on AI data center demand",
-      "zh": "Verizon押注AI数据中心需求"
-     },
-     "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/ai/2026/07/verizon-seeks-ai-profits-with-mini-data-centers-1b-dark-fiber-deal-with-google/"
-    },
-    {
-     "item_id": "5f1d3003288009cd",
-     "phrase": {
-      "en": "China's AI firms can't figure profit",
-      "zh": "中国AI公司难以盈利"
+      "en": "Moonshot requires licenses for model",
+      "zh": "Moonshot要求模型许可"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/27/business/china-ai-alibaba-bytedance.html"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Even AI leaders struggle to turn models into money; the promise outpaces the business plan.",
-    "zh": "即使AI领头羊也难以将模型变现，承诺跑在了商业模式前面。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "AI profitability",
-    "zh": "AI盈利"
-   },
-   "relates_to": [
-    "t3"
-   ],
-   "why_now": {
-    "en": "You follow LLM economics; today both China's giants and US infrastructure deals signal the same gap.",
-    "zh": "你关注大模型经济，今天中国巨头和美国基建交易都指向同一个缺口。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "full_text_file": "articles/news/3f8bf3b04c8caea9.json",
-     "item_id": "3f8bf3b04c8caea9",
-     "phrase": {
-      "en": "Hugging Face attack called unprecedented",
-      "zh": "Hugging Face攻击被称前所未有"
-     },
-     "section": "news",
-     "source": "MIT Technology Review · AI",
-     "url": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/"
+     "url": "https://www.nytimes.com/2026/07/27/business/moonshot-kimi-k3-china-ai.html"
     },
     {
-     "item_id": "f24d7e7d64e00e83",
+     "item_id": "2c2404661ec39dc6",
      "phrase": {
-      "en": "Microsoft unveils AI cybersecurity tools",
-      "zh": "微软发布AI网络安全工具"
+      "en": "Anthropic settles authors' copyright suit",
+      "zh": "Anthropic和解作者版权诉讼"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/27/technology/microsoft-unveils-ai-cybersecurity-tools.html"
-    },
-    {
-     "item_id": "5658809c596338d2",
-     "phrase": {
-      "en": "Microsoft's MAI-Cyber-1-Flash model",
-      "zh": "微软MAI-Cyber-1-Flash模型"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/"
-    }
-   ],
-   "convergence": "divergent",
-   "gloss": {
-    "en": "Companies rush to sell AI-powered defenses as attacks on AI systems multiply.",
-    "zh": "随着针对AI系统的攻击增多，公司争相推出AI防御产品。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "AI security tools",
-    "zh": "AI安全工具"
-   },
-   "relates_to": [
-    "t3"
-   ],
-   "why_now": {
-    "en": "You care about AI safety; today Microsoft launched dedicated cybersecurity AI, and OpenAI described an unprecedented attack.",
-    "zh": "你关注AI安全，今天微软推出网络安全专用AI，OpenAI描述了一次前所未有的攻击。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "full_text_file": "articles/news/b7f96b39af72afeb.json",
-     "item_id": "b7f96b39af72afeb",
-     "phrase": {
-      "en": "Verizon touts $1B dark fiber for Google",
-      "zh": "Verizon推销10亿美元暗光纤给谷歌"
-     },
-     "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/ai/2026/07/verizon-seeks-ai-profits-with-mini-data-centers-1b-dark-fiber-deal-with-google/"
-    },
-    {
-     "item_id": "da743486f9b36bce",
-     "phrase": {
-      "en": "Meta's secret data center deal in Louisiana",
-      "zh": "Meta在路易斯安那的秘密数据中心交易"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/27/technology/meta-data-center-louisiana.html"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Tech giants quietly strike secret deals to build massive data centers, reshaping local landscapes.",
-    "zh": "科技巨头悄然达成秘密协议建设巨型数据中心，重塑当地地貌。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "data center expansion",
-    "zh": "数据中心扩张"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You track AI infrastructure; today Meta's secret Louisiana deal and Verizon's Google fiber reveal the scale.",
-    "zh": "你关注AI基础设施，今天Meta的秘密路易斯安那交易和Verizon的谷歌光纤揭示了规模。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "afc4d68761a54e72",
-     "phrase": {
-      "en": "Witnesses describe 'wall of flames'",
-      "zh": "目击者描述‘火墙’"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cly5qwwdvr1o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "0f3d2d4280c2b08c",
-     "phrase": {
-      "en": "Travel advice for France and Spain",
-      "zh": "法国和西班牙旅行建议"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/videos/c89npw4q3g4o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "76d54ba1f1ffb60b",
-     "phrase": {
-      "en": "Heat creates fire cloud",
-      "zh": "高温形成火云"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/27/world/europe/pyrocumulonimbus-fire-cloud-france-wildfires.html"
-    },
-    {
-     "item_id": "933f5c65254e403b",
-     "phrase": {
-      "en": "Race to contain before fresh heatwave",
-      "zh": "在新热浪前争分夺秒"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/jul/27/france-and-spain-race-to-contain-huge-wildfires-before-fresh-heatwave-begins"
-    },
-    {
-     "item_id": "c6687d3c1e90b368",
-     "phrase": {
-      "en": "Evacuees feel like in disaster movie",
-      "zh": "疏散者感觉像在灾难电影中"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/jul/27/it-felt-like-being-in-a-disaster-movie-inside-the-evacuation-from-frances-bordeaux-wildfires"
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/07/27/nx-s1-5904606/authors-wary-of-content-ownership-despite-court-ruling-on-anthropic-case"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "France and Spain battle record wildfires as heatwave returns, forcing mass evacuations.",
-    "zh": "法国和西班牙在热浪回归之际对抗创纪录野火，迫使大规模疏散。"
+    "en": "Chinese startup Moonshot will require licenses for its Kimi K3 model, while Anthropic settles with authors over data use—two sides of the same access-and-rights coin.",
+    "zh": "中国初创公司Moonshot要求对Kimi K3模型获得许可，而Anthropic与作者达成数据使用和解——同一枚准入与权利硬币的两面。"
    },
-   "id": "t4",
+   "id": "t1",
    "keyword": {
-    "en": "wildfire crisis",
-    "zh": "野火危机"
+    "en": "AI model licensing",
+    "zh": "AI模型许可"
    },
    "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-07-27",
-     "item_id": "afc4d68761a54e72",
-     "label": {
-      "en": "peak of crisis",
-      "zh": "危机高峰"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cly5qwwdvr1o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "date": "2026-07-27",
-     "item_id": "afc4d68761a54e72",
-     "label": {
-      "en": "evacuations top 300k",
-      "zh": "疏散超30万"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cly5qwwdvr1o?at_medium=RSS&at_campaign=rss"
-    }
-   ],
    "why_now": {
-    "en": "You follow climate impacts; today the fires create a 'pyrocumulonimbus' and threaten holidays.",
-    "zh": "你关注气候影响，今天大火催生‘火积云’并威胁假期。"
+    "en": "You follow LLM and AI: today's dual news on licensing and copyright settlement shapes how you get access to models.",
+    "zh": "你关注LLM和AI：今日关于许可和版权和解的双重新闻影响着你获取模型的方式。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "a9d3807938af9ace",
+     "item_id": "628ef3bc3fe66816",
      "phrase": {
-      "en": "Capturing virtues in visualization practice",
-      "zh": "捕捉可视化实践中的美德"
+      "en": "Apple regains top spot over Nvidia",
+      "zh": "苹果重夺市值榜首超越英伟达"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.21732v1"
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/27/technology/apple-valuation.html"
     },
     {
-     "item_id": "4be15b15e00ce8a0",
+     "full_text_file": "articles/news/b7f96b39af72afeb.json",
+     "item_id": "b7f96b39af72afeb",
      "phrase": {
-      "en": "Explainable AI for artists' bending",
-      "zh": "面向艺术家的可解释AI调试"
+      "en": "Verizon $1B dark fiber for Google AI",
+      "zh": "Verizon 10亿美元暗光纤用于谷歌AI"
+     },
+     "section": "news",
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/ai/2026/07/verizon-seeks-ai-profits-with-mini-data-centers-1b-dark-fiber-deal-with-google/"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Verizon's $1B dark fiber deal for Google data centers and Apple's market cap surge over Nvidia both signal that AI's physical backbone is where the real value lies.",
+    "zh": "Verizon为谷歌数据中心投入10亿美元暗光纤交易，苹果市值超越英伟达，都表明AI的物理基础架构才是真正价值所在。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "AI and data center infrastructure",
+    "zh": "AI与数据中心基础设施"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow AI: these two business moves today underline the infrastructure race behind every AI model you use.",
+    "zh": "你关注AI：今日这两项商业举措凸显了你所用每个AI模型背后的基础设施竞赛。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "eaae3b48c61c14d0",
+     "phrase": {
+      "en": "AI virtual patient for bad news",
+      "zh": "AI虚拟病人用于告知坏消息"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.22428v1"
+     "url": "https://arxiv.org/abs/2607.22118v1"
+    },
+    {
+     "item_id": "be816a62bc41de1f",
+     "phrase": {
+      "en": "AI decision support for autism",
+      "zh": "AI决策支持用于自闭症"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.22005v1"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Researchers ask what values and virtues underpin visualization design, moving beyond technical correctness.",
-    "zh": "研究者追问可视化设计背后的价值观和美德，超越技术正确性。"
+    "en": "Two new papers explore AI-driven virtual patients for breaking bad news and AI decision support for autism assessment, pushing simulation into sensitive clinical contexts.",
+    "zh": "两篇新论文探索了用于告知坏消息的AI驱动虚拟病人和自闭症评估的AI决策支持，将模拟推进到敏感的临床情境。"
    },
-   "id": "t5",
+   "id": "t3",
    "keyword": {
-    "en": "critical visualization ethics",
-    "zh": "批判性可视化伦理"
+    "en": "AI in healthcare communication",
+    "zh": "AI医疗沟通"
    },
-   "relates_to": [
-    "t4"
-   ],
+   "relates_to": [],
    "why_now": {
-    "en": "You care about critical visualization and ethics; today's papers explicitly frame moral dimensions of your craft.",
-    "zh": "你关注批判性可视化和伦理，今天的研究明确提出了你所在领域的美德维度。"
+    "en": "You follow LLM and HCI: these two arXiv papers from today show how LLMs are being embedded in high-stakes human interactions.",
+    "zh": "你关注LLM和人机交互：今日这两篇arXiv论文展示了大语言模型如何被嵌入高风险人际交互中。"
    }
   }
  ]
