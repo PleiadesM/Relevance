@@ -23,6 +23,7 @@ import base64
 import json
 import os
 import unicodedata
+from functools import lru_cache
 
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.ciphers.aead import AESGCM
@@ -115,6 +116,56 @@ def make_check_block(key: bytes, salt: bytes, iterations: int = PBKDF2_ITERATION
     return {"aad": env["aad"], "nonce": env["nonce"], "ct": env["ct"]}
 
 
+def reusable_salt(previous_crypto: dict | None, passphrase: str) -> bytes | None:
+    """The previous build's salt, when this passphrase still opens its check
+    block. ``None`` means mint a fresh one.
+
+    A stable salt keeps the derived key stable, which is what lets a build
+    leave an unchanged ``*.enc.json`` on disk untouched. Re-salting every run
+    re-encrypts every file to different bytes even when nothing changed, and
+    since ciphertext does not compress, git then stores a full new blob for
+    the entire published tree on every single run.
+
+    Reusing it is not a weakening: a salt exists to stop one precomputation
+    from attacking many passphrases, and it is public in the manifest either
+    way — one deployment with one passphrase legitimately has one salt. What
+    must never repeat under a given key is the *nonce*, and every call to
+    encrypt_bytes still draws a fresh random one. When the passphrase is
+    rotated the check block stops opening, so a rotation naturally re-salts.
+    """
+    if not previous_crypto or not passphrase:
+        return None
+    kdf, check = previous_crypto.get("kdf") or {}, previous_crypto.get("check") or {}
+    if kdf.get("name") != KDF_NAME or kdf.get("hash") != KDF_HASH:
+        return None
+    try:
+        salt = _b64d(kdf["salt"])
+        key = derive_key_cached(passphrase, salt, int(kdf["iterations"]))
+        if decrypt_envelope({**check, "kdf": kdf}, passphrase,
+                            CHECK_SECTION) != CHECK_PLAINTEXT:
+            return None
+    except (DecryptError, KeyError, ValueError, TypeError):
+        return None
+    return salt if len(salt) == SALT_LEN and key else None
+
+
+def derive_key_cached(passphrase: str, salt: bytes, iterations: int) -> bytes:
+    """derive_key memoized on its inputs, for callers that open many envelopes.
+
+    PBKDF2 at 600k iterations costs ~0.13s per call, and every file a single
+    build writes shares one salt — so decrypting a tree of ~200 article files
+    would otherwise burn half a minute of CPU deriving the same key 200 times.
+    Cache key includes the salt and iteration count, so an envelope written
+    under different parameters still derives its own key.
+    """
+    return _derive_key_memo(passphrase, bytes(salt), iterations)
+
+
+@lru_cache(maxsize=8)
+def _derive_key_memo(passphrase: str, salt: bytes, iterations: int) -> bytes:
+    return derive_key(passphrase, salt, iterations)
+
+
 def decrypt_envelope(env: dict, passphrase: str, section_id: str | None = None) -> bytes:
     aad = env.get("aad", "")
     if not aad.startswith(AAD_PREFIX):
@@ -124,7 +175,7 @@ def decrypt_envelope(env: dict, passphrase: str, section_id: str | None = None) 
     kdf = env["kdf"]
     if kdf.get("name") != KDF_NAME or kdf.get("hash") != KDF_HASH:
         raise DecryptError("unsupported KDF parameters")
-    key = derive_key(passphrase, _b64d(kdf["salt"]), int(kdf["iterations"]))
+    key = derive_key_cached(passphrase, _b64d(kdf["salt"]), int(kdf["iterations"]))
     try:
         return AESGCM(key).decrypt(
             _b64d(env["nonce"]), _b64d(env["ct"]), aad.encode("utf-8")

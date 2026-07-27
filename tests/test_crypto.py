@@ -77,3 +77,37 @@ def test_committed_vector_decrypts(repo_root):
                                   vector["section"])
     assert payload == vector["payload"]
     assert vector["envelope"]["kdf"]["iterations"] == crypto.PBKDF2_ITERATIONS
+
+
+# ---- salt reuse ----------------------------------------------------------
+
+def test_reusable_salt_returns_the_previous_salt_for_the_same_passphrase():
+    salt = crypto.new_salt()
+    key = crypto.derive_key("four random words here", salt)
+    block = {"alg": crypto.ALG, "kdf": crypto.kdf_block(salt),
+             "check": crypto.make_check_block(key, salt)}
+    assert crypto.reusable_salt(block, "four random words here") == salt
+
+
+def test_reusable_salt_refuses_a_rotated_passphrase():
+    salt = crypto.new_salt()
+    key = crypto.derive_key("the original passphrase", salt)
+    block = {"alg": crypto.ALG, "kdf": crypto.kdf_block(salt),
+             "check": crypto.make_check_block(key, salt)}
+    assert crypto.reusable_salt(block, "a different passphrase") is None
+
+
+def test_reusable_salt_handles_missing_or_malformed_input():
+    assert crypto.reusable_salt(None, "pass phrase words here") is None
+    assert crypto.reusable_salt({}, "pass phrase words here") is None
+    assert crypto.reusable_salt({"kdf": {"name": "scrypt"}}, "pass phrase") is None
+
+
+def test_derive_key_cache_is_keyed_on_all_inputs():
+    a, b = crypto.new_salt(), crypto.new_salt()
+    assert (crypto.derive_key_cached("pass phrase here", a, 1000)
+            == crypto.derive_key("pass phrase here", a, 1000))
+    assert (crypto.derive_key_cached("pass phrase here", a, 1000)
+            != crypto.derive_key_cached("pass phrase here", b, 1000))
+    assert (crypto.derive_key_cached("pass phrase here", a, 1000)
+            != crypto.derive_key_cached("pass phrase here", a, 2000))
