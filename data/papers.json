@@ -1,19 +1,476 @@
 {
- "items": [],
+ "items": [
+  {
+   "authors": [
+    "Ahmed M. Abuzuraiq",
+    "Philippe Pasquier"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Explainable AI (XAI) in creative practice can be less about technocentric explanation and more about enabling artists to inspect modify and debug models as part of making Yet largescale texttoimage diffusion systems are typically presented as opaque endtoend tools limiting this kind of material engagement We argue that even large models can function as creative materials when their internal structure is made visible and manipulable To support this we propose a handson approach to explainability…",
+    "arxiv_id": "2607.22428"
+   },
+   "id": "4be15b15e00ce8a0",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-24T15:48:38Z",
+   "score": 0.5626,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Explainable AI (XAI) in creative practice can be less about technocentric explanation and more about enabling artists to inspect modify and debug models as part of making Yet largescale texttoimage diffusion systems are typically presented as opaque endtoend tools limiting this kind of material…",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "Unboxing Diffusion Models for the Arts: Interactive Model Bending and Practice-Based Explainability",
+   "url": "https://arxiv.org/abs/2607.22428v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Steffen Hauck",
+    "Theresa Schell",
+    "Sophie Jörg",
+    "Jens Grubert"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Interactive virtual patients driven by large language models (LLMs) offer scalable solutions for medical communication training, such as breaking bad news. However, designing their emotional expressiveness remains a challenge. This paper presents an AI-driven virtual patient framework combining LLM dialogue with real-time facial animation in virtual reality (VR). We conducted an exploratory, formative evaluation with seven medical experts to gather early feedback and elicit design requirements.…",
+    "arxiv_id": "2607.22118"
+   },
+   "id": "eaae3b48c61c14d0",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-24T09:12:19Z",
+   "score": 0.6867,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Interactive virtual patients driven by large language models (LLMs) offer scalable solutions for medical communication training, such as breaking bad news. However, designing their emotional expressiveness remains a challenge. This paper presents an AI-driven virtual patient framework combining LLM…",
+   "tags": [
+    "ai-writing",
+    "ux",
+    "llm"
+   ],
+   "title": "An AI-Driven Virtual Patient for Breaking Bad News: An Expert Formative Study on Facial Expression Intensity",
+   "url": "https://arxiv.org/abs/2607.22118v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Jan K. Argasinski"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Affect-adaptive systems increasingly act as communicators that sense a user's emotion and respond with events meant to change it, closing an affective loop. This vision assumes both that a machine's affective messages are received and that the bodily channel it monitors carries an intelligible reply-assumptions rarely tested together. In a within-subjects virtual-reality study (N = 20), an autonomous system delivered six empirically derived affective patterns-scripted emotional events distilled…",
+    "arxiv_id": "2607.22104"
+   },
+   "id": "bdc9574fcb093cbb",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-24T08:56:30Z",
+   "score": 0.3536,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Affect-adaptive systems increasingly act as communicators that sense a user's emotion and respond with events meant to change it, closing an affective loop. This vision assumes both that a machine's affective messages are received and that the bodily channel it monitors carries an intelligible…",
+   "tags": [
+    "ai-writing",
+    "ux"
+   ],
+   "title": "The machine can say it but cannot hear it. Designed affective patterns and the expressive-sensing asymmetry in human-machine communication",
+   "url": "https://arxiv.org/abs/2607.22104v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Ulrike Schäfer",
+    "William Saakyan",
+    "Matthias Norden",
+    "Fabrizio Kuruc",
+    "Peter Sörries",
+    "Isabel Dziobek"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "AI methods promise to support autism spectrum condition (ASC) diagnostics in adults, a complex and time-consuming process, that is characterized by a shortage of specialized clinicians. To date, clinicians' needs and their interaction with such AI-based support remain underexplored. Our work aims to develop and evaluate an AI-based clinical decision support system (CDSS) for ASC assessment, and to investigate how it impacts clinicians' decision-making. By interviewing clinicians of varying…",
+    "arxiv_id": "2607.22005"
+   },
+   "id": "be816a62bc41de1f",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-24T06:10:06Z",
+   "score": 0.5798,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "AI methods promise to support autism spectrum condition (ASC) diagnostics in adults, a complex and time-consuming process, that is characterized by a shortage of specialized clinicians. To date, clinicians' needs and their interaction with such AI-based support remain underexplored. Our work aims…",
+   "tags": [
+    "systems"
+   ],
+   "title": "What Clinicians Need: Designing, Developing and Evaluating an AI-Based Decision Support System for Autism Assessment",
+   "url": "https://arxiv.org/abs/2607.22005v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Shiyi Liu",
+    "Jiaqing Chen",
+    "Nicholas Hadler",
+    "Rostyslav Hnatyshyn",
+    "Michael W. Mahoney",
+    "Talita Perciano"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Chemists and materials scientists increasingly use machine learning models, such as graph neural networks (GNNs), to predict properties of molecules and the outcomes of their reactions. Beyond predictive performance, understanding how these models organize chemical information internally in their latent spaces, i.e., the embeddings of the molecules, is critical. Analyzing latent spaces helps diagnose model behavior and assess whether the learned embeddings are organized in ways that reflect…",
+    "arxiv_id": "2607.21941"
+   },
+   "id": "c2411e1a5e9811ca",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-24T03:33:38Z",
+   "score": 0.3816,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Chemists and materials scientists increasingly use machine learning models, such as graph neural networks (GNNs), to predict properties of molecules and the outcomes of their reactions. Beyond predictive performance, understanding how these models organize chemical information internally in their…",
+   "tags": [
+    "ml-vis",
+    "visualization"
+   ],
+   "title": "LatentFlow: Visual Analytics for Latent Space Analysis in Molecular Graph Neural Networks",
+   "url": "https://arxiv.org/abs/2607.21941v1",
+   "venue": "arXiv cs.LG"
+  },
+  {
+   "authors": [
+    "Yuki Ueno",
+    "Bretho Danzy",
+    "Zhuojun Jiang",
+    "Chris Bryan"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Visual data analysis involves both open-ended exploration and targeted question answering. Visualization authoring tools support this process by enabling users to create visualizations for these tasks. With the rise of large language models, substantial effort has been devoted to developing visualization authoring tools that use natural language instructions. However, existing systems are typically based on a linear chat interface, which is not well suited to exploratory visual analysis…",
+    "arxiv_id": "2607.21886"
+   },
+   "id": "ca8890afeb9c967d",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-24T01:30:58Z",
+   "score": 0.5697,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Visual data analysis involves both open-ended exploration and targeted question answering. Visualization authoring tools support this process by enabling users to create visualizations for these tasks. With the rise of large language models, substantial effort has been devoted to developing…",
+   "tags": [
+    "ml-vis",
+    "llm",
+    "visualization"
+   ],
+   "title": "VisCanvas: A Node-based Interface for Exploratory Visualization Authoring with LLMs",
+   "url": "https://arxiv.org/abs/2607.21886v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Ziming Li",
+    "Roshan L. Peiris"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Autistic individuals often face barriers in workplace communication, where soft skills are embedded within ongoing tasks and surrounding environment context, not in isolated verbal exchange. Recent work has introduced LLM-driven agents into VR-based communication training and proposed prompting schemas that let agents generate dialogue grounded in the VR environment and the user's hand-based interactions. Building on this work, we explore how different levels of environmental grounding…",
+    "arxiv_id": "2607.21769"
+   },
+   "id": "707ed494bcb90a90",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-23T19:35:27Z",
+   "score": 0.6576,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Autistic individuals often face barriers in workplace communication, where soft skills are embedded within ongoing tasks and surrounding environment context, not in isolated verbal exchange. Recent work has introduced LLM-driven agents into VR-based communication training and proposed prompting…",
+   "tags": [
+    "ai-writing",
+    "llm"
+   ],
+   "title": "From Grasping to Speaking: Generative AI-Based Environment-Grounded VR Communication Training for Autistic Individuals",
+   "url": "https://arxiv.org/abs/2607.21769v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Chloe Hudson Prock",
+    "Enrico Bertini",
+    "Michael Correll"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "What do we value in our visualizations, and in the people who design them? Despite a growing body of work on critical data visualization, the conception of what it is to do ethical data visualization work can often be narrow (for instance, holding that our ethical duties are discharged merely by avoiding overtly lying or manipulating data), or entangled with potentially problematic implicit value structures (such as the assumption of the objectivity and neutrality of data, and so the designer's…",
+    "arxiv_id": "2607.21732"
+   },
+   "id": "a9d3807938af9ace",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-23T18:28:26Z",
+   "score": 0.5555,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "What do we value in our visualizations, and in the people who design them? Despite a growing body of work on critical data visualization, the conception of what it is to do ethical data visualization work can often be narrow (for instance, holding that our ethical duties are discharged merely by…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Charting the Moral Universe: Capturing Virtues and Values of Data Visualization Practice",
+   "url": "https://arxiv.org/abs/2607.21732v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Kevin Schott",
+    "Dagmar Kern",
+    "Daniel Hienert"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Large language models can make conversational product advisors fluent but opaque. If they hide the logic behind a ranking and the evidence for a recommendation inside natural-language replies, they challenge users' ability to understand, trust, and steer the results. One response is to build transparency into the advisor. We report a formative, moderated think-aloud usability study of one such system: a chatbot for laptop search with constrained natural-language generation, an on-demand ranking…",
+    "arxiv_id": "2607.21513"
+   },
+   "id": "cf75fc92fc6a3f06",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-23T16:58:34Z",
+   "score": 0.3201,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Large language models can make conversational product advisors fluent but opaque. If they hide the logic behind a ranking and the evidence for a recommendation inside natural-language replies, they challenge users' ability to understand, trust, and steer the results. One response is to build…",
+   "tags": [
+    "ux",
+    "llm"
+   ],
+   "title": "Transparent by Design, Usable in Practice? A Formative Usability Study of a Conversational Product Advisor",
+   "url": "https://arxiv.org/abs/2607.21513v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Ashu Gupta",
+    "Cameron Owens",
+    "Benjamin Wilson-Langman",
+    "Max Hill",
+    "Jason Cox",
+    "Joshua Clinton"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Political legislation affects the well-being and livelihoods of constituents. In the U.S. Congress a representative's voting record on bills and legislation is public. These bills have themes associated with them, such as veterans' affairs, coastal monitoring, agricultural appropriations, etc. A bill on veterans' affairs may affect a constituency differently if they have a high percentage of veterans. In this work, we demonstrate how congressional vote outcomes can be merged with typical…",
+    "arxiv_id": "2607.21502"
+   },
+   "id": "fde64d4ce07cba6c",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-23T16:50:58Z",
+   "score": 0.5523,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Political legislation affects the well-being and livelihoods of constituents. In the U.S. Congress a representative's voting record on bills and legislation is public. These bills have themes associated with them, such as veterans' affairs, coastal monitoring, agricultural appropriations, etc. A…",
+   "tags": [],
+   "title": "A Needs Assessment for Measuring Geographic - Legislative Associations in the U.S. House of Representatives",
+   "url": "https://arxiv.org/abs/2607.21502v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Runze Cai",
+    "Yuxuan Huang",
+    "Lin-Ping Yuan",
+    "Kexin Xiang",
+    "David Hsu",
+    "Collier Nogues"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Creative writing increasingly integrates AI assistance, yet current tools miss in-situ moments when writers draw inspiration from real-world experiences. We envision Context-aware Reality-Fiction Transformation (CRAFT), an approach for AI glasses that translates daily experiences into fiction narratives. We explored its desirability, feasibility, and potential viability through three studies. Interviews with nine writers yielded desires and three design goals: 1) augmenting in-situ perception…",
+    "arxiv_id": "2607.21394"
+   },
+   "id": "9e060c6415654c76",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-23T14:56:51Z",
+   "score": 0.5088,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Creative writing increasingly integrates AI assistance, yet current tools miss in-situ moments when writers draw inspiration from real-world experiences. We envision Context-aware Reality-Fiction Transformation (CRAFT), an approach for AI glasses that translates daily experiences into fiction…",
+   "tags": [
+    "ai-writing",
+    "techcomm"
+   ],
+   "title": "CRAFT: Exploring Wearable Creative AI on Smart Glasses for Fiction Writing in Real-World Contexts",
+   "url": "https://arxiv.org/abs/2607.21394v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Roshan Mathew",
+    "Roshan Peiris"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "In experiential learning environments, Deaf and hard of hearing (DHH) students often experience ``split attention,'' dividing their focus among tasks, instructors, and access providers. Augmented reality (AR) has been proposed as a means to centralize communication access within the student's field of view; however, little is known about how such systems affect the instructors, interpreters, and captioners who support access in these settings. We present a formative, expert-based evaluation of…",
+    "arxiv_id": "2607.21289"
+   },
+   "id": "9165cdbc5004b2a9",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-23T13:10:00Z",
+   "score": 0.313,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "In experiential learning environments, Deaf and hard of hearing (DHH) students often experience ``split attention,'' dividing their focus among tasks, instructors, and access providers. Augmented reality (AR) has been proposed as a means to centralize communication access within the student's field…",
+   "tags": [
+    "pedagogy"
+   ],
+   "title": "Reimagining the Augmented Reality Accessibility Ecosystem for Deaf Students: Service Provider Perspectives in Experiential Learning",
+   "url": "https://arxiv.org/abs/2607.21289v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Yunhai Wang",
+    "Kecheng Lu",
+    "Junhao Chen",
+    "Alper Sarikaya",
+    "Chenglong Wang"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "We present Flint, an intermediate language that enables authors to create high-quality visualizations from concise, semantics-driven specifications without explicitly configuring low-level parameters such as scales, axes, and formatting. Unlike prior systems that infer default configurations from surface-level data representations, often producing brittle choices, Flint introduces a hierarchical data semantic model that allows users to specify the meanings of data fields structurally and helps…",
+    "arxiv_id": "2607.20775"
+   },
+   "id": "6c55f12f043ac39c",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-22T22:42:34Z",
+   "score": 0.5213,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "We present Flint, an intermediate language that enables authors to create high-quality visualizations from concise, semantics-driven specifications without explicitly configuring low-level parameters such as scales, axes, and formatting. Unlike prior systems that infer default configurations from…",
+   "tags": [
+    "systems",
+    "visualization"
+   ],
+   "title": "Flint: A Semantics-Driven Data Visualization Intermediate Language",
+   "url": "https://arxiv.org/abs/2607.20775v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Eva McCord",
+    "Ernest Pedapati",
+    "Zag ElSayed"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Clinical biomarker workflows in translational research settings often rely on spreadsheet-driven tracking, manual quality control (QC) reconciliation, and loosely integrated systems, resulting in limited state visibility, delayed reporting, and increased operational risk. These challenges are particularly pronounced in multi-day assays such as Luminex-based quantification of Fragile X Messenger Ribonucleoprotein (FMRP), where HIPAA-compliant data governance, deterministic workflow progression,…",
+    "arxiv_id": "2607.20382"
+   },
+   "id": "4685c66bae8e17d4",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-22T17:11:52Z",
+   "score": 0.4731,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Clinical biomarker workflows in translational research settings often rely on spreadsheet-driven tracking, manual quality control (QC) reconciliation, and loosely integrated systems, resulting in limited state visibility, delayed reporting, and increased operational risk. These challenges are…",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "FMRP-LEAN: A HIPAA-Compliant AI-Augmented LIMS Architecture for End-to-End Clinical Assay Workflow Optimization",
+   "url": "https://arxiv.org/abs/2607.20382v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Markus Wallinger",
+    "Stephen G. Kobourov"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Edge bundling reduces visual clutter by aggregating similar edges, yet practitioners lack a structured vocabulary for reasoning about the tasks that bundled visualizations support. Such a vocabulary is needed both to evaluate the general utility of bundling and to compare different bundling approaches. We address this gap by assembling a corpus of 102 papers, 49 of which contain explicit bundling tasks, spanning node-link diagrams, geographic trail sets, and parallel coordinate plots. From this…",
+    "arxiv_id": "2607.20089"
+   },
+   "id": "24f490d21175fb42",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-22T12:40:08Z",
+   "score": 0.5068,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Edge bundling reduces visual clutter by aggregating similar edges, yet practitioners lack a structured vocabulary for reasoning about the tasks that bundled visualizations support. Such a vocabulary is needed both to evaluate the general utility of bundling and to compare different bundling…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "A Task Taxonomy for Edge and Trail Bundling",
+   "url": "https://arxiv.org/abs/2607.20089v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Yue Zhao",
+    "Hongxu Liu",
+    "Feiyu Wang",
+    "Xiaoyu Yang",
+    "Tong Ge",
+    "Zhen Yang"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Multimodal large language models (MLLMs) are increasingly expected to automate visualization development by generating code directly from visual designs. However, existing evaluations mainly focus on single-chart generation and overlook coordinated multi-view interface construction, which requires joint reasoning about data semantics, view coordination, and interaction logic. Consequently, MLLM capabilities in this setting remain underexplored, and the field lacks a dedicated benchmark for…",
+    "arxiv_id": "2607.19910"
+   },
+   "id": "df7012401e39111f",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-22T08:42:55Z",
+   "score": 0.6415,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Multimodal large language models (MLLMs) are increasingly expected to automate visualization development by generating code directly from visual designs. However, existing evaluations mainly focus on single-chart generation and overlook coordinated multi-view interface construction, which requires…",
+   "tags": [
+    "eval-study",
+    "ml-vis",
+    "llm",
+    "visualization"
+   ],
+   "title": "MV-Bench: Benchmarking Multimodal Large Language Models for Coordinated Multi-View Interface Construction",
+   "url": "https://arxiv.org/abs/2607.19910v1",
+   "venue": "arXiv cs.CV"
+  }
+ ],
  "meta": {
-  "count": 0,
-  "generated_at": "2026-07-27T03:59:23Z",
+  "count": 16,
+  "generated_at": "2026-07-27T07:47:44Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
    {
     "category": "optional",
-    "count": 0,
-    "error": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60 (Caus",
+    "count": 8,
+    "error": null,
     "full_text_count": 0,
     "id": "arxiv_datavis",
     "name": "arXiv cs.HC + cs.GR",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
@@ -68,12 +525,12 @@
    },
    {
     "category": "optional",
-    "count": 0,
-    "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC&sortBy=submittedDate&sortOrder=descending&max_results=40",
+    "count": 8,
+    "error": null,
     "full_text_count": 0,
     "id": "arxiv_hci_writing",
     "name": "arXiv cs.HC (writing & docs)",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"

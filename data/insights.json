@@ -1,44 +1,44 @@
 {
  "apropos_of_nothing": {
-  "query": "Cueva de las Manos OR Patagonia cave paintings",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "NewsBytes",
-   "published_at": "2026-07-02T07:00:00Z",
-   "title": "5 offbeat ways to experience Patagonia",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQlpqd1Vvbm1VM01lTER4RlNmUENmUGRsUVd3dHpSWmNWNUZOV1U1T2Nab2UtTFRNc1JibUVEd2x2QWJyYUlqdmNQUmdRQnhqdEhaRjhiVGc5MHpYWndlcnFJdnpjX0pVSG9hUkdSSWFtdlhPRlptZVpySE5SWVR5UmNwTEVrOEl1OUVsbDhMWHhHSHdQNE9F?oc=5"
+   "name": "yangtse.com",
+   "published_at": "2026-07-20T08:45:00Z",
+   "title": "视频｜404 . 8斤 ！ 宿迁试种出一巨型南瓜 ， 母体  重801斤",
+   "url": "https://www.yangtse.com/news/jiangsu/202607/t20260720_374032.html"
   },
   "summaries": {
    "en": {
-    "summary": "A travel article lists five unconventional activities in Patagonia, including stargazing and glacier hiking.",
-    "why_irrelevant": "It is a travel guide from a news aggregator, not a scientific discovery or historical finding."
+    "summary": "A giant pumpkin weighing 404.8 jin (about 202.4 kg) was grown experimentally in Suqian.",
+    "why_irrelevant": "It's a niche agricultural curiosity far removed from typical personal feeds."
    },
    "zh": {
-    "summary": "一篇旅游文章列出了巴塔哥尼亚的五种非传统活动，包括观星和冰川徒步。",
-    "why_irrelevant": "这是一篇来自新闻聚合器的旅游指南，而非科学发现或历史发现。"
+    "summary": "宿迁试种出一巨型南瓜，重404.8斤。",
+    "why_irrelevant": "属于小众农业奇闻，远离个人日常信息流。"
    }
   },
-  "topic": "prehistoric cave art in Patagonia"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Shootings at a Seattle food festival and a Berlin pride parade leave multiple casualties, while Typhoon Noul hits China and oil prices drop amid US-Iran tensions.",
+ "brief": "Tensions between the US and Iran ease as oil prices fall, while a Seattle food festival shooting leaves three dead. Research focuses on AI for healthcare communication and creative tools.",
  "meta": {
-  "generated_at": "2026-07-27T03:59:23Z"
+  "generated_at": "2026-07-27T07:47:44Z"
  },
- "news_summary": "Multiple shootings in Seattle and Berlin cause deaths and injuries; Typhoon Noul makes landfall in China; oil prices fall as US-Iran fighting pauses.",
- "papers_summary": "No research papers available for today.",
+ "news_summary": "US pauses strikes on Iran as oil prices slide; at least three killed in Seattle shooting. UK PM pledges Ukraine support, and a comedian clarifies a controversial interview with Australia's PM.",
+ "papers_summary": "Papers explore AI-driven virtual patients for breaking bad news, tools for autism assessment, and interactive models for creative arts, highlighting explainability and user-centered design.",
  "summaries": {
   "en": {
-   "brief": "Shootings at a Seattle food festival and a Berlin pride parade leave multiple casualties, while Typhoon Noul hits China and oil prices drop amid US-Iran tensions.",
-   "news_summary": "Multiple shootings in Seattle and Berlin cause deaths and injuries; Typhoon Noul makes landfall in China; oil prices fall as US-Iran fighting pauses.",
-   "papers_summary": "No research papers available for today."
+   "brief": "Tensions between the US and Iran ease as oil prices fall, while a Seattle food festival shooting leaves three dead. Research focuses on AI for healthcare communication and creative tools.",
+   "news_summary": "US pauses strikes on Iran as oil prices slide; at least three killed in Seattle shooting. UK PM pledges Ukraine support, and a comedian clarifies a controversial interview with Australia's PM.",
+   "papers_summary": "Papers explore AI-driven virtual patients for breaking bad news, tools for autism assessment, and interactive models for creative arts, highlighting explainability and user-centered design."
   },
   "zh": {
-   "brief": "今日焦点：台风红霞登陆广东致71万人疏散；柏林同志游行遭汽车冲撞1死16伤；同时，美国西雅图美食节发生枪击案，伊朗冲突出现停火迹象。",
-   "news_summary": "台风红霞登陆广东，中国疏散71万人；柏林同志游行遭汽车冲撞致1死16伤；西雅图美食节枪击案致2死5伤；美伊冲突暂歇，油价下跌。",
-   "papers_summary": "今日无重要论文发布。"
+   "brief": "全球多地發生暴力事件，德國柏林驕傲遊行遭襲，美國西雅圖美食節槍擊致3死。颱風紅霞登陸中國廣東，逾71萬人疏散。科技方面，AI虛擬病人用於醫學溝通培訓，擴散模型在藝術領域的應用研究進展。",
+   "news_summary": "德國柏林驕傲遊行發生汽車衝撞襲擊，嫌疑人被警方擊斃；美國西雅圖美食節槍擊致3死4傷，警方搜捕嫌犯。今年最強颱風紅霞登陸中國廣東，逾71萬人提前疏散。",
+   "papers_summary": "一項研究利用AI驅動的虛擬病人幫助醫學生練習傳達壞消息，通過專家研究評估面部表情強度。另一項研究探索如何讓藝術家通過交互式模型彎曲技術理解和修改擴散模型。"
   }
  },
  "todays_image": {
-  "caption": "The 1962 World's Fair stamp promised a future of unity and progress, but today's food festival shooting shattered that vision with bloodshed.",
+  "caption": "The fair's promise of a bright future contrasts with the dark ambiguity of consent in a \"vibes were good\" defense, both hinging on proof.",
   "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-0_258777_97",
   "source_name": "National Postal Museum",
   "source_url": "https://postalmuseum.si.edu/object/npm_0.258777.97",
