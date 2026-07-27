@@ -9,7 +9,9 @@ from datetime import datetime, timezone
 import feedparser
 
 from ..http import get
-from ..models import Item, clip, detect_lang, item_id, strip_html
+from ..models import (
+    Item, clip, detect_lang, item_id, strip_html, strip_html_blocks,
+)
 
 FULL_TEXT_MIN_CHARS = 500
 FULL_TEXT_MIN_EXTRA_CHARS = 200
@@ -45,7 +47,9 @@ def _content_candidates(entry) -> list[str]:
 
 def _entry_full_text(entry, summary: str) -> str:
     """Return substantial RSS/Atom embedded content as sanitized plaintext."""
-    texts = [strip_html(candidate) for candidate in _content_candidates(entry)]
+    # blocks, not spaces: this is an article body, and the reader splits
+    # paragraphs on a blank line
+    texts = [strip_html_blocks(candidate) for candidate in _content_candidates(entry)]
     texts = [text for text in texts if text]
     if not texts:
         return ""
