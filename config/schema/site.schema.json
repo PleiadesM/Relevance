@@ -8,8 +8,36 @@
   "properties": {
     "$schema": { "type": "string" },
     "schema_version": { "const": 1 },
-    "title": { "type": "string", "minLength": 1, "maxLength": 120 },
-    "subtitle": { "type": "string", "maxLength": 200 },
+    "title": {
+      "description": "Site masthead. A plain string is used for every language; an {en, zh} object lets each language have its own title (at least one key required).",
+      "anyOf": [
+        { "type": "string", "minLength": 1, "maxLength": 120 },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "minProperties": 1,
+          "properties": {
+            "en": { "type": "string", "minLength": 1, "maxLength": 120 },
+            "zh": { "type": "string", "minLength": 1, "maxLength": 120 }
+          }
+        }
+      ]
+    },
+    "subtitle": {
+      "description": "Optional tagline under the masthead. String or {en, zh}, same convention as title.",
+      "anyOf": [
+        { "type": "string", "maxLength": 200 },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "minProperties": 1,
+          "properties": {
+            "en": { "type": "string", "maxLength": 200 },
+            "zh": { "type": "string", "maxLength": 200 }
+          }
+        }
+      ]
+    },
     "visibility": { "enum": ["public", "private"] },
     "languages": {
       "type": "array",

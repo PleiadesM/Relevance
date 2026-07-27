@@ -12,6 +12,10 @@ papermod — clean entry cards, system sans · 纸墨
 
 ### Site title · 站点标题
 
+Daocheng's Newsdash
+
+### Chinese site title · 中文站点标题
+
 道成的新闻台
 
 ### Timezone · 时区

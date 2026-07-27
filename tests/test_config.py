@@ -1,6 +1,7 @@
 import pytest
 
-from newsdash.config import ConfigError, load_config
+from newsdash.config import ConfigError, load_config, pick_lang
+from newsdash.manifest import build_manifest
 
 
 def test_default_repo_config_loads(repo_root):
@@ -301,3 +302,95 @@ def test_sections_metadata_bad_id_pattern_rejected(make_repo):
     ]))
     with pytest.raises(ConfigError):
         load_config(root, env={})
+
+
+# --- bilingual site title / subtitle ---------------------------------------
+#
+# `title`/`subtitle` accept a plain string (one masthead for every language)
+# or an {en, zh} map. Existing forks all store strings, so back-compat is the
+# load-bearing property here; the object form is the new capability.
+
+def test_pick_lang_passes_strings_through():
+    assert pick_lang("Relevance") == "Relevance"
+    assert pick_lang("Relevance", "zh") == "Relevance"
+
+
+def test_pick_lang_selects_the_requested_language():
+    both = {"en": "Relevance", "zh": "及君"}
+    assert pick_lang(both, "en") == "Relevance"
+    assert pick_lang(both, "zh") == "及君"
+
+
+def test_pick_lang_falls_back_to_the_other_language():
+    assert pick_lang({"zh": "及君"}, "en") == "及君"
+    assert pick_lang({"en": "Relevance"}, "zh") == "Relevance"
+    # an unknown language code still resolves rather than blanking the masthead
+    assert pick_lang({"en": "Relevance", "zh": "及君"}, "fr") == "Relevance"
+
+
+def test_pick_lang_empty_when_nothing_is_set():
+    assert pick_lang({}) == ""
+    assert pick_lang("") == ""
+
+
+def test_plain_string_title_still_loads(make_repo):
+    """Back-compat: every existing fork stores strings and must keep working."""
+    root = make_repo(site=_site(title="My Dash", subtitle="tagline"))
+    cfg = load_config(root, env={})
+    assert cfg.site.title == "My Dash"
+    assert cfg.site.subtitle == "tagline"
+
+
+def test_bilingual_title_and_subtitle_load(make_repo):
+    root = make_repo(site=_site(
+        title={"en": "Relevance", "zh": "及君"},
+        subtitle={"en": "news, filtered", "zh": "新闻筛选"},
+    ))
+    cfg = load_config(root, env={})
+    assert cfg.site.title == {"en": "Relevance", "zh": "及君"}
+    assert pick_lang(cfg.site.title, "zh") == "及君"
+    assert pick_lang(cfg.site.subtitle, "en") == "news, filtered"
+
+
+def test_single_language_title_loads(make_repo):
+    root = make_repo(site=_site(title={"zh": "及君"}))
+    cfg = load_config(root, env={})
+    assert cfg.site.title == {"zh": "及君"}
+    assert pick_lang(cfg.site.title, "en") == "及君"
+
+
+def test_title_object_without_en_or_zh_rejected(make_repo):
+    root = make_repo(site=_site(title={}))
+    with pytest.raises(ConfigError):
+        load_config(root, env={})
+
+
+def test_title_object_with_unknown_language_rejected(make_repo):
+    root = make_repo(site=_site(title={"fr": "Pertinence"}))
+    with pytest.raises(ConfigError):
+        load_config(root, env={})
+
+
+def test_subtitle_object_with_only_blank_values_rejected(make_repo):
+    """minProperties can't catch this on subtitle, where "" is a legal string."""
+    root = make_repo(site=_site(subtitle={"en": ""}))
+    with pytest.raises(ConfigError):
+        load_config(root, env={})
+
+
+def test_manifest_preserves_each_title_shape(make_repo):
+    """The manifest must echo what was configured — never normalize a string
+    into an object, or a stale CDN could pair a new manifest with old JS."""
+    plain = load_config(make_repo(site=_site(title="My Dash", subtitle="tag")),
+                        env={}).site
+    m = build_manifest(plain, [], generated_at="t", build_id="b", crypto_block=None)
+    assert m["site"]["title"] == "My Dash"
+    assert m["site"]["subtitle"] == "tag"
+
+    bilingual = load_config(make_repo(site=_site(
+        title={"en": "Relevance", "zh": "及君"}, subtitle={"zh": "新闻筛选"})),
+        env={}).site
+    m = build_manifest(bilingual, [], generated_at="t", build_id="b",
+                       crypto_block=None)
+    assert m["site"]["title"] == {"en": "Relevance", "zh": "及君"}
+    assert m["site"]["subtitle"] == {"zh": "新闻筛选"}

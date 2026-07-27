@@ -8,6 +8,39 @@ round of significant changes lands. Format loosely follows
 [Keep a Changelog](https://keepachangelog.com/); versions follow semver
 (minor = feature round, patch = fixes).
 
+## [0.7.0] — 2026-07-27
+
+### Added
+- **Bilingual site title and subtitle.** `site.title` and `site.subtitle`
+  now accept either a plain string (unchanged) or `{"en": …, "zh": …}` —
+  the same shape `sections[].label` and preset names already use. With the
+  object form the masthead, subtitle and browser tab title follow the
+  reader's EN/中文 toggle live, with no reload; resolution falls back
+  *current language → `en` → `zh`*, and at least one key is required.
+  The dashboard was bilingual everywhere except its own name.
+- The setup issue form gained an optional **"Chinese site title ·
+  中文站点标题"** field beside the existing one, so this is reachable
+  without editing JSON. Leaving it blank keeps a single title for both
+  languages and writes a plain string, exactly as before. The bot's reply
+  now reports the title, which it previously omitted.
+
+### Changed
+- One resolver, not three. The `lang → en → zh` idiom was inlined in
+  `sectionLabel()` and duplicated privately in `views/today.js`; it is now
+  `pickLang()` in `views/shared.js`, used by both plus the masthead, with
+  a matching `pick_lang()` in `scripts/newsdash/config.py`. The `today.js`
+  copy also failed to pass plain strings through, so a string-valued
+  thread field rendered empty — fixed by the consolidation.
+
+### Notes
+- Back-compatible by construction: the manifest passes the configured
+  shape through untouched rather than normalizing strings into objects,
+  so existing forks are unaffected and a cached older frontend can never
+  meet a manifest shape it does not understand. Keeping the default
+  `"Relevance"` still localizes to 及君 in Chinese; that only ever applied
+  while the default was untouched, which is why a personalized title
+  stopped localizing.
+
 ## [0.6.3] — 2026-07-26
 
 ### Fixed

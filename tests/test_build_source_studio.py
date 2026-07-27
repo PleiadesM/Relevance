@@ -26,7 +26,7 @@ def _write_config(config_dir: Path, sources, *, presets=None, with_site=True,
     }), encoding="utf-8")
     if with_site:
         (config_dir / "site.json").write_text(json.dumps({
-            "title": "Relevance", "default_language": "zh",
+            "title": {"en": "Relevance", "zh": "及君"}, "default_language": "zh",
         }), encoding="utf-8")
     if with_presets_dir:
         pdir = config_dir / "presets"
@@ -55,7 +55,9 @@ def test_build_data_shape_and_passthrough(tmp_config):
     ], presets=["ai-news"])
     data = studio.build_data()
 
-    assert data["site"] == {"title": "Relevance", "lang": "zh"}
+    # a bilingual title is resolved against the site's default language, since
+    # the Studio chrome itself is single-language
+    assert data["site"] == {"title": "及君", "lang": "zh"}
     assert data["sources"][0]["url"] == "https://example.com/feed"
     assert data["presets"]["active"] == ["ai-news"]
     assert [p["id"] for p in data["presets"]["available"]] == ["ai-news"]
@@ -83,6 +85,31 @@ def test_missing_site_and_presets_dir_are_tolerated(tmp_config):
     assert data["site"]["title"] == "Relevance"   # fallback default
     assert data["site"]["lang"] == "en"
     assert data["presets"]["available"] == []
+
+
+def test_plain_string_title_still_works(tmp_config):
+    """Back-compat: existing forks store title as a plain string."""
+    _write_config(tmp_config, [
+        {"id": "x", "category": "open", "type": "rss", "section": "news",
+         "name": "X", "url": "https://e.com/f"},
+    ])
+    (tmp_config / "site.json").write_text(json.dumps({
+        "title": "My Dash", "default_language": "zh",
+    }), encoding="utf-8")
+    data = studio.build_data()
+    assert data["site"] == {"title": "My Dash", "lang": "zh"}
+
+
+def test_title_missing_the_default_language_falls_back(tmp_config):
+    _write_config(tmp_config, [
+        {"id": "x", "category": "open", "type": "rss", "section": "news",
+         "name": "X", "url": "https://e.com/f"},
+    ])
+    (tmp_config / "site.json").write_text(json.dumps({
+        "title": {"en": "Relevance"}, "default_language": "zh",
+    }), encoding="utf-8")
+    data = studio.build_data()
+    assert data["site"]["title"] == "Relevance"
 
 
 # --------------------------------------------------------------------------- #

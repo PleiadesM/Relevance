@@ -155,6 +155,7 @@ API Key 就是一个服务商给你的、像密码一样的字符串，让构建
    | **Site visibility 站点可见性** | **Public 公开** = 新闻/论文任何人可读，私人栏目仍加密。**Private 私密** = *全站*加密，打开即口令门——需要先完成[第 4 步](#4-私密模式与口令)设置好 `NEWSDASH_PASSPHRASE`。 |
    | **Theme 主题** | `the-type`（字砌）、`papermod`（纸墨，简洁系统无衬线卡片，改编自 hugo-PaperMod）、`blowfish`（河豚，低调紫色配模糊吸顶导航，改编自 Blowfish）。三套主题均配有专门设计的深色版本。旧的 `nyt`/`bear` 仍可使用，会映射为 `papermod`/`blowfish`。 |
    | **Site title 站点标题** | 报头文字（可选）。 |
+   | **Chinese site title 中文站点标题** | 站点标题的中文对应版本（可选）。两个都填，报头会随读者切换的语言实时显示对应版本；留空则中英文都沿用上面这个标题，和现在一样。 |
    | **Timezone 时区** | IANA 名称，如 `Asia/Shanghai`、`America/Chicago`——用于日界（可选）。 |
    | **Open news packs 公开新闻包** | 勾选 **AI news** 和/或 **General news**。全不勾则保留两个默认包。 |
    | **Academic packs 学术论文包** | 勾选**数据可视化**和/或**技术传播**（[第 8 步](#8-学术论文包)）——先在[第 5 步](#5-添加你的-api-key)加好 `OPENALEX_API_KEY`，OpenAlex 结果会更稳定。 |

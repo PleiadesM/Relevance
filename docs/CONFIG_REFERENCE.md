@@ -24,7 +24,7 @@ what's wrong.
 
 | Key | Values | Effect |
 |---|---|---|
-| `title`, `subtitle` | strings | Masthead text + `<title>` |
+| `title`, `subtitle` | string, or object with `en` and/or `zh` (each non-empty) | Masthead text + `<title>`. A plain string is shown as-is in both languages. A bilingual object, e.g. `{ "title": { "en": "Relevance", "zh": "及君" } }`, resolves to the reader's current interface language, live on the EN/中文 toggle, falling back `current language → en → zh`; at least one of `en`/`zh` must be present. The template default `"Relevance"` still localizes to 及君 in Chinese — but only while you keep that default title |
 | `visibility` | `"public"` \| `"private"` | **public**: news/papers plaintext, any private sections always encrypted. **private**: *every* file encrypted; site boots to a passphrase gate; build **fails** if `NEWSDASH_PASSPHRASE` is missing |
 | `languages` | subset of `["en","zh"]` | Offered UI languages |
 | `default_language` | `"en"` \| `"zh"` | Chrome and content language before the visitor toggles |

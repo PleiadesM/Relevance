@@ -25,7 +25,9 @@ def repo_root() -> Path:
 def make_ctx():
     def _make(env=None, tz="America/Chicago", now=FIXED_NOW):
         site = SiteConfig(
-            title="Test", subtitle="", visibility="public",
+            # bilingual on purpose: fetching must stay indifferent to whether
+            # the masthead is a plain string or an {en, zh} map
+            title={"en": "Test", "zh": "测试"}, subtitle="", visibility="public",
             languages=["en"], default_language="en", theme="blowfish",
             timezone=tz, windows=Windows(), ranking=Ranking(),
         )

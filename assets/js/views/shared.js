@@ -33,6 +33,17 @@ export function errorCard() {
   return el("div", { class: "state-card" }, el("p", { class: "muted" }, t("app.error")));
 }
 
+// Bilingual field picker — the single frontend implementation of this
+// resolution. A manifest value is either a plain string (back-compat: every
+// existing fork has one) or an {en, zh} object; objects resolve
+// lang -> en -> zh, strings pass straight through. Python twin: pick_lang()
+// in scripts/newsdash/config.py — keep the fallback order identical.
+export function pickLang(value, lang = getLang()) {
+  if (!value) return "";
+  if (typeof value === "string") return value;
+  return value[lang] || value.en || value.zh || "";
+}
+
 // Friendly display name for a section/route. Custom sections carry a
 // bilingual `label` in the manifest (label[lang] -> en -> zh); everything
 // else falls back to the i18n `nav.<id>` key, then the raw id. Non-section
@@ -40,12 +51,8 @@ export function errorCard() {
 // straight through the i18n fallback.
 export function sectionLabel(sectionId) {
   const entry = (get().manifest?.sections || []).find((s) => s.id === sectionId);
-  const label = entry?.label;
-  if (label) {
-    const lang = getLang();
-    const picked = label[lang] || label.en || label.zh;
-    if (picked) return picked;
-  }
+  const picked = pickLang(entry?.label);
+  if (picked) return picked;
   const key = `nav.${sectionId}`;
   const translated = t(key);
   return translated === key ? sectionId : translated;

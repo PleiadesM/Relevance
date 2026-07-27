@@ -20,7 +20,7 @@
 
 | 键 | 取值 | 作用 |
 |---|---|---|
-| `title`、`subtitle` | 字符串 | 报头文字与 `<title>` |
+| `title`、`subtitle` | 字符串，**或** `{"en": …, "zh": …}` | 报头文字与 `<title>`。填字符串则中英文都显示同一个；填对象（与 `sections[].label` 同一种写法）则报头会跟随读者的中英文切换实时变化，无需刷新。`en`/`zh` 至少要有一个，取值顺序为*当前语言 → `en` → `zh`*。保持默认的 `"Relevance"` 时仍会在中文下显示为「及君」；自定义标题则按你写的原样显示。例：`"title": {"en": "My Desk", "zh": "我的书桌"}` |
 | `visibility` | `"public"` \| `"private"` | **public**：新闻/论文明文，任何私密栏目永远加密。**private**：*所有*文件加密、站点直接进口令门；缺 `NEWSDASH_PASSPHRASE` 时构建**直接失败** |
 | `languages` | `["en","zh"]` 的子集 | 提供哪些界面语言 |
 | `default_language` | `"en"` \| `"zh"` | 访客切换之前的默认界面语言与内容语言 |

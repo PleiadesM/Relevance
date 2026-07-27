@@ -109,10 +109,21 @@ class SectionMeta:
     kind: str | None = None
 
 
+def pick_lang(value, lang: str = "en") -> str:
+    """Resolve a str-or-{en,zh} display field. Mirrors sectionLabel() in the frontend."""
+    if isinstance(value, str):
+        return value
+    return value.get(lang) or value.get("en") or value.get("zh") or ""
+
+
 @dataclass
 class SiteConfig:
-    title: str
-    subtitle: str
+    # str, or {"en": ..., "zh": ...} with at least one key. Passed to the
+    # manifest as-is (never normalized) so an existing deployment's plain
+    # string keeps the exact manifest shape its cached JS expects; read it
+    # through pick_lang() rather than assuming a type.
+    title: str | dict
+    subtitle: str | dict
     visibility: str
     languages: list[str]
     default_language: str
@@ -342,8 +353,8 @@ def load_site(repo_root: Path) -> SiteConfig:
     sections = _parse_sections(doc.get("sections", []))
     threads = Threads(**doc.get("threads", {}))
     return SiteConfig(
-        title=doc["title"],
-        subtitle=doc.get("subtitle", ""),
+        title=_parse_display(doc["title"], "title"),
+        subtitle=_parse_display(doc.get("subtitle", ""), "subtitle"),
         visibility=doc["visibility"],
         languages=list(doc["languages"]),
         default_language=doc["default_language"],
@@ -354,6 +365,20 @@ def load_site(repo_root: Path) -> SiteConfig:
         sections=sections,
         threads=threads,
     )
+
+
+def _parse_display(value, key: str):
+    """Check a str-or-{en,zh} site display field; returned unchanged.
+
+    Schema has already checked shape (string, or an object with only en/zh and
+    at least one of them). This mirrors the section-label rule: an object form
+    must actually carry a non-empty en or zh, so ``{"en": ""}`` — which the
+    schema's minProperties cannot catch on subtitle, where empty strings are
+    legal — never yields a blank masthead.
+    """
+    if isinstance(value, dict) and not any(value.get(k) for k in ("en", "zh")):
+        raise ConfigError(f"config/site.json: {key} needs 'en' or 'zh'")
+    return value
 
 
 def _parse_sections(raw_sections: list[dict]) -> list[SectionMeta]:

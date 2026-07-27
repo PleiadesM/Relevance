@@ -29,6 +29,10 @@ def build_manifest(
         "generated_at": generated_at,
         "build_id": build_id,
         "site": {
+            # str or {en, zh}, emitted exactly as configured. Never normalize a
+            # string into an object: that would change the manifest shape for
+            # every existing deployment, and a stale CDN could pair the new
+            # manifest with old JS. The frontend resolves whichever it gets.
             "title": site.title,
             "subtitle": site.subtitle,
             "languages": site.languages,

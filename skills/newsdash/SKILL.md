@@ -38,6 +38,10 @@ in this order (one topic at a time, don't dump a questionnaire):
    Either way the repo stays public and privacy comes from encryption —
    "a private site is an encrypted public site."
 2. **Language, theme, timezone, title** (`the-type` / `papermod` / `blowfish`; IANA timezone).
+   The title can be bilingual too, same shape as section labels below — a plain
+   string shows as-is in both languages, or write
+   `"title": { "en": "Relevance", "zh": "及君" }` (at least one of en/zh) to have
+   it resolve to the reader's current language live on the toggle.
 3. **Open packs** — `ai-news`, `general-news` — plus any custom RSS/blog feeds.
 4. **Academic fields** — map to `academic-datavis` / `academic-techcomm`, or
    craft new sources for other fields: arXiv category queries (`cat:cs.CL`),

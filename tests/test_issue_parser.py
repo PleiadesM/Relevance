@@ -31,7 +31,7 @@ def test_full_form_applies(issue_repo):
     assert site["default_language"] == "zh"
     assert site["visibility"] == "private"
     assert site["theme"] == "papermod"
-    assert site["title"] == "道成的新闻台"
+    assert site["title"] == {"en": "Daocheng's Newsdash", "zh": "道成的新闻台"}
     assert site["timezone"] == "America/Chicago"
 
     sources = read_json(issue_repo / "config" / "sources.json")
@@ -116,7 +116,8 @@ def test_form_labels_match_template():
     template = (REPO_ROOT / ".github" / "ISSUE_TEMPLATE" / "setup.yml") \
         .read_text(encoding="utf-8")
     for label in (ios.FIELD_LANGUAGE, ios.FIELD_VISIBILITY, ios.FIELD_THEME,
-                  ios.FIELD_TITLE, ios.FIELD_TIMEZONE, ios.FIELD_UPDATE_FREQ,
+                  ios.FIELD_TITLE, ios.FIELD_TITLE_ZH,
+                  ios.FIELD_TIMEZONE, ios.FIELD_UPDATE_FREQ,
                   ios.FIELD_OPEN_PACKS, ios.FIELD_ACADEMIC_PACKS,
                   ios.FIELD_EXTRA_RSS, ios.FIELD_INTERESTS, ios.FIELD_ACK):
         assert f'label: "{label} ·' in template, f"form label drifted: {label}"
@@ -466,3 +467,71 @@ def test_source_validation_failure_message_is_sanitized(issue_repo):
     assert "notatype_zzz" not in msg  # the offending submitted value
     assert "weird_src" not in msg     # the submitted source id
     assert "did not pass validation" in msg  # the static sanitized message
+
+
+# --- bilingual site title ---------------------------------------------------
+#
+# The form has two title inputs. The merge keeps configs minimal: a plain
+# string unless the owner actually asked for a distinct Chinese masthead.
+
+_TITLE_BLOCK = ("### Site title · 站点标题\n\nDaocheng's Newsdash\n\n"
+                "### Chinese site title · 中文站点标题\n\n道成的新闻台\n")
+
+
+def _body_with_titles(en, zh):
+    """The full form, with the two title inputs set (None = left blank)."""
+    body = (FIX / "setup_full.md").read_text(encoding="utf-8")
+    assert _TITLE_BLOCK in body, "fixture title block drifted"
+    replacement = (f"### Site title · 站点标题\n\n{en or ios.NO_RESPONSE}\n\n"
+                   f"### Chinese site title · 中文站点标题\n\n{zh or ios.NO_RESPONSE}\n")
+    return body.replace(_TITLE_BLOCK, replacement)
+
+
+def test_english_only_title_writes_a_plain_string(issue_repo):
+    ios.apply(_body_with_titles("My Dash", None), issue_repo, passphrase_set=True)
+    site = read_json(issue_repo / "config" / "site.json")
+    assert site["title"] == "My Dash"
+
+
+def test_both_titles_write_a_bilingual_object(issue_repo):
+    ios.apply(_body_with_titles("My Dash", "我的新闻台"), issue_repo,
+              passphrase_set=True)
+    site = read_json(issue_repo / "config" / "site.json")
+    assert site["title"] == {"en": "My Dash", "zh": "我的新闻台"}
+
+
+def test_chinese_only_title_preserves_the_existing_english(issue_repo):
+    before = read_json(issue_repo / "config" / "site.json")["title"]
+    assert isinstance(before, str) and before  # the shipped config is a string
+    ios.apply(_body_with_titles(None, "我的新闻台"), issue_repo, passphrase_set=True)
+    site = read_json(issue_repo / "config" / "site.json")
+    assert site["title"] == {"en": before, "zh": "我的新闻台"}
+
+
+def test_both_titles_blank_leaves_the_title_untouched(issue_repo):
+    before = read_json(issue_repo / "config" / "site.json")["title"]
+    ios.apply(_body_with_titles(None, None), issue_repo, passphrase_set=True)
+    site = read_json(issue_repo / "config" / "site.json")
+    assert site["title"] == before
+
+
+def test_titles_are_capped_per_language(issue_repo):
+    ios.apply(_body_with_titles("E" * 200, "中" * 200), issue_repo,
+              passphrase_set=True)
+    site = read_json(issue_repo / "config" / "site.json")
+    assert site["title"] == {"en": "E" * 120, "zh": "中" * 120}
+
+
+def test_success_comment_shows_a_bilingual_title():
+    summary = {"language": "zh", "visibility": "public", "theme": "papermod",
+               "title": {"en": "My Dash", "zh": "我的新闻台"}, "timezone": "UTC",
+               "presets": ["ai-news"], "extra_feeds": [], "interests": []}
+    comment = ios.success_comment(summary, [], "alice/my-dash")
+    assert "`My Dash` / `我的新闻台`" in comment
+
+
+def test_success_comment_shows_a_plain_title():
+    summary = {"language": "en", "visibility": "public", "theme": "papermod",
+               "title": "My Dash", "timezone": "UTC",
+               "presets": ["ai-news"], "extra_feeds": [], "interests": []}
+    assert "`My Dash`" in ios.success_comment(summary, [], "alice/my-dash")

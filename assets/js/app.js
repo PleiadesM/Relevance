@@ -6,14 +6,14 @@ import { initAnnotator, setOnSaved, renderAnnotationsIn } from "./annotate.js";
 import * as ndCrypto from "./crypto.js";
 import { dropDecrypted, loadAllSections, loadManifest } from "./data.js";
 import { clear, el } from "./dom.js";
-import { fmtDateTime, initI18n, t } from "./i18n.js";
+import { fmtDateTime, getLang, initI18n, t } from "./i18n.js";
 import { applyScheme, initScheme, resolvedScheme, updateThemeColorMeta } from "./scheme.js";
 import { get, prefs, set } from "./store.js";
 import * as clippingsView from "./views/clippings.js";
 import * as feedView from "./views/feed.js";
 import * as readerView from "./views/reader.js";
 import * as settingsView from "./views/settings.js";
-import { fixDocLinks, sectionLabel } from "./views/shared.js";
+import { fixDocLinks, pickLang, sectionLabel } from "./views/shared.js";
 import * as todayView from "./views/today.js";
 import { showTutorial, tutorialSeen } from "./tutorial.js";
 
@@ -97,10 +97,11 @@ function ensureTheTypeFonts() {
 }
 
 // The product wordmark localizes to 及君 in Chinese mode — but only when the
-// deployer kept the default title. A custom site title is shown verbatim.
+// deployer kept the default title. A custom site title (plain string or
+// {en, zh}) resolves in the active language and is shown verbatim.
 function brandTitle() {
-  const title = get().manifest?.site?.title;
-  const lang = document.documentElement.getAttribute("data-lang") || "en";
+  const title = pickLang(get().manifest?.site?.title);
+  const lang = getLang();
   if (!title || title === "Relevance") return lang === "zh" ? "及君" : "Relevance";
   return title;
 }
@@ -111,7 +112,7 @@ function renderHeader() {
   const brand = brandTitle();
   document.getElementById("site-title-link").textContent = brand;
   document.getElementById("site-subtitle").textContent =
-    manifest?.site?.subtitle || t("app.tagline");
+    pickLang(manifest?.site?.subtitle) || t("app.tagline");
   document.title = brand;
 
   const updated = document.getElementById("updated-at");

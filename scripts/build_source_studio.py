@@ -21,7 +21,12 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from newsdash.config import pick_lang  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CONFIG_DIR = REPO_ROOT / "config"
@@ -83,10 +88,13 @@ def build_data() -> dict:
         if sec and sec not in sections:
             sections.append(sec)
 
+    # The Studio chrome is single-language, so a bilingual {en, zh} title is
+    # resolved here against the site's default language.
+    lang = site_cfg.get("default_language", "en")
     return {
         "site": {
-            "title": site_cfg.get("title", "Relevance"),
-            "lang": site_cfg.get("default_language", "en"),
+            "title": pick_lang(site_cfg.get("title") or "Relevance", lang) or "Relevance",
+            "lang": lang,
         },
         "sources": raw_sources,
         "presets": {

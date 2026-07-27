@@ -9,7 +9,7 @@ import { clear, el, safeHref } from "../dom.js";
 import { fmtDate, fmtDateTime, fmtRelative, getLang, t } from "../i18n.js";
 import { get } from "../store.js";
 import { itemCard, itemLinkAttrs, toggleFavorite } from "./feed.js";
-import { emptyCard, sectionLabel } from "./shared.js";
+import { emptyCard, pickLang, sectionLabel } from "./shared.js";
 
 function isTheType() {
   return document.documentElement.dataset.theme === "the-type";
@@ -208,13 +208,6 @@ function highlightsBlock(cardOpts) {
 // present (graceful fallback otherwise). All thread text is untrusted LLM
 // output: it renders only through el()/textContent, never innerHTML, and the
 // glyph is static path data (never LLM-derived).
-
-// Bilingual field picker: active UI/content language → en → zh → "".
-function pickLang(bi) {
-  if (!bi) return "";
-  const lang = getLang();
-  return bi[lang] || bi.en || bi.zh || "";
-}
 
 // 16×16 inline convergence glyph. SVG is built with createElementNS (el() is
 // HTML-only). stroke="currentColor", static path data ONLY — never any

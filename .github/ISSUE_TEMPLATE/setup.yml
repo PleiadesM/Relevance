@@ -59,6 +59,15 @@ body:
       required: false
 
   - type: input
+    id: title-zh
+    attributes:
+      label: "Chinese site title · 中文站点标题"
+      description: "Optional. Fill this in only if you want a different masthead when the site is read in 中文. Leave it blank to use one title for both languages. 可选。仅当希望中文界面显示不同的站点标题时填写；留空则两种语言共用一个标题。"
+      placeholder: "及君"
+    validations:
+      required: false
+
+  - type: input
     id: timezone
     attributes:
       label: "Timezone · 时区"

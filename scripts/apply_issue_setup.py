@@ -27,7 +27,7 @@ from zoneinfo import ZoneInfo
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from newsdash.config import ConfigError, load_config
+from newsdash.config import ConfigError, load_config, pick_lang
 
 NO_RESPONSE = "_No response_"
 
@@ -35,6 +35,7 @@ FIELD_LANGUAGE = "Interface language"
 FIELD_VISIBILITY = "Site visibility"
 FIELD_THEME = "Theme"
 FIELD_TITLE = "Site title"
+FIELD_TITLE_ZH = "Chinese site title"
 FIELD_TIMEZONE = "Timezone"
 FIELD_OPEN_PACKS = "Open news packs"
 FIELD_ACADEMIC_PACKS = "Academic packs"
@@ -214,9 +215,21 @@ def apply(body: str, repo_root: Path, *,
         else:
             warnings.append(f"unknown theme {theme!r} ignored")
 
-    title = field(fields, FIELD_TITLE)
-    if title:
-        site["title"] = title[:120]
+    # Title is str-or-{en,zh}. Keep configs minimal: a plain string is written
+    # unless the owner actually asked for a distinct Chinese masthead. When
+    # only the Chinese field is filled, the existing English title is carried
+    # over rather than dropped.
+    title_en = field(fields, FIELD_TITLE)
+    title_zh = field(fields, FIELD_TITLE_ZH)
+    if title_zh:
+        existing_en = pick_lang(site.get("title", ""), "en")
+        merged = {}
+        if title_en or existing_en:
+            merged["en"] = (title_en or existing_en)[:120]
+        merged["zh"] = title_zh[:120]
+        site["title"] = merged
+    elif title_en:
+        site["title"] = title_en[:120]
 
     tz = field(fields, FIELD_TIMEZONE)
     if tz:
@@ -628,8 +641,17 @@ def success_comment(summary: dict, warnings: list[str], repo: str) -> str:
     owner, _, name = repo.partition("/")
     site_url = f"https://{owner}.github.io/{name}/"
     private = summary["visibility"] == "private"
+    # The title can now differ per language, so show whatever was configured:
+    # `EN` / `中文` when bilingual, a single value when one title serves both.
+    raw_title = summary.get("title", "")
+    if isinstance(raw_title, dict):
+        title_str = " / ".join(f"`{raw_title[k]}`"
+                               for k in ("en", "zh") if raw_title.get(k))
+    else:
+        title_str = f"`{raw_title}`"
     lines = [
         "## ✅ Preferences applied · 配置已应用", "",
+        f"- **Title · 标题**: {title_str}",
         f"- **Theme · 主题**: `{summary['theme']}`",
         f"- **Language · 语言**: `{summary['language']}`",
         f"- **Visibility · 可见性**: `{summary['visibility']}`",

@@ -105,7 +105,10 @@ def _zero_secret_repo(make_repo):
     these tests build against this, never against the real repo tree.
     """
     return make_repo(
-        site={"schema_version": 1, "title": "T", "visibility": "public",
+        site={"schema_version": 1,
+              # bilingual masthead: it must reach the manifest unchanged
+              "title": {"en": "T", "zh": "测试台"},
+              "subtitle": "one line", "visibility": "public",
               "languages": ["en", "zh"], "default_language": "en",
               "theme": "blowfish", "timezone": "UTC"},
         sources={"schema_version": 1, "presets": [], "sources": [
@@ -125,6 +128,9 @@ def test_smoke_zero_secret(tmp_path, monkeypatch, make_repo):
     manifest = read(out / "manifest.json")
     assert manifest["status"] == "ok"
     assert manifest["site"]["visibility"] == "public"
+    # each display field keeps the exact shape it was configured with
+    assert manifest["site"]["title"] == {"en": "T", "zh": "测试台"}
+    assert manifest["site"]["subtitle"] == "one line"
     assert manifest["site"]["ranking"] == {"highlights": True, "max_per_source": 2}
     assert "crypto" not in manifest
 

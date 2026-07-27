@@ -13,7 +13,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from newsdash.config import ConfigError, load_config
+from newsdash.config import ConfigError, load_config, pick_lang
 
 
 def main() -> None:
@@ -24,7 +24,9 @@ def main() -> None:
         print(f"::error::config invalid: {exc}")
         sys.exit(1)
 
-    print(f"site: {cfg.site.title!r} · visibility={cfg.site.visibility} "
+    # title may be a str or an {en, zh} map — resolve it for display.
+    title = pick_lang(cfg.site.title, cfg.site.default_language)
+    print(f"site: {title!r} · visibility={cfg.site.visibility} "
           f"· theme={cfg.site.theme} · tz={cfg.site.timezone}")
     for category in ("open", "optional", "private"):
         group = [s for s in cfg.sources if s.category == category]

@@ -153,6 +153,7 @@ You never need to edit JSON by hand. The repo ships an issue form that a bot rea
    | **Site visibility** | **Public** = news/papers readable by anyone, personal sections still encrypted. **Private** = the *entire* site is encrypted and opens with a passphrase gate — requires the `NEWSDASH_PASSPHRASE` secret to be set first ([step 4](#4-private-mode-and-the-passphrase)). |
    | **Theme** | `the-type` (typography-first serif), `papermod` (clean system-sans entry cards, adapts hugo-PaperMod), or `blowfish` (lowkey violet with a blurred sticky nav, adapts Blowfish). All three ship a designed dark variant. The old `nyt`/`bear` keys still work and map to `papermod`/`blowfish`. |
    | **Site title** | The masthead text (optional). |
+   | **Chinese site title · 中文站点标题** | An optional Chinese counterpart for the site title above. Fill in both and the masthead resolves to whichever language the reader has toggled to; leave it blank and the English (or single) title is shown in both languages, unchanged from today. |
    | **Timezone** | IANA name like `America/Chicago` or `Asia/Shanghai` — used for day boundaries (optional). |
    | **Open news packs** | Tick **AI news** and/or **General news**. Tick nothing and the bot keeps both defaults. |
    | **Academic packs** | Tick **Data visualization** and/or **Technical communication** ([step 8](#8-academic-packs)) — add an `OPENALEX_API_KEY` in [step 5](#5-add-your-api-keys) first for reliable OpenAlex results. |
