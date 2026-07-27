@@ -1,150 +1,65 @@
 {
  "meta": {
-  "count": 6,
-  "generated_at": "2026-07-27T17:54:24Z",
+  "count": 5,
+  "generated_at": "2026-07-27T19:52:52Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "full_text_file": "articles/news/b7f96b39af72afeb.json",
+     "item_id": "b7f96b39af72afeb",
+     "phrase": {
+      "en": "Verizon bets on AI data center demand",
+      "zh": "Verizon押注AI数据中心需求"
+     },
+     "section": "news",
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/ai/2026/07/verizon-seeks-ai-profits-with-mini-data-centers-1b-dark-fiber-deal-with-google/"
+    },
+    {
      "item_id": "5f1d3003288009cd",
      "phrase": {
-      "en": "Chinese AI powerhouses lack profit strategy",
-      "zh": "中国AI巨头缺乏盈利策略"
+      "en": "China's AI firms can't figure profit",
+      "zh": "中国AI公司难以盈利"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/07/27/business/china-ai-alibaba-bytedance.html"
-    },
-    {
-     "full_text_file": "articles/news/188aa6f78406648c.json",
-     "item_id": "188aa6f78406648c",
-     "phrase": {
-      "en": "China gives away models, struggles to monetize",
-      "zh": "中国开源模型，变现困难"
-     },
-     "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Even China's best AI labs struggle to turn tech into money, echoing Silicon Valley's own doubts.",
-    "zh": "连中国顶尖AI实验室都难以将技术变现，与硅谷的疑虑遥相呼应。"
+    "en": "Even AI leaders struggle to turn models into money; the promise outpaces the business plan.",
+    "zh": "即使AI领头羊也难以将模型变现，承诺跑在了商业模式前面。"
    },
    "id": "t1",
    "keyword": {
     "en": "AI profitability",
-    "zh": "AI盈利困境"
+    "zh": "AI盈利"
    },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow LLM and business models: today two sources converge on the same profit question from different sides of the Pacific.",
-    "zh": "你关注大语言模型与商业模式，今日跨洋两家媒体同时聚焦同一个盈利难题。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "0f3d2d4280c2b08c",
-     "phrase": {
-      "en": "travel cancellations due to European wildfires",
-      "zh": "欧洲野火导致旅行取消"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/videos/c89npw4q3g4o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "76d54ba1f1ffb60b",
-     "phrase": {
-      "en": "France's 'fire cloud' phenomenon",
-      "zh": "法国‘火云’现象"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/27/world/europe/pyrocumulonimbus-fire-cloud-france-wildfires.html"
-    },
-    {
-     "item_id": "933f5c65254e403b",
-     "phrase": {
-      "en": "race to contain blazes before heatwave",
-      "zh": "热浪前争分夺秒控火"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/jul/27/france-and-spain-race-to-contain-huge-wildfires-before-fresh-heatwave-begins"
-    },
-    {
-     "item_id": "c6687d3c1e90b368",
-     "phrase": {
-      "en": "evacuation from Gironde wildfire",
-      "zh": "吉伦特省野火疏散"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/jul/27/it-felt-like-being-in-a-disaster-movie-inside-the-evacuation-from-frances-bordeaux-wildfires"
-    }
+   "relates_to": [
+    "t3"
    ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "France and Spain fight record blazes as heatwave returns, forcing evacuations and cancellations.",
-    "zh": "法国与西班牙奋力扑救创纪录山火，热浪来袭，民众疏散、行程取消。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "wildfire crisis Europe",
-    "zh": "欧洲野火危机"
-   },
-   "relates_to": [],
    "why_now": {
-    "en": "You care about climate and data: the pyrocumulonimbus is a new visual phenomenon you can track.",
-    "zh": "你关注气候与数据：火积云是一种新的可视现象，值得追踪。"
+    "en": "You follow LLM economics; today both China's giants and US infrastructure deals signal the same gap.",
+    "zh": "你关注大模型经济，今天中国巨头和美国基建交易都指向同一个缺口。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "734a978ff6e637ed",
+     "full_text_file": "articles/news/3f8bf3b04c8caea9.json",
+     "item_id": "3f8bf3b04c8caea9",
      "phrase": {
-      "en": "extends Senate leave, misses state picnic",
-      "zh": "延长参议院休假，错过州野餐"
+      "en": "Hugging Face attack called unprecedented",
+      "zh": "Hugging Face攻击被称前所未有"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/27/us/politics/mcconnell-extends-senate-leave-update.html"
+     "source": "MIT Technology Review · AI",
+     "url": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/"
     },
-    {
-     "item_id": "6485f663bd2966e5",
-     "phrase": {
-      "en": "not medically cleared to resume role",
-      "zh": "未获医疗许可重返岗位"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/live/2026/jul/27/us-senate-spy-jay-clayton-donald-trump-iran-war-saudi-oman-hormuz-pentagon-seattle-latest-news-updates"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Senator Mitch McConnell remains in rehab, missing work and a state picnic, as doctors say he's not cleared.",
-    "zh": "参议员麦康奈尔持续康复，错过工作与州野餐，医生称其尚未获准出院。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "McConnell health",
-    "zh": "麦康奈尔健康"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You track political narratives: two sources give near-identical updates on a key figure's absence.",
-    "zh": "你关注政治叙事：两家媒体对关键人物缺席给出了几乎一致的更新。"
-   }
-  },
-  {
-   "angles": [
     {
      "item_id": "f24d7e7d64e00e83",
      "phrase": {
@@ -158,106 +73,204 @@
     {
      "item_id": "5658809c596338d2",
      "phrase": {
-      "en": "MAI-Cyber 1 model released",
-      "zh": "MAI-Cyber 1模型发布"
+      "en": "Microsoft's MAI-Cyber-1-Flash model",
+      "zh": "微软MAI-Cyber-1-Flash模型"
      },
      "section": "news",
      "source": "Hacker News (AI filter)",
      "url": "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "divergent",
    "gloss": {
-    "en": "Microsoft launches AI cybersecurity tools and a dedicated model, betting safety will be a growth business.",
-    "zh": "微软推出AI网络安全工具及专用模型，押注安全将成为增长业务。"
+    "en": "Companies rush to sell AI-powered defenses as attacks on AI systems multiply.",
+    "zh": "随着针对AI系统的攻击增多，公司争相推出AI防御产品。"
    },
-   "id": "t4",
+   "id": "t2",
    "keyword": {
-    "en": "AI cybersecurity",
-    "zh": "AI网络安全"
+    "en": "AI security tools",
+    "zh": "AI安全工具"
    },
-   "relates_to": [],
+   "relates_to": [
+    "t3"
+   ],
    "why_now": {
-    "en": "You follow embodied AI and LLM: today's AI security news directly ties to your interest in safe AI systems.",
-    "zh": "你关注具身AI与LLM，今日AI安全新闻直接关联你对安全AI系统的兴趣。"
+    "en": "You care about AI safety; today Microsoft launched dedicated cybersecurity AI, and OpenAI described an unprecedented attack.",
+    "zh": "你关注AI安全，今天微软推出网络安全专用AI，OpenAI描述了一次前所未有的攻击。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "929c5e100a7ef2d3",
+     "full_text_file": "articles/news/b7f96b39af72afeb.json",
+     "item_id": "b7f96b39af72afeb",
      "phrase": {
-      "en": "Trump warns of military action if diplomacy fails",
-      "zh": "特朗普警告外交失败将动武"
+      "en": "Verizon touts $1B dark fiber for Google",
+      "zh": "Verizon推销10亿美元暗光纤给谷歌"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/jul/27/trump-warns-return-strong-military-action-iran-diplomacy-fails"
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/ai/2026/07/verizon-seeks-ai-profits-with-mini-data-centers-1b-dark-fiber-deal-with-google/"
     },
     {
-     "item_id": "cb937322964638f7",
+     "item_id": "da743486f9b36bce",
      "phrase": {
-      "en": "oil price dives as US halts attacks",
-      "zh": "油价因美国停火而暴跌"
+      "en": "Meta's secret data center deal in Louisiana",
+      "zh": "Meta在路易斯安那的秘密数据中心交易"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/27/technology/meta-data-center-louisiana.html"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Tech giants quietly strike secret deals to build massive data centers, reshaping local landscapes.",
+    "zh": "科技巨头悄然达成秘密协议建设巨型数据中心，重塑当地地貌。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "data center expansion",
+    "zh": "数据中心扩张"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track AI infrastructure; today Meta's secret Louisiana deal and Verizon's Google fiber reveal the scale.",
+    "zh": "你关注AI基础设施，今天Meta的秘密路易斯安那交易和Verizon的谷歌光纤揭示了规模。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "afc4d68761a54e72",
+     "phrase": {
+      "en": "Witnesses describe 'wall of flames'",
+      "zh": "目击者描述‘火墙’"
      },
      "section": "news",
      "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/clyj834jn5lo?at_medium=RSS&at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/cly5qwwdvr1o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "0f3d2d4280c2b08c",
+     "phrase": {
+      "en": "Travel advice for France and Spain",
+      "zh": "法国和西班牙旅行建议"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/videos/c89npw4q3g4o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "76d54ba1f1ffb60b",
+     "phrase": {
+      "en": "Heat creates fire cloud",
+      "zh": "高温形成火云"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/27/world/europe/pyrocumulonimbus-fire-cloud-france-wildfires.html"
+    },
+    {
+     "item_id": "933f5c65254e403b",
+     "phrase": {
+      "en": "Race to contain before fresh heatwave",
+      "zh": "在新热浪前争分夺秒"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/jul/27/france-and-spain-race-to-contain-huge-wildfires-before-fresh-heatwave-begins"
+    },
+    {
+     "item_id": "c6687d3c1e90b368",
+     "phrase": {
+      "en": "Evacuees feel like in disaster movie",
+      "zh": "疏散者感觉像在灾难电影中"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/jul/27/it-felt-like-being-in-a-disaster-movie-inside-the-evacuation-from-frances-bordeaux-wildfires"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Oil prices drop as US pauses attacks on Iran, but Trump warns of strong action if talks fail.",
-    "zh": "油价因美国暂停对伊打击而下跌，但特朗普警告谈判失败将采取强硬行动。"
+    "en": "France and Spain battle record wildfires as heatwave returns, forcing mass evacuations.",
+    "zh": "法国和西班牙在热浪回归之际对抗创纪录野火，迫使大规模疏散。"
    },
-   "id": "t5",
+   "id": "t4",
    "keyword": {
-    "en": "Iran-US tensions",
-    "zh": "伊朗-美国紧张"
+    "en": "wildfire crisis",
+    "zh": "野火危机"
    },
    "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-07-27",
+     "item_id": "afc4d68761a54e72",
+     "label": {
+      "en": "peak of crisis",
+      "zh": "危机高峰"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cly5qwwdvr1o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "date": "2026-07-27",
+     "item_id": "afc4d68761a54e72",
+     "label": {
+      "en": "evacuations top 300k",
+      "zh": "疏散超30万"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cly5qwwdvr1o?at_medium=RSS&at_campaign=rss"
+    }
+   ],
    "why_now": {
-    "en": "You follow geopolitics: today's mixed signals on Iran are a rare window into negotiation dynamics.",
-    "zh": "你关注地缘政治：今日伊朗问题的矛盾信号罕见地揭示了谈判动态。"
+    "en": "You follow climate impacts; today the fires create a 'pyrocumulonimbus' and threaten holidays.",
+    "zh": "你关注气候影响，今天大火催生‘火积云’并威胁假期。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "9aa88d2a1e0f95c4",
+     "item_id": "a9d3807938af9ace",
      "phrase": {
-      "en": "Burnham brings socialists into government",
-      "zh": "伯纳姆将社会主义者纳入政府"
+      "en": "Capturing virtues in visualization practice",
+      "zh": "捕捉可视化实践中的美德"
      },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/politics/2026/jul/27/burnham-brings-members-of-socialist-campaign-group-into-government"
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.21732v1"
     },
     {
-     "item_id": "42ad7adc597b000a",
+     "item_id": "4be15b15e00ce8a0",
      "phrase": {
-      "en": "Zelensky visit supports new UK PM",
-      "zh": "泽连斯基访英支持新首相"
+      "en": "Explainable AI for artists' bending",
+      "zh": "面向艺术家的可解释AI调试"
      },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cy8me5vyjg2o?at_medium=RSS&at_campaign=rss"
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.22428v1"
     }
    ],
-   "convergence": "divergent",
+   "convergence": "convergent",
    "gloss": {
-    "en": "UK PM Burnham brings socialist faction into government while Zelensky visits, signaling a shift.",
-    "zh": "英国首相伯纳姆将社会主义派系纳入政府，同时泽连斯基到访，标志政治转向。"
+    "en": "Researchers ask what values and virtues underpin visualization design, moving beyond technical correctness.",
+    "zh": "研究者追问可视化设计背后的价值观和美德，超越技术正确性。"
    },
-   "id": "t6",
+   "id": "t5",
    "keyword": {
-    "en": "UK politics left",
-    "zh": "英国左翼政治"
+    "en": "critical visualization ethics",
+    "zh": "批判性可视化伦理"
    },
-   "relates_to": [],
+   "relates_to": [
+    "t4"
+   ],
    "why_now": {
-    "en": "You follow political communication: this move reshapes the narrative of the new government.",
-    "zh": "你关注政治传播：此举重塑了新政府的叙事。"
+    "en": "You care about critical visualization and ethics; today's papers explicitly frame moral dimensions of your craft.",
+    "zh": "你关注批判性可视化和伦理，今天的研究明确提出了你所在领域的美德维度。"
    }
   }
  ]
