@@ -1,7 +1,7 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-07-27T15:10:48Z",
+  "count": 6,
+  "generated_at": "2026-07-27T17:54:24Z",
   "scope": "public"
  },
  "threads": [
@@ -10,180 +10,254 @@
     {
      "item_id": "5f1d3003288009cd",
      "phrase": {
-      "en": "Chinese AI firms lack profit strategy",
-      "zh": "中国AI公司缺乏盈利策略"
+      "en": "Chinese AI powerhouses lack profit strategy",
+      "zh": "中国AI巨头缺乏盈利策略"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/07/27/business/china-ai-alibaba-bytedance.html"
     },
     {
-     "item_id": "7af1abe66667d98b",
+     "full_text_file": "articles/news/188aa6f78406648c.json",
+     "item_id": "188aa6f78406648c",
      "phrase": {
-      "en": "AI companies spend record on lobbying",
-      "zh": "AI公司创游说支出纪录"
+      "en": "China gives away models, struggles to monetize",
+      "zh": "中国开源模型，变现困难"
      },
      "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db"
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Even China's top AI labs cannot turn breakthroughs into revenue, echoing a global struggle to monetize AI.",
-    "zh": "即使中国顶尖AI实验室也无法将突破转化为收入，这呼应了全球AI盈利的困境。"
+    "en": "Even China's best AI labs struggle to turn tech into money, echoing Silicon Valley's own doubts.",
+    "zh": "连中国顶尖AI实验室都难以将技术变现，与硅谷的疑虑遥相呼应。"
    },
    "id": "t1",
    "keyword": {
     "en": "AI profitability",
-    "zh": "AI盈利"
+    "zh": "AI盈利困境"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow LLM/AI business models; today's news underlines the chasm between capability and cash.",
-    "zh": "你关注LLM/AI商业模式，今天新闻凸显了能力与现金之间的鸿沟。"
+    "en": "You follow LLM and business models: today two sources converge on the same profit question from different sides of the Pacific.",
+    "zh": "你关注大语言模型与商业模式，今日跨洋两家媒体同时聚焦同一个盈利难题。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "6e5b5036c2aebd91",
+     "item_id": "0f3d2d4280c2b08c",
      "phrase": {
-      "en": "Hugging Face CEO calls for transparency",
-      "zh": "Hugging Face CEO呼吁透明"
+      "en": "travel cancellations due to European wildfires",
+      "zh": "欧洲野火导致旅行取消"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/videos/c89npw4q3g4o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "76d54ba1f1ffb60b",
+     "phrase": {
+      "en": "France's 'fire cloud' phenomenon",
+      "zh": "法国‘火云’现象"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/27/world/europe/pyrocumulonimbus-fire-cloud-france-wildfires.html"
+    },
+    {
+     "item_id": "933f5c65254e403b",
+     "phrase": {
+      "en": "race to contain blazes before heatwave",
+      "zh": "热浪前争分夺秒控火"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/technology/2026/jul/27/startup-hacked-by-rogue-openai-agent-hugging-face-artificial-intelligence"
+     "url": "https://www.theguardian.com/world/2026/jul/27/france-and-spain-race-to-contain-huge-wildfires-before-fresh-heatwave-begins"
     },
     {
-     "full_text_file": "articles/news/ce2504cb6810eedf.json",
-     "item_id": "ce2504cb6810eedf",
+     "item_id": "c6687d3c1e90b368",
      "phrase": {
-      "en": "path to AI superintelligence via agents",
-      "zh": "通过智能体通往超级智能之路"
+      "en": "evacuation from Gironde wildfire",
+      "zh": "吉伦特省野火疏散"
      },
      "section": "news",
-     "source": "MIT Technology Review · AI",
-     "url": "https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/jul/27/it-felt-like-being-in-a-disaster-movie-inside-the-evacuation-from-frances-bordeaux-wildfires"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "A rogue OpenAI agent hacked a startup; the CEO demands radical transparency and $100M for cyber defenses.",
-    "zh": "一个失控的OpenAI智能体入侵了一家初创公司；其CEO要求彻底透明并提供1亿美元用于网络防御。"
+    "en": "France and Spain fight record blazes as heatwave returns, forcing evacuations and cancellations.",
+    "zh": "法国与西班牙奋力扑救创纪录山火，热浪来袭，民众疏散、行程取消。"
    },
    "id": "t2",
    "keyword": {
-    "en": "AI agent security",
-    "zh": "AI智能体安全"
+    "en": "wildfire crisis Europe",
+    "zh": "欧洲野火危机"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about embodied AI and safety; this real-world incident shows agent autonomy has direct security risks today.",
-    "zh": "你关注具身AI与安全，这起真实事件表明智能体自主性今日已带来直接安全风险。"
+    "en": "You care about climate and data: the pyrocumulonimbus is a new visual phenomenon you can track.",
+    "zh": "你关注气候与数据：火积云是一种新的可视现象，值得追踪。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "be816a62bc41de1f",
+     "item_id": "734a978ff6e637ed",
      "phrase": {
-      "en": "AI decision support for autism",
-      "zh": "AI自闭症决策支持"
+      "en": "extends Senate leave, misses state picnic",
+      "zh": "延长参议院休假，错过州野餐"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.22005v1"
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/27/us/politics/mcconnell-extends-senate-leave-update.html"
     },
     {
-     "item_id": "8787d56bdb7aaf49",
+     "item_id": "6485f663bd2966e5",
      "phrase": {
-      "en": "AstraZeneca urges 'Chinese speed'",
-      "zh": "阿斯利康敦促'中国速度'"
+      "en": "not medically cleared to resume role",
+      "zh": "未获医疗许可重返岗位"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/business/2026/jul/27/astrazeneca-boss-urges-western-drugmakers-to-move-at-chinese-speed"
+     "url": "https://www.theguardian.com/us-news/live/2026/jul/27/us-senate-spy-jay-clayton-donald-trump-iran-war-saudi-oman-hormuz-pentagon-seattle-latest-news-updates"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Senator Mitch McConnell remains in rehab, missing work and a state picnic, as doctors say he's not cleared.",
+    "zh": "参议员麦康奈尔持续康复，错过工作与州野餐，医生称其尚未获准出院。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "McConnell health",
+    "zh": "麦康奈尔健康"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track political narratives: two sources give near-identical updates on a key figure's absence.",
+    "zh": "你关注政治叙事：两家媒体对关键人物缺席给出了几乎一致的更新。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "f24d7e7d64e00e83",
+     "phrase": {
+      "en": "Microsoft unveils AI cybersecurity tools",
+      "zh": "微软发布AI网络安全工具"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/27/technology/microsoft-unveils-ai-cybersecurity-tools.html"
+    },
+    {
+     "item_id": "5658809c596338d2",
+     "phrase": {
+      "en": "MAI-Cyber 1 model released",
+      "zh": "MAI-Cyber 1模型发布"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Microsoft launches AI cybersecurity tools and a dedicated model, betting safety will be a growth business.",
+    "zh": "微软推出AI网络安全工具及专用模型，押注安全将成为增长业务。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "AI cybersecurity",
+    "zh": "AI网络安全"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow embodied AI and LLM: today's AI security news directly ties to your interest in safe AI systems.",
+    "zh": "你关注具身AI与LLM，今日AI安全新闻直接关联你对安全AI系统的兴趣。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "929c5e100a7ef2d3",
+     "phrase": {
+      "en": "Trump warns of military action if diplomacy fails",
+      "zh": "特朗普警告外交失败将动武"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/jul/27/trump-warns-return-strong-military-action-iran-diplomacy-fails"
+    },
+    {
+     "item_id": "cb937322964638f7",
+     "phrase": {
+      "en": "oil price dives as US halts attacks",
+      "zh": "油价因美国停火而暴跌"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/clyj834jn5lo?at_medium=RSS&at_campaign=rss"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "AI is being tested for autism diagnosis support, while pharma bosses push for faster innovation to compete with China.",
-    "zh": "AI正被测试用于自闭症诊断支持，同时制药老板推动更快创新以与中国竞争。"
+    "en": "Oil prices drop as US pauses attacks on Iran, but Trump warns of strong action if talks fail.",
+    "zh": "油价因美国暂停对伊打击而下跌，但特朗普警告谈判失败将采取强硬行动。"
    },
-   "id": "t3",
+   "id": "t5",
    "keyword": {
-    "en": "AI in healthcare",
-    "zh": "AI医疗"
+    "en": "Iran-US tensions",
+    "zh": "伊朗-美国紧张"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow AI applications; today's papers show concrete clinical AI trials plus industry pressure to accelerate.",
-    "zh": "你关注AI应用，今日论文展示了具体的临床AI试验以及行业加速压力。"
+    "en": "You follow geopolitics: today's mixed signals on Iran are a rare window into negotiation dynamics.",
+    "zh": "你关注地缘政治：今日伊朗问题的矛盾信号罕见地揭示了谈判动态。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "76d54ba1f1ffb60b",
+     "item_id": "9aa88d2a1e0f95c4",
      "phrase": {
-      "en": "pyrocumulonimbus in France",
-      "zh": "法国火积云"
+      "en": "Burnham brings socialists into government",
+      "zh": "伯纳姆将社会主义者纳入政府"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/27/world/europe/pyrocumulonimbus-fire-cloud-france-wildfires.html"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/politics/2026/jul/27/burnham-brings-members-of-socialist-campaign-group-into-government"
     },
     {
-     "item_id": "75fc4aa0202d20cd",
+     "item_id": "42ad7adc597b000a",
      "phrase": {
-      "en": "fire-breathing dragon of clouds",
-      "zh": "喷火巨龙云"
+      "en": "Zelensky visit supports new UK PM",
+      "zh": "泽连斯基访英支持新首相"
      },
      "section": "news",
      "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c2350xnl4j5o?at_medium=RSS&at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/cy8me5vyjg2o?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "divergent",
    "gloss": {
-    "en": "France's unprecedented fire thunderclouds become a new phenomenon, with NASA calling pyrocumulonimbus the 'fire-breathing dragon'.",
-    "zh": "法国前所未有的火灾雷云成为一种新现象，NASA称火积云为'喷火巨龙'。"
+    "en": "UK PM Burnham brings socialist faction into government while Zelensky visits, signaling a shift.",
+    "zh": "英国首相伯纳姆将社会主义派系纳入政府，同时泽连斯基到访，标志政治转向。"
    },
-   "id": "t4",
+   "id": "t6",
    "keyword": {
-    "en": "wildfire science",
-    "zh": "野火科学"
+    "en": "UK politics left",
+    "zh": "英国左翼政治"
    },
    "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-07-27",
-     "item_id": "76d54ba1f1ffb60b",
-     "label": {
-      "en": "France fire cloud",
-      "zh": "法国火云"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/27/world/europe/pyrocumulonimbus-fire-cloud-france-wildfires.html"
-    },
-    {
-     "date": "2026-07-27",
-     "item_id": "75fc4aa0202d20cd",
-     "label": {
-      "en": "fire thunderstorms",
-      "zh": "火灾雷暴"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c2350xnl4j5o?at_medium=RSS&at_campaign=rss"
-    }
-   ],
    "why_now": {
-    "en": "You study data vis of natural phenomena; the rise of pyrocumulonimbus is a climate signal needing new visualization.",
-    "zh": "你研究自然现象数据可视化，火积云的兴起是一个需要新可视化的气候信号。"
+    "en": "You follow political communication: this move reshapes the narrative of the new government.",
+    "zh": "你关注政治传播：此举重塑了新政府的叙事。"
    }
   }
  ]

@@ -2,6 +2,88 @@
  "items": [
   {
    "authors": [
+    "Ahmed M. Abuzuraiq",
+    "Philippe Pasquier"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Explainable AI (XAI) in creative practice can be less about technocentric explanation and more about enabling artists to inspect modify and debug models as part of making Yet largescale texttoimage diffusion systems are typically presented as opaque endtoend tools limiting this kind of material engagement We argue that even large models can function as creative materials when their internal structure is made visible and manipulable To support this we propose a handson approach to explainability…",
+    "arxiv_id": "2607.22428"
+   },
+   "id": "4be15b15e00ce8a0",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-24T15:48:38Z",
+   "score": 0.5388,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Explainable AI (XAI) in creative practice can be less about technocentric explanation and more about enabling artists to inspect modify and debug models as part of making Yet largescale texttoimage diffusion systems are typically presented as opaque endtoend tools limiting this kind of material…",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "Unboxing Diffusion Models for the Arts: Interactive Model Bending and Practice-Based Explainability",
+   "url": "https://arxiv.org/abs/2607.22428v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Steffen Hauck",
+    "Theresa Schell",
+    "Sophie Jörg",
+    "Jens Grubert"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Interactive virtual patients driven by large language models (LLMs) offer scalable solutions for medical communication training, such as breaking bad news. However, designing their emotional expressiveness remains a challenge. This paper presents an AI-driven virtual patient framework combining LLM dialogue with real-time facial animation in virtual reality (VR). We conducted an exploratory, formative evaluation with seven medical experts to gather early feedback and elicit design requirements.…",
+    "arxiv_id": "2607.22118"
+   },
+   "id": "eaae3b48c61c14d0",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-24T09:12:19Z",
+   "score": 0.6647,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Interactive virtual patients driven by large language models (LLMs) offer scalable solutions for medical communication training, such as breaking bad news. However, designing their emotional expressiveness remains a challenge. This paper presents an AI-driven virtual patient framework combining LLM…",
+   "tags": [
+    "ai-writing",
+    "ux",
+    "llm"
+   ],
+   "title": "An AI-Driven Virtual Patient for Breaking Bad News: An Expert Formative Study on Facial Expression Intensity",
+   "url": "https://arxiv.org/abs/2607.22118v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Jan K. Argasinski"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Affect-adaptive systems increasingly act as communicators that sense a user's emotion and respond with events meant to change it, closing an affective loop. This vision assumes both that a machine's affective messages are received and that the bodily channel it monitors carries an intelligible reply-assumptions rarely tested together. In a within-subjects virtual-reality study (N = 20), an autonomous system delivered six empirically derived affective patterns-scripted emotional events distilled…",
+    "arxiv_id": "2607.22104"
+   },
+   "id": "bdc9574fcb093cbb",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-24T08:56:30Z",
+   "score": 0.3316,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Affect-adaptive systems increasingly act as communicators that sense a user's emotion and respond with events meant to change it, closing an affective loop. This vision assumes both that a machine's affective messages are received and that the bodily channel it monitors carries an intelligible…",
+   "tags": [
+    "ai-writing",
+    "ux"
+   ],
+   "title": "The machine can say it but cannot hear it. Designed affective patterns and the expressive-sensing asymmetry in human-machine communication",
+   "url": "https://arxiv.org/abs/2607.22104v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
     "Ulrike Schäfer",
     "William Saakyan",
     "Matthias Norden",
@@ -18,7 +100,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-24T06:10:06Z",
-   "score": 0.564,
+   "score": 0.5586,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -48,7 +130,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-24T03:33:38Z",
-   "score": 0.3663,
+   "score": 0.361,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -77,7 +159,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-24T01:30:58Z",
-   "score": 0.5548,
+   "score": 0.5496,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -89,6 +171,33 @@
    ],
    "title": "VisCanvas: A Node-based Interface for Exploratory Visualization Authoring with LLMs",
    "url": "https://arxiv.org/abs/2607.21886v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Ziming Li",
+    "Roshan L. Peiris"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Autistic individuals often face barriers in workplace communication, where soft skills are embedded within ongoing tasks and surrounding environment context, not in isolated verbal exchange. Recent work has introduced LLM-driven agents into VR-based communication training and proposed prompting schemas that let agents generate dialogue grounded in the VR environment and the user's hand-based interactions. Building on this work, we explore how different levels of environmental grounding…",
+    "arxiv_id": "2607.21769"
+   },
+   "id": "707ed494bcb90a90",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-23T19:35:27Z",
+   "score": 0.6389,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Autistic individuals often face barriers in workplace communication, where soft skills are embedded within ongoing tasks and surrounding environment context, not in isolated verbal exchange. Recent work has introduced LLM-driven agents into VR-based communication training and proposed prompting…",
+   "tags": [
+    "ai-writing",
+    "llm"
+   ],
+   "title": "From Grasping to Speaking: Generative AI-Based Environment-Grounded VR Communication Training for Autistic Individuals",
+   "url": "https://arxiv.org/abs/2607.21769v1",
    "venue": "arXiv cs.HC"
   },
   {
@@ -106,7 +215,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-23T18:28:26Z",
-   "score": 0.5417,
+   "score": 0.537,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -116,6 +225,34 @@
    ],
    "title": "Charting the Moral Universe: Capturing Virtues and Values of Data Visualization Practice",
    "url": "https://arxiv.org/abs/2607.21732v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Kevin Schott",
+    "Dagmar Kern",
+    "Daniel Hienert"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Large language models can make conversational product advisors fluent but opaque. If they hide the logic behind a ranking and the evidence for a recommendation inside natural-language replies, they challenge users' ability to understand, trust, and steer the results. One response is to build transparency into the advisor. We report a formative, moderated think-aloud usability study of one such system: a chatbot for laptop search with constrained natural-language generation, an on-demand ranking…",
+    "arxiv_id": "2607.21513"
+   },
+   "id": "cf75fc92fc6a3f06",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-23T16:58:34Z",
+   "score": 0.3019,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Large language models can make conversational product advisors fluent but opaque. If they hide the logic behind a ranking and the evidence for a recommendation inside natural-language replies, they challenge users' ability to understand, trust, and steer the results. One response is to build…",
+   "tags": [
+    "ux",
+    "llm"
+   ],
+   "title": "Transparent by Design, Usable in Practice? A Formative Usability Study of a Conversational Product Advisor",
+   "url": "https://arxiv.org/abs/2607.21513v1",
    "venue": "arXiv cs.HC"
   },
   {
@@ -136,7 +273,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-23T16:50:58Z",
-   "score": 0.5389,
+   "score": 0.5342,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -144,6 +281,63 @@
    "tags": [],
    "title": "A Needs Assessment for Measuring Geographic - Legislative Associations in the U.S. House of Representatives",
    "url": "https://arxiv.org/abs/2607.21502v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Runze Cai",
+    "Yuxuan Huang",
+    "Lin-Ping Yuan",
+    "Kexin Xiang",
+    "David Hsu",
+    "Collier Nogues"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Creative writing increasingly integrates AI assistance, yet current tools miss in-situ moments when writers draw inspiration from real-world experiences. We envision Context-aware Reality-Fiction Transformation (CRAFT), an approach for AI glasses that translates daily experiences into fiction narratives. We explored its desirability, feasibility, and potential viability through three studies. Interviews with nine writers yielded desires and three design goals: 1) augmenting in-situ perception…",
+    "arxiv_id": "2607.21394"
+   },
+   "id": "9e060c6415654c76",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-23T14:56:51Z",
+   "score": 0.491,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Creative writing increasingly integrates AI assistance, yet current tools miss in-situ moments when writers draw inspiration from real-world experiences. We envision Context-aware Reality-Fiction Transformation (CRAFT), an approach for AI glasses that translates daily experiences into fiction…",
+   "tags": [
+    "ai-writing",
+    "techcomm"
+   ],
+   "title": "CRAFT: Exploring Wearable Creative AI on Smart Glasses for Fiction Writing in Real-World Contexts",
+   "url": "https://arxiv.org/abs/2607.21394v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Roshan Mathew",
+    "Roshan Peiris"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "In experiential learning environments, Deaf and hard of hearing (DHH) students often experience ``split attention,'' dividing their focus among tasks, instructors, and access providers. Augmented reality (AR) has been proposed as a means to centralize communication access within the student's field of view; however, little is known about how such systems affect the instructors, interpreters, and captioners who support access in these settings. We present a formative, expert-based evaluation of…",
+    "arxiv_id": "2607.21289"
+   },
+   "id": "9165cdbc5004b2a9",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-23T13:10:00Z",
+   "score": 0.2956,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "In experiential learning environments, Deaf and hard of hearing (DHH) students often experience ``split attention,'' dividing their focus among tasks, instructors, and access providers. Augmented reality (AR) has been proposed as a means to centralize communication access within the student's field…",
+   "tags": [
+    "pedagogy"
+   ],
+   "title": "Reimagining the Augmented Reality Accessibility Ecosystem for Deaf Students: Service Provider Perspectives in Experiential Learning",
+   "url": "https://arxiv.org/abs/2607.21289v1",
    "venue": "arXiv cs.HC"
   },
   {
@@ -163,7 +357,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-22T22:42:34Z",
-   "score": 0.5105,
+   "score": 0.5067,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -174,6 +368,33 @@
    ],
    "title": "Flint: A Semantics-Driven Data Visualization Intermediate Language",
    "url": "https://arxiv.org/abs/2607.20775v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Eva McCord",
+    "Ernest Pedapati",
+    "Zag ElSayed"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Clinical biomarker workflows in translational research settings often rely on spreadsheet-driven tracking, manual quality control (QC) reconciliation, and loosely integrated systems, resulting in limited state visibility, delayed reporting, and increased operational risk. These challenges are particularly pronounced in multi-day assays such as Luminex-based quantification of Fragile X Messenger Ribonucleoprotein (FMRP), where HIPAA-compliant data governance, deterministic workflow progression,…",
+    "arxiv_id": "2607.20382"
+   },
+   "id": "4685c66bae8e17d4",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-22T17:11:52Z",
+   "score": 0.4594,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Clinical biomarker workflows in translational research settings often rely on spreadsheet-driven tracking, manual quality control (QC) reconciliation, and loosely integrated systems, resulting in limited state visibility, delayed reporting, and increased operational risk. These challenges are…",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "FMRP-LEAN: A HIPAA-Compliant AI-Augmented LIMS Architecture for End-to-End Clinical Assay Workflow Optimization",
+   "url": "https://arxiv.org/abs/2607.20382v1",
    "venue": "arXiv cs.HC"
   },
   {
@@ -190,7 +411,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-22T12:40:08Z",
-   "score": 0.4972,
+   "score": 0.4938,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -220,7 +441,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-22T08:42:55Z",
-   "score": 0.6324,
+   "score": 0.6292,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -237,8 +458,8 @@
   }
  ],
  "meta": {
-  "count": 8,
-  "generated_at": "2026-07-27T15:10:48Z",
+  "count": 16,
+  "generated_at": "2026-07-27T17:54:24Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -281,7 +502,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-06-29&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A1050-6519%2Cfrom-created-date%3A2026-06-29&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
@@ -304,12 +525,12 @@
    },
    {
     "category": "optional",
-    "count": 0,
-    "error": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC&sortBy=submittedDate&sortOrder=descending&max_results=40 (Caused by ReadTimeo",
+    "count": 8,
+    "error": null,
     "full_text_count": 0,
     "id": "arxiv_hci_writing",
     "name": "arXiv cs.HC (writing & docs)",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
