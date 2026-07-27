@@ -1,228 +1,180 @@
 {
  "meta": {
-  "count": 3,
-  "generated_at": "2026-07-27T11:36:49Z",
+  "count": 4,
+  "generated_at": "2026-07-27T15:10:48Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "20e0a0c9a0a068c5",
+     "item_id": "5f1d3003288009cd",
      "phrase": {
-      "en": "pause with higher casualty",
-      "zh": "暂停伴随更高伤亡"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/jul/27/first-thing-trump-pause-iran-strikes-pentagon-higher-us-casualties"
-    },
-    {
-     "item_id": "cb937322964638f7",
-     "phrase": {
-      "en": "oil dives on pause",
-      "zh": "油价因暂停暴跌"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/clyj834jn5lo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "f18f23f111db28cf",
-     "phrase": {
-      "en": "oil slides, business live",
-      "zh": "油价下滑，商业直播"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/business/live/2026/jul/27/oil-falls-us-iran-pause-fire-astrazeneca-profit-latest-economy-news"
-    },
-    {
-     "item_id": "1e460b5f60f8780e",
-     "phrase": {
-      "en": "pause amid growing risks",
-      "zh": "风险增加中的暂停"
+      "en": "Chinese AI firms lack profit strategy",
+      "zh": "中国AI公司缺乏盈利策略"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/27/podcasts/the-headlines/us-iran-strikes-measles.html"
+     "url": "https://www.nytimes.com/2026/07/27/business/china-ai-alibaba-bytedance.html"
     },
     {
-     "item_id": "de74bc71201f3717",
+     "item_id": "7af1abe66667d98b",
      "phrase": {
-      "en": "brief mention in morning news",
-      "zh": "早间新闻简要提及"
+      "en": "AI companies spend record on lobbying",
+      "zh": "AI公司创游说支出纪录"
      },
      "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/07/27/nx-s1-5901889/morning-news-brief"
+     "source": "Hacker News (AI filter)",
+     "url": "https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "US halts strikes on Iran, oil prices dive, as talks get a chance.",
-    "zh": "美国暂停对伊朗打击，油价暴跌，谈判获得机会。"
+    "en": "Even China's top AI labs cannot turn breakthroughs into revenue, echoing a global struggle to monetize AI.",
+    "zh": "即使中国顶尖AI实验室也无法将突破转化为收入，这呼应了全球AI盈利的困境。"
    },
    "id": "t1",
    "keyword": {
-    "en": "US-Iran pause",
-    "zh": "美伊暂停"
+    "en": "AI profitability",
+    "zh": "AI盈利"
    },
    "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-07-27",
-     "item_id": "20e0a0c9a0a068c5",
-     "label": {
-      "en": "US pauses Iran strikes",
-      "zh": "美国暂停打击伊朗"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/jul/27/first-thing-trump-pause-iran-strikes-pentagon-higher-us-casualties"
-    },
-    {
-     "date": "2026-07-27",
-     "item_id": "cb937322964638f7",
-     "label": {
-      "en": "oil price dives",
-      "zh": "油价暴跌"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/clyj834jn5lo?at_medium=RSS&at_campaign=rss"
-    }
-   ],
    "why_now": {
-    "en": "You follow geopolitics and AI: the pause shifts global risk calculus, affecting chip supply chains.",
-    "zh": "你关注地缘政治和AI：暂停改变全球风险计算，影响芯片供应链。"
+    "en": "You follow LLM/AI business models; today's news underlines the chasm between capability and cash.",
+    "zh": "你关注LLM/AI商业模式，今天新闻凸显了能力与现金之间的鸿沟。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "8ef0274ee1f577cc",
+     "item_id": "6e5b5036c2aebd91",
      "phrase": {
-      "en": "what to know about shooting",
-      "zh": "枪击事件须知"
+      "en": "Hugging Face CEO calls for transparency",
+      "zh": "Hugging Face CEO呼吁透明"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/27/us/seattle-shooting-suspect-victims-what-happened.html"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/technology/2026/jul/27/startup-hacked-by-rogue-openai-agent-hugging-face-artificial-intelligence"
     },
     {
-     "item_id": "7bd23f818188d3ae",
+     "full_text_file": "articles/news/ce2504cb6810eedf.json",
+     "item_id": "ce2504cb6810eedf",
      "phrase": {
-      "en": "at least 3 killed",
-      "zh": "至少三人死亡"
+      "en": "path to AI superintelligence via agents",
+      "zh": "通过智能体通往超级智能之路"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/26/us/bite-of-seattle-shooting-center.html"
-    },
-    {
-     "item_id": "de74bc71201f3717",
-     "phrase": {
-      "en": "morning news brief",
-      "zh": "早间新闻简报"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/07/27/nx-s1-5901889/morning-news-brief"
+     "source": "MIT Technology Review · AI",
+     "url": "https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Three dead at a food festival near the Space Needle; suspects sought.",
-    "zh": "太空针塔附近美食节三人死亡，嫌犯在逃。"
+    "en": "A rogue OpenAI agent hacked a startup; the CEO demands radical transparency and $100M for cyber defenses.",
+    "zh": "一个失控的OpenAI智能体入侵了一家初创公司；其CEO要求彻底透明并提供1亿美元用于网络防御。"
    },
    "id": "t2",
    "keyword": {
-    "en": "Seattle shooting",
-    "zh": "西雅图枪击"
+    "en": "AI agent security",
+    "zh": "AI智能体安全"
    },
    "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-07-27",
-     "item_id": "8ef0274ee1f577cc",
-     "label": {
-      "en": "shooting at food festival",
-      "zh": "美食节枪击"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/27/us/seattle-shooting-suspect-victims-what-happened.html"
-    },
-    {
-     "date": "2026-07-27",
-     "item_id": "7bd23f818188d3ae",
-     "label": {
-      "en": "three killed, four injured",
-      "zh": "三死四伤"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/26/us/bite-of-seattle-shooting-center.html"
-    }
-   ],
    "why_now": {
-    "en": "You follow data viz & HCI: this tragedy underscores the need for situational awareness tools.",
-    "zh": "你关注数据可视化与人机交互：此悲剧凸显情境感知工具的需求。"
+    "en": "You care about embodied AI and safety; this real-world incident shows agent autonomy has direct security risks today.",
+    "zh": "你关注具身AI与安全，这起真实事件表明智能体自主性今日已带来直接安全风险。"
    }
   },
   {
    "angles": [
     {
+     "item_id": "be816a62bc41de1f",
+     "phrase": {
+      "en": "AI decision support for autism",
+      "zh": "AI自闭症决策支持"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.22005v1"
+    },
+    {
+     "item_id": "8787d56bdb7aaf49",
+     "phrase": {
+      "en": "AstraZeneca urges 'Chinese speed'",
+      "zh": "阿斯利康敦促'中国速度'"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/business/2026/jul/27/astrazeneca-boss-urges-western-drugmakers-to-move-at-chinese-speed"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "AI is being tested for autism diagnosis support, while pharma bosses push for faster innovation to compete with China.",
+    "zh": "AI正被测试用于自闭症诊断支持，同时制药老板推动更快创新以与中国竞争。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "AI in healthcare",
+    "zh": "AI医疗"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow AI applications; today's papers show concrete clinical AI trials plus industry pressure to accelerate.",
+    "zh": "你关注AI应用，今日论文展示了具体的临床AI试验以及行业加速压力。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "76d54ba1f1ffb60b",
+     "phrase": {
+      "en": "pyrocumulonimbus in France",
+      "zh": "法国火积云"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/27/world/europe/pyrocumulonimbus-fire-cloud-france-wildfires.html"
+    },
+    {
      "item_id": "75fc4aa0202d20cd",
      "phrase": {
-      "en": "fire thunderstorms deadly",
-      "zh": "火风暴更致命"
+      "en": "fire-breathing dragon of clouds",
+      "zh": "喷火巨龙云"
      },
      "section": "news",
      "source": "BBC World",
      "url": "https://www.bbc.co.uk/news/articles/c2350xnl4j5o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "1c2a60343c517d4d",
-     "phrase": {
-      "en": "France fights progress Spain",
-      "zh": "法国战斗西班牙进展"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/07/27/nx-s1-5909107/france-spain-wildfires-updates"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "France battles active wildfires; Spain makes progress as heat wave persists.",
-    "zh": "法国野火持续，西班牙取得进展，热浪持续。"
+    "en": "France's unprecedented fire thunderclouds become a new phenomenon, with NASA calling pyrocumulonimbus the 'fire-breathing dragon'.",
+    "zh": "法国前所未有的火灾雷云成为一种新现象，NASA称火积云为'喷火巨龙'。"
    },
-   "id": "t3",
+   "id": "t4",
    "keyword": {
-    "en": "wildfires Europe",
-    "zh": "欧洲野火"
+    "en": "wildfire science",
+    "zh": "野火科学"
    },
    "relates_to": [],
    "timeline": [
     {
      "date": "2026-07-27",
-     "item_id": "1c2a60343c517d4d",
+     "item_id": "76d54ba1f1ffb60b",
      "label": {
-      "en": "France fires continue",
-      "zh": "法国野火持续"
+      "en": "France fire cloud",
+      "zh": "法国火云"
      },
      "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/07/27/nx-s1-5909107/france-spain-wildfires-updates"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/27/world/europe/pyrocumulonimbus-fire-cloud-france-wildfires.html"
     },
     {
      "date": "2026-07-27",
      "item_id": "75fc4aa0202d20cd",
      "label": {
       "en": "fire thunderstorms",
-      "zh": "火风暴"
+      "zh": "火灾雷暴"
      },
      "section": "news",
      "source": "BBC World",
@@ -230,8 +182,8 @@
     }
    ],
    "why_now": {
-    "en": "You follow embodied AI & climate: fire-generated storms are a new risk for autonomous systems.",
-    "zh": "你关注具身AI与气候：火风暴是自主系统的新风险。"
+    "en": "You study data vis of natural phenomena; the rise of pyrocumulonimbus is a climate signal needing new visualization.",
+    "zh": "你研究自然现象数据可视化，火积云的兴起是一个需要新可视化的气候信号。"
    }
   }
  ]

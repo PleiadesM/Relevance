@@ -1,48 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "tractor pull championship OR modified tractor pulling",
-  "source": {
-   "name": "rocketcitynow.com",
-   "published_at": "2026-07-25T18:59:00Z",
-   "title": "North Alabama Championship Truck & Tractor Pull canceled due to weather conditions",
-   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPQlZGWC12Nk9WWXdfNDRSSURiZER6TTE2d3pQaWpCSGZ1eFdSMkJVNWFNUHBNVVUzQjBfSFZ4ZUFSR3ZQcnN5TVRvTkJxVjdZY0VwWU1XVTZPekE0ZTJ0a1hoT2h2MWtpNndSRWN3RnZZSlVYbExKRDd4X3NYUXlWZkhmZmdKTDdTR0h5M0xmX3dQQzJqR3BNeVduckVRTnlVYjB6RFk2Y21acXNvVVJtSnRxcFl2dVlpQVpBUVVoU3J3cnlNZjVvbFFoYnFFcllEOFhDSDFUQVJQaW1XaXl3NVdjM05CQm5mREVnSld5ZVpHbk1GQjcwMTFyVGJScjQ?oc=5"
-  },
-  "summaries": {
-   "en": {
-    "summary": "North Alabama Championship Truck & Tractor Pull canceled due to weather.",
-    "why_irrelevant": "It's a local event cancellation far from tech and politics."
-   },
-   "zh": {
-    "summary": "北阿拉巴马州卡车和拖拉机牵引赛因天气取消。",
-    "why_irrelevant": "作为当地赛事取消，远离科技与政治。"
-   }
-  },
-  "topic": "competitive tractor pulling"
- },
- "brief": "Wildfires rage in France and Spain amid heatwaves, while Trump pauses Iran strikes and UK politics focuses on council tax reform. AI research explores creative and clinical applications, from model bending for artists to virtual patients for medical training.",
+ "brief": "Oil prices drop as US pauses Iran attacks; deadly shooting at Seattle food festival; Germany tightens terrorism laws after Berlin pride attack. New AI decision-support system for autism diagnosis and visual analytics tools for molecular graph neural networks highlight today's research.",
  "meta": {
-  "generated_at": "2026-07-27T11:36:49Z"
+  "generated_at": "2026-07-27T15:10:48Z"
  },
- "news_summary": "Wildfires continue in France and Spain, with progress in some areas; Trump pauses Iran strikes as Pentagon reports higher casualty figures; UK politics sees debates on council tax fairness and North Sea drilling.",
- "papers_summary": "Papers discuss explainable AI for artists, AI-driven virtual patients for breaking bad news, and visualization tools for autism assessment and molecular analysis.",
+ "news_summary": "Oil prices slide after US pauses attacks on Iran to allow talks; three dead in Seattle shooting; Germany's Merz calls for tighter monitoring after Berlin pride attack suspect linked to ISIS. Meanwhile, Labour leads Reform UK for first time since Burnham became PM.",
+ "papers_summary": "A study outlines clinician needs for AI-based decision support in autism assessment, while LatentFlow offers visual analytics for molecular graph neural networks. Other papers propose node-based interfaces for LLM-driven visualization and a taxonomy for edge bundling tasks.",
  "summaries": {
   "en": {
-   "brief": "Wildfires rage in France and Spain amid heatwaves, while Trump pauses Iran strikes and UK politics focuses on council tax reform. AI research explores creative and clinical applications, from model bending for artists to virtual patients for medical training.",
-   "news_summary": "Wildfires continue in France and Spain, with progress in some areas; Trump pauses Iran strikes as Pentagon reports higher casualty figures; UK politics sees debates on council tax fairness and North Sea drilling.",
-   "papers_summary": "Papers discuss explainable AI for artists, AI-driven virtual patients for breaking bad news, and visualization tools for autism assessment and molecular analysis."
+   "brief": "Oil prices drop as US pauses Iran attacks; deadly shooting at Seattle food festival; Germany tightens terrorism laws after Berlin pride attack. New AI decision-support system for autism diagnosis and visual analytics tools for molecular graph neural networks highlight today's research.",
+   "news_summary": "Oil prices slide after US pauses attacks on Iran to allow talks; three dead in Seattle shooting; Germany's Merz calls for tighter monitoring after Berlin pride attack suspect linked to ISIS. Meanwhile, Labour leads Reform UK for first time since Burnham became PM.",
+   "papers_summary": "A study outlines clinician needs for AI-based decision support in autism assessment, while LatentFlow offers visual analytics for molecular graph neural networks. Other papers propose node-based interfaces for LLM-driven visualization and a taxonomy for edge bundling tasks."
   },
   "zh": {
-   "brief": "今日重點：胡志偉獲倫敦入境保釋仍面臨遣返，引發香港國安法關注；中國女童基因編輯治療致死事件曝光，科學界譁然；柏林驕傲遊行遭襲，德國總理譴責。",
-   "news_summary": "胡志偉向BBC否認申請庇護，對遣返後能否再赴英感徬徨；女童基因編輯治療死亡案引發官方調查及學術誠信討論。",
-   "papers_summary": "今日無中文論文，但英文研究聚焦AI在創意、醫療溝通及數據可視化中的應用與倫理。"
+   "brief": "今日焦點：胡志偉赴英遭扣留面臨遣返；中國女童基因編輯治療死亡惹議；美伊暫停攻擊油價大跌；德國柏林驕傲遊行襲擊事件。",
+   "news_summary": "前香港民主黨主席胡志偉赴英後被邊境部隊扣留，否認申請政治庇護，面臨遣返。中國女童接受基因編輯治療後死亡，引發官方調查。美伊暫停攻擊，油價大跌。",
+   "papers_summary": "無優先級論文。"
   }
  },
  "todays_image": {
-  "caption": "The vintage fire engine plate's legacy of rapid emergency response echoes in the blazing speed of data processing at Meta's Louisiana data center.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q00800",
-  "source_name": "National Museum of American History",
-  "source_url": null,
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q00800&max=150",
-  "title": "Fire Engine Plate, \"Hayes Fire Truck\""
+  "caption": "The giant kelp of \"Macrocystis sp.\" can be harvested for biofuel, offering a renewable alternative as falling oil prices signal a shift away from conflict-driven energy markets.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3da0b26f6ec8b49dfa4782854d90a9dee",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3e42cc703-4d95-4155-898b-f8b61164ddc2",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3da0b26f6ec8b49dfa4782854d90a9dee/90",
+  "title": "Macrocystis sp."
  }
 }

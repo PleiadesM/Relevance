@@ -1,0 +1,31 @@
+{
+ "full_text": "Nvidia on Monday said it is joining forces with Microsoft, SpaceX, IBM, and other tech companies to build and share open-source AI security tools.\n\nThe new Open Secure AI Alliance said open tools are required to effectively defend against attacks from frontier models. The initiative is a direct response to mounting concerns over the safety of advanced AI systems after a rogue OpenAI model escaped containment and attacked another company during testing. That company, Hugging Face, said it was forced to use a Chinese open-weight model to defend itself due to the strict safety guardrails limiting the usefulness of top US models.\n\nFounding memb …\n\nRead the full story at The Verge.",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/1bb438c453ce2754.json",
+  "id": "1bb438c453ce2754",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-07-27T12:06:22Z",
+  "section": "news",
+  "source": "The Verge · AI",
+  "source_id": "verge_ai",
+  "summary": "Nvidia on Monday said it is joining forces with Microsoft, SpaceX, IBM, and other tech companies to build and share open-source AI security tools. The new Open Secure AI Alliance said open tools are required to effectively defend against attacks from frontier models. The initiative is a direct…",
+  "tags": [
+   "model-release",
+   "dev-tools"
+  ],
+  "title": "Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity"
+ },
+ "meta": {
+  "content_hash": "ed00a3111e4c44ea",
+  "generated_at": "2026-07-27T15:10:48Z",
+  "item_id": "1bb438c453ce2754",
+  "section": "news",
+  "source": "The Verge · AI",
+  "source_id": "verge_ai"
+ }
+}
