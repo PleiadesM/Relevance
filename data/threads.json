@@ -1,126 +1,125 @@
 {
  "meta": {
   "count": 3,
-  "generated_at": "2026-07-27T21:22:03Z",
+  "generated_at": "2026-07-27T23:18:52Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "item_id": "9566be87b15051aa",
+     "phrase": {
+      "en": "authors mixed on $1.5B payout",
+      "zh": "作者对15亿美元赔偿褒贬不一"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/07/27/nx-s1-5904606/anthropic-vs-bartz-ai-copyright-lawsuit-pros-cons"
+    },
+    {
      "item_id": "cbda5ad37f0c8e09",
      "phrase": {
-      "en": "Moonshot requires licenses for model",
-      "zh": "Moonshot要求模型许可"
+      "en": "Moonshot licenses AI model",
+      "zh": "月之暗面许可AI模型"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/07/27/business/moonshot-kimi-k3-china-ai.html"
-    },
-    {
-     "item_id": "2c2404661ec39dc6",
-     "phrase": {
-      "en": "Anthropic settles authors' copyright suit",
-      "zh": "Anthropic和解作者版权诉讼"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/07/27/nx-s1-5904606/authors-wary-of-content-ownership-despite-court-ruling-on-anthropic-case"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "divergent",
    "gloss": {
-    "en": "Chinese startup Moonshot will require licenses for its Kimi K3 model, while Anthropic settles with authors over data use—two sides of the same access-and-rights coin.",
-    "zh": "中国初创公司Moonshot要求对Kimi K3模型获得许可，而Anthropic与作者达成数据使用和解——同一枚准入与权利硬币的两面。"
+    "en": "A court ruling on AI training data shakes the ground under authors and tech alike.",
+    "zh": "法院对AI训练数据的裁决撼动了作者和科技界的基础。"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI model licensing",
-    "zh": "AI模型许可"
+    "en": "AI copyright ruling",
+    "zh": "AI版权裁决"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow LLM and AI: today's dual news on licensing and copyright settlement shapes how you get access to models.",
-    "zh": "你关注LLM和AI：今日关于许可和版权和解的双重新闻影响着你获取模型的方式。"
+    "en": "You follow AI ethics; today's $1.5B ruling sets a precedent for how models can use copyrighted material.",
+    "zh": "你关注AI伦理，今天的15亿美元裁决为模型如何使用受版权保护的材料开创了先例。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "628ef3bc3fe66816",
+     "item_id": "a9d3807938af9ace",
      "phrase": {
-      "en": "Apple regains top spot over Nvidia",
-      "zh": "苹果重夺市值榜首超越英伟达"
+      "en": "virtues and values in viz",
+      "zh": "可视化中的美德与价值观"
      },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/27/technology/apple-valuation.html"
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.21732v1"
     },
     {
-     "full_text_file": "articles/news/b7f96b39af72afeb.json",
-     "item_id": "b7f96b39af72afeb",
+     "item_id": "4be15b15e00ce8a0",
      "phrase": {
-      "en": "Verizon $1B dark fiber for Google AI",
-      "zh": "Verizon 10亿美元暗光纤用于谷歌AI"
+      "en": "AI model bending for artists",
+      "zh": "面向艺术家的AI模型扭曲"
      },
-     "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/ai/2026/07/verizon-seeks-ai-profits-with-mini-data-centers-1b-dark-fiber-deal-with-google/"
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.22428v1"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Verizon's $1B dark fiber deal for Google data centers and Apple's market cap surge over Nvidia both signal that AI's physical backbone is where the real value lies.",
-    "zh": "Verizon为谷歌数据中心投入10亿美元暗光纤交易，苹果市值超越英伟达，都表明AI的物理基础架构才是真正价值所在。"
+    "en": "A new framework charts the virtues and values that should guide visualization design, pushing the field toward critical reflection.",
+    "zh": "一个新框架勾勒出指导可视化设计的品德和价值观，推动该领域走向批判性反思。"
    },
    "id": "t2",
    "keyword": {
-    "en": "AI and data center infrastructure",
-    "zh": "AI与数据中心基础设施"
+    "en": "ethical data visualization",
+    "zh": "伦理数据可视化"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow AI: these two business moves today underline the infrastructure race behind every AI model you use.",
-    "zh": "你关注AI：今日这两项商业举措凸显了你所用每个AI模型背后的基础设施竞赛。"
+    "en": "You study critical visualization; today's paper offers a moral compass for your practice.",
+    "zh": "你研究批判可视化，今天的论文为你的实践提供了道德指南针。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "eaae3b48c61c14d0",
+     "item_id": "933f5c65254e403b",
      "phrase": {
-      "en": "AI virtual patient for bad news",
-      "zh": "AI虚拟病人用于告知坏消息"
+      "en": "France Spain race to contain fires",
+      "zh": "法国西班牙竞相控制火势"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.22118v1"
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/jul/27/france-and-spain-race-to-contain-huge-wildfires-before-fresh-heatwave-begins"
     },
     {
-     "item_id": "be816a62bc41de1f",
+     "item_id": "0f3d2d4280c2b08c",
      "phrase": {
-      "en": "AI decision support for autism",
-      "zh": "AI决策支持用于自闭症"
+      "en": "travel advice for wildfires",
+      "zh": "野火旅行建议"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.22005v1"
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/videos/c89npw4q3g4o?at_medium=RSS&at_campaign=rss"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Two new papers explore AI-driven virtual patients for breaking bad news and AI decision support for autism assessment, pushing simulation into sensitive clinical contexts.",
-    "zh": "两篇新论文探索了用于告知坏消息的AI驱动虚拟病人和自闭症评估的AI决策支持，将模拟推进到敏感的临床情境。"
+    "en": "France and Spain battle huge wildfires as a heatwave looms, threatening lives and travel plans.",
+    "zh": "法国和西班牙在热浪来临前对抗大火，威胁生命和旅行计划。"
    },
    "id": "t3",
    "keyword": {
-    "en": "AI in healthcare communication",
-    "zh": "AI医疗沟通"
+    "en": "wildfire crisis Europe",
+    "zh": "欧洲野火危机"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow LLM and HCI: these two arXiv papers from today show how LLMs are being embedded in high-stakes human interactions.",
-    "zh": "你关注LLM和人机交互：今日这两篇arXiv论文展示了大语言模型如何被嵌入高风险人际交互中。"
+    "en": "You read news globally; today's events directly affect travel and climate policy discussions.",
+    "zh": "你关注全球新闻，今天的事件直接影响旅行和气候政策讨论。"
    }
   }
  ]
