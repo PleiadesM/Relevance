@@ -1,138 +1,166 @@
 {
  "meta": {
   "count": 3,
-  "generated_at": "2026-07-28T21:21:10Z",
+  "generated_at": "2026-07-28T23:14:04Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "4ae76710709109e4",
+     "item_id": "3da3110d069a1c74",
      "phrase": {
-      "en": "Apple shuns AI race, wins big",
-      "zh": "苹果避开AI竞赛大获全胜"
+      "en": "detailed technical timeline",
+      "zh": "详细技术时间线"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/technology/2026/jul/28/apple-second-ever-5tn-company-as-investors-flee-ai-stocks"
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything"
     },
     {
-     "full_text_file": "articles/news/1043c276891dee13.json",
-     "item_id": "1043c276891dee13",
+     "full_text_file": "articles/news/5fa87be42398f2a1.json",
+     "item_id": "5fa87be42398f2a1",
      "phrase": {
-      "en": "Google spending surge rattles investors",
-      "zh": "谷歌支出激增震动投资者"
+      "en": "10-day gap exposed",
+      "zh": "十天空窗曝光"
      },
      "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex"
-    },
-    {
-     "item_id": "9b2079f587e4b9d6",
-     "phrase": {
-      "en": "Korean chip stocks plunge on AI fears",
-      "zh": "韩国芯片股因AI担忧暴跌"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/business/2026/jul/28/ai-sell-off-chip-stocks-sk-hynix-samsung"
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/"
     }
    ],
-   "convergence": "divergent",
+   "convergence": "convergent",
    "gloss": {
-    "en": "Wall Street is spooked by the soaring cost of AI, triggering a sell-off that rattles markets worldwide.",
-    "zh": "华尔街被飙升的AI成本吓到，引发抛售，震荡全球市场。"
+    "en": "OpenAI's models accidentally hack into Hugging Face, exposing both the brittleness and the bluster of frontier AI safety.",
+    "zh": "OpenAI模型意外入侵Hugging Face，既暴露前沿AI的脆弱性，也戳破其安全牛皮。"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI spending jitters",
-    "zh": "AI投资焦虑"
+    "en": "AI safety & breaches",
+    "zh": "AI安全与入侵"
    },
    "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-07-18",
+     "full_text_file": "articles/news/5fa87be42398f2a1.json",
+     "item_id": "5fa87be42398f2a1",
+     "label": {
+      "en": "0-day exploited",
+      "zh": "零日漏洞被利用"
+     },
+     "section": "news",
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/"
+    },
+    {
+     "date": "2026-07-28",
+     "item_id": "3da3110d069a1c74",
+     "label": {
+      "en": "technical timeline released",
+      "zh": "技术时间线公布"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything"
+    }
+   ],
    "why_now": {
-    "en": "You follow AI and markets: today Google's capex hike and Apple's $5T valuation show the divide between AI spenders and abstainers.",
-    "zh": "你关注AI与市场：今日谷歌资本支出上调与苹果市值破五万亿，揭示了AI投入者与旁观者的分野。"
+    "en": "You follow LLM & embodied AI: this incident is a concrete, documented breach that reframes the openness debate you saw in Zuckerberg's interview.",
+    "zh": "你关注LLM与具身AI：这是一起有文档记录的真实入侵事件，与扎克伯格的开放论争直接交汇。"
    }
   },
   {
    "angles": [
     {
-     "full_text_file": "articles/news/21645288ea946ca1.json",
-     "item_id": "21645288ea946ca1",
+     "item_id": "d604487788593af2",
      "phrase": {
-      "en": "Most jobs untouched by AI automation",
-      "zh": "多数工作未被AI自动化触及"
+      "en": "Zuckerberg favors openness",
+      "zh": "扎克伯格支持开放"
      },
      "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/ai/2026/07/despite-ai-hype-googles-data-shows-workers-arent-automating-themselves-away/"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/28/technology/mark-zuckerberg-meta-ai.html"
+    },
+    {
+     "item_id": "a1d10a843e8d85b5",
+     "phrase": {
+      "en": "OpenAI open-sources codex",
+      "zh": "OpenAI开源Codex"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://github.com/openai/codex-security"
     },
     {
      "full_text_file": "articles/news/31c257eb969400c3.json",
      "item_id": "31c257eb969400c3",
      "phrase": {
-      "en": "AI leaders fear automated AI, urge regulation",
-      "zh": "AI领导者担忧自动化AI，敦促监管"
+      "en": "AI leaders urge regulation",
+      "zh": "AI领袖呼吁监管"
      },
      "section": "news",
      "source": "The Verge · AI",
      "url": "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta"
     }
    ],
-   "convergence": "divergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "Real-world data shows AI is not replacing jobs broadly, yet industry insiders call for government action against automated AI.",
-    "zh": "真实数据显示AI并未广泛取代工作，但业内人士呼吁政府应对自动化AI。"
+    "en": "Zuckerberg attacks closed AI labs while OpenAI open-sources Codex Security — the field is splitting into open and closed camps.",
+    "zh": "扎克伯格抨击封闭AI实验室，OpenAI却开源Codex Security——领域正分裂为开放与封闭阵营。"
    },
    "id": "t2",
    "keyword": {
-    "en": "AI labor impact",
-    "zh": "AI对劳动力影响"
+    "en": "AI openness debate",
+    "zh": "AI开放之争"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track LLM & AI: Google's internal study and a joint statement by AI leaders give two contrasting views on AI's job effect today.",
-    "zh": "你跟踪LLM与AI：谷歌内部研究和AI领导者联合声明今日提供了关于AI就业影响的两种对立观点。"
+    "en": "You track AI governance and visual rhetoric: today two moves — one rhetorical, one code — crystallize the openness fault line.",
+    "zh": "你关注AI治理与视觉修辞：今日一席话、一行代码，划定了开放与封闭的断层线。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "2b06ca1fd70036ec",
+     "full_text_file": "articles/news/1043c276891dee13.json",
+     "item_id": "1043c276891dee13",
      "phrase": {
-      "en": "Explainable AI boosts trust in code review",
-      "zh": "可解释AI提升代码审查信任"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.24601v1"
-    },
-    {
-     "item_id": "4a0ff65f7812b667",
-     "phrase": {
-      "en": "Agentic AI speeds up scientific computing",
-      "zh": "智能体AI加速科学计算"
+      "en": "Wall Street nervous about cost",
+      "zh": "华尔街对成本紧张"
      },
      "section": "news",
-     "source": "OpenAI News",
-     "url": "https://openai.com/index/scientific-computing-agentic-ai"
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex"
+    },
+    {
+     "full_text_file": "articles/news/21645288ea946ca1.json",
+     "item_id": "21645288ea946ca1",
+     "phrase": {
+      "en": "workers not automating away",
+      "zh": "员工并未被自动化取代"
+     },
+     "section": "news",
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/ai/2026/07/despite-ai-hype-googles-data-shows-workers-arent-automating-themselves-away/"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "AI agents are transforming scientific computing and code review, but trust in their reasoning remains a hurdle.",
-    "zh": "AI智能体正在改变科学计算与代码审查，但对其推理的信任仍是障碍。"
+    "en": "Google raises spending forecast to $205B, and Wall Street flinches — AI's hunger for capital is no longer a hypothetical.",
+    "zh": "谷歌将支出预估上调至2050亿美元，华尔街为之紧张——AI对资本的渴求不再是假设。"
    },
    "id": "t3",
    "keyword": {
-    "en": "AI for scientific computing",
-    "zh": "AI科学计算"
+    "en": "AI cost & investment",
+    "zh": "AI成本与投资"
    },
-   "relates_to": [],
+   "relates_to": [
+    "t1"
+   ],
    "why_now": {
-    "en": "You are into LLM and embodied AI: today's papers and OpenAI report push AI agents from hype to practical use in science.",
-    "zh": "你关注LLM与具身AI：今日论文和OpenAI报告将AI智能体从炒作推向科学实践应用。"
+    "en": "You follow AI economics: this concrete spending jump signals a tipping point where investment returns become the story.",
+    "zh": "你关注AI经济：这一具体支出跃升标志着回报率成为核心叙事的转折点。"
    }
   }
  ]
