@@ -1,0 +1,382 @@
+{
+ "meta": {
+  "count": 3,
+  "generated_at": "2026-07-28T17:44:13Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "a347e5e5a02d7b4a",
+     "phrase": {
+      "en": "Race to contain before 104°F",
+      "zh": "在104°F前争分夺秒"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/28/world/europe/wildfires-france-spain.html"
+    },
+    {
+     "item_id": "0a0442cd4c471953",
+     "phrase": {
+      "en": "Spain's 'hell of a situation'",
+      "zh": "西班牙‘地狱般的处境’"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c235m71mrreo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "527932a35b0dd589",
+     "phrase": {
+      "en": "Wildfires flare with 40°C heatwave",
+      "zh": "野火随40°C热浪复燃"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c5yd8gly1ydo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "de500155d76f301a",
+     "phrase": {
+      "en": "4,000 evacuated in France",
+      "zh": "法国4000人疏散"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/jul/28/france-bordeaux-lacanau-evacuation-wildfires-madrid-spain"
+    },
+    {
+     "item_id": "79607b7f73527fa3",
+     "phrase": {
+      "en": "UN warns climate alarm blaring",
+      "zh": "联合国警告气候警报拉响"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/jul/28/europe-wildfires-fires-heatwave-bordeaux-france-spain-latest-news-updates"
+    },
+    {
+     "item_id": "2495348c1dcb9180",
+     "phrase": {
+      "en": "Record wildfires force evacuations",
+      "zh": "创纪录野火迫使疏散"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/07/28/g-s1-135880/photos-spain-france-wildfires-climate-change"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "France and Spain battle record wildfires as a new heatwave hits.",
+    "zh": "法国和西班牙在热浪中对抗创纪录的野火。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "wildfire crisis",
+    "zh": "野火危机"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-07-28",
+     "item_id": "a347e5e5a02d7b4a",
+     "label": {
+      "en": "New heatwave threatens",
+      "zh": "新热浪威胁"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/28/world/europe/wildfires-france-spain.html"
+    },
+    {
+     "date": "2026-07-28",
+     "item_id": "de500155d76f301a",
+     "label": {
+      "en": "Evacuations near Bordeaux",
+      "zh": "波尔多附近疏散"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/jul/28/france-bordeaux-lacanau-evacuation-wildfires-madrid-spain"
+    }
+   ],
+   "why_now": {
+    "en": "You care about visual rhetoric — satellite images of fires are urgent climate stories today.",
+    "zh": "你关注视觉修辞——火灾卫星图像是今日紧迫的气候故事。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "4a0ff65f7812b667",
+     "phrase": {
+      "en": "Scientific computing with agents",
+      "zh": "代理驱动科学计算"
+     },
+     "section": "news",
+     "source": "OpenAI News",
+     "url": "https://openai.com/index/scientific-computing-agentic-ai"
+    },
+    {
+     "item_id": "4a1ee428af31a222",
+     "phrase": {
+      "en": "Chatbot gets hands on code",
+      "zh": "聊天机器人触碰代码"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://github.com/xyTom/coding-tools-mcp"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "New tools let AI agents write and edit code, transforming software development.",
+    "zh": "新工具让AI代理编写和编辑代码，改变软件开发。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "AI coding agents",
+    "zh": "AI编程助手"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-07-28",
+     "item_id": "4a1ee428af31a222",
+     "label": {
+      "en": "Coding Tools MCP v0.2.2",
+      "zh": "编程工具MCP v0.2.2"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://github.com/xyTom/coding-tools-mcp"
+    },
+    {
+     "date": "2026-07-28",
+     "item_id": "4a0ff65f7812b667",
+     "label": {
+      "en": "OpenAI on agentic AI",
+      "zh": "OpenAI谈代理式AI"
+     },
+     "section": "news",
+     "source": "OpenAI News",
+     "url": "https://openai.com/index/scientific-computing-agentic-ai"
+    }
+   ],
+   "why_now": {
+    "en": "You follow LLM and HCI — today's coding MCP tool and OpenAI report show agents becoming practical.",
+    "zh": "你关注LLM和人机交互，今日的编程MCP工具和OpenAI报告显示代理变得实用。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "87dc2916c95e8fdc",
+     "phrase": {
+      "en": "Probabilistic contour ensembles",
+      "zh": "概率轮廓集合"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.24596v1"
+    },
+    {
+     "item_id": "cbd805facbd2159b",
+     "phrase": {
+      "en": "Arabic visualization design",
+      "zh": "阿拉伯语可视化设计"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.24571v1"
+    },
+    {
+     "item_id": "a504c19adc9be7a2",
+     "phrase": {
+      "en": "True/false information duel",
+      "zh": "真伪信息对决"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.24360v1"
+    },
+    {
+     "item_id": "3f82b0d68489c534",
+     "phrase": {
+      "en": "Multiscale photo exploration",
+      "zh": "多尺度照片探索"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.23769v1"
+    },
+    {
+     "item_id": "4877e2bf0bfd439c",
+     "phrase": {
+      "en": "Visual-textual data chains",
+      "zh": "视觉-文本数据链"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.23489v1"
+    },
+    {
+     "item_id": "c62d6d179a0bdd94",
+     "phrase": {
+      "en": "Icon shapes mental fire image",
+      "zh": "图标塑造火灾心理意象"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.23369v1"
+    },
+    {
+     "item_id": "e360388750913fe3",
+     "phrase": {
+      "en": "LLM vs tactile for BLV",
+      "zh": "LLM与触觉图表对比"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.23065v1"
+    },
+    {
+     "item_id": "bb9e4099dba332de",
+     "phrase": {
+      "en": "3D Gaussian for particles",
+      "zh": "3D高斯粒子压缩"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.22956v1"
+    },
+    {
+     "item_id": "046e3bf17e5d1067",
+     "phrase": {
+      "en": "Quantum circuit vis space",
+      "zh": "量子电路可视化空间"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.24042v1"
+    },
+    {
+     "item_id": "194a38666c540812",
+     "phrase": {
+      "en": "Tangible migration exploration",
+      "zh": "实体界面迁移探索"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.22825v1"
+    },
+    {
+     "item_id": "2b06ca1fd70036ec",
+     "phrase": {
+      "en": "Explainable AI in code review",
+      "zh": "代码审查中的可解释AI"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.24601v1"
+    },
+    {
+     "item_id": "ab3c998273c02dc8",
+     "phrase": {
+      "en": "Neural decoding for BMI",
+      "zh": "脑机接口神经解码"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.24023v1"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "New papers advance how we see data: from quantum circuits to migration flows.",
+    "zh": "新论文推进了数据可视化方式：从量子电路到迁徙流。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "data visualization research",
+    "zh": "数据可视化研究"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-07-24",
+     "item_id": "194a38666c540812",
+     "label": {
+      "en": "GeoTEAM migration vis",
+      "zh": "GeoTEAM迁徙可视化"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.22825v1"
+    },
+    {
+     "date": "2026-07-27",
+     "item_id": "cbd805facbd2159b",
+     "label": {
+      "en": "Arabic vis design evaluation",
+      "zh": "阿拉伯语可视化设计评估"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.24571v1"
+    },
+    {
+     "date": "2026-07-27",
+     "item_id": "046e3bf17e5d1067",
+     "label": {
+      "en": "Quantum circuit vis design",
+      "zh": "量子电路可视化设计"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.24042v1"
+    },
+    {
+     "date": "2026-07-27",
+     "item_id": "a504c19adc9be7a2",
+     "label": {
+      "en": "Information contagion model",
+      "zh": "信息传播模型"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.24360v1"
+    },
+    {
+     "date": "2026-07-27",
+     "item_id": "2b06ca1fd70036ec",
+     "label": {
+      "en": "Explainable AI code review",
+      "zh": "可解释AI代码审查"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.24601v1"
+    },
+    {
+     "date": "2026-07-27",
+     "item_id": "ab3c998273c02dc8",
+     "label": {
+      "en": "Neural decoding for BMI",
+      "zh": "脑机接口神经解码"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.24023v1"
+    }
+   ],
+   "why_now": {
+    "en": "You study visualization and HCI — today's arXiv papers on contour ensemble, quantum circuit vis, and multimodal comprehension are directly relevant.",
+    "zh": "你研究可视化和人机交互，今日关于轮廓集合、量子电路可视化和多模态理解的论文直接相关。"
+   }
+  }
+ ]
+}

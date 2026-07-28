@@ -1,24 +1,44 @@
 {
- "brief": "A 6.8-magnitude earthquake in Japan traps dozens in a shopping mall and damages Kumamoto Castle, while France and Spain battle wildfires amid a heatwave. Political upheaval within the Heritage Foundation and reflections on COVID-19 origins via Fauci's diary also feature.",
- "meta": {
-  "generated_at": "2026-07-28T14:34:05Z"
+ "apropos_of_nothing": {
+  "query": "onion championship OR giant onion OR onion growing competition",
+  "source": {
+   "name": "The State Journal-Register",
+   "published_at": "2026-07-15T07:00:00Z",
+   "title": "Maid-Rite has stood test of time in Springfield over the last century",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVWFCdXdOSl8zT2hGUl82V3Q5U09feFUtQlNlcl9qbElqQzhvUDNIN1RkenY3LVBiNF9hNy1nMnB3WDR4cFg5RTkwWkJEQjFVWm5rakdEX2oxLXZKWUhlN1NvYm1QbC10Wm00SERPOUowekZtOHkwd3VwTWQ4ZU5FV0k0QkU4UHhLRHdqZ3BuUk51czZ3by1WMGgwUHlHNEtkMGZsb2xWOTllREQ4OEU0N3ZuM3Z5MUlCZXVKNE9KcEZoTlFVenczcw?oc=5"
+  },
+  "summaries": {
+   "en": {
+    "summary": "Maid-Rite, a Springfield diner, has thrived for a century by serving loose meat sandwiches.",
+    "why_irrelevant": "It is a local business milestone unrelated to global tech or politics."
+   },
+   "zh": {
+    "summary": "斯普林菲尔德的Maid-Rite餐厅凭借散肉三明治百年不衰。",
+    "why_irrelevant": "这是与全球科技或政治无关的地方企业里程碑。"
+   }
+  },
+  "topic": "competitive onion growing"
  },
- "news_summary": "Japan earthquake injures 50 and traps people in Kumamoto; France and Spain race to control wildfires as heatwave hits. US politics sees Graham's funeral with Netanyahu and Zelenskyy, plus Heritage Foundation's internal conflict and Fauci's diary release.",
- "papers_summary": "Papers explore explainable AI in code review, visualization of contour ensembles, and mental imagery in icon design for fire risks. Other works cover quantum circuit visualizations, multimodal data comprehension, and LLMs aiding blind users with charts.",
+ "brief": "Geopolitical tensions and natural disasters dominate today's news, while AI research explores trust, visualization, and neural decoding.",
+ "meta": {
+  "generated_at": "2026-07-28T17:44:13Z"
+ },
+ "news_summary": "Tensions in the Strait of Hormuz and Japan's earthquake lead news, alongside memorials for Senator Lindsey Graham and wildfires in Europe.",
+ "papers_summary": "Research on explainable AI for code review, probabilistic contour visualization, and quantum circuit designs highlights human-computer interaction advances.",
  "summaries": {
   "en": {
-   "brief": "A 6.8-magnitude earthquake in Japan traps dozens in a shopping mall and damages Kumamoto Castle, while France and Spain battle wildfires amid a heatwave. Political upheaval within the Heritage Foundation and reflections on COVID-19 origins via Fauci's diary also feature.",
-   "news_summary": "Japan earthquake injures 50 and traps people in Kumamoto; France and Spain race to control wildfires as heatwave hits. US politics sees Graham's funeral with Netanyahu and Zelenskyy, plus Heritage Foundation's internal conflict and Fauci's diary release.",
-   "papers_summary": "Papers explore explainable AI in code review, visualization of contour ensembles, and mental imagery in icon design for fire risks. Other works cover quantum circuit visualizations, multimodal data comprehension, and LLMs aiding blind users with charts."
+   "brief": "Geopolitical tensions and natural disasters dominate today's news, while AI research explores trust, visualization, and neural decoding.",
+   "news_summary": "Tensions in the Strait of Hormuz and Japan's earthquake lead news, alongside memorials for Senator Lindsey Graham and wildfires in Europe.",
+   "papers_summary": "Research on explainable AI for code review, probabilistic contour visualization, and quantum circuit designs highlights human-computer interaction advances."
   },
   "zh": {
-   "brief": "唐山大地震50周年纪念引发对历史与现实的反思；香港前议员胡志伟赴英遭扣留后获准停留；日本熊本县发生6.8级地震，多人被困。",
-   "news_summary": "唐山大地震50周年，多篇报道回顾灾难细节与社会影响；香港前议员胡志伟赴英被扣后获准停留；日本熊本县6.8级地震致多人被困，九州电力报告4.8万户停电。",
-   "papers_summary": "研究涵盖可解释AI对代码审查信任的影响、量子电路可视化设计空间、以及文本与图表结合的多模态数据理解。"
+   "brief": "唐山大地震50週年引發回顧與反思，香港前議員胡志偉赴英遭扣留後獲准逗留，同時日本熊本縣發生6.8級地震，美國與伊朗緊張局勢影響石油航線。",
+   "news_summary": "唐山大地震50週年之際，媒體披露諸多歷史細節；胡志偉赴英機場風波後獲准正常逗留；日本熊本縣6.8級地震致至少1死，美國伊朗衝突威脅霍爾木茲海峽航線。",
+   "papers_summary": "今日無重大論文更新。"
   }
  },
  "todays_image": {
-  "caption": "Both the 1906 San Francisco earthquake and today's Japanese earthquake involve shattered structures—one a mailbox, another a shopping centre—that once held messages and lives now trapped in rubble.",
+  "caption": "Both events highlight how fragile infrastructure—whether a mailbox or an oil route—can be shattered by sudden, devastating force.",
   "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2006_2038_1a",
   "source_name": "National Postal Museum",
   "source_url": "https://postalmuseum.si.edu/object/npm_2006.2038.1",
