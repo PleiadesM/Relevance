@@ -1,149 +1,178 @@
 {
  "meta": {
-  "count": 3,
-  "generated_at": "2026-07-28T06:38:30Z",
+  "count": 4,
+  "generated_at": "2026-07-28T10:44:22Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "970be4a4a1877d65",
+     "item_id": "2b06ca1fd70036ec",
      "phrase": {
-      "en": "France Spain wildfires crisis",
-      "zh": "法国西班牙野火危机"
+      "en": "Trust in AI-assisted code review",
+      "zh": "AI协助代码审查中的信任"
      },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/07/28/g-s1-135828/europe-wildfires"
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.24601v1"
     },
     {
-     "item_id": "f5756bc914ffbbf7",
+     "full_text_file": "articles/news/a34fbf6430214744.json",
+     "item_id": "a34fbf6430214744",
      "phrase": {
-      "en": "Asia floods typhoons deluge",
-      "zh": "亚洲洪水台风暴雨"
+      "en": "Hugging Face used for deepfakes",
+      "zh": "Hugging Face被用于深度伪造"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/environment/2026/jul/28/extreme-rainfall-asia-flash-floods-typhoons-climate-change"
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Fires in Europe and floods in Asia dominate news, underscoring a summer of climate extremes.",
-    "zh": "欧洲火灾和亚洲洪水成为新闻焦点，凸显气候极端夏季。"
+    "en": "Telling why an AI decides is as hard as the deciding itself.",
+    "zh": "解释AI的决策和做决策本身一样困难。"
    },
    "id": "t1",
    "keyword": {
-    "en": "extreme weather & climate breakdown",
-    "zh": "极端天气与气候崩溃"
+    "en": "AI xExplainability",
+    "zh": "AI可解释性"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about data visualization of climate: today's reports give raw events, not data—but they set the context for visual communication.",
-    "zh": "你关注气候数据可视化，今天的报道提供原始事件而非数据——但为视觉传播设定了背景。"
+    "en": "You care about LLM trust - today a paper shows developers still struggle with explainability in AI code review.",
+    "zh": "你关注LLM信任，今日一篇论文显示开发者仍在AI代码审查中挣扎于可解释性。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "7500e56b9197340b",
+     "item_id": "a347e5e5a02d7b4a",
      "phrase": {
-      "en": "Open-source 2.8T model",
-      "zh": "开源2.8万亿参数模型"
-     },
-     "section": "news",
-     "source": "Simon Willison",
-     "url": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything"
-    },
-    {
-     "item_id": "ab3c998273c02dc8",
-     "phrase": {
-      "en": "Self-supervised BMI",
-      "zh": "自监督脑机接口"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.24023v1"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Moonshot released Kimi K3 weights; a parallel paper explores brain-machine interfaces using self-supervised learning.",
-    "zh": "Moonshot发布Kimi K3模型权重；另一篇论文探索用自监督学习实现脑机接口。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "AI models & open release",
-    "zh": "AI模型与开源发布"
-   },
-   "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-07-27",
-     "item_id": "7500e56b9197340b",
-     "label": {
-      "en": "Kimi K3 weights released",
-      "zh": "Kimi K3权重发布"
-     },
-     "section": "news",
-     "source": "Simon Willison",
-     "url": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything"
-    },
-    {
-     "date": "2026-07-27",
-     "item_id": "ab3c998273c02dc8",
-     "label": {
-      "en": "Neural decoding BMI",
-      "zh": "神经解码脑机接口"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.24023v1"
-    }
-   ],
-   "why_now": {
-    "en": "You follow LLM and embodied AI: a massive open-source model launch plus neural decoding advances hit the same day.",
-    "zh": "你关注大模型和具身AI，今天同时有大型开源模型发布和神经解码进展。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "6485f663bd2966e5",
-     "phrase": {
-      "en": "Trump paused strikes for diplomacy",
-      "zh": "特朗普暂缓打击以促外交"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/live/2026/jul/27/us-senate-spy-jay-clayton-donald-trump-iran-war-saudi-oman-hormuz-pentagon-seattle-latest-news-updates"
-    },
-    {
-     "item_id": "61cdcec93c2832e0",
-     "phrase": {
-      "en": "Iran denies desire for talks",
-      "zh": "伊朗否认有意谈判"
+      "en": "Race before heatwave",
+      "zh": "热浪前的竞速"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/27/us/politics/trump-iran-talks-negotiations.html"
+     "url": "https://www.nytimes.com/2026/07/28/world/europe/wildfires-france-spain.html"
+    },
+    {
+     "item_id": "79607b7f73527fa3",
+     "phrase": {
+      "en": "Macron warns of holding out",
+      "zh": "马克龙警告要坚持"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/jul/28/europe-wildfires-fires-heatwave-bordeaux-france-spain-latest-news-updates"
+    },
+    {
+     "item_id": "970be4a4a1877d65",
+     "phrase": {
+      "en": "Fire crews race against heat",
+      "zh": "消防员与高温赛跑"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/07/28/g-s1-135828/europe-wildfires"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "France and Spain race against a heatwave to tame blazes.",
+    "zh": "法国和西班牙与热浪赛跑，试图控制火势。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "wildfire crisis",
+    "zh": "野火危机"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow critical events - today both wildfires and AI sell-off hit Europe.",
+    "zh": "你关注重大事件，今日欧洲同时遭遇野火和AI股市抛售。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "53008370ed34512e",
+     "phrase": {
+      "en": "Tokens as kilowatt-hour of AI",
+      "zh": "代币作为AI的千瓦时"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/sections/planet-money/2026/07/28/g-s1-135475/ai-tokens-could-become-the-kilowatt-hour-of-the-ai-age"
+    },
+    {
+     "item_id": "9b2079f587e4b9d6",
+     "phrase": {
+      "en": "AI sell-off as token signal",
+      "zh": "AI抛售作为代币信号"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/business/2026/jul/28/ai-sell-off-chip-stocks-sk-hynix-samsung"
     }
    ],
    "convergence": "divergent",
    "gloss": {
-    "en": "Trump says he paused strikes on Iran to give diplomacy a chance, but Iran denies wanting talks.",
-    "zh": "特朗普称暂停打击伊朗以给外交机会，但伊朗否认有意谈判。"
+    "en": "Tokens track AI usage like kilowatt-hours track electricity.",
+    "zh": "代币追踪AI使用，就像千瓦时追踪电力。"
    },
    "id": "t3",
    "keyword": {
-    "en": "Trump Iran diplomacy",
-    "zh": "特朗普伊朗外交"
+    "en": "AI token economy",
+    "zh": "AI代币经济"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow geopolitical data, but this thread is about narrative framing: two sources diverge on whether diplomacy is real.",
-    "zh": "你关注地缘政治数据，但这条线索是关于叙事框架：两个来源在外交真实性上分歧。"
+    "en": "You follow LLM economics - today tokens are being used as a metric to track AI spread.",
+    "zh": "你关注LLM经济，今日代币被用作追踪AI普及的指标。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "9b2079f587e4b9d6",
+     "phrase": {
+      "en": "AI sell-off hits chip stocks",
+      "zh": "AI抛售冲击芯片股"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/business/2026/jul/28/ai-sell-off-chip-stocks-sk-hynix-samsung"
+    },
+    {
+     "full_text_file": "articles/news/13569c3b1be1f262.json",
+     "item_id": "13569c3b1be1f262",
+     "phrase": {
+      "en": "Samsung engineers jump ship",
+      "zh": "三星工程师跳槽"
+     },
+     "section": "news",
+     "source": "MIT Technology Review · AI",
+     "url": "https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Samsung's chip engineers leave for rivals as AI spending fears grow.",
+    "zh": "三星芯片工程师跳槽，AI支出担忧加剧。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "chip talent drain",
+    "zh": "芯片人才流失"
+   },
+   "relates_to": [
+    "t2"
+   ],
+   "why_now": {
+    "en": "You follow embodied AI hardware - today chip talent shift signals industry anxiety.",
+    "zh": "你关注具身AI硬件，今日芯片人才流动显示行业焦虑。"
    }
   }
  ]

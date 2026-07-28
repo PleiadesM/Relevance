@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "Swiss yodeling festival OR yodeling competition",
+  "query": "world dog grooming championship OR creative dog grooming",
   "source": {
-   "name": "AP News",
-   "published_at": "2026-06-29T07:00:00Z",
-   "title": "Heat forces yodelers at annual Swiss festival to sing in fountains",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOc0tOWUhjZ3MwZ1VETDNjNEFsQzU3NEt2OVZ2RnFNSXJqUUFHdDVVR2tuaHJwWFZtNFZFYWRyU2dEWERKWlA5cUNTOVNtcHM4Z08xejRsSzE2NXFVRWlCWlk5Y0oxTjhSQnFxRjhCVVJXeHh4c1JqMU5iOUNlbE16NlZIc01PeThVOGRvUGVWd2lpRXAwbmFmY1lZV2xnTnZfTGc?oc=5"
+   "name": "TSN",
+   "published_at": "2026-07-23T22:59:19Z",
+   "title": "Matheson on dog grooming: 'By the time you tip and get out of there, I'm dangerously close to $200'",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQOHBBcVJaLVI3UTNhU2VFSTNQSm1XQW1JTnl6NzNLaktfUUFWYkR4allTcTRYNUJXM21CTFZ3VFloT1ZaZUM3X0podl8tZEd1Nmtva1VGRXdtRHpORkRjTEI4anhITjlkTlZSd2RrMlhYUVpQcGg1MXZ3TDJVanJIYlYwbDBGaXJiZ0w4dlhqNUZSTU9SN1NubFVRcjNuVjYycGZFNHQzVmJ2NUZ6aGNrYlRhbEQwdk5ySV9wVTJ6X0ItRVpvYnUtTzV3?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A Swiss yodeling festival moved rehearsals into public fountains to cope with a heatwave.",
-    "why_irrelevant": "It is a trivial weather-related cultural event far from the user's heavy news and research."
+    "summary": "A hockey player humorously complains about the high cost of professional dog grooming.",
+    "why_irrelevant": "It is a sports personality's anecdote about personal spending, far from global crises or tech debates."
    },
    "zh": {
-    "summary": "瑞士约德尔节因热浪将排练移至公共喷泉中进行。",
-    "why_irrelevant": "这是一个与用户关注的严肃新闻和研究无关的轻松文化花絮。"
+    "summary": "一位冰球运动员幽默地抱怨专业狗狗美容的高昂费用。",
+    "why_irrelevant": "这是体育人士的个人消费轶事，远离全球危机或科技辩论。"
    }
   },
-  "topic": "yodeling championships in Switzerland"
+  "topic": "competitive dog grooming"
  },
- "brief": "Wildfires rage in France and Spain as extreme weather hits globally; U.S. politics sees Trump criticized for comedy attempt and Zelensky set for White House visit. Research focuses on XAI in code review and new visualization methods.",
+ "brief": "A magnitude 7.1 earthquake in Japan traps people in a mall, while wildfires rage in France and Spain ahead of a heatwave. Tech stocks tumble globally amid AI spending concerns and China chip competition. New research explores explainable AI in code review, visualization techniques, and information contagion modeling.",
  "meta": {
-  "generated_at": "2026-07-28T06:38:30Z"
+  "generated_at": "2026-07-28T10:44:22Z"
  },
- "news_summary": "Wildfires in Europe and Asia cause devastation, with France facing its worst fire crisis since WWII. U.S. news highlights Trump's roast at the White House Correspondents' Dinner and upcoming Zelensky-Trump meeting.",
- "papers_summary": "Research explores explainable AI in code review, probabilistic modeling for contour visualization, and quantum circuit visualizations, alongside studies on information contagion and neural decoding.",
+ "news_summary": "Japan earthquake traps people in Kumamoto mall, wildfires threaten France and Spain, tech stocks plummet on AI and chip worries, Iran tensions persist, and U.S. political fallout continues.",
+ "papers_summary": "Studies examine explainable AI trust in code review, coherent contour visualization, Arabic design practices, information contagion biases, quantum circuit visualization, and mental imagery in icon design.",
  "summaries": {
   "en": {
-   "brief": "Wildfires rage in France and Spain as extreme weather hits globally; U.S. politics sees Trump criticized for comedy attempt and Zelensky set for White House visit. Research focuses on XAI in code review and new visualization methods.",
-   "news_summary": "Wildfires in Europe and Asia cause devastation, with France facing its worst fire crisis since WWII. U.S. news highlights Trump's roast at the White House Correspondents' Dinner and upcoming Zelensky-Trump meeting.",
-   "papers_summary": "Research explores explainable AI in code review, probabilistic modeling for contour visualization, and quantum circuit visualizations, alongside studies on information contagion and neural decoding."
+   "brief": "A magnitude 7.1 earthquake in Japan traps people in a mall, while wildfires rage in France and Spain ahead of a heatwave. Tech stocks tumble globally amid AI spending concerns and China chip competition. New research explores explainable AI in code review, visualization techniques, and information contagion modeling.",
+   "news_summary": "Japan earthquake traps people in Kumamoto mall, wildfires threaten France and Spain, tech stocks plummet on AI and chip worries, Iran tensions persist, and U.S. political fallout continues.",
+   "papers_summary": "Studies examine explainable AI trust in code review, coherent contour visualization, Arabic design practices, information contagion biases, quantum circuit visualization, and mental imagery in icon design."
   },
   "zh": {
-   "brief": "唐山大地震50周年披露毛澤東最後批閱文件；香港前議員胡志偉赴英被扣後獲准居留；基因編輯治療致女童死亡引發中國調查。西方山火與極端天氣持續，川普與澤倫斯基將在白宮會晤。",
-   "news_summary": "唐山大地震50週年披露毛澤東生前批閱的最後一份文件；香港民主黨前主席胡志偉赴英被扣後獲准居留；中國女童基因編輯治療死亡引發官方調查。",
-   "papers_summary": "無相關中文論文。英文研究聚焦於AI代碼審查的可解釋性信任、量子電路可視化設計空間、以及視覺與文本結合的數據理解。"
+   "brief": "今日焦點包括胡志偉赴英後獲准逗留及否認申請庇護，美國暫停伊朗戰事引發台海安全憂慮，以及中國AI偽造視頻加劇自然災害假訊息問題。",
+   "news_summary": "胡志偉赴英被扣後獲准逗留，否認申請政治庇護。特朗普暫停伊朗戰事，美軍規劃者擔憂中國可能趁機對台行動。中國自然災害頻傳，AI偽造視頻氾濫。",
+   "papers_summary": "會議論文探討可解釋AI對程式碼審查信任的影響、二維標量場輪廓集合的可視化、以及量子電路可視化的設計空間等主題。"
   }
  },
  "todays_image": {
-  "caption": "The star-like name of the aster plant mirrors the celebrity comedians who roasted Trump's failed comedy attempt.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c",
+  "caption": "The tiny \"perpusilla\" plant's name echoes the cramped spaces where shoppers are trapped after Japan's earthquake.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m39b901120c1b24cdcb078478055490201",
   "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3d1b2a964-ed98-4ee0-8f71-927381c84000",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c/90",
-  "title": "Chaetopappa asteroides (Nutt.) DC."
+  "source_url": "http://n2t.net/ark:/65665/3ef775029-7ea2-4cee-a1de-13b30acd931b",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m39b901120c1b24cdcb078478055490201/90",
+  "title": "Borreria perpusilla Hook. f."
  }
 }
