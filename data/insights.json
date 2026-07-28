@@ -1,48 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "world dog grooming championship OR creative dog grooming",
-  "source": {
-   "name": "TSN",
-   "published_at": "2026-07-23T22:59:19Z",
-   "title": "Matheson on dog grooming: 'By the time you tip and get out of there, I'm dangerously close to $200'",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQOHBBcVJaLVI3UTNhU2VFSTNQSm1XQW1JTnl6NzNLaktfUUFWYkR4allTcTRYNUJXM21CTFZ3VFloT1ZaZUM3X0podl8tZEd1Nmtva1VGRXdtRHpORkRjTEI4anhITjlkTlZSd2RrMlhYUVpQcGg1MXZ3TDJVanJIYlYwbDBGaXJiZ0w4dlhqNUZSTU9SN1NubFVRcjNuVjYycGZFNHQzVmJ2NUZ6aGNrYlRhbEQwdk5ySV9wVTJ6X0ItRVpvYnUtTzV3?oc=5"
-  },
-  "summaries": {
-   "en": {
-    "summary": "A hockey player humorously complains about the high cost of professional dog grooming.",
-    "why_irrelevant": "It is a sports personality's anecdote about personal spending, far from global crises or tech debates."
-   },
-   "zh": {
-    "summary": "一位冰球运动员幽默地抱怨专业狗狗美容的高昂费用。",
-    "why_irrelevant": "这是体育人士的个人消费轶事，远离全球危机或科技辩论。"
-   }
-  },
-  "topic": "competitive dog grooming"
- },
- "brief": "A magnitude 7.1 earthquake in Japan traps people in a mall, while wildfires rage in France and Spain ahead of a heatwave. Tech stocks tumble globally amid AI spending concerns and China chip competition. New research explores explainable AI in code review, visualization techniques, and information contagion modeling.",
+ "brief": "A 6.8-magnitude earthquake in Japan traps dozens in a shopping mall and damages Kumamoto Castle, while France and Spain battle wildfires amid a heatwave. Political upheaval within the Heritage Foundation and reflections on COVID-19 origins via Fauci's diary also feature.",
  "meta": {
-  "generated_at": "2026-07-28T10:44:22Z"
+  "generated_at": "2026-07-28T14:34:05Z"
  },
- "news_summary": "Japan earthquake traps people in Kumamoto mall, wildfires threaten France and Spain, tech stocks plummet on AI and chip worries, Iran tensions persist, and U.S. political fallout continues.",
- "papers_summary": "Studies examine explainable AI trust in code review, coherent contour visualization, Arabic design practices, information contagion biases, quantum circuit visualization, and mental imagery in icon design.",
+ "news_summary": "Japan earthquake injures 50 and traps people in Kumamoto; France and Spain race to control wildfires as heatwave hits. US politics sees Graham's funeral with Netanyahu and Zelenskyy, plus Heritage Foundation's internal conflict and Fauci's diary release.",
+ "papers_summary": "Papers explore explainable AI in code review, visualization of contour ensembles, and mental imagery in icon design for fire risks. Other works cover quantum circuit visualizations, multimodal data comprehension, and LLMs aiding blind users with charts.",
  "summaries": {
   "en": {
-   "brief": "A magnitude 7.1 earthquake in Japan traps people in a mall, while wildfires rage in France and Spain ahead of a heatwave. Tech stocks tumble globally amid AI spending concerns and China chip competition. New research explores explainable AI in code review, visualization techniques, and information contagion modeling.",
-   "news_summary": "Japan earthquake traps people in Kumamoto mall, wildfires threaten France and Spain, tech stocks plummet on AI and chip worries, Iran tensions persist, and U.S. political fallout continues.",
-   "papers_summary": "Studies examine explainable AI trust in code review, coherent contour visualization, Arabic design practices, information contagion biases, quantum circuit visualization, and mental imagery in icon design."
+   "brief": "A 6.8-magnitude earthquake in Japan traps dozens in a shopping mall and damages Kumamoto Castle, while France and Spain battle wildfires amid a heatwave. Political upheaval within the Heritage Foundation and reflections on COVID-19 origins via Fauci's diary also feature.",
+   "news_summary": "Japan earthquake injures 50 and traps people in Kumamoto; France and Spain race to control wildfires as heatwave hits. US politics sees Graham's funeral with Netanyahu and Zelenskyy, plus Heritage Foundation's internal conflict and Fauci's diary release.",
+   "papers_summary": "Papers explore explainable AI in code review, visualization of contour ensembles, and mental imagery in icon design for fire risks. Other works cover quantum circuit visualizations, multimodal data comprehension, and LLMs aiding blind users with charts."
   },
   "zh": {
-   "brief": "今日焦點包括胡志偉赴英後獲准逗留及否認申請庇護，美國暫停伊朗戰事引發台海安全憂慮，以及中國AI偽造視頻加劇自然災害假訊息問題。",
-   "news_summary": "胡志偉赴英被扣後獲准逗留，否認申請政治庇護。特朗普暫停伊朗戰事，美軍規劃者擔憂中國可能趁機對台行動。中國自然災害頻傳，AI偽造視頻氾濫。",
-   "papers_summary": "會議論文探討可解釋AI對程式碼審查信任的影響、二維標量場輪廓集合的可視化、以及量子電路可視化的設計空間等主題。"
+   "brief": "唐山大地震50周年纪念引发对历史与现实的反思；香港前议员胡志伟赴英遭扣留后获准停留；日本熊本县发生6.8级地震，多人被困。",
+   "news_summary": "唐山大地震50周年，多篇报道回顾灾难细节与社会影响；香港前议员胡志伟赴英被扣后获准停留；日本熊本县6.8级地震致多人被困，九州电力报告4.8万户停电。",
+   "papers_summary": "研究涵盖可解释AI对代码审查信任的影响、量子电路可视化设计空间、以及文本与图表结合的多模态数据理解。"
   }
  },
  "todays_image": {
-  "caption": "The tiny \"perpusilla\" plant's name echoes the cramped spaces where shoppers are trapped after Japan's earthquake.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m39b901120c1b24cdcb078478055490201",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3ef775029-7ea2-4cee-a1de-13b30acd931b",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m39b901120c1b24cdcb078478055490201/90",
-  "title": "Borreria perpusilla Hook. f."
+  "caption": "Both the 1906 San Francisco earthquake and today's Japanese earthquake involve shattered structures—one a mailbox, another a shopping centre—that once held messages and lives now trapped in rubble.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2006_2038_1a",
+  "source_name": "National Postal Museum",
+  "source_url": "https://postalmuseum.si.edu/object/npm_2006.2038.1",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2006_2038_1a",
+  "title": "Mailbox remnant from 1906 San Francisco earthquake"
  }
 }
