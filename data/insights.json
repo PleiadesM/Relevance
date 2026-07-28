@@ -1,28 +1,48 @@
 {
- "brief": "Global leaders navigate trade union changes, Iran tensions, and deadly wildfires; AI ethics and healthcare communication papers highlight human-machine interaction challenges.",
- "meta": {
-  "generated_at": "2026-07-27T23:18:52Z"
+ "apropos_of_nothing": {
+  "query": "antique butter churn OR hand churn butter making",
+  "source": {
+   "name": "SaskToday.ca",
+   "published_at": "2026-07-16T17:15:39Z",
+   "title": "Museum Fun Day draws big crowd to WDM Yorkton",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZlVQUVE3OHlyR2dhQzdBTi1acUVtWmtHeFh6bURiZVVORkVvb1BsdzIwWjBueGE2enBCSHkyRURoRTk0QlVKczBxQndnTDVhNHVaY1lBb0FLNnVjMk9rdUF4Z0d2akVuQjZuWFdTOXlCUlFBR3RLc01KVTVWQWRYeXdpTkpDMXAxSllTb1RuYTBXdjFEUVlLbkltWlFvUjBtQTdwTUEwWDNKUQ?oc=5"
+  },
+  "summaries": {
+   "en": {
+    "summary": "Museum Fun Day in Yorkton, Saskatchewan drew a large crowd with family activities.",
+    "why_irrelevant": "It is a hyperlocal community event far from the user's typical feed topics."
+   },
+   "zh": {
+    "summary": "萨斯喀彻温省约克顿的博物馆欢乐日吸引了大量人群参加家庭活动。",
+    "why_irrelevant": "这是一个超本地社区活动，远离用户常见的主题。"
+   }
+  },
+  "topic": "hand-operated butter churns"
  },
- "news_summary": "Australian PM praises resigning ACTU leaders as 'giants'; Trump in Michigan blames Biden for affordability, backs Hegseth amid Iran tension; European wildfires rage as heatwave looms.",
- "papers_summary": "Papers explore AI-driven virtual patients for breaking bad news and interactive model bending for artists, emphasizing practice-based explainability and asymmetric affective patterns.",
+ "brief": "Political shifts in Australia dominate with a new Victorian premier, while OpenAI and Nvidia plan a massive data center. A Chinese start-up unveils a new AI model, and a teen's lawsuit targets the food industry. Research focuses on explainable AI in code review and visualization advancements.",
+ "meta": {
+  "generated_at": "2026-07-28T03:32:10Z"
+ },
+ "news_summary": "Ben Carroll becomes Victoria's premier after Jacinta Allan resigns; OpenAI nears $500B data center deal with Nvidia. Other news: Fauci's diary on Covid origins, Michigan Senate debate, and a teen suing the food industry.",
+ "papers_summary": "Papers explore explainable AI for code review, probabilistic contour visualization, and quantum circuit visualization, alongside studies on mental imagery in risk perception and tactile charts for blind users.",
  "summaries": {
   "en": {
-   "brief": "Global leaders navigate trade union changes, Iran tensions, and deadly wildfires; AI ethics and healthcare communication papers highlight human-machine interaction challenges.",
-   "news_summary": "Australian PM praises resigning ACTU leaders as 'giants'; Trump in Michigan blames Biden for affordability, backs Hegseth amid Iran tension; European wildfires rage as heatwave looms.",
-   "papers_summary": "Papers explore AI-driven virtual patients for breaking bad news and interactive model bending for artists, emphasizing practice-based explainability and asymmetric affective patterns."
+   "brief": "Political shifts in Australia dominate with a new Victorian premier, while OpenAI and Nvidia plan a massive data center. A Chinese start-up unveils a new AI model, and a teen's lawsuit targets the food industry. Research focuses on explainable AI in code review and visualization advancements.",
+   "news_summary": "Ben Carroll becomes Victoria's premier after Jacinta Allan resigns; OpenAI nears $500B data center deal with Nvidia. Other news: Fauci's diary on Covid origins, Michigan Senate debate, and a teen suing the food industry.",
+   "papers_summary": "Papers explore explainable AI for code review, probabilistic contour visualization, and quantum circuit visualization, alongside studies on mental imagery in risk perception and tactile charts for blind users."
   },
   "zh": {
-   "brief": "今日新闻聚焦香港前议员胡志伟在英国入境风波，以及中国女童基因编辑治疗死亡争议。学术方面，多篇论文探讨AI在医疗沟通、自闭症诊断及可视化工具中的应用。",
-   "news_summary": "英国一度阻止因香港国安法被判刑的前议员胡志伟入境，后改变主意；中国女童基因编辑治疗死亡引发科学界关注。其他重要事件包括所罗门群岛金矿坍塌、柏林骄傲游行袭击、韩国快递员过劳问题。",
-   "papers_summary": "多篇arXiv论文聚焦AI在医疗沟通训练（如告知坏消息的虚拟病人）、自闭症诊断辅助系统，以及面向化学家的分子图神经网络可视化分析工具。"
+   "brief": "今日重點包括胡志偉赴英風波與基因編輯治療致死事件引發關注；論文聚焦AI代碼審查的可解釋性、信息傳播模型及圖表設計對視覺想像的影響。",
+   "news_summary": "香港前議員胡志偉赴英遭扣留後獲准逗留，否認申請政治庇護；中國女童基因編輯治療後死亡引發科學界與官方調查。",
+   "papers_summary": "研究評估可解釋AI對代碼審查信任的影響，建模真假信息傳播中的個體偏見，並探討圖標設計如何塑造火災風險的心理意象。"
   }
  },
  "todays_image": {
-  "caption": "Just as a painter mixes colors on a palette, politicians blend ambition and accountability while facing intense self-scrutiny.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1952.13.53_1",
-  "source_name": "Smithsonian American Art Museum",
-  "source_url": "https://americanart.si.edu/collections/search/artwork/?id=1327",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1952.13.53_1",
-  "title": "Self-Portrait with Palette"
+  "caption": "The nine of spades, a card often linked to risk and upheaval, mirrors the high-stakes political shift as Victoria's leadership digs a new course and a key figure exits the party.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-B7294DBA02102-000001",
+  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/112866",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-B7294DBA02102-000001",
+  "title": "Nine of Spades"
  }
 }

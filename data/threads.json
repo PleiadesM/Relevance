@@ -1,125 +1,127 @@
 {
  "meta": {
   "count": 3,
-  "generated_at": "2026-07-27T23:18:52Z",
+  "generated_at": "2026-07-28T03:32:10Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "9566be87b15051aa",
-     "phrase": {
-      "en": "authors mixed on $1.5B payout",
-      "zh": "作者对15亿美元赔偿褒贬不一"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/07/27/nx-s1-5904606/anthropic-vs-bartz-ai-copyright-lawsuit-pros-cons"
-    },
-    {
      "item_id": "cbda5ad37f0c8e09",
      "phrase": {
-      "en": "Moonshot licenses AI model",
-      "zh": "月之暗面许可AI模型"
+      "en": "Kimi K3 license restrictions",
+      "zh": "Kimi K3许可限制"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/07/27/business/moonshot-kimi-k3-china-ai.html"
-    }
-   ],
-   "convergence": "divergent",
-   "gloss": {
-    "en": "A court ruling on AI training data shakes the ground under authors and tech alike.",
-    "zh": "法院对AI训练数据的裁决撼动了作者和科技界的基础。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "AI copyright ruling",
-    "zh": "AI版权裁决"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow AI ethics; today's $1.5B ruling sets a precedent for how models can use copyrighted material.",
-    "zh": "你关注AI伦理，今天的15亿美元裁决为模型如何使用受版权保护的材料开创了先例。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "a9d3807938af9ace",
-     "phrase": {
-      "en": "virtues and values in viz",
-      "zh": "可视化中的美德与价值观"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.21732v1"
     },
     {
-     "item_id": "4be15b15e00ce8a0",
+     "item_id": "7500e56b9197340b",
      "phrase": {
-      "en": "AI model bending for artists",
-      "zh": "面向艺术家的AI模型扭曲"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.22428v1"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "A new framework charts the virtues and values that should guide visualization design, pushing the field toward critical reflection.",
-    "zh": "一个新框架勾勒出指导可视化设计的品德和价值观，推动该领域走向批判性反思。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "ethical data visualization",
-    "zh": "伦理数据可视化"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You study critical visualization; today's paper offers a moral compass for your practice.",
-    "zh": "你研究批判可视化，今天的论文为你的实践提供了道德指南针。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "933f5c65254e403b",
-     "phrase": {
-      "en": "France Spain race to contain fires",
-      "zh": "法国西班牙竞相控制火势"
+      "en": "weights released on Hugging Face",
+      "zh": "权重在Hugging Face发布"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/jul/27/france-and-spain-race-to-contain-huge-wildfires-before-fresh-heatwave-begins"
-    },
-    {
-     "item_id": "0f3d2d4280c2b08c",
-     "phrase": {
-      "en": "travel advice for wildfires",
-      "zh": "野火旅行建议"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/videos/c89npw4q3g4o?at_medium=RSS&at_campaign=rss"
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "France and Spain battle huge wildfires as a heatwave looms, threatening lives and travel plans.",
-    "zh": "法国和西班牙在热浪来临前对抗大火，威胁生命和旅行计划。"
+    "en": "A Chinese startup open-sources a massive 2.8-trillion-parameter model, reshaping AI access.",
+    "zh": "中国初创公司开源2.8万亿参数大模型，重塑AI使用格局。"
    },
-   "id": "t3",
+   "id": "t1",
    "keyword": {
-    "en": "wildfire crisis Europe",
-    "zh": "欧洲野火危机"
+    "en": "open-source LLM release",
+    "zh": "开源大模型发布"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You read news globally; today's events directly affect travel and climate policy discussions.",
-    "zh": "你关注全球新闻，今天的事件直接影响旅行和气候政策讨论。"
+    "en": "You follow LLM trends: today Moonshot released Kimi K3 weights, a major open-weight event.",
+    "zh": "你关注大模型动态，今日Moonshot开放Kimi K3权重，是重要的开放权重事件。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "6b66bab28e1888cf",
+     "phrase": {
+      "en": "fake AI videos during disasters",
+      "zh": "灾害期间AI虚假视频"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cx27mjvxgg1o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "0b59ad460317df3e",
+     "phrase": {
+      "en": "Meta trial over teen harm research",
+      "zh": "Meta因青少年伤害研究受审"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/technology/2026/jul/27/meta-tennessee-trial-jury"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Fake AI videos exploit natural disasters in China, while a trial targets Meta's teen harm research.",
+    "zh": "AI虚假视频利用中国自然灾害，而Meta因青少年伤害研究被诉。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "AI misinformation",
+    "zh": "AI虚假信息"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track critical AI impacts: today's news shows AI-generated falsehoods and platform accountability in court.",
+    "zh": "你关注AI的批判性影响，今日新闻显示AI生成虚假信息和平台责任被法庭审理。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "ab3c998273c02dc8",
+     "phrase": {
+      "en": "self-supervised neural decoding",
+      "zh": "自监督神经解码"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.24023v1"
+    },
+    {
+     "item_id": "e360388750913fe3",
+     "phrase": {
+      "en": "tactile charts for BLV learners",
+      "zh": "为盲人学习者的触觉图表"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.23065v1"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "A new self-supervised learning method improves neural decoding for brain-machine interfaces.",
+    "zh": "新的自监督学习方法改进了脑机接口的神经解码。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "embodied AI & BMI",
+    "zh": "具身AI与脑机接口"
+   },
+   "relates_to": [
+    "t1"
+   ],
+   "why_now": {
+    "en": "You follow embodied AI: today's paper advances BMI generalization, key for prosthetic control.",
+    "zh": "你关注具身AI，今日论文推进脑机接口泛化，对假肢控制至关重要。"
    }
   }
  ]
