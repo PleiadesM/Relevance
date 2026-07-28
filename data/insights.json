@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "onion championship OR giant onion OR onion growing competition",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "The State Journal-Register",
-   "published_at": "2026-07-15T07:00:00Z",
-   "title": "Maid-Rite has stood test of time in Springfield over the last century",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVWFCdXdOSl8zT2hGUl82V3Q5U09feFUtQlNlcl9qbElqQzhvUDNIN1RkenY3LVBiNF9hNy1nMnB3WDR4cFg5RTkwWkJEQjFVWm5rakdEX2oxLXZKWUhlN1NvYm1QbC10Wm00SERPOUowekZtOHkwd3VwTWQ4ZU5FV0k0QkU4UHhLRHdqZ3BuUk51czZ3by1WMGgwUHlHNEtkMGZsb2xWOTllREQ4OEU0N3ZuM3Z5MUlCZXVKNE9KcEZoTlFVenczcw?oc=5"
+   "name": "news.mail.ru",
+   "published_at": "2026-07-28T17:15:00Z",
+   "title": "Дачникам рассказали , как вырастить тыкву - рекордсменку",
+   "url": "https://news.mail.ru/society/71795684/"
   },
   "summaries": {
    "en": {
-    "summary": "Maid-Rite, a Springfield diner, has thrived for a century by serving loose meat sandwiches.",
-    "why_irrelevant": "It is a local business milestone unrelated to global tech or politics."
+    "summary": "Russian gardeners learn how to grow a record-breaking pumpkin.",
+    "why_irrelevant": "it's a region-specific agricultural feat far from your typical interests."
    },
    "zh": {
-    "summary": "斯普林菲尔德的Maid-Rite餐厅凭借散肉三明治百年不衰。",
-    "why_irrelevant": "这是与全球科技或政治无关的地方企业里程碑。"
+    "summary": "俄罗斯园丁学习如何种植创纪录的南瓜。",
+    "why_irrelevant": "这是一个远离你日常兴趣的地区性农业成就。"
    }
   },
-  "topic": "competitive onion growing"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Geopolitical tensions and natural disasters dominate today's news, while AI research explores trust, visualization, and neural decoding.",
+ "brief": "AI spending spikes and tech stock jitters dominate financial news, while Trump eulogizes Lindsey Graham and Iran tensions threaten oil routes. Research focuses on explainable AI in code review and visualization techniques for complex data.",
  "meta": {
-  "generated_at": "2026-07-28T17:44:13Z"
+  "generated_at": "2026-07-28T19:50:52Z"
  },
- "news_summary": "Tensions in the Strait of Hormuz and Japan's earthquake lead news, alongside memorials for Senator Lindsey Graham and wildfires in Europe.",
- "papers_summary": "Research on explainable AI for code review, probabilistic contour visualization, and quantum circuit designs highlights human-computer interaction advances.",
+ "news_summary": "AI leaders urge government action on automation, and Google's increased spending estimate to $205B fuels Wall Street nervousness. Meanwhile, Trump praises Lindsey Graham at his funeral, and Iran war risks intensify around the Strait of Hormuz.",
+ "papers_summary": "A study evaluates how explainable AI affects trust in AI-assisted code review, while other papers explore contour ensemble visualization and Arabic context design tools.",
  "summaries": {
   "en": {
-   "brief": "Geopolitical tensions and natural disasters dominate today's news, while AI research explores trust, visualization, and neural decoding.",
-   "news_summary": "Tensions in the Strait of Hormuz and Japan's earthquake lead news, alongside memorials for Senator Lindsey Graham and wildfires in Europe.",
-   "papers_summary": "Research on explainable AI for code review, probabilistic contour visualization, and quantum circuit designs highlights human-computer interaction advances."
+   "brief": "AI spending spikes and tech stock jitters dominate financial news, while Trump eulogizes Lindsey Graham and Iran tensions threaten oil routes. Research focuses on explainable AI in code review and visualization techniques for complex data.",
+   "news_summary": "AI leaders urge government action on automation, and Google's increased spending estimate to $205B fuels Wall Street nervousness. Meanwhile, Trump praises Lindsey Graham at his funeral, and Iran war risks intensify around the Strait of Hormuz.",
+   "papers_summary": "A study evaluates how explainable AI affects trust in AI-assisted code review, while other papers explore contour ensemble visualization and Arabic context design tools."
   },
   "zh": {
-   "brief": "唐山大地震50週年引發回顧與反思，香港前議員胡志偉赴英遭扣留後獲准逗留，同時日本熊本縣發生6.8級地震，美國與伊朗緊張局勢影響石油航線。",
-   "news_summary": "唐山大地震50週年之際，媒體披露諸多歷史細節；胡志偉赴英機場風波後獲准正常逗留；日本熊本縣6.8級地震致至少1死，美國伊朗衝突威脅霍爾木茲海峽航線。",
-   "papers_summary": "今日無重大論文更新。"
+   "brief": "唐山大地震50周年之际，相关历史细节与影响被重温，同时香港前议员胡志伟赴英后遭扣留事件持续发酵。国际方面，美伊局势、AI支出争议及科技股波动受关注。",
+   "news_summary": "唐山大地震50周年，多个报道回顾历史细节与长期影响；胡志伟赴英后被扣留近10小时，否认寻求庇护。美国与伊朗紧张关系持续，AI支出增加引发市场担忧。",
+   "papers_summary": "今日无优先论文，英文论文重点涉及可解释AI在代码审查中的信任影响、二维标量场轮廓集合可视化、阿拉伯语境下的设计实践以及量子电路可视化设计空间等。"
   }
  },
  "todays_image": {
-  "caption": "Both events highlight how fragile infrastructure—whether a mailbox or an oil route—can be shattered by sudden, devastating force.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2006_2038_1a",
-  "source_name": "National Postal Museum",
-  "source_url": "https://postalmuseum.si.edu/object/npm_2006.2038.1",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2006_2038_1a",
-  "title": "Mailbox remnant from 1906 San Francisco earthquake"
+  "caption": "Just as the sprawling, unregulated growth of Lobophora algae can overtake coral reefs, unchecked automated AI could overwhelm society without government intervention.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3a20dbcaf-62f6-4dd2-b936-69074b28dad5",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7/90",
+  "title": "Lobophora sp."
  }
 }

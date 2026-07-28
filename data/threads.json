@@ -1,17 +1,57 @@
 {
  "meta": {
-  "count": 3,
-  "generated_at": "2026-07-28T17:44:13Z",
+  "count": 4,
+  "generated_at": "2026-07-28T19:50:52Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "full_text_file": "articles/news/1043c276891dee13.json",
+     "item_id": "1043c276891dee13",
+     "phrase": {
+      "en": "Spending rise unnerves Wall Street",
+      "zh": "支出增加令华尔街不安"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex"
+    },
+    {
+     "item_id": "9b2079f587e4b9d6",
+     "phrase": {
+      "en": "AI sell-off hits South Korea",
+      "zh": "AI抛售冲击韩国股市"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/business/2026/jul/28/ai-sell-off-chip-stocks-sk-hynix-samsung"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Soaring AI costs spook stocks and trigger a sell-off",
+    "zh": "AI成本飙升引发股市恐慌和抛售。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI spending anxiety",
+    "zh": "AI支出焦虑"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow LLM economics: today's sell-off in South Korea and Google's higher spend forecast show that massive AI investment is now causing market jitters.",
+    "zh": "你关注LLM经济学：今日韩国股市抛售和谷歌更高开支预测显示，巨额AI投资正引发市场紧张。"
+   }
+  },
+  {
+   "angles": [
+    {
      "item_id": "a347e5e5a02d7b4a",
      "phrase": {
-      "en": "Race to contain before 104°F",
-      "zh": "在104°F前争分夺秒"
+      "en": "Firefighters race before heat spike",
+      "zh": "消防员在热浪前争分夺秒"
      },
      "section": "news",
      "source": "The New York Times",
@@ -20,8 +60,8 @@
     {
      "item_id": "0a0442cd4c471953",
      "phrase": {
-      "en": "Spain's 'hell of a situation'",
-      "zh": "西班牙‘地狱般的处境’"
+      "en": "Spain grapples with devastating fires",
+      "zh": "西班牙艰难应对毁灭性火灾"
      },
      "section": "news",
      "source": "BBC World",
@@ -30,8 +70,8 @@
     {
      "item_id": "527932a35b0dd589",
      "phrase": {
-      "en": "Wildfires flare with 40°C heatwave",
-      "zh": "野火随40°C热浪复燃"
+      "en": "France braces for 40°C heatwave",
+      "zh": "法国面临40°C热浪"
      },
      "section": "news",
      "source": "BBC World",
@@ -40,8 +80,8 @@
     {
      "item_id": "de500155d76f301a",
      "phrase": {
-      "en": "4,000 evacuated in France",
-      "zh": "法国4000人疏散"
+      "en": "Thousands evacuated near Bordeaux",
+      "zh": "波尔多附近数千人撤离"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -50,8 +90,8 @@
     {
      "item_id": "79607b7f73527fa3",
      "phrase": {
-      "en": "UN warns climate alarm blaring",
-      "zh": "联合国警告气候警报拉响"
+      "en": "Race to control fires before heatwave",
+      "zh": "热浪前争分夺秒控火"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -60,8 +100,8 @@
     {
      "item_id": "2495348c1dcb9180",
      "phrase": {
-      "en": "Record wildfires force evacuations",
-      "zh": "创纪录野火迫使疏散"
+      "en": "Record wildfires reshape continent",
+      "zh": "创纪录野火重塑欧洲大陆"
      },
      "section": "news",
      "source": "NPR News",
@@ -70,312 +110,97 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "France and Spain battle record wildfires as a new heatwave hits.",
-    "zh": "法国和西班牙在热浪中对抗创纪录的野火。"
+    "en": "France and Spain battle massive wildfires as a new heatwave threatens to worsen conditions.",
+    "zh": "法国和西班牙抗击大规模野火，新热浪恐加剧灾情。"
    },
-   "id": "t1",
+   "id": "t2",
    "keyword": {
-    "en": "wildfire crisis",
-    "zh": "野火危机"
+    "en": "wildfires & heatwave",
+    "zh": "野火与热浪"
    },
    "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-07-28",
-     "item_id": "a347e5e5a02d7b4a",
-     "label": {
-      "en": "New heatwave threatens",
-      "zh": "新热浪威胁"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/28/world/europe/wildfires-france-spain.html"
-    },
-    {
-     "date": "2026-07-28",
-     "item_id": "de500155d76f301a",
-     "label": {
-      "en": "Evacuations near Bordeaux",
-      "zh": "波尔多附近疏散"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/jul/28/france-bordeaux-lacanau-evacuation-wildfires-madrid-spain"
-    }
-   ],
    "why_now": {
-    "en": "You care about visual rhetoric — satellite images of fires are urgent climate stories today.",
-    "zh": "你关注视觉修辞——火灾卫星图像是今日紧迫的气候故事。"
+    "en": "You care about climate visuals: today multiple sources cover the same unfolding disaster, showing the human and environmental cost of extreme heat.",
+    "zh": "你关注气候可视化：今日多个来源报道同一灾难，展现极端高温的人与环境代价。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "4a0ff65f7812b667",
+     "full_text_file": "articles/news/31c257eb969400c3.json",
+     "item_id": "31c257eb969400c3",
      "phrase": {
-      "en": "Scientific computing with agents",
-      "zh": "代理驱动科学计算"
+      "en": "OpenAI, Anthropic sign statement",
+      "zh": "OpenAI、Anthropic签署声明"
      },
      "section": "news",
-     "source": "OpenAI News",
-     "url": "https://openai.com/index/scientific-computing-agentic-ai"
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta"
     },
     {
-     "item_id": "4a1ee428af31a222",
+     "item_id": "eee8ab8139f24fbe",
      "phrase": {
-      "en": "Chatbot gets hands on code",
-      "zh": "聊天机器人触碰代码"
+      "en": "Google AI Mode aids real world",
+      "zh": "谷歌AI模式帮助现实世界"
      },
      "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://github.com/xyTom/coding-tools-mcp"
+     "source": "Google AI Blog",
+     "url": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "New tools let AI agents write and edit code, transforming software development.",
-    "zh": "新工具让AI代理编写和编辑代码，改变软件开发。"
+    "en": "AI lab employees ask the US government to regulate automated AI systems.",
+    "zh": "AI实验室员工请求美国政府监管自动化AI系统。"
    },
-   "id": "t2",
+   "id": "t3",
    "keyword": {
-    "en": "AI coding agents",
-    "zh": "AI编程助手"
+    "en": "AI leaders & regulation",
+    "zh": "AI领袖与监管"
    },
    "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-07-28",
-     "item_id": "4a1ee428af31a222",
-     "label": {
-      "en": "Coding Tools MCP v0.2.2",
-      "zh": "编程工具MCP v0.2.2"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://github.com/xyTom/coding-tools-mcp"
-    },
-    {
-     "date": "2026-07-28",
-     "item_id": "4a0ff65f7812b667",
-     "label": {
-      "en": "OpenAI on agentic AI",
-      "zh": "OpenAI谈代理式AI"
-     },
-     "section": "news",
-     "source": "OpenAI News",
-     "url": "https://openai.com/index/scientific-computing-agentic-ai"
-    }
-   ],
    "why_now": {
-    "en": "You follow LLM and HCI — today's coding MCP tool and OpenAI report show agents becoming practical.",
-    "zh": "你关注LLM和人机交互，今日的编程MCP工具和OpenAI报告显示代理变得实用。"
+    "en": "You track AI governance: today a cross-industry statement from leading AI firms signals growing internal pressure for regulation.",
+    "zh": "你关注AI治理：今日领先AI公司的跨行业声明显示内部监管压力增大。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "87dc2916c95e8fdc",
+     "item_id": "4a0ff65f7812b667",
      "phrase": {
-      "en": "Probabilistic contour ensembles",
-      "zh": "概率轮廓集合"
+      "en": "AI agents modernize scientific computing",
+      "zh": "AI代理现代化科学计算"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.24596v1"
-    },
-    {
-     "item_id": "cbd805facbd2159b",
-     "phrase": {
-      "en": "Arabic visualization design",
-      "zh": "阿拉伯语可视化设计"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.24571v1"
-    },
-    {
-     "item_id": "a504c19adc9be7a2",
-     "phrase": {
-      "en": "True/false information duel",
-      "zh": "真伪信息对决"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.24360v1"
-    },
-    {
-     "item_id": "3f82b0d68489c534",
-     "phrase": {
-      "en": "Multiscale photo exploration",
-      "zh": "多尺度照片探索"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.23769v1"
-    },
-    {
-     "item_id": "4877e2bf0bfd439c",
-     "phrase": {
-      "en": "Visual-textual data chains",
-      "zh": "视觉-文本数据链"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.23489v1"
-    },
-    {
-     "item_id": "c62d6d179a0bdd94",
-     "phrase": {
-      "en": "Icon shapes mental fire image",
-      "zh": "图标塑造火灾心理意象"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.23369v1"
+     "section": "news",
+     "source": "OpenAI News",
+     "url": "https://openai.com/index/scientific-computing-agentic-ai"
     },
     {
      "item_id": "e360388750913fe3",
      "phrase": {
-      "en": "LLM vs tactile for BLV",
-      "zh": "LLM与触觉图表对比"
+      "en": "LLMs help BLV understand charts",
+      "zh": "LLM帮助视障者理解图表"
      },
      "section": "papers",
      "source": "arXiv cs.HC + cs.GR",
      "url": "https://arxiv.org/abs/2607.23065v1"
-    },
-    {
-     "item_id": "bb9e4099dba332de",
-     "phrase": {
-      "en": "3D Gaussian for particles",
-      "zh": "3D高斯粒子压缩"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.22956v1"
-    },
-    {
-     "item_id": "046e3bf17e5d1067",
-     "phrase": {
-      "en": "Quantum circuit vis space",
-      "zh": "量子电路可视化空间"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.24042v1"
-    },
-    {
-     "item_id": "194a38666c540812",
-     "phrase": {
-      "en": "Tangible migration exploration",
-      "zh": "实体界面迁移探索"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.22825v1"
-    },
-    {
-     "item_id": "2b06ca1fd70036ec",
-     "phrase": {
-      "en": "Explainable AI in code review",
-      "zh": "代码审查中的可解释AI"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.24601v1"
-    },
-    {
-     "item_id": "ab3c998273c02dc8",
-     "phrase": {
-      "en": "Neural decoding for BMI",
-      "zh": "脑机接口神经解码"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.24023v1"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "New papers advance how we see data: from quantum circuits to migration flows.",
-    "zh": "新论文推进了数据可视化方式：从量子电路到迁徙流。"
+    "en": "OpenAI reports that AI coding agents are accelerating scientific computing in genomics and beyond.",
+    "zh": "OpenAI报告称AI编程代理正在加速基因组学等领域的科学计算。"
    },
-   "id": "t3",
+   "id": "t4",
    "keyword": {
-    "en": "data visualization research",
-    "zh": "数据可视化研究"
+    "en": "scientific computing with AI",
+    "zh": "AI驱动科学计算"
    },
    "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-07-24",
-     "item_id": "194a38666c540812",
-     "label": {
-      "en": "GeoTEAM migration vis",
-      "zh": "GeoTEAM迁徙可视化"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.22825v1"
-    },
-    {
-     "date": "2026-07-27",
-     "item_id": "cbd805facbd2159b",
-     "label": {
-      "en": "Arabic vis design evaluation",
-      "zh": "阿拉伯语可视化设计评估"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.24571v1"
-    },
-    {
-     "date": "2026-07-27",
-     "item_id": "046e3bf17e5d1067",
-     "label": {
-      "en": "Quantum circuit vis design",
-      "zh": "量子电路可视化设计"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.24042v1"
-    },
-    {
-     "date": "2026-07-27",
-     "item_id": "a504c19adc9be7a2",
-     "label": {
-      "en": "Information contagion model",
-      "zh": "信息传播模型"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.24360v1"
-    },
-    {
-     "date": "2026-07-27",
-     "item_id": "2b06ca1fd70036ec",
-     "label": {
-      "en": "Explainable AI code review",
-      "zh": "可解释AI代码审查"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.24601v1"
-    },
-    {
-     "date": "2026-07-27",
-     "item_id": "ab3c998273c02dc8",
-     "label": {
-      "en": "Neural decoding for BMI",
-      "zh": "脑机接口神经解码"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.24023v1"
-    }
-   ],
    "why_now": {
-    "en": "You study visualization and HCI — today's arXiv papers on contour ensemble, quantum circuit vis, and multimodal comprehension are directly relevant.",
-    "zh": "你研究可视化和人机交互，今日关于轮廓集合、量子电路可视化和多模态理解的论文直接相关。"
+    "en": "You care about embodied AI and LLM applications: today's field report shows how agentic AI is transforming scientific software development.",
+    "zh": "你关注具身AI和LLM应用：今日领域报告展示代理AI如何变革科学软件开发。"
    }
   }
  ]
