@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "antique butter churn OR hand churn butter making",
+  "query": "Swiss yodeling festival OR yodeling competition",
   "source": {
-   "name": "SaskToday.ca",
-   "published_at": "2026-07-16T17:15:39Z",
-   "title": "Museum Fun Day draws big crowd to WDM Yorkton",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZlVQUVE3OHlyR2dhQzdBTi1acUVtWmtHeFh6bURiZVVORkVvb1BsdzIwWjBueGE2enBCSHkyRURoRTk0QlVKczBxQndnTDVhNHVaY1lBb0FLNnVjMk9rdUF4Z0d2akVuQjZuWFdTOXlCUlFBR3RLc01KVTVWQWRYeXdpTkpDMXAxSllTb1RuYTBXdjFEUVlLbkltWlFvUjBtQTdwTUEwWDNKUQ?oc=5"
+   "name": "AP News",
+   "published_at": "2026-06-29T07:00:00Z",
+   "title": "Heat forces yodelers at annual Swiss festival to sing in fountains",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOc0tOWUhjZ3MwZ1VETDNjNEFsQzU3NEt2OVZ2RnFNSXJqUUFHdDVVR2tuaHJwWFZtNFZFYWRyU2dEWERKWlA5cUNTOVNtcHM4Z08xejRsSzE2NXFVRWlCWlk5Y0oxTjhSQnFxRjhCVVJXeHh4c1JqMU5iOUNlbE16NlZIc01PeThVOGRvUGVWd2lpRXAwbmFmY1lZV2xnTnZfTGc?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "Museum Fun Day in Yorkton, Saskatchewan drew a large crowd with family activities.",
-    "why_irrelevant": "It is a hyperlocal community event far from the user's typical feed topics."
+    "summary": "A Swiss yodeling festival moved rehearsals into public fountains to cope with a heatwave.",
+    "why_irrelevant": "It is a trivial weather-related cultural event far from the user's heavy news and research."
    },
    "zh": {
-    "summary": "萨斯喀彻温省约克顿的博物馆欢乐日吸引了大量人群参加家庭活动。",
-    "why_irrelevant": "这是一个超本地社区活动，远离用户常见的主题。"
+    "summary": "瑞士约德尔节因热浪将排练移至公共喷泉中进行。",
+    "why_irrelevant": "这是一个与用户关注的严肃新闻和研究无关的轻松文化花絮。"
    }
   },
-  "topic": "hand-operated butter churns"
+  "topic": "yodeling championships in Switzerland"
  },
- "brief": "Political shifts in Australia dominate with a new Victorian premier, while OpenAI and Nvidia plan a massive data center. A Chinese start-up unveils a new AI model, and a teen's lawsuit targets the food industry. Research focuses on explainable AI in code review and visualization advancements.",
+ "brief": "Wildfires rage in France and Spain as extreme weather hits globally; U.S. politics sees Trump criticized for comedy attempt and Zelensky set for White House visit. Research focuses on XAI in code review and new visualization methods.",
  "meta": {
-  "generated_at": "2026-07-28T03:32:10Z"
+  "generated_at": "2026-07-28T06:38:30Z"
  },
- "news_summary": "Ben Carroll becomes Victoria's premier after Jacinta Allan resigns; OpenAI nears $500B data center deal with Nvidia. Other news: Fauci's diary on Covid origins, Michigan Senate debate, and a teen suing the food industry.",
- "papers_summary": "Papers explore explainable AI for code review, probabilistic contour visualization, and quantum circuit visualization, alongside studies on mental imagery in risk perception and tactile charts for blind users.",
+ "news_summary": "Wildfires in Europe and Asia cause devastation, with France facing its worst fire crisis since WWII. U.S. news highlights Trump's roast at the White House Correspondents' Dinner and upcoming Zelensky-Trump meeting.",
+ "papers_summary": "Research explores explainable AI in code review, probabilistic modeling for contour visualization, and quantum circuit visualizations, alongside studies on information contagion and neural decoding.",
  "summaries": {
   "en": {
-   "brief": "Political shifts in Australia dominate with a new Victorian premier, while OpenAI and Nvidia plan a massive data center. A Chinese start-up unveils a new AI model, and a teen's lawsuit targets the food industry. Research focuses on explainable AI in code review and visualization advancements.",
-   "news_summary": "Ben Carroll becomes Victoria's premier after Jacinta Allan resigns; OpenAI nears $500B data center deal with Nvidia. Other news: Fauci's diary on Covid origins, Michigan Senate debate, and a teen suing the food industry.",
-   "papers_summary": "Papers explore explainable AI for code review, probabilistic contour visualization, and quantum circuit visualization, alongside studies on mental imagery in risk perception and tactile charts for blind users."
+   "brief": "Wildfires rage in France and Spain as extreme weather hits globally; U.S. politics sees Trump criticized for comedy attempt and Zelensky set for White House visit. Research focuses on XAI in code review and new visualization methods.",
+   "news_summary": "Wildfires in Europe and Asia cause devastation, with France facing its worst fire crisis since WWII. U.S. news highlights Trump's roast at the White House Correspondents' Dinner and upcoming Zelensky-Trump meeting.",
+   "papers_summary": "Research explores explainable AI in code review, probabilistic modeling for contour visualization, and quantum circuit visualizations, alongside studies on information contagion and neural decoding."
   },
   "zh": {
-   "brief": "今日重點包括胡志偉赴英風波與基因編輯治療致死事件引發關注；論文聚焦AI代碼審查的可解釋性、信息傳播模型及圖表設計對視覺想像的影響。",
-   "news_summary": "香港前議員胡志偉赴英遭扣留後獲准逗留，否認申請政治庇護；中國女童基因編輯治療後死亡引發科學界與官方調查。",
-   "papers_summary": "研究評估可解釋AI對代碼審查信任的影響，建模真假信息傳播中的個體偏見，並探討圖標設計如何塑造火災風險的心理意象。"
+   "brief": "唐山大地震50周年披露毛澤東最後批閱文件；香港前議員胡志偉赴英被扣後獲准居留；基因編輯治療致女童死亡引發中國調查。西方山火與極端天氣持續，川普與澤倫斯基將在白宮會晤。",
+   "news_summary": "唐山大地震50週年披露毛澤東生前批閱的最後一份文件；香港民主黨前主席胡志偉赴英被扣後獲准居留；中國女童基因編輯治療死亡引發官方調查。",
+   "papers_summary": "無相關中文論文。英文研究聚焦於AI代碼審查的可解釋性信任、量子電路可視化設計空間、以及視覺與文本結合的數據理解。"
   }
  },
  "todays_image": {
-  "caption": "The nine of spades, a card often linked to risk and upheaval, mirrors the high-stakes political shift as Victoria's leadership digs a new course and a key figure exits the party.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-B7294DBA02102-000001",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/112866",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-B7294DBA02102-000001",
-  "title": "Nine of Spades"
+  "caption": "The star-like name of the aster plant mirrors the celebrity comedians who roasted Trump's failed comedy attempt.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3d1b2a964-ed98-4ee0-8f71-927381c84000",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c/90",
+  "title": "Chaetopappa asteroides (Nutt.) DC."
  }
 }

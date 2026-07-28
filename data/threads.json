@@ -1,127 +1,149 @@
 {
  "meta": {
   "count": 3,
-  "generated_at": "2026-07-28T03:32:10Z",
+  "generated_at": "2026-07-28T06:38:30Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "cbda5ad37f0c8e09",
+     "item_id": "970be4a4a1877d65",
      "phrase": {
-      "en": "Kimi K3 license restrictions",
-      "zh": "Kimi K3许可限制"
+      "en": "France Spain wildfires crisis",
+      "zh": "法国西班牙野火危机"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/27/business/moonshot-kimi-k3-china-ai.html"
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/07/28/g-s1-135828/europe-wildfires"
     },
+    {
+     "item_id": "f5756bc914ffbbf7",
+     "phrase": {
+      "en": "Asia floods typhoons deluge",
+      "zh": "亚洲洪水台风暴雨"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/environment/2026/jul/28/extreme-rainfall-asia-flash-floods-typhoons-climate-change"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Fires in Europe and floods in Asia dominate news, underscoring a summer of climate extremes.",
+    "zh": "欧洲火灾和亚洲洪水成为新闻焦点，凸显气候极端夏季。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "extreme weather & climate breakdown",
+    "zh": "极端天气与气候崩溃"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about data visualization of climate: today's reports give raw events, not data—but they set the context for visual communication.",
+    "zh": "你关注气候数据可视化，今天的报道提供原始事件而非数据——但为视觉传播设定了背景。"
+   }
+  },
+  {
+   "angles": [
     {
      "item_id": "7500e56b9197340b",
      "phrase": {
-      "en": "weights released on Hugging Face",
-      "zh": "权重在Hugging Face发布"
+      "en": "Open-source 2.8T model",
+      "zh": "开源2.8万亿参数模型"
      },
      "section": "news",
      "source": "Simon Willison",
      "url": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "A Chinese startup open-sources a massive 2.8-trillion-parameter model, reshaping AI access.",
-    "zh": "中国初创公司开源2.8万亿参数大模型，重塑AI使用格局。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "open-source LLM release",
-    "zh": "开源大模型发布"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow LLM trends: today Moonshot released Kimi K3 weights, a major open-weight event.",
-    "zh": "你关注大模型动态，今日Moonshot开放Kimi K3权重，是重要的开放权重事件。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "6b66bab28e1888cf",
-     "phrase": {
-      "en": "fake AI videos during disasters",
-      "zh": "灾害期间AI虚假视频"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cx27mjvxgg1o?at_medium=RSS&at_campaign=rss"
     },
-    {
-     "item_id": "0b59ad460317df3e",
-     "phrase": {
-      "en": "Meta trial over teen harm research",
-      "zh": "Meta因青少年伤害研究受审"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/technology/2026/jul/27/meta-tennessee-trial-jury"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Fake AI videos exploit natural disasters in China, while a trial targets Meta's teen harm research.",
-    "zh": "AI虚假视频利用中国自然灾害，而Meta因青少年伤害研究被诉。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "AI misinformation",
-    "zh": "AI虚假信息"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You track critical AI impacts: today's news shows AI-generated falsehoods and platform accountability in court.",
-    "zh": "你关注AI的批判性影响，今日新闻显示AI生成虚假信息和平台责任被法庭审理。"
-   }
-  },
-  {
-   "angles": [
     {
      "item_id": "ab3c998273c02dc8",
      "phrase": {
-      "en": "self-supervised neural decoding",
-      "zh": "自监督神经解码"
+      "en": "Self-supervised BMI",
+      "zh": "自监督脑机接口"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
      "url": "https://arxiv.org/abs/2607.24023v1"
-    },
-    {
-     "item_id": "e360388750913fe3",
-     "phrase": {
-      "en": "tactile charts for BLV learners",
-      "zh": "为盲人学习者的触觉图表"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.23065v1"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "A new self-supervised learning method improves neural decoding for brain-machine interfaces.",
-    "zh": "新的自监督学习方法改进了脑机接口的神经解码。"
+    "en": "Moonshot released Kimi K3 weights; a parallel paper explores brain-machine interfaces using self-supervised learning.",
+    "zh": "Moonshot发布Kimi K3模型权重；另一篇论文探索用自监督学习实现脑机接口。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "AI models & open release",
+    "zh": "AI模型与开源发布"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-07-27",
+     "item_id": "7500e56b9197340b",
+     "label": {
+      "en": "Kimi K3 weights released",
+      "zh": "Kimi K3权重发布"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything"
+    },
+    {
+     "date": "2026-07-27",
+     "item_id": "ab3c998273c02dc8",
+     "label": {
+      "en": "Neural decoding BMI",
+      "zh": "神经解码脑机接口"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.24023v1"
+    }
+   ],
+   "why_now": {
+    "en": "You follow LLM and embodied AI: a massive open-source model launch plus neural decoding advances hit the same day.",
+    "zh": "你关注大模型和具身AI，今天同时有大型开源模型发布和神经解码进展。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "6485f663bd2966e5",
+     "phrase": {
+      "en": "Trump paused strikes for diplomacy",
+      "zh": "特朗普暂缓打击以促外交"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/live/2026/jul/27/us-senate-spy-jay-clayton-donald-trump-iran-war-saudi-oman-hormuz-pentagon-seattle-latest-news-updates"
+    },
+    {
+     "item_id": "61cdcec93c2832e0",
+     "phrase": {
+      "en": "Iran denies desire for talks",
+      "zh": "伊朗否认有意谈判"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/27/us/politics/trump-iran-talks-negotiations.html"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Trump says he paused strikes on Iran to give diplomacy a chance, but Iran denies wanting talks.",
+    "zh": "特朗普称暂停打击伊朗以给外交机会，但伊朗否认有意谈判。"
    },
    "id": "t3",
    "keyword": {
-    "en": "embodied AI & BMI",
-    "zh": "具身AI与脑机接口"
+    "en": "Trump Iran diplomacy",
+    "zh": "特朗普伊朗外交"
    },
-   "relates_to": [
-    "t1"
-   ],
+   "relates_to": [],
    "why_now": {
-    "en": "You follow embodied AI: today's paper advances BMI generalization, key for prosthetic control.",
-    "zh": "你关注具身AI，今日论文推进脑机接口泛化，对假肢控制至关重要。"
+    "en": "You follow geopolitical data, but this thread is about narrative framing: two sources diverge on whether diplomacy is real.",
+    "zh": "你关注地缘政治数据，但这条线索是关于叙事框架：两个来源在外交真实性上分歧。"
    }
   }
  ]
