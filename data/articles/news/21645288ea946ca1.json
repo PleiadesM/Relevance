@@ -1,0 +1,28 @@
+{
+ "full_text": "Anyone following the AI space is by now familiar with lofty claims that AI models will soon be better than humans at everything and capable of replacing vast swaths of the human workforce . In a new study from Google Research, though, a team that looked at how workers are actually using Gemini \"[did] not find evidence... to support the claims that AI is about to cause massive automation and displacement of white-collar work...\"\n\nThe paper , released last week, introduces the \"AI & Economy ATLAS,\" an Activity, Task, Landscape, and Adoption Study of 15 million anonymized AI interactions across the Gemini App, Google's AI Mode, and the Gemini API. Their initial review of the data finds that, while AI sees some significant use across a wide variety of occupations, that use \"remains shallow and overwhelmingly collaborative in nature, with end-to-end task automation limited in scope.\"\n\n\"AI appears useful for a subset of tasks...\"\n\nTo come to these conclusions, Google researchers used an automated classifier to sort work-based AI interactions using the Bureau of Labor Statistics' Standard Occupational Classifications and O*NET's more detailed database of specific work interactions . While this method required some probabilistic classification of \"inherently uncertain\" interactions, verification by human reviewers found it to be a reliable gauge of how Gemini prompts were being used for work.\n\nRead full article\n\nComments",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/21645288ea946ca1.json",
+  "id": "21645288ea946ca1",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-07-28T20:20:20Z",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai",
+  "summary": "Analysis of 15 million real AI interactions finds most tasks at most jobs are unaffected.",
+  "tags": [],
+  "title": "Despite AI hype, Google's data shows workers aren't automating themselves away",
+  "url": "https://arstechnica.com/ai/2026/07/despite-ai-hype-googles-data-shows-workers-arent-automating-themselves-away/"
+ },
+ "meta": {
+  "content_hash": "6018ac369a383895",
+  "generated_at": "2026-07-28T21:21:10Z",
+  "item_id": "21645288ea946ca1",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai"
+ }
+}
