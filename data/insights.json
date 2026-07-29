@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
+  "query": "(\"booming sand dunes\" OR \"singing sands\")",
   "source": {
-   "name": "Mshale",
-   "published_at": "2026-07-24T07:25:12Z",
-   "title": "Get Rolling With Otis — Pumpkin On The Loose | Apple TV Pedro Pascal (cdtboXwIHP)",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1KUzk4WnZvc3UxUlkzdDF6SE4xMWY4d3dTU3Z4N05UNE5DUVlmejBEeGRCdjFfQjJ4Um43eXZzR1J2Q0FHLUdWSExIZFBRQXY4UWp1N1pETHY0R1E?oc=5"
+   "name": "theglobeandmail.com",
+   "published_at": "2026-07-28T20:00:00Z",
+   "title": "A PEI road trip with my faithful dog Scout helped me find peace",
+   "url": "https://www.theglobeandmail.com/life/first-person/article-pei-road-trip-faithful-dog-scout-helped-me-find-peace/"
   },
   "summaries": {
    "en": {
-    "summary": "A pumpkin-themed children's show on Apple TV features actor Pedro Pascal.",
-    "why_irrelevant": "It is a scripted entertainment piece, not a real-world event."
+    "summary": "A personal essay describes a road trip on Prince Edward Island with a dog named Scout, finding peace.",
+    "why_irrelevant": "It is a subjective travel memoir with no connection to current events or technology."
    },
    "zh": {
-    "summary": "苹果TV的南瓜主题儿童节目邀请了演员佩德罗·帕斯卡。",
-    "why_irrelevant": "这是一部虚构娱乐节目，而非真实事件。"
+    "summary": "一篇个人随笔描述了与一只名叫Scout的狗在爱德华王子岛自驾游寻找平静的经历。",
+    "why_irrelevant": "这是一篇主观的旅行回忆，与当前事件或技术无关。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "origins of the singing sand dune phenomenon"
  },
- "brief": "A 6.8-magnitude earthquake in Japan has killed at least 13, with rescue efforts ongoing. Meanwhile, wildfires in France rage under a new heatwave, and U.S. politics sees commentary on Trump and Kennedy.",
+ "brief": "Japan races to rescue quake survivors as Europe battles wildfires and heatwaves, while geopolitical tensions flare with US-Iran clashes and Russia charging Telegram's founder.",
  "meta": {
-  "generated_at": "2026-07-29T06:43:22Z"
+  "generated_at": "2026-07-29T10:47:41Z"
  },
- "news_summary": "Japan races to rescue trapped survivors after a deadly quake; France battles wildfires amid record heat; Jimmy Fallon jokes about Trump's health secretary pick.",
- "papers_summary": "No new papers or research reported.",
+ "news_summary": "Rescuers in Japan work frantically to reach people trapped after a 6.8-magnitude quake, while wildfires in France and Spain continue to rage, with leaders warning of worsening conditions. Geopolitically, the US intercepts Iranian missiles and joins Saudi strikes on Iran-backed militias, and Russia charges Telegram's founder with facilitating terrorism.",
+ "papers_summary": "New research introduces benchmarks for visualization annotation generation and LLM-based simplification of scientific summaries, while other studies explore XAI requirements in stroke rehabilitation, chart refinement tools, and the impact of explainable AI on trust in code review.",
  "summaries": {
   "en": {
-   "brief": "A 6.8-magnitude earthquake in Japan has killed at least 13, with rescue efforts ongoing. Meanwhile, wildfires in France rage under a new heatwave, and U.S. politics sees commentary on Trump and Kennedy.",
-   "news_summary": "Japan races to rescue trapped survivors after a deadly quake; France battles wildfires amid record heat; Jimmy Fallon jokes about Trump's health secretary pick.",
-   "papers_summary": "No new papers or research reported."
+   "brief": "Japan races to rescue quake survivors as Europe battles wildfires and heatwaves, while geopolitical tensions flare with US-Iran clashes and Russia charging Telegram's founder.",
+   "news_summary": "Rescuers in Japan work frantically to reach people trapped after a 6.8-magnitude quake, while wildfires in France and Spain continue to rage, with leaders warning of worsening conditions. Geopolitically, the US intercepts Iranian missiles and joins Saudi strikes on Iran-backed militias, and Russia charges Telegram's founder with facilitating terrorism.",
+   "papers_summary": "New research introduces benchmarks for visualization annotation generation and LLM-based simplification of scientific summaries, while other studies explore XAI requirements in stroke rehabilitation, chart refinement tools, and the impact of explainable AI on trust in code review."
   },
   "zh": {
-   "brief": "今日重點：日本熊本6.8級地震致13死，救援持續；依附理論在TikTok上熱傳但被簡化；唐山大地震50週年，反思社會影響；美國與伊朗局勢引發台海安全擔憂。",
-   "news_summary": "日本九州地震死亡人數升至13人，救援人員正爭分奪秒搜救被埋者；TikTok上依附理論內容流行但被批評過於簡單；唐山大地震50週年之際，文章探討其對中國社會的深遠影響。",
-   "papers_summary": "今日無相關論文。"
+   "brief": "日本熊本發生6.8級地震，救援工作爭分奪秒；歐洲野火持續，法國和西班牙火勢暫緩但高溫預警仍存；中國唐山大地震50週年，社會影響深遠。研究方面，多項工作聚焦於大型語言模型在可視化註釋、科學摘要簡化及信任評估中的應用。",
+   "news_summary": "日本熊本縣發生6.8級地震，至少13人死亡，救援人員正與時間賽跑搜救倖存者。歐洲野火在法國和西班牙有所緩解，但高溫和大風可能導致火勢復燃。",
+   "papers_summary": "本日論文集中於大型語言模型在可視化領域的應用，包括註釋生成基準、科學摘要簡化以及對用戶信任的影響評估。"
   }
  },
  "todays_image": {
-  "caption": "The invasive resilience of Ageratum conyzoides, colonizing disrupted soil, mirrors the urgent, scattered efforts to reach survivors amid Japan's earthquake chaos.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3d64f3869cbe347338b17139c51c605e9",
+  "caption": "The tiny, fragile Borreria perpusilla, clinging to life in a harsh environment, mirrors the urgent struggle to free survivors trapped beneath the rubble of Japan's devastating earthquake.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m39b901120c1b24cdcb078478055490201",
   "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3a0933572-fb1a-4088-a2ea-3c1a09086a1d",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3d64f3869cbe347338b17139c51c605e9/90",
-  "title": "Ageratum conyzoides L."
+  "source_url": "http://n2t.net/ark:/65665/3ef775029-7ea2-4cee-a1de-13b30acd931b",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m39b901120c1b24cdcb078478055490201/90",
+  "title": "Borreria perpusilla Hook. f."
  }
 }
