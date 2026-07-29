@@ -1,175 +1,66 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-07-29T21:11:02Z",
+  "count": 2,
+  "generated_at": "2026-07-29T23:12:22Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "3cc81cdb36205a9d",
+     "item_id": "10c2c8cc0610f27d",
      "phrase": {
-      "en": "three firefighters killed in Greece",
-      "zh": "希腊三名消防员遇难"
+      "en": "Top AI startups publish little",
+      "zh": "顶级AI初创公司发表极少"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research"
+    },
+    {
+     "item_id": "4401aec66cada69b",
+     "phrase": {
+      "en": "Meta misses earnings despite AI push",
+      "zh": "Meta尽管推动AI仍盈利未达预期"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/jul/29/pedro-sanchez-next-12-hours-decisive-extreme-heat-wildfires-madrid-europe"
-    },
-    {
-     "item_id": "d5ad0776e638d935",
-     "phrase": {
-      "en": "Europe wildfires fueled by rural abandonment",
-      "zh": "农村荒废加剧欧洲野火"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/29/climate/france-spain-europe-megafires.html"
-    },
-    {
-     "item_id": "5f24c5b40c386b48",
-     "phrase": {
-      "en": "Spain faces complex fire risk",
-      "zh": "西班牙面临复杂火灾风险"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/jul/29/france-spain-wildfires-heatwave-extreme-heat-europe-latest-news-updates"
-    },
-    {
-     "item_id": "93803a4cf90afad3",
-     "phrase": {
-      "en": "France wildfires water-bombed",
-      "zh": "法国野火遭遇空中洒水"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/videos/cly8xvvj8yro?at_medium=RSS&at_campaign=rss"
+     "url": "https://www.theguardian.com/technology/2026/jul/29/meta-earnings-mark-zuckerberg"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "divergent",
    "gloss": {
-    "en": "Greece and France battle deadly blazes amid a punishing heatwave.",
-    "zh": "希腊与法国在酷暑中与致命野火搏斗。"
+    "en": "Leading AI startups publish less research, while per-item analysis finds they quietly shape the field.",
+    "zh": "领先的AI初创公司发表的研究越来越少，而逐项分析发现它们正悄然塑造该领域。"
    },
    "id": "t1",
    "keyword": {
-    "en": "wildfires and heatwave",
-    "zh": "野火与热浪"
+    "en": "AI research publishing decline",
+    "zh": "AI研究发表下降"
    },
    "relates_to": [],
-   "timeline": [
+   "why_now": {
+    "en": "You care about LLM research and transparency: today an analysis reveals the biggest AI startups are barely publishing, affecting how you track progress.",
+    "zh": "你关心LLM研究和透明度：今天一项分析显示最大AI初创公司几乎不发表论文，影响你追踪进展的方式。"
+   }
+  },
+  {
+   "angles": [
     {
-     "date": "2026-07-29",
-     "item_id": "3cc81cdb36205a9d",
-     "label": {
-      "en": "three Greek firefighters die",
-      "zh": "希腊三名消防员牺牲"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/jul/29/pedro-sanchez-next-12-hours-decisive-extreme-heat-wildfires-madrid-europe"
-    },
-    {
-     "date": "2026-07-29",
-     "item_id": "d5ad0776e638d935",
-     "label": {
-      "en": "Europe wildfire analysis",
-      "zh": "欧洲野火分析"
+     "item_id": "0b51991d89fce51b",
+     "phrase": {
+      "en": "Iran flexes, Trump weighs options",
+      "zh": "伊朗展示实力，特朗普权衡选项"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/29/climate/france-spain-europe-megafires.html"
+     "url": "https://www.nytimes.com/2026/07/29/us/trump-iran-war-widens.html"
     },
-    {
-     "date": "2026-07-29",
-     "item_id": "5f24c5b40c386b48",
-     "label": {
-      "en": "Spain heatwave warning",
-      "zh": "西班牙热浪警告"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/jul/29/france-spain-wildfires-heatwave-extreme-heat-europe-latest-news-updates"
-    },
-    {
-     "date": "2026-07-29",
-     "item_id": "93803a4cf90afad3",
-     "label": {
-      "en": "France water-bombing",
-      "zh": "法国空中洒水"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/videos/cly8xvvj8yro?at_medium=RSS&at_campaign=rss"
-    }
-   ],
-   "why_now": {
-    "en": "You follow climate and visualization: today three firefighters died in Greece and France fights flames, making the human cost vivid.",
-    "zh": "你关注气候与可视化：今天希腊三名消防员牺牲，法国仍在灭火，人类代价历历在目。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "full_text_file": "articles/news/7f3b9ea0654d2d77.json",
-     "item_id": "7f3b9ea0654d2d77",
-     "phrase": {
-      "en": "xAI sues over nudification law",
-      "zh": "xAI起诉反换脸法"
-     },
-     "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/policy/972850/xai-grok-minnesota-nudification-lawsuit"
-    },
-    {
-     "item_id": "c31f2d29f6e91553",
-     "phrase": {
-      "en": "AI worm via Word injection",
-      "zh": "通过Word注入的AI蠕虫"
-     },
-     "section": "news",
-     "source": "Simon Willison",
-     "url": "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything"
-    },
-    {
-     "full_text_file": "articles/news/41b750bbda5ffee5.json",
-     "item_id": "41b750bbda5ffee5",
-     "phrase": {
-      "en": "xAI fights Minnesota law",
-      "zh": "xAI对抗明州法律"
-     },
-     "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/tech-policy/2026/07/elon-musks-xai-is-trying-to-sue-its-way-out-of-a-grok-reckoning/"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "xAI sues Minnesota over anti-nudification law; prompt injection worm targets Word.",
-    "zh": "xAI起诉明尼苏达州反换脸法；提示注入蠕虫攻击Word。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "AI legal battles",
-    "zh": "AI法律战"
-   },
-   "relates_to": [
-    "t3"
-   ],
-   "why_now": {
-    "en": "You follow LLM and embodied AI: xAI's lawsuit and the Word worm show AI regulation and security are heating up fast.",
-    "zh": "你关注大模型与具身智能：xAI的诉讼和Word蠕虫表明AI监管与安全正在快速升温。"
-   }
-  },
-  {
-   "angles": [
     {
      "item_id": "0327a049d5bc1a49",
      "phrase": {
-      "en": "Saudi airstrikes in Iraq",
-      "zh": "沙特空袭伊拉克"
+      "en": "Saudi strikes target Iran-backed militias",
+      "zh": "沙特袭击伊朗支持的民兵"
      },
      "section": "news",
      "source": "The New York Times",
@@ -178,67 +69,28 @@
     {
      "item_id": "4d50c164caad9e1e",
      "phrase": {
-      "en": "Trump threatens Iran again",
-      "zh": "特朗普再次威胁伊朗"
+      "en": "Trump threatens to hit Iran hard",
+      "zh": "特朗普威胁猛烈打击伊朗"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/us-news/live/2026/jul/29/donald-trump-anthony-fauci-rand-paul-covid-lab-leak-theory-iran-tariffs-latest-news-updates"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "Saudi strikes in Iraq and Trump's threats deepen the U.S.-Iran shadow war.",
-    "zh": "沙特打击伊拉克及特朗普的威胁加深了美伊影子战争。"
+    "en": "Iran fights back harder, Saudi Arabia enters the fray with airstrikes, and Trump weighs military options again.",
+    "zh": "伊朗更猛烈反击，沙特加入战局发动空袭，特朗普再次权衡军事选项。"
    },
-   "id": "t3",
+   "id": "t2",
    "keyword": {
-    "en": "Iran conflict escalation",
-    "zh": "伊朗冲突升级"
+    "en": "Iran-US war escalation",
+    "zh": "伊朗-美国战争升级"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track geopolitics: today Saudi Arabia entered the fray and Trump threatened Iran again, marking a new phase.",
-    "zh": "你关注地缘政治：今天沙特参战，特朗普再次威胁伊朗，标志新阶段。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "d2871d146f951ae6",
-     "phrase": {
-      "en": "Fauci hearing: science still politicized",
-      "zh": "福奇听证会：科学仍被政治化"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/jul/29/anthony-fauci-senate-covid-hearing-takeaways"
-    },
-    {
-     "item_id": "5f57333a84b1eb47",
-     "phrase": {
-      "en": "Fauci refuses to answer",
-      "zh": "福奇拒绝回答"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cdx85vkk0gko?at_medium=RSS&at_campaign=rss"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Fauci's Senate hearing shows Republicans still weaponize science, six years after COVID.",
-    "zh": "福奇听证会显示，新冠疫情过去六年，共和党仍在利用科学作为武器。"
-   },
-   "id": "t4",
-   "keyword": {
-    "en": "science politicization",
-    "zh": "科学政治化"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You care about AI and rhetoric: the hearing reveals how evidence gets twisted—a lesson for AI transparency.",
-    "zh": "你关心AI与修辞：听证会揭示证据如何被扭曲——对AI透明度的教训。"
+    "en": "You have no declared interest in geopolitics, but this is a major shift with global ripple effects; if you follow it, today Saudi airstrikes mark a new actor.",
+    "zh": "你未声明对地缘政治的兴趣，但这是影响全球的重大变化；若你关注，今天沙特空袭标志新参与方登场。"
    }
   }
  ]
