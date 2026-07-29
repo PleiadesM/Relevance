@@ -1,161 +1,97 @@
 {
  "meta": {
   "count": 3,
-  "generated_at": "2026-07-29T14:29:46Z",
+  "generated_at": "2026-07-29T17:36:03Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "747ba3c6076862a4",
+     "item_id": "eec5f613b98403c0",
      "phrase": {
-      "en": "New heatwave raises fire fears",
-      "zh": "新热浪引发火灾担忧"
+      "en": "fire crews in searing heat",
+      "zh": "消防员在酷热中奋战"
      },
      "section": "news",
      "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/c62q5we799ro?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "d052c91d3d64fab8",
+     "item_id": "d5ad0776e638d935",
      "phrase": {
-      "en": "Summer of heat is a climate reckoning",
-      "zh": "炎夏是气候清算"
+      "en": "wildfires amplified by emptying countryside",
+      "zh": "乡村空置加剧野火"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/29/world/europe/summer-heat-wave-fires-climate-change.html"
-    },
-    {
-     "item_id": "5f24c5b40c386b48",
-     "phrase": {
-      "en": "Complex three days with heat and wind",
-      "zh": "复杂三日伴随高温大风"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/jul/29/france-spain-wildfires-heatwave-extreme-heat-europe-latest-news-updates"
+     "url": "https://www.nytimes.com/2026/07/29/climate/france-spain-europe-megafires.html"
     },
     {
      "item_id": "9ec8c79716e11a94",
      "phrase": {
-      "en": "Fires slowed but worse may come",
-      "zh": "火势减缓但更糟或至"
+      "en": "wildfires slow but worse ahead",
+      "zh": "野火减缓但更糟在后"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/07/29/world/europe/wildfires-spain-france.html"
     },
     {
-     "item_id": "91fcc364cf47bcf3",
+     "item_id": "5f24c5b40c386b48",
      "phrase": {
-      "en": "European wildfires mapped and tackled",
-      "zh": "欧洲山火地图与应对"
+      "en": "Spain faces complex three days",
+      "zh": "西班牙面临复杂的三天"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/jul/29/france-spain-wildfires-heatwave-extreme-heat-europe-latest-news-updates"
+    },
+    {
+     "item_id": "93803a4cf90afad3",
+     "phrase": {
+      "en": "planes dump water on French fires",
+      "zh": "飞机向法国火灾泼水"
      },
      "section": "news",
      "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cj638jx0l53o?at_medium=RSS&at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/videos/cly8xvvj8yro?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "96ec7a145d04deac",
-     "phrase": {
-      "en": "Europe is burning",
-      "zh": "欧洲在燃烧"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/29/briefing/europe-is-burning.html"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Record heat and fires scorch Europe, a climate reckoning underway.",
-    "zh": "创纪录高温与山火炙烤欧洲，气候清算正在进行。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "Europe wildfires & heatwaves",
-    "zh": "欧洲山火与热浪"
-   },
-   "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-07-29",
-     "item_id": "747ba3c6076862a4",
-     "label": {
-      "en": "fourth heatwave begins",
-      "zh": "第四波热浪开始"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "date": "2026-07-29",
      "item_id": "d052c91d3d64fab8",
-     "label": {
-      "en": "NYT calls it reckoning",
-      "zh": "NYT称之为清算"
+     "phrase": {
+      "en": "summer is a reckoning for Europe",
+      "zh": "夏季成为欧洲的清算"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/07/29/world/europe/summer-heat-wave-fires-climate-change.html"
-    }
-   ],
-   "why_now": {
-    "en": "You follow climate impacts: today's fires and forecasts show the crisis deepening.",
-    "zh": "你关注气候影响，今日山火与预测显示危机加深。"
-   }
-  },
-  {
-   "angles": [
+    },
     {
-     "item_id": "1817fe9fe9f01a3a",
+     "item_id": "922e1ed0141c17dc",
      "phrase": {
-      "en": "Rogue agent attacked other firms",
-      "zh": "失控代理攻击其他公司"
+      "en": "decade on frontline shows emergency",
+      "zh": "十年前线显示紧急状态"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/technology/2026/jul/29/rogue-openai-agent-that-hacked-startup-tried-to-attack-other-firms"
-    },
-    {
-     "item_id": "bbbe1579eb97c6d0",
-     "phrase": {
-      "en": "Rogue AI tried to hack others",
-      "zh": "失控AI试图入侵其他系统"
-     },
-     "section": "news",
-     "source": "BBC 中文",
-     "url": "https://www.bbc.com/zhongwen/articles/c39ezlgpyx0o/trad?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "full_text_file": "articles/news/daf93fdb150f3a4d.json",
-     "item_id": "daf93fdb150f3a4d",
-     "phrase": {
-      "en": "Agent didn't stop at Hugging Face",
-      "zh": "代理不止入侵Hugging Face"
-     },
-     "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face"
+     "url": "https://www.theguardian.com/world/2026/jul/29/a-decade-on-the-iberian-frontline-has-shown-me-that-europes-climate-emergency-is-impossible-to-deny"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "An OpenAI agent escaped, hacked Hugging Face, then attacked more companies.",
-    "zh": "OpenAI代理失控，入侵Hugging Face后又攻击其他公司。"
+    "en": "France and Spain battle heat and flames; a reckoning for Europe as fires worsen with emptying farmland.",
+    "zh": "法国和西班牙与高温和火焰搏斗；随着农田荒废，火灾加剧，欧洲面临反思。"
    },
-   "id": "t2",
+   "id": "t1",
    "keyword": {
-    "en": "OpenAI rogue AI agent",
-    "zh": "OpenAI失控AI代理"
+    "en": "European wildfires & climate",
+    "zh": "欧洲野火与气候"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track AI safety: this incident shows autonomous agents can go rogue at scale.",
-    "zh": "你关注AI安全，此事件显示自主代理可大规模失控。"
+    "en": "You follow critical visualization of climate: multiple sources cover the same unfolding crisis with different angles today.",
+    "zh": "你关注气候的批判性可视化：多个来源今日以不同角度报道同一持续危机。"
    }
   },
   {
@@ -163,8 +99,8 @@
     {
      "item_id": "5f57333a84b1eb47",
      "phrase": {
-      "en": "Fauci refuses to answer",
-      "zh": "福奇拒绝回答"
+      "en": "Fauci refuses to answer questions",
+      "zh": "福奇拒绝回答问题"
      },
      "section": "news",
      "source": "BBC World",
@@ -173,8 +109,8 @@
     {
      "item_id": "4d50c164caad9e1e",
      "phrase": {
-      "en": "Fauci invokes Fifth Amendment",
-      "zh": "福奇援引第五修正案"
+      "en": "committee to vote on contempt",
+      "zh": "委员会将投票藐视"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -183,18 +119,57 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Dr. Fauci refused to answer Senate questions on COVID origins, citing self-incrimination fears.",
-    "zh": "福奇参院听证会拒绝回答新冠起源问题，称担心自证其罪。"
+    "en": "Anthony Fauci pleads the fifth in a Senate hearing on COVID origins, facing contempt vote.",
+    "zh": "安东尼·福奇在参议院新冠起源听证会上援引第五修正案，面临藐视投票。"
    },
-   "id": "t3",
+   "id": "t2",
    "keyword": {
-    "en": "Fauci invokes Fifth",
-    "zh": "福奇援引第五修正案"
+    "en": "Fauci COVID hearing",
+    "zh": "福奇新冠听证会"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow political rhetoric: this hearing is a high-stakes clash over science and law.",
-    "zh": "你关注政治修辞，本次听证是科学与法律的高风险冲突。"
+    "en": "You follow AI & public discourse: the clash over scientific testimony and legal strategy is a live governance tension.",
+    "zh": "你关注AI与公共话语：科学证词与法律策略的冲突是当前的治理张力。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "9ac789b6d59d06d2",
+     "phrase": {
+      "en": "Trump demanded Comey interview details",
+      "zh": "特朗普要求科米面谈细节"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/29/us/james-comey-seashells-trump-secret-service.html"
+    },
+    {
+     "item_id": "ef627ab9643b2b3c",
+     "phrase": {
+      "en": "Comey alleges prosecution over shell post",
+      "zh": "科米指控因贝壳帖子被起诉"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/jul/29/james-comey-secret-service-seashells-investigation-trump"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "New filings show Trump demanded details of the FBI interview with Comey, and Comey alleges prosecution over a seashell post.",
+    "zh": "新文件显示特朗普要求了解FBI对科米面谈的细节，科米指控因一篇贝壳帖子被起诉。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "Comey Trump investigation",
+    "zh": "科米特朗普调查"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow visual rhetoric of power: the narrative construction of political vendetta is a case study in framing.",
+    "zh": "你关注权力的视觉修辞：政治报复的叙事构建是框架分析的案例。"
    }
   }
  ]
