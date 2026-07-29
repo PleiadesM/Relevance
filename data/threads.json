@@ -1,78 +1,27 @@
 {
  "meta": {
-  "count": 3,
-  "generated_at": "2026-07-29T19:40:33Z",
+  "count": 4,
+  "generated_at": "2026-07-29T21:11:02Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "full_text_file": "articles/news/45f088e68c90a9e0.json",
-     "item_id": "45f088e68c90a9e0",
-     "phrase": {
-      "en": "OpenAI building device family",
-      "zh": "OpenAI构建设备家族"
-     },
-     "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/972709/openai-hardware-greg-brockman-interview"
-    },
-    {
-     "full_text_file": "articles/news/41b750bbda5ffee5.json",
-     "item_id": "41b750bbda5ffee5",
-     "phrase": {
-      "en": "xAI suing over Grok issues",
-      "zh": "xAI因Grok问题起诉"
-     },
-     "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/tech-policy/2026/07/elon-musks-xai-is-trying-to-sue-its-way-out-of-a-grok-reckoning/"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "OpenAI's president says they're building devices, not just software — a push beyond the chatbot screen.",
-    "zh": "OpenAI总裁说他们在造设备而不只是软件——一次超越聊天界面的尝试。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "AI device hardware",
-    "zh": "AI设备硬件"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow embodied AI: this signals a move toward physical form factors for AI interaction.",
-    "zh": "你关注具身AI：这标志着AI交互正向实体形态迈进。"
-   }
-  },
-  {
-   "angles": [
-    {
      "item_id": "3cc81cdb36205a9d",
      "phrase": {
-      "en": "three firefighters killed",
-      "zh": "三名消防员遇难"
+      "en": "three firefighters killed in Greece",
+      "zh": "希腊三名消防员遇难"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/world/2026/jul/29/pedro-sanchez-next-12-hours-decisive-extreme-heat-wildfires-madrid-europe"
     },
     {
-     "item_id": "eec5f613b98403c0",
-     "phrase": {
-      "en": "France searing heat battle",
-      "zh": "法国炙热灭火战"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c62q5we799ro?at_medium=RSS&at_campaign=rss"
-    },
-    {
      "item_id": "d5ad0776e638d935",
      "phrase": {
-      "en": "empty countryside amplifies",
-      "zh": "乡村空心化加剧"
+      "en": "Europe wildfires fueled by rural abandonment",
+      "zh": "农村荒废加剧欧洲野火"
      },
      "section": "news",
      "source": "The New York Times",
@@ -81,8 +30,8 @@
     {
      "item_id": "5f24c5b40c386b48",
      "phrase": {
-      "en": "Spain complex fire risk",
-      "zh": "西班牙复杂火险"
+      "en": "Spain faces complex fire risk",
+      "zh": "西班牙面临复杂火灾风险"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -91,8 +40,8 @@
     {
      "item_id": "93803a4cf90afad3",
      "phrase": {
-      "en": "planes dump water in France",
-      "zh": "飞机在法国洒水"
+      "en": "France wildfires water-bombed",
+      "zh": "法国野火遭遇空中洒水"
      },
      "section": "news",
      "source": "BBC World",
@@ -101,57 +50,195 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Greece, France, Spain burn as heatwaves intensify — firefighters die and forests turn to ash.",
-    "zh": "希腊、法国、西班牙在热浪中燃烧——消防员牺牲，森林化为灰烬。"
+    "en": "Greece and France battle deadly blazes amid a punishing heatwave.",
+    "zh": "希腊与法国在酷暑中与致命野火搏斗。"
    },
-   "id": "t2",
+   "id": "t1",
    "keyword": {
-    "en": "European wildfires",
-    "zh": "欧洲山火"
+    "en": "wildfires and heatwave",
+    "zh": "野火与热浪"
    },
    "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-07-29",
+     "item_id": "3cc81cdb36205a9d",
+     "label": {
+      "en": "three Greek firefighters die",
+      "zh": "希腊三名消防员牺牲"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/jul/29/pedro-sanchez-next-12-hours-decisive-extreme-heat-wildfires-madrid-europe"
+    },
+    {
+     "date": "2026-07-29",
+     "item_id": "d5ad0776e638d935",
+     "label": {
+      "en": "Europe wildfire analysis",
+      "zh": "欧洲野火分析"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/29/climate/france-spain-europe-megafires.html"
+    },
+    {
+     "date": "2026-07-29",
+     "item_id": "5f24c5b40c386b48",
+     "label": {
+      "en": "Spain heatwave warning",
+      "zh": "西班牙热浪警告"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/jul/29/france-spain-wildfires-heatwave-extreme-heat-europe-latest-news-updates"
+    },
+    {
+     "date": "2026-07-29",
+     "item_id": "93803a4cf90afad3",
+     "label": {
+      "en": "France water-bombing",
+      "zh": "法国空中洒水"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/videos/cly8xvvj8yro?at_medium=RSS&at_campaign=rss"
+    }
+   ],
    "why_now": {
-    "en": "You care about climate: today three sources report deadly fires across Europe, raising questions about preparedness.",
-    "zh": "你关注气候：今天三个来源报道欧洲致命火灾，拷问应对准备。"
+    "en": "You follow climate and visualization: today three firefighters died in Greece and France fights flames, making the human cost vivid.",
+    "zh": "你关注气候与可视化：今天希腊三名消防员牺牲，法国仍在灭火，人类代价历历在目。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "209952dca13680f8",
+     "full_text_file": "articles/news/7f3b9ea0654d2d77.json",
+     "item_id": "7f3b9ea0654d2d77",
      "phrase": {
-      "en": "Atlassian tightens AI tracking",
-      "zh": "Atlassian收紧AI追踪"
+      "en": "xAI sues over nudification law",
+      "zh": "xAI起诉反换脸法"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/technology/2026/jul/30/atlassian-tightens-tracking-of-staff-ai-use-as-other-technology-firms-encourage-tokenmaxxing"
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/policy/972850/xai-grok-minnesota-nudification-lawsuit"
     },
     {
-     "item_id": "28409cccd4d1dcfd",
+     "item_id": "c31f2d29f6e91553",
      "phrase": {
-      "en": "circular AI deals critique",
-      "zh": "循环AI交易批评"
+      "en": "AI worm via Word injection",
+      "zh": "通过Word注入的AI蠕虫"
      },
      "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://www.emergingtrajectories.com/lh/commodification-and-circularity/"
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything"
+    },
+    {
+     "full_text_file": "articles/news/41b750bbda5ffee5.json",
+     "item_id": "41b750bbda5ffee5",
+     "phrase": {
+      "en": "xAI fights Minnesota law",
+      "zh": "xAI对抗明州法律"
+     },
+     "section": "news",
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/tech-policy/2026/07/elon-musks-xai-is-trying-to-sue-its-way-out-of-a-grok-reckoning/"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Atlassian tightens AI-use monitoring while some firms gamify it — the office becomes an AI surveillance lab.",
-    "zh": "Atlassian收紧AI使用监控，而有些公司把它游戏化——办公室变成AI监控实验室。"
+    "en": "xAI sues Minnesota over anti-nudification law; prompt injection worm targets Word.",
+    "zh": "xAI起诉明尼苏达州反换脸法；提示注入蠕虫攻击Word。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "AI legal battles",
+    "zh": "AI法律战"
+   },
+   "relates_to": [
+    "t3"
+   ],
+   "why_now": {
+    "en": "You follow LLM and embodied AI: xAI's lawsuit and the Word worm show AI regulation and security are heating up fast.",
+    "zh": "你关注大模型与具身智能：xAI的诉讼和Word蠕虫表明AI监管与安全正在快速升温。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "0327a049d5bc1a49",
+     "phrase": {
+      "en": "Saudi airstrikes in Iraq",
+      "zh": "沙特空袭伊拉克"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/29/world/middleeast/saudi-arabia-us-iran-war.html"
+    },
+    {
+     "item_id": "4d50c164caad9e1e",
+     "phrase": {
+      "en": "Trump threatens Iran again",
+      "zh": "特朗普再次威胁伊朗"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/live/2026/jul/29/donald-trump-anthony-fauci-rand-paul-covid-lab-leak-theory-iran-tariffs-latest-news-updates"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Saudi strikes in Iraq and Trump's threats deepen the U.S.-Iran shadow war.",
+    "zh": "沙特打击伊拉克及特朗普的威胁加深了美伊影子战争。"
    },
    "id": "t3",
    "keyword": {
-    "en": "AI tracking at work",
-    "zh": "职场AI监控"
+    "en": "Iran conflict escalation",
+    "zh": "伊朗冲突升级"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You think about technical communication and HCI: this trend redraws the boundary between human agency and automated oversight.",
-    "zh": "你思考技术传播和人机交互：这一趋势重新划定人的自主性与自动化监管之间的边界。"
+    "en": "You track geopolitics: today Saudi Arabia entered the fray and Trump threatened Iran again, marking a new phase.",
+    "zh": "你关注地缘政治：今天沙特参战，特朗普再次威胁伊朗，标志新阶段。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "d2871d146f951ae6",
+     "phrase": {
+      "en": "Fauci hearing: science still politicized",
+      "zh": "福奇听证会：科学仍被政治化"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/jul/29/anthony-fauci-senate-covid-hearing-takeaways"
+    },
+    {
+     "item_id": "5f57333a84b1eb47",
+     "phrase": {
+      "en": "Fauci refuses to answer",
+      "zh": "福奇拒绝回答"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cdx85vkk0gko?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Fauci's Senate hearing shows Republicans still weaponize science, six years after COVID.",
+    "zh": "福奇听证会显示，新冠疫情过去六年，共和党仍在利用科学作为武器。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "science politicization",
+    "zh": "科学政治化"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about AI and rhetoric: the hearing reveals how evidence gets twisted—a lesson for AI transparency.",
+    "zh": "你关心AI与修辞：听证会揭示证据如何被扭曲——对AI透明度的教训。"
    }
   }
  ]

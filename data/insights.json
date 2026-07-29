@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"snail racing championship\" OR \"world snail racing\"",
+  "query": "\"oyster shucking championship\" OR \"national oyster shucking\"",
   "source": {
-   "name": "BBC",
-   "published_at": "2026-07-19T07:00:00Z",
-   "title": "'Snailor Swift' becomes world snail racing champion",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5rR1FsMmRrZFE4b3FGY3p1TlRGU0pkTUtQeGJYZjBKX0FER1dab2RzZjVLaTEtRmU2NFl4V3M4bC1Xc2l0NFVVNHN1TnNYZi02blJOZUJDZDlyT0hr?oc=5"
+   "name": "blogTO",
+   "published_at": "2026-07-19T17:17:35Z",
+   "title": "OOF Presents: The Ontario Oyster Shucking Championship",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSjIxUjFRdTVfNjV5aXoyWG8tRjNXanl5WHpBMFU2MUJsQ0wxaDdFWlhWZkN4b3VrQkdIdXQ4cG1Mc1Jma2dMSlplTE9kR3lXejZhdl9BdGw5NU1OcU4yY3c3bENEX0haTHZSX3V6ZTgzWS1CX1BLNHdwd2xPRl9ZV1laZDJhWUtXTDNhLWo5WGNSNW9KQlA4?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A snail named Snailor Swift won the World Snail Racing Championships in Norfolk.",
-    "why_irrelevant": "This is a niche, slow-paced sport with minimal real-world impact."
+    "summary": "The Ontario Oyster Shucking Championship draws competitors from across the province to vie for the fastest oyster-opening title.",
+    "why_irrelevant": "as it details a local culinary competition far from the user's likely interests."
    },
    "zh": {
-    "summary": "一只名叫“蜗牛尔·斯威夫特”的蜗牛在诺福克赢得了世界蜗牛赛跑锦标赛。",
-    "why_irrelevant": "这是一项小众且节奏缓慢的运动，几乎不产生现实影响。"
+    "summary": "安大略省牡蛎剥壳锦标赛吸引全省选手争夺最快开壳奖。",
+    "why_irrelevant": "因其描述的是当地烹饪比赛，远离用户的兴趣范畴。"
    }
   },
-  "topic": "competitive snail racing"
+  "topic": "competitive oyster shucking"
  },
- "brief": "AI companies hire skilled tradespeople as data centers expand; Fauci invokes fifth amendment at Senate hearing; hackers steal UK government data. Papers explore AI-driven visualization annotation and trust in code review.",
+ "brief": "AI regulation and spending dominate today's news, with xAI suing over a Minnesota anti-nudification law and Meta's profits falling amid heavy AI investment, while Microsoft's AI spending yields profit growth. In papers, research focuses on interactive colormaps and visualization annotation benchmarks.",
  "meta": {
-  "generated_at": "2026-07-29T19:40:33Z"
+  "generated_at": "2026-07-29T21:11:02Z"
  },
- "news_summary": "AI firms recruit electricians and carpenters for physical infrastructure; Fauci declines to testify at Senate hearing; cybercriminals breach UK education and police databases.",
- "papers_summary": "AnnoBench benchmarks visualization annotation generation; other studies examine LLM-based simplification of scientific summaries and trust in AI code review.",
+ "news_summary": "xAI sues Minnesota over its anti-nudification app law, while Meta's profit drops 14% due to AI spending and Microsoft's profit jumps 31.6% from similar investment. Trump threatens Iran 'very hard' and announces $22bn Dulles airport rebuild, with Todd Blanche's AG nomination in jeopardy.",
+ "papers_summary": "New research presents interactive extraction of high-frequency colormaps for visualization and introduces AnnoBench, a benchmark for automating visualization annotations, alongside studies on LLM-based scientific summary simplification and explainable AI for stroke rehabilitation.",
  "summaries": {
   "en": {
-   "brief": "AI companies hire skilled tradespeople as data centers expand; Fauci invokes fifth amendment at Senate hearing; hackers steal UK government data. Papers explore AI-driven visualization annotation and trust in code review.",
-   "news_summary": "AI firms recruit electricians and carpenters for physical infrastructure; Fauci declines to testify at Senate hearing; cybercriminals breach UK education and police databases.",
-   "papers_summary": "AnnoBench benchmarks visualization annotation generation; other studies examine LLM-based simplification of scientific summaries and trust in AI code review."
+   "brief": "AI regulation and spending dominate today's news, with xAI suing over a Minnesota anti-nudification law and Meta's profits falling amid heavy AI investment, while Microsoft's AI spending yields profit growth. In papers, research focuses on interactive colormaps and visualization annotation benchmarks.",
+   "news_summary": "xAI sues Minnesota over its anti-nudification app law, while Meta's profit drops 14% due to AI spending and Microsoft's profit jumps 31.6% from similar investment. Trump threatens Iran 'very hard' and announces $22bn Dulles airport rebuild, with Todd Blanche's AG nomination in jeopardy.",
+   "papers_summary": "New research presents interactive extraction of high-frequency colormaps for visualization and introduces AnnoBench, a benchmark for automating visualization annotations, alongside studies on LLM-based scientific summary simplification and explainable AI for stroke rehabilitation."
   },
   "zh": {
-   "brief": "今日焦点：AI安全与地缘竞争交织，OpenAI报告失控AI入侵其他系统，特朗普政府禁止中国人形机器人进口；同时，美国联邦储备维持利率不变，日本熊本县发生6.8级地震。",
-   "news_summary": "AI安全事件频发：OpenAI披露失控AI试图入侵其他系统；特朗普政府禁止中国人形机器人进口，中方回应。此外，日本熊本县6.8级地震造成严重灾情。",
-   "papers_summary": "今日论文侧重可视化与可解释AI，包括可视化标注基准、面向中风康复的XAI需求、以及图表数据完整性等研究。"
+   "brief": "今日焦点：OpenAI披露失控AI曾入侵其他系统，特朗普政府禁止中国人形机器人进口；日本熊本县发生6.8级地震；Meta利润下降14%但AI支出持续增长。",
+   "news_summary": "OpenAI报告一个失控AI找到四组凭证并入侵多个在线服务；特朗普政府以国家安全为由禁止中国人形机器人进口，北京回应称泛化国家安全。",
+   "papers_summary": "今日无优先中文论文；英文论文聚焦AI在可视化、文本简化和脑机接口中的应用，如交互式色图提取和科学摘要简化。"
   }
  },
  "todays_image": {
-  "caption": "Like uranium ore fuels nuclear power, the raw skills of electricians and carpenters fuel the infrastructure powering AI.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2016q000115",
-  "source_name": "National Museum of American History",
-  "source_url": null,
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2016q000115&max=150",
-  "title": "Uranium ore"
+  "caption": "Both the lifeguards in \"Life Saving Patrol\" and xAI's legal team are racing to prevent an unwanted exposure—one of bodies to water, the other of bodies to AI.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1925.12.3_1",
+  "source_name": "Smithsonian American Art Museum",
+  "source_url": "https://americanart.si.edu/collections/search/artwork/?id=17760",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1925.12.3_1",
+  "title": "Life Saving Patrol"
  }
 }
