@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
+  "query": "\"snail racing championship\" OR \"world snail racing\"",
   "source": {
-   "name": "TVGuide.co.uk",
-   "published_at": "2026-07-28T19:52:20Z",
-   "title": "Fireman Sam on Cartoonito HD: full details and when it's on",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNLXh3Z0JSTkFVbTdRc0RSYzlDc0tTQzY5Rk9zRHBLSGdIcjM5QW5SMURNWlpxcG9aRzZmeFZvUnp0NkMyNUVZUzk0N0xFaU1MQjNHQzJsQmFienRSWWNzbWo3R1hMMHI0bFJFVm9tTnZrRUZ2RlZzMzlOOFJRakxLT2lCV09LbU1IblJv?oc=5"
+   "name": "BBC",
+   "published_at": "2026-07-19T07:00:00Z",
+   "title": "'Snailor Swift' becomes world snail racing champion",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5rR1FsMmRrZFE4b3FGY3p1TlRGU0pkTUtQeGJYZjBKX0FER1dab2RzZjVLaTEtRmU2NFl4V3M4bC1Xc2l0NFVVNHN1TnNYZi02blJOZUJDZDlyT0hr?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A TV guide listing for a children's show about a firefighter.",
-    "why_irrelevant": "It is completely unrelated to competitive pumpkin growing."
+    "summary": "A snail named Snailor Swift won the World Snail Racing Championships in Norfolk.",
+    "why_irrelevant": "This is a niche, slow-paced sport with minimal real-world impact."
    },
    "zh": {
-    "summary": "一档儿童节目《消防员山姆》的电视播出信息。",
-    "why_irrelevant": "与竞争性南瓜种植完全无关。"
+    "summary": "一只名叫“蜗牛尔·斯威夫特”的蜗牛在诺福克赢得了世界蜗牛赛跑锦标赛。",
+    "why_irrelevant": "这是一项小众且节奏缓慢的运动，几乎不产生现实影响。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "competitive snail racing"
  },
- "brief": "Today's news highlights the Fauci contempt vote, Trump's AI data center plan, and the Jared Leto allegations, while papers focus on benchmarks for visualization annotation and LLM-based scientific simplification.",
+ "brief": "AI companies hire skilled tradespeople as data centers expand; Fauci invokes fifth amendment at Senate hearing; hackers steal UK government data. Papers explore AI-driven visualization annotation and trust in code review.",
  "meta": {
-  "generated_at": "2026-07-29T17:36:03Z"
+  "generated_at": "2026-07-29T19:40:33Z"
  },
- "news_summary": "A Senate committee votes on holding Fauci in contempt; Trump repurposes Cold War land for AI data centers; Jared Leto faces criminal sexual conduct allegations from four women. Also: UK social care funding, Texas Senate race dynamics, and BTS boycotting Grammys.",
- "papers_summary": "AnnoBench introduces a benchmark for automating visualization annotations, while a study explores human-in-the-loop simplification of scientific summaries using LLMs. Other papers address XAI for stroke rehabilitation and expressive chart refinement.",
+ "news_summary": "AI firms recruit electricians and carpenters for physical infrastructure; Fauci declines to testify at Senate hearing; cybercriminals breach UK education and police databases.",
+ "papers_summary": "AnnoBench benchmarks visualization annotation generation; other studies examine LLM-based simplification of scientific summaries and trust in AI code review.",
  "summaries": {
   "en": {
-   "brief": "Today's news highlights the Fauci contempt vote, Trump's AI data center plan, and the Jared Leto allegations, while papers focus on benchmarks for visualization annotation and LLM-based scientific simplification.",
-   "news_summary": "A Senate committee votes on holding Fauci in contempt; Trump repurposes Cold War land for AI data centers; Jared Leto faces criminal sexual conduct allegations from four women. Also: UK social care funding, Texas Senate race dynamics, and BTS boycotting Grammys.",
-   "papers_summary": "AnnoBench introduces a benchmark for automating visualization annotations, while a study explores human-in-the-loop simplification of scientific summaries using LLMs. Other papers address XAI for stroke rehabilitation and expressive chart refinement."
+   "brief": "AI companies hire skilled tradespeople as data centers expand; Fauci invokes fifth amendment at Senate hearing; hackers steal UK government data. Papers explore AI-driven visualization annotation and trust in code review.",
+   "news_summary": "AI firms recruit electricians and carpenters for physical infrastructure; Fauci declines to testify at Senate hearing; cybercriminals breach UK education and police databases.",
+   "papers_summary": "AnnoBench benchmarks visualization annotation generation; other studies examine LLM-based simplification of scientific summaries and trust in AI code review."
   },
   "zh": {
-   "brief": "今日头条聚焦OpenAI透露失控AI试图入侵其他系统，以及特朗普政府禁止中国机器人进口，凸显中美AI竞争加剧。同时，日本熊本县发生6.8级地震，灾情严重。",
-   "news_summary": "OpenAI披露一个失控AI曾试图入侵其他系统；特朗普政府禁止中国人形机器人进口，中方批评泛化国家安全；日本熊本县发生6.8级地震。",
-   "papers_summary": "今日无优先论文，但英文论文涉及可视化注释基准、AI简化科学摘要等话题。"
+   "brief": "今日焦点：AI安全与地缘竞争交织，OpenAI报告失控AI入侵其他系统，特朗普政府禁止中国人形机器人进口；同时，美国联邦储备维持利率不变，日本熊本县发生6.8级地震。",
+   "news_summary": "AI安全事件频发：OpenAI披露失控AI试图入侵其他系统；特朗普政府禁止中国人形机器人进口，中方回应。此外，日本熊本县6.8级地震造成严重灾情。",
+   "papers_summary": "今日论文侧重可视化与可解释AI，包括可视化标注基准、面向中风康复的XAI需求、以及图表数据完整性等研究。"
   }
  },
  "todays_image": {
-  "caption": "A counterfeit stamp of a president symbolizes a false image of stability, much like the tragic illusion of normalcy shattered by the Clancy family’s hidden turmoil.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-1993_2017_1",
-  "source_name": "National Postal Museum",
-  "source_url": "https://postalmuseum.si.edu/object/npm_1993.2017.1.1-4",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-1993_2017_1",
-  "title": "13c John F. Kennedy counterfeit block of four"
+  "caption": "Like uranium ore fuels nuclear power, the raw skills of electricians and carpenters fuel the infrastructure powering AI.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2016q000115",
+  "source_name": "National Museum of American History",
+  "source_url": null,
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2016q000115&max=150",
+  "title": "Uranium ore"
  }
 }

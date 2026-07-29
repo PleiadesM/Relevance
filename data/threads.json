@@ -1,17 +1,68 @@
 {
  "meta": {
   "count": 3,
-  "generated_at": "2026-07-29T17:36:03Z",
+  "generated_at": "2026-07-29T19:40:33Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "full_text_file": "articles/news/45f088e68c90a9e0.json",
+     "item_id": "45f088e68c90a9e0",
+     "phrase": {
+      "en": "OpenAI building device family",
+      "zh": "OpenAI构建设备家族"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/972709/openai-hardware-greg-brockman-interview"
+    },
+    {
+     "full_text_file": "articles/news/41b750bbda5ffee5.json",
+     "item_id": "41b750bbda5ffee5",
+     "phrase": {
+      "en": "xAI suing over Grok issues",
+      "zh": "xAI因Grok问题起诉"
+     },
+     "section": "news",
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/tech-policy/2026/07/elon-musks-xai-is-trying-to-sue-its-way-out-of-a-grok-reckoning/"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "OpenAI's president says they're building devices, not just software — a push beyond the chatbot screen.",
+    "zh": "OpenAI总裁说他们在造设备而不只是软件——一次超越聊天界面的尝试。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI device hardware",
+    "zh": "AI设备硬件"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow embodied AI: this signals a move toward physical form factors for AI interaction.",
+    "zh": "你关注具身AI：这标志着AI交互正向实体形态迈进。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "3cc81cdb36205a9d",
+     "phrase": {
+      "en": "three firefighters killed",
+      "zh": "三名消防员遇难"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/jul/29/pedro-sanchez-next-12-hours-decisive-extreme-heat-wildfires-madrid-europe"
+    },
+    {
      "item_id": "eec5f613b98403c0",
      "phrase": {
-      "en": "fire crews in searing heat",
-      "zh": "消防员在酷热中奋战"
+      "en": "France searing heat battle",
+      "zh": "法国炙热灭火战"
      },
      "section": "news",
      "source": "BBC World",
@@ -20,28 +71,18 @@
     {
      "item_id": "d5ad0776e638d935",
      "phrase": {
-      "en": "wildfires amplified by emptying countryside",
-      "zh": "乡村空置加剧野火"
+      "en": "empty countryside amplifies",
+      "zh": "乡村空心化加剧"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/07/29/climate/france-spain-europe-megafires.html"
     },
     {
-     "item_id": "9ec8c79716e11a94",
-     "phrase": {
-      "en": "wildfires slow but worse ahead",
-      "zh": "野火减缓但更糟在后"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/29/world/europe/wildfires-spain-france.html"
-    },
-    {
      "item_id": "5f24c5b40c386b48",
      "phrase": {
-      "en": "Spain faces complex three days",
-      "zh": "西班牙面临复杂的三天"
+      "en": "Spain complex fire risk",
+      "zh": "西班牙复杂火险"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -50,126 +91,67 @@
     {
      "item_id": "93803a4cf90afad3",
      "phrase": {
-      "en": "planes dump water on French fires",
-      "zh": "飞机向法国火灾泼水"
+      "en": "planes dump water in France",
+      "zh": "飞机在法国洒水"
      },
      "section": "news",
      "source": "BBC World",
      "url": "https://www.bbc.co.uk/news/videos/cly8xvvj8yro?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "d052c91d3d64fab8",
-     "phrase": {
-      "en": "summer is a reckoning for Europe",
-      "zh": "夏季成为欧洲的清算"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/29/world/europe/summer-heat-wave-fires-climate-change.html"
-    },
-    {
-     "item_id": "922e1ed0141c17dc",
-     "phrase": {
-      "en": "decade on frontline shows emergency",
-      "zh": "十年前线显示紧急状态"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/jul/29/a-decade-on-the-iberian-frontline-has-shown-me-that-europes-climate-emergency-is-impossible-to-deny"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "France and Spain battle heat and flames; a reckoning for Europe as fires worsen with emptying farmland.",
-    "zh": "法国和西班牙与高温和火焰搏斗；随着农田荒废，火灾加剧，欧洲面临反思。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "European wildfires & climate",
-    "zh": "欧洲野火与气候"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow critical visualization of climate: multiple sources cover the same unfolding crisis with different angles today.",
-    "zh": "你关注气候的批判性可视化：多个来源今日以不同角度报道同一持续危机。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "5f57333a84b1eb47",
-     "phrase": {
-      "en": "Fauci refuses to answer questions",
-      "zh": "福奇拒绝回答问题"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cdx85vkk0gko?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "4d50c164caad9e1e",
-     "phrase": {
-      "en": "committee to vote on contempt",
-      "zh": "委员会将投票藐视"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/live/2026/jul/29/donald-trump-anthony-fauci-rand-paul-covid-lab-leak-theory-iran-tariffs-latest-news-updates"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Anthony Fauci pleads the fifth in a Senate hearing on COVID origins, facing contempt vote.",
-    "zh": "安东尼·福奇在参议院新冠起源听证会上援引第五修正案，面临藐视投票。"
+    "en": "Greece, France, Spain burn as heatwaves intensify — firefighters die and forests turn to ash.",
+    "zh": "希腊、法国、西班牙在热浪中燃烧——消防员牺牲，森林化为灰烬。"
    },
    "id": "t2",
    "keyword": {
-    "en": "Fauci COVID hearing",
-    "zh": "福奇新冠听证会"
+    "en": "European wildfires",
+    "zh": "欧洲山火"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow AI & public discourse: the clash over scientific testimony and legal strategy is a live governance tension.",
-    "zh": "你关注AI与公共话语：科学证词与法律策略的冲突是当前的治理张力。"
+    "en": "You care about climate: today three sources report deadly fires across Europe, raising questions about preparedness.",
+    "zh": "你关注气候：今天三个来源报道欧洲致命火灾，拷问应对准备。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "9ac789b6d59d06d2",
+     "item_id": "209952dca13680f8",
      "phrase": {
-      "en": "Trump demanded Comey interview details",
-      "zh": "特朗普要求科米面谈细节"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/29/us/james-comey-seashells-trump-secret-service.html"
-    },
-    {
-     "item_id": "ef627ab9643b2b3c",
-     "phrase": {
-      "en": "Comey alleges prosecution over shell post",
-      "zh": "科米指控因贝壳帖子被起诉"
+      "en": "Atlassian tightens AI tracking",
+      "zh": "Atlassian收紧AI追踪"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/jul/29/james-comey-secret-service-seashells-investigation-trump"
+     "url": "https://www.theguardian.com/technology/2026/jul/30/atlassian-tightens-tracking-of-staff-ai-use-as-other-technology-firms-encourage-tokenmaxxing"
+    },
+    {
+     "item_id": "28409cccd4d1dcfd",
+     "phrase": {
+      "en": "circular AI deals critique",
+      "zh": "循环AI交易批评"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://www.emergingtrajectories.com/lh/commodification-and-circularity/"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "New filings show Trump demanded details of the FBI interview with Comey, and Comey alleges prosecution over a seashell post.",
-    "zh": "新文件显示特朗普要求了解FBI对科米面谈的细节，科米指控因一篇贝壳帖子被起诉。"
+    "en": "Atlassian tightens AI-use monitoring while some firms gamify it — the office becomes an AI surveillance lab.",
+    "zh": "Atlassian收紧AI使用监控，而有些公司把它游戏化——办公室变成AI监控实验室。"
    },
    "id": "t3",
    "keyword": {
-    "en": "Comey Trump investigation",
-    "zh": "科米特朗普调查"
+    "en": "AI tracking at work",
+    "zh": "职场AI监控"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow visual rhetoric of power: the narrative construction of political vendetta is a case study in framing.",
-    "zh": "你关注权力的视觉修辞：政治报复的叙事构建是框架分析的案例。"
+    "en": "You think about technical communication and HCI: this trend redraws the boundary between human agency and automated oversight.",
+    "zh": "你思考技术传播和人机交互：这一趋势重新划定人的自主性与自动化监管之间的边界。"
    }
   }
  ]
