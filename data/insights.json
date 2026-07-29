@@ -1,28 +1,48 @@
 {
- "brief": "Australia sees easing inflation and political maneuvering, while Japan races rescue efforts after a deadly earthquake and US-China AI tensions escalate. Papers explore benchmarks for visualization annotation and LLM-based simplification of scientific summaries.",
- "meta": {
-  "generated_at": "2026-07-29T03:35:56Z"
+ "apropos_of_nothing": {
+  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
+  "source": {
+   "name": "Mshale",
+   "published_at": "2026-07-24T07:25:12Z",
+   "title": "Get Rolling With Otis — Pumpkin On The Loose | Apple TV Pedro Pascal (cdtboXwIHP)",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1KUzk4WnZvc3UxUlkzdDF6SE4xMWY4d3dTU3Z4N05UNE5DUVlmejBEeGRCdjFfQjJ4Um43eXZzR1J2Q0FHLUdWSExIZFBRQXY4UWp1N1pETHY0R1E?oc=5"
+  },
+  "summaries": {
+   "en": {
+    "summary": "A pumpkin-themed children's show on Apple TV features actor Pedro Pascal.",
+    "why_irrelevant": "It is a scripted entertainment piece, not a real-world event."
+   },
+   "zh": {
+    "summary": "苹果TV的南瓜主题儿童节目邀请了演员佩德罗·帕斯卡。",
+    "why_irrelevant": "这是一部虚构娱乐节目，而非真实事件。"
+   }
+  },
+  "topic": "competitive pumpkin growing"
  },
- "news_summary": "Inflation eased to 3.8% in Australia, reducing rate hike chances; Japan earthquake death toll rises to 13; US bans new Chinese humanoid robots; Iran-US strikes continue.",
- "papers_summary": "AnnoBench provides a benchmark for visualization annotation generation, while a human-in-the-loop corpus studies LLM-based simplification of scientific summaries.",
+ "brief": "A 6.8-magnitude earthquake in Japan has killed at least 13, with rescue efforts ongoing. Meanwhile, wildfires in France rage under a new heatwave, and U.S. politics sees commentary on Trump and Kennedy.",
+ "meta": {
+  "generated_at": "2026-07-29T06:43:22Z"
+ },
+ "news_summary": "Japan races to rescue trapped survivors after a deadly quake; France battles wildfires amid record heat; Jimmy Fallon jokes about Trump's health secretary pick.",
+ "papers_summary": "No new papers or research reported.",
  "summaries": {
   "en": {
-   "brief": "Australia sees easing inflation and political maneuvering, while Japan races rescue efforts after a deadly earthquake and US-China AI tensions escalate. Papers explore benchmarks for visualization annotation and LLM-based simplification of scientific summaries.",
-   "news_summary": "Inflation eased to 3.8% in Australia, reducing rate hike chances; Japan earthquake death toll rises to 13; US bans new Chinese humanoid robots; Iran-US strikes continue.",
-   "papers_summary": "AnnoBench provides a benchmark for visualization annotation generation, while a human-in-the-loop corpus studies LLM-based simplification of scientific summaries."
+   "brief": "A 6.8-magnitude earthquake in Japan has killed at least 13, with rescue efforts ongoing. Meanwhile, wildfires in France rage under a new heatwave, and U.S. politics sees commentary on Trump and Kennedy.",
+   "news_summary": "Japan races to rescue trapped survivors after a deadly quake; France battles wildfires amid record heat; Jimmy Fallon jokes about Trump's health secretary pick.",
+   "papers_summary": "No new papers or research reported."
   },
   "zh": {
-   "brief": "今日焦点包括日本九州地震致13人死、美伊相互打击打破短暂平静、特朗普暂停对伊战事引发台海安全讨论，以及中国使领馆外政治标语现象。研究方面，多篇论文探讨AI辅助可视化、代码审查中的可解释性及科学摘要简化。",
-   "news_summary": "日本九州地震死亡人数升至13人，救援工作持续。美国与伊朗相互打击，打破短暂平静。特朗普暂停伊朗战事，美方担忧武器短缺及台海安全。中国使领馆外政治标语从重庆扩散至全球。",
-   "papers_summary": "多项研究聚焦AI在可视化与代码审查中的应用，如AnnoBench基准测试、TailVis图表精炼、以及可解释AI对信任的影响。另有论文探讨LLM用于科学摘要简化及空间数据集成。"
+   "brief": "今日重點：日本熊本6.8級地震致13死，救援持續；依附理論在TikTok上熱傳但被簡化；唐山大地震50週年，反思社會影響；美國與伊朗局勢引發台海安全擔憂。",
+   "news_summary": "日本九州地震死亡人數升至13人，救援人員正爭分奪秒搜救被埋者；TikTok上依附理論內容流行但被批評過於簡單；唐山大地震50週年之際，文章探討其對中國社會的深遠影響。",
+   "papers_summary": "今日無相關論文。"
   }
  },
  "todays_image": {
-  "caption": "The fire truck door's urgent red embodies the scandal's heated revelations and the family's fatal crisis, both demanding a response that arrived too late.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-ET2011-46259",
-  "source_name": "National Museum of American History",
-  "source_url": null,
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-ET2011-46259&max=150",
-  "title": "Fire Truck Door"
+  "caption": "The invasive resilience of Ageratum conyzoides, colonizing disrupted soil, mirrors the urgent, scattered efforts to reach survivors amid Japan's earthquake chaos.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3d64f3869cbe347338b17139c51c605e9",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3a0933572-fb1a-4088-a2ea-3c1a09086a1d",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3d64f3869cbe347338b17139c51c605e9/90",
+  "title": "Ageratum conyzoides L."
  }
 }
