@@ -1,48 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "welly wanging championship OR wellie wanging OR Yorkshire boot throwing",
-  "source": {
-   "name": "Dorset Echo",
-   "published_at": "2026-07-03T07:00:00Z",
-   "title": "'Welly Wanging' a highlight at Strawberry Picnic in Holt,",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOb09rXzJyc183V3gtWmNPenFnTFZUUXhxMmt4WmZ2MmU2M0pYNHBnb05qeEdvQkJPbWtIMzFrOEQ1ZzRpMnVreWh2enVOSzM2VWt1MDlLdW9OUjZDcTJpUE1wMEgzMjV0N1ZSbWV1MDBsVGlaRjZYZkh1YXlDVUxrLS1tWVBwaFJSUEl3enVrR1NPS3Ew?oc=5"
-  },
-  "summaries": {
-   "en": {
-    "summary": "Welly Wanging returns as a highlight of the Strawberry Picnic in Holt, Dorset.",
-    "why_irrelevant": "unrelated to typical political or tech news feeds."
-   },
-   "zh": {
-    "summary": "威利投掷再次成为霍尔特草莓野餐的亮点。",
-    "why_irrelevant": "与典型政治或科技新闻无关。"
-   }
-  },
-  "topic": "Yorkshire's annual 'Welly Wanging' championship"
- },
- "brief": "U.S. political and legal headlines include Trump's Supreme Court appeal on defamation, ICE raids at airports, and a Medicare subsidy cut. Research focuses on AI trust in code review and visualization techniques.",
+ "brief": "Australia sees easing inflation and political maneuvering, while Japan races rescue efforts after a deadly earthquake and US-China AI tensions escalate. Papers explore benchmarks for visualization annotation and LLM-based simplification of scientific summaries.",
  "meta": {
-  "generated_at": "2026-07-28T23:14:04Z"
+  "generated_at": "2026-07-29T03:35:56Z"
  },
- "news_summary": "Supreme Court cases on defamation and corporate precedent, plus FBI airport arrests and Medicare changes dominate U.S. news. International stories include Japan earthquake and Wisconsin tornado.",
- "papers_summary": "Papers explore explainable AI for code review, contour ensemble visualization, and mental imagery in icon design. Arabic context visualization and quantum circuit designs are also featured.",
+ "news_summary": "Inflation eased to 3.8% in Australia, reducing rate hike chances; Japan earthquake death toll rises to 13; US bans new Chinese humanoid robots; Iran-US strikes continue.",
+ "papers_summary": "AnnoBench provides a benchmark for visualization annotation generation, while a human-in-the-loop corpus studies LLM-based simplification of scientific summaries.",
  "summaries": {
   "en": {
-   "brief": "U.S. political and legal headlines include Trump's Supreme Court appeal on defamation, ICE raids at airports, and a Medicare subsidy cut. Research focuses on AI trust in code review and visualization techniques.",
-   "news_summary": "Supreme Court cases on defamation and corporate precedent, plus FBI airport arrests and Medicare changes dominate U.S. news. International stories include Japan earthquake and Wisconsin tornado.",
-   "papers_summary": "Papers explore explainable AI for code review, contour ensemble visualization, and mental imagery in icon design. Arabic context visualization and quantum circuit designs are also featured."
+   "brief": "Australia sees easing inflation and political maneuvering, while Japan races rescue efforts after a deadly earthquake and US-China AI tensions escalate. Papers explore benchmarks for visualization annotation and LLM-based simplification of scientific summaries.",
+   "news_summary": "Inflation eased to 3.8% in Australia, reducing rate hike chances; Japan earthquake death toll rises to 13; US bans new Chinese humanoid robots; Iran-US strikes continue.",
+   "papers_summary": "AnnoBench provides a benchmark for visualization annotation generation, while a human-in-the-loop corpus studies LLM-based simplification of scientific summaries."
   },
   "zh": {
-   "brief": "唐山大地震50周年纪念引发历史回顾，香港前议员胡志伟赴英风波持续，特朗普暂停对伊行动引发台海安全讨论，AI伪造视频在中国自然灾害中泛滥。",
-   "news_summary": "唐山大地震50周年，多篇文章回顾历史细节；胡志伟赴英被扣后获准逗留；特朗普暂停伊朗攻击引发对美军事能力的质疑；中国自然灾害中AI假视频问题凸显。",
-   "papers_summary": "今日无中文论文，英文论文涉及AI在代码审查中的信任、量子电路可视化、虚假信息传播等研究。"
+   "brief": "今日焦点包括日本九州地震致13人死、美伊相互打击打破短暂平静、特朗普暂停对伊战事引发台海安全讨论，以及中国使领馆外政治标语现象。研究方面，多篇论文探讨AI辅助可视化、代码审查中的可解释性及科学摘要简化。",
+   "news_summary": "日本九州地震死亡人数升至13人，救援工作持续。美国与伊朗相互打击，打破短暂平静。特朗普暂停伊朗战事，美方担忧武器短缺及台海安全。中国使领馆外政治标语从重庆扩散至全球。",
+   "papers_summary": "多项研究聚焦AI在可视化与代码审查中的应用，如AnnoBench基准测试、TailVis图表精炼、以及可解释AI对信任的影响。另有论文探讨LLM用于科学摘要简化及空间数据集成。"
   }
  },
  "todays_image": {
-  "caption": "Both involve remnants of disruptive moments—a twisted mailbox from a catastrophic earthquake and a six-pack of beer from a case that reshaped legal precedent—serving as enduring symbols of change.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2006_2038_1a",
-  "source_name": "National Postal Museum",
-  "source_url": "https://postalmuseum.si.edu/object/npm_2006.2038.1",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2006_2038_1a",
-  "title": "Mailbox remnant from 1906 San Francisco earthquake"
+  "caption": "The fire truck door's urgent red embodies the scandal's heated revelations and the family's fatal crisis, both demanding a response that arrived too late.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-ET2011-46259",
+  "source_name": "National Museum of American History",
+  "source_url": null,
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-ET2011-46259&max=150",
+  "title": "Fire Truck Door"
  }
 }

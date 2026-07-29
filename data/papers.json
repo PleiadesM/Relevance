@@ -2,6 +2,260 @@
  "items": [
   {
    "authors": [
+    "Md Rahat-uz-Zaman",
+    "Md Dilshadur Rahman",
+    "Andrew McNutt",
+    "Paul Rosen"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Annotation is among the most demanding visualization tasks to automate, as it simultaneously requires correctly navigating visual, semantic, and stylistic constraints. Failure to meet any of these conditions severely undermines the utility of an annotation, rendering it challenging to read, inaccurate, or visually discordant. Despite a growing body of annotation tools and automations, no existing benchmark or evaluation framework tests whether these conditions are met because of their scope and…",
+    "arxiv_id": "2607.25911"
+   },
+   "id": "e4e509b9a68d54d0",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-28T16:04:39Z",
+   "score": 0.7848,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Annotation is among the most demanding visualization tasks to automate, as it simultaneously requires correctly navigating visual, semantic, and stylistic constraints. Failure to meet any of these conditions severely undermines the utility of an annotation, rendering it challenging to read,…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "AnnoBench: A Benchmark for Visualization Annotation Generation",
+   "url": "https://arxiv.org/abs/2607.25911v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Kyuri Im",
+    "Michael Färber"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Interdisciplinary research is accelerating, yet scientific papers remain difficult to understand outside their home fields. We study large language model (LLM)-based simplification of scientific texts and present a human-in-the-loop workflow that transforms expert summaries into more accessible versions for non-specialists. Using SciSummNet as the source corpus, we first generate baseline simplifications with GPT-4o-mini. In Phase 1, readers from STEM fields outside computer science identify…",
+    "arxiv_id": "2607.25630"
+   },
+   "id": "61f2ae1df3e2ec42",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-28T12:12:39Z",
+   "score": 0.8672,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Interdisciplinary research is accelerating, yet scientific papers remain difficult to understand outside their home fields. We study large language model (LLM)-based simplification of scientific texts and present a human-in-the-loop workflow that transforms expert summaries into more accessible…",
+   "tags": [
+    "ai-writing",
+    "llm"
+   ],
+   "title": "A Human-in-the-Loop Corpus for LLM-Based Simplification of Scientific Summaries",
+   "url": "https://arxiv.org/abs/2607.25630v1",
+   "venue": "arXiv cs.CL"
+  },
+  {
+   "authors": [
+    "Federico Cabitza",
+    "Gianluca Colombo"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Quattrociocchi and colleagues warn that the fluent outputs of large language models may allow linguistic plausibility to substitute for epistemic evaluation, producing the condition they call *Epistemia*: the experience of possessing knowledge without undertaking the practices through which judgment would ordinarily be warranted. This article accepts that diagnosis but challenges its explanatory framework, which compares an embodied, socially situated human knower with an isolated generative…",
+    "arxiv_id": "2607.25620"
+   },
+   "id": "da2b13ba1928c12d",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-28T11:57:59Z",
+   "score": 0.5336,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Quattrociocchi and colleagues warn that the fluent outputs of large language models may allow linguistic plausibility to substitute for epistemic evaluation, producing the condition they call *Epistemia*: the experience of possessing knowledge without undertaking the practices through which…",
+   "tags": [
+    "ai-writing",
+    "llm"
+   ],
+   "title": "Beyond Epistemia: Epistemic Schizologia and Large Language Models as Techno-Semiotic Machines",
+   "url": "https://arxiv.org/abs/2607.25620v1",
+   "venue": "arXiv cs.AI"
+  },
+  {
+   "authors": [
+    "Param Rajpura",
+    "Yogesh Kumar Meena"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Eliciting explainable AI (XAI) requirements from stroke survivors presents a methodological challenge with direct implications for the design of trustworthy brain-computer interfaces for rehabilitation. How can patients and caregivers articulate preferences about algorithmic transparency when they lack conceptual frameworks for explainability, and when standard elicitation approaches are structurally inadequate for users with acquired communication disorders? We present a video-based…",
+    "arxiv_id": "2607.25423"
+   },
+   "id": "705d3b9e8e980d73",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-28T08:20:56Z",
+   "score": 0.7103,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Eliciting explainable AI (XAI) requirements from stroke survivors presents a methodological challenge with direct implications for the design of trustworthy brain-computer interfaces for rehabilitation. How can patients and caregivers articulate preferences about algorithmic transparency when they…",
+   "tags": [
+    "ai-writing",
+    "ux"
+   ],
+   "title": "From Dyad to Triad: Eliciting XAI Requirements in Stroke Rehabilitation",
+   "url": "https://arxiv.org/abs/2607.25423v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Yumin Song",
+    "Seokhyeon Park",
+    "Soohyun Lee",
+    "Aeri Cho",
+    "John Joon Young Chung",
+    "Hyeon Jeon"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Creating static visualizations for presentations and publications requires granular refinements of visual details, even for simple charts. Existing data-driven visualization tools offer limited interactive control for such refinements, forcing users to export charts to external graphic editors and breaking the critical link between data and visual representation. To address this gap, we propose an extended InfoVis Reference Model to account for post-render design refinement. A formative study…",
+    "arxiv_id": "2607.25386"
+   },
+   "id": "c25c883d318aa493",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-28T07:44:49Z",
+   "score": 0.7478,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Creating static visualizations for presentations and publications requires granular refinements of visual details, even for simple charts. Existing data-driven visualization tools offer limited interactive control for such refinements, forcing users to export charts to external graphic editors and…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "TailVis: Expressive Chart Refinement Preserving Data-Binding Integrity",
+   "url": "https://arxiv.org/abs/2607.25386v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Mayuri Mathur",
+    "Ojaswa Sharma"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Medical image visualization requires volumetric rendering algorithms that preserve anatomical fidelity while maintaining high rendering speeds. To address the high computational cost of large volumetric datasets, we propose a Gaussian-based volumetric representation for efficient visualization of dense medical volumes without compromising structural and radiometric details. We optimize the proposed representation using Monte Carlo volumetric estimation, which enables training on a highly sparse…",
+    "arxiv_id": "2607.25377"
+   },
+   "id": "d65bfa27a0c49ed9",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-28T07:32:09Z",
+   "score": 0.7469,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Medical image visualization requires volumetric rendering algorithms that preserve anatomical fidelity while maintaining high rendering speeds. To address the high computational cost of large volumetric datasets, we propose a Gaussian-based volumetric representation for efficient visualization of…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Gaussian Volumetric Representation for Efficient Shear-Warp Visualization",
+   "url": "https://arxiv.org/abs/2607.25377v1",
+   "venue": "arXiv cs.CV"
+  },
+  {
+   "authors": [
+    "Harrison J. Goldwyn",
+    "Graham Johnson",
+    "Christopher Ibarra",
+    "Lace Padilla",
+    "Kenny Gruchalla"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Empirical user studies are essential for evaluating visual encodings and can reveal perceptual and cognitive mechanisms, but they do not by themselves provide causal, predictive accounts of interpretation errors. Evaluations are therefore often post hoc: they measure performance after a design has been specified rather than predicting how attention, uncertainty, memory, and bias may produce accurate or erroneous judgments. To address this mechanistic gap, we translate a cognitive theory of…",
+    "arxiv_id": "2607.25131"
+   },
+   "id": "b131f184eb526306",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-27T22:53:58Z",
+   "score": 0.5198,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Empirical user studies are essential for evaluating visual encodings and can reveal perceptual and cognitive mechanisms, but they do not by themselves provide causal, predictive accounts of interpretation errors. Evaluations are therefore often post hoc: they measure performance after a design has…",
+   "tags": [
+    "eval-study",
+    "hci"
+   ],
+   "title": "Beyond the Post Hoc User Study: Modeling Visual Decision-Making with Active Inference",
+   "url": "https://arxiv.org/abs/2607.25131v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Sonia Castelo",
+    "Eden Wu",
+    "Joao Rulff",
+    "Harish Doraiswamy",
+    "Juliana Freire",
+    "Claudio Silva"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Urban decision-making requires integrating heterogeneous spatial data. While current GIS tools handle geometric computation efficiently, they lack the semantic reasoning to guide complex workflows. Analysts manually manage data discovery, spatial boundaries, and measurement semantics, risking aggregation errors. We present UrbanTrace, a visual analytics system that transforms manual spatial data-wrangling into a transparent, node-based collaborative workflow with context-aware AI agents. Using…",
+    "arxiv_id": "2607.25124"
+   },
+   "id": "4170bba5e28255b9",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-27T22:35:18Z",
+   "score": 0.7111,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Urban decision-making requires integrating heterogeneous spatial data. While current GIS tools handle geometric computation efficiently, they lack the semantic reasoning to guide complex workflows. Analysts manually manage data discovery, spatial boundaries, and measurement semantics, risking…",
+   "tags": [
+    "ml-vis",
+    "llm"
+   ],
+   "title": "UrbanTrace: LLM-Assisted Discovery and Semantics-Aware Integration of Spatial Data",
+   "url": "https://arxiv.org/abs/2607.25124v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Ishrat Jahan Eliza",
+    "Md Dilshadur Rahman"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Multimodal large language models (MLLMs) can connect visualization patterns to external causes, consequences, and domain knowledge, but the evidential basis of these interpretations is often unclear. We present an exploratory study of 102 visualizations from four sources, three MLLMs, and four input conditions that vary access to the image, source-specific accessible chart context, and withheld-context framing. Across 1,224 descriptions, we analyze model-attributed DIRECT, DERIVED, and…",
+    "arxiv_id": "2607.25021"
+   },
+   "id": "4a823cba5532cc18",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-27T19:30:56Z",
+   "score": 0.8396,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Multimodal large language models (MLLMs) can connect visualization patterns to external causes, consequences, and domain knowledge, but the evidential basis of these interpretations is often unclear. We present an exploratory study of 102 visualizations from four sources, three MLLMs, and four…",
+   "tags": [
+    "ml-vis",
+    "llm",
+    "visualization"
+   ],
+   "title": "Chart-Supported or Model-Supplied? Examining MLLM-Generated Claims for Accessible Visualization",
+   "url": "https://arxiv.org/abs/2607.25021v1",
+   "venue": "arXiv cs.AI"
+  },
+  {
+   "authors": [
     "Zhenhan Gao",
     "Marvin Muñoz Barón",
     "Umm-e Habiba",
@@ -17,7 +271,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-27T16:04:24Z",
-   "score": 0.803,
+   "score": 0.7873,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -46,7 +300,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-27T15:59:22Z",
-   "score": 0.7027,
+   "score": 0.687,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -76,7 +330,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-27T15:36:44Z",
-   "score": 0.7013,
+   "score": 0.6857,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -104,7 +358,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-27T12:36:48Z",
-   "score": 0.6505,
+   "score": 0.6354,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -136,7 +390,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-27T06:33:37Z",
-   "score": 0.4773,
+   "score": 0.4632,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -147,37 +401,6 @@
    "title": "A Design Space for Quantum Circuit Visualizations",
    "url": "https://arxiv.org/abs/2607.24042v1",
    "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Jiyu Wei",
-    "Di Hong",
-    "Zhanjie Zhang",
-    "Dazhong Rong",
-    "Qinming He",
-    "Yueming Wang"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Brain-Machine Interfaces (BMIs) provide a direct communication pathway between the brain and external devices, enabling humans to control assistive and robotic technologies, with potential applications in rehabilitation, human motor augmentation, and human-centered robotics. However, due to neural drift, the performance of BMIs decreases over time, posing challenges for long-term viability, particularly for invasive BMIs (iBMIs). Existing solutions suffer from two main drawbacks: (i) difficulty…",
-    "arxiv_id": "2607.24023"
-   },
-   "id": "ab3c998273c02dc8",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-27T05:40:01Z",
-   "score": 0.6268,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Brain-Machine Interfaces (BMIs) provide a direct communication pathway between the brain and external devices, enabling humans to control assistive and robotic technologies, with potential applications in rehabilitation, human motor augmentation, and human-centered robotics. However, due to neural…",
-   "tags": [
-    "ai-writing",
-    "embodied"
-   ],
-   "title": "Self-Supervised Consistency Enhanced Disentangled Learning for Neural Decoding Generalization in Brain-Machine Interface",
-   "url": "https://arxiv.org/abs/2607.24023v1",
-   "venue": "arXiv cs.AI"
   },
   {
    "authors": [
@@ -194,7 +417,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-26T17:37:17Z",
-   "score": 0.6302,
+   "score": 0.6182,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -205,175 +428,17 @@
    "title": "Meandering Photo Lines: Fluid Multiscale Exploration of Photographic Archives",
    "url": "https://arxiv.org/abs/2607.23769v1",
    "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Arran Zeyu Wang",
-    "Fuling Sun",
-    "Danielle Albers Szafir"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Visualizations and text often work together to support effective data communication. Despite this common paradigm, we know little about how the interplay of these modalities affects people's data comprehension. We present a novel experimental paradigm to investigate multimodal data comprehension---the process of people comprehending information from multimodal visual and textual data---across both crowdsourced and think-aloud environments. Our methodology employs two sequential chains for…",
-    "also_in": [
-     {
-      "source": "arXiv cs.HC (writing & docs)",
-      "url": "https://arxiv.org/abs/2607.23489v1"
-     }
-    ],
-    "arxiv_id": "2607.23489"
-   },
-   "id": "4877e2bf0bfd439c",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-26T06:31:29Z",
-   "score": 0.6008,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Visualizations and text often work together to support effective data communication. Despite this common paradigm, we know little about how the interplay of these modalities affects people's data comprehension. We present a novel experimental paradigm to investigate multimodal data…",
-   "tags": [
-    "eval-study",
-    "visualization"
-   ],
-   "title": "Multimodal Data Comprehension: Understanding How Visual-Textual Chains of Information Influence Data Interpretation",
-   "url": "https://arxiv.org/abs/2607.23489v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Wen Xu",
-    "Anjana Arunkumar",
-    "Lace M. Padilla"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "We introduce mental imagery, or seeing images in the \"mind's eye,\" as a cognitive process that can be shaped by data visualization design and in turn impact decisions. We found in a preregistered study (n = 400) that abstract geometric icons visualizing fire risk data evoked more mental images than concrete house-on-fire icons, and also produced more diverse and personalized mental images. Mediation analysis showed that increased mental imagery subsequently led to risk-averse decisions through…",
-    "arxiv_id": "2607.23369"
-   },
-   "id": "c62d6d179a0bdd94",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-25T21:18:01Z",
-   "score": 0.5791,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "We introduce mental imagery, or seeing images in the \"mind's eye,\" as a cognitive process that can be shaped by data visualization design and in turn impact decisions. We found in a preregistered study (n = 400) that abstract geometric icons visualizing fire risk data evoked more mental images than…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "Visualizing in the Mind's Eye: Icon Design Shapes Mental Imagery of Fire Risks",
-   "url": "https://arxiv.org/abs/2607.23369v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Tingying He",
-    "Maggie McCracken",
-    "Daniel Hajas",
-    "Sarah Creem-Regehr",
-    "Alexander Lex"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Visualizations are central to communicating data, yet blind and low-vision (BLV) people often lack support for understanding chart types---knowledge that is essential for interpreting new visualizations and collaborating with sighted peers. Prior work found that BLV individuals viewed example tactile charts as more helpful than text-only approaches and preferred them for learning advanced chart types, particularly for understanding spatial layouts and shapes. Meanwhile, large language models…",
-    "also_in": [
-     {
-      "source": "arXiv cs.HC (writing & docs)",
-      "url": "https://arxiv.org/abs/2607.23065v1"
-     }
-    ],
-    "arxiv_id": "2607.23065"
-   },
-   "id": "e360388750913fe3",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-25T06:18:30Z",
-   "score": 0.5486,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Visualizations are central to communicating data, yet blind and low-vision (BLV) people often lack support for understanding chart types---knowledge that is essential for interpreting new visualizations and collaborating with sighted peers. Prior work found that BLV individuals viewed example…",
-   "tags": [
-    "ml-vis",
-    "llm",
-    "visualization"
-   ],
-   "title": "Touching or Chatting: The Utility of LLMs and Tactile Charts for Learning about Complex Chart Types by BLV Individuals",
-   "url": "https://arxiv.org/abs/2607.23065v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Bo Jiang",
-    "Youyuan Liu",
-    "Taolue Yang",
-    "Sheng Di",
-    "Sian Jin"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Large-scale particle simulations produce hundreds of millions of particles, straining storage, transfer, and interactive visualization. Existing lossy compressors such as SZ3 operate in data space and provide no guarantees on downstream visualization fidelity. We propose ParticleGS, a visualization-aware framework based on 3D Gaussian Splatting (3DGS) that learns a compact representation directly optimized for rendered image quality, combining (1) a multi-stage, multi-orbit training pipeline,…",
-    "arxiv_id": "2607.22956"
-   },
-   "id": "bb9e4099dba332de",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-24T23:46:53Z",
-   "score": 0.5369,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Large-scale particle simulations produce hundreds of millions of particles, straining storage, transfer, and interactive visualization. Existing lossy compressors such as SZ3 operate in data space and provide no guarantees on downstream visualization fidelity. We propose ParticleGS, a…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "3D Gaussian Splatting for Scientific Particle Data Compression and Rendering",
-   "url": "https://arxiv.org/abs/2607.22956v1",
-   "venue": "arXiv cs.GR"
-  },
-  {
-   "authors": [
-    "Karen Penaranda Valdivia",
-    "Nujaimah Ahmed",
-    "Aswah Butt",
-    "Nao Nagashima",
-    "Sarah Hoyos-Hoyos",
-    "Krupa Shah"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Migration studies is an interdisciplinary field, requiring collaboration between researchers with varying levels of geospatial and quantitative data literacy. Geospatial tangible user interfaces (GTUIs) offer promising opportunities for embodied and collaborative spatial exploration of migration data. Few GTUIs, however, provide real-time visual feedback of data values to help users collaboratively identify trends. To address this gap, we present GeoTEAM, a novel tangible system for real-time,…",
-    "arxiv_id": "2607.22825"
-   },
-   "id": "194a38666c540812",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-24T18:05:43Z",
-   "score": 0.335,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Migration studies is an interdisciplinary field, requiring collaboration between researchers with varying levels of geospatial and quantitative data literacy. Geospatial tangible user interfaces (GTUIs) offer promising opportunities for embodied and collaborative spatial exploration of migration…",
-   "tags": [
-    "visualization",
-    "embodied"
-   ],
-   "title": "GeoTEAM: A Geospatial Tangible User Interface for Exploration and Visual Analysis of Migration Data",
-   "url": "https://arxiv.org/abs/2607.22825v1",
-   "venue": "arXiv cs.HC"
   }
  ],
  "meta": {
-  "count": 12,
-  "generated_at": "2026-07-28T23:14:04Z",
+  "count": 15,
+  "generated_at": "2026-07-29T03:35:56Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
    {
     "category": "optional",
-    "count": 9,
+    "count": 10,
     "error": null,
     "full_text_count": 0,
     "id": "arxiv_datavis",
@@ -410,7 +475,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A1050-6519%2Cfrom-created-date%3A2026-06-30&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A1050-6519%2Cfrom-created-date%3A2026-07-01&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",

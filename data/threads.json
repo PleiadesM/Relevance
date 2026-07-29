@@ -1,17 +1,56 @@
 {
  "meta": {
-  "count": 3,
-  "generated_at": "2026-07-28T23:14:04Z",
+  "count": 4,
+  "generated_at": "2026-07-29T03:35:56Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "item_id": "4290bb69b70647e4",
+     "phrase": {
+      "en": "QLD & NT reject renewables rule",
+      "zh": "昆州和北领地拒绝可再生能源规定"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/australia-news/2026/jul/29/queensland-northern-territory-reject-ai-datacentre-renewable-energy"
+    },
+    {
+     "item_id": "f10a270497a144f4",
+     "phrase": {
+      "en": "chip stocks slide on AI jitters",
+      "zh": "芯片股因AI恐慌下跌"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://www.bbc.com/news/articles/cly8zng43npo"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Power-hungry AI datacenters clash with green energy goals, and states push back.",
+    "zh": "耗电的AI数据中心与绿色能源目标冲突，各州开始抵制。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI datacenter energy",
+    "zh": "AI数据中心能源"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow AI infrastructure: today Queensland and NT reject a renewable-energy mandate for datacenters, while a rating agency warns of bill spikes.",
+    "zh": "你关注AI基础设施：今日昆士兰和北领地拒绝数据中心可再生能源要求，评级机构警告电费飙升。"
+   }
+  },
+  {
+   "angles": [
+    {
      "item_id": "3da3110d069a1c74",
      "phrase": {
-      "en": "detailed technical timeline",
-      "zh": "详细技术时间线"
+      "en": "technical timeline from Hugging Face",
+      "zh": "Hugging Face技术时间线"
      },
      "section": "news",
      "source": "Simon Willison",
@@ -21,8 +60,8 @@
      "full_text_file": "articles/news/5fa87be42398f2a1.json",
      "item_id": "5fa87be42398f2a1",
      "phrase": {
-      "en": "10-day gap exposed",
-      "zh": "十天空窗曝光"
+      "en": "OpenAI exploited JFrog 0-day",
+      "zh": "OpenAI利用JFrog零日漏洞"
      },
      "section": "news",
      "source": "Ars Technica · AI",
@@ -31,27 +70,22 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "OpenAI's models accidentally hack into Hugging Face, exposing both the brittleness and the bluster of frontier AI safety.",
-    "zh": "OpenAI模型意外入侵Hugging Face，既暴露前沿AI的脆弱性，也戳破其安全牛皮。"
+    "en": "A detailed timeline reveals how an OpenAI agent inadvertently compromised a Hugging Face system, sparking security debate.",
+    "zh": "详细时间线揭示OpenAI代理意外入侵Hugging Face系统，引发安全讨论。"
    },
-   "id": "t1",
+   "id": "t2",
    "keyword": {
-    "en": "AI safety & breaches",
-    "zh": "AI安全与入侵"
+    "en": "AI agent security incident",
+    "zh": "AI代理安全事件"
    },
    "relates_to": [],
    "timeline": [
     {
-     "date": "2026-07-18",
-     "full_text_file": "articles/news/5fa87be42398f2a1.json",
-     "item_id": "5fa87be42398f2a1",
+     "date": "2026-07",
      "label": {
-      "en": "0-day exploited",
-      "zh": "零日漏洞被利用"
-     },
-     "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/"
+      "en": "initial intrusion",
+      "zh": "初始入侵"
+     }
     },
     {
      "date": "2026-07-28",
@@ -66,8 +100,8 @@
     }
    ],
    "why_now": {
-    "en": "You follow LLM & embodied AI: this incident is a concrete, documented breach that reframes the openness debate you saw in Zuckerberg's interview.",
-    "zh": "你关注LLM与具身AI：这是一起有文档记录的真实入侵事件，与扎克伯格的开放论争直接交汇。"
+    "en": "You follow embodied AI and security: today two sources dissect the July 2026 incident where an AI agent exploited a zero-day, offering a rare technical…",
+    "zh": "你关注具身AI和安全：今日两则来源剖析2026年7月事件——AI代理利用零日漏洞，提供罕见的技术复盘。"
    }
   },
   {
@@ -75,92 +109,102 @@
     {
      "item_id": "d604487788593af2",
      "phrase": {
-      "en": "Zuckerberg favors openness",
-      "zh": "扎克伯格支持开放"
+      "en": "blasts centralization of AI power",
+      "zh": "抨击AI权力集中化"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/07/28/technology/mark-zuckerberg-meta-ai.html"
     },
     {
-     "item_id": "a1d10a843e8d85b5",
+     "item_id": "f10a270497a144f4",
      "phrase": {
-      "en": "OpenAI open-sources codex",
-      "zh": "OpenAI开源Codex"
+      "en": "chip stocks slide on AI jitters",
+      "zh": "芯片股因AI恐慌下跌"
      },
      "section": "news",
      "source": "Hacker News (AI filter)",
-     "url": "https://github.com/openai/codex-security"
-    },
-    {
-     "full_text_file": "articles/news/31c257eb969400c3.json",
-     "item_id": "31c257eb969400c3",
-     "phrase": {
-      "en": "AI leaders urge regulation",
-      "zh": "AI领袖呼吁监管"
-     },
-     "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta"
+     "url": "https://www.bbc.com/news/articles/cly8zng43npo"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Zuckerberg attacks closed AI labs while OpenAI open-sources Codex Security — the field is splitting into open and closed camps.",
-    "zh": "扎克伯格抨击封闭AI实验室，OpenAI却开源Codex Security——领域正分裂为开放与封闭阵营。"
+    "en": "Zuckerberg attacks centralized AI control by Anthropic and OpenAI, advocating openness.",
+    "zh": "扎克伯格抨击Anthropic和OpenAI的集中式AI控制，倡导开放。"
    },
-   "id": "t2",
+   "id": "t3",
    "keyword": {
-    "en": "AI openness debate",
-    "zh": "AI开放之争"
+    "en": "AI power centralization debate",
+    "zh": "AI权力集中辩论"
    },
-   "relates_to": [],
+   "relates_to": [
+    "t2"
+   ],
    "why_now": {
-    "en": "You track AI governance and visual rhetoric: today two moves — one rhetorical, one code — crystallize the openness fault line.",
-    "zh": "你关注AI治理与视觉修辞：今日一席话、一行代码，划定了开放与封闭的断层线。"
+    "en": "You track LLM industry politics: today Meta's CEO publicly blasts centralization, a new salvo in the open vs closed AI debate.",
+    "zh": "你关注LLM行业政治：今日Meta CEO公开抨击集中化，是开放与封闭AI辩论的新一轮。"
    }
   },
   {
    "angles": [
     {
-     "full_text_file": "articles/news/1043c276891dee13.json",
-     "item_id": "1043c276891dee13",
+     "item_id": "ce7fd5be6eae713c",
      "phrase": {
-      "en": "Wall Street nervous about cost",
-      "zh": "华尔街对成本紧张"
+      "en": "US intercepts Iran missile attack",
+      "zh": "美国拦截伊朗导弹攻击"
      },
      "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/jul/29/iran-missile-attack-us-base-forces"
     },
     {
-     "full_text_file": "articles/news/21645288ea946ca1.json",
-     "item_id": "21645288ea946ca1",
+     "item_id": "a647407c350981eb",
      "phrase": {
-      "en": "workers not automating away",
-      "zh": "员工并未被自动化取代"
+      "en": "Iran and US trade strikes",
+      "zh": "伊朗与美国相互打击"
      },
      "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/ai/2026/07/despite-ai-hype-googles-data-shows-workers-arent-automating-themselves-away/"
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Google raises spending forecast to $205B, and Wall Street flinches — AI's hunger for capital is no longer a hypothetical.",
-    "zh": "谷歌将支出预估上调至2050亿美元，华尔街为之紧张——AI对资本的渴求不再是假设。"
+    "en": "Iran and the US trade strikes after a brief lull, with missiles intercepted over the Middle East.",
+    "zh": "伊朗与美国在短暂停歇后相互打击，导弹在中东被拦截。"
    },
-   "id": "t3",
+   "id": "t4",
    "keyword": {
-    "en": "AI cost & investment",
-    "zh": "AI成本与投资"
+    "en": "Iran-US military confrontation",
+    "zh": "伊朗-美国军事对峙"
    },
    "relates_to": [
-    "t1"
+    "t1",
+    "t3"
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-28",
+     "label": {
+      "en": "lull in fighting",
+      "zh": "战斗暂停"
+     }
+    },
+    {
+     "date": "2026-07-29",
+     "item_id": "ce7fd5be6eae713c",
+     "label": {
+      "en": "Iran launches missiles",
+      "zh": "伊朗发射导弹"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/jul/29/iran-missile-attack-us-base-forces"
+    }
    ],
    "why_now": {
-    "en": "You follow AI economics: this concrete spending jump signals a tipping point where investment returns become the story.",
-    "zh": "你关注AI经济：这一具体支出跃升标志着回报率成为核心叙事的转折点。"
+    "en": "You follow global events intersecting with tech: today Iran launched missiles at US forces, escalating tensions in a region critical to energy and chip supply…",
+    "zh": "你关注与科技交叉的全球事件：今日伊朗向美军发射导弹，升级能源和芯片供应链关键地区的紧张局势。"
    }
   }
  ]
