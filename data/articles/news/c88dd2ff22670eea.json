@@ -1,0 +1,28 @@
+{
+ "full_text": "The scale of AI-generated media can be hard to grasp.\n\nStarling Lab, a research collaboration from Stanford University and the University of Southern California, estimates that it took until 1975—149 years after the invention of the camera—for humanity to create 1.5 billion images. It took generative AI just 18 months to do the same. And AI didn't stop there.\n\nThis spring, Google announced at I/O that its tools had been used to create more than 100 billion AI images and videos in just a couple of years, and Google is far from the only source of AI content. The company coupled this staggering statistic with a slew of partnerships to expand the use of its SynthID watermarking technology, which can be used to label AI-generated content and potentially help people identify what's real.\n\nRead full article\n\nComments",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/c88dd2ff22670eea.json",
+  "id": "c88dd2ff22670eea",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-07-29T11:00:39Z",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai",
+  "summary": "Deciding what's real on the Internet won't be easy in the future.",
+  "tags": [],
+  "title": "Google's SynthID watermark is hard to break, but it doesn't solve AI misinformation",
+  "url": "https://arstechnica.com/ai/2026/07/tested-google-synthid-works-great-but-labeling-ai-content-may-be-a-losing-game/"
+ },
+ "meta": {
+  "content_hash": "5f0b7385ecba8fb3",
+  "generated_at": "2026-07-29T14:29:46Z",
+  "item_id": "c88dd2ff22670eea",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai"
+ }
+}
