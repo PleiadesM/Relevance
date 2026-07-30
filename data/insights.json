@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "yarn bomb OR guerrilla knitting OR urban knitting",
+  "query": "home tea cultivation OR growing tea plants indoors",
   "source": {
-   "name": "About Regional",
-   "published_at": "2026-07-01T07:00:00Z",
-   "title": "Knitting circle fights isolation in the Snowys",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcGhvUTJfbFA5QXF5dTdqWnFZNDNFM1l6MzZMblRMMDVxaExlYXZmZ2syREVGUk92cWZYcHJFVDVyRHk4Rnl4bjVBci10X0xZTXFyUzNXb3NQRDNKMjdiVkU1b2JOWmNHblN2R09EZzRUMFBXZVJGN2VBYlpaVWhHbGNOWmlSRmRGYm9z?oc=5"
+   "name": "The Old Farmer’s Almanac",
+   "published_at": "2026-07-09T07:00:00Z",
+   "title": "Coreopsis (Tickseed) Flowers: Planting, Growing, and Care Tips",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1LaDFLMVJFd25ZZC1sSGM1OGU4OGFMQXJmeDI1aVllOWV4RlBMWkhMbUVvOXAtWGlZNGNMRjgtbmpuVFFIcGJTWWQxcmtSR1dy?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A knitting circle in the Snowy Mountains aims to combat social isolation among seniors.",
-    "why_irrelevant": "it is a hyperlocal community event far removed from any personal newsfeed."
+    "summary": "The Old Farmer’s Almanac offers tips on planting, growing, and caring for coreopsis (tickseed) flowers.",
+    "why_irrelevant": "because it's about flower gardening, not tea cultivation."
    },
    "zh": {
-    "summary": "雪山山脉的一个编织圈旨在缓解老年人的社交孤立。",
-    "why_irrelevant": "这是一个远离个人信息流的本地社区活动。"
+    "summary": "《老农夫年鉴》提供关于种植、养护金鸡菊（蜱虫花）的技巧。",
+    "why_irrelevant": "因为它涉及的是花卉园艺，而非茶叶种植。"
    }
   },
-  "topic": "yarn bombing graffiti knitting"
+  "topic": "grow your own tea at home"
  },
- "brief": "US economic growth slows while inflation persists, and a Russian missile crash in Poland heightens NATO tensions. Research highlights AI's impact on productivity and understanding, along with knowledge-graph tools for QA generation.",
+ "brief": "European soccer threatens World Cup boycott, US launches heavy strikes on Iran, and new AI models control robots and reshape teamwork. Research explores how coding agents boost productivity but harm understanding.",
  "meta": {
-  "generated_at": "2026-07-30T14:29:07Z"
+  "generated_at": "2026-07-30T17:46:12Z"
  },
- "news_summary": "US GDP grew 1.5% in Q2, slower than expected, and a Russian missile struck Poland, prompting NATO to vow defense. Other stories include a UK strike over breaks, a US map mislabeling Africa, and the first Alien Terrorist Removal Court hearing.",
- "papers_summary": "New research examines how coding agents boost productivity but harm understanding, and how AI teammates reshape human communication. A knowledge-graph framework for QA pair generation is also introduced.",
+ "news_summary": "European soccer leaders threaten World Cup boycott over FIFA deal; US launches heavy strikes on Iran after pause; Russian missile reportedly violates Polish airspace.",
+ "papers_summary": "Studies show coding agents improve productivity but reduce developer understanding; AI teammates alter human-human communication in decision-making.",
  "summaries": {
   "en": {
-   "brief": "US economic growth slows while inflation persists, and a Russian missile crash in Poland heightens NATO tensions. Research highlights AI's impact on productivity and understanding, along with knowledge-graph tools for QA generation.",
-   "news_summary": "US GDP grew 1.5% in Q2, slower than expected, and a Russian missile struck Poland, prompting NATO to vow defense. Other stories include a UK strike over breaks, a US map mislabeling Africa, and the first Alien Terrorist Removal Court hearing.",
-   "papers_summary": "New research examines how coding agents boost productivity but harm understanding, and how AI teammates reshape human communication. A knowledge-graph framework for QA pair generation is also introduced."
+   "brief": "European soccer threatens World Cup boycott, US launches heavy strikes on Iran, and new AI models control robots and reshape teamwork. Research explores how coding agents boost productivity but harm understanding.",
+   "news_summary": "European soccer leaders threaten World Cup boycott over FIFA deal; US launches heavy strikes on Iran after pause; Russian missile reportedly violates Polish airspace.",
+   "papers_summary": "Studies show coding agents improve productivity but reduce developer understanding; AI teammates alter human-human communication in decision-making."
   },
   "zh": {
-   "brief": "今日新聞聚焦澳門國安法首案區錦新被羈押一年、巴西健美運動員因類固醇死亡引發關注，以及中國機器人進軍英國零售業。經濟方面，美國GDP增速放緩至1.5%，通膨壓力持續。",
-   "news_summary": "澳門前議員區錦新成為國安法首位被告，羈押滿一年且無法與外界聯繫；巴西年輕健美運動員接連死亡，凸顯類固醇危害；中國機器人公司瞄準英國勞動力短缺市場。美經濟增速放緩至1.5%，通膨仍高；波蘭總理證實俄羅斯飛彈落入境內。",
-   "papers_summary": "本日無優先論文，但英文論文中，GraphQAG探討知識圖譜引導的問答對生成，\n(Im)Paired Programming則指出編碼代理雖提升效率但損害程式理解。"
+   "brief": "澳门国安法首案被告区锦新被羁押满一年，家人与律师均无法联系；同时，中国机器人公司正借英国劳动力短缺之机拓展零售业市场。欧洲足联威胁抵制世界杯，美国红会宣布全国血液供应危机。",
+   "news_summary": "澳门前议员区锦新因国安法被单独监禁满一年，家人无法探视；中国机器人企业瞄准英国生产力疲软和劳工短缺，加速布局零售自动化。",
+   "papers_summary": "新研究揭示AI编程助手虽提升效率但损害开发者对代码的深层理解；另一项工作探索AI队友如何重塑小团队中的人际沟通。"
   }
  },
  "todays_image": {
-  "caption": "Both the missile mail container and hospital systems were originally designed for targeted delivery—one of letters, the other of care—but now serve unintended, strained purposes.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-0_234863_9aa",
-  "source_name": "National Postal Museum",
-  "source_url": "https://postalmuseum.si.edu/object/npm_0.234863.9",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-0_234863_9aa",
-  "title": "Regulus I Missile Mail container"
+  "caption": "The public domain \"Soccer Game\" captures the spirit of the sport on the field, while today's boycott reveals that the real game is now being played off it.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1888BD60008B2-000001",
+  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/131435",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1888BD60008B2-000001",
+  "title": "Soccer Game"
  }
 }

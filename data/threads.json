@@ -1,7 +1,7 @@
 {
  "meta": {
-  "count": 3,
-  "generated_at": "2026-07-30T14:29:07Z",
+  "count": 4,
+  "generated_at": "2026-07-30T17:46:12Z",
   "scope": "public"
  },
  "threads": [
@@ -11,8 +11,8 @@
      "full_text_file": "articles/news/0364792b8bdd953d.json",
      "item_id": "0364792b8bdd953d",
      "phrase": {
-      "en": "Frames flaw as fundamental",
-      "zh": "将缺陷视为根本性"
+      "en": "Fundamental flaw exposed",
+      "zh": "根本缺陷曝光"
      },
      "section": "news",
      "source": "MIT Technology Review · AI",
@@ -21,40 +21,28 @@
     {
      "item_id": "61f2ae1df3e2ec42",
      "phrase": {
-      "en": "Simplifies scientific summaries",
-      "zh": "简化科学摘要"
+      "en": "HITL corpus for LLM simplification",
+      "zh": "人类在环语料库用于LLM简化"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
      "url": "https://arxiv.org/abs/2607.25630v1"
-    },
-    {
-     "item_id": "318dfc4bec6764db",
-     "phrase": {
-      "en": "Agents improve speed, harm understanding",
-      "zh": "代理提升速度但损害理解"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.26375v1"
     }
    ],
-   "convergence": "divergent",
+   "convergence": "convergent",
    "gloss": {
-    "en": "A fundamental vulnerability in LLMs cannot be fixed, researchers say.",
-    "zh": "研究人员称，LLM存在无法修复的根本性漏洞。"
+    "en": "A fundamental flaw makes LLMs permanently hackable, researchers prove.",
+    "zh": "一个根本缺陷使LLM永久可被攻击，研究人员已证实。"
    },
    "id": "t1",
    "keyword": {
-    "en": "LLM security flaw",
-    "zh": "LLM安全缺陷"
+    "en": "LLM vulnerability",
+    "zh": "LLM脆弱性"
    },
-   "relates_to": [
-    "t2"
-   ],
+   "relates_to": [],
    "why_now": {
-    "en": "You follow AI safety; today's paper argues the flaw is inherent.",
-    "zh": "你关注AI安全，今日论文指出缺陷是固有的。"
+    "en": "You track LLM security: MIT Tech Review reports an inherent flaw making all LLMs insecure.",
+    "zh": "你关注LLM安全，MIT技术评论报告了使所有LLM不安全的固有缺陷。"
    }
   },
   {
@@ -62,89 +50,118 @@
     {
      "item_id": "59ac3bc2ea8d9012",
      "phrase": {
-      "en": "AI teammate reshapes human talk",
-      "zh": "AI队友重塑人类对话"
+      "en": "Social cost of AI teammate",
+      "zh": "AI队友的社会成本"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
      "url": "https://arxiv.org/abs/2607.27179v1"
     },
     {
-     "item_id": "fa0a22049fec5bb7",
+     "item_id": "15890a76f3f15d5d",
      "phrase": {
-      "en": "Interface for steering AI agents",
-      "zh": "用于操控AI代理的界面"
+      "en": "QA generation via knowledge graph",
+      "zh": "通过知识图谱生成问答对"
      },
      "section": "papers",
      "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.26300v1"
+     "url": "https://arxiv.org/abs/2607.27182v1"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "AI as a teammate changes how humans talk to each other.",
-    "zh": "AI作为队友改变了人类之间的交流方式。"
+    "en": "AI as teammate reshapes how humans talk to each other in teams.",
+    "zh": "AI作为队友重塑团队中人类之间的沟通方式。"
    },
    "id": "t2",
    "keyword": {
-    "en": "AI teammate",
-    "zh": "AI队友"
+    "en": "AI teammate communication",
+    "zh": "AI队友沟通"
    },
-   "relates_to": [
-    "t1"
-   ],
+   "relates_to": [],
    "why_now": {
-    "en": "You care about HCI; this study shows real human communication shifts.",
-    "zh": "你关注人机交互，这项研究展示了真实的人类交流变化。"
+    "en": "You study HCI: new research reveals AI teammates alter human-human communication dynamics.",
+    "zh": "你研究人机交互，新研究揭示AI队友改变人际沟通动态。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "5d9270cfb48121d7",
+     "item_id": "fa0a22049fec5bb7",
      "phrase": {
-      "en": "Visual guide to wildfires",
-      "zh": "山火视觉指南"
+      "en": "Interface for observing agents",
+      "zh": "观察代理的界面"
      },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/jul/30/europe-burns-france-spain-visual-guide-wildfires"
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.26300v1"
     },
     {
-     "item_id": "499b5f0b88715708",
+     "item_id": "318dfc4bec6764db",
      "phrase": {
-      "en": "Scotland races to save park",
-      "zh": "苏格兰争分夺秒拯救公园"
+      "en": "Coding agents harm understanding",
+      "zh": "编码代理损害理解"
      },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/30/world/europe/scotland-wildfire-cairngorms-highlands.html"
-    },
-    {
-     "item_id": "923cd6f0666e3af8",
-     "phrase": {
-      "en": "Greece firefighters die",
-      "zh": "希腊消防员牺牲"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/30/world/europe/wildfires-europe-greece.html"
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.26375v1"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Wildfires rage across Europe, from Greece to Scotland.",
-    "zh": "山火肆虐欧洲，从希腊到苏格兰。"
+    "en": "Interfaces to watch and steer long-running AI agents are emerging.",
+    "zh": "用于观察和引导长时间运行的AI代理的界面正在涌现。"
    },
    "id": "t3",
    "keyword": {
-    "en": "wildfires Europe",
-    "zh": "欧洲山火"
+    "en": "AI agent oversight",
+    "zh": "AI代理监督"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track climate viz; two sources offer visual guides on the blazes.",
-    "zh": "你关注气候可视化，两个来源提供了火灾视觉指南。"
+    "en": "You care about human-AI interaction: AgentGUI lets you oversee autonomous agents, a new HCI frontier.",
+    "zh": "你关心人机交互，AgentGUI让你监督自主代理，这是人机交互的新前沿。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "61f2ae1df3e2ec42",
+     "phrase": {
+      "en": "LLM simplifies scientific summaries",
+      "zh": "LLM简化科学摘要"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.25630v1"
+    },
+    {
+     "item_id": "4170bba5e28255b9",
+     "phrase": {
+      "en": "LLM-assisted spatial data discovery",
+      "zh": "LLM辅助空间数据发现"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.25124v1"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "LLMs simplify scientific summaries and assist discovery across fields.",
+    "zh": "LLM简化科学摘要并协助跨领域发现。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "scientific communication",
+    "zh": "科学交流"
+   },
+   "relates_to": [
+    "t2"
+   ],
+   "why_now": {
+    "en": "You follow technical communication: new corpus and urban data tool use LLMs to bridge disciplines.",
+    "zh": "你关注技术传播，新语料库和城市数据工具使用LLM连接学科。"
    }
   }
  ]

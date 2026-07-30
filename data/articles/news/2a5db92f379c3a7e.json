@@ -1,0 +1,30 @@
+{
+ "full_text": "This week, the Model Context Protocol (MCP) , an open source standard for how AI systems interact with external tools and data sources, saw its largest update since its introduction. Most notably, MCP's protocol core is now stateless, so requests are no longer dependent on a session tied to an individual server instance. This change has the potential to address long-standing barriers to scalability.\n\nThe blog post announcing the specification, written by lead maintainers David Soria Parra and Den Delimarsky (who both work at Anthropic), says:\n\nRead full article\n\nComments",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/2a5db92f379c3a7e.json",
+  "id": "2a5db92f379c3a7e",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-07-30T14:53:07Z",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai",
+  "summary": "Plus, a new policy for the AI protocol ensures features aren't removed suddenly.",
+  "tags": [
+   "policy"
+  ],
+  "title": "New MCP specification addresses the main barrier to enterprise adoption",
+  "url": "https://arstechnica.com/ai/2026/07/with-a-stateless-makeover-new-mcp-spec-targets-enterprise-scale/"
+ },
+ "meta": {
+  "content_hash": "9c8e544198b640c8",
+  "generated_at": "2026-07-30T17:46:12Z",
+  "item_id": "2a5db92f379c3a7e",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai"
+ }
+}
