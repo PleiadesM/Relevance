@@ -1,0 +1,33 @@
+{
+ "full_text": "Robots powered by Google's Gemini AI models are now more capable. With the debut of Gemini Robotics 2 , these physical bots can now accomplish more complex tasks, continuously analyze changing environments, and collaborate with other robots. This is thanks to a trio of new sub-models, one of which is publicly available for developers starting today.\n\nVideos of robots running, dancing, and backflipping have been a staple of the Internet for years, but these machines were programmed to perform these very narrow tasks. The goal of Gemini robotics is to create a generalist robot, one that can do anything a human could do. Google DeepMind scientists sometimes call this \"physical AGI.\" Essentially, you tell a robot what to do, and it does it. With the 2.0 release, Google says its robotics AI can control an entire humanoid robot with improved dexterity, even for machines with complex humanoid hands.\n\nGemini Robotics 2 brings whole-body intelligence to robots.\n\nThis starts with Gemini Robotics ER 2, an upgraded \"embodied reasoning\" model that DeepMind claims is a significant leap over the previous 1.6 release . It's integrated with the Gemini Live API, giving developers the opportunity to experience that supposed leap forward.\n\nRead full article\n\nComments",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/ddd670a21debfb03.json",
+  "id": "ddd670a21debfb03",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-07-30T17:58:02Z",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai",
+  "summary": "Gemini Robotics 2 includes three models, but only one is publicly available right now.",
+  "tags": [
+   "policy",
+   "robotics",
+   "llm",
+   "embodied"
+  ],
+  "title": "Google reveals Gemini Robotics 2.0, promising improved dexterity and safety",
+  "url": "https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety/"
+ },
+ "meta": {
+  "content_hash": "9972d5124f62a0ef",
+  "generated_at": "2026-07-30T19:48:56Z",
+  "item_id": "ddd670a21debfb03",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai"
+ }
+}

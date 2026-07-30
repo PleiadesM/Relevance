@@ -1,87 +1,89 @@
 {
  "meta": {
   "count": 4,
-  "generated_at": "2026-07-30T17:46:12Z",
+  "generated_at": "2026-07-30T19:48:56Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "full_text_file": "articles/news/0364792b8bdd953d.json",
-     "item_id": "0364792b8bdd953d",
+     "full_text_file": "articles/news/ddd670a21debfb03.json",
+     "item_id": "ddd670a21debfb03",
      "phrase": {
-      "en": "Fundamental flaw exposed",
-      "zh": "根本缺陷曝光"
+      "en": "Google reveals Gemini Robotics 2.0",
+      "zh": "谷歌发布Gemini Robotics 2.0"
      },
      "section": "news",
-     "source": "MIT Technology Review · AI",
-     "url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/"
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety/"
     },
     {
-     "item_id": "61f2ae1df3e2ec42",
+     "full_text_file": "articles/news/08af72922783429a.json",
+     "item_id": "08af72922783429a",
      "phrase": {
-      "en": "HITL corpus for LLM simplification",
-      "zh": "人类在环语料库用于LLM简化"
+      "en": "AI model controls entire humanoid",
+      "zh": "AI模型控制整个人形机器人"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.25630v1"
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "A fundamental flaw makes LLMs permanently hackable, researchers prove.",
-    "zh": "一个根本缺陷使LLM永久可被攻击，研究人员已证实。"
+    "en": "AI models now command full robot bodies, from fingers to feet.",
+    "zh": "AI模型如今能控制完整机器人躯体，从手指到脚。"
    },
    "id": "t1",
    "keyword": {
-    "en": "LLM vulnerability",
-    "zh": "LLM脆弱性"
+    "en": "embodied AI control",
+    "zh": "具身AI控制"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track LLM security: MIT Tech Review reports an inherent flaw making all LLMs insecure.",
-    "zh": "你关注LLM安全，MIT技术评论报告了使所有LLM不安全的固有缺陷。"
+    "en": "You track embodied AI: today DeepMind revealed whole-humanoid control.",
+    "zh": "你关注具身AI，今日DeepMind公布了全身人形机器人控制。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "59ac3bc2ea8d9012",
+     "full_text_file": "articles/news/0bf17be9d9af5ab5.json",
+     "item_id": "0bf17be9d9af5ab5",
      "phrase": {
-      "en": "Social cost of AI teammate",
-      "zh": "AI队友的社会成本"
+      "en": "LinkedIn adds 'seems like AI slop'",
+      "zh": "LinkedIn增加'疑似AI垃圾'标签"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.27179v1"
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/973384/linkedin-seems-like-ai-slop-button"
     },
     {
-     "item_id": "15890a76f3f15d5d",
+     "item_id": "16e4dad6c6fd188e",
      "phrase": {
-      "en": "QA generation via knowledge graph",
-      "zh": "通过知识图谱生成问答对"
+      "en": "distillation avoids censorship",
+      "zh": "蒸馏保留未审查内容"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.27182v1"
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://www.ctgt.ai/research/distillation-censorship-transfer"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "AI as teammate reshapes how humans talk to each other in teams.",
-    "zh": "AI作为队友重塑团队中人类之间的沟通方式。"
+    "en": "Platforms start labeling AI-generated clutter, but the cure may be as messy as the disease.",
+    "zh": "平台开始标记AI生成垃圾，但良方可能与问题一样混乱。"
    },
    "id": "t2",
    "keyword": {
-    "en": "AI teammate communication",
-    "zh": "AI队友沟通"
+    "en": "AI slop moderation",
+    "zh": "AI垃圾内容审查"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You study HCI: new research reveals AI teammates alter human-human communication dynamics.",
-    "zh": "你研究人机交互，新研究揭示AI队友改变人际沟通动态。"
+    "en": "You care about AI's public texture: LinkedIn just added an 'AI slop' report button.",
+    "zh": "你关注AI的公共形象：LinkedIn刚增加了'疑似AI垃圾'举报按钮。"
    }
   },
   {
@@ -89,28 +91,28 @@
     {
      "item_id": "fa0a22049fec5bb7",
      "phrase": {
-      "en": "Interface for observing agents",
-      "zh": "观察代理的界面"
+      "en": "AgentGUI for steering agents",
+      "zh": "AgentGUI用于引导代理"
      },
      "section": "papers",
      "source": "arXiv cs.HC + cs.GR",
      "url": "https://arxiv.org/abs/2607.26300v1"
     },
     {
-     "item_id": "318dfc4bec6764db",
+     "item_id": "8ef9013daeb13bf1",
      "phrase": {
-      "en": "Coding agents harm understanding",
-      "zh": "编码代理损害理解"
+      "en": "differential-privacy gateway",
+      "zh": "差分隐私网关"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.26375v1"
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://github.com/yashmahajan10/llm-differential-privacy-gateway"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Interfaces to watch and steer long-running AI agents are emerging.",
-    "zh": "用于观察和引导长时间运行的AI代理的界面正在涌现。"
+    "en": "Long-running agents need human windows; new interfaces let you peek and steer.",
+    "zh": "长时间运行的代理需要人类窗口，新接口让你窥视和引导。"
    },
    "id": "t3",
    "keyword": {
@@ -119,49 +121,47 @@
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about human-AI interaction: AgentGUI lets you oversee autonomous agents, a new HCI frontier.",
-    "zh": "你关心人机交互，AgentGUI让你监督自主代理，这是人机交互的新前沿。"
+    "en": "You follow agentic AI: two papers today tackle the human oversight gap.",
+    "zh": "你关注自主AI：今天两篇论文直击人类监督缺口。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "61f2ae1df3e2ec42",
+     "item_id": "e84b3f3222c0a67e",
      "phrase": {
-      "en": "LLM simplifies scientific summaries",
-      "zh": "LLM简化科学摘要"
+      "en": "Colin Gray gets 15 years",
+      "zh": "科林·格雷被判15年"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.25630v1"
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/30/us/colin-gray-sentencing-apalachee-school-shooting.html"
     },
     {
-     "item_id": "4170bba5e28255b9",
+     "item_id": "887851f5b751b976",
      "phrase": {
-      "en": "LLM-assisted spatial data discovery",
-      "zh": "LLM辅助空间数据发现"
+      "en": "father sentenced for son's act",
+      "zh": "父亲因儿子行为被判刑"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.25124v1"
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c78g4y18rxgo?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "LLMs simplify scientific summaries and assist discovery across fields.",
-    "zh": "LLM简化科学摘要并协助跨领域发现。"
+    "en": "A father is sentenced for his son's school shooting, setting a precedential boundary.",
+    "zh": "父亲因儿子校园枪击被判刑，划定了先例边界。"
    },
    "id": "t4",
    "keyword": {
-    "en": "scientific communication",
-    "zh": "科学交流"
+    "en": "parental responsibility",
+    "zh": "家长责任"
    },
-   "relates_to": [
-    "t2"
-   ],
+   "relates_to": [],
    "why_now": {
-    "en": "You follow technical communication: new corpus and urban data tool use LLMs to bridge disciplines.",
-    "zh": "你关注技术传播，新语料库和城市数据工具使用LLM连接学科。"
+    "en": "You follow societal rhetoric: this sentence redefines where parental duty ends.",
+    "zh": "你关注社会修辞：这一判决重新定义了家长责任的边界。"
    }
   }
  ]
