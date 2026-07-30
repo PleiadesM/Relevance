@@ -1,128 +1,57 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-07-30T19:48:56Z",
+  "count": 2,
+  "generated_at": "2026-07-30T21:21:15Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "full_text_file": "articles/news/ddd670a21debfb03.json",
-     "item_id": "ddd670a21debfb03",
+     "item_id": "44689545d92eb108",
      "phrase": {
-      "en": "Google reveals Gemini Robotics 2.0",
-      "zh": "谷歌发布Gemini Robotics 2.0"
+      "en": "Spain mobilizes military",
+      "zh": "西班牙出动军队"
      },
      "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety/"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/30/world/europe/spain-morocco-ceuta-migrants.html"
     },
     {
-     "full_text_file": "articles/news/08af72922783429a.json",
-     "item_id": "08af72922783429a",
+     "item_id": "8a962b0ad28c6364",
      "phrase": {
-      "en": "AI model controls entire humanoid",
-      "zh": "AI模型控制整个人形机器人"
+      "en": "Migrants swim around fence",
+      "zh": "移民绕过围栏游泳"
      },
      "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body"
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/videos/cnvnml1pen6o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "ebff520e8c8c792f",
+     "phrase": {
+      "en": "Hundreds swim into Ceuta",
+      "zh": "数百人游入休达"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cg4drwzkrkxo?at_medium=RSS&at_campaign=rss"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "AI models now command full robot bodies, from fingers to feet.",
-    "zh": "AI模型如今能控制完整机器人躯体，从手指到脚。"
+    "en": "Hundreds swim from Morocco to a Spanish enclave, overwhelming local resources.",
+    "zh": "数百人从摩洛哥游往西班牙飞地，当地资源不堪重负。"
    },
    "id": "t1",
    "keyword": {
-    "en": "embodied AI control",
-    "zh": "具身AI控制"
+    "en": "migrant crisis Ceuta",
+    "zh": "休达移民危机"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track embodied AI: today DeepMind revealed whole-humanoid control.",
-    "zh": "你关注具身AI，今日DeepMind公布了全身人形机器人控制。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "full_text_file": "articles/news/0bf17be9d9af5ab5.json",
-     "item_id": "0bf17be9d9af5ab5",
-     "phrase": {
-      "en": "LinkedIn adds 'seems like AI slop'",
-      "zh": "LinkedIn增加'疑似AI垃圾'标签"
-     },
-     "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/973384/linkedin-seems-like-ai-slop-button"
-    },
-    {
-     "item_id": "16e4dad6c6fd188e",
-     "phrase": {
-      "en": "distillation avoids censorship",
-      "zh": "蒸馏保留未审查内容"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://www.ctgt.ai/research/distillation-censorship-transfer"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Platforms start labeling AI-generated clutter, but the cure may be as messy as the disease.",
-    "zh": "平台开始标记AI生成垃圾，但良方可能与问题一样混乱。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "AI slop moderation",
-    "zh": "AI垃圾内容审查"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You care about AI's public texture: LinkedIn just added an 'AI slop' report button.",
-    "zh": "你关注AI的公共形象：LinkedIn刚增加了'疑似AI垃圾'举报按钮。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "fa0a22049fec5bb7",
-     "phrase": {
-      "en": "AgentGUI for steering agents",
-      "zh": "AgentGUI用于引导代理"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.26300v1"
-    },
-    {
-     "item_id": "8ef9013daeb13bf1",
-     "phrase": {
-      "en": "differential-privacy gateway",
-      "zh": "差分隐私网关"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://github.com/yashmahajan10/llm-differential-privacy-gateway"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Long-running agents need human windows; new interfaces let you peek and steer.",
-    "zh": "长时间运行的代理需要人类窗口，新接口让你窥视和引导。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "AI agent oversight",
-    "zh": "AI代理监督"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow agentic AI: two papers today tackle the human oversight gap.",
-    "zh": "你关注自主AI：今天两篇论文直击人类监督缺口。"
+    "en": "You follow geopolitical flashpoints; two outlets cover a sudden migrant surge that strains borders today.",
+    "zh": "你关注地缘热点，今日两家媒体同时报道突发移民潮冲击边境。"
    }
   },
   {
@@ -130,8 +59,8 @@
     {
      "item_id": "e84b3f3222c0a67e",
      "phrase": {
-      "en": "Colin Gray gets 15 years",
-      "zh": "科林·格雷被判15年"
+      "en": "Father sentenced 15 years",
+      "zh": "父亲被判15年"
      },
      "section": "news",
      "source": "The New York Times",
@@ -140,8 +69,8 @@
     {
      "item_id": "887851f5b751b976",
      "phrase": {
-      "en": "father sentenced for son's act",
-      "zh": "父亲因儿子行为被判刑"
+      "en": "You failed as a parent",
+      "zh": "你作为家长失职"
      },
      "section": "news",
      "source": "BBC World",
@@ -150,18 +79,18 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "A father is sentenced for his son's school shooting, setting a precedential boundary.",
-    "zh": "父亲因儿子校园枪击被判刑，划定了先例边界。"
+    "en": "A father sentenced to 15 years for giving his son the gun used in a school shooting.",
+    "zh": "父亲因提供枪支用于校园枪击被判15年。"
    },
-   "id": "t4",
+   "id": "t2",
    "keyword": {
-    "en": "parental responsibility",
-    "zh": "家长责任"
+    "en": "parental responsibility shootings",
+    "zh": "家长责任校园枪击"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow societal rhetoric: this sentence redefines where parental duty ends.",
-    "zh": "你关注社会修辞：这一判决重新定义了家长责任的边界。"
+    "en": "You follow human-computer interaction and ethics; this verdict sets a precedent for accountability in tool use.",
+    "zh": "你关注人机交互与伦理，此判例为工具使用责任设立先例。"
    }
   }
  ]
