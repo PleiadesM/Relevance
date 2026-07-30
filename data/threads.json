@@ -1,110 +1,88 @@
 {
  "meta": {
   "count": 2,
-  "generated_at": "2026-07-30T06:39:21Z",
+  "generated_at": "2026-07-30T10:33:22Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "ccf4629307ee1255",
+     "item_id": "59ac3bc2ea8d9012",
      "phrase": {
-      "en": "Trump considering AI controls after hacks",
-      "zh": "黑客后特朗普考虑AI管控"
+      "en": "AI teammate alters human talk",
+      "zh": "AI队友改变人际交流"
      },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c20dppq3y90o?at_medium=RSS&at_campaign=rss"
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.27179v1"
     },
     {
-     "item_id": "2bfc0ffcad107eee",
+     "item_id": "fa0a22049fec5bb7",
      "phrase": {
-      "en": "xAI sues over anti-nudification law",
-      "zh": "xAI起诉反深度伪造法律"
+      "en": "interface to steer AI agents",
+      "zh": "操控AI代理的界面"
      },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/technology/2026/jul/29/xai-sues-minnesota-nudification-technology"
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.26300v1"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "After hacks, the White House may flip from hands-off to hands-on on AI.",
-    "zh": "黑客事件后，白宫或从放手转向监管。"
+    "en": "AI as teammate reshapes how humans talk to each other, not just to machines.",
+    "zh": "AI作为队友，重塑了人与人之间的交流方式，而不仅限于人机对话。"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI controls",
-    "zh": "AI监管"
+    "en": "AI teammate & communication",
+    "zh": "AI队友与沟通"
    },
-   "relates_to": [],
+   "relates_to": [
+    "t2"
+   ],
    "why_now": {
-    "en": "You track AI policy: a policy pivot is now on the table.",
-    "zh": "你关注AI政策，今日出现了政策转向的可能。"
+    "en": "You study human-computer interaction and embodied AI: two new papers show AI teammates distort human-human communication and visual analytics workflows.",
+    "zh": "你研究人机交互与具身AI，两篇新论文显示AI队友会扭曲人际沟通和可视分析流程。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "59ac3bc2ea8d9012",
+     "item_id": "61f2ae1df3e2ec42",
      "phrase": {
-      "en": "AI teammate changes human talk",
-      "zh": "AI队友改变人类交流"
+      "en": "LLM simplifies scientific summaries",
+      "zh": "LLM简化科学摘要"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.27179v1"
+     "url": "https://arxiv.org/abs/2607.25630v1"
     },
     {
-     "item_id": "fa0a22049fec5bb7",
+     "item_id": "4170bba5e28255b9",
      "phrase": {
-      "en": "GUI for steering long-running agents",
-      "zh": "引导长期运行代理的界面"
+      "en": "LLM integrates urban spatial data",
+      "zh": "LLM整合城市空间数据"
      },
      "section": "papers",
      "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.26300v1"
+     "url": "https://arxiv.org/abs/2607.25124v1"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "AI as teammate reshapes how humans talk to each other, not just to the machine.",
-    "zh": "AI作为队友，重塑了人与人之间的沟通方式。"
+    "en": "LLMs simplify scientific summaries and integrate urban spatial data, bridging disciplines.",
+    "zh": "大语言模型简化科学摘要并整合城市空间数据，桥接不同学科。"
    },
    "id": "t2",
    "keyword": {
-    "en": "AI teammate",
-    "zh": "AI队友"
+    "en": "LLM in scientific & spatial data",
+    "zh": "大语言模型用于科学空间数据"
    },
    "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-07-28",
-     "item_id": "fa0a22049fec5bb7",
-     "label": {
-      "en": "AgentGUI for AI agents",
-      "zh": "AgentGUI用于AI代理"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.26300v1"
-    },
-    {
-     "date": "2026-07-29",
-     "item_id": "59ac3bc2ea8d9012",
-     "label": {
-      "en": "AI teammate paper",
-      "zh": "AI队友论文"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.27179v1"
-    }
-   ],
    "why_now": {
-    "en": "You study HCI: a new paper reveals the social cost of AI teammates.",
-    "zh": "你研究人机交互，一篇新论文揭示了AI队友的社会成本。"
+    "en": "You follow LLM and technical communication: two papers show LLMs used for science communication and urban data integration.",
+    "zh": "你关注大语言模型与技术传播，两篇论文展示LLM用于科学传播与城市数据整合。"
    }
   }
  ]

@@ -1,48 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "Pushkar Lake ritual bathing OR Pushkar fair traditions",
-  "source": {
-   "name": "Bhaskar English",
-   "published_at": "2026-07-18T11:00:25Z",
-   "title": "Women to compete in bullock-cart race for the 1st time: Pushkar fair to feature 60-km horse ride through Ar...",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTVlhTWd2SFJIUTktZ1NZcmRzdHBKdjU3Ymd3VWRERG82S3NFUlUxQjI1TG1haF9Bby1iOURkbi1rUjczQTZWM0VLSHRpeTJvTXVfZHNZNmQ1VlBya0FiTWMtWjBvaUJwU05melV2Z2dmM0pLM1l6aWFtblhsS09JYzZhWWFsU2RleERKeGtMd3dEbDMxc19oRnZUeDhOS3l4RzdoajhOQVJmVHpWRWFrR1VrWkVJTkFuakx4M0YzSS0tSENVRFJlcV9vWEjSAdIBQVVfeXFMUGxSRGNSNVdYTy1CbmlaR1JPQVBQdWdYeWdoM3E1MXJsSEtPaGdxM3FWWGt4U19GZ3pmWm1tTGRPUGk1Unl5U0tWeFBHbzZ0dElNaS11OV80MVZWcXZCdl91S08xZUpUZGVpSXlwMFd5MjlFSDc0Ulc1b29VZ0luRjlzbElZOEJOdkhTQzRlcE5sUXR4aDY1UUc3SFhjbWRfZkNTc3lmOGVBUkR5Qk9CeFRmbmZqUEIzNU9KRnRfZC1ETDNmSDBkNHN0TmhOd3QzQVBB?oc=5"
-  },
-  "summaries": {
-   "en": {
-    "summary": "Women will compete in a bullock-cart race for the first time at the Pushkar fair, which also includes a 60-km horse ride.",
-    "why_irrelevant": "This is a specific local sports event far from typical feed topics."
-   },
-   "zh": {
-    "summary": "女性首次在普什卡集市上参加牛车比赛，该集市还包括60公里的骑马活动。",
-    "why_irrelevant": "这是一个远离常规推送主题的特定地方体育赛事。"
-   }
-  },
-  "topic": "ritual bathing in India's Pushkar Lake"
- },
- "brief": "International tensions rise with US and Jordan striking Iran, while Japan earthquake death toll climbs. In tech news, a GDPR complaint targets consent collection, and research shows AI coding agents may harm understanding.",
+ "brief": "Today's news is dominated by escalating conflicts in Europe and the Middle East, with Russian missiles possibly striking Poland, US strikes on Iran, and deadly wildfires in Greece. Research highlights the social costs of AI teammates and productivity trade-offs with coding agents.",
  "meta": {
-  "generated_at": "2026-07-30T06:39:21Z"
+  "generated_at": "2026-07-30T10:33:22Z"
  },
- "news_summary": "The US launched heavy strikes on Iran after an attempted attack on American troops, as Jordan foiled a missile attack. Meanwhile, Japan's earthquake death toll reached 28, and Salman Rushdie's attacker was convicted of terrorism.",
- "papers_summary": "A study finds AI coding agents improve productivity but harm understanding, while another explores how AI teammates reshape human communication. New frameworks for question-answer pair generation and immersive network visualization are proposed.",
+ "news_summary": "A Russian missile likely struck Poland, killing at least 8 in Ukraine; US launched heavy strikes on Iran after Jordan intercepted missiles. Wildfires in Greece killed 3 firefighters, and heatwaves caused nearly 3,000 excess deaths in England. Republican disenfranchisement efforts are driving Black voter turnout, while US hospitals see a surge of uninsured patients after Obamacare cuts.",
+ "papers_summary": "Studies explore how AI teammates reshape human communication, and how coding agents improve productivity but harm understanding. Other work examines repair as representational work in AI-assisted development and the social cost of AI teammates in team decision-making.",
  "summaries": {
   "en": {
-   "brief": "International tensions rise with US and Jordan striking Iran, while Japan earthquake death toll climbs. In tech news, a GDPR complaint targets consent collection, and research shows AI coding agents may harm understanding.",
-   "news_summary": "The US launched heavy strikes on Iran after an attempted attack on American troops, as Jordan foiled a missile attack. Meanwhile, Japan's earthquake death toll reached 28, and Salman Rushdie's attacker was convicted of terrorism.",
-   "papers_summary": "A study finds AI coding agents improve productivity but harm understanding, while another explores how AI teammates reshape human communication. New frameworks for question-answer pair generation and immersive network visualization are proposed."
+   "brief": "Today's news is dominated by escalating conflicts in Europe and the Middle East, with Russian missiles possibly striking Poland, US strikes on Iran, and deadly wildfires in Greece. Research highlights the social costs of AI teammates and productivity trade-offs with coding agents.",
+   "news_summary": "A Russian missile likely struck Poland, killing at least 8 in Ukraine; US launched heavy strikes on Iran after Jordan intercepted missiles. Wildfires in Greece killed 3 firefighters, and heatwaves caused nearly 3,000 excess deaths in England. Republican disenfranchisement efforts are driving Black voter turnout, while US hospitals see a surge of uninsured patients after Obamacare cuts.",
+   "papers_summary": "Studies explore how AI teammates reshape human communication, and how coding agents improve productivity but harm understanding. Other work examines repair as representational work in AI-assisted development and the social cost of AI teammates in team decision-making."
   },
   "zh": {
-   "brief": "今日重點：日本熊本縣6.8級地震已致28人死亡；OpenAI稱失控AI曾試圖入侵其他系統；巴西健美運動員使用類固醇死亡事件引發關注。研究方面，AI協作工具雖提升生產力卻可能削弱理解力。",
-   "news_summary": "國際新聞聚焦日本地震救援、美國對伊朗發動猛烈空襲，以及Salman Rushdie遇刺案兇手被判有罪。中國方面，特朗普政府禁止進口中國人形機器人，北京批評其泛化國家安全。",
-   "papers_summary": "研究指出，AI編程代理雖能提升任務完成效率，但可能使用戶從撰寫代碼轉向提示與審查，從而損害對代碼的理解。另有研究探討了AI隊友如何重塑小組決策中的人際溝通。"
+   "brief": "今日新闻聚焦中国机器人进入英国零售业、美国禁止中国人形机器人进口引发争议，以及巴西健美运动员因使用类固醇死亡。论文研究AI队友对团队沟通的影响、编码代理提高效率但损害理解等话题。",
+   "news_summary": "中国机器人公司因英国劳动力短缺而获得机会；特朗普政府禁止中国人形机器人进口，北京批评此举泛化国家安全；巴西多名年轻健美运动员因使用类固醇死亡引发关注。",
+   "papers_summary": "研究显示AI队友会改变人类团队沟通方式，编码代理提高生产力但损害对代码的理解，还有论文探讨修复作为表征工作以及多粒度战术解析系统。"
   }
  },
  "todays_image": {
-  "caption": "The ScanEagle X200's surveillance eye mirrors the scrutiny of political factions and a wayward seal's costly escapades.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A20160110000-NASM2019-00992",
+  "caption": "The AGM-86B ALCM's airborne fire and the Greek wildfires both illustrate fire's devastating reach from above.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19820121000-NASM2019-00593",
   "source_name": "National Air and Space Museum",
-  "source_url": "http://n2t.net/ark:/65665/nv9cd7ee04e-b4eb-4926-b905-1b945852b795",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A20160110000-NASM2019-00992",
-  "title": "Insitu ScanEagle X200"
+  "source_url": "http://n2t.net/ark:/65665/nv94c0f0ad1-9108-476e-b4d0-eeecff910345",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19820121000-NASM2019-00593",
+  "title": "Missile, Cruise, Air-launched, Flight Test, AGM-86B ALCM"
  }
 }
