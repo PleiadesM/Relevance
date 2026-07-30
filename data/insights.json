@@ -1,28 +1,48 @@
 {
- "brief": "Microsoft and Meta report earnings as AI spending surges; COVID origin debate rekindled; Salman Rushdie attacker convicted. Research explores colormap design, visualization annotation, and LLM-based science simplification.",
- "meta": {
-  "generated_at": "2026-07-29T23:12:22Z"
+ "apropos_of_nothing": {
+  "query": "cheese rolling championship OR Cooper s Hill cheese rolling",
+  "source": {
+   "name": "Runner's World",
+   "published_at": "2026-07-27T20:52:00Z",
+   "title": "This Chaotic Cheese-Rolling Race Has No Permit, No Insurance, and No Plans to Stop",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNY2xQUWNoa29tNHVUU3JGYWlEdDZ0NXMwakF0RkhFQzkyZHdaY2ZKd1VTNnNGNTJKTHpFaHV0RjFEelk2cGZ3NWlXT2lGeWNUVWhzVjc0Z213d0pOck1vVGhIY3BTVHA0c3Z1RGhzRUs0Y01QZDJ6T2ZvWlpkTk94WHVJVQ?oc=5"
+  },
+  "summaries": {
+   "en": {
+    "summary": "This chaotic cheese-rolling race has no permit, no insurance, and no plans to stop.",
+    "why_irrelevant": "It is a niche, physical, and oddly amusing event far from AI, politics, and tragedy."
+   },
+   "zh": {
+    "summary": "这场混乱的滚奶酪比赛没有许可证、没有保险，并且没有停办的打算。",
+    "why_irrelevant": "这是一个小众、体力型且古怪有趣的活动，远离人工智能、政治和悲剧。"
+   }
+  },
+  "topic": "competitive cheese rolling"
  },
- "news_summary": "Microsoft's profit jumps 31% on increased AI spending; Meta's profit falls 14% amid heavy AI investment. Trump threatens Iran, and Republicans threaten to block Blanche nomination. Rushdie attacker convicted of aiding Hezbollah.",
- "papers_summary": "Papers present interactive colormap extraction, a benchmark for visualization annotation, and LLM-based simplification of scientific summaries. Additional works explore XAI for stroke rehab and chart refinement preserving data integrity.",
+ "brief": "US launches heavy strikes on Iran amid Middle East crisis, while Australia takes legal action against Telegram. Research highlights AI's impact on teamwork and productivity, with concerns over understanding and privacy.",
+ "meta": {
+  "generated_at": "2026-07-30T03:24:55Z"
+ },
+ "news_summary": "US strikes Iran again after attacks on American troops; Australia sues Telegram over pro-terror content; Japan earthquake death toll rises; Singapore fines teen for stunt; deadly strikes on Kyiv; wildfires in Greece.",
+ "papers_summary": "Studies show AI coding agents boost productivity but harm understanding; AI teammates reshape human communication; voice interaction aids network visualization; AI oversight interfaces lag behind autonomous capabilities.",
  "summaries": {
   "en": {
-   "brief": "Microsoft and Meta report earnings as AI spending surges; COVID origin debate rekindled; Salman Rushdie attacker convicted. Research explores colormap design, visualization annotation, and LLM-based science simplification.",
-   "news_summary": "Microsoft's profit jumps 31% on increased AI spending; Meta's profit falls 14% amid heavy AI investment. Trump threatens Iran, and Republicans threaten to block Blanche nomination. Rushdie attacker convicted of aiding Hezbollah.",
-   "papers_summary": "Papers present interactive colormap extraction, a benchmark for visualization annotation, and LLM-based simplification of scientific summaries. Additional works explore XAI for stroke rehab and chart refinement preserving data integrity."
+   "brief": "US launches heavy strikes on Iran amid Middle East crisis, while Australia takes legal action against Telegram. Research highlights AI's impact on teamwork and productivity, with concerns over understanding and privacy.",
+   "news_summary": "US strikes Iran again after attacks on American troops; Australia sues Telegram over pro-terror content; Japan earthquake death toll rises; Singapore fines teen for stunt; deadly strikes on Kyiv; wildfires in Greece.",
+   "papers_summary": "Studies show AI coding agents boost productivity but harm understanding; AI teammates reshape human communication; voice interaction aids network visualization; AI oversight interfaces lag behind autonomous capabilities."
   },
   "zh": {
-   "brief": "今日重点：OpenAI报告称失控AI试图入侵其他系统；特朗普政府禁止中国人形机器人进口，北京批评其泛化国家安全；微软AI支出增加，利润增长31%。研究方面聚焦于可视化颜色映射和图表标注生成。",
-   "news_summary": "OpenAI失控AI事件、中美机器人禁令、微软财报、性侵指控、熊本地震等成为焦点。",
-   "papers_summary": "arXiv论文涉及交互式颜色映射提取、可视化标注基准以及基于LLM的科学摘要简化。"
+   "brief": "今天焦点包括：巴西健美运动员因类固醇死亡引发关注、婚前协议在年轻伴侣中日益普及，以及美国对伊朗发动新一轮空袭。研究方面关注AI队友对团队沟通的影响及AI辅助编程的成效。",
+   "news_summary": "巴西多名年轻健美运动员死亡引发类固醇风险讨论；特朗普政府禁止中国机器人进口，北京强烈反对；美国对伊朗发动大规模空袭，中东局势持续紧张。",
+   "papers_summary": "一篇研究显示AI队友会重塑团队内部沟通，另一篇指出编码代理能提升效率但损害理解力。"
   }
  },
  "todays_image": {
-  "caption": "The pine marten's nimble adaptation mirrors Microsoft's agile investment in A.I., both thriving on opportunistic growth in competitive environments.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m37ce8821e86564757b51959cfd74da2e7",
-  "source_name": "NMNH - Vertebrate Zoology - Mammals Division",
-  "source_url": "http://n2t.net/ark:/65665/37014484f-f5bb-48ce-ba05-3702f6e243ad",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m37ce8821e86564757b51959cfd74da2e7/90",
-  "title": "Martes americana americana"
+  "caption": "Like the image's depiction of destruction, the latest strikes leave a landscape of wreckage in their wake.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-2000-10393",
+  "source_name": "National Museum of American History",
+  "source_url": null,
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-2000-10393&max=150",
+  "title": "Among the Wreckage"
  }
 }

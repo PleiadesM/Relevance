@@ -1,96 +1,174 @@
 {
  "meta": {
-  "count": 2,
-  "generated_at": "2026-07-29T23:12:22Z",
+  "count": 4,
+  "generated_at": "2026-07-30T03:24:55Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "10c2c8cc0610f27d",
+     "item_id": "15890a76f3f15d5d",
      "phrase": {
-      "en": "Top AI startups publish little",
-      "zh": "顶级AI初创公司发表极少"
+      "en": "QA generation for LLM training",
+      "zh": "为LLM训练生成问答对"
      },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research"
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.27182v1"
     },
     {
-     "item_id": "4401aec66cada69b",
+     "item_id": "61f2ae1df3e2ec42",
      "phrase": {
-      "en": "Meta misses earnings despite AI push",
-      "zh": "Meta尽管推动AI仍盈利未达预期"
+      "en": "human-in-loop simplification",
+      "zh": "人在回路中简化"
      },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/technology/2026/jul/29/meta-earnings-mark-zuckerberg"
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.25630v1"
     }
    ],
-   "convergence": "divergent",
+   "convergence": "convergent",
    "gloss": {
-    "en": "Leading AI startups publish less research, while per-item analysis finds they quietly shape the field.",
-    "zh": "领先的AI初创公司发表的研究越来越少，而逐项分析发现它们正悄然塑造该领域。"
+    "en": "Using LLMs to create question-answer pairs and simplify science summaries — data for smarter models.",
+    "zh": "用大模型生成问答对和简化科学摘要——为更智能的模型提供数据。"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI research publishing decline",
-    "zh": "AI研究发表下降"
+    "en": "LLM data generation",
+    "zh": "大模型数据生成"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about LLM research and transparency: today an analysis reveals the biggest AI startups are barely publishing, affecting how you track progress.",
-    "zh": "你关心LLM研究和透明度：今天一项分析显示最大AI初创公司几乎不发表论文，影响你追踪进展的方式。"
+    "en": "You follow LLM post-training: GraphQAG automates QA pair generation, and a new corpus helps LLMs simplify scientific summaries.",
+    "zh": "你关注大模型后训练：GraphQAG自动生成问答对，新语料库帮助模型简化科学摘要。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "0b51991d89fce51b",
+     "item_id": "318dfc4bec6764db",
      "phrase": {
-      "en": "Iran flexes, Trump weighs options",
-      "zh": "伊朗展示实力，特朗普权衡选项"
+      "en": "productivity up, understanding down",
+      "zh": "效率提升，理解下降"
      },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/29/us/trump-iran-war-widens.html"
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.26375v1"
     },
     {
-     "item_id": "0327a049d5bc1a49",
+     "item_id": "81437e91778712de",
      "phrase": {
-      "en": "Saudi strikes target Iran-backed militias",
-      "zh": "沙特袭击伊朗支持的民兵"
+      "en": "merge queue for parallel agents",
+      "zh": "并行代理的合并队列"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/29/world/middleeast/saudi-arabia-us-iran-war.html"
-    },
-    {
-     "item_id": "4d50c164caad9e1e",
-     "phrase": {
-      "en": "Trump threatens to hit Iran hard",
-      "zh": "特朗普威胁猛烈打击伊朗"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/live/2026/jul/29/donald-trump-anthony-fauci-rand-paul-covid-lab-leak-theory-iran-tariffs-latest-news-updates"
+     "source": "Hacker News (AI filter)",
+     "url": "https://github.com/funador/claude-code-merge-queue"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Iran fights back harder, Saudi Arabia enters the fray with airstrikes, and Trump weighs military options again.",
-    "zh": "伊朗更猛烈反击，沙特加入战局发动空袭，特朗普再次权衡军事选项。"
+    "en": "Coding agents boost output but may erode programmers' deep understanding of their own code.",
+    "zh": "编程代理提升产出，但可能削弱程序员对代码的深层理解。"
    },
    "id": "t2",
    "keyword": {
-    "en": "Iran-US war escalation",
-    "zh": "伊朗-美国战争升级"
+    "en": "AI coding agents productivity",
+    "zh": "AI编程代理效率"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You have no declared interest in geopolitics, but this is a major shift with global ripple effects; if you follow it, today Saudi airstrikes mark a new actor.",
-    "zh": "你未声明对地缘政治的兴趣，但这是影响全球的重大变化；若你关注，今天沙特空袭标志新参与方登场。"
+    "en": "You follow human-AI interaction and technical communication: two papers reveal productivity gains and hidden costs of AI-assisted programming.",
+    "zh": "你关注人机交互和技术传播：两篇论文揭示了AI辅助编程的效率提升和隐藏代价。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "2bfc0ffcad107eee",
+     "phrase": {
+      "en": "xAI sues over nudification ban",
+      "zh": "xAI起诉禁AI裸图法"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/technology/2026/jul/29/xai-sues-minnesota-nudification-technology"
+    },
+    {
+     "item_id": "ccf4629307ee1255",
+     "phrase": {
+      "en": "Trump eyes tighter AI rules",
+      "zh": "特朗普考虑收紧AI规则"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c20dppq3y90o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "64a4387ef389d7ea",
+     "phrase": {
+      "en": "pharmacy AI causes delays, errors",
+      "zh": "药房AI致延迟错误"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://vtdigger.org/2026/07/29/a-pharmacy-chain-in-vermont-implemented-ai-for-efficiency-its-led-to-delays-incorrect-information-and-privacy-concerns/"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Governments and companies clash over AI safety, with lawsuits and new controls shaping the landscape.",
+    "zh": "政府与企业就AI安全交锋，诉讼和新监管措施重塑格局。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "AI regulation and lawsuits",
+    "zh": "AI监管与诉讼"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track AI policy: today xAI sues Minnesota over nudification law, Trump considers AI controls after OpenAI hack, and a pharmacy chain faces privacy concerns…",
+    "zh": "你关注AI政策：xAI起诉明尼苏达州、特朗普考虑AI管控、药房AI引发隐私问题。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "dd16425edb4714f6",
+     "phrase": {
+      "en": "Chinese robots enter UK retail",
+      "zh": "中国机器人进入英国零售"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c0jl8v23qwgo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "64a4387ef389d7ea",
+     "phrase": {
+      "en": "AI in pharmacy chain",
+      "zh": "AI应用于药房"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://vtdigger.org/2026/07/29/a-pharmacy-chain-in-vermont-implemented-ai-for-efficiency-its-led-to-delays-incorrect-information-and-privacy-concerns/"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Chinese robots and AI systems are transforming UK retail, boosting efficiency but raising workforce questions.",
+    "zh": "中国机器人和AI系统正在变革英国零售业，提升效率但引发劳动力问题。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "AI in robotics retail",
+    "zh": "机器人零售AI"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow embodied AI: a BBC report details Chinese robot army entering UK retail, alongside broader AI adoption trends.",
+    "zh": "你关注具身AI：BBC报道中国机器人进入英国零售业，反映AI应用趋势。"
    }
   }
  ]

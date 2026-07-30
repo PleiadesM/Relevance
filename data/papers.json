@@ -2,6 +2,321 @@
  "items": [
   {
    "authors": [
+    "Yize Li",
+    "Ruiqi Yu",
+    "Tianya Pan",
+    "Ningxin Li",
+    "Songyue Li",
+    "Xiangyang Wu"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Question-answer (QA) pairs are widely used in knowledge base construction, question-answering systems, and the post-training of large language models (LLMs). However, important knowledge in long documents is often distributed across multiple paragraphs and connected through complex entity relationships. Such fragmented and relational knowledge poses substantial challenges for existing QA generation methods, which often fail to adequately cover core document content, cross-paragraph semantic…",
+    "arxiv_id": "2607.27182"
+   },
+   "id": "15890a76f3f15d5d",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-29T17:52:53Z",
+   "score": 0.9342,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Question-answer (QA) pairs are widely used in knowledge base construction, question-answering systems, and the post-training of large language models (LLMs). However, important knowledge in long documents is often distributed across multiple paragraphs and connected through complex entity…",
+   "tags": [
+    "systems",
+    "ml-vis",
+    "llm",
+    "visualization"
+   ],
+   "title": "GraphQAG: A Knowledge-Graph-Guided Visual Analytics Framework for Question-Answer Pairs Generation",
+   "url": "https://arxiv.org/abs/2607.27182v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Nia Nixon",
+    "Jaeyoon Choi",
+    "Pedro Martins De Bastos",
+    "Mohammad Amin Samadi",
+    "Luise Mehner",
+    "Seehee Park"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Conversational AI is increasingly positioned as a teammate rather than a tool, yet we know little about how its presence reshapes communication among the humans on the team. We examined sociocognitive communication dynamics in team decision-making using Group Communication Analysis (GCA), team surveys, and lexical analyses of team discourse. Teams completed a high-stakes moral-dilemma decision task in a randomized controlled study: 16 teams of two students plus an AI teammate, and 17 all-human…",
+    "arxiv_id": "2607.27179"
+   },
+   "id": "59ac3bc2ea8d9012",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-29T17:51:32Z",
+   "score": 0.7541,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Conversational AI is increasingly positioned as a teammate rather than a tool, yet we know little about how its presence reshapes communication among the humans on the team. We examined sociocognitive communication dynamics in team decision-making using Group Communication Analysis (GCA), team…",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "The Social Cost of an AI Teammate: How an Artificial Teammate Reshapes Human-Human Communication in Small-Team Decision-Making",
+   "url": "https://arxiv.org/abs/2607.27179v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Qiaoyi Chen",
+    "Yuheng Liu",
+    "Xinzhuang Xiong",
+    "Junze Li",
+    "Hongyi Tang",
+    "Xinyi Zhang"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Amateur badminton players increasingly record matches, yet existing tools provide only aggregate statistics or generic summaries, leaving most unable to extract tactical insights without expert guidance. A formative study (N=8) reveals the need for multi-granularity, video-anchored tactical analysis centered on rallies. We derive a taxonomy of performance issues from national-level athletes' annotations and present TactiPlay, an interactive system that instantiates an expert-taxonomy-guided,…",
+    "arxiv_id": "2607.27125"
+   },
+   "id": "057bb5f5e185e589",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-29T16:52:10Z",
+   "score": 0.5969,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Amateur badminton players increasingly record matches, yet existing tools provide only aggregate statistics or generic summaries, leaving most unable to extract tactical insights without expert guidance. A formative study (N=8) reveals the need for multi-granularity, video-anchored tactical…",
+   "tags": [],
+   "title": "TactiPlay: Multi-Granularity Tactical Parsing and Video-Anchored Match Review for Amateur Badminton Players",
+   "url": "https://arxiv.org/abs/2607.27125v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Sam Yu-Te Lee",
+    "Hsin-Ai Chen",
+    "Sarah Yuniar",
+    "David Bauer",
+    "Kwan-Liu Ma"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Visual network analysis leverages network visualization authoring techniques to facilitate sensemaking, serendipitous discovery, and hypothesis verification on network data. However, transferring the same paradigm to immersive environments is non-trivial due to insufficient UI affordance for authoring operations. Researchers have studied combining multiple modalities for interactions, but the high learning curve of such input systems limits their adoption by typical data analysts, let alone for…",
+    "arxiv_id": "2607.26526"
+   },
+   "id": "decef4113bf726eb",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-29T06:44:43Z",
+   "score": 0.5518,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Visual network analysis leverages network visualization authoring techniques to facilitate sensemaking, serendipitous discovery, and hypothesis verification on network data. However, transferring the same paradigm to immersive environments is non-trivial due to insufficient UI affordance for…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "A Design Study on Voice-based Interaction for Immersive Network Visualization and Analysis",
+   "url": "https://arxiv.org/abs/2607.26526v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Daisaku Sato"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Research on AI-assisted programming has concentrated on the gulf of execution -- how users write successful prompts. We report a candidate phenomenon, an integration bottleneck, that lies in Norman's gulf of evaluation: a repair-relevant contribution reaches the user and fails to become actionable at the point of receipt. Two cases in an eighteen-case corpus of publicly shared AI-assisted-development accounts report this, from a peer and from the system's own output; both fall at evaluation's…",
+    "arxiv_id": "2607.26517"
+   },
+   "id": "30212b17a6e46f0b",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-29T06:33:02Z",
+   "score": 0.7035,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Research on AI-assisted programming has concentrated on the gulf of execution -- how users write successful prompts. We report a candidate phenomenon, an integration bottleneck, that lies in Norman's gulf of evaluation: a repair-relevant contribution reaches the user and fails to become actionable…",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "Repair as Representational Work: Integration Bottlenecks in AI-Assisted Development",
+   "url": "https://arxiv.org/abs/2607.26517v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Hyeok Kim",
+    "Jeffrey Heer"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Visualization experiments need a set of \"good\" stimuli that effectively address research questions and hypotheses. Creating, managing, and deploying stimuli are often challenging, as these tasks require tremendous care. Inappropriate stimuli can make the outcome invalid or uninteresting, wasting both researchers' and participants' resources. As the speed of science increases, better support for stimuli-related tasks is essential, yet we lack a closer look at how visualization researchers deal…",
+    "arxiv_id": "2607.26443"
+   },
+   "id": "1438a1b4a20624fb",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-29T03:43:41Z",
+   "score": 0.5394,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Visualization experiments need a set of \"good\" stimuli that effectively address research questions and hypotheses. Creating, managing, and deploying stimuli are often challenging, as these tasks require tremendous care. Inappropriate stimuli can make the outcome invalid or uninteresting, wasting…",
+   "tags": [
+    "eval-study",
+    "visualization"
+   ],
+   "title": "How Do Researchers Manage Visualization Experiment Stimuli?",
+   "url": "https://arxiv.org/abs/2607.26443v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Peisen Xu",
+    "Jérémie Garcia",
+    "Peter Cleveland",
+    "Ooi Wei Tsang",
+    "Christophe Jouffrais"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "As autonomous drone deployments scale from individual units to coordinated swarms, the human operator's role shifts from direct piloting to high-level supervision. Current interfaces often treat multi-drone control as a scaled-up version of single-drone operation. We instead investigate how reframing fleet supervision as spatial interaction can better support the spatial, temporal, and safety demands of complex missions. We present FleetScape, a Mixed Reality (MR) sandtable system that…",
+    "arxiv_id": "2607.26423"
+   },
+   "id": "45b58a9fa3088411",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-29T03:09:10Z",
+   "score": 0.5371,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "As autonomous drone deployments scale from individual units to coordinated swarms, the human operator's role shifts from direct piloting to high-level supervision. Current interfaces often treat multi-drone control as a scaled-up version of single-drone operation. We instead investigate how…",
+   "tags": [],
+   "title": "FleetScape: A Mixed Reality Sandtable for Spatial Supervision and Control of Scalable Drone Fleets",
+   "url": "https://arxiv.org/abs/2607.26423v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Nishant Balepur",
+    "Connor Baumler",
+    "Valerie Chen",
+    "Eunsol Choi",
+    "Rachel Rudinger",
+    "Jordan Lee Boyd-Graber"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Coding agents (e.g., Cursor) improve developer productivity by optimizing task completion, but shifting users from writing code to prompting and reviewing may harm their understanding, impeding oversight, learning, and communication. To probe this, we have 54 students create a website with one of two AI systems: an agent that edits user code; or a chatbot where users write code alone or adapt generic code snippets. We test understanding via comprehension questions and a task where users extend…",
+    "arxiv_id": "2607.26375"
+   },
+   "id": "318dfc4bec6764db",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-29T01:23:04Z",
+   "score": 0.6826,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Coding agents (e.g., Cursor) improve developer productivity by optimizing task completion, but shifting users from writing code to prompting and reviewing may harm their understanding, impeding oversight, learning, and communication. To probe this, we have 54 students create a website with one of…",
+   "tags": [
+    "pedagogy",
+    "ai-writing",
+    "techcomm"
+   ],
+   "title": "(Im)Paired Programming: Coding Agents Improve Productivity but Harm Understanding",
+   "url": "https://arxiv.org/abs/2607.26375v1",
+   "venue": "arXiv cs.CL"
+  },
+  {
+   "authors": [
+    "Lance Ying",
+    "William Van Uitert",
+    "Tan Zhi-Xuan",
+    "Joshua B. Tenenbaum",
+    "Samuel J. Gershman"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "People can often understand and use novel artifacts after only a few interactions, suggesting that design choices communicate underlying affordances and causal structure. We propose a formal account of this process by framing cooperative, user-centered design as a cooperative game in which the user is the principal and the designer is an assistant. Inspired by prior work on pragmatic communication (e.g. RSA), our model treats a designer's design decisions as communicative signals and predicts…",
+    "arxiv_id": "2607.26322"
+   },
+   "id": "b8a76e83b0077c0b",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-28T22:41:39Z",
+   "score": 0.4797,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "People can often understand and use novel artifacts after only a few interactions, suggesting that design choices communicate underlying affordances and causal structure. We propose a formal account of this process by framing cooperative, user-centered design as a cooperative game in which the user…",
+   "tags": [
+    "ux"
+   ],
+   "title": "Pragmatic Reasoning in Design",
+   "url": "https://arxiv.org/abs/2607.26322v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Xuan Zhao",
+    "Jiwoong Sohn",
+    "Qinyue Zheng",
+    "Michael Moor"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "AI agents are increasingly adept at tackling complex, long-running tasks. With the rapid surge of autonomous capabilities, human oversight is systematically lagging behind due to limited human-centered interfacing. Aiming to address this, we introduce AgentGUI, a user-friendly, locally hosted GUI for seamlessly observing and steering AI agents amid multiple concurrent, long-running sessions. AgentGUI features 1) rich agent trajectory visualizations, 2) effective manual and automated steering,…",
+    "arxiv_id": "2607.26300"
+   },
+   "id": "fa0a22049fec5bb7",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-28T21:47:22Z",
+   "score": 0.7088,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "AI agents are increasingly adept at tackling complex, long-running tasks. With the rapid surge of autonomous capabilities, human oversight is systematically lagging behind due to limited human-centered interfacing. Aiming to address this, we introduce AgentGUI, a user-friendly, locally hosted GUI…",
+   "tags": [
+    "systems"
+   ],
+   "title": "AgentGUI: An Interface for Observing and Steering Long-Running AI Agents",
+   "url": "https://arxiv.org/abs/2607.26300v1",
+   "venue": "arXiv cs.CL"
+  },
+  {
+   "authors": [
+    "Shiyi He",
+    "Zach Cutler",
+    "Andrew M. McNutt"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Textual data serialization formats, such as JSON or XML, are ubiquitous, supporting tasks like software configuration and data tabularization. Despite their prominence, little is known about their usability. What makes one good or bad? Is there a best one for cognitive efficiency? We explore these questions via a (N=215) crowd work study and a (N=9) semi-structured interview study. We find that format distinctions (like indentation versus curly braces) do not consistently translate into…",
+    "arxiv_id": "2607.26211"
+   },
+   "id": "a84db0ad2ab506ea",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-28T19:24:57Z",
+   "score": 0.4674,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Textual data serialization formats, such as JSON or XML, are ubiquitous, supporting tasks like software configuration and data tabularization. Despite their prominence, little is known about their usability. What makes one good or bad? Is there a best one for cognitive efficiency? We explore these…",
+   "tags": [
+    "ux"
+   ],
+   "title": "Reading Between the Curly Braces: On Textual Data Serialization Format Usability",
+   "url": "https://arxiv.org/abs/2607.26211v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
     "Santiago V. Lombeyda",
     "Mathieu Desbrun"
    ],
@@ -14,7 +329,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-28T17:36:53Z",
-   "score": 0.5164,
+   "score": 0.5009,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -42,7 +357,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-28T16:04:39Z",
-   "score": 0.7031,
+   "score": 0.688,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -68,7 +383,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-28T12:12:39Z",
-   "score": 0.7892,
+   "score": 0.7747,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -95,7 +410,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-28T11:57:59Z",
-   "score": 0.4558,
+   "score": 0.4414,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -107,33 +422,6 @@
    "title": "Beyond Epistemia: Epistemic Schizologia and Large Language Models as Techno-Semiotic Machines",
    "url": "https://arxiv.org/abs/2607.25620v1",
    "venue": "arXiv cs.AI"
-  },
-  {
-   "authors": [
-    "Param Rajpura",
-    "Yogesh Kumar Meena"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Eliciting explainable AI (XAI) requirements from stroke survivors presents a methodological challenge with direct implications for the design of trustworthy brain-computer interfaces for rehabilitation. How can patients and caregivers articulate preferences about algorithmic transparency when they lack conceptual frameworks for explainability, and when standard elicitation approaches are structurally inadequate for users with acquired communication disorders? We present a video-based…",
-    "arxiv_id": "2607.25423"
-   },
-   "id": "705d3b9e8e980d73",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-28T08:20:56Z",
-   "score": 0.6358,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Eliciting explainable AI (XAI) requirements from stroke survivors presents a methodological challenge with direct implications for the design of trustworthy brain-computer interfaces for rehabilitation. How can patients and caregivers articulate preferences about algorithmic transparency when they…",
-   "tags": [
-    "ai-writing",
-    "ux"
-   ],
-   "title": "From Dyad to Triad: Eliciting XAI Requirements in Stroke Rehabilitation",
-   "url": "https://arxiv.org/abs/2607.25423v1",
-   "venue": "arXiv cs.HC"
   },
   {
    "authors": [
@@ -153,7 +441,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-28T07:44:49Z",
-   "score": 0.6738,
+   "score": 0.6601,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -179,7 +467,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-28T07:32:09Z",
-   "score": 0.6731,
+   "score": 0.6594,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -208,7 +496,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-27T22:53:58Z",
-   "score": 0.4532,
+   "score": 0.4408,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -239,7 +527,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-27T22:35:18Z",
-   "score": 0.6448,
+   "score": 0.6324,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -254,217 +542,136 @@
   },
   {
    "authors": [
-    "Ishrat Jahan Eliza",
-    "Md Dilshadur Rahman"
+    "David Márquez-Oller",
+    "A. Pauli",
+    "Jörg Fallmann"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Multimodal large language models (MLLMs) can connect visualization patterns to external causes, consequences, and domain knowledge, but the evidential basis of these interpretations is often unclear. We present an exploratory study of 102 visualizations from four sources, three MLLMs, and four input conditions that vary access to the image, source-specific accessible chart context, and withheld-context framing. Across 1,224 descriptions, we analyze model-attributed DIRECT, DERIVED, and…",
-    "arxiv_id": "2607.25021"
+    "abstract_snippet": "SUMMARY BRIDGE is a Shiny-based application that provides an accessible, modular platform for individual and integrative multi-omics analysis. Using an independent SQLite database backend, it offers a local, private, and user-friendly environment that requires no prior computational expertise. The application supports proteomics, phospho-proteomics, and RNA-seq analyses through a comprehensive suite of visualization and analytical modules, together with an integrated multi-omics analysis…",
+    "arxiv_id": null,
+    "citations": 0,
+    "doi": "10.1093/bioinformatics/btag558"
    },
-   "id": "4a823cba5532cc18",
+   "id": "cec3177a8532f793",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-07-27T19:30:56Z",
-   "score": 0.7757,
+   "published_at": "2026-07-27T00:00:00Z",
+   "score": 0.2626,
    "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Multimodal large language models (MLLMs) can connect visualization patterns to external causes, consequences, and domain knowledge, but the evidential basis of these interpretations is often unclear. We present an exploratory study of 102 visualizations from four sources, three MLLMs, and four…",
-   "tags": [
-    "ml-vis",
-    "llm",
-    "visualization"
-   ],
-   "title": "Chart-Supported or Model-Supplied? Examining MLLM-Generated Claims for Accessible Visualization",
-   "url": "https://arxiv.org/abs/2607.25021v1",
-   "venue": "arXiv cs.AI"
-  },
-  {
-   "authors": [
-    "Zhenhan Gao",
-    "Marvin Muñoz Barón",
-    "Umm-e Habiba",
-    "Daniel Graziotin",
-    "Stefan Wagner"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Background: Large language models (LLMs) are increasingly used to automate code review, but the reasoning behind their decisions remains hard to understand. Developers struggle to assess the validity of LLM-generated reviews, making it difficult to gauge how much trust to place in them. The role of Explainable AI (XAI) in code review and its impact on trust remain underexplored. Objective: We study the influence of XAI on developer trust in AI-assisted code reviews. Method: We conducted a…",
-    "arxiv_id": "2607.24601"
-   },
-   "id": "2b06ca1fd70036ec",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-27T16:04:24Z",
-   "score": 0.7259,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Background: Large language models (LLMs) are increasingly used to automate code review, but the reasoning behind their decisions remains hard to understand. Developers struggle to assess the validity of LLM-generated reviews, making it difficult to gauge how much trust to place in them. The role of…",
-   "tags": [
-    "ai-writing",
-    "llm"
-   ],
-   "title": "Evaluating the Impact of Explainable AI on Trust in AI-Assisted Code Review",
-   "url": "https://arxiv.org/abs/2607.24601v1",
-   "venue": "arXiv cs.SE"
-  },
-  {
-   "authors": [
-    "Cenyang Wu",
-    "Runhao Lin",
-    "Qinhan Yu",
-    "Liang Zhou"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "We present a new visualization method for contour ensembles through probabilistic modeling. We aim to improve the coherence between different visual representations, such as contour boxplots and density plots for a 2D scalar field ensemble. We model each ensemble member with a probabilistic representation in the latent space, i.e., a lower-dimensional representation of spatial data features, of a variational autoencoder (VAE). Thereafter, efficient data depth computation and uncertainty-aware…",
-    "arxiv_id": "2607.24596"
-   },
-   "id": "87dc2916c95e8fdc",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-27T15:59:22Z",
-   "score": 0.6257,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "We present a new visualization method for contour ensembles through probabilistic modeling. We aim to improve the coherence between different visual representations, such as contour boxplots and density plots for a 2D scalar field ensemble. We model each ensemble member with a probabilistic…",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "SUMMARY BRIDGE is a Shiny-based application that provides an accessible, modular platform for individual and integrative multi-omics analysis. Using an independent SQLite database backend, it offers a local, private, and user-friendly environment that requires no prior computational expertise. The…",
    "tags": [
     "visualization"
    ],
-   "title": "Coherent Visualization of 2D Scalar Field Contour Ensembles With Probabilistic Latent Space Modeling",
-   "url": "https://arxiv.org/abs/2607.24596v1",
-   "venue": "arXiv cs.GR"
+   "title": "BRIDGE: an interactive application for multi-omics data analysis, visualization and integration.",
+   "url": "https://www.semanticscholar.org/paper/23fa65f9ad8a0fc5ddceea86be51390a3a6cfc94",
+   "venue": "Bioinformatics"
   },
   {
    "authors": [
-    "Muna Alebri",
-    "Noëlle Rakotondravony",
-    "Yassine Bechqito",
-    "Georgia Panagiotidou",
-    "Lane Harrison",
-    "Hassan Aldhanhabi"
+    "I. L. Kim",
+    "Jaewoo Shin",
+    "Rahul Solleti",
+    "Lan Zhao",
+    "Samantha N. Hauser",
+    "M. Heinz"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Design guidelines and best practices serve as references that support designers throughout the visualisation design process. While considerable effort has identified the elements that contribute to effective data visualisations, little attention has been paid to how language (scripts and reading direction), tool support, and cultural context also shape design decisions. As a result, assumptions of homogeneity persist, with visualisation practices predominantly benefiting users of English and…",
-    "arxiv_id": "2607.24571"
+    "abstract_snippet": "Auditory neuroscience research generates diverse measurement data—including audiograms, otoacoustic emissions (OAE), auditory brainstem responses (ABR), middle ear muscle reflexes (MEMR), and survey questionnaires—each with distinct formats and analysis requirements. Researchers typically manage these heterogeneous datasets using ad hoc combinations of spreadsheets, MATLAB scripts, and local file systems, creating barriers to collaboration, reproducibility, and efficient analysis. We present…",
+    "arxiv_id": null,
+    "citations": 0,
+    "doi": "10.1145/3785462.3815833"
    },
-   "id": "cbd805facbd2159b",
+   "id": "da55b8e4e93fb91e",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-07-27T15:36:44Z",
-   "score": 0.6247,
+   "published_at": "2026-07-26T00:00:00Z",
+   "score": 0.3647,
    "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Design guidelines and best practices serve as references that support designers throughout the visualisation design process. While considerable effort has identified the elements that contribute to effective data visualisations, little attention has been paid to how language (scripts and reading…",
-   "tags": [
-    "eval-study"
-   ],
-   "title": "Designing Within the Lines: Practitioners' Perspectives and Visualisation Tool Evaluation in the Arabic Context",
-   "url": "https://arxiv.org/abs/2607.24571v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Vaibhav Krishna",
-    "Hirokazu Shirado",
-    "Feng Fu",
-    "Nicholas A. Christakis"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Advanced digital communication has revolutionized how people create and consume information, making information diffusion an important topic of research for domains from public health to national security. Real-world scenarios of information diffusion often involve competing narratives - true and false - spreading simultaneously. We propose a novel agent-based co-diffusion model, grounded in \"complex-contagion\" and \"spiral of silence\" theories, to capture how network dynamics exploit cognitive…",
-    "arxiv_id": "2607.24360"
-   },
-   "id": "a504c19adc9be7a2",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-27T12:36:48Z",
-   "score": 0.5765,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Advanced digital communication has revolutionized how people create and consume information, making information diffusion an important topic of research for domains from public health to national security. Real-world scenarios of information diffusion often involve competing narratives - true and…",
-   "tags": [
-    "ai-writing"
-   ],
-   "title": "Modeling Duelling Contagions of True and False Information in the Face of Inherent Individual biases",
-   "url": "https://arxiv.org/abs/2607.24360v1",
-   "venue": "arXiv cs.SI"
-  },
-  {
-   "authors": [
-    "Hyeok Kim",
-    "Leilani Battle"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Quantum circuit visualizations play an essential role in supporting sense-making and communication of quantum programs. While several tools exist for rendering quantum circuits, they vary widely in encoding options due to idiosyncrasies among machine and platform providers. We observe an opportunity to coalesce these disparate rendering approaches under a single, unified grammar to enable consistent, cross-platform enhancement of quantum circuit visualizations. However, it is unclear how to…",
-    "also_in": [
-     {
-      "source": "arXiv cs.HC (writing & docs)",
-      "url": "https://arxiv.org/abs/2607.24042v1"
-     }
-    ],
-    "arxiv_id": "2607.24042"
-   },
-   "id": "046e3bf17e5d1067",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-27T06:33:37Z",
-   "score": 0.4084,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Quantum circuit visualizations play an essential role in supporting sense-making and communication of quantum programs. While several tools exist for rendering quantum circuits, they vary widely in encoding options due to idiosyncrasies among machine and platform providers. We observe an…",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "Auditory neuroscience research generates diverse measurement data—including audiograms, otoacoustic emissions (OAE), auditory brainstem responses (ABR), middle ear muscle reflexes (MEMR), and survey questionnaires—each with distinct formats and analysis requirements. Researchers typically manage…",
    "tags": [
     "visualization"
    ],
-   "title": "A Design Space for Quantum Circuit Visualizations",
-   "url": "https://arxiv.org/abs/2607.24042v1",
-   "venue": "arXiv cs.HC"
+   "title": "HearingHub: A Collaborative Web Platform for Multi-Modal Hearing Research Data Management and Visualization",
+   "url": "https://www.semanticscholar.org/paper/8bdbeae3cdeee8257f02a80dfa5dfa4cf881b041",
+   "venue": "Proceedings of the Practice and Experience in Advanced Research Computing 2026: Resilient Roots + Empowered Communities"
   },
   {
    "authors": [
-    "Mark-Jan Bludau",
-    "Christian Tominski",
-    "Marian Dörk"
+    "Sophia Massie-Perez",
+    "Sal Tijerina",
+    "Shayan Khan",
+    "Nathan Franklin",
+    "J. Gentle",
+    "Ellen M. Rathje"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "We introduce a visualization that interweaves spatial and temporal structures of photo collections into explorable pathways. Existing photo browsing interfaces typically use space and time separately for sorting, filtering, or mapping photos. What remains missing is an integrated visual form that represents the photographic journey itself. This is particularly relevant for the individual photographer's archive, where their unique lifeline is written into the collection, and it is this…",
-    "arxiv_id": "2607.23769"
+    "abstract_snippet": "The Natural Hazards Engineering Research Infrastructure DesignSafe Science Gateway provides a comprehensive cyberinfrastructure for managing, analyzing and sharing data related to natural hazards such as earthquakes, windstorms, tsunamis, and storm surge. As the geospatial data requirements in DesignSafe have become more complex, new tools and services have been developed to support visualization and analysis of this data. This paper presents the architecture and capabilities of the DesignSafe…",
+    "arxiv_id": null,
+    "citations": 0,
+    "doi": "10.1145/3785462.3815876"
    },
-   "id": "3f82b0d68489c534",
+   "id": "5889a9d72598c08c",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-07-26T17:37:17Z",
-   "score": 0.5712,
+   "published_at": "2026-07-26T00:00:00Z",
+   "score": 0.2272,
    "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "We introduce a visualization that interweaves spatial and temporal structures of photo collections into explorable pathways. Existing photo browsing interfaces typically use space and time separately for sorting, filtering, or mapping photos. What remains missing is an integrated visual form that…",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "The Natural Hazards Engineering Research Infrastructure DesignSafe Science Gateway provides a comprehensive cyberinfrastructure for managing, analyzing and sharing data related to natural hazards such as earthquakes, windstorms, tsunamis, and storm surge. As the geospatial data requirements in…",
    "tags": [
     "visualization"
    ],
-   "title": "Meandering Photo Lines: Fluid Multiscale Exploration of Photographic Archives",
-   "url": "https://arxiv.org/abs/2607.23769v1",
-   "venue": "arXiv cs.HC"
+   "title": "Geospatial Data Integration and Visualization in the DesignSafe Science Gateway",
+   "url": "https://www.semanticscholar.org/paper/759abf8cab8dea5b0503f40d9c00f5bc3f364de2",
+   "venue": "Proceedings of the Practice and Experience in Advanced Research Computing 2026: Resilient Roots + Empowered Communities"
+  },
+  {
+   "authors": [
+    "I. I. Salame",
+    "Lindsey Wagner",
+    "Maya Khedr Elkelany"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "This study examines the role of visualization in teaching chemistry and explores students’ challenges in linking them across Johnstone’s three levels of representation: macroscopic, microscopic, and symbolic. Chemistry, being such an abstract subject, is problematic, as students often fail to connect these levels of representation. This contributes to a view of chemistry knowledge that is fragmented through levels of representation, and many students rely on rote memory rather than meaningful…",
+    "arxiv_id": null,
+    "citations": 0,
+    "doi": "10.29333/ijese/19007"
+   },
+   "id": "e50b4128045c629f",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-24T00:00:00Z",
+   "score": 0.318,
+   "section": "papers",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "This study examines the role of visualization in teaching chemistry and explores students’ challenges in linking them across Johnstone’s three levels of representation: macroscopic, microscopic, and symbolic. Chemistry, being such an abstract subject, is problematic, as students often fail to…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Examining the value of visualization teaching aids as to bridge the multiple levels of chemistry learning",
+   "url": "https://www.semanticscholar.org/paper/82f5e0ed4a301c2352eae15c748155682f84a77f",
+   "venue": "Interdisciplinary Journal of Environmental and Science Education"
   }
  ],
  "meta": {
-  "count": 16,
-  "generated_at": "2026-07-29T23:12:22Z",
+  "count": 23,
+  "generated_at": "2026-07-30T03:24:55Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
    {
     "category": "optional",
-    "count": 11,
+    "count": 12,
     "error": null,
     "full_text_count": 0,
     "id": "arxiv_datavis",
@@ -488,7 +695,7 @@
    },
    {
     "category": "optional",
-    "count": 0,
+    "count": 30,
     "error": null,
     "full_text_count": 0,
     "id": "s2_datavis",
@@ -501,7 +708,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-07-01&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-02&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
@@ -524,7 +731,7 @@
    },
    {
     "category": "optional",
-    "count": 6,
+    "count": 7,
     "error": null,
     "full_text_count": 0,
     "id": "arxiv_hci_writing",

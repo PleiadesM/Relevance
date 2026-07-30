@@ -1,5 +1,5 @@
 {
- "full_text": "A quantum-resistant cryptography algorithm that was under consideration as an official US standard has been taken out of the running after an Anthropic security model helped find a flaw that rendered it broken.\n\nThe algorithm is known as HAWK . It's a digital signature scheme designed to withstand future attacks from quantum computers. HAWK had survived two rounds of testing by NIST (the National Institute of Standards and Technology) for evaluating the security of PQC (post-quantum cryptographic) algorithms through widespread testing. HAWK was in a third round of testing designed to catch precisely the kinds of flaws Mythos helped uncover.\n\nFollowing Anthropic's Monday announcement of the results, the developer of HAWK said Tuesday he was withdrawing it.\n\nRead full article\n\nComments",
+ "full_text": "A quantum-resistant cryptography algorithm that was under consideration as an official US standard has been taken out of the running after an Anthropic security model helped find a flaw that rendered it broken .\n\nThe algorithm is known as HAWK . It's a digital signature scheme designed to withstand future attacks from quantum computers. HAWK had survived two rounds of testing by NIST (the National Institute of Standards and Technology) for evaluating the security of PQC (post-quantum cryptographic) algorithms through widespread testing. HAWK was in a third round of testing designed to catch precisely the kinds of flaws Mythos helped uncover.\n\nFollowing Anthropic's Monday announcement of the results, the developer of HAWK said Tuesday he was withdrawing it.\n\nRead full article\n\nComments",
  "item": {
   "category": "open",
   "extra": {},
@@ -18,8 +18,8 @@
   "url": "https://arstechnica.com/security/2026/07/mythos-uncovers-crypto-weaknesses-that-went-unknown-for-years/"
  },
  "meta": {
-  "content_hash": "eca55a85ffa439fd",
-  "generated_at": "2026-07-29T23:12:22Z",
+  "content_hash": "d331818dea5f47ec",
+  "generated_at": "2026-07-30T03:24:55Z",
   "item_id": "104852f18ef43836",
   "section": "news",
   "source": "Ars Technica · AI",
