@@ -1,96 +1,146 @@
 {
  "meta": {
-  "count": 2,
-  "generated_at": "2026-07-30T21:21:15Z",
+  "count": 3,
+  "generated_at": "2026-07-30T23:17:10Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "item_id": "61f2ae1df3e2ec42",
+     "phrase": {
+      "en": "human-in-the-loop simplification",
+      "zh": "人在循环中的简化"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.25630v1"
+    },
+    {
+     "item_id": "15890a76f3f15d5d",
+     "phrase": {
+      "en": "knowledge-graph guided QA",
+      "zh": "知识图谱引导的问答生成"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.27182v1"
+    },
+    {
+     "item_id": "30212b17a6e46f0b",
+     "phrase": {
+      "en": "integration bottlenecks in AI",
+      "zh": "AI集成瓶颈"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.26517v1"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Using LLMs to make complex science readable without losing meaning.",
+    "zh": "用大语言模型让复杂科学变得易懂而不失其意。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI simplification",
+    "zh": "AI简化"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You value technical communication: two papers show how LLMs can simplify scientific summaries and generate QA pairs, but also reveal integration bottlenecks.",
+    "zh": "你重视技术传播：两篇论文展示了LLM如何简化科学摘要和生成问答对，但也揭示了集成瓶颈。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "fa0a22049fec5bb7",
+     "phrase": {
+      "en": "interface for steering agents",
+      "zh": "引导AI代理的界面"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.26300v1"
+    },
+    {
+     "full_text_file": "articles/news/0364792b8bdd953d.json",
+     "item_id": "0364792b8bdd953d",
+     "phrase": {
+      "en": "LLMs vulnerable to attack",
+      "zh": "大语言模型易受攻击"
+     },
+     "section": "news",
+     "source": "MIT Technology Review · AI",
+     "url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "New interfaces let humans observe and steer AI agents during long tasks.",
+    "zh": "新界面让人类在长时间任务中观察和引导AI代理。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "AI oversight",
+    "zh": "AI监督"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow embodied and autonomous AI: a paper today tackles human oversight of long-running agents, a key for trust.",
+    "zh": "你关注具身和自主AI：今天的论文解决了长时间AI代理的人机监督问题，这是信任的关键。"
+   }
+  },
+  {
+   "angles": [
+    {
      "item_id": "44689545d92eb108",
      "phrase": {
-      "en": "Spain mobilizes military",
-      "zh": "西班牙出动军队"
+      "en": "thousands enter Ceuta",
+      "zh": "数千人进入休达"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/07/30/world/europe/spain-morocco-ceuta-migrants.html"
     },
     {
+     "item_id": "ebff520e8c8c792f",
+     "phrase": {
+      "en": "hundreds swim from Morocco",
+      "zh": "数百人从摩洛哥游来"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cg4drwzkrkxo?at_medium=RSS&at_campaign=rss"
+    },
+    {
      "item_id": "8a962b0ad28c6364",
      "phrase": {
-      "en": "Migrants swim around fence",
+      "en": "migrants swim around fence",
       "zh": "移民绕过围栏游泳"
      },
      "section": "news",
      "source": "BBC World",
      "url": "https://www.bbc.co.uk/news/videos/cnvnml1pen6o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "ebff520e8c8c792f",
-     "phrase": {
-      "en": "Hundreds swim into Ceuta",
-      "zh": "数百人游入休达"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cg4drwzkrkxo?at_medium=RSS&at_campaign=rss"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Hundreds swim from Morocco to a Spanish enclave, overwhelming local resources.",
-    "zh": "数百人从摩洛哥游往西班牙飞地，当地资源不堪重负。"
+    "en": "Thousands swim into Spanish enclave, overwhelming its resources and fueling tensions.",
+    "zh": "数千人游入西班牙飞地，资源不堪重负，紧张局势加剧。"
    },
-   "id": "t1",
+   "id": "t3",
    "keyword": {
-    "en": "migrant crisis Ceuta",
-    "zh": "休达移民危机"
+    "en": "Ceuta migration",
+    "zh": "休达移民"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow geopolitical flashpoints; two outlets cover a sudden migrant surge that strains borders today.",
-    "zh": "你关注地缘热点，今日两家媒体同时报道突发移民潮冲击边境。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "e84b3f3222c0a67e",
-     "phrase": {
-      "en": "Father sentenced 15 years",
-      "zh": "父亲被判15年"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/30/us/colin-gray-sentencing-apalachee-school-shooting.html"
-    },
-    {
-     "item_id": "887851f5b751b976",
-     "phrase": {
-      "en": "You failed as a parent",
-      "zh": "你作为家长失职"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c78g4y18rxgo?at_medium=RSS&at_campaign=rss"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "A father sentenced to 15 years for giving his son the gun used in a school shooting.",
-    "zh": "父亲因提供枪支用于校园枪击被判15年。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "parental responsibility shootings",
-    "zh": "家长责任校园枪击"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow human-computer interaction and ethics; this verdict sets a precedent for accountability in tool use.",
-    "zh": "你关注人机交互与伦理，此判例为工具使用责任设立先例。"
+    "en": "You track critical visualization of geopolitical events: three news sources converge on a migrant crisis today, a data-rich story.",
+    "zh": "你关注地缘政治事件的批判性可视化：三个新闻源今天聚焦移民危机，这是一个数据丰富的故事。"
    }
   }
  ]
