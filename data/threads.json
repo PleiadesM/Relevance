@@ -1,174 +1,110 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-07-30T03:24:55Z",
+  "count": 2,
+  "generated_at": "2026-07-30T06:39:21Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "15890a76f3f15d5d",
-     "phrase": {
-      "en": "QA generation for LLM training",
-      "zh": "为LLM训练生成问答对"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.27182v1"
-    },
-    {
-     "item_id": "61f2ae1df3e2ec42",
-     "phrase": {
-      "en": "human-in-loop simplification",
-      "zh": "人在回路中简化"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.25630v1"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Using LLMs to create question-answer pairs and simplify science summaries — data for smarter models.",
-    "zh": "用大模型生成问答对和简化科学摘要——为更智能的模型提供数据。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "LLM data generation",
-    "zh": "大模型数据生成"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow LLM post-training: GraphQAG automates QA pair generation, and a new corpus helps LLMs simplify scientific summaries.",
-    "zh": "你关注大模型后训练：GraphQAG自动生成问答对，新语料库帮助模型简化科学摘要。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "318dfc4bec6764db",
-     "phrase": {
-      "en": "productivity up, understanding down",
-      "zh": "效率提升，理解下降"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.26375v1"
-    },
-    {
-     "item_id": "81437e91778712de",
-     "phrase": {
-      "en": "merge queue for parallel agents",
-      "zh": "并行代理的合并队列"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://github.com/funador/claude-code-merge-queue"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Coding agents boost output but may erode programmers' deep understanding of their own code.",
-    "zh": "编程代理提升产出，但可能削弱程序员对代码的深层理解。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "AI coding agents productivity",
-    "zh": "AI编程代理效率"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow human-AI interaction and technical communication: two papers reveal productivity gains and hidden costs of AI-assisted programming.",
-    "zh": "你关注人机交互和技术传播：两篇论文揭示了AI辅助编程的效率提升和隐藏代价。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "2bfc0ffcad107eee",
-     "phrase": {
-      "en": "xAI sues over nudification ban",
-      "zh": "xAI起诉禁AI裸图法"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/technology/2026/jul/29/xai-sues-minnesota-nudification-technology"
-    },
-    {
      "item_id": "ccf4629307ee1255",
      "phrase": {
-      "en": "Trump eyes tighter AI rules",
-      "zh": "特朗普考虑收紧AI规则"
+      "en": "Trump considering AI controls after hacks",
+      "zh": "黑客后特朗普考虑AI管控"
      },
      "section": "news",
      "source": "BBC World",
      "url": "https://www.bbc.co.uk/news/articles/c20dppq3y90o?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "64a4387ef389d7ea",
+     "item_id": "2bfc0ffcad107eee",
      "phrase": {
-      "en": "pharmacy AI causes delays, errors",
-      "zh": "药房AI致延迟错误"
+      "en": "xAI sues over anti-nudification law",
+      "zh": "xAI起诉反深度伪造法律"
      },
      "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://vtdigger.org/2026/07/29/a-pharmacy-chain-in-vermont-implemented-ai-for-efficiency-its-led-to-delays-incorrect-information-and-privacy-concerns/"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/technology/2026/jul/29/xai-sues-minnesota-nudification-technology"
     }
    ],
-   "convergence": "divergent",
+   "convergence": "convergent",
    "gloss": {
-    "en": "Governments and companies clash over AI safety, with lawsuits and new controls shaping the landscape.",
-    "zh": "政府与企业就AI安全交锋，诉讼和新监管措施重塑格局。"
+    "en": "After hacks, the White House may flip from hands-off to hands-on on AI.",
+    "zh": "黑客事件后，白宫或从放手转向监管。"
    },
-   "id": "t3",
+   "id": "t1",
    "keyword": {
-    "en": "AI regulation and lawsuits",
-    "zh": "AI监管与诉讼"
+    "en": "AI controls",
+    "zh": "AI监管"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track AI policy: today xAI sues Minnesota over nudification law, Trump considers AI controls after OpenAI hack, and a pharmacy chain faces privacy concerns…",
-    "zh": "你关注AI政策：xAI起诉明尼苏达州、特朗普考虑AI管控、药房AI引发隐私问题。"
+    "en": "You track AI policy: a policy pivot is now on the table.",
+    "zh": "你关注AI政策，今日出现了政策转向的可能。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "dd16425edb4714f6",
+     "item_id": "59ac3bc2ea8d9012",
      "phrase": {
-      "en": "Chinese robots enter UK retail",
-      "zh": "中国机器人进入英国零售"
+      "en": "AI teammate changes human talk",
+      "zh": "AI队友改变人类交流"
      },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c0jl8v23qwgo?at_medium=RSS&at_campaign=rss"
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.27179v1"
     },
     {
-     "item_id": "64a4387ef389d7ea",
+     "item_id": "fa0a22049fec5bb7",
      "phrase": {
-      "en": "AI in pharmacy chain",
-      "zh": "AI应用于药房"
+      "en": "GUI for steering long-running agents",
+      "zh": "引导长期运行代理的界面"
      },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://vtdigger.org/2026/07/29/a-pharmacy-chain-in-vermont-implemented-ai-for-efficiency-its-led-to-delays-incorrect-information-and-privacy-concerns/"
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.26300v1"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "Chinese robots and AI systems are transforming UK retail, boosting efficiency but raising workforce questions.",
-    "zh": "中国机器人和AI系统正在变革英国零售业，提升效率但引发劳动力问题。"
+    "en": "AI as teammate reshapes how humans talk to each other, not just to the machine.",
+    "zh": "AI作为队友，重塑了人与人之间的沟通方式。"
    },
-   "id": "t4",
+   "id": "t2",
    "keyword": {
-    "en": "AI in robotics retail",
-    "zh": "机器人零售AI"
+    "en": "AI teammate",
+    "zh": "AI队友"
    },
    "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-07-28",
+     "item_id": "fa0a22049fec5bb7",
+     "label": {
+      "en": "AgentGUI for AI agents",
+      "zh": "AgentGUI用于AI代理"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.26300v1"
+    },
+    {
+     "date": "2026-07-29",
+     "item_id": "59ac3bc2ea8d9012",
+     "label": {
+      "en": "AI teammate paper",
+      "zh": "AI队友论文"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.27179v1"
+    }
+   ],
    "why_now": {
-    "en": "You follow embodied AI: a BBC report details Chinese robot army entering UK retail, alongside broader AI adoption trends.",
-    "zh": "你关注具身AI：BBC报道中国机器人进入英国零售业，反映AI应用趋势。"
+    "en": "You study HCI: a new paper reveals the social cost of AI teammates.",
+    "zh": "你研究人机交互，一篇新论文揭示了AI队友的社会成本。"
    }
   }
  ]
