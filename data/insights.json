@@ -1,28 +1,48 @@
 {
- "brief": "Today's news is dominated by escalating conflicts in Europe and the Middle East, with Russian missiles possibly striking Poland, US strikes on Iran, and deadly wildfires in Greece. Research highlights the social costs of AI teammates and productivity trade-offs with coding agents.",
- "meta": {
-  "generated_at": "2026-07-30T10:33:22Z"
+ "apropos_of_nothing": {
+  "query": "yarn bomb OR guerrilla knitting OR urban knitting",
+  "source": {
+   "name": "About Regional",
+   "published_at": "2026-07-01T07:00:00Z",
+   "title": "Knitting circle fights isolation in the Snowys",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcGhvUTJfbFA5QXF5dTdqWnFZNDNFM1l6MzZMblRMMDVxaExlYXZmZ2syREVGUk92cWZYcHJFVDVyRHk4Rnl4bjVBci10X0xZTXFyUzNXb3NQRDNKMjdiVkU1b2JOWmNHblN2R09EZzRUMFBXZVJGN2VBYlpaVWhHbGNOWmlSRmRGYm9z?oc=5"
+  },
+  "summaries": {
+   "en": {
+    "summary": "A knitting circle in the Snowy Mountains aims to combat social isolation among seniors.",
+    "why_irrelevant": "it is a hyperlocal community event far removed from any personal newsfeed."
+   },
+   "zh": {
+    "summary": "雪山山脉的一个编织圈旨在缓解老年人的社交孤立。",
+    "why_irrelevant": "这是一个远离个人信息流的本地社区活动。"
+   }
+  },
+  "topic": "yarn bombing graffiti knitting"
  },
- "news_summary": "A Russian missile likely struck Poland, killing at least 8 in Ukraine; US launched heavy strikes on Iran after Jordan intercepted missiles. Wildfires in Greece killed 3 firefighters, and heatwaves caused nearly 3,000 excess deaths in England. Republican disenfranchisement efforts are driving Black voter turnout, while US hospitals see a surge of uninsured patients after Obamacare cuts.",
- "papers_summary": "Studies explore how AI teammates reshape human communication, and how coding agents improve productivity but harm understanding. Other work examines repair as representational work in AI-assisted development and the social cost of AI teammates in team decision-making.",
+ "brief": "US economic growth slows while inflation persists, and a Russian missile crash in Poland heightens NATO tensions. Research highlights AI's impact on productivity and understanding, along with knowledge-graph tools for QA generation.",
+ "meta": {
+  "generated_at": "2026-07-30T14:29:07Z"
+ },
+ "news_summary": "US GDP grew 1.5% in Q2, slower than expected, and a Russian missile struck Poland, prompting NATO to vow defense. Other stories include a UK strike over breaks, a US map mislabeling Africa, and the first Alien Terrorist Removal Court hearing.",
+ "papers_summary": "New research examines how coding agents boost productivity but harm understanding, and how AI teammates reshape human communication. A knowledge-graph framework for QA pair generation is also introduced.",
  "summaries": {
   "en": {
-   "brief": "Today's news is dominated by escalating conflicts in Europe and the Middle East, with Russian missiles possibly striking Poland, US strikes on Iran, and deadly wildfires in Greece. Research highlights the social costs of AI teammates and productivity trade-offs with coding agents.",
-   "news_summary": "A Russian missile likely struck Poland, killing at least 8 in Ukraine; US launched heavy strikes on Iran after Jordan intercepted missiles. Wildfires in Greece killed 3 firefighters, and heatwaves caused nearly 3,000 excess deaths in England. Republican disenfranchisement efforts are driving Black voter turnout, while US hospitals see a surge of uninsured patients after Obamacare cuts.",
-   "papers_summary": "Studies explore how AI teammates reshape human communication, and how coding agents improve productivity but harm understanding. Other work examines repair as representational work in AI-assisted development and the social cost of AI teammates in team decision-making."
+   "brief": "US economic growth slows while inflation persists, and a Russian missile crash in Poland heightens NATO tensions. Research highlights AI's impact on productivity and understanding, along with knowledge-graph tools for QA generation.",
+   "news_summary": "US GDP grew 1.5% in Q2, slower than expected, and a Russian missile struck Poland, prompting NATO to vow defense. Other stories include a UK strike over breaks, a US map mislabeling Africa, and the first Alien Terrorist Removal Court hearing.",
+   "papers_summary": "New research examines how coding agents boost productivity but harm understanding, and how AI teammates reshape human communication. A knowledge-graph framework for QA pair generation is also introduced."
   },
   "zh": {
-   "brief": "今日新闻聚焦中国机器人进入英国零售业、美国禁止中国人形机器人进口引发争议，以及巴西健美运动员因使用类固醇死亡。论文研究AI队友对团队沟通的影响、编码代理提高效率但损害理解等话题。",
-   "news_summary": "中国机器人公司因英国劳动力短缺而获得机会；特朗普政府禁止中国人形机器人进口，北京批评此举泛化国家安全；巴西多名年轻健美运动员因使用类固醇死亡引发关注。",
-   "papers_summary": "研究显示AI队友会改变人类团队沟通方式，编码代理提高生产力但损害对代码的理解，还有论文探讨修复作为表征工作以及多粒度战术解析系统。"
+   "brief": "今日新聞聚焦澳門國安法首案區錦新被羈押一年、巴西健美運動員因類固醇死亡引發關注，以及中國機器人進軍英國零售業。經濟方面，美國GDP增速放緩至1.5%，通膨壓力持續。",
+   "news_summary": "澳門前議員區錦新成為國安法首位被告，羈押滿一年且無法與外界聯繫；巴西年輕健美運動員接連死亡，凸顯類固醇危害；中國機器人公司瞄準英國勞動力短缺市場。美經濟增速放緩至1.5%，通膨仍高；波蘭總理證實俄羅斯飛彈落入境內。",
+   "papers_summary": "本日無優先論文，但英文論文中，GraphQAG探討知識圖譜引導的問答對生成，\n(Im)Paired Programming則指出編碼代理雖提升效率但損害程式理解。"
   }
  },
  "todays_image": {
-  "caption": "The AGM-86B ALCM's airborne fire and the Greek wildfires both illustrate fire's devastating reach from above.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19820121000-NASM2019-00593",
-  "source_name": "National Air and Space Museum",
-  "source_url": "http://n2t.net/ark:/65665/nv94c0f0ad1-9108-476e-b4d0-eeecff910345",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19820121000-NASM2019-00593",
-  "title": "Missile, Cruise, Air-launched, Flight Test, AGM-86B ALCM"
+  "caption": "Both the missile mail container and hospital systems were originally designed for targeted delivery—one of letters, the other of care—but now serve unintended, strained purposes.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-0_234863_9aa",
+  "source_name": "National Postal Museum",
+  "source_url": "https://postalmuseum.si.edu/object/npm_0.234863.9",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-0_234863_9aa",
+  "title": "Regulus I Missile Mail container"
  }
 }

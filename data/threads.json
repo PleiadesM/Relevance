@@ -1,17 +1,69 @@
 {
  "meta": {
-  "count": 2,
-  "generated_at": "2026-07-30T10:33:22Z",
+  "count": 3,
+  "generated_at": "2026-07-30T14:29:07Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "full_text_file": "articles/news/0364792b8bdd953d.json",
+     "item_id": "0364792b8bdd953d",
+     "phrase": {
+      "en": "Frames flaw as fundamental",
+      "zh": "将缺陷视为根本性"
+     },
+     "section": "news",
+     "source": "MIT Technology Review · AI",
+     "url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/"
+    },
+    {
+     "item_id": "61f2ae1df3e2ec42",
+     "phrase": {
+      "en": "Simplifies scientific summaries",
+      "zh": "简化科学摘要"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.25630v1"
+    },
+    {
+     "item_id": "318dfc4bec6764db",
+     "phrase": {
+      "en": "Agents improve speed, harm understanding",
+      "zh": "代理提升速度但损害理解"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.26375v1"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "A fundamental vulnerability in LLMs cannot be fixed, researchers say.",
+    "zh": "研究人员称，LLM存在无法修复的根本性漏洞。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "LLM security flaw",
+    "zh": "LLM安全缺陷"
+   },
+   "relates_to": [
+    "t2"
+   ],
+   "why_now": {
+    "en": "You follow AI safety; today's paper argues the flaw is inherent.",
+    "zh": "你关注AI安全，今日论文指出缺陷是固有的。"
+   }
+  },
+  {
+   "angles": [
+    {
      "item_id": "59ac3bc2ea8d9012",
      "phrase": {
-      "en": "AI teammate alters human talk",
-      "zh": "AI队友改变人际交流"
+      "en": "AI teammate reshapes human talk",
+      "zh": "AI队友重塑人类对话"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
@@ -20,8 +72,8 @@
     {
      "item_id": "fa0a22049fec5bb7",
      "phrase": {
-      "en": "interface to steer AI agents",
-      "zh": "操控AI代理的界面"
+      "en": "Interface for steering AI agents",
+      "zh": "用于操控AI代理的界面"
      },
      "section": "papers",
      "source": "arXiv cs.HC + cs.GR",
@@ -30,59 +82,69 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "AI as teammate reshapes how humans talk to each other, not just to machines.",
-    "zh": "AI作为队友，重塑了人与人之间的交流方式，而不仅限于人机对话。"
+    "en": "AI as a teammate changes how humans talk to each other.",
+    "zh": "AI作为队友改变了人类之间的交流方式。"
    },
-   "id": "t1",
+   "id": "t2",
    "keyword": {
-    "en": "AI teammate & communication",
-    "zh": "AI队友与沟通"
+    "en": "AI teammate",
+    "zh": "AI队友"
    },
    "relates_to": [
-    "t2"
+    "t1"
    ],
    "why_now": {
-    "en": "You study human-computer interaction and embodied AI: two new papers show AI teammates distort human-human communication and visual analytics workflows.",
-    "zh": "你研究人机交互与具身AI，两篇新论文显示AI队友会扭曲人际沟通和可视分析流程。"
+    "en": "You care about HCI; this study shows real human communication shifts.",
+    "zh": "你关注人机交互，这项研究展示了真实的人类交流变化。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "61f2ae1df3e2ec42",
+     "item_id": "5d9270cfb48121d7",
      "phrase": {
-      "en": "LLM simplifies scientific summaries",
-      "zh": "LLM简化科学摘要"
+      "en": "Visual guide to wildfires",
+      "zh": "山火视觉指南"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.25630v1"
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/jul/30/europe-burns-france-spain-visual-guide-wildfires"
     },
     {
-     "item_id": "4170bba5e28255b9",
+     "item_id": "499b5f0b88715708",
      "phrase": {
-      "en": "LLM integrates urban spatial data",
-      "zh": "LLM整合城市空间数据"
+      "en": "Scotland races to save park",
+      "zh": "苏格兰争分夺秒拯救公园"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.25124v1"
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/30/world/europe/scotland-wildfire-cairngorms-highlands.html"
+    },
+    {
+     "item_id": "923cd6f0666e3af8",
+     "phrase": {
+      "en": "Greece firefighters die",
+      "zh": "希腊消防员牺牲"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/30/world/europe/wildfires-europe-greece.html"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "LLMs simplify scientific summaries and integrate urban spatial data, bridging disciplines.",
-    "zh": "大语言模型简化科学摘要并整合城市空间数据，桥接不同学科。"
+    "en": "Wildfires rage across Europe, from Greece to Scotland.",
+    "zh": "山火肆虐欧洲，从希腊到苏格兰。"
    },
-   "id": "t2",
+   "id": "t3",
    "keyword": {
-    "en": "LLM in scientific & spatial data",
-    "zh": "大语言模型用于科学空间数据"
+    "en": "wildfires Europe",
+    "zh": "欧洲山火"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow LLM and technical communication: two papers show LLMs used for science communication and urban data integration.",
-    "zh": "你关注大语言模型与技术传播，两篇论文展示LLM用于科学传播与城市数据整合。"
+    "en": "You track climate viz; two sources offer visual guides on the blazes.",
+    "zh": "你关注气候可视化，两个来源提供了火灾视觉指南。"
    }
   }
  ]
