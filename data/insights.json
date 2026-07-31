@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "Illawarra Mercury",
-   "published_at": "2026-07-30T23:00:14Z",
-   "title": "'Giant pumpkin craze': vegetable the size of a small adult wins first prize at Robertson Show",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUFRLWElWQVN6TUpGcmVxVnRoSDJMTDFiOGgyeElndk1fTzJtZUdFelFzZmtMSG85dUUteW1kM0lFYmViRFFKRDlDelhhNmlVeTRmc25nT2JkX09TdGFpREhZMzE1Zkg4NzNWQ1B4bjlBaFVhSXRyMXJuc09UZkpWd1JnbUlIZE91MDE4MEZQajhTYjZQWTZmRnlzanR6eUZ3VGpKZnlhcWpvQ2Y0Mm00?oc=5"
+   "name": "thebeacon.net",
+   "published_at": "2026-07-29T23:45:00Z",
+   "title": "Ottawa County Fair was , as always , a memorable success",
+   "url": "https://www.thebeacon.net/ottawa-county-fair-was-as-always-a-memorable-success/"
   },
   "summaries": {
    "en": {
-    "summary": "A giant pumpkin weighing as much as a small adult won first prize at the Robertson Show, sparking local 'giant pumpkin craze'.",
-    "why_irrelevant": "Off-profile for a tech-savvy urban audience focused on startups and AI."
+    "summary": "Ottawa County Fair was, as always, a memorable success.",
+    "why_irrelevant": "A local rural county event far from any tech, business, or personal feed."
    },
    "zh": {
-    "summary": "在罗伯逊展会上，一个如小成人般大小的巨型南瓜获得一等奖，引发当地“巨型南瓜热潮”。",
-    "why_irrelevant": "与关注科技创业和人工智能的城市读者不相关。"
+    "summary": "渥太华县博览会一如既往地取得了令人难忘的成功。",
+    "why_irrelevant": "远离技术、商业或个人动态的地方乡村活动。"
    }
   },
   "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news spans migrant crises at Spain's Ceuta enclave, US political shifts, and climate warnings over the Colorado River, while papers explore human-computer interaction in cross-reality and automated vehicles.",
+ "brief": "Today's news spans geopolitical tensions around Gaza and Ceuta, market volatility in South Korea, and AI's disruptive impact on various sectors, while research focuses on human-computer interaction in automated vehicles and advanced visualization techniques.",
  "meta": {
-  "generated_at": "2026-07-31T17:51:00Z"
+  "generated_at": "2026-07-31T19:49:56Z"
  },
- "news_summary": "Italy suspends Schengen with Spain over Ceuta migrant surge; Trump hesitates on Patriot missiles for Ukraine; US unveils Colorado River water cuts; India's monsoon at risk amid climate warnings.",
- "papers_summary": "Research focuses on visualization techniques for cross-reality collaboration, automated vehicle UX for impaired users, and AI-assisted counterspeech.",
+ "news_summary": "Major stories include Trump's Gaza disarmament plan drawing mixed reactions, a migrant surge into Ceuta sparking debate, and South Korea's KOSPI swinging wildly amid AI investment fervor, alongside AI's darker side with Google Earth's deepfake tool shutdown and concerns over book destruction.",
+ "papers_summary": "Research highlights include multi-session user experience with automated vehicle visualizations, auditory information for visually impaired in AVs, AI-assisted counterspeech for vaccine skepticism, and novel visualization tools like VizPilot and DP-LENS for complex data exploration.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans migrant crises at Spain's Ceuta enclave, US political shifts, and climate warnings over the Colorado River, while papers explore human-computer interaction in cross-reality and automated vehicles.",
-   "news_summary": "Italy suspends Schengen with Spain over Ceuta migrant surge; Trump hesitates on Patriot missiles for Ukraine; US unveils Colorado River water cuts; India's monsoon at risk amid climate warnings.",
-   "papers_summary": "Research focuses on visualization techniques for cross-reality collaboration, automated vehicle UX for impaired users, and AI-assisted counterspeech."
+   "brief": "Today's news spans geopolitical tensions around Gaza and Ceuta, market volatility in South Korea, and AI's disruptive impact on various sectors, while research focuses on human-computer interaction in automated vehicles and advanced visualization techniques.",
+   "news_summary": "Major stories include Trump's Gaza disarmament plan drawing mixed reactions, a migrant surge into Ceuta sparking debate, and South Korea's KOSPI swinging wildly amid AI investment fervor, alongside AI's darker side with Google Earth's deepfake tool shutdown and concerns over book destruction.",
+   "papers_summary": "Research highlights include multi-session user experience with automated vehicle visualizations, auditory information for visually impaired in AVs, AI-assisted counterspeech for vaccine skepticism, and novel visualization tools like VizPilot and DP-LENS for complex data exploration."
   },
   "zh": {
-   "brief": "今日焦点包括网传前中国领导人胡锦涛一家身亡的消息被否认，以及苹果、特朗普和香港科大研究等新闻。学术研究方面，无中文优先级论文，但英文论文探讨了跨现实协作、自动化车辆可视化和数据可视化等话题。",
-   "news_summary": "网传胡锦涛一家身亡的消息被原始来源否认；苹果因供应限制警告股价暴跌；特朗普公布加沙缴械计划，哈马斯证实同意；香港科大研究称早期限制糖分有助于脑部健康。",
-   "papers_summary": "英文论文关注跨现实协作中的空间参考、自动化车辆的可视化和无障碍设计，以及数据可视化中的不确定性展示等主题，但无中文论文被标记为优先。"
+   "brief": "今日要闻涵盖中共前总书记胡锦涛的虚假死亡传闻、苹果的供应警告、特朗普加沙计划及韩国医疗旅游热；研究方面聚焦于可视化与自动化车辆的人机交互。",
+   "news_summary": "中文新闻包括胡锦涛去世谣言被否、苹果预警供应限制、特朗普加沙计划获哈马斯同意，以及港科大关于糖分与脑部健康的研究。英文新闻关注摩洛哥移民潮、韩国股市暴涨及特朗普加沙协议的后续反应。",
+   "papers_summary": "今日论文集中于跨现实协作、自动化车辆可视化、人群拥挤不确定性可视化以及沉浸式3D分析等视觉与交互技术。"
   }
  },
  "todays_image": {
-  "caption": "Both the 1927 flood’s displacement and today’s migrant surge show how water can wash away the lines we draw between people and places.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2011_13_18_001",
-  "source_name": "National Museum of African American History and Culture",
-  "source_url": "https://nmaahc.si.edu/object/nmaahc_2011.13.18",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2011_13_18_001",
-  "title": "Gelatin silver print of four 1927 Mississippi River flood images"
+  "caption": "Like the Patent Office's cluttered displays of hopeful inventions, Ceuta now holds a crowded showcase of those seeking a new life across borders.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_POB99",
+  "source_name": "National Portrait Gallery",
+  "source_url": "https://npg.si.edu/object/npg_NPG.POB99",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_POB99",
+  "title": "Interior Patent Office, Washington City"
  }
 }
