@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "query": "\"snail racing championship\" OR \"world snail racing\"",
   "source": {
-   "name": "n.yam.com",
-   "published_at": "2026-07-31T01:30:00Z",
-   "title": "星野集團青森屋 「 睡魔萬聖節 」 10月登場 ！ 巨型南瓜 「 跳人 」 睡魔超吸睛",
-   "url": "https://n.yam.com/Article/20260731896877"
+   "name": "Metro.co.uk",
+   "published_at": "2026-07-19T07:00:00Z",
+   "title": "Video: The annual World Snail Racing Championships take place in Norfolk",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbmdMY2RxTUhRYTVNdjgxdHN3dnJIZkk4QkJLU2ZOLXpnSVJSOEw2dVJSWTFuNDhPS2ttUWFMRXYzbEV1SUwyeVJGbXV1X2lDVTRKOEFnN1R5clkwSU1OWklsaGNxT3NyaHNpWUxPOFpYck16NkcweTl4UWRDaVoxRE9NRk53cGxBVVZPd0xPNUlZNFVjUTlv?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A Japanese resort is launching a Halloween event featuring a giant pumpkin-shaped 'jumping' lantern float.",
-    "why_irrelevant": "A regional holiday event far from typical tech or finance feeds."
+    "summary": "A video captures the annual World Snail Racing Championships in Norfolk, where a snail named Snailor Swift wins.",
+    "why_irrelevant": "A whimsical sports story far removed from your usual tech and politics updates."
    },
    "zh": {
-    "summary": "日本一家度假村将推出万圣节活动，展出巨型南瓜造型的“跳人”灯笼花车。",
-    "why_irrelevant": "区域性的节日活动，远离常规科技或财经资讯。"
+    "summary": "一段视频记录了诺福克年度世界蜗牛赛跑锦标赛，一只名为“蜗牛泰勒”的蜗牛获胜。",
+    "why_irrelevant": "一则趣味体育轶事，远离你常看的科技和政治新闻。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "competitive snail racing"
  },
- "brief": "Today's headlines blend geopolitical crises — Trump's Gaza disarmament claim, Spain sending troops to Ceuta, and Senate pushback on Iran — with mounting concern over Big Tech's AI spending and Anthropic's revelation that its AI hacked three firms. Meanwhile, research focuses on visualization and interaction in automated vehicles and cross-reality systems.",
+ "brief": "Today's headlines are dominated by geopolitical tensions in the Middle East, with reports of a potential Gaza disarmament plan and Iranian drone attacks on US bases in Kuwait, alongside significant developments in AI security and political scandals.",
  "meta": {
-  "generated_at": "2026-07-31T03:47:27Z"
+  "generated_at": "2026-07-31T07:12:16Z"
  },
- "news_summary": "Trump announced a Board of Peace agreement for Hamas disarmament, met with skepticism; Spain deployed troops after mass migrant entry into Ceuta; and various political and tech stories unfolded, including Senate votes and AI security incidents.",
- "papers_summary": "Papers examine user experience in automated vehicles, visualizations for cross-reality collaboration, and AI-assisted counterspeech, highlighting advances in human-computer interaction.",
+ "news_summary": "Hamas agrees to disarm under a new peace plan, while Iran strikes US bases in Kuwait; AI systems show ability to break into computers; several political scandals and natural disasters also feature prominently.",
+ "papers_summary": "Recent papers focus on visualization techniques in human-computer interaction, including cross-reality collaboration and automated vehicle interfaces, as well as novel approaches to reading music notation and crowdsourced data visualization.",
  "summaries": {
   "en": {
-   "brief": "Today's headlines blend geopolitical crises — Trump's Gaza disarmament claim, Spain sending troops to Ceuta, and Senate pushback on Iran — with mounting concern over Big Tech's AI spending and Anthropic's revelation that its AI hacked three firms. Meanwhile, research focuses on visualization and interaction in automated vehicles and cross-reality systems.",
-   "news_summary": "Trump announced a Board of Peace agreement for Hamas disarmament, met with skepticism; Spain deployed troops after mass migrant entry into Ceuta; and various political and tech stories unfolded, including Senate votes and AI security incidents.",
-   "papers_summary": "Papers examine user experience in automated vehicles, visualizations for cross-reality collaboration, and AI-assisted counterspeech, highlighting advances in human-computer interaction."
+   "brief": "Today's headlines are dominated by geopolitical tensions in the Middle East, with reports of a potential Gaza disarmament plan and Iranian drone attacks on US bases in Kuwait, alongside significant developments in AI security and political scandals.",
+   "news_summary": "Hamas agrees to disarm under a new peace plan, while Iran strikes US bases in Kuwait; AI systems show ability to break into computers; several political scandals and natural disasters also feature prominently.",
+   "papers_summary": "Recent papers focus on visualization techniques in human-computer interaction, including cross-reality collaboration and automated vehicle interfaces, as well as novel approaches to reading music notation and crowdsourced data visualization."
   },
   "zh": {
-   "brief": "今日新闻聚焦中国及港澳地区动态，包括糖分与大脑健康研究、澳门国安法首案、以及中国机器人在英国零售业的应用；研究方面多为AI与人机交互领域的前沿探索。",
-   "news_summary": "中国相关新闻包括香港科大的糖分与脑健康研究、韩国医疗旅游热、澳门国安法首案及中国机器人进军英国市场；国际方面关注中东局势、美伊关系及科技公司AI投入。",
-   "papers_summary": "今日论文集中在人机交互与可视化领域，涵盖跨现实协作、自动驾驶视觉、AI辅助反言论、以及3D数据分析等主题。"
+   "brief": "今日新闻聚焦苹果供应链警告与加沙和平计划，研究方面关注跨现实协作、自动驾驶可视化及AI辅助对策等。",
+   "news_summary": "苹果因供应限制警告股价暴跌；哈马斯同意特朗普的加沙缴械计划，但以色列未评论；另有澳门国安法、医疗旅游等报道。",
+   "papers_summary": "arXiv论文涵盖跨现实协作空间参考、自动驾驶可视化、AI辅助对策等，聚焦人机交互与可视化技术。"
   }
  },
  "todays_image": {
-  "caption": "Like the tangled, drifting sargassum, the Reformers member’s memory of Angus Taylor’s donation has floated out of reach.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m358ea61edc8154b25bae7de1138fa245c",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3824dd9a3-8cd5-493a-8105-bd8fc27b25cd",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m358ea61edc8154b25bae7de1138fa245c/90",
-  "title": "Sargassum aquifolium (Turner) C. Agardh"
+  "caption": "A lion's \"Search for Peace\" plate proof and Hamas's disarmament agreement both show that peace can be forged from a position of strength, even if it's just a proof.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-0_288735_265",
+  "source_name": "National Postal Museum",
+  "source_url": "https://postalmuseum.si.edu/object/npm_0.288735.265",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-0_288735_265",
+  "title": "5c \"Search for Peace\" - Lions plate proof"
  }
 }
