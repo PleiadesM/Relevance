@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "sauna championship Finland OR competitive sauna bathing",
+  "query": "\"oyster shucking championship\" OR \"oyster opening contest\"",
   "source": {
-   "name": "Garage Gym Reviews",
-   "published_at": "2026-07-08T07:00:00Z",
-   "title": "Best Home Saunas (2026) : Personally Tested",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5GdWl1bEh3MGNuM2JBcHUxZ3hjVFhkYVZPSDc0dW1aZEVsMjcxNE42Wjkzb1Y1VHV6QUV0WUM1dy10M2swMWhib0N1Wi1NTUJ0UTB6ckJCVWtlaU9B?oc=5"
+   "name": "blogTO",
+   "published_at": "2026-07-19T17:17:35Z",
+   "title": "OOF Presents: The Ontario Oyster Shucking Championship",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSjIxUjFRdTVfNjV5aXoyWG8tRjNXanl5WHpBMFU2MUJsQ0wxaDdFWlhWZkN4b3VrQkdIdXQ4cG1Mc1Jma2dMSlplTE9kR3lXejZhdl9BdGw5NU1OcU4yY3c3bENEX0haTHZSX3V6ZTgzWS1CX1BLNHdwd2xPRl9ZV1laZDJhWUtXTDNhLWo5WGNSNW9KQlA4?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "Garage Gym Reviews ranks the best home saunas for 2026 based on personal testing.",
-    "why_irrelevant": "Focused on gear reviews, far from typical feed topics."
+    "summary": "The Ontario Oyster Shucking Championship crowns the fastest shucker in the province.",
+    "why_irrelevant": "It's a hyper-local food competition far from your usual tech and design feeds."
    },
    "zh": {
-    "summary": "Garage Gym Reviews 根据个人测试评选出2026年最佳家用桑拿房。",
-    "why_irrelevant": "侧重器材评测，远离常规信息流。"
+    "summary": "安大略省牡蛎开壳锦标赛决出全省最快开壳手。",
+    "why_irrelevant": "这是与您常看的科技和设计内容相距甚远的本地美食赛事。"
    }
   },
-  "topic": "Finnish competitive sauna bathing championships"
+  "topic": "competitive oyster shucking"
  },
- "brief": "Today's news is dominated by a migrant crisis at Spain's Ceuta border, Middle East tensions affecting oil prices and a Gaza disarmament plan, plus a fatal avalanche on Broad Peak. Research focuses on human-computer interaction and visualization, particularly in automated vehicles and cross-reality collaboration.",
+ "brief": "Today's news is dominated by the Iran conflict's economic impact on oil prices and a major migrant crisis in Ceuta, while global attention also turns to AI governance and the latest in automated vehicle interface research.",
  "meta": {
-  "generated_at": "2026-07-31T10:49:56Z"
+  "generated_at": "2026-07-31T14:32:26Z"
  },
- "news_summary": "Migrant arrivals in Ceuta, oil price rises from Iran strikes, and Avalanche on Broad Peak are major stories. Also notable are the Gaza deal uncertainties, cyber threats, and political developments in the UK and Peru.",
- "papers_summary": "Papers explore visualization and interaction in automated vehicles, cross-reality systems, and AI-assisted content generation, with a focus on user experience and accessibility.",
+ "news_summary": "News centers on the Iran war's effect on oil prices, a mass migrant influx in Ceuta, and political fallout including calls for FIFA's president to resign. Additionally, AI advancements and their governance remain a key topic.",
+ "papers_summary": "Research focuses on human-computer interaction, especially automated vehicle interfaces for visually impaired users and multi-session experiences, as well as novel visualization techniques and AI-generated counterspeech.",
  "summaries": {
   "en": {
-   "brief": "Today's news is dominated by a migrant crisis at Spain's Ceuta border, Middle East tensions affecting oil prices and a Gaza disarmament plan, plus a fatal avalanche on Broad Peak. Research focuses on human-computer interaction and visualization, particularly in automated vehicles and cross-reality collaboration.",
-   "news_summary": "Migrant arrivals in Ceuta, oil price rises from Iran strikes, and Avalanche on Broad Peak are major stories. Also notable are the Gaza deal uncertainties, cyber threats, and political developments in the UK and Peru.",
-   "papers_summary": "Papers explore visualization and interaction in automated vehicles, cross-reality systems, and AI-assisted content generation, with a focus on user experience and accessibility."
+   "brief": "Today's news is dominated by the Iran conflict's economic impact on oil prices and a major migrant crisis in Ceuta, while global attention also turns to AI governance and the latest in automated vehicle interface research.",
+   "news_summary": "News centers on the Iran war's effect on oil prices, a mass migrant influx in Ceuta, and political fallout including calls for FIFA's president to resign. Additionally, AI advancements and their governance remain a key topic.",
+   "papers_summary": "Research focuses on human-computer interaction, especially automated vehicle interfaces for visually impaired users and multi-session experiences, as well as novel visualization techniques and AI-generated counterspeech."
   },
   "zh": {
-   "brief": "今日焦点包括苹果因供应限制警告致股价暴跌，特朗普宣布加沙缴械计划且哈马斯同意，以及澳门国安法首案区锦新被羁押满一年。跨语言新闻提及西班牙休达移民危机和油价上涨。",
-   "news_summary": "苹果警告未来供应限制，股价下跌；特朗普宣布加沙哈马斯缴械计划；香港科大研究称幼时少糖有益大脑；韩国成医疗旅游枢纽；澳门国安法首案区锦新被羁押一年。",
-   "papers_summary": "今日论文集中在人机交互领域，包括跨现实协作投影技术、自动驾驶可视化、众包数据不确定性可视化等。"
+   "brief": "今日新闻聚焦于地缘政治紧张、科技供应限制及健康研究，而学术论文则关注自动化车辆与人机交互的可用性。",
+   "news_summary": "中文新闻涵盖胡锦涛传闻、苹果供应警告、特朗普加沙计划、糖分与脑健康研究及韩国医疗旅游；国际新闻涉及伊朗冲突、西班牙移民危机及AI安全。",
+   "papers_summary": "论文集中于人机交互领域，包括自动化车辆可视化、听觉信息辅助、跨现实协作及不确定性可视化等，强调用户体验与可访问性。"
   }
  },
  "todays_image": {
-  "caption": "Like the avalanche lily pushing through high mountain snow, migrants surge into Ceuta, blooming into contested territory.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1970.355.540_2",
-  "source_name": "Smithsonian American Art Museum",
-  "source_url": "https://americanart.si.edu/collections/search/artwork/?id=25861",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1970.355.540_2",
-  "title": "Avalanche Lily (Erythronium montanum)"
+  "caption": "Just as a clock keeps time honest across Europe, responsible AI must keep progress accountable across the continent.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-C3D7AB811DE42_001-000001",
+  "source_name": "National Air and Space Museum",
+  "source_url": "http://n2t.net/ark:/65665/nv961298b3a-f896-4a54-847f-f67915dce62b",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-C3D7AB811DE42_001-000001",
+  "title": "Clock"
  }
 }
