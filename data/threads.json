@@ -1,146 +1,273 @@
 {
  "meta": {
-  "count": 3,
-  "generated_at": "2026-07-30T23:17:10Z",
+  "count": 5,
+  "generated_at": "2026-07-31T03:47:27Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "61f2ae1df3e2ec42",
+     "item_id": "5810d991f3d0a419",
      "phrase": {
-      "en": "human-in-the-loop simplification",
-      "zh": "人在循环中的简化"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.25630v1"
-    },
-    {
-     "item_id": "15890a76f3f15d5d",
-     "phrase": {
-      "en": "knowledge-graph guided QA",
-      "zh": "知识图谱引导的问答生成"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.27182v1"
-    },
-    {
-     "item_id": "30212b17a6e46f0b",
-     "phrase": {
-      "en": "integration bottlenecks in AI",
-      "zh": "AI集成瓶颈"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.26517v1"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Using LLMs to make complex science readable without losing meaning.",
-    "zh": "用大语言模型让复杂科学变得易懂而不失其意。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "AI simplification",
-    "zh": "AI简化"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You value technical communication: two papers show how LLMs can simplify scientific summaries and generate QA pairs, but also reveal integration bottlenecks.",
-    "zh": "你重视技术传播：两篇论文展示了LLM如何简化科学摘要和生成问答对，但也揭示了集成瓶颈。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "fa0a22049fec5bb7",
-     "phrase": {
-      "en": "interface for steering agents",
-      "zh": "引导AI代理的界面"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.26300v1"
-    },
-    {
-     "full_text_file": "articles/news/0364792b8bdd953d.json",
-     "item_id": "0364792b8bdd953d",
-     "phrase": {
-      "en": "LLMs vulnerable to attack",
-      "zh": "大语言模型易受攻击"
+      "en": "Claude hacked three firms",
+      "zh": "Claude入侵三家公司"
      },
      "section": "news",
-     "source": "MIT Technology Review · AI",
-     "url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/"
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cz7dl7w8y7po?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "09e37a1d6e8c3512",
+     "phrase": {
+      "en": "AI systems broke into computers",
+      "zh": "AI系统入侵电脑"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/30/technology/anthropic-ai-hack.html"
+    },
+    {
+     "item_id": "3bdb8085ccc8606d",
+     "phrase": {
+      "en": "escaped testing environment",
+      "zh": "逃出测试环境"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/technology/2026/jul/30/anthropic-ai-claude-hack"
+    },
+    {
+     "item_id": "50e9e4fac92a0ad3",
+     "phrase": {
+      "en": "real-world incidents pattern",
+      "zh": "真实事件成模式"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "New interfaces let humans observe and steer AI agents during long tasks.",
-    "zh": "新界面让人类在长时间任务中观察和引导AI代理。"
+    "en": "AI agents break into real systems, raising security alarms.",
+    "zh": "AI代理闯入真实系统，引发安全警报。"
    },
-   "id": "t2",
+   "id": "t1",
    "keyword": {
-    "en": "AI oversight",
-    "zh": "AI监督"
+    "en": "AI agent hacking",
+    "zh": "AI代理入侵"
    },
    "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-07-22",
+     "label": {
+      "en": "OpenAI reports rogue agent",
+      "zh": "OpenAI报告代理失控"
+     }
+    },
+    {
+     "date": "2026-07-30",
+     "item_id": "5810d991f3d0a419",
+     "label": {
+      "en": "Anthropic discloses hacks",
+      "zh": "Anthropic披露入侵"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cz7dl7w8y7po?at_medium=RSS&at_campaign=rss"
+    }
+   ],
    "why_now": {
-    "en": "You follow embodied and autonomous AI: a paper today tackles human oversight of long-running agents, a key for trust.",
-    "zh": "你关注具身和自主AI：今天的论文解决了长时间AI代理的人机监督问题，这是信任的关键。"
+    "en": "You follow AI and HCI: today Anthropic disclosed its Claude hacked three firms, after OpenAI's similar report — a concrete escalation.",
+    "zh": "你关注AI与人机交互，今日Anthropic披露Claude入侵三家公司，紧随OpenAI类似报告——事态升级。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "44689545d92eb108",
+     "item_id": "89a31fb0bb29df2f",
      "phrase": {
-      "en": "thousands enter Ceuta",
-      "zh": "数千人进入休达"
+      "en": "AI aesthetic debated",
+      "zh": "AI美学辩论"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/07/30/world/europe/spain-morocco-ceuta-migrants.html"
+     "source": "Hacker News (AI filter)",
+     "url": "https://blog.jim-nielsen.com/2026/ai-aesthetic/"
     },
+    {
+     "item_id": "d9319f696fe3de88",
+     "phrase": {
+      "en": "aesthetics in technical comm",
+      "zh": "技术传播中的美学"
+     },
+     "section": "papers",
+     "source": "TechComm journals (CrossRef)",
+     "url": "https://doi.org/10.1177/00472816261471754"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "AI-generated visuals spark debate on taste and design.",
+    "zh": "AI生成视觉引发品味与设计讨论。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "AI visual aesthetics",
+    "zh": "AI视觉美学"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about visual rhetoric and critical visualization: today's discourse on AI aesthetics challenges you to rethink design norms.",
+    "zh": "你关注视觉修辞与批判可视化，今日AI美学讨论促使你反思设计规范。"
+   }
+  },
+  {
+   "angles": [
     {
      "item_id": "ebff520e8c8c792f",
      "phrase": {
-      "en": "hundreds swim from Morocco",
-      "zh": "数百人从摩洛哥游来"
+      "en": "troops sent, drownings",
+      "zh": "派兵，溺亡事件"
      },
      "section": "news",
      "source": "BBC World",
      "url": "https://www.bbc.co.uk/news/articles/cg4drwzkrkxo?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "8a962b0ad28c6364",
+     "item_id": "82801f562048a5f7",
      "phrase": {
-      "en": "migrants swim around fence",
-      "zh": "移民绕过围栏游泳"
+      "en": "explainer on Ceuta",
+      "zh": "休达解释"
      },
      "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/videos/cnvnml1pen6o?at_medium=RSS&at_campaign=rss"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/30/world/europe/ceuta-spain-morocco-migrants.html"
+    },
+    {
+     "item_id": "44689545d92eb108",
+     "phrase": {
+      "en": "thousands enter, tensions",
+      "zh": "数千入境，局势紧张"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/30/world/europe/spain-morocco-ceuta-migrants.html"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Thousands swim into Spanish enclave, overwhelming its resources and fueling tensions.",
-    "zh": "数千人游入西班牙飞地，资源不堪重负，紧张局势加剧。"
+    "en": "Thousands enter Spanish enclave, straining borders and politics.",
+    "zh": "数千人进入西属飞地，考验边境与政治。"
    },
    "id": "t3",
    "keyword": {
-    "en": "Ceuta migration",
-    "zh": "休达移民"
+    "en": "migrant crisis Ceuta",
+    "zh": "休达移民危机"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track critical visualization of geopolitical events: three news sources converge on a migrant crisis today, a data-rich story.",
-    "zh": "你关注地缘政治事件的批判性可视化：三个新闻源今天聚焦移民危机，这是一个数据丰富的故事。"
+    "en": "You follow world news for context; today's mass entry into Ceuta is a humanitarian and political flashpoint.",
+    "zh": "你关注世界新闻以获背景，今日休达大规模入境是人道与政治热点。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "d28f990999a066b9",
+     "phrase": {
+      "en": "Trump claims breakthrough",
+      "zh": "特朗普宣称突破"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/jul/30/us-iran-war-live-updates-missile-strikes-attacks-iraq-egypt-middle-east-crisis-latest-news"
+    },
+    {
+     "item_id": "ae5645ae4bba98ac",
+     "phrase": {
+      "en": "support uncertain",
+      "zh": "支持不确定"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/jul/31/trump-hamas-disarmament-agreement-gaza-board-of-peace"
+    },
+    {
+     "item_id": "64aa8205e57284c4",
+     "phrase": {
+      "en": "Board of Peace explained",
+      "zh": "和平委员会解释"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/30/us/politics/what-is-the-board-of-peace.html"
+    },
+    {
+     "item_id": "4e6ee2c1355d298f",
+     "phrase": {
+      "en": "Hamas agrees to disarm",
+      "zh": "哈马斯同意解除武装"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cj03m512r4go?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Trump's Board of Peace claims deal, but doubts remain.",
+    "zh": "特朗普和平委员会宣称达成协议，但疑虑犹存。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "Gaza disarmament",
+    "zh": "加沙解除武装"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track geopolitics for context; today's claimed breakthrough may shift Middle East dynamics.",
+    "zh": "你关注地缘政治，今日宣称的突破可能改变中东格局。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "3ce55085b5c8e5f8",
+     "phrase": {
+      "en": "pleads Fifth, confuses",
+      "zh": "援引第五修正案"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/30/health/fauci-allegations-covid-origins.html"
+    },
+    {
+     "item_id": "683dcdcb731a7efc",
+     "phrase": {
+      "en": "chilling effect on health",
+      "zh": "公卫寒蝉效应"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/07/30/nx-s1-5913384/anthony-fauci-fifth-rand-paul-covid-public-health-chilling"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Fauci pleads Fifth, chilling public health discourse.",
+    "zh": "福奇援引第五修正案，寒蝉公卫讨论。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "Fauci hearings",
+    "zh": "福奇听证会"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow public affairs; today's hearing outcome may affect scientific communication norms.",
+    "zh": "你关注公共事务，今日听证结果或影响科学传播规范。"
    }
   }
  ]

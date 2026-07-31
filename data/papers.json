@@ -2,6 +2,265 @@
  "items": [
   {
    "authors": [
+    "Haoyang Yang",
+    "Chenyang Zhang",
+    "Elliott H. Faa",
+    "Weijian Liu",
+    "Lily Seika Chisholm",
+    "Benjamin Lee"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Cross-reality collaboration increasingly connects immersive and desktop users within synchronized workspaces, yet little is known about how bidirectional projection techniques between immersive 3D layouts and desktop 2D views influence communication. Spatial referencing depends on shared spatial understanding, but different mappings preserve and distort geometric relationships in different ways, altering perceived adjacency, orientation, and coverage across collaborators' views. We present…",
+    "arxiv_id": "2607.28583"
+   },
+   "id": "1930b7f77ac25e21",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-30T17:41:24Z",
+   "score": 0.559,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Cross-reality collaboration increasingly connects immersive and desktop users within synchronized workspaces, yet little is known about how bidirectional projection techniques between immersive 3D layouts and desktop 2D views influence communication. Spatial referencing depends on shared spatial…",
+   "tags": [],
+   "title": "CrossAtlas: Evaluating Projection Techniques for Spatial Referencing in Cross-Reality Collaboration",
+   "url": "https://arxiv.org/abs/2607.28583v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Mark Colley",
+    "Pascal Jansen",
+    "Svenja Krauss",
+    "Enrico Rukzio"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Understanding automated vehicles (AVs) is crucial to improving their acceptance. Numerous approaches to visualizing relevant traffic information to passengers have been proposed and empirically evaluated. As this is time-consuming, costly, and reduces the possible design parameters, we employed multi-objective Bayesian optimization to optimize the design of visualizations in AVs. In particular, we evaluated multi-session aspects involving iterative optimization. We optimized the design for…",
+    "arxiv_id": "2607.28552"
+   },
+   "id": "8e522b0972c6c9c4",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-30T17:21:21Z",
+   "score": 0.5974,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Understanding automated vehicles (AVs) is crucial to improving their acceptance. Numerous approaches to visualizing relevant traffic information to passengers have been proposed and empirically evaluated. As this is time-consuming, costly, and reduces the possible design parameters, we employed…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Multi-Session User Experience Assessments of Computationally Optimized Automated Vehicle Functionality Visualizations",
+   "url": "https://arxiv.org/abs/2607.28552v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Mark Colley",
+    "Tobias Aescht",
+    "Omid Rajabi",
+    "Max Rädler",
+    "Pascal Jansen",
+    "Enrico Rukzio"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Automated vehicles promise to improve accessibility and access to personal mobility for everyone. However, their design and current research trends in visualizing relevant information do not reflect this commitment to accessibility for users with visual impairments. Therefore, we designed and implemented a visual and auditory communication concept for people with visual impairments seated inside fully automated vehicles. Furthermore, in an online video-based study (N=35, 12 with visual…",
+    "arxiv_id": "2607.28544"
+   },
+   "id": "95af6530800ccb68",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-30T17:14:00Z",
+   "score": 0.7494,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Automated vehicles promise to improve accessibility and access to personal mobility for everyone. However, their design and current research trends in visualizing relevant information do not reflect this commitment to accessibility for users with visual impairments. Therefore, we designed and…",
+   "tags": [
+    "ai-writing",
+    "ux"
+   ],
+   "title": "Effects of Auditory Information for People With Visual Impairments in Highly Automated Vehicles",
+   "url": "https://arxiv.org/abs/2607.28544v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Han Li",
+    "Inhwan Bae",
+    "Natalie Bazarova",
+    "Drew Margolin"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Given the profound societal impact of vaccine-skeptical content on social media, community-driven counterspeech has emerged as a promising participatory response to contest and curb such objectionable content. Yet crafting effective counterspeech remains challenging for ordinary users, limiting their willingness and ability to engage constructively. We designed and evaluated three generative AI-assisted counterspeech writing systems that vary by assistance stage (co-writing vs. re-writing) and…",
+    "arxiv_id": "2607.28239"
+   },
+   "id": "5110b9de140336d8",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-30T14:05:49Z",
+   "score": 0.7348,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Given the profound societal impact of vaccine-skeptical content on social media, community-driven counterspeech has emerged as a promising participatory response to contest and curb such objectionable content. Yet crafting effective counterspeech remains challenging for ordinary users, limiting…",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "Identifying a Level-up Pathway for AI-assisted Counterspeech through Elaboration",
+   "url": "https://arxiv.org/abs/2607.28239v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Patricio F. Calatayud",
+    "Pablo Padilla Longoria",
+    "Álvaro Martínez Ramírez"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Background. New forms of music writing using computers have arisen in the past 20 years. Most of them use the capacities of digital manipulation of data like animation, algorithmic processing, cinematic view, and much more. These scores use dynamic musicography, and all of them share a problem. They have readability problems. We will argue that this problem can be addressed by mathematical tools. Aims. Take the Autopsias [Autopsies] meta-compositional system as a study case for starting the…",
+    "arxiv_id": "2607.28155"
+   },
+   "id": "142cbab7618e6f94",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-30T12:58:20Z",
+   "score": 0.5372,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Background. New forms of music writing using computers have arisen in the past 20 years. Most of them use the capacities of digital manipulation of data like animation, algorithmic processing, cinematic view, and much more. These scores use dynamic musicography, and all of them share a problem.…",
+   "tags": [
+    "techcomm"
+   ],
+   "title": "A Mathematical Framework for Reading the Autopsias' Meta - Compositional System",
+   "url": "https://arxiv.org/abs/2607.28155v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Bea Alexis Arcega",
+    "Annika Dominique S. Campos",
+    "Kathleen Therese Cruz",
+    "Aaron Ace Toledo",
+    "Briane Paul V. Samson"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Commuters often encounter crowding in railway systems, particularly in queues where passenger density varies throughout the day. This introduces uncertainty in crowdedness, making it difficult for individuals to anticipate conditions and plan their trips effectively. Crowdsourcing has been a valuable method for collecting localized user data. But the unpredictability of crowds and the uncertainty of crowdsourced information pose new challenges for decision-making. However, we know little about…",
+    "arxiv_id": "2607.28072"
+   },
+   "id": "ace28c04e2cbcdac",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-30T11:47:03Z",
+   "score": 0.7644,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Commuters often encounter crowding in railway systems, particularly in queues where passenger density varies throughout the day. This introduces uncertainty in crowdedness, making it difficult for individuals to anticipate conditions and plan their trips effectively. Crowdsourcing has been a…",
+   "tags": [
+    "systems",
+    "visualization"
+   ],
+   "title": "Investigating Effective Uncertainty Visualizations for Ordinal Crowdsourced Data of Crowding Conditions",
+   "url": "https://arxiv.org/abs/2607.28072v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Nishaanthini Gnanavel",
+    "Yong Wang"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Composite visualizations integrate multiple visualizations to represent complex datasets effectively, but their intrinsic composite designs often impose a high initial cognitive load on novice users. Existing visualization onboarding approaches are typically platform-dependent, require substantial manual authoring effort, and struggle with the structural complexity of composite visualizations, limiting their general applicability. We present VizPilot, an automated visualization onboarding…",
+    "also_in": [
+     {
+      "source": "arXiv cs.HC (writing & docs)",
+      "url": "https://arxiv.org/abs/2607.27938v1"
+     }
+    ],
+    "arxiv_id": "2607.27938"
+   },
+   "id": "0cb3ea6e38146699",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-30T09:48:03Z",
+   "score": 0.7557,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Composite visualizations integrate multiple visualizations to represent complex datasets effectively, but their intrinsic composite designs often impose a high initial cognitive load on novice users. Existing visualization onboarding approaches are typically platform-dependent, require substantial…",
+   "tags": [
+    "ml-vis",
+    "llm",
+    "visualization"
+   ],
+   "title": "VizPilot: Automated Onboarding for SVG-based Composite Visualizations using Multimodal LLMs",
+   "url": "https://arxiv.org/abs/2607.27938v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Nieyu Cao",
+    "Xian Wang",
+    "Lik-Hang Lee"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Immersive environments, e.g., virtual reality (VR), offer a unique approach to exploring complex 3D datasets, where data is often heavily occluded and exploration incurs a high cognitive load. We propose DP-LENS, a density-aware polyfocal fisheye lens equipped with topology-driven auto-routing. While preserving peripheral context through geometric deformation and 3D perspective techniques, it enables users to explore 3D data with a lower cognitive load. To facilitate hands-free…",
+    "arxiv_id": "2607.27697"
+   },
+   "id": "ceac2d15a56cb470",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-30T05:28:26Z",
+   "score": 0.545,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Immersive environments, e.g., virtual reality (VR), offer a unique approach to exploring complex 3D datasets, where data is often heavily occluded and exploration incurs a high cognitive load. We propose DP-LENS, a density-aware polyfocal fisheye lens equipped with topology-driven auto-routing.…",
+   "tags": [],
+   "title": "DP-LENS: A Density-Aware Polyfocal Lens with Topology-Driven Auto-Routing for Occlusion Management in Immersive 3D Analytics",
+   "url": "https://arxiv.org/abs/2607.27697v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Lucas Greff Meneses",
+    "Evandro S. Ortigossa",
+    "Claudio Silva",
+    "Luis Gustavo Nonato"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Dimensionality Reduction (DR) is a fundamental tool for high-dimensional data exploration, reducing the complexity of latent spaces of machine learning models, and assisting in the explanation of complex opaque models. However, non-linear DR techniques often function as opaque transformations themselves, making it challenging to understand how individual features influence instance positioning in the reduced space. This lack of transparency complicates the analysis and interpretation of…",
+    "arxiv_id": "2607.27463"
+   },
+   "id": "be2f18c7c8748057",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-29T20:56:39Z",
+   "score": 0.4717,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Dimensionality Reduction (DR) is a fundamental tool for high-dimensional data exploration, reducing the complexity of latent spaces of machine learning models, and assisting in the explanation of complex opaque models. However, non-linear DR techniques often function as opaque transformations…",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "FADEx: Feature Attribution and Distortion-based Explanation of Dimensionality Reduction",
+   "url": "https://arxiv.org/abs/2607.27463v1",
+   "venue": "arXiv cs.LG"
+  },
+  {
+   "authors": [
     "Yize Li",
     "Ruiqi Yu",
     "Tianya Pan",
@@ -18,7 +277,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-29T17:52:53Z",
-   "score": 0.8496,
+   "score": 0.833,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -51,7 +310,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-29T17:51:32Z",
-   "score": 0.6695,
+   "score": 0.653,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -81,7 +340,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-29T16:52:10Z",
-   "score": 0.5133,
+   "score": 0.4969,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -90,6 +349,34 @@
    "title": "TactiPlay: Multi-Granularity Tactical Parsing and Video-Anchored Match Review for Amateur Badminton Players",
    "url": "https://arxiv.org/abs/2607.27125v1",
    "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Scott Weedon",
+    "Jamie Littlefield"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "As generative AI systems saturate our digital spaces with an unprecedented volume of content, aesthetics (features that elicit human cognitive and sensory responses) and taste (human discernment about the quality and desirability of those features) have drawn renewed cultural attention. For researchers in scientific and technical communication (STC), this resurgence of interest might be viewed as an invitation to revisit the aesthetic as central to the ways that technical artifacts make meaning…",
+    "citations": 0,
+    "doi": "10.1177/00472816261471754"
+   },
+   "id": "d9319f696fe3de88",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-29T13:22:21Z",
+   "score": 0.609,
+   "section": "papers",
+   "source": "TechComm journals (CrossRef)",
+   "source_id": "crossref_techcomm_journals",
+   "summary": "As generative AI systems saturate our digital spaces with an unprecedented volume of content, aesthetics (features that elicit human cognitive and sensory responses) and taste (human discernment about the quality and desirability of those features) have drawn renewed cultural attention. For…",
+   "tags": [
+    "ai-writing",
+    "techcomm"
+   ],
+   "title": "Making Information Sensible: Reconsidering Aesthetics in Scientific and Technical Communication",
+   "url": "https://doi.org/10.1177/00472816261471754",
+   "venue": "Journal of Technical Writing and Communication"
   },
   {
    "authors": [
@@ -108,7 +395,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-29T06:44:43Z",
-   "score": 0.4777,
+   "score": 0.4632,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -133,7 +420,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-29T06:33:02Z",
-   "score": 0.6296,
+   "score": 0.6151,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -159,7 +446,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-29T03:43:41Z",
-   "score": 0.4679,
+   "score": 0.4539,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -189,7 +476,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-29T03:09:10Z",
-   "score": 0.4661,
+   "score": 0.4522,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -217,7 +504,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-29T01:23:04Z",
-   "score": 0.6131,
+   "score": 0.5994,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -230,35 +517,6 @@
    "title": "(Im)Paired Programming: Coding Agents Improve Productivity but Harm Understanding",
    "url": "https://arxiv.org/abs/2607.26375v1",
    "venue": "arXiv cs.CL"
-  },
-  {
-   "authors": [
-    "Lance Ying",
-    "William Van Uitert",
-    "Tan Zhi-Xuan",
-    "Joshua B. Tenenbaum",
-    "Samuel J. Gershman"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "People can often understand and use novel artifacts after only a few interactions, suggesting that design choices communicate underlying affordances and causal structure. We propose a formal account of this process by framing cooperative, user-centered design as a cooperative game in which the user is the principal and the designer is an assistant. Inspired by prior work on pragmatic communication (e.g. RSA), our model treats a designer's design decisions as communicative signals and predicts…",
-    "arxiv_id": "2607.26322"
-   },
-   "id": "b8a76e83b0077c0b",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-28T22:41:39Z",
-   "score": 0.4123,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "People can often understand and use novel artifacts after only a few interactions, suggesting that design choices communicate underlying affordances and causal structure. We propose a formal account of this process by framing cooperative, user-centered design as a cooperative game in which the user…",
-   "tags": [
-    "ux"
-   ],
-   "title": "Pragmatic Reasoning in Design",
-   "url": "https://arxiv.org/abs/2607.26322v1",
-   "venue": "arXiv cs.HC"
   },
   {
    "authors": [
@@ -276,7 +534,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-28T21:47:22Z",
-   "score": 0.6421,
+   "score": 0.6291,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -287,33 +545,6 @@
    "title": "AgentGUI: An Interface for Observing and Steering Long-Running AI Agents",
    "url": "https://arxiv.org/abs/2607.26300v1",
    "venue": "arXiv cs.CL"
-  },
-  {
-   "authors": [
-    "Shiyi He",
-    "Zach Cutler",
-    "Andrew M. McNutt"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Textual data serialization formats, such as JSON or XML, are ubiquitous, supporting tasks like software configuration and data tabularization. Despite their prominence, little is known about their usability. What makes one good or bad? Is there a best one for cognitive efficiency? We explore these questions via a (N=215) crowd work study and a (N=9) semi-structured interview study. We find that format distinctions (like indentation versus curly braces) do not consistently translate into…",
-    "arxiv_id": "2607.26211"
-   },
-   "id": "a84db0ad2ab506ea",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-28T19:24:57Z",
-   "score": 0.4027,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Textual data serialization formats, such as JSON or XML, are ubiquitous, supporting tasks like software configuration and data tabularization. Despite their prominence, little is known about their usability. What makes one good or bad? Is there a best one for cognitive efficiency? We explore these…",
-   "tags": [
-    "ux"
-   ],
-   "title": "Reading Between the Curly Braces: On Textual Data Serialization Format Usability",
-   "url": "https://arxiv.org/abs/2607.26211v1",
-   "venue": "arXiv cs.HC"
   },
   {
    "authors": [
@@ -329,7 +560,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-28T17:36:53Z",
-   "score": 0.4375,
+   "score": 0.4251,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -340,216 +571,17 @@
    "title": "Interactive Extraction of High-Frequency Aesthetically-Coherent Colormaps",
    "url": "https://arxiv.org/abs/2607.26025v1",
    "venue": "arXiv cs.GR"
-  },
-  {
-   "authors": [
-    "Md Rahat-uz-Zaman",
-    "Md Dilshadur Rahman",
-    "Andrew McNutt",
-    "Paul Rosen"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Annotation is among the most demanding visualization tasks to automate, as it simultaneously requires correctly navigating visual, semantic, and stylistic constraints. Failure to meet any of these conditions severely undermines the utility of an annotation, rendering it challenging to read, inaccurate, or visually discordant. Despite a growing body of annotation tools and automations, no existing benchmark or evaluation framework tests whether these conditions are met because of their scope and…",
-    "arxiv_id": "2607.25911"
-   },
-   "id": "e4e509b9a68d54d0",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-28T16:04:39Z",
-   "score": 0.6257,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Annotation is among the most demanding visualization tasks to automate, as it simultaneously requires correctly navigating visual, semantic, and stylistic constraints. Failure to meet any of these conditions severely undermines the utility of an annotation, rendering it challenging to read,…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "AnnoBench: A Benchmark for Visualization Annotation Generation",
-   "url": "https://arxiv.org/abs/2607.25911v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Kyuri Im",
-    "Michael Färber"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Interdisciplinary research is accelerating, yet scientific papers remain difficult to understand outside their home fields. We study large language model (LLM)-based simplification of scientific texts and present a human-in-the-loop workflow that transforms expert summaries into more accessible versions for non-specialists. Using SciSummNet as the source corpus, we first generate baseline simplifications with GPT-4o-mini. In Phase 1, readers from STEM fields outside computer science identify…",
-    "arxiv_id": "2607.25630"
-   },
-   "id": "61f2ae1df3e2ec42",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-28T12:12:39Z",
-   "score": 0.7152,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Interdisciplinary research is accelerating, yet scientific papers remain difficult to understand outside their home fields. We study large language model (LLM)-based simplification of scientific texts and present a human-in-the-loop workflow that transforms expert summaries into more accessible…",
-   "tags": [
-    "ai-writing",
-    "llm"
-   ],
-   "title": "A Human-in-the-Loop Corpus for LLM-Based Simplification of Scientific Summaries",
-   "url": "https://arxiv.org/abs/2607.25630v1",
-   "venue": "arXiv cs.CL"
-  },
-  {
-   "authors": [
-    "Federico Cabitza",
-    "Gianluca Colombo"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Quattrociocchi and colleagues warn that the fluent outputs of large language models may allow linguistic plausibility to substitute for epistemic evaluation, producing the condition they call *Epistemia*: the experience of possessing knowledge without undertaking the practices through which judgment would ordinarily be warranted. This article accepts that diagnosis but challenges its explanatory framework, which compares an embodied, socially situated human knower with an isolated generative…",
-    "arxiv_id": "2607.25620"
-   },
-   "id": "da2b13ba1928c12d",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-28T11:57:59Z",
-   "score": 0.3821,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Quattrociocchi and colleagues warn that the fluent outputs of large language models may allow linguistic plausibility to substitute for epistemic evaluation, producing the condition they call *Epistemia*: the experience of possessing knowledge without undertaking the practices through which…",
-   "tags": [
-    "ai-writing",
-    "llm"
-   ],
-   "title": "Beyond Epistemia: Epistemic Schizologia and Large Language Models as Techno-Semiotic Machines",
-   "url": "https://arxiv.org/abs/2607.25620v1",
-   "venue": "arXiv cs.AI"
-  },
-  {
-   "authors": [
-    "Yumin Song",
-    "Seokhyeon Park",
-    "Soohyun Lee",
-    "Aeri Cho",
-    "John Joon Young Chung",
-    "Hyeon Jeon"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Creating static visualizations for presentations and publications requires granular refinements of visual details, even for simple charts. Existing data-driven visualization tools offer limited interactive control for such refinements, forcing users to export charts to external graphic editors and breaking the critical link between data and visual representation. To address this gap, we propose an extended InfoVis Reference Model to account for post-render design refinement. A formative study…",
-    "arxiv_id": "2607.25386"
-   },
-   "id": "c25c883d318aa493",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-28T07:44:49Z",
-   "score": 0.6037,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Creating static visualizations for presentations and publications requires granular refinements of visual details, even for simple charts. Existing data-driven visualization tools offer limited interactive control for such refinements, forcing users to export charts to external graphic editors and…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "TailVis: Expressive Chart Refinement Preserving Data-Binding Integrity",
-   "url": "https://arxiv.org/abs/2607.25386v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Mayuri Mathur",
-    "Ojaswa Sharma"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Medical image visualization requires volumetric rendering algorithms that preserve anatomical fidelity while maintaining high rendering speeds. To address the high computational cost of large volumetric datasets, we propose a Gaussian-based volumetric representation for efficient visualization of dense medical volumes without compromising structural and radiometric details. We optimize the proposed representation using Monte Carlo volumetric estimation, which enables training on a highly sparse…",
-    "arxiv_id": "2607.25377"
-   },
-   "id": "d65bfa27a0c49ed9",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-28T07:32:09Z",
-   "score": 0.6032,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Medical image visualization requires volumetric rendering algorithms that preserve anatomical fidelity while maintaining high rendering speeds. To address the high computational cost of large volumetric datasets, we propose a Gaussian-based volumetric representation for efficient visualization of…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "Gaussian Volumetric Representation for Efficient Shear-Warp Visualization",
-   "url": "https://arxiv.org/abs/2607.25377v1",
-   "venue": "arXiv cs.CV"
-  },
-  {
-   "authors": [
-    "Harrison J. Goldwyn",
-    "Graham Johnson",
-    "Christopher Ibarra",
-    "Lace Padilla",
-    "Kenny Gruchalla"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Empirical user studies are essential for evaluating visual encodings and can reveal perceptual and cognitive mechanisms, but they do not by themselves provide causal, predictive accounts of interpretation errors. Evaluations are therefore often post hoc: they measure performance after a design has been specified rather than predicting how attention, uncertainty, memory, and bias may produce accurate or erroneous judgments. To address this mechanistic gap, we translate a cognitive theory of…",
-    "arxiv_id": "2607.25131"
-   },
-   "id": "b131f184eb526306",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-27T22:53:58Z",
-   "score": 0.3901,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Empirical user studies are essential for evaluating visual encodings and can reveal perceptual and cognitive mechanisms, but they do not by themselves provide causal, predictive accounts of interpretation errors. Evaluations are therefore often post hoc: they measure performance after a design has…",
-   "tags": [
-    "eval-study",
-    "hci"
-   ],
-   "title": "Beyond the Post Hoc User Study: Modeling Visual Decision-Making with Active Inference",
-   "url": "https://arxiv.org/abs/2607.25131v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Sonia Castelo",
-    "Eden Wu",
-    "Joao Rulff",
-    "Harish Doraiswamy",
-    "Juliana Freire",
-    "Claudio Silva"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Urban decision-making requires integrating heterogeneous spatial data. While current GIS tools handle geometric computation efficiently, they lack the semantic reasoning to guide complex workflows. Analysts manually manage data discovery, spatial boundaries, and measurement semantics, risking aggregation errors. We present UrbanTrace, a visual analytics system that transforms manual spatial data-wrangling into a transparent, node-based collaborative workflow with context-aware AI agents. Using…",
-    "arxiv_id": "2607.25124"
-   },
-   "id": "4170bba5e28255b9",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-27T22:35:18Z",
-   "score": 0.5819,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Urban decision-making requires integrating heterogeneous spatial data. While current GIS tools handle geometric computation efficiently, they lack the semantic reasoning to guide complex workflows. Analysts manually manage data discovery, spatial boundaries, and measurement semantics, risking…",
-   "tags": [
-    "ml-vis",
-    "llm"
-   ],
-   "title": "UrbanTrace: LLM-Assisted Discovery and Semantics-Aware Integration of Spatial Data",
-   "url": "https://arxiv.org/abs/2607.25124v1",
-   "venue": "arXiv cs.HC"
   }
  ],
  "meta": {
-  "count": 19,
-  "generated_at": "2026-07-30T23:17:10Z",
+  "count": 20,
+  "generated_at": "2026-07-31T03:47:27Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
    {
     "category": "optional",
-    "count": 12,
+    "count": 11,
     "error": null,
     "full_text_count": 0,
     "id": "arxiv_datavis",
@@ -585,12 +617,12 @@
    },
    {
     "category": "optional",
-    "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A1050-6519%2Cfrom-created-date%3A2026-07-02&rows=12&sort=created&order=desc",
+    "count": 11,
+    "error": null,
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "crossref"
@@ -609,7 +641,7 @@
    },
    {
     "category": "optional",
-    "count": 7,
+    "count": 9,
     "error": null,
     "full_text_count": 0,
     "id": "arxiv_hci_writing",

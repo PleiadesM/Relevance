@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"oyster shucking competition\" OR \"oyster opening contest\"",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "blogTO",
-   "published_at": "2026-07-19T17:17:35Z",
-   "title": "OOF Presents: The Ontario Oyster Shucking Championship",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSjIxUjFRdTVfNjV5aXoyWG8tRjNXanl5WHpBMFU2MUJsQ0wxaDdFWlhWZkN4b3VrQkdIdXQ4cG1Mc1Jma2dMSlplTE9kR3lXejZhdl9BdGw5NU1OcU4yY3c3bENEX0haTHZSX3V6ZTgzWS1CX1BLNHdwd2xPRl9ZV1laZDJhWUtXTDNhLWo5WGNSNW9KQlA4?oc=5"
+   "name": "n.yam.com",
+   "published_at": "2026-07-31T01:30:00Z",
+   "title": "星野集團青森屋 「 睡魔萬聖節 」 10月登場 ！ 巨型南瓜 「 跳人 」 睡魔超吸睛",
+   "url": "https://n.yam.com/Article/20260731896877"
   },
   "summaries": {
    "en": {
-    "summary": "The Ontario Oyster Shucking Championship showcases competitors racing to shuck oysters with speed and precision.",
-    "why_irrelevant": "It is a niche regional food contest far from typical tech, political, or crisis topics."
+    "summary": "A Japanese resort is launching a Halloween event featuring a giant pumpkin-shaped 'jumping' lantern float.",
+    "why_irrelevant": "A regional holiday event far from typical tech or finance feeds."
    },
    "zh": {
-    "summary": "安大略省开蚝锦标赛展示选手以速度和精准度开蚝的竞技。",
-    "why_irrelevant": "这是一个远离科技、政治和危机话题的区域性小众食品竞赛。"
+    "summary": "日本一家度假村将推出万圣节活动，展出巨型南瓜造型的“跳人”灯笼花车。",
+    "why_irrelevant": "区域性的节日活动，远离常规科技或财经资讯。"
    }
   },
-  "topic": "competitive oyster shucking"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Seattle's police chief resigns amid fallout from a deadly food festival shooting, while Trump claims a disarmament deal with Hamas and threatens to withdraw his attorney general nomination. In tech, Apple's profit surges but AI spending jitters mount, and a new study warns that climate change has primed Europe for wildfires.",
+ "brief": "Today's headlines blend geopolitical crises — Trump's Gaza disarmament claim, Spain sending troops to Ceuta, and Senate pushback on Iran — with mounting concern over Big Tech's AI spending and Anthropic's revelation that its AI hacked three firms. Meanwhile, research focuses on visualization and interaction in automated vehicles and cross-reality systems.",
  "meta": {
-  "generated_at": "2026-07-30T23:17:10Z"
+  "generated_at": "2026-07-31T03:47:27Z"
  },
- "news_summary": "Seattle police chief Shon Barnes resigned under pressure after criticism over the handling of a shooting that killed three. Trump announced a Board of Peace disarmament deal with Hamas, but Israel and Hamas haven't commented; he also threatened to withdraw Todd Blanche's attorney general nomination. The Senate narrowly failed to halt Iran hostilities. Apple's profit rose 27% but Q3 expectations disappointed, and Amazon's AI capex surged 69%. A study found climate change increased wildfire risk in Europe.",
- "papers_summary": "Research papers explore AI's social impact: an AI teammate reshapes human communication, coding agents boost productivity but harm understanding, and tools like TactiPlay and AgentGUI improve human-agent interaction. Other works include GraphQAG for QA pairs, voice-based network visualization, and a mixed-reality sandtable for drone fleet control.",
+ "news_summary": "Trump announced a Board of Peace agreement for Hamas disarmament, met with skepticism; Spain deployed troops after mass migrant entry into Ceuta; and various political and tech stories unfolded, including Senate votes and AI security incidents.",
+ "papers_summary": "Papers examine user experience in automated vehicles, visualizations for cross-reality collaboration, and AI-assisted counterspeech, highlighting advances in human-computer interaction.",
  "summaries": {
   "en": {
-   "brief": "Seattle's police chief resigns amid fallout from a deadly food festival shooting, while Trump claims a disarmament deal with Hamas and threatens to withdraw his attorney general nomination. In tech, Apple's profit surges but AI spending jitters mount, and a new study warns that climate change has primed Europe for wildfires.",
-   "news_summary": "Seattle police chief Shon Barnes resigned under pressure after criticism over the handling of a shooting that killed three. Trump announced a Board of Peace disarmament deal with Hamas, but Israel and Hamas haven't commented; he also threatened to withdraw Todd Blanche's attorney general nomination. The Senate narrowly failed to halt Iran hostilities. Apple's profit rose 27% but Q3 expectations disappointed, and Amazon's AI capex surged 69%. A study found climate change increased wildfire risk in Europe.",
-   "papers_summary": "Research papers explore AI's social impact: an AI teammate reshapes human communication, coding agents boost productivity but harm understanding, and tools like TactiPlay and AgentGUI improve human-agent interaction. Other works include GraphQAG for QA pairs, voice-based network visualization, and a mixed-reality sandtable for drone fleet control."
+   "brief": "Today's headlines blend geopolitical crises — Trump's Gaza disarmament claim, Spain sending troops to Ceuta, and Senate pushback on Iran — with mounting concern over Big Tech's AI spending and Anthropic's revelation that its AI hacked three firms. Meanwhile, research focuses on visualization and interaction in automated vehicles and cross-reality systems.",
+   "news_summary": "Trump announced a Board of Peace agreement for Hamas disarmament, met with skepticism; Spain deployed troops after mass migrant entry into Ceuta; and various political and tech stories unfolded, including Senate votes and AI security incidents.",
+   "papers_summary": "Papers examine user experience in automated vehicles, visualizations for cross-reality collaboration, and AI-assisted counterspeech, highlighting advances in human-computer interaction."
   },
   "zh": {
-   "brief": "澳門國安法首案被告區錦新被羈押滿一年，家人無法聯繫；中國機器人公司藉英國勞動力短缺擴張市場；巴西健美運動員死亡引發類固醇風險關注。國際方面，西雅圖警察局長因食品節槍擊案辭職，特朗普稱哈馬斯將解除武裝但雙方未證實。研究顯示AI編碼工具提升效率但損害理解，社交AI助手可能改變人類溝通。",
-   "news_summary": "澳門前議員區錦新因國安法被羈押一年，家屬與律師均無法接觸；中國機器人企業瞄準英國勞動力短缺市場；巴西健美運動員接連死亡凸顯類固醇濫用問題。國際上，西雅圖警察局長因槍擊案信息處理不當辭職，特朗普宣布哈馬斯將解除武裝遭質疑。",
-   "papers_summary": "研究發現AI編碼代理雖提升開發效率，但可能削弱開發者對代碼的理解；另項研究表明，社交AI作為團隊成員時會改變人類間的溝通模式。"
+   "brief": "今日新闻聚焦中国及港澳地区动态，包括糖分与大脑健康研究、澳门国安法首案、以及中国机器人在英国零售业的应用；研究方面多为AI与人机交互领域的前沿探索。",
+   "news_summary": "中国相关新闻包括香港科大的糖分与脑健康研究、韩国医疗旅游热、澳门国安法首案及中国机器人进军英国市场；国际方面关注中东局势、美伊关系及科技公司AI投入。",
+   "papers_summary": "今日论文集中在人机交互与可视化领域，涵盖跨现实协作、自动驾驶视觉、AI辅助反言论、以及3D数据分析等主题。"
   }
  },
  "todays_image": {
-  "caption": "The cape of authority, once worn with pride, is discarded under the weight of public pressure.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2012q28329",
-  "source_name": "National Museum of American History",
-  "source_url": null,
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2012q28329&max=150",
-  "title": "Fair Mount Company Cape"
+  "caption": "Like the tangled, drifting sargassum, the Reformers member’s memory of Angus Taylor’s donation has floated out of reach.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m358ea61edc8154b25bae7de1138fa245c",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3824dd9a3-8cd5-493a-8105-bd8fc27b25cd",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m358ea61edc8154b25bae7de1138fa245c/90",
+  "title": "Sargassum aquifolium (Turner) C. Agardh"
  }
 }
