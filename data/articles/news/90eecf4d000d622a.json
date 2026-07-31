@@ -1,0 +1,30 @@
+{
+ "full_text": "On Friday, a judge largely denied a motion to dismiss from a web scraper, SerpApi, which is accused of conspiring with Perplexity AI to illegally scrape copyrighted Reddit content from Google search results.\n\nIn his opinion , US District Judge Paul A. Engelmayer said that at this early stage, Reddit has plausibly pleaded that there was a conspiracy, with SerpApi providing a product to circumvent Google access controls and Perplexity AI paying for it.\n\nEngelmayer’s decision came less than two weeks after another court dismissed a similar action raised by Google , finding that the company had not proven that rights holders, such as Reddit, had ever authorized the search engine to prevent the scraping of protected content. Google told Ars that it planned to amend its complaint to keep its lawsuit alive, but SerpApi told Ars that Google and Reddit were both trying to “use the DMCA to wall off the open Internet by retroactively claiming control over content that they didn’t author and don’t own.”\n\nRead full article\n\nComments",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/90eecf4d000d622a.json",
+  "id": "90eecf4d000d622a",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-07-31T21:19:39Z",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai",
+  "summary": "Reddit advances lawsuit accusing Perplexity AI of conspiring with web scraper.",
+  "tags": [
+   "policy"
+  ],
+  "title": "Reddit keeps its strange DMCA fight over Google search results alive",
+  "url": "https://arstechnica.com/tech-policy/2026/07/reddit-keeps-weird-dmca-lawsuit-against-web-scraper-alive-despite-googles-loss/"
+ },
+ "meta": {
+  "content_hash": "9be63800cafec391",
+  "generated_at": "2026-07-31T23:14:36Z",
+  "item_id": "90eecf4d000d622a",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai"
+ }
+}

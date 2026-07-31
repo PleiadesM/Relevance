@@ -1,0 +1,294 @@
+{
+ "meta": {
+  "count": 5,
+  "generated_at": "2026-07-31T23:14:36Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "full_text_file": "articles/news/2657739d69eec558.json",
+     "item_id": "2657739d69eec558",
+     "phrase": {
+      "en": "Google Earth risked ruin",
+      "zh": "谷歌地球险遭毁灭"
+     },
+     "section": "news",
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/ai/2026/07/google-earth-releases-swiftly-retracts-ai-feature-to-make-fake-satellite-images/"
+    },
+    {
+     "full_text_file": "articles/news/a3c1d37c8f057016.json",
+     "item_id": "a3c1d37c8f057016",
+     "phrase": {
+      "en": "deepfake tool only lasted day",
+      "zh": "深度伪造工具仅存一天"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool"
+    },
+    {
+     "item_id": "ace118ff06aa2899",
+     "phrase": {
+      "en": "paused after fears",
+      "zh": "因担忧而暂停"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/07/31/nx-s1-5914652/google-adds-ai-to-satellite-images-raising-fears-of-deepfakes-in-the-sky"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Google's AI satellite image tool was pulled after a day of misuse fears.",
+    "zh": "谷歌的AI卫星图像工具因滥用担忧一天内被撤下。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI deepfake imagery",
+    "zh": "AI深度伪造图像"
+   },
+   "relates_to": [
+    "t4"
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-30",
+     "label": {
+      "en": "tool launches",
+      "zh": "工具上线"
+     }
+    },
+    {
+     "date": "2026-07-31",
+     "full_text_file": "articles/news/2657739d69eec558.json",
+     "item_id": "2657739d69eec558",
+     "label": {
+      "en": "tool retracted",
+      "zh": "工具撤回"
+     },
+     "section": "news",
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/ai/2026/07/google-earth-releases-swiftly-retracts-ai-feature-to-make-fake-satellite-images/"
+    }
+   ],
+   "why_now": {
+    "en": "You care about AI's visual truth: today Google retracted a tool that could fabricate satellite images, exposing deepfake risks.",
+    "zh": "你关注AI的视觉真实性：今日谷歌撤回了可伪造卫星图像的工具，暴露深度伪造风险。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "ffbd3057319c0391",
+     "phrase": {
+      "en": "causes uncertain",
+      "zh": "原因不确定"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/31/world/europe/migrants-surge-morocco-ceuta-spain.html"
+    },
+    {
+     "item_id": "9e94904cc8e645e1",
+     "phrase": {
+      "en": "young men seek work",
+      "zh": "年轻人寻求工作"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/31/world/europe/young-men-poured-into-ceuta-seeking-work.html"
+    },
+    {
+     "item_id": "3810ff634e5f668a",
+     "phrase": {
+      "en": "PM blames traffickers",
+      "zh": "首相归咎贩运者"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "cf97b027d4f70374",
+     "phrase": {
+      "en": "57 die crossing",
+      "zh": "57人渡海死亡"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/jul/31/ceuta-spain-morocco-border-deaths"
+    },
+    {
+     "item_id": "7ea0e4d0c7c09c2b",
+     "phrase": {
+      "en": "Italy suspends Schengen",
+      "zh": "意大利暂停申根"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/jul/31/cueta-spain-morocco-italy-migration-schengen-europe-latest-news-updates"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Thousands cross into Spain's enclave, with deaths and political fallout.",
+    "zh": "数千人涌入西班牙飞地，造成死亡与政治冲击。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "Ceuta migration surge",
+    "zh": "休达移民潮"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-07-30",
+     "item_id": "ffbd3057319c0391",
+     "label": {
+      "en": "surge begins",
+      "zh": "潮涌开始"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/07/31/world/europe/migrants-surge-morocco-ceuta-spain.html"
+    },
+    {
+     "date": "2026-07-31",
+     "item_id": "cf97b027d4f70374",
+     "label": {
+      "en": "deaths and EU response",
+      "zh": "死亡与欧盟回应"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/jul/31/ceuta-spain-morocco-border-deaths"
+    }
+   ],
+   "why_now": {
+    "en": "You track geopolitical and human data: today's Ceuta surge shows migration's volatility.",
+    "zh": "你关注地缘政治与人文数据：今日休达潮显示移民的动荡。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "15890a76f3f15d5d",
+     "phrase": {
+      "en": "graph-guided QA generation",
+      "zh": "图引导的问答生成"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.27182v1"
+    },
+    {
+     "item_id": "1d5812b8fa47894a",
+     "phrase": {
+      "en": "small eval suite",
+      "zh": "小型评估套件"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Jul/31/smevals/#atom-everything"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Newly released eval suite and research stress the need for better LLM testing.",
+    "zh": "新发布的评估套件与研究强调更好测试大模型的需求。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "LLM evaluation practices",
+    "zh": "大模型评估实践"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You build and critique LLMs: today's eval suite and QA framework address how we judge models.",
+    "zh": "你构建并评析大模型：今日的评估套件和QA框架关乎如何评判模型。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "59ac3bc2ea8d9012",
+     "phrase": {
+      "en": "AI teammate reshapes communication",
+      "zh": "AI队友重塑沟通"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.27179v1"
+    },
+    {
+     "item_id": "fa0a22049fec5bb7",
+     "phrase": {
+      "en": "interface for long-running agents",
+      "zh": "长时代理界面"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.26300v1"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Tools and studies emerge to observe and steer autonomous agents.",
+    "zh": "观测和引导自主代理的工具与研究涌现。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "AI agent oversight",
+    "zh": "AI代理监管"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You study human-AI interaction: today's agent interface and teammate studies reveal oversight gaps.",
+    "zh": "你研究人机交互：今日的代理界面和队友研究揭示监管缺口。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "70426d0666405cd4",
+     "phrase": {
+      "en": "self-hosted code review agent",
+      "zh": "自托管代码审查代理"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://www.trytilde.ai/blog/how-to-build-code-review-agent"
+    },
+    {
+     "full_text_file": "articles/news/ed89fc761547d82a.json",
+     "item_id": "ed89fc761547d82a",
+     "phrase": {
+      "en": "tattoo for interview",
+      "zh": "面试需纹身"
+     },
+     "section": "news",
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/culture/2026/07/ai-startup-admits-tattoo-for-interview-stunt-was-reckless/"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "A CEO's tattoo stunt for recruitment highlights extreme startup demands.",
+    "zh": "CEO为招聘的纹身噱头凸显创业公司极端要求。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "AI startup culture",
+    "zh": "AI创业文化"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow tech workplace trends: today's tattoo gimmick shows AI startup intensity.",
+    "zh": "你关注科技职场趋势：今日纹身噱头显示AI创业强度。"
+   }
+  }
+ ]
+}

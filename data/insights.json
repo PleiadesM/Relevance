@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
+  "query": "\"oyster shucking championship\" OR \"world oyster opening contest\"",
   "source": {
-   "name": "Gazette and Herald",
-   "published_at": "2026-07-29T04:00:00Z",
-   "title": "Giant pumpkins are set to take over at Longleat this autumn",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQ2poQi1MbUQyY0FJak9YYWVWQUQtUXRIMG1QUEFTcHlocnpiSTE3eXplR3VKbVdoQTBTTk5sRWMtNkhlcWdhYzNGTnNDaE9uNGdNZVhobkpvVTVFMmhzT041QmJGS2Z1dS1zc1VtdWNtRUlaSTdmWFJfNkNLUks0eFdaNDI1U3V5VWFxNWktYXRGN0FuakIwRmp4N3E?oc=5"
+   "name": "blogTO",
+   "published_at": "2026-07-19T17:17:35Z",
+   "title": "OOF Presents: The Ontario Oyster Shucking Championship",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSjIxUjFRdTVfNjV5aXoyWG8tRjNXanl5WHpBMFU2MUJsQ0wxaDdFWlhWZkN4b3VrQkdIdXQ4cG1Mc1Jma2dMSlplTE9kR3lXejZhdl9BdGw5NU1OcU4yY3c3bENEX0haTHZSX3V6ZTgzWS1CX1BLNHdwd2xPRl9ZV1laZDJhWUtXTDNhLWo5WGNSNW9KQlA4?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "Giant pumpkins are set to take over at Longleat this autumn, adding a seasonal spectacle to the Wiltshire safari park.",
-    "why_irrelevant": "The user's feed centers on tech and career news, far from rural horticulture displays."
+    "summary": "The Ontario Oyster Shucking Championship, where competitors race to open oysters, is set to take place in Toronto.",
+    "why_irrelevant": "It's a briny, hands-on niche with zero overlap with the user's usual topics."
    },
    "zh": {
-    "summary": "今年秋天，巨型南瓜将亮相朗利特，为威尔特郡的野生动物园增添季节性景观。",
-    "why_irrelevant": "用户的动态主要关注科技和职业新闻，与乡村园艺展示相去甚远。"
+    "summary": "安大略省牡蛎开壳锦标赛将在多伦多举行，选手比拼开壳速度。",
+    "why_irrelevant": "这是一个与用户常关注话题毫无交集的小众技艺赛事。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "competitive oyster shucking"
  },
- "brief": "Today's news highlights political uncertainty, climate adaptation limits, and AI risks, while papers focus on visualization and accessibility in automated vehicles.",
+ "brief": "Today's news spans from Stateless MCP's technical rollout and AI industry shifts to political and legal developments, while papers explore AI in design, nutrition, and education.",
  "meta": {
-  "generated_at": "2026-07-31T21:20:00Z"
+  "generated_at": "2026-07-31T23:14:36Z"
  },
- "news_summary": "US politics, including Harris's 2028 uncertainty and Fed meeting changes, dominate, alongside climate warnings and AI safety concerns.",
- "papers_summary": "Research covers cross-reality collaboration, automated vehicle interfaces, and visualization techniques for complex data.",
+ "news_summary": "Highlights include the Stateless MCP specification launch, charges dropped against an Olympian, AI hedge fund turmoil, political updates, and a Marine jet crash.",
+ "papers_summary": "Research covers AI in landscape design, omega-3 nutrition, neuroprotection, math education, and spatial uncertainty methods.",
  "summaries": {
   "en": {
-   "brief": "Today's news highlights political uncertainty, climate adaptation limits, and AI risks, while papers focus on visualization and accessibility in automated vehicles.",
-   "news_summary": "US politics, including Harris's 2028 uncertainty and Fed meeting changes, dominate, alongside climate warnings and AI safety concerns.",
-   "papers_summary": "Research covers cross-reality collaboration, automated vehicle interfaces, and visualization techniques for complex data."
+   "brief": "Today's news spans from Stateless MCP's technical rollout and AI industry shifts to political and legal developments, while papers explore AI in design, nutrition, and education.",
+   "news_summary": "Highlights include the Stateless MCP specification launch, charges dropped against an Olympian, AI hedge fund turmoil, political updates, and a Marine jet crash.",
+   "papers_summary": "Research covers AI in landscape design, omega-3 nutrition, neuroprotection, math education, and spatial uncertainty methods."
   },
   "zh": {
-   "brief": "今日新闻焦点包括胡锦涛传闻被否、苹果供应警告及特朗普加沙计划；论文侧重视觉化与自动化车辆研究。",
-   "news_summary": "网传胡锦涛消息被否认，苹果因供应限制警告股价下跌，特朗普加沙计划获哈马斯同意。",
-   "papers_summary": "多篇论文关注跨现实协作、自动化车辆可视化及不确定性可视化，显示人机交互领域持续进展。"
+   "brief": "今日焦点包括网传胡锦涛一家身亡的消息被否认，苹果警告供应限制导致股价下跌，以及特朗普公布加沙缴械计划获哈马斯同意。研究方面，香港科大的研究关注早期糖分摄入与脑部健康，国际论文则探讨AI在设计、营养与数学教育中的应用。",
+   "news_summary": "简体中文新闻重点报道了胡锦涛传闻的辟谣、苹果的供应警告，以及哈马斯同意特朗普的缴械计划；同时，香港科大研究指出幼儿期限制糖分有益脑部健康，韩国医疗旅游兴起。",
+   "papers_summary": "国际论文摘要涵盖AI在景观设计中的应用、动物生产与人类营养的关系、多酚饮食与运动对阿尔茨海默病的神经保护，以及大学数学课程中学生求助行为的研究。"
   }
  },
  "todays_image": {
-  "caption": "Just as a steam locomotive can build up pressure without moving, Harris is gathering political steam but leaving the 2028 engine in the station for now.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-09593E1863632-000001",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/154926",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-09593E1863632-000001",
-  "title": "Steam Locomotive"
+  "caption": "Just as the globe-skimmer dragonfly roams far and wide, the stateless MCP tools roam freely to explore and connect new data landscapes.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3946407a99f4840d296c2754e3436ff90",
+  "source_name": "NMNH - Entomology Dept.",
+  "source_url": "http://n2t.net/ark:/65665/38ec976a9-7e4b-4d51-8044-9ba1f8a93256",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3946407a99f4840d296c2754e3436ff90/90",
+  "title": "Pantala hymenaea"
  }
 }

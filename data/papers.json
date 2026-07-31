@@ -2,6 +2,200 @@
  "items": [
   {
    "authors": [
+    "Jacob Owen Huff"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Artificial intelligence (AI) is becoming more common in design fields, including landscape architecture. For example, AI has been used to visually analyze park aesthetics and generate landscape design concepts (Jahani et al., 2022; Senem et al., 2023; Ploennigs & Berger, 2023). This study explores how AI, specifically an image-generation tool called Midjourney, affects the design process for landscape architecture students. Students completed two design projects—one using AI-generated images…",
+    "citations": 0,
+    "doi": "10.26076/ejma-xz30"
+   },
+   "id": "452fd2e5fb6d2095",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-01T00:00:00Z",
+   "score": 0.6225,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Artificial intelligence (AI) is becoming more common in design fields, including landscape architecture. For example, AI has been used to visually analyze park aesthetics and generate landscape design concepts (Jahani et al., 2022; Senem et al., 2023; Ploennigs & Berger, 2023). This study explores…",
+   "tags": [],
+   "title": "The Impact of AI on the Landscape Design Process",
+   "url": "https://digitalcommons.usu.edu/etd2023/859",
+   "venue": "Digital Commons - USU (Utah State University)"
+  },
+  {
+   "authors": [
+    "Joseph Vinod Varre"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "The question at the center of this dissertation is simple: does the way food is produced change the quality of the food itself in ways that matter for human health? Across a series of studies on bison meat, eggs, and human dietary intervention, the answer was yes. This work began with a broad look at the modern food system and the nutritional consequences of industrialized diets. In particular, it focused on the growing imbalance between omega-6 and omega-3 fatty acids in the Western diet. This…",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "5be86634c1b4944a",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-01T00:00:00Z",
+   "score": 0.485,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "The question at the center of this dissertation is simple: does the way food is produced change the quality of the food itself in ways that matter for human health? Across a series of studies on bison meat, eggs, and human dietary intervention, the answer was yes. This work began with a broad look…",
+   "tags": [],
+   "title": "Bridging Animal Production and Human Nutrition: How Production Ecology Shapes the Nutritional Quality of Terrestrial Animal Foods and Human Omega-3 Status",
+   "url": "https://digitalcommons.usu.edu/etd2023/836",
+   "venue": "Digital Commons - USU (Utah State University)"
+  },
+  {
+   "authors": [
+    "Michelle Morgan"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Healthy non-pharmacological lifestyle factors, such as regular physical exercise and a dietary supplementation, have been shown to significantly improve cognitive outcomes over time compared to a more sedentary lifestyle and poor diet. Furthermore, exercise may serve as a potential protective factor in attenuating the effects associated with cognitive decline that are characteristic of neurodegenerative disorders, such as Alzheimer's disease (AD). Further, evidence indicates that certain diet…",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "746acdb6dc43e292",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-01T00:00:00Z",
+   "score": 0.485,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Healthy non-pharmacological lifestyle factors, such as regular physical exercise and a dietary supplementation, have been shown to significantly improve cognitive outcomes over time compared to a more sedentary lifestyle and poor diet. Furthermore, exercise may serve as a potential protective…",
+   "tags": [],
+   "title": "Polyphenol Diet and Exercise as Neuroprotection from Effects of Alzheimer's Disease",
+   "url": "https://scholarsrepository.llu.edu/etd/2715",
+   "venue": "The Scholars Repository - LLU (Loma Linda University)"
+  },
+  {
+   "authors": [
+    "Randall I. Haws"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Quantitative literacy, or the ability to understand and use mathematical information, is an important skill developed in college. However, required math courses can be a major obstacle for many students, and those who struggle to complete them are more likely to leave school without earning a degree. Understanding why some students seek help while others do not is key to improving student success. This study explores how students in a university-level foundational mathematics course (college…",
+    "citations": 0,
+    "doi": "10.26076/nmqx-2j42"
+   },
+   "id": "facebb60d76caa99",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-01T00:00:00Z",
+   "score": 0.485,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Quantitative literacy, or the ability to understand and use mathematical information, is an important skill developed in college. However, required math courses can be a major obstacle for many students, and those who struggle to complete them are more likely to leave school without earning a…",
+   "tags": [],
+   "title": "Investigating Factors That Affect Students' Help-Seeking Strategies in a University-Level Foundational Mathematics Course",
+   "url": "https://digitalcommons.usu.edu/etd2023/847",
+   "venue": "Digital Commons - USU (Utah State University)"
+  },
+  {
+   "authors": [
+    "Trenzy Odero"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Ecological Momentary Assessment is a method of collecting repeated measures of people in real time within natural environments. This results in hierarchical data that has a significant amount of variation at the person level. The traditional linear mixedeffects models assume that the residual variance is constant, which might not be true when the residual variance varies among individuals as well as in time. This thesis uses mixed-effects location-scale (MELS) models to model the mean and…",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "60f1a294c83625a9",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-01T00:00:00Z",
+   "score": 0.485,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Ecological Momentary Assessment is a method of collecting repeated measures of people in real time within natural environments. This results in hierarchical data that has a significant amount of variation at the person level. The traditional linear mixedeffects models assume that the residual…",
+   "tags": [],
+   "title": "Modeling Mean and Variability of Anxiety in Ecological Momentary Assessment Data Using Mixed-Effects Location–Scale Models",
+   "url": "https://dc.etsu.edu/etd/4721",
+   "venue": "Digital Commons - East Tennessee State University (East Tennessee State University)"
+  },
+  {
+   "authors": [
+    "Eri Osuna"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Related-rates problems are a standard yet persistently difficult topic in first-semester calculus. Research increasingly recommends dynamic visualization tools such as GeoGebra, but direct comparisons of static and dynamic representations in related-rates settings remain scarce. This qualitative study examines how representation type shapes the quality of students' reasoning and their perceived experience during related-rates problem solving. Six mathematics students who had completed Calculus…",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "467c9b956e56b5c1",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-01T00:00:00Z",
+   "score": 0.6225,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Related-rates problems are a standard yet persistently difficult topic in first-semester calculus. Research increasingly recommends dynamic visualization tools such as GeoGebra, but direct comparisons of static and dynamic representations in related-rates settings remain scarce. This qualitative…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "ADVANTAGES OF DYNAMIC REPRESENTATION FOR RELATED RATES PROBLEMS IN CALCULUS",
+   "url": "https://scholarworks.lib.csusb.edu/etd/2524",
+   "venue": "CSUSB ScholarWorks (California State University, San Bernardino)"
+  },
+  {
+   "authors": [
+    "Emily A Kovacic"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "The Little Logan River (LLR) plays a vital role in the cultural, historical, and ecological landscape of Cache Valley, Utah. Amid growing concerns raised by the Logan River Watershed Project (LRWP), which threatens to alter the river’s environment, this project seeks to understand the significance of the LLR as a cultural and recreational asset through collected oral histories. Building on folkloric perspectives of place-based storytelling, this thesis introduces the idea of vivus locum, or…",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "3477edd89bec1190",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-01T00:00:00Z",
+   "score": 0.6225,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "The Little Logan River (LLR) plays a vital role in the cultural, historical, and ecological landscape of Cache Valley, Utah. Amid growing concerns raised by the Logan River Watershed Project (LRWP), which threatens to alter the river’s environment, this project seeks to understand the significance…",
+   "tags": [],
+   "title": "Tales, Traditions, and Tides: The Little Logan River and its Role in Cache Valley's History, Culture, and Conservation",
+   "url": "https://digitalcommons.usu.edu/gradreports2023/168",
+   "venue": "Digital Commons - USU (Utah State University)"
+  },
+  {
+   "authors": [
+    "Kinspride K. Duah"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Environmental decisions such as infrastructure design, water management, and snow load estimation depend on spatial data that are often incomplete or uncertain. In many cases, measurements are not exact values but ranges, reflecting limitations in data collection methods. Traditional mapping techniques typically simplify these uncertain measurements, which can lead to less accurate predictions. This dissertation introduces improved statistical tools for making spatial predictions when data are…",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "25e95073a4644a39",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-01T00:00:00Z",
+   "score": 0.6225,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Environmental decisions such as infrastructure design, water management, and snow load estimation depend on spatial data that are often incomplete or uncertain. In many cases, measurements are not exact values but ranges, reflecting limitations in data collection methods. Traditional mapping…",
+   "tags": [],
+   "title": "Spatial Prediction Under Uncertainty: Methodological and Computational Advances in Bayesian Maximum Entropy",
+   "url": "https://digitalcommons.usu.edu/etd2023/843",
+   "venue": "Utah State Research and Scholarship (Utah State University)"
+  },
+  {
+   "authors": [
     "Haoyang Yang",
     "Chenyang Zhang",
     "Elliott H. Faa",
@@ -18,7 +212,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-30T17:41:24Z",
-   "score": 0.4838,
+   "score": 0.4765,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -44,7 +238,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-30T17:21:21Z",
-   "score": 0.5225,
+   "score": 0.5153,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -74,7 +268,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-30T17:14:00Z",
-   "score": 0.6746,
+   "score": 0.6673,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -103,7 +297,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-30T14:05:49Z",
-   "score": 0.6628,
+   "score": 0.6558,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -130,7 +324,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-30T12:58:20Z",
-   "score": 0.4661,
+   "score": 0.4592,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -159,7 +353,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-30T11:47:03Z",
-   "score": 0.6943,
+   "score": 0.6875,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -192,7 +386,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-30T09:48:03Z",
-   "score": 0.6873,
+   "score": 0.6807,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -221,7 +415,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-30T05:28:26Z",
-   "score": 0.48,
+   "score": 0.4737,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -247,7 +441,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-29T20:56:39Z",
-   "score": 0.4129,
+   "score": 0.4073,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -277,7 +471,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-29T17:52:53Z",
-   "score": 0.7764,
+   "score": 0.7709,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -310,7 +504,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-29T17:51:32Z",
-   "score": 0.5963,
+   "score": 0.5908,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -340,7 +534,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-29T16:52:10Z",
-   "score": 0.441,
+   "score": 0.4356,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -367,7 +561,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-29T06:44:43Z",
-   "score": 0.4136,
+   "score": 0.4088,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -392,7 +586,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-29T06:33:02Z",
-   "score": 0.5656,
+   "score": 0.5608,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -418,7 +612,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-29T03:43:41Z",
-   "score": 0.4061,
+   "score": 0.4014,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -448,7 +642,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-29T03:09:10Z",
-   "score": 0.4047,
+   "score": 0.4001,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -476,7 +670,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-29T01:23:04Z",
-   "score": 0.5529,
+   "score": 0.5484,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -506,7 +700,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-28T21:47:22Z",
-   "score": 0.5845,
+   "score": 0.5802,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -532,7 +726,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-28T17:36:53Z",
-   "score": 0.3827,
+   "score": 0.3786,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -546,8 +740,8 @@
   }
  ],
  "meta": {
-  "count": 19,
-  "generated_at": "2026-07-31T21:20:00Z",
+  "count": 27,
+  "generated_at": "2026-07-31T23:14:36Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
