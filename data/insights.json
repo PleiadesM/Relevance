@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "query": "\"Gloucestershire cheese rolling\" OR \"cheese rolling race\"",
   "source": {
-   "name": "wiltshiretimes.co.uk",
-   "published_at": "2026-07-29T04:30:00Z",
-   "title": "Giant pumpkins and Aardman adventure to take over Longleat",
-   "url": "https://www.wiltshiretimes.co.uk/news/26416619.giant-pumpkins-aardman-adventure-take-longleat/"
+   "name": "dailymail.com",
+   "published_at": "2026-07-24T09:14:22Z",
+   "title": "Video: German YouTuber pips local man to win Gloucestershire cheese-rolling contest",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSVc0M3pHam1UY2M1WXpWMWZ3b2J3VWRIS1ZkY01mVUsyM0pQTm5XMlR0NV9yQU5NNkhRcktBVm9GSnRtNkhCeW9BamlBd2Ita1pWclhrN01yRWJpYVhIdkxVOUtLcHJHYTF6STZTZ3RycExGT0Yyb1Z3c2w1UEpWQmxBYkg2am5ibVQtUWk5UWktd3NHcmlqYU5iZ3RleWRtRzVFbzFoV19MZzFjOVpYZUNEZ0RIWUI0cGs3QW5RT0Z1MENPdDlTZWpn?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "Longleat safari park in Wiltshire will host giant pumpkins and an Aardman animation adventure this autumn.",
-    "why_irrelevant": "It's a niche UK tourist event far from typical urban tech and news feeds."
+    "summary": "A German YouTuber narrowly beat a local competitor in Gloucestershire's chaotic cheese-rolling contest.",
+    "why_irrelevant": "It's a viral oddity far from your personal and professional interests."
    },
    "zh": {
-    "summary": "威尔特郡朗利特野生动物园今秋将展出巨型南瓜并推出阿德曼动画冒险活动。",
-    "why_irrelevant": "这是英国小众旅游活动，远离常见的城市科技与新闻资讯。"
+    "summary": "一位德国YouTuber在格洛斯特郡的滚奶酪比赛中险胜当地选手。",
+    "why_irrelevant": "这是一个离你个人和专业兴趣很远的网络趣闻。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "competitive cheese rolling"
  },
- "brief": "Today's news is dominated by geopolitical tensions, including the Ceuta migrant crisis, U.S. claims of Iranian cyberattacks, and the war in Ukraine, while the mountaineering community mourns the loss of Nirmal Purja. Research highlights include studies on AI in design, nutrition, and automated vehicle accessibility.",
+ "brief": "Global tensions rise over Ceuta migrant crisis and FIFA leadership, while space security and AI topics surface; research focuses on AI design, nutrition, and automated vehicle accessibility.",
  "meta": {
-  "generated_at": "2026-08-01T15:16:14Z"
+  "generated_at": "2026-08-01T17:12:46Z"
  },
- "news_summary": "News covers Spain's call for EU action after a migrant influx in Ceuta, U.S. allegations of Iranian hacks on water systems, and lethal Russian strikes on Kyiv. The death of mountaineer Nirmal Purja in an avalanche also features prominently.",
- "papers_summary": "Research topics range from AI's role in landscape design and polyphenol diets for Alzheimer's to student help-seeking in math and user experience in automated vehicles, reflecting diverse academic interests.",
+ "news_summary": "Spain and EU clash over Ceuta migrant response, FIFA faces pressure, and US probes Iran-linked hacks on water systems; notable deaths include mountaineer Nirmal Purja.",
+ "papers_summary": "Papers cover AI in landscape design, nutrition and omega-3, Alzheimer's prevention, math education, anxiety modeling, and automated vehicle visualizations.",
  "summaries": {
   "en": {
-   "brief": "Today's news is dominated by geopolitical tensions, including the Ceuta migrant crisis, U.S. claims of Iranian cyberattacks, and the war in Ukraine, while the mountaineering community mourns the loss of Nirmal Purja. Research highlights include studies on AI in design, nutrition, and automated vehicle accessibility.",
-   "news_summary": "News covers Spain's call for EU action after a migrant influx in Ceuta, U.S. allegations of Iranian hacks on water systems, and lethal Russian strikes on Kyiv. The death of mountaineer Nirmal Purja in an avalanche also features prominently.",
-   "papers_summary": "Research topics range from AI's role in landscape design and polyphenol diets for Alzheimer's to student help-seeking in math and user experience in automated vehicles, reflecting diverse academic interests."
+   "brief": "Global tensions rise over Ceuta migrant crisis and FIFA leadership, while space security and AI topics surface; research focuses on AI design, nutrition, and automated vehicle accessibility.",
+   "news_summary": "Spain and EU clash over Ceuta migrant response, FIFA faces pressure, and US probes Iran-linked hacks on water systems; notable deaths include mountaineer Nirmal Purja.",
+   "papers_summary": "Papers cover AI in landscape design, nutrition and omega-3, Alzheimer's prevention, math education, anxiety modeling, and automated vehicle visualizations."
   },
   "zh": {
-   "brief": "今日焦点集中于地缘政治与冲突：中美俄太空竞争加剧，俄乌战事升级，美国水系统遭网络攻击，同时尼泊尔登山家Nirmal Purja在巴基斯坦雪崩中遇难。",
-   "news_summary": "太空从避风港变为战场，中美俄卫星攻防战引发关注；俄导弹袭击基辅致9死，乌克兰击沉俄货船；美国多州水系统遭伊朗网络攻击，事态扩大。",
-   "papers_summary": "研究涉及AI在景观设计中的影响、动物生产与人类营养的联系、以及数学教育中的动态可视化等主题，但今日无中文优先论文。"
+   "brief": "今日焦点包括中美俄太空军事化风险上升，以及西班牙与欧盟在休达移民危机上的分歧；科研方面则关注AI在景观设计中的应用与数学教育动态。",
+   "news_summary": "太空成现代战争前线，中美俄卫星攻防引人关注；西班牙首相批评欧盟应对休达移民危机自私，欧盟将召开紧急会议。",
+   "papers_summary": "研究探讨AI在景观设计中的应用，以及生产生态学对动物性食品营养品质和人类Omega-3状态的影响。"
   }
  },
  "todays_image": {
-  "caption": "Like the single-flowered Lycopus uniflorus standing alone in a marsh, Spain's call for an EU summit highlights how isolated, selfish responses to the Ceuta crisis fail to take root.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m30963f74183394e49a62eb07e472a2f24",
+  "caption": "Just as botanical specimens are pressed for study, the pressure on Infantino demands a pressing review of his leadership roots.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m37c1704a058a44191ba9f8c870b425999",
   "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3815a70b8-ead0-4439-8a73-ca848fff8836",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m30963f74183394e49a62eb07e472a2f24/90",
-  "title": "Lycopus uniflorus Michx."
+  "source_url": "http://n2t.net/ark:/65665/3a1cf4b0c-555a-491f-b157-3a01d2d813f6",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m37c1704a058a44191ba9f8c870b425999/90",
+  "title": "Psychotria marchionica Drake"
  }
 }
