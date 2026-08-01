@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
+  "query": "World Sheep Shearing Championships OR golden shears OR sheep shearing record",
   "source": {
-   "name": "Illawarra Mercury",
-   "published_at": "2026-07-30T23:00:14Z",
-   "title": "'Giant pumpkin craze': vegetable the size of a small adult wins first prize at Robertson Show",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUFRLWElWQVN6TUpGcmVxVnRoSDJMTDFiOGgyeElndk1fTzJtZUdFelFzZmtMSG85dUUteW1kM0lFYmViRFFKRDlDelhhNmlVeTRmc25nT2JkX09TdGFpREhZMzE1Zkg4NzNWQ1B4bjlBaFVhSXRyMXJuc09UZkpWd1JnbUlIZE91MDE4MEZQajhTYjZQWTZmRnlzanR6eUZ3VGpKZnlhcWpvQ2Y0Mm00?oc=5"
+   "name": "Derry Journal",
+   "published_at": "2026-07-28T14:08:00Z",
+   "title": "Majella O'Donnel to launch Clonmany Agricultural Show",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeERfMFJ2VERUSFNzdmNYZllUN3hnZTJsa0d3dlF4clk5UkRBUjI4NEtzck8zNGRyLVJNUEZkWnAwc1V6RFZ4Q0htbWgzTW95ZV83dDFEVU1BRDJSSUFxQndjYll1bXd0YXFvUDFJT3JZdERHd0RWajlGc1FLWENjM1JxVTd6X2RHUEtFOEZaWW0xZFE1aTM3WUM1VTd5QQ?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A pumpkin the size of a small adult won first prize at a local Australian show, highlighting the competitive giant pumpkin craze.",
-    "why_irrelevant": "It's an obscure regional horticultural contest far removed from typical tech or business news."
+    "summary": "The Derry Journal reports that Majella O'Donnel will launch the Clonmany Agricultural Show.",
+    "why_irrelevant": "A local Irish farming event far from tech, conflict, and global trends."
    },
    "zh": {
-    "summary": "在澳大利亚一个地方展会上，一个如小孩般大小的南瓜夺得头奖，展现了巨型南瓜竞赛的热潮。",
-    "why_irrelevant": "这是偏远地区的园艺比赛，与常见的科技或商业新闻相去甚远。"
+    "summary": "《德里日报》报道，玛杰拉·奥唐纳将主持克隆曼农业展的开幕。",
+    "why_irrelevant": "爱尔兰地方农业活动，远离科技、冲突与全球潮流。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "competitive sheep shearing championships"
  },
- "brief": "Today's news spans migration crises, political scandals, and AI controversies, while research explores AI in design, nutrition, and automated vehicles.",
+ "brief": "A tourist plane crash over Peru's Nazca Lines kills 13, while Russia's overnight barrage on Kyiv and escalating Middle East tensions dominate international headlines. Meanwhile, California raises its minimum wage and the EU convenes over the Ceuta migration crisis.",
  "meta": {
-  "generated_at": "2026-08-01T19:31:24Z"
+  "generated_at": "2026-08-01T21:07:51Z"
  },
- "news_summary": "The Ceuta migrant crisis dominates European news, with Spain facing backlash and Italy suspending Schengen. Meanwhile, Trump's Truth Social early access offer and the Reflecting Pool case draw scrutiny, and Iran's war plans are revealed.",
- "papers_summary": "Papers cover AI's role in landscape design, food production's impact on nutrition, and auditory information for visually impaired in automated vehicles, among other topics.",
+ "news_summary": "International news covers a deadly plane crash in Peru, Russian strikes on Kyiv, Iran's proxy war plans, and Trump's Truth Social monetization, alongside EU actions on Ceuta migrant crossings and heat alerts in Italy.",
+ "papers_summary": "Research highlights AI's impact on landscape design, nutritional quality of animal foods, neuroprotection through diet and exercise, and various human-computer interaction studies on automated vehicle visualizations and cross-reality collaboration.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans migration crises, political scandals, and AI controversies, while research explores AI in design, nutrition, and automated vehicles.",
-   "news_summary": "The Ceuta migrant crisis dominates European news, with Spain facing backlash and Italy suspending Schengen. Meanwhile, Trump's Truth Social early access offer and the Reflecting Pool case draw scrutiny, and Iran's war plans are revealed.",
-   "papers_summary": "Papers cover AI's role in landscape design, food production's impact on nutrition, and auditory information for visually impaired in automated vehicles, among other topics."
+   "brief": "A tourist plane crash over Peru's Nazca Lines kills 13, while Russia's overnight barrage on Kyiv and escalating Middle East tensions dominate international headlines. Meanwhile, California raises its minimum wage and the EU convenes over the Ceuta migration crisis.",
+   "news_summary": "International news covers a deadly plane crash in Peru, Russian strikes on Kyiv, Iran's proxy war plans, and Trump's Truth Social monetization, alongside EU actions on Ceuta migrant crossings and heat alerts in Italy.",
+   "papers_summary": "Research highlights AI's impact on landscape design, nutritional quality of animal foods, neuroprotection through diet and exercise, and various human-computer interaction studies on automated vehicle visualizations and cross-reality collaboration."
   },
   "zh": {
-   "brief": "今日焦点集中在太空军事化、欧洲移民危机及美国政治争议，同时研究领域关注AI、健康与教育技术。",
-   "news_summary": "中美俄太空攻防战引发关注，欧洲因Ceuta移民危机分歧加剧，美国政治因特朗普言论及司法调查再起波澜。",
-   "papers_summary": "研究涉及AI在景观设计中的应用、动物生产与人类营养关系、阿尔茨海默病防治、数学学习策略及焦虑建模等多样主题。"
+   "brief": "今日新聞焦點集中在太空軍事化、中東地緣政治緊張及美國政治爭議；論文則以AI在設計與教育中的應用為亮點。",
+   "news_summary": "新聞主要涵蓋中美俄太空衛星軍事化風險、莫斯科餐廳爆炸、基輔遇襲、以及美國政治人物對移民和經濟政策的爭議。",
+   "papers_summary": "論文探討AI在景觀設計中的角色、動物生產與人類營養的關聯，以及多感官呈現對自動駕駛汽車使用者體驗的影響。"
   }
  },
  "todays_image": {
-  "caption": "As the Psychotria marchionica thrives or withers with its surrounding waters, so too does Pirro's standing now ripple with the shifting currents of Trump's approval.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m37c1704a058a44191ba9f8c870b425999",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3a1cf4b0c-555a-491f-b157-3a01d2d813f6",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m37c1704a058a44191ba9f8c870b425999/90",
-  "title": "Psychotria marchionica Drake"
+  "caption": "The band's final tune was silenced mid-note, just like the tourists' sudden stop in the Andes.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-CHT881",
+  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/99777",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-CHT881",
+  "title": "Band"
  }
 }
