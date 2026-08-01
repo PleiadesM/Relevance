@@ -1,66 +1,17 @@
 {
  "meta": {
-  "count": 3,
-  "generated_at": "2026-08-01T03:47:13Z",
+  "count": 4,
+  "generated_at": "2026-08-01T06:39:38Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "59ac3bc2ea8d9012",
-     "phrase": {
-      "en": "AI teammate reshapes human communication",
-      "zh": "AI队友重塑人际沟通"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.27179v1"
-    },
-    {
-     "item_id": "fa0a22049fec5bb7",
-     "phrase": {
-      "en": "Steering long-running AI agents",
-      "zh": "操控长时AI代理"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.26300v1"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "AI shifts from tool to teammate, reshaping how humans talk and trust.",
-    "zh": "AI从工具变为队友，重塑人类的沟通与信任。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "AI teammate",
-    "zh": "AI队友"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You study HCI: new research shows AI teammates alter human communication and your design decisions matter.",
-    "zh": "你研究人机交互，新研究表明AI队友改变人际沟通，你的设计决策至关重要。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "15890a76f3f15d5d",
-     "phrase": {
-      "en": "Graph-guided QA generation framework",
-      "zh": "图引导问答生成框架"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.27182v1"
-    },
-    {
      "item_id": "9cf8429e6542ae26",
      "phrase": {
-      "en": "Visualization language for AI era",
-      "zh": "AI时代可视化语言"
+      "en": "new language for AI-era charts",
+      "zh": "AI时代图表新语言"
      },
      "section": "news",
      "source": "Hacker News (AI filter)",
@@ -69,8 +20,8 @@
     {
      "item_id": "0cb3ea6e38146699",
      "phrase": {
-      "en": "Automated onboarding via multimodal LLMs",
-      "zh": "多模态LLM自动引导"
+      "en": "LLMs auto-onboard composite charts",
+      "zh": "大模型自动引导复合图"
      },
      "section": "papers",
      "source": "arXiv cs.HC + cs.GR",
@@ -79,70 +30,145 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "New tools use AI to generate and explain complex visualizations, easing cognitive load.",
-    "zh": "新工具利用AI生成和解释复杂可视化，减轻认知负担。"
+    "en": "AI begins to craft and explain charts, lowering the bar for visual literacy.",
+    "zh": "AI开始制作和解释图表，降低视觉素养门槛。"
    },
-   "id": "t2",
+   "id": "t1",
    "keyword": {
-    "en": "AI visual analytics",
-    "zh": "AI可视化分析"
+    "en": "AI-assisted visualization",
+    "zh": "AI辅助可视化"
    },
-   "relates_to": [],
+   "relates_to": [
+    "t2",
+    "t3"
+   ],
    "why_now": {
-    "en": "You care about visualization: multimodal LLMs now automate onboarding and guide visual analytics.",
-    "zh": "你关注可视化：多模态LLM自动化引导并指导视觉分析。"
+    "en": "You care about visualization and LLMs—today new tools automate chart creation and explainability.",
+    "zh": "你关注可视化和大模型，今日新工具自动生成并解释图表。"
    }
   },
   {
    "angles": [
     {
-     "full_text_file": "articles/news/2657739d69eec558.json",
-     "item_id": "2657739d69eec558",
+     "item_id": "59ac3bc2ea8d9012",
      "phrase": {
-      "en": "Google Earth AI deepfake tool retracted",
-      "zh": "谷歌地球深度伪造工具被撤回"
+      "en": "reshapes human communication",
+      "zh": "重塑人际沟通"
      },
-     "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/ai/2026/07/google-earth-releases-swiftly-retracts-ai-feature-to-make-fake-satellite-images/"
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.27179v1"
     },
     {
-     "full_text_file": "articles/news/a3c1d37c8f057016.json",
-     "item_id": "a3c1d37c8f057016",
+     "item_id": "fa0a22049fec5bb7",
      "phrase": {
-      "en": "Google Earth deepfake tool shut down",
-      "zh": "谷歌地球深度伪造工具关闭"
+      "en": "interface to steer agents",
+      "zh": "操控代理的界面"
      },
-     "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool"
-    },
-    {
-     "full_text_file": "articles/news/90eecf4d000d622a.json",
-     "item_id": "90eecf4d000d622a",
-     "phrase": {
-      "en": "Reddit sues Perplexity AI",
-      "zh": "Reddit起诉Perplexity AI"
-     },
-     "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/tech-policy/2026/07/reddit-keeps-weird-dmca-lawsuit-against-web-scraper-alive-despite-googles-loss/"
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.26300v1"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "AI tools that fabricate realistic images raise fears of misinformation and prompt rapid retractions.",
-    "zh": "AI生成逼真图像引发虚假信息担忧，促使迅速撤回。"
+    "en": "Artificial teammates alter how humans talk and decide together.",
+    "zh": "人工智能队友改变人类交流与决策方式。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "AI teammate dynamics",
+    "zh": "AI队友动态"
+   },
+   "relates_to": [
+    "t1",
+    "t3"
+   ],
+   "why_now": {
+    "en": "You study embodied AI and HCI—today's papers reveal AI's social cost and oversight needs.",
+    "zh": "你研究具身AI和人机交互，今日论文揭示AI的社会成本与监督需求。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "30212b17a6e46f0b",
+     "phrase": {
+      "en": "integration bottleneck in coding",
+      "zh": "编码整合瓶颈"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.26517v1"
+    },
+    {
+     "item_id": "0fc903515354fe57",
+     "phrase": {
+      "en": "new MCP client release",
+      "zh": "新MCP客户端发布"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Jul/31/llm-mcp-client/#atom-everything"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Programmers face integration hurdles even when prompts succeed, a new focus for support tools.",
+    "zh": "即使提示成功，程序员也面临整合瓶颈，成新焦点。"
    },
    "id": "t3",
    "keyword": {
-    "en": "AI misinformation",
-    "zh": "AI虚假信息"
+    "en": "AI-driven development bottleneck",
+    "zh": "AI开发瓶颈"
    },
-   "relates_to": [],
+   "relates_to": [
+    "t2"
+   ],
    "why_now": {
-    "en": "You follow AI ethics: Google's deepfake tool and Reddit's legal fight highlight AI's dual-use danger.",
-    "zh": "你关注AI伦理：谷歌深度伪造工具和Reddit法律纠纷突显AI双重用途风险。"
+    "en": "You follow AI and technical communication—today's research pinpoints where AI assistance fails.",
+    "zh": "你关注AI与科技传播，今日研究指出AI辅助失效之处。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "ace28c04e2cbcdac",
+     "phrase": {
+      "en": "crowding uncertainty displays",
+      "zh": "拥挤不确定性显示"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.28072v1"
+    },
+    {
+     "item_id": "25e95073a4644a39",
+     "phrase": {
+      "en": "Bayesian max entropy spatial",
+      "zh": "贝叶斯最大熵空间"
+     },
+     "section": "papers",
+     "source": "OpenAlex · information visualization",
+     "url": "https://digitalcommons.usu.edu/etd2023/843"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Visualizing uncertainty gets practical across crowding, spatial data, and calculus learning.",
+    "zh": "不确定性可视化在拥挤、空间数据、微积分学习中走向实用。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "uncertainty visualization",
+    "zh": "不确定性可视化"
+   },
+   "relates_to": [
+    "t1"
+   ],
+   "why_now": {
+    "en": "You value critical visualization—these papers show new techniques for honest data representation.",
+    "zh": "你重视批判可视化，这些论文展示诚实数据表示的新技术。"
    }
   }
  ]

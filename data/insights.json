@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"cheese rolling championship\" OR \"Gloucestershire cheese rolling\"",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "Daily Mail",
-   "published_at": "2026-07-24T09:14:22Z",
-   "title": "Video: German YouTuber pips local man to win Gloucestershire cheese-rolling contest",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSVc0M3pHam1UY2M1WXpWMWZ3b2J3VWRIS1ZkY01mVUsyM0pQTm5XMlR0NV9yQU5NNkhRcktBVm9GSnRtNkhCeW9BamlBd2Ita1pWclhrN01yRWJpYVhIdkxVOUtLcHJHYTF6STZTZ3RycExGT0Yyb1Z3c2w1UEpWQmxBYkg2am5ibVQtUWk5UWktd3NHcmlqYU5iZ3RleWRtRzVFbzFoV19MZzFjOVpYZUNEZ0RIWUI0cGs3QW5RT0Z1MENPdDlTZWpn?oc=5"
+   "name": "vm.ru",
+   "published_at": "2026-07-29T12:30:00Z",
+   "title": "Как вырастить большую тыкву",
+   "url": "https://vm.ru/news/1346217-agronom-vorobev-rasskazal-kak-vyrastit-bolshuyu-tykvu"
   },
   "summaries": {
    "en": {
-    "summary": "A German YouTuber beat a local competitor at the annual cheese-rolling race in Gloucestershire.",
-    "why_irrelevant": "off-profile detour from tech and culture feeds"
+    "summary": "A Russian article explains techniques for growing a giant pumpkin.",
+    "why_irrelevant": "gardening advice far from mainstream tech news."
    },
    "zh": {
-    "summary": "一位德国YouTuber在格洛斯特郡的年度滚奶酪比赛中击败了当地选手。",
-    "why_irrelevant": "与科技和文化动态脱节的岔路"
+    "summary": "一篇俄语文章介绍了种植巨型南瓜的技巧。",
+    "why_irrelevant": "园艺建议远离主流科技新闻。"
    }
   },
-  "topic": "competitive cheese rolling"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news spans automotive advertising controversies, geopolitical shifts, and tech releases, while papers explore AI's role in design and human-centric topics.",
+ "brief": "Today's news spans global crises from bird flu in Australia to Russian strikes on Kyiv, political fallout in the UK and US, and cultural controversies, while research highlights AI in design and health.",
  "meta": {
-  "generated_at": "2026-08-01T03:47:13Z"
+  "generated_at": "2026-08-01T06:39:38Z"
  },
- "news_summary": "BMW's full-screen ads on car dashboards spark debate, while political and economic stories from Peru to Queensland dominate headlines alongside tech updates and a pilot ejection near San Diego.",
- "papers_summary": "Research covers AI in landscape design, nutritional ecology, neuroprotection, educational strategies, anxiety modeling, calculus visualization, river conservation, spatial prediction, and cross-reality collaboration.",
+ "news_summary": "Major stories include a deadly bird flu outbreak among Australian native birds, Russian strikes killing nine in Kyiv, Trump's escalations with Senate and Ukraine missile deal, and controversies around FIFA, Israeli settlers, and the Met Gala honoring Galliano.",
+ "papers_summary": "Research topics range from AI's role in landscape design and dynamic visualization in calculus education to nutritional impacts of animal production and methods for modeling anxiety in ecological momentary assessment data.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans automotive advertising controversies, geopolitical shifts, and tech releases, while papers explore AI's role in design and human-centric topics.",
-   "news_summary": "BMW's full-screen ads on car dashboards spark debate, while political and economic stories from Peru to Queensland dominate headlines alongside tech updates and a pilot ejection near San Diego.",
-   "papers_summary": "Research covers AI in landscape design, nutritional ecology, neuroprotection, educational strategies, anxiety modeling, calculus visualization, river conservation, spatial prediction, and cross-reality collaboration."
+   "brief": "Today's news spans global crises from bird flu in Australia to Russian strikes on Kyiv, political fallout in the UK and US, and cultural controversies, while research highlights AI in design and health.",
+   "news_summary": "Major stories include a deadly bird flu outbreak among Australian native birds, Russian strikes killing nine in Kyiv, Trump's escalations with Senate and Ukraine missile deal, and controversies around FIFA, Israeli settlers, and the Met Gala honoring Galliano.",
+   "papers_summary": "Research topics range from AI's role in landscape design and dynamic visualization in calculus education to nutritional impacts of animal production and methods for modeling anxiety in ecological momentary assessment data."
   },
   "zh": {
-   "brief": "今日要闻围绕政治风波、科技行业动态及公共卫生事件，同时学术研究聚焦于AI在各领域的应用与影响。",
-   "news_summary": "網傳前总书记胡錦濤一家身亡的消息被否认，苹果因供应限制警告股价暴跌，特朗普公布加沙缴械计划获哈马斯同意。",
-   "papers_summary": "学术研究探讨了AI在景观设计中的影响、动物生产与人类营养的关系，以及数学教育中的动态可视化工具等议题。"
+   "brief": "今日焦点：网传前中国领导人胡锦涛及家人身亡的消息被否认，引发关注；国际方面，澳大利亚爆发禽流感，乌克兰首都基辅遭俄军袭击。",
+   "news_summary": "网传胡锦涛及家人身亡的消息源头被否认，成为今日中文热点。国际新闻包括澳大利亚首次大规模禽流感、基辅遭俄军袭击、特朗普与参议院冲突等。",
+   "papers_summary": "研究论文关注AI在景观设计中的应用、膳食营养与健康、数学教育等话题，但无重大突破性发现。"
   }
  },
  "todays_image": {
-  "caption": "The dashboard clock now competes with ads for the most precious thing in a BMW: your time.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-C3D7AB811DE42_001-000001",
-  "source_name": "National Air and Space Museum",
-  "source_url": "http://n2t.net/ark:/65665/nv961298b3a-f896-4a54-847f-f67915dce62b",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-C3D7AB811DE42_001-000001",
-  "title": "Clock"
+  "caption": "Like a spearhead slicing through flocks, the lethal bird flu drives an ancient, deadly edge into Australia's native birds.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-C1D37D5FF95B2_02",
+  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/104892",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-C1D37D5FF95B2_02",
+  "title": "Spearhead"
  }
 }
