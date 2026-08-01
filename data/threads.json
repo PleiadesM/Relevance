@@ -1,17 +1,27 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-08-01T21:07:51Z",
+  "count": 6,
+  "generated_at": "2026-08-01T23:09:12Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "item_id": "13fc6792091bca79",
+     "phrase": {
+      "en": "barrier installed, deaths counted",
+      "zh": "安装屏障，统计死亡"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/01/world/europe/spain-ceuta-migrants-morocco-border.html"
+    },
+    {
      "item_id": "771cefaa25dee954",
      "phrase": {
-      "en": "EU tensions over influx",
-      "zh": "欧盟对涌入紧张"
+      "en": "EU emergency meeting announced",
+      "zh": "欧盟宣布紧急会议"
      },
      "section": "news",
      "source": "BBC World",
@@ -20,8 +30,8 @@
     {
      "item_id": "563c57ef243bda51",
      "phrase": {
-      "en": "urgent interior ministers meet",
-      "zh": "内政部长紧急会晤"
+      "en": "divisions remain in bloc",
+      "zh": "欧盟内部分歧犹存"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -30,204 +40,117 @@
     {
      "item_id": "2558e6ed4227f1dd",
      "phrase": {
-      "en": "Sanchez faces backlash",
-      "zh": "桑切斯面临反弹"
+      "en": "leader faces biggest challenge",
+      "zh": "领导人面临最大挑战"
      },
      "section": "news",
      "source": "NPR News",
      "url": "https://www.npr.org/2026/08/01/nx-s1-5916330/spain-sanchez-ceuta-migrants"
     },
     {
-     "item_id": "13fc6792091bca79",
-     "phrase": {
-      "en": "floating barrier installed",
-      "zh": "安装浮动屏障"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/01/world/europe/spain-ceuta-migrants-morocco-border.html"
-    },
-    {
      "item_id": "8acc2ac725be339a",
      "phrase": {
-      "en": "EU offered support early",
-      "zh": "欧盟早提供支持"
+      "en": "EU offers support, says von der Leyen",
+      "zh": "冯德莱恩称欧盟提供支持"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/world/live/2026/aug/01/ukraine-russia-zelenskyy-spain-france-wildfires-climate-heatwave-ceuta-morocco"
-    },
-    {
-     "item_id": "8a962b0ad28c6364",
-     "phrase": {
-      "en": "migrants mostly returned",
-      "zh": "移民大多已返回"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/videos/cnvnml1pen6o?at_medium=RSS&at_campaign=rss"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Thousands cross into Ceuta, testing Europe's unity and Spain's welcome.",
-    "zh": "数千人涌入休达，考验欧洲团结与西班牙的接纳。"
+    "en": "A small Spanish enclave becomes a flashpoint as migrants surge and Europe argues.",
+    "zh": "西班牙飞地成为焦点，移民涌入，欧洲争论不休。"
    },
    "id": "t1",
    "keyword": {
-    "en": "migrant crisis",
-    "zh": "移民危机"
+    "en": "Ceuta migration crisis",
+    "zh": "休达移民危机"
    },
    "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-07",
-     "label": {
-      "en": "mass crossing begins",
-      "zh": "大规模越境开始"
-     }
-    },
-    {
-     "date": "2026-08-01",
-     "label": {
-      "en": "EU urgent meeting called",
-      "zh": "欧盟召开紧急会议"
-     }
-    }
-   ],
    "why_now": {
-    "en": "You follow human-computer interaction, but this is about human borders; the EU's urgent meeting today redraws migration politics.",
-    "zh": "你关注人机交互，但这是关于人类边界；今日欧盟紧急会议重划移民政治。"
+    "en": "You track geopolitics: today the EU calls an emergency meeting and Spain's leader faces backlash—watch how borders reshape policy.",
+    "zh": "你关注地缘政治：今日欧盟召开紧急会议，西班牙领导人面临反弹——看边境如何重塑政策。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "1b64907cd97547dc",
+     "item_id": "3c835f8b5226f81e",
      "phrase": {
-      "en": "air defense struggle",
-      "zh": "防空艰难"
+      "en": "coworker's ChatGPT pings annoy",
+      "zh": "同事的ChatGPT打扰令人反感"
      },
      "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/01/nx-s1-5916393/overnight-russia-kyiv-ukraine-strikes"
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything"
     },
     {
-     "item_id": "c33a910b00356d58",
+     "item_id": "cfd54e1c25f8c058",
      "phrase": {
-      "en": "Kyiv strikes, ship sunk",
-      "zh": "基辅遇袭，舰沉"
+      "en": "AI advice surprisingly good",
+      "zh": "AI建议出乎意料地好"
      },
      "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss"
+     "source": "Hacker News (AI filter)",
+     "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions"
+    },
+    {
+     "item_id": "076658f19cea8805",
+     "phrase": {
+      "en": "training data leaks secrets",
+      "zh": "训练数据泄露秘密"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://trufflesecurity.com/blog/scanning-7-6-petabytes-of-ai-training-data-for-secrets"
+    },
+    {
+     "item_id": "59ac3bc2ea8d9012",
+     "phrase": {
+      "en": "AI teammate reshapes human communication",
+      "zh": "AI队友改变人类沟通"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.27179v1"
+    },
+    {
+     "item_id": "30212b17a6e46f0b",
+     "phrase": {
+      "en": "repair as representational work",
+      "zh": "修复即表征工作"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.26517v1"
+    },
+    {
+     "item_id": "318dfc4bec6764db",
+     "phrase": {
+      "en": "coding agents hurt understanding",
+      "zh": "编码代理损害理解"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.26375v1"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Missiles rain on Kyiv as Ukraine strikes back at sea.",
-    "zh": "导弹袭基辅，乌克兰海上反击。"
+    "en": "From coding assistants to ChatGPT pings, AI is weaving into daily work—and raising questions.",
+    "zh": "从编码助手到ChatGPT提醒，AI正融入日常工作并引发疑问。"
    },
    "id": "t2",
    "keyword": {
-    "en": "Ukraine war",
-    "zh": "乌克兰战争"
+    "en": "AI in software and society",
+    "zh": "AI在软件与社会中的应用"
    },
    "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-08-01",
-     "label": {
-      "en": "Kyiv struck",
-      "zh": "基辅遭袭"
-     }
-    },
-    {
-     "date": "2026-08-01",
-     "label": {
-      "en": "ship sunk by Ukraine",
-      "zh": "乌克兰击沉舰船"
-     }
-    }
-   ],
    "why_now": {
-    "en": "You track global crises; today's barrage and US defense walk-back shift the war's momentum.",
-    "zh": "你关注全球危机；今日袭击与美国防御退缩改变战局。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "433925688d3dca5b",
-     "phrase": {
-      "en": "fund for Blanche",
-      "zh": "为布兰奇筹款"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/01/us/politics/trump-todd-blanche-weaponization-payouts.html"
-    },
-    {
-     "item_id": "00bd6de39d0606c6",
-     "phrase": {
-      "en": "Pirro contradicts Trump",
-      "zh": "皮罗反驳特朗普"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/01/us/politics/jeanine-pirro-trump-reflecting-pool.html"
-    },
-    {
-     "item_id": "f3faca77d366aa06",
-     "phrase": {
-      "en": "botched repairs admitted",
-      "zh": "承认修缮失误"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cz05yx5dd7yo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "2a41ee104a2171a2",
-     "phrase": {
-      "en": "timeline of saga",
-      "zh": "事件时间线"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/01/us/reflecting-pool-trump-timeline.html"
-    }
-   ],
-   "convergence": "divergent",
-   "gloss": {
-    "en": "From a reflecting pool to an attorney general, Trump's fights dominate headlines.",
-    "zh": "从倒影池到司法部长，特朗普之争霸屏。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "Trump controversies",
-    "zh": "特朗普争议"
-   },
-   "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-08-01",
-     "label": {
-      "en": "pool case dropped",
-      "zh": "水池案撤销"
-     }
-    },
-    {
-     "date": "2026-08-01",
-     "label": {
-      "en": "AG fight intensifies",
-      "zh": "司法部长之争加剧"
-     }
-    }
-   ],
-   "why_now": {
-    "en": "You care about visual rhetoric; this pool saga and DOJ subpoenas show how narratives are built.",
-    "zh": "你在意视觉修辞；水池事件与司法部传票展示叙事构建。"
+    "en": "You follow AI and HCI: today's papers show AI's dual edge—boosting productivity but changing how we think and trust.",
+    "zh": "你关注AI和人机交互：今日论文显示AI的双刃剑——提高生产力却改变思维与信任。"
    }
   },
   {
@@ -235,8 +158,8 @@
     {
      "item_id": "15890a76f3f15d5d",
      "phrase": {
-      "en": "graph-guided QA generation",
-      "zh": "图引导问答生成"
+      "en": "knowledge-graph guided QA generation",
+      "zh": "知识图谱引导问答生成"
      },
      "section": "papers",
      "source": "arXiv cs.HC + cs.GR",
@@ -245,8 +168,8 @@
     {
      "item_id": "ace28c04e2cbcdac",
      "phrase": {
-      "en": "uncertainty visualizations",
-      "zh": "不确定性可视化"
+      "en": "uncertainty visualizations for crowdsourced data",
+      "zh": "众包数据的不确定性可视化"
      },
      "section": "papers",
      "source": "arXiv cs.HC + cs.GR",
@@ -255,64 +178,205 @@
     {
      "item_id": "0cb3ea6e38146699",
      "phrase": {
-      "en": "multimodal LLM onboarding",
-      "zh": "多模态LLM引导"
+      "en": "automated onboarding with multimodal LLMs",
+      "zh": "多模态LLM自动引导"
      },
      "section": "papers",
      "source": "arXiv cs.HC + cs.GR",
      "url": "https://arxiv.org/abs/2607.27938v1"
     },
     {
-     "item_id": "452fd2e5fb6d2095",
+     "item_id": "95af6530800ccb68",
      "phrase": {
-      "en": "AI in landscape design",
-      "zh": "AI在景观设计"
+      "en": "auditory info for blind in AVs",
+      "zh": "自动驾驶中的听觉信息辅助盲人"
      },
      "section": "papers",
-     "source": "OpenAlex · information visualization",
-     "url": "https://digitalcommons.usu.edu/etd2023/859"
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.28544v1"
     },
     {
      "item_id": "fa0a22049fec5bb7",
      "phrase": {
-      "en": "observing AI agents",
-      "zh": "观察AI代理"
+      "en": "interface for steering AI agents",
+      "zh": "操控AI代理的界面"
      },
      "section": "papers",
      "source": "arXiv cs.HC + cs.GR",
      "url": "https://arxiv.org/abs/2607.26300v1"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "AI meets visual analytics, from graphs to crowdsourced uncertainty.",
-    "zh": "AI与视觉分析相遇，从图表到众包不确定性。"
+    "en": "New tools help navigate complex data and interfaces, easing cognitive load.",
+    "zh": "新工具帮助驾驭复杂数据和界面，减轻认知负担。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "visual analytics and HCI research",
+    "zh": "可视化分析与HCI研究"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about visualization and interaction: today's papers add practical aids for QA generation, onboarding, and steering AI.",
+    "zh": "你关注可视化和交互：今日论文为问答生成、引导和操控AI提供实用辅助。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "4bccdd881318bf94",
+     "phrase": {
+      "en": "avalanche kills famed climber",
+      "zh": "雪崩夺走著名登山家"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/01/nx-s1-5916368/nirmal-purja-climbers-dead-avalanche"
+    },
+    {
+     "item_id": "82e821591b1f4137",
+     "phrase": {
+      "en": "Sopranos star dies at 80",
+      "zh": "《黑道家族》明星80岁去世"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cm2gz0epljgo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "66652d26c5056064",
+     "phrase": {
+      "en": "mountaineer company confirms death",
+      "zh": "登山公司确认死亡"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/clyljq79kdko?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "14724a435f447c88",
+     "phrase": {
+      "en": "actor known for mobsters dies",
+      "zh": "以黑帮角色闻名的演员去世"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/01/sopranos-actor-vincent-pastore-dead-80"
+    },
+    {
+     "item_id": "e9ef66e2e6ae0cbd",
+     "phrase": {
+      "en": "Pastore dead at 80",
+      "zh": "帕斯托雷80岁去世"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/01/nx-s1-5916418/vincent-pastore-sopranos-obit"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Two beloved figures—a mountaineer and an actor—pass, prompting tributes.",
+    "zh": "登山家和演员两位深受爱戴的人物离世，引发悼念。"
    },
    "id": "t4",
    "keyword": {
-    "en": "AI and visualization",
-    "zh": "AI与可视化"
+    "en": "celebrity deaths",
+    "zh": "名人离世"
    },
    "relates_to": [],
-   "timeline": [
+   "why_now": {
+    "en": "You may not follow celebrities, but Nirmal Purja's death links to risk and adventure—a human interest break.",
+    "zh": "你或许不关注名人，但尼马尔·普尔贾之死关联风险与冒险——一则人文趣闻。"
+   }
+  },
+  {
+   "angles": [
     {
-     "date": "2026-07-28",
-     "label": {
-      "en": "AgentGUI steering",
-      "zh": "AgentGUI操控"
-     }
+     "item_id": "00bd6de39d0606c6",
+     "phrase": {
+      "en": "Pirro blames shoddy construction",
+      "zh": "皮罗归咎施工粗糙"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/01/us/politics/jeanine-pirro-trump-reflecting-pool.html"
     },
     {
-     "date": "2026-07-30",
-     "label": {
-      "en": "VizPilot onboarding",
-      "zh": "VizPilot引导"
-     }
+     "item_id": "f3faca77d366aa06",
+     "phrase": {
+      "en": "administration admits botched repairs",
+      "zh": "政府承认修复失败"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cz05yx5dd7yo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "2a41ee104a2171a2",
+     "phrase": {
+      "en": "timeline of renovation saga",
+      "zh": "翻新风波时间线"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/01/us/reflecting-pool-trump-timeline.html"
     }
    ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "A botched renovation blames contractors, not vandals, angering Trump.",
+    "zh": "翻新失败归咎承包商而非破坏者，激怒特朗普。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "reflecting pool saga",
+    "zh": "倒影池风波"
+   },
+   "relates_to": [],
    "why_now": {
-    "en": "You love data viz and embodied AI; these papers show how AI assists design and decision-making.",
-    "zh": "你热爱数据可视化与具身AI；这些论文展示AI辅助设计与决策。"
+    "en": "You follow politics and rhetoric: this clash over framing shows how narratives are constructed and contested.",
+    "zh": "你关注政治和修辞：这场关于框架的冲突展示了叙事如何构建和争辩。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "140fd903bc2fcfae",
+     "phrase": {
+      "en": "plane crashes killing 13",
+      "zh": "飞机坠毁致13人遇难"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/01/at-least-13-dead-as-tourist-plane-crashes-during-flight-over-perus-nazca-lines"
+    },
+    {
+     "item_id": "f31148d46921e16c",
+     "phrase": {
+      "en": "crash near Nazca Lines",
+      "zh": "纳斯卡线附近坠机"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c70g132erlko?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "A tourist flight over ancient lines ends in tragedy, killing all aboard.",
+    "zh": "一次飞越古老线条的观光飞行以悲剧告终，机上人员全部遇难。"
+   },
+   "id": "t6",
+   "keyword": {
+    "en": "Peru plane crash",
+    "zh": "秘鲁空难"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about data and risk: this crash highlights the fragility of human endeavors, a sober counterpoint to tech optimism.",
+    "zh": "你关注数据和风险：这场空难凸显人类活动的脆弱，是对技术乐观的清醒反衬。"
    }
   }
  ]
