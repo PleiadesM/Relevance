@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"cheese rolling\" OR \"Gloucestershire cheese race\")",
+  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
   "source": {
-   "name": "runnersworld.com",
-   "published_at": "2026-07-27T22:15:00Z",
-   "title": "This Dangerous Downhill Race Has No Permit , No Insurance , and No Plans to Stop",
-   "url": "https://www.runnersworld.com/news/a73258301/coopers-hill-cheese-race-history/"
+   "name": "The Old Farmer’s Almanac",
+   "published_at": "2026-07-29T13:18:57Z",
+   "title": "How to Plant and Grow Pumpkins",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9iXzhDV0tiNUdJcFI2UHNTVXBtbUZ5enN3UjNSUHVuaV9OSC1Ka2JvZEVJR29KUXpDanRQZ1plNmxLT2tpVWp3b3JmMi0wQUE?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A dangerous, unpermitted downhill footrace continues despite risks.",
-    "why_irrelevant": "An extreme niche sport unrelated to current events."
+    "summary": "The Old Farmer's Almanac offers a step-by-step guide on planting and growing pumpkins, from soil preparation to harvest.",
+    "why_irrelevant": "a practical gardening how-to far from the user's tech and news feed."
    },
    "zh": {
-    "summary": "一项未经许可的危险下坡赛跑仍在继续，尽管风险重重。",
-    "why_irrelevant": "这是一项远离主流时事的极限小众运动。"
+    "summary": "《老农民年鉴》提供了一份从整地到收获的南瓜种植逐步指南。",
+    "why_irrelevant": "实用园艺指南，远离用户的技术和新闻信息流。"
    }
   },
-  "topic": "competitive cheese rolling"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Tensions escalate across Ceuta, Ukraine, and Iran while U.S. politics faces scrutiny; studies on AI, health, and education emerge.",
+ "brief": "Today's news spans geopolitical tensions, from Russian missile attacks in Ukraine to Middle East escalations and a European migrant crisis, while research highlights AI's role in design and the nutritional quality of animal foods.",
  "meta": {
-  "generated_at": "2026-08-01T10:08:40Z"
+  "generated_at": "2026-08-01T11:33:45Z"
  },
- "news_summary": "International crises dominate: Spain's Ceuta border tragedy, Russia's strikes on Kyiv, and U.S. strategic concerns in Iran. Domestic political battles heat up over Trump's policies and Supreme Court legacy.",
- "papers_summary": "Research spans AI in landscape design, omega-3 nutrition, Alzheimer's prevention, math education, anxiety modeling, spatial prediction, and collaborative visualizations.",
+ "news_summary": "Geopolitical tensions dominate: Russian strikes in Kyiv, Middle East escalations with Iran, and a migrant surge in Ceuta causing EU friction. Domestically, political party dynamics and FDA decisions on mRNA flu shots also feature.",
+ "papers_summary": "Research covers AI in landscape design, omega-3s in animal foods, lifestyle interventions for Alzheimer's, and educational studies on mathematics and anxiety modeling, among others.",
  "summaries": {
   "en": {
-   "brief": "Tensions escalate across Ceuta, Ukraine, and Iran while U.S. politics faces scrutiny; studies on AI, health, and education emerge.",
-   "news_summary": "International crises dominate: Spain's Ceuta border tragedy, Russia's strikes on Kyiv, and U.S. strategic concerns in Iran. Domestic political battles heat up over Trump's policies and Supreme Court legacy.",
-   "papers_summary": "Research spans AI in landscape design, omega-3 nutrition, Alzheimer's prevention, math education, anxiety modeling, spatial prediction, and collaborative visualizations."
+   "brief": "Today's news spans geopolitical tensions, from Russian missile attacks in Ukraine to Middle East escalations and a European migrant crisis, while research highlights AI's role in design and the nutritional quality of animal foods.",
+   "news_summary": "Geopolitical tensions dominate: Russian strikes in Kyiv, Middle East escalations with Iran, and a migrant surge in Ceuta causing EU friction. Domestically, political party dynamics and FDA decisions on mRNA flu shots also feature.",
+   "papers_summary": "Research covers AI in landscape design, omega-3s in animal foods, lifestyle interventions for Alzheimer's, and educational studies on mathematics and anxiety modeling, among others."
   },
   "zh": {
-   "brief": "今日要闻聚焦中美俄太空博弈及网络流传的胡锦涛谣言；国际方面关注西班牙与摩洛哥边境危机、乌克兰战事持续。研究方面多与AI、环境、教育等主题相关。",
-   "news_summary": "中美俄在太空领域的竞争加剧，卫星可能成为现代战争的首个打击目标；网络流传的胡锦涛一家身亡消息已被否认。国际方面，西班牙与摩洛哥边境危机持续，乌克兰首都基辅遭俄罗斯导弹袭击。",
-   "papers_summary": "今日无中文论文，英文研究涵盖AI在景观设计中的应用、动物生产与人类营养的关系、多酚饮食与运动对阿尔茨海默病的神经保护作用等。"
+   "brief": "今日新闻焦点集中在太空安全和地缘冲突，而论文则多关注AI、健康与教育研究。",
+   "news_summary": "新闻涵盖中美俄太空战略、乌克兰防空困境、欧洲移民危机及自然灾害等议题，太空安全成为新关注点。",
+   "papers_summary": "论文涉及AI在景观设计中的应用、饮食与阿尔茨海默病关系、数学教育策略等，研究领域多元。"
   }
  },
  "todays_image": {
-  "caption": "Just as the plant *Psychotria marchionica* carries the name of a noblewoman, so too does the fate of Infantino's presidency hinge on the timeless transfer of titles and power.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m37c1704a058a44191ba9f8c870b425999",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3a1cf4b0c-555a-491f-b157-3a01d2d813f6",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m37c1704a058a44191ba9f8c870b425999/90",
-  "title": "Psychotria marchionica Drake"
+  "caption": "The SS-20 \"Pioneer\" was an ironic name for a weapon of destruction, just as a broken air-defense pledge now leaves Kyiv's skies to Russian missiles.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19900275000-NASM2018-10083-000002",
+  "source_name": "National Air and Space Museum",
+  "source_url": "http://n2t.net/ark:/65665/nv9b59da589-4c0b-4ed0-9fc1-c9dd369cfab8",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19900275000-NASM2018-10083-000002",
+  "title": "Missile, Surface-to-Surface, SS-20 \"Pioneer\""
  }
 }
