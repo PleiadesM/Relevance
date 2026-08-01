@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "Finnish sauna traditions OR sauna festival Finland",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "AFAR",
-   "published_at": "2026-07-29T19:03:14Z",
-   "title": "You Can Now Sauna Like a Finn—Smoke and All—Just Off Helsinki’s Coast",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdzNuUXpKcU5hb0xsZUExQTlFaFlISDVJVUhJR08xN0FtR3lLMkw1WFRaYktvSGdSOGhwRVc2a3Z4Qmp6U3ZTeWlmTENodTNVekNZbFNOZHMwUUJfSDN4MlMtQnpCOFlPNjR5WlIyUzRuWVgteFJFM0RuSUw5MmpPQkJB?oc=5"
+   "name": "wiltshiretimes.co.uk",
+   "published_at": "2026-07-29T04:30:00Z",
+   "title": "Giant pumpkins and Aardman adventure to take over Longleat",
+   "url": "https://www.wiltshiretimes.co.uk/news/26416619.giant-pumpkins-aardman-adventure-take-longleat/"
   },
   "summaries": {
    "en": {
-    "summary": "A new smoke sauna experience now offers authentic Finnish bathing just off Helsinki's coast.",
-    "why_irrelevant": "A niche travel piece far from typical tech and finance updates."
+    "summary": "Longleat safari park in Wiltshire will host giant pumpkins and an Aardman animation adventure this autumn.",
+    "why_irrelevant": "It's a niche UK tourist event far from typical urban tech and news feeds."
    },
    "zh": {
-    "summary": "赫尔辛基海岸附近新推出烟熏桑拿体验，提供正宗芬兰式沐浴。",
-    "why_irrelevant": "小众旅行文章，远离常见科技和财经动态。"
+    "summary": "威尔特郡朗利特野生动物园今秋将展出巨型南瓜并推出阿德曼动画冒险活动。",
+    "why_irrelevant": "这是英国小众旅游活动，远离常见的城市科技与新闻资讯。"
    }
   },
-  "topic": "traditional Finnish sauna culture"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Russian strikes kill nine in Kyiv amid dwindling air defenses, while the democratic base's anger and Republican divisions shape US politics. In science, AI's role in landscape design and other fields is explored, alongside issues of spatial uncertainty and human nutrition.",
+ "brief": "Today's news is dominated by geopolitical tensions, including the Ceuta migrant crisis, U.S. claims of Iranian cyberattacks, and the war in Ukraine, while the mountaineering community mourns the loss of Nirmal Purja. Research highlights include studies on AI in design, nutrition, and automated vehicle accessibility.",
  "meta": {
-  "generated_at": "2026-08-01T13:51:48Z"
+  "generated_at": "2026-08-01T15:16:14Z"
  },
- "news_summary": "Kyiv is hit by Russian missiles with nine killed, as Ukraine's air defenses weaken; political turmoil in the US and Europe, including Ceuta migration crisis and Trump's policy shifts, dominate headlines.",
- "papers_summary": "Research highlights AI's impact on landscape design, the link between animal production and human omega-3 status, and advancements in spatial prediction under uncertainty, among other topics.",
+ "news_summary": "News covers Spain's call for EU action after a migrant influx in Ceuta, U.S. allegations of Iranian hacks on water systems, and lethal Russian strikes on Kyiv. The death of mountaineer Nirmal Purja in an avalanche also features prominently.",
+ "papers_summary": "Research topics range from AI's role in landscape design and polyphenol diets for Alzheimer's to student help-seeking in math and user experience in automated vehicles, reflecting diverse academic interests.",
  "summaries": {
   "en": {
-   "brief": "Russian strikes kill nine in Kyiv amid dwindling air defenses, while the democratic base's anger and Republican divisions shape US politics. In science, AI's role in landscape design and other fields is explored, alongside issues of spatial uncertainty and human nutrition.",
-   "news_summary": "Kyiv is hit by Russian missiles with nine killed, as Ukraine's air defenses weaken; political turmoil in the US and Europe, including Ceuta migration crisis and Trump's policy shifts, dominate headlines.",
-   "papers_summary": "Research highlights AI's impact on landscape design, the link between animal production and human omega-3 status, and advancements in spatial prediction under uncertainty, among other topics."
+   "brief": "Today's news is dominated by geopolitical tensions, including the Ceuta migrant crisis, U.S. claims of Iranian cyberattacks, and the war in Ukraine, while the mountaineering community mourns the loss of Nirmal Purja. Research highlights include studies on AI in design, nutrition, and automated vehicle accessibility.",
+   "news_summary": "News covers Spain's call for EU action after a migrant influx in Ceuta, U.S. allegations of Iranian hacks on water systems, and lethal Russian strikes on Kyiv. The death of mountaineer Nirmal Purja in an avalanche also features prominently.",
+   "papers_summary": "Research topics range from AI's role in landscape design and polyphenol diets for Alzheimer's to student help-seeking in math and user experience in automated vehicles, reflecting diverse academic interests."
   },
   "zh": {
-   "brief": "今日焦点集中在太空安全与地缘冲突，同时网络谣言引发对高层安全的关注。",
-   "news_summary": "报道关注中美俄太空军事化趋势，以及针对前领导人胡锦涛的谣言被否认。",
-   "papers_summary": "今日无优先中文论文，英文研究涉及AI在景观设计中的应用及多学科交叉研究。"
+   "brief": "今日焦点集中于地缘政治与冲突：中美俄太空竞争加剧，俄乌战事升级，美国水系统遭网络攻击，同时尼泊尔登山家Nirmal Purja在巴基斯坦雪崩中遇难。",
+   "news_summary": "太空从避风港变为战场，中美俄卫星攻防战引发关注；俄导弹袭击基辅致9死，乌克兰击沉俄货船；美国多州水系统遭伊朗网络攻击，事态扩大。",
+   "papers_summary": "研究涉及AI在景观设计中的影响、动物生产与人类营养的联系、以及数学教育中的动态可视化等主题，但今日无中文优先论文。"
   }
  },
  "todays_image": {
-  "caption": "Just as sheep's fescue (Festuca ovina) evokes a flock following a shepherd, the working class is now breaking from the herd to flee Trump.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3d2b34a63810742bd876a84c83f1094a5",
+  "caption": "Like the single-flowered Lycopus uniflorus standing alone in a marsh, Spain's call for an EU summit highlights how isolated, selfish responses to the Ceuta crisis fail to take root.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m30963f74183394e49a62eb07e472a2f24",
   "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/347b0ade8-d0da-47ed-bbf4-8606dab4ca17",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3d2b34a63810742bd876a84c83f1094a5/90",
-  "title": "Festuca ovina L."
+  "source_url": "http://n2t.net/ark:/65665/3815a70b8-ead0-4439-8a73-ca848fff8836",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m30963f74183394e49a62eb07e472a2f24/90",
+  "title": "Lycopus uniflorus Michx."
  }
 }
