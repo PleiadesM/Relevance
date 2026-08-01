@@ -1,0 +1,295 @@
+{
+ "meta": {
+  "count": 5,
+  "generated_at": "2026-08-01T13:51:48Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "8acc2ac725be339a",
+     "phrase": {
+      "en": "France rules out Spain expulsion",
+      "zh": "法国排除驱逐西班牙"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/aug/01/ukraine-russia-zelenskyy-spain-france-wildfires-climate-heatwave-ceuta-morocco"
+    },
+    {
+     "item_id": "13fc6792091bca79",
+     "phrase": {
+      "en": "Spain installs floating barrier",
+      "zh": "西班牙安装浮障"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/01/world/europe/spain-ceuta-migrants-morocco-border.html"
+    },
+    {
+     "item_id": "25bd92f628ba1b42",
+     "phrase": {
+      "en": "Italy suspends Schengen arrangement",
+      "zh": "意大利暂停申根协议"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cx2v91xn1z9o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "8a962b0ad28c6364",
+     "phrase": {
+      "en": "Watch migrants enter Ceuta",
+      "zh": "观看移民进入休达"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/videos/cnvnml1pen6o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "563c57ef243bda51",
+     "phrase": {
+      "en": "PM calls for urgent EU meeting",
+      "zh": "首相呼吁召开紧急会议"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/01/spain-pedro-sanchez-calls-for-eu-meeting-ceuta-border-crossing"
+    },
+    {
+     "item_id": "7ea0e4d0c7c09c2b",
+     "phrase": {
+      "en": "Suspension impacts travel",
+      "zh": "暂停影响旅行"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/jul/31/cueta-spain-morocco-italy-migration-schengen-europe-latest-news-updates"
+    },
+    {
+     "item_id": "3a9ef6051133a1bc",
+     "phrase": {
+      "en": "Death toll reaches 67",
+      "zh": "死亡人数达67"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/01/nx-s1-5916271/ceuta-spain-border-morocco"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Tens of thousands cross into Ceuta; Europe argues over who should respond.",
+    "zh": "数万人涌入休达，欧洲争论应由谁回应。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "Ceuta border crisis",
+    "zh": "休达边境危机"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track EU politics and migration rhetoric: today Spain demands an EU meeting while Italy suspends Schengen.",
+    "zh": "你关注欧盟政治与移民话语，今日西班牙要求欧盟开会，意大利暂停申根。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "3d41cda1a62ff22e",
+     "phrase": {
+      "en": "Kuwait downs Iranian drones",
+      "zh": "科威特击落伊朗无人机"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/01/world/middleeast/iran-kuwait-drone-strikes-trump-escalation.html"
+    },
+    {
+     "item_id": "41a4295b4d355581",
+     "phrase": {
+      "en": "Fact-check Trump's claims",
+      "zh": "核实特朗普说法"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/01/us/politics/trump-iran-war-toll-oil-fact-check.html"
+    },
+    {
+     "item_id": "d23d45f1ab677591",
+     "phrase": {
+      "en": "US headed for strategic defeat",
+      "zh": "美国面临战略失败"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/01/world/middleeast/us-iran-war-strategy.html"
+    },
+    {
+     "item_id": "5b649bc5ed883909",
+     "phrase": {
+      "en": "Soldier laid to rest",
+      "zh": "士兵安葬"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/01/nx-s1-5914671/iran-military-death-rampersad-funeral"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Strikes and threats ripple from the Gulf to Washington.",
+    "zh": "袭击与威胁从海湾波及华盛顿。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "Iran conflict escalation",
+    "zh": "伊朗冲突升级"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow geopolitics: today Kuwait downs drones and US allies fear strategic defeat.",
+    "zh": "你关注地缘政治，今日科威特击落无人机，美国盟友担忧战略失败。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "64d80e37843ef12e",
+     "phrase": {
+      "en": "Found dead after avalanche",
+      "zh": "雪崩后确认死亡"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/01/world/asia/nirmal-purja-dead-pakistan-avalanche.html"
+    },
+    {
+     "item_id": "1dc006a5f1205c7d",
+     "phrase": {
+      "en": "Among 11 confirmed dead",
+      "zh": "确认11人遇难"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/01/top-mountaineer-nirmal-purja-confirmed-dead-after-11-hit-by-avalanche-in-pakistan"
+    },
+    {
+     "item_id": "66652d26c5056064",
+     "phrase": {
+      "en": "Killed in avalanche, company says",
+      "zh": "公司称其遇难"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/clyljq79kdko?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Nirmal Purja's death shocks the climbing world.",
+    "zh": "尼马尔·普尔贾之死震惊登山界。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "Mountaineer casualties",
+    "zh": "登山者伤亡"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You might care about human stories and risk: a legendary climber is gone.",
+    "zh": "你或许关心人文故事与风险，一位传奇登山者离世。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "full_text_file": "articles/news/08af4e6a3d51dbfa.json",
+     "item_id": "08af4e6a3d51dbfa",
+     "phrase": {
+      "en": "CEO questions AI Overviews",
+      "zh": "CEO质疑AI概览"
+     },
+     "section": "news",
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/"
+    },
+    {
+     "item_id": "4c0c83de1d311e00",
+     "phrase": {
+      "en": "Google kills Earth AI generator",
+      "zh": "谷歌关停地球AI生成器"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://twitter.com/newsfromgoogle/status/2083249962150760610"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Big tech's AI bets wobble as products and deals unravel.",
+    "zh": "大型科技公司的AI押注随着产品和交易破裂而动摇。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "AI industry shifts",
+    "zh": "AI行业变动"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track AI market signals: today Reddit questions Google's AI Overviews and Google kills an Earth AI generator.",
+    "zh": "你关注AI市场信号，今日Reddit质疑谷歌AI概览，谷歌关停地球AI生成器。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "edbeec08ee63e1d0",
+     "phrase": {
+      "en": "Missiles kill 9 in Kyiv",
+      "zh": "导弹致基辅9人死亡"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/01/world/europe/ukraine-russia-attack-missiles-patriot.html"
+    },
+    {
+     "item_id": "c33a910b00356d58",
+     "phrase": {
+      "en": "Nine killed, Ukraine sinks ship",
+      "zh": "九人死亡，乌击沉船只"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "48052df03036a3b8",
+     "phrase": {
+      "en": "Ukraine courts MAGA ally",
+      "zh": "乌克兰拉拢MAGA盟友"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/01/us/politics/ukraine-maga-loomer-trump.html"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Missiles hit Kyiv while Ukraine sinks a ship, and politics shift in Washington.",
+    "zh": "导弹袭击基辅，乌克兰击沉船只，华盛顿政治生变。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "Ukraine war dynamics",
+    "zh": "乌克兰战争动态"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow international affairs: today Trump backs off a defense pledge and Kyiv is struck.",
+    "zh": "你关注国际事务，今日特朗普收回防御承诺，基辅遭袭。"
+   }
+  }
+ ]
+}
