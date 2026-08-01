@@ -1,0 +1,147 @@
+{
+ "meta": {
+  "count": 2,
+  "generated_at": "2026-08-01T19:31:24Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "563c57ef243bda51",
+     "phrase": {
+      "en": "EU divisions over response",
+      "zh": "欧盟应对分歧"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/01/spain-pedro-sanchez-calls-for-eu-meeting-ceuta-border-crossing"
+    },
+    {
+     "item_id": "2558e6ed4227f1dd",
+     "phrase": {
+      "en": "Sánchez faces backlash",
+      "zh": "桑切斯遭反弹"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/01/nx-s1-5916330/spain-sanchez-ceuta-migrants"
+    },
+    {
+     "item_id": "25bd92f628ba1b42",
+     "phrase": {
+      "en": "Italy suspends Schengen",
+      "zh": "意大利暂停申根"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cx2v91xn1z9o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "13fc6792091bca79",
+     "phrase": {
+      "en": "floating barrier installed",
+      "zh": "安装浮障"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/01/world/europe/spain-ceuta-migrants-morocco-border.html"
+    },
+    {
+     "item_id": "8acc2ac725be339a",
+     "phrase": {
+      "en": "von der Leyen defends support",
+      "zh": "冯德莱恩辩护"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/aug/01/ukraine-russia-zelenskyy-spain-france-wildfires-climate-heatwave-ceuta-morocco"
+    },
+    {
+     "item_id": "8a962b0ad28c6364",
+     "phrase": {
+      "en": "most migrants returned",
+      "zh": "多数移民遣返"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/videos/cnvnml1pen6o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "7ea0e4d0c7c09c2b",
+     "phrase": {
+      "en": "Sánchez visits Ceuta",
+      "zh": "桑切斯视察"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/jul/31/cueta-spain-morocco-italy-migration-schengen-europe-latest-news-updates"
+    },
+    {
+     "item_id": "3a9ef6051133a1bc",
+     "phrase": {
+      "en": "death toll reaches 67",
+      "zh": "死亡升至67"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/01/nx-s1-5916271/ceuta-spain-border-morocco"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "A surge of migrants into Ceuta sparks EU discord and a humanitarian toll.",
+    "zh": "大量移民涌入塞乌达，引发欧盟分歧与人道代价。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "Ceuta migrant crisis",
+    "zh": "塞乌达移民危机"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track geopolitics; today's EU emergency meeting and Italy's Schengen suspension reshape borders.",
+    "zh": "你关注地缘政治，今日欧盟紧急会议与意大利暂停申根重塑边界。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "00bd6de39d0606c6",
+     "phrase": {
+      "en": "Pirro blames construction",
+      "zh": "皮罗归咎施工"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/01/us/politics/jeanine-pirro-trump-reflecting-pool.html"
+    },
+    {
+     "item_id": "f3faca77d366aa06",
+     "phrase": {
+      "en": "prosecutors admit botched repairs",
+      "zh": "检方承认维修失误"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cz05yx5dd7yo?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "A vandalism case collapses as repairs blamed, angering the president.",
+    "zh": "破坏案因维修责任而撤销，惹怒总统。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "Reflecting Pool case",
+    "zh": "倒影池案件"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow legal accountability; the dropped charge contradicts Trump's narrative.",
+    "zh": "你关注法律问责，撤诉与特朗普说法相悖。"
+   }
+  }
+ ]
+}
