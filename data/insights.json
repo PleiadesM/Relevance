@@ -1,28 +1,48 @@
 {
- "brief": "Escalating conflicts in Iran and Gaza dominate headlines, while wildfires in Greece claim lives and a US senator breaks silence on abuse allegations. Research explores AI's role in design, automated vehicle interfaces, and digital learning motivation.",
- "meta": {
-  "generated_at": "2026-08-02T19:32:09Z"
+ "apropos_of_nothing": {
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "source": {
+   "name": "vm.ru",
+   "published_at": "2026-07-29T12:30:00Z",
+   "title": "Как вырастить большую тыкву",
+   "url": "https://vm.ru/news/1346217-agronom-vorobev-rasskazal-kak-vyrastit-bolshuyu-tykvu"
+  },
+  "summaries": {
+   "en": {
+    "summary": "A Russian gardening article explains how to grow a record-breaking giant pumpkin.",
+    "why_irrelevant": "It is a hyper-local agricultural guide far from your usual news and interests."
+   },
+   "zh": {
+    "summary": "一篇俄语园艺文章讲解如何种植破纪录的巨型南瓜。",
+    "why_irrelevant": "这是一篇与您日常新闻和兴趣相距甚远的地方性农业指南。"
+   }
+  },
+  "topic": "competitive pumpkin growing"
  },
- "news_summary": "Global tensions rise with cancelled US strikes on Iran, Israeli strikes on Gaza, and a Moscow bombing, while Greece battles wildfires with fatal helicopter collision and UK faces food shortage warnings.",
- "papers_summary": "Papers examine AI in landscape design, automated vehicle visualization for accessibility, and digital learning motivation, alongside lean manufacturing sustainability and disaster-related dietary studies.",
+ "brief": "US health secretary RFK Jr urges measles vaccinations amid outbreak, while Greece battles wildfires and helicopter crash; Trump cancels Iran strikes for potential deal. AI regulations and design studies dominate research.",
+ "meta": {
+  "generated_at": "2026-08-02T21:09:11Z"
+ },
+ "news_summary": "Top stories: RFK Jr reverses stance urging measles shots, Greece wildfire helicopter collision kills two, Trump backs down on Iran strikes, and EU AI rules become enforceable.",
+ "papers_summary": "Research highlights AI's role in landscape design, video-based learning motivation, and auditory info for visually impaired in automated vehicles, alongside lean sustainability frameworks.",
  "summaries": {
   "en": {
-   "brief": "Escalating conflicts in Iran and Gaza dominate headlines, while wildfires in Greece claim lives and a US senator breaks silence on abuse allegations. Research explores AI's role in design, automated vehicle interfaces, and digital learning motivation.",
-   "news_summary": "Global tensions rise with cancelled US strikes on Iran, Israeli strikes on Gaza, and a Moscow bombing, while Greece battles wildfires with fatal helicopter collision and UK faces food shortage warnings.",
-   "papers_summary": "Papers examine AI in landscape design, automated vehicle visualization for accessibility, and digital learning motivation, alongside lean manufacturing sustainability and disaster-related dietary studies."
+   "brief": "US health secretary RFK Jr urges measles vaccinations amid outbreak, while Greece battles wildfires and helicopter crash; Trump cancels Iran strikes for potential deal. AI regulations and design studies dominate research.",
+   "news_summary": "Top stories: RFK Jr reverses stance urging measles shots, Greece wildfire helicopter collision kills two, Trump backs down on Iran strikes, and EU AI rules become enforceable.",
+   "papers_summary": "Research highlights AI's role in landscape design, video-based learning motivation, and auditory info for visually impaired in automated vehicles, alongside lean sustainability frameworks."
   },
   "zh": {
-   "brief": "今日焦点：西班牙移民危机引发欧盟政治风暴，特朗普暂停对伊朗打击以寻求协议；研究方面关注视频学习媒体与数字素养对学生动机的影响。",
-   "news_summary": "西班牙飞地休达涌入数万移民引发政治风暴，社交媒体验证假信息问题；特朗普表示若可快速达成协议则取消对伊朗打击，同时有报道称其计划周末发动袭击。",
-   "papers_summary": "一项研究发现视频学习媒体与数字素养对学生学习动机有正向影响；另一项研究探讨AI在景观设计过程中的作用。"
+   "brief": "今日焦點：西班牙休達移民危機引發歐盟政治風暴，特朗普暫緩對伊朗軍事打擊但情勢緊張；研究方面則關注AI在設計與自動駕駛中的應用。",
+   "news_summary": "數萬移民湧入西班牙飛地休達引發歐盟政治風暴，社群媒體假訊息加劇緊張；特朗普表示若伊朗能迅速達成協議，將取消軍事打擊。",
+   "papers_summary": "近期研究探討AI在景觀設計、自動駕駛視覺化與聽覺資訊的應用，以及影片學習媒體對學生動機的影響。"
   }
  },
  "todays_image": {
-  "caption": "A tiny star-shaped flower named “asteroides” mirrors how a small spark can flare into a war that swallows the world.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3d1b2a964-ed98-4ee0-8f71-927381c84000",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c/90",
-  "title": "Chaetopappa asteroides (Nutt.) DC."
+  "caption": "Just as a cape shields the wearer from the elements, vaccination cloaks a community against the measles outbreak RFK Jr. now urges families to embrace.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2012q28329",
+  "source_name": "National Museum of American History",
+  "source_url": null,
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2012q28329&max=150",
+  "title": "Fair Mount Company Cape"
  }
 }
