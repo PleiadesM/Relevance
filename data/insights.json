@@ -1,48 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "\"snail racing championship\" OR \"world snail racing\"",
-  "source": {
-   "name": "timesofindia.indiatimes.com",
-   "published_at": "2026-07-20T07:00:00Z",
-   "title": "Who is Snailor Swift? Taylor Swift-inspired snail wins World Snail Racing Championships",
-   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPYlhESHBpX3lpUDVXblBYeU5DdVREbk90eUhjRllCV0R2WGd0LXdmR3Q0TnI4RGdPY1ZtOVhsbFZRUUJvcXpBdUMwRUZvbUNzcUlxTFV3S2xZV0hCdDhiSThwZE5QNFlEcm8wMTVIS1l1a01lWnoxQ04teElVSTJCZzMtbEhQTEtxWkdSX3dIdGtyYmdQMVNqdENCMjZES19ib0VIS1hsb3VpWWdiT3dtMzE1bGRlWG1PekQ1bjc3SmtQQzRMNEVkWEo4ZlRGYWZsT2hoQmNIMTZWc1M4c2FiRk9IUEZwT19xVVM4TWg0SWVPYldPeFZJRVU2ckh3cHptUmZ6dFVaZ9IBjAJBVV95cUxNOEVOR1poaGR1aVEyX0lDU01XSlVyUUhwMVhFcHltbVhrUjNTUXRuU29BLUhIaGhtR3c0XzQtc3F1cDAxcUdsREhfbGdEZTc1ZzdCdDNhSmxQYUt2NG45bGx4dUpwa3l3TXlTcHJISzk1UXpSSWVYQnVOU0xvb29mWWdYdC02OHRyNGtRNWhEemFvS2VINS1aUDAxNkNpQVlRX2owZ19pVUFyMFllVmN3ZnFmMmNWUk1rR0hkWDRCUlFYcXh1aWd6N3d6VjlIRW5QMTVfbkwtVENRZEFhWTVheEZLQUJteG9RUTZVVEVDTF9zb21FRVBZUnQyUmRIY0ZWaTZ3T1NaME5TV1Rr?oc=5"
-  },
-  "summaries": {
-   "en": {
-    "summary": "A Taylor Swift-named snail named Snailor Swift won the World Snail Racing Championships.",
-    "why_irrelevant": "Your feed is focused on financial markets, not gastropod sprints."
-   },
-   "zh": {
-    "summary": "一只名为“Taylor Swift”的蜗牛赢得了世界蜗牛赛跑锦标赛冠军。",
-    "why_irrelevant": "您的信息流专注于金融市场，而非蜗牛赛跑。"
-   }
-  },
-  "topic": "competitive snail racing"
- },
- "brief": "Today's news spans global crises from food and water shortages in Britain to deadly strikes in Gaza and Ukraine, along with political tensions in the US and Australia. Research focuses on AI in design, nutrition, health, and human-computer interaction.",
+ "brief": "Escalating conflicts in Iran and Gaza dominate headlines, while wildfires in Greece claim lives and a US senator breaks silence on abuse allegations. Research explores AI's role in design, automated vehicle interfaces, and digital learning motivation.",
  "meta": {
-  "generated_at": "2026-08-02T17:12:51Z"
+  "generated_at": "2026-08-02T19:32:09Z"
  },
- "news_summary": "Headlines include Britain's drought-induced food shortages, a Moscow bombing, police failures in Ohio, Trump's Iran strike reversal, and Israeli strikes on Gaza. Also notable: US vaccine aid restoration, Greek wildfire helicopter collision, and a Sydney trial for Alan Jones.",
- "papers_summary": "Papers cover AI in landscape design, animal production effects on human nutrition, polyphenols and exercise for Alzheimer's, student help-seeking in math, anxiety modeling, dynamic representation in calculus, and riverside conservation. arXiv papers explore cross-reality collaboration, automated vehicle visualizations, and auditory aids for the visually impaired.",
+ "news_summary": "Global tensions rise with cancelled US strikes on Iran, Israeli strikes on Gaza, and a Moscow bombing, while Greece battles wildfires with fatal helicopter collision and UK faces food shortage warnings.",
+ "papers_summary": "Papers examine AI in landscape design, automated vehicle visualization for accessibility, and digital learning motivation, alongside lean manufacturing sustainability and disaster-related dietary studies.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans global crises from food and water shortages in Britain to deadly strikes in Gaza and Ukraine, along with political tensions in the US and Australia. Research focuses on AI in design, nutrition, health, and human-computer interaction.",
-   "news_summary": "Headlines include Britain's drought-induced food shortages, a Moscow bombing, police failures in Ohio, Trump's Iran strike reversal, and Israeli strikes on Gaza. Also notable: US vaccine aid restoration, Greek wildfire helicopter collision, and a Sydney trial for Alan Jones.",
-   "papers_summary": "Papers cover AI in landscape design, animal production effects on human nutrition, polyphenols and exercise for Alzheimer's, student help-seeking in math, anxiety modeling, dynamic representation in calculus, and riverside conservation. arXiv papers explore cross-reality collaboration, automated vehicle visualizations, and auditory aids for the visually impaired."
+   "brief": "Escalating conflicts in Iran and Gaza dominate headlines, while wildfires in Greece claim lives and a US senator breaks silence on abuse allegations. Research explores AI's role in design, automated vehicle interfaces, and digital learning motivation.",
+   "news_summary": "Global tensions rise with cancelled US strikes on Iran, Israeli strikes on Gaza, and a Moscow bombing, while Greece battles wildfires with fatal helicopter collision and UK faces food shortage warnings.",
+   "papers_summary": "Papers examine AI in landscape design, automated vehicle visualization for accessibility, and digital learning motivation, alongside lean manufacturing sustainability and disaster-related dietary studies."
   },
   "zh": {
-   "brief": "今日焦点集中在西班牙移民危机引发的政治风波、特朗普对伊朗政策的反复，以及台湾单车环岛热潮；科研方面关注AI在景观设计中的应用及动物食品营养质量研究。",
-   "news_summary": "西班牙休达移民潮引发欧盟政治风暴，特朗普取消对伊朗打击但称可能迅速达成协议，台湾单车环岛吸引海外游客。",
-   "papers_summary": "研究探讨AI在景观设计中的影响，以及生产生态学如何影响动物性食品的营养质量与人体Omega-3水平。"
+   "brief": "今日焦点：西班牙移民危机引发欧盟政治风暴，特朗普暂停对伊朗打击以寻求协议；研究方面关注视频学习媒体与数字素养对学生动机的影响。",
+   "news_summary": "西班牙飞地休达涌入数万移民引发政治风暴，社交媒体验证假信息问题；特朗普表示若可快速达成协议则取消对伊朗打击，同时有报道称其计划周末发动袭击。",
+   "papers_summary": "一项研究发现视频学习媒体与数字素养对学生学习动机有正向影响；另一项研究探讨AI在景观设计过程中的作用。"
   }
  },
  "todays_image": {
-  "caption": "The lighthouse, a beacon against watery peril, ironically mirrors farmers' parched pleas for rain to avert Britain's looming food shortage.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-CH1078",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/30588",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-CH1078",
-  "title": "Design for a Lighthouse"
+  "caption": "A tiny star-shaped flower named “asteroides” mirrors how a small spark can flare into a war that swallows the world.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3d1b2a964-ed98-4ee0-8f71-927381c84000",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c/90",
+  "title": "Chaetopappa asteroides (Nutt.) DC."
  }
 }
