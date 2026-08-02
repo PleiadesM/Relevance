@@ -1,37 +1,47 @@
 {
  "meta": {
   "count": 4,
-  "generated_at": "2026-08-02T06:43:47Z",
+  "generated_at": "2026-08-02T10:06:11Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "6f299f98afe1b178",
-     "phrase": {
-      "en": "Trump cancels strikes pending rapid deal",
-      "zh": "特朗普取消打击，待快速达成协议"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss"
-    },
-    {
      "item_id": "fa00a0e36fb6db15",
      "phrase": {
-      "en": "Trump agrees to cancel, cites progress",
-      "zh": "特朗普同意取消，称有进展"
+      "en": "Claims progress, cancels attacks",
+      "zh": "称有进展，取消攻击"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/08/02/world/middleeast/trump-iran-cancels-attack-deal.html"
     },
     {
+     "item_id": "6f299f98afe1b178",
+     "phrase": {
+      "en": "Deal must be made rapidly",
+      "zh": "协议需迅速达成"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "03fc36bdbb5bc7c8",
+     "phrase": {
+      "en": "Cancels strikes, pending deal",
+      "zh": "取消打击，待协议"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/02/nx-s1-5917113/trump-says-hes-cancelling-iran-strikes-deal-pending"
+    },
+    {
      "item_id": "5358efba7cf75296",
      "phrase": {
-      "en": "Trump climbs down after Saudi alarm",
-      "zh": "沙特警告后特朗普让步"
+      "en": "Saudi alarm, Tehran threats",
+      "zh": "沙特警觉，德黑兰威胁"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -40,135 +50,155 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Trump pulls back from strikes, citing a possible deal.",
-    "zh": "特朗普以可能达成协议为由撤回打击。"
+    "en": "Trump cancels strikes, claiming deal perimeters agreed.",
+    "zh": "特朗普取消打击，称协议轮廓已达成。"
    },
    "id": "t1",
    "keyword": {
-    "en": "Iran strikes canceled",
-    "zh": "取消对伊打击"
+    "en": "Iran deal",
+    "zh": "伊朗协议"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track geopolitics and AI's role: today's Iran shift could reshape regional stability and tech supply chains.",
-    "zh": "你关注地缘政治与AI，今日伊朗局势转变或影响区域稳定与科技供应链。"
+    "en": "You track geopolitical shifts; today's Iran U-turn surprises markets.",
+    "zh": "你关注地缘政治变化，今日伊朗转折令市场意外。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "87373d45a4cd29b0",
+     "item_id": "a54d020703497b53",
      "phrase": {
-      "en": "Woman's bomb kills three in Moscow",
-      "zh": "女子炸弹致莫斯科三人死亡"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c86n4ljxp63o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "3139c18a311db809",
-     "phrase": {
-      "en": "Homemade bomb kills three, injures 21",
-      "zh": "自制炸弹致三死21伤"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/02/moscow-restaurant-bombing-kills-three-people-as-device-carried-by-woman-explodes"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "A bombing at a Moscow restaurant kills three.",
-    "zh": "莫斯科一餐厅爆炸致三人死亡。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "Moscow bombing",
-    "zh": "莫斯科爆炸"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow global security trends: this incident may signal new domestic threats in Russia.",
-    "zh": "你关注全球安全趋势，此事件或预示俄罗斯国内新威胁。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "66652d26c5056064",
-     "phrase": {
-      "en": "Nirmal Purja killed in avalanche",
-      "zh": "普贾在雪崩中遇难"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/clyljq79kdko?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "4bccdd881318bf94",
-     "phrase": {
-      "en": "Avalanche kills Purja and team",
-      "zh": "雪崩致普贾及团队遇难"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/01/nx-s1-5916368/nirmal-purja-climbers-dead-avalanche"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Famed mountaineer dies in Pakistan avalanche.",
-    "zh": "著名登山者死于巴基斯坦雪崩。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "Nirmal Purja avalanche",
-    "zh": "尼尔马尔·普贾雪崩"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You appreciate human endurance stories; this loss marks the end of an era in mountaineering.",
-    "zh": "你欣赏人类耐力故事，此损失标志登山时代终结。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "650f0e42f78c2589",
-     "phrase": {
-      "en": "Shooting kills three, injures two",
-      "zh": "枪击致三死两伤"
+      "en": "Far-right rallies for expulsion",
+      "zh": "极右翼集会主张驱逐"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/01/us/in-n-out-shooting-idaho.html"
+     "url": "https://www.nytimes.com/2026/08/02/world/europe/spain-ceuta-far-right.html"
     },
     {
-     "item_id": "a650a7fb09f42292",
+     "item_id": "6743d60a25bb79d2",
      "phrase": {
-      "en": "Three dead, seven injured in Idaho",
-      "zh": "爱达荷三死七伤"
+      "en": "Holdouts remain on beach",
+      "zh": "滞留者留在海滩"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/02/world/europe/ceuta-spain-morocco-migrant-holdouts-beach.html"
+    },
+    {
+     "item_id": "060b5ac068b4abde",
+     "phrase": {
+      "en": "Far-right sets tone",
+      "zh": "极右翼定调"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/02/world/europe/europe-migrants-ceuta.html"
+    },
+    {
+     "item_id": "df8adfdb4b19aec9",
+     "phrase": {
+      "en": "Social media whips storm",
+      "zh": "社媒掀起风暴"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c62vl925dqdo?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Ceuta influx reshapes European far-right tone.",
+    "zh": "休达移民潮重塑欧洲极右翼基调。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "migrant crisis",
+    "zh": "移民危机"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You study rhetoric; how media frames far-right matters.",
+    "zh": "你研究修辞，媒体如何呈现极右翼至关重要。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "94b852526d870133",
+     "phrase": {
+      "en": "Chinese challenge shocks",
+      "zh": "中国挑战震惊"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/aug/02/shooting-at-in-n-out-burger-restaurant-in-idaho-leaves-multiple-people-dead-police-say"
+     "url": "https://www.theguardian.com/technology/2026/aug/02/stock-market-turmoil-nvidia-china-light-ai-economy"
+    },
+    {
+     "item_id": "dffba8fcacf5f8c9",
+     "phrase": {
+      "en": "Open letters debate",
+      "zh": "公开信辩论"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Shooting at In-N-Out leaves three dead.",
-    "zh": "In-N-Out枪击致三人死亡。"
+    "en": "Stock turmoil exposes opaque AI economy.",
+    "zh": "股市动荡揭示不透明的AI经济。"
    },
-   "id": "t4",
+   "id": "t3",
    "keyword": {
-    "en": "Idaho shooting",
-    "zh": "爱达荷枪击"
+    "en": "AI economy",
+    "zh": "AI经济"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow U.S. social issues; this tragedy underscores gun violence prevalence.",
-    "zh": "你关注美国社会问题，此悲剧凸显枪支暴力盛行。"
+    "en": "You follow AI trends; chip market signals matter.",
+    "zh": "你关注AI趋势，芯片市场信号重要。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "c2e4f8b460fca3d7",
+     "phrase": {
+      "en": "Not recommending Tailwind",
+      "zh": "不推荐Tailwind"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://en.andros.dev/blog/af3ee191/why-i-dont-recommend-tailwind-css/"
+    },
+    {
+     "item_id": "452fd2e5fb6d2095",
+     "phrase": {
+      "en": "AI in design process",
+      "zh": "AI在设计流程"
+     },
+     "section": "papers",
+     "source": "OpenAlex · information visualization",
+     "url": "https://digitalcommons.usu.edu/etd2023/859"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Tailwind CSS not recommended, plus AI papers.",
+    "zh": "Tailwind CSS不推荐，另有AI论文。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "tech tools critique",
+    "zh": "技术工具批评"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You weigh tool choices; critique informs your stack.",
+    "zh": "你权衡工具选择，批评影响技术栈。"
    }
   }
  ]

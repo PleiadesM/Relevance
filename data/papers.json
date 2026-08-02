@@ -14,7 +14,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-01T00:00:00Z",
-   "score": 0.5153,
+   "score": 0.5057,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -38,7 +38,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-01T00:00:00Z",
-   "score": 0.3778,
+   "score": 0.3682,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -62,7 +62,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-01T00:00:00Z",
-   "score": 0.3778,
+   "score": 0.3682,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -86,7 +86,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-01T00:00:00Z",
-   "score": 0.3778,
+   "score": 0.3682,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -110,7 +110,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-01T00:00:00Z",
-   "score": 0.3778,
+   "score": 0.3682,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -134,7 +134,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-01T00:00:00Z",
-   "score": 0.5153,
+   "score": 0.5057,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -160,7 +160,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-01T00:00:00Z",
-   "score": 0.5153,
+   "score": 0.5057,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -169,276 +169,18 @@
    "title": "Tales, Traditions, and Tides: The Little Logan River and its Role in Cache Valley's History, Culture, and Conservation",
    "url": "https://digitalcommons.usu.edu/gradreports2023/168",
    "venue": "Digital Commons - USU (Utah State University)"
-  },
-  {
-   "authors": [
-    "Haoyang Yang",
-    "Chenyang Zhang",
-    "Elliott H. Faa",
-    "Weijian Liu",
-    "Lily Seika Chisholm",
-    "Benjamin Lee"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Cross-reality collaboration increasingly connects immersive and desktop users within synchronized workspaces, yet little is known about how bidirectional projection techniques between immersive 3D layouts and desktop 2D views influence communication. Spatial referencing depends on shared spatial understanding, but different mappings preserve and distort geometric relationships in different ways, altering perceived adjacency, orientation, and coverage across collaborators' views. We present…",
-    "arxiv_id": "2607.28583"
-   },
-   "id": "1930b7f77ac25e21",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-30T17:41:24Z",
-   "score": 0.3776,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Cross-reality collaboration increasingly connects immersive and desktop users within synchronized workspaces, yet little is known about how bidirectional projection techniques between immersive 3D layouts and desktop 2D views influence communication. Spatial referencing depends on shared spatial…",
-   "tags": [],
-   "title": "CrossAtlas: Evaluating Projection Techniques for Spatial Referencing in Cross-Reality Collaboration",
-   "url": "https://arxiv.org/abs/2607.28583v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Mark Colley",
-    "Tobias Aescht",
-    "Omid Rajabi",
-    "Max Rädler",
-    "Pascal Jansen",
-    "Enrico Rukzio"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Automated vehicles promise to improve accessibility and access to personal mobility for everyone. However, their design and current research trends in visualizing relevant information do not reflect this commitment to accessibility for users with visual impairments. Therefore, we designed and implemented a visual and auditory communication concept for people with visual impairments seated inside fully automated vehicles. Furthermore, in an online video-based study (N=35, 12 with visual…",
-    "arxiv_id": "2607.28544"
-   },
-   "id": "95af6530800ccb68",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-30T17:14:00Z",
-   "score": 0.5689,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Automated vehicles promise to improve accessibility and access to personal mobility for everyone. However, their design and current research trends in visualizing relevant information do not reflect this commitment to accessibility for users with visual impairments. Therefore, we designed and…",
-   "tags": [
-    "ai-writing",
-    "ux"
-   ],
-   "title": "Effects of Auditory Information for People With Visual Impairments in Highly Automated Vehicles",
-   "url": "https://arxiv.org/abs/2607.28544v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Han Li",
-    "Inhwan Bae",
-    "Natalie Bazarova",
-    "Drew Margolin"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Given the profound societal impact of vaccine-skeptical content on social media, community-driven counterspeech has emerged as a promising participatory response to contest and curb such objectionable content. Yet crafting effective counterspeech remains challenging for ordinary users, limiting their willingness and ability to engage constructively. We designed and evaluated three generative AI-assisted counterspeech writing systems that vary by assistance stage (co-writing vs. re-writing) and…",
-    "arxiv_id": "2607.28239"
-   },
-   "id": "5110b9de140336d8",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-30T14:05:49Z",
-   "score": 0.561,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Given the profound societal impact of vaccine-skeptical content on social media, community-driven counterspeech has emerged as a promising participatory response to contest and curb such objectionable content. Yet crafting effective counterspeech remains challenging for ordinary users, limiting…",
-   "tags": [
-    "ai-writing"
-   ],
-   "title": "Identifying a Level-up Pathway for AI-assisted Counterspeech through Elaboration",
-   "url": "https://arxiv.org/abs/2607.28239v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Patricio F. Calatayud",
-    "Pablo Padilla Longoria",
-    "Álvaro Martínez Ramírez"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Background. New forms of music writing using computers have arisen in the past 20 years. Most of them use the capacities of digital manipulation of data like animation, algorithmic processing, cinematic view, and much more. These scores use dynamic musicography, and all of them share a problem. They have readability problems. We will argue that this problem can be addressed by mathematical tools. Aims. Take the Autopsias [Autopsies] meta-compositional system as a study case for starting the…",
-    "arxiv_id": "2607.28155"
-   },
-   "id": "142cbab7618e6f94",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-30T12:58:20Z",
-   "score": 0.3657,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Background. New forms of music writing using computers have arisen in the past 20 years. Most of them use the capacities of digital manipulation of data like animation, algorithmic processing, cinematic view, and much more. These scores use dynamic musicography, and all of them share a problem.…",
-   "tags": [
-    "techcomm"
-   ],
-   "title": "A Mathematical Framework for Reading the Autopsias' Meta - Compositional System",
-   "url": "https://arxiv.org/abs/2607.28155v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Nishaanthini Gnanavel",
-    "Yong Wang"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Composite visualizations integrate multiple visualizations to represent complex datasets effectively, but their intrinsic composite designs often impose a high initial cognitive load on novice users. Existing visualization onboarding approaches are typically platform-dependent, require substantial manual authoring effort, and struggle with the structural complexity of composite visualizations, limiting their general applicability. We present VizPilot, an automated visualization onboarding…",
-    "arxiv_id": "2607.27938"
-   },
-   "id": "0cb3ea6e38146699",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-30T09:48:03Z",
-   "score": 0.5506,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Composite visualizations integrate multiple visualizations to represent complex datasets effectively, but their intrinsic composite designs often impose a high initial cognitive load on novice users. Existing visualization onboarding approaches are typically platform-dependent, require substantial…",
-   "tags": [
-    "ai-writing",
-    "ux",
-    "llm",
-    "visualization"
-   ],
-   "title": "VizPilot: Automated Onboarding for SVG-based Composite Visualizations using Multimodal LLMs",
-   "url": "https://arxiv.org/abs/2607.27938v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Lucas Greff Meneses",
-    "Evandro S. Ortigossa",
-    "Claudio Silva",
-    "Luis Gustavo Nonato"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Dimensionality Reduction (DR) is a fundamental tool for high-dimensional data exploration, reducing the complexity of latent spaces of machine learning models, and assisting in the explanation of complex opaque models. However, non-linear DR techniques often function as opaque transformations themselves, making it challenging to understand how individual features influence instance positioning in the reduced space. This lack of transparency complicates the analysis and interpretation of…",
-    "arxiv_id": "2607.27463"
-   },
-   "id": "be2f18c7c8748057",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-29T20:56:39Z",
-   "score": 0.33,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Dimensionality Reduction (DR) is a fundamental tool for high-dimensional data exploration, reducing the complexity of latent spaces of machine learning models, and assisting in the explanation of complex opaque models. However, non-linear DR techniques often function as opaque transformations…",
-   "tags": [
-    "ai-writing"
-   ],
-   "title": "FADEx: Feature Attribution and Distortion-based Explanation of Dimensionality Reduction",
-   "url": "https://arxiv.org/abs/2607.27463v1",
-   "venue": "arXiv cs.LG"
-  },
-  {
-   "authors": [
-    "Nia Nixon",
-    "Jaeyoon Choi",
-    "Pedro Martins De Bastos",
-    "Mohammad Amin Samadi",
-    "Luise Mehner",
-    "Seehee Park"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Conversational AI is increasingly positioned as a teammate rather than a tool, yet we know little about how its presence reshapes communication among the humans on the team. We examined sociocognitive communication dynamics in team decision-making using Group Communication Analysis (GCA), team surveys, and lexical analyses of team discourse. Teams completed a high-stakes moral-dilemma decision task in a randomized controlled study: 16 teams of two students plus an AI teammate, and 17 all-human…",
-    "arxiv_id": "2607.27179"
-   },
-   "id": "59ac3bc2ea8d9012",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-29T17:51:32Z",
-   "score": 0.5163,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Conversational AI is increasingly positioned as a teammate rather than a tool, yet we know little about how its presence reshapes communication among the humans on the team. We examined sociocognitive communication dynamics in team decision-making using Group Communication Analysis (GCA), team…",
-   "tags": [
-    "ai-writing"
-   ],
-   "title": "The Social Cost of an AI Teammate: How an Artificial Teammate Reshapes Human-Human Communication in Small-Team Decision-Making",
-   "url": "https://arxiv.org/abs/2607.27179v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Daisaku Sato"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Research on AI-assisted programming has concentrated on the gulf of execution -- how users write successful prompts. We report a candidate phenomenon, an integration bottleneck, that lies in Norman's gulf of evaluation: a repair-relevant contribution reaches the user and fails to become actionable at the point of receipt. Two cases in an eighteen-case corpus of publicly shared AI-assisted-development accounts report this, from a peer and from the system's own output; both fall at evaluation's…",
-    "arxiv_id": "2607.26517"
-   },
-   "id": "30212b17a6e46f0b",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-29T06:33:02Z",
-   "score": 0.4957,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Research on AI-assisted programming has concentrated on the gulf of execution -- how users write successful prompts. We report a candidate phenomenon, an integration bottleneck, that lies in Norman's gulf of evaluation: a repair-relevant contribution reaches the user and fails to become actionable…",
-   "tags": [
-    "ai-writing"
-   ],
-   "title": "Repair as Representational Work: Integration Bottlenecks in AI-Assisted Development",
-   "url": "https://arxiv.org/abs/2607.26517v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Nishant Balepur",
-    "Connor Baumler",
-    "Valerie Chen",
-    "Eunsol Choi",
-    "Rachel Rudinger",
-    "Jordan Lee Boyd-Graber"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Coding agents (e.g., Cursor) improve developer productivity by optimizing task completion, but shifting users from writing code to prompting and reviewing may harm their understanding, impeding oversight, learning, and communication. To probe this, we have 54 students create a website with one of two AI systems: an agent that edits user code; or a chatbot where users write code alone or adapt generic code snippets. We test understanding via comprehension questions and a task where users extend…",
-    "arxiv_id": "2607.26375"
-   },
-   "id": "318dfc4bec6764db",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-29T01:23:04Z",
-   "score": 0.4872,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Coding agents (e.g., Cursor) improve developer productivity by optimizing task completion, but shifting users from writing code to prompting and reviewing may harm their understanding, impeding oversight, learning, and communication. To probe this, we have 54 students create a website with one of…",
-   "tags": [
-    "pedagogy",
-    "ai-writing",
-    "techcomm"
-   ],
-   "title": "(Im)Paired Programming: Coding Agents Improve Productivity but Harm Understanding",
-   "url": "https://arxiv.org/abs/2607.26375v1",
-   "venue": "arXiv cs.CL"
   }
  ],
  "meta": {
-  "count": 16,
-  "generated_at": "2026-08-02T06:43:47Z",
+  "count": 7,
+  "generated_at": "2026-08-02T10:06:11Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60",
+    "error": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60 (Caus",
     "full_text_count": 0,
     "id": "arxiv_datavis",
     "name": "arXiv cs.HC + cs.GR",
@@ -497,12 +239,12 @@
    },
    {
     "category": "optional",
-    "count": 9,
-    "error": null,
+    "count": 0,
+    "error": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC&sortBy=submittedDate&sortOrder=descending&max_results=40 (Caused by ReadTimeo",
     "full_text_count": 0,
     "id": "arxiv_hci_writing",
     "name": "arXiv cs.HC (writing & docs)",
-    "ok": true,
+    "ok": false,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
