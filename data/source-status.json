@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-02T03:49:54Z",
+ "generated_at": "2026-08-02T06:43:47Z",
  "private_summary": {
   "configured": 0,
   "total": 0
@@ -175,12 +175,12 @@
   },
   {
    "category": "optional",
-   "count": 11,
-   "error": null,
+   "count": 0,
+   "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60",
    "full_text_count": 0,
    "id": "arxiv_datavis",
    "name": "arXiv cs.HC + cs.GR",
-   "ok": true,
+   "ok": false,
    "section": "papers",
    "skip_reason": null,
    "type": "arxiv"
@@ -212,7 +212,7 @@
   {
    "category": "optional",
    "count": 0,
-   "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-07-05&rows=12&sort=created&order=desc",
+   "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-05&rows=12&sort=created&order=desc",
    "full_text_count": 0,
    "id": "crossref_techcomm_journals",
    "name": "TechComm journals (CrossRef)",

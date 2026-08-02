@@ -1,0 +1,175 @@
+{
+ "meta": {
+  "count": 4,
+  "generated_at": "2026-08-02T06:43:47Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "6f299f98afe1b178",
+     "phrase": {
+      "en": "Trump cancels strikes pending rapid deal",
+      "zh": "特朗普取消打击，待快速达成协议"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "fa00a0e36fb6db15",
+     "phrase": {
+      "en": "Trump agrees to cancel, cites progress",
+      "zh": "特朗普同意取消，称有进展"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/02/world/middleeast/trump-iran-cancels-attack-deal.html"
+    },
+    {
+     "item_id": "5358efba7cf75296",
+     "phrase": {
+      "en": "Trump climbs down after Saudi alarm",
+      "zh": "沙特警告后特朗普让步"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/02/trump-climbs-down-on-iran-strikes-after-saudi-alarm-and-threats-from-tehran"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Trump pulls back from strikes, citing a possible deal.",
+    "zh": "特朗普以可能达成协议为由撤回打击。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "Iran strikes canceled",
+    "zh": "取消对伊打击"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track geopolitics and AI's role: today's Iran shift could reshape regional stability and tech supply chains.",
+    "zh": "你关注地缘政治与AI，今日伊朗局势转变或影响区域稳定与科技供应链。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "87373d45a4cd29b0",
+     "phrase": {
+      "en": "Woman's bomb kills three in Moscow",
+      "zh": "女子炸弹致莫斯科三人死亡"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c86n4ljxp63o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "3139c18a311db809",
+     "phrase": {
+      "en": "Homemade bomb kills three, injures 21",
+      "zh": "自制炸弹致三死21伤"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/02/moscow-restaurant-bombing-kills-three-people-as-device-carried-by-woman-explodes"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "A bombing at a Moscow restaurant kills three.",
+    "zh": "莫斯科一餐厅爆炸致三人死亡。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "Moscow bombing",
+    "zh": "莫斯科爆炸"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow global security trends: this incident may signal new domestic threats in Russia.",
+    "zh": "你关注全球安全趋势，此事件或预示俄罗斯国内新威胁。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "66652d26c5056064",
+     "phrase": {
+      "en": "Nirmal Purja killed in avalanche",
+      "zh": "普贾在雪崩中遇难"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/clyljq79kdko?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "4bccdd881318bf94",
+     "phrase": {
+      "en": "Avalanche kills Purja and team",
+      "zh": "雪崩致普贾及团队遇难"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/01/nx-s1-5916368/nirmal-purja-climbers-dead-avalanche"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Famed mountaineer dies in Pakistan avalanche.",
+    "zh": "著名登山者死于巴基斯坦雪崩。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "Nirmal Purja avalanche",
+    "zh": "尼尔马尔·普贾雪崩"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You appreciate human endurance stories; this loss marks the end of an era in mountaineering.",
+    "zh": "你欣赏人类耐力故事，此损失标志登山时代终结。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "650f0e42f78c2589",
+     "phrase": {
+      "en": "Shooting kills three, injures two",
+      "zh": "枪击致三死两伤"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/01/us/in-n-out-shooting-idaho.html"
+    },
+    {
+     "item_id": "a650a7fb09f42292",
+     "phrase": {
+      "en": "Three dead, seven injured in Idaho",
+      "zh": "爱达荷三死七伤"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/02/shooting-at-in-n-out-burger-restaurant-in-idaho-leaves-multiple-people-dead-police-say"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Shooting at In-N-Out leaves three dead.",
+    "zh": "In-N-Out枪击致三人死亡。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "Idaho shooting",
+    "zh": "爱达荷枪击"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow U.S. social issues; this tragedy underscores gun violence prevalence.",
+    "zh": "你关注美国社会问题，此悲剧凸显枪支暴力盛行。"
+   }
+  }
+ ]
+}
