@@ -1,44 +1,44 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "query": "skeeball league rankings OR world skeeball championship",
   "source": {
-   "name": "vm.ru",
-   "published_at": "2026-07-29T12:30:00Z",
-   "title": "Как вырастить большую тыкву",
-   "url": "https://vm.ru/news/1346217-agronom-vorobev-rasskazal-kak-vyrastit-bolshuyu-tykvu"
+   "name": "IN Kansas City Magazine",
+   "published_at": "2026-07-28T19:57:22Z",
+   "title": "Overland Park’s Bluhawk is Growing Into an All-in-One Destination",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeXB1OHlSRWFGc2JXbm11RDBtQ3Uyamg4QXlxUmd6VU43OXRjcnJ2NHZFYng0RHJTT0NwRElIdkRlNm1iaTZ5NXFTczJyakJLbUZTMFBLOHFKSmNtMjNWTEhwWVR6LTZGLWtpc1Ixd3Nhajc3WENVR2hCa244QXFXZjhxLWtQemxBUUFCbzZ2bzhPSGpRNVBNOGlqeTN3MVNSV3N5a1lVaHQyU1VSTFRDOW5lT2Fsbm9QNVI3RXdfanE3MVlWa05J?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A Russian gardening article explains how to grow a record-breaking giant pumpkin.",
-    "why_irrelevant": "It is a hyper-local agricultural guide far from your usual news and interests."
+    "summary": "Overland Park's Bluhawk development is expanding into a full-service retail, dining, and entertainment hub in Kansas City.",
+    "why_irrelevant": "It's a local real estate and lifestyle update far from your global interests."
    },
    "zh": {
-    "summary": "一篇俄语园艺文章讲解如何种植破纪录的巨型南瓜。",
-    "why_irrelevant": "这是一篇与您日常新闻和兴趣相距甚远的地方性农业指南。"
+    "summary": "欧弗兰帕克的Bluhawk开发项目正扩展为堪萨斯城的综合零售、餐饮和娱乐中心。",
+    "why_irrelevant": "这是一则地方性的房地产和生活方式新闻，与您的全球关注点无关。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "international skeeball league standings"
  },
- "brief": "US health secretary RFK Jr urges measles vaccinations amid outbreak, while Greece battles wildfires and helicopter crash; Trump cancels Iran strikes for potential deal. AI regulations and design studies dominate research.",
+ "brief": "Today's news sees Trump's pause on Iran strikes leading to plummeting oil prices and a push for diplomatic deals, while tragic fires, shootings, and accidents dominate local reports, but a shifting focus on vaccines and political maneuvering also emerges.",
  "meta": {
-  "generated_at": "2026-08-02T21:09:11Z"
+  "generated_at": "2026-08-02T23:09:01Z"
  },
- "news_summary": "Top stories: RFK Jr reverses stance urging measles shots, Greece wildfire helicopter collision kills two, Trump backs down on Iran strikes, and EU AI rules become enforceable.",
- "papers_summary": "Research highlights AI's role in landscape design, video-based learning motivation, and auditory info for visually impaired in automated vehicles, alongside lean sustainability frameworks.",
+ "news_summary": "World news includes the aftermath of Iran strikes being paused, oil price drops, a fatal helicopter collision in Greece, Idaho restaurant shooting, Spokane wildfires, and political developments involving RFK Jr. and UK politics.",
+ "papers_summary": "Research spans AI's impact on landscape design, video-based learning motivation, gene expression in Dendrobium, and human-computer interaction studies in automated vehicles and counterspeech.",
  "summaries": {
   "en": {
-   "brief": "US health secretary RFK Jr urges measles vaccinations amid outbreak, while Greece battles wildfires and helicopter crash; Trump cancels Iran strikes for potential deal. AI regulations and design studies dominate research.",
-   "news_summary": "Top stories: RFK Jr reverses stance urging measles shots, Greece wildfire helicopter collision kills two, Trump backs down on Iran strikes, and EU AI rules become enforceable.",
-   "papers_summary": "Research highlights AI's role in landscape design, video-based learning motivation, and auditory info for visually impaired in automated vehicles, alongside lean sustainability frameworks."
+   "brief": "Today's news sees Trump's pause on Iran strikes leading to plummeting oil prices and a push for diplomatic deals, while tragic fires, shootings, and accidents dominate local reports, but a shifting focus on vaccines and political maneuvering also emerges.",
+   "news_summary": "World news includes the aftermath of Iran strikes being paused, oil price drops, a fatal helicopter collision in Greece, Idaho restaurant shooting, Spokane wildfires, and political developments involving RFK Jr. and UK politics.",
+   "papers_summary": "Research spans AI's impact on landscape design, video-based learning motivation, gene expression in Dendrobium, and human-computer interaction studies in automated vehicles and counterspeech."
   },
   "zh": {
-   "brief": "今日焦點：西班牙休達移民危機引發歐盟政治風暴，特朗普暫緩對伊朗軍事打擊但情勢緊張；研究方面則關注AI在設計與自動駕駛中的應用。",
-   "news_summary": "數萬移民湧入西班牙飛地休達引發歐盟政治風暴，社群媒體假訊息加劇緊張；特朗普表示若伊朗能迅速達成協議，將取消軍事打擊。",
-   "papers_summary": "近期研究探討AI在景觀設計、自動駕駛視覺化與聽覺資訊的應用，以及影片學習媒體對學生動機的影響。"
+   "brief": "今日焦点：西班牙休达移民危机引发政治风暴，特朗普暂停对伊打击以寻求协议，同时台湾单车环岛之旅吸引国际游客。",
+   "news_summary": "西班牙休达的摩洛哥移民潮引发政治争议，社交媒体假信息推波助澜；特朗普表示同意暂停对伊打击，以期望迅速达成协议。",
+   "papers_summary": "本日无优先中文论文，但英文论文涉及AI在景观设计、自动车辆可视化等领域的应用。"
   }
  },
  "todays_image": {
-  "caption": "Just as a cape shields the wearer from the elements, vaccination cloaks a community against the measles outbreak RFK Jr. now urges families to embrace.",
+  "caption": "A cape’s calm overlook in the old image now seems to mourn the Australian company’s helicopters that collided over Greece.",
   "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2012q28329",
   "source_name": "National Museum of American History",
   "source_url": null,
