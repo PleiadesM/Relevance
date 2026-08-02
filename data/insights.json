@@ -1,48 +1,43 @@
 {
  "apropos_of_nothing": {
-  "query": "oyster shucking championship OR oyster opening contest",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "The Lincoln County News",
-   "published_at": "2026-07-15T18:54:15Z",
-   "title": "Contestants Getting Ready for Oyster Shucking Contest",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVlNJVXRaejhXbVFVWUNobXluc1RJV3BFMGo0ejFDdFg1WFphVEZEc1VKeFI0dXRWS1NsdGo4dEVDX093a2x4OE5taVRITEhoYWk5bGtJU0sxYkQ0M2dGM0pkcThRNTYxMmp2OFJOLW9IVzNaeXk1UkhncHJkS3BLS1I0WWFyVVl0clBBZjhES0dpdlM3WXNfXw?oc=5"
+   "name": "n.yam.com",
+   "published_at": "2026-07-31T01:30:00Z",
+   "title": "星野集團青森屋 「 睡魔萬聖節 」 10月登場 ！ 巨型南瓜 「 跳人 」 睡魔超吸睛",
+   "url": "https://n.yam.com/Article/20260731896877"
   },
   "summaries": {
    "en": {
-    "summary": "Contestants gear up for a local oyster shucking contest in Maine.",
-    "why_irrelevant": "Far from a typical tech or finance feed."
+    "summary": "Hoshino Resorts Aomoriya will host a 'Nebuta Halloween' in October, featuring a giant pumpkin 'jumping person' nebula float.",
+    "why_irrelevant": "A niche regional festival event far from typical city-life topics."
    },
    "zh": {
-    "summary": "缅因州当地一场牡蛎开壳比赛的参赛者正在做准备。",
-    "why_irrelevant": "远离技术或财经等常见信息流内容。"
+    "summary": "星野集团青森屋将于十月举办“睡魔万圣节”，以巨型南瓜“跳人”睡魔花车为亮点。",
+    "why_irrelevant": "一个地方性小众节庆活动，远离日常城市话题。"
    }
   },
-  "topic": "competitive oyster shucking"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Actor Vincent Pastore, known for 'The Sopranos,' dies at 80; a tourist plane crash in Peru kills 13; and AI shows promise in financial advice, while international tensions rise in Ukraine and the Middle East.",
+ "brief": "今日焦点：特朗普宣布取消对伊朗打击但未排除未来行动，同时美国爱达荷州发生枪击案；研究方面关注AI在景观设计中的应用及自动化车辆可视化。",
  "meta": {
-  "generated_at": "2026-08-01T23:09:12Z"
+  "generated_at": "2026-08-02T03:49:54Z"
  },
- "news_summary": "Vincent Pastore, who played 'Big Pussy' on 'The Sopranos,' has died aged 80. A tourist plane crashed near Peru's Nazca Lines killing 13, and Spain installed a floating barrier in Ceuta. In politics, Trump faces disputes over a reflecting pool renovation and a fund for the attorney general fight, while Russia's overnight attack kills nine in Kyiv.",
- "papers_summary": "Research highlights AI's role in landscape design and financial advice, along with studies on omega-3 nutrition, Alzheimer's neuroprotection, and math education. Also covered are cross-reality collaboration, automated vehicle visualizations, and auditory information for visually impaired users.",
+ "news_summary": "特朗普表示同意取消对伊朗的打击，前提是能迅速达成协议；美国爱达荷州In-N-Out汉堡店发生枪击案致多人死亡，嫌疑人已死亡。",
+ "papers_summary": "本日论文涉及AI在景观设计中的应用、动物生产与人类营养的关系，以及自动化车辆功能可视化的用户体验研究。",
  "summaries": {
-  "en": {
-   "brief": "Actor Vincent Pastore, known for 'The Sopranos,' dies at 80; a tourist plane crash in Peru kills 13; and AI shows promise in financial advice, while international tensions rise in Ukraine and the Middle East.",
-   "news_summary": "Vincent Pastore, who played 'Big Pussy' on 'The Sopranos,' has died aged 80. A tourist plane crashed near Peru's Nazca Lines killing 13, and Spain installed a floating barrier in Ceuta. In politics, Trump faces disputes over a reflecting pool renovation and a fund for the attorney general fight, while Russia's overnight attack kills nine in Kyiv.",
-   "papers_summary": "Research highlights AI's role in landscape design and financial advice, along with studies on omega-3 nutrition, Alzheimer's neuroprotection, and math education. Also covered are cross-reality collaboration, automated vehicle visualizations, and auditory information for visually impaired users."
-  },
   "zh": {
-   "brief": "今日焦点：中美俄太空攻防战凸显卫星安全风险，国际新闻关注《黑道家族》演员去世、秘鲁观光飞机坠毁等事件，学术研究则聚焦AI在设计与导航中的应用。",
-   "news_summary": "太空成为现代战争新前线，卫星安全备受关注；《黑道家族》演员Vincent Pastore去世，秘鲁观光飞机失事致13人遇难，国际局势亦有多项动态。",
-   "papers_summary": "研究涉及AI在景观设计中的影响、动物生产与人类营养的关联，以及跨现实协作中的投影技术评估。"
+   "brief": "今日焦点：特朗普宣布取消对伊朗打击但未排除未来行动，同时美国爱达荷州发生枪击案；研究方面关注AI在景观设计中的应用及自动化车辆可视化。",
+   "news_summary": "特朗普表示同意取消对伊朗的打击，前提是能迅速达成协议；美国爱达荷州In-N-Out汉堡店发生枪击案致多人死亡，嫌疑人已死亡。",
+   "papers_summary": "本日论文涉及AI在景观设计中的应用、动物生产与人类营养的关系，以及自动化车辆功能可视化的用户体验研究。"
   }
  },
  "todays_image": {
-  "caption": "In a public domain \"Band\" image, musicians stand as one, just as the Sopranos ensemble now misses the loud, unpolished note that was Vincent Pastore.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-CHT881",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/99777",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-CHT881",
-  "title": "Band"
+  "caption": "A plant called *Psychotria* (\"psycho\") loosely echoes the madness behind the Idaho In-N-Out Burger shooting that left three dead.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m37c1704a058a44191ba9f8c870b425999",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3a1cf4b0c-555a-491f-b157-3a01d2d813f6",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m37c1704a058a44191ba9f8c870b425999/90",
+  "title": "Psychotria marchionica Drake"
  }
 }
