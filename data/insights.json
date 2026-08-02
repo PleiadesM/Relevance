@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "query": "\"snail racing championship\" OR \"world snail racing\"",
   "source": {
-   "name": "thebeacon.net",
-   "published_at": "2026-07-29T23:45:00Z",
-   "title": "Ottawa County Fair was , as always , a memorable success",
-   "url": "https://www.thebeacon.net/ottawa-county-fair-was-as-always-a-memorable-success/"
+   "name": "The Times of India",
+   "published_at": "2026-07-20T07:00:00Z",
+   "title": "Who is Snailor Swift? Taylor Swift-inspired snail wins World Snail Racing Championships",
+   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPYlhESHBpX3lpUDVXblBYeU5DdVREbk90eUhjRllCV0R2WGd0LXdmR3Q0TnI4RGdPY1ZtOVhsbFZRUUJvcXpBdUMwRUZvbUNzcUlxTFV3S2xZV0hCdDhiSThwZE5QNFlEcm8wMTVIS1l1a01lWnoxQ04teElVSTJCZzMtbEhQTEtxWkdSX3dIdGtyYmdQMVNqdENCMjZES19ib0VIS1hsb3VpWWdiT3dtMzE1bGRlWG1PekQ1bjc3SmtQQzRMNEVkWEo4ZlRGYWZsT2hoQmNIMTZWc1M4c2FiRk9IUEZwT19xVVM4TWg0SWVPYldPeFZJRVU2ckh3cHptUmZ6dFVaZ9IBjAJBVV95cUxNOEVOR1poaGR1aVEyX0lDU01XSlVyUUhwMVhFcHltbVhrUjNTUXRuU29BLUhIaGhtR3c0XzQtc3F1cDAxcUdsREhfbGdEZTc1ZzdCdDNhSmxQYUt2NG45bGx4dUpwa3l3TXlTcHJISzk1UXpSSWVYQnVOU0xvb29mWWdYdC02OHRyNGtRNWhEemFvS2VINS1aUDAxNkNpQVlRX2owZ19pVUFyMFllVmN3ZnFmMmNWUk1rR0hkWDRCUlFYcXh1aWd6N3d6VjlIRW5QMTVfbkwtVENRZEFhWTVheEZLQUJteG9RUTZVVEVDTF9zb21FRVBZUnQyUmRIY0ZWaTZ3T1NaME5TV1Rr?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "Ottawa County Fair was, as always, a memorable success.",
-    "why_irrelevant": "A local county fair far from your usual topics."
+    "summary": "A snail named Snailor Swift, inspired by Taylor Swift, won the World Snail Racing Championships.",
+    "why_irrelevant": "It's a playful animal story unrelated to your usual tech and finance updates."
    },
    "zh": {
-    "summary": "渥太华县博览会一如既往地令人难忘并大获成功。",
-    "why_irrelevant": "远离你日常关注的主题的本地县博览会。"
+    "summary": "一只名为“蜗牛·斯威夫特”的蜗牛，受泰勒·斯威夫特启发，赢得了世界蜗牛赛跑锦标赛。",
+    "why_irrelevant": "这是一则轻松的动物趣闻，与你日常关注的科技和财经动态无关。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "competitive snail racing"
  },
- "brief": "Trump cancels Iran strikes pending rapid deal, while Ceuta migrant crisis fuels far-right rallies in Europe. Research highlights AI in landscape design and nutritional impacts of animal production.",
+ "brief": "Today's news covers geopolitical tensions with Trump's Iran strike cancellation, natural disasters and migration crises, while research focuses on AI's role in design and human factors in automated vehicles.",
  "meta": {
-  "generated_at": "2026-08-02T10:06:11Z"
+  "generated_at": "2026-08-02T11:33:20Z"
  },
- "news_summary": "Trump says he canceled strikes on Iran citing progress on a deal, while far-right leaders intensify calls to expel migrants in Ceuta after last week's influx.",
- "papers_summary": "Papers explore AI's role in landscape design, animal production's effect on human omega-3 status, and lifestyle factors in Alzheimer's prevention.",
+ "news_summary": "Trump cancels Iran strikes pending rapid deal, while earthquakes hit Venezuela, wildfires in Washington, and ferry fire in Indonesia dominate headlines. Migrant crisis in Ceuta stirs political storm in Europe, and US measles outbreaks prompt response.",
+ "papers_summary": "Research highlights include AI in landscape design, nutritional quality of animal foods, polyphenol diet for Alzheimer's, and studies on anxiety modeling, calculus visualization, and automated vehicle interfaces for disabled users.",
  "summaries": {
   "en": {
-   "brief": "Trump cancels Iran strikes pending rapid deal, while Ceuta migrant crisis fuels far-right rallies in Europe. Research highlights AI in landscape design and nutritional impacts of animal production.",
-   "news_summary": "Trump says he canceled strikes on Iran citing progress on a deal, while far-right leaders intensify calls to expel migrants in Ceuta after last week's influx.",
-   "papers_summary": "Papers explore AI's role in landscape design, animal production's effect on human omega-3 status, and lifestyle factors in Alzheimer's prevention."
+   "brief": "Today's news covers geopolitical tensions with Trump's Iran strike cancellation, natural disasters and migration crises, while research focuses on AI's role in design and human factors in automated vehicles.",
+   "news_summary": "Trump cancels Iran strikes pending rapid deal, while earthquakes hit Venezuela, wildfires in Washington, and ferry fire in Indonesia dominate headlines. Migrant crisis in Ceuta stirs political storm in Europe, and US measles outbreaks prompt response.",
+   "papers_summary": "Research highlights include AI in landscape design, nutritional quality of animal foods, polyphenol diet for Alzheimer's, and studies on anxiety modeling, calculus visualization, and automated vehicle interfaces for disabled users."
   },
   "zh": {
-   "brief": "今日新闻聚焦特朗普取消对伊打击及欧洲移民危机，论文方面则呈现跨学科研究，涵盖AI、营养与教育等领域。",
-   "news_summary": "特朗普称已取消对伊朗打击，前提是能迅速达成协议，且伊朗等中东国家请求暂缓攻击。西班牙休达移民危机持续，极右翼势力借机炒作，欧盟政治分歧加剧。",
-   "papers_summary": "研究指出AI正进入景观设计，营养学探讨生产方式对人类健康影响，教育学则聚焦数学学习中的求助策略。"
+   "brief": "今日新闻聚焦西班牙移民危机引发的政治风暴及特朗普取消对伊朗打击的临时决定，同时论文关注AI在景观设计中的应用及跨现实协作等。",
+   "news_summary": "西班牙休达移民危机引发欧盟政治风暴，社交媒体假信息助推；特朗普表示若与伊朗快速达成协议则取消打击。",
+   "papers_summary": "论文涵盖AI在景观设计中的影响、跨现实协作投影技术评估等，展现技术与人机交互研究进展。"
   }
  },
  "todays_image": {
-  "caption": "Just as chess players pause to reconsider a risky move, Trump’s cancellation of strikes on Iran is a strategic gambit in the high-stakes game of diplomacy.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1978.75_1",
-  "source_name": "Smithsonian American Art Museum",
-  "source_url": "https://americanart.si.edu/collections/search/artwork/?id=4560",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1978.75_1",
-  "title": "Sketch of \"Chess Players\""
+  "caption": "Trump's decision to hold back on Iran strikes frames the conflict within a diplomatic border, much like an ornamental frame encircles an image.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-C12F1E9B71912-000001",
+  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/28792",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-C12F1E9B71912-000001",
+  "title": "Ornamental Frame Design"
  }
 }

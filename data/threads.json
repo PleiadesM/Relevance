@@ -1,204 +1,164 @@
 {
  "meta": {
   "count": 4,
-  "generated_at": "2026-08-02T10:06:11Z",
+  "generated_at": "2026-08-02T11:33:20Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "fa00a0e36fb6db15",
-     "phrase": {
-      "en": "Claims progress, cancels attacks",
-      "zh": "称有进展，取消攻击"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/02/world/middleeast/trump-iran-cancels-attack-deal.html"
-    },
-    {
-     "item_id": "6f299f98afe1b178",
-     "phrase": {
-      "en": "Deal must be made rapidly",
-      "zh": "协议需迅速达成"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "03fc36bdbb5bc7c8",
-     "phrase": {
-      "en": "Cancels strikes, pending deal",
-      "zh": "取消打击，待协议"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/02/nx-s1-5917113/trump-says-hes-cancelling-iran-strikes-deal-pending"
-    },
-    {
-     "item_id": "5358efba7cf75296",
-     "phrase": {
-      "en": "Saudi alarm, Tehran threats",
-      "zh": "沙特警觉，德黑兰威胁"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/02/trump-climbs-down-on-iran-strikes-after-saudi-alarm-and-threats-from-tehran"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Trump cancels strikes, claiming deal perimeters agreed.",
-    "zh": "特朗普取消打击，称协议轮廓已达成。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "Iran deal",
-    "zh": "伊朗协议"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You track geopolitical shifts; today's Iran U-turn surprises markets.",
-    "zh": "你关注地缘政治变化，今日伊朗转折令市场意外。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "a54d020703497b53",
-     "phrase": {
-      "en": "Far-right rallies for expulsion",
-      "zh": "极右翼集会主张驱逐"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/02/world/europe/spain-ceuta-far-right.html"
-    },
-    {
-     "item_id": "6743d60a25bb79d2",
-     "phrase": {
-      "en": "Holdouts remain on beach",
-      "zh": "滞留者留在海滩"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/02/world/europe/ceuta-spain-morocco-migrant-holdouts-beach.html"
-    },
-    {
-     "item_id": "060b5ac068b4abde",
-     "phrase": {
-      "en": "Far-right sets tone",
-      "zh": "极右翼定调"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/02/world/europe/europe-migrants-ceuta.html"
-    },
-    {
-     "item_id": "df8adfdb4b19aec9",
-     "phrase": {
-      "en": "Social media whips storm",
-      "zh": "社媒掀起风暴"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c62vl925dqdo?at_medium=RSS&at_campaign=rss"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Ceuta influx reshapes European far-right tone.",
-    "zh": "休达移民潮重塑欧洲极右翼基调。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "migrant crisis",
-    "zh": "移民危机"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You study rhetoric; how media frames far-right matters.",
-    "zh": "你研究修辞，媒体如何呈现极右翼至关重要。"
-   }
-  },
-  {
-   "angles": [
-    {
      "item_id": "94b852526d870133",
      "phrase": {
-      "en": "Chinese challenge shocks",
-      "zh": "中国挑战震惊"
+      "en": "Opaque AI economy under scrutiny",
+      "zh": "不透明的AI经济受审视"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/technology/2026/aug/02/stock-market-turmoil-nvidia-china-light-ai-economy"
     },
     {
-     "item_id": "dffba8fcacf5f8c9",
+     "item_id": "15890a76f3f15d5d",
      "phrase": {
-      "en": "Open letters debate",
-      "zh": "公开信辩论"
+      "en": "Knowledge graphs for QA generation",
+      "zh": "知识图谱用于问答生成"
      },
-     "section": "news",
-     "source": "Simon Willison",
-     "url": "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything"
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.27182v1"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Stock turmoil exposes opaque AI economy.",
-    "zh": "股市动荡揭示不透明的AI经济。"
+    "en": "Investors scramble as a Chinese chip challenge rattles the AI boom.",
+    "zh": "中国芯片挑战震动AI繁荣，投资者措手不及。"
    },
-   "id": "t3",
+   "id": "t1",
    "keyword": {
-    "en": "AI economy",
-    "zh": "AI经济"
+    "en": "AI economy volatility",
+    "zh": "AI经济波动"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow AI trends; chip market signals matter.",
-    "zh": "你关注AI趋势，芯片市场信号重要。"
+    "en": "You track AI economics: today's market turmoil exposes fragility in the AI supply chain.",
+    "zh": "你关注AI经济，今日市场动荡暴露AI供应链的脆弱性。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "c2e4f8b460fca3d7",
+     "item_id": "fa0a22049fec5bb7",
      "phrase": {
-      "en": "Not recommending Tailwind",
-      "zh": "不推荐Tailwind"
+      "en": "Interface for steering AI agents",
+      "zh": "操控AI代理的界面"
      },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://en.andros.dev/blog/af3ee191/why-i-dont-recommend-tailwind-css/"
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.26300v1"
     },
+    {
+     "item_id": "59ac3bc2ea8d9012",
+     "phrase": {
+      "en": "AI teammate reshapes communication",
+      "zh": "AI队友重塑沟通"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.27179v1"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Long-running AI agents need better interfaces for human steering.",
+    "zh": "长期运行的AI代理需要更好的人机操控界面。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "AI agents oversight",
+    "zh": "AI代理监管"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow embodied AI and HCI: new interfaces aim to keep humans in control of autonomous agents.",
+    "zh": "你关注具身AI与人机交互，新界面旨在让人类掌控自主代理。"
+   }
+  },
+  {
+   "angles": [
     {
      "item_id": "452fd2e5fb6d2095",
      "phrase": {
-      "en": "AI in design process",
-      "zh": "AI在设计流程"
+      "en": "AI in landscape design",
+      "zh": "AI在景观设计中的应用"
      },
      "section": "papers",
      "source": "OpenAlex · information visualization",
      "url": "https://digitalcommons.usu.edu/etd2023/859"
+    },
+    {
+     "item_id": "15890a76f3f15d5d",
+     "phrase": {
+      "en": "Visual analytics for QA pairs",
+      "zh": "用于问答对的视觉分析"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.27182v1"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Tailwind CSS not recommended, plus AI papers.",
-    "zh": "Tailwind CSS不推荐，另有AI论文。"
+    "en": "AI reshapes landscape design and visual analytics.",
+    "zh": "AI重塑景观设计与视觉分析。"
    },
-   "id": "t4",
+   "id": "t3",
    "keyword": {
-    "en": "tech tools critique",
-    "zh": "技术工具批评"
+    "en": "AI in design",
+    "zh": "AI赋能设计"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You weigh tool choices; critique informs your stack.",
-    "zh": "你权衡工具选择，批评影响技术栈。"
+    "en": "You value visual rhetoric and technical communication: AI tools increasingly influence design processes.",
+    "zh": "你重视视觉修辞与技术传播，AI工具正日益影响设计流程。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "dffba8fcacf5f8c9",
+     "phrase": {
+      "en": "Summary of AI open letters",
+      "zh": "AI公开信综述"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything"
+    },
+    {
+     "item_id": "94b852526d870133",
+     "phrase": {
+      "en": "AI economy and market turmoil",
+      "zh": "AI经济与市场动荡"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/technology/2026/aug/02/stock-market-turmoil-nvidia-china-light-ai-economy"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Open letters debate the future of AI development.",
+    "zh": "公开信辩论AI发展的未来。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "AI development letters",
+    "zh": "AI发展公开信"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow AI policy and ethics: recent open letters frame the direction of AI research.",
+    "zh": "你关注AI政策与伦理，近期公开信塑造AI研究方向。"
    }
   }
  ]

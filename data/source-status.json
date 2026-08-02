@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-02T10:06:11Z",
+ "generated_at": "2026-08-02T11:33:20Z",
  "private_summary": {
   "configured": 0,
   "total": 0
@@ -79,12 +79,12 @@
   },
   {
    "category": "open",
-   "count": 20,
-   "error": null,
-   "full_text_count": 20,
+   "count": 0,
+   "error": "HTTPSConnectionPool(host='arstechnica.com', port=443): Max retries exceeded with url: /ai/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='arstechnica.com', port=443) at 0x7f402cf6d990>, 'C",
+   "full_text_count": 0,
    "id": "ars_ai",
    "name": "Ars Technica · AI",
-   "ok": true,
+   "ok": false,
    "section": "news",
    "skip_reason": null,
    "type": "rss"
@@ -103,7 +103,7 @@
   },
   {
    "category": "open",
-   "count": 3,
+   "count": 2,
    "error": null,
    "full_text_count": 0,
    "id": "hn_frontpage_ai",
@@ -151,7 +151,7 @@
   },
   {
    "category": "open",
-   "count": 20,
+   "count": 19,
    "error": null,
    "full_text_count": 0,
    "id": "nyt_homepage",
@@ -175,12 +175,12 @@
   },
   {
    "category": "optional",
-   "count": 0,
-   "error": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60 (Caus",
+   "count": 11,
+   "error": null,
    "full_text_count": 0,
    "id": "arxiv_datavis",
    "name": "arXiv cs.HC + cs.GR",
-   "ok": false,
+   "ok": true,
    "section": "papers",
    "skip_reason": null,
    "type": "arxiv"
@@ -212,7 +212,7 @@
   {
    "category": "optional",
    "count": 0,
-   "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-05&rows=12&sort=created&order=desc",
+   "error": "HTTPSConnectionPool(host='api.crossref.org', port=443): Max retries exceeded with url: /works?filter=issn%3A1057-2252%2Cfrom-created-date%3A2026-07-05&rows=12&sort=created&order=desc (Caused by Connec",
    "full_text_count": 0,
    "id": "crossref_techcomm_journals",
    "name": "TechComm journals (CrossRef)",
@@ -235,12 +235,12 @@
   },
   {
    "category": "optional",
-   "count": 0,
-   "error": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC&sortBy=submittedDate&sortOrder=descending&max_results=40 (Caused by ReadTimeo",
+   "count": 9,
+   "error": null,
    "full_text_count": 0,
    "id": "arxiv_hci_writing",
    "name": "arXiv cs.HC (writing & docs)",
-   "ok": false,
+   "ok": true,
    "section": "papers",
    "skip_reason": null,
    "type": "arxiv"
