@@ -1,167 +1,10 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-08-02T13:51:45Z",
+  "count": 5,
+  "generated_at": "2026-08-02T15:17:33Z",
   "scope": "public"
  },
  "threads": [
-  {
-   "angles": [
-    {
-     "item_id": "a54d020703497b53",
-     "phrase": {
-      "en": "far-right leader visits, tensions rise",
-      "zh": "极右领袖到访，紧张升级"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/02/world/europe/spain-ceuta-far-right.html"
-    },
-    {
-     "item_id": "7ea0e4d0c7c09c2b",
-     "phrase": {
-      "en": "Italy suspends Schengen with Spain",
-      "zh": "意大利暂停与西班牙申根"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/jul/31/cueta-spain-morocco-italy-migration-schengen-europe-latest-news-updates"
-    },
-    {
-     "item_id": "df8adfdb4b19aec9",
-     "phrase": {
-      "en": "social media whips up storm",
-      "zh": "社媒煽动政治风暴"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c62vl925dqdo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "6743d60a25bb79d2",
-     "phrase": {
-      "en": "holdouts shelter on beach",
-      "zh": "滞留者海滩栖身"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/02/world/europe/ceuta-spain-morocco-migrant-holdouts-beach.html"
-    },
-    {
-     "item_id": "060b5ac068b4abde",
-     "phrase": {
-      "en": "far-right now sets tone",
-      "zh": "极右如今定调"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/02/world/europe/europe-migrants-ceuta.html"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Ceuta's migrant surge reshapes European politics, pushing far-right voices to the fore.",
-    "zh": "休达移民潮重塑欧洲政治，极右声音渐强。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "migrant crisis",
-    "zh": "移民危机"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You track political communication: today's coverage shows how narratives shift fast in crises.",
-    "zh": "你关注政治传播，今日报道显示危机中叙事迅速转向。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "94b852526d870133",
-     "phrase": {
-      "en": "opaque AI economy rattles investors",
-      "zh": "不透明AI经济震动投资者"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/technology/2026/aug/02/stock-market-turmoil-nvidia-china-light-ai-economy"
-    },
-    {
-     "item_id": "c3fa8ae67d153f17",
-     "phrase": {
-      "en": "new cocaine metaphor for AI rush",
-      "zh": "新可卡因隐喻AI热潮"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://playboy.substack.com/p/has-the-new-cocaine-finally-arrived"
-    }
-   ],
-   "convergence": "divergent",
-   "gloss": {
-    "en": "Markets wobble as opaque AI investments face a Chinese challenge.",
-    "zh": "市场动荡，AI投资面临中国挑战而显得不透明。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "AI economy",
-    "zh": "AI经济"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You care about AI trends: today's stock swing signals a shift in the AI power balance.",
-    "zh": "你关注AI趋势，今日股市波动预示AI力量平衡变化。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "e3d1c5fe8c471c9f",
-     "phrase": {
-      "en": "Greece evacuates as winds drive flames",
-      "zh": "希腊风助火势，紧急疏散"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/02/western-europe-wildfire-crisis-retreats-greece-evacuates-hundreds-athens"
-    },
-    {
-     "item_id": "6039bb6333a4b6b9",
-     "phrase": {
-      "en": "Washington state fires trigger evacuations",
-      "zh": "华盛顿州火灾引发疏散"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/videos/cpd7912xyq4o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "4a233a47fc8e6605",
-     "phrase": {
-      "en": "Spokane under Level 3 evacuation orders",
-      "zh": "斯波坎三级疏散令"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/02/g-s1-136814/washington-state-wildfires-old-trails-fire-spokane"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Europe and Washington battle wildfires as climate change tightens its grip.",
-    "zh": "欧洲与华盛顿遭遇野火，气候变化影响加剧。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "wildfire crisis",
-    "zh": "野火危机"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You value environmental data: today's fire updates show real-world impacts of warming trends.",
-    "zh": "你重视环境数据，今日火灾更新显示气候变暖的实际影响。"
-   }
-  },
   {
    "angles": [
     {
@@ -175,30 +18,296 @@
      "url": "https://digitalcommons.usu.edu/etd2023/859"
     },
     {
-     "item_id": "59ac3bc2ea8d9012",
+     "item_id": "30212b17a6e46f0b",
      "phrase": {
-      "en": "AI teammate reshapes communication",
-      "zh": "AI队友重塑沟通"
+      "en": "AI repair as representational work",
+      "zh": "AI修复的表征工作"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.27179v1"
+     "url": "https://arxiv.org/abs/2607.26517v1"
+    },
+    {
+     "item_id": "318dfc4bec6764db",
+     "phrase": {
+      "en": "Coding agents harm understanding",
+      "zh": "编码代理损害理解"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.26375v1"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "AI tools are entering design workflows, raising questions about creativity and process.",
-    "zh": "AI工具进入设计流程，引发对创意与过程的思考。"
+    "en": "AI reshapes creative and technical workflows, from landscape to code.",
+    "zh": "AI重塑创意与技术工作流程，从景观到代码。"
    },
-   "id": "t4",
+   "id": "t1",
    "keyword": {
     "en": "AI in design",
     "zh": "AI与设计"
    },
-   "relates_to": [],
+   "relates_to": [
+    "t2"
+   ],
    "why_now": {
-    "en": "You blend AI with visualization: these papers explore AI's role in creative and analytical tasks.",
-    "zh": "你结合AI与可视化，这些论文探索AI在创意与分析任务中的角色。"
+    "en": "You study HCI and embodied AI; three papers today show AI entering design and coding, changing human roles.",
+    "zh": "你研究人机交互与具身AI，今日三篇论文展示AI进入设计与编码，改变人类角色。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "59ac3bc2ea8d9012",
+     "phrase": {
+      "en": "AI teammate reshapes human communication",
+      "zh": "AI队友重塑人际沟通"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.27179v1"
+    },
+    {
+     "item_id": "fa0a22049fec5bb7",
+     "phrase": {
+      "en": "GUI for steering long-running agents",
+      "zh": "观察与操控长期AI代理的界面"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.26300v1"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "AI teammates alter how humans talk and trust each other.",
+    "zh": "AI队友改变人类沟通与信任方式。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "AI assistants & communication",
+    "zh": "AI助手与沟通"
+   },
+   "relates_to": [
+    "t1"
+   ],
+   "why_now": {
+    "en": "You care about embodied AI and HCI; new studies show AI teammates change human-human dynamics, and agents need better oversight.",
+    "zh": "你关注具身AI与人机交互，新研究显示AI队友改变人际互动，代理需更好监督。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "ba881b3430366a85",
+     "phrase": {
+      "en": "limbo for Moroccans on streets",
+      "zh": "摩洛哥人流离失所"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/02/ceuta-border-crossing-spain-morocco"
+    },
+    {
+     "item_id": "a54d020703497b53",
+     "phrase": {
+      "en": "far-right expel migrants",
+      "zh": "极右翼驱逐移民"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/02/world/europe/spain-ceuta-far-right.html"
+    },
+    {
+     "item_id": "7ea0e4d0c7c09c2b",
+     "phrase": {
+      "en": "Italy suspends Schengen",
+      "zh": "意大利暂停申根"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/jul/31/cueta-spain-morocco-italy-migration-schengen-europe-latest-news-updates"
+    },
+    {
+     "item_id": "6743d60a25bb79d2",
+     "phrase": {
+      "en": "exhausted holdouts on beach",
+      "zh": "滞留者海滩栖身"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/02/world/europe/ceuta-spain-morocco-migrant-holdouts-beach.html"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Ceuta migrant surge strains borders, politics, and daily life.",
+    "zh": "休达移民潮冲击边界、政治与日常生活。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "migration crisis Europe",
+    "zh": "欧洲移民危机"
+   },
+   "relates_to": [
+    "t4"
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-30",
+     "item_id": "ba881b3430366a85",
+     "label": {
+      "en": "migrant surge begins",
+      "zh": "移民潮开始"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/02/ceuta-border-crossing-spain-morocco"
+    },
+    {
+     "date": "2026-08-02",
+     "item_id": "df8adfdb4b19aec9",
+     "label": {
+      "en": "political storm peaks",
+      "zh": "政治风暴达到顶峰"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c62vl925dqdo?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "why_now": {
+    "en": "You track global human factors; Spain's crisis is a live test of migration policy and social cohesion.",
+    "zh": "你关注全球人类因素，西班牙危机是对移民政策与社会凝聚力的实时考验。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "4c98617a4a69ce7f",
+     "phrase": {
+      "en": "sleaze and grubby pacts",
+      "zh": "肮脏交易与丑闻"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/politics/2026/aug/02/nigel-farage-deal-political-return-reform-2024-election-reports"
+    },
+    {
+     "item_id": "c6071ef74f6eb5c7",
+     "phrase": {
+      "en": "socialists disagree on many",
+      "zh": "社会主义者多有分歧"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/02/us/politics/democratic-socialists-america-convention.html"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Parties and factions sharpen divides while institutions waver.",
+    "zh": "党派与派系加剧分歧，机构摇摆不定。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "political polarization",
+    "zh": "政治极化"
+   },
+   "relates_to": [
+    "t3"
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-02",
+     "item_id": "4c98617a4a69ce7f",
+     "label": {
+      "en": "Farage deal reports",
+      "zh": "法拉奇协议报道"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/politics/2026/aug/02/nigel-farage-deal-political-return-reform-2024-election-reports"
+    },
+    {
+     "date": "2026-08-02",
+     "item_id": "c6071ef74f6eb5c7",
+     "label": {
+      "en": "DSA summit tensions",
+      "zh": "DSA峰会紧张"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/02/us/politics/democratic-socialists-america-convention.html"
+    }
+   ],
+   "why_now": {
+    "en": "You analyze visual rhetoric and discourse; today's political narratives across sources show deepening polarization.",
+    "zh": "你分析视觉修辞与话语，今日各来源的政治叙事显示极化加深。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "4b6058ddad87e6e3",
+     "phrase": {
+      "en": "green land turns brown",
+      "zh": "绿地变成褐色"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/environment/2026/aug/02/july-set-to-be-driest-on-record-for-england-and-wales-after-relentless-heatwaves"
+    },
+    {
+     "item_id": "6039bb6333a4b6b9",
+     "phrase": {
+      "en": "thousands evacuated, emergency",
+      "zh": "数千撤离，紧急状态"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/videos/cpd7912xyq4o?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Wildfires and heatwaves scorch lands from UK to Washington state.",
+    "zh": "野火与热浪炙烤从英国到华盛顿州的土地。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "environmental crisis",
+    "zh": "环境危机"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-02",
+     "item_id": "4b6058ddad87e6e3",
+     "label": {
+      "en": "heatwaves brown UK",
+      "zh": "热浪使英国焦枯"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/environment/2026/aug/02/july-set-to-be-driest-on-record-for-england-and-wales-after-relentless-heatwaves"
+    },
+    {
+     "date": "2026-08-02",
+     "item_id": "6039bb6333a4b6b9",
+     "label": {
+      "en": "wildfires scorch Washington",
+      "zh": "野火炙烤华盛顿州"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/videos/cpd7912xyq4o?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "why_now": {
+    "en": "You care about data visualization of climate; today's wildfire and heatwave news show visual impacts of warming.",
+    "zh": "你关注气候数据可视化，今日野火与热浪新闻展示变暖的视觉影响。"
    }
   }
  ]

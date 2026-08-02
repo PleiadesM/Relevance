@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "sheep shearing championship OR golden shears",
+  "query": "UK airshow season OR Red Arrows display schedule",
   "source": {
-   "name": "Rhyl Journal",
-   "published_at": "2026-07-11T07:00:00Z",
-   "title": "Meet the 'Ronaldo of sheep shearing' who is set to compete at North Wales event",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcDQ2QzVuRW9aRHBrc1VlTlNJdFAwREdHTV82QWJMRHlnY0RpOXZBR0dEWW1QWU5JTW1QLTViNlpmOTJLa1Q4d1BSMzNDbWNYaS1GZWc2VDIzX0NvbzI0bGE2Y1RlbUp2M0RkSEp1eDNyUWlrYjg0SURGSlFzNE1SS2h5M2VQR1NQNEtkcGJSSWM2SzE2Si1PbnJqV25KZw?oc=5"
+   "name": "Reuters",
+   "published_at": "2026-07-17T07:00:00Z",
+   "title": "Wars shift focus from jets to weapons at giant Farnborough Airshow",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZlVIQ1I4MGlkUC04Q2JlU1l2UFlfN2tlNkJBeUpndTdIQUpqUExwMWdLYkRpOGRTTmJpMVNpX2VRQ0pQa25ETzZfbmQwWUZsbDdPWHlmY1oyamkzQWw0T2JEN3lVeVFwTkF4QmhjSzl0MlhSQlVaOVdtUlRIS2ZkWTA3Y0VjY3lCVUVfdGJ0WGtNcmxzOUxvbHB4dHN4WGZzU2NrUjJZdUZjcVRkX0NoN3RR?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "Meet the 'Ronaldo of sheep shearing' who is set to compete at North Wales event.",
-    "why_irrelevant": "A niche rural sports profile far from migration, wildfires, AI, and geopolitics."
+    "summary": "Wars shift focus from jets to weapons at giant Farnborough Airshow, reflecting broader defense industry trends.",
+    "why_irrelevant": "It's a defense trade report, far from your usual museum and AI topics."
    },
    "zh": {
-    "summary": "认识一位被誉为‘剪羊毛界罗纳尔多’的选手，将参加北威尔士的比赛。",
-    "why_irrelevant": "与移民、野火、人工智能和地缘政治毫无关联的小众乡村运动。"
+    "summary": "战争使范堡罗航展的关注点从喷气机转向武器，反映国防工业趋势。",
+    "why_irrelevant": "这是防务贸易报道，远离你常看的博物馆和AI话题。"
    }
   },
-  "topic": "sheep shearing competitions"
+  "topic": "British Isles airshows and their scheduled performers"
  },
- "brief": "Today's news is dominated by wildfires in Washington state and Europe, political tensions over migration in Spain, and Trump's trade and Iran policies. Research highlights AI's role in design and education, plus studies on health and nutrition.",
+ "brief": "Today's news spans global crises from wildfires and migrant tensions to political scandals and legal trials, while research explores AI's role in design, nutrition, and education.",
  "meta": {
-  "generated_at": "2026-08-02T13:51:45Z"
+  "generated_at": "2026-08-02T15:17:33Z"
  },
- "news_summary": "Wildfires force evacuations in Spokane, Europe battles fires and migrant crises, Trump escalates trade war and cancels Iran strikes pending a deal, and a plastic spill mobilizes volunteers in England.",
- "papers_summary": "Research covers AI in landscape design, animal food nutrition, Alzheimer's prevention, student help-seeking, anxiety modeling, calculus visualization, river conservation, and human-computer interaction for automated vehicles.",
+ "news_summary": "Global events dominate: wildfires in Greece and Spokane, migrant crisis in Ceuta, Israeli strikes on Gaza, Moscow bombing, and trials including Alan Jones and the National Gallery security staff dispute. Political stories cover DSA summit, Farage's 'sleaze' deal, and Chicago's mayoral race.",
+ "papers_summary": "Research papers cover AI in landscape design, animal food nutritional quality, polyphenol diet for Alzheimer's, student help-seeking, anxiety modeling, calculus dynamic representation, river conservation, cross-reality collaboration, automated vehicle visualizations, and auditory info for visually impaired.",
  "summaries": {
   "en": {
-   "brief": "Today's news is dominated by wildfires in Washington state and Europe, political tensions over migration in Spain, and Trump's trade and Iran policies. Research highlights AI's role in design and education, plus studies on health and nutrition.",
-   "news_summary": "Wildfires force evacuations in Spokane, Europe battles fires and migrant crises, Trump escalates trade war and cancels Iran strikes pending a deal, and a plastic spill mobilizes volunteers in England.",
-   "papers_summary": "Research covers AI in landscape design, animal food nutrition, Alzheimer's prevention, student help-seeking, anxiety modeling, calculus visualization, river conservation, and human-computer interaction for automated vehicles."
+   "brief": "Today's news spans global crises from wildfires and migrant tensions to political scandals and legal trials, while research explores AI's role in design, nutrition, and education.",
+   "news_summary": "Global events dominate: wildfires in Greece and Spokane, migrant crisis in Ceuta, Israeli strikes on Gaza, Moscow bombing, and trials including Alan Jones and the National Gallery security staff dispute. Political stories cover DSA summit, Farage's 'sleaze' deal, and Chicago's mayoral race.",
+   "papers_summary": "Research papers cover AI in landscape design, animal food nutritional quality, polyphenol diet for Alzheimer's, student help-seeking, anxiety modeling, calculus dynamic representation, river conservation, cross-reality collaboration, automated vehicle visualizations, and auditory info for visually impaired."
   },
   "zh": {
-   "brief": "今日焦点集中在西班牙休达移民危机引发的政治风暴，以及特朗普取消对伊朗打击但要求迅速达成协议的动态。学术方面，AI在景观设计中的应用和数学教育研究值得关注。",
-   "news_summary": "西班牙休达移民危机持续发酵，数万移民涌入引发欧盟政治动荡，极右翼领导人呼吁驱逐剩余移民。特朗普表示同意取消对伊朗的打击，前提是能迅速达成协议，但媒体称他仍在计划周末发动新一轮袭击。",
-   "papers_summary": "近期研究探讨了AI在景观设计过程中的应用，以及动物生产生态如何影响人类营养和Omega-3状态。还有研究关注多巴胺饮食和运动对阿尔茨海默病的神经保护作用。"
+   "brief": "今日焦点集中在西班牙休达移民危机引发的政治风暴与台湾单车环岛热潮；同时特朗普对伊朗的最新表态牵动中东局势。研究方面关注AI与设计、情绪动态建模等话题。",
+   "news_summary": "西班牙移民危机持续发酵，社交媒体假信息加剧政治紧张；特朗普表示若能与伊朗迅速达成协议则取消军事打击。台湾单车环岛之旅吸引海外游客，成为文化现象。",
+   "papers_summary": "今日论文涉及AI在景观设计中的应用、焦虑情绪的动态建模、动物生产与人类营养的关系等主题，展现了跨学科研究的多样性。"
   }
  },
  "todays_image": {
-  "caption": "The vintage \"HIBERNIA\" fire engine plate recalls an era of manual firefighting, while today's Spokane evacuations show how modern wildfires still outpace even our most heroic machines.The vintage \"HIBERNIA\" fire engine plate recalls an era ",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q00827",
-  "source_name": "National Museum of American History",
-  "source_url": null,
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q00827&max=150",
-  "title": "Fire Engine Plate, \"HIBERNIA\""
+  "caption": "Like the vetch's tangled, unchecked growth, the gallery's security staff are treated as separate species in a garden of curated prestige, their roots excluded from the institution's cultivated image.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3ac146ebdb22c447fa7130200cb4e33df",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3b2ad3cf6-71a6-482a-b9fc-eadb34482756",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3ac146ebdb22c447fa7130200cb4e33df/90",
+  "title": "Vicia ludoviciana Nutt. ex Torr. & A. Gray var. ludoviciana"
  }
 }
