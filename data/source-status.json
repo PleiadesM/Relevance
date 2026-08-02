@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-02T11:33:20Z",
+ "generated_at": "2026-08-02T13:51:45Z",
  "private_summary": {
   "configured": 0,
   "total": 0
@@ -79,12 +79,12 @@
   },
   {
    "category": "open",
-   "count": 0,
-   "error": "HTTPSConnectionPool(host='arstechnica.com', port=443): Max retries exceeded with url: /ai/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='arstechnica.com', port=443) at 0x7f402cf6d990>, 'C",
-   "full_text_count": 0,
+   "count": 20,
+   "error": null,
+   "full_text_count": 20,
    "id": "ars_ai",
    "name": "Ars Technica · AI",
-   "ok": false,
+   "ok": true,
    "section": "news",
    "skip_reason": null,
    "type": "rss"
@@ -151,7 +151,7 @@
   },
   {
    "category": "open",
-   "count": 19,
+   "count": 20,
    "error": null,
    "full_text_count": 0,
    "id": "nyt_homepage",
@@ -212,7 +212,7 @@
   {
    "category": "optional",
    "count": 0,
-   "error": "HTTPSConnectionPool(host='api.crossref.org', port=443): Max retries exceeded with url: /works?filter=issn%3A1057-2252%2Cfrom-created-date%3A2026-07-05&rows=12&sort=created&order=desc (Caused by Connec",
+   "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A1050-6519%2Cfrom-created-date%3A2026-07-05&rows=12&sort=created&order=desc",
    "full_text_count": 0,
    "id": "crossref_techcomm_journals",
    "name": "TechComm journals (CrossRef)",

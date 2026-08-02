@@ -1,60 +1,178 @@
 {
  "meta": {
   "count": 4,
-  "generated_at": "2026-08-02T11:33:20Z",
+  "generated_at": "2026-08-02T13:51:45Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "item_id": "a54d020703497b53",
+     "phrase": {
+      "en": "far-right leader visits, tensions rise",
+      "zh": "极右领袖到访，紧张升级"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/02/world/europe/spain-ceuta-far-right.html"
+    },
+    {
+     "item_id": "7ea0e4d0c7c09c2b",
+     "phrase": {
+      "en": "Italy suspends Schengen with Spain",
+      "zh": "意大利暂停与西班牙申根"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/jul/31/cueta-spain-morocco-italy-migration-schengen-europe-latest-news-updates"
+    },
+    {
+     "item_id": "df8adfdb4b19aec9",
+     "phrase": {
+      "en": "social media whips up storm",
+      "zh": "社媒煽动政治风暴"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c62vl925dqdo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "6743d60a25bb79d2",
+     "phrase": {
+      "en": "holdouts shelter on beach",
+      "zh": "滞留者海滩栖身"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/02/world/europe/ceuta-spain-morocco-migrant-holdouts-beach.html"
+    },
+    {
+     "item_id": "060b5ac068b4abde",
+     "phrase": {
+      "en": "far-right now sets tone",
+      "zh": "极右如今定调"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/02/world/europe/europe-migrants-ceuta.html"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Ceuta's migrant surge reshapes European politics, pushing far-right voices to the fore.",
+    "zh": "休达移民潮重塑欧洲政治，极右声音渐强。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "migrant crisis",
+    "zh": "移民危机"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track political communication: today's coverage shows how narratives shift fast in crises.",
+    "zh": "你关注政治传播，今日报道显示危机中叙事迅速转向。"
+   }
+  },
+  {
+   "angles": [
+    {
      "item_id": "94b852526d870133",
      "phrase": {
-      "en": "Opaque AI economy under scrutiny",
-      "zh": "不透明的AI经济受审视"
+      "en": "opaque AI economy rattles investors",
+      "zh": "不透明AI经济震动投资者"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/technology/2026/aug/02/stock-market-turmoil-nvidia-china-light-ai-economy"
     },
     {
-     "item_id": "15890a76f3f15d5d",
+     "item_id": "c3fa8ae67d153f17",
      "phrase": {
-      "en": "Knowledge graphs for QA generation",
-      "zh": "知识图谱用于问答生成"
+      "en": "new cocaine metaphor for AI rush",
+      "zh": "新可卡因隐喻AI热潮"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.27182v1"
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://playboy.substack.com/p/has-the-new-cocaine-finally-arrived"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "divergent",
    "gloss": {
-    "en": "Investors scramble as a Chinese chip challenge rattles the AI boom.",
-    "zh": "中国芯片挑战震动AI繁荣，投资者措手不及。"
+    "en": "Markets wobble as opaque AI investments face a Chinese challenge.",
+    "zh": "市场动荡，AI投资面临中国挑战而显得不透明。"
    },
-   "id": "t1",
+   "id": "t2",
    "keyword": {
-    "en": "AI economy volatility",
-    "zh": "AI经济波动"
+    "en": "AI economy",
+    "zh": "AI经济"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track AI economics: today's market turmoil exposes fragility in the AI supply chain.",
-    "zh": "你关注AI经济，今日市场动荡暴露AI供应链的脆弱性。"
+    "en": "You care about AI trends: today's stock swing signals a shift in the AI power balance.",
+    "zh": "你关注AI趋势，今日股市波动预示AI力量平衡变化。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "fa0a22049fec5bb7",
+     "item_id": "e3d1c5fe8c471c9f",
      "phrase": {
-      "en": "Interface for steering AI agents",
-      "zh": "操控AI代理的界面"
+      "en": "Greece evacuates as winds drive flames",
+      "zh": "希腊风助火势，紧急疏散"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/02/western-europe-wildfire-crisis-retreats-greece-evacuates-hundreds-athens"
+    },
+    {
+     "item_id": "6039bb6333a4b6b9",
+     "phrase": {
+      "en": "Washington state fires trigger evacuations",
+      "zh": "华盛顿州火灾引发疏散"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/videos/cpd7912xyq4o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "4a233a47fc8e6605",
+     "phrase": {
+      "en": "Spokane under Level 3 evacuation orders",
+      "zh": "斯波坎三级疏散令"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/02/g-s1-136814/washington-state-wildfires-old-trails-fire-spokane"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Europe and Washington battle wildfires as climate change tightens its grip.",
+    "zh": "欧洲与华盛顿遭遇野火，气候变化影响加剧。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "wildfire crisis",
+    "zh": "野火危机"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You value environmental data: today's fire updates show real-world impacts of warming trends.",
+    "zh": "你重视环境数据，今日火灾更新显示气候变暖的实际影响。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "452fd2e5fb6d2095",
+     "phrase": {
+      "en": "AI in landscape design process",
+      "zh": "AI在景观设计中的应用"
      },
      "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.26300v1"
+     "source": "OpenAlex · information visualization",
+     "url": "https://digitalcommons.usu.edu/etd2023/859"
     },
     {
      "item_id": "59ac3bc2ea8d9012",
@@ -67,98 +185,20 @@
      "url": "https://arxiv.org/abs/2607.27179v1"
     }
    ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Long-running AI agents need better interfaces for human steering.",
-    "zh": "长期运行的AI代理需要更好的人机操控界面。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "AI agents oversight",
-    "zh": "AI代理监管"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow embodied AI and HCI: new interfaces aim to keep humans in control of autonomous agents.",
-    "zh": "你关注具身AI与人机交互，新界面旨在让人类掌控自主代理。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "452fd2e5fb6d2095",
-     "phrase": {
-      "en": "AI in landscape design",
-      "zh": "AI在景观设计中的应用"
-     },
-     "section": "papers",
-     "source": "OpenAlex · information visualization",
-     "url": "https://digitalcommons.usu.edu/etd2023/859"
-    },
-    {
-     "item_id": "15890a76f3f15d5d",
-     "phrase": {
-      "en": "Visual analytics for QA pairs",
-      "zh": "用于问答对的视觉分析"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.27182v1"
-    }
-   ],
    "convergence": "mixed",
    "gloss": {
-    "en": "AI reshapes landscape design and visual analytics.",
-    "zh": "AI重塑景观设计与视觉分析。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "AI in design",
-    "zh": "AI赋能设计"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You value visual rhetoric and technical communication: AI tools increasingly influence design processes.",
-    "zh": "你重视视觉修辞与技术传播，AI工具正日益影响设计流程。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "dffba8fcacf5f8c9",
-     "phrase": {
-      "en": "Summary of AI open letters",
-      "zh": "AI公开信综述"
-     },
-     "section": "news",
-     "source": "Simon Willison",
-     "url": "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything"
-    },
-    {
-     "item_id": "94b852526d870133",
-     "phrase": {
-      "en": "AI economy and market turmoil",
-      "zh": "AI经济与市场动荡"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/technology/2026/aug/02/stock-market-turmoil-nvidia-china-light-ai-economy"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Open letters debate the future of AI development.",
-    "zh": "公开信辩论AI发展的未来。"
+    "en": "AI tools are entering design workflows, raising questions about creativity and process.",
+    "zh": "AI工具进入设计流程，引发对创意与过程的思考。"
    },
    "id": "t4",
    "keyword": {
-    "en": "AI development letters",
-    "zh": "AI发展公开信"
+    "en": "AI in design",
+    "zh": "AI与设计"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow AI policy and ethics: recent open letters frame the direction of AI research.",
-    "zh": "你关注AI政策与伦理，近期公开信塑造AI研究方向。"
+    "en": "You blend AI with visualization: these papers explore AI's role in creative and analytical tasks.",
+    "zh": "你结合AI与可视化，这些论文探索AI在创意与分析任务中的角色。"
    }
   }
  ]
