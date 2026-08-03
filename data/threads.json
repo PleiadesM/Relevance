@@ -1,86 +1,196 @@
 {
  "meta": {
-  "count": 2,
-  "generated_at": "2026-08-03T18:03:22Z",
+  "count": 3,
+  "generated_at": "2026-08-03T19:54:59Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "1d8d26fdf1e72115",
+     "full_text_file": "articles/news/ffa9e36ac978c0b2.json",
+     "item_id": "ffa9e36ac978c0b2",
      "phrase": {
-      "en": "Calls it largest disaster",
-      "zh": "称为最大灾害"
+      "en": "EU mandates AI labels and deepfake disclosure",
+      "zh": "欧盟强制AI标签与深伪披露"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/02/us/spokane-wildfires.html"
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes"
     },
     {
-     "item_id": "3c89e937204018b7",
+     "item_id": "0bf148bc38f8e896",
      "phrase": {
-      "en": "Highlights uncontained blazes",
-      "zh": "强调火势未控"
+      "en": "Apple challenges UK backdoor data demand",
+      "zh": "苹果挑战英国后门数据索取"
      },
      "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/03/nx-s1-5918018/washington-spokane-wildfires-evacuations"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/technology/2026/aug/03/apple-legal-challenge-uk-government-data-access"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Spokane burns as thousands flee their homes.",
-    "zh": "斯波坎火灾，数千人撤离家园。"
+    "en": "New EU rules make AI labels and deepfake disclosure mandatory, pushing transparency forward.",
+    "zh": "欧盟新规强制AI标签和深度伪造披露，推动透明度前行。"
    },
    "id": "t1",
    "keyword": {
-    "en": "wildfire disaster",
-    "zh": "野火灾害"
+    "en": "AI transparency rules",
+    "zh": "AI透明度法规"
    },
    "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-03",
+     "full_text_file": "articles/news/ffa9e36ac978c0b2.json",
+     "item_id": "ffa9e36ac978c0b2",
+     "label": {
+      "en": "EU AI rules take effect",
+      "zh": "欧盟AI规则生效"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes"
+    },
+    {
+     "date": "2026-08-03",
+     "item_id": "0bf148bc38f8e896",
+     "label": {
+      "en": "Apple files legal challenge",
+      "zh": "苹果提起法律挑战"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/technology/2026/aug/03/apple-legal-challenge-uk-government-data-access"
+    }
+   ],
    "why_now": {
-    "en": "You track visual data: disaster maps and evacuation updates are on your radar.",
-    "zh": "你关注可视化数据：灾害地图与撤离动态值得注意。"
+    "en": "You care about AI governance: the EU's transparency rules just took effect, and Apple is challenging UK data access demands—a key moment for AI regulation.",
+    "zh": "你关注AI治理：欧盟透明度规则刚生效，苹果挑战英国数据索取，AI监管关键节点。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "fde6ed62627a8594",
+     "item_id": "6cacf21d318d1064",
      "phrase": {
-      "en": "Adapts AI text to user style",
-      "zh": "让AI文本适应用户风格"
+      "en": "Trump claims Hormuz may open soon",
+      "zh": "特朗普称霍尔木兹或很快开放"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2607.29238v1"
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/aug/03/us-iran-trump-strait-of-hormuz-talks-israel-gaza-lebanon-latest-news-updates"
     },
     {
-     "item_id": "dcb8aa104daa06e1",
+     "item_id": "4e0c695520a80963",
      "phrase": {
-      "en": "Analyzes style guide use",
-      "zh": "分析风格指南运用"
+      "en": "Iran denies any talks with US",
+      "zh": "伊朗否认与美国任何谈判"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2607.29645v1"
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/03/world/middleeast/iran-talks-us-oman-strait-hormuz-trump.html"
+    },
+    {
+     "item_id": "c4d165b8d4530691",
+     "phrase": {
+      "en": "Trump meets Iran's hardball regime",
+      "zh": "特朗普遭遇伊朗强硬派"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/03/trump-meets-his-obstinate-match-in-irans-hardball-regime"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Trump claims progress, Iran denies talks; diplomatic standoff persists.",
+    "zh": "特朗普称有进展，伊朗否认谈判，外交僵局持续。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "Iran nuclear talks",
+    "zh": "伊朗核谈判"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-03",
+     "item_id": "6cacf21d318d1064",
+     "label": {
+      "en": "Trump claims progress",
+      "zh": "特朗普称有进展"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/aug/03/us-iran-trump-strait-of-hormuz-talks-israel-gaza-lebanon-latest-news-updates"
+    },
+    {
+     "date": "2026-08-03",
+     "item_id": "4e0c695520a80963",
+     "label": {
+      "en": "Iran denies talks",
+      "zh": "伊朗否认谈判"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/03/world/middleeast/iran-talks-us-oman-strait-hormuz-trump.html"
+    },
+    {
+     "date": "2026-08-03",
+     "item_id": "c4d165b8d4530691",
+     "label": {
+      "en": "Analysis of standoff",
+      "zh": "僵局分析"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/03/trump-meets-his-obstinate-match-in-irans-hardball-regime"
+    }
+   ],
+   "why_now": {
+    "en": "You follow geopolitical shifts relevant to AI and tech policy; the Iran-US disconnect could redefine regional stability.",
+    "zh": "你关注与技术政策相关的地缘变动，伊朗-美国分歧或重塑区域稳定。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "ab21ee518500c82d",
+     "phrase": {
+      "en": "Washington fires force 60,000 evacuations",
+      "zh": "华盛顿野火迫使六万人撤离"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/03/washington-state-fires-spokane"
+    },
+    {
+     "item_id": "b270e0da8c48c426",
+     "phrase": {
+      "en": "Rhine falls to record low, drought strains rivers",
+      "zh": "莱茵河创纪录低水位，干旱令河流紧张"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c78gn8zvrx4o?at_medium=RSS&at_campaign=rss"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "New papers unpack how visualization styles guide trust.",
-    "zh": "新论文解析可视化风格如何引导信任。"
+    "en": "Wildfires and drought strain regions, from Washington to Europe.",
+    "zh": "野火与干旱冲击多地，从华盛顿到欧洲。"
    },
-   "id": "t2",
+   "id": "t3",
    "keyword": {
-    "en": "data visualization style",
-    "zh": "数据可视化风格"
+    "en": "wildfires climate impact",
+    "zh": "野火气候影响"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You specialize in visualization: fresh research on style guides and AI-assisted design is directly relevant.",
-    "zh": "你专攻可视化：关于风格指南与AI辅助设计的新研究与您直接相关。"
+    "en": "Climate data visualization matters to you; these events underscore the need for clear visual communication of environmental risks.",
+    "zh": "气候数据可视化对你重要，这些事件凸显环境风险清晰视觉传达的需求。"
    }
   }
  ]
