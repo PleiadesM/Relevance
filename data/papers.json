@@ -2,134 +2,146 @@
  "items": [
   {
    "authors": [
-    "Pranciska Gamilina",
-    "Muhammad Noor"
+    "Arkhe Pacis",
+    "Tsung Yu Tsai"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Although technology-enhanced learning has received considerable scholarly attention, quantitative empirical evidence on the concurrent relationships among video-based learning media, digital literacy, and learning motivation among elementary school students remains limited. This study aimed to analyze the relationships between video-based learning media and digital literacy with students’ learning motivation, both separately and simultaneously. A quantitative correlational design was employed…",
+    "abstract_snippet": "The evolution of business analytics (BA) technologies has necessitated a recalibration of educational practices to meet the industry's dynamic requirements. This research examines the application of the Technology-Organization-Environment (TOE) framework to assess the essential skills, tools, and organizational support required for implementing Business Analytics (BA) in academic and professional settings. Employing a mixed-methods research design, a Systematic Literature Review (SLR) was…",
     "citations": 0,
-    "doi": "10.36088/manazhim.v8i2.6368"
+    "doi": "10.33422/ictle.v2i1.1730"
    },
-   "id": "e8b4f1a9c0e81ccc",
+   "id": "a8e15159850db33c",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-01T00:00:00Z",
-   "score": 0.4445,
+   "published_at": "2026-08-02T00:00:00Z",
+   "score": 0.3544,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Although technology-enhanced learning has received considerable scholarly attention, quantitative empirical evidence on the concurrent relationships among video-based learning media, digital literacy, and learning motivation among elementary school students remains limited. This study aimed to…",
-   "tags": [],
-   "title": "Relationship between the Use of Video-Based Learning Media and Digital Literacy with Students’ Learning Motivation",
-   "url": "https://doi.org/10.36088/manazhim.v8i2.6368",
-   "venue": "MANAZHIM"
-  },
-  {
-   "authors": [
-    "Jacob Owen Huff"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Artificial intelligence (AI) is becoming more common in design fields, including landscape architecture. For example, AI has been used to visually analyze park aesthetics and generate landscape design concepts (Jahani et al., 2022; Senem et al., 2023; Ploennigs & Berger, 2023). This study explores how AI, specifically an image-generation tool called Midjourney, affects the design process for landscape architecture students. Students completed two design projects—one using AI-generated images…",
-    "citations": 0,
-    "doi": "10.26076/ejma-xz30"
-   },
-   "id": "452fd2e5fb6d2095",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-01T00:00:00Z",
-   "score": 0.4445,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Artificial intelligence (AI) is becoming more common in design fields, including landscape architecture. For example, AI has been used to visually analyze park aesthetics and generate landscape design concepts (Jahani et al., 2022; Senem et al., 2023; Ploennigs & Berger, 2023). This study explores…",
-   "tags": [],
-   "title": "The Impact of AI on the Landscape Design Process",
-   "url": "https://digitalcommons.usu.edu/etd2023/859",
-   "venue": "Digital Commons - USU (Utah State University)"
-  },
-  {
-   "authors": [
-    "Ying Yan",
-    "Long Zhang"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Dirigent (DIR) proteins guide lignan and lignin formation and play important roles in plant defense and stress responses. Although genome assemblies have been completed for several Dendrobium species, the functional characterization and expression patterns of DIR genes in this genus remain limited. In this study, comparative genomic and transcriptomic analyses of DIR genes were performed across 17 chromosome-level Dendrobium genomes. A total of 202 DIR genes were identified, with 9–16 genes per…",
-    "citations": 0,
-    "doi": "10.1038/s41598-026-65213-0"
-   },
-   "id": "2da6eceb9f2a53f7",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-01T00:00:00Z",
-   "score": 0.4445,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Dirigent (DIR) proteins guide lignan and lignin formation and play important roles in plant defense and stress responses. Although genome assemblies have been completed for several Dendrobium species, the functional characterization and expression patterns of DIR genes in this genus remain limited.…",
-   "tags": [],
-   "title": "Comparative genomic and gene expression study of Dirigent genes in genus Dendrobium: a bioinformatics analysis",
-   "url": "https://doi.org/10.1038/s41598-026-65213-0",
-   "venue": "Scientific Reports"
-  },
-  {
-   "authors": [
-    "Ziyou Wu",
-    "Xihui Wang",
-    "Jianfang Shao"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "In disaster contexts, fasting (food deprivation) and subsequent refeeding may substantially alter individuals’ food craving, thereby influencing decisions about resource allocation. Understanding these changes can provide insight into behavioural responses during disasters. However, the neural mechanisms underlying food craving across fasting and refeeding states remain poorly understood. In this study, we examine how disaster stimuli and different fasting durations affect food craving-related…",
-    "citations": 0,
-    "doi": "10.1038/s41598-026-64342-w"
-   },
-   "id": "035004901333f9d1",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-01T00:00:00Z",
-   "score": 0.307,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "In disaster contexts, fasting (food deprivation) and subsequent refeeding may substantially alter individuals’ food craving, thereby influencing decisions about resource allocation. Understanding these changes can provide insight into behavioural responses during disasters. However, the neural…",
+   "summary": "The evolution of business analytics (BA) technologies has necessitated a recalibration of educational practices to meet the industry's dynamic requirements. This research examines the application of the Technology-Organization-Environment (TOE) framework to assess the essential skills, tools, and…",
    "tags": [
-    "ml-vis"
+    "systems"
    ],
-   "title": "Post-disaster refeeding influences the effects of fasting duration on food craving: evidence from EEG beta-band analysis",
-   "url": "https://doi.org/10.1038/s41598-026-64342-w",
+   "title": "Organizational Culture, Support, and Competencies for Business Analytics: A Mixed-Methods Study Linking Industry Demand and Curriculum Development",
+   "url": "https://doi.org/10.33422/ictle.v2i1.1730",
+   "venue": "The Proceedings of the International Conference on Teaching, Learning and Education."
+  },
+  {
+   "authors": [
+    "Md. Abu Bakkar Sikder",
+    "Joy Barua",
+    "S. Razaul  Karim Raju",
+    "Meraz Ahammed"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "This paper presents the design and implementation of a low-cost, efficient dual-axis solar tracking system integrated with an IoT-based load monitoring platform. The system utilizes Light Dependent Resistors (LDRs) to detect the sun's position, an Arduino Nano microcontroller as the central processing unit, and DC gear motors to orient a solar panel for maximum irradiance capture. A significant efficiency increase of 25-30% was observed compared to a fixed-tilt system. Furthermore, the system…",
+    "citations": 0,
+    "doi": "10.38032/scse.2026.4.184"
+   },
+   "id": "cc2ff20b0bb26ec4",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-02T00:00:00Z",
+   "score": 0.3544,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "This paper presents the design and implementation of a low-cost, efficient dual-axis solar tracking system integrated with an IoT-based load monitoring platform. The system utilizes Light Dependent Resistors (LDRs) to detect the sun's position, an Arduino Nano microcontroller as the central…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Dual Axis Solar Tracking with IoT-Based Load Monitoring System",
+   "url": "https://doi.org/10.38032/scse.2026.4.184",
+   "venue": "SciEn Conference Series Engineering"
+  },
+  {
+   "authors": [
+    "Armin Dadras",
+    "Robert Sablatnig",
+    "Franziska Brückner",
+    "Markus Seidl"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract The reliable computational assessment of photographic composition requires features that are discriminative of spatial layout yet robust to semantic content. This paper proposes a low-level representation grounded in the assumption that composition can be understood as the flow of visual attention across geometric structure. We introduce VFCNet, which fuses saliency and edge information into a gradient vector flow (GVF) field. The model computes dual-stream GVF representations,…",
+    "citations": 0,
+    "doi": "10.1007/978-3-032-31666-0_35"
+   },
+   "id": "4f73d2ca12f87272",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-02T00:00:00Z",
+   "score": 0.3544,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract The reliable computational assessment of photographic composition requires features that are discriminative of spatial layout yet robust to semantic content. This paper proposes a low-level representation grounded in the assumption that composition can be understood as the flow of visual…",
+   "tags": [],
+   "title": "Semantically Stable Image Composition Analysis via Saliency and Gradient Vector Flow Fusion",
+   "url": "https://doi.org/10.1007/978-3-032-31666-0_35",
+   "venue": "Lecture notes in computer science"
+  },
+  {
+   "authors": [
+    "Ines Vandekerckhove",
+    "Ineke Verreydt",
+    "Nathalie De Beukelaer",
+    "Britta Hanssen",
+    "Tijl Dewit",
+    "Geert Molenberghs"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "The prospective longitudinal study compared muscle growth in children with spastic cerebral palsy (CP) with typically developing (TD) peers and across Gross Motor Function Classification System (GMFCS)-groups, and investigated muscle deficit trajectories across GMFCS-groups. Three hundred-eighty-three assessments of 116 children with CP and 236 of 62 TD children were included. Absolute medial gastrocnemius muscle belly (ML), tendon (TL) and muscle-tendon unit length (MTUL), cross-sectional area…",
+    "citations": 0,
+    "doi": "10.1038/s41598-026-64815-y"
+   },
+   "id": "00290fd519f1e995",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-02T00:00:00Z",
+   "score": 0.3544,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "The prospective longitudinal study compared muscle growth in children with spastic cerebral palsy (CP) with typically developing (TD) peers and across Gross Motor Function Classification System (GMFCS)-groups, and investigated muscle deficit trajectories across GMFCS-groups. Three…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Longitudinal characterization of medial gastrocnemius muscle growth deficits throughout childhood in spastic cerebral palsy",
+   "url": "https://doi.org/10.1038/s41598-026-64815-y",
    "venue": "Scientific Reports"
   },
   {
    "authors": [
-    "Jorge Luis García-Alcaráz",
-    "Jorge Limón-Romero",
-    "Emilio Jiménez Macías",
-    "Yashar Aryanfar",
-    "Antonio Javier Barragán",
-    "Arturo Realyvásquez-Vargas"
+    "Ibrahima N’Doye",
+    "Jianxu Chen",
+    "Yevhen Myshkevych",
+    "Hasan Bagci",
+    "Julie Sanchez-Medina",
+    "Syed Haleem Shah"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "The manufacturing industry seeks to achieve operational efficiency and sustainability through lean manufacturing; however, the literature has not fully established their relationship, as prior studies have examined them in isolation and have not modeled Kaizen (KAI) as a philosophical driver that governs another Operational Lean Tool (OLT). This study proposes a structural equation model (SEM) assuming KAI as an umbrella that enforces three OLTs, namely 5S, Gemba Walking (GEM), and Muda (MUD)…",
+    "abstract_snippet": "Predicting the concentrations of biological agents, such as bacterial cells and viral particles in water resource recovery facilities (WRRFs) is essential for monitoring emerging contaminants. Such predictive capabilities support efforts to protect public health and promote environmental sustainability. Recent data-driven models integrating a knowledge-based adaptation mechanism have been proposed to improve the generalizability of soft-sensor-based machine learning trained on unseen test…",
     "citations": 0,
-    "doi": "10.1016/j.jclepro.2026.149103"
+    "doi": "10.1038/s41598-026-64403-0"
    },
-   "id": "9272260281bb81d6",
+   "id": "40f88d06b25149df",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-01T00:00:00Z",
-   "score": 0.4445,
+   "published_at": "2026-08-02T00:00:00Z",
+   "score": 0.3544,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "The manufacturing industry seeks to achieve operational efficiency and sustainability through lean manufacturing; however, the literature has not fully established their relationship, as prior studies have examined them in isolation and have not modeled Kaizen (KAI) as a philosophical driver that…",
+   "summary": "Predicting the concentrations of biological agents, such as bacterial cells and viral particles in water resource recovery facilities (WRRFs) is essential for monitoring emerging contaminants. Such predictive capabilities support efforts to protect public health and promote environmental…",
    "tags": [],
-   "title": "From Kaizen to sustainability: How operational lean tools drive the Triple Bottom Line",
-   "url": "https://doi.org/10.1016/j.jclepro.2026.149103",
-   "venue": "Journal of Cleaner Production"
+   "title": "Generalizable prediction of biological contaminants across aerobic and anaerobic membrane bioreactors",
+   "url": "https://doi.org/10.1038/s41598-026-64403-0",
+   "venue": "Scientific Reports"
   },
   {
    "authors": [
@@ -145,7 +157,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-31T17:22:48Z",
-   "score": 0.5968,
+   "score": 0.5884,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -170,7 +182,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-31T12:49:05Z",
-   "score": 0.586,
+   "score": 0.5781,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -195,7 +207,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-31T10:14:28Z",
-   "score": 0.6802,
+   "score": 0.6725,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -227,7 +239,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-30T21:31:52Z",
-   "score": 0.5538,
+   "score": 0.5472,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -258,7 +270,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-30T17:41:24Z",
-   "score": 0.3141,
+   "score": 0.3078,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -284,7 +296,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-30T17:21:21Z",
-   "score": 0.3535,
+   "score": 0.3472,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -314,7 +326,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-30T17:14:00Z",
-   "score": 0.5058,
+   "score": 0.4995,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -343,7 +355,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-30T14:05:49Z",
-   "score": 0.5002,
+   "score": 0.4941,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -370,7 +382,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-30T12:58:20Z",
-   "score": 0.3057,
+   "score": 0.2997,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -399,7 +411,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-30T11:47:03Z",
-   "score": 0.5362,
+   "score": 0.5302,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -430,7 +442,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-30T11:44:07Z",
-   "score": 0.3436,
+   "score": 0.3377,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -462,7 +474,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-30T09:48:03Z",
-   "score": 0.5328,
+   "score": 0.527,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -494,7 +506,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-30T09:40:28Z",
-   "score": 0.5326,
+   "score": 0.5268,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -519,7 +531,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-30T05:28:26Z",
-   "score": 0.3333,
+   "score": 0.3278,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -545,7 +557,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-29T20:56:39Z",
-   "score": 0.2804,
+   "score": 0.2754,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -575,7 +587,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-29T17:52:53Z",
-   "score": 0.6486,
+   "score": 0.6438,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -608,7 +620,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-29T16:52:10Z",
-   "score": 0.3147,
+   "score": 0.31,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -621,7 +633,7 @@
  ],
  "meta": {
   "count": 22,
-  "generated_at": "2026-08-03T11:41:34Z",
+  "generated_at": "2026-08-03T15:13:33Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -664,7 +676,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-07-06&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-06&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
