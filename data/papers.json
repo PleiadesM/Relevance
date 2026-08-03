@@ -15,7 +15,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-01T00:00:00Z",
-   "score": 0.4722,
+   "score": 0.4613,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -39,7 +39,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-01T00:00:00Z",
-   "score": 0.4722,
+   "score": 0.4613,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -64,7 +64,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-01T00:00:00Z",
-   "score": 0.4722,
+   "score": 0.4613,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -90,7 +90,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-01T00:00:00Z",
-   "score": 0.3347,
+   "score": 0.3238,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -121,7 +121,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-01T00:00:00Z",
-   "score": 0.4722,
+   "score": 0.4613,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -130,6 +130,115 @@
    "title": "From Kaizen to sustainability: How operational lean tools drive the Triple Bottom Line",
    "url": "https://doi.org/10.1016/j.jclepro.2026.149103",
    "venue": "Journal of Cleaner Production"
+  },
+  {
+   "authors": [
+    "Alvitta Ottley",
+    "Jonathan Schwabish"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Visualization style guides play a crucial role in shaping how data is interpreted and trusted, yet they often receive little scrutiny in their creation and use. Understanding their impact requires looking beyond the specific rules that style guides prescribe and examining how they function within organizations to coordinate visual work, manage trade-offs, and support judgment under real constraints. Analyzing interviews with nine authors of twenty-six style guides across journalism, government,…",
+    "arxiv_id": "2607.29645"
+   },
+   "id": "dcb8aa104daa06e1",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-31T17:22:48Z",
+   "score": 0.6168,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Visualization style guides play a crucial role in shaping how data is interpreted and trusted, yet they often receive little scrutiny in their creation and use. Understanding their impact requires looking beyond the specific rules that style guides prescribe and examining how they function within…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Data Visualization Style Guides in Practice: Why They Emerge, How They Work, and When They Bend",
+   "url": "https://arxiv.org/abs/2607.29645v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Wouter Meulemans"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Information visualization is inherently a field that brings together various research domains. Roughly speaking, we may identify two perspectives: the design perspective, revolving around how to ensure that a human can work effectively with the visual representations of data and the tools that offer them, and the algorithmic perspective, focusing on how to automatically create such visual representations. Munzner's model for visualization design places design choices before algorithmic…",
+    "arxiv_id": "2607.29360"
+   },
+   "id": "b1f191dca72cb26b",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-31T12:49:05Z",
+   "score": 0.605,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Information visualization is inherently a field that brings together various research domains. Roughly speaking, we may identify two perspectives: the design perspective, revolving around how to ensure that a human can work effectively with the visual representations of data and the tools that…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "An Algorithmic Perspective on Information Visualization",
+   "url": "https://arxiv.org/abs/2607.29360v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Antorweep Chakravorty"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "InMyStyle is a privacy first, single user system that adapts small language models to rewrite AI-edited text towards an individual user's writing style without an instruction prompt at inference. Given a user's documents, it uses multiple local helper LLMs to construct paired training examples and fine tunes LoRA adapters on base models ranging from 0.5B to 7B parameters. Length aware generation budgets and automatic chunking support inputs of different lengths. On 219 evaluation pairs from a…",
+    "arxiv_id": "2607.29238"
+   },
+   "id": "fde6ed62627a8594",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-31T10:14:28Z",
+   "score": 0.6985,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "InMyStyle is a privacy first, single user system that adapts small language models to rewrite AI-edited text towards an individual user's writing style without an instruction prompt at inference. Given a user's documents, it uses multiple local helper LLMs to construct paired training examples and…",
+   "tags": [
+    "ai-writing",
+    "llm",
+    "techcomm"
+   ],
+   "title": "Small Is Enough: Per-User Style Rewriting of AI-Edited Text via LoRA Adapters",
+   "url": "https://arxiv.org/abs/2607.29238v1",
+   "venue": "arXiv cs.CL"
+  },
+  {
+   "authors": [
+    "Jiahao Xu",
+    "Wei Liu",
+    "Yang Liu",
+    "Eric Krokos",
+    "Kirsten Whitley",
+    "Xuan Wang"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Large language models increasingly generate summaries from collections of documents to support sensemaking and reporting, but verifying whether summary statements are grounded in source materials remains difficult. In multi-document summarization (MDS), evidence is distributed across many source documents and may be incomplete, conflicting, or missing. We present Summary Verification Space (SVS), a visual analytics system for verifying multi-document summaries through spatial document…",
+    "arxiv_id": "2607.28853"
+   },
+   "id": "b608ce8240867d53",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-30T21:31:52Z",
+   "score": 0.5696,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Large language models increasingly generate summaries from collections of documents to support sensemaking and reporting, but verifying whether summary statements are grounded in source materials remains difficult. In multi-document summarization (MDS), evidence is distributed across many source…",
+   "tags": [
+    "llm",
+    "visualization"
+   ],
+   "title": "Spatial Visual Analytics for Multi-Document Summary Verification",
+   "url": "https://arxiv.org/abs/2607.28853v1",
+   "venue": "arXiv cs.HC"
   },
   {
    "authors": [
@@ -149,7 +258,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-30T17:41:24Z",
-   "score": 0.3389,
+   "score": 0.3292,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -175,7 +284,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-30T17:21:21Z",
-   "score": 0.3782,
+   "score": 0.3685,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -205,7 +314,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-30T17:14:00Z",
-   "score": 0.5305,
+   "score": 0.5208,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -234,7 +343,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-30T14:05:49Z",
-   "score": 0.524,
+   "score": 0.5146,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -261,7 +370,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-30T12:58:20Z",
-   "score": 0.3292,
+   "score": 0.32,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -290,7 +399,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-30T11:47:03Z",
-   "score": 0.5593,
+   "score": 0.5502,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -301,6 +410,36 @@
    ],
    "title": "Investigating Effective Uncertainty Visualizations for Ordinal Crowdsourced Data of Crowding Conditions",
    "url": "https://arxiv.org/abs/2607.28072v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Shixian Zhou",
+    "Minghuan Shen",
+    "Xiaolin Wen",
+    "Zijun Qiu",
+    "Yongliang Jiang",
+    "Xiangyang Wu"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Video-Based Learning (VBL) has become a popular delivery medium of education in the past decade, ranging from online education to hybrid learning. Students' rising expectations for video quality have motivated teachers to enhance the design of instructional videos before releasing them. Analyzing the attention of pilot cohorts in advance has become a conventional optimization strategy to guide course improvement. However, existing attention quantification algorithms are highly susceptible to…",
+    "arxiv_id": "2607.29413"
+   },
+   "id": "fd3dfe1f919eaf4d",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-30T11:44:07Z",
+   "score": 0.3576,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Video-Based Learning (VBL) has become a popular delivery medium of education in the past decade, ranging from online education to hybrid learning. Students' rising expectations for video quality have motivated teachers to enhance the design of instructional videos before releasing them. Analyzing…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "SAVVY: Student Attention Visualization for Video-based Learning Analysis",
+   "url": "https://arxiv.org/abs/2607.29413v1",
    "venue": "arXiv cs.HC"
   },
   {
@@ -323,7 +462,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-30T09:48:03Z",
-   "score": 0.5554,
+   "score": 0.5465,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -335,6 +474,34 @@
    ],
    "title": "VizPilot: Automated Onboarding for SVG-based Composite Visualizations using Multimodal LLMs",
    "url": "https://arxiv.org/abs/2607.27938v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Andreas Zajic",
+    "Vera Hechtl",
+    "Cornelia Geischläger",
+    "Maximilian Kunovjanek-Bachler",
+    "Thomas Hulka",
+    "Anna-Lena Penk"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Traction unit scheduling in large railway networks involves complex operational constraints: multi-objective optimization produces feasible circulation plans under ideal assumptions, while simulation is required to assess their robustness under realistic operating conditions. A critical refinement mechanism relies on crossing operations, in which co-located traction units exchange their remaining schedules to reduce delay propagation. The space of possible crossing sequences, however, grows…",
+    "arxiv_id": "2607.28694"
+   },
+   "id": "ce77e69fa7a75192",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-30T09:40:28Z",
+   "score": 0.5463,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Traction unit scheduling in large railway networks involves complex operational constraints: multi-objective optimization produces feasible circulation plans under ideal assumptions, while simulation is required to assess their robustness under realistic operating conditions. A critical refinement…",
+   "tags": [],
+   "title": "Guided Exploration of Iterative Schedule Modifications: A Design Study on Railway Traction Unit Scheduling",
+   "url": "https://arxiv.org/abs/2607.28694v1",
    "venue": "arXiv cs.HC"
   },
   {
@@ -352,7 +519,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-30T05:28:26Z",
-   "score": 0.3547,
+   "score": 0.3463,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -378,7 +545,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-29T20:56:39Z",
-   "score": 0.2998,
+   "score": 0.2922,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -408,7 +575,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-29T17:52:53Z",
-   "score": 0.6673,
+   "score": 0.6599,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -421,36 +588,6 @@
    ],
    "title": "GraphQAG: A Knowledge-Graph-Guided Visual Analytics Framework for Question-Answer Pairs Generation",
    "url": "https://arxiv.org/abs/2607.27182v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Nia Nixon",
-    "Jaeyoon Choi",
-    "Pedro Martins De Bastos",
-    "Mohammad Amin Samadi",
-    "Luise Mehner",
-    "Seehee Park"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Conversational AI is increasingly positioned as a teammate rather than a tool, yet we know little about how its presence reshapes communication among the humans on the team. We examined sociocognitive communication dynamics in team decision-making using Group Communication Analysis (GCA), team surveys, and lexical analyses of team discourse. Teams completed a high-stakes moral-dilemma decision task in a randomized controlled study: 16 teams of two students plus an AI teammate, and 17 all-human…",
-    "arxiv_id": "2607.27179"
-   },
-   "id": "59ac3bc2ea8d9012",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-29T17:51:32Z",
-   "score": 0.4872,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Conversational AI is increasingly positioned as a teammate rather than a tool, yet we know little about how its presence reshapes communication among the humans on the team. We examined sociocognitive communication dynamics in team decision-making using Group Communication Analysis (GCA), team…",
-   "tags": [
-    "ai-writing"
-   ],
-   "title": "The Social Cost of an AI Teammate: How an Artificial Teammate Reshapes Human-Human Communication in Small-Team Decision-Making",
-   "url": "https://arxiv.org/abs/2607.27179v1",
    "venue": "arXiv cs.HC"
   },
   {
@@ -471,7 +608,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-07-29T16:52:10Z",
-   "score": 0.3332,
+   "score": 0.3259,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -480,205 +617,11 @@
    "title": "TactiPlay: Multi-Granularity Tactical Parsing and Video-Anchored Match Review for Amateur Badminton Players",
    "url": "https://arxiv.org/abs/2607.27125v1",
    "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Sam Yu-Te Lee",
-    "Hsin-Ai Chen",
-    "Sarah Yuniar",
-    "David Bauer",
-    "Kwan-Liu Ma"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Visual network analysis leverages network visualization authoring techniques to facilitate sensemaking, serendipitous discovery, and hypothesis verification on network data. However, transferring the same paradigm to immersive environments is non-trivial due to insufficient UI affordance for authoring operations. Researchers have studied combining multiple modalities for interactions, but the high learning curve of such input systems limits their adoption by typical data analysts, let alone for…",
-    "arxiv_id": "2607.26526"
-   },
-   "id": "decef4113bf726eb",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-29T06:44:43Z",
-   "score": 0.318,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Visual network analysis leverages network visualization authoring techniques to facilitate sensemaking, serendipitous discovery, and hypothesis verification on network data. However, transferring the same paradigm to immersive environments is non-trivial due to insufficient UI affordance for…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "A Design Study on Voice-based Interaction for Immersive Network Visualization and Analysis",
-   "url": "https://arxiv.org/abs/2607.26526v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Daisaku Sato"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Research on AI-assisted programming has concentrated on the gulf of execution -- how users write successful prompts. We report a candidate phenomenon, an integration bottleneck, that lies in Norman's gulf of evaluation: a repair-relevant contribution reaches the user and fails to become actionable at the point of receipt. Two cases in an eighteen-case corpus of publicly shared AI-assisted-development accounts report this, from a peer and from the system's own output; both fall at evaluation's…",
-    "arxiv_id": "2607.26517"
-   },
-   "id": "30212b17a6e46f0b",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-29T06:33:02Z",
-   "score": 0.4703,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Research on AI-assisted programming has concentrated on the gulf of execution -- how users write successful prompts. We report a candidate phenomenon, an integration bottleneck, that lies in Norman's gulf of evaluation: a repair-relevant contribution reaches the user and fails to become actionable…",
-   "tags": [
-    "ai-writing"
-   ],
-   "title": "Repair as Representational Work: Integration Bottlenecks in AI-Assisted Development",
-   "url": "https://arxiv.org/abs/2607.26517v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Hyeok Kim",
-    "Jeffrey Heer"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Visualization experiments need a set of \"good\" stimuli that effectively address research questions and hypotheses. Creating, managing, and deploying stimuli are often challenging, as these tasks require tremendous care. Inappropriate stimuli can make the outcome invalid or uninteresting, wasting both researchers' and participants' resources. As the speed of science increases, better support for stimuli-related tasks is essential, yet we lack a closer look at how visualization researchers deal…",
-    "arxiv_id": "2607.26443"
-   },
-   "id": "1438a1b4a20624fb",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-29T03:43:41Z",
-   "score": 0.3139,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Visualization experiments need a set of \"good\" stimuli that effectively address research questions and hypotheses. Creating, managing, and deploying stimuli are often challenging, as these tasks require tremendous care. Inappropriate stimuli can make the outcome invalid or uninteresting, wasting…",
-   "tags": [
-    "eval-study",
-    "visualization"
-   ],
-   "title": "How Do Researchers Manage Visualization Experiment Stimuli?",
-   "url": "https://arxiv.org/abs/2607.26443v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Peisen Xu",
-    "Jérémie Garcia",
-    "Peter Cleveland",
-    "Ooi Wei Tsang",
-    "Christophe Jouffrais"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "As autonomous drone deployments scale from individual units to coordinated swarms, the human operator's role shifts from direct piloting to high-level supervision. Current interfaces often treat multi-drone control as a scaled-up version of single-drone operation. We instead investigate how reframing fleet supervision as spatial interaction can better support the spatial, temporal, and safety demands of complex missions. We present FleetScape, a Mixed Reality (MR) sandtable system that…",
-    "arxiv_id": "2607.26423"
-   },
-   "id": "45b58a9fa3088411",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-29T03:09:10Z",
-   "score": 0.3131,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "As autonomous drone deployments scale from individual units to coordinated swarms, the human operator's role shifts from direct piloting to high-level supervision. Current interfaces often treat multi-drone control as a scaled-up version of single-drone operation. We instead investigate how…",
-   "tags": [],
-   "title": "FleetScape: A Mixed Reality Sandtable for Spatial Supervision and Control of Scalable Drone Fleets",
-   "url": "https://arxiv.org/abs/2607.26423v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Nishant Balepur",
-    "Connor Baumler",
-    "Valerie Chen",
-    "Eunsol Choi",
-    "Rachel Rudinger",
-    "Jordan Lee Boyd-Graber"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Coding agents (e.g., Cursor) improve developer productivity by optimizing task completion, but shifting users from writing code to prompting and reviewing may harm their understanding, impeding oversight, learning, and communication. To probe this, we have 54 students create a website with one of two AI systems: an agent that edits user code; or a chatbot where users write code alone or adapt generic code snippets. We test understanding via comprehension questions and a task where users extend…",
-    "arxiv_id": "2607.26375"
-   },
-   "id": "318dfc4bec6764db",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-29T01:23:04Z",
-   "score": 0.4632,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Coding agents (e.g., Cursor) improve developer productivity by optimizing task completion, but shifting users from writing code to prompting and reviewing may harm their understanding, impeding oversight, learning, and communication. To probe this, we have 54 students create a website with one of…",
-   "tags": [
-    "pedagogy",
-    "ai-writing",
-    "techcomm"
-   ],
-   "title": "(Im)Paired Programming: Coding Agents Improve Productivity but Harm Understanding",
-   "url": "https://arxiv.org/abs/2607.26375v1",
-   "venue": "arXiv cs.CL"
-  },
-  {
-   "authors": [
-    "Xuan Zhao",
-    "Jiwoong Sohn",
-    "Qinyue Zheng",
-    "Michael Moor"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "AI agents are increasingly adept at tackling complex, long-running tasks. With the rapid surge of autonomous capabilities, human oversight is systematically lagging behind due to limited human-centered interfacing. Aiming to address this, we introduce AgentGUI, a user-friendly, locally hosted GUI for seamlessly observing and steering AI agents amid multiple concurrent, long-running sessions. AgentGUI features 1) rich agent trajectory visualizations, 2) effective manual and automated steering,…",
-    "arxiv_id": "2607.26300"
-   },
-   "id": "fa0a22049fec5bb7",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-28T21:47:22Z",
-   "score": 0.4986,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "AI agents are increasingly adept at tackling complex, long-running tasks. With the rapid surge of autonomous capabilities, human oversight is systematically lagging behind due to limited human-centered interfacing. Aiming to address this, we introduce AgentGUI, a user-friendly, locally hosted GUI…",
-   "tags": [
-    "systems"
-   ],
-   "title": "AgentGUI: An Interface for Observing and Steering Long-Running AI Agents",
-   "url": "https://arxiv.org/abs/2607.26300v1",
-   "venue": "arXiv cs.CL"
-  },
-  {
-   "authors": [
-    "Santiago V. Lombeyda",
-    "Mathieu Desbrun"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Color transfer functions (i.e. colormaps) exhibiting a high frequency luminosity component have proven to be useful in the visualization of data where feature detection or iso-contours recognition is essential. Having these colormaps also display a wide range of color and an aesthetically pleasing composition holds the potential to further aid image understanding and analysis. However producing such colormaps in an efficient manner with current colormap creation tools is difficult. We hereby…",
-    "arxiv_id": "2607.26025"
-   },
-   "id": "3b27d4d1d4160036",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-28T17:36:53Z",
-   "score": 0.301,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Color transfer functions (i.e. colormaps) exhibiting a high frequency luminosity component have proven to be useful in the visualization of data where feature detection or iso-contours recognition is essential. Having these colormaps also display a wide range of color and an aesthetically pleasing…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "Interactive Extraction of High-Frequency Aesthetically-Coherent Colormaps",
-   "url": "https://arxiv.org/abs/2607.26025v1",
-   "venue": "arXiv cs.GR"
   }
  ],
  "meta": {
-  "count": 24,
-  "generated_at": "2026-08-02T23:09:01Z",
+  "count": 22,
+  "generated_at": "2026-08-03T03:51:37Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -721,7 +664,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-07-05&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A1050-6519%2Cfrom-created-date%3A2026-07-06&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
@@ -744,7 +687,7 @@
    },
    {
     "category": "optional",
-    "count": 9,
+    "count": 7,
     "error": null,
     "full_text_count": 0,
     "id": "arxiv_hci_writing",
