@@ -1,0 +1,87 @@
+{
+ "meta": {
+  "count": 2,
+  "generated_at": "2026-08-03T18:03:22Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "1d8d26fdf1e72115",
+     "phrase": {
+      "en": "Calls it largest disaster",
+      "zh": "称为最大灾害"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/02/us/spokane-wildfires.html"
+    },
+    {
+     "item_id": "3c89e937204018b7",
+     "phrase": {
+      "en": "Highlights uncontained blazes",
+      "zh": "强调火势未控"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/03/nx-s1-5918018/washington-spokane-wildfires-evacuations"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Spokane burns as thousands flee their homes.",
+    "zh": "斯波坎火灾，数千人撤离家园。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "wildfire disaster",
+    "zh": "野火灾害"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track visual data: disaster maps and evacuation updates are on your radar.",
+    "zh": "你关注可视化数据：灾害地图与撤离动态值得注意。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "fde6ed62627a8594",
+     "phrase": {
+      "en": "Adapts AI text to user style",
+      "zh": "让AI文本适应用户风格"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2607.29238v1"
+    },
+    {
+     "item_id": "dcb8aa104daa06e1",
+     "phrase": {
+      "en": "Analyzes style guide use",
+      "zh": "分析风格指南运用"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2607.29645v1"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "New papers unpack how visualization styles guide trust.",
+    "zh": "新论文解析可视化风格如何引导信任。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "data visualization style",
+    "zh": "数据可视化风格"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You specialize in visualization: fresh research on style guides and AI-assisted design is directly relevant.",
+    "zh": "你专攻可视化：关于风格指南与AI辅助设计的新研究与您直接相关。"
+   }
+  }
+ ]
+}

@@ -1,48 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
-  "source": {
-   "name": "Axios",
-   "published_at": "2026-07-27T11:23:22Z",
-   "title": "A hopeless update on the giant pumpkins",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWXR4c0h2Qlhzbjk5NEZKWGxWWkxoWWdHeFN1dlB6alNKQkQzN3duNVNTb1FqS25nMkdVWklkVGd3SkV1ZkVTSy05dGVTV0pYUDM0ejYyYmZoaWUxNEI4SU5RRUhYVllma1Fnc2hnWm4yNC1za2U4VjEyZUUwVlIxQTRGZEJLellQRW1TcQ?oc=5"
-  },
-  "summaries": {
-   "en": {
-    "summary": "A hopeless update on giant pumpkins details the latest struggles in the competitive pumpkin growing circuit.",
-    "why_irrelevant": "Far removed from typical personal dashboard topics like tech, finance, or lifestyle."
-   },
-   "zh": {
-    "summary": "关于巨型南瓜的一则无望更新，讲述了竞技南瓜种植圈的最新困境。",
-    "why_irrelevant": "远离常见的个人仪表盘话题，如科技、财经或生活方式。"
-   }
-  },
-  "topic": "competitive pumpkin growing"
- },
- "brief": "Today's news spans SpaceX's stock lockup expiry, oil price drops after Iran pause, and wildfires in Washington, while Europe faces a heatwave-driven energy crunch. Research highlights include business analytics curriculum development, IoT solar tracking, and AI-text style rewriting.",
+ "brief": "Today's news spans intense US politics, EU border and AI regulations, UK legal challenges, and public health alerts, while papers explore business analytics, solar tracking, and visualization techniques.",
  "meta": {
-  "generated_at": "2026-08-03T15:13:33Z"
+  "generated_at": "2026-08-03T18:03:22Z"
  },
- "news_summary": "SpaceX insiders can sell shares, oil prices plummet after US-Iran tension eases, and Washington wildfires force evacuations. Europe struggles with drought and energy shortages, while political and diplomatic developments unfold in the US, UK, and Iran.",
- "papers_summary": "Papers cover business analytics education, solar tracking with IoT, image composition analysis, muscle growth in cerebral palsy, contaminant prediction in bioreactors, visualization style guides, algorithmic perspectives on info viz, AI-text style rewriting, multi-document summary verification, and cross-reality projection techniques.",
+ "news_summary": "US political turmoil continues with Trump's attorney general pick advancing and his claims on Bears Ears undercut. EU tightens borders and AI transparency rules, while UK faces Apple data access challenge and Michigan reports cyclosporiasis deaths.",
+ "papers_summary": "Research covers business analytics curriculum alignment, dual-axis solar tracking with IoT, and advances in image composition and visualization style guides.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans SpaceX's stock lockup expiry, oil price drops after Iran pause, and wildfires in Washington, while Europe faces a heatwave-driven energy crunch. Research highlights include business analytics curriculum development, IoT solar tracking, and AI-text style rewriting.",
-   "news_summary": "SpaceX insiders can sell shares, oil prices plummet after US-Iran tension eases, and Washington wildfires force evacuations. Europe struggles with drought and energy shortages, while political and diplomatic developments unfold in the US, UK, and Iran.",
-   "papers_summary": "Papers cover business analytics education, solar tracking with IoT, image composition analysis, muscle growth in cerebral palsy, contaminant prediction in bioreactors, visualization style guides, algorithmic perspectives on info viz, AI-text style rewriting, multi-document summary verification, and cross-reality projection techniques."
+   "brief": "Today's news spans intense US politics, EU border and AI regulations, UK legal challenges, and public health alerts, while papers explore business analytics, solar tracking, and visualization techniques.",
+   "news_summary": "US political turmoil continues with Trump's attorney general pick advancing and his claims on Bears Ears undercut. EU tightens borders and AI transparency rules, while UK faces Apple data access challenge and Michigan reports cyclosporiasis deaths.",
+   "papers_summary": "Research covers business analytics curriculum alignment, dual-axis solar tracking with IoT, and advances in image composition and visualization style guides."
   },
   "zh": {
-   "brief": "今日焦点：中国消费者节省开支引发深层结构性问题讨论，同时美日联手干预汇市、缅甸昂山素季两年半来首次会客，以及AI对就业冲击成为热点。",
-   "news_summary": "中国消费者转向节俭，政府刺激措施效果有限，反映经济结构性挑战；美日联手干预汇市阻止日元过度下跌，昂山素季获准会见ICRC官员，台湾物流商成香港图书审查新环节。",
-   "papers_summary": "研究关注信息可视化在商业分析、图像构图和跨现实协作中的应用，同时涉及太阳能追踪系统和肌肉生长缺陷等多元主题。"
+   "brief": "今日焦点包括中国消费刺激政策效果存疑、胡锦涛死讯谣言被揭穿、美日联合干预汇市，以及AI对就业的冲击；科研方面关注数据分析相关研究。",
+   "news_summary": "中文新闻聚焦中国消费低迷与政策效果、胡锦涛死讯谣言、缅甸昂山素季会见外宾、美日干预汇市、AI冲击就业等。",
+   "papers_summary": "英文论文主要关注信息可视化、数据分析应用及AI写作风格等方向。"
   }
  },
  "todays_image": {
-  "caption": "A million roofs of solar panels turn sunlight into electricity, just as a fake screenshot turns a single lie about Hu Jintao into a storm of headlines.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-JN2025-01033-000001",
-  "source_name": "National Museum of American History",
-  "source_url": null,
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-JN2025-01033-000001&max=150",
-  "title": "\"Million Roofs\" photovoltaic panel"
+  "caption": "Just as a queen bee is finally released from her cage to lead the hive, the holdouts are letting Trump's attorney general pick out of political confinement to face the full Senate.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-1991_0414_1az",
+  "source_name": "National Postal Museum",
+  "source_url": "https://postalmuseum.si.edu/object/npm_1991.0414.1",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-1991_0414_1az",
+  "title": "Queen honeybee cage"
  }
 }
