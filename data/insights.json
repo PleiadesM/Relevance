@@ -9,32 +9,40 @@
   },
   "summaries": {
    "en": {
-    "summary": "Bauman's Harvest Festival in Gervais, Oregon celebrates the farm's 130th anniversary with fall festivities and a mention of Parma versus Roma tomatoes.",
-    "why_irrelevant": "Local farm anniversary and tomato comparison are far removed from typical personal dashboard interests."
+    "summary": "Bauman's Harvest Festival in Oregon celebrates 130 years of farming with fall festivities.",
+    "why_irrelevant": "A hyper-local farm celebration unlikely to interest a global tech-savvy user."
    },
    "zh": {
-    "summary": "俄勒冈州Gervais的鲍曼丰收节庆祝农场130周年，活动包括秋季庆典和帕尔马与罗马番茄的对比。",
-    "why_irrelevant": "本地农场周年纪念和番茄对比与常规个人动态关注点相距甚远。"
+    "summary": "俄勒冈州鲍曼丰收节庆祝农场成立130周年，举办秋季活动。",
+    "why_irrelevant": "本地农场活动，与全球科技用户关联甚少。"
    }
   },
   "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news is dominated by U.S. political turmoil, including factional fights among Democrats and controversies surrounding Trump's interference in the Justice Department, while international tensions persist with Iran. In research, papers explore data visualization, AI in business, and public health topics.",
+ "brief": "Today's news is dominated by Trump administration controversies, including IRS immunity, Justice Department meddling, and tariff lawsuits, alongside a deadly Ukraine drone attack and wildfire evacuations. Papers cover business analytics, solar tracking, and visualization techniques.",
  "meta": {
-  "generated_at": "2026-08-03T21:20:09Z"
+  "generated_at": "2026-08-03T23:18:07Z"
  },
- "news_summary": "U.S. politics feature Democratic divisions in Michigan and California, socialist debate in Chicago, ethics issues for a House member, and Trump's meddling in DOJ. Internationally, there are developments with Iran and Australia, plus a mysterious death case in Mississippi.",
- "papers_summary": "Research papers cover business analytics curriculum, solar tracking, image composition, muscle growth in cerebral palsy, bioreactor contamination prediction, and human-computer interaction topics like visualization style guides and cross-reality collaboration.",
+ "news_summary": "US politics sees Trump's IRS immunity and Justice Department issues, plus tariff lawsuits by 25 states; international news includes Ukraine drone attacks and wildfires forcing evacuations in Spokane.",
+ "papers_summary": "Research spans business analytics curriculum, dual-axis solar tracking, image composition analysis, and visualization style guides.",
  "summaries": {
   "en": {
-   "brief": "Today's news is dominated by U.S. political turmoil, including factional fights among Democrats and controversies surrounding Trump's interference in the Justice Department, while international tensions persist with Iran. In research, papers explore data visualization, AI in business, and public health topics.",
-   "news_summary": "U.S. politics feature Democratic divisions in Michigan and California, socialist debate in Chicago, ethics issues for a House member, and Trump's meddling in DOJ. Internationally, there are developments with Iran and Australia, plus a mysterious death case in Mississippi.",
-   "papers_summary": "Research papers cover business analytics curriculum, solar tracking, image composition, muscle growth in cerebral palsy, bioreactor contamination prediction, and human-computer interaction topics like visualization style guides and cross-reality collaboration."
+   "brief": "Today's news is dominated by Trump administration controversies, including IRS immunity, Justice Department meddling, and tariff lawsuits, alongside a deadly Ukraine drone attack and wildfire evacuations. Papers cover business analytics, solar tracking, and visualization techniques.",
+   "news_summary": "US politics sees Trump's IRS immunity and Justice Department issues, plus tariff lawsuits by 25 states; international news includes Ukraine drone attacks and wildfires forcing evacuations in Spokane.",
+   "papers_summary": "Research spans business analytics curriculum, dual-axis solar tracking, image composition analysis, and visualization style guides."
   },
   "zh": {
-   "brief": "今日新闻聚焦中国消费刺激政策成效、缅甸昂山素季罕见会客、美日联合干预汇市等；AI对就业的影响也持续引发关注。研究方面，信息可视化领域多篇论文探讨了从业务分析课程到跨现实协作的多样话题。",
-   "news_summary": "中国消费者减少支出引发政策反思，缅甸昂山素季两年来首次会客，美日联手干预汇市阻日元下跌，AI对就业冲击特别是高学历女性影响受关注。",
-   "papers_summary": "信息可视化研究涉及业务分析课程设计、双轴太阳能追踪系统、图像构图分析等，还有跨现实协作和AI编辑文本风格重写等新颖课题。"
+   "brief": "今日焦点涵盖中国消费疲软、AI就业冲击、缅甸局势及国际足联危机，同时涉及美日干预汇市等国际动态；科研方面关注信息可视化与商业分析课程发展。",
+   "news_summary": "中文新闻聚焦中国消费者节俭趋势、AI对毕业生就业影响、台湾图书供应链受国安法冲击，以及国际足联主席面临压力；同时美日联合干预汇市阻止日元下跌。",
+   "papers_summary": "论文涵盖商业分析课程与行业需求对接、数据可视化风格指南、AI编辑文本风格重写等主题，涉及信息可视化与人机交互领域。"
   }
+ },
+ "todays_image": {
+  "caption": "Just as Lantana involucrata's involucral bracts envelop its flowers, Palantir's \"otherworldly\" earnings have enveloped and surpassed all expectations.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3f1a8eef36bb045bbab65f76e1bde4b47",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/351381cb0-c56d-4d1d-91b6-55424edfea93",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3f1a8eef36bb045bbab65f76e1bde4b47/90",
+  "title": "Lantana involucrata L."
  }
 }
