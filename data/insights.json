@@ -1,28 +1,40 @@
 {
- "brief": "Today's news spans wildfires, political scandals, and international tensions, while papers explore digital learning, AI in design, and visualization practices.",
- "meta": {
-  "generated_at": "2026-08-03T03:51:37Z"
+ "apropos_of_nothing": {
+  "query": "(\"Weifang kite festival\" OR \"giant kites\" OR \"Chinese kite tradition\")",
+  "source": {
+   "name": "sonomanews.com",
+   "published_at": "2026-07-31T18:00:00Z",
+   "title": "Free ice cream returns as Sonoma County Fair blends nostalgia with new attractions",
+   "url": "https://www.sonomanews.com/2026/07/22/sonoma-county-fair-santa-rosa-2026/"
+  },
+  "summaries": {
+   "en": {
+    "summary": "Sonoma County Fair revives free ice cream, blending nostalgia with new attractions.",
+    "why_irrelevant": "A niche local fair promotion, distant from global news."
+   },
+   "zh": {
+    "summary": "索诺玛县博览会恢复免费冰淇淋，融合怀旧与新景点。",
+    "why_irrelevant": "地方性博览会活动，远离全球要闻。"
+   }
+  },
+  "topic": "giant kites of Weifang"
  },
- "news_summary": "Major events include Washington wildfires, Australia's corruption hearings, Malaysia's hiking crackdown, and U.S.-Japan yen intervention.",
- "papers_summary": "Research topics range from video-based learning motivation to AI in landscape design and post-disaster dietary effects.",
+ "brief": "Today's headlines span a US-Japan joint yen intervention, AstraZeneca's potential $400bn merger talks, and a significant policy shift in South Korea toward North Korea, while research highlights AI's impact on design and visualization style guides.",
+ "meta": {
+  "generated_at": "2026-08-03T07:43:40Z"
+ },
+ "news_summary": "Global markets react to coordinated US-Japan currency intervention as the dollar weakens; AstraZeneca explores a record pharma merger; South Korea abandons denuclearization-first stance amid record heat and domestic political tensions.",
+ "papers_summary": "Papers explore AI in landscape design and visualization style guides, alongside studies on video-based learning and post-disaster refeeding effects.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans wildfires, political scandals, and international tensions, while papers explore digital learning, AI in design, and visualization practices.",
-   "news_summary": "Major events include Washington wildfires, Australia's corruption hearings, Malaysia's hiking crackdown, and U.S.-Japan yen intervention.",
-   "papers_summary": "Research topics range from video-based learning motivation to AI in landscape design and post-disaster dietary effects."
+   "brief": "Today's headlines span a US-Japan joint yen intervention, AstraZeneca's potential $400bn merger talks, and a significant policy shift in South Korea toward North Korea, while research highlights AI's impact on design and visualization style guides.",
+   "news_summary": "Global markets react to coordinated US-Japan currency intervention as the dollar weakens; AstraZeneca explores a record pharma merger; South Korea abandons denuclearization-first stance amid record heat and domestic political tensions.",
+   "papers_summary": "Papers explore AI in landscape design and visualization style guides, alongside studies on video-based learning and post-disaster refeeding effects."
   },
   "zh": {
-   "brief": "今日焦点包括美日联手干预汇市、全球极端天气与野火频发、AI对就业的冲击，以及国际足联的危机；科研方面关注AI辅助设计与可视化研究。",
-   "news_summary": "美日罕见联手干预汇市以阻日元跌势，特朗普对伊朗态度反复；西班牙移民危机引发政治风暴，中国毕业生面临AI冲击，国际足联主席压力加大。",
-   "papers_summary": "研究揭示AI在景观设计中的应用及可视化风格指南的演变，同时探讨视频学习与数字素养对学习动机的影响。"
+   "brief": "今日焦点包括美日罕见联手干预汇市以支撑日元，以及西班牙移民危机引发的政治风暴；同时，AI对就业市场的影响持续引发关注，国际足联主席面临压力。",
+   "news_summary": "美日联合干预汇市以阻止日元跌至40年低位，双方表示将不犹豫再次行动；西班牙移民危机在社交媒体推波助澜下引发欧盟政治风暴；中国毕业生面临AI冲击就业的挑战；国际足联主席因世界杯投资计划崩溃而面临压力。",
+   "papers_summary": "今日无优先论文，但跨语言论文涉及AI在景观设计中的应用、数据可视化风格指南等主题，为信息可视化领域提供前沿视角。"
   }
- },
- "todays_image": {
-  "caption": "Like the resilient little aster that holds its ground in tough soil, the yen is being propped up by an unusual U.S.-Japan intervention to keep it from sinking to a 40-year low.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3d1b2a964-ed98-4ee0-8f71-927381c84000",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c/90",
-  "title": "Chaetopappa asteroides (Nutt.) DC."
  }
 }
