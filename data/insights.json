@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "Axios",
-   "published_at": "2026-07-27T11:23:22Z",
-   "title": "A hopeless update on the giant pumpkins",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWXR4c0h2Qlhzbjk5NEZKWGxWWkxoWWdHeFN1dlB6alNKQkQzN3duNVNTb1FqS25nMkdVWklkVGd3SkV1ZkVTSy05dGVTV0pYUDM0ejYyYmZoaWUxNEI4SU5RRUhYVllma1Fnc2hnWm4yNC1za2U4VjEyZUUwVlIxQTRGZEJLellQRW1TcQ?oc=5"
+   "name": "vm.ru",
+   "published_at": "2026-07-29T12:30:00Z",
+   "title": "Как вырастить большую тыкву",
+   "url": "https://vm.ru/news/1346217-agronom-vorobev-rasskazal-kak-vyrastit-bolshuyu-tykvu"
   },
   "summaries": {
    "en": {
-    "summary": "A hopeless update on giant pumpkins from Axios reports a disappointing season for competitive growers.",
-    "why_irrelevant": "far from typical tech and business feed."
+    "summary": "A Moscow newspaper shares practical tips for growing a giant pumpkin.",
+    "why_irrelevant": "A niche horticulture how-to far from your usual tech and politics feed."
    },
    "zh": {
-    "summary": "Axios 报道了巨型南瓜的令人失望的季节，对竞争性种植者来说是个坏消息。",
-    "why_irrelevant": "远离通常的科技和商业信息流。"
+    "summary": "莫斯科报纸分享种植巨型南瓜的实用技巧。",
+    "why_irrelevant": "与你常看的科技和政治内容相距甚远的园艺冷门知识。"
    }
   },
   "topic": "competitive pumpkin growing"
  },
- "brief": "News highlights geopolitical tensions, including Patriot missile demand, Iran Strait of Hormuz talks, and domestic issues like Wyoming suicide rates and Epstein bank scrutiny. Papers focus on data visualization and AI-mediated communication.",
+ "brief": "Today's news is dominated by geopolitical tensions and domestic political dramas, from Nicaragua's rigged elections and Iran's defiance to Ohio's congressional race and wildfire investigations. Meanwhile, research focuses on data visualization techniques, including chart definitions, foldable device displays, and scalable graph layouts.",
  "meta": {
-  "generated_at": "2026-08-04T18:02:19Z"
+  "generated_at": "2026-08-04T19:54:40Z"
  },
- "news_summary": "Today's news centers on geopolitical tensions with Patriot missile shortages and progress in Iran Strait of Hormuz talks, alongside domestic stories on Wyoming's suicide crisis and Senate report on banks and Epstein.",
- "papers_summary": "Papers explore information visualization techniques, including radial charts, chart type definitions, and foldable device visualizations, plus AI-mediated communication effects on authorship.",
+ "news_summary": "International affairs highlight strained US-Iran relations with hopes for a Hormuz deal, migrant rescues in the Channel and Ceuta, and investigations into wildfires and building violations. Domestic politics feature Trump's involvement in Ohio and Michigan races, with a House probe into abuse allegations, while a Maryland professor's ICE detention sparks controversy.",
+ "papers_summary": "Papers explore visualization challenges from chart type boundaries to foldable screens and scalable graph layouts, with a notable study on the 'doer effect' in programming education and a review of AR teacher training.",
  "summaries": {
   "en": {
-   "brief": "News highlights geopolitical tensions, including Patriot missile demand, Iran Strait of Hormuz talks, and domestic issues like Wyoming suicide rates and Epstein bank scrutiny. Papers focus on data visualization and AI-mediated communication.",
-   "news_summary": "Today's news centers on geopolitical tensions with Patriot missile shortages and progress in Iran Strait of Hormuz talks, alongside domestic stories on Wyoming's suicide crisis and Senate report on banks and Epstein.",
-   "papers_summary": "Papers explore information visualization techniques, including radial charts, chart type definitions, and foldable device visualizations, plus AI-mediated communication effects on authorship."
+   "brief": "Today's news is dominated by geopolitical tensions and domestic political dramas, from Nicaragua's rigged elections and Iran's defiance to Ohio's congressional race and wildfire investigations. Meanwhile, research focuses on data visualization techniques, including chart definitions, foldable device displays, and scalable graph layouts.",
+   "news_summary": "International affairs highlight strained US-Iran relations with hopes for a Hormuz deal, migrant rescues in the Channel and Ceuta, and investigations into wildfires and building violations. Domestic politics feature Trump's involvement in Ohio and Michigan races, with a House probe into abuse allegations, while a Maryland professor's ICE detention sparks controversy.",
+   "papers_summary": "Papers explore visualization challenges from chart type boundaries to foldable screens and scalable graph layouts, with a notable study on the 'doer effect' in programming education and a review of AR teacher training."
   },
   "zh": {
-   "brief": "今日新闻聚焦中国出入境新规、两岸关系与中东油轮安全，科学上则有开创性胎儿手术成功案例。",
-   "news_summary": "中国新出入境规定引发争议，同时台湾陆委会称两岸沟通未断；红海油轮遇袭风险升高，但霍尔木兹海峡谈判有进展。",
-   "papers_summary": "论文关注可视化技术，如折叠设备上的数据可视化设计、大规模图布局优化，以及编程练习中主动实践的效果。"
+   "brief": "今日焦點包括中國新出入境規定引發的爭議、兩岸關係緊張，以及紅海油輪受威脅；研究方面則側重資訊視覺化與AI輔助溝通的最新進展。",
+   "news_summary": "中國公布新出入境管理規定引發廣泛討論，台灣陸委會主委表示兩岸溝通未斷；中東油輪在紅海受威脅程度達戰爭以來最高，美伊談判可能達成霍爾木茲海峽協議。",
+   "papers_summary": "研究著重於資料視覺化的創新方法，包括摺疊式裝置上的資料呈現、大規模圖形佈局技術，以及AI輔助溝通中作者身份訊號的測量。"
   }
  },
  "todays_image": {
-  "caption": "Both the Saturn V model and today's Patriot missile surge evoke rockets as tools of power—one aimed at the cosmos, the other at the chaos below.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19940223000-NASM2018-10450-000001",
-  "source_name": "National Air and Space Museum",
-  "source_url": "http://n2t.net/ark:/65665/nv9bc630938-2757-410e-9b36-e9d2d83942fc",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19940223000-NASM2018-10450-000001",
-  "title": "Model, Rocket, Saturn V, 1:34"
+  "caption": "Just as Lobophora sp. clings stubbornly to rocky shores amid crashing waves, dictators fear the unyielding tide of popular resistance that Nicaragua embodies.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3a20dbcaf-62f6-4dd2-b936-69074b28dad5",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7/90",
+  "title": "Lobophora sp."
  }
 }

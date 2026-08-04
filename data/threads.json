@@ -1,56 +1,66 @@
 {
  "meta": {
   "count": 4,
-  "generated_at": "2026-08-04T18:02:19Z",
+  "generated_at": "2026-08-04T19:54:40Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "f81a2f7d3acd4599",
-     "phrase": {
-      "en": "draft deal circulated",
-      "zh": "草案已传阅"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/04/world/middleeast/strait-of-hormuz-deal-progress.html"
-    },
-    {
      "item_id": "97f928f6ffea2c6f",
      "phrase": {
-      "en": "stocks record, oil falls",
-      "zh": "股市新高，油价下跌"
+      "en": "Stocks rally on Hormuz hopes",
+      "zh": "股市因霍尔木兹希望上涨"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/08/04/business/stocks-sp500-oil-prices.html"
     },
     {
-     "item_id": "820cac09f81878ee",
-     "phrase": {
-      "en": "oil falls on hopes",
-      "zh": "油价因希望而跌"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss"
-    },
-    {
      "item_id": "b155f7680cc9735c",
      "phrase": {
-      "en": "Rubio sees deal soon",
-      "zh": "鲁比奥称协议在即"
+      "en": "Rubio sees deal 'very shortly'",
+      "zh": "鲁比奥称很快达成协议"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/world/live/2026/aug/04/middle-east-crisis-qatar-iran-us-israel-war-donald-trump-strait-hormuz-gaza-latest-news-updates"
     },
     {
+     "item_id": "820cac09f81878ee",
+     "phrase": {
+      "en": "Oil falls on reopening hopes",
+      "zh": "油价因重开希望下跌"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "f81a2f7d3acd4599",
+     "phrase": {
+      "en": "Bessent says deal possible soon",
+      "zh": "贝森特称可能很快达成"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/04/world/middleeast/strait-of-hormuz-deal-progress.html"
+    },
+    {
+     "item_id": "828271ef7920b6f0",
+     "phrase": {
+      "en": "Iran president denies resignation talk",
+      "zh": "伊朗总统否认辞职传闻"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/04/irans-president-denies-threatening-to-resign-during-talks-over-strait-of-hormuz"
+    },
+    {
      "item_id": "bc1ff692e35ba91c",
      "phrase": {
-      "en": "US-Qatar report progress",
+      "en": "US and Qatar report progress",
       "zh": "美卡报告进展"
      },
      "section": "news",
@@ -60,8 +70,8 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Talks to reopen the strait stir oil prices and global hopes.",
-    "zh": "重开海峡的谈判牵动油价与全球希望。"
+    "en": "Oil prices dip as hopes rise for a deal to reopen the Strait of Hormuz.",
+    "zh": "随着重开霍尔木兹海峡协议的希望上升，油价下跌。"
    },
    "id": "t1",
    "keyword": {
@@ -70,165 +80,136 @@
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track geopolitics and markets: progress today shifts oil and risk sentiment.",
-    "zh": "你关注地缘政治与市场：今日进展改变油价与风险偏好。"
+    "en": "You follow global affairs: today US and Qatari officials signal progress, moving markets and shifting geopolitical risk.",
+    "zh": "你关注全球事务，今日美卡官员表示进展，影响市场与地缘风险。"
    }
   },
   {
    "angles": [
-    {
-     "item_id": "ce878cc973017168",
-     "phrase": {
-      "en": "questions AI demand",
-      "zh": "质疑AI需求"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://www.wheresyoured.at/the-ai-demand-bubble/"
-    },
-    {
-     "item_id": "d354dedea9d16541",
-     "phrase": {
-      "en": "markets demand reset",
-      "zh": "市场要求重置"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/04/business/kevin-warsh-federal-reserve-markets.html"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Doubts grow over whether AI demand is real or overhyped, with market jitters.",
-    "zh": "对AI需求真实性的质疑加剧，市场出现波动。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "AI demand bubble",
-    "zh": "AI需求泡沫"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow tech economics and AI: today's analyses question the sustainability of AI spending.",
-    "zh": "你关注科技经济与AI：今日分析质疑AI投入可持续性。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "346ca84056215318",
-     "phrase": {
-      "en": "EU criticizes plan",
-      "zh": "欧盟批评计划"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/04/eu-criticises-spain-migrant-plan-ceuta-crisis-meeting"
-    },
     {
      "item_id": "536c9b13ecf7e0a3",
      "phrase": {
-      "en": "EU commends response",
-      "zh": "欧盟赞赏回应"
+      "en": "Spain's 'swift response' praised",
+      "zh": "西班牙快速应对受赞"
      },
      "section": "news",
      "source": "BBC World",
      "url": "https://www.bbc.co.uk/news/articles/c80n3j55g0do?at_medium=RSS&at_campaign=rss"
     },
     {
+     "item_id": "346ca84056215318",
+     "phrase": {
+      "en": "EU criticizes regularization plan",
+      "zh": "欧盟批评合法化计划"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/04/eu-criticises-spain-migrant-plan-ceuta-crisis-meeting"
+    },
+    {
      "item_id": "1e15b593b15968c7",
      "phrase": {
-      "en": "70k returned, deaths",
-      "zh": "七万遣返，有死亡"
+      "en": "75 reported dead in crossing",
+      "zh": "75人据报在渡海时死亡"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/world/live/2026/aug/04/europe-drought-extreme-heat-wildfires-climate-crisis-hungary-romania-ceuta-spain-migration-eu-latest-news-updates"
     }
    ],
-   "convergence": "divergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "Spain returns most migrants from Ceuta, but EU criticizes its regularization plan.",
-    "zh": "西班牙遣返多数休达移民，但欧盟批评其正规化计划。"
+    "en": "Spain's swift return of migrants draws EU criticism and a harsh human toll.",
+    "zh": "西班牙遣返移民的做法招致欧盟批评，并伴随惨重人员伤亡。"
    },
-   "id": "t3",
+   "id": "t2",
    "keyword": {
-    "en": "migrant crisis",
-    "zh": "移民危机"
+    "en": "Ceuta migrant crisis",
+    "zh": "休达移民危机"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow policy and human rights: the EU-Spain split affects migration rules.",
-    "zh": "你关注政策与人权：欧盟与西班牙分歧影响移民规则。"
+    "en": "You track global human rights and policy: today's Ceuta developments reveal tensions between EU norms and national action.",
+    "zh": "你关注全球人权与政策，今日休达事态揭示欧盟规范与国家行动间的紧张。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "d737d1ad2adee7cc",
+     "item_id": "16528f69401a15c5",
      "phrase": {
-      "en": "foldable device viz",
-      "zh": "可折叠设备可视化"
+      "en": "AI erases authorship signals",
+      "zh": "AI抹去作者信号"
      },
      "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.02232v1"
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.00926v1"
     },
     {
-     "item_id": "76ec5eb7f53c64e7",
+     "full_text_file": "articles/news/0002633e2855e15a.json",
+     "item_id": "0002633e2855e15a",
      "phrase": {
-      "en": "scalable graph layouts",
-      "zh": "可扩展图布局"
+      "en": "Creator critical of own AI use",
+      "zh": "创作者批评自身AI使用"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.01907v1"
-    },
-    {
-     "item_id": "193bcf6bd9b211e2",
-     "phrase": {
-      "en": "radial chart limits",
-      "zh": "径向图局限"
-     },
-     "section": "papers",
-     "source": "OpenAlex · information visualization",
-     "url": "https://doi.org/10.1007/s10791-026-10416-2"
-    },
-    {
-     "item_id": "2396ee0f4423855d",
-     "phrase": {
-      "en": "define chart boundaries",
-      "zh": "定义图表边界"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.02512v1"
-    },
-    {
-     "item_id": "791a8cd4a4cdae0c",
-     "phrase": {
-      "en": "tree viz data-centric",
-      "zh": "数据中心树图"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.01477v1"
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "New papers push boundaries of charts, trees, and foldable displays.",
-    "zh": "新论文推动图表、树图与可折叠屏的边界。"
+    "en": "AI assistance may dilute the author's own voice in writing and communication.",
+    "zh": "AI辅助可能冲淡作者在写作与沟通中的个人声音。"
    },
-   "id": "t4",
+   "id": "t3",
    "keyword": {
-    "en": "visualization design",
-    "zh": "可视化设计"
+    "en": "AI-mediated authorship",
+    "zh": "AI中介作者身份"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You work on data viz and HCI: these studies offer fresh techniques and critiques.",
-    "zh": "你从事数据可视化与HCI：这些研究提供新技术与批判。"
+    "en": "You research AI and technical communication: this paper directly measures the loss of authorship signals, a core concern for you.",
+    "zh": "你研究AI与技术传播，这篇论文直接测量作者信号丢失，正中你的关注核心。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "2021d40d6bc61d4e",
+     "phrase": {
+      "en": "Geothermal well design informed by geology",
+      "zh": "地热井设计依据地质"
+     },
+     "section": "papers",
+     "source": "OpenAlex · information visualization",
+     "url": "https://doi.org/10.2118/233103-ms"
+    },
+    {
+     "item_id": "e94aa54c96aec532",
+     "phrase": {
+      "en": "Inspections uncover many violations",
+      "zh": "检查发现许多违规"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/04/nyregion/nyc-buildings-violations-conversions.html"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "From geothermal wells to construction sites, design decisions shape public safety and energy futures.",
+    "zh": "从地热井到建筑工地，设计决策塑造公共安全与能源未来。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "critical infrastructure design",
+    "zh": "关键基础设施设计"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You value applied technical communication: today's reports on well design and building inspections show how we communicate risks and choices.",
+    "zh": "你重视应用技术传播，今日关于井设计与建筑检查的报告展示了风险与选择的沟通方式。"
    }
   }
  ]
