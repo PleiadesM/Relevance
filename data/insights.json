@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "query": "snail racing championship OR world snail racing",
   "source": {
-   "name": "tvtonight.com.au",
-   "published_at": "2026-08-03T09:15:00Z",
-   "title": "ESPN : The Ocho 10th anniversary",
-   "url": "https://tvtonight.com.au/2026/08/espn-the-ocho-10th-anniversary.html"
+   "name": "The Times of India",
+   "published_at": "2026-07-20T07:00:00Z",
+   "title": "Who is Snailor Swift? Taylor Swift-inspired snail wins World Snail Racing Championships",
+   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPYlhESHBpX3lpUDVXblBYeU5DdVREbk90eUhjRllCV0R2WGd0LXdmR3Q0TnI4RGdPY1ZtOVhsbFZRUUJvcXpBdUMwRUZvbUNzcUlxTFV3S2xZV0hCdDhiSThwZE5QNFlEcm8wMTVIS1l1a01lWnoxQ04teElVSTJCZzMtbEhQTEtxWkdSX3dIdGtyYmdQMVNqdENCMjZES19ib0VIS1hsb3VpWWdiT3dtMzE1bGRlWG1PekQ1bjc3SmtQQzRMNEVkWEo4ZlRGYWZsT2hoQmNIMTZWc1M4c2FiRk9IUEZwT19xVVM4TWg0SWVPYldPeFZJRVU2ckh3cHptUmZ6dFVaZ9IBjAJBVV95cUxNOEVOR1poaGR1aVEyX0lDU01XSlVyUUhwMVhFcHltbVhrUjNTUXRuU29BLUhIaGhtR3c0XzQtc3F1cDAxcUdsREhfbGdEZTc1ZzdCdDNhSmxQYUt2NG45bGx4dUpwa3l3TXlTcHJISzk1UXpSSWVYQnVOU0xvb29mWWdYdC02OHRyNGtRNWhEemFvS2VINS1aUDAxNkNpQVlRX2owZ19pVUFyMFllVmN3ZnFmMmNWUk1rR0hkWDRCUlFYcXh1aWd6N3d6VjlIRW5QMTVfbkwtVENRZEFhWTVheEZLQUJteG9RUTZVVEVDTF9zb21FRVBZUnQyUmRIY0ZWaTZ3T1NaME5TV1Rr?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "ESPN's The Ocho celebrates its 10th anniversary, broadcasting niche sports events.",
-    "why_irrelevant": "It's about quirky sports programming, far from daily news and personal interests."
+    "summary": "A Taylor Swift-inspired snail named Snailor Swift wins the World Snail Racing Championships in Norfolk.",
+    "why_irrelevant": "The user's feed is about tech and business, so a snail race is a far detour."
    },
    "zh": {
-    "summary": "ESPN的“The Ocho”频道庆祝成立十周年，播放小众体育赛事。",
-    "why_irrelevant": "涉及冷门体育节目，远离日常新闻和个人兴趣。"
+    "summary": "一只受泰勒·斯威夫特启发的蜗牛“蜗牛·斯威夫特”在诺福克世界蜗牛赛跑锦标赛中夺冠。",
+    "why_irrelevant": "用户的订阅是科技和商业内容，蜗牛赛跑是偏离主题的冷门话题。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "competitive snail racing"
  },
- "brief": "Today's news spans political shifts, market highs, and environmental challenges, while papers focus on visualization techniques and AI's impact on communication and learning.",
+ "brief": "Today's news spans from landmark legislation in Colombia banning FGM to U.S. political and economic updates, including a record S&P 500 and SpaceX's strong earnings. Research highlights advances in visualization for foldables and scalable graph layouts.",
  "meta": {
-  "generated_at": "2026-08-04T21:33:51Z"
+  "generated_at": "2026-08-04T23:17:21Z"
  },
- "news_summary": "Key stories include changes to UK government contracts, US judicial and political developments, SpaceX's strong earnings, and environmental crises like wildfires and the Eaton Fire report.",
- "papers_summary": "Research highlights innovations in data visualization for foldables and scalable layouts, plus studies on AI's role in authorship and the 'doer effect' in learning.",
+ "news_summary": "Colombia enacts a landmark bill banning FGM, while U.S. news covers the Eaton fire cause, political tensions, ICE detainee conditions, Jetstar fees, Australian education results, SpaceX earnings, Jan. 6 dismissals, MI6 ranking, and AI framework preparations.",
+ "papers_summary": "Papers explore data visualization on foldable devices, scalable graph layouts via sparse sampling, and a visual analytics system for AI-driven virtual cells in drug discovery, among other topics.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans political shifts, market highs, and environmental challenges, while papers focus on visualization techniques and AI's impact on communication and learning.",
-   "news_summary": "Key stories include changes to UK government contracts, US judicial and political developments, SpaceX's strong earnings, and environmental crises like wildfires and the Eaton Fire report.",
-   "papers_summary": "Research highlights innovations in data visualization for foldables and scalable layouts, plus studies on AI's role in authorship and the 'doer effect' in learning."
+   "brief": "Today's news spans from landmark legislation in Colombia banning FGM to U.S. political and economic updates, including a record S&P 500 and SpaceX's strong earnings. Research highlights advances in visualization for foldables and scalable graph layouts.",
+   "news_summary": "Colombia enacts a landmark bill banning FGM, while U.S. news covers the Eaton fire cause, political tensions, ICE detainee conditions, Jetstar fees, Australian education results, SpaceX earnings, Jan. 6 dismissals, MI6 ranking, and AI framework preparations.",
+   "papers_summary": "Papers explore data visualization on foldable devices, scalable graph layouts via sparse sampling, and a visual analytics system for AI-driven virtual cells in drug discovery, among other topics."
   },
   "zh": {
-   "brief": "今日焦点：中国新出入境规定引发广泛讨论；台湾陆委会称两岸沟通未断；美中关系再现摩擦；同时，AI推动美股创新高，AMD和SpaceX业绩强劲。",
-   "news_summary": "中国新出入境管理规定引起热议，涉及限制出境和国安审查；台湾陆委会主委表示两岸沟通管道未断，但风险升高；美中关系在特习会后现摩擦。",
-   "papers_summary": "今日无优先论文，英文论文涉及可视化、编程教育等，但无直接关联新闻。"
+   "brief": "今日要闻涵盖中国出入境新规、台湾两岸关系、中东油轮威胁，以及科技与太空产业动态；论文方面聚焦数据可视化与AI应用。",
+   "news_summary": "中国新出入境规定引发争议，两岸关系持续紧张；中东油轮受威胁程度升高，美国与伊朗谈判有进展；SpaceX财报亮眼但股价回落。",
+   "papers_summary": "多篇论文探讨数据可视化新方法，如折叠设备上的可视化设计、大规模图布局算法，以及AI驱动的虚拟细胞分析系统。"
   }
  },
  "todays_image": {
-  "caption": "Like the Spad XIII's wartime role giving way to a new purpose, government contracts now swap green ambitions for the immediate lift of job creation.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19200001000-NASM2018-10135-000001",
-  "source_name": "National Air and Space Museum",
-  "source_url": "http://n2t.net/ark:/65665/nv99b3b1335-fbc0-42c6-bfb8-172edc7e8c90",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19200001000-NASM2018-10135-000001",
-  "title": "Spad XIII \"Smith IV\""
+  "caption": "The plant's name evokes a single seed, yet the story's betrayal cuts to the root of trust, both involving a kind of hidden mutilation.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3afbc93aa56314a7c87c9618cca25b6bf",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3911757a4-9970-48a8-b80d-d27f09f50108",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3afbc93aa56314a7c87c9618cca25b6bf/90",
+  "title": "Celastrus monospermoides Loes."
  }
 }
