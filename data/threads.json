@@ -1,215 +1,345 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-08-04T19:54:40Z",
+  "count": 6,
+  "generated_at": "2026-08-04T21:33:51Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "97f928f6ffea2c6f",
+     "full_text_file": "articles/news/83d3498477b6d01f.json",
+     "item_id": "83d3498477b6d01f",
      "phrase": {
-      "en": "Stocks rally on Hormuz hopes",
-      "zh": "股市因霍尔木兹希望上涨"
+      "en": "AMD data center revenue doubles",
+      "zh": "AMD数据中心营收翻倍"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/04/business/stocks-sp500-oil-prices.html"
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen"
     },
     {
-     "item_id": "b155f7680cc9735c",
+     "full_text_file": "articles/news/6d30bbb005ba45e6.json",
+     "item_id": "6d30bbb005ba45e6",
      "phrase": {
-      "en": "Rubio sees deal 'very shortly'",
-      "zh": "鲁比奥称很快达成协议"
+      "en": "SpaceX neocloud revenue triples",
+      "zh": "SpaceX新云营收三倍"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/aug/04/middle-east-crisis-qatar-iran-us-israel-war-donald-trump-strait-hormuz-gaza-latest-news-updates"
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/science/975335/spacex-made-more-money-as-a-neocloud"
     },
     {
-     "item_id": "820cac09f81878ee",
+     "full_text_file": "articles/news/1c77caee126d292c.json",
+     "item_id": "1c77caee126d292c",
      "phrase": {
-      "en": "Oil falls on reopening hopes",
-      "zh": "油价因重开希望下跌"
+      "en": "Texas halts grid connections",
+      "zh": "德州暂停电网连接"
      },
      "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "f81a2f7d3acd4599",
-     "phrase": {
-      "en": "Bessent says deal possible soon",
-      "zh": "贝森特称可能很快达成"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/04/world/middleeast/strait-of-hormuz-deal-progress.html"
-    },
-    {
-     "item_id": "828271ef7920b6f0",
-     "phrase": {
-      "en": "Iran president denies resignation talk",
-      "zh": "伊朗总统否认辞职传闻"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/04/irans-president-denies-threatening-to-resign-during-talks-over-strait-of-hormuz"
-    },
-    {
-     "item_id": "bc1ff692e35ba91c",
-     "phrase": {
-      "en": "US and Qatar report progress",
-      "zh": "美卡报告进展"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/04/us-qatar-progress-iran-ceasefire-hormuz-strait"
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/ai/2026/08/texas-halts-data-center-connections-to-power-grid-amid-overwhelming-demand/"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Oil prices dip as hopes rise for a deal to reopen the Strait of Hormuz.",
-    "zh": "随着重开霍尔木兹海峡协议的希望上升，油价下跌。"
+    "en": "Data centers and chips are straining under AI's appetite, reshaping markets and power grids.",
+    "zh": "数据中心和芯片在AI的胃口下不堪重负，重塑市场与电网。"
    },
    "id": "t1",
    "keyword": {
-    "en": "Hormuz diplomacy",
-    "zh": "霍尔木兹外交"
+    "en": "AI computing demand",
+    "zh": "AI算力需求"
    },
-   "relates_to": [],
+   "relates_to": [
+    "t5"
+   ],
+   "timeline": [
+    {
+     "date": "2026-07",
+     "label": {
+      "en": "AI chip demand peaks",
+      "zh": "AI芯片需求高峰"
+     }
+    },
+    {
+     "date": "2026-08-04",
+     "full_text_file": "articles/news/6d30bbb005ba45e6.json",
+     "item_id": "6d30bbb005ba45e6",
+     "label": {
+      "en": "threefold AI revenue growth",
+      "zh": "AI营收三倍增长"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/science/975335/spacex-made-more-money-as-a-neocloud"
+    }
+   ],
    "why_now": {
-    "en": "You follow global affairs: today US and Qatari officials signal progress, moving markets and shifting geopolitical risk.",
-    "zh": "你关注全球事务，今日美卡官员表示进展，影响市场与地缘风险。"
+    "en": "You track AI infrastructure: AMD's surge, SpaceX's neocloud, and Texas's grid pause show the demand spike is today's reality.",
+    "zh": "你关注AI基础设施：AMD激增、SpaceX新云、德州电网暂停，需求飙升是今日现实。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "536c9b13ecf7e0a3",
+     "item_id": "26c412fd8203f551",
      "phrase": {
-      "en": "Spain's 'swift response' praised",
-      "zh": "西班牙快速应对受赞"
+      "en": "AI writing harms thought",
+      "zh": "AI写作有害思维"
      },
      "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c80n3j55g0do?at_medium=RSS&at_campaign=rss"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/04/opinion/artificial-intelligence-ai-writing.html"
     },
     {
-     "item_id": "346ca84056215318",
+     "item_id": "16528f69401a15c5",
      "phrase": {
-      "en": "EU criticizes regularization plan",
-      "zh": "欧盟批评合法化计划"
+      "en": "measures author signal loss",
+      "zh": "测量作者信号丢失"
      },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/04/eu-criticises-spain-migrant-plan-ceuta-crisis-meeting"
-    },
-    {
-     "item_id": "1e15b593b15968c7",
-     "phrase": {
-      "en": "75 reported dead in crossing",
-      "zh": "75人据报在渡海时死亡"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/aug/04/europe-drought-extreme-heat-wildfires-climate-crisis-hungary-romania-ceuta-spain-migration-eu-latest-news-updates"
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.00926v1"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Spain's swift return of migrants draws EU criticism and a harsh human toll.",
-    "zh": "西班牙遣返移民的做法招致欧盟批评，并伴随惨重人员伤亡。"
+    "en": "Voices warn AI writing dulls minds and authorship, even as tools spread.",
+    "zh": "声音警告AI写作钝化思维与作者身份，即便工具在扩散。"
    },
    "id": "t2",
    "keyword": {
-    "en": "Ceuta migrant crisis",
-    "zh": "休达移民危机"
+    "en": "AI writing critique",
+    "zh": "AI写作批判"
    },
-   "relates_to": [],
-   "why_now": {
-    "en": "You track global human rights and policy: today's Ceuta developments reveal tensions between EU norms and national action.",
-    "zh": "你关注全球人权与政策，今日休达事态揭示欧盟规范与国家行动间的紧张。"
-   }
-  },
-  {
-   "angles": [
+   "relates_to": [
+    "t4"
+   ],
+   "timeline": [
     {
+     "date": "2026-08-02",
      "item_id": "16528f69401a15c5",
-     "phrase": {
-      "en": "AI erases authorship signals",
-      "zh": "AI抹去作者信号"
+     "label": {
+      "en": "authorship loss study",
+      "zh": "作者身份丧失研究"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
      "url": "https://arxiv.org/abs/2608.00926v1"
     },
     {
+     "date": "2026-08-04",
+     "item_id": "26c412fd8203f551",
+     "label": {
+      "en": "NYT anti-AI essay",
+      "zh": "NYT反AI文章"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/04/opinion/artificial-intelligence-ai-writing.html"
+    }
+   ],
+   "why_now": {
+    "en": "You care about technical communication and authorship: NYT's plea and arXiv's authorship study both land today, challenging AI-mediated writing norms.",
+    "zh": "你关注技术传播与作者身份：今日NYT呼吁与arXiv作者研究共同挑战AI中介写作规范。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "d737d1ad2adee7cc",
+     "phrase": {
+      "en": "explores viz on foldables",
+      "zh": "探索折叠屏可视化"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.02232v1"
+    },
+    {
+     "item_id": "193bcf6bd9b211e2",
+     "phrase": {
+      "en": "radial charts lack interaction",
+      "zh": "径向图交互不足"
+     },
+     "section": "papers",
+     "source": "OpenAlex · information visualization",
+     "url": "https://doi.org/10.1007/s10791-026-10416-2"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Foldable screens open new canvases for charts, but design lags.",
+    "zh": "折叠屏为图表开启新画布，但设计滞后。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "data viz foldables",
+    "zh": "折叠屏数据可视化"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow data visualization and HCI: a fresh arXiv paper maps this niche, a few days old, still ripe.",
+    "zh": "你关注数据可视化与人机交互：一篇新arXiv论文勾勒此细分领域，数日前发布，仍属前沿。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "67a0b822219d1241",
+     "phrase": {
+      "en": "diagram-first GenAI teaching",
+      "zh": "图示优先生成式AI教学"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.00844v1"
+    },
+    {
+     "item_id": "1f2ab028ccab5fac",
+     "phrase": {
+      "en": "code writing boosts doer effect",
+      "zh": "代码写作增强做者效应"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.02541v1"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Generative AI enters classrooms and programming, promising aid but raising practice questions.",
+    "zh": "生成式AI进入课堂与编程，承诺辅助却引发实践问题。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "AI in education",
+    "zh": "AI教育应用"
+   },
+   "relates_to": [
+    "t2"
+   ],
+   "why_now": {
+    "en": "You focus on technical communication and learning: new papers on diagram-first AI and the doer effect probe how AI reshapes skill-building.",
+    "zh": "你关注技术传播与学习：关于图示优先AI和做者效应的新论文探讨AI如何重塑技能培养。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "full_text_file": "articles/news/83d3498477b6d01f.json",
+     "item_id": "83d3498477b6d01f",
+     "phrase": {
+      "en": "AMD shipments soar",
+      "zh": "AMD出货飙升"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen"
+    },
+    {
+     "full_text_file": "articles/news/6d30bbb005ba45e6.json",
+     "item_id": "6d30bbb005ba45e6",
+     "phrase": {
+      "en": "SpaceX cloud grows",
+      "zh": "SpaceX云增长"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/science/975335/spacex-made-more-money-as-a-neocloud"
+    },
+    {
+     "full_text_file": "articles/news/1c77caee126d292c.json",
+     "item_id": "1c77caee126d292c",
+     "phrase": {
+      "en": "Texas power crunch",
+      "zh": "德州电力危机"
+     },
+     "section": "news",
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/ai/2026/08/texas-halts-data-center-connections-to-power-grid-amid-overwhelming-demand/"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "From chips to cloud to power, AI's physical backbone is buckling and booming.",
+    "zh": "从芯片到云再到电力，AI物理骨架在摇晃与繁荣。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "AI compute infrastructure",
+    "zh": "AI计算基础设施"
+   },
+   "relates_to": [
+    "t1"
+   ],
+   "timeline": [
+    {
+     "date": "2026-06",
+     "label": {
+      "en": "AI capex boom begins",
+      "zh": "AI资本开支热潮开始"
+     }
+    },
+    {
+     "date": "2026-08-04",
+     "full_text_file": "articles/news/83d3498477b6d01f.json",
+     "item_id": "83d3498477b6d01f",
+     "label": {
+      "en": "earnings confirm surge",
+      "zh": "财报确认激增"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen"
+    }
+   ],
+   "why_now": {
+    "en": "You follow embodied AI and systems: this broader thread connects chip earnings, cloud compute, and grid limits—today's numbers prove scaling pains.",
+    "zh": "你关注具身AI与系统：此主线连接芯片收益、云算力与电网限制，今日数据印证扩展之痛。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "d6e9be462a149fb3",
+     "phrase": {
+      "en": "OpenAI details cyber tests",
+      "zh": "OpenAI详解网络测试"
+     },
+     "section": "news",
+     "source": "OpenAI News",
+     "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models"
+    },
+    {
      "full_text_file": "articles/news/0002633e2855e15a.json",
      "item_id": "0002633e2855e15a",
      "phrase": {
-      "en": "Creator critical of own AI use",
-      "zh": "创作者批评自身AI使用"
+      "en": "LLM use called unhealthy",
+      "zh": "LLM使用被指不健康"
      },
      "section": "news",
      "source": "The Verge · AI",
      "url": "https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "AI assistance may dilute the author's own voice in writing and communication.",
-    "zh": "AI辅助可能冲淡作者在写作与沟通中的个人声音。"
+    "en": "External tests of AI models reveal vulnerabilities, prompting new safeguards.",
+    "zh": "外部测试AI模型暴露漏洞，促使新保障措施。"
    },
-   "id": "t3",
+   "id": "t6",
    "keyword": {
-    "en": "AI-mediated authorship",
-    "zh": "AI中介作者身份"
+    "en": "AI evaluation safety",
+    "zh": "AI评估安全"
    },
-   "relates_to": [],
-   "why_now": {
-    "en": "You research AI and technical communication: this paper directly measures the loss of authorship signals, a core concern for you.",
-    "zh": "你研究AI与技术传播，这篇论文直接测量作者信号丢失，正中你的关注核心。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "2021d40d6bc61d4e",
-     "phrase": {
-      "en": "Geothermal well design informed by geology",
-      "zh": "地热井设计依据地质"
-     },
-     "section": "papers",
-     "source": "OpenAlex · information visualization",
-     "url": "https://doi.org/10.2118/233103-ms"
-    },
-    {
-     "item_id": "e94aa54c96aec532",
-     "phrase": {
-      "en": "Inspections uncover many violations",
-      "zh": "检查发现许多违规"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/04/nyregion/nyc-buildings-violations-conversions.html"
-    }
+   "relates_to": [
+    "t2"
    ],
-   "convergence": "divergent",
-   "gloss": {
-    "en": "From geothermal wells to construction sites, design decisions shape public safety and energy futures.",
-    "zh": "从地热井到建筑工地，设计决策塑造公共安全与能源未来。"
-   },
-   "id": "t4",
-   "keyword": {
-    "en": "critical infrastructure design",
-    "zh": "关键基础设施设计"
-   },
-   "relates_to": [],
    "why_now": {
-    "en": "You value applied technical communication: today's reports on well design and building inspections show how we communicate risks and choices.",
-    "zh": "你重视应用技术传播，今日关于井设计与建筑检查的报告展示了风险与选择的沟通方式。"
+    "en": "You care about AI trust and critical visualization: OpenAI's disclosure and critiques of LLM health push you to weigh evidence.",
+    "zh": "你关注AI信任与批判性可视化：OpenAI披露与LLM健康批评促使你权衡证据。"
    }
   }
  ]
