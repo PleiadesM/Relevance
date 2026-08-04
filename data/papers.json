@@ -2,6 +2,63 @@
  "items": [
   {
    "authors": [
+    "Putu Abel Nugraha Ardyan",
+    "Qi Adlan",
+    "- Suryantini",
+    "Eril Suhada Lanin",
+    "Asti Gindasari Masse"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract Recent geopolitical instability in the Middle East, accompanied by significant increases in global oil and gas prices, has further exposed the vulnerability of fossil fuel-dependent energy systems. Concurrently, global commitments toward decarbonization and sustainable development have accelerated the transition toward renewable energy sources. Among the available alternatives, geothermal energy offers a reliable and low-carbon solution, especially in Indonesia, where substantial…",
+    "citations": 0,
+    "doi": "10.2118/233103-ms"
+   },
+   "id": "2021d40d6bc61d4e",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-04T00:00:00Z",
+   "score": 0.5666,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract Recent geopolitical instability in the Middle East, accompanied by significant increases in global oil and gas prices, has further exposed the vulnerability of fossil fuel-dependent energy systems. Concurrently, global commitments toward decarbonization and sustainable development have…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Casing Program and Well Trajectory Design for a Geothermal Well Based on Stratigraphic Analysis of the Malili Sheet: A Conceptual Study in the Parara Geothermal Prospect, South Sulawesi, Indonesia",
+   "url": "https://doi.org/10.2118/233103-ms",
+   "venue": null
+  },
+  {
+   "authors": [
+    "Aleksandar Anžel",
+    "Georges Hattab"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract Radial visualization has gained prominence as a versatile approach to exploring complex, multivariate data in information visualization research and practice. However, the interactive potential of radial visualizations remains under-synthesized across existing high-level visualization libraries. In this work, we build upon Kosara et al.’s interaction taxonomy and Draper et al.’s seven radial design patterns to provide a systematic review of peer-reviewed studies and commercial systems,…",
+    "citations": 0,
+    "doi": "10.1007/s10791-026-10416-2"
+   },
+   "id": "193bcf6bd9b211e2",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-04T00:00:00Z",
+   "score": 0.5666,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract Radial visualization has gained prominence as a versatile approach to exploring complex, multivariate data in information visualization research and practice. However, the interactive potential of radial visualizations remains under-synthesized across existing high-level visualization…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Limitations of interaction techniques in modern radial chart implementations",
+   "url": "https://doi.org/10.1007/s10791-026-10416-2",
+   "venue": "Discover Computing"
+  },
+  {
+   "authors": [
     "Arun Balajiee Lekshmi Narayanan",
     "Gillian Gold",
     "Jordan Barria-Pineda",
@@ -24,7 +81,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-03T17:30:00Z",
-   "score": 0.5662,
+   "score": 0.5499,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -51,7 +108,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-03T17:10:28Z",
-   "score": 0.5648,
+   "score": 0.5486,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -79,7 +136,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-03T13:48:52Z",
-   "score": 0.883,
+   "score": 0.8674,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -109,7 +166,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-03T08:40:43Z",
-   "score": 0.7222,
+   "score": 0.7076,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -139,7 +196,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-03T04:04:04Z",
-   "score": 0.7046,
+   "score": 0.6907,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -151,6 +208,36 @@
    "title": "CellPrism: A Visual Analytics System for Exploring AI-Driven Virtual Cells in Drug Discovery",
    "url": "https://arxiv.org/abs/2608.01669v1",
    "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Şahsenem Öz",
+    "Bahadır Namdar",
+    "Tuğba Yüksel",
+    "İbrahim Delen",
+    "Gökhan İnce"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Augmented Reality (AR) combines real-world experiences with virtual elements and offers various positive educational outcomes. However, one obstacle hindering AR’s use in education is teachers’ limited pedagogical knowledge regarding the instructional implementation of AR in teaching. Supporting teachers with professional development programmes to integrate this novel technology into education is salient. Thus, this study analysed 17 professional development programmes focused on integrating AR…",
+    "citations": 0,
+    "doi": "10.70232/jcsml.v3i2.65"
+   },
+   "id": "c23c2789b118511d",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-03T00:00:00Z",
+   "score": 0.356,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Augmented Reality (AR) combines real-world experiences with virtual elements and offers various positive educational outcomes. However, one obstacle hindering AR’s use in education is teachers’ limited pedagogical knowledge regarding the instructional implementation of AR in teaching. Supporting…",
+   "tags": [
+    "systems"
+   ],
+   "title": "A Systematic Literature Review of Augmented Reality–Oriented Professional Development Programs for Teachers",
+   "url": "https://doi.org/10.70232/jcsml.v3i2.65",
+   "venue": "Journal of Computers for Science and Mathematics Learning"
   },
   {
    "authors": [
@@ -170,7 +257,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-02T20:17:56Z",
-   "score": 0.4845,
+   "score": 0.4719,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -196,7 +283,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-02T01:36:57Z",
-   "score": 0.5803,
+   "score": 0.5702,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -208,149 +295,6 @@
    "title": "The Assistant Erased You: Measuring Loss of Authorship Signals in AI-Mediated Communication",
    "url": "https://arxiv.org/abs/2608.00926v1",
    "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Arkhe Pacis",
-    "Tsung Yu Tsai"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "The evolution of business analytics (BA) technologies has necessitated a recalibration of educational practices to meet the industry's dynamic requirements. This research examines the application of the Technology-Organization-Environment (TOE) framework to assess the essential skills, tools, and organizational support required for implementing Business Analytics (BA) in academic and professional settings. Employing a mixed-methods research design, a Systematic Literature Review (SLR) was…",
-    "citations": 0,
-    "doi": "10.33422/ictle.v2i1.1730"
-   },
-   "id": "a8e15159850db33c",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-02T00:00:00Z",
-   "score": 0.3088,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "The evolution of business analytics (BA) technologies has necessitated a recalibration of educational practices to meet the industry's dynamic requirements. This research examines the application of the Technology-Organization-Environment (TOE) framework to assess the essential skills, tools, and…",
-   "tags": [
-    "systems"
-   ],
-   "title": "Organizational Culture, Support, and Competencies for Business Analytics: A Mixed-Methods Study Linking Industry Demand and Curriculum Development",
-   "url": "https://doi.org/10.33422/ictle.v2i1.1730",
-   "venue": "The Proceedings of the International Conference on Teaching, Learning and Education."
-  },
-  {
-   "authors": [
-    "Md. Abu Bakkar Sikder",
-    "Joy Barua",
-    "S. Razaul  Karim Raju",
-    "Meraz Ahammed"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "This paper presents the design and implementation of a low-cost, efficient dual-axis solar tracking system integrated with an IoT-based load monitoring platform. The system utilizes Light Dependent Resistors (LDRs) to detect the sun's position, an Arduino Nano microcontroller as the central processing unit, and DC gear motors to orient a solar panel for maximum irradiance capture. A significant efficiency increase of 25-30% was observed compared to a fixed-tilt system. Furthermore, the system…",
-    "citations": 0,
-    "doi": "10.38032/scse.2026.4.184"
-   },
-   "id": "cc2ff20b0bb26ec4",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-02T00:00:00Z",
-   "score": 0.3088,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "This paper presents the design and implementation of a low-cost, efficient dual-axis solar tracking system integrated with an IoT-based load monitoring platform. The system utilizes Light Dependent Resistors (LDRs) to detect the sun's position, an Arduino Nano microcontroller as the central…",
-   "tags": [
-    "systems"
-   ],
-   "title": "Dual Axis Solar Tracking with IoT-Based Load Monitoring System",
-   "url": "https://doi.org/10.38032/scse.2026.4.184",
-   "venue": "SciEn Conference Series Engineering"
-  },
-  {
-   "authors": [
-    "Armin Dadras",
-    "Robert Sablatnig",
-    "Franziska Brückner",
-    "Markus Seidl"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract The reliable computational assessment of photographic composition requires features that are discriminative of spatial layout yet robust to semantic content. This paper proposes a low-level representation grounded in the assumption that composition can be understood as the flow of visual attention across geometric structure. We introduce VFCNet, which fuses saliency and edge information into a gradient vector flow (GVF) field. The model computes dual-stream GVF representations,…",
-    "citations": 0,
-    "doi": "10.1007/978-3-032-31666-0_35"
-   },
-   "id": "4f73d2ca12f87272",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-02T00:00:00Z",
-   "score": 0.3088,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract The reliable computational assessment of photographic composition requires features that are discriminative of spatial layout yet robust to semantic content. This paper proposes a low-level representation grounded in the assumption that composition can be understood as the flow of visual…",
-   "tags": [],
-   "title": "Semantically Stable Image Composition Analysis via Saliency and Gradient Vector Flow Fusion",
-   "url": "https://doi.org/10.1007/978-3-032-31666-0_35",
-   "venue": "Lecture notes in computer science"
-  },
-  {
-   "authors": [
-    "Ines Vandekerckhove",
-    "Ineke Verreydt",
-    "Nathalie De Beukelaer",
-    "Britta Hanssen",
-    "Tijl Dewit",
-    "Geert Molenberghs"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "The prospective longitudinal study compared muscle growth in children with spastic cerebral palsy (CP) with typically developing (TD) peers and across Gross Motor Function Classification System (GMFCS)-groups, and investigated muscle deficit trajectories across GMFCS-groups. Three hundred-eighty-three assessments of 116 children with CP and 236 of 62 TD children were included. Absolute medial gastrocnemius muscle belly (ML), tendon (TL) and muscle-tendon unit length (MTUL), cross-sectional area…",
-    "citations": 0,
-    "doi": "10.1038/s41598-026-64815-y"
-   },
-   "id": "00290fd519f1e995",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-02T00:00:00Z",
-   "score": 0.3088,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "The prospective longitudinal study compared muscle growth in children with spastic cerebral palsy (CP) with typically developing (TD) peers and across Gross Motor Function Classification System (GMFCS)-groups, and investigated muscle deficit trajectories across GMFCS-groups. Three…",
-   "tags": [
-    "systems"
-   ],
-   "title": "Longitudinal characterization of medial gastrocnemius muscle growth deficits throughout childhood in spastic cerebral palsy",
-   "url": "https://doi.org/10.1038/s41598-026-64815-y",
-   "venue": "Scientific Reports"
-  },
-  {
-   "authors": [
-    "Ibrahima N’Doye",
-    "Jianxu Chen",
-    "Yevhen Myshkevych",
-    "Hasan Bagci",
-    "Julie Sanchez-Medina",
-    "Syed Haleem Shah"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Predicting the concentrations of biological agents, such as bacterial cells and viral particles in water resource recovery facilities (WRRFs) is essential for monitoring emerging contaminants. Such predictive capabilities support efforts to protect public health and promote environmental sustainability. Recent data-driven models integrating a knowledge-based adaptation mechanism have been proposed to improve the generalizability of soft-sensor-based machine learning trained on unseen test…",
-    "citations": 0,
-    "doi": "10.1038/s41598-026-64403-0"
-   },
-   "id": "40f88d06b25149df",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-02T00:00:00Z",
-   "score": 0.3088,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Predicting the concentrations of biological agents, such as bacterial cells and viral particles in water resource recovery facilities (WRRFs) is essential for monitoring emerging contaminants. Such predictive capabilities support efforts to protect public health and promote environmental…",
-   "tags": [],
-   "title": "Generalizable prediction of biological contaminants across aerobic and anaerobic membrane bioreactors",
-   "url": "https://doi.org/10.1038/s41598-026-64403-0",
-   "venue": "Scientific Reports"
   },
   {
    "authors": [
@@ -368,7 +312,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-01T19:52:00Z",
-   "score": 0.5652,
+   "score": 0.5558,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -396,7 +340,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-01T19:42:49Z",
-   "score": 0.3723,
+   "score": 0.3629,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -426,7 +370,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-01T04:17:37Z",
-   "score": 0.5692,
+   "score": 0.5614,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -452,7 +396,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-01T02:55:34Z",
-   "score": 0.3739,
+   "score": 0.3661,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -464,67 +408,11 @@
    "title": "Visualizing Placement Proposals for Window Arrangement in Mixed Reality: A Comparative User Study",
    "url": "https://arxiv.org/abs/2608.00403v1",
    "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Kellie M. Gray",
-    "Niveditha Pookkottuvariam",
-    "Steve Holmes"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "citations": 0,
-    "doi": "10.1080/10572252.2026.2703046"
-   },
-   "id": "0e2d9263a6f7c4a3",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-31T03:13:25Z",
-   "score": 0.3895,
-   "section": "papers",
-   "source": "TechComm journals (CrossRef)",
-   "source_id": "crossref_techcomm_journals",
-   "summary": "",
-   "tags": [
-    "ai-writing"
-   ],
-   "title": "Building DIY Coding Credibility: The Personas, Practices, and Pedagogies of Female AI Tech Influencers on YouTube",
-   "url": "https://doi.org/10.1080/10572252.2026.2703046",
-   "venue": "Technical Communication Quarterly"
-  },
-  {
-   "authors": [
-    "Scott Weedon",
-    "Jamie Littlefield"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "As generative AI systems saturate our digital spaces with an unprecedented volume of content, aesthetics (features that elicit human cognitive and sensory responses) and taste (human discernment about the quality and desirability of those features) have drawn renewed cultural attention. For researchers in scientific and technical communication (STC), this resurgence of interest might be viewed as an invitation to revisit the aesthetic as central to the ways that technical artifacts make meaning…",
-    "citations": 0,
-    "doi": "10.1177/00472816261471754"
-   },
-   "id": "d9319f696fe3de88",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-07-29T13:22:21Z",
-   "score": 0.4525,
-   "section": "papers",
-   "source": "TechComm journals (CrossRef)",
-   "source_id": "crossref_techcomm_journals",
-   "summary": "As generative AI systems saturate our digital spaces with an unprecedented volume of content, aesthetics (features that elicit human cognitive and sensory responses) and taste (human discernment about the quality and desirability of those features) have drawn renewed cultural attention. For…",
-   "tags": [
-    "ai-writing",
-    "techcomm"
-   ],
-   "title": "Making Information Sensible: Reconsidering Aesthetics in Scientific and Technical Communication",
-   "url": "https://doi.org/10.1177/00472816261471754",
-   "venue": "Journal of Technical Writing and Communication"
   }
  ],
  "meta": {
-  "count": 18,
-  "generated_at": "2026-08-04T10:48:48Z",
+  "count": 14,
+  "generated_at": "2026-08-04T14:37:23Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -566,12 +454,12 @@
    },
    {
     "category": "optional",
-    "count": 11,
-    "error": null,
+    "count": 0,
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-07&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
-    "ok": true,
+    "ok": false,
     "section": "papers",
     "skip_reason": null,
     "type": "crossref"

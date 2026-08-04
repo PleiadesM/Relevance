@@ -1,237 +1,86 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-08-04T10:48:48Z",
+  "count": 2,
+  "generated_at": "2026-08-04T14:37:23Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "02ffc0456d8a006d",
-     "phrase": {
-      "en": "backlash against AI data centers",
-      "zh": "AI数据中心遭抵制"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/04/opinion/ezra-klein-podcast-jasmine-sun.html"
-    },
-    {
-     "item_id": "19fb00310fba63cd",
-     "phrase": {
-      "en": "White House whipsaws on AI rules",
-      "zh": "白宫摇摆于AI规则"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/04/technology/ai-washington-regulation-whiplash.html"
-    },
-    {
-     "full_text_file": "articles/news/00a8e5fbf92feefd.json",
-     "item_id": "00a8e5fbf92feefd",
-     "phrase": {
-      "en": "Reddit fights AI SEO spam",
-      "zh": "Reddit抗击AI垃圾"
-     },
-     "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Governments and companies are struggling to keep up with AI's rapid spread, leading to contradictory rules and reactions.",
-    "zh": "政府和企业在AI快速普及中难以跟上，导致规则与反应互相矛盾。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "AI policy whiplash",
-    "zh": "AI政策摇摆"
-   },
-   "relates_to": [
-    "t2"
-   ],
-   "timeline": [
-    {
-     "date": "2026-07-29",
-     "label": {
-      "en": "AI aesthetics debate",
-      "zh": "AI美学之争"
-     }
-    },
-    {
-     "date": "2026-08-01",
-     "label": {
-      "en": "forecast visualization",
-      "zh": "预测可视化"
-     }
-    },
-    {
-     "date": "2026-08-03",
-     "label": {
-      "en": "AI-mediated authorship",
-      "zh": "AI媒介作者性"
-     }
-    },
-    {
-     "date": "2026-08-04",
-     "label": {
-      "en": "open-source AI rules",
-      "zh": "开源AI规则"
-     }
-    }
-   ],
-   "why_now": {
-    "en": "You track AI governance: today shows the White House confusing Silicon Valley on open-source models while Reddit fights AI spam, and data centers face backlash…",
-    "zh": "你关注AI治理，今日白宫在开源模型上让硅谷困惑，Reddit抗击AI垃圾，数据中心遭抵制——同一政策混乱的三个战场。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "70e507810295e98f",
-     "phrase": {
-      "en": "Aramco profit surge despite war",
-      "zh": "沙特阿美利润激增"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/04/business/saudi-aramco-oil-bp-earnings-iran-war.html"
-    },
-    {
-     "item_id": "289437e77cc7fc06",
-     "phrase": {
-      "en": "BP profits double on oil spike",
-      "zh": "BP利润因油价翻倍"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/business/2026/aug/04/bp-profits-iran-war-oil-prices-shell"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Oil giants see soaring profits as conflict disrupts supply, raising questions about who benefits from crisis.",
-    "zh": "冲突扰乱供应，石油巨头利润飙升，引发关于谁在危机中受益的疑问。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "energy profits amid war",
-    "zh": "战争中的能源利润"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You read about geopolitics and economics: today's earnings from Aramco and BP show how war reshapes energy markets and corporate bottom lines.",
-    "zh": "你关注地缘政治与经济，今日沙特阿美和BP的财报显示战争如何重塑能源市场和企业利润。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "1db48b3f69da62be",
-     "phrase": {
-      "en": "drone kills 7 on beach",
-      "zh": "无人机海滩炸死7人"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/03/world/europe/drone-russian-beach-explosion.html"
-    },
-    {
-     "item_id": "796b102a2d558599",
-     "phrase": {
-      "en": "gas stations as targets",
-      "zh": "加油站成目标"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/04/world/europe/ukraine-gas-stations-russia.html"
-    },
-    {
-     "item_id": "2b141e112d7c4440",
-     "phrase": {
-      "en": "warehouse strikes in Russia",
-      "zh": "俄罗斯仓库遭袭"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c151pkww79zo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "3edf8ecc7c06aaeb",
-     "phrase": {
-      "en": "soldier rampage in Crimea",
-      "zh": "克里米亚士兵枪击"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c80n33lrnm5o?at_medium=RSS&at_campaign=rss"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Drone attacks and strikes are killing civilians and targeting infrastructure, escalating the human cost of the war.",
-    "zh": "无人机袭击和打击造成平民死亡和基础设施受损，战争的人道代价不断升级。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "Ukraine war civilian toll",
-    "zh": "乌克兰战争平民代价"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow global affairs: today's reports show drones hitting a beach and gas stations, making the war's civilian impact impossible to ignore.",
-    "zh": "你关注全球事务，今日报道无人机袭击海滩和加油站，战争对平民的影响不容忽视。"
-   }
-  },
-  {
-   "angles": [
-    {
      "item_id": "16528f69401a15c5",
      "phrase": {
-      "en": "AI erases authorship signals",
-      "zh": "AI抹去作者信号"
+      "en": "Measures authorship loss with AI",
+      "zh": "衡量AI下的作者身份丧失"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
      "url": "https://arxiv.org/abs/2608.00926v1"
     },
     {
+     "item_id": "2e7540bc4bb92124",
+     "phrase": {
+      "en": "AI images deter blog reading",
+      "zh": "AI图片降低阅读意愿"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog/"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "AI help may erase your writing's fingerprint.",
+    "zh": "AI辅助可能抹去你的写作指纹。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI-mediated authorship",
+    "zh": "AI中介作者身份"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about HCI and writing tech—today's paper questions AI's effect on authorship.",
+    "zh": "你关注人机交互与写作技术，今日论文质疑AI对作者身份的影响。"
+   }
+  },
+  {
+   "angles": [
+    {
      "item_id": "67a0b822219d1241",
      "phrase": {
-      "en": "diagram-first GenAI practice",
-      "zh": "图表优先的GenAI实践"
+      "en": "GenAI diagrams for CS education",
+      "zh": "生成式AI图表用于CS教育"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
      "url": "https://arxiv.org/abs/2608.00844v1"
     },
     {
-     "item_id": "0e2d9263a6f7c4a3",
+     "item_id": "1f2ab028ccab5fac",
      "phrase": {
-      "en": "female AI influencers on YouTube",
-      "zh": "女性AI网红YouTube"
+      "en": "Doer effect in programming",
+      "zh": "编程中的实践者效应"
      },
      "section": "papers",
-     "source": "TechComm journals (CrossRef)",
-     "url": "https://doi.org/10.1080/10572252.2026.2703046"
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.02541v1"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "AI tools are changing how we write and present, with new studies on authorship loss and diagram-first practices in education.",
-    "zh": "AI工具正在改变我们的写作与呈现方式，新研究关注作者性丧失与教学中图表优先实践。"
+    "en": "AI scaffolds learning, but active doing still matters.",
+    "zh": "AI辅助学习，但主动实践仍关键。"
    },
-   "id": "t4",
+   "id": "t2",
    "keyword": {
-    "en": "AI-mediated communication",
-    "zh": "AI中介交流"
+    "en": "AI in education",
+    "zh": "AI教育应用"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You are interested in human-AI interaction and technical communication: today's papers reveal how AI erases personal style and how educators adapt with…",
-    "zh": "你对人机交互和技术传播感兴趣，今日论文揭示AI如何抹去个人风格，以及教育者如何用图表优先方法适应。"
+    "en": "You're into learning tech—today's papers connect AI diagrams and practice effects.",
+    "zh": "你关注学习技术，今日论文连接AI图表与实践效果。"
    }
   }
  ]

@@ -1,48 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "(\"leek championship\" OR \"giant leek\")",
-  "source": {
-   "name": "newtalk.tw",
-   "published_at": "2026-07-29T02:30:00Z",
-   "title": "「 巨型韭菜 」 中環認賠出清台積電175張 虧損782萬元轉買這2檔 | 財經",
-   "url": "https://newtalk.tw/news/view/2026-07-29/1049972"
-  },
-  "summaries": {
-   "en": {
-    "summary": "A Taiwanese investment firm nicknamed 'Giant Leek' sold TSMC shares at a loss and bought two other stocks.",
-    "why_irrelevant": "A niche financial trivia far from general interest."
-   },
-   "zh": {
-    "summary": "绰号「巨型韭菜」的台湾投资公司认赔出清台积电，转买两档股票。",
-    "why_irrelevant": "属于小众财经八卦，与大众兴趣相距甚远。"
-   }
-  },
-  "topic": "competitive leek growing"
- },
- "brief": "Today's news features the impending confirmation of Trump's lawyer Todd Blanche, a migrant boat rescue in the Channel, and various political and environmental developments. In research, papers explore visualization techniques and the impact of AI on authorship.",
+ "brief": "Today's news spans Uber's aggressive legal strategy in sexual assault cases, Russia targeting Ukrainian gas stations, and various political developments, while papers explore data visualization techniques and AI's impact on communication.",
  "meta": {
-  "generated_at": "2026-08-04T10:48:48Z"
+  "generated_at": "2026-08-04T14:37:23Z"
  },
- "news_summary": "US politics focuses on Todd Blanche's likely confirmation as attorney general, while internationally, a boat carrying migrants capsized in the Channel, and Hungary faced nuclear plant risks due to drought. Other stories include Trump Media's paid social feed, environmental disasters, and political shifts.",
- "papers_summary": "Research papers delve into visualization design for foldables and charts, the doer effect in programming education, and AI-mediated communication's impact on authorship, alongside studies on business analytics and solar tracking.",
+ "news_summary": "Uber faces scrutiny for its legal tactics against sexual assault claims, Russia attacks Ukrainian gas stations, and multiple political updates including GOP senator votes and mass funerals in Gaza.",
+ "papers_summary": "Research covers limitations and innovations in data visualization, including radial charts and foldable devices, plus a systematic review of AR in teacher training and authorship loss in AI-mediated communication.",
  "summaries": {
   "en": {
-   "brief": "Today's news features the impending confirmation of Trump's lawyer Todd Blanche, a migrant boat rescue in the Channel, and various political and environmental developments. In research, papers explore visualization techniques and the impact of AI on authorship.",
-   "news_summary": "US politics focuses on Todd Blanche's likely confirmation as attorney general, while internationally, a boat carrying migrants capsized in the Channel, and Hungary faced nuclear plant risks due to drought. Other stories include Trump Media's paid social feed, environmental disasters, and political shifts.",
-   "papers_summary": "Research papers delve into visualization design for foldables and charts, the doer effect in programming education, and AI-mediated communication's impact on authorship, alongside studies on business analytics and solar tracking."
+   "brief": "Today's news spans Uber's aggressive legal strategy in sexual assault cases, Russia targeting Ukrainian gas stations, and various political developments, while papers explore data visualization techniques and AI's impact on communication.",
+   "news_summary": "Uber faces scrutiny for its legal tactics against sexual assault claims, Russia attacks Ukrainian gas stations, and multiple political updates including GOP senator votes and mass funerals in Gaza.",
+   "papers_summary": "Research covers limitations and innovations in data visualization, including radial charts and foldable devices, plus a systematic review of AR in teacher training and authorship loss in AI-mediated communication."
   },
   "zh": {
-   "brief": "今日焦点：中国新出入境规定引发对自由限制的争议；缅甸昂山素季两年半来首次会见外界；美中关系再現摩擦。学术方面，多项研究探讨编程学习、图表类型定义及折叠设备数据可视化。",
-   "news_summary": "中国公布新的出入境管理规定，引发对公民出入境自由限制的广泛讨论；缅甸军政府发布昂山素季与红十字会会面的照片；美国与中国关系在特习会后再次出现摩擦。",
-   "papers_summary": "学术研究关注编程实践中的'做者效应'，指出代码编写对学习成果的作用；另有研究探索折叠设备的数据可视化设计空间，以及AI辅助通讯对作者身份信号的影响。"
+   "brief": "今日焦点：中国新出入境规定引发争议，中东油轮受威胁升级，以及一系列国际政治与安全动态。",
+   "news_summary": "中国新出入境管理法限制出境引发热议，红海油轮遇袭威胁加剧伊朗局势，美中关系在特习会后再现摩擦。",
+   "papers_summary": "无优先中文论文，英文论文主要涉及信息可视化和编程教育等领域。"
   }
  },
  "todays_image": {
-  "caption": "Like a lifeboat finally launched after the crew drops its oars, the Blanche nomination moves toward a vote as GOP senators abandon opposition.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-F8C58099CAAF2-000001",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/13146",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-F8C58099CAAF2-000001",
-  "title": "Lifeboat"
+  "caption": "The gas station’s lonely urban glow mirrors the way Uber’s defense isolates riders, making the cityscape itself part of the blame.The gas station’s lonely urban glow mirrors the way Uber’s defense isolates riders, making the cityscape itsel",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1974.28.161_1",
+  "source_name": "Smithsonian American Art Museum",
+  "source_url": "https://americanart.si.edu/collections/search/artwork/?id=25350",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1974.28.161_1",
+  "title": "(Untitled) (Cityscape with Gas Station)"
  }
 }
