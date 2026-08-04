@@ -1,28 +1,48 @@
 {
- "brief": "Today's news spans Uber's aggressive legal strategy in sexual assault cases, Russia targeting Ukrainian gas stations, and various political developments, while papers explore data visualization techniques and AI's impact on communication.",
- "meta": {
-  "generated_at": "2026-08-04T14:37:23Z"
+ "apropos_of_nothing": {
+  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
+  "source": {
+   "name": "Axios",
+   "published_at": "2026-07-27T11:23:22Z",
+   "title": "A hopeless update on the giant pumpkins",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWXR4c0h2Qlhzbjk5NEZKWGxWWkxoWWdHeFN1dlB6alNKQkQzN3duNVNTb1FqS25nMkdVWklkVGd3SkV1ZkVTSy05dGVTV0pYUDM0ejYyYmZoaWUxNEI4SU5RRUhYVllma1Fnc2hnWm4yNC1za2U4VjEyZUUwVlIxQTRGZEJLellQRW1TcQ?oc=5"
+  },
+  "summaries": {
+   "en": {
+    "summary": "A hopeless update on giant pumpkins from Axios reports a disappointing season for competitive growers.",
+    "why_irrelevant": "far from typical tech and business feed."
+   },
+   "zh": {
+    "summary": "Axios 报道了巨型南瓜的令人失望的季节，对竞争性种植者来说是个坏消息。",
+    "why_irrelevant": "远离通常的科技和商业信息流。"
+   }
+  },
+  "topic": "competitive pumpkin growing"
  },
- "news_summary": "Uber faces scrutiny for its legal tactics against sexual assault claims, Russia attacks Ukrainian gas stations, and multiple political updates including GOP senator votes and mass funerals in Gaza.",
- "papers_summary": "Research covers limitations and innovations in data visualization, including radial charts and foldable devices, plus a systematic review of AR in teacher training and authorship loss in AI-mediated communication.",
+ "brief": "News highlights geopolitical tensions, including Patriot missile demand, Iran Strait of Hormuz talks, and domestic issues like Wyoming suicide rates and Epstein bank scrutiny. Papers focus on data visualization and AI-mediated communication.",
+ "meta": {
+  "generated_at": "2026-08-04T18:02:19Z"
+ },
+ "news_summary": "Today's news centers on geopolitical tensions with Patriot missile shortages and progress in Iran Strait of Hormuz talks, alongside domestic stories on Wyoming's suicide crisis and Senate report on banks and Epstein.",
+ "papers_summary": "Papers explore information visualization techniques, including radial charts, chart type definitions, and foldable device visualizations, plus AI-mediated communication effects on authorship.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans Uber's aggressive legal strategy in sexual assault cases, Russia targeting Ukrainian gas stations, and various political developments, while papers explore data visualization techniques and AI's impact on communication.",
-   "news_summary": "Uber faces scrutiny for its legal tactics against sexual assault claims, Russia attacks Ukrainian gas stations, and multiple political updates including GOP senator votes and mass funerals in Gaza.",
-   "papers_summary": "Research covers limitations and innovations in data visualization, including radial charts and foldable devices, plus a systematic review of AR in teacher training and authorship loss in AI-mediated communication."
+   "brief": "News highlights geopolitical tensions, including Patriot missile demand, Iran Strait of Hormuz talks, and domestic issues like Wyoming suicide rates and Epstein bank scrutiny. Papers focus on data visualization and AI-mediated communication.",
+   "news_summary": "Today's news centers on geopolitical tensions with Patriot missile shortages and progress in Iran Strait of Hormuz talks, alongside domestic stories on Wyoming's suicide crisis and Senate report on banks and Epstein.",
+   "papers_summary": "Papers explore information visualization techniques, including radial charts, chart type definitions, and foldable device visualizations, plus AI-mediated communication effects on authorship."
   },
   "zh": {
-   "brief": "今日焦点：中国新出入境规定引发争议，中东油轮受威胁升级，以及一系列国际政治与安全动态。",
-   "news_summary": "中国新出入境管理法限制出境引发热议，红海油轮遇袭威胁加剧伊朗局势，美中关系在特习会后再现摩擦。",
-   "papers_summary": "无优先中文论文，英文论文主要涉及信息可视化和编程教育等领域。"
+   "brief": "今日新闻聚焦中国出入境新规、两岸关系与中东油轮安全，科学上则有开创性胎儿手术成功案例。",
+   "news_summary": "中国新出入境规定引发争议，同时台湾陆委会称两岸沟通未断；红海油轮遇袭风险升高，但霍尔木兹海峡谈判有进展。",
+   "papers_summary": "论文关注可视化技术，如折叠设备上的数据可视化设计、大规模图布局优化，以及编程练习中主动实践的效果。"
   }
  },
  "todays_image": {
-  "caption": "The gas station’s lonely urban glow mirrors the way Uber’s defense isolates riders, making the cityscape itself part of the blame.The gas station’s lonely urban glow mirrors the way Uber’s defense isolates riders, making the cityscape itsel",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1974.28.161_1",
-  "source_name": "Smithsonian American Art Museum",
-  "source_url": "https://americanart.si.edu/collections/search/artwork/?id=25350",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1974.28.161_1",
-  "title": "(Untitled) (Cityscape with Gas Station)"
+  "caption": "Both the Saturn V model and today's Patriot missile surge evoke rockets as tools of power—one aimed at the cosmos, the other at the chaos below.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19940223000-NASM2018-10450-000001",
+  "source_name": "National Air and Space Museum",
+  "source_url": "http://n2t.net/ark:/65665/nv9bc630938-2757-410e-9b36-e9d2d83942fc",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19940223000-NASM2018-10450-000001",
+  "title": "Model, Rocket, Saturn V, 1:34"
  }
 }

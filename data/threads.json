@@ -1,86 +1,234 @@
 {
  "meta": {
-  "count": 2,
-  "generated_at": "2026-08-04T14:37:23Z",
+  "count": 4,
+  "generated_at": "2026-08-04T18:02:19Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "16528f69401a15c5",
+     "item_id": "f81a2f7d3acd4599",
      "phrase": {
-      "en": "Measures authorship loss with AI",
-      "zh": "衡量AI下的作者身份丧失"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.00926v1"
-    },
-    {
-     "item_id": "2e7540bc4bb92124",
-     "phrase": {
-      "en": "AI images deter blog reading",
-      "zh": "AI图片降低阅读意愿"
+      "en": "draft deal circulated",
+      "zh": "草案已传阅"
      },
      "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog/"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/04/world/middleeast/strait-of-hormuz-deal-progress.html"
+    },
+    {
+     "item_id": "97f928f6ffea2c6f",
+     "phrase": {
+      "en": "stocks record, oil falls",
+      "zh": "股市新高，油价下跌"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/04/business/stocks-sp500-oil-prices.html"
+    },
+    {
+     "item_id": "820cac09f81878ee",
+     "phrase": {
+      "en": "oil falls on hopes",
+      "zh": "油价因希望而跌"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "b155f7680cc9735c",
+     "phrase": {
+      "en": "Rubio sees deal soon",
+      "zh": "鲁比奥称协议在即"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/aug/04/middle-east-crisis-qatar-iran-us-israel-war-donald-trump-strait-hormuz-gaza-latest-news-updates"
+    },
+    {
+     "item_id": "bc1ff692e35ba91c",
+     "phrase": {
+      "en": "US-Qatar report progress",
+      "zh": "美卡报告进展"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/04/us-qatar-progress-iran-ceasefire-hormuz-strait"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "AI help may erase your writing's fingerprint.",
-    "zh": "AI辅助可能抹去你的写作指纹。"
+    "en": "Talks to reopen the strait stir oil prices and global hopes.",
+    "zh": "重开海峡的谈判牵动油价与全球希望。"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI-mediated authorship",
-    "zh": "AI中介作者身份"
+    "en": "Hormuz diplomacy",
+    "zh": "霍尔木兹外交"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about HCI and writing tech—today's paper questions AI's effect on authorship.",
-    "zh": "你关注人机交互与写作技术，今日论文质疑AI对作者身份的影响。"
+    "en": "You track geopolitics and markets: progress today shifts oil and risk sentiment.",
+    "zh": "你关注地缘政治与市场：今日进展改变油价与风险偏好。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "67a0b822219d1241",
+     "item_id": "ce878cc973017168",
      "phrase": {
-      "en": "GenAI diagrams for CS education",
-      "zh": "生成式AI图表用于CS教育"
+      "en": "questions AI demand",
+      "zh": "质疑AI需求"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.00844v1"
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://www.wheresyoured.at/the-ai-demand-bubble/"
     },
     {
-     "item_id": "1f2ab028ccab5fac",
+     "item_id": "d354dedea9d16541",
      "phrase": {
-      "en": "Doer effect in programming",
-      "zh": "编程中的实践者效应"
+      "en": "markets demand reset",
+      "zh": "市场要求重置"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/04/business/kevin-warsh-federal-reserve-markets.html"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Doubts grow over whether AI demand is real or overhyped, with market jitters.",
+    "zh": "对AI需求真实性的质疑加剧，市场出现波动。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "AI demand bubble",
+    "zh": "AI需求泡沫"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow tech economics and AI: today's analyses question the sustainability of AI spending.",
+    "zh": "你关注科技经济与AI：今日分析质疑AI投入可持续性。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "346ca84056215318",
+     "phrase": {
+      "en": "EU criticizes plan",
+      "zh": "欧盟批评计划"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/04/eu-criticises-spain-migrant-plan-ceuta-crisis-meeting"
+    },
+    {
+     "item_id": "536c9b13ecf7e0a3",
+     "phrase": {
+      "en": "EU commends response",
+      "zh": "欧盟赞赏回应"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c80n3j55g0do?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "1e15b593b15968c7",
+     "phrase": {
+      "en": "70k returned, deaths",
+      "zh": "七万遣返，有死亡"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/aug/04/europe-drought-extreme-heat-wildfires-climate-crisis-hungary-romania-ceuta-spain-migration-eu-latest-news-updates"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Spain returns most migrants from Ceuta, but EU criticizes its regularization plan.",
+    "zh": "西班牙遣返多数休达移民，但欧盟批评其正规化计划。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "migrant crisis",
+    "zh": "移民危机"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow policy and human rights: the EU-Spain split affects migration rules.",
+    "zh": "你关注政策与人权：欧盟与西班牙分歧影响移民规则。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "d737d1ad2adee7cc",
+     "phrase": {
+      "en": "foldable device viz",
+      "zh": "可折叠设备可视化"
      },
      "section": "papers",
      "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.02541v1"
+     "url": "https://arxiv.org/abs/2608.02232v1"
+    },
+    {
+     "item_id": "76ec5eb7f53c64e7",
+     "phrase": {
+      "en": "scalable graph layouts",
+      "zh": "可扩展图布局"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.01907v1"
+    },
+    {
+     "item_id": "193bcf6bd9b211e2",
+     "phrase": {
+      "en": "radial chart limits",
+      "zh": "径向图局限"
+     },
+     "section": "papers",
+     "source": "OpenAlex · information visualization",
+     "url": "https://doi.org/10.1007/s10791-026-10416-2"
+    },
+    {
+     "item_id": "2396ee0f4423855d",
+     "phrase": {
+      "en": "define chart boundaries",
+      "zh": "定义图表边界"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.02512v1"
+    },
+    {
+     "item_id": "791a8cd4a4cdae0c",
+     "phrase": {
+      "en": "tree viz data-centric",
+      "zh": "数据中心树图"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.01477v1"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "AI scaffolds learning, but active doing still matters.",
-    "zh": "AI辅助学习，但主动实践仍关键。"
+    "en": "New papers push boundaries of charts, trees, and foldable displays.",
+    "zh": "新论文推动图表、树图与可折叠屏的边界。"
    },
-   "id": "t2",
+   "id": "t4",
    "keyword": {
-    "en": "AI in education",
-    "zh": "AI教育应用"
+    "en": "visualization design",
+    "zh": "可视化设计"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You're into learning tech—today's papers connect AI diagrams and practice effects.",
-    "zh": "你关注学习技术，今日论文连接AI图表与实践效果。"
+    "en": "You work on data viz and HCI: these studies offer fresh techniques and critiques.",
+    "zh": "你从事数据可视化与HCI：这些研究提供新技术与批判。"
    }
   }
  ]
