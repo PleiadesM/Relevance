@@ -1,20 +1,48 @@
 {
- "brief": "Today's news spans from Australian legal and political scandals to US immigration and environmental crises, with tech commentary on AI's role. Research highlights include new studies on learning through coding, chart type definitions, and visualization on foldable devices.",
- "meta": {
-  "generated_at": "2026-08-04T03:34:00Z"
+ "apropos_of_nothing": {
+  "query": "\"Belgian pigeon race\" OR \"pigeon racing season\"",
+  "source": {
+   "name": "The Weekly Advertiser",
+   "published_at": "2026-07-28T23:38:42Z",
+   "title": "Pigeon racing season returns",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5mSzJ4anB1QmdsM2JqSFEyWmZoWWROd3dRUmViYzRUNjZ1eWpEQTBsUzRfQnhFbUxGN29uWVExcDRIWm5URGFfdm5panRKUGdzLUViQmJFSWVQSUNsNmRpa095MWl2WEtaczFQUENBOEg4c21fM01CM3FjUW50dw?oc=5"
+  },
+  "summaries": {
+   "en": {
+    "summary": "Belgium's pigeon racing season kicks off with fanciers releasing thousands of birds across the countryside.",
+    "why_irrelevant": "A niche hobby far from your usual topics."
+   },
+   "zh": {
+    "summary": "比利时信鸽赛季开始，鸽友们在乡村放飞数千只赛鸽。",
+    "why_irrelevant": "小众爱好，与您常关注的话题无关。"
+   }
+  },
+  "topic": "Pigeon racing in Belgium"
  },
- "news_summary": "Australian news covers penguin flu threats, Alan Jones's trial, betting scandals, and political corruption, while US news includes ICE deaths, border wall water issues, and political nominations.",
- "papers_summary": "Papers explore the doer effect in programming, chart type boundaries, foldable device visualizations, and AI's impact on authorship, reflecting current HCI and visualization research trends.",
+ "brief": "Today's news covers New Zealand's end of greyhound racing, devastating wildfires in Spokane, and a fraud case tied to AI chatbots, alongside research on data visualization and AI-mediated communication.",
+ "meta": {
+  "generated_at": "2026-08-04T06:38:54Z"
+ },
+ "news_summary": "New Zealand's final greyhound race marks the start of rehoming efforts, while Spokane wildfires leave destruction and an arson arrest. Additional stories include AI-linked bank fraud, heatstroke deaths of zoo lions, and political controversies in Australia and beyond.",
+ "papers_summary": "Research highlights the 'doer effect' in programming, chart type definitions, and data visualization on foldable devices, plus a study on loss of authorship in AI-mediated communication.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans from Australian legal and political scandals to US immigration and environmental crises, with tech commentary on AI's role. Research highlights include new studies on learning through coding, chart type definitions, and visualization on foldable devices.",
-   "news_summary": "Australian news covers penguin flu threats, Alan Jones's trial, betting scandals, and political corruption, while US news includes ICE deaths, border wall water issues, and political nominations.",
-   "papers_summary": "Papers explore the doer effect in programming, chart type boundaries, foldable device visualizations, and AI's impact on authorship, reflecting current HCI and visualization research trends."
+   "brief": "Today's news covers New Zealand's end of greyhound racing, devastating wildfires in Spokane, and a fraud case tied to AI chatbots, alongside research on data visualization and AI-mediated communication.",
+   "news_summary": "New Zealand's final greyhound race marks the start of rehoming efforts, while Spokane wildfires leave destruction and an arson arrest. Additional stories include AI-linked bank fraud, heatstroke deaths of zoo lions, and political controversies in Australia and beyond.",
+   "papers_summary": "Research highlights the 'doer effect' in programming, chart type definitions, and data visualization on foldable devices, plus a study on loss of authorship in AI-mediated communication."
   },
   "zh": {
-   "brief": "今日焦点：美中关系波动、香港出版业受压、缅昂山素季获准会见外宾；科研方面，AI与可视化及编程教育研究有新进展。",
-   "news_summary": "美中贸易摩擦再现，日美干预汇市；香港国安法影响台湾书籍销售，出版商寻求电子书出路；缅甸军政府公布昂山素季会见国际红十字会官员。",
-   "papers_summary": "研究揭示编程实践中编写代码比被动观看更有效；可视化研究探索折叠设备图表设计及AI辅助交流对作者身份的影响。"
+   "brief": "今日要闻聚焦香港国泰安全法影响台湾出版业、中国消费疲软及缅甸昂山素季首次会客；研究方面，论文探讨编程实践中的做者效应及AI介导沟通的作者身份丢失问题。",
+   "news_summary": "香港国安法改变跨境图书供应链，台湾出版商面临香港市场风险；中国消费者节省开支，刺激政策效果未达预期；昂山素季被拘留两年半后首次与外界接触。",
+   "papers_summary": "研究显示代码写作在编程练习中效果显著；AI辅助写作可能削弱用户作者身份感。"
   }
+ },
+ "todays_image": {
+  "caption": "The greyhound in the image now races only in memory, mirroring New Zealand's shift from the track to the quiet aftermath.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1CA30B5FCDD12-000001",
+  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/7651",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1CA30B5FCDD12-000001",
+  "title": "Greyhound"
  }
 }
