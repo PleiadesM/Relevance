@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "noodle pulling competition OR hand pulled noodles contest",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "조선일보",
-   "published_at": "2026-08-03T07:05:10Z",
-   "title": "Kim Do-yoon and Kim Seo-yeon Co-Run Restaurant after Four-Year Romance",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOc2RveGM5bE94V3dFMXJ1YS1NVVFiTkp0T3VYcUllMkNhdFJPbzc4Q29KaFZ0Y1ZuU3Bjdk1aRG5GN2NJV1ZCbG1MVTNYem93WVFmTTRXM1JYM3VkbGc2bVpmbm9DQUVoVFVBUXFyRGJvelYxNmZVXzJldFFGUFFLT0JhQ0lKUHRlSV9UblRn?oc=5"
+   "name": "fox13seattle.com",
+   "published_at": "2026-08-04T02:45:00Z",
+   "title": "Tickets going on sale for Seattle , WA Great Pumpkin Beer Festival",
+   "url": "https://www.fox13seattle.com/news/great-pumpkin-beer-festival-tickets"
   },
   "summaries": {
    "en": {
-    "summary": "A Korean couple co-runs a restaurant after a four-year romance, highlighting their personal life over culinary craft.",
-    "why_irrelevant": "Focuses on celebrity relationship dynamics, not noodle-making technique."
+    "summary": "Tickets for Seattle's Great Pumpkin Beer Festival go on sale next August.",
+    "why_irrelevant": "A festive beer event far removed from typical tech or news feeds."
    },
    "zh": {
-    "summary": "一对韩国情侣相恋四年后共同经营餐厅，关注点在于他们的私生活而非面食技艺。",
-    "why_irrelevant": "侧重于名人恋情，而非拉面工艺。"
+    "summary": "西雅图大南瓜啤酒节门票将于明年八月开售。",
+    "why_irrelevant": "一场与常见新闻或技术动态无关的啤酒节活动。"
    }
   },
-  "topic": "competitive noodle pulling championships"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news is dominated by geopolitical tensions, including a deadly Russian strike on Kyiv, EU border crises in Ceuta, and Saudi-led acquisition of EA, while research focuses on AI evaluation in education and visualization techniques.",
+ "brief": "Today's headlines are dominated by Russia's deadly missile attack on Kyiv, highlighting Ukraine's critical air defense shortages, alongside U.S. political primaries and tech tax revelations. Research focuses on AI-assisted visual analytics and health data insights.",
  "meta": {
-  "generated_at": "2026-08-05T06:39:56Z"
+  "generated_at": "2026-08-05T10:45:16Z"
  },
- "news_summary": "Major headlines include Russian missile strikes killing 14 in Kyiv, Saudi-led group buying EA for $55bn, and various political and social issues from Australia to the US.",
- "papers_summary": "Research highlights include datasets for hospital-acquired infections, co-designing metrics for LLMs in education, and techniques like semantic bundling for knowledge graphs.",
+ "news_summary": "Russia's missile strike on Kyiv killed at least 17, with Ukraine lacking interceptors; U.S. primaries show mixed results for progressives and moderates; Palantir's low tax bill sparks debate.",
+ "papers_summary": "Papers explore LLM evaluation in education, knowledge graph simplification via semantic bundling, and wearable data for health insights, among other HCI and visualization topics.",
  "summaries": {
   "en": {
-   "brief": "Today's news is dominated by geopolitical tensions, including a deadly Russian strike on Kyiv, EU border crises in Ceuta, and Saudi-led acquisition of EA, while research focuses on AI evaluation in education and visualization techniques.",
-   "news_summary": "Major headlines include Russian missile strikes killing 14 in Kyiv, Saudi-led group buying EA for $55bn, and various political and social issues from Australia to the US.",
-   "papers_summary": "Research highlights include datasets for hospital-acquired infections, co-designing metrics for LLMs in education, and techniques like semantic bundling for knowledge graphs."
+   "brief": "Today's headlines are dominated by Russia's deadly missile attack on Kyiv, highlighting Ukraine's critical air defense shortages, alongside U.S. political primaries and tech tax revelations. Research focuses on AI-assisted visual analytics and health data insights.",
+   "news_summary": "Russia's missile strike on Kyiv killed at least 17, with Ukraine lacking interceptors; U.S. primaries show mixed results for progressives and moderates; Palantir's low tax bill sparks debate.",
+   "papers_summary": "Papers explore LLM evaluation in education, knowledge graph simplification via semantic bundling, and wearable data for health insights, among other HCI and visualization topics."
   },
   "zh": {
-   "brief": "今日新闻聚焦两岸关系、中东航道生态风险、俄罗斯伤员处置等议题，同时研究界关注AI在教育、图表生成和知识图谱方面的应用。",
-   "news_summary": "台湾汉光演习强调军民结合，中国锡安教会牧师获释后受访，中国新出入境规定引发讨论，中东油轮在红海受威胁程度升高。",
-   "papers_summary": "有多篇关于AI在教育评估、图表注释生成、知识图谱简化等方向的研究，另有一项关于医院感染预测数据集的工作。"
+   "brief": "今日焦点包括台湾汉光演习强调军民结合，中国新出入境规定引发讨论，以及俄罗斯对基辅的导弹袭击导致17人死亡。",
+   "news_summary": "台湾汉光演习展示城市防御和韧性训练；中国新出入境管理法引发对自由限制的担忧；俄罗斯袭击基辅致多人死亡，呼吁加强防空。",
+   "papers_summary": "研究关注大型语言模型在教育中的评估、知识图谱可视化及多模态模型图表注释等，旨在提升AI在专业领域的可用性。"
   }
  },
  "todays_image": {
-  "caption": "Just as Anthony's cactus mouse adapts to survive in the desert, the Saudi-led group turned its arid kingdom's oil riches into a foothold in the virtual oases of EA's gaming empire.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m374db4edc105043179788eaf6087a7117",
-  "source_name": "NMNH - Vertebrate Zoology - Mammals Division",
-  "source_url": "http://n2t.net/ark:/65665/3004d920f-d885-4707-93a4-b2fd85934304",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m374db4edc105043179788eaf6087a7117/90",
-  "title": "Peromyscus eremicus anthonyi"
+  "caption": "The SS-20 \"Pioneer\" is a vintage ghost of Russia's missile legacy, now reincarnated in the very strikes exploiting Ukraine's empty skies.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19900275000-NASM2018-10083-000002",
+  "source_name": "National Air and Space Museum",
+  "source_url": "http://n2t.net/ark:/65665/nv9b59da589-4c0b-4ed0-9fc1-c9dd369cfab8",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19900275000-NASM2018-10083-000002",
+  "title": "Missile, Surface-to-Surface, SS-20 \"Pioneer\""
  }
 }
