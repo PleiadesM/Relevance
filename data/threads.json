@@ -1,7 +1,7 @@
 {
  "meta": {
-  "count": 3,
-  "generated_at": "2026-08-05T21:31:00Z",
+  "count": 4,
+  "generated_at": "2026-08-05T23:17:11Z",
   "scope": "public"
  },
  "threads": [
@@ -11,140 +11,193 @@
      "full_text_file": "articles/news/04c64c9cb86c462b.json",
      "item_id": "04c64c9cb86c462b",
      "phrase": {
-      "en": "Reddit enlists AI to help moderate",
-      "zh": "Reddit 启用AI协助审核"
+      "en": "Reddit taps AI to moderate",
+      "zh": "Reddit启用AI审核"
      },
      "section": "news",
      "source": "The Verge · AI",
      "url": "https://www.theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform"
     },
     {
-     "full_text_file": "articles/news/08dfb9233cb2db99.json",
-     "item_id": "08dfb9233cb2db99",
+     "item_id": "9d6882048f925864",
      "phrase": {
-      "en": "AI's rogue actions halt tests",
-      "zh": "AI失控行为中止测试"
-     },
-     "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/"
-    },
-    {
-     "full_text_file": "articles/news/bc811cfa73428694.json",
-     "item_id": "bc811cfa73428694",
-     "phrase": {
-      "en": "AI slop evades YouTube labels",
-      "zh": "AI劣质内容绕过YouTube标签"
-     },
-     "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/ai/2026/08/hank-green-found-the-ai-problem-that-youtube-labels-cant-catch/"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Platforms and models are policing content, but AI's own actions are raising new alarms.",
-    "zh": "平台和模型在管控内容，但AI自身行为引起新警惕。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "AI in moderation",
-    "zh": "AI 内容审核"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You care about HCI and AI: Reddit's move and Anthropic's rogue actions show moderation is both a tool and a liability.",
-    "zh": "你关注人机交互与AI，Reddit的举措和Anthropic的失控显示审核既是工具也是风险。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "59280d04c995e906",
-     "phrase": {
-      "en": "AI data centers cause air pollution",
-      "zh": "AI数据中心造成空气污染"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/05/climate/data-centers-pollution-trump-ai-energy.html"
-    },
-    {
-     "item_id": "db784b51f4adb47b",
-     "phrase": {
-      "en": "UK services struggle in heat",
-      "zh": "英国公共服务高温承压"
+      "en": "News Corp slams AI slop",
+      "zh": "News Corp抨击AI垃圾"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/environment/2026/aug/05/global-heating-public-services-struggling-heatwaves"
+     "url": "https://www.theguardian.com/australia-news/live/2026/aug/06/australia-news-live-nsw-politics-icac-corruption-perrottet-ibac-victoria-daniel-andrews-royal-commission-antisemitism-labor-tax-albanese-ntwnfb"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "The push for AI data centers collides with pollution and climate goals.",
-    "zh": "AI数据中心的扩张与污染和气候目标相冲突。"
+    "en": "AI's uninvited outputs flood platforms, from Reddit mods to newsrooms.",
+    "zh": "AI的不请自来内容泛滥，从Reddit版主到新闻编辑室。"
    },
-   "id": "t2",
+   "id": "t1",
    "keyword": {
-    "en": "AI environmental cost",
-    "zh": "AI环境成本"
+    "en": "AI-generated slop",
+    "zh": "AI垃圾内容"
    },
    "relates_to": [],
+   "timeline": [
+    {
+     "date": "2025-11",
+     "label": {
+      "en": "AI content emerges",
+      "zh": "AI内容涌现"
+     }
+    },
+    {
+     "date": "2026-05",
+     "label": {
+      "en": "platforms react",
+      "zh": "平台反应"
+     }
+    },
+    {
+     "date": "2026-08-05",
+     "full_text_file": "articles/news/04c64c9cb86c462b.json",
+     "item_id": "04c64c9cb86c462b",
+     "label": {
+      "en": "new moderators",
+      "zh": "新审核员"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform"
+    }
+   ],
    "why_now": {
-    "en": "You track AI's societal impact: new reporting links data centers to major air pollution, a concrete trade-off.",
-    "zh": "你关注AI的社会影响，新报告将数据中心与严重空气污染挂钩，这是具体权衡。"
+    "en": "You care about AI's societal impact: today Reddit and Guardian expose AI's unruly side.",
+    "zh": "你关注AI的社会影响，今天Reddit和卫报揭露了AI的失控面。"
    }
   },
   {
    "angles": [
     {
-     "full_text_file": "articles/news/08dfb9233cb2db99.json",
-     "item_id": "08dfb9233cb2db99",
+     "item_id": "d518c9e782b02401",
      "phrase": {
-      "en": "Anthropic's AI acts rogue",
-      "zh": "Anthropic AI失控"
+      "en": "Iran confirms route deal",
+      "zh": "伊朗确认航线协议"
      },
      "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/"
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "b26aa366ed173663",
+     "item_id": "489684d1774a1422",
      "phrase": {
-      "en": "Meta ran AI abuse ads",
-      "zh": "Meta投放AI虐待广告"
+      "en": "Coordinates agreed, finalizing",
+      "zh": "坐标达成，正在敲定"
      },
      "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/aug/05/us-iran-israel-oman-strait-of-hormuz-latest-news-updates"
     },
     {
-     "full_text_file": "articles/news/bc811cfa73428694.json",
-     "item_id": "bc811cfa73428694",
+     "item_id": "84232211f0e71187",
      "phrase": {
-      "en": "AI slop problem on YouTube",
-      "zh": "YouTube上的AI劣质内容"
+      "en": "deal won't guarantee security",
+      "zh": "协议不确保安全"
      },
      "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/ai/2026/08/hank-green-found-the-ai-problem-that-youtube-labels-cant-catch/"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/05/iran-oman-reach-hormuz-route-coordinates"
     }
    ],
-   "convergence": "divergent",
+   "convergence": "convergent",
    "gloss": {
-    "en": "From rogue agents to harmful ads, AI's unintended behaviors are coming under fire.",
-    "zh": "从失控代理到有害广告，AI的意外行为正受到抨击。"
+    "en": "Iran and Oman agree coordinates for a key oil passage, easing tensions.",
+    "zh": "伊朗与阿曼就关键石油通道坐标达成一致，缓解紧张。"
    },
-   "id": "t3",
+   "id": "t2",
    "keyword": {
-    "en": "AI controversies",
-    "zh": "AI争议"
+    "en": "Hormuz shipping route",
+    "zh": "霍尔木兹航线"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You assess AI risks: today's reports on rogue actions and ad scandals highlight urgent governance gaps.",
-    "zh": "你评估AI风险，今日关于失控行为和广告丑闻的报道凸显治理缺口。"
+    "en": "You track geopolitics: a new agreement could reshape global energy flows.",
+    "zh": "你关注地缘政治，新协议可能重塑全球能源流动。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "6034ee278af13a34",
+     "phrase": {
+      "en": "Leipzig drone bomb escalation",
+      "zh": "莱比锡无人机炸弹升级"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/05/drone-german-airport-dhl-cargo-plane-collides-object-leipzig"
+    },
+    {
+     "item_id": "5241b94c55016874",
+     "phrase": {
+      "en": "drone found near cargo planes",
+      "zh": "货机旁发现无人机"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cyvlg4q48l3o?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Explosive drones at airports and hybrid attacks raise security alarms.",
+    "zh": "机场爆炸无人机与混合攻击引发安全警报。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "drones as threats",
+    "zh": "无人机威胁"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You read about embodied AI, but today real drones show physical danger.",
+    "zh": "你读实体AI，但今天真实无人机展示物理危险。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "19f23daa147bd1c4",
+     "phrase": {
+      "en": "Arday resigns, doubts cast",
+      "zh": "阿代辞职，质疑四起"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/05/books/review/cambridge-jason-arday-resignation-investigation.html"
+    },
+    {
+     "item_id": "75d4f987d56df99c",
+     "phrase": {
+      "en": "resigns amid plagiarism claims",
+      "zh": "抄袭指控中辞职"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/education/2026/aug/05/cambridge-professor-jason-arday-resigns-amid-accusations-of-plagiarism"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "A star professor resigns amid doubts about his qualifications and work.",
+    "zh": "一位明星教授因资历与作品疑云辞职。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "Cambridge plagiarism scandal",
+    "zh": "剑桥抄袭丑闻"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You value academic integrity: this story questions merit and privilege.",
+    "zh": "你重视学术诚信，此事质疑功绩与特权。"
    }
   }
  ]
