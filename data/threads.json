@@ -1,180 +1,136 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-08-04T23:17:21Z",
+  "count": 3,
+  "generated_at": "2026-08-05T03:29:28Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "474b9fa1fbeb0894",
-     "phrase": {
-      "en": "workers caught in AI transition",
-      "zh": "工人陷入AI转型"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cgr7nxve05go?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "full_text_file": "articles/news/0002633e2855e15a.json",
-     "item_id": "0002633e2855e15a",
-     "phrase": {
-      "en": "creator calls AI use unhealthy",
-      "zh": "创作者称AI使用不健康"
-     },
-     "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "AI quietly replaces workers in the Philippines, and even popular creators feel its pull.",
-    "zh": "AI悄然取代菲律宾工人，网红创作者也感受到它的拉扯。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "offshore AI labor",
-    "zh": "离岸AI劳工"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You care about AI's human cost; today two stories reveal the squeeze from both ends—outsourced jobs and creator burnout.",
-    "zh": "你关注AI的人文代价，今日两则故事从外包岗位与创作者倦怠两端揭示挤压。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "full_text_file": "articles/news/83d3498477b6d01f.json",
-     "item_id": "83d3498477b6d01f",
-     "phrase": {
-      "en": "AMD data center revenue doubles",
-      "zh": "AMD数据中心收入翻倍"
-     },
-     "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen"
-    },
-    {
-     "full_text_file": "articles/news/6d30bbb005ba45e6.json",
-     "item_id": "6d30bbb005ba45e6",
-     "phrase": {
-      "en": "SpaceX earns more from AI compute",
-      "zh": "SpaceX AI算力收入更高"
-     },
-     "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/science/975335/spacex-made-more-money-as-a-neocloud"
-    },
-    {
-     "full_text_file": "articles/news/1c77caee126d292c.json",
-     "item_id": "1c77caee126d292c",
-     "phrase": {
-      "en": "Texas halts grid connections",
-      "zh": "得州暂停电网接入"
-     },
-     "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/ai/2026/08/texas-halts-data-center-connections-to-power-grid-amid-overwhelming-demand/"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Tech giants' AI appetite is redrawing energy and power grids.",
-    "zh": "科技巨头的AI胃口正重绘能源与电网版图。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "AI data center boom",
-    "zh": "AI数据中心热潮"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You track AI infrastructure; today AMD, SpaceX, and Texas all signal a boom that strains the grid.",
-    "zh": "你关注AI基础设施，今日AMD、SpaceX与得州同现热潮并挤压电网。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "2c15ac2a9f2b4162",
-     "phrase": {
-      "en": "S&P 500 hits record high",
-      "zh": "标普500创历史新高"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/04/business/stock-market-record.html"
-    },
-    {
-     "item_id": "fed4eaa61409b55c",
-     "phrase": {
-      "en": "AI profits and oil ease",
-      "zh": "AI利润与油价缓解"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/business/2026/aug/04/stock-market-records-ai-profits-oil-prices-ease"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Markets hit records as AI profits ease fears over Iran.",
-    "zh": "AI利润缓解伊朗担忧，股市创新高。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "AI stock market rally",
-    "zh": "AI股市反弹"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow AI economics; today's record high shows AI hype is again driving markets, despite earlier tech selloff.",
-    "zh": "你关注AI经济，今日创新高显示AI炒作再次驱动市场，尽管先前科技股抛售。"
-   }
-  },
-  {
-   "angles": [
-    {
      "item_id": "26c412fd8203f551",
      "phrase": {
-      "en": "begging you never write with AI",
-      "zh": "求你别用AI写作"
+      "en": "Never write with AI, for your brain",
+      "zh": "为大脑起见，勿用AI写作"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/08/04/opinion/artificial-intelligence-ai-writing.html"
     },
     {
-     "item_id": "16528f69401a15c5",
+     "full_text_file": "articles/news/0002633e2855e15a.json",
+     "item_id": "0002633e2855e15a",
      "phrase": {
-      "en": "AI erases authorship signals",
-      "zh": "AI抹除作者信号"
+      "en": "Not healthy LLM use common",
+      "zh": "不健康的LLM使用很常见"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy"
+    },
+    {
+     "item_id": "60b48c18e5e96e2b",
+     "phrase": {
+      "en": "AI adoption alters team social patterns",
+      "zh": "AI采用改变团队社交模式"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.00926v1"
+     "url": "https://arxiv.org/abs/2608.03462v1"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Writing with AI chips away at your own voice—and democracy.",
-    "zh": "用AI写作蚕食你的个人声音，也侵蚀民主。"
+    "en": "The debate over writing with AI heats up: one essay argues it harms your brain, while a creator steps back from 'unhealthy' use.",
+    "zh": "关于用AI写作的争论升温：一篇评论称其伤脑，一位创作者退出不健康的用法。"
    },
-   "id": "t4",
+   "id": "t1",
    "keyword": {
-    "en": "generative AI authorship",
-    "zh": "生成式AI署名"
+    "en": "AI in writing and cognition",
+    "zh": "AI与写作及认知"
    },
-   "relates_to": [
-    "t1"
-   ],
+   "relates_to": [],
    "why_now": {
-    "en": "You care about human-AI interaction; today an op-ed and a study both probe how AI erases authorship.",
-    "zh": "你关心人机交互，今日一篇评论与一项研究共同探究AI如何抹除作者身份。"
+    "en": "Your interests in technical communication and HCI make this relevant: today an op-ed and a creator's confession both question AI's cognitive cost, alongside a…",
+    "zh": "你关注技术传播与人机交互：今日一篇评论与一位创作者的忏悔都质疑AI的认知代价，另有团队AI采用研究。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "22056305af6d4db2",
+     "phrase": {
+      "en": "Voluntary review for closed-source AI",
+      "zh": "对闭源AI自愿审查"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/04/technology/white-house-ai-framework.html"
+    },
+    {
+     "item_id": "8901266a14497de5",
+     "phrase": {
+      "en": "New LLM release includes reasoning traces",
+      "zh": "新版LLM包含推理轨迹"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Governments move to vet AI models for security, but the rules may miss open-source code.",
+    "zh": "政府开始审查AI模型安全，但规则可能遗漏开源代码。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "AI security framework",
+    "zh": "AI安全框架"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow AI policy: the U.S. is preparing a voluntary review framework for closed-source models, a concrete step that could shape the field.",
+    "zh": "你关注AI政策：美国准备对闭源模型实行自愿审查框架，这一实质步骤可能影响领域。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "474b9fa1fbeb0894",
+     "phrase": {
+      "en": "Workers caught in AI transition",
+      "zh": "工人陷入AI转型困境"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cgr7nxve05go?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "d57ffc9b9f681a38",
+     "phrase": {
+      "en": "Investors flock to 3x leverage",
+      "zh": "投资者涌向3倍杠杆"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://www.asiae.co.kr/en/article/2026080416131786841"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "AI's shadow falls on workers: outsourcing in the Philippines faces disruption, while retail investors chase new tech bets.",
+    "zh": "AI的阴影笼罩工人：菲律宾外包业面临冲击，散户追逐新的科技赌注。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "AI and labor market",
+    "zh": "AI与劳动力市场"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about real-world AI impact: today's news shows AI reshaping jobs and markets, from outsourcing to leverage trading.",
+    "zh": "你关注AI的现实影响：今日新闻显示AI正在重塑就业与市场，从外包到杠杆交易。"
    }
   }
  ]

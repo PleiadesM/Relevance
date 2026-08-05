@@ -16,7 +16,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T00:00:00Z",
-   "score": 0.6225,
+   "score": 0.6083,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -25,6 +25,242 @@
    "title": "Hospital-Acquired Infection (HAI) Prediction Dataset",
    "url": "https://doi.org/10.5281/zenodo.21777046",
    "venue": "Zenodo (CERN European Organization for Nuclear Research)"
+  },
+  {
+   "authors": [
+    "Adam Coscia",
+    "Sujata Duwal",
+    "Langdon Holmes",
+    "Scott Crossley",
+    "Alex Endert"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "LLMs are reshaping educational technology, yet evaluating their responses for pedagogical alignment remains underexplored, relying heavily on the expertise of learning engineers building the technology. To bridge this gap, we explore trustworthiness as a structured lens for evaluation, leveraging existing measures of LLM trustworthiness to systematically identify potential pedagogical disruptions. Through a longitudinal co-design process with learning engineers developing an LLM-powered digital…",
+    "arxiv_id": "2608.04006"
+   },
+   "id": "b87be8e2095c4982",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-04T17:59:20Z",
+   "score": 0.9344,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "LLMs are reshaping educational technology, yet evaluating their responses for pedagogical alignment remains underexplored, relying heavily on the expertise of learning engineers building the technology. To bridge this gap, we explore trustworthiness as a structured lens for evaluation, leveraging…",
+   "tags": [
+    "eval-study",
+    "ml-vis",
+    "llm",
+    "visualization"
+   ],
+   "title": "Calibrating Trustworthiness: Co-Designing Metrics and Visualizations for Evaluating LLMs in Education",
+   "url": "https://arxiv.org/abs/2608.04006v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Adam Coscia",
+    "Zeyu Hua",
+    "Eric Krokos",
+    "Timothy Lin",
+    "Alex Endert"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "We present Semantic Bundling, a visual analytics technique for making sense of text documents represented as knowledge graphs (KGs). Representing a document corpus as a KG makes relationships between entities explicit, making KGs useful both to analyze directly and in computational workflows including ML pipelines and generative AI backends. However, as KGs grow they become difficult to interpret and visualize for specific tasks (e.g., the ``hairball problem''), with the meaning of each…",
+    "arxiv_id": "2608.04002"
+   },
+   "id": "b1af67c19005319a",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-04T17:58:05Z",
+   "score": 0.6018,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "We present Semantic Bundling, a visual analytics technique for making sense of text documents represented as knowledge graphs (KGs). Representing a document corpus as a KG makes relationships between entities explicit, making KGs useful both to analyze directly and in computational workflows…",
+   "tags": [
+    "llm",
+    "visualization"
+   ],
+   "title": "Semantic Bundling: Interactive Node and Edge Bundling to Simplify Knowledge Graphs using Large Language Models",
+   "url": "https://arxiv.org/abs/2608.04002v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Zhenghan Chen",
+    "Zekai Shao",
+    "Lidan Tan",
+    "Xin Lin",
+    "Xingchen Zeng",
+    "Yi Shan"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Multimodal large language models (MLLMs) have made significant progress in chart understanding, generation, and editing, but their ability to annotate existing charts remains underexplored. Annotating charts is a common yet challenging communicative task, requiring models to infer intended messages, interpret chart semantics, and place appropriate textual or graphical elements. To address this gap, we introduce ChartAnno, a benchmark for evaluating MLLMs on chart annotation generation. It…",
+    "arxiv_id": "2608.03464"
+   },
+   "id": "4e793487f5e60fcf",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-04T11:01:38Z",
+   "score": 0.9024,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Multimodal large language models (MLLMs) have made significant progress in chart understanding, generation, and editing, but their ability to annotate existing charts remains underexplored. Annotating charts is a common yet challenging communicative task, requiring models to infer intended…",
+   "tags": [
+    "ml-vis",
+    "llm",
+    "visualization"
+   ],
+   "title": "ChartAnno: Evaluating MLLMs for Chart Annotation Generation",
+   "url": "https://arxiv.org/abs/2608.03464v1",
+   "venue": "arXiv cs.AI"
+  },
+  {
+   "authors": [
+    "Giusy Annunziata",
+    "Rudrajit Choudhuri",
+    "Anita Sarma",
+    "Gemma Catolino",
+    "Filomena Ferrucci"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Context: The growing adoption of AI-assisted development tools is changing how software teams collaborate, share knowledge, and coordinate, yet its consequences for team social dynamics remain largely unexplored. Gap: It is unclear whether AI adoption is associated with an increase or reduction in community smells,socio-technical anti-patterns reflecting coordination and communication breakdowns,and through which mechanisms. Method: Grounded in Transactive Memory Systems (TMS) theory, we…",
+    "arxiv_id": "2608.03462"
+   },
+   "id": "60b48c18e5e96e2b",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-04T10:57:42Z",
+   "score": 0.7221,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Context: The growing adoption of AI-assisted development tools is changing how software teams collaborate, share knowledge, and coordinate, yet its consequences for team social dynamics remain largely unexplored. Gap: It is unclear whether AI adoption is associated with an increase or reduction in…",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "When AI Joins the Team! A Model of How AI Adoption Relates To Social Patterns in Software Engineering Teams",
+   "url": "https://arxiv.org/abs/2608.03462v1",
+   "venue": "arXiv cs.SE"
+  },
+  {
+   "authors": [
+    "Esther Brown",
+    "Karis Moon",
+    "Victoria Dean",
+    "Finale Doshi-Velez"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Commercial wearable devices continuously capture rich physiological data (e.g., heart rate, respiration), opening new possibilities for monitoring health conditions, notably around stress. Despite their promise, turning raw wearable physiological data streams into visualizations that surface stress-related insights in daily activities, and that ultimately foster reflection, awareness, and better stress management, remains a significant challenge. The data are noisy and context-dependent: the…",
+    "arxiv_id": "2608.03251"
+   },
+   "id": "f6edba4497414999",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-04T07:23:46Z",
+   "score": 0.5543,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Commercial wearable devices continuously capture rich physiological data (e.g., heart rate, respiration), opening new possibilities for monitoring health conditions, notably around stress. Despite their promise, turning raw wearable physiological data streams into visualizations that surface…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "From Wearable Data to Personalized and Actionable Health Insights",
+   "url": "https://arxiv.org/abs/2608.03251v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Xiao Fan",
+    "Hongbin Guo",
+    "Yubo Han",
+    "Yi Zhang"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Imagined handwriting offers a temporally rich paradigm for non-invasive neural decoding, yet reliable recognition across unseen participants remains difficult because scalp EEG is noisy and internally generated stroke sequences vary across individuals. The Multimodal Brain-Computer Interface Grand Challenge provides synchronized EEG and fNIRS for four-class subject-independent handwriting-trajectory classification. We propose FRED, a task-adapted system that models imagined handwriting as a…",
+    "arxiv_id": "2608.03176"
+   },
+   "id": "33cc4cf1d52c4280",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-04T06:08:11Z",
+   "score": 0.7015,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Imagined handwriting offers a temporally rich paradigm for non-invasive neural decoding, yet reliable recognition across unseen participants remains difficult because scalp EEG is noisy and internally generated stroke sequences vary across individuals. The Multimodal Brain-Computer Interface Grand…",
+   "tags": [
+    "ai-writing",
+    "techcomm"
+   ],
+   "title": "Frequency-Decorrelated Temporal Ensembles for EEG--fNIRS Imagined-Handwriting Decoding",
+   "url": "https://arxiv.org/abs/2608.03176v1",
+   "venue": "arXiv cs.CV"
+  },
+  {
+   "authors": [
+    "Sungwon In",
+    "Minju Baeck",
+    "Yalong Yang",
+    "Sang Ho Yoon",
+    "Woontack Woo",
+    "Mallesham Dasari"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Immersive Computational Notebooks (ICoN) extend traditional notebook environments into immersive spaces, enabling analysts to interact with multimodal artifacts, including code, narratives, data tables, and visualizations. By integrating multimodal artifacts into a single immersive workspace, ICoN enables analysts to transition between analytical tasks seamlessly. Meanwhile, understanding organizational strategies is critical for designing effective interactions to further support analysts.…",
+    "arxiv_id": "2608.03132"
+   },
+   "id": "a30d4660519d2a33",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-04T05:00:52Z",
+   "score": 0.5444,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Immersive Computational Notebooks (ICoN) extend traditional notebook environments into immersive spaces, enabling analysts to interact with multimodal artifacts, including code, narratives, data tables, and visualizations. By integrating multimodal artifacts into a single immersive workspace, ICoN…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Understanding Organizational Strategies Across Multimodal Artifacts in Immersive Computational Notebooks",
+   "url": "https://arxiv.org/abs/2608.03132v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Breno Cerqueira Reis Nakamura",
+    "Arlindo Flavio da Conceição"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Self-Sovereign Identity (SSI) promises to decentralize digital identity, but widespread adoption remains hindered by integration complexity and tooling immaturity. This paper investigates the Developer Experience (DX) of open-source SSI tooling through an exploratory probe study. Nine developers with prior knowledge of decentralized identity concepts, representing early integrators building SSI applications, attempted core credential lifecycle tasks using Walt.id, Traction, and MetaMask. Our…",
+    "arxiv_id": "2608.03039"
+   },
+   "id": "a0fc9b5dd33666da",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-04T02:41:53Z",
+   "score": 0.6875,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Self-Sovereign Identity (SSI) promises to decentralize digital identity, but widespread adoption remains hindered by integration complexity and tooling immaturity. This paper investigates the Developer Experience (DX) of open-source SSI tooling through an exploratory probe study. Nine developers…",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "Integration Barriers in Open-Source SSI Frameworks: An Exploratory Developer Experience Probe",
+   "url": "https://arxiv.org/abs/2608.03039v1",
+   "venue": "arXiv cs.SE"
   },
   {
    "authors": [
@@ -44,7 +280,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-04T00:00:00Z",
-   "score": 0.5378,
+   "score": 0.5248,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -71,7 +307,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-04T00:00:00Z",
-   "score": 0.5378,
+   "score": 0.5248,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -107,7 +343,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-03T17:30:00Z",
-   "score": 0.5156,
+   "score": 0.5002,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -134,7 +370,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-03T17:10:28Z",
-   "score": 0.5144,
+   "score": 0.4991,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -162,7 +398,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-03T13:48:52Z",
-   "score": 0.8346,
+   "score": 0.8199,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -192,7 +428,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-03T08:40:43Z",
-   "score": 0.6767,
+   "score": 0.6628,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -222,7 +458,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-03T04:04:04Z",
-   "score": 0.6615,
+   "score": 0.6484,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -232,7 +468,7 @@
     "visualization"
    ],
    "title": "CellPrism: A Visual Analytics System for Exploring AI-Driven Virtual Cells in Drug Discovery",
-   "url": "https://arxiv.org/abs/2608.01669v1",
+   "url": "https://arxiv.org/abs/2608.01669v2",
    "venue": "arXiv cs.HC"
   },
   {
@@ -253,7 +489,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-03T00:00:00Z",
-   "score": 0.3343,
+   "score": 0.3246,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -283,7 +519,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-02T20:17:56Z",
-   "score": 0.4452,
+   "score": 0.4333,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -297,154 +533,70 @@
   },
   {
    "authors": [
-    "Ushna Malik",
-    "Moiz Sadiq Awan"
+    "Kellie M. Gray",
+    "Niveditha Pookkottuvariam",
+    "Steve Holmes"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Research on AI-mediated communication has examined how AI assistance shapes interpersonal perceptions and reduces stylistic diversity across users. We ask a complementary question at the individual level: after a message is rewritten by an AI writing assistant, can its author still be distinguished from others? We introduce the Idiolect Erasure Rate (IER), defined as the reduction in authorship-attribution accuracy following AI-assisted rewriting. We evaluate IER on three pre-generative-AI…",
-    "arxiv_id": "2608.00926"
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.1080/10572252.2026.2703046"
    },
-   "id": "16528f69401a15c5",
+   "id": "0e2d9263a6f7c4a3",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-02T01:36:57Z",
-   "score": 0.5488,
+   "published_at": "2026-07-31T03:13:25Z",
+   "score": 0.3711,
    "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Research on AI-mediated communication has examined how AI assistance shapes interpersonal perceptions and reduces stylistic diversity across users. We ask a complementary question at the individual level: after a message is rewritten by an AI writing assistant, can its author still be distinguished…",
+   "source": "TechComm journals (CrossRef)",
+   "source_id": "crossref_techcomm_journals",
+   "summary": "",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "Building DIY Coding Credibility: The Personas, Practices, and Pedagogies of Female AI Tech Influencers on YouTube",
+   "url": "https://doi.org/10.1080/10572252.2026.2703046",
+   "venue": "Technical Communication Quarterly"
+  },
+  {
+   "authors": [
+    "Scott Weedon",
+    "Jamie Littlefield"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "As generative AI systems saturate our digital spaces with an unprecedented volume of content, aesthetics (features that elicit human cognitive and sensory responses) and taste (human discernment about the quality and desirability of those features) have drawn renewed cultural attention. For researchers in scientific and technical communication (STC), this resurgence of interest might be viewed as an invitation to revisit the aesthetic as central to the ways that technical artifacts make meaning…",
+    "citations": 0,
+    "doi": "10.1177/00472816261471754"
+   },
+   "id": "d9319f696fe3de88",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-07-29T13:22:21Z",
+   "score": 0.4408,
+   "section": "papers",
+   "source": "TechComm journals (CrossRef)",
+   "source_id": "crossref_techcomm_journals",
+   "summary": "As generative AI systems saturate our digital spaces with an unprecedented volume of content, aesthetics (features that elicit human cognitive and sensory responses) and taste (human discernment about the quality and desirability of those features) have drawn renewed cultural attention. For…",
    "tags": [
     "ai-writing",
     "techcomm"
    ],
-   "title": "The Assistant Erased You: Measuring Loss of Authorship Signals in AI-Mediated Communication",
-   "url": "https://arxiv.org/abs/2608.00926v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Ethan Dickey",
-    "Vivan Tiwari",
-    "Anvit Sinha",
-    "Andres Bejarano"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "This innovative practice full paper presents BoilerSketch, a TA-supervised, diagram-first GenAI practice and tablet interface for providing structured visual explanations in CS1 and early CS2 support settings. Large early computing courses routinely face a support bottleneck during labs and office hours because many student questions are best answered with a diagram rather than additional text, yet most AI tutoring tools remain text-forward and unreliable at producing accurate, pedagogically…",
-    "arxiv_id": "2608.00844"
-   },
-   "id": "67a0b822219d1241",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-01T19:52:00Z",
-   "score": 0.5358,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "This innovative practice full paper presents BoilerSketch, a TA-supervised, diagram-first GenAI practice and tablet interface for providing structured visual explanations in CS1 and early CS2 support settings. Large early computing courses routinely face a support bottleneck during labs and office…",
-   "tags": [
-    "ai-writing"
-   ],
-   "title": "BoilerSketch: A TA-Supervised, Diagram-First GenAI Practice for Structured Diagrams in CS1/Early CS2",
-   "url": "https://arxiv.org/abs/2608.00844v1",
-   "venue": "arXiv cs.CY"
-  },
-  {
-   "authors": [
-    "Ethan Dickey",
-    "Libra Vento",
-    "Peter Kurto",
-    "Andres Bejarano"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "This innovative practice full paper presents CodeStylist, a web application that provides course-standard-aware code style feedback for early undergraduate programming courses. CodeStylist addresses a common instructional gap: students are expected to follow local conventions for naming, formatting, comments, organization, and readability, but feedback on these expectations is often delayed or inconsistent. Unlike generic linters or general-purpose LLM prompts, CodeStylist supports…",
-    "arxiv_id": "2608.00839"
-   },
-   "id": "b116a6ff84faa0c1",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-01T19:42:49Z",
-   "score": 0.343,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "This innovative practice full paper presents CodeStylist, a web application that provides course-standard-aware code style feedback for early undergraduate programming courses. CodeStylist addresses a common instructional gap: students are expected to follow local conventions for naming,…",
-   "tags": [
-    "pedagogy"
-   ],
-   "title": "CodeStylist: Supporting Early Undergraduate Programmers with Course-Aware Code Style Feedback",
-   "url": "https://arxiv.org/abs/2608.00839v1",
-   "venue": "arXiv cs.CY"
-  },
-  {
-   "authors": [
-    "Ruishi Zou",
-    "Siyi Wu",
-    "Racquel Fygenson",
-    "Dakuo Wang",
-    "Michael Correll",
-    "Lace M. Padilla"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Forecasts often diverge because different models make varying assumptions to account for underlying uncertainty. Readers who consume forecasts may wish to survey the shape and spread of these multiple forecasts to get a full account of the different predictions. One approach to visualizing multiple forecasts is through Confidence Interval (CI) plots. However, while the summative CI plots can communicate uncertainty of an ensemble, they obscure attributes of individual forecasts that can lead to…",
-    "arxiv_id": "2608.00433"
-   },
-   "id": "48546bce0a18e158",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-01T04:17:37Z",
-   "score": 0.5448,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Forecasts often diverge because different models make varying assumptions to account for underlying uncertainty. Readers who consume forecasts may wish to survey the shape and spread of these multiple forecasts to get a full account of the different predictions. One approach to visualizing multiple…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "Seeing Through the Forecast Clutter: Communicating Climate Forecast Distributions with Weighted Multiple Forecast Visualizations",
-   "url": "https://arxiv.org/abs/2608.00433v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Abdelrahman Zaky",
-    "Tiare Feuchtner"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Adaptive mixed reality (MR) interfaces typically optimize window layouts on behalf of the user, with limited consideration for individual preferences. A promising alternative keeps users in the loop by presenting layout proposals for them to select from, but how these proposals should be visualized remains underexplored. We compare three proposal-visualization techniques for window placement, Situated Icon Preview, Situated Window Preview, and 3D Preview, against a Manual Positioning baseline.…",
-    "arxiv_id": "2608.00403"
-   },
-   "id": "f1df6e38784cc4e0",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-01T02:55:34Z",
-   "score": 0.3499,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Adaptive mixed reality (MR) interfaces typically optimize window layouts on behalf of the user, with limited consideration for individual preferences. A promising alternative keeps users in the loop by presenting layout proposals for them to select from, but how these proposals should be visualized…",
-   "tags": [
-    "eval-study",
-    "hci"
-   ],
-   "title": "Visualizing Placement Proposals for Window Arrangement in Mixed Reality: A Comparative User Study",
-   "url": "https://arxiv.org/abs/2608.00403v1",
-   "venue": "arXiv cs.HC"
+   "title": "Making Information Sensible: Reconsidering Aesthetics in Scientific and Technical Communication",
+   "url": "https://doi.org/10.1177/00472816261471754",
+   "venue": "Journal of Technical Writing and Communication"
   }
  ],
  "meta": {
-  "count": 15,
-  "generated_at": "2026-08-04T23:17:21Z",
+  "count": 20,
+  "generated_at": "2026-08-05T03:29:28Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
    {
     "category": "optional",
-    "count": 8,
+    "count": 11,
     "error": null,
     "full_text_count": 0,
     "id": "arxiv_datavis",
@@ -480,12 +632,12 @@
    },
    {
     "category": "optional",
-    "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-07&rows=12&sort=created&order=desc",
+    "count": 11,
+    "error": null,
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "crossref"
