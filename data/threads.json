@@ -1,89 +1,60 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-08-05T19:52:13Z",
+  "count": 3,
+  "generated_at": "2026-08-05T21:31:00Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "1da71f1ea63c37ba",
-     "phrase": {
-      "en": "argues against LLM use",
-      "zh": "反对使用大模型"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://blog.fogus.me/llm/born-against.html"
-    },
-    {
-     "item_id": "b87be8e2095c4982",
-     "phrase": {
-      "en": "evaluates LLMs in education",
-      "zh": "评估教育中大模型"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.04006v1"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Hobbyist coders push back against using LLMs, fearing loss of craft and community values.",
-    "zh": "业余编码者抵制大模型，忧虑技艺与社区价值流失。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "LLM opposition in hobby coding",
-    "zh": "爱好编程抵制大模型"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You care about AI in practice; today's essay sparks debate on AI's role in coding culture.",
-    "zh": "你关注AI实践，今日文章引发对AI在编程文化中角色的讨论。"
-   }
-  },
-  {
-   "angles": [
-    {
      "full_text_file": "articles/news/04c64c9cb86c462b.json",
      "item_id": "04c64c9cb86c462b",
      "phrase": {
-      "en": "announces AI moderation tools",
-      "zh": "宣布AI审核工具"
+      "en": "Reddit enlists AI to help moderate",
+      "zh": "Reddit 启用AI协助审核"
      },
      "section": "news",
      "source": "The Verge · AI",
      "url": "https://www.theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform"
     },
     {
-     "item_id": "1da71f1ea63c37ba",
+     "full_text_file": "articles/news/08dfb9233cb2db99.json",
+     "item_id": "08dfb9233cb2db99",
      "phrase": {
-      "en": "community resistance to AI",
-      "zh": "社区抵制AI"
+      "en": "AI's rogue actions halt tests",
+      "zh": "AI失控行为中止测试"
      },
      "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://blog.fogus.me/llm/born-against.html"
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/"
+    },
+    {
+     "full_text_file": "articles/news/bc811cfa73428694.json",
+     "item_id": "bc811cfa73428694",
+     "phrase": {
+      "en": "AI slop evades YouTube labels",
+      "zh": "AI劣质内容绕过YouTube标签"
+     },
+     "section": "news",
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/ai/2026/08/hank-green-found-the-ai-problem-that-youtube-labels-cant-catch/"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Reddit introduces LLM-based moderators, raising questions about automation and community trust.",
-    "zh": "Reddit引入大模型版主，引发对自动化与社区信任的疑问。"
+    "en": "Platforms and models are policing content, but AI's own actions are raising new alarms.",
+    "zh": "平台和模型在管控内容，但AI自身行为引起新警惕。"
    },
-   "id": "t2",
+   "id": "t1",
    "keyword": {
-    "en": "AI moderation on Reddit",
-    "zh": "Reddit AI审核"
+    "en": "AI in moderation",
+    "zh": "AI 内容审核"
    },
-   "relates_to": [
-    "t1"
-   ],
+   "relates_to": [],
    "why_now": {
-    "en": "You follow human-AI interaction; this is a real-world deployment affecting online communities.",
-    "zh": "你关注人机交互，这是影响在线社区的现实部署。"
+    "en": "You care about HCI and AI: Reddit's move and Anthropic's rogue actions show moderation is both a tool and a liability.",
+    "zh": "你关注人机交互与AI，Reddit的举措和Anthropic的失控显示审核既是工具也是风险。"
    }
   },
   {
@@ -91,77 +62,89 @@
     {
      "item_id": "59280d04c995e906",
      "phrase": {
-      "en": "links AI to pollution",
-      "zh": "将AI与污染关联"
+      "en": "AI data centers cause air pollution",
+      "zh": "AI数据中心造成空气污染"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/08/05/climate/data-centers-pollution-trump-ai-energy.html"
     },
     {
-     "item_id": "de1fcd2fed5526a9",
+     "item_id": "db784b51f4adb47b",
      "phrase": {
-      "en": "focuses on sales growth",
-      "zh": "聚焦销售增长"
+      "en": "UK services struggle in heat",
+      "zh": "英国公共服务高温承压"
      },
      "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://www.bloomberg.com/news/articles/2026-08-05/microsoft-s-ai-sales-mostly-come-from-openai-disclosures-show"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/environment/2026/aug/05/global-heating-public-services-struggling-heatwaves"
     }
    ],
-   "convergence": "divergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "AI data centers demand huge energy, leading to air pollution and climate concerns.",
-    "zh": "AI数据中心能耗巨大，引发空气污染与气候担忧。"
+    "en": "The push for AI data centers collides with pollution and climate goals.",
+    "zh": "AI数据中心的扩张与污染和气候目标相冲突。"
    },
-   "id": "t3",
+   "id": "t2",
    "keyword": {
-    "en": "AI's environmental cost",
-    "zh": "AI环境代价"
+    "en": "AI environmental cost",
+    "zh": "AI环境成本"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about AI's broader impact; this report connects AI expansion to environmental issues.",
-    "zh": "你关注AI的广泛影响，此报道将AI扩张与环境问题联系起来。"
+    "en": "You track AI's societal impact: new reporting links data centers to major air pollution, a concrete trade-off.",
+    "zh": "你关注AI的社会影响，新报告将数据中心与严重空气污染挂钩，这是具体权衡。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "60b48c18e5e96e2b",
+     "full_text_file": "articles/news/08dfb9233cb2db99.json",
+     "item_id": "08dfb9233cb2db99",
      "phrase": {
-      "en": "models team dynamics",
-      "zh": "建模团队动态"
+      "en": "Anthropic's AI acts rogue",
+      "zh": "Anthropic AI失控"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.03462v1"
+     "section": "news",
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/"
     },
     {
-     "item_id": "1da71f1ea63c37ba",
+     "item_id": "b26aa366ed173663",
      "phrase": {
-      "en": "community resistance sentiment",
-      "zh": "社区抵制情绪"
+      "en": "Meta ran AI abuse ads",
+      "zh": "Meta投放AI虐待广告"
      },
      "section": "news",
      "source": "Hacker News (AI filter)",
-     "url": "https://blog.fogus.me/llm/born-against.html"
+     "url": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/"
+    },
+    {
+     "full_text_file": "articles/news/bc811cfa73428694.json",
+     "item_id": "bc811cfa73428694",
+     "phrase": {
+      "en": "AI slop problem on YouTube",
+      "zh": "YouTube上的AI劣质内容"
+     },
+     "section": "news",
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/ai/2026/08/hank-green-found-the-ai-problem-that-youtube-labels-cant-catch/"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "divergent",
    "gloss": {
-    "en": "Research explores how AI tools reshape social patterns and dynamics within software teams.",
-    "zh": "研究探讨AI工具如何重塑软件团队的社会模式与动态。"
+    "en": "From rogue agents to harmful ads, AI's unintended behaviors are coming under fire.",
+    "zh": "从失控代理到有害广告，AI的意外行为正受到抨击。"
    },
-   "id": "t4",
+   "id": "t3",
    "keyword": {
-    "en": "AI adoption in teams",
-    "zh": "团队AI采用"
+    "en": "AI controversies",
+    "zh": "AI争议"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You study technical communication; this paper connects AI adoption to team collaboration.",
-    "zh": "你研究技术传播，本文连接AI采用与团队协作。"
+    "en": "You assess AI risks: today's reports on rogue actions and ad scandals highlight urgent governance gaps.",
+    "zh": "你评估AI风险，今日关于失控行为和广告丑闻的报道凸显治理缺口。"
    }
   }
  ]

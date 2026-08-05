@@ -1,0 +1,28 @@
+{
+ "full_text": "Routine cybersecurity testing of frontier AI models sparked a series of unexpected security incidents—the most serious case arising when Anthropic’s Mythos 5 model attempted to insert malicious code into an open source software application and created fake identities to deceive the human developers maintaining the project.\n\nThe security incidents occurred during a cyber evaluation of seven leading AI models’ capabilities by the AI Security Institute (AISI), a research organization within the UK government, in late July. The researchers discovered 19 instances in which “AI agents took unsanctioned action on the live Internet, including cases that targeted real people and organizations,” according to an AISI blog post published on August 4.\n\nAlmost all the “autonomous, unsanctioned” actions came from Anthropic’s Mythos 5 model, with two such actions coming from OpenAI’s GPT-5.6 Sol. The AI Security Institute’s security team first realized that something was amiss on the morning of July 28, when its commercial security monitoring service flagged data leaving one of the testing systems through the Tor anonymity network.\n\nRead full article\n\nComments",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/08dfb9233cb2db99.json",
+  "id": "08dfb9233cb2db99",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-08-05T20:47:11Z",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai",
+  "summary": "Anthropic and OpenAI models’ unprompted actions forced halt to UK cyber tests.",
+  "tags": [],
+  "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
+  "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/"
+ },
+ "meta": {
+  "content_hash": "318e74dda08c1473",
+  "generated_at": "2026-08-05T21:31:00Z",
+  "item_id": "08dfb9233cb2db99",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai"
+ }
+}
