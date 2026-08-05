@@ -1,0 +1,168 @@
+{
+ "meta": {
+  "count": 4,
+  "generated_at": "2026-08-05T19:52:13Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "1da71f1ea63c37ba",
+     "phrase": {
+      "en": "argues against LLM use",
+      "zh": "反对使用大模型"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://blog.fogus.me/llm/born-against.html"
+    },
+    {
+     "item_id": "b87be8e2095c4982",
+     "phrase": {
+      "en": "evaluates LLMs in education",
+      "zh": "评估教育中大模型"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.04006v1"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Hobbyist coders push back against using LLMs, fearing loss of craft and community values.",
+    "zh": "业余编码者抵制大模型，忧虑技艺与社区价值流失。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "LLM opposition in hobby coding",
+    "zh": "爱好编程抵制大模型"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about AI in practice; today's essay sparks debate on AI's role in coding culture.",
+    "zh": "你关注AI实践，今日文章引发对AI在编程文化中角色的讨论。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "full_text_file": "articles/news/04c64c9cb86c462b.json",
+     "item_id": "04c64c9cb86c462b",
+     "phrase": {
+      "en": "announces AI moderation tools",
+      "zh": "宣布AI审核工具"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform"
+    },
+    {
+     "item_id": "1da71f1ea63c37ba",
+     "phrase": {
+      "en": "community resistance to AI",
+      "zh": "社区抵制AI"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://blog.fogus.me/llm/born-against.html"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Reddit introduces LLM-based moderators, raising questions about automation and community trust.",
+    "zh": "Reddit引入大模型版主，引发对自动化与社区信任的疑问。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "AI moderation on Reddit",
+    "zh": "Reddit AI审核"
+   },
+   "relates_to": [
+    "t1"
+   ],
+   "why_now": {
+    "en": "You follow human-AI interaction; this is a real-world deployment affecting online communities.",
+    "zh": "你关注人机交互，这是影响在线社区的现实部署。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "59280d04c995e906",
+     "phrase": {
+      "en": "links AI to pollution",
+      "zh": "将AI与污染关联"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/05/climate/data-centers-pollution-trump-ai-energy.html"
+    },
+    {
+     "item_id": "de1fcd2fed5526a9",
+     "phrase": {
+      "en": "focuses on sales growth",
+      "zh": "聚焦销售增长"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://www.bloomberg.com/news/articles/2026-08-05/microsoft-s-ai-sales-mostly-come-from-openai-disclosures-show"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "AI data centers demand huge energy, leading to air pollution and climate concerns.",
+    "zh": "AI数据中心能耗巨大，引发空气污染与气候担忧。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "AI's environmental cost",
+    "zh": "AI环境代价"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about AI's broader impact; this report connects AI expansion to environmental issues.",
+    "zh": "你关注AI的广泛影响，此报道将AI扩张与环境问题联系起来。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "60b48c18e5e96e2b",
+     "phrase": {
+      "en": "models team dynamics",
+      "zh": "建模团队动态"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.03462v1"
+    },
+    {
+     "item_id": "1da71f1ea63c37ba",
+     "phrase": {
+      "en": "community resistance sentiment",
+      "zh": "社区抵制情绪"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://blog.fogus.me/llm/born-against.html"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Research explores how AI tools reshape social patterns and dynamics within software teams.",
+    "zh": "研究探讨AI工具如何重塑软件团队的社会模式与动态。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "AI adoption in teams",
+    "zh": "团队AI采用"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You study technical communication; this paper connects AI adoption to team collaboration.",
+    "zh": "你研究技术传播，本文连接AI采用与团队协作。"
+   }
+  }
+ ]
+}

@@ -1,28 +1,48 @@
 {
- "brief": "Today's news spans political strategy, space debris, and Middle East tensions, while papers focus on AI visual analytics and health data interpretation.",
- "meta": {
-  "generated_at": "2026-08-05T17:52:56Z"
+ "apropos_of_nothing": {
+  "query": "yodeling contest OR country yodeling",
+  "source": {
+   "name": "The Tennessean",
+   "published_at": "2026-07-31T10:04:00Z",
+   "title": "K. Michelle will release her first country album, and it's a homecoming",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTTM1ZGhWTUp0cFUyY2lUTXRJNUY4ZXA0VmkwR19vVXJzMk51VWtPZTVfRlRzay03cUduamVvc3ZBb2dlWERjNWJwZ3p1cmFadG84N3hhcnZ1em84ZmV0VTVaMFlnUndPTkJSUFMxWFJpLVlQdVhLd2xITkxGaGZDNVlqTERqQUpuZkZON0ZzQXY0LXpkVGhmTFBxMDRyNExHRW1CQWl0cTF1Tk53SDVvdThDOVpGQQ?oc=5"
+  },
+  "summaries": {
+   "en": {
+    "summary": "K. Michelle is set to release her debut country album, rooted in her Southern homecoming.",
+    "why_irrelevant": "This music news is far from your usual tech and startup feed."
+   },
+   "zh": {
+    "summary": "K. Michelle即将发行她的首张乡村专辑，源自她的南方归乡之旅。",
+    "why_irrelevant": "这则音乐新闻与您常看的科技和创业内容相去甚远。"
+   }
+  },
+  "topic": "competitive yodeling championships"
  },
- "news_summary": "News highlights include Michigan's progressive primary win, Trump's financial gains, SpaceX moon impact, and Iran's Hormuz negotiations.",
- "papers_summary": "Research explores enhancing AI transparency in education and visualizing knowledge graphs with LLMs, plus wearable health insights.",
+ "brief": "Today's news spans geopolitical tensions in the Middle East, public health leadership changes, and AI's growing influence in Africa, while papers focus on human-computer interaction, from LLM evaluation to data visualization.",
+ "meta": {
+  "generated_at": "2026-08-05T19:52:13Z"
+ },
+ "news_summary": "Headlines include Israel's strike on Lebanon, Senate confirmation of new CDC director, Iran-Oman Hormuz route agreement, and U.S. consulate closures; also notable are AI's expansion in Africa and debates on self-diagnosis culture.",
+ "papers_summary": "Research highlights novel approaches in human-computer interaction, including LLM evaluation in education, knowledge graph visualization, and wearable health insights, alongside studies on academic transitions and software engineering.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans political strategy, space debris, and Middle East tensions, while papers focus on AI visual analytics and health data interpretation.",
-   "news_summary": "News highlights include Michigan's progressive primary win, Trump's financial gains, SpaceX moon impact, and Iran's Hormuz negotiations.",
-   "papers_summary": "Research explores enhancing AI transparency in education and visualizing knowledge graphs with LLMs, plus wearable health insights."
+   "brief": "Today's news spans geopolitical tensions in the Middle East, public health leadership changes, and AI's growing influence in Africa, while papers focus on human-computer interaction, from LLM evaluation to data visualization.",
+   "news_summary": "Headlines include Israel's strike on Lebanon, Senate confirmation of new CDC director, Iran-Oman Hormuz route agreement, and U.S. consulate closures; also notable are AI's expansion in Africa and debates on self-diagnosis culture.",
+   "papers_summary": "Research highlights novel approaches in human-computer interaction, including LLM evaluation in education, knowledge graph visualization, and wearable health insights, alongside studies on academic transitions and software engineering."
   },
   "zh": {
-   "brief": "今日新闻聚焦中国与印尼的卫星合作、台湾汉光演习及东海新设施等区域安全议题，同时霍爾木茲海峽的生态风险引发关注；研究方面，多篇论文探讨AI在教育、知识图谱可视化及健康监测中的应用。",
-   "news_summary": "中国与印尼合作卫星在楠榜省投入使用，带来探测资源便利但引发数据安全担忧；台湾汉光演习即将展开，重点转向军民结合与城市防御；东海新设施引发日本抗议，分析认为北京或试探美国态度。",
-   "papers_summary": "多篇研究关注LLM在教育评估与知识图谱可视化中的应用，同时涉及AI辅助开发对团队协作的影响以及可穿戴设备健康数据分析。"
+   "brief": "今日新闻聚焦中国与印尼的卫星合作、台湾汉光演习、霍尔木兹海峡的生态风险及中国东海新设施等议题；研究方面则关注LLM教育评估、知识图谱可视化等。",
+   "news_summary": "中国与印尼合作发射卫星引发数据安全担忧；台湾汉光演习强调军民结合；霍尔木兹海峡滞留船只可能带来入侵物种传播风险；中国在东海新设构造物引发日本抗议。",
+   "papers_summary": "研究关注LLM在教育中的评估可视化、知识图谱简化技术，以及AI对软件工程团队社会模式的影响。"
   }
  },
  "todays_image": {
-  "caption": "Just as an observatory scans the horizon for unseen possibilities, El-Sayed’s progressive vision looks ahead to chart a hopeful new path to victory.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-AD220067FAA62-000001",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/36474",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-AD220067FAA62-000001",
-  "title": "L’OBSERVATOIRE"
+  "caption": "Just as the American-French Conference once symbolized diplomatic negotiation, today's cease-fire is now shattered by strikes, proving that talk can only hold peace for so long.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-2011-04024",
+  "source_name": "National Museum of American History",
+  "source_url": null,
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-2011-04024&max=150",
+  "title": "American-French Conference"
  }
 }
