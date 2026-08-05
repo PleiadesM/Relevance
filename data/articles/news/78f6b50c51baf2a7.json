@@ -1,0 +1,30 @@
+{
+ "full_text": "We were pretty sure that Fenix Flexin's \"Rubberz\" was made using AI, but musician Medasin was confident that it was made using Treblo specifically. Now the company and a new detection tool seem to confirm it.\n\nOn Monday, the company announced the open-source Treblo AI Music Classifier , which detects when a song was generated using Treblo, though not other AI tools. According to a blog post, it has a false positive rate of less than 1 in 1,000. That's not unimpeachable, but it's notable that the company's own Classifier determined that \"Rubberz\" was \"very likely Treblo\" with \"high confidence,\" adding more fuel to the PR nightmare for Fenix.\n\n…\n\nRead the full story at The Verge.",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/78f6b50c51baf2a7.json",
+  "id": "78f6b50c51baf2a7",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-08-05T16:57:25Z",
+  "section": "news",
+  "source": "The Verge · AI",
+  "source_id": "verge_ai",
+  "summary": "We were pretty sure that Fenix Flexin's \"Rubberz\" was made using AI, but musician Medasin was confident that it was made using Treblo specifically. Now the company and a new detection tool seem to confirm it. On Monday, the company announced the open-source Treblo AI Music Classifier, which detects…",
+  "tags": [
+   "dev-tools"
+  ],
+  "title": "Sure seems like Fenix Flexin used AI music generator Treblo",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo"
+ },
+ "meta": {
+  "content_hash": "29f94b8ec547c4ba",
+  "generated_at": "2026-08-05T17:52:56Z",
+  "item_id": "78f6b50c51baf2a7",
+  "section": "news",
+  "source": "The Verge · AI",
+  "source_id": "verge_ai"
+ }
+}
