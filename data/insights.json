@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "query": "(\"sheep shearing competition\" OR \"golden shears\")",
   "source": {
-   "name": "fox13seattle.com",
-   "published_at": "2026-08-04T02:45:00Z",
-   "title": "Tickets going on sale for Seattle , WA Great Pumpkin Beer Festival",
-   "url": "https://www.fox13seattle.com/news/great-pumpkin-beer-festival-tickets"
+   "name": "inverness-courier.co.uk",
+   "published_at": "2026-08-05T11:15:00Z",
+   "title": "Black Isle Show 2026 all set to attract thousands to Highland biggest agricultural event of year",
+   "url": "https://www.inverness-courier.co.uk/news/scene-set-for-two-day-black-isle-show-2026-441756/"
   },
   "summaries": {
    "en": {
-    "summary": "Tickets for Seattle's Great Pumpkin Beer Festival go on sale next August.",
-    "why_irrelevant": "A festive beer event far removed from typical tech or news feeds."
+    "summary": "The Black Isle Show 2026, the Highland's largest agricultural event, is expected to draw thousands of visitors.",
+    "why_irrelevant": "a niche rural fair far from your urban feed"
    },
    "zh": {
-    "summary": "西雅图大南瓜啤酒节门票将于明年八月开售。",
-    "why_irrelevant": "一场与常见新闻或技术动态无关的啤酒节活动。"
+    "summary": "黑岛展2026年作为高地最大的农业活动，预计吸引成千上万的游客。",
+    "why_irrelevant": "与你的城市信息流相距甚远的乡村博览会"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "competitive sheep shearing championships"
  },
- "brief": "Today's headlines are dominated by Russia's deadly missile attack on Kyiv, highlighting Ukraine's critical air defense shortages, alongside U.S. political primaries and tech tax revelations. Research focuses on AI-assisted visual analytics and health data insights.",
+ "brief": "Today's news is dominated by the Michigan primary where progressive Abdul El-Sayed won, plus security incidents involving a drone at a German airport and an armed man near Trump's golf course. In tech, SpaceX's earnings report spooked investors, and AI continues to be a hot topic. Research focuses on human-computer interaction, particularly evaluating and visualizing AI systems.",
  "meta": {
-  "generated_at": "2026-08-05T10:45:16Z"
+  "generated_at": "2026-08-05T14:30:43Z"
  },
- "news_summary": "Russia's missile strike on Kyiv killed at least 17, with Ukraine lacking interceptors; U.S. primaries show mixed results for progressives and moderates; Palantir's low tax bill sparks debate.",
- "papers_summary": "Papers explore LLM evaluation in education, knowledge graph simplification via semantic bundling, and wearable data for health insights, among other HCI and visualization topics.",
+ "news_summary": "Political news features Abdul El-Sayed's victory in Michigan's Democratic Senate primary, a drone carrying explosives found near Ukrainian planes in Germany, and an armed man arrested near Trump's golf course. Also noted: a stabbing in Covent Garden, rising Iran executions, and UK sheep bluetongue outbreak.",
+ "papers_summary": "Research papers highlight human-computer interaction, with studies on evaluating LLMs in education, semantic bundling for knowledge graphs, chart annotation with MLLMs, AI adoption in software teams, wearable health insights, and neural decoding. These papers emphasize improving AI visualization and trustworthiness.",
  "summaries": {
   "en": {
-   "brief": "Today's headlines are dominated by Russia's deadly missile attack on Kyiv, highlighting Ukraine's critical air defense shortages, alongside U.S. political primaries and tech tax revelations. Research focuses on AI-assisted visual analytics and health data insights.",
-   "news_summary": "Russia's missile strike on Kyiv killed at least 17, with Ukraine lacking interceptors; U.S. primaries show mixed results for progressives and moderates; Palantir's low tax bill sparks debate.",
-   "papers_summary": "Papers explore LLM evaluation in education, knowledge graph simplification via semantic bundling, and wearable data for health insights, among other HCI and visualization topics."
+   "brief": "Today's news is dominated by the Michigan primary where progressive Abdul El-Sayed won, plus security incidents involving a drone at a German airport and an armed man near Trump's golf course. In tech, SpaceX's earnings report spooked investors, and AI continues to be a hot topic. Research focuses on human-computer interaction, particularly evaluating and visualizing AI systems.",
+   "news_summary": "Political news features Abdul El-Sayed's victory in Michigan's Democratic Senate primary, a drone carrying explosives found near Ukrainian planes in Germany, and an armed man arrested near Trump's golf course. Also noted: a stabbing in Covent Garden, rising Iran executions, and UK sheep bluetongue outbreak.",
+   "papers_summary": "Research papers highlight human-computer interaction, with studies on evaluating LLMs in education, semantic bundling for knowledge graphs, chart annotation with MLLMs, AI adoption in software teams, wearable health insights, and neural decoding. These papers emphasize improving AI visualization and trustworthiness."
   },
   "zh": {
-   "brief": "今日焦点包括台湾汉光演习强调军民结合，中国新出入境规定引发讨论，以及俄罗斯对基辅的导弹袭击导致17人死亡。",
-   "news_summary": "台湾汉光演习展示城市防御和韧性训练；中国新出入境管理法引发对自由限制的担忧；俄罗斯袭击基辅致多人死亡，呼吁加强防空。",
-   "papers_summary": "研究关注大型语言模型在教育中的评估、知识图谱可视化及多模态模型图表注释等，旨在提升AI在专业领域的可用性。"
+   "brief": "今日重點涵蓋台灣漢光演習提升城市防禦、中國與印尼衛星合作的資料安全疑慮，以及霍爾木茲海峽船隻可能引發的生態風險。學術研究聚焦於AI輔助教育評估與視覺化工具。",
+   "news_summary": "台灣漢光演習即將展開，強調軍民結合與城市韌性；中國與印尼的衛星合作帶來經濟利益但引發安全憂慮；霍爾木茲海峽擱淺船隻恐成入侵物種傳播源。",
+   "papers_summary": "多篇論文探討大型語言模型在教育中的信任度校準與知識圖譜視覺化，以及穿戴式數據轉化為健康建議的應用。"
   }
  },
  "todays_image": {
-  "caption": "The SS-20 \"Pioneer\" is a vintage ghost of Russia's missile legacy, now reincarnated in the very strikes exploiting Ukraine's empty skies.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19900275000-NASM2018-10083-000002",
-  "source_name": "National Air and Space Museum",
-  "source_url": "http://n2t.net/ark:/65665/nv9b59da589-4c0b-4ed0-9fc1-c9dd369cfab8",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19900275000-NASM2018-10083-000002",
-  "title": "Missile, Surface-to-Surface, SS-20 \"Pioneer\""
+  "caption": "The drone in the sky and the \"Drone Fly\" in the image share a name, but only one of them was built to carry a payload.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3697394922d3345399d58f3b41c5d8a50",
+  "source_name": "NMNH - Education & Outreach",
+  "source_url": "http://n2t.net/ark:/65665/3fd218074-dc14-42e3-a448-c344dd03e802",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3697394922d3345399d58f3b41c5d8a50/90",
+  "title": "Drone Fly"
  }
 }

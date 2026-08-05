@@ -2,32 +2,6 @@
  "items": [
   {
    "authors": [
-    "Vahid Ghasemi",
-    "Zahra Bakhshi",
-    "Mohammadhossein Zamanian"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "🏥 Hospital-Acquired Infection (HAI) Prediction Dataset A comprehensive dataset of in-patient admission records from emergency and hospital wards, including demographic information, vital signs, laboratory results, and clinical outcomes. 📊 Overview This dataset includes 119,743 hospital admission records with 32 clinical and demographic features. The data is derived from real‑world hospital records spanning the years June 2023 – February 2026 at Imam-Reza Hospital, Kermanshah, Iran. The…",
-    "citations": 0,
-    "doi": "10.5281/zenodo.21777046"
-   },
-   "id": "a6e7a68c5b51b788",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-05T00:00:00Z",
-   "score": 0.5804,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "🏥 Hospital-Acquired Infection (HAI) Prediction Dataset A comprehensive dataset of in-patient admission records from emergency and hospital wards, including demographic information, vital signs, laboratory results, and clinical outcomes. 📊 Overview This dataset includes 119,743 hospital admission…",
-   "tags": [],
-   "title": "Hospital-Acquired Infection (HAI) Prediction Dataset",
-   "url": "https://doi.org/10.5281/zenodo.21777046",
-   "venue": "Zenodo (CERN European Organization for Nuclear Research)"
-  },
-  {
-   "authors": [
     "Adam Coscia",
     "Sujata Duwal",
     "Langdon Holmes",
@@ -43,7 +17,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-04T17:59:20Z",
-   "score": 0.9011,
+   "score": 0.885,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -75,7 +49,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-04T17:58:05Z",
-   "score": 0.5685,
+   "score": 0.5524,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -106,7 +80,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-04T11:01:38Z",
-   "score": 0.8718,
+   "score": 0.8569,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -137,7 +111,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-04T10:57:42Z",
-   "score": 0.6915,
+   "score": 0.6767,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -165,7 +139,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-04T07:23:46Z",
-   "score": 0.5249,
+   "score": 0.5107,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -193,7 +167,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-04T06:08:11Z",
-   "score": 0.6726,
+   "score": 0.6586,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -224,7 +198,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-04T05:00:52Z",
-   "score": 0.5158,
+   "score": 0.502,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -250,7 +224,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-04T02:41:53Z",
-   "score": 0.6597,
+   "score": 0.6463,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -261,63 +235,6 @@
    "title": "Integration Barriers in Open-Source SSI Frameworks: An Exploratory Developer Experience Probe",
    "url": "https://arxiv.org/abs/2608.03039v1",
    "venue": "arXiv cs.SE"
-  },
-  {
-   "authors": [
-    "Putu Abel Nugraha Ardyan",
-    "Qi Adlan",
-    "- Suryantini",
-    "Eril Suhada Lanin",
-    "Asti Gindasari Masse"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract Recent geopolitical instability in the Middle East, accompanied by significant increases in global oil and gas prices, has further exposed the vulnerability of fossil fuel-dependent energy systems. Concurrently, global commitments toward decarbonization and sustainable development have accelerated the transition toward renewable energy sources. Among the available alternatives, geothermal energy offers a reliable and low-carbon solution, especially in Indonesia, where substantial…",
-    "citations": 0,
-    "doi": "10.2118/233103-ms"
-   },
-   "id": "2021d40d6bc61d4e",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-04T00:00:00Z",
-   "score": 0.5039,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract Recent geopolitical instability in the Middle East, accompanied by significant increases in global oil and gas prices, has further exposed the vulnerability of fossil fuel-dependent energy systems. Concurrently, global commitments toward decarbonization and sustainable development have…",
-   "tags": [
-    "systems"
-   ],
-   "title": "Casing Program and Well Trajectory Design for a Geothermal Well Based on Stratigraphic Analysis of the Malili Sheet: A Conceptual Study in the Parara Geothermal Prospect, South Sulawesi, Indonesia",
-   "url": "https://doi.org/10.2118/233103-ms",
-   "venue": null
-  },
-  {
-   "authors": [
-    "Aleksandar Anžel",
-    "Georges Hattab"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract Radial visualization has gained prominence as a versatile approach to exploring complex, multivariate data in information visualization research and practice. However, the interactive potential of radial visualizations remains under-synthesized across existing high-level visualization libraries. In this work, we build upon Kosara et al.’s interaction taxonomy and Draper et al.’s seven radial design patterns to provide a systematic review of peer-reviewed studies and commercial systems,…",
-    "citations": 0,
-    "doi": "10.1007/s10791-026-10416-2"
-   },
-   "id": "193bcf6bd9b211e2",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-04T00:00:00Z",
-   "score": 0.5039,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract Radial visualization has gained prominence as a versatile approach to exploring complex, multivariate data in information visualization research and practice. However, the interactive potential of radial visualizations remains under-synthesized across existing high-level visualization…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "Limitations of interaction techniques in modern radial chart implementations",
-   "url": "https://doi.org/10.1007/s10791-026-10416-2",
-   "venue": "Discover Computing"
   },
   {
    "authors": [
@@ -343,7 +260,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-03T17:30:00Z",
-   "score": 0.4754,
+   "score": 0.4633,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -370,7 +287,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-03T17:10:28Z",
-   "score": 0.4743,
+   "score": 0.4623,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -398,7 +315,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-03T13:48:52Z",
-   "score": 0.7961,
+   "score": 0.7845,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -428,7 +345,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-03T08:40:43Z",
-   "score": 0.6404,
+   "score": 0.6296,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -458,7 +375,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-03T04:04:04Z",
-   "score": 0.6272,
+   "score": 0.6169,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -470,36 +387,6 @@
    "title": "CellPrism: A Visual Analytics System for Exploring AI-Driven Virtual Cells in Drug Discovery",
    "url": "https://arxiv.org/abs/2608.01669v2",
    "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Şahsenem Öz",
-    "Bahadır Namdar",
-    "Tuğba Yüksel",
-    "İbrahim Delen",
-    "Gökhan İnce"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Augmented Reality (AR) combines real-world experiences with virtual elements and offers various positive educational outcomes. However, one obstacle hindering AR’s use in education is teachers’ limited pedagogical knowledge regarding the instructional implementation of AR in teaching. Supporting teachers with professional development programmes to integrate this novel technology into education is salient. Thus, this study analysed 17 professional development programmes focused on integrating AR…",
-    "citations": 0,
-    "doi": "10.70232/jcsml.v3i2.65"
-   },
-   "id": "c23c2789b118511d",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-03T00:00:00Z",
-   "score": 0.3089,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Augmented Reality (AR) combines real-world experiences with virtual elements and offers various positive educational outcomes. However, one obstacle hindering AR’s use in education is teachers’ limited pedagogical knowledge regarding the instructional implementation of AR in teaching. Supporting…",
-   "tags": [
-    "systems"
-   ],
-   "title": "A Systematic Literature Review of Augmented Reality–Oriented Professional Development Programs for Teachers",
-   "url": "https://doi.org/10.70232/jcsml.v3i2.65",
-   "venue": "Journal of Computers for Science and Mathematics Learning"
   },
   {
    "authors": [
@@ -519,7 +406,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-02T20:17:56Z",
-   "score": 0.4139,
+   "score": 0.4046,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -533,8 +420,8 @@
   }
  ],
  "meta": {
-  "count": 18,
-  "generated_at": "2026-08-05T10:45:16Z",
+  "count": 14,
+  "generated_at": "2026-08-05T14:30:43Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -552,7 +439,7 @@
    },
    {
     "category": "optional",
-    "count": 50,
+    "count": 0,
     "error": null,
     "full_text_count": 0,
     "id": "openalex_datavis",
@@ -577,7 +464,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A1050-6519%2Cfrom-created-date%3A2026-07-08&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-08&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
@@ -588,7 +475,7 @@
    },
    {
     "category": "optional",
-    "count": 40,
+    "count": 0,
     "error": null,
     "full_text_count": 0,
     "id": "openalex_techcomm",
