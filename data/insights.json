@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"snail race championship\" OR \"giant snail\"",
+  "query": "noodle pulling competition OR hand pulled noodles contest",
   "source": {
-   "name": "CiberCuba",
-   "published_at": "2026-07-31T18:30:17Z",
-   "title": "\"They are in my yard and reach up to the door\": alarm grows in Matanzas over the African giant snail",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVjQwYm1IUXJ2ank4OVp1TmF4enlhQ2Nucm1CT180VXpJMnYxNUZTbEpQNHNXWDhjZDR6ZGFXUGhtX04zYVd4N0E5dEZ3S01qVUt3MEdaNld1RmY4TWZqRDBDZVhBdUVlVmFua0pEQW5ibWNXMkUwNHlEVTcyTUVaNG1mTWExTWgwTWN4dlR0R1ctdDg0M2Q4a0hobUZ4UTJTcmc3LWNNSUIwcDZkUUVTSXV4SG1JM1FlcHRUd2tRS1E?oc=5"
+   "name": "조선일보",
+   "published_at": "2026-08-03T07:05:10Z",
+   "title": "Kim Do-yoon and Kim Seo-yeon Co-Run Restaurant after Four-Year Romance",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOc2RveGM5bE94V3dFMXJ1YS1NVVFiTkp0T3VYcUllMkNhdFJPbzc4Q29KaFZ0Y1ZuU3Bjdk1aRG5GN2NJV1ZCbG1MVTNYem93WVFmTTRXM1JYM3VkbGc2bVpmbm9DQUVoVFVBUXFyRGJvelYxNmZVXzJldFFGUFFLT0JhQ0lKUHRlSV9UblRn?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "Residents in Matanzas are alarmed by invasive African giant snails reaching their doorsteps.",
-    "why_irrelevant": "A local environmental nuisance far removed from typical dashboard topics."
+    "summary": "A Korean couple co-runs a restaurant after a four-year romance, highlighting their personal life over culinary craft.",
+    "why_irrelevant": "Focuses on celebrity relationship dynamics, not noodle-making technique."
    },
    "zh": {
-    "summary": "马坦萨斯居民对入侵的非洲大蜗牛到达家门口感到恐慌。",
-    "why_irrelevant": "本地环境问题，远离常规信息流主题。"
+    "summary": "一对韩国情侣相恋四年后共同经营餐厅，关注点在于他们的私生活而非面食技艺。",
+    "why_irrelevant": "侧重于名人恋情，而非拉面工艺。"
    }
   },
-  "topic": "competitive snail racing"
+  "topic": "competitive noodle pulling championships"
  },
- "brief": "Markets rally on peace hopes while wildfires, political scandals, and international tensions dominate the day; AI research focuses on visualization, evaluation, and integration barriers.",
+ "brief": "Today's news is dominated by geopolitical tensions, including a deadly Russian strike on Kyiv, EU border crises in Ceuta, and Saudi-led acquisition of EA, while research focuses on AI evaluation in education and visualization techniques.",
  "meta": {
-  "generated_at": "2026-08-05T03:29:28Z"
+  "generated_at": "2026-08-05T06:39:56Z"
  },
- "news_summary": "ASX hits record high on peace optimism; wildfires in Washington and threats near Trump's golf course highlight security concerns; political stories include Icac findings in Australia and Missouri primary results.",
- "papers_summary": "Research highlights include datasets for hospital infections, methods for evaluating LLMs in education, and studies on AI adoption in software teams and wearable health insights.",
+ "news_summary": "Major headlines include Russian missile strikes killing 14 in Kyiv, Saudi-led group buying EA for $55bn, and various political and social issues from Australia to the US.",
+ "papers_summary": "Research highlights include datasets for hospital-acquired infections, co-designing metrics for LLMs in education, and techniques like semantic bundling for knowledge graphs.",
  "summaries": {
   "en": {
-   "brief": "Markets rally on peace hopes while wildfires, political scandals, and international tensions dominate the day; AI research focuses on visualization, evaluation, and integration barriers.",
-   "news_summary": "ASX hits record high on peace optimism; wildfires in Washington and threats near Trump's golf course highlight security concerns; political stories include Icac findings in Australia and Missouri primary results.",
-   "papers_summary": "Research highlights include datasets for hospital infections, methods for evaluating LLMs in education, and studies on AI adoption in software teams and wearable health insights."
+   "brief": "Today's news is dominated by geopolitical tensions, including a deadly Russian strike on Kyiv, EU border crises in Ceuta, and Saudi-led acquisition of EA, while research focuses on AI evaluation in education and visualization techniques.",
+   "news_summary": "Major headlines include Russian missile strikes killing 14 in Kyiv, Saudi-led group buying EA for $55bn, and various political and social issues from Australia to the US.",
+   "papers_summary": "Research highlights include datasets for hospital-acquired infections, co-designing metrics for LLMs in education, and techniques like semantic bundling for knowledge graphs."
   },
   "zh": {
-   "brief": "今日焦点集中在台湾汉光演习的军民结合新战略、俄罗斯伤兵被送回前线的指控，以及中国对出入境自由的新定义；学术方面则关注LLM在教育中的评估与可视化研究。",
-   "news_summary": "台湾汉光演习强调军民结合与城市防御；俄罗斯被曝将伤兵重新送回前线；中国新出入境规定引发广泛讨论。",
-   "papers_summary": "多项研究聚焦LLM在教育中的应用评估、知识图谱的可视化简化，以及可穿戴数据用于个性化健康洞察。"
+   "brief": "今日新闻聚焦两岸关系、中东航道生态风险、俄罗斯伤员处置等议题，同时研究界关注AI在教育、图表生成和知识图谱方面的应用。",
+   "news_summary": "台湾汉光演习强调军民结合，中国锡安教会牧师获释后受访，中国新出入境规定引发讨论，中东油轮在红海受威胁程度升高。",
+   "papers_summary": "有多篇关于AI在教育评估、图表注释生成、知识图谱简化等方向的研究，另有一项关于医院感染预测数据集的工作。"
   }
  },
  "todays_image": {
-  "caption": "The aster-like wildflower in the public domain image, with its star-shaped blooms, mirrors the bright optimism of investors pushing the ASX to a record high on hopes of peace.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3d1b2a964-ed98-4ee0-8f71-927381c84000",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c/90",
-  "title": "Chaetopappa asteroides (Nutt.) DC."
+  "caption": "Just as Anthony's cactus mouse adapts to survive in the desert, the Saudi-led group turned its arid kingdom's oil riches into a foothold in the virtual oases of EA's gaming empire.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m374db4edc105043179788eaf6087a7117",
+  "source_name": "NMNH - Vertebrate Zoology - Mammals Division",
+  "source_url": "http://n2t.net/ark:/65665/3004d920f-d885-4707-93a4-b2fd85934304",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m374db4edc105043179788eaf6087a7117/90",
+  "title": "Peromyscus eremicus anthonyi"
  }
 }
