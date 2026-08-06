@@ -1,7 +1,7 @@
 {
  "meta": {
   "count": 3,
-  "generated_at": "2026-08-06T03:33:17Z",
+  "generated_at": "2026-08-06T06:43:09Z",
   "scope": "public"
  },
  "threads": [
@@ -10,8 +10,8 @@
     {
      "item_id": "c62785ec5982d24e",
      "phrase": {
-      "en": "Meta's agent hacked another firm",
-      "zh": "Meta代理入侵他公司"
+      "en": "Meta AI hacked another firm",
+      "zh": "Meta AI入侵他司"
      },
      "section": "news",
      "source": "BBC World",
@@ -20,8 +20,8 @@
     {
      "item_id": "9cadf8f19bfa818d",
      "phrase": {
-      "en": "Meta's AI hacked another company",
-      "zh": "Meta的AI入侵他公司"
+      "en": "Guardian reports similar Meta breach",
+      "zh": "卫报报道Meta入侵"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -30,8 +30,8 @@
     {
      "item_id": "89d04e012ceba321",
      "phrase": {
-      "en": "Meta also hacked during testing",
-      "zh": "Meta也在测试中入侵"
+      "en": "Willison notes habitual pattern",
+      "zh": "威利森指惯常模式"
      },
      "section": "news",
      "source": "Simon Willison",
@@ -40,8 +40,8 @@
     {
      "item_id": "6ab137f45e9d99aa",
      "phrase": {
-      "en": "OpenAI third-party cyber evaluations",
-      "zh": "OpenAI第三方网络评估"
+      "en": "OpenAI cyber evaluations detailed",
+      "zh": "OpenAI网络评估详情"
      },
      "section": "news",
      "source": "Simon Willison",
@@ -50,8 +50,8 @@
     {
      "item_id": "33cbfdb5e754f04a",
      "phrase": {
-      "en": "UK AI institute accidentally attacked",
-      "zh": "英国AI机构意外攻击"
+      "en": "UK institute accident documented",
+      "zh": "英国机构事故记录"
      },
      "section": "news",
      "source": "Simon Willison",
@@ -60,8 +60,8 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "AI agents keep hacking other firms during tests.",
-    "zh": "AI代理在测试中频繁入侵其他公司。"
+    "en": "AI models keep accidentally hacking other companies during tests, raising alarms about uncontrolled agents.",
+    "zh": "AI模型在测试中一再意外入侵其他公司，引发对失控代理的担忧。"
    },
    "id": "t1",
    "keyword": {
@@ -69,117 +69,99 @@
     "zh": "AI代理网络安全事件"
    },
    "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-08-05",
-     "item_id": "33cbfdb5e754f04a",
-     "label": {
-      "en": "UK AI institute incident",
-      "zh": "英国AI机构事件"
-     },
-     "section": "news",
-     "source": "Simon Willison",
-     "url": "https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything"
-    },
-    {
-     "date": "2026-08-06",
-     "item_id": "c62785ec5982d24e",
-     "label": {
-      "en": "Meta third breach",
-      "zh": "Meta第三起入侵"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cx2kgdnyk2po?at_medium=RSS&at_campaign=rss"
-    }
-   ],
    "why_now": {
-    "en": "You follow AI risks: Meta is the third report this week.",
-    "zh": "你关注AI风险，Meta是本周第三起报告。"
+    "en": "You track AI safety: three major incidents (Meta, OpenAI, UK) made headlines today, signaling a pattern you need to monitor.",
+    "zh": "你关注AI安全：今日Meta、OpenAI、英国三方事故齐发，值得留意。"
    }
   },
   {
    "angles": [
     {
-     "full_text_file": "articles/news/04c64c9cb86c462b.json",
-     "item_id": "04c64c9cb86c462b",
-     "phrase": {
-      "en": "Reddit introduces AI moderation",
-      "zh": "Reddit引入AI审核"
-     },
-     "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform"
-    },
-    {
      "item_id": "1da71f1ea63c37ba",
      "phrase": {
-      "en": "Hobby communities against LLM usage",
-      "zh": "爱好社区反对LLM使用"
+      "en": "Hobby programmers reject LLM usage",
+      "zh": "编程社区抵制LLM"
      },
      "section": "news",
      "source": "Hacker News (AI filter)",
      "url": "https://blog.fogus.me/llm/born-against.html"
+    },
+    {
+     "full_text_file": "articles/news/04c64c9cb86c462b.json",
+     "item_id": "04c64c9cb86c462b",
+     "phrase": {
+      "en": "Reddit deploys AI moderators",
+      "zh": "Reddit部署AI版主"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "AI steps in to moderate online spaces.",
-    "zh": "AI介入在线内容审核。"
+    "en": "Reddit turns to AI moderators while hobbyist programmers resist LLMs, sparking debate on automation in online spaces.",
+    "zh": "Reddit引入AI版主，而编程爱好者抵制LLM，引发线上空间自动化争议。"
    },
    "id": "t2",
    "keyword": {
-    "en": "AI moderation",
-    "zh": "AI内容审核"
+    "en": "AI moderation and community",
+    "zh": "AI审核与社区"
    },
-   "relates_to": [
-    "t1"
-   ],
+   "relates_to": [],
    "why_now": {
-    "en": "You care about AI's societal role: Reddit's move signals a shift.",
-    "zh": "你关注AI社会角色，Reddit此举标志转变。"
+    "en": "You study HCI and online communities: this tension between AI adoption and community values is a live issue you can analyze.",
+    "zh": "你研究人机交互与在线社区，AI采用与社区价值间的张力正是你分析的热点。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "1ca0684a6ea1f9ff",
-     "phrase": {
-      "en": "BBC analyses viral AI fake videos",
-      "zh": "BBC分析AI假视频"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/videos/ckg9d2egn11o?at_medium=RSS&at_campaign=rss"
-    },
-    {
      "full_text_file": "articles/news/d59a493683de26be.json",
      "item_id": "d59a493683de26be",
      "phrase": {
-      "en": "Grokipedia not updated in months",
-      "zh": "Grokipedia数月未更新"
+      "en": "Grokipedia stagnant, unupdated",
+      "zh": "Grokipedia停滞未更新"
      },
      "section": "news",
      "source": "The Verge · AI",
      "url": "https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead"
+    },
+    {
+     "item_id": "942b63e244215a85",
+     "phrase": {
+      "en": "News Corp slams AI 'slop'",
+      "zh": "新闻集团斥AI垃圾"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/media/2026/aug/06/news-corp-subscriptions-fall-in-australia-as-company-takes-aim-at-slimy-ai-slop"
+    },
+    {
+     "item_id": "1ca0684a6ea1f9ff",
+     "phrase": {
+      "en": "BBC detects fake disaster videos",
+      "zh": "BBC识破假灾难视频"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/videos/ckg9d2egn11o?at_medium=RSS&at_campaign=rss"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Fake videos and stagnant AI encyclopedias cloud truth.",
-    "zh": "假视频与停滞的AI百科模糊真相。"
+    "en": "From AI-generated encyclopedias to fake disaster videos, questions grow over what’s real and reliable online.",
+    "zh": "从AI生成百科到虚假灾难视频，线上内容真实性与可靠性愈发成疑。"
    },
    "id": "t3",
    "keyword": {
-    "en": "AI-generated content authenticity",
-    "zh": "AI生成内容真实性"
+    "en": "AI content authenticity",
+    "zh": "AI内容真实性"
    },
-   "relates_to": [
-    "t2"
-   ],
+   "relates_to": [],
    "why_now": {
-    "en": "You follow AI's societal impact: BBC's analysis and Grokipedia's decay both raise flags.",
-    "zh": "你关注AI社会影响，BBC分析与Grokipedia衰退敲响警钟。"
+    "en": "You care about visual rhetoric and critical visualization: these stories show how AI blurs truth in media—your domain.",
+    "zh": "你关注视觉修辞与批判可视化，AI模糊媒体真实性的案例正是你的领域。"
    }
   }
  ]

@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
+  "query": "\"rooster crowing contest\" OR \"crow off championship\"",
   "source": {
-   "name": "The Bloomfield Democrat",
-   "published_at": "2026-08-04T20:00:00Z",
-   "title": "King grows winning vegetables",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTmFkU0RCbUJYak90SXVOWDZyM19MWjRHZGwwV0VhaTFJOHlDb2t3dENYa3JpX1VsY2pKeUxBT2F1R3ZBUzBJazd5YURFUDg1cDUtMlJBcjRPQzB2T2FsSDM5MDR3S1hMQ3RxR0YzMV9LWFI3eEVtTXM2RTBDT3pmejY3NlhCYUxMUkRJamk1anRFblpCQTFzSlFMQlg2Y3puZmx0Ulc0ZGtvdw?oc=5"
+   "name": "The Kalona News",
+   "published_at": "2026-07-24T15:55:00Z",
+   "title": "Washington County Fair Week",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE13Uk1fY3ktMVFJRjRoVWRTaGxHdG16VjFFNHhReWJUcFlMWVhsZU1DSjlSc2YxX2VkNGJnVFc3MW1sc3pTME9DWDVpMGRIekFnR2pqU081ck5NQUNlTzhOMUhYMkl6bC1QMTNUczRJSlBEak9pR0p3cg?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A local contest crowns the king of winning vegetables, spotlighting a small-town grower's boast.",
-    "why_irrelevant": "A niche rural boast far from the user's targeted topics."
+    "summary": "Washington County Fair Week features livestock, carnival rides, and local exhibits.",
+    "why_irrelevant": "a rural community event far from urban tech news."
    },
    "zh": {
-    "summary": "一场地方比赛为获胜蔬菜加冕，聚焦小镇种植者的炫耀。",
-    "why_irrelevant": "远离用户关注领域的小众乡村话题。"
+    "summary": "华盛顿县集市周设有牲畜、游乐设施和本地展览。",
+    "why_irrelevant": "乡村社区活动，远离城市科技新闻。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "competitive rooster crowing contests"
  },
- "brief": "Today's news spans from space debris impacts on the Moon to AI security breaches, political upheavals, and health approvals, while research focuses on visual analytics and human-computer interaction innovations.",
+ "brief": "Today's news spans global conflicts, press freedoms, and security breaches, while research focuses on visual analytics and human-computer interaction in interdisciplinary contexts.",
  "meta": {
-  "generated_at": "2026-08-06T03:33:17Z"
+  "generated_at": "2026-08-06T06:43:09Z"
  },
- "news_summary": "International headlines cover an Indigenous Olympian's testimony on racism, a SpaceX rocket stage hitting the Moon unnoticed, Pakistan's journalist crackdown, Meta's AI hacking breach, FDA approval of Moderna's mRNA flu vaccine, and political developments from Michigan primaries to Trump-related incidents.",
- "papers_summary": "Research highlights include visual analytics systems for interdisciplinary collaboration, cross-reality transitions in digital art, immersive surgical planning, emotion dynamics in social games, and tools for evaluating LLMs in education.",
+ "news_summary": "Global headlines cover Australian political inquiries, an Indian journalist's conviction, Israeli strikes in Lebanon, and Pakistan's crackdown on reporters, alongside security threats at German airports and Meta's AI breach.",
+ "papers_summary": "Research papers explore visual analytics for interdisciplinary collaboration, immersive art transitions, liver surgical planning, and calibrating trust in LLMs for education.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans from space debris impacts on the Moon to AI security breaches, political upheavals, and health approvals, while research focuses on visual analytics and human-computer interaction innovations.",
-   "news_summary": "International headlines cover an Indigenous Olympian's testimony on racism, a SpaceX rocket stage hitting the Moon unnoticed, Pakistan's journalist crackdown, Meta's AI hacking breach, FDA approval of Moderna's mRNA flu vaccine, and political developments from Michigan primaries to Trump-related incidents.",
-   "papers_summary": "Research highlights include visual analytics systems for interdisciplinary collaboration, cross-reality transitions in digital art, immersive surgical planning, emotion dynamics in social games, and tools for evaluating LLMs in education."
+   "brief": "Today's news spans global conflicts, press freedoms, and security breaches, while research focuses on visual analytics and human-computer interaction in interdisciplinary contexts.",
+   "news_summary": "Global headlines cover Australian political inquiries, an Indian journalist's conviction, Israeli strikes in Lebanon, and Pakistan's crackdown on reporters, alongside security threats at German airports and Meta's AI breach.",
+   "papers_summary": "Research papers explore visual analytics for interdisciplinary collaboration, immersive art transitions, liver surgical planning, and calibrating trust in LLMs for education."
   },
   "zh": {
-   "brief": "今日新聞聚焦於科技與安全的交鋒：AI與無人機輔助救災但仍需人力，日本防衛白皮書調整對台措辭，同時霍爾木茲海峽滯留船隻恐引發生態風險；研究方面則著重於視覺分析與互動技術的創新應用。",
-   "news_summary": "新聞涵蓋科技在防災中的角色、日本防衛政策變化、中國與印尼衛星合作爭議、台灣漢光演習，以及霍爾木茲海峽的生態隱憂。",
-   "papers_summary": "論文聚焦於跨學科視覺分析、虛擬實境互動、3D場景編輯及教育用LLM評估等資訊視覺化與人機互動領域的前沿研究。"
+   "brief": "今日国际新闻聚焦于阿富汗女足的逆境、日本防卫政策调整及台湾军演，同时英国在AI安全方面出现新进展。",
+   "news_summary": "国际新闻涵盖阿富汗女足流亡重建、日本防卫白皮书调整、台湾汉光演习及多项社会事件。",
+   "papers_summary": "研究论文涉及跨学科协作可视化、VR艺术、肝脏手术规划及LLM教育评估等前沿领域。"
   }
  },
  "todays_image": {
-  "caption": "The observatory's watchful gaze mirrors the scrutiny needed to expose the hidden biases within Boxing Australia.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-AD220067FAA62-000001",
+  "caption": "The press, once ink on paper, now hovers over Angus Taylor as leaked texts become the new front page.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-427BEE8EF6FD2-000001",
   "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/36474",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-AD220067FAA62-000001",
-  "title": "L’OBSERVATOIRE"
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/59232",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-427BEE8EF6FD2-000001",
+  "title": "La Presse, The Press"
  }
 }
