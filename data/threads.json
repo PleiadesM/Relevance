@@ -1,125 +1,193 @@
 {
  "meta": {
-  "count": 3,
-  "generated_at": "2026-08-06T10:48:32Z",
+  "count": 4,
+  "generated_at": "2026-08-06T14:32:46Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "c62785ec5982d24e",
+     "item_id": "b87be8e2095c4982",
      "phrase": {
-      "en": "Meta's AI agent hacked another firm",
-      "zh": "Meta的AI代理入侵他司"
+      "en": "frames as calibration problem",
+      "zh": "校准问题"
      },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cx2kgdnyk2po?at_medium=RSS&at_campaign=rss"
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.04006v1"
     },
     {
-     "item_id": "ddded93096e16304",
+     "item_id": "2816a745336a1740",
      "phrase": {
-      "en": "AI agents escape and breach",
-      "zh": "AI代理越狱入侵"
+      "en": "frames as human error rate",
+      "zh": "人为错误率"
      },
      "section": "news",
-     "source": "BBC 中文",
-     "url": "https://www.bbc.com/zhongwen/articles/ce34wgv4krqo/trad?at_medium=RSS&at_campaign=rss"
+     "source": "Hacker News (AI filter)",
+     "url": "https://scalex.dev/blog/ai-agent-permissions-stats/"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "AI agents slipping out and hacking others—today Meta's turn.",
-    "zh": "AI代理越界攻击他司，今日轮到Meta。"
+    "en": "As AI starts acting independently, our checks on it are falling short.",
+    "zh": "当AI开始自主行动，我们的核查滞后了。"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI agent security breaches",
-    "zh": "AI代理安全漏洞"
+    "en": "AI trustworthiness",
+    "zh": "AI可信度"
    },
-   "relates_to": [],
+   "relates_to": [
+    "t2"
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-04",
+     "item_id": "b87be8e2095c4982",
+     "label": {
+      "en": "studies published",
+      "zh": "研究发布"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.04006v1"
+    },
+    {
+     "date": "2026-08-06",
+     "item_id": "2816a745336a1740",
+     "label": {
+      "en": "oversight gaps reported",
+      "zh": "监督缺口曝光"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://scalex.dev/blog/ai-agent-permissions-stats/"
+    }
+   ],
    "why_now": {
-    "en": "You track AI safety: a new AI-agent breach just emerged, heightening security worries.",
-    "zh": "你关注AI安全：新型AI代理入侵事件加剧担忧。"
+    "en": "You study human-AI interaction, and two new studies today quantify the exact gaps in oversight.",
+    "zh": "你研究人机交互，今天的两项研究量化了监督的具体缺口。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "a141ec1f46fcffb0",
+     "item_id": "f2d0a6a498a74f75",
      "phrase": {
-      "en": "Deal close to finalization",
-      "zh": "协议接近敲定"
+      "en": "oral defenses mandated",
+      "zh": "强制口头答辩"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/aug/06/iran-oman-strait-of-hormuz-yemen-houthis-israel-lebanon-gaza-us-donald-trump-middle-east-crisis-live-news"
-    },
-    {
-     "item_id": "aa4daba3bbc12d84",
-     "phrase": {
-      "en": "Iran close to Oman deal",
-      "zh": "伊朗接近达成阿曼协议"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/06/nx-s1-5921225/morning-news-brief"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Iran and Oman edge toward a deal to reopen the strait.",
-    "zh": "伊朗与阿曼接近达成协议，重开海峡。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "Hormuz shipping deal",
-    "zh": "霍尔木兹航运协议"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow geopolitics: a potential Hormuz reopening shifts global energy flows.",
-    "zh": "你关注地缘政治：霍尔木兹重开或将改变全球能源流向。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "365f54d7ef8fb68a",
-     "phrase": {
-      "en": "Examining what powers data centers",
-      "zh": "审视数据中心能耗之源"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/06/briefing/data-centers-gas-power.html"
+     "url": "https://www.theguardian.com/technology/2026/aug/06/students-ai-cheating-schools-denmark"
     },
     {
      "item_id": "b87be8e2095c4982",
      "phrase": {
-      "en": "LLM evaluation could extend to energy",
-      "zh": "LLM评估或扩展至能耗"
+      "en": "metrics for LLM evaluation",
+      "zh": "LLM评估指标"
      },
      "section": "papers",
      "source": "arXiv cs.HC + cs.GR",
      "url": "https://arxiv.org/abs/2608.04006v1"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "How data centers guzzle power—a visual look at AI's footprint.",
-    "zh": "数据中心如何耗电——一窥AI足迹的视觉呈现。"
+    "en": "Schools fight AI cheating with oral exams and computer monitoring.",
+    "zh": "学校用口头答辩和电脑监控应对AI作弊。"
    },
-   "id": "t3",
+   "id": "t2",
    "keyword": {
-    "en": "Visualization of AI data centers",
-    "zh": "AI数据中心可视化"
+    "en": "AI teaching integrity",
+    "zh": "AI教学诚信"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You think about data viz: a new visual analysis reveals AI's energy appetite.",
-    "zh": "你关注数据可视化：新视觉分析揭示AI能耗胃口。"
+    "en": "You care about HCI and technical communication; Denmark's move is a concrete policy response to AI in education.",
+    "zh": "你关注人机交互与技术传播，丹麦的措施是对AI教育影响的具体政策回应。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "full_text_file": "articles/news/ac4e1a45c8de7ca2.json",
+     "item_id": "ac4e1a45c8de7ca2",
+     "phrase": {
+      "en": "humans needed for moderation",
+      "zh": "仍需人类管理"
+     },
+     "section": "news",
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai/"
+    },
+    {
+     "full_text_file": "articles/news/e6d786e9b07d7cbd.json",
+     "item_id": "e6d786e9b07d7cbd",
+     "phrase": {
+      "en": "AI cult emerges organically",
+      "zh": "AI宗教自然涌现"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/975017/ai-spiralism-chatbot-movement"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "AI can't police social spaces alone; human moderators remain essential.",
+    "zh": "AI无法独自管理社交空间，人类版主仍不可少。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "AI community moderation",
+    "zh": "AI社区管理"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow AI's societal impact; this debate also touches on how you design for online trust.",
+    "zh": "你关注AI社会影响，此话题也涉及在线信任的设计。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "5fd49b093ae30c45",
+     "phrase": {
+      "en": "tariff refund boosts profits",
+      "zh": "关税退款提振利润"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/games/2026/aug/06/trump-tariffs-refund-fuels-profit-spike-nintendo"
+    },
+    {
+     "full_text_file": "articles/news/32be2d66318681dc.json",
+     "item_id": "32be2d66318681dc",
+     "phrase": {
+      "en": "local communities resist AI growth",
+      "zh": "本地社区抵制AI扩张"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/podcast/971855/ai-data-center-backlash-protests-florida-bipartisan"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "AI commerce and policy ripple across nations, from taxes to profits.",
+    "zh": "AI商业与政策跨国涟漪，从关税到利润。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "AI without borders",
+    "zh": "AI无国界"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You're interested in how AI affects global business; today's Nintendo spike shows trade policy impact.",
+    "zh": "你关注AI对全球商业的影响，今日任天堂利润飙升可见贸易政策冲击。"
    }
   }
  ]
