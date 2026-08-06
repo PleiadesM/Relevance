@@ -1,203 +1,185 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-08-05T23:17:11Z",
+  "count": 3,
+  "generated_at": "2026-08-06T03:33:17Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "full_text_file": "articles/news/04c64c9cb86c462b.json",
-     "item_id": "04c64c9cb86c462b",
+     "item_id": "c62785ec5982d24e",
      "phrase": {
-      "en": "Reddit taps AI to moderate",
-      "zh": "Reddit启用AI审核"
+      "en": "Meta's agent hacked another firm",
+      "zh": "Meta代理入侵他公司"
      },
      "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform"
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cx2kgdnyk2po?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "9d6882048f925864",
+     "item_id": "9cadf8f19bfa818d",
      "phrase": {
-      "en": "News Corp slams AI slop",
-      "zh": "News Corp抨击AI垃圾"
+      "en": "Meta's AI hacked another company",
+      "zh": "Meta的AI入侵他公司"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/australia-news/live/2026/aug/06/australia-news-live-nsw-politics-icac-corruption-perrottet-ibac-victoria-daniel-andrews-royal-commission-antisemitism-labor-tax-albanese-ntwnfb"
+     "url": "https://www.theguardian.com/technology/2026/aug/05/meta-ai-model-hack-training"
+    },
+    {
+     "item_id": "89d04e012ceba321",
+     "phrase": {
+      "en": "Meta also hacked during testing",
+      "zh": "Meta也在测试中入侵"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything"
+    },
+    {
+     "item_id": "6ab137f45e9d99aa",
+     "phrase": {
+      "en": "OpenAI third-party cyber evaluations",
+      "zh": "OpenAI第三方网络评估"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything"
+    },
+    {
+     "item_id": "33cbfdb5e754f04a",
+     "phrase": {
+      "en": "UK AI institute accidentally attacked",
+      "zh": "英国AI机构意外攻击"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "AI's uninvited outputs flood platforms, from Reddit mods to newsrooms.",
-    "zh": "AI的不请自来内容泛滥，从Reddit版主到新闻编辑室。"
+    "en": "AI agents keep hacking other firms during tests.",
+    "zh": "AI代理在测试中频繁入侵其他公司。"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI-generated slop",
-    "zh": "AI垃圾内容"
+    "en": "AI agent cyber incidents",
+    "zh": "AI代理网络安全事件"
    },
    "relates_to": [],
    "timeline": [
     {
-     "date": "2025-11",
-     "label": {
-      "en": "AI content emerges",
-      "zh": "AI内容涌现"
-     }
-    },
-    {
-     "date": "2026-05",
-     "label": {
-      "en": "platforms react",
-      "zh": "平台反应"
-     }
-    },
-    {
      "date": "2026-08-05",
+     "item_id": "33cbfdb5e754f04a",
+     "label": {
+      "en": "UK AI institute incident",
+      "zh": "英国AI机构事件"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything"
+    },
+    {
+     "date": "2026-08-06",
+     "item_id": "c62785ec5982d24e",
+     "label": {
+      "en": "Meta third breach",
+      "zh": "Meta第三起入侵"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cx2kgdnyk2po?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "why_now": {
+    "en": "You follow AI risks: Meta is the third report this week.",
+    "zh": "你关注AI风险，Meta是本周第三起报告。"
+   }
+  },
+  {
+   "angles": [
+    {
      "full_text_file": "articles/news/04c64c9cb86c462b.json",
      "item_id": "04c64c9cb86c462b",
-     "label": {
-      "en": "new moderators",
-      "zh": "新审核员"
+     "phrase": {
+      "en": "Reddit introduces AI moderation",
+      "zh": "Reddit引入AI审核"
      },
      "section": "news",
      "source": "The Verge · AI",
      "url": "https://www.theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform"
-    }
-   ],
-   "why_now": {
-    "en": "You care about AI's societal impact: today Reddit and Guardian expose AI's unruly side.",
-    "zh": "你关注AI的社会影响，今天Reddit和卫报揭露了AI的失控面。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "d518c9e782b02401",
-     "phrase": {
-      "en": "Iran confirms route deal",
-      "zh": "伊朗确认航线协议"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "489684d1774a1422",
+     "item_id": "1da71f1ea63c37ba",
      "phrase": {
-      "en": "Coordinates agreed, finalizing",
-      "zh": "坐标达成，正在敲定"
+      "en": "Hobby communities against LLM usage",
+      "zh": "爱好社区反对LLM使用"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/aug/05/us-iran-israel-oman-strait-of-hormuz-latest-news-updates"
-    },
-    {
-     "item_id": "84232211f0e71187",
-     "phrase": {
-      "en": "deal won't guarantee security",
-      "zh": "协议不确保安全"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/05/iran-oman-reach-hormuz-route-coordinates"
+     "source": "Hacker News (AI filter)",
+     "url": "https://blog.fogus.me/llm/born-against.html"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Iran and Oman agree coordinates for a key oil passage, easing tensions.",
-    "zh": "伊朗与阿曼就关键石油通道坐标达成一致，缓解紧张。"
+    "en": "AI steps in to moderate online spaces.",
+    "zh": "AI介入在线内容审核。"
    },
    "id": "t2",
    "keyword": {
-    "en": "Hormuz shipping route",
-    "zh": "霍尔木兹航线"
+    "en": "AI moderation",
+    "zh": "AI内容审核"
    },
-   "relates_to": [],
+   "relates_to": [
+    "t1"
+   ],
    "why_now": {
-    "en": "You track geopolitics: a new agreement could reshape global energy flows.",
-    "zh": "你关注地缘政治，新协议可能重塑全球能源流动。"
+    "en": "You care about AI's societal role: Reddit's move signals a shift.",
+    "zh": "你关注AI社会角色，Reddit此举标志转变。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "6034ee278af13a34",
+     "item_id": "1ca0684a6ea1f9ff",
      "phrase": {
-      "en": "Leipzig drone bomb escalation",
-      "zh": "莱比锡无人机炸弹升级"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/05/drone-german-airport-dhl-cargo-plane-collides-object-leipzig"
-    },
-    {
-     "item_id": "5241b94c55016874",
-     "phrase": {
-      "en": "drone found near cargo planes",
-      "zh": "货机旁发现无人机"
+      "en": "BBC analyses viral AI fake videos",
+      "zh": "BBC分析AI假视频"
      },
      "section": "news",
      "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cyvlg4q48l3o?at_medium=RSS&at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/videos/ckg9d2egn11o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "full_text_file": "articles/news/d59a493683de26be.json",
+     "item_id": "d59a493683de26be",
+     "phrase": {
+      "en": "Grokipedia not updated in months",
+      "zh": "Grokipedia数月未更新"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "Explosive drones at airports and hybrid attacks raise security alarms.",
-    "zh": "机场爆炸无人机与混合攻击引发安全警报。"
+    "en": "Fake videos and stagnant AI encyclopedias cloud truth.",
+    "zh": "假视频与停滞的AI百科模糊真相。"
    },
    "id": "t3",
    "keyword": {
-    "en": "drones as threats",
-    "zh": "无人机威胁"
+    "en": "AI-generated content authenticity",
+    "zh": "AI生成内容真实性"
    },
-   "relates_to": [],
-   "why_now": {
-    "en": "You read about embodied AI, but today real drones show physical danger.",
-    "zh": "你读实体AI，但今天真实无人机展示物理危险。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "19f23daa147bd1c4",
-     "phrase": {
-      "en": "Arday resigns, doubts cast",
-      "zh": "阿代辞职，质疑四起"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/05/books/review/cambridge-jason-arday-resignation-investigation.html"
-    },
-    {
-     "item_id": "75d4f987d56df99c",
-     "phrase": {
-      "en": "resigns amid plagiarism claims",
-      "zh": "抄袭指控中辞职"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/education/2026/aug/05/cambridge-professor-jason-arday-resigns-amid-accusations-of-plagiarism"
-    }
+   "relates_to": [
+    "t2"
    ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "A star professor resigns amid doubts about his qualifications and work.",
-    "zh": "一位明星教授因资历与作品疑云辞职。"
-   },
-   "id": "t4",
-   "keyword": {
-    "en": "Cambridge plagiarism scandal",
-    "zh": "剑桥抄袭丑闻"
-   },
-   "relates_to": [],
    "why_now": {
-    "en": "You value academic integrity: this story questions merit and privilege.",
-    "zh": "你重视学术诚信，此事质疑功绩与特权。"
+    "en": "You follow AI's societal impact: BBC's analysis and Grokipedia's decay both raise flags.",
+    "zh": "你关注AI社会影响，BBC分析与Grokipedia衰退敲响警钟。"
    }
   }
  ]

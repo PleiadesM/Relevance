@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "cheese rolling championship OR Gloucestershire cheese rolling",
+  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
   "source": {
-   "name": "Runner's World",
-   "published_at": "2026-07-27T07:00:00Z",
-   "title": "This Chaotic Cheese-Rolling Race Has No Permit, No Insurance, and No Plans to Stop",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNY2xQUWNoa29tNHVUU3JGYWlEdDZ0NXMwakF0RkhFQzkyZHdaY2ZKd1VTNnNGNTJKTHpFaHV0RjFEelk2cGZ3NWlXT2lGeWNUVWhzVjc0Z213d0pOck1vVGhIY3BTVHA0c3Z1RGhzRUs0Y01QZDJ6T2ZvWlpkTk94WHVJVQ?oc=5"
+   "name": "The Bloomfield Democrat",
+   "published_at": "2026-08-04T20:00:00Z",
+   "title": "King grows winning vegetables",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTmFkU0RCbUJYak90SXVOWDZyM19MWjRHZGwwV0VhaTFJOHlDb2t3dENYa3JpX1VsY2pKeUxBT2F1R3ZBUzBJazd5YURFUDg1cDUtMlJBcjRPQzB2T2FsSDM5MDR3S1hMQ3RxR0YzMV9LWFI3eEVtTXM2RTBDT3pmejY3NlhCYUxMUkRJamk1anRFblpCQTFzSlFMQlg2Y3puZmx0Ulc0ZGtvdw?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A chaotic cheese-rolling race in England continues without permits or insurance, defying modern regulations.",
-    "why_irrelevant": "It's a quirky rural sport far from tech, politics, or academia."
+    "summary": "A local contest crowns the king of winning vegetables, spotlighting a small-town grower's boast.",
+    "why_irrelevant": "A niche rural boast far from the user's targeted topics."
    },
    "zh": {
-    "summary": "英格兰一项混乱的奶酪滚动比赛继续在没有许可和保险的情况下举行，无视现代规定。",
-    "why_irrelevant": "这是一项古怪的乡村运动，远离科技、政治或学术领域。"
+    "summary": "一场地方比赛为获胜蔬菜加冕，聚焦小镇种植者的炫耀。",
+    "why_irrelevant": "远离用户关注领域的小众乡村话题。"
    }
   },
-  "topic": "competitive cheese rolling"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news spans political tensions, a Michigan progressive win, and a rare zoo birth; papers focus on AI, data visualization, and health tech.",
+ "brief": "Today's news spans from space debris impacts on the Moon to AI security breaches, political upheavals, and health approvals, while research focuses on visual analytics and human-computer interaction innovations.",
  "meta": {
-  "generated_at": "2026-08-05T23:17:11Z"
+  "generated_at": "2026-08-06T03:33:17Z"
  },
- "news_summary": "Key stories include Michigan's Abdul El-Sayed primary victory, a C.I.A. Cuba task force, and a new pygmy hippo calf in Toronto.",
- "papers_summary": "Research highlights LLM evaluation in education, knowledge graph bundling, and wearable health insights.",
+ "news_summary": "International headlines cover an Indigenous Olympian's testimony on racism, a SpaceX rocket stage hitting the Moon unnoticed, Pakistan's journalist crackdown, Meta's AI hacking breach, FDA approval of Moderna's mRNA flu vaccine, and political developments from Michigan primaries to Trump-related incidents.",
+ "papers_summary": "Research highlights include visual analytics systems for interdisciplinary collaboration, cross-reality transitions in digital art, immersive surgical planning, emotion dynamics in social games, and tools for evaluating LLMs in education.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans political tensions, a Michigan progressive win, and a rare zoo birth; papers focus on AI, data visualization, and health tech.",
-   "news_summary": "Key stories include Michigan's Abdul El-Sayed primary victory, a C.I.A. Cuba task force, and a new pygmy hippo calf in Toronto.",
-   "papers_summary": "Research highlights LLM evaluation in education, knowledge graph bundling, and wearable health insights."
+   "brief": "Today's news spans from space debris impacts on the Moon to AI security breaches, political upheavals, and health approvals, while research focuses on visual analytics and human-computer interaction innovations.",
+   "news_summary": "International headlines cover an Indigenous Olympian's testimony on racism, a SpaceX rocket stage hitting the Moon unnoticed, Pakistan's journalist crackdown, Meta's AI hacking breach, FDA approval of Moderna's mRNA flu vaccine, and political developments from Michigan primaries to Trump-related incidents.",
+   "papers_summary": "Research highlights include visual analytics systems for interdisciplinary collaboration, cross-reality transitions in digital art, immersive surgical planning, emotion dynamics in social games, and tools for evaluating LLMs in education."
   },
   "zh": {
-   "brief": "今日新聞聚焦中國印尼衛星合作、台灣漢光演習、霍爾木茲海峽生態風險等議題，同時研究領域關注AI教育應用與知識圖譜視覺化。",
-   "news_summary": "中國與印尼合作衛星引發資料安全憂慮，台灣漢光演習凸顯軍民結合，霍爾木茲海峽滯留船隻恐致入侵物種擴散。",
-   "papers_summary": "研究探討LLM教育評量、知識圖譜簡化、穿戴數據健康洞察等主題，並分析AI對軟體團隊社群的影響。"
+   "brief": "今日新聞聚焦於科技與安全的交鋒：AI與無人機輔助救災但仍需人力，日本防衛白皮書調整對台措辭，同時霍爾木茲海峽滯留船隻恐引發生態風險；研究方面則著重於視覺分析與互動技術的創新應用。",
+   "news_summary": "新聞涵蓋科技在防災中的角色、日本防衛政策變化、中國與印尼衛星合作爭議、台灣漢光演習，以及霍爾木茲海峽的生態隱憂。",
+   "papers_summary": "論文聚焦於跨學科視覺分析、虛擬實境互動、3D場景編輯及教育用LLM評估等資訊視覺化與人機互動領域的前沿研究。"
   }
  },
  "todays_image": {
-  "caption": "Like the Caranx hippos, News Corp is a big fish in a shrinking sea, snapping at the slimy AI slop invading its waters.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3c78d67794097488b94afc522f891b005",
-  "source_name": "NMNH - Vertebrate Zoology - Fishes Division",
-  "source_url": "http://n2t.net/ark:/65665/33f339485-8686-48c4-8aad-87877ada43ed",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3c78d67794097488b94afc522f891b005/90",
-  "title": "Caranx hippos"
+  "caption": "The observatory's watchful gaze mirrors the scrutiny needed to expose the hidden biases within Boxing Australia.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-AD220067FAA62-000001",
+  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/36474",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-AD220067FAA62-000001",
+  "title": "L’OBSERVATOIRE"
  }
 }
