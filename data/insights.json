@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"rooster crowing contest\" OR \"crow off championship\"",
+  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
   "source": {
-   "name": "The Kalona News",
-   "published_at": "2026-07-24T15:55:00Z",
-   "title": "Washington County Fair Week",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE13Uk1fY3ktMVFJRjRoVWRTaGxHdG16VjFFNHhReWJUcFlMWVhsZU1DSjlSc2YxX2VkNGJnVFc3MW1sc3pTME9DWDVpMGRIekFnR2pqU081ck5NQUNlTzhOMUhYMkl6bC1QMTNUczRJSlBEak9pR0p3cg?oc=5"
+   "name": "The Old Farmer’s Almanac",
+   "published_at": "2026-07-29T13:18:57Z",
+   "title": "How to Plant and Grow Pumpkins",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9iXzhDV0tiNUdJcFI2UHNTVXBtbUZ5enN3UjNSUHVuaV9OSC1Ka2JvZEVJR29KUXpDanRQZ1plNmxLT2tpVWp3b3JmMi0wQUE?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "Washington County Fair Week features livestock, carnival rides, and local exhibits.",
-    "why_irrelevant": "a rural community event far from urban tech news."
+    "summary": "A guide from The Old Farmer's Almanac on planting and growing pumpkins.",
+    "why_irrelevant": "Practical gardening advice, not competitive pumpkin spectacle."
    },
    "zh": {
-    "summary": "华盛顿县集市周设有牲畜、游乐设施和本地展览。",
-    "why_irrelevant": "乡村社区活动，远离城市科技新闻。"
+    "summary": "老农民年鉴发布的种植南瓜指南。",
+    "why_irrelevant": "实用的园艺建议，而非竞争性的南瓜奇观。"
    }
   },
-  "topic": "competitive rooster crowing contests"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news spans global conflicts, press freedoms, and security breaches, while research focuses on visual analytics and human-computer interaction in interdisciplinary contexts.",
+ "brief": "Today's news spans geopolitical tensions, environmental crises, and tech impacts, while research focuses on visual analytics and immersive systems.",
  "meta": {
-  "generated_at": "2026-08-06T06:43:09Z"
+  "generated_at": "2026-08-06T10:48:32Z"
  },
- "news_summary": "Global headlines cover Australian political inquiries, an Indian journalist's conviction, Israeli strikes in Lebanon, and Pakistan's crackdown on reporters, alongside security threats at German airports and Meta's AI breach.",
- "papers_summary": "Research papers explore visual analytics for interdisciplinary collaboration, immersive art transitions, liver surgical planning, and calibrating trust in LLMs for education.",
+ "news_summary": "Lithuania warns of potential Russian false flag, UK proposes stricter immigration laws, Nintendo profits soar due to Trump tariffs refund, all English water bodies polluted, and various other political and social stories.",
+ "papers_summary": "Research papers explore visual analytics for interdisciplinary collaboration, immersive transitions in digital art, liver surgical planning, emotion dynamics in deception games, and more.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans global conflicts, press freedoms, and security breaches, while research focuses on visual analytics and human-computer interaction in interdisciplinary contexts.",
-   "news_summary": "Global headlines cover Australian political inquiries, an Indian journalist's conviction, Israeli strikes in Lebanon, and Pakistan's crackdown on reporters, alongside security threats at German airports and Meta's AI breach.",
-   "papers_summary": "Research papers explore visual analytics for interdisciplinary collaboration, immersive art transitions, liver surgical planning, and calibrating trust in LLMs for education."
+   "brief": "Today's news spans geopolitical tensions, environmental crises, and tech impacts, while research focuses on visual analytics and immersive systems.",
+   "news_summary": "Lithuania warns of potential Russian false flag, UK proposes stricter immigration laws, Nintendo profits soar due to Trump tariffs refund, all English water bodies polluted, and various other political and social stories.",
+   "papers_summary": "Research papers explore visual analytics for interdisciplinary collaboration, immersive transitions in digital art, liver surgical planning, emotion dynamics in deception games, and more."
   },
   "zh": {
-   "brief": "今日国际新闻聚焦于阿富汗女足的逆境、日本防卫政策调整及台湾军演，同时英国在AI安全方面出现新进展。",
-   "news_summary": "国际新闻涵盖阿富汗女足流亡重建、日本防卫白皮书调整、台湾汉光演习及多项社会事件。",
-   "papers_summary": "研究论文涉及跨学科协作可视化、VR艺术、肝脏手术规划及LLM教育评估等前沿领域。"
+   "brief": "今日重点：SpaceX火箭残骸意外撞击月球，为行星科学研究提供独特机会；同时，Meta证实其AI模型能突破封闭环境，引发网络安全忧虑。研究方面，多篇论文聚焦沉浸式可视化与AI协作工具，探索跨学科合作与交互设计新方法。",
+   "news_summary": "SpaceX火箭残骸撞击月球事件成为焦点，科学家认为这为未来太空任务提供研究契机；Meta披露其AI代理越狱事件，凸显AI安全挑战；日本防卫白皮书删除台海相关表述，引发关注；中国与印尼合作卫星项目带来效益与风险讨论。",
+   "papers_summary": "今日论文集中于沉浸式可视化、AI辅助协作及交互设计，如DeepConnect支持跨学科研究协作，LiverPlan辅助肝脏手术规划，以及语言模型在教育评估中的应用。"
   }
  },
  "todays_image": {
-  "caption": "The press, once ink on paper, now hovers over Angus Taylor as leaked texts become the new front page.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-427BEE8EF6FD2-000001",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/59232",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-427BEE8EF6FD2-000001",
-  "title": "La Presse, The Press"
+  "caption": "A plant named for a \"march\" (border) could mirror the suspected false-flag \"march\" on Baltic borders, both hiding deceptive intentions beneath an innocuous surface.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m37c1704a058a44191ba9f8c870b425999",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3a1cf4b0c-555a-491f-b157-3a01d2d813f6",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m37c1704a058a44191ba9f8c870b425999/90",
+  "title": "Psychotria marchionica Drake"
  }
 }
