@@ -2,6 +2,60 @@
  "items": [
   {
    "authors": [
+    "Mason Pellegrini",
+    "Clay Spinuzzi"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.1080/10572252.2026.2710366"
+   },
+   "id": "040f914a761e7b5b",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-07T05:14:54Z",
+   "score": 0.7044,
+   "section": "papers",
+   "source": "TechComm journals (CrossRef)",
+   "source_id": "crossref_techcomm_journals",
+   "summary": "",
+   "tags": [
+    "ai-writing",
+    "llm"
+   ],
+   "title": "Can We Responsively Code Qualitative Data with an LLM Aide? A Human-In-The-Loop Approach",
+   "url": "https://doi.org/10.1080/10572252.2026.2710366",
+   "venue": "Technical Communication Quarterly"
+  },
+  {
+   "authors": [
+    "Sunitha Tumkur"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.1109/tpc.2026.3711952"
+   },
+   "id": "29802937b2099c6b",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-06T19:08:30Z",
+   "score": 0.4309,
+   "section": "papers",
+   "source": "TechComm journals (CrossRef)",
+   "source_id": "crossref_techcomm_journals",
+   "summary": "",
+   "tags": [
+    "pedagogy"
+   ],
+   "title": "Teaching Professional Self-Presentation With Video Résumés: An Instructor-and-Peer Feedback Intervention",
+   "url": "https://doi.org/10.1109/tpc.2026.3711952",
+   "venue": "IEEE Transactions on Professional Communication"
+  },
+  {
+   "authors": [
     "Alperen Kenan",
     "Paul Bremner",
     "Manuel Giuliani"
@@ -15,7 +69,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T16:12:18Z",
-   "score": 0.5194,
+   "score": 0.5088,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -43,7 +97,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T16:10:02Z",
-   "score": 0.7517,
+   "score": 0.7411,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -71,7 +125,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T14:31:57Z",
-   "score": 0.5123,
+   "score": 0.5019,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -97,7 +151,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T14:12:14Z",
-   "score": 0.7034,
+   "score": 0.6931,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -109,6 +163,37 @@
    "title": "Cleo: A Transparent and Controllable Chatbot for Conversational Commerce",
    "url": "https://arxiv.org/abs/2608.06068v1",
    "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Claire Lauer",
+    "Amber Hedquist",
+    "Stephen Carradini",
+    "Srinivasan Ravichandran",
+    "Anqi Shao",
+    "Poorva Ketkar"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "This article examines how aesthetic design and anthropomorphism support public engagement with complex environmental issues through “Blue,” a character developed for a community-based water education initiative in Arizona. Drawing on qualitative usability-testing data, the study analyzes user responses to Blue's design. We argue that Blue's effectiveness stems from his construction as a social presence and identify four design functions that shaped engagement: building approachability,…",
+    "citations": 0,
+    "doi": "10.1177/00472816261471752"
+   },
+   "id": "bdb16283089b369c",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-06T13:50:48Z",
+   "score": 0.4138,
+   "section": "papers",
+   "source": "TechComm journals (CrossRef)",
+   "source_id": "crossref_techcomm_journals",
+   "summary": "This article examines how aesthetic design and anthropomorphism support public engagement with complex environmental issues through “Blue,” a character developed for a community-based water education initiative in Arizona. Drawing on qualitative usability-testing data, the study analyzes user…",
+   "tags": [
+    "ux"
+   ],
+   "title": "“Cute” as Environmental Strategy: Anthropomorphizing Nature to Promote Engagement with Environmental Issues",
+   "url": "https://doi.org/10.1177/00472816261471752",
+   "venue": "Journal of Technical Writing and Communication"
   },
   {
    "authors": [
@@ -124,7 +209,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T12:46:19Z",
-   "score": 0.7375,
+   "score": 0.7273,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -150,7 +235,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T10:05:04Z",
-   "score": 0.5341,
+   "score": 0.5243,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -179,7 +264,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T03:33:03Z",
-   "score": 0.7016,
+   "score": 0.6925,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -206,7 +291,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T00:36:48Z",
-   "score": 0.691,
+   "score": 0.6822,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -234,7 +319,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T00:00:00Z",
-   "score": 0.3655,
+   "score": 0.3587,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -259,7 +344,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T23:53:02Z",
-   "score": 0.4559,
+   "score": 0.4472,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -286,7 +371,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T17:55:31Z",
-   "score": 0.6681,
+   "score": 0.66,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -298,6 +383,34 @@
    "title": "DeepConnect: A Visual Analytics System for Bridging Interdisciplinary Research Collaborations",
    "url": "https://arxiv.org/abs/2608.05134v1",
    "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Maureen A. Mathison",
+    "Stephanie Weidauer",
+    "Mickey Gough"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.1080/10572252.2026.2712991"
+   },
+   "id": "e4769a89f6477941",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-05T16:30:29Z",
+   "score": 0.3546,
+   "section": "papers",
+   "source": "TechComm journals (CrossRef)",
+   "source_id": "crossref_techcomm_journals",
+   "summary": "",
+   "tags": [
+    "pedagogy"
+   ],
+   "title": "Facilitating Social Justice in the Technical Editing Classroom",
+   "url": "https://doi.org/10.1080/10572252.2026.2712991",
+   "venue": "Technical Communication Quarterly"
   },
   {
    "authors": [
@@ -313,7 +426,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T15:43:41Z",
-   "score": 0.661,
+   "score": 0.6531,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -343,7 +456,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T11:19:08Z",
-   "score": 0.6473,
+   "score": 0.6398,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -372,7 +485,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T05:58:30Z",
-   "score": 0.6316,
+   "score": 0.6246,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -400,7 +513,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T04:26:09Z",
-   "score": 0.4347,
+   "score": 0.4279,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -415,8 +528,8 @@
   }
  ],
  "meta": {
-  "count": 15,
-  "generated_at": "2026-08-07T11:05:53Z",
+  "count": 19,
+  "generated_at": "2026-08-07T13:36:09Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -458,12 +571,12 @@
    },
    {
     "category": "optional",
-    "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-10&rows=12&sort=created&order=desc",
+    "count": 15,
+    "error": null,
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "crossref"

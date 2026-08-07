@@ -1,125 +1,82 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-08-07T11:05:53Z",
+  "count": 5,
+  "generated_at": "2026-08-07T13:36:09Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "75363dc27c0ecca4",
+     "item_id": "a3228cc6eb8d1af8",
      "phrase": {
-      "en": "largest child safety ruling",
-      "zh": "最大儿童安全裁决"
+      "en": "White House AI vetting secrecy criticized",
+      "zh": "白宫AI审查保密遭质疑"
      },
      "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/technology/2026/aug/07/white-house-ai"
     },
     {
-     "item_id": "dc68da70a0c283b9",
+     "full_text_file": "articles/news/b94f76fe75d8b388.json",
+     "item_id": "b94f76fe75d8b388",
      "phrase": {
-      "en": "funds for youth treatment",
-      "zh": "用于青年治疗"
+      "en": "ByteDance trains massive 10T model",
+      "zh": "字节跳动训练10万亿模型"
      },
      "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/07/nx-s1-5924581/court-orders-instagram-and-facebooks-meta-to-pay-567m-to-address-kids-mental-health-online"
-    },
-    {
-     "item_id": "ba107bfb9d04716a",
-     "phrase": {
-      "en": "total $942M in fines",
-      "zh": "累计9.42亿罚款"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/06/technology/meta-new-mexico-child-safety.html"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Courts hit Meta with record fines over kids' mental health, piling up to nearly a billion.",
-    "zh": "法院对Meta处以创纪录罚款，累计近十亿。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "Meta child safety fines",
-    "zh": "Meta儿童安全罚款"
-   },
-   "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-08-05",
-     "item_id": "ba107bfb9d04716a",
-     "label": {
-      "en": "jury fines $375M",
-      "zh": "陪审团罚款3.75亿"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/06/technology/meta-new-mexico-child-safety.html"
-    },
-    {
-     "date": "2026-08-07",
-     "item_id": "75363dc27c0ecca4",
-     "label": {
-      "en": "judge adds $567M",
-      "zh": "法官再加5.67亿"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss"
-    }
-   ],
-   "why_now": {
-    "en": "You follow tech regulation and AI ethics: today's rulings on Meta set a new precedent for platform accountability.",
-    "zh": "你关注科技监管与AI伦理，今日Meta裁决开创新先例。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "cdf1b90c507c1f97",
-     "phrase": {
-      "en": "program not stopped",
-      "zh": "计划未停止"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/07/world/middleeast/iran-nuclear-program.html"
-    },
-    {
-     "item_id": "d81a84f5a47c8a73",
-     "phrase": {
-      "en": "ban U.S. ships",
-      "zh": "禁止美国船只"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/07/g-s1-137730/up-first-newsletter-trump-birthright-citizenship-iran-oman-strait-of-hormuz-anthony-fauci-mitch-mcconnell"
-    },
-    {
-     "item_id": "10fa1e47557a8c5b",
-     "phrase": {
-      "en": "Oman deal to reopen",
-      "zh": "阿曼协议重开"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/07/nx-s1-5921269/morning-news-brief"
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/ai/2026/08/bytedance-trains-massive-ai-model-in-bid-to-rival-anthropic/"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Iran's nuclear program advances and it moves to block U.S. ships from the Strait of Hormuz.",
-    "zh": "伊朗核计划推进，并寻求阻止美国船只通过霍尔木兹海峡。"
+    "en": "Big tech and nations invest heavily in AI, from massive models to secret vetting.",
+    "zh": "科技巨头与各国重金投入AI，从巨型模型到秘密审查。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI arms race",
+    "zh": "AI军备竞赛"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track AI policy and models: today reveals both a secretive US framework and ByteDance's 10-trillion-parameter model.",
+    "zh": "你关注AI政策与模型，今日既有美国秘密框架，也有字节跳动万亿参数模型。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "cdf1b90c507c1f97",
+     "phrase": {
+      "en": "Iran nuclear program slowed not stopped",
+      "zh": "伊朗核计划放缓未止"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/07/world/middleeast/iran-nuclear-program.html"
+    },
+    {
+     "item_id": "bb74d838ffefa1cc",
+     "phrase": {
+      "en": "Three nations sign mutual defense pact",
+      "zh": "三国签署共同防御条约"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c30418m4mj4o?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Regional tensions persist with nuclear, defense pacts, and oil price ripple effects.",
+    "zh": "地区紧张持续，涉及核问题、防务协议与油价波动。"
    },
    "id": "t2",
    "keyword": {
-    "en": "Iran nuclear and Strait",
-    "zh": "伊朗核与海峡"
+    "en": "Middle East conflict",
+    "zh": "中东冲突"
    },
    "relates_to": [],
    "timeline": [
@@ -127,8 +84,8 @@
      "date": "2026-08-07",
      "item_id": "cdf1b90c507c1f97",
      "label": {
-      "en": "nuclear sites assessed",
-      "zh": "核设施评估"
+      "en": "Nuclear sites state assessed",
+      "zh": "核设施状态评估"
      },
      "section": "news",
      "source": "The New York Times",
@@ -136,131 +93,136 @@
     },
     {
      "date": "2026-08-07",
-     "item_id": "d81a84f5a47c8a73",
+     "item_id": "bb74d838ffefa1cc",
      "label": {
-      "en": "Hormuz ban threatens",
-      "zh": "威胁封锁海峡"
+      "en": "Defense pact signed",
+      "zh": "防务协定签署"
      },
      "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/07/g-s1-137730/up-first-newsletter-trump-birthright-citizenship-iran-oman-strait-of-hormuz-anthony-fauci-mitch-mcconnell"
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c30418m4mj4o?at_medium=RSS&at_campaign=rss"
     }
    ],
    "why_now": {
-    "en": "You track geopolitics and energy markets: today's Iran moves could reshape oil flows and regional security.",
-    "zh": "你关注地缘政治与能源市场，今日伊朗动作或重塑石油流向。"
+    "en": "You follow geopolitics and energy: Iran's nuclear program and Saudi-Turkey-Pakistan pact reshape the region today.",
+    "zh": "你关注地缘政治与能源，今日伊朗核计划与三国防务协定重塑地区格局。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "c3e3e8c6437c1f1f",
+     "item_id": "4c274ed4ae8e8f07",
      "phrase": {
-      "en": "student kills grandparents",
-      "zh": "学生杀害祖父母"
+      "en": "Bond market signals rising risks",
+      "zh": "债市预示风险上升"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/07/world/asia/thailand-school-shooting.html"
+     "url": "https://www.nytimes.com/2026/08/07/business/bonds-stocks-federal-reserve-interest-rates.html"
     },
+    {
+     "item_id": "493b2f1b80b1db6d",
+     "phrase": {
+      "en": "Employers cut 23k jobs unexpectedly",
+      "zh": "雇主意外裁员2.3万"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/07/nx-s1-5924786/employers-economy-labor-jobs-federal-reserve"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Job cuts signal a cooling economy, affecting rate expectations and consumer spending.",
+    "zh": "裁员信号显示经济降温，影响利率预期与消费支出。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "US labor market",
+    "zh": "美国就业市场"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about economic indicators: July's job cut and bond market moves directly impact AI investment costs.",
+    "zh": "你关注经济指标：7月裁员与债市波动直接影响AI投资成本。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "a3228cc6eb8d1af8",
+     "phrase": {
+      "en": "AI testing framework lacks transparency",
+      "zh": "AI测试框架缺乏透明度"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/technology/2026/aug/07/white-house-ai"
+    },
+    {
+     "item_id": "75363dc27c0ecca4",
+     "phrase": {
+      "en": "Meta fined $567m for child safety",
+      "zh": "Meta因儿童安全被罚5.67亿"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Governments clamp down on tech giants, from child safety fines to AI oversight.",
+    "zh": "政府收紧对科技巨头的监管，涉及儿童安全罚款与AI监督。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "Tech regulation",
+    "zh": "科技监管"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You study HCI and policy: Meta's record fine and the secretive AI framework show the shifting regulatory landscape.",
+    "zh": "你研究人机交互与政策，Meta巨额罚款与AI秘密框架展现监管变迁。"
+   }
+  },
+  {
+   "angles": [
     {
      "item_id": "01ea2e2cae265d91",
      "phrase": {
-      "en": "22 others wounded",
-      "zh": "22人受伤"
+      "en": "Thailand school shooting kills eight",
+      "zh": "泰国校园枪击致8死"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/world/2026/aug/07/thailand-school-shooting-debsirin-nonthaburi-bangkok"
     },
     {
-     "item_id": "ac6ada711e790d31",
+     "item_id": "fa7a84bec0b67253",
      "phrase": {
-      "en": "motive under investigation",
-      "zh": "动机调查中"
+      "en": "Wildfire firefighters mourn losses",
+      "zh": "野火消防员哀悼伤亡"
      },
      "section": "news",
      "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/07/nx-s1-5924583/student-shoots-multiple-people-at-a-high-school-in-thailand-authorities-say"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "A teenager kills eight, including family, in a Bangkok-area school shooting before turning the gun on himself.",
-    "zh": "一名青少年在曼谷附近校园枪杀八人，包括家人，然后自杀。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "Thailand school shooting",
-    "zh": "泰国校园枪击"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You study human behavior and crisis communication: this tragedy echoes through multiple outlets, offering a case for analysis.",
-    "zh": "你研究人类行为与危机传播，这起悲剧多源报道，可供分析。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "a3684b0f196c66ff",
-     "phrase": {
-      "en": "touchscreen for nuclear tasks",
-      "zh": "触摸屏用于核任务"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.06219v1"
-    },
-    {
-     "item_id": "1f2c6b0a8fcf0eb0",
-     "phrase": {
-      "en": "learning from human demos",
-      "zh": "从人类演示学习"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.06221v1"
+     "url": "https://www.npr.org/2026/08/07/nx-s1-5920418/firefighters-mourn-deaths-intense-wildfire-season"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "New research designs touchscreen and VR interfaces to make robot teleoperation safer and more intuitive.",
-    "zh": "新研究设计触摸屏和VR界面，使机器人远程操作更安全直观。"
+    "en": "Violent incidents and natural disasters strain communities and emergency responses.",
+    "zh": "暴力事件与自然灾害考验社区与应急响应。"
    },
-   "id": "t4",
+   "id": "t5",
    "keyword": {
-    "en": "teleoperation robot interfaces",
-    "zh": "远程操作机器人界面"
+    "en": "Public safety",
+    "zh": "公共安全"
    },
    "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-08-06",
-     "item_id": "a3684b0f196c66ff",
-     "label": {
-      "en": "touchscreen teleop paper",
-      "zh": "触摸屏远程操作论文"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.06219v1"
-    },
-    {
-     "date": "2026-08-06",
-     "item_id": "1f2c6b0a8fcf0eb0",
-     "label": {
-      "en": "robot learning from demos",
-      "zh": "机器人演示学习"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.06221v1"
-    }
-   ],
    "why_now": {
-    "en": "You follow embodied AI and HCI: today's papers push teleoperation forward, with applications from nuclear to coaching.",
-    "zh": "你关注具身AI与人机交互，今日论文推动远程操作，从核工业到教练。"
+    "en": "You care about human factors: school shootings and wildfire risks highlight systemic vulnerabilities today.",
+    "zh": "你关注人为因素，校园枪击与野火风险凸显系统性弱点。"
    }
   }
  ]
