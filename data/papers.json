@@ -15,7 +15,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T16:12:18Z",
-   "score": 0.4796,
+   "score": 0.4723,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -43,7 +43,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T16:10:02Z",
-   "score": 0.712,
+   "score": 0.7046,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -71,7 +71,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T14:31:57Z",
-   "score": 0.4733,
+   "score": 0.4661,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -97,7 +97,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T14:12:14Z",
-   "score": 0.6646,
+   "score": 0.6574,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -124,7 +124,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T12:46:19Z",
-   "score": 0.6993,
+   "score": 0.6923,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -150,7 +150,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T10:05:04Z",
-   "score": 0.4971,
+   "score": 0.4903,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -179,7 +179,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T03:33:03Z",
-   "score": 0.6674,
+   "score": 0.6611,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -206,7 +206,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T00:36:48Z",
-   "score": 0.658,
+   "score": 0.6519,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -234,7 +234,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T00:00:00Z",
-   "score": 0.34,
+   "score": 0.3353,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -259,7 +259,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T23:53:02Z",
-   "score": 0.4232,
+   "score": 0.4171,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -286,7 +286,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T17:55:31Z",
-   "score": 0.6376,
+   "score": 0.632,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -313,7 +313,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T15:43:41Z",
-   "score": 0.6313,
+   "score": 0.6258,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -343,7 +343,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T11:19:08Z",
-   "score": 0.6191,
+   "score": 0.6139,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -366,19 +366,13 @@
    "category": "optional",
    "extra": {
     "abstract_snippet": "Despite the promise of virtual reality (VR) for intuitive spatial interaction, volume visualization (VolVis) in VR remains constrained by high rendering costs and motion discomfort. Recent advances have shown that representing volumetric scenes with 3D Gaussian splatting enables high-performance rendering, making this representation well-suited for VR. However, existing Gaussian-based scene editing workflows remain limited by slow offline segmentation and fatigue-inducing manual selection. To…",
-    "also_in": [
-     {
-      "source": "Semantic Scholar · data visualization",
-      "url": "https://www.semanticscholar.org/paper/a2b84969c23aab10444e7b1e936f8a99c4a6b9f2"
-     }
-    ],
     "arxiv_id": "2608.04475"
    },
    "id": "a2aaf741bee8a845",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T05:58:30Z",
-   "score": 0.6051,
+   "score": 0.6002,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -406,7 +400,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T04:26:09Z",
-   "score": 0.4088,
+   "score": 0.404,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -418,136 +412,11 @@
    "title": "Revisiting Channel Effectiveness: A Multi-Dimensional Evaluation with Primitive Visual Stimuli",
    "url": "https://arxiv.org/abs/2608.04435v1",
    "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Julian Baader",
-    "Ricardo Langner",
-    "Can Liu",
-    "Raimund Dachselt"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "With this work, we explore the unique potential of data visualization on novel foldable mobile devices (foldables). Even though foldables are already commercially available, there is limited knowledge of how to leverage their distinct characteristics for visualization. This gap will only grow as their form factors become increasingly diverse. To address this, we use a two-step approach. First, we present a device-centered design space, structured around physical and usage properties of foldable…",
-    "arxiv_id": "2608.02232",
-    "citations": 0,
-    "doi": null
-   },
-   "id": "d737d1ad2adee7cc",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-03T00:00:00Z",
-   "score": 0.4445,
-   "section": "papers",
-   "source": "Semantic Scholar · data visualization",
-   "source_id": "s2_datavis",
-   "summary": "With this work, we explore the unique potential of data visualization on novel foldable mobile devices (foldables). Even though foldables are already commercially available, there is limited knowledge of how to leverage their distinct characteristics for visualization. This gap will only grow as…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "ManyFold: A Design Exploration of Data Visualization on Foldable Mobile Devices",
-   "url": "https://www.semanticscholar.org/paper/41877c9f9e01eede3e14f084e9324864cd83ee8b",
-   "venue": null
-  },
-  {
-   "authors": [
-    "Ziqi Rong",
-    "Jinpu Cai",
-    "Jiahao Qiu",
-    "Pengcheng Xu",
-    "Lana X. Garmire",
-    "Qiuyu Lian"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "arxiv_id": null,
-    "citations": 0,
-    "doi": "10.26599/bdma.2025.9020085"
-   },
-   "id": "3f98c03a7e4ed512",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-01T00:00:00Z",
-   "score": 0.3066,
-   "section": "papers",
-   "source": "Semantic Scholar · data visualization",
-   "source_id": "s2_datavis",
-   "summary": "",
-   "tags": [
-    "visualization"
-   ],
-   "title": "Enhancing Distance Entropy Preservation via $\\boldsymbol{L}^{2}$ Normalization and Geodesic Distances in High-Dimensional Single-Cell Data Visualization",
-   "url": "https://www.semanticscholar.org/paper/5166ca0da6de2657f83387554935176a8f7bf673",
-   "venue": "Big Data Mining and Analytics"
-  },
-  {
-   "authors": [
-    "Tomáš Čajka",
-    "J. Hricko",
-    "Lucie Rudl Kulhavá",
-    "Veronika Hola",
-    "Michaela Paucova",
-    "Michaela Novakova"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "arxiv_id": null,
-    "citations": 0,
-    "doi": "10.1016/j.aca.2026.346066"
-   },
-   "id": "40eb67338f3dffaa",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-01T00:00:00Z",
-   "score": 0.1691,
-   "section": "papers",
-   "source": "Semantic Scholar · data visualization",
-   "source_id": "s2_datavis",
-   "summary": "",
-   "tags": [
-    "visualization"
-   ],
-   "title": "ExchangeXplorer: an R/Shiny application for processing and visualization of LC–HDX-MS data in metabolomics, lipidomics, and exposomics",
-   "url": "https://www.semanticscholar.org/paper/cf6bde1610233dc704f58564de06ab64596c5cae",
-   "venue": "Analytica Chimica Acta"
-  },
-  {
-   "authors": [
-    "Mohd Salehudin Marji",
-    "A. Musta’amal",
-    "N. A. C. Derasid",
-    "Mohd Halimi Ab Hamid",
-    "Ghany Taufik Sidik"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Visualization skills are essential in engineering education, yet many Malaysian students struggle to develop them, which affects their performance in Grafik Komunikasi Teknikal, also known as technical drawing. This study evaluated the effectiveness of OrigamiGo, a paper-folding-based teaching module, in improving students’ visualization skills. Unlike computer-based tools, OrigamiGo provides low-cost, tactile, hands-on learning experiences that integrate visual and haptic activities. A…",
-    "arxiv_id": null,
-    "citations": 0,
-    "doi": "10.11591/edulearn.v20i3.24728"
-   },
-   "id": "46e0d586b2e18238",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-01T00:00:00Z",
-   "score": 0.1691,
-   "section": "papers",
-   "source": "Semantic Scholar · data visualization",
-   "source_id": "s2_datavis",
-   "summary": "Visualization skills are essential in engineering education, yet many Malaysian students struggle to develop them, which affects their performance in Grafik Komunikasi Teknikal, also known as technical drawing. This study evaluated the effectiveness of OrigamiGo, a paper-folding-based teaching…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "Development of “OrigamiGo” for enhancing visualization skills based on origami art",
-   "url": "https://www.semanticscholar.org/paper/f009c48d4fd085f41d59e4ccf683bb763a9b8d8e",
-   "venue": "Journal of Education and Learning (EduLearn)"
   }
  ],
  "meta": {
-  "count": 19,
-  "generated_at": "2026-08-07T20:56:47Z",
+  "count": 15,
+  "generated_at": "2026-08-07T22:53:59Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -577,7 +446,7 @@
    },
    {
     "category": "optional",
-    "count": 30,
+    "count": 0,
     "error": null,
     "full_text_count": 0,
     "id": "s2_datavis",

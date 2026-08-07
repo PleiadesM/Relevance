@@ -1,215 +1,223 @@
 {
  "meta": {
   "count": 5,
-  "generated_at": "2026-08-07T20:56:47Z",
+  "generated_at": "2026-08-07T22:53:59Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "full_text_file": "articles/news/8698d92537971f3c.json",
-     "item_id": "8698d92537971f3c",
+     "item_id": "afb6703524899327",
      "phrase": {
-      "en": "pauses model on security grounds",
-      "zh": "以安全为由暂停模型"
+      "en": "frames as migration row",
+      "zh": "视为移民争端"
      },
      "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities"
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "2b3094669909121f",
+     "item_id": "66a8d976ca33d159",
      "phrase": {
-      "en": "presents Astra cyber safeguards",
-      "zh": "展示Astra网络防护"
+      "en": "frames as reciprocal measure",
+      "zh": "视为对等措施"
      },
      "section": "news",
-     "source": "OpenAI News",
-     "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "When AI grows powerful, its makers pause and watch it warily.",
-    "zh": "当AI强大起来，创造者也要停下审视。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "AI trust & safety",
-    "zh": "AI信任与安全"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You track AI governance: today OpenAI halts Astra over safety standards and lays out its cyber evaluations in parallel — a concrete safety checkpoint.",
-    "zh": "你关注AI治理：今日OpenAI因安全标准暂停Astra并发布网络评估，安全节点明确。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "5fc2a720ed96a3ac",
-     "phrase": {
-      "en": "cuts AI coding cost by 70%",
-      "zh": "削减AI编码成本70%"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://www.databricks.com/blog/managing-ai-coding-costs-scale"
-    },
-    {
-     "item_id": "04056c56fe9fb589",
-     "phrase": {
-      "en": "companies scramble to cut AI spend",
-      "zh": "企业竞相削减AI支出"
-     },
-     "section": "news",
-     "source": "Simon Willison",
-     "url": "https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-everything"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Companies feel the burn of token bills and hunt for ways to ease the pain.",
-    "zh": "企业感受到Token账单的压力，寻求缓解之策。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "AI cost controls",
-    "zh": "AI成本控制"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You care about AI economics: Databricks' 70% coding spend cut and the industry-wide ‘tokenpocalypse’ frame a cost reckoning that touches every AI adopter today.",
-    "zh": "你关注AI经济：Databricks削减70%编码支出与‘Token危机’共同描绘成本清算，影响所有AI使用者。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "a3684b0f196c66ff",
-     "phrase": {
-      "en": "touchscreen teleoperation for robots",
-      "zh": "机器人触屏远程操作"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.06219v1"
-    },
-    {
-     "item_id": "da0660203353bf32",
-     "phrase": {
-      "en": "pose analytics for sports coaching",
-      "zh": "体育教练姿势分析"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.05971v1"
-    },
-    {
-     "item_id": "0d19f57a363f29aa",
-     "phrase": {
-      "en": "speaker uses moving parts to feel alive",
-      "zh": "音箱用活动部件显生气"
-     },
-     "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/gadgets/2026/08/openais-expensive-smart-speaker-will-use-moving-parts-to-seem-more-alive/"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "New interfaces aim to make machines feel intuitive, alive, and safe to steer.",
-    "zh": "新界面旨在让机器更直觉、有生气、易掌控。"
+    "en": "Spain and Italy exchange border checks over Ceuta migration wave.",
+    "zh": "西班牙与意大利因休达移民潮互设边境检查。"
    },
-   "id": "t3",
+   "id": "t1",
    "keyword": {
-    "en": "HCI & interaction design",
-    "zh": "人机交互设计"
+    "en": "border controls",
+    "zh": "边境管制"
    },
    "relates_to": [],
    "why_now": {
-    "en": "Your field overlaps with HCI: today brings teleoperation, pose analytics, and an AI speaker with moving parts — all pushing interaction frontiers you may build…",
-    "zh": "你关注人机交互：今日远程操作、姿态分析和动态AI音箱都在推进交互前沿，或可借鉴。"
+    "en": "You track geopolitical shifts; today's escalation could reshape EU internal borders.",
+    "zh": "你关注地缘政治变化，今日事态升级可能重塑欧盟内部边界。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "a3684b0f196c66ff",
+     "item_id": "843f5b18646ae85e",
      "phrase": {
-      "en": "touchscreen teleoperation for robots",
-      "zh": "机器人触屏远程操作"
+      "en": "frames as need for laws",
+      "zh": "强调立法需求"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.06219v1"
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cdewx6rew04o?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "1f2c6b0a8fcf0eb0",
+     "item_id": "21f14a9517335434",
      "phrase": {
-      "en": "robot learns from human demonstrations",
-      "zh": "机器人从人类示范学习"
+      "en": "frames as public safety",
+      "zh": "强调公共安全"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.06221v1"
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/07/idaho-police-shooting-in-n-out-burger-video"
+    },
+    {
+     "item_id": "083f51eb06558899",
+     "phrase": {
+      "en": "frames as tragedy details",
+      "zh": "聚焦事件细节"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/videos/c70glx1ww78o?at_medium=RSS&at_campaign=rss"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Machines learn human-like skills through demonstrations, moving closer to natural interaction.",
-    "zh": "机器通过示范学习类人技能，更接近自然交互。"
+    "en": "Shootings in Thailand and Idaho reignite gun control debates.",
+    "zh": "泰国与爱达荷枪击案重燃枪支管控讨论。"
    },
-   "id": "t4",
+   "id": "t2",
    "keyword": {
-    "en": "embodied AI & robotics",
-    "zh": "具身AI与机器人"
+    "en": "gun violence",
+    "zh": "枪支暴力"
    },
    "relates_to": [],
    "why_now": {
-    "en": "Your interest in embodied AI: today's papers show robots learning from human handwriting and teleoperation interfaces — concrete steps for human-robot…",
-    "zh": "你关注具身AI：今日论文展示机器人从手写轨迹和远程操作中学习，人机协作再进一步。"
+    "en": "You follow human-computer interaction; these events highlight societal interfaces of technology and policy.",
+    "zh": "你关注人机交互，这些事件凸显技术与政策的社会接口。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "f42d429baded1ee6",
+     "item_id": "53e3def516de65ed",
      "phrase": {
-      "en": "cross-reality transitions in digital art",
-      "zh": "数字艺术跨现实转换"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.04971v1"
-    },
-    {
-     "full_text_file": "articles/news/282887541bd2e844.json",
-     "item_id": "282887541bd2e844",
-     "phrase": {
-      "en": "rapper admits AI in song creation",
-      "zh": "说唱歌手承认AI创作"
+      "en": "frames as bipartisan victory",
+      "zh": "视为两党胜利"
      },
      "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/07/russia-sanctions-senate-passed-petroleum"
+    },
+    {
+     "item_id": "2f57a19c3776ec6e",
+     "phrase": {
+      "en": "frames as economic pressure",
+      "zh": "视为经济施压"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/07/nx-s1-5924914/senate-passes-russia-sanctions-bill-that-was-long-championed-by-lindsey-graham"
     }
    ],
-   "convergence": "divergent",
+   "convergence": "convergent",
    "gloss": {
-    "en": "Art and immersive displays reframe how we see and question reality.",
-    "zh": "艺术与沉浸式展示重新定义我们看待和质疑现实的方式。"
+    "en": "US Senate passes Russia sanctions, continuing bipartisan pressure.",
+    "zh": "美国参议院通过俄罗斯制裁，持续两党施压。"
    },
-   "id": "t5",
+   "id": "t3",
    "keyword": {
-    "en": "critical visualization",
-    "zh": "批判性可视化"
+    "en": "sanctions policy",
+    "zh": "制裁政策"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You explore critical visualization: cross-reality transitions in digital art and AI’s new creative tools (like Fenix Flexin's admitted AI use) challenge…",
-    "zh": "你关注批判性可视化：数字艺术跨现实转换和AI创意工具（如Fenix承认用AI）今日挑战传统视觉叙事。"
+    "en": "You follow policy shifts; this bill could affect global tech supply chains.",
+    "zh": "你关注政策变化，该法案可能影响全球科技供应链。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "9b7e2af460365971",
+     "phrase": {
+      "en": "frames as civil rights",
+      "zh": "视为公民权利"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/07/nyregion/delaney-hall-investigation-civil-rights.html"
+    },
+    {
+     "item_id": "aa89f9e0aa483a23",
+     "phrase": {
+      "en": "frames as legal ruling",
+      "zh": "视为法律裁决"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/07/judge-trump-south-sudan-tps"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Migrant detention and TPS decisions highlight US immigration tensions.",
+    "zh": "移民拘留与TPS决定凸显美国移民紧张局势。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "immigration enforcement",
+    "zh": "移民执法"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You study human-computer interaction and policy; these stories show systemic challenges.",
+    "zh": "你研究人机交互与政策，这些故事展示系统挑战。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "980f422a705f219b",
+     "phrase": {
+      "en": "tutor timing decisions",
+      "zh": "导师时机决策"
+     },
+     "section": "news",
+     "source": "Hugging Face Blog",
+     "url": "https://huggingface.co/blog/allenai/tutormoments"
+    },
+    {
+     "item_id": "c1ae87d2d513d142",
+     "phrase": {
+      "en": "transparent product advisor",
+      "zh": "透明产品顾问"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.06068v1"
+    },
+    {
+     "item_id": "c43c5022257879f0",
+     "phrase": {
+      "en": "adapts to user knowledge",
+      "zh": "适应用户知识"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.06091v1"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Conversational agents and tutors evolve to adapt to user knowledge.",
+    "zh": "对话代理和导师进化以适应知识水平。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "AI assistants",
+    "zh": "AI助手"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You work on HCI and LLMs; these advances directly inform your design space.",
+    "zh": "你从事人机交互与LLM，这些进展直接影响设计空间。"
    }
   }
  ]
