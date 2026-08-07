@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"snail racing championship\" OR \"world snail racing\"",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "New Statesman",
-   "published_at": "2026-08-05T16:11:25Z",
-   "title": "Searching for the world’s fastest snail",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTDBVZ081UDNSd1p0bTlLbUVrNEUzeWI4OWpianFOYy1ld0VQS2ZtVjMxblNrbUVzemxWU0xzTkh0TEwtS0tOT3pwMXp2cm9EMWg1TVFFQWJkNHdhczI1OU5IMENEdElSX0FCWks0LUkycUNCb0pVODFtOEh3TUlJWWcxOUxnUUUxWWNsMDVOLXc?oc=5"
+   "name": "fox13seattle.com",
+   "published_at": "2026-08-04T02:45:00Z",
+   "title": "Tickets going on sale for Seattle , WA Great Pumpkin Beer Festival",
+   "url": "https://www.fox13seattle.com/news/great-pumpkin-beer-festival-tickets"
   },
   "summaries": {
    "en": {
-    "summary": "A magazine goes on a whimsical quest to find the world's fastest snail, testing tiny slime trails and cheering on gastropods at a countryside race.",
-    "why_irrelevant": "far from typical urban tech or business feed"
+    "summary": "Tickets for Seattle's Great Pumpkin Beer Festival go on sale August 4th.",
+    "why_irrelevant": "It's a niche event far from typical feed topics."
    },
    "zh": {
-    "summary": "一家杂志踏上一场异想天开的寻找世界上最快的蜗牛之旅，测试微小黏液痕迹，并在乡村比赛中为腹足动物加油。",
-    "why_irrelevant": "远离常见的都市科技或商业信息"
+    "summary": "西雅图南瓜啤酒节门票将于8月4日开售。",
+    "why_irrelevant": "这是一个小众活动，远离常规信息流。"
    }
   },
-  "topic": "competitive snail racing"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news spans global crises, from regional conflicts and school shootings to heatwaves and geopolitical shifts, while research explores human-AI collaboration and interactive technologies.",
+ "brief": "Today's news spans U.S. political maneuvers on birthright citizenship, tragic events in Thailand and Sudan, and economic strains on families, while research highlights advances in robotics, human-computer interaction, and visualization.",
  "meta": {
-  "generated_at": "2026-08-07T07:39:05Z"
+  "generated_at": "2026-08-07T09:14:03Z"
  },
- "news_summary": "News covers China's export resilience, Japan's earthquake preparedness, Thailand and US school shootings, European heat records, Colombia's conflict, and Meta's court ruling over kids' mental health.",
- "papers_summary": "Papers focus on human-AI collaboration, including LLM-assisted qualitative coding, chatbots for e-commerce, robot learning from demonstrations, and visualization techniques for scientific data.",
+ "news_summary": "U.S. politics focus on Trump's executive orders and Black voter sentiment in Georgia, while global stories cover tragedy in Thailand, drone strikes in Sudan, and economic pressures on families.",
+ "papers_summary": "Research papers explore robot learning from demonstrations, teleoperation interfaces, and chatbot transparency, alongside visualization and sports coaching tools.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans global crises, from regional conflicts and school shootings to heatwaves and geopolitical shifts, while research explores human-AI collaboration and interactive technologies.",
-   "news_summary": "News covers China's export resilience, Japan's earthquake preparedness, Thailand and US school shootings, European heat records, Colombia's conflict, and Meta's court ruling over kids' mental health.",
-   "papers_summary": "Papers focus on human-AI collaboration, including LLM-assisted qualitative coding, chatbots for e-commerce, robot learning from demonstrations, and visualization techniques for scientific data."
+   "brief": "Today's news spans U.S. political maneuvers on birthright citizenship, tragic events in Thailand and Sudan, and economic strains on families, while research highlights advances in robotics, human-computer interaction, and visualization.",
+   "news_summary": "U.S. politics focus on Trump's executive orders and Black voter sentiment in Georgia, while global stories cover tragedy in Thailand, drone strikes in Sudan, and economic pressures on families.",
+   "papers_summary": "Research papers explore robot learning from demonstrations, teleoperation interfaces, and chatbot transparency, alongside visualization and sports coaching tools."
   },
   "zh": {
-   "brief": "今日焦點包括泰國校園槍擊案與英國免冷藏疫苗試驗成功；另有SpaceX火箭撞月與歐洲乾旱揭露歷史遺跡。",
-   "news_summary": "泰國校園槍擊案造成至少七死，槍手為14歲學生；英國成功進行免冷藏疫苗人體試驗，有望減少疫苗浪費；特朗普簽署行政命令試圖限制出生公民權；歐洲乾旱導致多瑙河水位降至30年最低，歷史遺跡重現。",
-   "papers_summary": "本日研究聚焦於人機互動與機器人學習，包括LLM輔助質性數據編碼、機器人模仿學習、觸控介面遠端操作等，以及數位產品顧問與聊天機器人設計。"
+   "brief": "今日焦点涵盖泰國校園槍擊案、疫苗室溫保存新進展、美國出生公民權爭議，以及歐洲乾旱揭歷史遺跡；研究方面則探討機器人模仿、數位產品顧問與圖形摘要生成等。",
+   "news_summary": "泰國發生校園槍擊案致8死，槍手為14歲學生；英國成功進行免冷藏疫苗人體實驗；特朗普簽署行政命令限制出生公民權；歐洲乾旱使多瑙河水位下降，露出戰艦殘骸與猛獁象骨。",
+   "papers_summary": "研究聚焦於機器人從人類示範學習、觸控介面遙操作、數位產品顧問的用戶感知、AI輔助運動教練、不確定性視覺化，以及圖形摘要生成等領域。"
   }
  },
  "todays_image": {
-  "caption": "The hospital in Honda, Colombia, built to mend bodies, parallels today's Thai campus shooting where a school became a site of irreversible harm.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-23841_02-000001",
+  "caption": "Like the distant volcano, Black voters in Georgia are erupting with demands that remain unseen from the political summit.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-23041_02-000001",
   "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/23841",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-23841_02-000001",
-  "title": "Hospital de San Juan de Dios, Honda, Colombia"
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/23041",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-23041_02-000001",
+  "title": "Distant View of Sangay Volcano Erupting, Ecuador"
  }
 }
