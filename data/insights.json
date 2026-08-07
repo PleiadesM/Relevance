@@ -1,48 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "World Sheep Shearing Championships OR shearing records",
-  "source": {
-   "name": "Australian Geographic",
-   "published_at": "2026-07-14T07:00:00Z",
-   "title": "Where there’s wool, there’s a way",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcGR0QTZYT0VWRUlhcTBKRkw0VWlSdnpRMFQzMjJsaENQOFA5d0dQb3NZMXJidW9QTWZ5SW5abllTYThweE1xdGN0QkNQcWY0eHR1Y2cyT0VXTm1FTzZyRVhYNnFLY2R5dGktZGwyZ0FGN0N3aTRoVUc5WWlaeWRfUnotbTYwVTZkYzV1aEsycloyTW5FbUdsTDB0OA?oc=5"
-  },
-  "summaries": {
-   "en": {
-    "summary": "A feature on wool's role in Australian landscapes and communities highlights enduring traditions of the outback.",
-    "why_irrelevant": "It's a niche heritage topic far removed from tech and daily news feeds."
-   },
-   "zh": {
-    "summary": "一篇关于羊毛在澳大利亚景观和社区中作用的专题报道，突出了内陆地区的悠长传统。",
-    "why_irrelevant": "这是一个小众的传统话题，远离科技和日常新闻动态。"
-   }
-  },
-  "topic": "competitive sheep shearing"
- },
- "brief": "Today's news highlights bond market stress, U.S. job losses, and Middle East defense pacts, alongside AI training advances and nuclear concerns; papers focus on human-AI interaction and visualization techniques.",
+ "brief": "Today's news spans geopolitical tensions, domestic political controversies, and tragedies abroad, while research focuses on enhancing human-robot interaction and visualization techniques.",
  "meta": {
-  "generated_at": "2026-08-07T13:36:09Z"
+  "generated_at": "2026-08-07T15:07:30Z"
  },
- "news_summary": "The bond market signals rising risks as U.S. job losses surprise, while Saudi Arabia, Turkey, and Pakistan sign a defense pact, and ByteDance trains a massive AI model; Iran's nuclear sites remain active.",
- "papers_summary": "Research explores human-in-the-loop coding, video résumés, robot learning from demonstrations, touchscreen teleoperation, and AI-driven product advisors, plus visualization methods for sports and scientific data.",
+ "news_summary": "Key stories include GOP calls for Max Miller's resignation, bond market signals, Thailand school shooting, and Middle East defense pacts, alongside U.S. political and legal developments.",
+ "papers_summary": "Papers cover robot learning from demonstrations, touchscreen teleoperation, conversational AI, sports coaching analytics, and novel visualization methods.",
  "summaries": {
   "en": {
-   "brief": "Today's news highlights bond market stress, U.S. job losses, and Middle East defense pacts, alongside AI training advances and nuclear concerns; papers focus on human-AI interaction and visualization techniques.",
-   "news_summary": "The bond market signals rising risks as U.S. job losses surprise, while Saudi Arabia, Turkey, and Pakistan sign a defense pact, and ByteDance trains a massive AI model; Iran's nuclear sites remain active.",
-   "papers_summary": "Research explores human-in-the-loop coding, video résumés, robot learning from demonstrations, touchscreen teleoperation, and AI-driven product advisors, plus visualization methods for sports and scientific data."
+   "brief": "Today's news spans geopolitical tensions, domestic political controversies, and tragedies abroad, while research focuses on enhancing human-robot interaction and visualization techniques.",
+   "news_summary": "Key stories include GOP calls for Max Miller's resignation, bond market signals, Thailand school shooting, and Middle East defense pacts, alongside U.S. political and legal developments.",
+   "papers_summary": "Papers cover robot learning from demonstrations, touchscreen teleoperation, conversational AI, sports coaching analytics, and novel visualization methods."
   },
   "zh": {
-   "brief": "今日焦点包括泰国校园枪击案、特朗普出生公民权行政命令、免冷藏疫苗进展及AI设计病毒研究，同时债券市场信号与AI训练规模引发关注。",
-   "news_summary": "泰国校园枪击案致7死，枪手自杀；特朗普签署行政令限制出生公民权；免冷藏疫苗首次人体实验成功；欧洲干旱暴露历史遗迹。",
-   "papers_summary": "研究涉及AI病毒设计、机器人学习、对话式商务及科学可视化，暂无优先级中文论文。"
+   "brief": "今日要闻涵盖泰国校园枪击案、AI设计病毒、免冷藏疫苗及美国出生公民权行政命令；研究方面聚焦机器人学习与交互技术。",
+   "news_summary": "泰国发生校园枪击致7人死亡，枪手自杀；科学家用AI设计新病毒；英国测试免冷藏疫苗；特朗普签署限制出生公民权行政命令，同时欧洲干旱暴露历史遗迹。",
+   "papers_summary": "多篇论文探讨机器人从人类示范学习、触摸屏遥控操作以及对话式商务助手等，旨在提升人机交互的自然性与效率。"
   }
  },
  "todays_image": {
-  "caption": "The delicate, translucent fronds of Hymenophyllum vittatum Copel. mirror the bond market’s fragile, paper-thin confidence that investors must heed before it tears.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m37c04b7cad21f4019b2eadf0defcd1a9b",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/379d698ef-651a-4953-87d4-6db58f063da5",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m37c04b7cad21f4019b2eadf0defcd1a9b/90",
-  "title": "Hymenophyllum vittatum Copel."
+  "caption": "A nostalgic tune about a lost Southern past parallels the GOP's longing for a pre-Trump era they can't quite reclaim amid Miller's scandal.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2014_312_237_001",
+  "source_name": "National Museum of African American History and Culture",
+  "source_url": "https://nmaahc.si.edu/object/nmaahc_2014.312.237",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2014_312_237_001",
+  "title": "<I>Sweet Memories of Dixie</I>"
  }
 }
