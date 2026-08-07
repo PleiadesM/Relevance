@@ -1,7 +1,7 @@
 {
  "meta": {
-  "count": 3,
-  "generated_at": "2026-08-07T19:12:49Z",
+  "count": 5,
+  "generated_at": "2026-08-07T20:56:47Z",
   "scope": "public"
  },
  "threads": [
@@ -11,8 +11,8 @@
      "full_text_file": "articles/news/8698d92537971f3c.json",
      "item_id": "8698d92537971f3c",
      "phrase": {
-      "en": "pauses for security standards",
-      "zh": "因安全标准暂停"
+      "en": "pauses model on security grounds",
+      "zh": "以安全为由暂停模型"
      },
      "section": "news",
      "source": "The Verge · AI",
@@ -21,60 +21,96 @@
     {
      "item_id": "2b3094669909121f",
      "phrase": {
-      "en": "shares cybersecurity evaluations",
-      "zh": "公开网络安全评估"
+      "en": "presents Astra cyber safeguards",
+      "zh": "展示Astra网络防护"
      },
      "section": "news",
      "source": "OpenAI News",
      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "When AI grows powerful, its makers pause and watch it warily.",
+    "zh": "当AI强大起来，创造者也要停下审视。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI trust & safety",
+    "zh": "AI信任与安全"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track AI governance: today OpenAI halts Astra over safety standards and lays out its cyber evaluations in parallel — a concrete safety checkpoint.",
+    "zh": "你关注AI治理：今日OpenAI因安全标准暂停Astra并发布网络评估，安全节点明确。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "5fc2a720ed96a3ac",
+     "phrase": {
+      "en": "cuts AI coding cost by 70%",
+      "zh": "削减AI编码成本70%"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://www.databricks.com/blog/managing-ai-coding-costs-scale"
     },
     {
      "item_id": "04056c56fe9fb589",
      "phrase": {
-      "en": "companies scramble over token costs",
-      "zh": "企业应对令牌成本"
+      "en": "companies scramble to cut AI spend",
+      "zh": "企业竞相削减AI支出"
      },
      "section": "news",
      "source": "Simon Willison",
      "url": "https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-everything"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "OpenAI halts a model for being too powerful; the cost of AI becomes the story.",
-    "zh": "OpenAI因模型过强而暂停；AI的成本成为焦点。"
+    "en": "Companies feel the burn of token bills and hunt for ways to ease the pain.",
+    "zh": "企业感受到Token账单的压力，寻求缓解之策。"
    },
-   "id": "t1",
+   "id": "t2",
    "keyword": {
-    "en": "AI model safety pause",
-    "zh": "AI模型安全暂停"
+    "en": "AI cost controls",
+    "zh": "AI成本控制"
    },
-   "relates_to": [
-    "t2"
-   ],
+   "relates_to": [],
    "why_now": {
-    "en": "You follow AI safety: two sources today report a pause and a cost crunch, shifting the narrative from capability to restraint.",
-    "zh": "你关注AI安全：今日两则报道分别聚焦暂停与成本，叙事从能力转向克制。"
+    "en": "You care about AI economics: Databricks' 70% coding spend cut and the industry-wide ‘tokenpocalypse’ frame a cost reckoning that touches every AI adopter today.",
+    "zh": "你关注AI经济：Databricks削减70%编码支出与‘Token危机’共同描绘成本清算，影响所有AI使用者。"
    }
   },
   {
    "angles": [
     {
-     "full_text_file": "articles/news/a579a01f7628ad42.json",
-     "item_id": "a579a01f7628ad42",
+     "item_id": "a3684b0f196c66ff",
      "phrase": {
-      "en": "Google AI team reshuffles",
-      "zh": "谷歌AI团队重组"
+      "en": "touchscreen teleoperation for robots",
+      "zh": "机器人触屏远程操作"
      },
-     "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast"
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.06219v1"
+    },
+    {
+     "item_id": "da0660203353bf32",
+     "phrase": {
+      "en": "pose analytics for sports coaching",
+      "zh": "体育教练姿势分析"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.05971v1"
     },
     {
      "item_id": "0d19f57a363f29aa",
      "phrase": {
-      "en": "speaker uses moving parts",
-      "zh": "音箱采用活动部件"
+      "en": "speaker uses moving parts to feel alive",
+      "zh": "音箱用活动部件显生气"
      },
      "section": "news",
      "source": "Ars Technica · AI",
@@ -83,59 +119,97 @@
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Top AI names shift roles as Google restructures; OpenAI's hardware ambitions leak.",
-    "zh": "谷歌重组，AI高层变动；OpenAI硬件野心曝光。"
+    "en": "New interfaces aim to make machines feel intuitive, alive, and safe to steer.",
+    "zh": "新界面旨在让机器更直觉、有生气、易掌控。"
    },
-   "id": "t2",
+   "id": "t3",
    "keyword": {
-    "en": "AI industry shake-up",
-    "zh": "AI行业重组"
+    "en": "HCI & interaction design",
+    "zh": "人机交互设计"
    },
-   "relates_to": [
-    "t1"
-   ],
+   "relates_to": [],
    "why_now": {
-    "en": "You track AI industry dynamics: today's Verge and Ars Technica pieces reveal internal churn and new product bets.",
-    "zh": "你关注AI行业动态：今日两篇报道揭示内部变动与新硬件布局。"
+    "en": "Your field overlaps with HCI: today brings teleoperation, pose analytics, and an AI speaker with moving parts — all pushing interaction frontiers you may build…",
+    "zh": "你关注人机交互：今日远程操作、姿态分析和动态AI音箱都在推进交互前沿，或可借鉴。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "53e3def516de65ed",
+     "item_id": "a3684b0f196c66ff",
      "phrase": {
-      "en": "senate passes sanctions bill",
-      "zh": "参议院通过制裁法案"
+      "en": "touchscreen teleoperation for robots",
+      "zh": "机器人触屏远程操作"
      },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/aug/07/russia-sanctions-senate-passed-petroleum"
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.06219v1"
     },
     {
-     "item_id": "bb74d838ffefa1cc",
+     "item_id": "1f2c6b0a8fcf0eb0",
      "phrase": {
-      "en": "three nations sign pact",
-      "zh": "三国签署防务条约"
+      "en": "robot learns from human demonstrations",
+      "zh": "机器人从人类示范学习"
      },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c30418m4mj4o?at_medium=RSS&at_campaign=rss"
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.06221v1"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Senate passes Russia sanctions; Saudi, Turkey, Pakistan sign a defense pact.",
-    "zh": "参议院通过俄制裁；沙特、土耳其、巴基斯坦签署防务条约。"
+    "en": "Machines learn human-like skills through demonstrations, moving closer to natural interaction.",
+    "zh": "机器通过示范学习类人技能，更接近自然交互。"
    },
-   "id": "t3",
+   "id": "t4",
    "keyword": {
-    "en": "sanctions and security pacts",
-    "zh": "制裁与安全条约"
+    "en": "embodied AI & robotics",
+    "zh": "具身AI与机器人"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track geopolitical shifts: two today headlines reshape global security alignments.",
-    "zh": "你关注地缘政治变动：今日两项头条重塑全球安全格局。"
+    "en": "Your interest in embodied AI: today's papers show robots learning from human handwriting and teleoperation interfaces — concrete steps for human-robot…",
+    "zh": "你关注具身AI：今日论文展示机器人从手写轨迹和远程操作中学习，人机协作再进一步。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "f42d429baded1ee6",
+     "phrase": {
+      "en": "cross-reality transitions in digital art",
+      "zh": "数字艺术跨现实转换"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.04971v1"
+    },
+    {
+     "full_text_file": "articles/news/282887541bd2e844.json",
+     "item_id": "282887541bd2e844",
+     "phrase": {
+      "en": "rapper admits AI in song creation",
+      "zh": "说唱歌手承认AI创作"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Art and immersive displays reframe how we see and question reality.",
+    "zh": "艺术与沉浸式展示重新定义我们看待和质疑现实的方式。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "critical visualization",
+    "zh": "批判性可视化"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You explore critical visualization: cross-reality transitions in digital art and AI’s new creative tools (like Fenix Flexin's admitted AI use) challenge…",
+    "zh": "你关注批判性可视化：数字艺术跨现实转换和AI创意工具（如Fenix承认用AI）今日挑战传统视觉叙事。"
    }
   }
  ]
