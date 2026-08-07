@@ -2,6 +2,60 @@
  "items": [
   {
    "authors": [
+    "Mason Pellegrini",
+    "Clay Spinuzzi"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.1080/10572252.2026.2710366"
+   },
+   "id": "040f914a761e7b5b",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-07T05:14:54Z",
+   "score": 0.7276,
+   "section": "papers",
+   "source": "TechComm journals (CrossRef)",
+   "source_id": "crossref_techcomm_journals",
+   "summary": "",
+   "tags": [
+    "ai-writing",
+    "llm"
+   ],
+   "title": "Can We Responsively Code Qualitative Data with an LLM Aide? A Human-In-The-Loop Approach",
+   "url": "https://doi.org/10.1080/10572252.2026.2710366",
+   "venue": "Technical Communication Quarterly"
+  },
+  {
+   "authors": [
+    "Sunitha Tumkur"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.1109/tpc.2026.3711952"
+   },
+   "id": "29802937b2099c6b",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-06T19:08:30Z",
+   "score": 0.4516,
+   "section": "papers",
+   "source": "TechComm journals (CrossRef)",
+   "source_id": "crossref_techcomm_journals",
+   "summary": "",
+   "tags": [
+    "pedagogy"
+   ],
+   "title": "Teaching Professional Self-Presentation With Video Résumés: An Instructor-and-Peer Feedback Intervention",
+   "url": "https://doi.org/10.1109/tpc.2026.3711952",
+   "venue": "IEEE Transactions on Professional Communication"
+  },
+  {
+   "authors": [
     "Alperen Kenan",
     "Paul Bremner",
     "Manuel Giuliani"
@@ -15,7 +69,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T16:12:18Z",
-   "score": 0.5427,
+   "score": 0.5344,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -43,7 +97,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T16:10:02Z",
-   "score": 0.775,
+   "score": 0.7667,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -71,7 +125,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T14:31:57Z",
-   "score": 0.5351,
+   "score": 0.527,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -97,7 +151,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T14:12:14Z",
-   "score": 0.7262,
+   "score": 0.7181,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -109,6 +163,37 @@
    "title": "Cleo: A Transparent and Controllable Chatbot for Conversational Commerce",
    "url": "https://arxiv.org/abs/2608.06068v1",
    "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Claire Lauer",
+    "Amber Hedquist",
+    "Stephen Carradini",
+    "Srinivasan Ravichandran",
+    "Anqi Shao",
+    "Poorva Ketkar"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "This article examines how aesthetic design and anthropomorphism support public engagement with complex environmental issues through “Blue,” a character developed for a community-based water education initiative in Arizona. Drawing on qualitative usability-testing data, the study analyzes user responses to Blue's design. We argue that Blue's effectiveness stems from his construction as a social presence and identify four design functions that shaped engagement: building approachability,…",
+    "citations": 0,
+    "doi": "10.1177/00472816261471752"
+   },
+   "id": "bdb16283089b369c",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-06T13:50:48Z",
+   "score": 0.4331,
+   "section": "papers",
+   "source": "TechComm journals (CrossRef)",
+   "source_id": "crossref_techcomm_journals",
+   "summary": "This article examines how aesthetic design and anthropomorphism support public engagement with complex environmental issues through “Blue,” a character developed for a community-based water education initiative in Arizona. Drawing on qualitative usability-testing data, the study analyzes user…",
+   "tags": [
+    "ux"
+   ],
+   "title": "“Cute” as Environmental Strategy: Anthropomorphizing Nature to Promote Engagement with Environmental Issues",
+   "url": "https://doi.org/10.1177/00472816261471752",
+   "venue": "Journal of Technical Writing and Communication"
   },
   {
    "authors": [
@@ -124,7 +209,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T12:46:19Z",
-   "score": 0.7598,
+   "score": 0.7519,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -150,7 +235,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T10:05:04Z",
-   "score": 0.5558,
+   "score": 0.5481,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -179,7 +264,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T03:33:03Z",
-   "score": 0.7217,
+   "score": 0.7146,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -206,7 +291,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T00:36:48Z",
-   "score": 0.7103,
+   "score": 0.7035,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -234,7 +319,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T00:00:00Z",
-   "score": 0.3804,
+   "score": 0.3751,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -259,7 +344,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T23:53:02Z",
-   "score": 0.4751,
+   "score": 0.4683,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -286,7 +371,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T17:55:31Z",
-   "score": 0.686,
+   "score": 0.6797,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -298,6 +383,34 @@
    "title": "DeepConnect: A Visual Analytics System for Bridging Interdisciplinary Research Collaborations",
    "url": "https://arxiv.org/abs/2608.05134v1",
    "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Maureen A. Mathison",
+    "Stephanie Weidauer",
+    "Mickey Gough"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.1080/10572252.2026.2712991"
+   },
+   "id": "e4769a89f6477941",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-05T16:30:29Z",
+   "score": 0.3696,
+   "section": "papers",
+   "source": "TechComm journals (CrossRef)",
+   "source_id": "crossref_techcomm_journals",
+   "summary": "",
+   "tags": [
+    "pedagogy"
+   ],
+   "title": "Facilitating Social Justice in the Technical Editing Classroom",
+   "url": "https://doi.org/10.1080/10572252.2026.2712991",
+   "venue": "Technical Communication Quarterly"
   },
   {
    "authors": [
@@ -313,7 +426,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T15:43:41Z",
-   "score": 0.6784,
+   "score": 0.6723,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -343,7 +456,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T11:19:08Z",
-   "score": 0.6638,
+   "score": 0.658,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -366,19 +479,13 @@
    "category": "optional",
    "extra": {
     "abstract_snippet": "Despite the promise of virtual reality (VR) for intuitive spatial interaction, volume visualization (VolVis) in VR remains constrained by high rendering costs and motion discomfort. Recent advances have shown that representing volumetric scenes with 3D Gaussian splatting enables high-performance rendering, making this representation well-suited for VR. However, existing Gaussian-based scene editing workflows remain limited by slow offline segmentation and fatigue-inducing manual selection. To…",
-    "also_in": [
-     {
-      "source": "Semantic Scholar · data visualization",
-      "url": "https://www.semanticscholar.org/paper/a2b84969c23aab10444e7b1e936f8a99c4a6b9f2"
-     }
-    ],
     "arxiv_id": "2608.04475"
    },
    "id": "a2aaf741bee8a845",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T05:58:30Z",
-   "score": 0.6471,
+   "score": 0.6416,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -406,7 +513,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T04:26:09Z",
-   "score": 0.45,
+   "score": 0.4446,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -418,105 +525,11 @@
    "title": "Revisiting Channel Effectiveness: A Multi-Dimensional Evaluation with Primitive Visual Stimuli",
    "url": "https://arxiv.org/abs/2608.04435v1",
    "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Julian Baader",
-    "Ricardo Langner",
-    "Can Liu",
-    "Raimund Dachselt"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "With this work, we explore the unique potential of data visualization on novel foldable mobile devices (foldables). Even though foldables are already commercially available, there is limited knowledge of how to leverage their distinct characteristics for visualization. This gap will only grow as their form factors become increasingly diverse. To address this, we use a two-step approach. First, we present a device-centered design space, structured around physical and usage properties of foldable…",
-    "arxiv_id": "2608.02232",
-    "citations": 0,
-    "doi": null
-   },
-   "id": "d737d1ad2adee7cc",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-03T00:00:00Z",
-   "score": 0.4616,
-   "section": "papers",
-   "source": "Semantic Scholar · data visualization",
-   "source_id": "s2_datavis",
-   "summary": "With this work, we explore the unique potential of data visualization on novel foldable mobile devices (foldables). Even though foldables are already commercially available, there is limited knowledge of how to leverage their distinct characteristics for visualization. This gap will only grow as…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "ManyFold: A Design Exploration of Data Visualization on Foldable Mobile Devices",
-   "url": "https://www.semanticscholar.org/paper/41877c9f9e01eede3e14f084e9324864cd83ee8b",
-   "venue": null
-  },
-  {
-   "authors": [
-    "Ziqi Rong",
-    "Jinpu Cai",
-    "Jiahao Qiu",
-    "Pengcheng Xu",
-    "Lana X. Garmire",
-    "Qiuyu Lian"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "arxiv_id": null,
-    "citations": 0,
-    "doi": "10.26599/bdma.2025.9020085"
-   },
-   "id": "3f98c03a7e4ed512",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-01T00:00:00Z",
-   "score": 0.3163,
-   "section": "papers",
-   "source": "Semantic Scholar · data visualization",
-   "source_id": "s2_datavis",
-   "summary": "",
-   "tags": [
-    "visualization"
-   ],
-   "title": "Enhancing Distance Entropy Preservation via $\\boldsymbol{L}^{2}$ Normalization and Geodesic Distances in High-Dimensional Single-Cell Data Visualization",
-   "url": "https://www.semanticscholar.org/paper/5166ca0da6de2657f83387554935176a8f7bf673",
-   "venue": "Big Data Mining and Analytics"
-  },
-  {
-   "authors": [
-    "Tomáš Čajka",
-    "J. Hricko",
-    "Lucie Rudl Kulhavá",
-    "Veronika Hola",
-    "Michaela Paucova",
-    "Michaela Novakova"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "arxiv_id": null,
-    "citations": 0,
-    "doi": "10.1016/j.aca.2026.346066"
-   },
-   "id": "40eb67338f3dffaa",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-01T00:00:00Z",
-   "score": 0.1788,
-   "section": "papers",
-   "source": "Semantic Scholar · data visualization",
-   "source_id": "s2_datavis",
-   "summary": "",
-   "tags": [
-    "visualization"
-   ],
-   "title": "ExchangeXplorer: an R/Shiny application for processing and visualization of LC–HDX-MS data in metabolomics, lipidomics, and exposomics",
-   "url": "https://www.semanticscholar.org/paper/cf6bde1610233dc704f58564de06ab64596c5cae",
-   "venue": "Analytica Chimica Acta"
   }
  ],
  "meta": {
-  "count": 18,
-  "generated_at": "2026-08-07T05:49:12Z",
+  "count": 19,
+  "generated_at": "2026-08-07T07:39:05Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -546,7 +559,7 @@
    },
    {
     "category": "optional",
-    "count": 30,
+    "count": 0,
     "error": null,
     "full_text_count": 0,
     "id": "s2_datavis",
@@ -558,12 +571,12 @@
    },
    {
     "category": "optional",
-    "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-07-10&rows=12&sort=created&order=desc",
+    "count": 15,
+    "error": null,
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "crossref"

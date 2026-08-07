@@ -1,0 +1,185 @@
+{
+ "meta": {
+  "count": 4,
+  "generated_at": "2026-08-07T07:39:05Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "a3684b0f196c66ff",
+     "phrase": {
+      "en": "Touchscreen interface for robot teleoperation",
+      "zh": "触摸屏遥操作界面"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.06219v1"
+    },
+    {
+     "item_id": "1f2c6b0a8fcf0eb0",
+     "phrase": {
+      "en": "Robots learn from human handwriting",
+      "zh": "机器人从手写学习"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.06221v1"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "New interfaces let humans guide robots with touch, improving safety in risky tasks.",
+    "zh": "新界面让人类通过触摸引导机器人，提升危险任务的安全性。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "robot teleoperation",
+    "zh": "机器人遥操作"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow embodied AI and HCI: two papers today push teleoperation interfaces forward.",
+    "zh": "你关注具身AI和人机交互，今日两篇论文推进遥操作界面。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "040f914a761e7b5b",
+     "phrase": {
+      "en": "Human-in-the-loop with LLM aide",
+      "zh": "人与LLM共同编码"
+     },
+     "section": "papers",
+     "source": "TechComm journals (CrossRef)",
+     "url": "https://doi.org/10.1080/10572252.2026.2710366"
+    },
+    {
+     "item_id": "c1ae87d2d513d142",
+     "phrase": {
+      "en": "Controllable chatbot for commerce",
+      "zh": "可控商业聊天机器人"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.06068v1"
+    },
+    {
+     "item_id": "69c223fed43d4919",
+     "phrase": {
+      "en": "Visual analytics for collaboration",
+      "zh": "协作可视化分析"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.05134v1"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "AI and humans team up to improve work, from coding data to customer service.",
+    "zh": "人工智能与人类合作改善工作，从数据编码到客户服务。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "human-AI collaboration",
+    "zh": "人机协作"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You're interested in LLM applications: today's papers explore human-in-the-loop AI design.",
+    "zh": "你关注LLM应用，今日论文探索人在环路的AI设计。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "dc68da70a0c283b9",
+     "phrase": {
+      "en": "Meta to pay $567M over kids' mental health",
+      "zh": "Meta因儿童心理健康赔付5.67亿"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/07/nx-s1-5924581/court-orders-instagram-and-facebooks-meta-to-pay-567m-to-address-kids-mental-health-online"
+    },
+    {
+     "item_id": "664a994e21e02cb6",
+     "phrase": {
+      "en": "Court orders Meta to pay damages",
+      "zh": "法院命令Meta支付赔偿"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta"
+    },
+    {
+     "item_id": "75363dc27c0ecca4",
+     "phrase": {
+      "en": "Largest child safety ruling",
+      "zh": "最大儿童安全裁决"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Courts hold platforms accountable for harms, sending big fines and new rules.",
+    "zh": "法院追究平台责任，开出巨额罚单并制定新规。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "social media regulation",
+    "zh": "社交媒体监管"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow tech policy and ethics: today a landmark ruling against Meta lands.",
+    "zh": "你关注科技政策与伦理，今日对Meta的里程碑裁决落地。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "9935b6f868037fb2",
+     "phrase": {
+      "en": "AI creates novel viruses",
+      "zh": "AI制造新型病毒"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/06/science/ai-viruses-bacteria-arc.html"
+    },
+    {
+     "item_id": "43c721587d9b58e8",
+     "phrase": {
+      "en": "AI triage for emergency calls",
+      "zh": "AI分流紧急呼叫"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://www.shreveporttimes.com/story/news/local/louisiana/2026/07/28/is-new-orleans-using-ai-to-answer-911-calls-instead-of-human-dispatchers-impacts-emergencies-crime/91065014007/"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "AI's power grows, raising urgent questions about misuse and regulation.",
+    "zh": "人工智能力量增长，引发关于滥用与监管的紧迫问题。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "AI safety",
+    "zh": "人工智能安全"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track AI ethics: today shows both a risky AI tool and efforts to govern it.",
+    "zh": "你关注AI伦理，今日既见高风险AI工具，又见治理努力。"
+   }
+  }
+ ]
+}

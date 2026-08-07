@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "oyster shucking championship OR oyster opening contest",
+  "query": "\"snail racing championship\" OR \"world snail racing\"",
   "source": {
-   "name": "13newsnow.com",
-   "published_at": "2026-07-31T12:41:00Z",
-   "title": "Sip, shuck, and celebrate the return of Yorktown Wine and Oyster Festival this fall",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNX3Vrem9GUXZkb0M4WlZxaW5sQnQ4V212V0FJSk0zQmNmVHgyYU9URkExVDhyOFBrY25zNjY2clRHVkFIcjlBQzREMnJTVVdtRjdPbFloTWpwM0xNb2dJbElZNmFfNG9jM0J1a0pYVTVubTdILUR5ZjBTcU1jaF91VU1uSVNiRmVpcldhbkVPQzhqeEhiVG1oc2VUM1E4Rk96dlpXWWh2TVAzcTNEdWtuVmktb0gyX0pPS3Y4RnpZZHpSS1d1WXc0WUdqM0JJY1lzSmZRVXJaNA?oc=5"
+   "name": "New Statesman",
+   "published_at": "2026-08-05T16:11:25Z",
+   "title": "Searching for the world’s fastest snail",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTDBVZ081UDNSd1p0bTlLbUVrNEUzeWI4OWpianFOYy1ld0VQS2ZtVjMxblNrbUVzemxWU0xzTkh0TEwtS0tOT3pwMXp2cm9EMWg1TVFFQWJkNHdhczI1OU5IMENEdElSX0FCWks0LUkycUNCb0pVODFtOEh3TUlJWWcxOUxnUUUxWWNsMDVOLXc?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "Yorktown Wine and Oyster Festival returns with a weekend of sipping, shucking, and autumn celebrations by the river.",
-    "why_irrelevant": "Because it is a local food-and-drink event far from the user's usual tech and current affairs topics."
+    "summary": "A magazine goes on a whimsical quest to find the world's fastest snail, testing tiny slime trails and cheering on gastropods at a countryside race.",
+    "why_irrelevant": "far from typical urban tech or business feed"
    },
    "zh": {
-    "summary": "约克镇葡萄酒和牡蛎节回归，提供河边品酒、开蚝和秋季庆祝活动。",
-    "why_irrelevant": "因为这是一个本地美食活动，远离用户常关注的科技和时事内容。"
+    "summary": "一家杂志踏上一场异想天开的寻找世界上最快的蜗牛之旅，测试微小黏液痕迹，并在乡村比赛中为腹足动物加油。",
+    "why_irrelevant": "远离常见的都市科技或商业信息"
    }
   },
-  "topic": "competitive oyster shucking"
+  "topic": "competitive snail racing"
  },
- "brief": "Today's news covers daring rescues, legal battles, and climate impacts, while research highlights advances in human-robot interaction and visualization.",
+ "brief": "Today's news spans global crises, from regional conflicts and school shootings to heatwaves and geopolitical shifts, while research explores human-AI collaboration and interactive technologies.",
  "meta": {
-  "generated_at": "2026-08-07T05:49:12Z"
+  "generated_at": "2026-08-07T07:39:05Z"
  },
- "news_summary": "A rescue in Antarctica, a school shooting in Thailand, and a record fine for Meta over children's mental health dominate headlines, alongside extreme heat in Europe and political developments.",
- "papers_summary": "Papers explore intuitive robot control, conversational AI for shopping, and methods for visualizing complex data, including uncertainty and sports analytics.",
+ "news_summary": "News covers China's export resilience, Japan's earthquake preparedness, Thailand and US school shootings, European heat records, Colombia's conflict, and Meta's court ruling over kids' mental health.",
+ "papers_summary": "Papers focus on human-AI collaboration, including LLM-assisted qualitative coding, chatbots for e-commerce, robot learning from demonstrations, and visualization techniques for scientific data.",
  "summaries": {
   "en": {
-   "brief": "Today's news covers daring rescues, legal battles, and climate impacts, while research highlights advances in human-robot interaction and visualization.",
-   "news_summary": "A rescue in Antarctica, a school shooting in Thailand, and a record fine for Meta over children's mental health dominate headlines, alongside extreme heat in Europe and political developments.",
-   "papers_summary": "Papers explore intuitive robot control, conversational AI for shopping, and methods for visualizing complex data, including uncertainty and sports analytics."
+   "brief": "Today's news spans global crises, from regional conflicts and school shootings to heatwaves and geopolitical shifts, while research explores human-AI collaboration and interactive technologies.",
+   "news_summary": "News covers China's export resilience, Japan's earthquake preparedness, Thailand and US school shootings, European heat records, Colombia's conflict, and Meta's court ruling over kids' mental health.",
+   "papers_summary": "Papers focus on human-AI collaboration, including LLM-assisted qualitative coding, chatbots for e-commerce, robot learning from demonstrations, and visualization techniques for scientific data."
   },
   "zh": {
-   "brief": "今日焦点包括免冷藏疫苗试验、特朗普出生公民权行政令、欧洲干旱揭示历史遗迹，以及SpaceX火箭撞击月球的研究价值。",
-   "news_summary": "英国测试免冷藏疫苗以减少浪费；特朗普签署限制出生公民权命令；欧洲干旱暴露历史遗迹；Meta因AI越狱及儿童心理健康罚款引发关注。",
-   "papers_summary": "今日论文集中于机器人学习、交互界面及可视化技术，如触屏遥操作、聊天机器人透明度及运动分析工具。"
+   "brief": "今日焦點包括泰國校園槍擊案與英國免冷藏疫苗試驗成功；另有SpaceX火箭撞月與歐洲乾旱揭露歷史遺跡。",
+   "news_summary": "泰國校園槍擊案造成至少七死，槍手為14歲學生；英國成功進行免冷藏疫苗人體試驗，有望減少疫苗浪費；特朗普簽署行政命令試圖限制出生公民權；歐洲乾旱導致多瑙河水位降至30年最低，歷史遺跡重現。",
+   "papers_summary": "本日研究聚焦於人機互動與機器人學習，包括LLM輔助質性數據編碼、機器人模仿學習、觸控介面遠端操作等，以及數位產品顧問與聊天機器人設計。"
   }
  },
  "todays_image": {
-  "caption": "The hardy resilience of Poa pratensis, which endures extreme cold, mirrors the daring spirit of the Australian crew rescuing in Antarctica's midwinter.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3cc2ec7d014744de98c4f533f9cb8eb93",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/32dcedf41-4119-4f78-aff5-72612ff5f4c2",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3cc2ec7d014744de98c4f533f9cb8eb93/90",
-  "title": "Poa pratensis L."
+  "caption": "The hospital in Honda, Colombia, built to mend bodies, parallels today's Thai campus shooting where a school became a site of irreversible harm.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-23841_02-000001",
+  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/23841",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-23841_02-000001",
+  "title": "Hospital de San Juan de Dios, Honda, Colombia"
  }
 }
