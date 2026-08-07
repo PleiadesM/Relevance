@@ -9,40 +9,40 @@
   },
   "summaries": {
    "en": {
-    "summary": "Tickets for Seattle's Great Pumpkin Beer Festival go on sale August 4th.",
-    "why_irrelevant": "It's a niche event far from typical feed topics."
+    "summary": "Tickets for Seattle's Great Pumpkin Beer Festival go on sale this week.",
+    "why_irrelevant": "A niche regional event far from typical feed themes."
    },
    "zh": {
-    "summary": "西雅图南瓜啤酒节门票将于8月4日开售。",
-    "why_irrelevant": "这是一个小众活动，远离常规信息流。"
+    "summary": "西雅图南瓜啤酒节门票本周开售。",
+    "why_irrelevant": "小众地区活动，远离日常资讯主题。"
    }
   },
   "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news spans U.S. political maneuvers on birthright citizenship, tragic events in Thailand and Sudan, and economic strains on families, while research highlights advances in robotics, human-computer interaction, and visualization.",
+ "brief": "Today's news spans Trump's executive actions on birthright citizenship and tariffs, a major fine on Meta for child safety, and a tragic school shooting in Thailand, while research explores AI-driven virus design and robotics.",
  "meta": {
-  "generated_at": "2026-08-07T09:14:03Z"
+  "generated_at": "2026-08-07T11:05:53Z"
  },
- "news_summary": "U.S. politics focus on Trump's executive orders and Black voter sentiment in Georgia, while global stories cover tragedy in Thailand, drone strikes in Sudan, and economic pressures on families.",
- "papers_summary": "Research papers explore robot learning from demonstrations, teleoperation interfaces, and chatbot transparency, alongside visualization and sports coaching tools.",
+ "news_summary": "Trump signed executive orders targeting birthright citizenship and imposed new tariffs on polysilicon, while Iran threatens to ban US ships from the Strait of Hormuz; Meta faces a $942 million fine for child safety violations; a school shooting in Thailand kills eight.",
+ "papers_summary": "AI is being used to design novel viruses and temperature-stable vaccines, while robotics research advances learning from demonstration and teleoperation interfaces; visualization techniques improve sports coaching and uncertainty analysis.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans U.S. political maneuvers on birthright citizenship, tragic events in Thailand and Sudan, and economic strains on families, while research highlights advances in robotics, human-computer interaction, and visualization.",
-   "news_summary": "U.S. politics focus on Trump's executive orders and Black voter sentiment in Georgia, while global stories cover tragedy in Thailand, drone strikes in Sudan, and economic pressures on families.",
-   "papers_summary": "Research papers explore robot learning from demonstrations, teleoperation interfaces, and chatbot transparency, alongside visualization and sports coaching tools."
+   "brief": "Today's news spans Trump's executive actions on birthright citizenship and tariffs, a major fine on Meta for child safety, and a tragic school shooting in Thailand, while research explores AI-driven virus design and robotics.",
+   "news_summary": "Trump signed executive orders targeting birthright citizenship and imposed new tariffs on polysilicon, while Iran threatens to ban US ships from the Strait of Hormuz; Meta faces a $942 million fine for child safety violations; a school shooting in Thailand kills eight.",
+   "papers_summary": "AI is being used to design novel viruses and temperature-stable vaccines, while robotics research advances learning from demonstration and teleoperation interfaces; visualization techniques improve sports coaching and uncertainty analysis."
   },
   "zh": {
-   "brief": "今日焦点涵盖泰國校園槍擊案、疫苗室溫保存新進展、美國出生公民權爭議，以及歐洲乾旱揭歷史遺跡；研究方面則探討機器人模仿、數位產品顧問與圖形摘要生成等。",
-   "news_summary": "泰國發生校園槍擊案致8死，槍手為14歲學生；英國成功進行免冷藏疫苗人體實驗；特朗普簽署行政命令限制出生公民權；歐洲乾旱使多瑙河水位下降，露出戰艦殘骸與猛獁象骨。",
-   "papers_summary": "研究聚焦於機器人從人類示範學習、觸控介面遙操作、數位產品顧問的用戶感知、AI輔助運動教練、不確定性視覺化，以及圖形摘要生成等領域。"
+   "brief": "今日焦点：泰国校园枪击案引发悲痛，特朗普签署出生公民权限制令，同时AI被用于设计新病毒，而免冷藏疫苗首次人体实验带来希望。",
+   "news_summary": "泰国校园枪击案致至少七人死亡，枪手为14岁学生，先杀害祖父母后自杀；特朗普签署行政命令限制出生公民权；科学家利用AI设计新病毒，免冷藏疫苗首次人体实验成功。",
+   "papers_summary": "今日无优先论文，但英文论文涉及机器人学习、触控界面、聊天机器人等研究，其中一篇关于图形摘要生成工具GenGA的论文值得关注。"
   }
  },
  "todays_image": {
-  "caption": "Like the distant volcano, Black voters in Georgia are erupting with demands that remain unseen from the political summit.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-23041_02-000001",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/23041",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-23041_02-000001",
-  "title": "Distant View of Sangay Volcano Erupting, Ecuador"
+  "caption": "The worn grooves of the Hope School desk hint at generations of fidgeting, questioning students—the very curious minds at the heart of today's story.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2010_22_253_001",
+  "source_name": "National Museum of African American History and Culture",
+  "source_url": "https://nmaahc.si.edu/object/nmaahc_2010.22.5",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2010_22_253_001",
+  "title": "Desk from the Hope School"
  }
 }
