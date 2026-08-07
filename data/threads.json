@@ -1,7 +1,7 @@
 {
  "meta": {
-  "count": 5,
-  "generated_at": "2026-08-07T00:13:42Z",
+  "count": 6,
+  "generated_at": "2026-08-07T03:14:17Z",
   "scope": "public"
  },
  "threads": [
@@ -10,43 +10,259 @@
     {
      "item_id": "9935b6f868037fb2",
      "phrase": {
-      "en": "AI creates 16 viable new viruses",
-      "zh": "AI创造16种可行新病毒"
+      "en": "AI designs new viruses",
+      "zh": "AI设计新病毒"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/08/06/science/ai-viruses-bacteria-arc.html"
     },
     {
-     "full_text_file": "articles/news/d4b7345cf81c4903.json",
-     "item_id": "d4b7345cf81c4903",
+     "item_id": "664a994e21e02cb6",
      "phrase": {
-      "en": "AI designs distant virus variants",
-      "zh": "AI设计远缘病毒变种"
+      "en": "Meta fined for child harm",
+      "zh": "Meta因伤害儿童被罚"
      },
      "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/science/2026/08/large-genome-models-used-to-design-new-viruses/"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta"
+    },
+    {
+     "item_id": "ba107bfb9d04716a",
+     "phrase": {
+      "en": "Meta fined again",
+      "zh": "Meta再遭罚款"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/06/technology/meta-new-mexico-child-safety.html"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "AI invents new viruses never found in nature, raising safety alarms.",
-    "zh": "AI创造自然界不存在的病毒，引发安全担忧。"
+    "en": "AI's power grows, and so do the risks it poses to children and nature.",
+    "zh": "AI力量增长，对儿童和自然的風險也随之增加。"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI-designed viruses",
-    "zh": "AI设计病毒"
+    "en": "AI safety",
+    "zh": "AI安全"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track AI risks: two outlets report the same breakthrough today — new virus creation.",
-    "zh": "你关注AI风险：今日两家媒体报道同一突破——新病毒创造。"
+    "en": "You care about AI's societal impact: today AI created new viruses and Meta faced a record fine over child safety.",
+    "zh": "你关注AI的社会影响，今天AI制造新病毒，Meta因儿童安全遭创纪录罚款。"
    }
   },
   {
    "angles": [
+    {
+     "item_id": "8b8c1709acade047",
+     "phrase": {
+      "en": "ACLU calls orders doomed",
+      "zh": "ACLU称命令注定失败"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/live/2026/aug/06/senators-anthony-fauci-contempt-of-congress-michiganu-democrats-republicans-trump-politics-latest-news-updates"
+    },
+    {
+     "item_id": "9e8ec11da36070a1",
+     "phrase": {
+      "en": "Trump's long obsession",
+      "zh": "特朗普长期执念"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/06/trump-birthright-citizenship-attack"
+    },
+    {
+     "item_id": "c517bc15e6fd908e",
+     "phrase": {
+      "en": "Trump signs immigration actions",
+      "zh": "特朗普签署移民行动"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/06/g-s1-137686/trump-birthright-citizenship-immigration-curb"
+    },
+    {
+     "item_id": "db15d66175726ed9",
+     "phrase": {
+      "en": "Chinese media reports order",
+      "zh": "中文媒体报道命令"
+     },
+     "section": "news",
+     "source": "BBC 中文",
+     "url": "https://www.bbc.com/zhongwen/articles/c1e1v7gxwzdo/trad?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Trump again tries to end birthright citizenship, facing legal and public opposition.",
+    "zh": "特朗普再次试图废除出生公民权，面临法律和公众反对。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "birthright citizenship",
+    "zh": "出生公民权"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow constitutional debates: two new executive orders target birthright citizenship, with ACLU vowing court fights.",
+    "zh": "你关注宪法辩论：两项新行政命令针对出生公民权，ACLU誓言法庭斗争。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "dbf4b33245c32308",
+     "phrase": {
+      "en": "Pearson and Taylor win",
+      "zh": "皮尔逊和泰勒获胜"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/06/tennessee-house-primary-elections"
+    },
+    {
+     "item_id": "88847546bb5c819f",
+     "phrase": {
+      "en": "Ogles loses upset",
+      "zh": "奥格尔斯意外落败"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/06/us/politics/andy-ogles-loses-tennessee-primary-charlie-hatcher.html"
+    },
+    {
+     "item_id": "0195ce183abf0350",
+     "phrase": {
+      "en": "Blackburn wins nomination",
+      "zh": "布莱克本获提名"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/06/us/elections/marsha-blackburn-tennessee-governor-primary.html"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Tennessee's primaries reshape the political map, with key upsets and milestones.",
+    "zh": "田纳西初选重塑政治版图，出现重要意外和里程碑。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "Tennessee primary",
+    "zh": "田纳西初选"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You watch electoral politics: Tennessee primaries produced an upset and a historic female nominee.",
+    "zh": "你关注选举政治：田纳西初选出现意外和女性提名历史性时刻。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "1f08c76635f8823f",
+     "phrase": {
+      "en": "Iran plans to ban ships",
+      "zh": "伊朗计划禁船"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/06/nx-s1-5923623/iran-strait-hormuz-us-israel-ban"
+    },
+    {
+     "item_id": "a141ec1f46fcffb0",
+     "phrase": {
+      "en": "Deal with Oman close",
+      "zh": "与阿曼协议接近"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/aug/06/iran-oman-strait-of-hormuz-yemen-houthis-israel-lebanon-gaza-us-donald-trump-middle-east-crisis-live-news"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Iran threatens to close the Strait of Hormuz, while signaling a possible deal with Oman.",
+    "zh": "伊朗威胁关闭霍尔木兹海峡，同时暗示可能与阿曼达成协议。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "Strait of Hormuz",
+    "zh": "霍尔木兹海峡"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track geopolitical tech supply chains: Hormuz closure threatens global energy and chip production.",
+    "zh": "你关注地缘技术供应链：霍尔木兹关闭威胁全球能源和芯片生产。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "664a994e21e02cb6",
+     "phrase": {
+      "en": "Court orders $567m payment",
+      "zh": "法院判罚5.67亿"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta"
+    },
+    {
+     "item_id": "75363dc27c0ecca4",
+     "phrase": {
+      "en": "Meta fined for child safety",
+      "zh": "Meta因儿童安全被罚"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "ba107bfb9d04716a",
+     "phrase": {
+      "en": "Judge orders penalty",
+      "zh": "法官下令罚款"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/06/technology/meta-new-mexico-child-safety.html"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Meta faces legal setbacks over child safety and misinformation.",
+    "zh": "Meta因儿童安全和虚假信息面临法律挫折。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "Meta legal crisis",
+    "zh": "Meta法律危机"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow tech regulation: Meta's $567m fine adds to its legal woes, signaling tighter scrutiny.",
+    "zh": "你关注科技监管：Meta的5.67亿美元罚款加重法律困境，显示审查趋严。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "full_text_file": "articles/news/877ba2bc5d0f818d.json",
+     "item_id": "877ba2bc5d0f818d",
+     "phrase": {
+      "en": "Jony Ive designs AI gadget",
+      "zh": "Jony Ive设计AI设备"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor"
+    },
     {
      "item_id": "949142c65bd1b4e5",
      "phrase": {
@@ -56,195 +272,22 @@
      "section": "news",
      "source": "Ars Technica · AI",
      "url": "https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/"
-    },
-    {
-     "item_id": "f7d9b4f9d864cbc4",
-     "phrase": {
-      "en": "AMD buys Taalas for inference",
-      "zh": "AMD收购Taalas提升推理"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "AI giants design own chips to break free from Nvidia.",
-    "zh": "AI巨头自研芯片，摆脱英伟达依赖。"
+    "en": "AI firms race to design their own hardware to reduce Nvidia dependence.",
+    "zh": "AI公司竞相设计自有硬件以减少对英伟达的依赖。"
    },
-   "id": "t2",
+   "id": "t6",
    "keyword": {
     "en": "AI hardware race",
     "zh": "AI硬件竞赛"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow embodied AI: hardware shifts define the next AI wave—today two moves.",
-    "zh": "你关注具身AI：硬件变化定义下一波AI——今日两大动作。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "full_text_file": "articles/news/07df0c4c9b5cd631.json",
-     "item_id": "07df0c4c9b5cd631",
-     "phrase": {
-      "en": "Suno adds watermarks and limits",
-      "zh": "Suno加水印和限制"
-     },
-     "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/ai/2026/08/suno-hopes-to-go-legit-with-watermarks-for-ai-generated-music/"
-    },
-    {
-     "full_text_file": "articles/news/4a89a7f83bd776a0.json",
-     "item_id": "4a89a7f83bd776a0",
-     "phrase": {
-      "en": "Suno details anti-spam tactics",
-      "zh": "Suno详述反垃圾策略"
-     },
-     "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/976289/suno-ai-music-spam-watermark"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Suno plans watermarks to curb AI-generated music spam.",
-    "zh": "Suno计划用水印遏制AI音乐泛滥。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "AI music watermarking",
-    "zh": "AI音乐水印"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You care about AI accountability: two sources converge on AI music regulation.",
-    "zh": "你重视AI问责：两来源聚焦AI音乐监管。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "1f08c76635f8823f",
-     "phrase": {
-      "en": "Iran plans ban and toll",
-      "zh": "伊朗拟禁航收费"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/06/nx-s1-5923623/iran-strait-hormuz-us-israel-ban"
-    },
-    {
-     "item_id": "a141ec1f46fcffb0",
-     "phrase": {
-      "en": "Oman deal near finalization",
-      "zh": "阿曼协议接近敲定"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/aug/06/iran-oman-strait-of-hormuz-yemen-houthis-israel-lebanon-gaza-us-donald-trump-middle-east-crisis-live-news"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Iran eyes fees and bans in Hormuz, while deal with Oman nears.",
-    "zh": "伊朗拟收费和禁航，与阿曼协议接近达成。"
-   },
-   "id": "t4",
-   "keyword": {
-    "en": "Hormuz shipping tensions",
-    "zh": "霍尔木兹航运紧张"
-   },
-   "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-08-06",
-     "item_id": "1f08c76635f8823f",
-     "label": {
-      "en": "Iran proposes ban, tolls",
-      "zh": "伊朗提议禁航收费"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/06/nx-s1-5923623/iran-strait-hormuz-us-israel-ban"
-    },
-    {
-     "date": "2026-08-06",
-     "item_id": "a141ec1f46fcffb0",
-     "label": {
-      "en": "Oman deal close",
-      "zh": "与阿曼协议近达成"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/aug/06/iran-oman-strait-of-hormuz-yemen-houthis-israel-lebanon-gaza-us-donald-trump-middle-east-crisis-live-news"
-    }
-   ],
-   "why_now": {
-    "en": "You follow geopolitics: Gulf shipping shifts affect global tech supply chains.",
-    "zh": "你关注地缘政治：海湾航运变化影响全球科技供应链。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "8b8c1709acade047",
-     "phrase": {
-      "en": "ACLU says doomed in court",
-      "zh": "ACLU称必败诉"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/live/2026/aug/06/senators-anthony-fauci-contempt-of-congress-michiganu-democrats-republicans-trump-politics-latest-news-updates"
-    },
-    {
-     "item_id": "c517bc15e6fd908e",
-     "phrase": {
-      "en": "Trump signs actions",
-      "zh": "特朗普签署行动"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/06/g-s1-137686/trump-birthright-citizenship-immigration-curb"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Trump signs new orders amid court battles over birthright citizenship.",
-    "zh": "特朗普签署新令，出生公民权再起法律战。"
-   },
-   "id": "t5",
-   "keyword": {
-    "en": "Birthright citizenship orders",
-    "zh": "出生公民权行政令"
-   },
-   "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-07",
-     "label": {
-      "en": "Supreme Court strikes down",
-      "zh": "最高法院驳回"
-     }
-    },
-    {
-     "date": "2026-08-06",
-     "item_id": "8b8c1709acade047",
-     "label": {
-      "en": "New orders signed",
-      "zh": "新令签署"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/live/2026/aug/06/senators-anthony-fauci-contempt-of-congress-michiganu-democrats-republicans-trump-politics-latest-news-updates"
-    }
-   ],
-   "why_now": {
-    "en": "You watch policy visuals: legal framing shapes public rhetoric.",
-    "zh": "你关注政策修辞：法律框架塑造公共话语。"
+    "en": "You follow AI infrastructure: Anthropic's move and Jony Ive's device signal a shift in AI hardware.",
+    "zh": "你关注AI基础设施：Anthropic的动作和Jony Ive的设备预示AI硬件转型。"
    }
   }
  ]
