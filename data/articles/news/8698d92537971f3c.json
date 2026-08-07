@@ -1,0 +1,28 @@
+{
+ "full_text": "OpenAI says it is pausing \"internal activities\" around an in-development AI model, Astra, because it doesn't yet meet new security standards the company is putting in place. The announcement follows its recent disclosure that OpenAI models accidentally hacked Hugging Face . Anthropic and Meta have also since admitted that they had AI models that went rogue and breached other organizations.\n\nRecent internal evaluations of an OpenAI model called Astra indicate that it offers \"significant advancements in agentic coding and cybersecurity,\" according to the company . \"These results, in addition to expert assessments, have led us to conclude last n …\n\nRead the full story at The Verge.",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/8698d92537971f3c.json",
+  "id": "8698d92537971f3c",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-08-07T18:40:34Z",
+  "section": "news",
+  "source": "The Verge · AI",
+  "source_id": "verge_ai",
+  "summary": "OpenAI says it is pausing \"internal activities\" around an in-development AI model, Astra, because it doesn't yet meet new security standards the company is putting in place. The announcement follows its recent disclosure that OpenAI models accidentally hacked Hugging Face. Anthropic and Meta have…",
+  "tags": [],
+  "title": "OpenAI puts the brakes on a new model because it’s supposedly too powerful",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities"
+ },
+ "meta": {
+  "content_hash": "ed54ecd8ae6d7308",
+  "generated_at": "2026-08-07T19:12:49Z",
+  "item_id": "8698d92537971f3c",
+  "section": "news",
+  "source": "The Verge · AI",
+  "source_id": "verge_ai"
+ }
+}

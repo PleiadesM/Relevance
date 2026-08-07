@@ -9,35 +9,40 @@
   },
   "summaries": {
    "en": {
-    "summary": "An Australian man paddled a giant pumpkin across a lake, showcasing his quirky hobby.",
-    "why_irrelevant": "A whimsical human-interest tale far removed from typical feed topics."
+    "summary": "An Australian man paddled a giant pumpkin across a lake, setting a whimsical record.",
+    "why_irrelevant": "It's a quirky human-interest stunt far from typical news topics."
    },
    "zh": {
-    "summary": "一位澳洲男子划着巨型南瓜过湖，展示了他古怪的爱好。",
-    "why_irrelevant": "一则离奇趣闻，与常规信息流相去甚远。"
+    "summary": "一名澳大利亚男子乘坐巨型南瓜横渡湖泊，创下趣味纪录。",
+    "why_irrelevant": "这是一则离奇人物趣闻，远离常规新闻领域。"
    }
   },
   "topic": "competitive pumpkin growing"
  },
- "brief": "今日焦点包括泰国校园枪击案、免冷藏疫苗取得进展，以及特朗普签署行政命令试图限制出生公民权；科研方面，AI设计病毒引发关注，同时多篇论文探讨机器人学习与人机交互。",
+ "brief": "Today's headlines mix geopolitical tensions, domestic policy battles, and climate impacts, while research explores human-robot interaction and data visualization.",
  "meta": {
-  "generated_at": "2026-08-07T17:05:29Z"
+  "generated_at": "2026-08-07T19:12:49Z"
  },
- "news_summary": "泰国14岁学生枪杀祖父母后在校内行凶致七人死亡；英国科学家成功进行免冷藏疫苗人体试验；特朗普签署行政命令收紧出生公民权；欧洲干旱导致历史遗迹重现。",
- "papers_summary": "暂无优先中文论文，但英文论文研究机器人示教学习、触屏遥操作界面及对话式商务助手等，强调透明性与人机协作。",
+ "news_summary": "News covers Trump's renewed push to fire Fed Governor Lisa Cook, Senate sanctions on Russia/Iran, a drying Danube exposing Nazi vessels, and labor market concerns among other domestic and international stories.",
+ "papers_summary": "Papers span human-robot learning, teleoperation, conversational agents, sports analytics, and visualization techniques, highlighting advances in interactive and educational technologies.",
  "summaries": {
+  "en": {
+   "brief": "Today's headlines mix geopolitical tensions, domestic policy battles, and climate impacts, while research explores human-robot interaction and data visualization.",
+   "news_summary": "News covers Trump's renewed push to fire Fed Governor Lisa Cook, Senate sanctions on Russia/Iran, a drying Danube exposing Nazi vessels, and labor market concerns among other domestic and international stories.",
+   "papers_summary": "Papers span human-robot learning, teleoperation, conversational agents, sports analytics, and visualization techniques, highlighting advances in interactive and educational technologies."
+  },
   "zh": {
-   "brief": "今日焦点包括泰国校园枪击案、免冷藏疫苗取得进展，以及特朗普签署行政命令试图限制出生公民权；科研方面，AI设计病毒引发关注，同时多篇论文探讨机器人学习与人机交互。",
-   "news_summary": "泰国14岁学生枪杀祖父母后在校内行凶致七人死亡；英国科学家成功进行免冷藏疫苗人体试验；特朗普签署行政命令收紧出生公民权；欧洲干旱导致历史遗迹重现。",
-   "papers_summary": "暂无优先中文论文，但英文论文研究机器人示教学习、触屏遥操作界面及对话式商务助手等，强调透明性与人机协作。"
+   "brief": "今日焦点涵盖泰国校园枪击、AI设计病毒、免冷藏疫苗、特朗普出生公民权令及欧洲干旱揭示历史遗迹，同时AI研究和机器人技术亦有新进展。",
+   "news_summary": "泰国发生校园枪击案致七人死亡，枪手为14岁学生；科学家利用AI设计新病毒引发安全担忧；英国试验免冷藏疫苗以减少浪费；特朗普签署行政命令限制出生公民权；欧洲干旱导致多瑙河水位下降，重现历史遗迹。",
+   "papers_summary": "今日AI与机器人研究聚焦于人类演示学习、触屏遥操作界面、电商对话助手透明度，以及运动分析、数据可视化等应用，涵盖人机交互与图形学交叉领域。"
   }
  },
  "todays_image": {
-  "caption": "Just as the soapberry's lather signals a natural cleansing power, the bond market's froth now warns investors to wash away complacency before risk bubbles burst.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m39c200076fd344bc8aeda50ea26802872",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3d22e899d-6050-4c6f-af43-21ed464ca1c4",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m39c200076fd344bc8aeda50ea26802872/90",
-  "title": "Sapindus saponaria subsp. drummondii (Hook. & Arn.) A.E. Murray"
+  "caption": "Sunken wartime ships, once concealed by blockade or river, resurface as circumstances shift.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2003_2004_44",
+  "source_name": "National Postal Museum",
+  "source_url": "https://postalmuseum.si.edu/object/npm_2003.2004.44",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2003_2004_44",
+  "title": "Confederate Blockade-Run Cover"
  }
 }

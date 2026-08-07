@@ -1,209 +1,141 @@
 {
  "meta": {
-  "count": 5,
-  "generated_at": "2026-08-07T17:05:29Z",
+  "count": 3,
+  "generated_at": "2026-08-07T19:12:49Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "full_text_file": "articles/news/8698d92537971f3c.json",
+     "item_id": "8698d92537971f3c",
+     "phrase": {
+      "en": "pauses for security standards",
+      "zh": "因安全标准暂停"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities"
+    },
+    {
+     "item_id": "2b3094669909121f",
+     "phrase": {
+      "en": "shares cybersecurity evaluations",
+      "zh": "公开网络安全评估"
+     },
+     "section": "news",
+     "source": "OpenAI News",
+     "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities"
+    },
+    {
      "item_id": "04056c56fe9fb589",
      "phrase": {
-      "en": "Companies scramble to cut AI spend",
-      "zh": "企业急于削减AI开支"
+      "en": "companies scramble over token costs",
+      "zh": "企业应对令牌成本"
      },
      "section": "news",
      "source": "Simon Willison",
      "url": "https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-everything"
-    },
-    {
-     "item_id": "4c274ed4ae8e8f07",
-     "phrase": {
-      "en": "Bond market hikes AI costs",
-      "zh": "债券市场推高AI成本"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/07/business/bonds-stocks-federal-reserve-interest-rates.html"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "The bill for AI's appetite comes due as tokens burn cash.",
-    "zh": "AI的胃口账单到期，令牌烧钱如流水。"
+    "en": "OpenAI halts a model for being too powerful; the cost of AI becomes the story.",
+    "zh": "OpenAI因模型过强而暂停；AI的成本成为焦点。"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI cost crisis",
-    "zh": "AI成本危机"
+    "en": "AI model safety pause",
+    "zh": "AI模型安全暂停"
    },
    "relates_to": [
     "t2"
    ],
    "why_now": {
-    "en": "You track AI economics: today's reports show bond markets tightening and companies scrambling to cut token costs.",
-    "zh": "你关注AI经济，今日报道显示债券市场收紧，企业急于削减令牌开支。"
+    "en": "You follow AI safety: two sources today report a pause and a cost crunch, shifting the narrative from capability to restraint.",
+    "zh": "你关注AI安全：今日两则报道分别聚焦暂停与成本，叙事从能力转向克制。"
    }
   },
   {
    "angles": [
     {
-     "full_text_file": "articles/news/d528b711b507770b.json",
-     "item_id": "d528b711b507770b",
+     "full_text_file": "articles/news/a579a01f7628ad42.json",
+     "item_id": "a579a01f7628ad42",
      "phrase": {
-      "en": "Chatbots fail people in crisis",
-      "zh": "聊天机器人在危机中失灵"
+      "en": "Google AI team reshuffles",
+      "zh": "谷歌AI团队重组"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast"
+    },
+    {
+     "item_id": "0d19f57a363f29aa",
+     "phrase": {
+      "en": "speaker uses moving parts",
+      "zh": "音箱采用活动部件"
      },
      "section": "news",
      "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed/"
-    },
-    {
-     "item_id": "2b3094669909121f",
-     "phrase": {
-      "en": "OpenAI bolsters cyber safeguards",
-      "zh": "OpenAI加强网络安全保障"
-     },
-     "section": "news",
-     "source": "OpenAI News",
-     "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities"
+     "url": "https://arstechnica.com/gadgets/2026/08/openais-expensive-smart-speaker-will-use-moving-parts-to-seem-more-alive/"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Chatbots fail the vulnerable, and the fixes stay locked away.",
-    "zh": "聊天机器人辜负弱势者，修复之道仍被封锁。"
+    "en": "Top AI names shift roles as Google restructures; OpenAI's hardware ambitions leak.",
+    "zh": "谷歌重组，AI高层变动；OpenAI硬件野心曝光。"
    },
    "id": "t2",
    "keyword": {
-    "en": "AI safety gap",
-    "zh": "AI安全缺口"
+    "en": "AI industry shake-up",
+    "zh": "AI行业重组"
    },
    "relates_to": [
     "t1"
    ],
    "why_now": {
-    "en": "You care about human-AI interaction: today's critiques of chatbot crisis response and OpenAI's cybersecurity moves show the stakes.",
-    "zh": "你在乎人机交互，今日对聊天机器人危机应对的批评和OpenAI的安全举措显示其重要性。"
+    "en": "You track AI industry dynamics: today's Verge and Ars Technica pieces reveal internal churn and new product bets.",
+    "zh": "你关注AI行业动态：今日两篇报道揭示内部变动与新硬件布局。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "a3684b0f196c66ff",
+     "item_id": "53e3def516de65ed",
      "phrase": {
-      "en": "Touchscreen interface for robot manipulators",
-      "zh": "机器人触屏遥操作界面"
+      "en": "senate passes sanctions bill",
+      "zh": "参议院通过制裁法案"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.06219v1"
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/07/russia-sanctions-senate-passed-petroleum"
     },
     {
-     "item_id": "1f2c6b0a8fcf0eb0",
+     "item_id": "bb74d838ffefa1cc",
      "phrase": {
-      "en": "Robots learn from human handwriting",
-      "zh": "机器人从人类手写学习"
+      "en": "three nations sign pact",
+      "zh": "三国签署防务条约"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.06221v1"
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c30418m4mj4o?at_medium=RSS&at_campaign=rss"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Touchscreens and human demos teach robots to do delicate work.",
-    "zh": "触屏和人类示范教会机器人精细作业。"
+    "en": "Senate passes Russia sanctions; Saudi, Turkey, Pakistan sign a defense pact.",
+    "zh": "参议院通过俄制裁；沙特、土耳其、巴基斯坦签署防务条约。"
    },
    "id": "t3",
    "keyword": {
-    "en": "teleoperation interfaces",
-    "zh": "遥操作界面"
+    "en": "sanctions and security pacts",
+    "zh": "制裁与安全条约"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow embodied AI: new papers on touchscreen teleoperation and learning from human demos advance the field today.",
-    "zh": "你追随具身AI，今日关于触屏遥操作和人类示范学习的论文推动该领域。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "f42d429baded1ee6",
-     "phrase": {
-      "en": "Cross-reality transitions for immersive art",
-      "zh": "沉浸式艺术的跨现实转换"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.04971v1"
-    },
-    {
-     "item_id": "c1ae87d2d513d142",
-     "phrase": {
-      "en": "Transparent chatbot for commerce",
-      "zh": "透明聊天机器人用于商务"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.06068v1"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "The line between user and machine blurs in new interfaces and assistants.",
-    "zh": "用户与机器之间的界限在新界面和助手中模糊。"
-   },
-   "id": "t4",
-   "keyword": {
-    "en": "human-robot interaction",
-    "zh": "人机交互"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You are into HCI: today's papers on cross-reality art and adaptive product advisors show the evolution of user experience.",
-    "zh": "你热衷人机交互，今日关于跨现实艺术和自适应产品助手的论文展示用户体验的演变。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "08fb64a88325c300",
-     "phrase": {
-      "en": "AI billboards kill SF vibe",
-      "zh": "AI广告牌毁了旧金山氛围"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://sfstandard.com/pacific-standard-time/2026/08/07/sf-ai-billboards-dystopian-not-funny/"
-    },
-    {
-     "full_text_file": "articles/news/d528b711b507770b.json",
-     "item_id": "d528b711b507770b",
-     "phrase": {
-      "en": "Chatbots criticized for crisis failures",
-      "zh": "聊天机器人因危机失败受批评"
-     },
-     "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed/"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "From billboards to chatbots, public pushback against AI's footprint grows.",
-    "zh": "从广告牌到聊天机器人，公众对AI足迹的反弹日益增长。"
-   },
-   "id": "t5",
-   "keyword": {
-    "en": "AI criticism",
-    "zh": "AI批评"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You care about visual rhetoric: today's SF billboard backlash and chatbot critique show how AI is being visually and ethically challenged.",
-    "zh": "你在乎视觉修辞，今日旧金山广告牌反弹和聊天机器人批评显示AI在视觉和伦理上受到挑战。"
+    "en": "You track geopolitical shifts: two today headlines reshape global security alignments.",
+    "zh": "你关注地缘政治变动：今日两项头条重塑全球安全格局。"
    }
   }
  ]

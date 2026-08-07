@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-07T17:05:29Z",
+ "generated_at": "2026-08-07T19:12:49Z",
  "private_summary": {
   "configured": 0,
   "total": 0
@@ -81,7 +81,7 @@
    "category": "open",
    "count": 20,
    "error": null,
-   "full_text_count": 18,
+   "full_text_count": 17,
    "id": "ars_ai",
    "name": "Ars Technica · AI",
    "ok": true,
@@ -103,7 +103,7 @@
   },
   {
    "category": "open",
-   "count": 4,
+   "count": 5,
    "error": null,
    "full_text_count": 0,
    "id": "hn_frontpage_ai",
@@ -151,7 +151,7 @@
   },
   {
    "category": "open",
-   "count": 26,
+   "count": 25,
    "error": null,
    "full_text_count": 0,
    "id": "nyt_homepage",
@@ -199,7 +199,7 @@
   },
   {
    "category": "optional",
-   "count": 0,
+   "count": 30,
    "error": null,
    "full_text_count": 0,
    "id": "s2_datavis",
@@ -212,7 +212,7 @@
   {
    "category": "optional",
    "count": 0,
-   "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-10&rows=12&sort=created&order=desc",
+   "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A1050-6519%2Cfrom-created-date%3A2026-07-10&rows=12&sort=created&order=desc",
    "full_text_count": 0,
    "id": "crossref_techcomm_journals",
    "name": "TechComm journals (CrossRef)",

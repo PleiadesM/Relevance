@@ -15,7 +15,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T16:12:18Z",
-   "score": 0.4946,
+   "score": 0.4863,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -43,7 +43,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T16:10:02Z",
-   "score": 0.727,
+   "score": 0.7186,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -71,7 +71,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T14:31:57Z",
-   "score": 0.488,
+   "score": 0.4798,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -97,7 +97,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T14:12:14Z",
-   "score": 0.6792,
+   "score": 0.6711,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -124,7 +124,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T12:46:19Z",
-   "score": 0.7137,
+   "score": 0.7057,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -150,7 +150,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T10:05:04Z",
-   "score": 0.5111,
+   "score": 0.5033,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -179,7 +179,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T03:33:03Z",
-   "score": 0.6803,
+   "score": 0.6731,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -206,7 +206,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T00:36:48Z",
-   "score": 0.6704,
+   "score": 0.6635,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -234,7 +234,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T00:00:00Z",
-   "score": 0.3496,
+   "score": 0.3442,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -259,7 +259,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T23:53:02Z",
-   "score": 0.4355,
+   "score": 0.4287,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -286,7 +286,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T17:55:31Z",
-   "score": 0.6492,
+   "score": 0.6428,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -313,7 +313,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T15:43:41Z",
-   "score": 0.6425,
+   "score": 0.6363,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -343,7 +343,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T11:19:08Z",
-   "score": 0.6297,
+   "score": 0.6238,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -366,13 +366,19 @@
    "category": "optional",
    "extra": {
     "abstract_snippet": "Despite the promise of virtual reality (VR) for intuitive spatial interaction, volume visualization (VolVis) in VR remains constrained by high rendering costs and motion discomfort. Recent advances have shown that representing volumetric scenes with 3D Gaussian splatting enables high-performance rendering, making this representation well-suited for VR. However, existing Gaussian-based scene editing workflows remain limited by slow offline segmentation and fatigue-inducing manual selection. To…",
+    "also_in": [
+     {
+      "source": "Semantic Scholar · data visualization",
+      "url": "https://www.semanticscholar.org/paper/a2b84969c23aab10444e7b1e936f8a99c4a6b9f2"
+     }
+    ],
     "arxiv_id": "2608.04475"
    },
    "id": "a2aaf741bee8a845",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T05:58:30Z",
-   "score": 0.6151,
+   "score": 0.6096,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -400,7 +406,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T04:26:09Z",
-   "score": 0.4186,
+   "score": 0.4131,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -412,11 +418,105 @@
    "title": "Revisiting Channel Effectiveness: A Multi-Dimensional Evaluation with Primitive Visual Stimuli",
    "url": "https://arxiv.org/abs/2608.04435v1",
    "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Julian Baader",
+    "Ricardo Langner",
+    "Can Liu",
+    "Raimund Dachselt"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "With this work, we explore the unique potential of data visualization on novel foldable mobile devices (foldables). Even though foldables are already commercially available, there is limited knowledge of how to leverage their distinct characteristics for visualization. This gap will only grow as their form factors become increasingly diverse. To address this, we use a two-step approach. First, we present a device-centered design space, structured around physical and usage properties of foldable…",
+    "arxiv_id": "2608.02232",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "d737d1ad2adee7cc",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-03T00:00:00Z",
+   "score": 0.4463,
+   "section": "papers",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "With this work, we explore the unique potential of data visualization on novel foldable mobile devices (foldables). Even though foldables are already commercially available, there is limited knowledge of how to leverage their distinct characteristics for visualization. This gap will only grow as…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "ManyFold: A Design Exploration of Data Visualization on Foldable Mobile Devices",
+   "url": "https://www.semanticscholar.org/paper/41877c9f9e01eede3e14f084e9324864cd83ee8b",
+   "venue": null
+  },
+  {
+   "authors": [
+    "Ziqi Rong",
+    "Jinpu Cai",
+    "Jiahao Qiu",
+    "Pengcheng Xu",
+    "Lana X. Garmire",
+    "Qiuyu Lian"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "arxiv_id": null,
+    "citations": 0,
+    "doi": "10.26599/bdma.2025.9020085"
+   },
+   "id": "3f98c03a7e4ed512",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-01T00:00:00Z",
+   "score": 0.3076,
+   "section": "papers",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Enhancing Distance Entropy Preservation via $\\boldsymbol{L}^{2}$ Normalization and Geodesic Distances in High-Dimensional Single-Cell Data Visualization",
+   "url": "https://www.semanticscholar.org/paper/5166ca0da6de2657f83387554935176a8f7bf673",
+   "venue": "Big Data Mining and Analytics"
+  },
+  {
+   "authors": [
+    "Tomáš Čajka",
+    "J. Hricko",
+    "Lucie Rudl Kulhavá",
+    "Veronika Hola",
+    "Michaela Paucova",
+    "Michaela Novakova"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "arxiv_id": null,
+    "citations": 0,
+    "doi": "10.1016/j.aca.2026.346066"
+   },
+   "id": "40eb67338f3dffaa",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-01T00:00:00Z",
+   "score": 0.1701,
+   "section": "papers",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "",
+   "tags": [
+    "visualization"
+   ],
+   "title": "ExchangeXplorer: an R/Shiny application for processing and visualization of LC–HDX-MS data in metabolomics, lipidomics, and exposomics",
+   "url": "https://www.semanticscholar.org/paper/cf6bde1610233dc704f58564de06ab64596c5cae",
+   "venue": "Analytica Chimica Acta"
   }
  ],
  "meta": {
-  "count": 15,
-  "generated_at": "2026-08-07T17:05:29Z",
+  "count": 18,
+  "generated_at": "2026-08-07T19:12:49Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -446,7 +546,7 @@
    },
    {
     "category": "optional",
-    "count": 0,
+    "count": 30,
     "error": null,
     "full_text_count": 0,
     "id": "s2_datavis",
@@ -459,7 +559,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-10&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A1050-6519%2Cfrom-created-date%3A2026-07-10&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
