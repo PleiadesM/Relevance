@@ -1,127 +1,209 @@
 {
  "meta": {
-  "count": 3,
-  "generated_at": "2026-08-07T15:07:30Z",
+  "count": 5,
+  "generated_at": "2026-08-07T17:05:29Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "item_id": "04056c56fe9fb589",
+     "phrase": {
+      "en": "Companies scramble to cut AI spend",
+      "zh": "企业急于削减AI开支"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-everything"
+    },
+    {
+     "item_id": "4c274ed4ae8e8f07",
+     "phrase": {
+      "en": "Bond market hikes AI costs",
+      "zh": "债券市场推高AI成本"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/07/business/bonds-stocks-federal-reserve-interest-rates.html"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "The bill for AI's appetite comes due as tokens burn cash.",
+    "zh": "AI的胃口账单到期，令牌烧钱如流水。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI cost crisis",
+    "zh": "AI成本危机"
+   },
+   "relates_to": [
+    "t2"
+   ],
+   "why_now": {
+    "en": "You track AI economics: today's reports show bond markets tightening and companies scrambling to cut token costs.",
+    "zh": "你关注AI经济，今日报道显示债券市场收紧，企业急于削减令牌开支。"
+   }
+  },
+  {
+   "angles": [
+    {
      "full_text_file": "articles/news/d528b711b507770b.json",
      "item_id": "d528b711b507770b",
      "phrase": {
-      "en": "Chatbots fail crisis, need open data",
-      "zh": "聊天机器人危机中失灵需公开数据"
+      "en": "Chatbots fail people in crisis",
+      "zh": "聊天机器人在危机中失灵"
      },
      "section": "news",
      "source": "Ars Technica · AI",
      "url": "https://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed/"
     },
     {
-     "item_id": "a3228cc6eb8d1af8",
+     "item_id": "2b3094669909121f",
      "phrase": {
-      "en": "White House AI vetting shrouded in secrecy",
-      "zh": "白宫AI审查笼罩在秘密中"
+      "en": "OpenAI bolsters cyber safeguards",
+      "zh": "OpenAI加强网络安全保障"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/technology/2026/aug/07/white-house-ai"
+     "source": "OpenAI News",
+     "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Calls grow for AI systems to open up about risks and failures.",
-    "zh": "各界呼吁AI系统公开风险与失败。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "AI safety transparency",
-    "zh": "AI安全透明度"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You care about AI oversight: today's reports on chatbot failures and secretive White House vetting put transparency at the forefront.",
-    "zh": "你关注AI监管，今日聊天机器人和白宫审查的报道将透明度推至前沿。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "full_text_file": "articles/news/b94f76fe75d8b388.json",
-     "item_id": "b94f76fe75d8b388",
-     "phrase": {
-      "en": "ByteDance trains 10T model to rival Anthropic",
-      "zh": "字节跳动训练10万亿参数模型对抗Anthropic"
-     },
-     "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/ai/2026/08/bytedance-trains-massive-ai-model-in-bid-to-rival-anthropic/"
-    },
-    {
-     "item_id": "75363dc27c0ecca4",
-     "phrase": {
-      "en": "Meta fined for child safety failures",
-      "zh": "Meta因儿童安全失误被罚"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Tech giants and startups push boundaries with massive new models.",
-    "zh": "科技巨头和初创公司以巨型新模型突破边界。"
+    "en": "Chatbots fail the vulnerable, and the fixes stay locked away.",
+    "zh": "聊天机器人辜负弱势者，修复之道仍被封锁。"
    },
    "id": "t2",
    "keyword": {
-    "en": "AI model race",
-    "zh": "AI模型竞赛"
+    "en": "AI safety gap",
+    "zh": "AI安全缺口"
    },
-   "relates_to": [],
+   "relates_to": [
+    "t1"
+   ],
    "why_now": {
-    "en": "You follow LLM: ByteDance's 10-trillion model and Meta's fine signal a heated race and regulatory pressure.",
-    "zh": "你关注大语言模型，字节跳动万亿参数模型和Meta罚款标志竞赛与监管压力。"
+    "en": "You care about human-AI interaction: today's critiques of chatbot crisis response and OpenAI's cybersecurity moves show the stakes.",
+    "zh": "你在乎人机交互，今日对聊天机器人危机应对的批评和OpenAI的安全举措显示其重要性。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "7689d71ec51585ae",
+     "item_id": "a3684b0f196c66ff",
      "phrase": {
-      "en": "Newspaper chain uses Palantir for audience data",
-      "zh": "报业集团用Palantir分析受众"
+      "en": "Touchscreen interface for robot manipulators",
+      "zh": "机器人触屏遥操作界面"
      },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://www.niemanlab.org/2026/08/americas-largest-newspaper-chain-usa-today-co-partners-with-palantir-to-analyze-audience-data/"
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.06219v1"
+    },
+    {
+     "item_id": "1f2c6b0a8fcf0eb0",
+     "phrase": {
+      "en": "Robots learn from human handwriting",
+      "zh": "机器人从人类手写学习"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.06221v1"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Touchscreens and human demos teach robots to do delicate work.",
+    "zh": "触屏和人类示范教会机器人精细作业。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "teleoperation interfaces",
+    "zh": "遥操作界面"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow embodied AI: new papers on touchscreen teleoperation and learning from human demos advance the field today.",
+    "zh": "你追随具身AI，今日关于触屏遥操作和人类示范学习的论文推动该领域。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "f42d429baded1ee6",
+     "phrase": {
+      "en": "Cross-reality transitions for immersive art",
+      "zh": "沉浸式艺术的跨现实转换"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.04971v1"
     },
     {
      "item_id": "c1ae87d2d513d142",
      "phrase": {
-      "en": "Transparent chatbot for product advice",
-      "zh": "透明聊天机器人提供产品建议"
+      "en": "Transparent chatbot for commerce",
+      "zh": "透明聊天机器人用于商务"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
      "url": "https://arxiv.org/abs/2608.06068v1"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "News organizations adopt AI tools to analyze audiences, raising data and ethics questions.",
-    "zh": "新闻机构采用AI工具分析受众，引发数据与伦理问题。"
+    "en": "The line between user and machine blurs in new interfaces and assistants.",
+    "zh": "用户与机器之间的界限在新界面和助手中模糊。"
    },
-   "id": "t3",
+   "id": "t4",
    "keyword": {
-    "en": "AI in journalism",
-    "zh": "AI新闻应用"
+    "en": "human-robot interaction",
+    "zh": "人机交互"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You study data visualization and technical communication: this partnership shows AI reshaping journalism's infrastructure.",
-    "zh": "你研究数据可视化和技术传播，这一合作显示AI重塑新闻业基础设施。"
+    "en": "You are into HCI: today's papers on cross-reality art and adaptive product advisors show the evolution of user experience.",
+    "zh": "你热衷人机交互，今日关于跨现实艺术和自适应产品助手的论文展示用户体验的演变。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "08fb64a88325c300",
+     "phrase": {
+      "en": "AI billboards kill SF vibe",
+      "zh": "AI广告牌毁了旧金山氛围"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://sfstandard.com/pacific-standard-time/2026/08/07/sf-ai-billboards-dystopian-not-funny/"
+    },
+    {
+     "full_text_file": "articles/news/d528b711b507770b.json",
+     "item_id": "d528b711b507770b",
+     "phrase": {
+      "en": "Chatbots criticized for crisis failures",
+      "zh": "聊天机器人因危机失败受批评"
+     },
+     "section": "news",
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed/"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "From billboards to chatbots, public pushback against AI's footprint grows.",
+    "zh": "从广告牌到聊天机器人，公众对AI足迹的反弹日益增长。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "AI criticism",
+    "zh": "AI批评"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about visual rhetoric: today's SF billboard backlash and chatbot critique show how AI is being visually and ethically challenged.",
+    "zh": "你在乎视觉修辞，今日旧金山广告牌反弹和聊天机器人批评显示AI在视觉和伦理上受到挑战。"
    }
   }
  ]

@@ -1,28 +1,43 @@
 {
- "brief": "Today's news spans geopolitical tensions, domestic political controversies, and tragedies abroad, while research focuses on enhancing human-robot interaction and visualization techniques.",
- "meta": {
-  "generated_at": "2026-08-07T15:07:30Z"
- },
- "news_summary": "Key stories include GOP calls for Max Miller's resignation, bond market signals, Thailand school shooting, and Middle East defense pacts, alongside U.S. political and legal developments.",
- "papers_summary": "Papers cover robot learning from demonstrations, touchscreen teleoperation, conversational AI, sports coaching analytics, and novel visualization methods.",
- "summaries": {
-  "en": {
-   "brief": "Today's news spans geopolitical tensions, domestic political controversies, and tragedies abroad, while research focuses on enhancing human-robot interaction and visualization techniques.",
-   "news_summary": "Key stories include GOP calls for Max Miller's resignation, bond market signals, Thailand school shooting, and Middle East defense pacts, alongside U.S. political and legal developments.",
-   "papers_summary": "Papers cover robot learning from demonstrations, touchscreen teleoperation, conversational AI, sports coaching analytics, and novel visualization methods."
+ "apropos_of_nothing": {
+  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
+  "source": {
+   "name": "thatslife.com.au",
+   "published_at": "2026-08-04T00:51:08Z",
+   "title": "Oh my gourd! Meet the Aussie bloke who paddled in a giant pumpkin",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pc3kyb0xrM2RkQ2FNOGpla3JFd1RpY0ZDcWdxejdGbThsZ2sxNVM3ZEZLRmRKR3RaZkxMMGZzZUJfdDBjT0VfV0QyRUdUdUxBWVNFcnBJOThvWWNRWDcwdmVSMUZ2dm1VaDZfa1Bra2o4MlpPQjkwNU01TTRQMXM?oc=5"
   },
+  "summaries": {
+   "en": {
+    "summary": "An Australian man paddled a giant pumpkin across a lake, showcasing his quirky hobby.",
+    "why_irrelevant": "A whimsical human-interest tale far removed from typical feed topics."
+   },
+   "zh": {
+    "summary": "一位澳洲男子划着巨型南瓜过湖，展示了他古怪的爱好。",
+    "why_irrelevant": "一则离奇趣闻，与常规信息流相去甚远。"
+   }
+  },
+  "topic": "competitive pumpkin growing"
+ },
+ "brief": "今日焦点包括泰国校园枪击案、免冷藏疫苗取得进展，以及特朗普签署行政命令试图限制出生公民权；科研方面，AI设计病毒引发关注，同时多篇论文探讨机器人学习与人机交互。",
+ "meta": {
+  "generated_at": "2026-08-07T17:05:29Z"
+ },
+ "news_summary": "泰国14岁学生枪杀祖父母后在校内行凶致七人死亡；英国科学家成功进行免冷藏疫苗人体试验；特朗普签署行政命令收紧出生公民权；欧洲干旱导致历史遗迹重现。",
+ "papers_summary": "暂无优先中文论文，但英文论文研究机器人示教学习、触屏遥操作界面及对话式商务助手等，强调透明性与人机协作。",
+ "summaries": {
   "zh": {
-   "brief": "今日要闻涵盖泰国校园枪击案、AI设计病毒、免冷藏疫苗及美国出生公民权行政命令；研究方面聚焦机器人学习与交互技术。",
-   "news_summary": "泰国发生校园枪击致7人死亡，枪手自杀；科学家用AI设计新病毒；英国测试免冷藏疫苗；特朗普签署限制出生公民权行政命令，同时欧洲干旱暴露历史遗迹。",
-   "papers_summary": "多篇论文探讨机器人从人类示范学习、触摸屏遥控操作以及对话式商务助手等，旨在提升人机交互的自然性与效率。"
+   "brief": "今日焦点包括泰国校园枪击案、免冷藏疫苗取得进展，以及特朗普签署行政命令试图限制出生公民权；科研方面，AI设计病毒引发关注，同时多篇论文探讨机器人学习与人机交互。",
+   "news_summary": "泰国14岁学生枪杀祖父母后在校内行凶致七人死亡；英国科学家成功进行免冷藏疫苗人体试验；特朗普签署行政命令收紧出生公民权；欧洲干旱导致历史遗迹重现。",
+   "papers_summary": "暂无优先中文论文，但英文论文研究机器人示教学习、触屏遥操作界面及对话式商务助手等，强调透明性与人机协作。"
   }
  },
  "todays_image": {
-  "caption": "A nostalgic tune about a lost Southern past parallels the GOP's longing for a pre-Trump era they can't quite reclaim amid Miller's scandal.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2014_312_237_001",
-  "source_name": "National Museum of African American History and Culture",
-  "source_url": "https://nmaahc.si.edu/object/nmaahc_2014.312.237",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2014_312_237_001",
-  "title": "<I>Sweet Memories of Dixie</I>"
+  "caption": "Just as the soapberry's lather signals a natural cleansing power, the bond market's froth now warns investors to wash away complacency before risk bubbles burst.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m39c200076fd344bc8aeda50ea26802872",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3d22e899d-6050-4c6f-af43-21ed464ca1c4",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m39c200076fd344bc8aeda50ea26802872/90",
+  "title": "Sapindus saponaria subsp. drummondii (Hook. & Arn.) A.E. Murray"
  }
 }
