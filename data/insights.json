@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "query": "(\"sand sculpture contest\" OR \"sand sculpting championship\")",
   "source": {
-   "name": "walesonline.co.uk",
-   "published_at": "2026-08-08T03:30:00Z",
-   "title": "Spar shoppers say  I need thi as new drink hits the shelves",
-   "url": "https://www.walesonline.co.uk/whats-on/shopping/spar-shoppers-say-i-need-34413301"
+   "name": "sb.by",
+   "published_at": "2026-08-06T08:30:00Z",
+   "title": "Bright palette of summer",
+   "url": "https://www.sb.by/en/bright-palette-of-summer.html"
   },
   "summaries": {
    "en": {
-    "summary": "A new beverage launches in UK stores, sparking shopper interest.",
-    "why_irrelevant": "Consumer retail news far from personal tech feeds."
+    "summary": "The sand sculpture festival in Saint Petersburg showcased towering castles and dragons under the summer sun.",
+    "why_irrelevant": "A niche art form far from typical feeding habits."
    },
    "zh": {
-    "summary": "英国商店推出新饮品，引发购物者兴趣。",
-    "why_irrelevant": "零售消费新闻与个人科技资讯无关。"
+    "summary": "圣彼得堡沙雕节在夏日阳光下展出了高耸的城堡和龙。",
+    "why_irrelevant": "小众艺术形式，远离日常信息流。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "competitive sand sculpting"
  },
- "brief": "Today's news spans police crackdowns in India, Russian missile attacks in Ukraine, US aid to Colombia, and domestic US stories, while papers focus on AI search, data visualization, and climate data.",
+ "brief": "Today's news covers urban education setbacks, geopolitical tensions, and environmental crises, while research highlights AI-driven innovations in advertising, visualization, and predictive modeling.",
  "meta": {
-  "generated_at": "2026-08-08T05:08:31Z"
+  "generated_at": "2026-08-08T07:11:50Z"
  },
- "news_summary": "US and international news include India's police crackdown, Russian attacks near Kyiv, US aid to Colombia, and various domestic stories from the US and UK.",
- "papers_summary": "Papers cover AI for search and advertising, data visualization from speech, and a global heavy rainfall dataset.",
+ "news_summary": "Key stories include NYC reading score declines, Russian attacks near Kyiv, racial violence in Belfast, India's police crackdown, wildfire health impacts, US aid to Colombia, Chagos Islands decolonization, Wildberries strikes, and various political and social issues.",
+ "papers_summary": "Research spans AI in online advertising and data visualization, graph-based search, click models, heavy rainfall datasets, drug interaction prediction, AI system cost efficiency, hybrid forecasting, and digital twin protocols for underwater operations.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans police crackdowns in India, Russian missile attacks in Ukraine, US aid to Colombia, and domestic US stories, while papers focus on AI search, data visualization, and climate data.",
-   "news_summary": "US and international news include India's police crackdown, Russian attacks near Kyiv, US aid to Colombia, and various domestic stories from the US and UK.",
-   "papers_summary": "Papers cover AI for search and advertising, data visualization from speech, and a global heavy rainfall dataset."
+   "brief": "Today's news covers urban education setbacks, geopolitical tensions, and environmental crises, while research highlights AI-driven innovations in advertising, visualization, and predictive modeling.",
+   "news_summary": "Key stories include NYC reading score declines, Russian attacks near Kyiv, racial violence in Belfast, India's police crackdown, wildfire health impacts, US aid to Colombia, Chagos Islands decolonization, Wildberries strikes, and various political and social issues.",
+   "papers_summary": "Research spans AI in online advertising and data visualization, graph-based search, click models, heavy rainfall datasets, drug interaction prediction, AI system cost efficiency, hybrid forecasting, and digital twin protocols for underwater operations."
   },
   "zh": {
-   "brief": "今日重点：泰国校园枪击案与AI设计病毒引发关注，国际新闻聚焦多起冲突与灾害，研究领域则关注AI与数据可视化新进展。",
-   "news_summary": "泰国曼谷校园枪击案致7死，枪手为14岁学生；AI被用于设计全新病毒，凸显科技风险。国际动态还涉及印度镇压抗议、俄乌冲突持续等。",
-   "papers_summary": "本期研究侧重信息可视化与AI应用，如广告竞价智能体、语音查询可视化生成，以及结合图分解的搜索技术等。"
+   "brief": "今日新闻聚焦泰国校园枪击案与AI设计病毒；研究方面无重点中文论文，英文论文涵盖广告竞价、数据可视化等主题。",
+   "news_summary": "泰国校园枪击案致7人死亡，枪手为14岁学生；科学家利用AI设计出16种新病毒，引发生物安全担忧。",
+   "papers_summary": "英文论文涉及在线广告竞价、数据可视化查询、AI搜索等，暂无中文重点论文。"
   }
  },
  "todays_image": {
-  "caption": "Both scenes capture the violent suppression of civilian unrest, where the smoke of burning homes in Tulsa and the haze of tear gas in India blur into the same stark imagery of authority meeting dissent with force.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2019_95_8_001",
-  "source_name": "National Museum of African American History and Culture",
-  "source_url": "https://nmaahc.si.edu/object/nmaahc_2019.95.8",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2019_95_8_001",
-  "title": "<I>LITTLE AFRICA ON FIRE TULSA RACE RIOT JUNE 1ST. 1921.</I>"
+  "caption": "Just as the delicate aster-like blooms of Chaetopappa asteroides can scatter and fade, N.Y.C.'s reading scores have dropped amid the turbulent overhaul of its literacy program.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3d1b2a964-ed98-4ee0-8f71-927381c84000",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c/90",
+  "title": "Chaetopappa asteroides (Nutt.) DC."
  }
 }
