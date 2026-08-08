@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "bdemo.com",
-   "published_at": "2026-08-04T20:00:00Z",
-   "title": "King grows winning vegetables",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTmFkU0RCbUJYak90SXVOWDZyM19MWjRHZGwwV0VhaTFJOHlDb2t3dENYa3JpX1VsY2pKeUxBT2F1R3ZBUzBJazd5YURFUDg1cDUtMlJBcjRPQzB2T2FsSDM5MDR3S1hMQ3RxR0YzMV9LWFI3eEVtTXM2RTBDT3pmejY3NlhCYUxMUkRJamk1anRFblpCQTFzSlFMQlg2Y3puZmx0Ulc0ZGtvdw?oc=5"
+   "name": "walesonline.co.uk",
+   "published_at": "2026-08-08T03:30:00Z",
+   "title": "Spar shoppers say  I need thi as new drink hits the shelves",
+   "url": "https://www.walesonline.co.uk/whats-on/shopping/spar-shoppers-say-i-need-34413301"
   },
   "summaries": {
    "en": {
-    "summary": "A local newspaper highlights a 'King' grower who wins top marks for prize vegetables at a county fair.",
-    "why_irrelevant": "it's a hyper-local agriculture story, far from your usual tech and culture feed."
+    "summary": "A new beverage launches in UK stores, sparking shopper interest.",
+    "why_irrelevant": "Consumer retail news far from personal tech feeds."
    },
    "zh": {
-    "summary": "一家本地报纸报道了一位在县博览会上以获奖蔬菜夺冠的“国王”种植者。",
-    "why_irrelevant": "这是极本地化的农业新闻，与你常看的科技和文化内容相距甚远。"
+    "summary": "英国商店推出新饮品，引发购物者兴趣。",
+    "why_irrelevant": "零售消费新闻与个人科技资讯无关。"
    }
   },
   "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news is dominated by U.S. political and legal developments, including Trump's legal battles and cabinet confirmations, alongside domestic issues like job losses and healthcare. Research highlights a landslide dataset from Japan, relevant for disaster monitoring.",
+ "brief": "Today's news spans police crackdowns in India, Russian missile attacks in Ukraine, US aid to Colombia, and domestic US stories, while papers focus on AI search, data visualization, and climate data.",
  "meta": {
-  "generated_at": "2026-08-08T02:19:28Z"
+  "generated_at": "2026-08-08T05:08:31Z"
  },
- "news_summary": "Trump's legal disputes and cabinet nominations continue, while NYC faces job cuts for Haitian workers and falling reading scores. A helicopter crash in Utah and a Chicago funeral home scandal add to domestic concerns.",
- "papers_summary": "A new dataset provides landslide inventories and satellite imagery for the Noto Peninsula, Japan, aiding disaster response and geological studies.",
+ "news_summary": "US and international news include India's police crackdown, Russian attacks near Kyiv, US aid to Colombia, and various domestic stories from the US and UK.",
+ "papers_summary": "Papers cover AI for search and advertising, data visualization from speech, and a global heavy rainfall dataset.",
  "summaries": {
   "en": {
-   "brief": "Today's news is dominated by U.S. political and legal developments, including Trump's legal battles and cabinet confirmations, alongside domestic issues like job losses and healthcare. Research highlights a landslide dataset from Japan, relevant for disaster monitoring.",
-   "news_summary": "Trump's legal disputes and cabinet nominations continue, while NYC faces job cuts for Haitian workers and falling reading scores. A helicopter crash in Utah and a Chicago funeral home scandal add to domestic concerns.",
-   "papers_summary": "A new dataset provides landslide inventories and satellite imagery for the Noto Peninsula, Japan, aiding disaster response and geological studies."
+   "brief": "Today's news spans police crackdowns in India, Russian missile attacks in Ukraine, US aid to Colombia, and domestic US stories, while papers focus on AI search, data visualization, and climate data.",
+   "news_summary": "US and international news include India's police crackdown, Russian attacks near Kyiv, US aid to Colombia, and various domestic stories from the US and UK.",
+   "papers_summary": "Papers cover AI for search and advertising, data visualization from speech, and a global heavy rainfall dataset."
   },
   "zh": {
-   "brief": "今日重点新闻包括泰国校园枪击案、人工智能设计病毒、免冷藏疫苗人体试验及特朗普签署出生公民权行政命令；同时，研究领域暂无中文优先条目。",
-   "news_summary": "泰国校园枪击案致七人死亡，枪手为14岁学生并自杀；科学家用AI设计新病毒引关注；英国成功试验免冷藏疫苗；特朗普签署行政命令限制出生公民权。",
-   "papers_summary": "今日暂无中文优先研究条目，但英文研究提及日本能登半岛北部滑坡清单与PlanetScope影像数据集。"
+   "brief": "今日重点：泰国校园枪击案与AI设计病毒引发关注，国际新闻聚焦多起冲突与灾害，研究领域则关注AI与数据可视化新进展。",
+   "news_summary": "泰国曼谷校园枪击案致7死，枪手为14岁学生；AI被用于设计全新病毒，凸显科技风险。国际动态还涉及印度镇压抗议、俄乌冲突持续等。",
+   "papers_summary": "本期研究侧重信息可视化与AI应用，如广告竞价智能体、语音查询可视化生成，以及结合图分解的搜索技术等。"
   }
  },
  "todays_image": {
-  "caption": "A court-ordered halt to a grand ballroom is like a gardener pruning Weinmannia parviflora—what was meant to bloom is suddenly cut back for reasons beyond its control.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3900182d42c1d4ffb8e6d88f91b69b51c",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3e7b6498c-33c4-46b0-9246-0079f27e6758",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3900182d42c1d4ffb8e6d88f91b69b51c/90",
-  "title": "Weinmannia parviflora G. Forst."
+  "caption": "Both scenes capture the violent suppression of civilian unrest, where the smoke of burning homes in Tulsa and the haze of tear gas in India blur into the same stark imagery of authority meeting dissent with force.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2019_95_8_001",
+  "source_name": "National Museum of African American History and Culture",
+  "source_url": "https://nmaahc.si.edu/object/nmaahc_2019.95.8",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2019_95_8_001",
+  "title": "<I>LITTLE AFRICA ON FIRE TULSA RACE RIOT JUNE 1ST. 1921.</I>"
  }
 }
