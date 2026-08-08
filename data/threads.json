@@ -1,0 +1,205 @@
+{
+ "meta": {
+  "count": 5,
+  "generated_at": "2026-08-08T18:56:26Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "dd47d74a491fcfd4",
+     "phrase": {
+      "en": "Astra pauses over security flaws",
+      "zh": "Astra因安全漏洞暂停"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/technology/2026/aug/08/openai-astra-security-concerns"
+    },
+    {
+     "item_id": "50e3c801ee0ba784",
+     "phrase": {
+      "en": "AI bots overload Gentoo bugzilla",
+      "zh": "AI机器人压垮Gentoo Bugzilla"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://social.treehouse.systems/@mgorny/117058483039362779"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "AI agents that hack on their own force a pause.",
+    "zh": "能自行入侵的AI代理迫使项目暂停。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI security pauses",
+    "zh": "AI安全暂停"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track LLM risks: OpenAI's Astra pause and scraper overload show the dual threat of AI.",
+    "zh": "你关注大模型风险，Astra暂停与爬虫过载显示AI的双重威胁。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "9a1ffc141be37061",
+     "phrase": {
+      "en": "NYT calls it most polluting",
+      "zh": "纽时称其为最大污染源"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html"
+    },
+    {
+     "full_text_file": "articles/news/3d9fe957af5b8b89.json",
+     "item_id": "3d9fe957af5b8b89",
+     "phrase": {
+      "en": "Verge highlights greenhouse gases",
+      "zh": "The Verge强调温室气体"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Amazon's new plant may be the dirtiest in the US.",
+    "zh": "亚马逊新电厂或成全美最脏。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "data center emissions",
+    "zh": "数据中心排放"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about tech's footprint: Amazon's data center power clash is today's contradiction.",
+    "zh": "你关心科技足迹，亚马逊数据中心的电力矛盾正是今日焦点。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "03174dadb8132b82",
+     "phrase": {
+      "en": "Oral defenses counter AI cheating",
+      "zh": "口试对抗AI作弊"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/"
+    },
+    {
+     "item_id": "c1ae87d2d513d142",
+     "phrase": {
+      "en": "Chatbot for commerce transparency",
+      "zh": "商业聊天机器人透明化"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.06068v1"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Denmark fights AI cheating with oral exams.",
+    "zh": "丹麦用口试应对AI作弊。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "AI in education",
+    "zh": "教育中的AI"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You study HCI and writing: this is a real-world design response to LLM writing.",
+    "zh": "你研究人机交互与写作，这是对LLM写作的现实设计回应。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "da5fb4616cd344e5",
+     "phrase": {
+      "en": "Child killed in Russian attack",
+      "zh": "儿童死于俄袭击"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "c2a648f040fc20b2",
+     "phrase": {
+      "en": "Body collector killed by mine",
+      "zh": "收尸者触雷身亡"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/08/nx-s1-5925887/ukraine-mourns-oleksiy-yukov"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Missiles kill a child; a body collector dies too.",
+    "zh": "导弹夺走孩童，收尸者也殉职。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "Ukraine war toll",
+    "zh": "乌克兰战争代价"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You are human first: today's Ukraine items deepen the war's human cost.",
+    "zh": "你首先是人类，今日乌克兰消息加深战争的人文代价。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "445c4e7919173d26",
+     "phrase": {
+      "en": "Senate endorses Trump's sway",
+      "zh": "参议院认可特朗普影响力"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/08/us/politics/blanche-attorney-general-doj-trump-power.html"
+    },
+    {
+     "item_id": "64fa3a8a590a2a09",
+     "phrase": {
+      "en": "Schumer calls it corruption",
+      "zh": "舒默称其为腐败"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/live/2026/aug/08/todd-blanche-attorney-general-senate-vote-republicans-save-voting-bill-latest-news-updates"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Blanche's confirmation cements Trump's Justice Department grip.",
+    "zh": "布兰奇确认强化特朗普对司法部的掌控。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "political corruption",
+    "zh": "政治腐败"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow politics and rhetoric: this is a power shift in institutional language.",
+    "zh": "你关注政治与修辞，这是制度话语的权力转移。"
+   }
+  }
+ ]
+}
