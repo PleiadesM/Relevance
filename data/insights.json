@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"sheep shearing competition\" OR \"golden shears\"",
+  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
   "source": {
-   "name": "Leitrim Observer",
-   "published_at": "2026-07-30T11:49:00Z",
-   "title": "Leitrim speed sheep shearing contest to raise funds for North West STOP",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNml4bkpmMTdxYmJMQ2M2bFdCbWJ2NVJQU2x3b21WUFo3bm0zamZBWGZ5YW94eHNmNk9PLXk2WXZSYlAzTjVRbkdoUERpeDdmNkExS2oteVd3cnRMb2FBRG1OVjhLTy1XMVFxMkRpWjgtbUlVTFppWUhHdnRRMEJfRG5takNMNEhzdEltdk1NU29YTFBwS09fMU4tRS1wX243M3RTa1R3RG9xNC1WVi1DM1BmX25UZw?oc=5"
+   "name": "bdemo.com",
+   "published_at": "2026-08-04T20:00:00Z",
+   "title": "King grows winning vegetables",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTmFkU0RCbUJYak90SXVOWDZyM19MWjRHZGwwV0VhaTFJOHlDb2t3dENYa3JpX1VsY2pKeUxBT2F1R3ZBUzBJazd5YURFUDg1cDUtMlJBcjRPQzB2T2FsSDM5MDR3S1hMQ3RxR0YzMV9LWFI3eEVtTXM2RTBDT3pmejY3NlhCYUxMUkRJamk1anRFblpCQTFzSlFMQlg2Y3puZmx0Ulc0ZGtvdw?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A Leitrim speed sheep shearing contest will raise funds for the North West STOP charity.",
-    "why_irrelevant": "a niche rural sport unrelated to politics or global affairs."
+    "summary": "A local 'King' wins praise for his prize-winning vegetables at a county fair.",
+    "why_irrelevant": "It's a hyper-local agricultural competition story."
    },
    "zh": {
-    "summary": "利特里姆的一场快速剪羊毛比赛将为西北STOP慈善机构筹款。",
-    "why_irrelevant": "与政治或国际事务无关的乡村小众活动。"
+    "summary": "一位本地“国王”在县博览会上因获奖蔬菜而受到赞誉。",
+    "why_irrelevant": "这是一个极本地化的农业竞赛故事。"
    }
   },
-  "topic": "competitive sheep shearing championships"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news is dominated by political tensions in the US, Europe, and the Middle East, alongside technological and cultural developments, while research spans from genomics to AI-driven advertising.",
+ "brief": "Today's news spans political turmoil from university plagiarism scandals to international crises, while papers explore AI, health, and urban planning.",
  "meta": {
-  "generated_at": "2026-08-08T14:48:16Z"
+  "generated_at": "2026-08-08T16:50:01Z"
  },
- "news_summary": "US politics feature prominently with the confirmation of Todd Blanche as attorney general and a funding bill to avoid a shutdown, while international stories include Spain-Italy border tensions, Russian strikes near Kyiv, and Yemen teetering on civil war.",
- "papers_summary": "Research highlights include a Python tool for orthogroup refinement, machine learning for phishing detection, and a study on tree height and heat mitigation, among others.",
+ "news_summary": "US politics sees Trump's lawyer confirmed as AG amid corruption accusations; international tensions include Iran's demands on Hormuz, Yemen instability, and Russian attacks on Ukraine; other stories cover Amazon's polluting data center, celebrity deaths, and a UK fossil collection sold abroad.",
+ "papers_summary": "Papers cover diverse topics: a Python tool for orthogroup refinement, machine learning for phishing detection, tree shade for heat mitigation, education innovation, cognitive decline trajectories, molecular markers in plant breeding, AI for advertising, microbiome studies, coagulation analysis, and a case report on spinal injury recovery.",
  "summaries": {
   "en": {
-   "brief": "Today's news is dominated by political tensions in the US, Europe, and the Middle East, alongside technological and cultural developments, while research spans from genomics to AI-driven advertising.",
-   "news_summary": "US politics feature prominently with the confirmation of Todd Blanche as attorney general and a funding bill to avoid a shutdown, while international stories include Spain-Italy border tensions, Russian strikes near Kyiv, and Yemen teetering on civil war.",
-   "papers_summary": "Research highlights include a Python tool for orthogroup refinement, machine learning for phishing detection, and a study on tree height and heat mitigation, among others."
+   "brief": "Today's news spans political turmoil from university plagiarism scandals to international crises, while papers explore AI, health, and urban planning.",
+   "news_summary": "US politics sees Trump's lawyer confirmed as AG amid corruption accusations; international tensions include Iran's demands on Hormuz, Yemen instability, and Russian attacks on Ukraine; other stories cover Amazon's polluting data center, celebrity deaths, and a UK fossil collection sold abroad.",
+   "papers_summary": "Papers cover diverse topics: a Python tool for orthogroup refinement, machine learning for phishing detection, tree shade for heat mitigation, education innovation, cognitive decline trajectories, molecular markers in plant breeding, AI for advertising, microbiome studies, coagulation analysis, and a case report on spinal injury recovery."
   },
   "zh": {
-   "brief": "今日全球新闻聚焦于美国政治变动（Todd Blanche 确认为司法部长）及欧洲移民与高温问题，同时科研领域关注 AI 工具、网络安全及医学研究。",
-   "news_summary": "美国参议院确认特朗普前律师 Todd Blanche 为司法部长，引发争议；西班牙与意大利因休达移民潮发生边境管控争端；欧洲遭遇热浪，美国纽约出现针对老年人的金条诈骗。",
-   "papers_summary": "研究涉及机器学习网络钓鱼检测、树木遮荫缓解热岛效应、吸烟对鼻腔微生物组影响等，以及工具如 orthoSynAssign 改进基因分析。"
+   "brief": "今日全球新闻焦点包括特朗普前律师Blanche确认出任司法部长、伊朗就霍尔木兹海峡提出条件、英国化石收藏流失海外等；研究方面涉及机器学习、生物信息学工具和社会科学等领域。",
+   "news_summary": "国际新闻涵盖政治、环境与体育：Blanche以50-49票确认出任美国司法部长，伊朗要求美国满足条件才重开海峡，英国珍贵化石收藏因资金不足售往阿布扎比，梅西父亲去世，台风Dolphin袭击日本。",
+   "papers_summary": "学术研究涉及多个领域：发布Python工具orthoSynAssign用于基因同源群优化，机器学习分类算法应用于钓鱼URL检测，以及关于城市树木遮荫、认知衰退轨迹、在线广告竞价等研究。"
   }
  },
  "todays_image": {
-  "caption": "Like a purse suddenly drawn shut to protect its valuables, Spain is tightening its borders against Italy as the fight over Ceuta's migrant influx forces a more guarded stance.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-107263_01-000001",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/107263",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-107263_01-000001",
-  "title": "Purse"
+  "caption": "Just as Scleractinia build vast, intricate reefs that can collapse under shifting conditions, universities erect rigid scholarly structures that crack when the climate changes.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m396c4d4249c7c4d2c960d72a818927bf4",
+  "source_name": "NMNH - Invertebrate Zoology Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3464d57da-5471-4bab-8b34-441f5cec2a48",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m396c4d4249c7c4d2c960d72a818927bf4/90",
+  "title": "Scleractinia"
  }
 }
