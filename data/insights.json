@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"sand sculpture contest\" OR \"sand sculpting championship\")",
+  "query": "oyster shucking championship OR national oyster shucking contest",
   "source": {
-   "name": "sb.by",
-   "published_at": "2026-08-06T08:30:00Z",
-   "title": "Bright palette of summer",
-   "url": "https://www.sb.by/en/bright-palette-of-summer.html"
+   "name": "Jupiter Magazine",
+   "published_at": "2026-07-22T07:00:00Z",
+   "title": "Shell Out at Lucky Shuck’s Annual Oyster Eating Contest",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMGxsQl93MWpxOFFNdjA2c3M4MWo1Tk5MR1ZyWTBYcU9wU2puMlNOTGViaENhVV9JSnNYbkhUSDBVZW5DZkdpX3Zic2xtSFRhb3lfUVBWNlp4WFlpbkxYY3BBN3BJWmQ2V2gtRkU3NnpZYTI4aFYzbW5Ldl8xRUVqRzBGQnVTekVBR2c?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "The sand sculpture festival in Saint Petersburg showcased towering castles and dragons under the summer sun.",
-    "why_irrelevant": "A niche art form far from typical feeding habits."
+    "summary": "Lucky Shuck's annual oyster eating contest in Jupiter celebrates National Oyster Day with competitive feasting.",
+    "why_irrelevant": "It's a hyper-local food event far from your tech and business feed."
    },
    "zh": {
-    "summary": "圣彼得堡沙雕节在夏日阳光下展出了高耸的城堡和龙。",
-    "why_irrelevant": "小众艺术形式，远离日常信息流。"
+    "summary": "朱庇特的Lucky Shuck举办年度牡蛎食用大赛，庆祝国家牡蛎日。",
+    "why_irrelevant": "这是一个与你的科技和商业动态无关的地方性饮食活动。"
    }
   },
-  "topic": "competitive sand sculpting"
+  "topic": "competitive oyster shucking"
  },
- "brief": "Today's news covers urban education setbacks, geopolitical tensions, and environmental crises, while research highlights AI-driven innovations in advertising, visualization, and predictive modeling.",
+ "brief": "Senate confirms Todd Blanche as attorney general and passes stopgap funding, while global stories highlight wildfires, protests, and AI's dual-use risks. Research papers focus on AI systems for advertising, visualization, and drug interactions.",
  "meta": {
-  "generated_at": "2026-08-08T07:11:50Z"
+  "generated_at": "2026-08-08T08:57:25Z"
  },
- "news_summary": "Key stories include NYC reading score declines, Russian attacks near Kyiv, racial violence in Belfast, India's police crackdown, wildfire health impacts, US aid to Colombia, Chagos Islands decolonization, Wildberries strikes, and various political and social issues.",
- "papers_summary": "Research spans AI in online advertising and data visualization, graph-based search, click models, heavy rainfall datasets, drug interaction prediction, AI system cost efficiency, hybrid forecasting, and digital twin protocols for underwater operations.",
+ "news_summary": "US politics dominated by Blanche's narrow confirmation and preemptive spending bill, while international stories cover UK climate politics, Indian protests, and Wildberries drone attacks.",
+ "papers_summary": "Papers explore AI for online advertising, data visualization queries, graph-based search, and drug interaction prediction, alongside weather event datasets and underwater teleoperation.",
  "summaries": {
   "en": {
-   "brief": "Today's news covers urban education setbacks, geopolitical tensions, and environmental crises, while research highlights AI-driven innovations in advertising, visualization, and predictive modeling.",
-   "news_summary": "Key stories include NYC reading score declines, Russian attacks near Kyiv, racial violence in Belfast, India's police crackdown, wildfire health impacts, US aid to Colombia, Chagos Islands decolonization, Wildberries strikes, and various political and social issues.",
-   "papers_summary": "Research spans AI in online advertising and data visualization, graph-based search, click models, heavy rainfall datasets, drug interaction prediction, AI system cost efficiency, hybrid forecasting, and digital twin protocols for underwater operations."
+   "brief": "Senate confirms Todd Blanche as attorney general and passes stopgap funding, while global stories highlight wildfires, protests, and AI's dual-use risks. Research papers focus on AI systems for advertising, visualization, and drug interactions.",
+   "news_summary": "US politics dominated by Blanche's narrow confirmation and preemptive spending bill, while international stories cover UK climate politics, Indian protests, and Wildberries drone attacks.",
+   "papers_summary": "Papers explore AI for online advertising, data visualization queries, graph-based search, and drug interaction prediction, alongside weather event datasets and underwater teleoperation."
   },
   "zh": {
-   "brief": "今日新闻聚焦泰国校园枪击案与AI设计病毒；研究方面无重点中文论文，英文论文涵盖广告竞价、数据可视化等主题。",
-   "news_summary": "泰国校园枪击案致7人死亡，枪手为14岁学生；科学家利用AI设计出16种新病毒，引发生物安全担忧。",
-   "papers_summary": "英文论文涉及在线广告竞价、数据可视化查询、AI搜索等，暂无中文重点论文。"
+   "brief": "今日要闻聚焦泰国校园枪击案与AI设计病毒研究，美国参议院确认Todd Blanche为司法部长，同时纽约市学生阅读成绩下滑引发关注。",
+   "news_summary": "泰国曼谷附近一所学校发生枪击案，14岁枪手杀害祖父母后于校内行凶，造成至少七人死亡后自杀。科学家利用人工智能设计出16种病毒基因序列，引发生物安全担忧。",
+   "papers_summary": "最新研究涉及在线广告投标、数据可视化查询生成、图神经网络中的虚拟节点优化等主题。"
   }
  },
  "todays_image": {
-  "caption": "Just as the delicate aster-like blooms of Chaetopappa asteroides can scatter and fade, N.Y.C.'s reading scores have dropped amid the turbulent overhaul of its literacy program.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3d1b2a964-ed98-4ee0-8f71-927381c84000",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c/90",
-  "title": "Chaetopappa asteroides (Nutt.) DC."
+  "caption": "Like a wooden paddle steering through rough waters, Blanche’s confirmation shows that steady persistence can overcome even the choppiest political currents.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2017_108_27_1_001",
+  "source_name": "National Museum of African American History and Culture",
+  "source_url": "https://nmaahc.si.edu/object/nmaahc_2017.108.27.1",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2017_108_27_1_001",
+  "title": "Wooden paddle"
  }
 }
