@@ -1,0 +1,30 @@
+{
+ "full_text": "In October 2025, a storm brewed over the Caribbean Sea. Weather models differed on its trajectory. Would it remain weak and end up in Haiti, or would it intensify and head to Jamaica? Artificial intelligence model WeatherNext, developed by Google’s DeepMind and Google Research, went with the latter. Five days before landfall, it predicted with 80 percent confidence that the storm system would hit Jamaica as a Category 5 hurricane.\n\nHurricane Melissa was catastrophic, causing flooding and landslides across Jamaica. But the AI model helped forecasters give an earlier warning to communities in its path, so they could better prepare.\n\nIn a paper published on Thursday in Nature, researchers show that the WeatherNext AI model can predict cyclones with unprecedented accuracy. On average, it gives forecasters a day more lead time than existing models; this means its predictions three days out are as accurate as previous models’ predictions two days out. On the ground, that extra day can mean a lot.\n\nRead full article\n\nComments",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/cb99de5b3138180c.json",
+  "id": "cb99de5b3138180c",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-08-08T11:05:50Z",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai",
+  "summary": "Open source WeatherNext model can make accurate predictions with lower-resolution weather data.",
+  "tags": [
+   "dev-tools"
+  ],
+  "title": "DeepMind’s hurricane breakthrough has surprised weather scientists",
+  "url": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/"
+ },
+ "meta": {
+  "content_hash": "8bee9c1f81c7ed7b",
+  "generated_at": "2026-08-08T13:09:58Z",
+  "item_id": "cb99de5b3138180c",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai"
+ }
+}

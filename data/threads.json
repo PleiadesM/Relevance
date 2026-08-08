@@ -1,151 +1,207 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-08-08T10:49:24Z",
+  "count": 5,
+  "generated_at": "2026-08-08T13:09:58Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "64fa3a8a590a2a09",
+     "item_id": "a48f028c3ab7be10",
      "phrase": {
-      "en": "narrow vote honors Blanche",
-      "zh": "微弱票数通过布兰奇"
+      "en": "Frames as loss of independence",
+      "zh": "视为独立性丧失"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/live/2026/aug/08/todd-blanche-attorney-general-senate-vote-republicans-save-voting-bill-latest-news-updates"
+     "url": "https://www.theguardian.com/technology/2026/aug/08/google-demis-hassabis-deepmind-shifts-role"
     },
     {
-     "item_id": "c77a971139dc6dc1",
+     "item_id": "1fc63adabf84f380",
      "phrase": {
-      "en": "deciding vote by Cassidy",
-      "zh": "卡西迪决定性一票"
+      "en": "Frames as technological win",
+      "zh": "视为技术胜利"
      },
      "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cewr898jy8go?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "b22dee741fbefd1f",
-     "phrase": {
-      "en": "overcoming GOP concerns",
-      "zh": "克服共和党疑虑"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/07/us/politics/todd-blanche-ag-murkowski.html"
-    },
-    {
-     "item_id": "80f95ff4ba17acce",
-     "phrase": {
-      "en": "major win for president",
-      "zh": "总统重大胜利"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/aug/08/todd-blanche-attorney-general-confirmed"
+     "source": "Hacker News (AI filter)",
+     "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "Todd Blanche secures the top justice job by a razor-thin margin.",
-    "zh": "托德·布兰奇以微弱优势获得最高司法职位。"
+    "en": "DeepMind's co-founder steps back, signaling a shift from research purity to commercial reality.",
+    "zh": "DeepMind联合创始人退居幕后，标志着从研究纯粹性向商业现实的转变。"
    },
    "id": "t1",
    "keyword": {
-    "en": "attorney general confirmation",
-    "zh": "司法部长确认"
+    "en": "AI leadership transition",
+    "zh": "AI领导层交接"
    },
-   "relates_to": [],
+   "relates_to": [
+    "t2"
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-08",
+     "item_id": "a48f028c3ab7be10",
+     "label": {
+      "en": "Hassabis shifts role",
+      "zh": "哈萨比斯调整角色"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/technology/2026/aug/08/google-demis-hassabis-deepmind-shifts-role"
+    },
+    {
+     "date": "2026-08-08",
+     "item_id": "1fc63adabf84f380",
+     "label": {
+      "en": "WeatherNext breakthrough",
+      "zh": "WeatherNext突破"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/"
+    }
+   ],
    "why_now": {
-    "en": "You track political shifts: this confirmation redefines DOJ's direction under Trump.",
-    "zh": "你关注政治变化：此次确认重新定义特朗普下司法部的方向。"
+    "en": "You track AI's evolution: Hassabis's role change today marks a pivotal moment for the field.",
+    "zh": "你关注AI发展，哈萨比斯的角色变动今日标志着领域的转折点。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "da5fb4616cd344e5",
+     "item_id": "740a64f3128a6637",
      "phrase": {
-      "en": "civilian casualties reported",
-      "zh": "报道平民伤亡"
+      "en": "Frames as cross-party issue",
+      "zh": "视为跨党派议题"
      },
      "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss"
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/08/g-s1-137853/data-centers-primaries-midterms"
     },
     {
-     "item_id": "8a47425ee4d570a0",
+     "item_id": "17acedb78cc1db05",
      "phrase": {
-      "en": "business empire burning",
-      "zh": "商业帝国燃起"
+      "en": "Frames as technical challenge",
+      "zh": "视为技术挑战"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://www.redhat.com/en/blog/cpu-back-rethinking-cpu-gpu-split-llm-inference"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Data centers become a bipartisan political issue, influencing voters and candidates.",
+    "zh": "数据中心成为两党政治议题，影响选民和候选人。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "data center politics",
+    "zh": "数据中心政治"
+   },
+   "relates_to": [
+    "t1"
+   ],
+   "why_now": {
+    "en": "You're interested in tech's societal impact: today candidates from both sides cite data centers, showing their political weight.",
+    "zh": "你关注技术的社会影响，今日两党候选人提及数据中心，显示其政治分量。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "1fc63adabf84f380",
+     "phrase": {
+      "en": "Frames as scientific advance",
+      "zh": "视为科学进步"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/"
+    },
+    {
+     "item_id": "3285aa784cf87b2d",
+     "phrase": {
+      "en": "Frames via heatwave context",
+      "zh": "以热浪为背景"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/08/world/europe/russia-wildberries-tatyana-kim.html"
+     "url": "https://www.nytimes.com/2026/08/08/weather/europe-heat-wave-italy-uk-france-spain.html"
     },
     {
-     "item_id": "f2ebba7d540a61c2",
+     "item_id": "52835295e27edce8",
      "phrase": {
-      "en": "medics in danger",
-      "zh": "医护面临危险"
+      "en": "Frames as climate crisis",
+      "zh": "视为气候危机"
      },
      "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c3r073eqvrjo?at_medium=RSS&at_campaign=rss"
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/08/nx-s1-5916351/opinion-europes-summer-of-heat"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Attacks intensify on Kyiv and medical teams, straining Ukraine's defense.",
-    "zh": "对基辅和医疗队的攻击加剧，使乌克兰防务吃紧。"
+    "en": "AI models like WeatherNext improve cyclone prediction, offering hope amid climate extremes.",
+    "zh": "WeatherNext等AI模型改进气旋预测，在气候极端中带来希望。"
    },
-   "id": "t2",
+   "id": "t3",
    "keyword": {
-    "en": "Russia-Ukraine conflict",
-    "zh": "俄乌冲突"
+    "en": "AI in weather forecasting",
+    "zh": "AI天气预报"
    },
-   "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-08-08",
-     "item_id": "da5fb4616cd344e5",
-     "label": {
-      "en": "missile attack near Kyiv",
-      "zh": "基辅附近导弹袭击"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "date": "2026-08-08",
-     "item_id": "f2ebba7d540a61c2",
-     "label": {
-      "en": "drones target medics",
-      "zh": "无人机袭击医护"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c3r073eqvrjo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "date": "2026-08-08",
-     "item_id": "8a47425ee4d570a0",
-     "label": {
-      "en": "Wildberries hit again",
-      "zh": "野莓再遭袭击"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/08/world/europe/russia-wildberries-tatyana-kim.html"
-    }
+   "relates_to": [
+    "t1",
+    "t4"
    ],
    "why_now": {
-    "en": "You value geopolitical awareness: new reports show escalation in drone strikes.",
-    "zh": "你重视地缘政治意识：新报道显示无人机袭击升级。"
+    "en": "You follow AI applications: WeatherNext's breakthrough today shows AI's growing role in critical domains.",
+    "zh": "你关注AI应用，WeatherNext今日突破显示AI在关键领域的作用日益增强。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "ad19610a95ab207e",
+     "phrase": {
+      "en": "Frames as mixed uncertainty",
+      "zh": "视为混合不确定性"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.05487v1"
+    },
+    {
+     "item_id": "3b69503af8a16f0b",
+     "phrase": {
+      "en": "Frames as query generation",
+      "zh": "视为查询生成"
+     },
+     "section": "papers",
+     "source": "OpenAlex · information visualization",
+     "url": "https://doi.org/10.1145/3770855.3818209"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "New tools visualize both statistical and qualitative uncertainty, aiding decision-making.",
+    "zh": "新工具可视化统计和定性不确定性，辅助决策。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "visual analytics for uncertainty",
+    "zh": "不确定性可视化"
+   },
+   "relates_to": [
+    "t5"
+   ],
+   "why_now": {
+    "en": "You value critical visualization: today's papers on uncertainty visualization refine how you interpret data.",
+    "zh": "你重视批判性可视化，今日关于不确定性可视化的论文完善数据解读方式。"
    }
   },
   {
@@ -153,87 +209,64 @@
     {
      "item_id": "c1ae87d2d513d142",
      "phrase": {
-      "en": "chatbot for commerce",
-      "zh": "商务聊天机器人"
+      "en": "Frames as transparent chatbot",
+      "zh": "视为透明聊天机器人"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
      "url": "https://arxiv.org/abs/2608.06068v1"
     },
     {
-     "item_id": "3b69503af8a16f0b",
-     "phrase": {
-      "en": "speech-driven queries",
-      "zh": "语音驱动查询"
-     },
-     "section": "papers",
-     "source": "OpenAlex · information visualization",
-     "url": "https://doi.org/10.1145/3770855.3818209"
-    },
-    {
      "item_id": "a4955e9813ab8c1d",
      "phrase": {
-      "en": "model selection cost",
-      "zh": "模型选择成本"
+      "en": "Frames as cost-efficient",
+      "zh": "视为成本高效"
      },
      "section": "papers",
      "source": "OpenAlex · information visualization",
      "url": "https://doi.org/10.1145/3770855.3818067"
     }
    ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "New papers blend LLMs with visualization to improve data interaction.",
-    "zh": "新论文将LLM与可视化结合，改进数据交互。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "LLM and visualization",
-    "zh": "LLM与可视化"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow LLM and viz: several arXiv papers demonstrate practical integrations today.",
-    "zh": "你关注LLM和可视化：今日多篇论文展示实际集成。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "3b5c5947719b7c29",
-     "phrase": {
-      "en": "revenue jumps",
-      "zh": "收入激增"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/08/nx-s1-5923881/geo-group-corecivic-immigration-detention"
-    },
-    {
-     "item_id": "9b7e2af460365971",
-     "phrase": {
-      "en": "civil rights probe",
-      "zh": "民权调查"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/07/nyregion/delaney-hall-investigation-civil-rights.html"
-    }
-   ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Private prisons profit as detentions rise amid civil rights probes.",
-    "zh": "私人监狱因拘留增多而获利，同时面临民权调查。"
+    "en": "LLMs power new chatbots and analytic tools that are transparent and controllable.",
+    "zh": "LLM驱动新的聊天机器人和分析工具，透明且可控。"
    },
-   "id": "t4",
+   "id": "t5",
    "keyword": {
-    "en": "immigration detention",
-    "zh": "移民拘留"
+    "en": "LLM-based interactive systems",
+    "zh": "基于LLM的交互系统"
    },
-   "relates_to": [],
+   "relates_to": [
+    "t4"
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-06",
+     "item_id": "c1ae87d2d513d142",
+     "label": {
+      "en": "Cleo chatbot demo",
+      "zh": "Cleo聊天机器人演示"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.06068v1"
+    },
+    {
+     "date": "2026-08-07",
+     "item_id": "a4955e9813ab8c1d",
+     "label": {
+      "en": "SCOPE cost model",
+      "zh": "SCOPE成本模型"
+     },
+     "section": "papers",
+     "source": "OpenAlex · information visualization",
+     "url": "https://doi.org/10.1145/3770855.3818067"
+    }
+   ],
    "why_now": {
-    "en": "You care about policy ethics: revenue surges parallel accountability efforts.",
-    "zh": "你关注政策伦理：收入激增与问责并行。"
+    "en": "You're into HCI and LLMs: today's papers on Cleo and SCOPE show how LLMs are integrated into practical interfaces.",
+    "zh": "你关注人机交互和LLM，今日Cleo和SCOPE论文展示LLM如何融入实用界面。"
    }
   }
  ]
