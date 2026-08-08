@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-07T22:53:59Z",
+ "generated_at": "2026-08-08T02:19:28Z",
  "private_summary": {
   "configured": 0,
   "total": 0
@@ -43,12 +43,12 @@
   },
   {
    "category": "open",
-   "count": 50,
-   "error": null,
+   "count": 0,
+   "error": "429 Client Error: Too Many Requests for url: https://huggingface.co/blog/feed.xml",
    "full_text_count": 0,
    "id": "huggingface_blog",
    "name": "Hugging Face Blog",
-   "ok": true,
+   "ok": false,
    "section": "news",
    "skip_reason": null,
    "type": "rss"
@@ -79,12 +79,12 @@
   },
   {
    "category": "open",
-   "count": 20,
-   "error": null,
-   "full_text_count": 17,
+   "count": 0,
+   "error": "403 Client Error: Forbidden for url: https://arstechnica.com/ai/feed/",
+   "full_text_count": 0,
    "id": "ars_ai",
    "name": "Ars Technica · AI",
-   "ok": true,
+   "ok": false,
    "section": "news",
    "skip_reason": null,
    "type": "rss"
@@ -103,7 +103,7 @@
   },
   {
    "category": "open",
-   "count": 4,
+   "count": 5,
    "error": null,
    "full_text_count": 0,
    "id": "hn_frontpage_ai",
@@ -151,7 +151,7 @@
   },
   {
    "category": "open",
-   "count": 25,
+   "count": 22,
    "error": null,
    "full_text_count": 0,
    "id": "nyt_homepage",
@@ -175,12 +175,12 @@
   },
   {
    "category": "optional",
-   "count": 10,
-   "error": null,
+   "count": 0,
+   "error": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60 (Caus",
    "full_text_count": 0,
    "id": "arxiv_datavis",
    "name": "arXiv cs.HC + cs.GR",
-   "ok": true,
+   "ok": false,
    "section": "papers",
    "skip_reason": null,
    "type": "arxiv"
@@ -212,7 +212,7 @@
   {
    "category": "optional",
    "count": 0,
-   "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-07-10&rows=12&sort=created&order=desc",
+   "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-07-11&rows=12&sort=created&order=desc",
    "full_text_count": 0,
    "id": "crossref_techcomm_journals",
    "name": "TechComm journals (CrossRef)",
@@ -235,12 +235,12 @@
   },
   {
    "category": "optional",
-   "count": 4,
-   "error": null,
+   "count": 0,
+   "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC&sortBy=submittedDate&sortOrder=descending&max_results=40",
    "full_text_count": 0,
    "id": "arxiv_hci_writing",
    "name": "arXiv cs.HC (writing & docs)",
-   "ok": true,
+   "ok": false,
    "section": "papers",
    "skip_reason": null,
    "type": "arxiv"

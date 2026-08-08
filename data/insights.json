@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"Belgian pigeon racing\" OR \"pigeon fanciers\" OR \"pigeon loft\"",
+  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
   "source": {
-   "name": "Sur in English",
-   "published_at": "2026-08-03T08:50:10Z",
-   "title": "Town hall produces leaflet about the history and significance of the Vélez-Málaga Buchón pigeon",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVmNmQzJ3SU00RmZ4OGRVRmZRR095ek9TczdQd2pvNmY1WWFzcWN1bWJCZlgwX1NFdDZTcXl3N0JLWVh6eUlFVDlmaVhUYjZjMF9NUkRQOTluS2ROeHhJXzkzWXAtWWN2RW1wcUVRUm5FenZzUVFHTE5PNnpEZUg0dDY1V1ZHN3lFcHRYTWRCLW0ya1N4bDZnSW1xYng?oc=5"
+   "name": "bdemo.com",
+   "published_at": "2026-08-04T20:00:00Z",
+   "title": "King grows winning vegetables",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTmFkU0RCbUJYak90SXVOWDZyM19MWjRHZGwwV0VhaTFJOHlDb2t3dENYa3JpX1VsY2pKeUxBT2F1R3ZBUzBJazd5YURFUDg1cDUtMlJBcjRPQzB2T2FsSDM5MDR3S1hMQ3RxR0YzMV9LWFI3eEVtTXM2RTBDT3pmejY3NlhCYUxMUkRJamk1anRFblpCQTFzSlFMQlg2Y3puZmx0Ulc0ZGtvdw?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A Spanish town hall releases a leaflet on the history and significance of the local Buchón pigeon breed.",
-    "why_irrelevant": "A niche local heritage topic far from tech, politics, and current events."
+    "summary": "A local newspaper highlights a 'King' grower who wins top marks for prize vegetables at a county fair.",
+    "why_irrelevant": "it's a hyper-local agriculture story, far from your usual tech and culture feed."
    },
    "zh": {
-    "summary": "西班牙一市政厅发布关于当地布琼鸽品种历史与意义的小册子。",
-    "why_irrelevant": "小众地方特色话题，远离科技、政治和时事。"
+    "summary": "一家本地报纸报道了一位在县博览会上以获奖蔬菜夺冠的“国王”种植者。",
+    "why_irrelevant": "这是极本地化的农业新闻，与你常看的科技和文化内容相距甚远。"
    }
   },
-  "topic": "history of pigeon racing in Belgium"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news covers political turmoil, migrant crises, and public safety, while research focuses on advancing human-robot interaction and data visualization.",
+ "brief": "Today's news is dominated by U.S. political and legal developments, including Trump's legal battles and cabinet confirmations, alongside domestic issues like job losses and healthcare. Research highlights a landslide dataset from Japan, relevant for disaster monitoring.",
  "meta": {
-  "generated_at": "2026-08-07T22:53:59Z"
+  "generated_at": "2026-08-08T02:19:28Z"
  },
- "news_summary": "News highlights include Democratic leader Schumer's unity efforts, U.S.-Cuba tensions, a school shooting in Thailand, and European border controls amid migrant influxes.",
- "papers_summary": "Papers explore robot learning from demonstrations, teleoperation interfaces, conversational commerce, sports coaching analytics, and scientific visualization techniques.",
+ "news_summary": "Trump's legal disputes and cabinet nominations continue, while NYC faces job cuts for Haitian workers and falling reading scores. A helicopter crash in Utah and a Chicago funeral home scandal add to domestic concerns.",
+ "papers_summary": "A new dataset provides landslide inventories and satellite imagery for the Noto Peninsula, Japan, aiding disaster response and geological studies.",
  "summaries": {
   "en": {
-   "brief": "Today's news covers political turmoil, migrant crises, and public safety, while research focuses on advancing human-robot interaction and data visualization.",
-   "news_summary": "News highlights include Democratic leader Schumer's unity efforts, U.S.-Cuba tensions, a school shooting in Thailand, and European border controls amid migrant influxes.",
-   "papers_summary": "Papers explore robot learning from demonstrations, teleoperation interfaces, conversational commerce, sports coaching analytics, and scientific visualization techniques."
+   "brief": "Today's news is dominated by U.S. political and legal developments, including Trump's legal battles and cabinet confirmations, alongside domestic issues like job losses and healthcare. Research highlights a landslide dataset from Japan, relevant for disaster monitoring.",
+   "news_summary": "Trump's legal disputes and cabinet nominations continue, while NYC faces job cuts for Haitian workers and falling reading scores. A helicopter crash in Utah and a Chicago funeral home scandal add to domestic concerns.",
+   "papers_summary": "A new dataset provides landslide inventories and satellite imagery for the Noto Peninsula, Japan, aiding disaster response and geological studies."
   },
   "zh": {
-   "brief": "今日焦点包括泰国校园枪击案、人工智能设计新病毒以及免冷藏疫苗的突破，同时美国出生公民权行政令引发争议。",
-   "news_summary": "泰国发生校园枪击案致八人死亡，欧洲干旱暴露历史遗迹，特朗普签署限制出生公民权行政令。",
-   "papers_summary": "人工智能在病毒设计中展现潜力，机器人学习和交互界面研究有新进展。"
+   "brief": "今日重点新闻包括泰国校园枪击案、人工智能设计病毒、免冷藏疫苗人体试验及特朗普签署出生公民权行政命令；同时，研究领域暂无中文优先条目。",
+   "news_summary": "泰国校园枪击案致七人死亡，枪手为14岁学生并自杀；科学家用AI设计新病毒引关注；英国成功试验免冷藏疫苗；特朗普签署行政命令限制出生公民权。",
+   "papers_summary": "今日暂无中文优先研究条目，但英文研究提及日本能登半岛北部滑坡清单与PlanetScope影像数据集。"
   }
  },
  "todays_image": {
-  "caption": "Like Sally Ride’s medallion bridged the vast divide of space, Schumer must now bridge the gravitational pull of his party’s insurgents.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A20140329000-NASM2016-02451",
-  "source_name": "National Air and Space Museum",
-  "source_url": "http://n2t.net/ark:/65665/nv98b1c1293-4e83-4df9-b9bc-6e648e6c9d56",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A20140329000-NASM2016-02451",
-  "title": "Medallion, Robbins, STS-7, Sally Ride"
+  "caption": "A court-ordered halt to a grand ballroom is like a gardener pruning Weinmannia parviflora—what was meant to bloom is suddenly cut back for reasons beyond its control.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3900182d42c1d4ffb8e6d88f91b69b51c",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3e7b6498c-33c4-46b0-9246-0079f27e6758",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3900182d42c1d4ffb8e6d88f91b69b51c/90",
+  "title": "Weinmannia parviflora G. Forst."
  }
 }

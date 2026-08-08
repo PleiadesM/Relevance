@@ -1,17 +1,66 @@
 {
  "meta": {
-  "count": 5,
-  "generated_at": "2026-08-07T22:53:59Z",
+  "count": 4,
+  "generated_at": "2026-08-08T02:19:28Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "item_id": "2b542d0aea9f7de7",
+     "phrase": {
+      "en": "NYC dismisses Haitian workers",
+      "zh": "纽约市解雇海地工人"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/07/nyregion/haitian-nyc-workers-tps.html"
+    },
+    {
+     "item_id": "aa89f9e0aa483a23",
+     "phrase": {
+      "en": "Trump ends South Sudan TPS",
+      "zh": "特朗普终止南苏丹TPS"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/07/judge-trump-south-sudan-tps"
+    },
+    {
+     "item_id": "9b7e2af460365971",
+     "phrase": {
+      "en": "NJ probes migrant detention",
+      "zh": "新泽西调查移民拘留"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/07/nyregion/delaney-hall-investigation-civil-rights.html"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Legal shields for migrants are crumbling across the US.",
+    "zh": "美国对移民的法律保护正在瓦解。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "migrant protections",
+    "zh": "移民保护"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow civil rights and migration policy: today a federal court and state actions collide on TPS.",
+    "zh": "你关注民权与移民政策，今日联邦法院与州行动在TPS上冲突。"
+   }
+  },
+  {
+   "angles": [
+    {
      "item_id": "afb6703524899327",
      "phrase": {
-      "en": "frames as migration row",
-      "zh": "视为移民争端"
+      "en": "Spain imposes controls on Italy",
+      "zh": "西班牙对意大利实施管控"
      },
      "section": "news",
      "source": "BBC World",
@@ -20,28 +69,28 @@
     {
      "item_id": "66a8d976ca33d159",
      "phrase": {
-      "en": "frames as reciprocal measure",
-      "zh": "视为对等措施"
+      "en": "Spain introduces temporary checks",
+      "zh": "西班牙引入临时检查"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "Spain and Italy exchange border checks over Ceuta migration wave.",
-    "zh": "西班牙与意大利因休达移民潮互设边境检查。"
+    "en": "European neighbors tighten borders over Ceuta's migrant surge.",
+    "zh": "欧洲邻国因休达移民潮收紧边境。"
    },
-   "id": "t1",
+   "id": "t2",
    "keyword": {
     "en": "border controls",
-    "zh": "边境管制"
+    "zh": "边境管控"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track geopolitical shifts; today's escalation could reshape EU internal borders.",
-    "zh": "你关注地缘政治变化，今日事态升级可能重塑欧盟内部边界。"
+    "en": "You track geopolitical shifts: Spain and Italy now reciprocate border checks, escalating a row.",
+    "zh": "你关注地缘政治变化，西班牙与意大利互设边境检查，争端升级。"
    }
   },
   {
@@ -49,175 +98,87 @@
     {
      "item_id": "843f5b18646ae85e",
      "phrase": {
-      "en": "frames as need for laws",
-      "zh": "强调立法需求"
+      "en": "Thai PM vows stricter gun laws",
+      "zh": "泰国总理承诺严格枪法"
      },
      "section": "news",
      "source": "BBC World",
      "url": "https://www.bbc.co.uk/news/articles/cdewx6rew04o?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "21f14a9517335434",
-     "phrase": {
-      "en": "frames as public safety",
-      "zh": "强调公共安全"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/aug/07/idaho-police-shooting-in-n-out-burger-video"
-    },
-    {
      "item_id": "083f51eb06558899",
      "phrase": {
-      "en": "frames as tragedy details",
-      "zh": "聚焦事件细节"
+      "en": "Deadly Thailand shooting details",
+      "zh": "泰国枪击案详情"
      },
      "section": "news",
      "source": "BBC World",
      "url": "https://www.bbc.co.uk/news/videos/c70glx1ww78o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "21f14a9517335434",
+     "phrase": {
+      "en": "Idaho shooting video released",
+      "zh": "爱达荷枪击视频发布"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/07/idaho-police-shooting-in-n-out-burger-video"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Shootings in Thailand and Idaho reignite gun control debates.",
-    "zh": "泰国与爱达荷枪击案重燃枪支管控讨论。"
+    "en": "Shootings in Thailand and Idaho prompt new calls for gun control.",
+    "zh": "泰国与爱达荷枪击事件引发新的控枪呼声。"
    },
-   "id": "t2",
+   "id": "t3",
    "keyword": {
     "en": "gun violence",
     "zh": "枪支暴力"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow human-computer interaction; these events highlight societal interfaces of technology and policy.",
-    "zh": "你关注人机交互，这些事件凸显技术与政策的社会接口。"
+    "en": "You follow public safety and policy: a teen shooter and a fast-food attack fuel renewed debate.",
+    "zh": "你关注公共安全与政策，青少年枪手与快餐店袭击引发新辩论。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "53e3def516de65ed",
+     "item_id": "f48961427823d2ad",
      "phrase": {
-      "en": "frames as bipartisan victory",
-      "zh": "视为两党胜利"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/aug/07/russia-sanctions-senate-passed-petroleum"
-    },
-    {
-     "item_id": "2f57a19c3776ec6e",
-     "phrase": {
-      "en": "frames as economic pressure",
-      "zh": "视为经济施压"
+      "en": "Trump renews Fed ouster push",
+      "zh": "特朗普再推解雇美联储官员"
      },
      "section": "news",
      "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/07/nx-s1-5924914/senate-passes-russia-sanctions-bill-that-was-long-championed-by-lindsey-graham"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "US Senate passes Russia sanctions, continuing bipartisan pressure.",
-    "zh": "美国参议院通过俄罗斯制裁，持续两党施压。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "sanctions policy",
-    "zh": "制裁政策"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow policy shifts; this bill could affect global tech supply chains.",
-    "zh": "你关注政策变化，该法案可能影响全球科技供应链。"
-   }
-  },
-  {
-   "angles": [
+     "url": "https://www.npr.org/2026/08/07/nx-s1-5925167/trump-lisa-cook-federal-reserve"
+    },
     {
-     "item_id": "9b7e2af460365971",
+     "item_id": "2c7374a4d5e5b098",
      "phrase": {
-      "en": "frames as civil rights",
-      "zh": "视为公民权利"
+      "en": "Prosecutor sues over dismissal",
+      "zh": "检察官起诉解雇"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/07/nyregion/delaney-hall-investigation-civil-rights.html"
-    },
-    {
-     "item_id": "aa89f9e0aa483a23",
-     "phrase": {
-      "en": "frames as legal ruling",
-      "zh": "视为法律裁决"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/aug/07/judge-trump-south-sudan-tps"
+     "url": "https://www.nytimes.com/2026/08/07/us/politics/prosecutor-fired-lawsuit-justice-department.html"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Migrant detention and TPS decisions highlight US immigration tensions.",
-    "zh": "移民拘留与TPS决定凸显美国移民紧张局势。"
+    "en": "Loyalty tests reshape US institutions from courts to agencies.",
+    "zh": "忠诚测试重塑美国机构，从法院到行政部门。"
    },
    "id": "t4",
    "keyword": {
-    "en": "immigration enforcement",
-    "zh": "移民执法"
+    "en": "political purges",
+    "zh": "政治清洗"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You study human-computer interaction and policy; these stories show systemic challenges.",
-    "zh": "你研究人机交互与政策，这些故事展示系统挑战。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "980f422a705f219b",
-     "phrase": {
-      "en": "tutor timing decisions",
-      "zh": "导师时机决策"
-     },
-     "section": "news",
-     "source": "Hugging Face Blog",
-     "url": "https://huggingface.co/blog/allenai/tutormoments"
-    },
-    {
-     "item_id": "c1ae87d2d513d142",
-     "phrase": {
-      "en": "transparent product advisor",
-      "zh": "透明产品顾问"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.06068v1"
-    },
-    {
-     "item_id": "c43c5022257879f0",
-     "phrase": {
-      "en": "adapts to user knowledge",
-      "zh": "适应用户知识"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.06091v1"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Conversational agents and tutors evolve to adapt to user knowledge.",
-    "zh": "对话代理和导师进化以适应知识水平。"
-   },
-   "id": "t5",
-   "keyword": {
-    "en": "AI assistants",
-    "zh": "AI助手"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You work on HCI and LLMs; these advances directly inform your design space.",
-    "zh": "你从事人机交互与LLM，这些进展直接影响设计空间。"
+    "en": "You follow governance: Fed dismissal threats and prosecutor lawsuits signal escalating purges.",
+    "zh": "你关注治理，美联储解雇威胁与检察官诉讼显示清洗升级。"
    }
   }
  ]
