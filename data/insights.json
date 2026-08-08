@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "batik canting wax resist OR Indonesian batik artisans",
+  "query": "\"snail racing championship\" OR \"world snail racing\"",
   "source": {
-   "name": "The Star",
-   "published_at": "2026-07-27T07:00:00Z",
-   "title": "The price of craftsmanship",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdTNTY1VlN0N4YUMxNy1rR2FIbENra2ZLTnF2TXgwaUxCUThkVTVUX25fbzJWZ2NqOG4zOGlzRl9tdEJ3ZHVTSVNQN2tIejJvbHJDX2c0Z1JsY0YtajBFVzYtWUpVblozdFJmOE5SWVdsaFYwN3VoeTZlMkdjcGhYZGx3?oc=5"
+   "name": "New Statesman",
+   "published_at": "2026-08-05T16:11:25Z",
+   "title": "Searching for the world’s fastest snail",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTDBVZ081UDNSd1p0bTlLbUVrNEUzeWI4OWpianFOYy1ld0VQS2ZtVjMxblNrbUVzemxWU0xzTkh0TEwtS0tOT3pwMXp2cm9EMWg1TVFFQWJkNHdhczI1OU5IMENEdElSX0FCWks0LUkycUNCb0pVODFtOEh3TUlJWWcxOUxnUUUxWWNsMDVOLXc?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "Traditional Indonesian batik dyeing techniques, including wax-resist patterns, are being preserved by artisans in Yogyakarta.",
-    "why_irrelevant": "A niche cultural craft unrelated to global affairs or technology."
+    "summary": "A New Statesman article explores the eccentric pursuit of finding the world's fastest snail.",
+    "why_irrelevant": "A whimsical niche topic far from typical feed interests."
    },
    "zh": {
-    "summary": "印尼传统蜡染技术，包括蜡防图案，正由日惹的手工艺人传承。",
-    "why_irrelevant": "小众文化工艺，与全球事务或科技无关。"
+    "summary": "《新政治家》杂志探索寻找世界上最快的蜗牛这一怪诞追求。",
+    "why_irrelevant": "这是个古怪小众的话题，远离常规信息流兴趣。"
    }
   },
-  "topic": "traditional Indonesian batik dyeing techniques"
+  "topic": "competitive snail racing"
  },
- "brief": "Today's news is dominated by geopolitical tensions, particularly around Iran and the Strait of Hormuz, with the U.S. facing arms depletion and offering aid to Colombia, while domestic issues include Paris scooter safety rules and Amazon's polluting data center. Research highlights tools for genomics and phishing detection, along with studies on urban heat, cognitive decline, and smoking.",
+ "brief": "Today's news spans geopolitical tensions over the Strait of Hormuz, a fast-moving wildfire in Canada, and new AI default settings in Claude Code, while research highlights tools for genomics, phishing detection, and urban heat mitigation.",
  "meta": {
-  "generated_at": "2026-08-08T20:46:20Z"
+  "generated_at": "2026-08-08T22:44:50Z"
  },
- "news_summary": "International tensions rise over Iran's conditions for reopening the Strait of Hormuz, while the U.S. experiences weapons stockpiles depletion and offers $1bn to Colombia. Domestic stories include Paris enforcing scooter safety gear, Amazon's controversial power plant, and a fast-growing Canada wildfire.",
- "papers_summary": "Research spans from Python tools for gene orthogroup refinement to phishing URL detection using machine learning, and includes studies on tree shade for heat mitigation, cognitive decline timing, and microbiome effects of smoking.",
+ "news_summary": "Major stories include Iran's demands for reopening the Strait of Hormuz, Canada's Bald Range wildfire doubling in size, Baker Boy's big wins at the National Indigenous Music awards, and the US Senate's failure to pass Trump's voting bill.",
+ "papers_summary": "Research covers a Python tool for refining orthogroups, machine learning for phishing URL detection, tree height's role in heat mitigation, and a study on cognitive decline timing.",
  "summaries": {
   "en": {
-   "brief": "Today's news is dominated by geopolitical tensions, particularly around Iran and the Strait of Hormuz, with the U.S. facing arms depletion and offering aid to Colombia, while domestic issues include Paris scooter safety rules and Amazon's polluting data center. Research highlights tools for genomics and phishing detection, along with studies on urban heat, cognitive decline, and smoking.",
-   "news_summary": "International tensions rise over Iran's conditions for reopening the Strait of Hormuz, while the U.S. experiences weapons stockpiles depletion and offers $1bn to Colombia. Domestic stories include Paris enforcing scooter safety gear, Amazon's controversial power plant, and a fast-growing Canada wildfire.",
-   "papers_summary": "Research spans from Python tools for gene orthogroup refinement to phishing URL detection using machine learning, and includes studies on tree shade for heat mitigation, cognitive decline timing, and microbiome effects of smoking."
+   "brief": "Today's news spans geopolitical tensions over the Strait of Hormuz, a fast-moving wildfire in Canada, and new AI default settings in Claude Code, while research highlights tools for genomics, phishing detection, and urban heat mitigation.",
+   "news_summary": "Major stories include Iran's demands for reopening the Strait of Hormuz, Canada's Bald Range wildfire doubling in size, Baker Boy's big wins at the National Indigenous Music awards, and the US Senate's failure to pass Trump's voting bill.",
+   "papers_summary": "Research covers a Python tool for refining orthogroups, machine learning for phishing URL detection, tree height's role in heat mitigation, and a study on cognitive decline timing."
   },
   "zh": {
-   "brief": "今日国际新闻聚焦于伊朗局势、科技环境争议及澳大利亚生态危机，同时丹麦为应对AI作弊推行口试，而研究方面则涌现出多项技术进展。",
-   "news_summary": "美国武器库存因伊战而告急，俄罗斯与中国予以关注；巴黎对电动滑板车骑行加强安全监管；亚马逊新建数据中心或成美国最大污染源之一，引发环保担忧。",
-   "papers_summary": "研究涵盖机器学习在钓鱼网站检测中的应用、树木遮荫缓解城市热岛效应、以及吸烟对鼻腔微生物组的影响等多元主题。"
+   "brief": "今日新闻聚焦中东局势、美国政治与科技动态，论文则涉及机器学习、生物医学等多个领域。",
+   "news_summary": "伊朗与美国的霍尔木兹海峡谈判陷入僵局，伊朗提出苛刻条件；美国在伊朗冲突中武器消耗引发担忧。科技方面，Claude Code 默认启用自动模式，丹麦为防止AI作弊要求口头答辩。",
+   "papers_summary": "论文涵盖钓鱼URL检测的机器学习算法比较、树木遮荫缓解热岛效应、以及认知衰退轨迹等研究，展现了AI、环境与健康领域的最新进展。"
   }
  },
  "todays_image": {
-  "caption": "Like the hardy stinkgrass that thrives in sidewalk cracks, Parisian e-scooter riders are now being told to gear up against the hard cracks they could hit.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3af4320d4b5d743f5b2ff1f2213abb75a",
+  "caption": "Just as the aster flower opens on its own, Claude Code now defaults to auto mode without manual prompting.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c",
   "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/31f89f34f-765f-42b5-aade-9a86e1cbbfcc",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3af4320d4b5d743f5b2ff1f2213abb75a/90",
-  "title": "Eragrostis cilianensis (Bellardi) Vignolo ex Janch."
+  "source_url": "http://n2t.net/ark:/65665/3d1b2a964-ed98-4ee0-8f71-927381c84000",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c/90",
+  "title": "Chaetopappa asteroides (Nutt.) DC."
  }
 }

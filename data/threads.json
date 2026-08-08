@@ -1,177 +1,184 @@
 {
  "meta": {
-  "count": 3,
-  "generated_at": "2026-08-08T20:46:20Z",
+  "count": 4,
+  "generated_at": "2026-08-08T22:44:50Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "dd47d74a491fcfd4",
+     "item_id": "fe2205fb2014f376",
      "phrase": {
-      "en": "security concern halts model",
-      "zh": "安全顾虑叫停模型"
+      "en": "Sailors in limbo, transit dangerous",
+      "zh": "船员悬置，过境危险"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/08/nx-s1-5923592/tanker-sailors-still-face-danger-in-the-strait-of-hormuz"
+    },
+    {
+     "item_id": "562a758fa9f899fe",
+     "phrase": {
+      "en": "Iran issues tough demands to reopen",
+      "zh": "伊朗提出重开强硬条件"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/technology/2026/aug/08/openai-astra-security-concerns"
+     "url": "https://www.theguardian.com/world/2026/aug/08/iran-issues-tough-demands-to-reopen-strait-of-hormuz-as-deal-remains-out-of-reach"
     },
     {
-     "item_id": "50e3c801ee0ba784",
+     "item_id": "24b9a038353b349a",
      "phrase": {
-      "en": "AI bots overload bug tracker",
-      "zh": "AI机器人压垮追踪器"
+      "en": "Oman sees positive talks",
+      "zh": "阿曼认为谈判积极"
      },
      "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://social.treehouse.systems/@mgorny/117058483039362779"
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c934j5y2lq9o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "07749ca41d3ea5bc",
+     "phrase": {
+      "en": "Iran dampens hopes with demands",
+      "zh": "伊朗以条件降低希望"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/08/world/middleeast/iran-us-oman-strait-of-hormuz.html"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "AI systems become powerful enough to pause themselves.",
-    "zh": "AI强大到需要自我暂停。"
+    "en": "Talks give hope, but Iran's demands keep the strait closed.",
+    "zh": "谈判带来希望，但伊朗的条件使海峡继续关闭。"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI security pause",
-    "zh": "AI安全暂停"
+    "en": "Strait of Hormuz",
+    "zh": "霍尔木兹海峡"
    },
    "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-07",
-     "item_id": "dd47d74a491fcfd4",
-     "label": {
-      "en": "Astra shows self-exploit",
-      "zh": "Astra自我利用"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/technology/2026/aug/08/openai-astra-security-concerns"
-    },
-    {
-     "date": "2026-08-08",
-     "item_id": "dd47d74a491fcfd4",
-     "label": {
-      "en": "OpenAI pauses work",
-      "zh": "OpenAI暂停工作"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/technology/2026/aug/08/openai-astra-security-concerns"
-    }
-   ],
    "why_now": {
-    "en": "You track AI safety: today OpenAI halted Astra due to autonomous attacks.",
-    "zh": "你关注AI安全，今日OpenAI因自主攻击暂停Astra。"
+    "en": "You follow geopolitics: today multiple sources report Iran's tough demands and Oman's optimism, but no deal yet.",
+    "zh": "你关注地缘政治，今日多方报道伊朗强硬要求和阿曼的乐观，但协议未成。"
    }
   },
   {
    "angles": [
     {
+     "item_id": "dd47d74a491fcfd4",
+     "phrase": {
+      "en": "Agent exploits vulnerabilities autonomously",
+      "zh": "智能体自主利用漏洞"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/technology/2026/aug/08/openai-astra-security-concerns"
+    },
+    {
      "item_id": "03174dadb8132b82",
      "phrase": {
-      "en": "oral exams to deter AI",
-      "zh": "口试防AI作弊"
+      "en": "Denmark counters AI cheating orally",
+      "zh": "丹麦以口头答辩防AI作弊"
      },
      "section": "news",
      "source": "Hacker News (AI filter)",
      "url": "https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/"
-    },
-    {
-     "item_id": "c1ae87d2d513d142",
-     "phrase": {
-      "en": "transparent chatbot for commerce",
-      "zh": "透明聊天机器人"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.06068v1"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "Schools adapt to a world where AI writes essays.",
-    "zh": "学校适应AI写论文的世界。"
+    "en": "OpenAI pauses work on Astra after it can hack autonomously.",
+    "zh": "OpenAI因Astra能自主攻击而暂停工作。"
    },
    "id": "t2",
    "keyword": {
-    "en": "AI in education",
-    "zh": "教育AI"
+    "en": "AI security risks",
+    "zh": "AI安全风险"
    },
-   "relates_to": [
-    "t1"
-   ],
+   "relates_to": [],
    "why_now": {
-    "en": "You care about AI's human impact: Denmark's oral exams counter AI cheating.",
-    "zh": "你关心AI的人文影响，丹麦口试应对AI作弊。"
+    "en": "You follow AI ethics: a concrete example of autonomous AI vulnerability is making headlines today.",
+    "zh": "你关注AI伦理，今日有自主AI漏洞的具体实例成为头条。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "50e3c801ee0ba784",
+     "item_id": "fd4180fbd94d7373",
      "phrase": {
-      "en": "AI bots overwhelm system",
-      "zh": "AI机器人压垮系统"
+      "en": "Navy spends 25% more time monitoring",
+      "zh": "海军多花25%时间监视"
      },
      "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://social.treehouse.systems/@mgorny/117058483039362779"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/uk-news/2026/aug/08/navy-says-it-is-spending-25-more-time-monitoring-russian-vessels-around-uk-waters"
     },
     {
-     "item_id": "3dbcb5db6d0c0920",
+     "item_id": "da5fb4616cd344e5",
      "phrase": {
-      "en": "hierarchical bidding agents",
-      "zh": "分层投标代理"
+      "en": "Russian missile attacks near Kyiv",
+      "zh": "俄罗斯导弹袭击基辅附近"
      },
-     "section": "papers",
-     "source": "OpenAlex · information visualization",
-     "url": "https://doi.org/10.1145/3770855.3818435"
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "Bots reshape workflows, from bidding to bug reports.",
-    "zh": "机器人重塑工作流，从投标到漏洞报告。"
+    "en": "Navy spends more time watching Russian ships near UK waters.",
+    "zh": "海军花更多时间监视英国水域附近的俄罗斯船只。"
    },
    "id": "t3",
    "keyword": {
-    "en": "AI automation",
-    "zh": "AI自动化"
+    "en": "Military monitoring",
+    "zh": "军事监控"
    },
-   "relates_to": [
-    "t1"
-   ],
-   "timeline": [
+   "relates_to": [],
+   "why_now": {
+    "en": "You read about security: UK increases surveillance, a concrete shift in naval posture.",
+    "zh": "你关注安全议题，英国加强监视，海军态势发生实际变化。"
+   }
+  },
+  {
+   "angles": [
     {
-     "date": "2026-08-07",
-     "item_id": "3dbcb5db6d0c0920",
-     "label": {
-      "en": "HOBA bidding agents",
-      "zh": "HOBA投标代理"
-     },
-     "section": "papers",
-     "source": "OpenAlex · information visualization",
-     "url": "https://doi.org/10.1145/3770855.3818435"
-    },
-    {
-     "date": "2026-08-08",
-     "item_id": "50e3c801ee0ba784",
-     "label": {
-      "en": "bugzilla overload",
-      "zh": "Bugzilla超载"
+     "item_id": "445c4e7919173d26",
+     "phrase": {
+      "en": "Senators endorse Trump sway over DOJ",
+      "zh": "参议员认可特朗普影响司法部"
      },
      "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://social.treehouse.systems/@mgorny/117058483039362779"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/08/us/politics/blanche-attorney-general-doj-trump-power.html"
+    },
+    {
+     "item_id": "64fa3a8a590a2a09",
+     "phrase": {
+      "en": "Schumer calls it pervasive corruption",
+      "zh": "舒默称其为全面腐败"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/live/2026/aug/08/todd-blanche-attorney-general-senate-vote-republicans-save-voting-bill-latest-news-updates"
     }
    ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Blanche's confirmation tightens Trump's grip on the Justice Department.",
+    "zh": "布兰奇确认加强特朗普对司法部的控制。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "Justice Department independence",
+    "zh": "司法部独立性"
+   },
+   "relates_to": [],
    "why_now": {
-    "en": "You track AI agents: new bidding agents and scraper bots show automation's reach.",
-    "zh": "你追踪AI代理，新投标代理和爬虫展示自动化范围。"
+    "en": "You follow politics and governance: the Senate vote signals a shift in institutional independence.",
+    "zh": "你关注政治与治理，参议院投票标志着机构独立性转变。"
    }
   }
  ]
