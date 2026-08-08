@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "chess boxing championship OR chess boxing rules",
+  "query": "\"sheep shearing competition\" OR \"golden shears\"",
   "source": {
-   "name": "ESPN",
-   "published_at": "2026-08-05T12:00:00Z",
-   "title": "Why diving chess is the next frontier for the sport",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObFQtYXQ1WmtIbWpHLXB2MG5obXBTTmlwVm1Tb0FSaGk2ekFRcGdndlNCTWhqTjNKclFxZ3U0aUc4djVQS3ZueVptSEtaU2FzbW5UWlJqM2RQQnl3ZXlkLTdsUTlpV3Zod2VCc21Kei1QQWU2WFBrRjJXZDJsTzZvZjVIVkFGMlY2OHM5aGRFSnRobXdkQzd4eHlkOXB5SW12VXZaVEJkWV9FakxyaEE?oc=5"
+   "name": "Leitrim Observer",
+   "published_at": "2026-07-30T11:49:00Z",
+   "title": "Leitrim speed sheep shearing contest to raise funds for North West STOP",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNml4bkpmMTdxYmJMQ2M2bFdCbWJ2NVJQU2x3b21WUFo3bm0zamZBWGZ5YW94eHNmNk9PLXk2WXZSYlAzTjVRbkdoUERpeDdmNkExS2oteVd3cnRMb2FBRG1OVjhLTy1XMVFxMkRpWjgtbUlVTFppWUhHdnRRMEJfRG5takNMNEhzdEltdk1NU29YTFBwS09fMU4tRS1wX243M3RTa1R3RG9xNC1WVi1DM1BmX25UZw?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A chess variant played while diving is being touted as the sport's next big evolution.",
-    "why_irrelevant": "far removed from typical daily feeds"
+    "summary": "A Leitrim speed sheep shearing contest will raise funds for the North West STOP charity.",
+    "why_irrelevant": "a niche rural sport unrelated to politics or global affairs."
    },
    "zh": {
-    "summary": "潜水国际象棋被认为将是这项运动的下一次重大变革。",
-    "why_irrelevant": "与日常信息流相距甚远"
+    "summary": "利特里姆的一场快速剪羊毛比赛将为西北STOP慈善机构筹款。",
+    "why_irrelevant": "与政治或国际事务无关的乡村小众活动。"
    }
   },
-  "topic": "competitive chess boxing"
+  "topic": "competitive sheep shearing championships"
  },
- "brief": "Today's news highlights political confirmations, global conflicts, and environmental crises, while research focuses on AI applications in search, advertising, and data analysis.",
+ "brief": "Today's news is dominated by political tensions in the US, Europe, and the Middle East, alongside technological and cultural developments, while research spans from genomics to AI-driven advertising.",
  "meta": {
-  "generated_at": "2026-08-08T13:09:58Z"
+  "generated_at": "2026-08-08T14:48:16Z"
  },
- "news_summary": "The Senate confirmed Todd Blanche as attorney general, drawing criticism over ethics; the funding bill aims to avert a shutdown; Europe faces extreme heat and drought exposing Nazi shipwrecks; Yemen escalates toward civil war.",
- "papers_summary": "Papers explore AI-driven search, bidding agents for ads, and semantic data visualization, alongside methodological advances in rainfall event detection and drug interaction prediction.",
+ "news_summary": "US politics feature prominently with the confirmation of Todd Blanche as attorney general and a funding bill to avoid a shutdown, while international stories include Spain-Italy border tensions, Russian strikes near Kyiv, and Yemen teetering on civil war.",
+ "papers_summary": "Research highlights include a Python tool for orthogroup refinement, machine learning for phishing detection, and a study on tree height and heat mitigation, among others.",
  "summaries": {
   "en": {
-   "brief": "Today's news highlights political confirmations, global conflicts, and environmental crises, while research focuses on AI applications in search, advertising, and data analysis.",
-   "news_summary": "The Senate confirmed Todd Blanche as attorney general, drawing criticism over ethics; the funding bill aims to avert a shutdown; Europe faces extreme heat and drought exposing Nazi shipwrecks; Yemen escalates toward civil war.",
-   "papers_summary": "Papers explore AI-driven search, bidding agents for ads, and semantic data visualization, alongside methodological advances in rainfall event detection and drug interaction prediction."
+   "brief": "Today's news is dominated by political tensions in the US, Europe, and the Middle East, alongside technological and cultural developments, while research spans from genomics to AI-driven advertising.",
+   "news_summary": "US politics feature prominently with the confirmation of Todd Blanche as attorney general and a funding bill to avoid a shutdown, while international stories include Spain-Italy border tensions, Russian strikes near Kyiv, and Yemen teetering on civil war.",
+   "papers_summary": "Research highlights include a Python tool for orthogroup refinement, machine learning for phishing detection, and a study on tree height and heat mitigation, among others."
   },
   "zh": {
-   "brief": "今日要闻聚焦美国参议院确认特朗普前律师托德·布兰奇为司法部长，以及欧洲热浪与多瑙河水位下降暴露纳粹沉船等事件。研究方面，多篇论文探讨AI系统优化与数据可视化新方法。",
-   "news_summary": "美国参议院以50票对49票确认特朗普前私人律师托德·布兰奇为司法部长，引发民主党批评。欧洲持续热浪导致多瑙河水位下降，露出纳粹时期沉船。",
-   "papers_summary": "研究亮点包括HOBA分层竞价代理、SD-DVQ语音查询可视化、GraTAG图查询分解等，聚焦AI系统效率与交互改进。"
+   "brief": "今日全球新闻聚焦于美国政治变动（Todd Blanche 确认为司法部长）及欧洲移民与高温问题，同时科研领域关注 AI 工具、网络安全及医学研究。",
+   "news_summary": "美国参议院确认特朗普前律师 Todd Blanche 为司法部长，引发争议；西班牙与意大利因休达移民潮发生边境管控争端；欧洲遭遇热浪，美国纽约出现针对老年人的金条诈骗。",
+   "papers_summary": "研究涉及机器学习网络钓鱼检测、树木遮荫缓解热岛效应、吸烟对鼻腔微生物组影响等，以及工具如 orthoSynAssign 改进基因分析。"
   }
  },
  "todays_image": {
-  "caption": "The mail bomb model serves as an explosive metaphor for the way Schumer frames Blanche's confirmation as detonating Trump's unchecked corruption.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2013_2011_154c",
-  "source_name": "National Postal Museum",
-  "source_url": "https://postalmuseum.si.edu/object/npm_2013.2011.154",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2013_2011_154c",
-  "title": "Mail bomb model"
+  "caption": "Like a purse suddenly drawn shut to protect its valuables, Spain is tightening its borders against Italy as the fight over Ceuta's migrant influx forces a more guarded stance.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-107263_01-000001",
+  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/107263",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-107263_01-000001",
+  "title": "Purse"
  }
 }
