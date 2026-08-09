@@ -1,7 +1,7 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-08-09T05:16:49Z",
+  "count": 2,
+  "generated_at": "2026-08-09T07:14:07Z",
   "scope": "public"
  },
  "threads": [
@@ -10,8 +10,8 @@
     {
      "item_id": "fe2205fb2014f376",
      "phrase": {
-      "en": "Sailors still in danger",
-      "zh": "船员仍处危险"
+      "en": "frames as ongoing danger",
+      "zh": "强调持续危险"
      },
      "section": "news",
      "source": "NPR News",
@@ -20,8 +20,8 @@
     {
      "item_id": "562a758fa9f899fe",
      "phrase": {
-      "en": "Iran issues tough demands",
-      "zh": "伊朗提出强硬要求"
+      "en": "frames as tough demands",
+      "zh": "强调强硬要求"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -30,8 +30,8 @@
     {
      "item_id": "24b9a038353b349a",
      "phrase": {
-      "en": "Oman sees progress",
-      "zh": "阿曼称进展"
+      "en": "frames as positive talks",
+      "zh": "会谈有积极面"
      },
      "section": "news",
      "source": "BBC World",
@@ -40,87 +40,74 @@
     {
      "item_id": "07749ca41d3ea5bc",
      "phrase": {
-      "en": "Iran dampens hopes",
-      "zh": "伊朗泼冷水"
+      "en": "frames as dampened hope",
+      "zh": "希望受挫"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/08/world/middleeast/iran-us-oman-strait-of-hormuz.html"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Tanker crews still risk danger as Iran’s demands keep the strait shut.",
+    "zh": "伊朗条件未决，油轮船员仍处险境。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "Strait of Hormuz tensions",
+    "zh": "霍尔木兹海峡紧张"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-08",
+     "item_id": "07749ca41d3ea5bc",
+     "label": {
+      "en": "Iran lists demands",
+      "zh": "伊朗提出条件"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/08/08/world/middleeast/iran-us-oman-strait-of-hormuz.html"
     },
     {
-     "item_id": "cc93e086b974893c",
-     "phrase": {
-      "en": "Oman positive, Iran warns",
-      "zh": "阿曼乐观，伊朗警告"
+     "date": "2026-08-08",
+     "item_id": "24b9a038353b349a",
+     "label": {
+      "en": "Oman sees progress",
+      "zh": "阿曼见进展"
      },
      "section": "news",
-     "source": "BBC 中文",
-     "url": "https://www.bbc.com/zhongwen/articles/cy74j0rz54go/trad?at_medium=RSS&at_campaign=rss"
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c934j5y2lq9o?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "890334408e85e6fa",
-     "phrase": {
-      "en": "Yemen civil war threat",
-      "zh": "也门内战威胁"
+     "date": "2026-08-08",
+     "item_id": "562a758fa9f899fe",
+     "label": {
+      "en": "UAE ship hit",
+      "zh": "阿联酋船遭袭"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/08/world/middleeast/yemen-houthis-regional-stability.html"
-    }
-   ],
-   "convergence": "divergent",
-   "gloss": {
-    "en": "Iran keeps the strait shut, talks limping along, ships linger in danger.",
-    "zh": "伊朗封锁海峡，谈判蹒跚，船只仍在危险中徘徊。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "Hormuz standoff",
-    "zh": "霍尔木兹对峙"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You track geopolitics: Iran's new demands make a deal today less likely.",
-    "zh": "你关注地缘政治：伊朗新要求使今日达成协议更不可能。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "1316cd6a5a82afc2",
-     "phrase": {
-      "en": "ChatGPT blocks style copying",
-      "zh": "ChatGPT阻止风格复制"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling/"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/08/iran-issues-tough-demands-to-reopen-strait-of-hormuz-as-deal-remains-out-of-reach"
     },
     {
-     "item_id": "13c48b5d8b5ae600",
-     "phrase": {
-      "en": "Students rate AI art texts",
-      "zh": "学生评价AI艺术文本"
+     "date": "2026-08-09",
+     "item_id": "fe2205fb2014f376",
+     "label": {
+      "en": "Sailors still in danger",
+      "zh": "船员仍处险境"
      },
-     "section": "papers",
-     "source": "OpenAlex · information visualization",
-     "url": "https://doi.org/10.3389/fpsyg.2026.1828685"
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/08/nx-s1-5923592/tanker-sailors-still-face-danger-in-the-strait-of-hormuz"
     }
    ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "ChatGPT stops copying authors' styles, while students judge AI art text.",
-    "zh": "ChatGPT不再模仿作者风格，学生评价AI艺术文本。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "AI content ethics",
-    "zh": "AI内容伦理"
-   },
-   "relates_to": [],
    "why_now": {
-    "en": "You care about AI ethics: new rules on style mimicry shift creative AI use.",
-    "zh": "你关注AI伦理：风格模仿新规改变创意AI应用。"
+    "en": "You track geopolitics: Iran’s new demands today block a deal, keeping shipping risky.",
+    "zh": "你关注地缘政治：今日伊朗新要求阻碍协议，航运风险持续。"
    }
   },
   {
@@ -128,8 +115,8 @@
     {
      "item_id": "84755ff6a8f20d1b",
      "phrase": {
-      "en": "Cancer spread to bones",
-      "zh": "癌症扩散到骨骼"
+      "en": "frames as worsening cancer",
+      "zh": "癌症恶化"
      },
      "section": "news",
      "source": "The New York Times",
@@ -138,77 +125,28 @@
     {
      "item_id": "7190595c86b06d0e",
      "phrase": {
-      "en": "Biden's cancer 'debilitating'",
-      "zh": "拜登癌症“令人衰弱”"
+      "en": "frames as debilitating pain",
+      "zh": "疼痛难忍"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/us-news/2026/aug/08/joe-biden-hunter-cancer"
-    },
-    {
-     "item_id": "64fa3a8a590a2a09",
-     "phrase": {
-      "en": "Mentioned in politics blog",
-      "zh": "政治博客提及"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/live/2026/aug/08/todd-blanche-attorney-general-senate-vote-republicans-save-voting-bill-latest-news-updates"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Hunter Biden reveals his father's cancer spread, adding personal grief to politics.",
-    "zh": "亨特·拜登透露父亲癌症扩散，为政治增添个人悲伤。"
+    "en": "Hunter Biden shares his father’s spreading cancer, a private sorrow in public view.",
+    "zh": "亨特披露父亲癌症扩散，私痛公之于众。"
    },
-   "id": "t3",
+   "id": "t2",
    "keyword": {
     "en": "Biden cancer news",
     "zh": "拜登癌症消息"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow public figures: today's family disclosure humanizes a political story.",
-    "zh": "你关注公众人物：今日家庭披露使政治故事更人性化。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "d0af439e36dda6e6",
-     "phrase": {
-      "en": "Taiwan bets on drones",
-      "zh": "台湾押注无人机"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/09/world/asia/taiwan-drone-china-invasion.html"
-    },
-    {
-     "item_id": "da5fb4616cd344e5",
-     "phrase": {
-      "en": "Russian missiles near Kyiv",
-      "zh": "俄导弹袭击基辅附近"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss"
-    }
-   ],
-   "convergence": "divergent",
-   "gloss": {
-    "en": "Taiwan eyes drone 'hellscape' from Ukraine's tactics to deter invasion.",
-    "zh": "台湾借鉴乌克兰战术，考虑无人机“地狱景观”以威慑入侵。"
-   },
-   "id": "t4",
-   "keyword": {
-    "en": "Ukraine drone warfare",
-    "zh": "乌克兰无人机战"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow defense AI: drone tactics from Ukraine now shape Taiwan strategy.",
-    "zh": "你关注防御AI：乌克兰的无人机战术正在塑造台湾战略。"
+    "en": "You follow current affairs: today’s reports reveal the former president’s condition worsening.",
+    "zh": "你关注时事：今日报道显示前总统病情恶化。"
    }
   }
  ]
