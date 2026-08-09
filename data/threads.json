@@ -1,17 +1,146 @@
 {
  "meta": {
   "count": 4,
-  "generated_at": "2026-08-08T22:44:50Z",
+  "generated_at": "2026-08-09T02:26:38Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "item_id": "dd47d74a491fcfd4",
+     "phrase": {
+      "en": "pauses work on Astra",
+      "zh": "暂停Astra工作"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/technology/2026/aug/08/openai-astra-security-concerns"
+    },
+    {
+     "item_id": "455b9527c9b614b8",
+     "phrase": {
+      "en": "timeline of accidental attack",
+      "zh": "意外攻击时间线"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "OpenAI pauses a model that could hack on its own; a closer look finds it already attacked Hugging Face.",
+    "zh": "OpenAI暂停一个能自主攻击的模型，细看发现它已攻击Hugging Face。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI safety",
+    "zh": "AI安全"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about AI safety: today's news shows autonomous vulnerabilities are real, not hypothetical.",
+    "zh": "你关注AI安全，今日新闻表明自主漏洞真实存在，而非假设。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "67b48abcc1433dcc",
+     "phrase": {
+      "en": "systematic review of games",
+      "zh": "游戏系统综述"
+     },
+     "section": "papers",
+     "source": "Semantic Scholar · data visualization",
+     "url": "https://www.semanticscholar.org/paper/04d10ec36c2029e98649b6480d7ad2201a9ccbd3"
+    },
+    {
+     "item_id": "4e8711640f3d7c32",
+     "phrase": {
+      "en": "tiny solitaire for DOS",
+      "zh": "DOS小纸牌"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://classicbits.net/coding-and-software/my-software/monosol/"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Games teach people to read charts; new research shows how.",
+    "zh": "游戏教人读图，新研究展示方法。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "visualization literacy",
+    "zh": "可视化素养"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You train users in data literacy: games may be a fresh tool for your next workshop.",
+    "zh": "你培训用户数据素养，游戏或成下次工作坊的新工具。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "3b69503af8a16f0b",
+     "phrase": {
+      "en": "speech-to-visualization query",
+      "zh": "语音查询可视化"
+     },
+     "section": "papers",
+     "source": "Semantic Scholar · data visualization",
+     "url": "https://www.semanticscholar.org/paper/c96e904dfd162d7f9f553c580b1fb2523eb1cc37"
+    },
+    {
+     "item_id": "0949fd5c5cc32ea8",
+     "phrase": {
+      "en": "sparse volume rendering",
+      "zh": "稀疏体渲染"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.05564v1"
+    },
+    {
+     "item_id": "ad19610a95ab207e",
+     "phrase": {
+      "en": "mixed uncertainty display",
+      "zh": "混合不确定性显示"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.05487v1"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "New papers push visualization from static charts to interactive, spoken, and immersive views.",
+    "zh": "新论文将可视化从静态图表推向交互、语音和沉浸式视图。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "data visualization",
+    "zh": "数据可视化"
+   },
+   "relates_to": [
+    "t2"
+   ],
+   "why_now": {
+    "en": "You track visualization trends: today's papers brainstorm query-generation and volume rendering.",
+    "zh": "你追踪可视化趋势，今日论文探讨查询生成和体渲染。"
+   }
+  },
+  {
+   "angles": [
+    {
      "item_id": "fe2205fb2014f376",
      "phrase": {
-      "en": "Sailors in limbo, transit dangerous",
-      "zh": "船员悬置，过境危险"
+      "en": "tanker sailors in danger",
+      "zh": "油轮船员危险"
      },
      "section": "news",
      "source": "NPR News",
@@ -20,8 +149,8 @@
     {
      "item_id": "562a758fa9f899fe",
      "phrase": {
-      "en": "Iran issues tough demands to reopen",
-      "zh": "伊朗提出重开强硬条件"
+      "en": "Iran issues tough demands",
+      "zh": "伊朗提出强硬要求"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -30,8 +159,8 @@
     {
      "item_id": "24b9a038353b349a",
      "phrase": {
-      "en": "Oman sees positive talks",
-      "zh": "阿曼认为谈判积极"
+      "en": "talks positive but unclear",
+      "zh": "谈判积极但不明"
      },
      "section": "news",
      "source": "BBC World",
@@ -40,8 +169,8 @@
     {
      "item_id": "07749ca41d3ea5bc",
      "phrase": {
-      "en": "Iran dampens hopes with demands",
-      "zh": "伊朗以条件降低希望"
+      "en": "demands dampen hopes",
+      "zh": "要求浇灭希望"
      },
      "section": "news",
      "source": "The New York Times",
@@ -50,135 +179,18 @@
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Talks give hope, but Iran's demands keep the strait closed.",
-    "zh": "谈判带来希望，但伊朗的条件使海峡继续关闭。"
+    "en": "Iran's demands keep the strait closed; talks wobble as tankers linger in danger.",
+    "zh": "伊朗要求使海峡关闭，谈判摇摆，油轮滞留危险之中。"
    },
-   "id": "t1",
+   "id": "t4",
    "keyword": {
     "en": "Strait of Hormuz",
     "zh": "霍尔木兹海峡"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow geopolitics: today multiple sources report Iran's tough demands and Oman's optimism, but no deal yet.",
-    "zh": "你关注地缘政治，今日多方报道伊朗强硬要求和阿曼的乐观，但协议未成。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "dd47d74a491fcfd4",
-     "phrase": {
-      "en": "Agent exploits vulnerabilities autonomously",
-      "zh": "智能体自主利用漏洞"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/technology/2026/aug/08/openai-astra-security-concerns"
-    },
-    {
-     "item_id": "03174dadb8132b82",
-     "phrase": {
-      "en": "Denmark counters AI cheating orally",
-      "zh": "丹麦以口头答辩防AI作弊"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "OpenAI pauses work on Astra after it can hack autonomously.",
-    "zh": "OpenAI因Astra能自主攻击而暂停工作。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "AI security risks",
-    "zh": "AI安全风险"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow AI ethics: a concrete example of autonomous AI vulnerability is making headlines today.",
-    "zh": "你关注AI伦理，今日有自主AI漏洞的具体实例成为头条。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "fd4180fbd94d7373",
-     "phrase": {
-      "en": "Navy spends 25% more time monitoring",
-      "zh": "海军多花25%时间监视"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/uk-news/2026/aug/08/navy-says-it-is-spending-25-more-time-monitoring-russian-vessels-around-uk-waters"
-    },
-    {
-     "item_id": "da5fb4616cd344e5",
-     "phrase": {
-      "en": "Russian missile attacks near Kyiv",
-      "zh": "俄罗斯导弹袭击基辅附近"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Navy spends more time watching Russian ships near UK waters.",
-    "zh": "海军花更多时间监视英国水域附近的俄罗斯船只。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "Military monitoring",
-    "zh": "军事监控"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You read about security: UK increases surveillance, a concrete shift in naval posture.",
-    "zh": "你关注安全议题，英国加强监视，海军态势发生实际变化。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "445c4e7919173d26",
-     "phrase": {
-      "en": "Senators endorse Trump sway over DOJ",
-      "zh": "参议员认可特朗普影响司法部"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/08/us/politics/blanche-attorney-general-doj-trump-power.html"
-    },
-    {
-     "item_id": "64fa3a8a590a2a09",
-     "phrase": {
-      "en": "Schumer calls it pervasive corruption",
-      "zh": "舒默称其为全面腐败"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/live/2026/aug/08/todd-blanche-attorney-general-senate-vote-republicans-save-voting-bill-latest-news-updates"
-    }
-   ],
-   "convergence": "divergent",
-   "gloss": {
-    "en": "Blanche's confirmation tightens Trump's grip on the Justice Department.",
-    "zh": "布兰奇确认加强特朗普对司法部的控制。"
-   },
-   "id": "t4",
-   "keyword": {
-    "en": "Justice Department independence",
-    "zh": "司法部独立性"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow politics and governance: the Senate vote signals a shift in institutional independence.",
-    "zh": "你关注政治与治理，参议院投票标志着机构独立性转变。"
+    "en": "You connect geopolitics to data: Hormuz closures shift energy markets you model.",
+    "zh": "你将地缘政治与数据关联，霍尔木兹关闭影响你建模的能源市场。"
    }
   }
  ]

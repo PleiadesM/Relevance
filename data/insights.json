@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"snail racing championship\" OR \"world snail racing\"",
+  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
   "source": {
-   "name": "New Statesman",
-   "published_at": "2026-08-05T16:11:25Z",
-   "title": "Searching for the world’s fastest snail",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTDBVZ081UDNSd1p0bTlLbUVrNEUzeWI4OWpianFOYy1ld0VQS2ZtVjMxblNrbUVzemxWU0xzTkh0TEwtS0tOT3pwMXp2cm9EMWg1TVFFQWJkNHdhczI1OU5IMENEdElSX0FCWks0LUkycUNCb0pVODFtOEh3TUlJWWcxOUxnUUUxWWNsMDVOLXc?oc=5"
+   "name": "thatslife.com.au",
+   "published_at": "2026-08-04T00:51:08Z",
+   "title": "Oh my gourd! Meet the Aussie bloke who paddled in a giant pumpkin",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pc3kyb0xrM2RkQ2FNOGpla3JFd1RpY0ZDcWdxejdGbThsZ2sxNVM3ZEZLRmRKR3RaZkxMMGZzZUJfdDBjT0VfV0QyRUdUdUxBWVNFcnBJOThvWWNRWDcwdmVSMUZ2dm1VaDZfa1Bra2o4MlpPQjkwNU01TTRQMXM?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A New Statesman article explores the eccentric pursuit of finding the world's fastest snail.",
-    "why_irrelevant": "A whimsical niche topic far from typical feed interests."
+    "summary": "An Australian paddled a giant pumpkin in a river, celebrating quirky local tradition.",
+    "why_irrelevant": "far from tech and finance feeds."
    },
    "zh": {
-    "summary": "《新政治家》杂志探索寻找世界上最快的蜗牛这一怪诞追求。",
-    "why_irrelevant": "这是个古怪小众的话题，远离常规信息流兴趣。"
+    "summary": "一位澳大利亚人坐在巨型南瓜里划船，展示当地趣味传统。",
+    "why_irrelevant": "远离科技和财经动态。"
    }
   },
-  "topic": "competitive snail racing"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news spans geopolitical tensions over the Strait of Hormuz, a fast-moving wildfire in Canada, and new AI default settings in Claude Code, while research highlights tools for genomics, phishing detection, and urban heat mitigation.",
+ "brief": "Today's news spans political controversies, environmental crises, and AI advancements, while research focuses on data visualization and scientific tools.",
  "meta": {
-  "generated_at": "2026-08-08T22:44:50Z"
+  "generated_at": "2026-08-09T02:26:38Z"
  },
- "news_summary": "Major stories include Iran's demands for reopening the Strait of Hormuz, Canada's Bald Range wildfire doubling in size, Baker Boy's big wins at the National Indigenous Music awards, and the US Senate's failure to pass Trump's voting bill.",
- "papers_summary": "Research covers a Python tool for refining orthogroups, machine learning for phishing URL detection, tree height's role in heat mitigation, and a study on cognitive decline timing.",
+ "news_summary": "Headlines cover Australia's NDIS reform backlash, AI's looming impact, a solar eclipse, political scandals, wildfires, and geopolitical tensions over the Strait of Hormuz.",
+ "papers_summary": "Research highlights include a semantic-driven data visualization tool, a review of games for visualization literacy, and a Python tool for orthogroup refinement.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans geopolitical tensions over the Strait of Hormuz, a fast-moving wildfire in Canada, and new AI default settings in Claude Code, while research highlights tools for genomics, phishing detection, and urban heat mitigation.",
-   "news_summary": "Major stories include Iran's demands for reopening the Strait of Hormuz, Canada's Bald Range wildfire doubling in size, Baker Boy's big wins at the National Indigenous Music awards, and the US Senate's failure to pass Trump's voting bill.",
-   "papers_summary": "Research covers a Python tool for refining orthogroups, machine learning for phishing URL detection, tree height's role in heat mitigation, and a study on cognitive decline timing."
+   "brief": "Today's news spans political controversies, environmental crises, and AI advancements, while research focuses on data visualization and scientific tools.",
+   "news_summary": "Headlines cover Australia's NDIS reform backlash, AI's looming impact, a solar eclipse, political scandals, wildfires, and geopolitical tensions over the Strait of Hormuz.",
+   "papers_summary": "Research highlights include a semantic-driven data visualization tool, a review of games for visualization literacy, and a Python tool for orthogroup refinement."
   },
   "zh": {
-   "brief": "今日新闻聚焦中东局势、美国政治与科技动态，论文则涉及机器学习、生物医学等多个领域。",
-   "news_summary": "伊朗与美国的霍尔木兹海峡谈判陷入僵局，伊朗提出苛刻条件；美国在伊朗冲突中武器消耗引发担忧。科技方面，Claude Code 默认启用自动模式，丹麦为防止AI作弊要求口头答辩。",
-   "papers_summary": "论文涵盖钓鱼URL检测的机器学习算法比较、树木遮荫缓解热岛效应、以及认知衰退轨迹等研究，展现了AI、环境与健康领域的最新进展。"
+   "brief": "今日全球新闻聚焦于野火、地缘政治与科技发展，同时多篇论文探讨数据可视化、机器学习及健康研究。",
+   "news_summary": "国际新闻涵盖加拿大与犹他州野火、霍尔木兹海峡紧张局势、美国政治与家庭健康、AI工具更新等。",
+   "papers_summary": "研究论文涉及数据可视化、机器学习安全、树木遮荫、教育及基因组学等主题。"
   }
  },
  "todays_image": {
-  "caption": "Just as the aster flower opens on its own, Claude Code now defaults to auto mode without manual prompting.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3d1b2a964-ed98-4ee0-8f71-927381c84000",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c/90",
-  "title": "Chaetopappa asteroides (Nutt.) DC."
+  "caption": "Just as the sun's corona only emerges from the shadow of an eclipse, the NDIS reforms should illuminate true fraudsters, not cast a shadow over disability clients.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=SIA-MAH-4691&max=1024",
+  "source_name": "Smithsonian Institution Archives",
+  "source_url": "https://siarchives.si.edu/collections/siris_arc_391446",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SIA-MAH-4691&max=150",
+  "title": "Corona of the Sun During Solar Eclipse"
  }
 }
