@@ -1,7 +1,7 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-08-09T20:50:00Z",
+  "count": 3,
+  "generated_at": "2026-08-09T22:48:29Z",
   "scope": "public"
  },
  "threads": [
@@ -10,8 +10,8 @@
     {
      "item_id": "367bc4f9734b4d34",
      "phrase": {
-      "en": "Israel rejects 15-point plan",
-      "zh": "以色列拒绝15点方案"
+      "en": "NYT frames as plan rejection",
+      "zh": "《纽约时报》称计划遭拒"
      },
      "section": "news",
      "source": "The New York Times",
@@ -20,8 +20,8 @@
     {
      "item_id": "9ef2e2ef7104b84b",
      "phrase": {
-      "en": "Netanyahu vows no withdrawal",
-      "zh": "内塔尼亚胡誓言不撤"
+      "en": "Guardian frames as firm stance",
+      "zh": "《卫报》称立场强硬"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -30,136 +30,38 @@
     {
      "item_id": "7b7592bcb060cc1b",
      "phrase": {
-      "en": "Demands Hamas disarm first",
-      "zh": "要求哈马斯先解除武装"
+      "en": "NPR frames as demand",
+      "zh": "NPR称此为要求"
      },
      "section": "news",
      "source": "NPR News",
      "url": "https://www.npr.org/2026/08/09/nx-s1-5926459/netanyahu-rejects-trump-gaza-peace-plan-israel-hamas"
     },
     {
-     "item_id": "e17f295ea60d95c0",
+     "item_id": "518b41f67bb0029d",
      "phrase": {
-      "en": "Rare public break with Trump",
-      "zh": "罕见公开与特朗普决裂"
+      "en": "BBC frames as condition",
+      "zh": "BBC称此为条件"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/09/israel-rejects-us-led-15-point-gaza-peace-plan-says-netanyahu"
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c5yw4lpe0yeo?at_medium=RSS&at_campaign=rss"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Netanyahu's 'no' echoes across three outlets, splitting US-Israel relations.",
-    "zh": "内塔尼亚胡的拒绝响彻多家媒体，美以关系出现裂痕。"
+    "en": "Israel rejects a US plan, insisting Hamas disarm first.",
+    "zh": "以色列拒绝美国计划，坚持哈马斯先解除武装。"
    },
    "id": "t1",
    "keyword": {
-    "en": "Trump Gaza plan rejection",
-    "zh": "特朗普加沙计划遭拒"
+    "en": "Gaza disarmament plan",
+    "zh": "加沙解除武装计划"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track geopolitics; today the deal you read about last month collapses in public.",
-    "zh": "你关注地缘政治，上月你读到的协议今日公开放弃。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "d0af439e36dda6e6",
-     "phrase": {
-      "en": "Taiwan bets on drones",
-      "zh": "台湾押注无人机"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/09/world/asia/taiwan-drone-china-invasion.html"
-    },
-    {
-     "item_id": "0a35f6b4833d1a09",
-     "phrase": {
-      "en": "Houthis claim drone strike",
-      "zh": "胡塞声称无人机袭击"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/09/yemen-houthis-saudi-oil-refinery-defence-pact-iran-strait-of-hormuz"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Drones deter in Taiwan, strike in Saudi, reshaping conflict.",
-    "zh": "无人机在台湾威慑，在沙特袭击，重塑冲突。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "Drone warfare",
-    "zh": "无人机战争"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow defense tech; today's drone stories show dual-use reality.",
-    "zh": "你关注防务科技，今日无人机故事展示双重用途现实。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "3c31e14280208eeb",
-     "phrase": {
-      "en": "Yacht declined to help",
-      "zh": "游艇拒绝救援"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/aug/09/zuckerberg-superyacht-boat-alaska"
-    },
-    {
-     "item_id": "2eb4b5c729f5b033",
-     "phrase": {
-      "en": "Captain charged after capsizing",
-      "zh": "船长因倾覆被控"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/aug/09/man-charged-new-york-harbor-boat-capsized-deaths"
-    },
-    {
-     "item_id": "abe6332dc4da8983",
-     "phrase": {
-      "en": "Arrest after boat capsizes",
-      "zh": "倾覆后逮捕"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c935w1d05d7o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "97faa821cd74c79a",
-     "phrase": {
-      "en": "Mother and daughter die",
-      "zh": "母女身亡"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/09/nyregion/new-york-harbor-boat-capsizes-dead.html"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Two tragedies at sea spotlight oversight and rescue ethics.",
-    "zh": "两起海上悲剧聚焦监管与救援伦理。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "Boat safety",
-    "zh": "船只安全"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You value data visualization; these incidents show where safety metrics fail.",
-    "zh": "你重视数据可视化，这些事件显示安全指标失效之处。"
+    "en": "You track geopolitics: today Netanyahu's refusal redraws the Middle East diplomacy map.",
+    "zh": "你关注地缘政治，今日内塔尼亚胡的拒绝重绘中东外交版图。"
    }
   },
   {
@@ -167,8 +69,8 @@
     {
      "item_id": "74c6226632f27259",
      "phrase": {
-      "en": "Iran holds firm to Hormuz",
-      "zh": "伊朗坚守霍尔木兹"
+      "en": "NYT frames as strategic leverage",
+      "zh": "《纽约时报》称战略筹码"
      },
      "section": "news",
      "source": "The New York Times",
@@ -177,8 +79,8 @@
     {
      "item_id": "0a35f6b4833d1a09",
      "phrase": {
-      "en": "Houthis attack Saudi refinery",
-      "zh": "胡塞袭击沙特炼油厂"
+      "en": "Guardian frames as Houthi attack",
+      "zh": "《卫报》称胡塞袭击"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -187,18 +89,59 @@
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Iran holds Hormuz, Houthis strike, Israel balks—Middle East chessboard shifts.",
-    "zh": "伊朗守霍尔木兹，胡塞袭击，以色列退缩—中东棋盘变动。"
+    "en": "Iran leverages the strait to force US concessions.",
+    "zh": "伊朗以海峡为杠杆迫使美国让步。"
    },
-   "id": "t4",
+   "id": "t2",
    "keyword": {
-    "en": "Mideast diplomacy",
-    "zh": "中东外交"
+    "en": "Hormuz crisis",
+    "zh": "霍尔木兹危机"
+   },
+   "relates_to": [
+    "t1"
+   ],
+   "why_now": {
+    "en": "You follow energy geopolitics: Iran's move today could ripple through global markets.",
+    "zh": "你关注能源地缘政治，今日伊朗行动可能波及全球市场。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "a9cce825008182c9",
+     "phrase": {
+      "en": "BBC frames as out of control",
+      "zh": "BBC称失控"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "b197aa242c36266b",
+     "phrase": {
+      "en": "NPR frames as multiple blazes",
+      "zh": "NPR称多处起火"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/09/nx-s1-5926463/western-us-wildfires-canada-utah"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Blazes rage in Canada and the western US, forcing evacuations.",
+    "zh": "加拿大与美国西部野火肆虐，迫使撤离。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "wildfire crisis",
+    "zh": "野火危机"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You analyze visual rhetoric; these moves are strategic signals in plain sight.",
-    "zh": "你分析视觉修辞，这些举动是昭然若揭的战略信号。"
+    "en": "You read climate news: today's fires signal a worsening season with global reach.",
+    "zh": "你关注气候新闻，今日野火预示全球性恶化季。"
    }
   }
  ]
