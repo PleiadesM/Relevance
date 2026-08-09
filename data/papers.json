@@ -15,7 +15,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-08T00:00:00Z",
-   "score": 0.3763,
+   "score": 0.3713,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -26,6 +26,36 @@
    "title": "orthoSynAssign - a Python tool to refine orthogroups using synteny information",
    "url": "https://doi.org/10.5281/zenodo.18762979",
    "venue": "Zenodo (CERN European Organization for Nuclear Research)"
+  },
+  {
+   "authors": [
+    "Yunfeng Lin",
+    "Li Xu",
+    "Yong Yu",
+    "Jiangmiao Pang",
+    "Weinan Zhang"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.1007/s11704-026-52064-1"
+   },
+   "id": "40dfca0b3de4b171",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-08T00:00:00Z",
+   "score": 0.3713,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [
+    "systems"
+   ],
+   "title": "UniCon: a unified system for efficient robot learning transfers",
+   "url": "https://doi.org/10.1007/s11704-026-52064-1",
+   "venue": "Frontiers of Computer Science"
   },
   {
    "authors": [
@@ -42,7 +72,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-08T00:00:00Z",
-   "score": 0.3763,
+   "score": 0.3713,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -70,7 +100,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.3163,
+   "score": 0.3126,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -97,7 +127,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.3163,
+   "score": 0.3126,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -106,6 +136,33 @@
    "title": "Turning tension into educational momentum: a ten-year action research study of music-integrated ideological and political education in higher education",
    "url": "https://doi.org/10.3389/feduc.2026.1890682",
    "venue": "Frontiers in Education"
+  },
+  {
+   "authors": [
+    "Beatriz Bielsa",
+    "Alba Ruiz",
+    "Maria J. Rubio-cabetas",
+    "Jérôme Grimplet"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Root-knot nematodes are pest of many plant species, particularly in southern Europe, where Meloidogyne incognita , M. arenaria and M. javanica are the most common species. In Prunus rootstock breeding, restrictions on nematicide use has increased importance of incorporating genetic resistance. Three resistance genes have been identified in Prunus : Ma , RMja and RMia . The latter is a TNL gene located on the linkage group 2 that confers resistance to M. arenaria , M. incognita and M. ethiopica…",
+    "citations": 0,
+    "doi": "10.3389/fpls.2026.1918119"
+   },
+   "id": "aa27f9335d793c0f",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-07T00:00:00Z",
+   "score": 0.3126,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Root-knot nematodes are pest of many plant species, particularly in southern Europe, where Meloidogyne incognita , M. arenaria and M. javanica are the most common species. In Prunus rootstock breeding, restrictions on nematicide use has increased importance of incorporating genetic resistance.…",
+   "tags": [],
+   "title": "Novel PCR markers for discriminating RMia resistance alleles in Prunus rootstock breeding",
+   "url": "https://doi.org/10.3389/fpls.2026.1918119",
+   "venue": "Frontiers in Plant Science"
   },
   {
    "authors": [
@@ -125,7 +182,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.4538,
+   "score": 0.4501,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -137,61 +194,30 @@
   },
   {
    "authors": [
-    "Beatriz Bielsa",
-    "Alba Ruiz",
-    "Maria J. Rubio-cabetas",
-    "Jérôme Grimplet"
+    "Yusif S. El‐Sayed",
+    "Nadia El‐Wakiel",
+    "Kamal El‐Baradie",
+    "Basma M. Salem"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Root-knot nematodes are pest of many plant species, particularly in southern Europe, where Meloidogyne incognita , M. arenaria and M. javanica are the most common species. In Prunus rootstock breeding, restrictions on nematicide use has increased importance of incorporating genetic resistance. Three resistance genes have been identified in Prunus : Ma , RMja and RMia . The latter is a TNL gene located on the linkage group 2 that confers resistance to M. arenaria , M. incognita and M. ethiopica…",
+    "abstract_snippet": "<title>Abstract</title> The high concentration of corrosive elements in the air causes atmospheric corrosion of metals, and this often occurs in industrial cities. It causes a variety of materials to be destroyed, mainly metals and their alloys. Therefore, a New 2-((1H-indazol-5-yl) diazenyl)-1-phenylbutane-1,3-dione ligand (L) and its divalent cobalt, nickel, and copper complexes were synthesized and characterized using CHN, ICP, m, XRD, TGA, magnetic moment measurements, and FT-IR,…",
     "citations": 0,
-    "doi": "10.3389/fpls.2026.1918119"
+    "doi": "10.1038/s41598-026-64011-y"
    },
-   "id": "aa27f9335d793c0f",
+   "id": "83cf9e26ea7ebff9",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.3163,
+   "score": 0.4501,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Root-knot nematodes are pest of many plant species, particularly in southern Europe, where Meloidogyne incognita , M. arenaria and M. javanica are the most common species. In Prunus rootstock breeding, restrictions on nematicide use has increased importance of incorporating genetic resistance.…",
+   "summary": "<title>Abstract</title> The high concentration of corrosive elements in the air causes atmospheric corrosion of metals, and this often occurs in industrial cities. It causes a variety of materials to be destroyed, mainly metals and their alloys. Therefore, a New 2-((1H-indazol-5-yl)…",
    "tags": [],
-   "title": "Novel PCR markers for discriminating RMia resistance alleles in Prunus rootstock breeding",
-   "url": "https://doi.org/10.3389/fpls.2026.1918119",
-   "venue": "Frontiers in Plant Science"
-  },
-  {
-   "authors": [
-    "Ji Wu",
-    "Yunshan Peng",
-    "Wentao Bai",
-    "Y. Bai",
-    "Wenzheng Shu",
-    "Jinan Pang"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Online advertising bidding systems typically deploy multiple offline-trained expert models (e.g., PID controllers, model predictive control, offline RL policies) but face two critical limitations: lack of online adaptability to non-stationary auction markets, and reliance on costly manual tuning of hyperparameters such as bid bounds and budget pacing constraints. We propose HOBA (Hierarchical On-policy Bidding Agents), a hierarchical reinforcement learning framework that decouples strategic…",
-    "citations": 0,
-    "doi": "10.1145/3770855.3818435"
-   },
-   "id": "3dbcb5db6d0c0920",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.4538,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Online advertising bidding systems typically deploy multiple offline-trained expert models (e.g., PID controllers, model predictive control, offline RL policies) but face two critical limitations: lack of online adaptability to non-stationary auction markets, and reliance on costly manual tuning of…",
-   "tags": [
-    "systems"
-   ],
-   "title": "HOBA: Hierarchical On-Policy Bidding Agents for Adaptive Online Advertising",
-   "url": "https://doi.org/10.1145/3770855.3818435",
-   "venue": null
+   "title": "Novel azo-benzoyl acetone metal complexes for inhibition of atmospheric steel corrosion",
+   "url": "https://doi.org/10.1038/s41598-026-64011-y",
+   "venue": "Scientific Reports"
   },
   {
    "authors": [
@@ -212,7 +238,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.3163,
+   "score": 0.3126,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -238,7 +264,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.4538,
+   "score": 0.4501,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -263,7 +289,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.4538,
+   "score": 0.4501,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -292,7 +318,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.4538,
+   "score": 0.4501,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -320,7 +346,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.3163,
+   "score": 0.3126,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -331,6 +357,64 @@
    "title": "A statistical study on as-built deviation of ITER blanket shield block interfaces",
    "url": "https://doi.org/10.1016/j.fusengdes.2026.115991",
    "venue": "Fusion Engineering and Design"
+  },
+  {
+   "authors": [
+    "Ji Wu",
+    "Yunshan Peng",
+    "Wentao Bai",
+    "Y. Bai",
+    "Wenzheng Shu",
+    "Jinan Pang"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Online advertising bidding systems typically deploy multiple offline-trained expert models (e.g., PID controllers, model predictive control, offline RL policies) but face two critical limitations: lack of online adaptability to non-stationary auction markets, and reliance on costly manual tuning of hyperparameters such as bid bounds and budget pacing constraints. We propose HOBA (Hierarchical On-policy Bidding Agents), a hierarchical reinforcement learning framework that decouples strategic…",
+    "citations": 0,
+    "doi": "10.1145/3770855.3818435"
+   },
+   "id": "3dbcb5db6d0c0920",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-07T00:00:00Z",
+   "score": 0.4501,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Online advertising bidding systems typically deploy multiple offline-trained expert models (e.g., PID controllers, model predictive control, offline RL policies) but face two critical limitations: lack of online adaptability to non-stationary auction markets, and reliance on costly manual tuning of…",
+   "tags": [
+    "systems"
+   ],
+   "title": "HOBA: Hierarchical On-Policy Bidding Agents for Adaptive Online Advertising",
+   "url": "https://doi.org/10.1145/3770855.3818435",
+   "venue": null
+  },
+  {
+   "authors": [
+    "Takashi Azuma",
+    "Masaru Usui",
+    "Tomohiro Hasei",
+    "Tetsuya Hayashi"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Background: Hospitals are recognized as important point sources of antimicrobials; however, their contributions to antimicrobial contamination at the watershed scale remain poorly understood. Methods: Seasonal monitoring was conducted between December 2024 and May 2026 at two hospitals, a wastewater treatment plant (WWTP), and receiving river waters in the Yodo River Basin, Japan. Seventeen antimicrobials were quantified, and concentration profiles and mass fluxes were integrated to evaluate…",
+    "citations": 0,
+    "doi": "10.3390/antibiotics15080760"
+   },
+   "id": "e6b87d35f58e4fa7",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-07T00:00:00Z",
+   "score": 0.4501,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Background: Hospitals are recognized as important point sources of antimicrobials; however, their contributions to antimicrobial contamination at the watershed scale remain poorly understood. Methods: Seasonal monitoring was conducted between December 2024 and May 2026 at two hospitals, a…",
+   "tags": [],
+   "title": "Mass Flux Analysis Reveals the Presence and Fate of Antimicrobials in Hospital Effluent, Wastewater Treatment Plant, and River Environments",
+   "url": "https://doi.org/10.3390/antibiotics15080760",
+   "venue": "Antibiotics"
   },
   {
    "authors": [
@@ -350,7 +434,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.3163,
+   "score": 0.3126,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -362,6 +446,33 @@
    "title": "Machine learning based radiation emulation: development and performance evaluation in operational reforecast experiments",
    "url": "https://doi.org/10.5194/egusphere-2026-1735",
    "venue": null
+  },
+  {
+   "authors": [
+    "Rasoul Rezvani-Jalal",
+    "Morteza Zakeri‐Nasrabadi",
+    "Saeed Parsa",
+    "Amin Hasan-Zarei"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "In the rapidly evolving landscape of cybersecurity, malware attacks targeting widely used non-executable formats, namely Microsoft Office and PDF files, have become a prevalent threat. These files, which encompass a broad spectrum of data types, including text, images, executable codes, and media formats, are classified as complex files. Their flexibility in accepting different data types makes them of significant interest to attackers. Existing learning-based malware detection approaches…",
+    "citations": 0,
+    "doi": "10.1007/s10207-026-01312-3"
+   },
+   "id": "fc8e03d7f88548ff",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-07T00:00:00Z",
+   "score": 0.3126,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "In the rapidly evolving landscape of cybersecurity, malware attacks targeting widely used non-executable formats, namely Microsoft Office and PDF files, have become a prevalent threat. These files, which encompass a broad spectrum of data types, including text, images, executable codes, and media…",
+   "tags": [],
+   "title": "Enhancing malware detection reliability in non-executable files using confidence score prediction",
+   "url": "https://doi.org/10.1007/s10207-026-01312-3",
+   "venue": "International Journal of Information Security"
   },
   {
    "authors": [
@@ -378,7 +489,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.4538,
+   "score": 0.4501,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -410,7 +521,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.4538,
+   "score": 0.4501,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -439,7 +550,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.3163,
+   "score": 0.3126,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -468,7 +579,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.3163,
+   "score": 0.3126,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -496,7 +607,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.4538,
+   "score": 0.4501,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -525,7 +636,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.4538,
+   "score": 0.4501,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -534,124 +645,6 @@
    "title": "Narrowband and wavelength-tuneable bright EUV–soft-X-ray harmonics for resonant imaging and spectroscopy",
    "url": "https://doi.org/10.1038/s42005-026-02791-5",
    "venue": "Communications Physics"
-  },
-  {
-   "authors": [
-    "Mark V. Füzesi",
-    "Ella Zhang",
-    "Rajshree Ghosh Biswas",
-    "A Leist",
-    "Anna-Laura M. Hasubek",
-    "Xiaoyu Wang"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "INTRODUCTION: Heart failure accounts for more than 43% of annual deaths worldwide, and isdriven by widespread pathological remodeling, in which myocardial fibrosis plays an important role. Currently, accurate clinical diagnosis of myocardialfibrosis (MF) remains difficult, with even greater challenges in differentiating among lesser-understood etiologies, such as cardiac sarcoidosis (CS) andcardiac amyloidosis (CA). OBJECTIVES: To investigate the capability of high-resolution magic angle…",
-    "citations": 0,
-    "doi": "10.1007/s11306-026-02512-7"
-   },
-   "id": "2bf61078a0c92fbf",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.4538,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "INTRODUCTION: Heart failure accounts for more than 43% of annual deaths worldwide, and isdriven by widespread pathological remodeling, in which myocardial fibrosis plays an important role. Currently, accurate clinical diagnosis of myocardialfibrosis (MF) remains difficult, with even greater…",
-   "tags": [],
-   "title": "Analysis of serum NMR metabolomics in fibrotic diseases of the myocardium",
-   "url": "https://doi.org/10.1007/s11306-026-02512-7",
-   "venue": "Metabolomics"
-  },
-  {
-   "authors": [
-    "Lei Wang",
-    "Jiamao Han",
-    "Yaxing Wei",
-    "Bin Zhao",
-    "Jing Xu",
-    "Lei Han"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "citations": 0,
-    "doi": "10.21203/rs.3.rs-9822971/v1"
-   },
-   "id": "ee7db13af2837800",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.3163,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "",
-   "tags": [],
-   "title": "HCL-YOLOv8: Lightweight Transmission-Line Insulator Defect Detection via Hierarchical Consistency Learning and Task-Aligned Label Assignment",
-   "url": "https://doi.org/10.21203/rs.3.rs-9822971/v1",
-   "venue": "Research Square"
-  },
-  {
-   "authors": [
-    "Xuelin Pan",
-    "Li Peng",
-    "Huilou Liang",
-    "Tongtong Li",
-    "Siyan Zhou",
-    "Haoyang Xing"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "BACKGROUND: For preoperative cervical assessment, both CT and MRI are often required for bony and soft-tissue evaluation, yet CT entails radiation and MRI poorly depicts cortical bone. ZTE offers CT-like contrast in one examination, but whether it correlates with CT for quantitative morphometry remains still uncertain. PURPOSE: To quantify ZTE-CT agreement for cervical osseous morphometry and to compare ZTE with conventional MRI for depicting degenerative osseous features. STUDY TYPE:…",
-    "citations": 0,
-    "doi": "10.1002/jmri.70498"
-   },
-   "id": "9a819b4e51b3bae4",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.4538,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "BACKGROUND: For preoperative cervical assessment, both CT and MRI are often required for bony and soft-tissue evaluation, yet CT entails radiation and MRI poorly depicts cortical bone. ZTE offers CT-like contrast in one examination, but whether it correlates with CT for quantitative morphometry…",
-   "tags": [
-    "eval-study"
-   ],
-   "title": "Quantitative Evaluation of Cervical Spine Morphometry: Zero Echo Time <scp>MRI</scp> Versus Multislice <scp>CT</scp>",
-   "url": "https://doi.org/10.1002/jmri.70498",
-   "venue": "Journal of Magnetic Resonance Imaging"
-  },
-  {
-   "authors": [
-    "Shaobing Zhang",
-    "Yanying Han",
-    "Zhipan Cui",
-    "Zheng Wu",
-    "Hu Minghang",
-    "Yanhui Ye"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Background Atmospheric nitrogen (N) deposition can strongly alter soil organic carbon (SOC) stabilization by regulating microbial-derived carbon (C) formation. Microbial necromass carbon (MNC) and glomalin-related soil protein (GRSP) are important contributors to SOC persistence, yet how long-term N enrichment affects these microbial-derived C pools and their microbial drivers across soil depths remains unclear in alpine forest ecosystems. Methods We investigated the effects of six-year N…",
-    "citations": 0,
-    "doi": "10.3389/ffgc.2026.1905473"
-   },
-   "id": "fab566d4759e76b5",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.3163,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Background Atmospheric nitrogen (N) deposition can strongly alter soil organic carbon (SOC) stabilization by regulating microbial-derived carbon (C) formation. Microbial necromass carbon (MNC) and glomalin-related soil protein (GRSP) are important contributors to SOC persistence, yet how long-term…",
-   "tags": [],
-   "title": "Six-year nitrogen addition alters microbial-derived carbon accumulation in association with soil stoichiometry and microbial community reorganization in an alpine coniferous forest",
-   "url": "https://doi.org/10.3389/ffgc.2026.1905473",
-   "venue": "Frontiers in Forests and Global Change"
   },
   {
    "authors": [
@@ -668,7 +661,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T16:12:18Z",
-   "score": 0.3725,
+   "score": 0.368,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -696,7 +689,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T16:10:02Z",
-   "score": 0.6049,
+   "score": 0.6005,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -724,7 +717,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T14:31:57Z",
-   "score": 0.3683,
+   "score": 0.3639,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -750,7 +743,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T14:12:14Z",
-   "score": 0.56,
+   "score": 0.5557,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -777,7 +770,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T12:46:19Z",
-   "score": 0.5965,
+   "score": 0.5922,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -803,7 +796,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T10:05:04Z",
-   "score": 0.3976,
+   "score": 0.3934,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -832,7 +825,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T03:33:03Z",
-   "score": 0.5753,
+   "score": 0.5715,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -859,7 +852,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T00:36:48Z",
-   "score": 0.569,
+   "score": 0.5653,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -884,7 +877,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T23:53:02Z",
-   "score": 0.335,
+   "score": 0.3313,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -911,7 +904,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T17:55:31Z",
-   "score": 0.5555,
+   "score": 0.5521,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -938,7 +931,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T15:43:41Z",
-   "score": 0.5513,
+   "score": 0.548,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -968,7 +961,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T11:19:08Z",
-   "score": 0.5432,
+   "score": 0.54,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -997,7 +990,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T05:58:30Z",
-   "score": 0.5339,
+   "score": 0.5309,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -1025,7 +1018,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T04:26:09Z",
-   "score": 0.3388,
+   "score": 0.3359,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -1041,7 +1034,7 @@
  ],
  "meta": {
   "count": 37,
-  "generated_at": "2026-08-09T07:14:07Z",
+  "generated_at": "2026-08-09T09:00:30Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -1084,7 +1077,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-12&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A1050-6519%2Cfrom-created-date%3A2026-07-12&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",

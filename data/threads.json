@@ -1,7 +1,7 @@
 {
  "meta": {
-  "count": 2,
-  "generated_at": "2026-08-09T07:14:07Z",
+  "count": 3,
+  "generated_at": "2026-08-09T09:00:30Z",
   "scope": "public"
  },
  "threads": [
@@ -10,8 +10,8 @@
     {
      "item_id": "fe2205fb2014f376",
      "phrase": {
-      "en": "frames as ongoing danger",
-      "zh": "强调持续危险"
+      "en": "sailors still in danger",
+      "zh": "船员仍处险境"
      },
      "section": "news",
      "source": "NPR News",
@@ -20,8 +20,8 @@
     {
      "item_id": "562a758fa9f899fe",
      "phrase": {
-      "en": "frames as tough demands",
-      "zh": "强调强硬要求"
+      "en": "Iran demands tough terms",
+      "zh": "伊朗条件苛刻"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -30,8 +30,8 @@
     {
      "item_id": "24b9a038353b349a",
      "phrase": {
-      "en": "frames as positive talks",
-      "zh": "会谈有积极面"
+      "en": "talks positive but unclear",
+      "zh": "谈判乐观但不明"
      },
      "section": "news",
      "source": "BBC World",
@@ -40,8 +40,8 @@
     {
      "item_id": "07749ca41d3ea5bc",
      "phrase": {
-      "en": "frames as dampened hope",
-      "zh": "希望受挫"
+      "en": "demands dampen hopes",
+      "zh": "要求降低希望"
      },
      "section": "news",
      "source": "The New York Times",
@@ -50,13 +50,13 @@
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Tanker crews still risk danger as Iran’s demands keep the strait shut.",
-    "zh": "伊朗条件未决，油轮船员仍处险境。"
+    "en": "Iran keeps the strait shut, talks stall.",
+    "zh": "伊朗继续封锁海峡，谈判停滞。"
    },
    "id": "t1",
    "keyword": {
-    "en": "Strait of Hormuz tensions",
-    "zh": "霍尔木兹海峡紧张"
+    "en": "Strait of Hormuz closure",
+    "zh": "霍尔木兹海峡关闭"
    },
    "relates_to": [],
    "timeline": [
@@ -65,7 +65,7 @@
      "item_id": "07749ca41d3ea5bc",
      "label": {
       "en": "Iran lists demands",
-      "zh": "伊朗提出条件"
+      "zh": "伊朗列出条件"
      },
      "section": "news",
      "source": "The New York Times",
@@ -73,41 +73,19 @@
     },
     {
      "date": "2026-08-08",
-     "item_id": "24b9a038353b349a",
-     "label": {
-      "en": "Oman sees progress",
-      "zh": "阿曼见进展"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c934j5y2lq9o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "date": "2026-08-08",
      "item_id": "562a758fa9f899fe",
      "label": {
-      "en": "UAE ship hit",
-      "zh": "阿联酋船遭袭"
+      "en": "UAE reports missile strike",
+      "zh": "阿联酋遭导弹"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/world/2026/aug/08/iran-issues-tough-demands-to-reopen-strait-of-hormuz-as-deal-remains-out-of-reach"
-    },
-    {
-     "date": "2026-08-09",
-     "item_id": "fe2205fb2014f376",
-     "label": {
-      "en": "Sailors still in danger",
-      "zh": "船员仍处险境"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/08/nx-s1-5923592/tanker-sailors-still-face-danger-in-the-strait-of-hormuz"
     }
    ],
    "why_now": {
-    "en": "You track geopolitics: Iran’s new demands today block a deal, keeping shipping risky.",
-    "zh": "你关注地缘政治：今日伊朗新要求阻碍协议，航运风险持续。"
+    "en": "You follow geopolitics: five sources track the strait's fate today.",
+    "zh": "你关注地缘政治，今日五家媒体追踪海峡命运。"
    }
   },
   {
@@ -115,8 +93,8 @@
     {
      "item_id": "84755ff6a8f20d1b",
      "phrase": {
-      "en": "frames as worsening cancer",
-      "zh": "癌症恶化"
+      "en": "cancer spreads to bones",
+      "zh": "癌症扩散至骨骼"
      },
      "section": "news",
      "source": "The New York Times",
@@ -125,8 +103,8 @@
     {
      "item_id": "7190595c86b06d0e",
      "phrase": {
-      "en": "frames as debilitating pain",
-      "zh": "疼痛难忍"
+      "en": "illness reportedly debilitating",
+      "zh": "病情据称令人衰弱"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -135,18 +113,57 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Hunter Biden shares his father’s spreading cancer, a private sorrow in public view.",
-    "zh": "亨特披露父亲癌症扩散，私痛公之于众。"
+    "en": "Ex-president's illness worsens, private pain public.",
+    "zh": "前总统病情加重，私人痛苦公开。"
    },
    "id": "t2",
    "keyword": {
-    "en": "Biden cancer news",
-    "zh": "拜登癌症消息"
+    "en": "Biden's cancer spread",
+    "zh": "拜登癌症扩散"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow current affairs: today’s reports reveal the former president’s condition worsening.",
-    "zh": "你关注时事：今日报道显示前总统病情恶化。"
+    "en": "You track political figures: Biden's health shifts the public stage.",
+    "zh": "你关注政治人物，拜登健康改变公共舞台。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "bc7f082d2f03c48a",
+     "phrase": {
+      "en": "fire doubles, urgent state",
+      "zh": "火势翻倍，紧急状态"
+     },
+     "section": "news",
+     "source": "BBC 中文",
+     "url": "https://www.bbc.com/zhongwen/articles/cjejnyxg9ggo/trad?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "a9cce825008182c9",
+     "phrase": {
+      "en": "out of control spread",
+      "zh": "失控蔓延"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Canadian wildfire doubles, forcing state of emergency.",
+    "zh": "加拿大山火翻倍，宣布紧急状态。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "wildfire emergency",
+    "zh": "山火紧急状态"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about climate impacts: fire crisis escalates today.",
+    "zh": "你关注气候影响，今日火灾危机升级。"
    }
   }
  ]
