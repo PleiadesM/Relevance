@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
   "source": {
-   "name": "fox13seattle.com",
-   "published_at": "2026-08-04T02:45:00Z",
-   "title": "Tickets going on sale for Seattle , WA Great Pumpkin Beer Festival",
-   "url": "https://www.fox13seattle.com/news/great-pumpkin-beer-festival-tickets"
+   "name": "Axios",
+   "published_at": "2026-07-27T07:00:00Z",
+   "title": "A hopeless update on the giant pumpkins",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWXR4c0h2Qlhzbjk5NEZKWGxWWkxoWWdHeFN1dlB6alNKQkQzN3duNVNTb1FqS25nMkdVWklkVGd3SkV1ZkVTSy05dGVTV0pYUDM0ejYyYmZoaWUxNEI4SU5RRUhYVllma1Fnc2hnWm4yNC1za2U4VjEyZUUwVlIxQTRGZEJLellQRW1TcQ?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "Tickets are now on sale for Seattle's Great Pumpkin Beer Festival, a seasonal craft beer event.",
-    "why_irrelevant": "It's a niche local festival, far from your typical feed topics."
+    "summary": "Axios reports a pessimistic update on the giant pumpkin scene, likely covering setbacks or declining enthusiasm.",
+    "why_irrelevant": "It's a niche hobby update far from typical tech or business feeds."
    },
    "zh": {
-    "summary": "西雅图大南瓜啤酒节门票现已开售，这是一个季节性精酿啤酒活动。",
-    "why_irrelevant": "这是一个小众本地节庆，远离你的常规信息流主题。"
+    "summary": "Axios报道了巨型南瓜界的一个令人沮丧的更新，可能涉及挫折或热情减退。",
+    "why_irrelevant": "这是一个远离常规科技或商业资讯的小众爱好动态。"
    }
   },
   "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news is dominated by geopolitical tensions, environmental crises, and domestic tragedies, while papers focus on medical and technological advances.",
+ "brief": "Today's news spans geopolitical tensions, environmental crises, and personal political decisions, while research highlights advances in medical technology and data analysis.",
  "meta": {
-  "generated_at": "2026-08-09T18:58:48Z"
+  "generated_at": "2026-08-09T20:50:00Z"
  },
- "news_summary": "Israel rejects a US-backed Gaza peace plan, Canada battles out-of-control wildfires, and a boating accident in New York Harbor claims two lives. Drought and typhoons also make headlines.",
- "papers_summary": "Research covers lung cancer surgery outcomes, antimicrobial coatings, prenatal diagnosis communication, and preterm birth prediction, among other medical and agricultural studies.",
+ "news_summary": "Key developments include Netanyahu's rejection of a US-led Gaza plan, Ocasio-Cortez's personal and political reflections, wildfires in Canada, and Typhoon Dolphin hitting China.",
+ "papers_summary": "New research covers lung cancer surgical outcomes, antimicrobial coatings, congenital heart disease communication, and tools for genomic analysis.",
  "summaries": {
   "en": {
-   "brief": "Today's news is dominated by geopolitical tensions, environmental crises, and domestic tragedies, while papers focus on medical and technological advances.",
-   "news_summary": "Israel rejects a US-backed Gaza peace plan, Canada battles out-of-control wildfires, and a boating accident in New York Harbor claims two lives. Drought and typhoons also make headlines.",
-   "papers_summary": "Research covers lung cancer surgery outcomes, antimicrobial coatings, prenatal diagnosis communication, and preterm birth prediction, among other medical and agricultural studies."
+   "brief": "Today's news spans geopolitical tensions, environmental crises, and personal political decisions, while research highlights advances in medical technology and data analysis.",
+   "news_summary": "Key developments include Netanyahu's rejection of a US-led Gaza plan, Ocasio-Cortez's personal and political reflections, wildfires in Canada, and Typhoon Dolphin hitting China.",
+   "papers_summary": "New research covers lung cancer surgical outcomes, antimicrobial coatings, congenital heart disease communication, and tools for genomic analysis."
   },
   "zh": {
-   "brief": "今日焦点：加拿大山火失控扩大一倍，伊朗与阿曼谈判进展但仍有变数，瘦瘦针副作用引发关注；国际新闻中，以色列拒绝特朗普的加沙计划，台风海豚登陆中国。",
-   "news_summary": "加拿大不列颠哥伦比亚省山火失控，扩大一倍并进入紧急状态；伊朗与阿曼就霍尔木兹海峡新航线谈判称有进展，但伊朗警告协议不会打通海峡；BBC报道瘦瘦针使用者饮酒量下降，但影响社交。",
-   "papers_summary": "研究论文涵盖肺癌手术方式比较、智能涂层抗菌、产前沟通、早产预测等，多为医学与生物学领域，暂无中文相关论文。"
+   "brief": "加拿大山火失控蔓延，当局宣布紧急状态；霍尔木兹海峡谈判进展有限。科研方面，多项医疗与生物技术研究取得进展。",
+   "news_summary": "加拿大不列颠哥伦比亚省山火失控，已蔓延超95平方公里，当局宣布紧急状态。霍尔木兹海峡谈判有进展但未突破，伊朗警告协议不会打通海峡。",
+   "papers_summary": "多项研究发布，包括肺癌手术方式比较、早产预测模型、以及用于基因分析的orthoSynAssign工具。"
   }
  },
  "todays_image": {
-  "caption": "The word \"HIBERNIA\" on the fire engine plate conjures an ancient, cold island—much like the icy waters that claimed the mother and daughter in New York Harbor.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q00827",
-  "source_name": "National Museum of American History",
-  "source_url": null,
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q00827&max=150",
-  "title": "Fire Engine Plate, \"HIBERNIA\""
+  "caption": "Just as stepping out of a shower offers a fresh start, freezing her eggs lets Ocasio-Cortez preserve future possibilities while deciding whether to step into the presidential race.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1983.95.61_2",
+  "source_name": "Smithsonian American Art Museum",
+  "source_url": "https://americanart.si.edu/collections/search/artwork/?id=934",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1983.95.61_2",
+  "title": "After the Shower"
  }
 }
