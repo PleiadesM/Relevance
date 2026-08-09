@@ -1,43 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "oyster shucking contest OR national oyster shucking championship",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "London Post",
-   "published_at": "2026-08-05T17:06:23Z",
-   "title": "The London Oyster Championships return!",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBQZnRRQkdTLVJTYUJfbkMxb2g3RHIxa1pOemtYV2JVUTg1T3NXY1ZtSTdrRElPZm82cFZuLUxoTWk1b0J1bHlyU0dNeFpYZkk2bmZQemFSdTBXWm5LajZyMC16MEZicm42d2JsUUJXTmZCd28?oc=5"
+   "name": "fox13seattle.com",
+   "published_at": "2026-08-04T02:45:00Z",
+   "title": "Tickets going on sale for Seattle , WA Great Pumpkin Beer Festival",
+   "url": "https://www.fox13seattle.com/news/great-pumpkin-beer-festival-tickets"
   },
   "summaries": {
    "en": {
-    "summary": "The London Oyster Championships return, celebrating competitive oyster shucking in the UK capital.",
-    "why_irrelevant": "A niche culinary speed contest unrelated to mainstream news or technology trends."
+    "summary": "Tickets are on sale for the Seattle Great Pumpkin Beer Festival, a seasonal event highlighting pumpkin-flavored brews.",
+    "why_irrelevant": "It's a niche, location-specific festival far from typical consumer tech or news topics."
    },
    "zh": {
-    "summary": "伦敦牡蛎锦标赛回归，在英首都庆祝竞技性牡蛎开壳比赛。",
-    "why_irrelevant": "一项小众烹饪速度赛，与主流新闻或科技趋势无关。"
+    "summary": "西雅图南瓜啤酒节门票开售，这是一个季节性的精酿啤酒活动。",
+    "why_irrelevant": "这是小众且地域性强的活动，与日常信息流中的主流话题相距甚远。"
    }
   },
-  "topic": "competitive oyster shucking championships"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news spans international politics, environmental crises, and cultural shifts, while research touches on AI, biology, and materials science.",
+ "brief": "Today's news spans political tours, international tensions, and tech industry shifts, while research highlights advances in medical and agricultural tech.",
  "meta": {
-  "generated_at": "2026-08-09T09:00:30Z"
+  "generated_at": "2026-08-09T10:50:48Z"
  },
- "news_summary": "Key stories include a Canadian wildfire emergency, a Costa Rican diplomat's UN bid, and a Russian family's asylum fears in Finland, alongside cultural and legal developments.",
- "papers_summary": "Research highlights include a Python tool for orthogroup refinement, a unified system for robot learning, and comparative studies on phishing detection and heat mitigation.",
+ "news_summary": "UK politics focus on reconnecting with the public, while international stories cover crime, Middle East tensions, and Canada's wildfire emergency. US politics sees shifts in election skepticism and party perceptions.",
+ "papers_summary": "Research covers surgical techniques, prenatal communication, antimicrobial coatings, bioinformatics tools, preterm birth prediction, forensic odontology, plant-microbe interactions, criminal psychology, and agricultural drones.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans international politics, environmental crises, and cultural shifts, while research touches on AI, biology, and materials science.",
-   "news_summary": "Key stories include a Canadian wildfire emergency, a Costa Rican diplomat's UN bid, and a Russian family's asylum fears in Finland, alongside cultural and legal developments.",
-   "papers_summary": "Research highlights include a Python tool for orthogroup refinement, a unified system for robot learning, and comparative studies on phishing detection and heat mitigation."
+   "brief": "Today's news spans political tours, international tensions, and tech industry shifts, while research highlights advances in medical and agricultural tech.",
+   "news_summary": "UK politics focus on reconnecting with the public, while international stories cover crime, Middle East tensions, and Canada's wildfire emergency. US politics sees shifts in election skepticism and party perceptions.",
+   "papers_summary": "Research covers surgical techniques, prenatal communication, antimicrobial coatings, bioinformatics tools, preterm birth prediction, forensic odontology, plant-microbe interactions, criminal psychology, and agricultural drones."
+  },
+  "zh": {
+   "brief": "今日要闻聚焦加拿大山火失控、霍尔木兹海峡谈判进展及'瘦瘦针'对饮酒习惯的影响；科研方面无重点中文论文。",
+   "news_summary": "加拿大不列颠哥伦比亚省山火面积扩大一倍，宣布紧急状态；阿曼称霍尔木兹海峡新航线谈判有进展，但伊朗警告不会打通海峡；'瘦瘦针'使用者报告饮酒量下降，但影响社交。",
+   "papers_summary": "今日无重点中文论文，英文论文涵盖肺癌手术方式对比、产前诊断沟通、智能涂层等多样主题。"
   }
  },
  "todays_image": {
-  "caption": "The tiny aster’s star-like bloom is a quiet counterpoint to the raging wildfire that has turned Canada’s skies into an emergency.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3d1b2a964-ed98-4ee0-8f71-927381c84000",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c/90",
-  "title": "Chaetopappa asteroides (Nutt.) DC."
+  "caption": "Just as Burnham must traverse the peaks of public disillusionment, the Mexican mountains show that every summit requires a journey from the foothills.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-22252_03-000001",
+  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/22252",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-22252_03-000001",
+  "title": "Mountains in Mexico"
  }
 }
