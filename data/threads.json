@@ -1,0 +1,175 @@
+{
+ "meta": {
+  "count": 4,
+  "generated_at": "2026-08-09T13:13:09Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "367bc4f9734b4d34",
+     "phrase": {
+      "en": "NYT reports rejection of plan",
+      "zh": "纽时报道计划遭拒"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/09/world/middleeast/israel-netanyahu-trump-15-point-plan-hamas-peace-gaza.html"
+    },
+    {
+     "item_id": "9ef2e2ef7104b84b",
+     "phrase": {
+      "en": "Guardian details Netanyahu's refusal",
+      "zh": "卫报详述内塔尼亚胡拒绝"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/aug/09/iran-us-irgc-strait-of-hormuz-israel-netanyahu-trump-gaza-plan-latest-news-updates"
+    },
+    {
+     "item_id": "518b41f67bb0029d",
+     "phrase": {
+      "en": "BBC notes no withdrawal until disarm",
+      "zh": "BBC称未解除武装不撤军"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c5yw4lpe0yeo?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "A peace plan stalls as Israel insists on Hamas disarmament first.",
+    "zh": "和平计划受阻，以色列坚持先解除哈马斯武装。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "Gaza disarmament plan",
+    "zh": "加沙解除武装计划"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track geopolitics and peace negotiations: today Israel formally rejects a high-level plan, a key development.",
+    "zh": "你关注地缘政治与和平谈判，今日以色列正式拒绝高层计划，关键进展。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "0a35f6b4833d1a09",
+     "phrase": {
+      "en": "Guardian frames as broader crisis",
+      "zh": "卫报视为更广泛危机"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/09/yemen-houthis-saudi-oil-refinery-defence-pact-iran-strait-of-hormuz"
+    },
+    {
+     "item_id": "d7b10776f463f326",
+     "phrase": {
+      "en": "NPR links to Iran demands",
+      "zh": "NPR关联伊朗要求"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/09/nx-s1-5926387/yemens-houthis-claim-attack-on-aramco-oil-facility-in-saudi-arabia-and-other-middle-east-news"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Yemeni rebels strike Saudi oil, raising Gulf tensions.",
+    "zh": "也门叛军袭击沙特石油，海湾紧张升级。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "Houthi drone attack",
+    "zh": "胡塞无人机袭击"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow Middle East security: a drone attack on a Saudi refinery changes the regional risk map today.",
+    "zh": "你关注中东安全，今日对沙特炼油厂的无人机袭击改变区域风险版图。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "74c18d4656c891f6",
+     "phrase": {
+      "en": "Guardian reports Democrat simulations",
+      "zh": "卫报报道民主党演练"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/09/democrats-election-disruption-planning-exercises"
+    },
+    {
+     "item_id": "461eb019ca2f4c9e",
+     "phrase": {
+      "en": "NYT notes shift to skepticism",
+      "zh": "纽时指转向怀疑"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/09/us/politics/mike-rogers-michigan-senate-elections.html"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Democrats drill for threats while a GOP nominee questions past results.",
+    "zh": "民主党演练威胁，共和党候选人质疑过往结果。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "election integrity",
+    "zh": "选举诚信"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about democratic processes: today shows both parties battling over election trust, a core issue.",
+    "zh": "你关心民主进程，今日两党围绕选举信任的博弈，核心议题。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "73f722e81dd6b1c1",
+     "phrase": {
+      "en": "Hacker News notes SAP cuts",
+      "zh": "黑客新闻称SAP削减"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://www.404media.co/software-giant-sap-stops-most-travel-and-hiring-because-of-ais-soaring-cost/"
+    },
+    {
+     "item_id": "9821f3c7c5dc02e1",
+     "phrase": {
+      "en": "Guardian cites Moody's warning",
+      "zh": "卫报引穆迪警告"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/business/2026/aug/09/ai-push-banks-tech-firms-moodys-risks-financial-sector"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "AI's soaring costs force companies to tighten belts, and banks fear tech dependence.",
+    "zh": "AI成本飙升迫使企业勒紧腰带，银行担忧技术依赖。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "AI cost pressure",
+    "zh": "AI成本压力"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track AI economics: SAP's halt and Moody's warning show AI's real-world financial impact today.",
+    "zh": "你关注AI经济，今日SAP暂停和穆迪警告展示AI的实际财务影响。"
+   }
+  }
+ ]
+}
