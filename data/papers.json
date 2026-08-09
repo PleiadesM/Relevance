@@ -2,64 +2,6 @@
  "items": [
   {
    "authors": [
-    "Haodi Zhang",
-    "Xiaohui Tang",
-    "Yuanfeng Song"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "In the era of big data, effectively leveraging vast amounts of data is one of the major challenges across industries, especially in data visualization, which helps decision-makers intuitively understand data. However, many existing data visualization tools require users to have certain technical skills, posing a barrier for users without a technical background. With the widespread use of voice interfaces, particularly smart assistants, the task of converting voice queries into data…",
-    "arxiv_id": null,
-    "citations": 0,
-    "doi": "10.1145/3770855.3818209"
-   },
-   "id": "3b69503af8a16f0b",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.6975,
-   "section": "papers",
-   "source": "Semantic Scholar · data visualization",
-   "source_id": "s2_datavis",
-   "summary": "In the era of big data, effectively leveraging vast amounts of data is one of the major challenges across industries, especially in data visualization, which helps decision-makers intuitively understand data. However, many existing data visualization tools require users to have certain technical…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "SD-DVQ: Semantic-Driven Data Visualization Query Generation from Speech Queries",
-   "url": "https://www.semanticscholar.org/paper/c96e904dfd162d7f9f553c580b1fb2523eb1cc37",
-   "venue": null
-  },
-  {
-   "authors": [
-    "Magdaléna Kejstová",
-    "Simone Kriglstein"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "People encounter data visualizations daily, yet visualization literacy, the ability to read, construct, and critically assess charts, remains rarely taught in formal education. Games offer engaging, feedback-rich environments for practicing these skills. This paper presents a two-phase systematic review that connects general educational game research with visualization literacy games. Phase 1 synthesizes 97 reviews of educational and serious games, mapping dominant design and evaluation…",
-    "arxiv_id": null,
-    "citations": 0,
-    "doi": "10.1145/3815598.3815609"
-   },
-   "id": "67b48abcc1433dcc",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.6975,
-   "section": "papers",
-   "source": "Semantic Scholar · data visualization",
-   "source_id": "s2_datavis",
-   "summary": "People encounter data visualizations daily, yet visualization literacy, the ability to read, construct, and critically assess charts, remains rarely taught in formal education. Games offer engaging, feedback-rich environments for practicing these skills. This paper presents a two-phase systematic…",
-   "tags": [
-    "systems",
-    "visualization"
-   ],
-   "title": "Playing with Data: A Systematic Review of Games for Visualization Literacy",
-   "url": "https://www.semanticscholar.org/paper/04d10ec36c2029e98649b6480d7ad2201a9ccbd3",
-   "venue": "Proceedings of the 21st International Conference on the Foundations of Digital Games"
-  },
-  {
-   "authors": [
     "Cheng-Hung Tsai",
     "Jason Stajich"
    ],
@@ -73,7 +15,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-08T00:00:00Z",
-   "score": 0.3905,
+   "score": 0.382,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -100,7 +42,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-08T00:00:00Z",
-   "score": 0.3905,
+   "score": 0.382,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -128,7 +70,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.327,
+   "score": 0.3206,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -155,7 +97,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.327,
+   "score": 0.3206,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -183,7 +125,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.4645,
+   "score": 0.4581,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -210,7 +152,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.327,
+   "score": 0.3206,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -239,7 +181,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.4645,
+   "score": 0.4581,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -270,7 +212,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.327,
+   "score": 0.3206,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -296,7 +238,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.4645,
+   "score": 0.4581,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -321,7 +263,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.4645,
+   "score": 0.4581,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -350,7 +292,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.4645,
+   "score": 0.4581,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -378,7 +320,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.327,
+   "score": 0.3206,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -408,7 +350,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.327,
+   "score": 0.3206,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -436,7 +378,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.4645,
+   "score": 0.4581,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -468,7 +410,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.4645,
+   "score": 0.4581,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -497,7 +439,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.327,
+   "score": 0.3206,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -526,7 +468,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.327,
+   "score": 0.3206,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -554,7 +496,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.4645,
+   "score": 0.4581,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -583,7 +525,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.4645,
+   "score": 0.4581,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -612,7 +554,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.4645,
+   "score": 0.4581,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -641,7 +583,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.327,
+   "score": 0.3206,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -670,7 +612,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.4645,
+   "score": 0.4581,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -701,7 +643,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T00:00:00Z",
-   "score": 0.327,
+   "score": 0.3206,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -710,472 +652,22 @@
    "title": "Six-year nitrogen addition alters microbial-derived carbon accumulation in association with soil stoichiometry and microbial community reorganization in an alpine coniferous forest",
    "url": "https://doi.org/10.3389/ffgc.2026.1905473",
    "venue": "Frontiers in Forests and Global Change"
-  },
-  {
-   "authors": [
-    "Alperen Kenan",
-    "Paul Bremner",
-    "Manuel Giuliani"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Learning from demonstration (LfD) provides a developmental framework through which robots can develop motor skills by observing and imitating human dynamics, reducing reliance on explicit programming to teach a skill to a robot. The resulting human-like robot motion is recognised as a key factor in building trust and enabling natural collaboration in human-robot interaction. This paper presents a framework for learning human-like robot motion from demonstration, including data collection,…",
-    "arxiv_id": "2608.06221"
-   },
-   "id": "1f2c6b0a8fcf0eb0",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-06T16:12:18Z",
-   "score": 0.385,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Learning from demonstration (LfD) provides a developmental framework through which robots can develop motor skills by observing and imitating human dynamics, reducing reliance on explicit programming to teach a skill to a robot. The resulting human-like robot motion is recognised as a key factor in…",
-   "tags": [],
-   "title": "Robot Learning from Human Demonstrations: Handwritten Alphabet Trajectories and Human-Likeness Evaluation",
-   "url": "https://arxiv.org/abs/2608.06221v1",
-   "venue": "arXiv cs.RO"
-  },
-  {
-   "authors": [
-    "Juan José García Cárdenas",
-    "Alperen Kenan",
-    "Hamidreza Raei",
-    "Paul Bremner",
-    "Manuel Giuliani",
-    "Arash Ajoudani"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Intuitive teleoperation interfaces are crucial for the safe and effective operation of robotic manipulators in challenging environments. In the nuclear industry, surface contact tasks such as swab sampling require precise path and force tracking, obstacle avoidance, and sustained operator attention, which conventional joystick interfaces struggle to support effectively. This study designs and evaluates a novel touchscreen teleoperation interface that maps continuous finger movements directly to…",
-    "arxiv_id": "2608.06219"
-   },
-   "id": "a3684b0f196c66ff",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-06T16:10:02Z",
-   "score": 0.6174,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Intuitive teleoperation interfaces are crucial for the safe and effective operation of robotic manipulators in challenging environments. In the nuclear industry, surface contact tasks such as swab sampling require precise path and force tracking, obstacle avoidance, and sustained operator…",
-   "tags": [
-    "eval-study"
-   ],
-   "title": "Design and Evaluation of a Touchscreen-Based Teleoperation Interface for Robotic Manipulators",
-   "url": "https://arxiv.org/abs/2608.06219v1",
-   "venue": "arXiv cs.RO"
-  },
-  {
-   "authors": [
-    "Kevin Schott",
-    "Andrea Papenmeier",
-    "Daniel Hienert",
-    "Dagmar Kern"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Conversational commerce uses digital assistants to support the search process and decision-making in e-commerce. Effective communication in these interactions can be facilitated by assistants adapting their communication style to users and supporting shared understanding. An open challenge in this context is adapting the presentation of complex product information to users with varying levels of domain knowledge. To investigate strategies for such knowledge-level adaptation, we set up a…",
-    "arxiv_id": "2608.06091"
-   },
-   "id": "c43c5022257879f0",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-06T14:31:57Z",
-   "score": 0.3805,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Conversational commerce uses digital assistants to support the search process and decision-making in e-commerce. Effective communication in these interactions can be facilitated by assistants adapting their communication style to users and supporting shared understanding. An open challenge in this…",
-   "tags": [],
-   "title": "\"I don't know anything about laptops!\" - User Perception of Digital Product Advisors Adapting to Their Knowledge Levels",
-   "url": "https://arxiv.org/abs/2608.06091v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Kevin Schott",
-    "Jan Lattenkamp",
-    "Daniel Hienert",
-    "Dagmar Kern"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "We demonstrate Cleo, a transparent and controllable conversational product advisor that addresses the challenges of opacity, unpredictability of LLMs, and the complexity of comparisons in conversational commerce. With our chatbot system, we make four contributions: First, we introduce transparency by prompting the LLM to reflect on interpreted user needs, while an auditable ranking mechanism reveals loss values per attribute, explaining ranking decisions. Second, we propose controllability…",
-    "arxiv_id": "2608.06068"
-   },
-   "id": "c1ae87d2d513d142",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-06T14:12:14Z",
-   "score": 0.5722,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "We demonstrate Cleo, a transparent and controllable conversational product advisor that addresses the challenges of opacity, unpredictability of LLMs, and the complexity of comparisons in conversational commerce. With our chatbot system, we make four contributions: First, we introduce transparency…",
-   "tags": [
-    "ai-writing",
-    "llm"
-   ],
-   "title": "Cleo: A Transparent and Controllable Chatbot for Conversational Commerce",
-   "url": "https://arxiv.org/abs/2608.06068v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Shuvam Swapnil Dash",
-    "Arpit Narechania"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Athletic coaching increasingly relies on video analysis, yet raw footage lacks tools to quantify motion or simulate valid technique corrections. Drawing on formative interviews with eleven cricket experts (coaches, performance analysts, captains, and players), we introduce PoseForge, a visual analytics system that extracts 3D skeletal poses from single-camera sports videos for interactive movement analysis. In a cricket batting case study, PoseForge computes interpretable kinematic metrics such…",
-    "arxiv_id": "2608.05971"
-   },
-   "id": "da0660203353bf32",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-06T12:46:19Z",
-   "score": 0.6085,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Athletic coaching increasingly relies on video analysis, yet raw footage lacks tools to quantify motion or simulate valid technique corrections. Drawing on formative interviews with eleven cricket experts (coaches, performance analysts, captains, and players), we introduce PoseForge, a visual…",
-   "tags": [],
-   "title": "PoseForge: Editable Pose Analytics for AI-Assisted Sports Coaching",
-   "url": "https://arxiv.org/abs/2608.05971v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Mohit Sharma",
-    "Petar Hristov",
-    "Talha Bin Masood",
-    "Ingrid Hotz"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Time-varying bivariate fields arise in many scientific applications, where the relationship between two scalar quantities evolves over time. While topological methods such as merge trees provide an effective framework for identifying and tracking features in univariate data, analogous approaches for bivariate fields remain comparatively underexplored. Reeb spaces extend topological analysis to multivariate data by representing fiber connectivity through a collection of interconnected sheets,…",
-    "arxiv_id": "2608.05837"
-   },
-   "id": "c2c0f5410ad7494e",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-06T10:05:04Z",
-   "score": 0.4092,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Time-varying bivariate fields arise in many scientific applications, where the relationship between two scalar quantities evolves over time. While topological methods such as merge trees provide an effective framework for identifying and tracking features in univariate data, analogous approaches…",
-   "tags": [
-    "systems"
-   ],
-   "title": "Temporal Tracking of Reeb-Space Sheets",
-   "url": "https://arxiv.org/abs/2608.05837v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Suemin Jeon",
-    "Youjin Kim",
-    "Jungwoo Park",
-    "Kyungryun Lee",
-    "Won-Ki Jeong"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Efficient representation and rendering of large-scale sparse volumetric data remain challenging in scientific visualization, as meaningful structures often occupy only a small fraction of the spatial domain. While direct volume rendering (DVR) provides high-quality visualization, its computational and memory costs scale poorly with data size. Recent advances in 3D Gaussian Splatting (3DGS) address this challenge by representing volumetric scenes with compact geometric primitives, enabling…",
-    "arxiv_id": "2608.05564"
-   },
-   "id": "0949fd5c5cc32ea8",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-06T03:33:03Z",
-   "score": 0.586,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Efficient representation and rendering of large-scale sparse volumetric data remain challenging in scientific visualization, as meaningful structures often occupy only a small fraction of the spatial domain. While direct volume rendering (DVR) provides high-quality visualization, its computational…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "ESVR: 3D Ellipsoid-based Sparse Volume Rendering via Structure-aware Primitive Learning and Per-primitive Ray Sampling",
-   "url": "https://arxiv.org/abs/2608.05564v1",
-   "venue": "arXiv cs.GR"
-  },
-  {
-   "authors": [
-    "Racquel Fygenson",
-    "Lace Padilla",
-    "Laura E. Matzen"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Forecasting involves multiple forms of uncertainty, including both uncertainties that can be quantified directly (quantitative uncertainty) and those that must be expressed through experts' subjective judgments about the forecast and its context (qualitative confidence). Past work has established that conveying both quantitative uncertainty and qualitative confidence in forecasts can alter readers' decision making, but little research investigates the impact of how these forms of uncertainty…",
-    "arxiv_id": "2608.05487"
-   },
-   "id": "ad19610a95ab207e",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-06T00:36:48Z",
-   "score": 0.5794,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Forecasting involves multiple forms of uncertainty, including both uncertainties that can be quantified directly (quantitative uncertainty) and those that must be expressed through experts' subjective judgments about the forecast and its context (qualitative confidence). Past work has established…",
-   "tags": [],
-   "title": "Mixed Uncertainty in One View: Co-Visualizing Statistical Variability and Qualitative Confidence",
-   "url": "https://arxiv.org/abs/2608.05487v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Takuro Kawada",
-    "Shunsuke Kitada",
-    "Hitoshi Iyatomi"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Graphical Abstracts (GAs) visually summarize the key findings of academic papers, playing a crucial role in facilitating the understanding of research content. Recently, advancements in vision-language models and image generation models have enabled the automatic generation of scientific figures based on paper content. However, most conventional methods output the generated results as raster graphics, making post-editing (e.g., text modification and layout changes) highly difficult. This poses…",
-    "arxiv_id": "2608.05478"
-   },
-   "id": "3c66be8aa659c37f",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-05T23:53:02Z",
-   "score": 0.3452,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Graphical Abstracts (GAs) visually summarize the key findings of academic papers, playing a crucial role in facilitating the understanding of research content. Recently, advancements in vision-language models and image generation models have enabled the automatic generation of scientific figures…",
-   "tags": [],
-   "title": "GenGA: Editable and Data-Grounded Graphical Abstract Generation for Academic Papers",
-   "url": "https://arxiv.org/abs/2608.05478v1",
-   "venue": "arXiv cs.GR"
-  },
-  {
-   "authors": [
-    "Yingchaojie Feng",
-    "Zekai Shao",
-    "Yiqun Sun",
-    "Yixuan Tang",
-    "Anthony K. H. Tung"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Interdisciplinary research collaboration is crucial for scientific innovation, but it remains difficult to initiate in practice. Existing collaborator discovery approaches are often constrained by disciplinary boundaries and static researcher profiles that do not reflect the specific context of a new collaboration goal. As a result, researchers struggle to translate open-ended collaboration goals into domain-specific tasks, evaluate candidate researchers' fit and complementarity, and establish…",
-    "arxiv_id": "2608.05134"
-   },
-   "id": "69c223fed43d4919",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-05T17:55:31Z",
-   "score": 0.5651,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Interdisciplinary research collaboration is crucial for scientific innovation, but it remains difficult to initiate in practice. Existing collaborator discovery approaches are often constrained by disciplinary boundaries and static researcher profiles that do not reflect the specific context of a…",
-   "tags": [
-    "systems",
-    "visualization"
-   ],
-   "title": "DeepConnect: A Visual Analytics System for Bridging Interdisciplinary Research Collaborations",
-   "url": "https://arxiv.org/abs/2608.05134v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Xiangpeng Fu",
-    "Mads Haahr"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Immersive exhibitions increasingly combine large-scale projections with mixed reality (MR) head-mounted displays (HMDs), but how users perceive transitions across these heterogeneous visualization environments remains underexplored. We investigate cross-reality (CR) object- and scene-level transitions in a hybrid immersive art installation spanning projection, augmented reality (AR), and virtual reality (VR). In a within-subjects study (N=24), we compared a calibrated condition with a bundled…",
-    "arxiv_id": "2608.04971"
-   },
-   "id": "f42d429baded1ee6",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-05T15:43:41Z",
-   "score": 0.5606,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Immersive exhibitions increasingly combine large-scale projections with mixed reality (MR) head-mounted displays (HMDs), but how users perceive transitions across these heterogeneous visualization environments remains underexplored. We investigate cross-reality (CR) object- and scene-level…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "Exploring Cross-Reality Transitions between Projections and Head-Mounted Displays for Immersive Digital Art",
-   "url": "https://arxiv.org/abs/2608.04971v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Qixuan Liu",
-    "Shi Qiu",
-    "Xiwen Wu",
-    "Yuqi Tong",
-    "Yinqiao Wang",
-    "Ruiyang Li"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Anatomical liver resection (ALR) surgery is the most important treatment for liver cancer, yet preoperative planning demands complex, multi-stage clinical reasoning under competing safety constraints. Current 2D desktop tools are not well equipped to support this process, exhibiting three fundamental limitations: reliance on monolithic interfaces that fail to adapt to the distinct cognitive demands of each planning stage; a perceptual bottleneck caused by limited anatomical spatial…",
-    "arxiv_id": "2608.04707"
-   },
-   "id": "d6c8e49381795d5b",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-05T11:19:08Z",
-   "score": 0.552,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Anatomical liver resection (ALR) surgery is the most important treatment for liver cancer, yet preoperative planning demands complex, multi-stage clinical reasoning under competing safety constraints. Current 2D desktop tools are not well equipped to support this process, exhibiting three…",
-   "tags": [
-    "systems",
-    "visualization"
-   ],
-   "title": "LiverPlan: A Stage-Adaptive Immersive Visual Analytics Framework for Anatomical Liver Surgical Planning",
-   "url": "https://arxiv.org/abs/2608.04707v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Suemin Jeon",
-    "Kaiyuan Tang",
-    "Chaoli Wang",
-    "Won-Ki Jeong"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Despite the promise of virtual reality (VR) for intuitive spatial interaction, volume visualization (VolVis) in VR remains constrained by high rendering costs and motion discomfort. Recent advances have shown that representing volumetric scenes with 3D Gaussian splatting enables high-performance rendering, making this representation well-suited for VR. However, existing Gaussian-based scene editing workflows remain limited by slow offline segmentation and fatigue-inducing manual selection. To…",
-    "also_in": [
-     {
-      "source": "Semantic Scholar · data visualization",
-      "url": "https://www.semanticscholar.org/paper/a2b84969c23aab10444e7b1e936f8a99c4a6b9f2"
-     }
-    ],
-    "arxiv_id": "2608.04475"
-   },
-   "id": "a2aaf741bee8a845",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-05T05:58:30Z",
-   "score": 0.5422,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Despite the promise of virtual reality (VR) for intuitive spatial interaction, volume visualization (VolVis) in VR remains constrained by high rendering costs and motion discomfort. Recent advances have shown that representing volumetric scenes with 3D Gaussian splatting enables high-performance…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "Super-Gaussian: Interactive Scene Editing for 3D Gaussian Splatting and NLI-Based Volume Visualization in Virtual Reality",
-   "url": "https://arxiv.org/abs/2608.04475v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Soohyun Lee",
-    "Seokhyeon Park",
-    "Minsuk Chang",
-    "Jinwook Seo"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Established channel effectiveness rankings primarily assess magnitude estimation accuracy in complete chart contexts, often neglecting other perceptual tasks such as discriminability, separability, and pop-out. To address this gap, we conducted crowdsourced experiments on seven core visual channels (position, length, tilt, area, curvature, luminance, and saturation) using primitive visual stimuli, a set of visual marks without chart-specific scaffolding to isolate channel-level variation. We…",
-    "arxiv_id": "2608.04435"
-   },
-   "id": "a8ebcf98edc38e97",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-05T04:26:09Z",
-   "score": 0.347,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Established channel effectiveness rankings primarily assess magnitude estimation accuracy in complete chart contexts, often neglecting other perceptual tasks such as discriminability, separability, and pop-out. To address this gap, we conducted crowdsourced experiments on seven core visual channels…",
-   "tags": [
-    "eval-study",
-    "visualization"
-   ],
-   "title": "Revisiting Channel Effectiveness: A Multi-Dimensional Evaluation with Primitive Visual Stimuli",
-   "url": "https://arxiv.org/abs/2608.04435v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Jianliang Chen",
-    "Caiyun Shi",
-    "Xin Wei"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "The purpose of this study is to address workflow fragmentation in conventional fabric weave design, where weave drafting, fabric preview, file export and loom-side data transfer are often handled through separate tools or manual operations. This paper presents an integrated, lightweight, web-based platform for interactive woven fabric design, Canvas-based fabric visualization and LAN-based loom data distribution, aiming to improve cross-platform accessibility, design-data continuity and…",
-    "arxiv_id": null,
-    "citations": 0,
-    "doi": "10.1108/ijcst-08-2025-0138"
-   },
-   "id": "66e1b2a2a08f28df",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-05T00:00:00Z",
-   "score": 0.2284,
-   "section": "papers",
-   "source": "Semantic Scholar · data visualization",
-   "source_id": "s2_datavis",
-   "summary": "The purpose of this study is to address workflow fragmentation in conventional fabric weave design, where weave drafting, fabric preview, file export and loom-side data transfer are often handled through separate tools or manual operations. This paper presents an integrated, lightweight, web-based…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "An integrated web-based platform for fabric weave design, visualization and loom-oriented data distribution",
-   "url": "https://www.semanticscholar.org/paper/b4486e7fec3b286f8b3c3d1bba05a4de574dd98f",
-   "venue": "International Journal of Clothing Science and Technology"
-  },
-  {
-   "authors": [
-    "Julian Baader",
-    "Ricardo Langner",
-    "Can Liu",
-    "Raimund Dachselt"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "With this work, we explore the unique potential of data visualization on novel foldable mobile devices (foldables). Even though foldables are already commercially available, there is limited knowledge of how to leverage their distinct characteristics for visualization. This gap will only grow as their form factors become increasingly diverse. To address this, we use a two-step approach. First, we present a device-centered design space, structured around physical and usage properties of foldable…",
-    "arxiv_id": "2608.02232",
-    "citations": 0,
-    "doi": null
-   },
-   "id": "d737d1ad2adee7cc",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-03T00:00:00Z",
-   "score": 0.4187,
-   "section": "papers",
-   "source": "Semantic Scholar · data visualization",
-   "source_id": "s2_datavis",
-   "summary": "With this work, we explore the unique potential of data visualization on novel foldable mobile devices (foldables). Even though foldables are already commercially available, there is limited knowledge of how to leverage their distinct characteristics for visualization. This gap will only grow as…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "ManyFold: A Design Exploration of Data Visualization on Foldable Mobile Devices",
-   "url": "https://www.semanticscholar.org/paper/41877c9f9e01eede3e14f084e9324864cd83ee8b",
-   "venue": null
   }
  ],
  "meta": {
-  "count": 41,
-  "generated_at": "2026-08-09T02:26:38Z",
+  "count": 23,
+  "generated_at": "2026-08-09T05:16:49Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
    {
     "category": "optional",
-    "count": 10,
-    "error": null,
+    "count": 0,
+    "error": "406 Client Error: Not Acceptable for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60",
     "full_text_count": 0,
     "id": "arxiv_datavis",
     "name": "arXiv cs.HC + cs.GR",
-    "ok": true,
+    "ok": false,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
@@ -1194,7 +686,7 @@
    },
    {
     "category": "optional",
-    "count": 30,
+    "count": 0,
     "error": null,
     "full_text_count": 0,
     "id": "s2_datavis",
@@ -1207,7 +699,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-07-12&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-12&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
@@ -1230,12 +722,12 @@
    },
    {
     "category": "optional",
-    "count": 4,
-    "error": null,
+    "count": 0,
+    "error": "406 Client Error: Not Acceptable for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC&sortBy=submittedDate&sortOrder=descending&max_results=40",
     "full_text_count": 0,
     "id": "arxiv_hci_writing",
     "name": "arXiv cs.HC (writing & docs)",
-    "ok": true,
+    "ok": false,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"

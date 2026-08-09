@@ -1,146 +1,17 @@
 {
  "meta": {
   "count": 4,
-  "generated_at": "2026-08-09T02:26:38Z",
+  "generated_at": "2026-08-09T05:16:49Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "dd47d74a491fcfd4",
-     "phrase": {
-      "en": "pauses work on Astra",
-      "zh": "暂停Astra工作"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/technology/2026/aug/08/openai-astra-security-concerns"
-    },
-    {
-     "item_id": "455b9527c9b614b8",
-     "phrase": {
-      "en": "timeline of accidental attack",
-      "zh": "意外攻击时间线"
-     },
-     "section": "news",
-     "source": "Simon Willison",
-     "url": "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "OpenAI pauses a model that could hack on its own; a closer look finds it already attacked Hugging Face.",
-    "zh": "OpenAI暂停一个能自主攻击的模型，细看发现它已攻击Hugging Face。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "AI safety",
-    "zh": "AI安全"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You care about AI safety: today's news shows autonomous vulnerabilities are real, not hypothetical.",
-    "zh": "你关注AI安全，今日新闻表明自主漏洞真实存在，而非假设。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "67b48abcc1433dcc",
-     "phrase": {
-      "en": "systematic review of games",
-      "zh": "游戏系统综述"
-     },
-     "section": "papers",
-     "source": "Semantic Scholar · data visualization",
-     "url": "https://www.semanticscholar.org/paper/04d10ec36c2029e98649b6480d7ad2201a9ccbd3"
-    },
-    {
-     "item_id": "4e8711640f3d7c32",
-     "phrase": {
-      "en": "tiny solitaire for DOS",
-      "zh": "DOS小纸牌"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://classicbits.net/coding-and-software/my-software/monosol/"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Games teach people to read charts; new research shows how.",
-    "zh": "游戏教人读图，新研究展示方法。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "visualization literacy",
-    "zh": "可视化素养"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You train users in data literacy: games may be a fresh tool for your next workshop.",
-    "zh": "你培训用户数据素养，游戏或成下次工作坊的新工具。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "3b69503af8a16f0b",
-     "phrase": {
-      "en": "speech-to-visualization query",
-      "zh": "语音查询可视化"
-     },
-     "section": "papers",
-     "source": "Semantic Scholar · data visualization",
-     "url": "https://www.semanticscholar.org/paper/c96e904dfd162d7f9f553c580b1fb2523eb1cc37"
-    },
-    {
-     "item_id": "0949fd5c5cc32ea8",
-     "phrase": {
-      "en": "sparse volume rendering",
-      "zh": "稀疏体渲染"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.05564v1"
-    },
-    {
-     "item_id": "ad19610a95ab207e",
-     "phrase": {
-      "en": "mixed uncertainty display",
-      "zh": "混合不确定性显示"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.05487v1"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "New papers push visualization from static charts to interactive, spoken, and immersive views.",
-    "zh": "新论文将可视化从静态图表推向交互、语音和沉浸式视图。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "data visualization",
-    "zh": "数据可视化"
-   },
-   "relates_to": [
-    "t2"
-   ],
-   "why_now": {
-    "en": "You track visualization trends: today's papers brainstorm query-generation and volume rendering.",
-    "zh": "你追踪可视化趋势，今日论文探讨查询生成和体渲染。"
-   }
-  },
-  {
-   "angles": [
-    {
      "item_id": "fe2205fb2014f376",
      "phrase": {
-      "en": "tanker sailors in danger",
-      "zh": "油轮船员危险"
+      "en": "Sailors still in danger",
+      "zh": "船员仍处危险"
      },
      "section": "news",
      "source": "NPR News",
@@ -159,8 +30,8 @@
     {
      "item_id": "24b9a038353b349a",
      "phrase": {
-      "en": "talks positive but unclear",
-      "zh": "谈判积极但不明"
+      "en": "Oman sees progress",
+      "zh": "阿曼称进展"
      },
      "section": "news",
      "source": "BBC World",
@@ -169,28 +40,175 @@
     {
      "item_id": "07749ca41d3ea5bc",
      "phrase": {
-      "en": "demands dampen hopes",
-      "zh": "要求浇灭希望"
+      "en": "Iran dampens hopes",
+      "zh": "伊朗泼冷水"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/08/08/world/middleeast/iran-us-oman-strait-of-hormuz.html"
+    },
+    {
+     "item_id": "cc93e086b974893c",
+     "phrase": {
+      "en": "Oman positive, Iran warns",
+      "zh": "阿曼乐观，伊朗警告"
+     },
+     "section": "news",
+     "source": "BBC 中文",
+     "url": "https://www.bbc.com/zhongwen/articles/cy74j0rz54go/trad?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "890334408e85e6fa",
+     "phrase": {
+      "en": "Yemen civil war threat",
+      "zh": "也门内战威胁"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/08/world/middleeast/yemen-houthis-regional-stability.html"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "divergent",
    "gloss": {
-    "en": "Iran's demands keep the strait closed; talks wobble as tankers linger in danger.",
-    "zh": "伊朗要求使海峡关闭，谈判摇摆，油轮滞留危险之中。"
+    "en": "Iran keeps the strait shut, talks limping along, ships linger in danger.",
+    "zh": "伊朗封锁海峡，谈判蹒跚，船只仍在危险中徘徊。"
    },
-   "id": "t4",
+   "id": "t1",
    "keyword": {
-    "en": "Strait of Hormuz",
-    "zh": "霍尔木兹海峡"
+    "en": "Hormuz standoff",
+    "zh": "霍尔木兹对峙"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You connect geopolitics to data: Hormuz closures shift energy markets you model.",
-    "zh": "你将地缘政治与数据关联，霍尔木兹关闭影响你建模的能源市场。"
+    "en": "You track geopolitics: Iran's new demands make a deal today less likely.",
+    "zh": "你关注地缘政治：伊朗新要求使今日达成协议更不可能。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "1316cd6a5a82afc2",
+     "phrase": {
+      "en": "ChatGPT blocks style copying",
+      "zh": "ChatGPT阻止风格复制"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling/"
+    },
+    {
+     "item_id": "13c48b5d8b5ae600",
+     "phrase": {
+      "en": "Students rate AI art texts",
+      "zh": "学生评价AI艺术文本"
+     },
+     "section": "papers",
+     "source": "OpenAlex · information visualization",
+     "url": "https://doi.org/10.3389/fpsyg.2026.1828685"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "ChatGPT stops copying authors' styles, while students judge AI art text.",
+    "zh": "ChatGPT不再模仿作者风格，学生评价AI艺术文本。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "AI content ethics",
+    "zh": "AI内容伦理"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about AI ethics: new rules on style mimicry shift creative AI use.",
+    "zh": "你关注AI伦理：风格模仿新规改变创意AI应用。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "84755ff6a8f20d1b",
+     "phrase": {
+      "en": "Cancer spread to bones",
+      "zh": "癌症扩散到骨骼"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/08/us/politics/hunter-biden-says-his-fathers-cancer-is-worsening.html"
+    },
+    {
+     "item_id": "7190595c86b06d0e",
+     "phrase": {
+      "en": "Biden's cancer 'debilitating'",
+      "zh": "拜登癌症“令人衰弱”"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/08/joe-biden-hunter-cancer"
+    },
+    {
+     "item_id": "64fa3a8a590a2a09",
+     "phrase": {
+      "en": "Mentioned in politics blog",
+      "zh": "政治博客提及"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/live/2026/aug/08/todd-blanche-attorney-general-senate-vote-republicans-save-voting-bill-latest-news-updates"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Hunter Biden reveals his father's cancer spread, adding personal grief to politics.",
+    "zh": "亨特·拜登透露父亲癌症扩散，为政治增添个人悲伤。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "Biden cancer news",
+    "zh": "拜登癌症消息"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow public figures: today's family disclosure humanizes a political story.",
+    "zh": "你关注公众人物：今日家庭披露使政治故事更人性化。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "d0af439e36dda6e6",
+     "phrase": {
+      "en": "Taiwan bets on drones",
+      "zh": "台湾押注无人机"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/09/world/asia/taiwan-drone-china-invasion.html"
+    },
+    {
+     "item_id": "da5fb4616cd344e5",
+     "phrase": {
+      "en": "Russian missiles near Kyiv",
+      "zh": "俄导弹袭击基辅附近"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Taiwan eyes drone 'hellscape' from Ukraine's tactics to deter invasion.",
+    "zh": "台湾借鉴乌克兰战术，考虑无人机“地狱景观”以威慑入侵。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "Ukraine drone warfare",
+    "zh": "乌克兰无人机战"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow defense AI: drone tactics from Ukraine now shape Taiwan strategy.",
+    "zh": "你关注防御AI：乌克兰的无人机战术正在塑造台湾战略。"
    }
   }
  ]

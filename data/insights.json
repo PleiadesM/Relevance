@@ -9,40 +9,40 @@
   },
   "summaries": {
    "en": {
-    "summary": "An Australian paddled a giant pumpkin in a river, celebrating quirky local tradition.",
-    "why_irrelevant": "far from tech and finance feeds."
+    "summary": "An Australian man paddled across a river in a giant pumpkin, showcasing his quirky adventure.",
+    "why_irrelevant": "far from any tech, business, or political feed."
    },
    "zh": {
-    "summary": "一位澳大利亚人坐在巨型南瓜里划船，展示当地趣味传统。",
-    "why_irrelevant": "远离科技和财经动态。"
+    "summary": "一名澳大利亚男子乘坐巨型南瓜划船过河，展示了他的奇趣冒险。",
+    "why_irrelevant": "远离任何科技、商业或政治资讯。"
    }
   },
   "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news spans political controversies, environmental crises, and AI advancements, while research focuses on data visualization and scientific tools.",
+ "brief": "Today's news spans environmental microplastic concerns, political controversies, and aviation safety, while research highlights advances in bioinformatics, machine learning, and agricultural science.",
  "meta": {
-  "generated_at": "2026-08-09T02:26:38Z"
+  "generated_at": "2026-08-09T05:16:49Z"
  },
- "news_summary": "Headlines cover Australia's NDIS reform backlash, AI's looming impact, a solar eclipse, political scandals, wildfires, and geopolitical tensions over the Strait of Hormuz.",
- "papers_summary": "Research highlights include a semantic-driven data visualization tool, a review of games for visualization literacy, and a Python tool for orthogroup refinement.",
+ "news_summary": "Key stories include microplastics in compost, Trump administration's historic site policies, a drone defense strategy for Taiwan, and a near-miss at Sydney airport, alongside updates on Hunter Biden's father's health and a Thailand school shooting.",
+ "papers_summary": "Research covers tools for orthogroup refinement, phishing detection, tree shade for heat mitigation, and cognitive decline timing, among other varied studies.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans political controversies, environmental crises, and AI advancements, while research focuses on data visualization and scientific tools.",
-   "news_summary": "Headlines cover Australia's NDIS reform backlash, AI's looming impact, a solar eclipse, political scandals, wildfires, and geopolitical tensions over the Strait of Hormuz.",
-   "papers_summary": "Research highlights include a semantic-driven data visualization tool, a review of games for visualization literacy, and a Python tool for orthogroup refinement."
+   "brief": "Today's news spans environmental microplastic concerns, political controversies, and aviation safety, while research highlights advances in bioinformatics, machine learning, and agricultural science.",
+   "news_summary": "Key stories include microplastics in compost, Trump administration's historic site policies, a drone defense strategy for Taiwan, and a near-miss at Sydney airport, alongside updates on Hunter Biden's father's health and a Thailand school shooting.",
+   "papers_summary": "Research covers tools for orthogroup refinement, phishing detection, tree shade for heat mitigation, and cognitive decline timing, among other varied studies."
   },
   "zh": {
-   "brief": "今日全球新闻聚焦于野火、地缘政治与科技发展，同时多篇论文探讨数据可视化、机器学习及健康研究。",
-   "news_summary": "国际新闻涵盖加拿大与犹他州野火、霍尔木兹海峡紧张局势、美国政治与家庭健康、AI工具更新等。",
-   "papers_summary": "研究论文涉及数据可视化、机器学习安全、树木遮荫、教育及基因组学等主题。"
+   "brief": "今日重点：霍尔木兹海峡谈判进展与“瘦瘦针”影响饮酒习惯；科研方面无优先中文论文。",
+   "news_summary": "阿曼称霍尔木兹海峡会谈进展顺利，但伊朗警告协议不会打通海峡；同时，使用“瘦瘦针”者报告饮酒量显著下降，但也影响了社交生活。",
+   "papers_summary": "今日无优先中文论文，英文论文涉及生物信息学工具、机器学习、都市热缓解等。"
   }
  },
  "todays_image": {
-  "caption": "Just as the sun's corona only emerges from the shadow of an eclipse, the NDIS reforms should illuminate true fraudsters, not cast a shadow over disability clients.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=SIA-MAH-4691&max=1024",
-  "source_name": "Smithsonian Institution Archives",
-  "source_url": "https://siarchives.si.edu/collections/siris_arc_391446",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SIA-MAH-4691&max=150",
-  "title": "Corona of the Sun During Solar Eclipse"
+  "caption": "Just as a drone fly is often mistaken for a bee, plastic contaminants in food waste are mistakenly treated as compostable, posing an overlooked crisis.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3697394922d3345399d58f3b41c5d8a50",
+  "source_name": "NMNH - Education & Outreach",
+  "source_url": "http://n2t.net/ark:/65665/3fd218074-dc14-42e3-a448-c344dd03e802",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3697394922d3345399d58f3b41c5d8a50/90",
+  "title": "Drone Fly"
  }
 }
