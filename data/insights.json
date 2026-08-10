@@ -1,44 +1,44 @@
 {
  "apropos_of_nothing": {
-  "query": "world sheep shearing championship OR golden shears competition",
+  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
   "source": {
-   "name": "The Guardian",
-   "published_at": "2026-08-07T16:45:00Z",
-   "title": "After decades of decline, New Zealand’s wool industry is making a comeback",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTHk4QWRLd3VsWklxLTVmS0d3cHRRWFBpOWZ3ZVRvTzBfbGdpVkNxanZmUlJkMEpvdXJUR2Nla0ZsZDVoZjJ3UDFpOUVKUDJGYnczbU9ZWUFBUENmNTg5RmRhOTZIQmVnd3FieDV0SUg0NUdiRXlWSkRMbEQ5Rk9UTkZtTVRzUmh3ckl5NWxsQzJtZUk?oc=5"
+   "name": "thatslife.com.au",
+   "published_at": "2026-08-04T00:51:08Z",
+   "title": "Oh my gourd! Meet the Aussie bloke who paddled in a giant pumpkin",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pc3kyb0xrM2RkQ2FNOGpla3JFd1RpY0ZDcWdxejdGbThsZ2sxNVM3ZEZLRmRKR3RaZkxMMGZzZUJfdDBjT0VfV0QyRUdUdUxBWVNFcnBJOThvWWNRWDcwdmVSMUZ2dm1VaDZfa1Bra2o4MlpPQjkwNU01TTRQMXM?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "New Zealand's wool industry is rebounding after decades of decline, as reported by The Guardian.",
-    "why_irrelevant": "Far from typical tech or personal interests."
+    "summary": "An Australian man paddled a giant pumpkin across a lake, showcasing a quirky world record attempt.",
+    "why_irrelevant": "A whimsical outlier far from mainstream interests."
    },
    "zh": {
-    "summary": "据《卫报》报道，新西兰羊毛产业在经历数十年衰退后正在复苏。",
-    "why_irrelevant": "远离常见的科技或个人兴趣。"
+    "summary": "一位澳大利亚男子乘坐巨型南瓜在湖上划行，展示了一项奇特的世界纪录尝试。",
+    "why_irrelevant": "一个离奇的故事，与主流兴趣相去甚远。"
    }
   },
-  "topic": "competitive sheep shearing"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "A 7.4 magnitude earthquake struck Colombia, causing significant damage, while UK faces heat alerts and a solar eclipse rush. In politics, Netanyahu rejects Trump's Gaza plan, and AI debates intensify. Research includes AI and data-driven solutions in energy, flooding, and medical fields.",
+ "brief": "Today's news is marked by a devastating earthquake in Colombia, escalating global heatwaves and wildfires, and political controversies from immigration reform to surveillance. Meanwhile, research spans from AI in finance to practical engineering solutions.",
  "meta": {
-  "generated_at": "2026-08-10T15:14:51Z"
+  "generated_at": "2026-08-10T17:06:38Z"
  },
- "news_summary": "A major earthquake hit Colombia, UK braces for extreme heat and solar eclipse, and ongoing political tensions (Netanyahu, Farage) dominate headlines. Also, notable developments in AI and corporate accountability.",
- "papers_summary": "Research highlights include machine learning for reservoir permeability, IoT flood monitoring, AI for HLA matching, and data on India's power plant emissions, reflecting a trend towards applied data science.",
+ "news_summary": "A 7.4-magnitude earthquake in Colombia kills at least 47, while the U.S. and U.K. face extreme heat and drought. Political debates rage over immigration, reflecting pool vandalism, and surveillance of journalists.",
+ "papers_summary": "Research includes AI-driven financial forecasting, IoT flood monitoring, and seismic vulnerability assessment, alongside studies on music identification from brain activity and HLA matching.",
  "summaries": {
   "en": {
-   "brief": "A 7.4 magnitude earthquake struck Colombia, causing significant damage, while UK faces heat alerts and a solar eclipse rush. In politics, Netanyahu rejects Trump's Gaza plan, and AI debates intensify. Research includes AI and data-driven solutions in energy, flooding, and medical fields.",
-   "news_summary": "A major earthquake hit Colombia, UK braces for extreme heat and solar eclipse, and ongoing political tensions (Netanyahu, Farage) dominate headlines. Also, notable developments in AI and corporate accountability.",
-   "papers_summary": "Research highlights include machine learning for reservoir permeability, IoT flood monitoring, AI for HLA matching, and data on India's power plant emissions, reflecting a trend towards applied data science."
+   "brief": "Today's news is marked by a devastating earthquake in Colombia, escalating global heatwaves and wildfires, and political controversies from immigration reform to surveillance. Meanwhile, research spans from AI in finance to practical engineering solutions.",
+   "news_summary": "A 7.4-magnitude earthquake in Colombia kills at least 47, while the U.S. and U.K. face extreme heat and drought. Political debates rage over immigration, reflecting pool vandalism, and surveillance of journalists.",
+   "papers_summary": "Research includes AI-driven financial forecasting, IoT flood monitoring, and seismic vulnerability assessment, alongside studies on music identification from brain activity and HLA matching."
   },
   "zh": {
-   "brief": "今日焦点包括航空公司对锂电池的警告、台风白海豚影响中国东部、伊朗对美国的条件，以及哥伦比亚地震等国际事件。学术方面，研究涉及机器学习、物联网和数字孪生等应用。",
-   "news_summary": "中文新闻关注航空公司对锂电池的警告、台风疏散、伊朗条件及班克斯艺术成本。国际新闻涵盖哥伦比亚地震、英国日食眼镜抢购及乌克兰无人机袭击。",
-   "papers_summary": "学术研究涵盖机器学习渗透率预测、物联网水位监测、数字孪生地震评估等，偏向应用技术。"
+   "brief": "今日焦点涵盖航空锂电池安全警告、台风“白海豚”影响中国东部、伊朗向美国提出重开霍尔木兹海峡的条件，以及《哈利波特》粉丝成功改变电缆路线等新闻；学术方面暂无简体中文论文。",
+   "news_summary": "中文新闻以航空锂电池警告、台风、伊朗条件及《哈利波特》电缆改道为主；国际新闻包括哥伦比亚地震、加拿大野火和英国热浪等。",
+   "papers_summary": "暂无简体中文论文，相关英文论文涉及地震脆弱性评估、水监测系统等。"
   }
  },
  "todays_image": {
-  "caption": "Just as the mailbox remnant endured the earthquake's devastation, Democrats can forge a resilient message that survives the political tremors of red states.",
+  "caption": "Just as the mailbox remnant survived the 1906 quake to tell a story of resilience, building an AI-native finance function means preserving what endures while letting go of what the disaster of old processes destroys.",
   "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2006_2038_1a",
   "source_name": "National Postal Museum",
   "source_url": "https://postalmuseum.si.edu/object/npm_2006.2038.1",
