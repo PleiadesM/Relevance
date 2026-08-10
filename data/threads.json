@@ -1,76 +1,107 @@
 {
  "meta": {
   "count": 3,
-  "generated_at": "2026-08-09T22:48:29Z",
+  "generated_at": "2026-08-10T02:31:20Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "367bc4f9734b4d34",
+     "item_id": "0be511776e280639",
      "phrase": {
-      "en": "NYT frames as plan rejection",
-      "zh": "《纽约时报》称计划遭拒"
+      "en": "frames it as security flaw",
+      "zh": "视为安全缺陷"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/09/world/middleeast/israel-netanyahu-trump-15-point-plan-hamas-peace-gaza.html"
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything"
     },
     {
-     "item_id": "9ef2e2ef7104b84b",
+     "item_id": "ffbc8d8f0882c2e3",
      "phrase": {
-      "en": "Guardian frames as firm stance",
-      "zh": "《卫报》称立场强硬"
+      "en": "frames it as service end",
+      "zh": "视为服务终止"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/aug/09/iran-us-irgc-strait-of-hormuz-israel-netanyahu-trump-gaza-plan-latest-news-updates"
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything"
     },
     {
-     "item_id": "7b7592bcb060cc1b",
+     "item_id": "6acb87baae23664f",
      "phrase": {
-      "en": "NPR frames as demand",
-      "zh": "NPR称此为要求"
+      "en": "frames it as tragedy",
+      "zh": "视为悲剧"
      },
      "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/09/nx-s1-5926459/netanyahu-rejects-trump-gaza-peace-plan-israel-hamas"
-    },
-    {
-     "item_id": "518b41f67bb0029d",
-     "phrase": {
-      "en": "BBC frames as condition",
-      "zh": "BBC称此为条件"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c5yw4lpe0yeo?at_medium=RSS&at_campaign=rss"
+     "source": "Hacker News (AI filter)",
+     "url": "https://www.economist.com/britain/2026/08/06/the-tragedy-of-the-commons-ai-edition"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "Israel rejects a US plan, insisting Hamas disarm first.",
-    "zh": "以色列拒绝美国计划，坚持哈马斯先解除武装。"
+    "en": "Shared AI resources fray as free tiers vanish and misuse spreads.",
+    "zh": "共享AI资源告急，免费层消失，滥用蔓延。"
    },
    "id": "t1",
    "keyword": {
-    "en": "Gaza disarmament plan",
-    "zh": "加沙解除武装计划"
+    "en": "AI commons crisis",
+    "zh": "AI公地危机"
    },
    "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-06",
+     "label": {
+      "en": "Economist warning",
+      "zh": "经济学人警告"
+     }
+    },
+    {
+     "date": "2026-08-09",
+     "item_id": "ffbc8d8f0882c2e3",
+     "label": {
+      "en": "GitHub Models retires",
+      "zh": "GitHub模型退役"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything"
+    },
+    {
+     "date": "2026-08-10",
+     "item_id": "0be511776e280639",
+     "label": {
+      "en": "OpenClaw exploit found",
+      "zh": "OpenClaw漏洞发现"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything"
+    }
+   ],
    "why_now": {
-    "en": "You track geopolitics: today Netanyahu's refusal redraws the Middle East diplomacy map.",
-    "zh": "你关注地缘政治，今日内塔尼亚胡的拒绝重绘中东外交版图。"
+    "en": "You follow AI infrastructure: a retired model and an unguarded API signal erosion of AI commons.",
+    "zh": "你关注AI基础，模型退役与API漏洞预示AI公地侵蚀。"
    }
   },
   {
    "angles": [
     {
+     "item_id": "752fd00984cf1c98",
+     "phrase": {
+      "en": "frames it as market risk",
+      "zh": "视为市场风险"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/09/business/oil-stocks-iran-war.html"
+    },
+    {
      "item_id": "74c6226632f27259",
      "phrase": {
-      "en": "NYT frames as strategic leverage",
-      "zh": "《纽约时报》称战略筹码"
+      "en": "frames it as leverage",
+      "zh": "视为筹码"
      },
      "section": "news",
      "source": "The New York Times",
@@ -79,69 +110,98 @@
     {
      "item_id": "0a35f6b4833d1a09",
      "phrase": {
-      "en": "Guardian frames as Houthi attack",
-      "zh": "《卫报》称胡塞袭击"
+      "en": "frames it as conflict",
+      "zh": "视为冲突"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/world/2026/aug/09/yemen-houthis-saudi-oil-refinery-defence-pact-iran-strait-of-hormuz"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "Iran leverages the strait to force US concessions.",
-    "zh": "伊朗以海峡为杠杆迫使美国让步。"
+    "en": "Oil prices rise as Iran holds the strait and talks stall.",
+    "zh": "油价上涨，伊朗控制海峡，谈判停滞。"
    },
    "id": "t2",
    "keyword": {
-    "en": "Hormuz crisis",
-    "zh": "霍尔木兹危机"
+    "en": "Hormuz standoff",
+    "zh": "霍尔木兹对峙"
    },
-   "relates_to": [
-    "t1"
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-06",
+     "label": {
+      "en": "MOU signed",
+      "zh": "签署备忘录"
+     }
+    },
+    {
+     "date": "2026-08-09",
+     "item_id": "74c6226632f27259",
+     "label": {
+      "en": "stall and attacks",
+      "zh": "僵局与袭击"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/09/world/europe/iran-strait-hormuz-trump-deal.html"
+    },
+    {
+     "date": "2026-08-10",
+     "item_id": "752fd00984cf1c98",
+     "label": {
+      "en": "oil prices climb",
+      "zh": "油价攀升"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/09/business/oil-stocks-iran-war.html"
+    }
    ],
    "why_now": {
-    "en": "You follow energy geopolitics: Iran's move today could ripple through global markets.",
-    "zh": "你关注能源地缘政治，今日伊朗行动可能波及全球市场。"
+    "en": "You track geopolitics: Hormuz is the choke point shaping energy and markets today.",
+    "zh": "你关注地缘政治，霍尔木兹今日影响能源与市场。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "a9cce825008182c9",
+     "item_id": "9ef2e2ef7104b84b",
      "phrase": {
-      "en": "BBC frames as out of control",
-      "zh": "BBC称失控"
+      "en": "frames it as rejection",
+      "zh": "视为拒绝"
      },
      "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/aug/09/iran-us-irgc-strait-of-hormuz-israel-netanyahu-trump-gaza-plan-latest-news-updates"
     },
     {
-     "item_id": "b197aa242c36266b",
+     "item_id": "7b7592bcb060cc1b",
      "phrase": {
-      "en": "NPR frames as multiple blazes",
-      "zh": "NPR称多处起火"
+      "en": "frames it as precondition",
+      "zh": "视为先决条件"
      },
      "section": "news",
      "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/09/nx-s1-5926463/western-us-wildfires-canada-utah"
+     "url": "https://www.npr.org/2026/08/09/nx-s1-5926459/netanyahu-rejects-trump-gaza-peace-plan-israel-hamas"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Blazes rage in Canada and the western US, forcing evacuations.",
-    "zh": "加拿大与美国西部野火肆虐，迫使撤离。"
+    "en": "Netanyahu rejects the US plan, deepening the peace divide.",
+    "zh": "内塔尼亚胡拒绝美国计划，和平分歧加深。"
    },
    "id": "t3",
    "keyword": {
-    "en": "wildfire crisis",
-    "zh": "野火危机"
+    "en": "Gaza plan rifts",
+    "zh": "加沙计划分歧"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You read climate news: today's fires signal a worsening season with global reach.",
-    "zh": "你关注气候新闻，今日野火预示全球性恶化季。"
+    "en": "You track negotiations: this rejection reshapes the diplomatic map today.",
+    "zh": "你关注谈判，今日拒绝重塑外交版图。"
    }
   }
  ]

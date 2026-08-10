@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "pigeon racing clubs OR homing pigeon championship",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "Dignity Memorial",
-   "published_at": "2026-07-15T07:00:00Z",
-   "title": "David Moulton Obituary - Colorado Springs, CO",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTV9TZ3lVWEg5WnBfR3dWRG1tRVZzVHllUUlaeVVSWm5NXzRPT3hpU2hwYUZIUmFnMjhMZU1oTnAtcU9xRGVkeExOS2JPejlsZ2tTSVZLTGNDZFp6dE9vbDA2YS1FX1JSNW01Rl9zZFBTSEgyN1lzNjdQUTBwOTYxUFBScWJhNkMtY3RYTTBn?oc=5"
+   "name": "bristolpost.co.uk",
+   "published_at": "2026-08-08T07:00:00Z",
+   "title": "Customers say  going to need a lot of thi as new drink hits Spar shelves",
+   "url": "https://www.bristolpost.co.uk/whats-on/shopping/customers-say-going-need-lot-11095418"
   },
   "summaries": {
    "en": {
-    "summary": "David Moulton, a resident of Colorado Springs, has passed away, as noted in his obituary on Dignity Memorial.",
-    "why_irrelevant": "This is a personal obituary, completely unrelated to the user's feed and the theme of pigeon racing."
+    "summary": "Spar shoppers rave about a new drink hitting shelves.",
+    "why_irrelevant": "Commercial product buzz far from your interests."
    },
    "zh": {
-    "summary": "科罗拉多斯普林斯居民David Moulton去世，其讣告发布在Dignity Memorial网站上。",
-    "why_irrelevant": "这是一则个人讣告，与用户的信息流和赛鸽主题毫无关联。"
+    "summary": "Spar顾客对新上架饮品赞不绝口。",
+    "why_irrelevant": "商业产品炒作，远离你的关注。"
    }
   },
-  "topic": "competitive urban pigeon racing"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news spans from Australia's school AI concerns and a tragic suitcase discovery to U.S. political and wildfire updates, while research highlights advances in lung cancer surgery analysis and implant coatings. Israeli rejection of a Gaza plan and AOC's personal announcement add to the mix.",
+ "brief": "Today's news covers geopolitical tensions, extreme weather, and political appointments, while research highlights advances in medical and agricultural technology.",
  "meta": {
-  "generated_at": "2026-08-09T22:48:29Z"
+  "generated_at": "2026-08-10T02:31:20Z"
  },
- "news_summary": "News covers Australian school AI bans, a body found in NSW, U.S. political appointments, wildfires, Tour de France win, and Israel's rejection of a Gaza plan.",
- "papers_summary": "Papers include a French study on lung cancer surgical approaches, antimicrobial implant coatings, and a Python tool for orthogroup refinement.",
+ "news_summary": "Key stories include Trump's new White House counsel appointment, record ocean temperatures, Hong Kong's hottest day, and ongoing wildfires in Canada and the U.S.",
+ "papers_summary": "Research papers focus on lung cancer surgery outcomes, antimicrobial implant coatings, preterm birth prediction, and agricultural drone applications.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans from Australia's school AI concerns and a tragic suitcase discovery to U.S. political and wildfire updates, while research highlights advances in lung cancer surgery analysis and implant coatings. Israeli rejection of a Gaza plan and AOC's personal announcement add to the mix.",
-   "news_summary": "News covers Australian school AI bans, a body found in NSW, U.S. political appointments, wildfires, Tour de France win, and Israel's rejection of a Gaza plan.",
-   "papers_summary": "Papers include a French study on lung cancer surgical approaches, antimicrobial implant coatings, and a Python tool for orthogroup refinement."
+   "brief": "Today's news covers geopolitical tensions, extreme weather, and political appointments, while research highlights advances in medical and agricultural technology.",
+   "news_summary": "Key stories include Trump's new White House counsel appointment, record ocean temperatures, Hong Kong's hottest day, and ongoing wildfires in Canada and the U.S.",
+   "papers_summary": "Research papers focus on lung cancer surgery outcomes, antimicrobial implant coatings, preterm birth prediction, and agricultural drone applications."
   },
   "zh": {
-   "brief": "今日焦点包括加拿大山火失控蔓延、霍尔木兹海峡谈判进展及‘瘦瘦针’对饮酒习惯的影响；研究方面则涵盖肺癌手术方式比较、早产预测等多项医学与生物技术进展。",
-   "news_summary": "加拿大不列颠哥伦比亚省山火失控，面积扩大一倍并宣布紧急状态；阿曼称霍尔木兹海峡新航线谈判顺利，但伊朗警告协议不会打通海峡；‘瘦瘦针’使用者报告饮酒量大幅下降，但也影响社交生活。",
-   "papers_summary": "多项研究探讨了肺癌微创手术的疗效、早产预测的深度学习模型、以及智能涂层在植入物中的应用，为临床实践提供了新的见解。"
+   "brief": "今日焦点：加拿大山火失控蔓延，班克斯作品耗费英国公帑，以及霍尔木兹海峡谈判虽有进展但前景不明；科研方面，多项医学与生物技术研究发布。",
+   "news_summary": "加拿大不列颠哥伦比亚省山火失控，面积扩大一倍，当局宣布紧急状态；班克斯艺术项目已花费英国纳税人近15万英镑；霍尔木兹海峡谈判双方称有进展，但伊朗警告不会打通海峡；另报道瘦瘦针改变饮酒习惯。",
+   "papers_summary": "今日无优先中文论文，英文研究包括肺癌手术方式比较、抗菌涂层、产前沟通、早产预测等多个领域。"
   }
  },
  "todays_image": {
-  "caption": "Just as V-Mail once compressed letters for wartime scrutiny, AI now compresses student work under a watchful eye, while airport chaos snarls the very journeys that such correspondence once awaited.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2007_2004_82_White",
-  "source_name": "National Postal Museum",
-  "source_url": "https://postalmuseum.si.edu/object/npm_2007.2004.82",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2007_2004_82_White",
-  "title": "Sheaffer's Voyager V-Mail stationery canister"
+  "caption": "The vetch's name—Vicia ludoviciana—echoes the word \"ludicrous,\" just as Turnbull calls Aukus \"stark staring bonkers\" and Laneway's dropped cities signal a wild, unpredictable shuffle.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3ac146ebdb22c447fa7130200cb4e33df",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3b2ad3cf6-71a6-482a-b9fc-eadb34482756",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3ac146ebdb22c447fa7130200cb4e33df/90",
+  "title": "Vicia ludoviciana Nutt. ex Torr. & A. Gray var. ludoviciana"
  }
 }
