@@ -1,44 +1,44 @@
 {
  "apropos_of_nothing": {
-  "query": "dog grooming competition OR creative dog grooming",
+  "query": "national oyster shucking contest OR oyster shucking speed record",
   "source": {
-   "name": "The Arkansas Democrat-Gazette",
-   "published_at": "2026-08-07T04:07:16Z",
-   "title": "Events",
-   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTGFRODFPUVcyZ2dHUG83OFVPWUM1aEIwUVhPSXJzelVwbllKeUtJS0hrLTdjVHFwQnpDRENkZWJsdDNxN190Ykp3LTY3WVVJMENVMm85RjE1Z2V1ZFpyS09HdEtpMkRPWVhHc1lhTUZoQ2haRlBxbDRvQjAtV2NQRko3VWdsLV84aXV3T25paHpJT2t0WDRXZWhYeUF1bE9Oc1pRWHRrdUlvTTVhRnpmb0JhdUNhRHhIc2F2MHQ4UGlMeE9tanVWR2FzU29XN0JXN244OUYxSFZvdnVXcHZLOU16RW9tYS1xN0FPNmlCRWRGcGYyR1BhOTBBejI?oc=5"
+   "name": "CBC",
+   "published_at": "2026-07-31T07:00:00Z",
+   "title": "If you're at the Tyne Valley Oyster Festival this weekend, you might end up on Netflix",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUk1PUTM1dHZ1X0tFWU9BWVhUWW00T19PcVJOQU91ME9SeFlDd2hueGxyM3doLVc1VDZMQW56dEV5bXN2Q3hoVGg0X29kbFdlNkxGOElZWVpfa3RFRUNhc2lTaVdEQU8tT0t0eExIaE54eUFabWNtbHFmZS1lWS1MSU5KMm1JcjI0ajdHbG5sb3pXWksxZnlET19YcjlZRmZmT2NKajlfRjVPZVBHa05KNzMyTFhrcWYzc3lnbVRZUjNXVnExZ3hsM016N1piM0Fkd2F6MDBB?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A local events listing in the Arkansas Democrat-Gazette includes community happenings far removed from typical online fodder.",
-    "why_irrelevant": "Generic local calendar items are far from the feed's focus."
+    "summary": "Tyne Valley Oyster Festival attendees might be featured on Netflix.",
+    "why_irrelevant": "A local festival's TV tie-in is far from typical news topics."
    },
    "zh": {
-    "summary": "阿肯色州公报的地方活动列表包含与常见网络内容相距甚远的社区活动。",
-    "why_irrelevant": "通用本地日历条目远离信息流的主题。"
+    "summary": "泰恩河谷牡蛎节参与者可能会上Netflix。",
+    "why_irrelevant": "地方节日的电视关联远离常规新闻主题。"
    }
   },
-  "topic": "competitive dog grooming"
+  "topic": "competitive oyster shucking championships"
  },
- "brief": "Today's news covers political maneuvering, natural disasters, and extreme weather, while research focuses on technological and scientific advancements.",
+ "brief": "Today's news spans earthquakes, vaccine policy shifts, and AI accountability, while research highlights tech innovations from IoT flood monitoring to HLA matching.",
  "meta": {
-  "generated_at": "2026-08-10T19:14:33Z"
+  "generated_at": "2026-08-10T20:59:40Z"
  },
- "news_summary": "US politics dominated with Trump's loyalist sworn in as AG and his administration's impact on Washington, while a major earthquake struck Colombia and record heat hit the US.",
- "papers_summary": "Papers cover diverse topics including permeability estimation in oil reservoirs, FTTH growth forecasting, IoT flood monitoring, and HLA imputation for transplants.",
+ "news_summary": "Major events include a deadly 7.4-magnitude earthquake in Colombia, Trump's executive order on vaccines, and debates over AI development and data center energy use.",
+ "papers_summary": "Research covers practical tech applications like real-time water level monitoring and GIS-based seismic assessment, alongside advances in medical and AI fields.",
  "summaries": {
   "en": {
-   "brief": "Today's news covers political maneuvering, natural disasters, and extreme weather, while research focuses on technological and scientific advancements.",
-   "news_summary": "US politics dominated with Trump's loyalist sworn in as AG and his administration's impact on Washington, while a major earthquake struck Colombia and record heat hit the US.",
-   "papers_summary": "Papers cover diverse topics including permeability estimation in oil reservoirs, FTTH growth forecasting, IoT flood monitoring, and HLA imputation for transplants."
+   "brief": "Today's news spans earthquakes, vaccine policy shifts, and AI accountability, while research highlights tech innovations from IoT flood monitoring to HLA matching.",
+   "news_summary": "Major events include a deadly 7.4-magnitude earthquake in Colombia, Trump's executive order on vaccines, and debates over AI development and data center energy use.",
+   "papers_summary": "Research covers practical tech applications like real-time water level monitoring and GIS-based seismic assessment, alongside advances in medical and AI fields."
   },
   "zh": {
-   "brief": "今日新闻聚焦航空公司对锂电池的警惕、伊朗向美国提出的条件、以及颱風白海豚登陆中国东部。研究方面侧重機器學習於油藏評估、物聯網洪水監測等應用。",
-   "news_summary": "航空公司提醒乘客注意鋰電池安全，伊朗就霍爾木茲海峽提出條件，颱風白海豚登陸華東。班克斯藝術花費公帑，哈利波特粉絲成功讓電纜改道。",
-   "papers_summary": "研究涵蓋機器學習於油藏滲透率估算、FTTH客戶成長預測系統、物聯網水位監測、HLA配對演算法等。"
+   "brief": "今日重点：航空公司对锂电池安全发出新警告，伊朗向美国提出开放霍尔木兹海峡的条件，最强台风“白海豚”袭击中国东部；哥伦比亚地震造成百余人死亡，特朗普签署疫苗拆分令。",
+   "news_summary": "中文新闻聚焦航空锂电池风险、哈利波特迷抗议电缆改道、伊朗对美条件、班克斯作品公帑开销及台风白海豚；国际方面，哥伦比亚地震、特朗普疫苗行政令、美国政治和AI发展等也受关注。",
+   "papers_summary": "今日论文涉及机器学习、物联网洪水监测、HLA分型、数字孪生地震评估等，但无中文优先论文，仅提供背景。"
   }
  },
  "todays_image": {
-  "caption": "Like the tiny Borreria perpusilla thriving in overlooked spaces, Paxton’s wealth sprouted from an unremarkable attachment to a hospital he knew well.",
+  "caption": "Like the tiny, overlooked Borreria perpusilla, Hearn’s case was dismissed as too small to matter, leaving him to root for closure in the margins.",
   "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m39b901120c1b24cdcb078478055490201",
   "source_name": "NMNH - Botany Dept.",
   "source_url": "http://n2t.net/ark:/65665/3ef775029-7ea2-4cee-a1de-13b30acd931b",
