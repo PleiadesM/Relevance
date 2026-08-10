@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
+  "query": "world sheep shearing championship OR golden shears competition",
   "source": {
-   "name": "thatslife.com.au",
-   "published_at": "2026-08-04T00:51:08Z",
-   "title": "Oh my gourd! Meet the Aussie bloke who paddled in a giant pumpkin",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pc3kyb0xrM2RkQ2FNOGpla3JFd1RpY0ZDcWdxejdGbThsZ2sxNVM3ZEZLRmRKR3RaZkxMMGZzZUJfdDBjT0VfV0QyRUdUdUxBWVNFcnBJOThvWWNRWDcwdmVSMUZ2dm1VaDZfa1Bra2o4MlpPQjkwNU01TTRQMXM?oc=5"
+   "name": "The Guardian",
+   "published_at": "2026-08-07T16:45:00Z",
+   "title": "After decades of decline, New Zealand’s wool industry is making a comeback",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTHk4QWRLd3VsWklxLTVmS0d3cHRRWFBpOWZ3ZVRvTzBfbGdpVkNxanZmUlJkMEpvdXJUR2Nla0ZsZDVoZjJ3UDFpOUVKUDJGYnczbU9ZWUFBUENmNTg5RmRhOTZIQmVnd3FieDV0SUg0NUdiRXlWSkRMbEQ5Rk9UTkZtTVRzUmh3ckl5NWxsQzJtZUk?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "An Australian man paddled across a river inside a giant pumpkin, showcasing a quirky record attempt.",
-    "why_irrelevant": "It's a whimsical human-interest story, not from your usual tech and finance feed."
+    "summary": "New Zealand's wool industry is rebounding after decades of decline, as reported by The Guardian.",
+    "why_irrelevant": "Far from typical tech or personal interests."
    },
    "zh": {
-    "summary": "一名澳洲男子坐在巨型南瓜里划船过河，展示了一次古怪的纪录挑战。",
-    "why_irrelevant": "这是一条趣闻轶事，不符合你常看的科技和财经资讯。"
+    "summary": "据《卫报》报道，新西兰羊毛产业在经历数十年衰退后正在复苏。",
+    "why_irrelevant": "远离常见的科技或个人兴趣。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "competitive sheep shearing"
  },
- "brief": "Today's news spans geopolitical tensions, AI's social impact, environmental alerts, and political controversies, while new research covers topics from oil reservoir analysis to flood monitoring and music perception.",
+ "brief": "A 7.4 magnitude earthquake struck Colombia, causing significant damage, while UK faces heat alerts and a solar eclipse rush. In politics, Netanyahu rejects Trump's Gaza plan, and AI debates intensify. Research includes AI and data-driven solutions in energy, flooding, and medical fields.",
  "meta": {
-  "generated_at": "2026-08-10T13:41:09Z"
+  "generated_at": "2026-08-10T15:14:51Z"
  },
- "news_summary": "Key stories include rising oil prices due to Strait of Hormuz stalemate, AI's influence on youth, heat alerts in England, deadly drone strikes in Russia, and debates over surveillance cameras.",
- "papers_summary": "Papers address technical advances in permeability estimation, flood monitoring, HLA matching, and music identification from brain activity, alongside datasets for Indian power plants.",
+ "news_summary": "A major earthquake hit Colombia, UK braces for extreme heat and solar eclipse, and ongoing political tensions (Netanyahu, Farage) dominate headlines. Also, notable developments in AI and corporate accountability.",
+ "papers_summary": "Research highlights include machine learning for reservoir permeability, IoT flood monitoring, AI for HLA matching, and data on India's power plant emissions, reflecting a trend towards applied data science.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans geopolitical tensions, AI's social impact, environmental alerts, and political controversies, while new research covers topics from oil reservoir analysis to flood monitoring and music perception.",
-   "news_summary": "Key stories include rising oil prices due to Strait of Hormuz stalemate, AI's influence on youth, heat alerts in England, deadly drone strikes in Russia, and debates over surveillance cameras.",
-   "papers_summary": "Papers address technical advances in permeability estimation, flood monitoring, HLA matching, and music identification from brain activity, alongside datasets for Indian power plants."
+   "brief": "A 7.4 magnitude earthquake struck Colombia, causing significant damage, while UK faces heat alerts and a solar eclipse rush. In politics, Netanyahu rejects Trump's Gaza plan, and AI debates intensify. Research includes AI and data-driven solutions in energy, flooding, and medical fields.",
+   "news_summary": "A major earthquake hit Colombia, UK braces for extreme heat and solar eclipse, and ongoing political tensions (Netanyahu, Farage) dominate headlines. Also, notable developments in AI and corporate accountability.",
+   "papers_summary": "Research highlights include machine learning for reservoir permeability, IoT flood monitoring, AI for HLA matching, and data on India's power plant emissions, reflecting a trend towards applied data science."
   },
   "zh": {
-   "brief": "今日焦点包括伊朗就霍尔木兹海峡向美国提出条件，超强台风\"白海豚\"登陆中国东部，以及英国班克斯作品引发公帑争议。科研方面，多项研究涉及AI、物联网和水文监测。",
-   "news_summary": "伊朗就重开霍尔木兹海峡向美国提出六项条件，同时超强台风'白海豚'登陆中国东部并北移，导致百万人疏散。此外，英国《哈利波特》粉丝成功促使海底电缆改道，以及班克斯作品已花费英国纳税人近15万英镑。",
-   "papers_summary": "今日论文涵盖基于机器学习的渗透率估算、FTTH用户增长监测系统、物联网实时水位监测系统以及HLA分型算法等，涉及地质、通信、洪灾预警和医学领域。"
+   "brief": "今日焦点包括航空公司对锂电池的警告、台风白海豚影响中国东部、伊朗对美国的条件，以及哥伦比亚地震等国际事件。学术方面，研究涉及机器学习、物联网和数字孪生等应用。",
+   "news_summary": "中文新闻关注航空公司对锂电池的警告、台风疏散、伊朗条件及班克斯艺术成本。国际新闻涵盖哥伦比亚地震、英国日食眼镜抢购及乌克兰无人机袭击。",
+   "papers_summary": "学术研究涵盖机器学习渗透率预测、物联网水位监测、数字孪生地震评估等，偏向应用技术。"
   }
  },
  "todays_image": {
-  "caption": "Like Lobophora sp. drifting on ocean currents, oil prices are rising on the stalled currents of the Strait of Hormuz.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3a20dbcaf-62f6-4dd2-b936-69074b28dad5",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7/90",
-  "title": "Lobophora sp."
+  "caption": "Just as the mailbox remnant endured the earthquake's devastation, Democrats can forge a resilient message that survives the political tremors of red states.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2006_2038_1a",
+  "source_name": "National Postal Museum",
+  "source_url": "https://postalmuseum.si.edu/object/npm_2006.2038.1",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2006_2038_1a",
+  "title": "Mailbox remnant from 1906 San Francisco earthquake"
  }
 }
