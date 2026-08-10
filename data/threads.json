@@ -1,0 +1,131 @@
+{
+ "meta": {
+  "count": 3,
+  "generated_at": "2026-08-10T22:54:59Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "046941fdc1d8f4a5",
+     "phrase": {
+      "en": "signs order to split MMR",
+      "zh": "签署拆分MMR命令"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/live/2026/aug/10/ohio-republicans-max-miller-domestic-abuse-allegations-us-politics-live-latest-news"
+    },
+    {
+     "item_id": "3491fbb9c98fd575",
+     "phrase": {
+      "en": "tries again to upend vaccines",
+      "zh": "再次颠覆疫苗"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/10/nx-s1-5927313/trump-rfk-jr-vaccines-autism-executive-order"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "A single vaccine is split into parts, changing children's shots.",
+    "zh": "一种疫苗被拆分，改变儿童接种方案。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "MMR vaccine split",
+    "zh": "MMR疫苗拆分"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track health tech policy: the order directly reshapes vaccine schedules.",
+    "zh": "你关注健康技术政策：该命令直接重塑疫苗日程。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "full_text_file": "articles/news/d10bc53977862465.json",
+     "item_id": "d10bc53977862465",
+     "phrase": {
+      "en": "startups chase next big LLM",
+      "zh": "初创追逐下一代大模型"
+     },
+     "section": "news",
+     "source": "MIT Technology Review · AI",
+     "url": "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/"
+    },
+    {
+     "full_text_file": "articles/news/51339a613feb709d.json",
+     "item_id": "51339a613feb709d",
+     "phrase": {
+      "en": "Meta pitches open models",
+      "zh": "Meta推开放模型"
+     },
+     "section": "news",
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "New models and startups push the boundaries of language AI.",
+    "zh": "新模型和初创企业拓展语言AI边界。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "LLM evolution",
+    "zh": "大模型演进"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow LLM trends: today's reports show where the field is heading.",
+    "zh": "你关注大模型趋势，今日报道展示领域方向。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "1b2d1f384133a55e",
+     "phrase": {
+      "en": "AI-native finance lessons",
+      "zh": "AI原生金融经验"
+     },
+     "section": "news",
+     "source": "OpenAI News",
+     "url": "https://openai.com/index/building-an-ai-native-finance-function"
+    },
+    {
+     "full_text_file": "articles/news/d10bc53977862465.json",
+     "item_id": "d10bc53977862465",
+     "phrase": {
+      "en": "LLMs for finance?",
+      "zh": "金融用大模型？"
+     },
+     "section": "news",
+     "source": "MIT Technology Review · AI",
+     "url": "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "AI transforms finance, from forecasting to controls.",
+    "zh": "AI改变金融，从预测到控制。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "AI in finance",
+    "zh": "AI在金融"
+   },
+   "relates_to": [
+    "t2"
+   ],
+   "why_now": {
+    "en": "You study AI applications: the CFO's lessons offer a practical view.",
+    "zh": "你研究AI应用，CFO的经验提供实践视角。"
+   }
+  }
+ ]
+}

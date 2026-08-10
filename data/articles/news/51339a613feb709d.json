@@ -1,0 +1,28 @@
+{
+ "full_text": "Meta has announced its intention to focus on open-weight large language models. Additionally, the company announced the release of an open model called Muse Glimmer and a promise to open the weights for Muse Spark 1.2, its more powerful model, in the next few weeks.\n\nAlongside these announcements, Meta CEO Mark Zuckerberg published a more than 6,000-word essay outlining the company's philosophy about AI systems and governance moving forward. The essay aims to differentiate Meta from companies like OpenAI and Anthropic, which develop proprietary models and which have lobbied the US government for help competing against large-scale distillation—which involves using an existing model to train a new one—or open-weight models by Chinese labs.\n\nRead full article\n\nComments",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/51339a613feb709d.json",
+  "id": "51339a613feb709d",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-08-10T22:13:03Z",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai",
+  "summary": "Meta has been trailing competitors. Zuckerberg thinks he's found a way forward.",
+  "tags": [],
+  "title": "With new open models, Meta pitches another reboot of its struggling AI strategy",
+  "url": "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/"
+ },
+ "meta": {
+  "content_hash": "c32fbd5f45a5f180",
+  "generated_at": "2026-08-10T22:54:59Z",
+  "item_id": "51339a613feb709d",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai"
+ }
+}

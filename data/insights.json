@@ -1,44 +1,44 @@
 {
  "apropos_of_nothing": {
-  "query": "national oyster shucking contest OR oyster shucking speed record",
+  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
   "source": {
-   "name": "CBC",
-   "published_at": "2026-07-31T07:00:00Z",
-   "title": "If you're at the Tyne Valley Oyster Festival this weekend, you might end up on Netflix",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUk1PUTM1dHZ1X0tFWU9BWVhUWW00T19PcVJOQU91ME9SeFlDd2hueGxyM3doLVc1VDZMQW56dEV5bXN2Q3hoVGg0X29kbFdlNkxGOElZWVpfa3RFRUNhc2lTaVdEQU8tT0t0eExIaE54eUFabWNtbHFmZS1lWS1MSU5KMm1JcjI0ajdHbG5sb3pXWksxZnlET19YcjlZRmZmT2NKajlfRjVPZVBHa05KNzMyTFhrcWYzc3lnbVRZUjNXVnExZ3hsM016N1piM0Fkd2F6MDBB?oc=5"
+   "name": "Boston's ROCK 92.9",
+   "published_at": "2026-08-10T11:40:00Z",
+   "title": "Topsfield Fair Opens Entries for 2026 Competitions, Promotes $20K Pumpkin Prize",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaXFzNnk3RzhuTHUzNUNNaUtwbE1vbzhQd0hpejl1SkdaVkhXbjJoSEZLNlNnZDExOHV0TVhOZEp1Sm10OC0wQUQ5bW9HcHFXSHNyNkdhSTlpdGZJQnBVRlM1UFRlUlhHUUpiWU5XY3NTdGU1T2tCaWZXNVZxcGpKQU9UcDlJXzlrT3dHQko1dGdoOXhqLWluSXZsdzdLY0EwanFjQjZQMzFvZS02Sll3alh3Q1g?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "Tyne Valley Oyster Festival attendees might be featured on Netflix.",
-    "why_irrelevant": "A local festival's TV tie-in is far from typical news topics."
+    "summary": "Topsfield Fair opens entries for 2026 competitions, offering a $20,000 prize for giant pumpkins.",
+    "why_irrelevant": "Your feed focuses on tech and urban life, far from agricultural fairs."
    },
    "zh": {
-    "summary": "泰恩河谷牡蛎节参与者可能会上Netflix。",
-    "why_irrelevant": "地方节日的电视关联远离常规新闻主题。"
+    "summary": "托普斯菲尔德博览会开启2026年比赛报名，为巨型南瓜设2万美元奖金。",
+    "why_irrelevant": "你的信息流关注科技与都市生活，与农业博览会相距甚远。"
    }
   },
-  "topic": "competitive oyster shucking championships"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news spans earthquakes, vaccine policy shifts, and AI accountability, while research highlights tech innovations from IoT flood monitoring to HLA matching.",
+ "brief": "Today's headlines are dominated by a deadly boat tour accident in New York, a major earthquake in Colombia, and a controversial executive order on childhood vaccines in the U.S., while research papers cover topics from reservoir modeling to flood monitoring and AI in music.",
  "meta": {
-  "generated_at": "2026-08-10T20:59:40Z"
+  "generated_at": "2026-08-10T22:54:59Z"
  },
- "news_summary": "Major events include a deadly 7.4-magnitude earthquake in Colombia, Trump's executive order on vaccines, and debates over AI development and data center energy use.",
- "papers_summary": "Research covers practical tech applications like real-time water level monitoring and GIS-based seismic assessment, alongside advances in medical and AI fields.",
+ "news_summary": "The news is led by a fatal boat capsizing in New York, a 7.4-magnitude earthquake in Colombia causing over 100 deaths, and President Trump signing an executive order to split the MMR vaccine and limit other childhood vaccines, sparking public health concerns.",
+ "papers_summary": "Research papers span diverse fields including oil reservoir permeability estimation, FTTH customer growth forecasting, IoT-based flood monitoring, HLA imputation for transplantation, and a dataset on India's power plant emissions, among others.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans earthquakes, vaccine policy shifts, and AI accountability, while research highlights tech innovations from IoT flood monitoring to HLA matching.",
-   "news_summary": "Major events include a deadly 7.4-magnitude earthquake in Colombia, Trump's executive order on vaccines, and debates over AI development and data center energy use.",
-   "papers_summary": "Research covers practical tech applications like real-time water level monitoring and GIS-based seismic assessment, alongside advances in medical and AI fields."
+   "brief": "Today's headlines are dominated by a deadly boat tour accident in New York, a major earthquake in Colombia, and a controversial executive order on childhood vaccines in the U.S., while research papers cover topics from reservoir modeling to flood monitoring and AI in music.",
+   "news_summary": "The news is led by a fatal boat capsizing in New York, a 7.4-magnitude earthquake in Colombia causing over 100 deaths, and President Trump signing an executive order to split the MMR vaccine and limit other childhood vaccines, sparking public health concerns.",
+   "papers_summary": "Research papers span diverse fields including oil reservoir permeability estimation, FTTH customer growth forecasting, IoT-based flood monitoring, HLA imputation for transplantation, and a dataset on India's power plant emissions, among others."
   },
   "zh": {
-   "brief": "今日重点：航空公司对锂电池安全发出新警告，伊朗向美国提出开放霍尔木兹海峡的条件，最强台风“白海豚”袭击中国东部；哥伦比亚地震造成百余人死亡，特朗普签署疫苗拆分令。",
-   "news_summary": "中文新闻聚焦航空锂电池风险、哈利波特迷抗议电缆改道、伊朗对美条件、班克斯作品公帑开销及台风白海豚；国际方面，哥伦比亚地震、特朗普疫苗行政令、美国政治和AI发展等也受关注。",
-   "papers_summary": "今日论文涉及机器学习、物联网洪水监测、HLA分型、数字孪生地震评估等，但无中文优先论文，仅提供背景。"
+   "brief": "今日重点：伊朗就霍尔木兹海峡向美国提出条件，班克斯作品引发公帑开支争议，中国东部遭遇强台风“白海豚”并疏散百万人；特朗普签署行政命令试图拆分麻疹疫苗，引发广泛关注，哥伦比亚强震造成逾百人死亡。科研方面聚焦于机器学习、物联网及地震评估等应用研究。",
+   "news_summary": "伊朗就开放霍尔木兹海峡向美国提出六项条件，谈判进展积极；《哈利波特》粉丝成功使电缆工程改道以保护墓地；班克斯在法庭外作画已花费英国纳税人近15万英镑；强台风“白海豚”登陆中国东部，百万人疏散。",
+   "papers_summary": "今日科研论文集中于机器学习在油藏渗透率预测和音乐识别中的应用，物联网洪水监测系统，以及基于数字孪生的地震脆弱性评估等工程与数据科学领域。"
   }
  },
  "todays_image": {
-  "caption": "Like the tiny, overlooked Borreria perpusilla, Hearn’s case was dismissed as too small to matter, leaving him to root for closure in the margins.",
+  "caption": "Just as the tiny, overlooked Borreria perpusilla can vanish among shadowy reeds, the night boat tour’s victims were swallowed by the dark river in a fleeting moment.",
   "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m39b901120c1b24cdcb078478055490201",
   "source_name": "NMNH - Botany Dept.",
   "source_url": "http://n2t.net/ark:/65665/3ef775029-7ea2-4cee-a1de-13b30acd931b",

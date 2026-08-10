@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-10T20:59:40Z",
+ "generated_at": "2026-08-10T22:54:59Z",
  "private_summary": {
   "configured": 0,
   "total": 0
@@ -151,7 +151,7 @@
   },
   {
    "category": "open",
-   "count": 18,
+   "count": 24,
    "error": null,
    "full_text_count": 0,
    "id": "nyt_homepage",
@@ -211,12 +211,12 @@
   },
   {
    "category": "optional",
-   "count": 0,
-   "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-07-13&rows=12&sort=created&order=desc",
+   "count": 16,
+   "error": null,
    "full_text_count": 0,
    "id": "crossref_techcomm_journals",
    "name": "TechComm journals (CrossRef)",
-   "ok": false,
+   "ok": true,
    "section": "papers",
    "skip_reason": null,
    "type": "crossref"
