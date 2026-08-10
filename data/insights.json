@@ -1,48 +1,40 @@
 {
  "apropos_of_nothing": {
-  "query": "world sheep shearing championship OR golden shears",
+  "query": "mushroom foraging festival OR wild mushroom competition",
   "source": {
-   "name": "tavistock-today.co.uk",
-   "published_at": "2026-08-03T10:04:55Z",
-   "title": "Collaton father and son celebrate top shearing award",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeEUtRzh6R0RnZEp1Ym1HdWE3Sk84Yl9uYzZVN3NLQVBVcm9td2ZWYWlQb190X1dMSGt3VXpIUnAxdXJiT3pJbnBxQ1luQko2Mk1iamdnVVEtcU9hbHprVDZwS2duWmQzQWVHZFp5VExhdDNIMEx1RkViOG0tOFV1cEFXTXBNWkx4NlJtV1p0cV9PWk5NVVBkLTJB?oc=5"
+   "name": "WNTZ-TV FOX 48",
+   "published_at": "2026-07-20T07:00:00Z",
+   "title": "Geaux Play Outdoors partners with mycologists for foraging",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeVV1dlBFTkY2eFVvVVhFcXUyTEctS2h5cGRLVnhyd3FvQ2hNRE1tX3ROVG03X3pyMHRXU3RHOTdHNlFfNFktYnQ4RFRfUGFuWlNXWC10Qk05a2dZTVV2d0FZdVR2bUlMYWpsZkVVV3FGUFk2dFAzaVdDRl9aMnczZHhQTURQa0N2QlVuS09HWGQ5eTJtdEZ2R3h0SWtjejJTRFHSAacBQVVfeXFMT1lTdl9FbE5UTF9NckctVWRhdFVyVkN5VXZub2hJWEJUS1FfWFpuNjBRUlFTcEczdTBZeFdGU0NBbHUwajh0UXRaaE52a0RsUWlmWEF6eGpvZDlVZUFvTWNyUDNFZlFyYUhpUU91bUwxbG9MbEphN2VGVzhFMHBQRjZuMWZMa1laQzJEYWxTWDVMQmh6MjdfMFZERGUxXzFsLVdjNVl6Yk0?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A father and son in Collaton win a top shearing award, celebrating their local achievement.",
-    "why_irrelevant": "A niche local competition far from typical news topics."
+    "summary": "A Louisiana TV station reports a partnership between an outdoor program and mycologists to guide foraging trips.",
+    "why_irrelevant": "Local regional outdoor programming, far from typical digital interests."
    },
    "zh": {
-    "summary": "科拉顿的一对父子赢得顶级剪羊毛奖，庆祝他们的本地成就。",
-    "why_irrelevant": "小众本地赛事，远离常规新闻话题。"
+    "summary": "路易斯安那州一家电视台报道了一个户外项目与真菌学家合作，指导觅食之旅。",
+    "why_irrelevant": "地方性户外节目，远离典型数字兴趣。"
    }
   },
-  "topic": "competitive sheep shearing championships"
+  "topic": "competitive mushroom foraging festivals"
  },
- "brief": "Today's news spans global heat records, wildfire evacuations, geopolitical tensions, and corporate hacking threats, while research highlights advances in medical tech, agriculture, and bioinformatics.",
+ "brief": "Today's news spans Australia's royal commission into AI, a UK heatwave, Typhoon Dolphin's impact in China, and the passing of actor Ben Jones, while papers cover surgical outcomes, prenatal diagnosis communication, and agricultural drone navigation.",
  "meta": {
-  "generated_at": "2026-08-10T05:42:29Z"
+  "generated_at": "2026-08-10T08:02:13Z"
  },
- "news_summary": "News covers Australia's legal and police stories, Kashmir killing, typhoon evacuations in China, UK manufacturing cyberattacks, Canada wildfire, U.S. politics, and climate extremes.",
- "papers_summary": "Papers feature lung cancer surgery comparisons, antimicrobial coatings, prenatal communication, genomic tools, preterm birth prediction, and drone crop monitoring.",
+ "news_summary": "Australia announces a royal commission into AI, UK braces for a heatwave, Typhoon Dolphin forces mass evacuations in China, and actor-politician Ben Jones passes away at 84, with other stories on airport incidents and gambling ad reforms.",
+ "papers_summary": "Research highlights include a nationwide study on lung cancer surgery outcomes, parental perspectives on prenatal CHD diagnosis communication, and a Python tool for orthogroup refinement, alongside work on preterm birth prediction and autonomous drone path planning.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans global heat records, wildfire evacuations, geopolitical tensions, and corporate hacking threats, while research highlights advances in medical tech, agriculture, and bioinformatics.",
-   "news_summary": "News covers Australia's legal and police stories, Kashmir killing, typhoon evacuations in China, UK manufacturing cyberattacks, Canada wildfire, U.S. politics, and climate extremes.",
-   "papers_summary": "Papers feature lung cancer surgery comparisons, antimicrobial coatings, prenatal communication, genomic tools, preterm birth prediction, and drone crop monitoring."
+   "brief": "Today's news spans Australia's royal commission into AI, a UK heatwave, Typhoon Dolphin's impact in China, and the passing of actor Ben Jones, while papers cover surgical outcomes, prenatal diagnosis communication, and agricultural drone navigation.",
+   "news_summary": "Australia announces a royal commission into AI, UK braces for a heatwave, Typhoon Dolphin forces mass evacuations in China, and actor-politician Ben Jones passes away at 84, with other stories on airport incidents and gambling ad reforms.",
+   "papers_summary": "Research highlights include a nationwide study on lung cancer surgery outcomes, parental perspectives on prenatal CHD diagnosis communication, and a Python tool for orthogroup refinement, alongside work on preterm birth prediction and autonomous drone path planning."
   },
   "zh": {
-   "brief": "今日焦点包括英国涂鸦艺术家班克斯作品引发的公帑开支争议，以及加拿大山火失控蔓延；研究方面涉及肺癌手术方式比较和产前沟通优化等医学进展。",
-   "news_summary": "英国班克斯作品维护费用已花近15万英镑，引发对公共资金使用的讨论；加拿大不列颠哥伦比亚省山火失控，面积扩大一倍，当地宣布紧急状态。",
-   "papers_summary": "法国一项全国性观察研究比较了肺癌手术方式的胜率；另一项研究探讨了产前诊断先天性心脏病时父母的沟通需求，以优化临床实践。"
+   "brief": "今日焦点包括《哈利波特》粉丝迫使电缆改道、伊朗向美国提出六项条件、台风白海豚登陆中国东部、加拿大山火紧急状态，以及英国艺术家班克斯作品的持续花费。",
+   "news_summary": "中文新闻以哈利波特粉丝影响电缆铺设、伊朗谈判条件、台风和山火为主，同时国际新闻关注澳大利亚政治和英国高温。",
+   "papers_summary": "论文内容涵盖医学、生物信息学、农业技术等领域，如肺癌手术研究、早产预测、无人机农业监测等。"
   }
- },
- "todays_image": {
-  "caption": "Just as Tridens ambiguus sways in botanical ambiguity, the airport near-miss leaves workers on uncertain ground while the witness's wife's contractions pull the day's news into a sharp, urgent focus.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3de0feb64c0a54acdb0628cb81e9a93c6",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/345904ff2-4105-4859-96ea-00c258346a26",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3de0feb64c0a54acdb0628cb81e9a93c6/90",
-  "title": "Tridens ambiguus (Elliott) Schult."
  }
 }
