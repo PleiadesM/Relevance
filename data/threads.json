@@ -1,107 +1,176 @@
 {
  "meta": {
-  "count": 2,
-  "generated_at": "2026-08-10T11:19:55Z",
+  "count": 4,
+  "generated_at": "2026-08-10T13:41:09Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "item_id": "0a9ba5b88b8e861d",
+     "phrase": {
+      "en": "framed as academic cheating",
+      "zh": "学术作弊视角"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/10/us/ai-cheating-threatens-the-value-of-online-degrees.html"
+    },
+    {
+     "item_id": "979e8dd97c09e18b",
+     "phrase": {
+      "en": "framed as security breach",
+      "zh": "安全泄露视角"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://bobdahacker.com/blog/tldv-hack"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "AI agents quietly doing our dirty work, from homework to note-taking.",
+    "zh": "智能代理悄悄代做杂事，从作业到笔记。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI agent misuse",
+    "zh": "智能体滥用"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about HCI and AI: today new evidence shows AI agents enabling cheating and insecure data.",
+    "zh": "你关注人机交互与AI，今日新证据显示智能体助长作弊与数据泄露。"
+   }
+  },
+  {
+   "angles": [
+    {
      "item_id": "3cfc4ef6e297bc01",
      "phrase": {
-      "en": "Deadliest attack on Russian soil",
-      "zh": "对俄本土最致命袭击"
+      "en": "frames as industrial attack",
+      "zh": "工业袭击视角"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/08/10/world/europe/ukraine-drone-attack-russia.html"
     },
     {
-     "item_id": "abc906011176a620",
-     "phrase": {
-      "en": "Strikes pressure Moscow's oil",
-      "zh": "打击施压莫斯科石油"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/aug/10/ukraine-drones-russia-oil-facilities-europe-heat-drought-latest-updates-news"
-    },
-    {
      "item_id": "1380a76393aad3a8",
      "phrase": {
-      "en": "One of deadliest drone attacks",
-      "zh": "最致命无人机袭击之一"
+      "en": "stresses civilian casualties",
+      "zh": "强调平民伤亡"
      },
      "section": "news",
      "source": "BBC World",
      "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "bd6bea596f11df60",
+     "item_id": "abc906011176a620",
      "phrase": {
-      "en": "Targets oil, causes shortages",
-      "zh": "打击石油致短缺"
+      "en": "links to oil pressure",
+      "zh": "关联石油施压"
      },
      "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/10/nx-s1-5927024/ukrainian-drone-attack-russia"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/aug/10/ukraine-drones-russia-oil-facilities-europe-heat-drought-latest-updates-news"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Deadly drone strikes deepen the conflict as oil refineries become targets.",
-    "zh": "致命无人机袭击加深冲突，炼油厂成为目标。"
+    "en": "Drone attacks deep into Russia, altering war's geography.",
+    "zh": "深入俄境的无人机袭击改变战争地理。"
    },
-   "id": "t1",
+   "id": "t2",
    "keyword": {
-    "en": "Ukraine drone war",
-    "zh": "乌克兰无人机战"
+    "en": "Ukraine drone strikes",
+    "zh": "乌克兰无人机袭击"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track geopolitical AI use; today's strikes show drones' strategic role.",
-    "zh": "你关注地缘政治中的AI应用，今日袭击显示无人机的战略作用。"
+    "en": "You track geopolitics via news: today's strikes mark a deadly escalation you might have missed.",
+    "zh": "你关注地缘政治新闻，今日袭击标志严重升级。"
    }
   },
   {
    "angles": [
     {
-     "full_text_file": "articles/news/b70c76411c5eeb53.json",
-     "item_id": "b70c76411c5eeb53",
-     "phrase": {
-      "en": "Peer review overwhelmed by AI era",
-      "zh": "同行评审被AI时代淹没"
-     },
-     "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/"
-    },
-    {
      "item_id": "0a9ba5b88b8e861d",
      "phrase": {
-      "en": "AI cheating threatens online degrees",
-      "zh": "AI作弊威胁在线学位"
+      "en": "agents cheat courses",
+      "zh": "智能体代考"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/08/10/us/ai-cheating-threatens-the-value-of-online-degrees.html"
+    },
+    {
+     "full_text_file": "articles/news/b70c76411c5eeb53.json",
+     "item_id": "b70c76411c5eeb53",
+     "phrase": {
+      "en": "peer review overwhelmed",
+      "zh": "同行评审超载"
+     },
+     "section": "news",
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "AI cheating undermines online degrees, while peer review strains under AI papers.",
-    "zh": "AI作弊损害在线学位，同行评审因AI论文承压。"
+    "en": "AI writes, reviews, and cheats—academia adapts slowly.",
+    "zh": "AI写作、评审、作弊，学术界缓慢适应。"
    },
-   "id": "t2",
+   "id": "t3",
    "keyword": {
-    "en": "AI in education",
-    "zh": "AI与教育"
+    "en": "AI in academia",
+    "zh": "学术AI应用"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You're interested in HCI and tech ethics; both stories touch AI's unintended effects.",
-    "zh": "你关注人机交互与技术伦理，两故事触及AI意外影响。"
+    "en": "You work in research: AI's role in peer review and cheating directly touches your field.",
+    "zh": "你从事研究，AI改变同行评审与学术诚信，直接相关。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "full_text_file": "articles/news/3879d0d53aba2c77.json",
+     "item_id": "3879d0d53aba2c77",
+     "phrase": {
+      "en": "Ford's new feature",
+      "zh": "福特新功能"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/transportation/976748/ford-ai-assistant-mobile-app"
+    },
+    {
+     "item_id": "7370bb1d33e19027",
+     "phrase": {
+      "en": "local agentic models",
+      "zh": "本地智能体模型"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://twitter.com/finkd/status/2086754845218726027"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Cars talk back, checking fuel and more.",
+    "zh": "汽车能对话，检查油量等。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "AI assistants in cars",
+    "zh": "车载AI助手"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow embodied AI: Ford's new assistant is a concrete step toward AI in physical spaces.",
+    "zh": "你关注具身AI，福特助手是实体空间AI的具体进展。"
    }
   }
  ]

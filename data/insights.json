@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "slug racing championship OR world slug racing",
+  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
   "source": {
-   "name": "Nieuwsfiets Media",
-   "published_at": "2026-08-06T15:50:17Z",
-   "title": "Tour Femmes 2026: Kim Le Court pikt haar etappe mee, hoofdrol Riejanne Markus en Puck Pieterse",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcmpScWZfYkl3NmNhZklwMnVkWVFueGdNdEdSbWpScGIyN1pPWDNkckZnckVROUliSjhzMHRISEkyM0dGWmRIS0t5T0E5UmVLLWNOSXV5c0JnN3Qtb0lEZjk3RnlncEZkQUZLMHlqcXhGVlB4NFlNdUFOT01MVEhYM3drS3U0a0FLdzRTLXptYTUtWFdsN2lTTkJIT2tQN01tUkMyRU1YWDEyRElyS3hoR1pYWHdFRVZ6YlpNQlNkcTJZYlQtd0E?oc=5"
+   "name": "thatslife.com.au",
+   "published_at": "2026-08-04T00:51:08Z",
+   "title": "Oh my gourd! Meet the Aussie bloke who paddled in a giant pumpkin",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pc3kyb0xrM2RkQ2FNOGpla3JFd1RpY0ZDcWdxejdGbThsZ2sxNVM3ZEZLRmRKR3RaZkxMMGZzZUJfdDBjT0VfV0QyRUdUdUxBWVNFcnBJOThvWWNRWDcwdmVSMUZ2dm1VaDZfa1Bra2o4MlpPQjkwNU01TTRQMXM?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "Kim Le Court wins a stage in the 2026 Tour Femmes, with Riejanne Markus and Puck Pieterse taking center roles.",
-    "why_irrelevant": "It's niche women's cycling news, far from your tech and AI feed."
+    "summary": "An Australian man paddled across a river inside a giant pumpkin, showcasing a quirky record attempt.",
+    "why_irrelevant": "It's a whimsical human-interest story, not from your usual tech and finance feed."
    },
    "zh": {
-    "summary": "金·勒库尔在2026年女子环法赛中获得一个赛段冠军，里扬内·马库斯和帕克·皮特瑟担任主角。",
-    "why_irrelevant": "这是小众女子自行车新闻，与你的科技和AI信息流无关。"
+    "summary": "一名澳洲男子坐在巨型南瓜里划船过河，展示了一次古怪的纪录挑战。",
+    "why_irrelevant": "这是一条趣闻轶事，不符合你常看的科技和财经资讯。"
    }
   },
-  "topic": "competitive slug racing"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news spans UK political controversies and heat alerts, a deadly Ukrainian drone strike in Russia, and a Roman shipwreck discovery, while AI research debates peer review and Meta releases a new open-weight model. Papers focus on diverse topics from permeability estimation to urban flood monitoring.",
+ "brief": "Today's news spans geopolitical tensions, AI's social impact, environmental alerts, and political controversies, while new research covers topics from oil reservoir analysis to flood monitoring and music perception.",
  "meta": {
-  "generated_at": "2026-08-10T11:19:55Z"
+  "generated_at": "2026-08-10T13:41:09Z"
  },
- "news_summary": "UK politics dominate with Farage and Miller controversies, plus heat warnings and Channel crossings; Ukraine's drone attack killing 13 in Russia is a major development, alongside a Roman shipwreck find in Sicily.",
- "papers_summary": "Research covers machine learning in petroleum geology, IoT flood monitoring, and HLA imputation, reflecting applied AI and environmental monitoring themes.",
+ "news_summary": "Key stories include rising oil prices due to Strait of Hormuz stalemate, AI's influence on youth, heat alerts in England, deadly drone strikes in Russia, and debates over surveillance cameras.",
+ "papers_summary": "Papers address technical advances in permeability estimation, flood monitoring, HLA matching, and music identification from brain activity, alongside datasets for Indian power plants.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans UK political controversies and heat alerts, a deadly Ukrainian drone strike in Russia, and a Roman shipwreck discovery, while AI research debates peer review and Meta releases a new open-weight model. Papers focus on diverse topics from permeability estimation to urban flood monitoring.",
-   "news_summary": "UK politics dominate with Farage and Miller controversies, plus heat warnings and Channel crossings; Ukraine's drone attack killing 13 in Russia is a major development, alongside a Roman shipwreck find in Sicily.",
-   "papers_summary": "Research covers machine learning in petroleum geology, IoT flood monitoring, and HLA imputation, reflecting applied AI and environmental monitoring themes."
+   "brief": "Today's news spans geopolitical tensions, AI's social impact, environmental alerts, and political controversies, while new research covers topics from oil reservoir analysis to flood monitoring and music perception.",
+   "news_summary": "Key stories include rising oil prices due to Strait of Hormuz stalemate, AI's influence on youth, heat alerts in England, deadly drone strikes in Russia, and debates over surveillance cameras.",
+   "papers_summary": "Papers address technical advances in permeability estimation, flood monitoring, HLA matching, and music identification from brain activity, alongside datasets for Indian power plants."
   },
   "zh": {
-   "brief": "今日焦点：航空业对锂电池安全日益警惕，台风“白海豚”袭击中国东部并导致大规模疏散；同时，乌克兰无人机袭击俄罗斯工业城市造成伤亡，Meta发布新的开源AI模型。",
-   "news_summary": "中文新闻涵盖航空公司警告锂电池风险、霍格沃茨粉丝成功使电缆改道、《哈利波特》相关，以及伊朗向美国提出重开霍尔木兹海峡的条件。国际新闻关注乌克兰无人机袭击和Meta新模型。",
-   "papers_summary": "今日研究论文多聚焦于技术应用，如机器学习预测渗透率、物联网洪水监测、HLA配型算法等，以及GIS和数字孪生框架用于地震评估。"
+   "brief": "今日焦点包括伊朗就霍尔木兹海峡向美国提出条件，超强台风\"白海豚\"登陆中国东部，以及英国班克斯作品引发公帑争议。科研方面，多项研究涉及AI、物联网和水文监测。",
+   "news_summary": "伊朗就重开霍尔木兹海峡向美国提出六项条件，同时超强台风'白海豚'登陆中国东部并北移，导致百万人疏散。此外，英国《哈利波特》粉丝成功促使海底电缆改道，以及班克斯作品已花费英国纳税人近15万英镑。",
+   "papers_summary": "今日论文涵盖基于机器学习的渗透率估算、FTTH用户增长监测系统、物联网实时水位监测系统以及HLA分型算法等，涉及地质、通信、洪灾预警和医学领域。"
   }
  },
  "todays_image": {
-  "caption": "Like an amphora once held oil, the revived arson probe now carries a flammable charge for Farage.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1929.8.157.21_1",
-  "source_name": "Smithsonian American Art Museum",
-  "source_url": "https://americanart.si.edu/collections/search/artwork/?id=30868",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1929.8.157.21_1",
-  "title": "Amphora"
+  "caption": "Like Lobophora sp. drifting on ocean currents, oil prices are rising on the stalled currents of the Strait of Hormuz.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3a20dbcaf-62f6-4dd2-b936-69074b28dad5",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7/90",
+  "title": "Lobophora sp."
  }
 }
