@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
+  "query": "slug racing championship OR world slug racing",
   "source": {
-   "name": "WRDW",
-   "published_at": "2026-08-08T02:56:00Z",
-   "title": "Columbia County neighbors react to expected growth",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPM3Y1bF9FTVRRUDROcmlxVFRiT1lGcmpLUTZ2TUh4NUdfVDM3QVE2ZzAyTGgydlB1eHNvdHJrUFhEbWpXd3oybTdJTUJ1aTFnVU93VFI2M1JvYm1rVlNGTS1tTS15Tm9rUmxzX1dVX1lybGtrcGx1MkZkeVdOeWxKTmZlUEE2VXFlRktRUEw4Wm5fUXpuUHZUV3lWQdIBmwFBVV95cUxPM3Y1bF9FTVRRUDROcmlxVFRiT1lGcmpLUTZ2TUh4NUdfVDM3QVE2ZzAyTGgydlB1eHNvdHJrUFhEbWpXd3oybTdJTUJ1aTFnVU93VFI2M1JvYm1rVlNGTS1tTS15Tm9rUmxzX1dVX1lybGtrcGx1MkZkeVdOeWxKTmZlUEE2VXFlRktRUEw4Wm5fUXpuUHZUV3lWQQ?oc=5"
+   "name": "Nieuwsfiets Media",
+   "published_at": "2026-08-06T15:50:17Z",
+   "title": "Tour Femmes 2026: Kim Le Court pikt haar etappe mee, hoofdrol Riejanne Markus en Puck Pieterse",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcmpScWZfYkl3NmNhZklwMnVkWVFueGdNdEdSbWpScGIyN1pPWDNkckZnckVROUliSjhzMHRISEkyM0dGWmRIS0t5T0E5UmVLLWNOSXV5c0JnN3Qtb0lEZjk3RnlncEZkQUZLMHlqcXhGVlB4NFlNdUFOT01MVEhYM3drS3U0a0FLdzRTLXptYTUtWFdsN2lTTkJIT2tQN01tUkMyRU1YWDEyRElyS3hoR1pYWHdFRVZ6YlpNQlNkcTJZYlQtd0E?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "Residents in Columbia County are discussing the local impact of new development plans, unrelated to any pumpkin-themed events.",
-    "why_irrelevant": "This is about community growth, not pumpkins or seasonal festivities."
+    "summary": "Kim Le Court wins a stage in the 2026 Tour Femmes, with Riejanne Markus and Puck Pieterse taking center roles.",
+    "why_irrelevant": "It's niche women's cycling news, far from your tech and AI feed."
    },
    "zh": {
-    "summary": "哥伦比亚县居民正在讨论新开发计划对当地的影响，与南瓜主题活动无关。",
-    "why_irrelevant": "这涉及社区发展，而非南瓜或季节庆典。"
+    "summary": "金·勒库尔在2026年女子环法赛中获得一个赛段冠军，里扬内·马库斯和帕克·皮特瑟担任主角。",
+    "why_irrelevant": "这是小众女子自行车新闻，与你的科技和AI信息流无关。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "competitive slug racing"
  },
- "brief": "Europe and the US are confronting extreme heat and drought while Ukraine escalates drone strikes deep into Russia; meanwhile, new research tackles AI reasoning, water monitoring, and genetic matching.",
+ "brief": "Today's news spans UK political controversies and heat alerts, a deadly Ukrainian drone strike in Russia, and a Roman shipwreck discovery, while AI research debates peer review and Meta releases a new open-weight model. Papers focus on diverse topics from permeability estimation to urban flood monitoring.",
  "meta": {
-  "generated_at": "2026-08-10T09:46:07Z"
+  "generated_at": "2026-08-10T11:19:55Z"
  },
- "news_summary": "Heatwaves and drought grip Europe and England, Ukraine mounts deadly drone attacks on Russian oil facilities, and the Tupac murder trial begins, alongside political and social developments in the US.",
- "papers_summary": "Papers cover diverse topics from machine learning for reservoir modeling to IoT flood monitoring and AI music identification, with a focus on practical applications.",
+ "news_summary": "UK politics dominate with Farage and Miller controversies, plus heat warnings and Channel crossings; Ukraine's drone attack killing 13 in Russia is a major development, alongside a Roman shipwreck find in Sicily.",
+ "papers_summary": "Research covers machine learning in petroleum geology, IoT flood monitoring, and HLA imputation, reflecting applied AI and environmental monitoring themes.",
  "summaries": {
   "en": {
-   "brief": "Europe and the US are confronting extreme heat and drought while Ukraine escalates drone strikes deep into Russia; meanwhile, new research tackles AI reasoning, water monitoring, and genetic matching.",
-   "news_summary": "Heatwaves and drought grip Europe and England, Ukraine mounts deadly drone attacks on Russian oil facilities, and the Tupac murder trial begins, alongside political and social developments in the US.",
-   "papers_summary": "Papers cover diverse topics from machine learning for reservoir modeling to IoT flood monitoring and AI music identification, with a focus on practical applications."
+   "brief": "Today's news spans UK political controversies and heat alerts, a deadly Ukrainian drone strike in Russia, and a Roman shipwreck discovery, while AI research debates peer review and Meta releases a new open-weight model. Papers focus on diverse topics from permeability estimation to urban flood monitoring.",
+   "news_summary": "UK politics dominate with Farage and Miller controversies, plus heat warnings and Channel crossings; Ukraine's drone attack killing 13 in Russia is a major development, alongside a Roman shipwreck find in Sicily.",
+   "papers_summary": "Research covers machine learning in petroleum geology, IoT flood monitoring, and HLA imputation, reflecting applied AI and environmental monitoring themes."
   },
   "zh": {
-   "brief": "今日新闻焦点集中于伊朗对美提出的霍尔木兹海峡条件、强台风袭击中国东部、以及航空公司对锂电池的安全警告；而研究领域则涌现出多项技术创新，包括机器学习、物联网和数字孪生等。",
-   "news_summary": "新闻报道了伊朗就重开霍尔木兹海峡向美国提出条件，同时强台风'白海豚'影响中国东部并导致大规模疏散；此外，航空公司对锂电池运输加强安全警告，而班克斯的艺术作品已花费英国近15万英镑公帑。",
-   "papers_summary": "研究论文涵盖多个领域，如机器学习预测储层渗透率、FTTH用户增长预测、物联网洪水监测系统，以及数字孪生用于城市地震脆弱性评估等，展示了信息技术的广泛应用。"
+   "brief": "今日焦点：航空业对锂电池安全日益警惕，台风“白海豚”袭击中国东部并导致大规模疏散；同时，乌克兰无人机袭击俄罗斯工业城市造成伤亡，Meta发布新的开源AI模型。",
+   "news_summary": "中文新闻涵盖航空公司警告锂电池风险、霍格沃茨粉丝成功使电缆改道、《哈利波特》相关，以及伊朗向美国提出重开霍尔木兹海峡的条件。国际新闻关注乌克兰无人机袭击和Meta新模型。",
+   "papers_summary": "今日研究论文多聚焦于技术应用，如机器学习预测渗透率、物联网洪水监测、HLA配型算法等，以及GIS和数字孪生框架用于地震评估。"
   }
  },
  "todays_image": {
-  "caption": "The lighthouse design evokes a beacon guiding through darkness, much like the trial may finally shed light on the murky truth behind Tupac's murder.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-CH1078",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/30588",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-CH1078",
-  "title": "Design for a Lighthouse"
+  "caption": "Like an amphora once held oil, the revived arson probe now carries a flammable charge for Farage.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1929.8.157.21_1",
+  "source_name": "Smithsonian American Art Museum",
+  "source_url": "https://americanart.si.edu/collections/search/artwork/?id=30868",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1929.8.157.21_1",
+  "title": "Amphora"
  }
 }

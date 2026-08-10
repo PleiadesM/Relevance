@@ -1,47 +1,47 @@
 {
  "meta": {
-  "count": 3,
-  "generated_at": "2026-08-10T09:46:07Z",
+  "count": 2,
+  "generated_at": "2026-08-10T11:19:55Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "73bfac2648cae07d",
+     "item_id": "3cfc4ef6e297bc01",
      "phrase": {
-      "en": "Deadly strike deep in Russia",
-      "zh": "深入俄境致命袭击"
+      "en": "Deadliest attack on Russian soil",
+      "zh": "对俄本土最致命袭击"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/10/world/europe/ukrainian-drone-attack-kills-13-deep-inside-russia.html"
-    },
-    {
-     "item_id": "1380a76393aad3a8",
-     "phrase": {
-      "en": "Deadliest drone attack on Russia",
-      "zh": "对俄最致命无人机袭击"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss"
+     "url": "https://www.nytimes.com/2026/08/10/world/europe/ukraine-drone-attack-russia.html"
     },
     {
      "item_id": "abc906011176a620",
      "phrase": {
-      "en": "Drone attack on oil facilities",
-      "zh": "无人机袭击石油设施"
+      "en": "Strikes pressure Moscow's oil",
+      "zh": "打击施压莫斯科石油"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/world/live/2026/aug/10/ukraine-drones-russia-oil-facilities-europe-heat-drought-latest-updates-news"
     },
     {
+     "item_id": "1380a76393aad3a8",
+     "phrase": {
+      "en": "One of deadliest drone attacks",
+      "zh": "最致命无人机袭击之一"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss"
+    },
+    {
      "item_id": "bd6bea596f11df60",
      "phrase": {
-      "en": "Targets oil, causes fuel shortages",
-      "zh": "瞄准石油致燃料短缺"
+      "en": "Targets oil, causes shortages",
+      "zh": "打击石油致短缺"
      },
      "section": "news",
      "source": "NPR News",
@@ -50,116 +50,58 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Ukraine's drones hit deep into Russia, killing many.",
-    "zh": "乌克兰无人机深入俄境，致多人死亡。"
+    "en": "Deadly drone strikes deepen the conflict as oil refineries become targets.",
+    "zh": "致命无人机袭击加深冲突，炼油厂成为目标。"
    },
    "id": "t1",
    "keyword": {
-    "en": "drone strikes",
-    "zh": "无人机袭击"
+    "en": "Ukraine drone war",
+    "zh": "乌克兰无人机战"
    },
    "relates_to": [],
    "why_now": {
-    "en": "Geopolitics affects tech; this attack escalates conflict.",
-    "zh": "地缘政治影响科技，此袭击升级冲突。"
+    "en": "You track geopolitical AI use; today's strikes show drones' strategic role.",
+    "zh": "你关注地缘政治中的AI应用，今日袭击显示无人机的战略作用。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "af9d639744b23c6c",
+     "full_text_file": "articles/news/b70c76411c5eeb53.json",
+     "item_id": "b70c76411c5eeb53",
      "phrase": {
-      "en": "Million evacuated as storm arrives",
-      "zh": "风暴来临百万人撤离"
+      "en": "Peer review overwhelmed by AI era",
+      "zh": "同行评审被AI时代淹没"
      },
      "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o?at_medium=RSS&at_campaign=rss"
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/"
     },
     {
-     "item_id": "74676d624667d07c",
+     "item_id": "0a9ba5b88b8e861d",
      "phrase": {
-      "en": "Record rainfall in Shanghai",
-      "zh": "上海创纪录降雨"
+      "en": "AI cheating threatens online degrees",
+      "zh": "AI作弊威胁在线学位"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/10/typhoon-dolphin-china-shanghai-flooding-evacuations"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "China moves millions as Typhoon Dolphin hits.",
-    "zh": "台风海豚来袭，中国转移数百万人。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "typhoon evacuation",
-    "zh": "台风疏散"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You study HCI; disaster response UX is key today.",
-    "zh": "你研究人机交互，今日灾害响应用户体验关键。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "485c16cb2bc4fa8d",
-     "phrase": {
-      "en": "Explainable AI for edge devices",
-      "zh": "边缘设备可解释AI"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.07091v1"
-    },
-    {
-     "item_id": "e333fa89459e3e26",
-     "phrase": {
-      "en": "Fact-checking data-driven articles",
-      "zh": "事实核查数据文章"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.06804v1"
-    },
-    {
-     "item_id": "4b800022881086e1",
-     "phrase": {
-      "en": "Customized dance generation with control",
-      "zh": "定制舞蹈生成与控制"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.06722v1"
-    },
-    {
-     "item_id": "a3684b0f196c66ff",
-     "phrase": {
-      "en": "Touchscreen teleoperation interface",
-      "zh": "触摸屏遥操作界面"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.06219v1"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/10/us/ai-cheating-threatens-the-value-of-online-degrees.html"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Designing AI that fits human needs and contexts.",
-    "zh": "设计符合人类需求和情境的AI。"
+    "en": "AI cheating undermines online degrees, while peer review strains under AI papers.",
+    "zh": "AI作弊损害在线学位，同行评审因AI论文承压。"
    },
-   "id": "t3",
+   "id": "t2",
    "keyword": {
-    "en": "human-centered AI",
-    "zh": "人本AI"
+    "en": "AI in education",
+    "zh": "AI与教育"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You value HCI; new papers on explainable and interactive AI.",
-    "zh": "你重视人机交互，新论文关于可解释和交互AI。"
+    "en": "You're interested in HCI and tech ethics; both stories touch AI's unintended effects.",
+    "zh": "你关注人机交互与技术伦理，两故事触及AI意外影响。"
    }
   }
  ]
