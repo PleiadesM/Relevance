@@ -1,122 +1,140 @@
 {
  "meta": {
-  "count": 6,
-  "generated_at": "2026-08-10T17:06:38Z",
+  "count": 5,
+  "generated_at": "2026-08-10T19:14:33Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "1b2d1f384133a55e",
+     "item_id": "8cc75f88c7808a39",
      "phrase": {
-      "en": "AI-native finance insights",
-      "zh": "AI原生金融洞见"
+      "en": "Sanders wants AI pause",
+      "zh": "桑德斯呼吁暂停AI"
      },
      "section": "news",
-     "source": "OpenAI News",
-     "url": "https://openai.com/index/building-an-ai-native-finance-function"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/technology/2026/aug/10/bernie-sanders-ai-development-pause-letter"
     },
     {
-     "item_id": "5da7b1f015e00b21",
+     "full_text_file": "articles/news/a314f57a235b6e2f.json",
+     "item_id": "a314f57a235b6e2f",
      "phrase": {
-      "en": "GPU marketplace for AI",
-      "zh": "AI的GPU市场"
+      "en": "Zuckerberg envisions AI future",
+      "zh": "扎克伯格展望AI未来"
      },
      "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://www.stoaexchange.com"
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/tech/977395/meta-mark-zuckerberg-superintelligent-ai-ramble"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "AI is reshaping finance functions and markets.",
-    "zh": "AI正重塑金融功能与市场。"
+    "en": "Calls to pause AI development clash with industry's relentless push.",
+    "zh": "暂停AI的呼吁与行业推进相冲突。"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI in Finance",
-    "zh": "AI金融应用"
+    "en": "AI control",
+    "zh": "AI控制"
    },
    "relates_to": [
-    "t4"
-   ],
-   "timeline": [
-    {
-     "date": "2026-08-10",
-     "label": {
-      "en": "OpenAI CFO lessons",
-      "zh": "OpenAI CFO心得"
-     }
-    },
-    {
-     "date": "2026-08-10",
-     "label": {
-      "en": "GPU marketplace launch",
-      "zh": "GPU市场推出"
-     }
-    }
+    "t3"
    ],
    "why_now": {
-    "en": "You care about AI's practical impact: new tools and marketplaces are emerging today.",
-    "zh": "你关注AI实际应用，今日新工具与市场涌现。"
+    "en": "You follow AI policy: Sanders' call and Zuckerberg's manifesto frame the debate today.",
+    "zh": "你关注AI政策，今日桑德斯的呼吁与扎克伯格的宣言形成辩论。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "91d87cb0517a6967",
+     "item_id": "5da7b1f015e00b21",
      "phrase": {
-      "en": "Trump bullish, voters anxious",
-      "zh": "特朗普乐观选民忧"
+      "en": "GPU marketplace launches",
+      "zh": "GPU市场启动"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/10/business/trump-artificial-intelligence-data-centers-ai.html"
+     "source": "Hacker News (AI filter)",
+     "url": "https://www.stoaexchange.com"
     },
     {
      "item_id": "cab411f99e617148",
      "phrase": {
-      "en": "OpenAI seeks Texas support",
-      "zh": "OpenAI寻求德州支持"
+      "en": "OpenAI courts Texas",
+      "zh": "OpenAI示好德州"
      },
      "section": "news",
      "source": "OpenAI News",
      "url": "https://openai.com/index/responsible-ai-infrastructure-texas"
+    },
+    {
+     "item_id": "91d87cb0517a6967",
+     "phrase": {
+      "en": "Trump bullish on data centers",
+      "zh": "特朗普看好数据中心"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/10/business/trump-artificial-intelligence-data-centers-ai.html"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Nations and firms push AI infrastructure despite public concerns.",
-    "zh": "国家与企业推进AI基础设施，无视公众担忧。"
+    "en": "Data centers and GPU markets surge, raising local concerns.",
+    "zh": "数据中心和GPU市场激增，引发本地担忧。"
    },
    "id": "t2",
    "keyword": {
-    "en": "AI Infrastructure Expansion",
-    "zh": "AI基础设施扩张"
+    "en": "AI infrastructure",
+    "zh": "AI基础设施"
    },
    "relates_to": [
     "t1"
    ],
-   "timeline": [
+   "why_now": {
+    "en": "You track tech policy: Texas gets OpenAI's letter and a new GPU marketplace launches.",
+    "zh": "你关注科技政策，德州收到OpenAI信件，新GPU市场启动。"
+   }
+  },
+  {
+   "angles": [
     {
-     "date": "2026-08-10",
-     "label": {
-      "en": "OpenAI Texas letter",
-      "zh": "OpenAI德州信函"
-     }
+     "item_id": "bf47c5d794d05a22",
+     "phrase": {
+      "en": "Public opposes car cameras",
+      "zh": "公众反对车载摄像头"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/10/us/flock-cameras-can-track-every-car-in-america-police-love-them-citizens-dont.html"
     },
     {
-     "date": "2026-08-10",
-     "label": {
-      "en": "Trump bullish on data centers",
-      "zh": "特朗普看好数据中心"
-     }
+     "item_id": "9119051831bfbeff",
+     "phrase": {
+      "en": "Surveillance of journalists",
+      "zh": "记者遭监视"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/uk-news/2026/aug/10/arron-banks-surveillance-journalists-media"
     }
    ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Cameras watch cars, and journalists feel the watchful eye.",
+    "zh": "摄像头监控车辆，记者也感受到监视。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "surveillance tech",
+    "zh": "监控技术"
+   },
+   "relates_to": [],
    "why_now": {
-    "en": "You follow AI policy: today OpenAI courts Texas while voters grow anxious.",
-    "zh": "你关注AI政策，今日OpenAI示好德州，选民却日益焦虑。"
+    "en": "You care about privacy and HCI: new reporting shows broad dislike of Flock cameras.",
+    "zh": "你关注隐私与人机交互，新报道显示民众普遍反感监控摄像头。"
    }
   },
   {
@@ -124,8 +142,8 @@
     {
      "item_id": "bc7408805820c3ca",
      "phrase": {
-      "en": "Drone strike kills 13",
-      "zh": "无人机袭击致13死"
+      "en": "Kyiv targets Russian economy",
+      "zh": "基辅打击俄经济"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -134,8 +152,8 @@
     {
      "item_id": "3cfc4ef6e297bc01",
      "phrase": {
-      "en": "Industrial city hit",
-      "zh": "工业城市遭袭"
+      "en": "Deadly strike in Tatarstan",
+      "zh": "鞑靼斯坦致命袭击"
      },
      "section": "news",
      "source": "The New York Times",
@@ -144,199 +162,67 @@
     {
      "item_id": "1380a76393aad3a8",
      "phrase": {
-      "en": "Deadliest since invasion",
-      "zh": "入侵以来最致命"
+      "en": "One of deadliest attacks",
+      "zh": "最致命袭击之一"
      },
      "section": "news",
      "source": "BBC World",
      "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "abc906011176a620",
-     "phrase": {
-      "en": "Zelenskyy links to pressure",
-      "zh": "泽连斯基关联施压"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/aug/10/ukraine-drones-russia-oil-facilities-europe-heat-drought-latest-updates-news"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Ukraine's deep drone strikes escalate, killing civilians and targeting refineries.",
-    "zh": "乌克兰无人机深入打击升级，致平民死亡并袭击炼油厂。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "Drone Warfare",
-    "zh": "无人机战"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You observe global conflict dynamics: today's strikes mark a deadly escalation.",
-    "zh": "你观察全球冲突动态，今日打击标志致命升级。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "63e99733d63259fc",
-     "phrase": {
-      "en": "Some contractor error",
-      "zh": "承包商有误"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/10/us/politics/trump-reflecting-pool-renovation-vandalism.html"
-    },
-    {
-     "item_id": "046941fdc1d8f4a5",
-     "phrase": {
-      "en": "Lawyers say attack",
-      "zh": "律师称攻击"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/live/2026/aug/10/ohio-republicans-max-miller-domestic-abuse-allegations-us-politics-live-latest-news"
-    },
-    {
-     "item_id": "c56ba9ccda6f6729",
-     "phrase": {
-      "en": "Renews vandalism claim",
-      "zh": "重申破坏指控"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/aug/10/trump-reflecting-pool-makeover-vandalism-claim"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Trump's reflecting pool blame shifts amid contractor error admission.",
-    "zh": "特朗普在承包商错误承认中调整了倒影池的归咎。"
+    "en": "Deep strikes inside Russia raise costs and questions.",
+    "zh": "深入俄境的袭击增加代价与疑问。"
    },
    "id": "t4",
    "keyword": {
-    "en": "Political Scandal",
-    "zh": "政治丑闻"
+    "en": "Ukraine drones",
+    "zh": "乌克兰无人机"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track political rhetoric and accountability: today the narrative pivots.",
-    "zh": "你关注政治话语与责任，今日叙事转向。"
+    "en": "You follow geopolitics: today's reports detail a deadly drone attack and its implications.",
+    "zh": "你关注地缘政治，今日报道详述致命无人机袭击及其影响。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "664b81d5434dafa1",
+     "item_id": "d9757f1e4489e368",
      "phrase": {
-      "en": "AI assistant pulled back",
-      "zh": "AI助手被撤回"
+      "en": "Rejection is risky move",
+      "zh": "拒绝是冒险之举"
      },
      "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://www.wcax.com/2026/08/07/kinney-drugs-pulls-back-ai-phone-assistant-after-hundreds-customer-complaints/"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/10/benjamin-netanyahu-rejection-us-deal-gaza-risky-gamble"
     },
     {
-     "item_id": "bf47c5d794d05a22",
+     "item_id": "ad84c6177233fe4a",
      "phrase": {
-      "en": "Cameras track every car",
-      "zh": "摄像头追踪每辆车"
+      "en": "Seen as campaign rhetoric",
+      "zh": "被视为竞选言论"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/10/us/flock-cameras-can-track-every-car-in-america-police-love-them-citizens-dont.html"
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/ce3q5282ep3o?at_medium=RSS&at_campaign=rss"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "AI-driven surveillance expands, sparking privacy pushback.",
-    "zh": "AI驱动的监控扩展，引发隐私反弹。"
+    "en": "Netanyahu rejects a US plan, but allies shrug it off.",
+    "zh": "内塔尼亚胡拒绝美国计划，盟友不以为意。"
    },
    "id": "t5",
    "keyword": {
-    "en": "Surveillance and AI",
-    "zh": "监控与AI"
+    "en": "Gaza deal",
+    "zh": "加沙协议"
    },
    "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-08-10",
-     "label": {
-      "en": "Flock cameras tracked",
-      "zh": "Flock摄像头追踪"
-     }
-    },
-    {
-     "date": "2026-08-10",
-     "label": {
-      "en": "AI assistant complaints",
-      "zh": "AI助手投诉"
-     }
-    }
-   ],
    "why_now": {
-    "en": "You study HCI and privacy: new camera networks and AI assistants face backlash today.",
-    "zh": "你研究人机交互与隐私，今日新摄像头网络与AI助手遭抵制。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "full_text_file": "articles/news/a314f57a235b6e2f.json",
-     "item_id": "a314f57a235b6e2f",
-     "phrase": {
-      "en": "Zuckerberg's AI vision",
-      "zh": "扎克伯格AI愿景"
-     },
-     "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/tech/977395/meta-mark-zuckerberg-superintelligent-ai-ramble"
-    },
-    {
-     "full_text_file": "articles/news/d10bc53977862465.json",
-     "item_id": "d10bc53977862465",
-     "phrase": {
-      "en": "Startups chase next LLMs",
-      "zh": "创企追逐下代LLM"
-     },
-     "section": "news",
-     "source": "MIT Technology Review · AI",
-     "url": "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "New startups and manifestos signal the next phase of language models.",
-    "zh": "新创企与宣言预示语言模型下一阶段。"
-   },
-   "id": "t6",
-   "keyword": {
-    "en": "LLM Advancements",
-    "zh": "LLM进展"
-   },
-   "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-08-10",
-     "label": {
-      "en": "Zuckerberg manifesto",
-      "zh": "扎克伯格宣言"
-     }
-    },
-    {
-     "date": "2026-08-10",
-     "label": {
-      "en": "Startups chase next LLMs",
-      "zh": "创企追逐下代LLM"
-     }
-    }
-   ],
-   "why_now": {
-    "en": "You follow LLM trends: today's essays and startups define the frontier.",
-    "zh": "你关注LLM趋势，今日的文章与创企定义前沿。"
+    "en": "You track diplomacy: the deal's rejection may be theater, not final.",
+    "zh": "你关注外交，拒绝可能是姿态而非定局。"
    }
   }
  ]
