@@ -2,652 +2,501 @@
  "items": [
   {
    "authors": [
-    "Alain Bernard",
-    "Jonathan Cottenet",
-    "Pierre-Benoît Pagès",
-    "Catherine Quantin"
+    "Nwakanma Alexander",
+    "Emmanuel Ekpenyong",
+    "Maduabuchi Ogu"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Minimally invasive surgical approaches have gained widespread adoption, yet comparative evidence integrating multiple hierarchical endpoints remains limited. Our objective was to compare the surgical approaches for lung cancer resection (thoracotomy, VATS, robot-assisted surgery) using a four-level hierarchical composite endpoint of postoperative morbidity and mortality, and the Win Ratio (WR) method, which respects the clinical priority of outcomes, and offers a novel framework for such…",
+    "abstract_snippet": "Abstract Accurate permeability estimation is essential for optimum reservoir characterization, simulation, and development planning; however, its prediction remains challenging due to the limited availability of core-derived permeability measurements, often constrained by acquisition cost and data coverage. This study presents an integrated machine learning workflow for permeability prediction calibrated against core permeability data using wireline log information from wells located in western…",
     "citations": 0,
-    "doi": "10.1038/s41598-026-65652-9"
+    "doi": "10.2118/235071-ms"
    },
-   "id": "4a934e0f1c485ba5",
+   "id": "dbc0a1b3c1587cd7",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-08T00:00:00Z",
-   "score": 0.4521,
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.5841,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Minimally invasive surgical approaches have gained widespread adoption, yet comparative evidence integrating multiple hierarchical endpoints remains limited. Our objective was to compare the surgical approaches for lung cancer resection (thoracotomy, VATS, robot-assisted surgery) using a four-level…",
-   "tags": [],
-   "title": "Win ratio analysis of surgical approaches for lung cancer: a nationwide observational study using the French national hospital discharge database",
-   "url": "https://doi.org/10.1038/s41598-026-65652-9",
-   "venue": "Scientific Reports"
-  },
-  {
-   "authors": [
-    "Mariana Martins Guerreiro",
-    "Amanda Paino Santana",
-    "Daniela Moreira Cunha",
-    "Gabriel Mulinari‐Santos",
-    "Marlise I. Klein",
-    "Edílson Ervolino"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "AIM: This study aimed to assess the antimicrobial performance and biocompatibility of our drug delivery platform, based on layer-by-layer (LbL) coating incorporating tetracycline (TC) complexed with anionic β-cyclodextrin (TCβCD) and a pH-responsive poly(methacrylic acid) (PMAA) film, applied to titanium (Ti) surfaces representing abutment components. METHODS: A rat subcutaneous implant-related infection model was established using a polymicrobial biofilm derived from peri-implantitis patient…",
-    "citations": 0,
-    "doi": "10.1111/jre.70156"
-   },
-   "id": "2d7d4e5ac6296e22",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-08T00:00:00Z",
-   "score": 0.4521,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "AIM: This study aimed to assess the antimicrobial performance and biocompatibility of our drug delivery platform, based on layer-by-layer (LbL) coating incorporating tetracycline (TC) complexed with anionic β-cyclodextrin (TCβCD) and a pH-responsive poly(methacrylic acid) (PMAA) film, applied to…",
-   "tags": [],
-   "title": "Smart Coatings Integrating Antimicrobial and Tissue‐Remodeling Functions for Implant Interfaces",
-   "url": "https://doi.org/10.1111/jre.70156",
-   "venue": "Journal of Periodontal Research"
-  },
-  {
-   "authors": [
-    "Kelly W. Harris",
-    "Samantha Syme",
-    "Nadine A. Kasparian",
-    "Judy C. Chang",
-    "Robert M. Arnold",
-    "Hailey W. Bulls"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Prenatal diagnosis of congenital heart disease (CHD) causes parental distress, at least in part due to uncertainties regarding the diagnosis, prognosis, treatment, and family impact. In initial fetal cardiology consultations, over half of dialogue focuses on uncertainties, and clinician communication can influence how parents cope. No prior study has gathered parental perspectives on what would be helpful when communicating about uncertainties in these initial conversations. The objective of…",
-    "citations": 0,
-    "doi": "10.1007/s00246-026-04416-8"
-   },
-   "id": "9658834692b441b7",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-08T00:00:00Z",
-   "score": 0.4521,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Prenatal diagnosis of congenital heart disease (CHD) causes parental distress, at least in part due to uncertainties regarding the diagnosis, prognosis, treatment, and family impact. In initial fetal cardiology consultations, over half of dialogue focuses on uncertainties, and clinician…",
-   "tags": [],
-   "title": "Parent Perspectives on Optimal Communication About a New Prenatal Diagnosis of Complex Congenital Heart Disease: A Concept Mapping Study",
-   "url": "https://doi.org/10.1007/s00246-026-04416-8",
-   "venue": "Pediatric Cardiology"
-  },
-  {
-   "authors": [
-    "Cheng-Hung Tsai",
-    "Jason Stajich"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "This is a Python re-implementation of the OrthoRefine, which is written in C++ but having some issues with sample matching and memory usage. This tool is designed to be more efficient, easier to use, and more flexible for custom analyses. We also provide a companion visualization tool, orthosynassign-vis, for users to verify the results. This refined version includes improved memory management and a streamlined workflow for assigning syntenic regions, addressing limitations identified in the…",
-    "citations": 0,
-    "doi": "10.5281/zenodo.18762979"
-   },
-   "id": "867aa6c28d0d0ae1",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-08T00:00:00Z",
-   "score": 0.3146,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "This is a Python re-implementation of the OrthoRefine, which is written in C++ but having some issues with sample matching and memory usage. This tool is designed to be more efficient, easier to use, and more flexible for custom analyses. We also provide a companion visualization tool,…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "orthoSynAssign - a Python tool to refine orthogroups using synteny information",
-   "url": "https://doi.org/10.5281/zenodo.18762979",
-   "venue": "Zenodo (CERN European Organization for Nuclear Research)"
-  },
-  {
-   "authors": [
-    "Meenal Kamlakar",
-    "Lalit Patil",
-    "Dipti D. Patil"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Preterm delivery is one of the major contributors to mortality and morbidity among infants. Infants born prematurely are more susceptible to respiratory, neurological, and other complications that can cause developmental issues throughout their lives. It is therefore crucial to identify pregnancies at high risk of preterm delivery as early as possible to take timely interventions, reducing mortality and complications among infants. Electrohysterography, which detects the electrical activity of…",
-    "citations": 0,
-    "doi": "10.14445/22315381/ijett-v74i7p128"
-   },
-   "id": "dbbb768b45f26537",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-08T00:00:00Z",
-   "score": 0.3146,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Preterm delivery is one of the major contributors to mortality and morbidity among infants. Infants born prematurely are more susceptible to respiratory, neurological, and other complications that can cause developmental issues throughout their lives. It is therefore crucial to identify pregnancies…",
-   "tags": [
-    "systems"
-   ],
-   "title": "Multimodal Preterm Birth Prediction Using Electrohysterogram Signals and Clinical Data via a Hybrid CNN-BiLSTM Ensemble Framework",
-   "url": "https://doi.org/10.14445/22315381/ijett-v74i7p128",
-   "venue": "International Journal of Engineering Trends and Technology"
-  },
-  {
-   "authors": [
-    "Alison Chaves",
-    "Pedro Galdiano",
-    "André Alberkovics"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Release note In this release: Thanks to the peer-review process, we were able to significantly improve proteOmni. In this version, we corrected two key issues: The statistical power calculation — which previously used the pwr package and derived alpha from a t-test — now uses the p-value corrected for multiple comparisons from limma. The PSManalyst module displayed a pI distribution for peptides based on averaged pKa values; this calculation has been corrected, and the output is now presented…",
-    "citations": 0,
-    "doi": "10.5281/zenodo.21195113"
-   },
-   "id": "ff9fd7ff258fc931",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-08T00:00:00Z",
-   "score": 0.3146,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Release note In this release: Thanks to the peer-review process, we were able to significantly improve proteOmni. In this version, we corrected two key issues: The statistical power calculation — which previously used the pwr package and derived alpha from a t-test — now uses the p-value corrected…",
-   "tags": [],
-   "title": "41ison/proteOmni: ProteOmni v.1.2.0",
-   "url": "https://doi.org/10.5281/zenodo.21195113",
-   "venue": "Zenodo (CERN European Organization for Nuclear Research)"
-  },
-  {
-   "authors": [
-    "Shimaa M. Hadwa",
-    "Safa B. Alawy",
-    "Ibrahim A. Kabbash",
-    "Shaimaa S. El-Desouky"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "OBJECTIVES: Reliable sex estimation using dental metrics has important implications for clinical assessment and forensic identification, particularly in adolescents where skeletal indicators may be limited. This study aimed to validate the accuracy and clinical applicability of a digital odontometric model for sex estimation in an Egyptian adolescent population. METHODS: A total of 150 dental casts from individuals aged 12-19 years were digitized using a high-resolution three-dimensional…",
-    "citations": 0,
-    "doi": "10.1186/s12903-026-09486-x"
-   },
-   "id": "0b81a34c3c18cd1c",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-08T00:00:00Z",
-   "score": 0.4521,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "OBJECTIVES: Reliable sex estimation using dental metrics has important implications for clinical assessment and forensic identification, particularly in adolescents where skeletal indicators may be limited. This study aimed to validate the accuracy and clinical applicability of a digital…",
-   "tags": [],
-   "title": "Digital odontometric analysis for sex estimation in Egyptian adolescents",
-   "url": "https://doi.org/10.1186/s12903-026-09486-x",
-   "venue": "BMC Oral Health"
-  },
-  {
-   "authors": [
-    "Erika Rayra Lima Nonato",
-    "Carlos Luiz da Silva",
-    "Moema Barbosa de Sousa",
-    "Paulo César da Silva Santos",
-    "Ricardo Gallo",
-    "Diércules Rodrigues dos Santos"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Rhizobium spp. inoculation is a strategy to promote plant growth and enhance drought tolerance, particularly in semiarid environments. This study evaluated the morphological and physiological responses of Mimosa tenuiflora (Willd.) seedlings inoculated with Rhizobium spp. under different water contents. Seeds were collected from 12 naturally growing mother trees (Patos, Paraíba, Brazil). No specific genotype or cultivar was used. A completely randomized experiment was conducted in a 5 × 2…",
-    "citations": 0,
-    "doi": "10.1007/s44372-026-00812-9"
-   },
-   "id": "37751a8407660bc8",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-08T00:00:00Z",
-   "score": 0.4521,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Rhizobium spp. inoculation is a strategy to promote plant growth and enhance drought tolerance, particularly in semiarid environments. This study evaluated the morphological and physiological responses of Mimosa tenuiflora (Willd.) seedlings inoculated with Rhizobium spp. under different water…",
-   "tags": [],
-   "title": "Rhizobium spp. strains improve the physiological attributes of Mimosa tenuiflora (Willd.) Poiret seedlings under different water contents",
-   "url": "https://doi.org/10.1007/s44372-026-00812-9",
-   "venue": "Discover Plants."
-  },
-  {
-   "authors": [
-    "Kalaivanan Syasyila",
-    "Mohammad Rahim Kamaluddin",
-    "Hilwa Abdullah Mohd.Nor",
-    "Ashlee Curtis",
-    "Kartini Abd Ghani",
-    "Lim L. Gin"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Drug-related crimes are a multifaceted issue with significant social consequences. With rising recidivism rates, it is crucial that more emphasis is placed on the cognitive patterns that underlie such offences to enable effective behavior change. This study sought to explore how cognitive processes are associated with drug-related offences in incarcerated males in Malaysia. Semi-structured interviews were conducted with 27 incarcerated males. Interpretative phenomenological analysis (IPA)…",
-    "citations": 0,
-    "doi": "10.1038/s41598-026-65690-3"
-   },
-   "id": "741e0e1591e877c7",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-08T00:00:00Z",
-   "score": 0.3146,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Drug-related crimes are a multifaceted issue with significant social consequences. With rising recidivism rates, it is crucial that more emphasis is placed on the cognitive patterns that underlie such offences to enable effective behavior change. This study sought to explore how cognitive processes…",
-   "tags": [],
-   "title": "Exploring cognitive patterns underpinning drug offending among incarcerated men: an interpretative phenomenological analysis",
-   "url": "https://doi.org/10.1038/s41598-026-65690-3",
-   "venue": "Scientific Reports"
-  },
-  {
-   "authors": [
-    "Solomon Saiki",
-    "AGU VICTOR EMEZIE",
-    "ODIA AKHERE KELVIN",
-    "ADETOYINBO KOLADE"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "This paper presents an integrated system design for autonomous quadcopter flight path generation using the MAVLink protocol and a custom Ground Control Station (GCS) for precision agricultural crop monitoring. The system combines three coverage path algorithms (Boustrophedon, Spiral, and Energy-Optimized), a Pixhawk 4 / ArduPilot flight stack, a MicaSense RedEdge-P multispectral payload, and a ROS2-based GCS for mission planning, telemetry, and vegetation-index-based crop health assessment. The…",
-    "citations": 0,
-    "doi": "10.30574/gjeta.2026.28.2.0201"
-   },
-   "id": "f01212df7764be6c",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-08T00:00:00Z",
-   "score": 0.3146,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "This paper presents an integrated system design for autonomous quadcopter flight path generation using the MAVLink protocol and a custom Ground Control Station (GCS) for precision agricultural crop monitoring. The system combines three coverage path algorithms (Boustrophedon, Spiral, and…",
-   "tags": [
-    "systems"
-   ],
-   "title": "Autonomous Quadcopter Flight Path Generation via MAVLink and Ground Control Station Architecture for Precision Agricultural Crop Monitoring",
-   "url": "https://doi.org/10.30574/gjeta.2026.28.2.0201",
-   "venue": "Global Journal of Engineering and Technology Advances"
-  },
-  {
-   "authors": [
-    "Lin Jing"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "This repository contains the processed data and analysis code supporting the manuscript \"Hydroclimatic regime shift weakens snowmelt regulation of summer heat extremes in northern China\". The archive includes processed datasets underlying the main figures and statistical analyses, together with the scripts used for data processing, analysis, and visualization. Information on the original data sources, access conditions, and preprocessing procedures is provided in the README file. These files…",
-    "citations": 0,
-    "doi": "10.5281/zenodo.21850608"
-   },
-   "id": "e81bd1e000b7b817",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-08T00:00:00Z",
-   "score": 0.4521,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "This repository contains the processed data and analysis code supporting the manuscript \"Hydroclimatic regime shift weakens snowmelt regulation of summer heat extremes in northern China\". The archive includes processed datasets underlying the main figures and statistical analyses, together with the…",
-   "tags": [],
-   "title": "Hydroclimatic regime shift weakens snowmelt regulation of summer heat extremes in northern China",
-   "url": "https://doi.org/10.5281/zenodo.21850608",
-   "venue": "Zenodo (CERN European Organization for Nuclear Research)"
-  },
-  {
-   "authors": [
-    "Tomoko Matsumoto",
-    "Masato Matsuda",
-    "Daiki Shimomura",
-    "Aya Kouno",
-    "Takeshi Suzuki",
-    "Yuka Tabuchi"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract Activated partial thromboplastin time (APTT) is widely used as a coagulation screening test; nonetheless, its prolongation can result from diverse causes, complicating the diagnosis. Clot waveform analysis (CWA) has been proposed as a complementary method, although the conventional parameters have only moderate diagnostic value. Previously, we applied deep learning (DL) to multiwavelength CWA and achieved high classification accuracy; nevertheless, DL approaches are complex and…",
-    "citations": 0,
-    "doi": "10.1038/s41598-026-65398-4"
-   },
-   "id": "f1db60fcf7ecc5fb",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-08T00:00:00Z",
-   "score": 0.3146,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract Activated partial thromboplastin time (APTT) is widely used as a coagulation screening test; nonetheless, its prolongation can result from diverse causes, complicating the diagnosis. Clot waveform analysis (CWA) has been proposed as a complementary method, although the conventional…",
+   "summary": "Abstract Accurate permeability estimation is essential for optimum reservoir characterization, simulation, and development planning; however, its prediction remains challenging due to the limited availability of core-derived permeability measurements, often constrained by acquisition cost and data…",
    "tags": [
     "ml-vis"
    ],
-   "title": "Machine learning enables clinically feasible implementation of clot waveform analysis for differentiating causes of prolonged activated partial thromboplastin time",
-   "url": "https://doi.org/10.1038/s41598-026-65398-4",
+   "title": "Core-Calibrated Machine Learning–Based Permeability Estimation: A Western Niger Delta Case Study",
+   "url": "https://doi.org/10.2118/235071-ms",
+   "venue": "SPE Nigeria Annual International Conference and Exhibition"
+  },
+  {
+   "authors": [
+    "Nur Septia Fajrina",
+    "Retno Mumpuni",
+    "Afina Lina Nurlaili"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "The growing demand for high-speed internet services has driven significant FTTH customer growth, yet internet service providers face an unresolved operational challenge: the absence of an integrated platform that simultaneously supports real-time customer growth monitoring and quantitative forecasting within a single structured system. This study addresses this gap by developing a web-based FTTH customer growth monitoring and forecasting system at PT XYZ Banjarmasin, integrating the Framework…",
+    "citations": 0,
+    "doi": "10.32877/bt.v9i1.3794"
+   },
+   "id": "d7a27ba634ee1222",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.4466,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "The growing demand for high-speed internet services has driven significant FTTH customer growth, yet internet service providers face an unresolved operational challenge: the absence of an integrated platform that simultaneously supports real-time customer growth monitoring and quantitative…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Application of the FAST Methodology for an FTTH Customer Growth Monitoring and Forecasting System",
+   "url": "https://doi.org/10.32877/bt.v9i1.3794",
+   "venue": "bit-Tech"
+  },
+  {
+   "authors": [
+    "Salaudeen Jubril A"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "This study examines the role of the Nigerian Association of Chambers of Commerce, Industry, Mines and Agriculture (NACCIMA) in accelerating commercial growth in Nigeria within the context of economic policy uncertainty, trade facilitation, and the implementation of the African Continental Free Trade Area (AfCFTA). The researcher investigates how institutional coordination between the government and the organized private sector shapes trade performance, investment dynamics, and the…",
+    "citations": 0,
+    "doi": "10.5281/zenodo.21859159"
+   },
+   "id": "13c287754af82a15",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.5841,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "This study examines the role of the Nigerian Association of Chambers of Commerce, Industry, Mines and Agriculture (NACCIMA) in accelerating commercial growth in Nigeria within the context of economic policy uncertainty, trade facilitation, and the implementation of the African Continental Free…",
+   "tags": [],
+   "title": "ACCELERATING THE GROWTH OF COMMERCE IN NIGERIA: NACCIMA AS A VITAL PLAYER",
+   "url": "https://doi.org/10.5281/zenodo.21859159",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)"
+  },
+  {
+   "authors": [
+    "Dimas Putra Ramadhan",
+    "Ade Silvia Handayani",
+    "Sopian Soim",
+    "Nyayu Latifah Husni"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Flooding remains a significant urban hazard because rising river levels can disrupt mobility, public activities, infrastructure, and environmental conditions. Continuous water-level observation is therefore needed to provide timely operational information in flood-prone urban tributaries. This study aims to develop and field-evaluate an IoT-based water-level monitoring system that supports continuous measurement, MQTT-based data transmission, threshold-based status classification, and real-time…",
+    "citations": 0,
+    "doi": "10.32877/bt.v9i1.4004"
+   },
+   "id": "6b4ee0dc69d3416b",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.5841,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Flooding remains a significant urban hazard because rising river levels can disrupt mobility, public activities, infrastructure, and environmental conditions. Continuous water-level observation is therefore needed to provide timely operational information in flood-prone urban tributaries. This…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Development of an IoT-Based Real-Time Water Level Monitoring System for Flood Observation",
+   "url": "https://doi.org/10.32877/bt.v9i1.4004",
+   "venue": "bit-Tech"
+  },
+  {
+   "authors": [
+    "Ofek Kirshenboim",
+    "Amit Kabya",
+    "Regev Yehezkel-Imra",
+    "Yuli Tshuva",
+    "Martin Maiers",
+    "Loren Gragert"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Background: The success of hematopoietic stem cell transplantation (HSCT) depends critically on human leukocyte antigen (HLA) matching between donor and recipient. While traditional matching focuses on five classical HLA loci (A, B, C, DRB1, DQB1), clinical practice increasingly considers extended typing at nine loci, including DPA1, DQA1, DPB1, and DRB3/4/5. Furthermore, emerging evidence supports transplantation with up to three HLA mismatches under post-transplant cyclophosphamide (PTCy)…",
+    "citations": 0,
+    "doi": "10.1016/j.humimm.2026.111810"
+   },
+   "id": "ebd94b3f1bb722a8",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-09T00:00:00Z",
+   "score": 0.3691,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Background: The success of hematopoietic stem cell transplantation (HSCT) depends critically on human leukocyte antigen (HLA) matching between donor and recipient. While traditional matching focuses on five classical HLA loci (A, B, C, DRB1, DQB1), clinical practice increasingly considers extended…",
+   "tags": [],
+   "title": "GRIMM-II: A two-stage real-time algorithm for nine-locus HLA imputation and matching with up to three mismatches",
+   "url": "https://doi.org/10.1016/j.humimm.2026.111810",
+   "venue": "Human Immunology"
+  },
+  {
+   "authors": [
+    "Shogo Noguchi",
+    "Taketo Akama",
+    "Tai Nakamura",
+    "Shun Minamikawa",
+    "Natalia Polouliakh"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract During music listening, cortical activity encodes both acoustic and expectation-related information. Prior work has shown that ANN representations resemble cortical representations and can serve as supervisory signals for EEG recognition. Here we show that distinguishing acoustic and expectation-related ANN representations as teacher targets improves EEG-based music identification. Models pretrained to predict either representation outperform non-pretrained baselines, and combining…",
+    "citations": 0,
+    "doi": "10.1038/s41598-026-65711-1"
+   },
+   "id": "dd0e556c42a5702c",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-09T00:00:00Z",
+   "score": 0.5066,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract During music listening, cortical activity encodes both acoustic and expectation-related information. Prior work has shown that ANN representations resemble cortical representations and can serve as supervisory signals for EEG recognition. Here we show that distinguishing acoustic and…",
+   "tags": [
+    "ml-vis"
+   ],
+   "title": "Expectation and acoustic neural network representations enhance music identification from brain activity",
+   "url": "https://doi.org/10.1038/s41598-026-65711-1",
    "venue": "Scientific Reports"
   },
   {
    "authors": [
-    "Ling Wu",
-    "Yuchen Wang",
-    "Claire Seungeun Lee",
-    "Wei Li",
-    "Xinyue Ye"
+    "Chuanlong Zhou"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Abstract Cybercrime increasingly extends beyond purely digital environments into hybrid cyber-physical spaces, creating new risks for urban infrastructure, mobility systems, and everyday socioeconomic activities. While criminology has long emphasized the importance of place in shaping crime patterns, research on cybercrime often treats physical space as peripheral rather than integral. This study addresses this gap by systematically reviewing how cybercrime intersects with physical environments…",
+    "abstract_snippet": "The CHETNA–Power Plants dataset provides a unit-level, daily record of electricity generation and associated CO₂ emissions for India’s power sector covering the period 2018–2025. The dataset integrates a harmonized plant–unit inventory with daily power generation records and unit-year-specific emission intensity estimates, enabling consistent tracking of power-sector activity and emissions at high spatial and temporal resolution. The dataset covers all major power-generation technologies in…",
     "citations": 0,
-    "doi": "10.1007/s12103-026-09938-8"
+    "doi": "10.5281/zenodo.21865308"
    },
-   "id": "03b82ce78fce9232",
+   "id": "92ec52b51188b426",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-08T00:00:00Z",
-   "score": 0.3146,
+   "published_at": "2026-08-09T00:00:00Z",
+   "score": 0.5066,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Abstract Cybercrime increasingly extends beyond purely digital environments into hybrid cyber-physical spaces, creating new risks for urban infrastructure, mobility systems, and everyday socioeconomic activities. While criminology has long emphasized the importance of place in shaping crime…",
+   "summary": "The CHETNA–Power Plants dataset provides a unit-level, daily record of electricity generation and associated CO₂ emissions for India’s power sector covering the period 2018–2025. The dataset integrates a harmonized plant–unit inventory with daily power generation records and unit-year-specific…",
+   "tags": [],
+   "title": "CHETNA-Power Plants: Unit-Level Inventory with Daily Generation and CO₂ Emissions for India (2018–2025)",
+   "url": "https://doi.org/10.5281/zenodo.21865308",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)"
+  },
+  {
+   "authors": [
+    "Bakhrom Tulaganov",
+    "Sirojiddin Mirzaev",
+    "Sherzod Xidoyatov",
+    "Shakhriddin Baymatov",
+    "Jasur Rashidov"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Urban areas located in seismically active regions are exposed to complex multi-factor risks arising from the interaction between seismic hazards and structural characteristics of the built environment. This study proposes an integrated analytical framework for scenario-based seismic vulnerability assessment of urban buildings that combines structural engineering analysis, multivariate regression modeling, geospatial information systems, and digital twin concepts, formulated here as a conceptual…",
+    "citations": 0,
+    "doi": "10.21837/pm.v24i43.2137"
+   },
+   "id": "ae75cc999750bff4",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-09T00:00:00Z",
+   "score": 0.3691,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Urban areas located in seismically active regions are exposed to complex multi-factor risks arising from the interaction between seismic hazards and structural characteristics of the built environment. This study proposes an integrated analytical framework for scenario-based seismic vulnerability…",
    "tags": [
     "systems"
    ],
-   "title": "A Systematic Review of Cybercrime in Hybrid Cyber–Physical Space",
-   "url": "https://doi.org/10.1007/s12103-026-09938-8",
-   "venue": "American Journal of Criminal Justice"
+   "title": "INTEGRATED GIS AND DIGITAL TWIN–BASED FRAMEWORK FOR SCENARIO-BASED SEISMIC VULNERABILITY ASSESSMENT OF URBAN BUILDINGS: CONCEPTUAL ARCHITECTURE AND CASE STUDY OF TASHKENT",
+   "url": "https://doi.org/10.21837/pm.v24i43.2137",
+   "venue": "PLANNING MALAYSIA"
   },
   {
    "authors": [
-    "Louie Stelle Cajayon",
-    "Alve Marc Barrido",
-    "Jay Falagne"
+    "D. Zavala",
+    "W. Vicente",
+    "R. Esquivel",
+    "M. Salinas-Vazquez"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "The management of small-scale fisheries poses several challenges given the need for biodiversity and climate resiliency in the face of current crises. PELAGIC is a hybrid web-mobile application that aims to streamline pelagic fisheries terminal management. Using StormGlass API, users can post pictures, report a species profile, and receive weather warnings on wind, waves, and El Niño. PELAGIC is data-driven, needs offline capabilities, and uses GPS to relay data. Through a…",
+    "abstract_snippet": "This study numerically investigates the aerodynamic performance of several curved ground-effect diffuser geometries integrated into an inverted Ahmed body. The proposed diffuser configurations were designed to reduce abrupt transverse flow-direction changes inside the diffuser and improve aerodynamic efficiency through enhanced pressure recovery and controlled vortex development. Steady Reynolds-averaged Navier–Stokes simulations were performed using the SST turbulence model. The numerical…",
     "citations": 0,
-    "doi": "10.14445/22315381/ijett-v74i7p127"
+    "doi": "10.47176/jafm.19.10.4413"
    },
-   "id": "200f852ee44fbd17",
+   "id": "1722b1a64f83c2f2",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-08T00:00:00Z",
-   "score": 0.4521,
+   "published_at": "2026-08-09T00:00:00Z",
+   "score": 0.3691,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "The management of small-scale fisheries poses several challenges given the need for biodiversity and climate resiliency in the face of current crises. PELAGIC is a hybrid web-mobile application that aims to streamline pelagic fisheries terminal management. Using StormGlass API, users can post…",
+   "summary": "This study numerically investigates the aerodynamic performance of several curved ground-effect diffuser geometries integrated into an inverted Ahmed body. The proposed diffuser configurations were designed to reduce abrupt transverse flow-direction changes inside the diffuser and improve…",
+   "tags": [],
+   "title": "Numerical Study of the Impact of a Curved Ground-effect Diffuser on the Aerodynamic Performance of a Bluff Body",
+   "url": "https://doi.org/10.47176/jafm.19.10.4413",
+   "venue": "Journal of Applied Fluid Mechanics"
+  },
+  {
+   "authors": [
+    "Ran Yan",
+    "Ri Li",
+    "Xuanye Xu",
+    "Hongwei Zhao"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "This repository contains the processed data and MATLAB analysis and visualization scripts supporting the results presented in “Spatial and Temporal Characteristics of Summer Precipitation Latent Heating over the East Asian Monsoon Region Based on GPM Satellite Observations”. The archived data support the reproduction of Figures 1–12 in the main text and Figures S1–S3 in the Supporting Information. The dataset primarily includes processed convolutional neural network heating (CNNH) latent…",
+    "citations": 0,
+    "doi": "10.5281/zenodo.21861128"
+   },
+   "id": "61ca5253b388e350",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-09T00:00:00Z",
+   "score": 0.5066,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "This repository contains the processed data and MATLAB analysis and visualization scripts supporting the results presented in “Spatial and Temporal Characteristics of Summer Precipitation Latent Heating over the East Asian Monsoon Region Based on GPM Satellite Observations”. The archived data…",
    "tags": [
-    "eval-study"
+    "visualization"
    ],
-   "title": "Development and Evaluation of Pelagic: A Hybrid WebMobile Platform for Efficient Pelagic Fisheries Terminal Management",
-   "url": "https://doi.org/10.14445/22315381/ijett-v74i7p127",
-   "venue": "International Journal of Engineering Trends and Technology"
+   "title": "Processed CNNH LH Data and Analysis Code for \"Spatial and Temporal Characteristics of Summer Precipitation Latent Heating over the East Asian Monsoon Region Based on GPM Satellite Observations\"",
+   "url": "https://doi.org/10.5281/zenodo.21861128",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)"
   },
   {
    "authors": [
-    "Pradeepa Malkanthi Korale-Gedara",
-    "Damian Hine",
-    "Leonardo N. Ferreira",
-    "Jeremy Farr",
-    "Bruno Rafael de Almeida Moreira",
-    "Yuba Raj Subedi"
+    "Shida Gao",
+    "Yong Tang",
+    "Kai Yu",
+    "Lisha Zhou",
+    "Liwen Xie",
+    "Dongliang Guo"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Abstract This study evaluates the application of quantitative network analysis as a novel approach to mapping interlinkages and identifying influential drivers within food systems, using Australia as a case study. Leveraging longitudinal data from 1991 to 2022 and employing ts2net package, we analyse 40 food system elements, spanning drivers, activities and outcomes. The analysis revealed that networks of associations in the food system vary in strength, with elements possessing numerous weaker…",
+    "abstract_snippet": "",
     "citations": 0,
-    "doi": "10.1007/s12571-026-01702-4"
+    "doi": "10.1007/s12650-026-01151-3"
    },
-   "id": "c24e5e7e03db6503",
+   "id": "7a9df474d212ba27",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-08T00:00:00Z",
-   "score": 0.3146,
+   "published_at": "2026-08-09T00:00:00Z",
+   "score": 0.3691,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Abstract This study evaluates the application of quantitative network analysis as a novel approach to mapping interlinkages and identifying influential drivers within food systems, using Australia as a case study. Leveraging longitudinal data from 1991 to 2022 and employing ts2net package, we…",
+   "summary": "",
    "tags": [
-    "systems"
+    "systems",
+    "visualization"
    ],
-   "title": "Investigating food system interactions using network analyses: A case study of the Australian food system",
-   "url": "https://doi.org/10.1007/s12571-026-01702-4",
-   "venue": "Food Security"
+   "title": "3DMAViz: a visual analytics framework for exploring DRL-based 3D multi-agent environments",
+   "url": "https://doi.org/10.1007/s12650-026-01151-3",
+   "venue": "Journal of Visualization"
   },
   {
    "authors": [
-    "Qiannan Tao",
-    "Yang Gu",
-    "Xinshuai Wang",
-    "Zhi Chen",
-    "Fei Lv",
-    "Fu Xu"
+    "K. Yao",
+    "W. Fang",
+    "X. Guo",
+    "X. Liu",
+    "B. Qin",
+    "X. Su"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Ion wind technology holds potential for the miniaturization of flying microrobots, generating thrust without mechanical moving parts, enabling simplified and light designs free from high-frequency actuators. Nevertheless, two fundamental challenges have limited its practical implementation: insufficient payload capacity and inadequate controllability, particularly in multi-degrees-of-freedom flight. Here, we demonstrated an inertial measurement unit-based closed-loop controlled flight of a…",
+    "abstract_snippet": "Deep-sea drilling relies on mud lifting systems, in which slurry pumps are critical components. Unlike conventional deep-water pumps, slurry pumps transport non-Newtonian fluids containing solid particles, resulting in severe internal wear of flow-passing components. In this study, the CFD-DEM coupling method was employed to establish a solid-liquid two-phase flow model under non-Newtonian conditions. The flow characteristics of non-Newtonian fluids were investigated, and an Archard wear model…",
     "citations": 0,
-    "doi": "10.1038/s41467-026-76462-y"
+    "doi": "10.47176/jafm.19.10.4530"
    },
-   "id": "e365d3772b4fdc75",
+   "id": "52f49ef5611c5e50",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-08T00:00:00Z",
-   "score": 0.3146,
+   "published_at": "2026-08-09T00:00:00Z",
+   "score": 0.5066,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Ion wind technology holds potential for the miniaturization of flying microrobots, generating thrust without mechanical moving parts, enabling simplified and light designs free from high-frequency actuators. Nevertheless, two fundamental challenges have limited its practical implementation:…",
-   "tags": [],
-   "title": "Controlled flight of high-thrust ultralight ion-propelled microrobot with integrated sensing",
-   "url": "https://doi.org/10.1038/s41467-026-76462-y",
-   "venue": "Nature Communications"
-  },
-  {
-   "authors": [
-    "Zeyu ZHANG",
-    "Dong Yutong",
-    "Hasliza Abdul Halim"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "HRMARS - Outcome-Based Education (OBE) and the Conceive-Design-Implement-Operate (CDIO) framework have become influential forces in higher business education. Although research has expanded progressively, the literature remains fragmented, lacking a macro-level systematic overview of its intellectual structure and spatio-temporal trends. This study addresses this gap by conducting a bibliometric mapping and visual evaluation of OBE-CDIO methodologies within business higher education using…",
-    "citations": 0,
-    "doi": "10.6007/ijarbss/v16-i8/28797"
-   },
-   "id": "1c6076989fe46928",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-08T00:00:00Z",
-   "score": 0.4521,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "HRMARS - Outcome-Based Education (OBE) and the Conceive-Design-Implement-Operate (CDIO) framework have become influential forces in higher business education. Although research has expanded progressively, the literature remains fragmented, lacking a macro-level systematic overview of its…",
-   "tags": [
-    "systems"
-   ],
-   "title": "Mapping the Pedagogical Landscape of Outcome-Based and CDIO Frameworks in Business Education",
-   "url": "https://doi.org/10.6007/ijarbss/v16-i8/28797",
-   "venue": "International Journal of Academic Research in Business and Social Sciences"
-  },
-  {
-   "authors": [
-    "Yuhang Jia",
-    "Zunfa Wang",
-    "Dong Li",
-    "Kai Liu",
-    "Yaodong Dong",
-    "Bozhi Feng"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "ABSTRACT The integration of optical sensing with neuromorphic computing offers a promising pathway to overcome the von Neumann bottleneck in data‐intensive artificial intelligence applications. However, realizing robust nonvolatile storage with synergistic electrical and optical modulation in 2D devices remains a challenge. Here, we demonstrate a high‐performance floating‐gate memory based on a ReS 2 /h‐BN/Ta 2 NiSe 5 van der Waals heterostructure. Under precise photo‐electrical cooperative…",
-    "citations": 0,
-    "doi": "10.1002/smll.75080"
-   },
-   "id": "c092f6a59f42e8f3",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-08T00:00:00Z",
-   "score": 0.3146,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "ABSTRACT The integration of optical sensing with neuromorphic computing offers a promising pathway to overcome the von Neumann bottleneck in data‐intensive artificial intelligence applications. However, realizing robust nonvolatile storage with synergistic electrical and optical modulation in 2D…",
-   "tags": [],
-   "title": "Robust Nonvolatile Memory and Synaptic Emulation via Dual‐Mode Modulation in ReS <sub>2</sub> /h‐BN/Ta <sub>2</sub> NiSe <sub>5</sub> Floating‐Gate Device",
-   "url": "https://doi.org/10.1002/smll.75080",
-   "venue": "Small"
-  },
-  {
-   "authors": [
-    "Heidi Ahkola",
-    "Lauri Äystö",
-    "Mailis Laht",
-    "Vallo Kõrgmaa",
-    "Jukka Mehtonen",
-    "Kai Myrberg"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract POCIS passive samplers were deployed at differently polluted marine sites in the cities of Helsinki and Tallinn and in an open part of the Gulf of Finland. The aim was to determine baseline concentration levels for pharmaceuticals in water monitored with passive sampling techniques, which could also be applied to regulatory monitoring. That baseline concentration data method could then be applied to other sites in the Tallinn and Helsinki area to assess whether the pharmaceutical…",
-    "citations": 0,
-    "doi": "10.1007/s10661-026-15742-y"
-   },
-   "id": "06b4e01a7f526258",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-08T00:00:00Z",
-   "score": 0.4521,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract POCIS passive samplers were deployed at differently polluted marine sites in the cities of Helsinki and Tallinn and in an open part of the Gulf of Finland. The aim was to determine baseline concentration levels for pharmaceuticals in water monitored with passive sampling techniques, which…",
-   "tags": [],
-   "title": "Marine pharmaceutical monitoring with POCIS: sampling rate uncertainty, and implications for regulation",
-   "url": "https://doi.org/10.1007/s10661-026-15742-y",
-   "venue": "Environmental Monitoring and Assessment"
-  },
-  {
-   "authors": [
-    "Lukas Knauer",
-    "Simon Unik",
-    "Antonio J. Pierik",
-    "Volker Schünemann"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract A cytosolic oxygenase enzyme from the mold creating Aspergillus fumigatus has been expressed in Escherichia coli and purified. Mössbauer spectroscopy at 77 K of a 57 Fe-enriched protein (abbreviated as Afox) yields two components with equal relative areas. Component 1 has an isomer shift of δ 1 = 0.26 mms − 1 and a quadrupole splitting of Δ E Q1 = 0.46 mms − 1 . Component 2 shows δ 2 = 0.32 mms − 1 and Δ E Q2 = 0.84 mms − 1 . These parameters are characteristic for a diamagnetic…",
-    "citations": 0,
-    "doi": "10.1007/s10751-026-02717-1"
-   },
-   "id": "6938bacaab1d040d",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-08T00:00:00Z",
-   "score": 0.3146,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract A cytosolic oxygenase enzyme from the mold creating Aspergillus fumigatus has been expressed in Escherichia coli and purified. Mössbauer spectroscopy at 77 K of a 57 Fe-enriched protein (abbreviated as Afox) yields two components with equal relative areas. Component 1 has an isomer shift…",
-   "tags": [],
-   "title": "The Rieske type [2Fe-2 S] cluster of a cytosolic oxygenase from Aspergillus fumigatus",
-   "url": "https://doi.org/10.1007/s10751-026-02717-1",
-   "venue": "Interactions"
-  },
-  {
-   "authors": [
-    "Olga Kandinskaia",
-    "Anna Czegledi",
-    "Sonia Mehrotra"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Active learning via Live Case Projects prepares business students for successful professional careers. In the age of AI, active learning has a new and critical role, as through direct engagement with real-world challenges presented by experienced managers, students learn to frame problems, develop hypotheses, propose data-driven solutions, and develop strategic mindset skills crucial for navigating an AI-driven business environment. This study focused on the Live Case Project (LCP) teaching…",
-    "citations": 0,
-    "doi": "10.1177/14697874261467043"
-   },
-   "id": "99a66a8d41d84dc1",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-08T00:00:00Z",
-   "score": 0.4521,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Active learning via Live Case Projects prepares business students for successful professional careers. In the age of AI, active learning has a new and critical role, as through direct engagement with real-world challenges presented by experienced managers, students learn to frame problems, develop…",
-   "tags": [],
-   "title": "Global Faculty Insights on Active Learning via Live Case Projects",
-   "url": "https://doi.org/10.1177/14697874261467043",
-   "venue": "Active Learning in Higher Education"
-  },
-  {
-   "authors": [
-    "Ovien Yoga Caesarizky",
-    "Ahmad Ilham",
-    "Laelatul Khikmah",
-    "Faiq Madani"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Background Support Vector Regression (SVR) is widely employed for epidemic forecasting because kernel methods effectively model nonlinear, multivariate, and lagged climate-disease relationships. While practitioners routinely apply exhaustive grid-search hyperparameter optimization, whether such computationally expensive tuning produces statistically significant predictive enhancements under strict, leakage-free time-series validation remains an open empirical question. Objective To rigorously…",
-    "citations": 0,
-    "doi": "10.7759/s44389-026-00212-w"
-   },
-   "id": "19a65a7f0a70cdb8",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-08T00:00:00Z",
-   "score": 0.3146,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Background Support Vector Regression (SVR) is widely employed for epidemic forecasting because kernel methods effectively model nonlinear, multivariate, and lagged climate-disease relationships. While practitioners routinely apply exhaustive grid-search hyperparameter optimization, whether such…",
-   "tags": [],
-   "title": "&lt;p&gt;Evaluating the Statistical Significance of Grid Search Optimization in Support Vector Regression for Dengue Forecasting Using Nested Time-Series Cross-Validation&lt;/p&gt;",
-   "url": "https://doi.org/10.7759/s44389-026-00212-w",
-   "venue": "Cureus Journal of Computer Science."
-  },
-  {
-   "authors": [
-    "Rishika S",
-    "Niharika K",
-    "Thanuja K B",
-    "Rishi H",
-    "Mrs. Supriya V"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Road surface defects such as potholes are a major concern for road safety, vehicle performance, and infrastructure maintenance. Traditional inspection methods are often time-consuming, expensive, and unsuitable for continuous monitoring. This paper presents a Multi-Modal Edge AI System for Real-Time Road Health Diagnostics Using Vision-Acoustic Sensor Fusion. The proposed system combines OpenCV-based computer vision with vibration sensor data to improve the accuracy and reliability of pothole…",
-    "citations": 0,
-    "doi": "10.55041/ijcope.v2i8.068"
-   },
-   "id": "f9d99a746d41c9c0",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-08T00:00:00Z",
-   "score": 0.4521,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Road surface defects such as potholes are a major concern for road safety, vehicle performance, and infrastructure maintenance. Traditional inspection methods are often time-consuming, expensive, and unsuitable for continuous monitoring. This paper presents a Multi-Modal Edge AI System for…",
+   "summary": "Deep-sea drilling relies on mud lifting systems, in which slurry pumps are critical components. Unlike conventional deep-water pumps, slurry pumps transport non-Newtonian fluids containing solid particles, resulting in severe internal wear of flow-passing components. In this study, the CFD-DEM…",
    "tags": [
     "systems"
    ],
-   "title": "Multi-Modal Edge-AI System for Real-Time Road Health Diagnostics using Vision-Acoustic Sensor Fusion",
-   "url": "https://doi.org/10.55041/ijcope.v2i8.068",
-   "venue": "International Journal of Creative and Open Research in Engineering and Management"
+   "title": "Archard Model for Wear Characteristics of Slurry Pump Impellers in Non-Newtonian Fluids",
+   "url": "https://doi.org/10.47176/jafm.19.10.4530",
+   "venue": "Journal of Applied Fluid Mechanics"
+  },
+  {
+   "authors": [
+    "Oparadike FE",
+    "Charles D",
+    "Leol A. K."
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "In the oil and gas industries, Offshore pressure vessels are crucial for storing and transporting fluids safely, supporting oil and gas operations, and ensuring environmental protection. The common problem associated to pressure vessels is surge, the surge has a very high impact on the behavior of the pressure vessels. This is because the surge has the tendencies to increase the pressure of the vessel, which may affect the temperature and the flow rate of the pressure vessel. The aim of this…",
+    "citations": 0,
+    "doi": "10.30574/wjaets.2026.20.2.0386"
+   },
+   "id": "5506e5ad72e7aff2",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-09T00:00:00Z",
+   "score": 0.3691,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "In the oil and gas industries, Offshore pressure vessels are crucial for storing and transporting fluids safely, supporting oil and gas operations, and ensuring environmental protection. The common problem associated to pressure vessels is surge, the surge has a very high impact on the behavior of…",
+   "tags": [],
+   "title": "Analysis of surge mitigation in offshore pressure vessel using Kalman filter",
+   "url": "https://doi.org/10.30574/wjaets.2026.20.2.0386",
+   "venue": "World Journal of Advanced Engineering Technology and Sciences"
+  },
+  {
+   "authors": [
+    "Xiang Li",
+    "Wenyuan Xu",
+    "Bo Liu"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Drone-based road defect detection is essential for efficient pavement inspection, but remains challenging due to scale variation, low resolution, blurred boundaries, and interference from shadows, lane markings, vegetation, and road facilities. To overcome these limitations, this study introduces a robust method built around an enhanced model, URD-YOLOv11n. This is realized through four key innovations: First, a Spatial-Channel Synergistic Attention (SCSA) module is embedded to strengthen…",
+    "citations": 0,
+    "doi": "10.1038/s41598-026-66419-y"
+   },
+   "id": "7e52ffa484cb2a8b",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-09T00:00:00Z",
+   "score": 0.5066,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Drone-based road defect detection is essential for efficient pavement inspection, but remains challenging due to scale variation, low resolution, blurred boundaries, and interference from shadows, lane markings, vegetation, and road facilities. To overcome these limitations, this study introduces a…",
+   "tags": [],
+   "title": "A robust road defect detection method for UAV imagery based on synergistic attention and adaptive feature refinement",
+   "url": "https://doi.org/10.1038/s41598-026-66419-y",
+   "venue": "Scientific Reports"
+  },
+  {
+   "authors": [
+    "Dr. Chinedu Okafor"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Image super-resolution (ISR) has emerged as a critical computer vision task aimed at reconstructing high-resolution visual information from low-resolution inputs. Although deep learning-based approaches have significantly improved reconstruction quality, many existing architectures suffer from high computational complexity, excessive parameter requirements, and limited efficiency in real-time deployment scenarios. This research presents a Lightweight Transformer-Fourier Fusion Framework for…",
+    "citations": 0,
+    "doi": "10.37547/ibast/volume06issue08-02"
+   },
+   "id": "007533e5d02811a3",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-09T00:00:00Z",
+   "score": 0.5066,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Image super-resolution (ISR) has emerged as a critical computer vision task aimed at reconstructing high-resolution visual information from low-resolution inputs. Although deep learning-based approaches have significantly improved reconstruction quality, many existing architectures suffer from high…",
+   "tags": [
+    "systems",
+    "ml-vis"
+   ],
+   "title": "Lightweight Transformer-Fourier Fusion Framework for Efficient Image Super-Resolution",
+   "url": "https://doi.org/10.37547/ibast/volume06issue08-02",
+   "venue": null
+  },
+  {
+   "authors": [
+    "Zijay Pereda",
+    "Jezreel Batayon"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "This study examined the generational language gap between teachers and students and its relationship to classroom communication and learning in a tertiary institution in Cabuyao, Laguna. Using an explanatory mixed-methods design grounded in Systemic Functional Linguistics, Communication Accommodation Theory, and Sociocultural Theory, the study surveyed 200 College of Education students majoring in Filipino. It was followed by interviews for qualitative validation. Quantitative findings showed…",
+    "citations": 0,
+    "doi": "10.66074/f7m2t1h6q"
+   },
+   "id": "8ffe2aa67d3315c1",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-09T00:00:00Z",
+   "score": 0.3691,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "This study examined the generational language gap between teachers and students and its relationship to classroom communication and learning in a tertiary institution in Cabuyao, Laguna. Using an explanatory mixed-methods design grounded in Systemic Functional Linguistics, Communication…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Generational Language Gap Between Teachers and Students: Analysis of Students’ Perception of Effective Communication and Learning",
+   "url": "https://doi.org/10.66074/f7m2t1h6q",
+   "venue": "International Journal of Transformative Multidisciplinary Studies"
+  },
+  {
+   "authors": [
+    "Yanqi Lyu"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "This project provides the data and analysis code for Study 2 examining the effects of Zhongyong thinking priming on psychological responses to different types of pressure situations. The study used a 2 × 3 mixed design, with priming condition (Zhongyong vs. control) as a between-subjects factor and scenario type (interpersonal pressure, task pressure, and mixed pressure) as a within-subjects factor. Participants completed nine pressure-situation tasks, comprising three interpersonal-pressure…",
+    "citations": 0,
+    "doi": "10.17605/osf.io/wpjyf"
+   },
+   "id": "e42aa9e511257b6d",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-09T00:00:00Z",
+   "score": 0.3691,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "This project provides the data and analysis code for Study 2 examining the effects of Zhongyong thinking priming on psychological responses to different types of pressure situations. The study used a 2 × 3 mixed design, with priming condition (Zhongyong vs. control) as a between-subjects factor and…",
+   "tags": [],
+   "title": "Zhongyong Thinking Priming in Pressure Situations: Data and Analysis Code",
+   "url": "https://doi.org/10.17605/osf.io/wpjyf",
+   "venue": "Open Science Framework"
+  },
+  {
+   "authors": [
+    "Shubhangi Mehrotra",
+    "Sagar C. Mhetre",
+    "Cheena Garg",
+    "Sheetal Mishra"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Background: Intra-abdominal mass lesions comprise a heterogeneous group of neoplastic, inflammatory, cystic, and metastatic conditions requiring accurate diagnosis for appropriate clinical management. Conventional fine needle aspiration cytology (FNAC) is widely utilized because it is minimally invasive, rapid, and cost-effective; however, it may occasionally yield inadequate material and limited architectural details. Cell block technique serves as an important adjunct by improving cellular…",
+    "citations": 0,
+    "doi": "10.30574/ijsra.2026.20.2.1546"
+   },
+   "id": "ea0fb260da9b5f59",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-09T00:00:00Z",
+   "score": 0.3691,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Background: Intra-abdominal mass lesions comprise a heterogeneous group of neoplastic, inflammatory, cystic, and metastatic conditions requiring accurate diagnosis for appropriate clinical management. Conventional fine needle aspiration cytology (FNAC) is widely utilized because it is minimally…",
+   "tags": [],
+   "title": "Cell Block as an Adjunct to Conventional Cytology in Intra-abdominal Mass lesions: A Cross -Sectional Study",
+   "url": "https://doi.org/10.30574/ijsra.2026.20.2.1546",
+   "venue": "International Journal of Science and Research Archive"
   },
   {
    "authors": [
@@ -664,7 +513,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T14:30:03Z",
-   "score": 0.4062,
+   "score": 0.402,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -691,7 +540,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T10:41:55Z",
-   "score": 0.5896,
+   "score": 0.5856,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -722,7 +571,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T10:40:53Z",
-   "score": 0.6896,
+   "score": 0.6856,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -750,7 +599,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T08:59:35Z",
-   "score": 0.5457,
+   "score": 0.5417,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -778,7 +627,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T07:33:25Z",
-   "score": 0.3899,
+   "score": 0.386,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -806,7 +655,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T06:07:44Z",
-   "score": 0.3867,
+   "score": 0.3829,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -834,7 +683,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T04:59:21Z",
-   "score": 0.5767,
+   "score": 0.5729,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -863,7 +712,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T02:32:11Z",
-   "score": 0.5714,
+   "score": 0.5677,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -890,7 +739,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T01:07:30Z",
-   "score": 0.3359,
+   "score": 0.3323,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -915,7 +764,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T16:12:18Z",
-   "score": 0.3182,
+   "score": 0.3149,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -943,7 +792,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T16:10:02Z",
-   "score": 0.5506,
+   "score": 0.5474,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -971,7 +820,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T14:31:57Z",
-   "score": 0.315,
+   "score": 0.3119,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -997,7 +846,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T14:12:14Z",
-   "score": 0.5069,
+   "score": 0.5038,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -1024,7 +873,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T12:46:19Z",
-   "score": 0.5443,
+   "score": 0.5412,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -1050,7 +899,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T10:05:04Z",
-   "score": 0.347,
+   "score": 0.344,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -1079,7 +928,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T03:33:03Z",
-   "score": 0.5285,
+   "score": 0.5258,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -1106,7 +955,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T00:36:48Z",
-   "score": 0.5239,
+   "score": 0.5212,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -1133,7 +982,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T17:55:31Z",
-   "score": 0.5138,
+   "score": 0.5113,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -1148,8 +997,8 @@
   }
  ],
  "meta": {
-  "count": 41,
-  "generated_at": "2026-08-10T08:02:13Z",
+  "count": 36,
+  "generated_at": "2026-08-10T09:46:07Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -1192,7 +1041,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-13&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-07-13&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",

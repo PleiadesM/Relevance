@@ -1,0 +1,166 @@
+{
+ "meta": {
+  "count": 3,
+  "generated_at": "2026-08-10T09:46:07Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "73bfac2648cae07d",
+     "phrase": {
+      "en": "Deadly strike deep in Russia",
+      "zh": "深入俄境致命袭击"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/10/world/europe/ukrainian-drone-attack-kills-13-deep-inside-russia.html"
+    },
+    {
+     "item_id": "1380a76393aad3a8",
+     "phrase": {
+      "en": "Deadliest drone attack on Russia",
+      "zh": "对俄最致命无人机袭击"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "abc906011176a620",
+     "phrase": {
+      "en": "Drone attack on oil facilities",
+      "zh": "无人机袭击石油设施"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/aug/10/ukraine-drones-russia-oil-facilities-europe-heat-drought-latest-updates-news"
+    },
+    {
+     "item_id": "bd6bea596f11df60",
+     "phrase": {
+      "en": "Targets oil, causes fuel shortages",
+      "zh": "瞄准石油致燃料短缺"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/10/nx-s1-5927024/ukrainian-drone-attack-russia"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Ukraine's drones hit deep into Russia, killing many.",
+    "zh": "乌克兰无人机深入俄境，致多人死亡。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "drone strikes",
+    "zh": "无人机袭击"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "Geopolitics affects tech; this attack escalates conflict.",
+    "zh": "地缘政治影响科技，此袭击升级冲突。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "af9d639744b23c6c",
+     "phrase": {
+      "en": "Million evacuated as storm arrives",
+      "zh": "风暴来临百万人撤离"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "74676d624667d07c",
+     "phrase": {
+      "en": "Record rainfall in Shanghai",
+      "zh": "上海创纪录降雨"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/10/typhoon-dolphin-china-shanghai-flooding-evacuations"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "China moves millions as Typhoon Dolphin hits.",
+    "zh": "台风海豚来袭，中国转移数百万人。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "typhoon evacuation",
+    "zh": "台风疏散"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You study HCI; disaster response UX is key today.",
+    "zh": "你研究人机交互，今日灾害响应用户体验关键。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "485c16cb2bc4fa8d",
+     "phrase": {
+      "en": "Explainable AI for edge devices",
+      "zh": "边缘设备可解释AI"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.07091v1"
+    },
+    {
+     "item_id": "e333fa89459e3e26",
+     "phrase": {
+      "en": "Fact-checking data-driven articles",
+      "zh": "事实核查数据文章"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.06804v1"
+    },
+    {
+     "item_id": "4b800022881086e1",
+     "phrase": {
+      "en": "Customized dance generation with control",
+      "zh": "定制舞蹈生成与控制"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.06722v1"
+    },
+    {
+     "item_id": "a3684b0f196c66ff",
+     "phrase": {
+      "en": "Touchscreen teleoperation interface",
+      "zh": "触摸屏遥操作界面"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.06219v1"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Designing AI that fits human needs and contexts.",
+    "zh": "设计符合人类需求和情境的AI。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "human-centered AI",
+    "zh": "人本AI"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You value HCI; new papers on explainable and interactive AI.",
+    "zh": "你重视人机交互，新论文关于可解释和交互AI。"
+   }
+  }
+ ]
+}

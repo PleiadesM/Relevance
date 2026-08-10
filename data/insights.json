@@ -1,40 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "mushroom foraging festival OR wild mushroom competition",
+  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
   "source": {
-   "name": "WNTZ-TV FOX 48",
-   "published_at": "2026-07-20T07:00:00Z",
-   "title": "Geaux Play Outdoors partners with mycologists for foraging",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeVV1dlBFTkY2eFVvVVhFcXUyTEctS2h5cGRLVnhyd3FvQ2hNRE1tX3ROVG03X3pyMHRXU3RHOTdHNlFfNFktYnQ4RFRfUGFuWlNXWC10Qk05a2dZTVV2d0FZdVR2bUlMYWpsZkVVV3FGUFk2dFAzaVdDRl9aMnczZHhQTURQa0N2QlVuS09HWGQ5eTJtdEZ2R3h0SWtjejJTRFHSAacBQVVfeXFMT1lTdl9FbE5UTF9NckctVWRhdFVyVkN5VXZub2hJWEJUS1FfWFpuNjBRUlFTcEczdTBZeFdGU0NBbHUwajh0UXRaaE52a0RsUWlmWEF6eGpvZDlVZUFvTWNyUDNFZlFyYUhpUU91bUwxbG9MbEphN2VGVzhFMHBQRjZuMWZMa1laQzJEYWxTWDVMQmh6MjdfMFZERGUxXzFsLVdjNVl6Yk0?oc=5"
+   "name": "WRDW",
+   "published_at": "2026-08-08T02:56:00Z",
+   "title": "Columbia County neighbors react to expected growth",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPM3Y1bF9FTVRRUDROcmlxVFRiT1lGcmpLUTZ2TUh4NUdfVDM3QVE2ZzAyTGgydlB1eHNvdHJrUFhEbWpXd3oybTdJTUJ1aTFnVU93VFI2M1JvYm1rVlNGTS1tTS15Tm9rUmxzX1dVX1lybGtrcGx1MkZkeVdOeWxKTmZlUEE2VXFlRktRUEw4Wm5fUXpuUHZUV3lWQdIBmwFBVV95cUxPM3Y1bF9FTVRRUDROcmlxVFRiT1lGcmpLUTZ2TUh4NUdfVDM3QVE2ZzAyTGgydlB1eHNvdHJrUFhEbWpXd3oybTdJTUJ1aTFnVU93VFI2M1JvYm1rVlNGTS1tTS15Tm9rUmxzX1dVX1lybGtrcGx1MkZkeVdOeWxKTmZlUEE2VXFlRktRUEw4Wm5fUXpuUHZUV3lWQQ?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A Louisiana TV station reports a partnership between an outdoor program and mycologists to guide foraging trips.",
-    "why_irrelevant": "Local regional outdoor programming, far from typical digital interests."
+    "summary": "Residents in Columbia County are discussing the local impact of new development plans, unrelated to any pumpkin-themed events.",
+    "why_irrelevant": "This is about community growth, not pumpkins or seasonal festivities."
    },
    "zh": {
-    "summary": "路易斯安那州一家电视台报道了一个户外项目与真菌学家合作，指导觅食之旅。",
-    "why_irrelevant": "地方性户外节目，远离典型数字兴趣。"
+    "summary": "哥伦比亚县居民正在讨论新开发计划对当地的影响，与南瓜主题活动无关。",
+    "why_irrelevant": "这涉及社区发展，而非南瓜或季节庆典。"
    }
   },
-  "topic": "competitive mushroom foraging festivals"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news spans Australia's royal commission into AI, a UK heatwave, Typhoon Dolphin's impact in China, and the passing of actor Ben Jones, while papers cover surgical outcomes, prenatal diagnosis communication, and agricultural drone navigation.",
+ "brief": "Europe and the US are confronting extreme heat and drought while Ukraine escalates drone strikes deep into Russia; meanwhile, new research tackles AI reasoning, water monitoring, and genetic matching.",
  "meta": {
-  "generated_at": "2026-08-10T08:02:13Z"
+  "generated_at": "2026-08-10T09:46:07Z"
  },
- "news_summary": "Australia announces a royal commission into AI, UK braces for a heatwave, Typhoon Dolphin forces mass evacuations in China, and actor-politician Ben Jones passes away at 84, with other stories on airport incidents and gambling ad reforms.",
- "papers_summary": "Research highlights include a nationwide study on lung cancer surgery outcomes, parental perspectives on prenatal CHD diagnosis communication, and a Python tool for orthogroup refinement, alongside work on preterm birth prediction and autonomous drone path planning.",
+ "news_summary": "Heatwaves and drought grip Europe and England, Ukraine mounts deadly drone attacks on Russian oil facilities, and the Tupac murder trial begins, alongside political and social developments in the US.",
+ "papers_summary": "Papers cover diverse topics from machine learning for reservoir modeling to IoT flood monitoring and AI music identification, with a focus on practical applications.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans Australia's royal commission into AI, a UK heatwave, Typhoon Dolphin's impact in China, and the passing of actor Ben Jones, while papers cover surgical outcomes, prenatal diagnosis communication, and agricultural drone navigation.",
-   "news_summary": "Australia announces a royal commission into AI, UK braces for a heatwave, Typhoon Dolphin forces mass evacuations in China, and actor-politician Ben Jones passes away at 84, with other stories on airport incidents and gambling ad reforms.",
-   "papers_summary": "Research highlights include a nationwide study on lung cancer surgery outcomes, parental perspectives on prenatal CHD diagnosis communication, and a Python tool for orthogroup refinement, alongside work on preterm birth prediction and autonomous drone path planning."
+   "brief": "Europe and the US are confronting extreme heat and drought while Ukraine escalates drone strikes deep into Russia; meanwhile, new research tackles AI reasoning, water monitoring, and genetic matching.",
+   "news_summary": "Heatwaves and drought grip Europe and England, Ukraine mounts deadly drone attacks on Russian oil facilities, and the Tupac murder trial begins, alongside political and social developments in the US.",
+   "papers_summary": "Papers cover diverse topics from machine learning for reservoir modeling to IoT flood monitoring and AI music identification, with a focus on practical applications."
   },
   "zh": {
-   "brief": "今日焦点包括《哈利波特》粉丝迫使电缆改道、伊朗向美国提出六项条件、台风白海豚登陆中国东部、加拿大山火紧急状态，以及英国艺术家班克斯作品的持续花费。",
-   "news_summary": "中文新闻以哈利波特粉丝影响电缆铺设、伊朗谈判条件、台风和山火为主，同时国际新闻关注澳大利亚政治和英国高温。",
-   "papers_summary": "论文内容涵盖医学、生物信息学、农业技术等领域，如肺癌手术研究、早产预测、无人机农业监测等。"
+   "brief": "今日新闻焦点集中于伊朗对美提出的霍尔木兹海峡条件、强台风袭击中国东部、以及航空公司对锂电池的安全警告；而研究领域则涌现出多项技术创新，包括机器学习、物联网和数字孪生等。",
+   "news_summary": "新闻报道了伊朗就重开霍尔木兹海峡向美国提出条件，同时强台风'白海豚'影响中国东部并导致大规模疏散；此外，航空公司对锂电池运输加强安全警告，而班克斯的艺术作品已花费英国近15万英镑公帑。",
+   "papers_summary": "研究论文涵盖多个领域，如机器学习预测储层渗透率、FTTH用户增长预测、物联网洪水监测系统，以及数字孪生用于城市地震脆弱性评估等，展示了信息技术的广泛应用。"
   }
+ },
+ "todays_image": {
+  "caption": "The lighthouse design evokes a beacon guiding through darkness, much like the trial may finally shed light on the murky truth behind Tupac's murder.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-CH1078",
+  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/30588",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-CH1078",
+  "title": "Design for a Lighthouse"
  }
 }
