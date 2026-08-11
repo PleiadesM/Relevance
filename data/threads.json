@@ -1,0 +1,195 @@
+{
+ "meta": {
+  "count": 4,
+  "generated_at": "2026-08-11T07:33:45Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "f2deb3f44fa43927",
+     "phrase": {
+      "en": "Nvidia links with Wall Street for $500bn",
+      "zh": "英伟达联手华尔街五千亿"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/technology/2026/aug/11/nvidia-wall-street-finance-ai-infrastructure"
+    },
+    {
+     "item_id": "fb5d32d11a5a8e3a",
+     "phrase": {
+      "en": "Wall St. wants another half-trillion for AI",
+      "zh": "华尔街再求五千亿AI资金"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/10/business/ai-nvidia-lenders-500-billion.html"
+    },
+    {
+     "item_id": "317e22db8301daf7",
+     "phrase": {
+      "en": "Wall Street giants hand Nvidia $500bn",
+      "zh": "华尔街巨头向英伟达注资五千亿"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c78gr0jv0mdo?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Wall Street pours half a trillion into AI's physical backbone.",
+    "zh": "华尔街向AI的物理根基注入五千亿。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI infrastructure financing",
+    "zh": "AI基础设施融资"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track AI economics: today Nvidia and six firms announced a massive funding push for AI compute.",
+    "zh": "你关注AI经济，今日英伟达与六家公司宣布巨额AI算力融资。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "95fa4e02f2ee9768",
+     "phrase": {
+      "en": "Quake leaves more than 110 dead",
+      "zh": "地震致逾百人遇难"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
+    },
+    {
+     "item_id": "5df7442a961aa20d",
+     "phrase": {
+      "en": "Magnitude 7.4 quake kills 111",
+      "zh": "7.4级地震致111人死亡"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/10/nx-s1-5927515/earthquake-western-colombia"
+    },
+    {
+     "item_id": "f932f36f5918e31c",
+     "phrase": {
+      "en": "Major quake kills at least 111",
+      "zh": "强震至少111人遇难"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/10/world/americas/earthquake-colombia-cali.html"
+    },
+    {
+     "item_id": "6f68bbdd552b86a9",
+     "phrase": {
+      "en": "Here is where quake hit hardest",
+      "zh": "震中受灾最重之地"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/10/world/americas/colombia-quake-maps.html"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "A deadly quake tests rescue and resilience in Cali.",
+    "zh": "致命地震考验卡利市的救援与韧性。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "Colombia earthquake",
+    "zh": "哥伦比亚地震"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You value data visualization under crisis: mapping the quake's impact is now urgent.",
+    "zh": "你重视危机中的数据可视化，此刻绘制地震影响地图尤为紧迫。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "b10bc915491bd6e1",
+     "phrase": {
+      "en": "Trump hid in catering container for secret flight",
+      "zh": "特朗普藏身餐饮容器密飞"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/10/trump-secret-flight-nato-return"
+    },
+    {
+     "item_id": "3f5e5baa1f92301c",
+     "phrase": {
+      "en": "Trump secretly used military jet to leave Turkey",
+      "zh": "特朗普秘密乘军机离土"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/10/us/politics/trump-plane-ruse.html"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "A leader's hidden escape route amid threat.",
+    "zh": "威胁之下领导人的秘密逃生路线。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "secret Trump flight",
+    "zh": "特朗普秘密飞行"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow geopolitics and narrative framing: two outlets report the same covert operation today.",
+    "zh": "你关注地缘政治与叙事框架，今日两家媒体同时报道同一秘密行动。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "a5f9fa2bf8eb52f5",
+     "phrase": {
+      "en": "evaluates AI-, expert-, peer-style advice",
+      "zh": "评估AI、专家、同伴式建议"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.09019v1"
+    },
+    {
+     "item_id": "b500bc6a4ff43b84",
+     "phrase": {
+      "en": "LLM-grounded multi-agent simulation in SocialFi",
+      "zh": "SocialFi中LLM多智能体模拟"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.08497v1"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "How people trust AI vs human financial advice.",
+    "zh": "人们如何信任AI与人类财务建议。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "AI advice credibility",
+    "zh": "AI建议可信度"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You study HCI and AI: a new paper reveals how advice source shapes trust.",
+    "zh": "你研究人机交互与AI，新论文揭示建议来源如何塑造信任。"
+   }
+  }
+ ]
+}

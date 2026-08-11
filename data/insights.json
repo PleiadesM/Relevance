@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"sheep shearing contest\" OR \"golden shears\"",
+  "query": "\"snail racing championship\" OR \"world snail racing\"",
   "source": {
-   "name": "Leitrim Observer",
-   "published_at": "2026-07-30T07:00:00Z",
-   "title": "Leitrim speed sheep shearing contest to raise funds for North West STOP",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNml4bkpmMTdxYmJMQ2M2bFdCbWJ2NVJQU2x3b21WUFo3bm0zamZBWGZ5YW94eHNmNk9PLXk2WXZSYlAzTjVRbkdoUERpeDdmNkExS2oteVd3cnRMb2FBRG1OVjhLTy1XMVFxMkRpWjgtbUlVTFppWUhHdnRRMEJfRG5takNMNEhzdEltdk1NU29YTFBwS09fMU4tRS1wX243M3RTa1R3RG9xNC1WVi1DM1BmX25UZw?oc=5"
+   "name": "New Statesman",
+   "published_at": "2026-08-05T16:11:25Z",
+   "title": "Searching for the world’s fastest snail",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTDBVZ081UDNSd1p0bTlLbUVrNEUzeWI4OWpianFOYy1ld0VQS2ZtVjMxblNrbUVzemxWU0xzTkh0TEwtS0tOT3pwMXp2cm9EMWg1TVFFQWJkNHdhczI1OU5IMENEdElSX0FCWks0LUkycUNCb0pVODFtOEh3TUlJWWcxOUxnUUUxWWNsMDVOLXc?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A Leitrim speed sheep shearing contest raises funds for the North West STOP charity.",
-    "why_irrelevant": "It is a niche rural craft event far from data, politics, or tech."
+    "summary": "A magazine article charts the quixotic quest to find the world's fastest snail.",
+    "why_irrelevant": "a whimsical niche topic far from typical newsfeeds."
    },
    "zh": {
-    "summary": "利特里姆一场快速剪羊毛比赛为西北STOP慈善机构筹款。",
-    "why_irrelevant": "这是一项小众乡村技艺活动，远离数据、政治或科技。"
+    "summary": "一篇杂志文章记录了寻找世界上最快蜗牛的不切实际的追求。",
+    "why_irrelevant": "一个远离常规新闻推送的古怪小众话题。"
    }
   },
-  "topic": "sheep shearing competitions"
+  "topic": "competitive snail racing"
  },
- "brief": "A major earthquake in Colombia has killed over 130 people, while political and health stories dominate headlines, and new research explores AI in writing and visualization.",
+ "brief": "Today's news spans political scandals, natural disasters, and economic signals, while research focuses on AI-assisted writing, data visualization, and infrastructure monitoring.",
  "meta": {
-  "generated_at": "2026-08-11T05:20:51Z"
+  "generated_at": "2026-08-11T07:33:45Z"
  },
- "news_summary": "A powerful 7.4 magnitude earthquake struck western Colombia, killing over 130 and injuring hundreds, with rescue efforts ongoing. Other notable news includes the RBA holding rates, Trump's secret military flight, and various political and social stories from around the world.",
- "papers_summary": "Recent papers examine AI's role in financial advice and narrative writing, along with innovations in visualization for data exploration, CPR training, and public health.",
+ "news_summary": "Headlines include Australia's pledge to ban suppression orders for rapists, Trump's secret flight from Turkey, Colombia's deadly earthquake, and Turkey's pardon for Kurdish militants, alongside economic updates on AI financing and consumer confidence.",
+ "papers_summary": "Research highlights include VeriForge for narrative drafting, AI financial advice evaluation, IoT flood monitoring, and visualization tools for data outliers and public health, offering insights into human-computer interaction and data analysis.",
  "summaries": {
   "en": {
-   "brief": "A major earthquake in Colombia has killed over 130 people, while political and health stories dominate headlines, and new research explores AI in writing and visualization.",
-   "news_summary": "A powerful 7.4 magnitude earthquake struck western Colombia, killing over 130 and injuring hundreds, with rescue efforts ongoing. Other notable news includes the RBA holding rates, Trump's secret military flight, and various political and social stories from around the world.",
-   "papers_summary": "Recent papers examine AI's role in financial advice and narrative writing, along with innovations in visualization for data exploration, CPR training, and public health."
+   "brief": "Today's news spans political scandals, natural disasters, and economic signals, while research focuses on AI-assisted writing, data visualization, and infrastructure monitoring.",
+   "news_summary": "Headlines include Australia's pledge to ban suppression orders for rapists, Trump's secret flight from Turkey, Colombia's deadly earthquake, and Turkey's pardon for Kurdish militants, alongside economic updates on AI financing and consumer confidence.",
+   "papers_summary": "Research highlights include VeriForge for narrative drafting, AI financial advice evaluation, IoT flood monitoring, and visualization tools for data outliers and public health, offering insights into human-computer interaction and data analysis."
   },
   "zh": {
-   "brief": "今日焦点：哥伦比亚强震造成重大伤亡，伊朗向美国提出六项条件，以及关于阳光照射、锂电池安全等生活议题的讨论。",
-   "news_summary": "哥伦比亚发生7.4级强震，已致至少132人死亡；伊朗就重新开放霍尔木兹海峡向特朗普提出六项条件；MySpace或因怀旧情绪回归；航空公司对锂电池安全日益警惕。",
-   "papers_summary": "今日论文关注AI在叙事创作中的辅助作用、财务建议的评估方式，以及数据可视化在公共健康、洪水监测等领域的应用。"
+   "brief": "今日要聞聚焦芬蘭海底管道案的法律管轄爭議、哥倫比亞大地震的嚴重傷亡，以及科技與日常生活的交織；學術研究則探討AI在敘事與財務建議中的應用與評估。",
+   "news_summary": "芬蘭天然氣管道受損案的管轄權問題引發國際法學者討論，哥倫比亞7.4級地震造成逾百人死亡，另有MySpace回歸、鋰電池安全等話題。",
+   "papers_summary": "學術研究關注AI如何輔助敘事寫作（VeriForge），以及人們如何評估AI生成與專家風格的財務建議，這些皆反映AI在日常決策中的角色日益重要。"
   }
  },
  "todays_image": {
-  "caption": "The mailbox that survived San Francisco's 1906 quake stands as a silent witness to the same earth that now shatters Colombia, binding past and present destruction in one trembling thread.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2006_2038_1a",
-  "source_name": "National Postal Museum",
-  "source_url": "https://postalmuseum.si.edu/object/npm_2006.2038.1",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2006_2038_1a",
-  "title": "Mailbox remnant from 1906 San Francisco earthquake"
+  "caption": "Just as the tiny, overlooked Borreria perpusilla emerges from obscurity in botanical records, Victoria's new pledge uproots the obscurity of suppression orders to expose rapists' names.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m39b901120c1b24cdcb078478055490201",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3ef775029-7ea2-4cee-a1de-13b30acd931b",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m39b901120c1b24cdcb078478055490201/90",
+  "title": "Borreria perpusilla Hook. f."
  }
 }
