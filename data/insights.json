@@ -9,36 +9,36 @@
   },
   "summaries": {
    "en": {
-    "summary": "A magazine article charts the quixotic quest to find the world's fastest snail.",
-    "why_irrelevant": "a whimsical niche topic far from typical newsfeeds."
+    "summary": "A New Statesman piece chronicles the eccentric pursuit of timing the world's quickest snail.",
+    "why_irrelevant": "It's a whimsical niche far from typical tech and politics feeds."
    },
    "zh": {
-    "summary": "一篇杂志文章记录了寻找世界上最快蜗牛的不切实际的追求。",
-    "why_irrelevant": "一个远离常规新闻推送的古怪小众话题。"
+    "summary": "《新政治家》一篇报道记录了为世界上最快蜗牛计时的古怪追求。",
+    "why_irrelevant": "这是远离常见科技与政治动态的奇趣冷门。"
    }
   },
   "topic": "competitive snail racing"
  },
- "brief": "Today's news spans political scandals, natural disasters, and economic signals, while research focuses on AI-assisted writing, data visualization, and infrastructure monitoring.",
+ "brief": "U.S. primaries across six states and an earthquake in Colombia dominate today's news, while research highlights advances in AI infrastructure, flood monitoring, and reservoir modeling.",
  "meta": {
-  "generated_at": "2026-08-11T07:33:45Z"
+  "generated_at": "2026-08-11T09:12:19Z"
  },
- "news_summary": "Headlines include Australia's pledge to ban suppression orders for rapists, Trump's secret flight from Turkey, Colombia's deadly earthquake, and Turkey's pardon for Kurdish militants, alongside economic updates on AI financing and consumer confidence.",
- "papers_summary": "Research highlights include VeriForge for narrative drafting, AI financial advice evaluation, IoT flood monitoring, and visualization tools for data outliers and public health, offering insights into human-computer interaction and data analysis.",
+ "news_summary": "Elections in Alabama, Minnesota, Wisconsin, and other states test progressive and Democratic prospects; a 7.4-magnitude earthquake in Colombia kills over 100; Nvidia secures $500 billion for AI data centers from Wall Street.",
+ "papers_summary": "Research covers machine learning for permeability estimation in the Niger Delta, IoT-based flood monitoring, and a dataset on India's power plant emissions, among other technical studies.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans political scandals, natural disasters, and economic signals, while research focuses on AI-assisted writing, data visualization, and infrastructure monitoring.",
-   "news_summary": "Headlines include Australia's pledge to ban suppression orders for rapists, Trump's secret flight from Turkey, Colombia's deadly earthquake, and Turkey's pardon for Kurdish militants, alongside economic updates on AI financing and consumer confidence.",
-   "papers_summary": "Research highlights include VeriForge for narrative drafting, AI financial advice evaluation, IoT flood monitoring, and visualization tools for data outliers and public health, offering insights into human-computer interaction and data analysis."
+   "brief": "U.S. primaries across six states and an earthquake in Colombia dominate today's news, while research highlights advances in AI infrastructure, flood monitoring, and reservoir modeling.",
+   "news_summary": "Elections in Alabama, Minnesota, Wisconsin, and other states test progressive and Democratic prospects; a 7.4-magnitude earthquake in Colombia kills over 100; Nvidia secures $500 billion for AI data centers from Wall Street.",
+   "papers_summary": "Research covers machine learning for permeability estimation in the Niger Delta, IoT-based flood monitoring, and a dataset on India's power plant emissions, among other technical studies."
   },
   "zh": {
-   "brief": "今日要聞聚焦芬蘭海底管道案的法律管轄爭議、哥倫比亞大地震的嚴重傷亡，以及科技與日常生活的交織；學術研究則探討AI在敘事與財務建議中的應用與評估。",
-   "news_summary": "芬蘭天然氣管道受損案的管轄權問題引發國際法學者討論，哥倫比亞7.4級地震造成逾百人死亡，另有MySpace回歸、鋰電池安全等話題。",
-   "papers_summary": "學術研究關注AI如何輔助敘事寫作（VeriForge），以及人們如何評估AI生成與專家風格的財務建議，這些皆反映AI在日常決策中的角色日益重要。"
+   "brief": "今日新闻聚焦芬兰天然气管道受损案在香港审理、中国闪婚骗局、哥伦比亚地震，以及AI对工作时间的影响；论文方面涉及HLA匹配算法和印度电厂排放数据。",
+   "news_summary": "芬兰天然气管道案因船舶管辖权在香港审理；中国单身男性陷入闪婚骗局反映人口结构问题；哥伦比亚7.4级地震已致132人死亡。",
+   "papers_summary": "研究提出GRIMM-II算法用于HLA基因分型匹配，并发布印度电厂排放数据集CHETNA，有助于医疗和环境监测。"
   }
  },
  "todays_image": {
-  "caption": "Just as the tiny, overlooked Borreria perpusilla emerges from obscurity in botanical records, Victoria's new pledge uproots the obscurity of suppression orders to expose rapists' names.",
+  "caption": "Just as the diminutive Borreria perpusilla is a tiny, overlooked footnote in botanical records, an exit interview reduces Ross Douthat’s departure to a brief, passing note in the news cycle.",
   "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m39b901120c1b24cdcb078478055490201",
   "source_name": "NMNH - Botany Dept.",
   "source_url": "http://n2t.net/ark:/65665/3ef775029-7ea2-4cee-a1de-13b30acd931b",
