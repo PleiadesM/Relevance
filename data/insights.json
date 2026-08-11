@@ -1,44 +1,24 @@
 {
- "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
-  "source": {
-   "name": "wror.com",
-   "published_at": "2026-08-10T16:45:00Z",
-   "title": "Topsfield Fair Opens Entries for 2026 Competitions , Promotes $20K Pumpkin Prize",
-   "url": "https://wror.com/2026/08/10/topsfield-fair-opens-entries-for-2026-competitions-promotes-20k-pumpkin-prize/"
-  },
-  "summaries": {
-   "en": {
-    "summary": "Topsfield Fair opens entries for 2026 competitions with a $20,000 pumpkin prize.",
-    "why_irrelevant": "A niche agricultural contest far from typical daily feeds."
-   },
-   "zh": {
-    "summary": "托普斯菲尔德博览会开放2026年比赛报名，设有2万美元南瓜大奖。",
-    "why_irrelevant": "小众农业赛事，远离日常信息流。"
-   }
-  },
-  "topic": "competitive pumpkin growing"
- },
- "brief": "Today's news spans from labor disputes at HCA to political primaries in the US, a deadly earthquake in Colombia, and Assad's death sentence, while research highlights AI's role in narrative drafting and financial advice.",
+ "brief": "Today's news is marked by crises and controversies: a major earthquake in Colombia, a migrant surge in Ceuta fueled by disinformation, AI transparency debates, and legal scandals in the U.S. Meanwhile, research highlights AI's role in writing, finance, and medical diagnostics, as well as social media's impact on migration.",
  "meta": {
-  "generated_at": "2026-08-11T11:02:50Z"
+  "generated_at": "2026-08-11T13:39:39Z"
  },
- "news_summary": "US health workers protest pay and staffing amid record profits; political primaries test party directions; Colombia quake kills over 100; Assad sentenced to death in absentia; UK faces extreme heat and court bans on Meta glasses.",
- "papers_summary": "Papers explore mixed-initiative scaffolding for narrative drafting, evaluation of AI financial advice, and visualization tools for CPR training and data outlier exploration.",
+ "news_summary": "Top stories include Colombia's deadliest earthquake in years, a Spanish-Moroccan migrant crisis exacerbated by social media disinformation, U.S. immigration sweeps marred by racial slurs, and growing AI regulation with Spotify and Anthropic making transparency moves.",
+ "papers_summary": "Papers explore AI's potential in narrative drafting and financial advice evaluation, alongside medical studies on cognitive impairment, sleep, and pain management, plus a machine learning approach for reservoir permeability estimation.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans from labor disputes at HCA to political primaries in the US, a deadly earthquake in Colombia, and Assad's death sentence, while research highlights AI's role in narrative drafting and financial advice.",
-   "news_summary": "US health workers protest pay and staffing amid record profits; political primaries test party directions; Colombia quake kills over 100; Assad sentenced to death in absentia; UK faces extreme heat and court bans on Meta glasses.",
-   "papers_summary": "Papers explore mixed-initiative scaffolding for narrative drafting, evaluation of AI financial advice, and visualization tools for CPR training and data outlier exploration."
+   "brief": "Today's news is marked by crises and controversies: a major earthquake in Colombia, a migrant surge in Ceuta fueled by disinformation, AI transparency debates, and legal scandals in the U.S. Meanwhile, research highlights AI's role in writing, finance, and medical diagnostics, as well as social media's impact on migration.",
+   "news_summary": "Top stories include Colombia's deadliest earthquake in years, a Spanish-Moroccan migrant crisis exacerbated by social media disinformation, U.S. immigration sweeps marred by racial slurs, and growing AI regulation with Spotify and Anthropic making transparency moves.",
+   "papers_summary": "Papers explore AI's potential in narrative drafting and financial advice evaluation, alongside medical studies on cognitive impairment, sleep, and pain management, plus a machine learning approach for reservoir permeability estimation."
   },
   "zh": {
-   "brief": "今日焦点包括台湾首次演练断网半小时、哥伦比亚强震致逾百人死亡，以及叙利亚前总统阿萨德被缺席判处死刑；科技论文关注AI对数学领域的影响及可视化工具进展。",
-   "news_summary": "台湾演练断网场景，芬兰天然气管道受损案在香港审理，哥伦比亚地震造成重大伤亡，中国闪婚骗局暴露社会问题，AI引发工时争议。",
-   "papers_summary": "论文涉及AI生成财务建议的评估、CPR训练可视化、叙事写作脚手架等，均聚焦人机交互与可视化技术前沿。"
+   "brief": "今日重点涵盖长崎原子弹内幕、台湾断网演习、哥伦比亚地震等新闻，以及AI文本水印和写作辅助研究等论文。",
+   "news_summary": "新闻聚焦二战历史回顾、台湾备战演练、哥伦比亚地震灾情及AI对工作生活的影响，同时涉及移民、科技和社会问题。",
+   "papers_summary": "论文涉及AI在写作、金融建议和情感识别中的应用，以及医学领域中的认知障碍、睡眠和疼痛管理研究。"
   }
  },
  "todays_image": {
-  "caption": "A bent mailbox from 1906 and a simulated half-hour internet blackout both echo how fragile our everyday lifelines become in moments of crisis.",
+  "caption": "A survivor from 1906 shows you don't need a whole mailbox—or many tokens—to make your point.",
   "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2006_2038_1a",
   "source_name": "National Postal Museum",
   "source_url": "https://postalmuseum.si.edu/object/npm_2006.2038.1",

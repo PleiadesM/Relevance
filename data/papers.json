@@ -18,7 +18,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-10T15:03:26Z",
-   "score": 0.7072,
+   "score": 0.6963,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -46,7 +46,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-10T02:19:03Z",
-   "score": 0.6573,
+   "score": 0.6479,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -57,6 +57,123 @@
    "title": "How People Evaluate AI-, Expert-, and Peer-Style Financial Advice",
    "url": "https://arxiv.org/abs/2608.09019v1",
    "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Haoran Ma",
+    "Liejun Wang",
+    "Yinfeng Yu",
+    "Xiaoming Tao"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.21203/rs.3.rs-10287292/v1"
+   },
+   "id": "d1d429a1991be644",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.3585,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [],
+   "title": "EAMF: Evidence-Aware Multimodal Fusion for Conversational Emotion Recognition",
+   "url": "https://doi.org/10.21203/rs.3.rs-10287292/v1",
+   "venue": "Research Square"
+  },
+  {
+   "authors": [
+    "Yueliang Sun",
+    "Jiankang Wang",
+    "Fengling Sun",
+    "Mingpeng Shi",
+    "Xinxin Tian",
+    "Hang Shang"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Background Hypertension is strongly associated with cognitive impairment. Existing tools include models designed to identify prevalent cognitive impairment and a smaller number developed to predict future risk. However, their methodological quality, validation status, and reproducibility have not been systematically assessed. We conducted a systematic review and critical appraisal of existing models designed to identify cognitive impairment in patients with hypertension. Methods Chinese and…",
+    "citations": 0,
+    "doi": "10.3389/fmed.2026.1858790"
+   },
+   "id": "70f741314d6c268f",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.496,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Background Hypertension is strongly associated with cognitive impairment. Existing tools include models designed to identify prevalent cognitive impairment and a smaller number developed to predict future risk. However, their methodological quality, validation status, and reproducibility have not…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Identification of cognitive impairment in patients with hypertension: a systematic review and critical appraisal of existing models",
+   "url": "https://doi.org/10.3389/fmed.2026.1858790",
+   "venue": "Frontiers in Medicine"
+  },
+  {
+   "authors": [
+    "Jieun Lim",
+    "Adriana Perez"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Sleep disturbances are common in older adults with MCI, associated with cognitive decline and reduced quality of life. Pharmacological treatment remains common despite safety concerns. Meditation–based interventions may improve sleep and psychological well–being, yet evidence among individuals with MCI remains limited. This systematic review evaluated the effects of MBIs on sleep quality among adults aged ≥55 years with MCI, following PRISMA 2020 guidelines. Five databases were searched through…",
+    "citations": 0,
+    "doi": "10.1016/j.gerinurse.2026.104213"
+   },
+   "id": "8829c3fb7966b677",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.496,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Sleep disturbances are common in older adults with MCI, associated with cognitive decline and reduced quality of life. Pharmacological treatment remains common despite safety concerns. Meditation–based interventions may improve sleep and psychological well–being, yet evidence among individuals with…",
+   "tags": [
+    "systems"
+   ],
+   "title": "The effects of meditation–based interventions on sleep quality among adults aged ≥ 55 with mild cognitive impairment: A systematic review and meta–analysis",
+   "url": "https://doi.org/10.1016/j.gerinurse.2026.104213",
+   "venue": "Geriatric Nursing"
+  },
+  {
+   "authors": [
+    "Ni Wayan Mahahari",
+    "Kadek Tania Mediana Putri",
+    "Ni Putu Aryati Suryaningsih",
+    "Gde Palguna Reganata",
+    "Dewa Ayu Putu Satrya Dewi",
+    "Kadek Hendra Darmawan Kadek Hendra Darmawan"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.21203/rs.3.rs-10619992/v1"
+   },
+   "id": "39a10caf985ce16c",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.496,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [
+    "eval-study",
+    "systems"
+   ],
+   "title": "Patient Preferences for Non-Opioid Regimens in Chronic Non-Cancer Pain: A Systematic Review of Discrete Choice Experiments",
+   "url": "https://doi.org/10.21203/rs.3.rs-10619992/v1",
+   "venue": "Research Square"
   },
   {
    "authors": [
@@ -74,7 +191,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-10T00:00:00Z",
-   "score": 0.5031,
+   "score": 0.496,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -102,7 +219,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-10T00:00:00Z",
-   "score": 0.3656,
+   "score": 0.3585,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -116,56 +233,400 @@
   },
   {
    "authors": [
-    "Salaudeen Jubril A"
+    "Houyuan Chen",
+    "Yuda Lin",
+    "Zihan Xue",
+    "Yunkai Qie",
+    "Zhouliang Wu",
+    "Kangkang Liu"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "This study examines the role of the Nigerian Association of Chambers of Commerce, Industry, Mines and Agriculture (NACCIMA) in accelerating commercial growth in Nigeria within the context of economic policy uncertainty, trade facilitation, and the implementation of the African Continental Free Trade Area (AfCFTA). The researcher investigates how institutional coordination between the government and the organized private sector shapes trade performance, investment dynamics, and the…",
+    "abstract_snippet": "Objective PD-1 based immunochemotherapy has improved bladder cancer (BC) outcomes, yet individual responses remain heterogeneous. Low-cost, non-invasive predictive biomarkers are urgently needed. Urinary protein semi-quantification (UPSQ) correlates with BC tumor load, but its predictive value during PD-1 based immunochemotherapy remains unclear. We conducted a post-hoc analysis of the TRUCE-01 (NCT04730219) and TRUCE-02 (NCT04730232) trials to explore the association between UPSQ and clinical…",
     "citations": 0,
-    "doi": "10.5281/zenodo.21859159"
+    "doi": "10.3389/fimmu.2026.1929760"
    },
-   "id": "13c287754af82a15",
+   "id": "80c262758611c623",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-10T00:00:00Z",
-   "score": 0.5031,
+   "score": 0.496,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "This study examines the role of the Nigerian Association of Chambers of Commerce, Industry, Mines and Agriculture (NACCIMA) in accelerating commercial growth in Nigeria within the context of economic policy uncertainty, trade facilitation, and the implementation of the African Continental Free…",
+   "summary": "Objective PD-1 based immunochemotherapy has improved bladder cancer (BC) outcomes, yet individual responses remain heterogeneous. Low-cost, non-invasive predictive biomarkers are urgently needed. Urinary protein semi-quantification (UPSQ) correlates with BC tumor load, but its predictive value…",
    "tags": [],
-   "title": "ACCELERATING THE GROWTH OF COMMERCE IN NIGERIA: NACCIMA AS A VITAL PLAYER",
-   "url": "https://doi.org/10.5281/zenodo.21859159",
+   "title": "Urinary protein semi-quantification in immunochemotherapy for bladder cancer: markers of clinical outcomes",
+   "url": "https://doi.org/10.3389/fimmu.2026.1929760",
+   "venue": "Frontiers in Immunology"
+  },
+  {
+   "authors": [
+    "Kristina G. Kantola",
+    "Rolf Wynn",
+    "Hege Nermo",
+    "Jan-Are Kolset Johnsen",
+    "Elin Hadler-Olsen"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Introduction Individuals with psychiatric and/or substance use disorders often have poor oral health, yet utilization of dental services remains low. This study examined dental attendance, barriers to care, and factors associated with regular dental care among inpatients in Norway. Methods This cross-sectional study included 138 adults hospitalized in specialist mental health and substance use services at the University Hospital of North Norway (median age 35.5 years, range 19–70, 60% men, 40%…",
+    "citations": 0,
+    "doi": "10.3389/froh.2026.1904583"
+   },
+   "id": "ae671a74de1bf1bd",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.496,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Introduction Individuals with psychiatric and/or substance use disorders often have poor oral health, yet utilization of dental services remains low. This study examined dental attendance, barriers to care, and factors associated with regular dental care among inpatients in Norway. Methods This…",
+   "tags": [],
+   "title": "Dental service utilization among hospitalized patients with psychiatric and/or substance use disorders: a Norwegian cross-sectional study",
+   "url": "https://doi.org/10.3389/froh.2026.1904583",
+   "venue": "Frontiers in Oral Health"
+  },
+  {
+   "authors": [
+    "Nathaporn PHONG-A-RAN",
+    "Jindamas SUTTHICHAIMETHEE",
+    "Chaiyan JUNSIRI",
+    "Duangrat TANDAMRONG",
+    "Pongsatorn TANTRABUNDIT"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "This research aims to examine the influence of integrated causal factors affecting the future success of sustainable tourism management in Thailand amid changes in social and cultural dimensions, the Bio-Circular-Green (BCG) economy, and the pro-environmental sector. The study adopts a mixed-methods research approach and applies a Multinomial Logistic Model based on Path Analysis, referred to as the Logit-PA model, which was identified as the best-fitting model for examining the relationships…",
+    "citations": 0,
+    "doi": "10.30892/gtg.67316-1828"
+   },
+   "id": "16a920ad3d7f7465",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.496,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "This research aims to examine the influence of integrated causal factors affecting the future success of sustainable tourism management in Thailand amid changes in social and cultural dimensions, the Bio-Circular-Green (BCG) economy, and the pro-environmental sector. The study adopts a…",
+   "tags": [],
+   "title": "A CAUSAL RELATIONSHIP MODEL OF SOCIAL AND CULTURAL CHANGE INFLUENCING THE FUTURE SUCCESS OF INTEGRATED AND SUSTAINABLE TOURISM MANAGEMENT IN THAILAND",
+   "url": "https://doi.org/10.30892/gtg.67316-1828",
+   "venue": "GeoJournal of Tourism and Geosites"
+  },
+  {
+   "authors": [
+    "Nasim Partovi-Mehr",
+    "Rad Haghi",
+    "Babak Moaveni",
+    "Eric Hines"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Multiphysics models are often utilized for structural design, condition assessment, and response prediction of a system, such as the support structure of offshore wind turbines. Although multiphysics models are considered to be of high fidelity, discrepancies are often observed between the model predictions and actual data measurements from the real structure. The model updating process reduces the model parameter uncertainty by minimizing the differences between the model and the measured data…",
+    "citations": 0,
+    "doi": "10.3389/fenrg.2026.1847071"
+   },
+   "id": "ad0ed4f506935271",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.3585,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Multiphysics models are often utilized for structural design, condition assessment, and response prediction of a system, such as the support structure of offshore wind turbines. Although multiphysics models are considered to be of high fidelity, discrepancies are often observed between the model…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Multiphysics surrogate-based model updating of a jacket-supported offshore wind turbine using measured vibration and SCADA data",
+   "url": "https://doi.org/10.3389/fenrg.2026.1847071",
+   "venue": "Frontiers in Energy Research"
+  },
+  {
+   "authors": [
+    "Hongliang Mao",
+    "Fengchun Mu",
+    "Xinyu Wang",
+    "Xin Zhang",
+    "Dongfang Meng",
+    "Chen Yang"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Background Early postoperative pneumonia (POP) is a common and serious complication after brain tumor surgery, but early recognition is difficult because postoperative neurological dysfunction and respiratory symptoms are often non-specific. Existing models are mostly retrospective, not designed for neurosurgical patients, and rarely prospectively validated across centers. We aimed to develop an interpretable model for early POP risk stratification. Methods We used routine perioperative data…",
+    "citations": 0,
+    "doi": "10.3389/fcimb.2026.1863501"
+   },
+   "id": "31169a4b2e665c8e",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.496,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Background Early postoperative pneumonia (POP) is a common and serious complication after brain tumor surgery, but early recognition is difficult because postoperative neurological dysfunction and respiratory symptoms are often non-specific. Existing models are mostly retrospective, not designed…",
+   "tags": [],
+   "title": "Early risk stratification of postoperative pneumonia after brain tumor surgery using routine perioperative variables: development and prospective multicenter validation of an interpretable prediction model",
+   "url": "https://doi.org/10.3389/fcimb.2026.1863501",
+   "venue": "Frontiers in Cellular and Infection Microbiology"
+  },
+  {
+   "authors": [
+    "Zhenxian Lin",
+    "Minghui Zhang",
+    "Chengmao Wu",
+    "Mingzhu Zhang"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.1007/s00530-026-02562-w"
+   },
+   "id": "b87c94a10359714d",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.3585,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [
+    "systems"
+   ],
+   "title": "TCFNet: an end-to-end framework for multimodal action quality assessment via temporal enhancement and contrastive fusion",
+   "url": "https://doi.org/10.1007/s00530-026-02562-w",
+   "venue": "Multimedia Systems"
+  },
+  {
+   "authors": [
+    "Intan Nur Aulia",
+    "Ike Wijayanti",
+    "Oki Anggraini",
+    "Dijan Wahjuni"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "This study aims to examine the adaptation strategies of the Indonesian middle class in response to economic policy dynamics through qualitative research using a systematic literature review (SLR) approach following the PRISMA method. Articles were analyzed bibliometrically and systematicallyusing VOSviewer and Publish or Perish. Co-occurrence analysis with keywords revealed three clusters: state and worker involvement in responding to crises through market mechanisms such as socialprotection…",
+    "citations": 0,
+    "doi": "10.32424/icsema.v2i1.791"
+   },
+   "id": "36349826581c68d3",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.496,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "This study aims to examine the adaptation strategies of the Indonesian middle class in response to economic policy dynamics through qualitative research using a systematic literature review (SLR) approach following the PRISMA method. Articles were analyzed bibliometrically and systematicallyusing…",
+   "tags": [
+    "systems"
+   ],
+   "title": "SURVIVING AMIDST VULNERABILITY: A STRATEGIC ANALYSIS OF THE INDONESIAN MIDDLE CLASS’S ADAPTATION TO ECONOMIC POLICY DYNAMICS",
+   "url": "https://doi.org/10.32424/icsema.v2i1.791",
+   "venue": "The International Conference on Sustainable Economics Management and Accounting Proceeding"
+  },
+  {
+   "authors": [
+    "Gowit Chanaken",
+    "Keisuke Utsu",
+    "Osamu Uchida"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Disaster-prone urban areas must support transient and vulnerable populations, including foreign tourists who may face language barriers and difficulty interpreting conventional 2D hazard information. This study developed a smartphone-based augmented reality (AR) system designed to support flood-risk interpretation by foreign tourists in Japan. The system integrates four live external APIs providing location, weather forecast, hazard, and designated emergency evacuation site information, and…",
+    "citations": 0,
+    "doi": "10.3390/su18168140"
+   },
+   "id": "c7f3ec8b3325ed25",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.3585,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Disaster-prone urban areas must support transient and vulnerable populations, including foreign tourists who may face language barriers and difficulty interpreting conventional 2D hazard information. This study developed a smartphone-based augmented reality (AR) system designed to support…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Enhancing Urban Disaster Resilience for Foreign Tourists in Japan: A Smartphone-Based, SLAM-Enabled Augmented Reality System for Inclusive Flood Risk Communication",
+   "url": "https://doi.org/10.3390/su18168140",
+   "venue": "Sustainability"
+  },
+  {
+   "authors": [
+    "Li Peiyao"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Adaptive educational technologies are increasingly used to personalize learning pathways. However, limited evidence has examined whether reinforcement learning (RL)-personalized instruction is associated with psychologically meaningful learning outcomes in Professional English education. This study compared an RL-personalized instructional pathway with a fixed-path control pathway among 200 learners across an 8-week, 16-session Professional English program. Student-level data included baseline…",
+    "citations": 0,
+    "doi": "10.3389/fpsyg.2026.1900245"
+   },
+   "id": "b6599c4f9547e7f2",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.3585,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Adaptive educational technologies are increasingly used to personalize learning pathways. However, limited evidence has examined whether reinforcement learning (RL)-personalized instruction is associated with psychologically meaningful learning outcomes in Professional English education. This study…",
+   "tags": [],
+   "title": "Reinforcement learning personalized instruction for psychological engagement self-regulated learning motivation and performance in professional English education",
+   "url": "https://doi.org/10.3389/fpsyg.2026.1900245",
+   "venue": "Frontiers in Psychology"
+  },
+  {
+   "authors": [
+    "Qianna Li",
+    "Qi Wang",
+    "B Mo",
+    "Bo Zhu",
+    "Lingming Lin",
+    "Hongxuan Li"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.21203/rs.3.rs-10550606/v1"
+   },
+   "id": "9b983c9afb7ec45a",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.3585,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [],
+   "title": "Phosphorylation of dynamin-related protein 1 at Ser616 promotes autophagy to suppress Mycobacterium tuberculosis survival via the ROS/HIF-1α axis in macrophages",
+   "url": "https://doi.org/10.21203/rs.3.rs-10550606/v1",
+   "venue": "Research Square"
+  },
+  {
+   "authors": [
+    "Osuke Doijiri"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract EIDOS 4D: From Video to Future Fluid-State Anomalies — A Dist-to-Core Framework for Video-Constrained 3D CFD Conventional flow visualization primarily describes where and how fast a fluid is moving. However, velocity magnitude alone may not reveal whether a local region has entered an unusual multidimensional physical state. EIDOS 4D was developed to address this problem by integrating video-derived motion, three-dimensional computational fluid dynamics (CFD), multidimensional…",
+    "citations": 0,
+    "doi": "10.5281/zenodo.21869982"
+   },
+   "id": "95ca15296d9ac7aa",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.496,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract EIDOS 4D: From Video to Future Fluid-State Anomalies — A Dist-to-Core Framework for Video-Constrained 3D CFD Conventional flow visualization primarily describes where and how fast a fluid is moving. However, velocity magnitude alone may not reveal whether a local region has entered an…",
+   "tags": [
+    "systems",
+    "visualization"
+   ],
+   "title": "EIDOS 4D: Dist-to-Core Mapping of Hidden Fluid-State Anomalies from Video-Constrained CFD with Future Prediction",
+   "url": "https://doi.org/10.5281/zenodo.21869982",
    "venue": "Zenodo (CERN European Organization for Nuclear Research)"
   },
   {
    "authors": [
-    "Dimas Putra Ramadhan",
-    "Ade Silvia Handayani",
-    "Sopian Soim",
-    "Nyayu Latifah Husni"
+    "Wei Zhong",
+    "Yuanyuan Zhang",
+    "Yu Huang",
+    "Jin Yang",
+    "Guoxue Zheng",
+    "Qin Li"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Flooding remains a significant urban hazard because rising river levels can disrupt mobility, public activities, infrastructure, and environmental conditions. Continuous water-level observation is therefore needed to provide timely operational information in flood-prone urban tributaries. This study aims to develop and field-evaluate an IoT-based water-level monitoring system that supports continuous measurement, MQTT-based data transmission, threshold-based status classification, and real-time…",
+    "abstract_snippet": "Background Patients increasingly use public large language model chatbot interfaces to seek health information. In vascular disease and perioperative management, default first responses may influence how patients interpret urgent symptoms, antithrombotic medications, procedural choices, and anesthesia-related safety issues. Methods This cross-sectional benchmark study evaluated 110 default first responses returned by five publicly accessible LLM chatbot interfaces during a defined access window…",
     "citations": 0,
-    "doi": "10.32877/bt.v9i1.4004"
+    "doi": "10.3389/fpubh.2026.1905883"
    },
-   "id": "6b4ee0dc69d3416b",
+   "id": "b8ea0f5e5d069c27",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-10T00:00:00Z",
-   "score": 0.5031,
+   "score": 0.496,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Flooding remains a significant urban hazard because rising river levels can disrupt mobility, public activities, infrastructure, and environmental conditions. Continuous water-level observation is therefore needed to provide timely operational information in flood-prone urban tributaries. This…",
+   "summary": "Background Patients increasingly use public large language model chatbot interfaces to seek health information. In vascular disease and perioperative management, default first responses may influence how patients interpret urgent symptoms, antithrombotic medications, procedural choices, and…",
    "tags": [
-    "systems"
+    "ml-vis",
+    "llm"
    ],
-   "title": "Development of an IoT-Based Real-Time Water Level Monitoring System for Flood Observation",
-   "url": "https://doi.org/10.32877/bt.v9i1.4004",
-   "venue": "bit-Tech"
+   "title": "Quality, readability, and clinical-risk signals of default public-interface LLM responses to vascular and perioperative patient questions: a cross-sectional snapshot",
+   "url": "https://doi.org/10.3389/fpubh.2026.1905883",
+   "venue": "Frontiers in Public Health"
+  },
+  {
+   "authors": [
+    "Xuanzhou Yan",
+    "Mingyang Zuo",
+    "Junhua Zou",
+    "Xingtong Wu"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.21203/rs.3.rs-9517992/v1"
+   },
+   "id": "09cd96ec7f501217",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.3585,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [],
+   "title": "Study on the Impact of Digital Literacy on the Adoption Behavior of Intelligent Agricultural Machinery among Large-Scale Rice Producers",
+   "url": "https://doi.org/10.21203/rs.3.rs-9517992/v1",
+   "venue": "Research Square"
+  },
+  {
+   "authors": [
+    "Liping Li",
+    "Jujia Zhang",
+    "Zhenyu Wang",
+    "Xiaofeng Wang",
+    "Qian Zhai",
+    "Shengyu Yan"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract We present optical observations on the young type Ia supernova (SN Ia) SN 2021fxy obtained within a few days after the explosion, with a focus on its prominent high-velocity features (HVFs). It reached a B -band maximum of <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" overflow=\"scroll\"> <mml:msub> <mml:mrow> <mml:mi>M</mml:mi> </mml:mrow> <mml:mrow> <mml:mi mathvariant=\"normal\">max</mml:mi> </mml:mrow> </mml:msub> <mml:mo stretchy=\"false\">(</mml:mo> <mml:mi>B</mml:mi>…",
+    "citations": 0,
+    "doi": "10.3847/1538-4357/ae8dc9"
+   },
+   "id": "ba9959b34d00acfb",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.496,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract We present optical observations on the young type Ia supernova (SN Ia) SN 2021fxy obtained within a few days after the explosion, with a focus on its prominent high-velocity features (HVFs). It reached a B -band maximum of <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"…",
+   "tags": [],
+   "title": "Optical Observations on the Young Type Ia SN 2021fxy with Detached High Velocity Features",
+   "url": "https://doi.org/10.3847/1538-4357/ae8dc9",
+   "venue": "The Astrophysical Journal"
   },
   {
    "authors": [
@@ -185,7 +646,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-09T14:21:28Z",
-   "score": 0.6568,
+   "score": 0.6487,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -218,7 +679,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-09T12:36:54Z",
-   "score": 0.4589,
+   "score": 0.451,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -250,7 +711,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-09T12:03:20Z",
-   "score": 0.7897,
+   "score": 0.7818,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -279,7 +740,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-09T10:05:46Z",
-   "score": 0.4513,
+   "score": 0.4436,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -310,7 +771,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-09T05:30:55Z",
-   "score": 0.6304,
+   "score": 0.6231,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -343,7 +804,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-09T03:00:36Z",
-   "score": 0.6234,
+   "score": 0.6164,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -374,7 +835,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-09T00:45:52Z",
-   "score": 0.6173,
+   "score": 0.6105,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -386,395 +847,6 @@
    "title": "FZ-VIS: A Visual Analytics Framework for Quantities-of-Interest-Aware Scientific Lossy Compression",
    "url": "https://arxiv.org/abs/2608.08386v1",
    "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Ofek Kirshenboim",
-    "Amit Kabya",
-    "Regev Yehezkel-Imra",
-    "Yuli Tshuva",
-    "Martin Maiers",
-    "Loren Gragert"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Background: The success of hematopoietic stem cell transplantation (HSCT) depends critically on human leukocyte antigen (HLA) matching between donor and recipient. While traditional matching focuses on five classical HLA loci (A, B, C, DRB1, DQB1), clinical practice increasingly considers extended typing at nine loci, including DPA1, DQA1, DPB1, and DRB3/4/5. Furthermore, emerging evidence supports transplantation with up to three HLA mismatches under post-transplant cyclophosphamide (PTCy)…",
-    "citations": 0,
-    "doi": "10.1016/j.humimm.2026.111810"
-   },
-   "id": "ebd94b3f1bb722a8",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.3083,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Background: The success of hematopoietic stem cell transplantation (HSCT) depends critically on human leukocyte antigen (HLA) matching between donor and recipient. While traditional matching focuses on five classical HLA loci (A, B, C, DRB1, DQB1), clinical practice increasingly considers extended…",
-   "tags": [],
-   "title": "GRIMM-II: A two-stage real-time algorithm for nine-locus HLA imputation and matching with up to three mismatches",
-   "url": "https://doi.org/10.1016/j.humimm.2026.111810",
-   "venue": "Human Immunology"
-  },
-  {
-   "authors": [
-    "Shogo Noguchi",
-    "Taketo Akama",
-    "Tai Nakamura",
-    "Shun Minamikawa",
-    "Natalia Polouliakh"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract During music listening, cortical activity encodes both acoustic and expectation-related information. Prior work has shown that ANN representations resemble cortical representations and can serve as supervisory signals for EEG recognition. Here we show that distinguishing acoustic and expectation-related ANN representations as teacher targets improves EEG-based music identification. Models pretrained to predict either representation outperform non-pretrained baselines, and combining…",
-    "citations": 0,
-    "doi": "10.1038/s41598-026-65711-1"
-   },
-   "id": "dd0e556c42a5702c",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.4458,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract During music listening, cortical activity encodes both acoustic and expectation-related information. Prior work has shown that ANN representations resemble cortical representations and can serve as supervisory signals for EEG recognition. Here we show that distinguishing acoustic and…",
-   "tags": [
-    "ml-vis"
-   ],
-   "title": "Expectation and acoustic neural network representations enhance music identification from brain activity",
-   "url": "https://doi.org/10.1038/s41598-026-65711-1",
-   "venue": "Scientific Reports"
-  },
-  {
-   "authors": [
-    "Chuanlong Zhou"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "The CHETNA–Power Plants dataset provides a unit-level, daily record of electricity generation and associated CO₂ emissions for India’s power sector covering the period 2018–2025. The dataset integrates a harmonized plant–unit inventory with daily power generation records and unit-year-specific emission intensity estimates, enabling consistent tracking of power-sector activity and emissions at high spatial and temporal resolution. The dataset covers all major power-generation technologies in…",
-    "citations": 0,
-    "doi": "10.5281/zenodo.21865308"
-   },
-   "id": "92ec52b51188b426",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.4458,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "The CHETNA–Power Plants dataset provides a unit-level, daily record of electricity generation and associated CO₂ emissions for India’s power sector covering the period 2018–2025. The dataset integrates a harmonized plant–unit inventory with daily power generation records and unit-year-specific…",
-   "tags": [],
-   "title": "CHETNA-Power Plants: Unit-Level Inventory with Daily Generation and CO₂ Emissions for India (2018–2025)",
-   "url": "https://doi.org/10.5281/zenodo.21865308",
-   "venue": "Zenodo (CERN European Organization for Nuclear Research)"
-  },
-  {
-   "authors": [
-    "Bakhrom Tulaganov",
-    "Sirojiddin Mirzaev",
-    "Sherzod Xidoyatov",
-    "Shakhriddin Baymatov",
-    "Jasur Rashidov"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Urban areas located in seismically active regions are exposed to complex multi-factor risks arising from the interaction between seismic hazards and structural characteristics of the built environment. This study proposes an integrated analytical framework for scenario-based seismic vulnerability assessment of urban buildings that combines structural engineering analysis, multivariate regression modeling, geospatial information systems, and digital twin concepts, formulated here as a conceptual…",
-    "citations": 0,
-    "doi": "10.21837/pm.v24i43.2137"
-   },
-   "id": "ae75cc999750bff4",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.3083,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Urban areas located in seismically active regions are exposed to complex multi-factor risks arising from the interaction between seismic hazards and structural characteristics of the built environment. This study proposes an integrated analytical framework for scenario-based seismic vulnerability…",
-   "tags": [
-    "systems"
-   ],
-   "title": "INTEGRATED GIS AND DIGITAL TWIN–BASED FRAMEWORK FOR SCENARIO-BASED SEISMIC VULNERABILITY ASSESSMENT OF URBAN BUILDINGS: CONCEPTUAL ARCHITECTURE AND CASE STUDY OF TASHKENT",
-   "url": "https://doi.org/10.21837/pm.v24i43.2137",
-   "venue": "PLANNING MALAYSIA"
-  },
-  {
-   "authors": [
-    "D. Zavala",
-    "W. Vicente",
-    "R. Esquivel",
-    "M. Salinas-Vazquez"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "This study numerically investigates the aerodynamic performance of several curved ground-effect diffuser geometries integrated into an inverted Ahmed body. The proposed diffuser configurations were designed to reduce abrupt transverse flow-direction changes inside the diffuser and improve aerodynamic efficiency through enhanced pressure recovery and controlled vortex development. Steady Reynolds-averaged Navier–Stokes simulations were performed using the SST turbulence model. The numerical…",
-    "citations": 0,
-    "doi": "10.47176/jafm.19.10.4413"
-   },
-   "id": "1722b1a64f83c2f2",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.3083,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "This study numerically investigates the aerodynamic performance of several curved ground-effect diffuser geometries integrated into an inverted Ahmed body. The proposed diffuser configurations were designed to reduce abrupt transverse flow-direction changes inside the diffuser and improve…",
-   "tags": [],
-   "title": "Numerical Study of the Impact of a Curved Ground-effect Diffuser on the Aerodynamic Performance of a Bluff Body",
-   "url": "https://doi.org/10.47176/jafm.19.10.4413",
-   "venue": "Journal of Applied Fluid Mechanics"
-  },
-  {
-   "authors": [
-    "Ran Yan",
-    "Ri Li",
-    "Xuanye Xu",
-    "Hongwei Zhao"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "This repository contains the processed data and MATLAB analysis and visualization scripts supporting the results presented in “Spatial and Temporal Characteristics of Summer Precipitation Latent Heating over the East Asian Monsoon Region Based on GPM Satellite Observations”. The archived data support the reproduction of Figures 1–12 in the main text and Figures S1–S3 in the Supporting Information. The dataset primarily includes processed convolutional neural network heating (CNNH) latent…",
-    "citations": 0,
-    "doi": "10.5281/zenodo.21861128"
-   },
-   "id": "61ca5253b388e350",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.4458,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "This repository contains the processed data and MATLAB analysis and visualization scripts supporting the results presented in “Spatial and Temporal Characteristics of Summer Precipitation Latent Heating over the East Asian Monsoon Region Based on GPM Satellite Observations”. The archived data…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "Processed CNNH LH Data and Analysis Code for \"Spatial and Temporal Characteristics of Summer Precipitation Latent Heating over the East Asian Monsoon Region Based on GPM Satellite Observations\"",
-   "url": "https://doi.org/10.5281/zenodo.21861128",
-   "venue": "Zenodo (CERN European Organization for Nuclear Research)"
-  },
-  {
-   "authors": [
-    "Shida Gao",
-    "Yong Tang",
-    "Kai Yu",
-    "Lisha Zhou",
-    "Liwen Xie",
-    "Dongliang Guo"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "citations": 0,
-    "doi": "10.1007/s12650-026-01151-3"
-   },
-   "id": "7a9df474d212ba27",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.3083,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "",
-   "tags": [
-    "systems",
-    "visualization"
-   ],
-   "title": "3DMAViz: a visual analytics framework for exploring DRL-based 3D multi-agent environments",
-   "url": "https://doi.org/10.1007/s12650-026-01151-3",
-   "venue": "Journal of Visualization"
-  },
-  {
-   "authors": [
-    "K. Yao",
-    "W. Fang",
-    "X. Guo",
-    "X. Liu",
-    "B. Qin",
-    "X. Su"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Deep-sea drilling relies on mud lifting systems, in which slurry pumps are critical components. Unlike conventional deep-water pumps, slurry pumps transport non-Newtonian fluids containing solid particles, resulting in severe internal wear of flow-passing components. In this study, the CFD-DEM coupling method was employed to establish a solid-liquid two-phase flow model under non-Newtonian conditions. The flow characteristics of non-Newtonian fluids were investigated, and an Archard wear model…",
-    "citations": 0,
-    "doi": "10.47176/jafm.19.10.4530"
-   },
-   "id": "52f49ef5611c5e50",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.4458,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Deep-sea drilling relies on mud lifting systems, in which slurry pumps are critical components. Unlike conventional deep-water pumps, slurry pumps transport non-Newtonian fluids containing solid particles, resulting in severe internal wear of flow-passing components. In this study, the CFD-DEM…",
-   "tags": [
-    "systems"
-   ],
-   "title": "Archard Model for Wear Characteristics of Slurry Pump Impellers in Non-Newtonian Fluids",
-   "url": "https://doi.org/10.47176/jafm.19.10.4530",
-   "venue": "Journal of Applied Fluid Mechanics"
-  },
-  {
-   "authors": [
-    "Oparadike FE",
-    "Charles D",
-    "Leol A. K."
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "In the oil and gas industries, Offshore pressure vessels are crucial for storing and transporting fluids safely, supporting oil and gas operations, and ensuring environmental protection. The common problem associated to pressure vessels is surge, the surge has a very high impact on the behavior of the pressure vessels. This is because the surge has the tendencies to increase the pressure of the vessel, which may affect the temperature and the flow rate of the pressure vessel. The aim of this…",
-    "citations": 0,
-    "doi": "10.30574/wjaets.2026.20.2.0386"
-   },
-   "id": "5506e5ad72e7aff2",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.3083,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "In the oil and gas industries, Offshore pressure vessels are crucial for storing and transporting fluids safely, supporting oil and gas operations, and ensuring environmental protection. The common problem associated to pressure vessels is surge, the surge has a very high impact on the behavior of…",
-   "tags": [],
-   "title": "Analysis of surge mitigation in offshore pressure vessel using Kalman filter",
-   "url": "https://doi.org/10.30574/wjaets.2026.20.2.0386",
-   "venue": "World Journal of Advanced Engineering Technology and Sciences"
-  },
-  {
-   "authors": [
-    "Xiang Li",
-    "Wenyuan Xu",
-    "Bo Liu"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Drone-based road defect detection is essential for efficient pavement inspection, but remains challenging due to scale variation, low resolution, blurred boundaries, and interference from shadows, lane markings, vegetation, and road facilities. To overcome these limitations, this study introduces a robust method built around an enhanced model, URD-YOLOv11n. This is realized through four key innovations: First, a Spatial-Channel Synergistic Attention (SCSA) module is embedded to strengthen…",
-    "citations": 0,
-    "doi": "10.1038/s41598-026-66419-y"
-   },
-   "id": "7e52ffa484cb2a8b",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.4458,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Drone-based road defect detection is essential for efficient pavement inspection, but remains challenging due to scale variation, low resolution, blurred boundaries, and interference from shadows, lane markings, vegetation, and road facilities. To overcome these limitations, this study introduces a…",
-   "tags": [],
-   "title": "A robust road defect detection method for UAV imagery based on synergistic attention and adaptive feature refinement",
-   "url": "https://doi.org/10.1038/s41598-026-66419-y",
-   "venue": "Scientific Reports"
-  },
-  {
-   "authors": [
-    "Dr. Chinedu Okafor"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Image super-resolution (ISR) has emerged as a critical computer vision task aimed at reconstructing high-resolution visual information from low-resolution inputs. Although deep learning-based approaches have significantly improved reconstruction quality, many existing architectures suffer from high computational complexity, excessive parameter requirements, and limited efficiency in real-time deployment scenarios. This research presents a Lightweight Transformer-Fourier Fusion Framework for…",
-    "citations": 0,
-    "doi": "10.37547/ibast/volume06issue08-02"
-   },
-   "id": "007533e5d02811a3",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.4458,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Image super-resolution (ISR) has emerged as a critical computer vision task aimed at reconstructing high-resolution visual information from low-resolution inputs. Although deep learning-based approaches have significantly improved reconstruction quality, many existing architectures suffer from high…",
-   "tags": [
-    "systems",
-    "ml-vis"
-   ],
-   "title": "Lightweight Transformer-Fourier Fusion Framework for Efficient Image Super-Resolution",
-   "url": "https://doi.org/10.37547/ibast/volume06issue08-02",
-   "venue": null
-  },
-  {
-   "authors": [
-    "Zijay Pereda",
-    "Jezreel Batayon"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "This study examined the generational language gap between teachers and students and its relationship to classroom communication and learning in a tertiary institution in Cabuyao, Laguna. Using an explanatory mixed-methods design grounded in Systemic Functional Linguistics, Communication Accommodation Theory, and Sociocultural Theory, the study surveyed 200 College of Education students majoring in Filipino. It was followed by interviews for qualitative validation. Quantitative findings showed…",
-    "citations": 0,
-    "doi": "10.66074/f7m2t1h6q"
-   },
-   "id": "8ffe2aa67d3315c1",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.3083,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "This study examined the generational language gap between teachers and students and its relationship to classroom communication and learning in a tertiary institution in Cabuyao, Laguna. Using an explanatory mixed-methods design grounded in Systemic Functional Linguistics, Communication…",
-   "tags": [
-    "systems"
-   ],
-   "title": "Generational Language Gap Between Teachers and Students: Analysis of Students’ Perception of Effective Communication and Learning",
-   "url": "https://doi.org/10.66074/f7m2t1h6q",
-   "venue": "International Journal of Transformative Multidisciplinary Studies"
-  },
-  {
-   "authors": [
-    "Yanqi Lyu"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "This project provides the data and analysis code for Study 2 examining the effects of Zhongyong thinking priming on psychological responses to different types of pressure situations. The study used a 2 × 3 mixed design, with priming condition (Zhongyong vs. control) as a between-subjects factor and scenario type (interpersonal pressure, task pressure, and mixed pressure) as a within-subjects factor. Participants completed nine pressure-situation tasks, comprising three interpersonal-pressure…",
-    "citations": 0,
-    "doi": "10.17605/osf.io/wpjyf"
-   },
-   "id": "e42aa9e511257b6d",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.3083,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "This project provides the data and analysis code for Study 2 examining the effects of Zhongyong thinking priming on psychological responses to different types of pressure situations. The study used a 2 × 3 mixed design, with priming condition (Zhongyong vs. control) as a between-subjects factor and…",
-   "tags": [],
-   "title": "Zhongyong Thinking Priming in Pressure Situations: Data and Analysis Code",
-   "url": "https://doi.org/10.17605/osf.io/wpjyf",
-   "venue": "Open Science Framework"
-  },
-  {
-   "authors": [
-    "Shubhangi Mehrotra",
-    "Sagar C. Mhetre",
-    "Cheena Garg",
-    "Sheetal Mishra"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Background: Intra-abdominal mass lesions comprise a heterogeneous group of neoplastic, inflammatory, cystic, and metastatic conditions requiring accurate diagnosis for appropriate clinical management. Conventional fine needle aspiration cytology (FNAC) is widely utilized because it is minimally invasive, rapid, and cost-effective; however, it may occasionally yield inadequate material and limited architectural details. Cell block technique serves as an important adjunct by improving cellular…",
-    "citations": 0,
-    "doi": "10.30574/ijsra.2026.20.2.1546"
-   },
-   "id": "ea0fb260da9b5f59",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.3083,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Background: Intra-abdominal mass lesions comprise a heterogeneous group of neoplastic, inflammatory, cystic, and metastatic conditions requiring accurate diagnosis for appropriate clinical management. Conventional fine needle aspiration cytology (FNAC) is widely utilized because it is minimally…",
-   "tags": [],
-   "title": "Cell Block as an Adjunct to Conventional Cytology in Intra-abdominal Mass lesions: A Cross -Sectional Study",
-   "url": "https://doi.org/10.30574/ijsra.2026.20.2.1546",
-   "venue": "International Journal of Science and Research Archive"
   },
   {
    "authors": [
@@ -799,7 +871,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-08T18:07:12Z",
-   "score": 0.6002,
+   "score": 0.5939,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -827,7 +899,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-08T18:00:52Z",
-   "score": 0.74,
+   "score": 0.7336,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -838,35 +910,6 @@
    "title": "Design Knowledge in Data Visualization: Mapping the Epistemic Landscape",
    "url": "https://arxiv.org/abs/2608.08270v1",
    "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Madison Percy Jones",
-    "Morgan C. Banville",
-    "Leah Heilig"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "To illustrate how environmental aesthetics shape present-day science communication pedagogy, this article situates contemporary science communication in the context of the American environmental writing tradition, drawing from the field reporting techniques of William Bartram as a form of artist's study. We use teaching case examples to demonstrate how the aesthetic experience of scientific knowledge—the acts of etching, visiting, feeling, and being in nature—ultimately contributes to better…",
-    "citations": 0,
-    "doi": "10.1177/00472816261471749"
-   },
-   "id": "3edd96c27f389a93",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-08T17:56:07Z",
-   "score": 0.3112,
-   "section": "papers",
-   "source": "TechComm journals (CrossRef)",
-   "source_id": "crossref_techcomm_journals",
-   "summary": "To illustrate how environmental aesthetics shape present-day science communication pedagogy, this article situates contemporary science communication in the context of the American environmental writing tradition, drawing from the field reporting techniques of William Bartram as a form of artist's…",
-   "tags": [
-    "pedagogy",
-    "techcomm"
-   ],
-   "title": "Visualizing Environments: Toward A Natural History of Science Communication",
-   "url": "https://doi.org/10.1177/00472816261471749",
-   "venue": "Journal of Technical Writing and Communication"
   },
   {
    "authors": [
@@ -883,7 +926,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-08T14:49:03Z",
-   "score": 0.3997,
+   "score": 0.3936,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -913,7 +956,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-08T00:41:37Z",
-   "score": 0.5613,
+   "score": 0.5562,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -924,124 +967,11 @@
    "title": "Marks, Channels, and Dead Ends: Stop Running Graphical Perception Studies and Start Modeling Visualizations as Images",
    "url": "https://arxiv.org/abs/2608.07834v1",
    "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Mason Pellegrini",
-    "Clay Spinuzzi"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "citations": 0,
-    "doi": "10.1080/10572252.2026.2710366"
-   },
-   "id": "040f914a761e7b5b",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-07T05:14:54Z",
-   "score": 0.4917,
-   "section": "papers",
-   "source": "TechComm journals (CrossRef)",
-   "source_id": "crossref_techcomm_journals",
-   "summary": "",
-   "tags": [
-    "ai-writing",
-    "llm"
-   ],
-   "title": "Can We Responsively Code Qualitative Data with an LLM Aide? A Human-In-The-Loop Approach",
-   "url": "https://doi.org/10.1080/10572252.2026.2710366",
-   "venue": "Technical Communication Quarterly"
-  },
-  {
-   "authors": [
-    "Sunitha Tumkur"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "citations": 0,
-    "doi": "10.1109/tpc.2026.3711952"
-   },
-   "id": "29802937b2099c6b",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-06T19:08:30Z",
-   "score": 0.2424,
-   "section": "papers",
-   "source": "TechComm journals (CrossRef)",
-   "source_id": "crossref_techcomm_journals",
-   "summary": "",
-   "tags": [
-    "pedagogy"
-   ],
-   "title": "Teaching Professional Self-Presentation With Video Résumés: An Instructor-and-Peer Feedback Intervention",
-   "url": "https://doi.org/10.1109/tpc.2026.3711952",
-   "venue": "IEEE Transactions on Professional Communication"
-  },
-  {
-   "authors": [
-    "Claire Lauer",
-    "Amber Hedquist",
-    "Stephen Carradini",
-    "Srinivasan Ravichandran",
-    "Anqi Shao",
-    "Poorva Ketkar"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "This article examines how aesthetic design and anthropomorphism support public engagement with complex environmental issues through “Blue,” a character developed for a community-based water education initiative in Arizona. Drawing on qualitative usability-testing data, the study analyzes user responses to Blue's design. We argue that Blue's effectiveness stems from his construction as a social presence and identify four design functions that shaped engagement: building approachability,…",
-    "citations": 0,
-    "doi": "10.1177/00472816261471752"
-   },
-   "id": "bdb16283089b369c",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-06T13:50:48Z",
-   "score": 0.2367,
-   "section": "papers",
-   "source": "TechComm journals (CrossRef)",
-   "source_id": "crossref_techcomm_journals",
-   "summary": "This article examines how aesthetic design and anthropomorphism support public engagement with complex environmental issues through “Blue,” a character developed for a community-based water education initiative in Arizona. Drawing on qualitative usability-testing data, the study analyzes user…",
-   "tags": [
-    "ux"
-   ],
-   "title": "“Cute” as Environmental Strategy: Anthropomorphizing Nature to Promote Engagement with Environmental Issues",
-   "url": "https://doi.org/10.1177/00472816261471752",
-   "venue": "Journal of Technical Writing and Communication"
-  },
-  {
-   "authors": [
-    "Maureen A. Mathison",
-    "Stephanie Weidauer",
-    "Mickey Gough"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "citations": 0,
-    "doi": "10.1080/10572252.2026.2712991"
-   },
-   "id": "e4769a89f6477941",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-05T16:30:29Z",
-   "score": 0.2173,
-   "section": "papers",
-   "source": "TechComm journals (CrossRef)",
-   "source_id": "crossref_techcomm_journals",
-   "summary": "",
-   "tags": [
-    "pedagogy"
-   ],
-   "title": "Facilitating Social Justice in the Technical Editing Classroom",
-   "url": "https://doi.org/10.1080/10572252.2026.2712991",
-   "venue": "Technical Communication Quarterly"
   }
  ],
  "meta": {
-  "count": 36,
-  "generated_at": "2026-08-11T11:02:50Z",
+  "count": 33,
+  "generated_at": "2026-08-11T13:39:39Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -1083,12 +1013,12 @@
    },
    {
     "category": "optional",
-    "count": 16,
-    "error": null,
+    "count": 0,
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A1050-6519%2Cfrom-created-date%3A2026-07-14&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
-    "ok": true,
+    "ok": false,
     "section": "papers",
     "skip_reason": null,
     "type": "crossref"
