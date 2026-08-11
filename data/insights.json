@@ -1,28 +1,48 @@
 {
- "brief": "Today's news is marked by crises and controversies: a major earthquake in Colombia, a migrant surge in Ceuta fueled by disinformation, AI transparency debates, and legal scandals in the U.S. Meanwhile, research highlights AI's role in writing, finance, and medical diagnostics, as well as social media's impact on migration.",
- "meta": {
-  "generated_at": "2026-08-11T13:39:39Z"
+ "apropos_of_nothing": {
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "source": {
+   "name": "wror.com",
+   "published_at": "2026-08-10T16:45:00Z",
+   "title": "Topsfield Fair Opens Entries for 2026 Competitions , Promotes $20K Pumpkin Prize",
+   "url": "https://wror.com/2026/08/10/topsfield-fair-opens-entries-for-2026-competitions-promotes-20k-pumpkin-prize/"
+  },
+  "summaries": {
+   "en": {
+    "summary": "The Topsfield Fair has opened entries for its 2026 competitions, now offering a $20,000 prize for the largest pumpkin.",
+    "why_irrelevant": "A niche agricultural contest far removed from any typical personal dashboard content."
+   },
+   "zh": {
+    "summary": "托普斯菲尔德博览会已开放2026年比赛报名，并为最大南瓜提供2万美元奖金。",
+    "why_irrelevant": "一个偏离常规信息流的小众农业竞赛。"
+   }
+  },
+  "topic": "competitive pumpkin growing"
  },
- "news_summary": "Top stories include Colombia's deadliest earthquake in years, a Spanish-Moroccan migrant crisis exacerbated by social media disinformation, U.S. immigration sweeps marred by racial slurs, and growing AI regulation with Spotify and Anthropic making transparency moves.",
- "papers_summary": "Papers explore AI's potential in narrative drafting and financial advice evaluation, alongside medical studies on cognitive impairment, sleep, and pain management, plus a machine learning approach for reservoir permeability estimation.",
+ "brief": "Today's news spans global politics, security, and climate, while research focuses on AI and visualization. Key events include Thailand's gun control response, Assad's death sentence, and rising oil prices, alongside advances in LLM inference and data visualization.",
+ "meta": {
+  "generated_at": "2026-08-11T15:14:13Z"
+ },
+ "news_summary": "News highlights: Thailand tightens gun laws after a mass shooting; Syria's Assad sentenced to death; G.M. president discusses EVs and China; Trump reportedly hid in a catering truck during a security threat; human rights groups sue over ICC sanctions; oil prices hit $90/barrel amid U.S.-Iran stalemate; a Canadian airline cancels flight over seatbelt refusal; a Colombian earthquake rescue effort.",
+ "papers_summary": "Papers cover AI in writing, financial advice evaluation, CPR training with visualization, data fact outlier exploration, public health visualization practices, mobile analytics for group discussions, social finance simulation, causal knowledge injection for virtual cells, scientific data compression, and speech-driven data visualization queries.",
  "summaries": {
   "en": {
-   "brief": "Today's news is marked by crises and controversies: a major earthquake in Colombia, a migrant surge in Ceuta fueled by disinformation, AI transparency debates, and legal scandals in the U.S. Meanwhile, research highlights AI's role in writing, finance, and medical diagnostics, as well as social media's impact on migration.",
-   "news_summary": "Top stories include Colombia's deadliest earthquake in years, a Spanish-Moroccan migrant crisis exacerbated by social media disinformation, U.S. immigration sweeps marred by racial slurs, and growing AI regulation with Spotify and Anthropic making transparency moves.",
-   "papers_summary": "Papers explore AI's potential in narrative drafting and financial advice evaluation, alongside medical studies on cognitive impairment, sleep, and pain management, plus a machine learning approach for reservoir permeability estimation."
+   "brief": "Today's news spans global politics, security, and climate, while research focuses on AI and visualization. Key events include Thailand's gun control response, Assad's death sentence, and rising oil prices, alongside advances in LLM inference and data visualization.",
+   "news_summary": "News highlights: Thailand tightens gun laws after a mass shooting; Syria's Assad sentenced to death; G.M. president discusses EVs and China; Trump reportedly hid in a catering truck during a security threat; human rights groups sue over ICC sanctions; oil prices hit $90/barrel amid U.S.-Iran stalemate; a Canadian airline cancels flight over seatbelt refusal; a Colombian earthquake rescue effort.",
+   "papers_summary": "Papers cover AI in writing, financial advice evaluation, CPR training with visualization, data fact outlier exploration, public health visualization practices, mobile analytics for group discussions, social finance simulation, causal knowledge injection for virtual cells, scientific data compression, and speech-driven data visualization queries."
   },
   "zh": {
-   "brief": "今日重点涵盖长崎原子弹内幕、台湾断网演习、哥伦比亚地震等新闻，以及AI文本水印和写作辅助研究等论文。",
-   "news_summary": "新闻聚焦二战历史回顾、台湾备战演练、哥伦比亚地震灾情及AI对工作生活的影响，同时涉及移民、科技和社会问题。",
-   "papers_summary": "论文涉及AI在写作、金融建议和情感识别中的应用，以及医学领域中的认知障碍、睡眠和疼痛管理研究。"
+   "brief": "今日重点包括历史反思与当代挑战：长崎原爆亲历者回忆揭露核战内幕，台湾首次演练断网应变，中国闪婚骗局暴露社会问题；同时AI与科技伦理、哥伦比亚地震救援等国际动态也值得关注。",
+   "news_summary": "中文新闻聚焦历史与社会的深度议题，如原爆亲历者回忆、台湾断网演练、闪婚骗局及芬兰管道案；国际方面，哥伦比亚地震、国际刑院制裁及AI工时等话题同样引发关注。",
+   "papers_summary": "当日无中文研究摘要，英文研究主要涉及AI与可视化技术在医疗、教育及金融等领域的应用，强调人机协作与数据呈现的改进。"
   }
  },
  "todays_image": {
-  "caption": "A survivor from 1906 shows you don't need a whole mailbox—or many tokens—to make your point.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2006_2038_1a",
-  "source_name": "National Postal Museum",
-  "source_url": "https://postalmuseum.si.edu/object/npm_2006.2038.1",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2006_2038_1a",
-  "title": "Mailbox remnant from 1906 San Francisco earthquake"
+  "caption": "Like the rescue net that caught Apollo 8's returning capsule, Thailand's suspension of gun permits is a safety net for a nation reeling from a mass shooting.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19700321000_PS01",
+  "source_name": "National Air and Space Museum",
+  "source_url": "http://n2t.net/ark:/65665/nv9bc553881-ab8d-4b7e-a89f-6c034d1ebc0f",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19700321000_PS01",
+  "title": "Rescue Net, Apollo 8"
  }
 }
