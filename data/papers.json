@@ -2,6 +2,64 @@
  "items": [
   {
    "authors": [
+    "Ruqi Sun",
+    "Jiaping Li",
+    "Wenhui Tao",
+    "Ximing Zheng",
+    "Yuefeng Tan",
+    "Jiahao Wei"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Great fiction earns its verisimilitude through precise details, from how a longsword is gripped to pierce armor gaps to why a bleeding corpse cannot yet smell of decay, weaving domain expertise into the fabric of invented worlds. Current AI writing tools offer limited support for discovering and integrating unfamiliar domain knowledge into narrative. They require explicit queries that authors cannot formulate, generate finished prose that risks homogenizing voice, or assist only within the…",
+    "arxiv_id": "2608.09698"
+   },
+   "id": "828e79fae5701a81",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T15:03:26Z",
+   "score": 0.7072,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Great fiction earns its verisimilitude through precise details, from how a longsword is gripped to pierce armor gaps to why a bleeding corpse cannot yet smell of decay, weaving domain expertise into the fabric of invented worlds. Current AI writing tools offer limited support for discovering and…",
+   "tags": [
+    "ai-writing",
+    "techcomm"
+   ],
+   "title": "VeriForge: Mitigating Latent Knowledge Gaps in Narrative Drafting via Mixed-Initiative Scaffolding",
+   "url": "https://arxiv.org/abs/2608.09698v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Aryan Ramchandra Kapadia",
+    "Eshwar Chandrasekharan",
+    "Koustuv Saha"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "As generative AI increasingly becomes a common source of daily decision-making, including financial choices, it is critical to understand how people evaluate AI-generated financial advice. We conducted a preregistered vignette experiment (N = 285) in which substantive financial content---including facts, numerical values, recommendation direction, and core reasoning---was held constant while communication style varied across AI Financial Assistant (AI), Certified Financial Planner (Expert), and…",
+    "arxiv_id": "2608.09019"
+   },
+   "id": "a5f9fa2bf8eb52f5",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T02:19:03Z",
+   "score": 0.6573,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "As generative AI increasingly becomes a common source of daily decision-making, including financial choices, it is critical to understand how people evaluate AI-generated financial advice. We conducted a preregistered vignette experiment (N = 285) in which substantive financial content---including…",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "How People Evaluate AI-, Expert-, and Peer-Style Financial Advice",
+   "url": "https://arxiv.org/abs/2608.09019v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
     "Nwakanma Alexander",
     "Emmanuel Ekpenyong",
     "Maduabuchi Ogu"
@@ -16,7 +74,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-10T00:00:00Z",
-   "score": 0.5082,
+   "score": 0.5031,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -44,7 +102,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-10T00:00:00Z",
-   "score": 0.3707,
+   "score": 0.3656,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -70,7 +128,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-10T00:00:00Z",
-   "score": 0.5082,
+   "score": 0.5031,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -97,7 +155,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-10T00:00:00Z",
-   "score": 0.5082,
+   "score": 0.5031,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -108,6 +166,226 @@
    "title": "Development of an IoT-Based Real-Time Water Level Monitoring System for Flood Observation",
    "url": "https://doi.org/10.32877/bt.v9i1.4004",
    "venue": "bit-Tech"
+  },
+  {
+   "authors": [
+    "Jiahe Dong",
+    "Shuhao Zhang",
+    "Yutao Ming",
+    "Jinkai Zhang",
+    "Yurui Zhang",
+    "Quan Li"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "CPR training requires learners to not only understand explicit procedural targets, such as compression depth and rate, but also to internalize these targets as stable psychomotor skills. However, existing CPR training systems often rely on feedback presented outside the action space, which divides learners' attention between performing compressions and monitoring external guidance. This separation weakens the coupling between action and bodily sensation and may lead to an over-reliance on…",
+    "arxiv_id": "2608.08729"
+   },
+   "id": "3fbeede890980e1c",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-09T14:21:28Z",
+   "score": 0.6568,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "CPR training requires learners to not only understand explicit procedural targets, such as compression depth and rate, but also to internalize these targets as stable psychomotor skills. However, existing CPR training systems often rely on feedback presented outside the action space, which divides…",
+   "tags": [
+    "systems",
+    "visualization"
+   ],
+   "title": "From Scaffolding to Internalization: Enhancing CPR Training with In-Situ Visualization and Kinesthetic Feedback",
+   "url": "https://arxiv.org/abs/2608.08729v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Yikai Li",
+    "Yong Wang"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Exploratory Data Analysis (EDA) systems extract and present data facts to summarize meaningful patterns such as trends and correlations for efficient dataset exploration. However, existing approaches rarely consider outlier detection at the level of data facts,and heterogeneous facts from different analytical scopes are often aggregated in a single view, making it difficult to define meaningful metrics and effectively analyze data fact outliers. To fill this gap, we present FOX, a novel visual…",
+    "also_in": [
+     {
+      "source": "arXiv cs.HC (writing & docs)",
+      "url": "https://arxiv.org/abs/2608.08671v1"
+     }
+    ],
+    "arxiv_id": "2608.08671"
+   },
+   "id": "f874935f2334d181",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-09T12:36:54Z",
+   "score": 0.4589,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Exploratory Data Analysis (EDA) systems extract and present data facts to summarize meaningful patterns such as trends and correlations for efficient dataset exploration. However, existing approaches rarely consider outlier detection at the level of data facts,and heterogeneous facts from different…",
+   "tags": [
+    "systems"
+   ],
+   "title": "FOX: Visual Exploration of Data Fact Outliers",
+   "url": "https://arxiv.org/abs/2608.08671v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Mia Hines",
+    "Alvitta Ottley"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Public health organizations regularly produce and publish data visualizations to raise awareness of critical issues, influence decision-making processes, and promote overall well-being. However, the design practices shaping these visualizations in real-world settings remain largely unexamined, limiting the research community's ability to evaluate their effectiveness, accessibility, and alignment with communication goals. To address this gap, we construct and analyze a large-scale corpus of over…",
+    "also_in": [
+     {
+      "source": "arXiv cs.HC (writing & docs)",
+      "url": "https://arxiv.org/abs/2608.08657v1"
+     }
+    ],
+    "arxiv_id": "2608.08657"
+   },
+   "id": "86a687e2645a9949",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-09T12:03:20Z",
+   "score": 0.7897,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Public health organizations regularly produce and publish data visualizations to raise awareness of critical issues, influence decision-making processes, and promote overall well-being. However, the design practices shaping these visualizations in real-world settings remain largely unexamined,…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Charting Public Health: A Taxonomic Study of Visualization Practices in the Public Health Field",
+   "url": "https://arxiv.org/abs/2608.08657v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Yiping Sun",
+    "Ziyao Kang",
+    "Wei Zeng",
+    "Minli Wu",
+    "Jiazhi Xia"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Group discussion-based teaching is widely used to foster collaborative learning, yet teachers in physical classrooms often struggle to simultaneously monitor multiple groups and quickly diagnose a target group before intervening. Existing visual analytics tools primarily support post-hoc analysis on desktop, providing limited support for in-situ walk-around teaching. To address this gap, we present MobileGroupVis, a mobile visual analytics system for in-situ analysis of classroom group…",
+    "arxiv_id": "2608.08617"
+   },
+   "id": "897b1e58de2f4ef3",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-09T10:05:46Z",
+   "score": 0.4513,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Group discussion-based teaching is widely used to foster collaborative learning, yet teachers in physical classrooms often struggle to simultaneously monitor multiple groups and quickly diagnose a target group before intervening. Existing visual analytics tools primarily support post-hoc analysis…",
+   "tags": [
+    "systems",
+    "visualization"
+   ],
+   "title": "Walking through Discussions: A Mobile Visual Analytics System for In-Situ Group Discussion Analysis",
+   "url": "https://arxiv.org/abs/2608.08617v1",
+   "venue": "arXiv cs.AI"
+  },
+  {
+   "authors": [
+    "Yi-Fan Cao",
+    "Qing Shi",
+    "Liangwei Wang",
+    "Leo Yu-Ho Lo",
+    "Lin Chen",
+    "Yuzi Han"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "The emergence of social finance (SocialFi) transforms online communities into complex socio-economic systems. Within these spaces, collective decisions shape a \"digital commons\" characterized by social capital (e.g., community trust) and financial health (e.g., market liquidity). Governing such hybrid ecosystems is challenging because real-world interventions are costly and irreversible. While counterfactual simulation is essential for exploring alternative governance strategies, existing…",
+    "arxiv_id": "2608.08497"
+   },
+   "id": "b500bc6a4ff43b84",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-09T05:30:55Z",
+   "score": 0.6304,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "The emergence of social finance (SocialFi) transforms online communities into complex socio-economic systems. Within these spaces, collective decisions shape a \"digital commons\" characterized by social capital (e.g., community trust) and financial health (e.g., market liquidity). Governing such…",
+   "tags": [
+    "systems",
+    "ml-vis",
+    "llm",
+    "visualization"
+   ],
+   "title": "SocialFiVis: A Visual Analytics Sandbox for LLM-Grounded Multi-Agent Simulation in Social Finance",
+   "url": "https://arxiv.org/abs/2608.08497v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Pengcheng Wang",
+    "Changjian Chen",
+    "Zhuo Tang",
+    "You Wu",
+    "Long Wang",
+    "Feng Yu"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Virtual cells employ machine learning models to simulate and predict cellular behaviors, serving as a critical computational framework for investigating health and disease. Injecting causal graphs into virtual cells can improve the interpretability, but such graphs are usually not available in real-world applications. Recently, many methods have been proposed to construct causal graphs from data, which group genes based on their similarities to form concepts and extract their causal…",
+    "arxiv_id": "2608.08430"
+   },
+   "id": "fa73b3d110d36284",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-09T03:00:36Z",
+   "score": 0.6234,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Virtual cells employ machine learning models to simulate and predict cellular behaviors, serving as a critical computational framework for investigating health and disease. Injecting causal graphs into virtual cells can improve the interpretability, but such graphs are usually not available in…",
+   "tags": [
+    "systems",
+    "ml-vis"
+   ],
+   "title": "Human-Guided Causal Knowledge Injection for Virtual Cells",
+   "url": "https://arxiv.org/abs/2608.08430v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Guoxi Liu",
+    "Yuxiao Li",
+    "Congrong Ren",
+    "Robert Underwood",
+    "Xin Liang",
+    "Bei Wang"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Modern scientific simulations generate massive volumes of data, making lossy compression essential for efficient storage and transmission. However, preserving critical quantities of interest (QoIs) under lossy compression is inherently data- and task-dependent, requiring domain scientists to navigate complex trade-offs between compression ratio and data fidelity. Exploring these trade-offs often involves large design and evaluation spaces, motivating human-in-the-loop approaches that combine…",
+    "arxiv_id": "2608.08386"
+   },
+   "id": "62e441603debc9c7",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-09T00:45:52Z",
+   "score": 0.6173,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Modern scientific simulations generate massive volumes of data, making lossy compression essential for efficient storage and transmission. However, preserving critical quantities of interest (QoIs) under lossy compression is inherently data- and task-dependent, requiring domain scientists to…",
+   "tags": [
+    "systems",
+    "visualization"
+   ],
+   "title": "FZ-VIS: A Visual Analytics Framework for Quantities-of-Interest-Aware Scientific Lossy Compression",
+   "url": "https://arxiv.org/abs/2608.08386v1",
+   "venue": "arXiv cs.HC"
   },
   {
    "authors": [
@@ -128,7 +406,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.3121,
+   "score": 0.3083,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -156,7 +434,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.4496,
+   "score": 0.4458,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -182,7 +460,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.4496,
+   "score": 0.4458,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -210,7 +488,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.3121,
+   "score": 0.3083,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -239,7 +517,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.3121,
+   "score": 0.3083,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -266,7 +544,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.4496,
+   "score": 0.4458,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -297,7 +575,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.3121,
+   "score": 0.3083,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -329,7 +607,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.4496,
+   "score": 0.4458,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -357,7 +635,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.3121,
+   "score": 0.3083,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -383,7 +661,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.4496,
+   "score": 0.4458,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -407,7 +685,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.4496,
+   "score": 0.4458,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -435,7 +713,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.3121,
+   "score": 0.3083,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -461,7 +739,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.3121,
+   "score": 0.3083,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -488,7 +766,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.3121,
+   "score": 0.3083,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -497,6 +775,69 @@
    "title": "Cell Block as an Adjunct to Conventional Cytology in Intra-abdominal Mass lesions: A Cross -Sectional Study",
    "url": "https://doi.org/10.30574/ijsra.2026.20.2.1546",
    "venue": "International Journal of Science and Research Archive"
+  },
+  {
+   "authors": [
+    "Paul C. Parsons",
+    "Prakash Shukla",
+    "Phuong Bui",
+    "Srishti Agrawal",
+    "Ali Baigelenov"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Visualization design often proceeds under unresolved conditions---goals shift, data remain provisional, stakeholder needs evolve, and several plausible directions may remain available at once. Existing visualization frameworks help organize design work and articulate major decisions, yet offer limited explanation of how practitioners proceed before a path forward has become clear. Drawing on an episode-level analysis of a previously collected three-phase qualitative corpus involving eleven…",
+    "also_in": [
+     {
+      "source": "arXiv cs.HC (writing & docs)",
+      "url": "https://arxiv.org/abs/2608.08274v1"
+     }
+    ],
+    "arxiv_id": "2608.08274"
+   },
+   "id": "77a9bdaff9f4cdd8",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-08T18:07:12Z",
+   "score": 0.6002,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Visualization design often proceeds under unresolved conditions---goals shift, data remain provisional, stakeholder needs evolve, and several plausible directions may remain available at once. Existing visualization frameworks help organize design work and articulate major decisions, yet offer…",
+   "tags": [
+    "systems",
+    "visualization"
+   ],
+   "title": "Situatedness in Visualization Design: Making Unresolved Work Actionable",
+   "url": "https://arxiv.org/abs/2608.08274v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Paul C. Parsons",
+    "Colin M. Gray",
+    "Ali Baigelenov"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Data visualization research has developed many influential forms of design knowledge, including perceptual principles, design guidelines, process models, and formalized representations of design constraints. These contributions have been effective at articulating explicit, portable, and codified forms of knowledge. Yet the broader landscape on which visualization design depends remains less clearly articulated, especially with respect to intermediate-level knowledge, precedents, tacit…",
+    "arxiv_id": "2608.08270"
+   },
+   "id": "509f1c6ec2839cc5",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-08T18:00:52Z",
+   "score": 0.74,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Data visualization research has developed many influential forms of design knowledge, including perceptual principles, design guidelines, process models, and formalized representations of design constraints. These contributions have been effective at articulating explicit, portable, and codified…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Design Knowledge in Data Visualization: Mapping the Epistemic Landscape",
+   "url": "https://arxiv.org/abs/2608.08270v1",
+   "venue": "arXiv cs.HC"
   },
   {
    "authors": [
@@ -514,7 +855,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-08T17:56:07Z",
-   "score": 0.3148,
+   "score": 0.3112,
    "section": "papers",
    "source": "TechComm journals (CrossRef)",
    "source_id": "crossref_techcomm_journals",
@@ -526,6 +867,63 @@
    "title": "Visualizing Environments: Toward A Natural History of Science Communication",
    "url": "https://doi.org/10.1177/00472816261471749",
    "venue": "Journal of Technical Writing and Communication"
+  },
+  {
+   "authors": [
+    "Marvin Petersen",
+    "Jonas Lukasczyk",
+    "Christoph Garth"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Research on visualizing large-scale datasets traditionally relies on empirical evaluation of scalability, determining the effectiveness of specific computation methods, algorithmic strategies, or implementations. Weak scalability, which assesses the algorithm's performance as problem size and computing resources increase, is a valuable indicator for a method's applicability at scale. However, sufficiently large data sets with increasing size are needed for weak scalability studies. To this end,…",
+    "arxiv_id": "2608.08166"
+   },
+   "id": "6a07d7701a4dcceb",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-08T14:49:03Z",
+   "score": 0.3997,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Research on visualizing large-scale datasets traditionally relies on empirical evaluation of scalability, determining the effectiveness of specific computation methods, algorithmic strategies, or implementations. Weak scalability, which assesses the algorithm's performance as problem size and…",
+   "tags": [
+    "eval-study",
+    "visualization"
+   ],
+   "title": "Evaluating and Improving Weak Scalability Analysis of Visualization Algorithms",
+   "url": "https://arxiv.org/abs/2608.08166v1",
+   "venue": "arXiv cs.DC"
+  },
+  {
+   "authors": [
+    "Khairi Reda",
+    "Shambhawi Sharma",
+    "Luc Renambot",
+    "Fabio Miranda",
+    "Saeed Boorboor"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Graphical perception studies are the visualization community's preferred tool for evaluating visualizations. By measuring how accurately people interpret arrangements of visual marks and channels, they aim to establish best practices for visual encoding. We argue that this model is fundamentally flawed, and no amount of additional empirical studies will fix it. Visualization theory frames effectiveness at the level of the encoder: which data-to-visual mappings work best in a given context.…",
+    "arxiv_id": "2608.07834"
+   },
+   "id": "40ef9c05a80ed7a8",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-08T00:41:37Z",
+   "score": 0.5613,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Graphical perception studies are the visualization community's preferred tool for evaluating visualizations. By measuring how accurately people interpret arrangements of visual marks and channels, they aim to establish best practices for visual encoding. We argue that this model is fundamentally…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Marks, Channels, and Dead Ends: Stop Running Graphical Perception Studies and Start Modeling Visualizations as Images",
+   "url": "https://arxiv.org/abs/2608.07834v1",
+   "venue": "arXiv cs.HC"
   },
   {
    "authors": [
@@ -542,7 +940,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-07T05:14:54Z",
-   "score": 0.494,
+   "score": 0.4917,
    "section": "papers",
    "source": "TechComm journals (CrossRef)",
    "source_id": "crossref_techcomm_journals",
@@ -569,7 +967,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T19:08:30Z",
-   "score": 0.2444,
+   "score": 0.2424,
    "section": "papers",
    "source": "TechComm journals (CrossRef)",
    "source_id": "crossref_techcomm_journals",
@@ -600,7 +998,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-06T13:50:48Z",
-   "score": 0.2386,
+   "score": 0.2367,
    "section": "papers",
    "source": "TechComm journals (CrossRef)",
    "source_id": "crossref_techcomm_journals",
@@ -628,7 +1026,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-05T16:30:29Z",
-   "score": 0.2188,
+   "score": 0.2173,
    "section": "papers",
    "source": "TechComm journals (CrossRef)",
    "source_id": "crossref_techcomm_journals",
@@ -642,19 +1040,19 @@
   }
  ],
  "meta": {
-  "count": 23,
-  "generated_at": "2026-08-11T09:12:19Z",
+  "count": 36,
+  "generated_at": "2026-08-11T11:02:50Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
    {
     "category": "optional",
-    "count": 0,
-    "error": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60 (Caus",
+    "count": 11,
+    "error": null,
     "full_text_count": 0,
     "id": "arxiv_datavis",
     "name": "arXiv cs.HC + cs.GR",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
@@ -709,12 +1107,12 @@
    },
    {
     "category": "optional",
-    "count": 0,
-    "error": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC&sortBy=submittedDate&sortOrder=descending&max_results=40 (Caused by ReadTimeo",
+    "count": 5,
+    "error": null,
     "full_text_count": 0,
     "id": "arxiv_hci_writing",
     "name": "arXiv cs.HC (writing & docs)",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"

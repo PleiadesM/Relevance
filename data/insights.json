@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"snail racing championship\" OR \"world snail racing\"",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "New Statesman",
-   "published_at": "2026-08-05T16:11:25Z",
-   "title": "Searching for the world’s fastest snail",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTDBVZ081UDNSd1p0bTlLbUVrNEUzeWI4OWpianFOYy1ld0VQS2ZtVjMxblNrbUVzemxWU0xzTkh0TEwtS0tOT3pwMXp2cm9EMWg1TVFFQWJkNHdhczI1OU5IMENEdElSX0FCWks0LUkycUNCb0pVODFtOEh3TUlJWWcxOUxnUUUxWWNsMDVOLXc?oc=5"
+   "name": "wror.com",
+   "published_at": "2026-08-10T16:45:00Z",
+   "title": "Topsfield Fair Opens Entries for 2026 Competitions , Promotes $20K Pumpkin Prize",
+   "url": "https://wror.com/2026/08/10/topsfield-fair-opens-entries-for-2026-competitions-promotes-20k-pumpkin-prize/"
   },
   "summaries": {
    "en": {
-    "summary": "A New Statesman piece chronicles the eccentric pursuit of timing the world's quickest snail.",
-    "why_irrelevant": "It's a whimsical niche far from typical tech and politics feeds."
+    "summary": "Topsfield Fair opens entries for 2026 competitions with a $20,000 pumpkin prize.",
+    "why_irrelevant": "A niche agricultural contest far from typical daily feeds."
    },
    "zh": {
-    "summary": "《新政治家》一篇报道记录了为世界上最快蜗牛计时的古怪追求。",
-    "why_irrelevant": "这是远离常见科技与政治动态的奇趣冷门。"
+    "summary": "托普斯菲尔德博览会开放2026年比赛报名，设有2万美元南瓜大奖。",
+    "why_irrelevant": "小众农业赛事，远离日常信息流。"
    }
   },
-  "topic": "competitive snail racing"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "U.S. primaries across six states and an earthquake in Colombia dominate today's news, while research highlights advances in AI infrastructure, flood monitoring, and reservoir modeling.",
+ "brief": "Today's news spans from labor disputes at HCA to political primaries in the US, a deadly earthquake in Colombia, and Assad's death sentence, while research highlights AI's role in narrative drafting and financial advice.",
  "meta": {
-  "generated_at": "2026-08-11T09:12:19Z"
+  "generated_at": "2026-08-11T11:02:50Z"
  },
- "news_summary": "Elections in Alabama, Minnesota, Wisconsin, and other states test progressive and Democratic prospects; a 7.4-magnitude earthquake in Colombia kills over 100; Nvidia secures $500 billion for AI data centers from Wall Street.",
- "papers_summary": "Research covers machine learning for permeability estimation in the Niger Delta, IoT-based flood monitoring, and a dataset on India's power plant emissions, among other technical studies.",
+ "news_summary": "US health workers protest pay and staffing amid record profits; political primaries test party directions; Colombia quake kills over 100; Assad sentenced to death in absentia; UK faces extreme heat and court bans on Meta glasses.",
+ "papers_summary": "Papers explore mixed-initiative scaffolding for narrative drafting, evaluation of AI financial advice, and visualization tools for CPR training and data outlier exploration.",
  "summaries": {
   "en": {
-   "brief": "U.S. primaries across six states and an earthquake in Colombia dominate today's news, while research highlights advances in AI infrastructure, flood monitoring, and reservoir modeling.",
-   "news_summary": "Elections in Alabama, Minnesota, Wisconsin, and other states test progressive and Democratic prospects; a 7.4-magnitude earthquake in Colombia kills over 100; Nvidia secures $500 billion for AI data centers from Wall Street.",
-   "papers_summary": "Research covers machine learning for permeability estimation in the Niger Delta, IoT-based flood monitoring, and a dataset on India's power plant emissions, among other technical studies."
+   "brief": "Today's news spans from labor disputes at HCA to political primaries in the US, a deadly earthquake in Colombia, and Assad's death sentence, while research highlights AI's role in narrative drafting and financial advice.",
+   "news_summary": "US health workers protest pay and staffing amid record profits; political primaries test party directions; Colombia quake kills over 100; Assad sentenced to death in absentia; UK faces extreme heat and court bans on Meta glasses.",
+   "papers_summary": "Papers explore mixed-initiative scaffolding for narrative drafting, evaluation of AI financial advice, and visualization tools for CPR training and data outlier exploration."
   },
   "zh": {
-   "brief": "今日新闻聚焦芬兰天然气管道受损案在香港审理、中国闪婚骗局、哥伦比亚地震，以及AI对工作时间的影响；论文方面涉及HLA匹配算法和印度电厂排放数据。",
-   "news_summary": "芬兰天然气管道案因船舶管辖权在香港审理；中国单身男性陷入闪婚骗局反映人口结构问题；哥伦比亚7.4级地震已致132人死亡。",
-   "papers_summary": "研究提出GRIMM-II算法用于HLA基因分型匹配，并发布印度电厂排放数据集CHETNA，有助于医疗和环境监测。"
+   "brief": "今日焦点包括台湾首次演练断网半小时、哥伦比亚强震致逾百人死亡，以及叙利亚前总统阿萨德被缺席判处死刑；科技论文关注AI对数学领域的影响及可视化工具进展。",
+   "news_summary": "台湾演练断网场景，芬兰天然气管道受损案在香港审理，哥伦比亚地震造成重大伤亡，中国闪婚骗局暴露社会问题，AI引发工时争议。",
+   "papers_summary": "论文涉及AI生成财务建议的评估、CPR训练可视化、叙事写作脚手架等，均聚焦人机交互与可视化技术前沿。"
   }
  },
  "todays_image": {
-  "caption": "Just as the diminutive Borreria perpusilla is a tiny, overlooked footnote in botanical records, an exit interview reduces Ross Douthat’s departure to a brief, passing note in the news cycle.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m39b901120c1b24cdcb078478055490201",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3ef775029-7ea2-4cee-a1de-13b30acd931b",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m39b901120c1b24cdcb078478055490201/90",
-  "title": "Borreria perpusilla Hook. f."
+  "caption": "A bent mailbox from 1906 and a simulated half-hour internet blackout both echo how fragile our everyday lifelines become in moments of crisis.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2006_2038_1a",
+  "source_name": "National Postal Museum",
+  "source_url": "https://postalmuseum.si.edu/object/npm_2006.2038.1",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2006_2038_1a",
+  "title": "Mailbox remnant from 1906 San Francisco earthquake"
  }
 }
