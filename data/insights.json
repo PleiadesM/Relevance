@@ -9,40 +9,40 @@
   },
   "summaries": {
    "en": {
-    "summary": "The Topsfield Fair has opened entries for its 2026 competitions, now offering a $20,000 prize for the largest pumpkin.",
-    "why_irrelevant": "A niche agricultural contest far removed from any typical personal dashboard content."
+    "summary": "Topsfield Fair opens entries for 2026 competitions, spotlighting a $20,000 pumpkin prize.",
+    "why_irrelevant": "It's a niche agricultural event far from typical feeds."
    },
    "zh": {
-    "summary": "托普斯菲尔德博览会已开放2026年比赛报名，并为最大南瓜提供2万美元奖金。",
-    "why_irrelevant": "一个偏离常规信息流的小众农业竞赛。"
+    "summary": "Topsfield博览会开启2026年比赛报名，头奖为2万美元的南瓜奖金。",
+    "why_irrelevant": "这是一个小众农业活动，远离常规信息流。"
    }
   },
   "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news spans global politics, security, and climate, while research focuses on AI and visualization. Key events include Thailand's gun control response, Assad's death sentence, and rising oil prices, alongside advances in LLM inference and data visualization.",
+ "brief": "Today's news spans racial discrimination in U.S. immigration enforcement, geopolitical tensions and extreme weather events, while AI research advances in medical consultation and photo verification.",
  "meta": {
-  "generated_at": "2026-08-11T15:14:13Z"
+  "generated_at": "2026-08-11T17:10:46Z"
  },
- "news_summary": "News highlights: Thailand tightens gun laws after a mass shooting; Syria's Assad sentenced to death; G.M. president discusses EVs and China; Trump reportedly hid in a catering truck during a security threat; human rights groups sue over ICC sanctions; oil prices hit $90/barrel amid U.S.-Iran stalemate; a Canadian airline cancels flight over seatbelt refusal; a Colombian earthquake rescue effort.",
- "papers_summary": "Papers cover AI in writing, financial advice evaluation, CPR training with visualization, data fact outlier exploration, public health visualization practices, mobile analytics for group discussions, social finance simulation, causal knowledge injection for virtual cells, scientific data compression, and speech-driven data visualization queries.",
+ "news_summary": "Headlines cover revelations of agent misconduct, a U.S. Marine released by Russia, and Google's upcoming Pixel event, alongside climate-related economic impacts and a major Colombia earthquake.",
+ "papers_summary": "Research highlights include AI in clinical consultation, a Python framework for physics simulations, and studies on financial advice perception and materials science.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans global politics, security, and climate, while research focuses on AI and visualization. Key events include Thailand's gun control response, Assad's death sentence, and rising oil prices, alongside advances in LLM inference and data visualization.",
-   "news_summary": "News highlights: Thailand tightens gun laws after a mass shooting; Syria's Assad sentenced to death; G.M. president discusses EVs and China; Trump reportedly hid in a catering truck during a security threat; human rights groups sue over ICC sanctions; oil prices hit $90/barrel amid U.S.-Iran stalemate; a Canadian airline cancels flight over seatbelt refusal; a Colombian earthquake rescue effort.",
-   "papers_summary": "Papers cover AI in writing, financial advice evaluation, CPR training with visualization, data fact outlier exploration, public health visualization practices, mobile analytics for group discussions, social finance simulation, causal knowledge injection for virtual cells, scientific data compression, and speech-driven data visualization queries."
+   "brief": "Today's news spans racial discrimination in U.S. immigration enforcement, geopolitical tensions and extreme weather events, while AI research advances in medical consultation and photo verification.",
+   "news_summary": "Headlines cover revelations of agent misconduct, a U.S. Marine released by Russia, and Google's upcoming Pixel event, alongside climate-related economic impacts and a major Colombia earthquake.",
+   "papers_summary": "Research highlights include AI in clinical consultation, a Python framework for physics simulations, and studies on financial advice perception and materials science."
   },
   "zh": {
-   "brief": "今日重点包括历史反思与当代挑战：长崎原爆亲历者回忆揭露核战内幕，台湾首次演练断网应变，中国闪婚骗局暴露社会问题；同时AI与科技伦理、哥伦比亚地震救援等国际动态也值得关注。",
-   "news_summary": "中文新闻聚焦历史与社会的深度议题，如原爆亲历者回忆、台湾断网演练、闪婚骗局及芬兰管道案；国际方面，哥伦比亚地震、国际刑院制裁及AI工时等话题同样引发关注。",
-   "papers_summary": "当日无中文研究摘要，英文研究主要涉及AI与可视化技术在医疗、教育及金融等领域的应用，强调人机协作与数据呈现的改进。"
+   "brief": "今日重點：長崎原爆內幕披露、台灣斷網演習、AI工時爭議，及哥倫比亞地震災後搜救；研究方面聚焦AI在財務建議與寫作輔助的應用。",
+   "news_summary": "中文新聞聚焦歷史記憶與當代社會議題，包括長崎原爆參與者自述、台灣首次斷網演練、AI時代的工時問題，以及哥倫比亞地震災情；同時關注國際事件如俄羅斯釋放美前陸戰隊員、加州野火等。",
+   "papers_summary": "研究摘要涵蓋AI在財務建議與敘事寫作中的應用，以及材料科學、病毒抑制劑等領域的進展。"
   }
  },
  "todays_image": {
-  "caption": "Like the rescue net that caught Apollo 8's returning capsule, Thailand's suspension of gun permits is a safety net for a nation reeling from a mass shooting.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19700321000_PS01",
-  "source_name": "National Air and Space Museum",
-  "source_url": "http://n2t.net/ark:/65665/nv9bc553881-ab8d-4b7e-a89f-6c034d1ebc0f",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19700321000_PS01",
-  "title": "Rescue Net, Apollo 8"
+  "caption": "Both are remnants of a fractured system—one literally unearthed from an earthquake, the other exposed by agents' words.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2006_2038_1a",
+  "source_name": "National Postal Museum",
+  "source_url": "https://postalmuseum.si.edu/object/npm_2006.2038.1",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2006_2038_1a",
+  "title": "Mailbox remnant from 1906 San Francisco earthquake"
  }
 }

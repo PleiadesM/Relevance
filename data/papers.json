@@ -2,6 +2,32 @@
  "items": [
   {
    "authors": [
+    "Ahmed Albashir"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Version V3 of the Python Framework for Type-I SPDC Data Generation and Validation provides a physics-constrained numerical workflow for generating persistent, event-resolved datasets for degenerate Type-I spontaneous parametric down-conversion (SPDC) in bulk beta-barium borate (β-BBO), centered on a 405 nm pump and 810 nm signal/idler photons. The framework combines wavelength- and angle-dependent BBO phase matching, Gaussian-pump modeling, finite-crystal longitudinal phase matching,…",
+    "citations": 0,
+    "doi": "10.5281/zenodo.21879612"
+   },
+   "id": "df9ac7c383ee8cdd",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-11T00:00:00Z",
+   "score": 0.5578,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Version V3 of the Python Framework for Type-I SPDC Data Generation and Validation provides a physics-constrained numerical workflow for generating persistent, event-resolved datasets for degenerate Type-I spontaneous parametric down-conversion (SPDC) in bulk beta-barium borate (β-BBO), centered on…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Python Framework for Type-I SPDC Data Generation and Validation",
+   "url": "https://doi.org/10.5281/zenodo.21879612",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)"
+  },
+  {
+   "authors": [
     "Ruqi Sun",
     "Jiaping Li",
     "Wenhui Tao",
@@ -18,7 +44,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-10T15:03:26Z",
-   "score": 0.6899,
+   "score": 0.6822,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -46,7 +72,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-10T02:19:03Z",
-   "score": 0.6425,
+   "score": 0.6358,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -57,6 +83,549 @@
    "title": "How People Evaluate AI-, Expert-, and Peer-Style Financial Advice",
    "url": "https://arxiv.org/abs/2608.09019v1",
    "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Z.R. Wu",
+    "Y.M. Li",
+    "H. Lei",
+    "S. Z.",
+    "M. L. Chen"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.21203/rs.3.rs-10580687/v1"
+   },
+   "id": "ef7baf4a289b249c",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.3494,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [
+    "eval-study"
+   ],
+   "title": "Thermo‑mechanical coupling effects on high‑velocity impact damage of CFRP laminates: Experiment and temperature‑dependent dynamic constitutive modeling",
+   "url": "https://doi.org/10.21203/rs.3.rs-10580687/v1",
+   "venue": "Research Square"
+  },
+  {
+   "authors": [
+    "Sarkar M A Kawsar",
+    "Md Rithoan Hossain",
+    "Niloy Bhattacharjee",
+    "Nasrin S Munia",
+    "Jannatul Ferdous",
+    "Mariam Islam"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Severe acute respiratory syndrome (SARS) is a global health threat caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), highlighting the urgent need for the development of new therapeutic agents. This study involves a computational investigation of the design and assessment of several methyl α-D-glucopyranoside (MDG) derivatives as potential inhibitors of the SARS-CoV-2 RdRp chain. MDG derivatives 2-5 were optimized through quantum mechanical methods, and their therapeutic…",
+    "citations": 0,
+    "doi": "10.3329/cujs.v46i1.90724"
+   },
+   "id": "51c983c96a81e9f5",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.3494,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Severe acute respiratory syndrome (SARS) is a global health threat caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), highlighting the urgent need for the development of new therapeutic agents. This study involves a computational investigation of the design and assessment of…",
+   "tags": [],
+   "title": "In Silico Identification of Potent SARS-CoV-2 RdRp Inhibitors: DFT and Molecular Docking Analysis of Acylated Glucopyranoside Derivatives",
+   "url": "https://doi.org/10.3329/cujs.v46i1.90724",
+   "venue": "The Chittagong University Journal of Science"
+  },
+  {
+   "authors": [
+    "Latul Hasan",
+    "Md Abutaher Dewan",
+    "Mohammad Hasibul Hasan",
+    "Md Rashel Ahmmed",
+    "Md Didear Hossen",
+    "Muhammed Zakir Hossain"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.21203/rs.3.rs-10408218/v1"
+   },
+   "id": "3d80acabb7319cdd",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.4869,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [
+    "systems"
+   ],
+   "title": "Privacy Conscious Integration of Artificial Intelligence and Management Information Systems for Secure and Sustainable Consumer Device Lifecycles in the United States",
+   "url": "https://doi.org/10.21203/rs.3.rs-10408218/v1",
+   "venue": "Research Square"
+  },
+  {
+   "authors": [
+    "Ekrem Bektašević",
+    "Luka Crnogorac",
+    "Kemal Gutić",
+    "Satko Filipović",
+    "Ahmed Mušija"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Underground excavations in complex flysch formations are frequently affected by hydrogeological hazards resulting from lithological heterogeneity, mechanical anisotropy, and groundwater-induced degradation of weak rock masses. This study proposes a hybrid methodological framework that integrates the geotechnical mission requirements of EN 1997 (Eurocode 7) with Multi-Criteria Decision Analysis (MCDA) to support real-time prediction and selection of stabilization measures during tunnel…",
+    "citations": 0,
+    "doi": "10.3389/feart.2026.1897416"
+   },
+   "id": "62c181c7b5ad7d82",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.3494,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Underground excavations in complex flysch formations are frequently affected by hydrogeological hazards resulting from lithological heterogeneity, mechanical anisotropy, and groundwater-induced degradation of weak rock masses. This study proposes a hybrid methodological framework that integrates…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Predicting and mitigating hydrogeological hazards in complex geological formations: the hybrid EN 1997-MCDA approach for flysch tunnels",
+   "url": "https://doi.org/10.3389/feart.2026.1897416",
+   "venue": "Frontiers in Earth Science"
+  },
+  {
+   "authors": [
+    "Jiayi Cai",
+    "Isaiah Morrow",
+    "Georgia Mason"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.21203/rs.3.rs-10285685/v1"
+   },
+   "id": "10085cbececed8b2",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.4869,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [],
+   "title": "Courtship Singing by Male Mice (Mus musculus) is predicted by Independent Effects of Housing Quality and Androgen-related Physical Traits",
+   "url": "https://doi.org/10.21203/rs.3.rs-10285685/v1",
+   "venue": "Research Square"
+  },
+  {
+   "authors": [
+    "Tyler, Josh"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Release Notes: digiqual v0.25.0 Release Summary: digiqual v0.25.0 introduces complete alignment with the methodologies detailed in Malkiel et al. (2025) (Proc. R. Soc. A) and Malkiel et al. (2026) (NDT&E International). This update brings an expanded 12-distribution error suite, anisotropic Kriging covariance optimization via LOO-CV, standardized LOO residual outlier calibration, native C++ acceleration, and diagnostic visualization tools. 🚀 Key Highlights & New Features 1. Expanded Statistical…",
+    "citations": 0,
+    "doi": "10.5281/zenodo.21872132"
+   },
+   "id": "8ed6baf4601ed52a",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.4869,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Release Notes: digiqual v0.25.0 Release Summary: digiqual v0.25.0 introduces complete alignment with the methodologies detailed in Malkiel et al. (2025) (Proc. R. Soc. A) and Malkiel et al. (2026) (NDT&E International). This update brings an expanded 12-distribution error suite, anisotropic Kriging…",
+   "tags": [
+    "systems"
+   ],
+   "title": "digiqual: Statistical Toolkit for Reliability Assessment in NDT",
+   "url": "https://doi.org/10.5281/zenodo.21872132",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)"
+  },
+  {
+   "authors": [
+    "Persiya J",
+    "Sasithradevi A",
+    "Anand Rajendran"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Introduction Early detection of diabetic retinopathy (DR) is crucial for preventing permanent vision impairment, yet widely used screening techniques such as fundus photography and optical coherence tomography (OCT) depend on expensive equipment and expert clinical interpretation, restricting their use in large-scale and low-resource environments. To overcome these challenges, this study introduces ReliaFusion-Net, a reliability-aware multimodal framework for proof-of-concept binary…",
+    "citations": 0,
+    "doi": "10.3389/fmed.2026.1888280"
+   },
+   "id": "fc8b6ae595d23061",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.4869,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Introduction Early detection of diabetic retinopathy (DR) is crucial for preventing permanent vision impairment, yet widely used screening techniques such as fundus photography and optical coherence tomography (OCT) depend on expensive equipment and expert clinical interpretation, restricting their…",
+   "tags": [],
+   "title": "Reliability-aware fusion of ocular thermal imaging and radiometric features for proof-of-concept classification of diabetic retinopathy vs. healthy controls",
+   "url": "https://doi.org/10.3389/fmed.2026.1888280",
+   "venue": "Frontiers in Medicine"
+  },
+  {
+   "authors": [
+    "María Alonso-García",
+    "Beatriz Gutiérrez-Gil",
+    "Marko Vrcan",
+    "Cristina Esteban-Blanco",
+    "Juan José Arranz",
+    "Aroa Suárez-Vega"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Adipose tissue development in early life is crucial for thermoregulation, energy storage, and long-term metabolic programming. Understanding depot-specific differences provides insight into fat specialization and its adaptive significance. In fat- and semi-fat-tailed lambs, perirenal and tail fat are the main depots; however, their early postnatal development remains poorly understood. Here, we compared RNA-Seq data from perirenal and tail adipose tissues in 1-month-old Assaf lambs using…",
+    "citations": 0,
+    "doi": "10.3389/fanim.2026.1858589"
+   },
+   "id": "78599ae5e95fd8bc",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.4869,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Adipose tissue development in early life is crucial for thermoregulation, energy storage, and long-term metabolic programming. Understanding depot-specific differences provides insight into fat specialization and its adaptive significance. In fat- and semi-fat-tailed lambs, perirenal and tail fat…",
+   "tags": [],
+   "title": "Early functional divergence of adipose tissue depots in lambs: evidence from RNA-Seq and deconvolution analyses",
+   "url": "https://doi.org/10.3389/fanim.2026.1858589",
+   "venue": "Frontiers in Animal Science"
+  },
+  {
+   "authors": [
+    "Semmy Wellem Taju",
+    "George Morris William Tangka",
+    "Ibrena Reghuella Chrisanti"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Purpose: This study compares the performance of conventional machine learning algorithms for multiclass emotion prediction in reviews of Large Language Model (LLM)-powered applications using a unified TF-IDF representation. Research Method: User reviews were collected from the Google Play Store for eight popular LLM applications through web scraping. After text preprocessing, reviews were labeled into five emotion categories (Happy, Sadness, Anger, Fear, and Surprise). Ten machine learning…",
+    "citations": 0,
+    "doi": "10.60079/ahrmr.v4i3.1008"
+   },
+   "id": "c60b9c756908cab0",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.4869,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Purpose: This study compares the performance of conventional machine learning algorithms for multiclass emotion prediction in reviews of Large Language Model (LLM)-powered applications using a unified TF-IDF representation. Research Method: User reviews were collected from the Google Play Store for…",
+   "tags": [
+    "ml-vis",
+    "llm"
+   ],
+   "title": "Comparative Analysis of Machine Learning Models for Emotion Prediction in Reviews of Large Language Model-Powered Applications",
+   "url": "https://doi.org/10.60079/ahrmr.v4i3.1008",
+   "venue": "Advances in Human Resource Management Research"
+  },
+  {
+   "authors": [
+    "Septi Amalia Larasati",
+    "Siti Zulaikha Wulandari"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "This study examines the effect of performance appraisal systems on employee performance, with continuous feedback as a mediating variable among educators. This research adopts a quantitative explanatory approach using a cross-sectional design. Data were collected from 30 respondents using stratified purposive sampling. Data analysis was conducted using Partial Least Squares Structural Equation Modeling (PLS-SEM). The results show that performance appraisal systems have a positive and…",
+    "citations": 0,
+    "doi": "10.32424/icsema.v2i1.830"
+   },
+   "id": "d93883a77ebb7451",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.4869,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "This study examines the effect of performance appraisal systems on employee performance, with continuous feedback as a mediating variable among educators. This research adopts a quantitative explanatory approach using a cross-sectional design. Data were collected from 30 respondents using…",
+   "tags": [
+    "systems"
+   ],
+   "title": "THE EFFECT OF PERFORMANCE APPRAISAL SYSTEM ON EMPLOYEE PERFORMANCE: THE MEDIATING ROLE OF CONTINUOUS FEEDBACK AMONG EDUCATORS",
+   "url": "https://doi.org/10.32424/icsema.v2i1.830",
+   "venue": "The International Conference on Sustainable Economics Management and Accounting Proceeding"
+  },
+  {
+   "authors": [
+    "Benjamin Minch"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.21203/rs.3.rs-10618646/v1"
+   },
+   "id": "1fb0dce0c725aa4a",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.3494,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [],
+   "title": "The first comprehensive analysis of the viruses associated with the Shroud of Turin",
+   "url": "https://doi.org/10.21203/rs.3.rs-10618646/v1",
+   "venue": "Research Square"
+  },
+  {
+   "authors": [
+    "Mai Watanabe",
+    "Hitomu Kotani",
+    "Ryota Yagi",
+    "Yohei Sawada",
+    "Takuya Kawabata"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract Repeated false alarms for adverse weather events may reduce people’s willingness to take appropriate actions, such as evacuation. Therefore, understanding how false alarms influence perceptions and actions is essential for building effective early warning systems (EWS). We aimed to examine perceptions, emotions, and actions regarding false flood warnings in Japan. Specifically, we investigated (1) people’s definition of hits; (2) emotional responses toward false alarms; (3) the effect…",
+    "citations": 0,
+    "doi": "10.1007/s44394-026-00029-0"
+   },
+   "id": "eed8cf5092020410",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.4869,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract Repeated false alarms for adverse weather events may reduce people’s willingness to take appropriate actions, such as evacuation. Therefore, understanding how false alarms influence perceptions and actions is essential for building effective early warning systems (EWS). We aimed to examine…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Emotional responses and perceptions of false alarms in flood warnings and their impact on evacuation action: an empirical analysis of the Kyushu Region, Japan",
+   "url": "https://doi.org/10.1007/s44394-026-00029-0",
+   "venue": "Journal of the Meteorological Society of Japan Ser II"
+  },
+  {
+   "authors": [
+    "Haokai Leng",
+    "Dan Ni",
+    "Meina Xiao",
+    "Fen Yu",
+    "Bicheng Ji",
+    "Zishuo Zhou"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Insufficient sleep and poor sleep quality among adolescents have become major public health concerns worldwide. Physical activity is widely associated with sleep quality, but the psychosocial factors related to this association require further examination. This cross-sectional study examined whether physical activity was indirectly associated with adolescents’ sleep quality, as indexed by Pittsburgh Sleep Quality Index (PSQI) scores, through psychological resilience and academic stress, and…",
+    "citations": 0,
+    "doi": "10.3389/fpubh.2026.1879316"
+   },
+   "id": "390fba6981db6fdc",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.3494,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Insufficient sleep and poor sleep quality among adolescents have become major public health concerns worldwide. Physical activity is widely associated with sleep quality, but the psychosocial factors related to this association require further examination. This cross-sectional study examined…",
+   "tags": [],
+   "title": "The association between physical activity and sleep quality among adolescents: the serial mediating roles of psychological resilience and academic stress and the moderating role of peer support",
+   "url": "https://doi.org/10.3389/fpubh.2026.1879316",
+   "venue": "Frontiers in Public Health"
+  },
+  {
+   "authors": [
+    "Xiaohua Liu",
+    "Pei Li",
+    "Huashuo Zhao",
+    "Wanruo Zhang",
+    "Hong Ma",
+    "Shaodong Li"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Objective To develop and validate an integrated nomogram combining MRI radiomics features with clinical variables for predicting 30-day progression risk in patients with acute ischemic stroke (AIS), and to deploy a web-based visualization tool for clinical application. Methods This retrospective two-center study included 254 AIS patients. Radiomics features were extracted from DWI using MaZda, and key features were selected by LASSO logistic regression to build a radiomics signature. Clinical…",
+    "citations": 0,
+    "doi": "10.3389/fneur.2026.1774830"
+   },
+   "id": "082e1b8c74216477",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.4869,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Objective To develop and validate an integrated nomogram combining MRI radiomics features with clinical variables for predicting 30-day progression risk in patients with acute ischemic stroke (AIS), and to deploy a web-based visualization tool for clinical application. Methods This retrospective…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "A web-based radiomics nomogram combining MRI features and clinical data for predicting 30-day progression of acute ischemic stroke: a two-center study",
+   "url": "https://doi.org/10.3389/fneur.2026.1774830",
+   "venue": "Frontiers in Neurology"
+  },
+  {
+   "authors": [
+    "V. Singh",
+    "E. Scullion",
+    "G. J. J. Botha",
+    "Natasha L. S. Jeffrey",
+    "Malcolm Druett",
+    "A. G. M. Pietrow"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract Solar flare ribbons are extensive brightenings in the chromosphere during flares, often showing fine-scale structuring that reflects the underlying energy release. Using high-cadence imaging from the Swedish 1 m Solar Telescope/CRISP during an X1.5-class limb flare on 2014 June 10, we identify and track 232 coherent, thread-like substructures, which we term for the first time “riblets.” From a statistical analysis, riblets have well-defined lifetimes and plane-of-sky speeds (typically…",
+    "citations": 0,
+    "doi": "10.3847/1538-4357/ae851f"
+   },
+   "id": "65f6270040a2207e",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.3494,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract Solar flare ribbons are extensive brightenings in the chromosphere during flares, often showing fine-scale structuring that reflects the underlying energy release. Using high-cadence imaging from the Swedish 1 m Solar Telescope/CRISP during an X1.5-class limb flare on 2014 June 10, we…",
+   "tags": [],
+   "title": "Multiwavelength Observations of Substructures in Solar Flare Ribbons",
+   "url": "https://doi.org/10.3847/1538-4357/ae851f",
+   "venue": "The Astrophysical Journal"
+  },
+  {
+   "authors": [
+    "Rachael Hughson-Gill",
+    "C. A. Curtis",
+    "Lisa Iversen",
+    "Catie Varley",
+    "Abigail Needham",
+    "Rebecca Mawson"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Introduction Hormonal contraception is used by millions globally, yet side effects remain poorly understood and underrepresented in clinical research and digital health tools. The femtech sector has largely failed to serve marginalised communities, including ethnic minority groups, neurodivergent individuals, and those with lived experience of mental health challenges. This study explored these diverse perspectives through the co-design of T.H.E (The Hormone Effect) app, a digital tool for…",
+    "citations": 0,
+    "doi": "10.3389/fgwh.2026.1864517"
+   },
+   "id": "8a7405732ea4eb19",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.4869,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Introduction Hormonal contraception is used by millions globally, yet side effects remain poorly understood and underrepresented in clinical research and digital health tools. The femtech sector has largely failed to serve marginalised communities, including ethnic minority groups, neurodivergent…",
+   "tags": [],
+   "title": "Missing from the data, missing from the design: feminist co-design for equitable hormonal contraception symptom tracking",
+   "url": "https://doi.org/10.3389/fgwh.2026.1864517",
+   "venue": "Frontiers in Global Women s Health"
+  },
+  {
+   "authors": [
+    "Temitope Akinboyewa",
+    "Huan Ning",
+    "Zhenlong Li",
+    "M. Naser Lessani",
+    "Xiaoming Li",
+    "Shan Qiao"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Population-level health measures at small geographic scales (e.g., census tracts), including health conditions, preventive behaviors, risk factors, and overall health status, are crucial for guiding effective health planning and policymaking. It has been well established that demographic and social determinants of health (SDOH) factors contribute to health disparities and thus are usually applied to predict health measure estimation. However, demographic and SDOH indicators are often static and…",
+    "citations": 0,
+    "doi": "10.1007/s43762-026-00287-0"
+   },
+   "id": "241b59cf69540e26",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.3494,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Population-level health measures at small geographic scales (e.g., census tracts), including health conditions, preventive behaviors, risk factors, and overall health status, are crucial for guiding effective health planning and policymaking. It has been well established that demographic and social…",
+   "tags": [],
+   "title": "Exploring the role of place visitation big data on small area health measure estimation",
+   "url": "https://doi.org/10.1007/s43762-026-00287-0",
+   "venue": "Computational Urban Science"
+  },
+  {
+   "authors": [
+    "Tula Lawsin Kurashige",
+    "Stella Tapia Lopez",
+    "Sadie Peroulas",
+    "Lauren Chan",
+    "H. Craig Heller",
+    "Elsa Pittaras"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.21203/rs.3.rs-10516758/v1"
+   },
+   "id": "a23d284e8a903b27",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.3494,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [],
+   "title": "Cognitive, Behavioral, and Sleep Characterization of Sex Differences in the Ts65Dn Mouse Model of Down syndrome",
+   "url": "https://doi.org/10.21203/rs.3.rs-10516758/v1",
+   "venue": "Research Square"
+  },
+  {
+   "authors": [
+    "Dafna Nathan",
+    "Doron Altaratz",
+    "Simcha Rozen",
+    "Michaela Fenakel Fiedelman",
+    "Iris Gertner Moryossef"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Introduction In contemporary higher education, learning management systems (LMS) serve as central digital environments in which students access content, complete tasks, and navigate course requirements. Despite the central role of these systems, decisions about LMS interface layout are often guided by institutional defaults or visual conventions rather than empirical evidence. This study examined how different Moodle layouts are associated with usability, as perceived by students, and whether…",
+    "citations": 0,
+    "doi": "10.3389/feduc.2026.1896137"
+   },
+   "id": "2c06486577046cb9",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T00:00:00Z",
+   "score": 0.3494,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Introduction In contemporary higher education, learning management systems (LMS) serve as central digital environments in which students access content, complete tasks, and navigate course requirements. Despite the central role of these systems, decisions about LMS interface layout are often guided…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Linear or grid? LMS layout and students’ perceived usability across academic progression",
+   "url": "https://doi.org/10.3389/feduc.2026.1896137",
+   "venue": "Frontiers in Education"
   },
   {
    "authors": [
@@ -76,7 +645,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-09T14:21:28Z",
-   "score": 0.644,
+   "score": 0.6382,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -109,7 +678,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-09T12:36:54Z",
-   "score": 0.4463,
+   "score": 0.4407,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -141,7 +710,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-09T12:03:20Z",
-   "score": 0.7772,
+   "score": 0.7716,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -170,7 +739,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-09T10:05:46Z",
-   "score": 0.439,
+   "score": 0.4336,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -201,7 +770,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-09T05:30:55Z",
-   "score": 0.6189,
+   "score": 0.6137,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -234,7 +803,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-09T03:00:36Z",
-   "score": 0.6122,
+   "score": 0.6072,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -265,7 +834,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-09T00:45:52Z",
-   "score": 0.6064,
+   "score": 0.6015,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -280,64 +849,6 @@
   },
   {
    "authors": [
-    "Haodi Zhang",
-    "Xiaohui Tang",
-    "Yuanfeng Song"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "In the era of big data, effectively leveraging vast amounts of data is one of the major challenges across industries, especially in data visualization, which helps decision-makers intuitively understand data. However, many existing data visualization tools require users to have certain technical skills, posing a barrier for users without a technical background. With the widespread use of voice interfaces, particularly smart assistants, the task of converting voice queries into data…",
-    "arxiv_id": null,
-    "citations": 0,
-    "doi": "10.1145/3770855.3818209"
-   },
-   "id": "3b69503af8a16f0b",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.5224,
-   "section": "papers",
-   "source": "Semantic Scholar · data visualization",
-   "source_id": "s2_datavis",
-   "summary": "In the era of big data, effectively leveraging vast amounts of data is one of the major challenges across industries, especially in data visualization, which helps decision-makers intuitively understand data. However, many existing data visualization tools require users to have certain technical…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "SD-DVQ: Semantic-Driven Data Visualization Query Generation from Speech Queries",
-   "url": "https://www.semanticscholar.org/paper/c96e904dfd162d7f9f553c580b1fb2523eb1cc37",
-   "venue": null
-  },
-  {
-   "authors": [
-    "Magdaléna Kejstová",
-    "Simone Kriglstein"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "People encounter data visualizations daily, yet visualization literacy, the ability to read, construct, and critically assess charts, remains rarely taught in formal education. Games offer engaging, feedback-rich environments for practicing these skills. This paper presents a two-phase systematic review that connects general educational game research with visualization literacy games. Phase 1 synthesizes 97 reviews of educational and serious games, mapping dominant design and evaluation…",
-    "arxiv_id": null,
-    "citations": 0,
-    "doi": "10.1145/3815598.3815609"
-   },
-   "id": "67b48abcc1433dcc",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.5224,
-   "section": "papers",
-   "source": "Semantic Scholar · data visualization",
-   "source_id": "s2_datavis",
-   "summary": "People encounter data visualizations daily, yet visualization literacy, the ability to read, construct, and critically assess charts, remains rarely taught in formal education. Games offer engaging, feedback-rich environments for practicing these skills. This paper presents a two-phase systematic…",
-   "tags": [
-    "systems",
-    "visualization"
-   ],
-   "title": "Playing with Data: A Systematic Review of Games for Visualization Literacy",
-   "url": "https://www.semanticscholar.org/paper/04d10ec36c2029e98649b6480d7ad2201a9ccbd3",
-   "venue": "International Conference on Foundations of Digital Games"
-  },
-  {
-   "authors": [
     "Paul C. Parsons",
     "Prakash Shukla",
     "Phuong Bui",
@@ -349,10 +860,6 @@
     "abstract_snippet": "Visualization design often proceeds under unresolved conditions---goals shift, data remain provisional, stakeholder needs evolve, and several plausible directions may remain available at once. Existing visualization frameworks help organize design work and articulate major decisions, yet offer limited explanation of how practitioners proceed before a path forward has become clear. Drawing on an episode-level analysis of a previously collected three-phase qualitative corpus involving eleven…",
     "also_in": [
      {
-      "source": "Semantic Scholar · data visualization",
-      "url": "https://www.semanticscholar.org/paper/17b659784acda5b17a4682f4df622ae98bace994"
-     },
-     {
       "source": "arXiv cs.HC (writing & docs)",
       "url": "https://arxiv.org/abs/2608.08274v1"
      }
@@ -363,7 +870,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-08T18:07:12Z",
-   "score": 0.5901,
+   "score": 0.5856,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -385,19 +892,13 @@
    "category": "optional",
    "extra": {
     "abstract_snippet": "Data visualization research has developed many influential forms of design knowledge, including perceptual principles, design guidelines, process models, and formalized representations of design constraints. These contributions have been effective at articulating explicit, portable, and codified forms of knowledge. Yet the broader landscape on which visualization design depends remains less clearly articulated, especially with respect to intermediate-level knowledge, precedents, tacit…",
-    "also_in": [
-     {
-      "source": "Semantic Scholar · data visualization",
-      "url": "https://www.semanticscholar.org/paper/f4a99c3078a1cc143dfd0758776938d0b17e6704"
-     }
-    ],
     "arxiv_id": "2608.08270"
    },
    "id": "509f1c6ec2839cc5",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-08T18:00:52Z",
-   "score": 0.7299,
+   "score": 0.7254,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -424,7 +925,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-08T14:49:03Z",
-   "score": 0.39,
+   "score": 0.3857,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -454,7 +955,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-08T00:41:37Z",
-   "score": 0.5531,
+   "score": 0.5494,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -465,102 +966,11 @@
    "title": "Marks, Channels, and Dead Ends: Stop Running Graphical Perception Studies and Start Modeling Visualizations as Images",
    "url": "https://arxiv.org/abs/2608.07834v1",
    "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Yue Zhong",
-    "Tsz Nam Chan",
-    "Leong Hou U",
-    "Dingming Wu",
-    "Wei Tu",
-    "Ruisheng Wang"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Product Kernel Density Visualization (product KDV) has been widely used in various fields, including urban planning, epidemiology, traffic science, and crime science. However, product KDV is a time-consuming tool, which does not scale to support large-scale location datasets and high resolution sizes. Even worse, there is a lack of research studies for handling this tool. To tackle the efficiency issues of product KDV, we first develop the new indexing structure, called MAtrix of Search Space…",
-    "arxiv_id": null,
-    "citations": 0,
-    "doi": "10.1145/3770855.3817698"
-   },
-   "id": "fa3e44fa6ada4bd9",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-08T00:00:00Z",
-   "score": 0.2439,
-   "section": "papers",
-   "source": "Semantic Scholar · data visualization",
-   "source_id": "s2_datavis",
-   "summary": "Product Kernel Density Visualization (product KDV) has been widely used in various fields, including urban planning, epidemiology, traffic science, and crime science. However, product KDV is a time-consuming tool, which does not scale to support large-scale location datasets and high resolution…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "MASS: A Complexity-Optimal Solution for Product Kernel Density Visualization",
-   "url": "https://www.semanticscholar.org/paper/b141cf8d729483e9c061a1344b2e63bb517c6510",
-   "venue": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2"
-  },
-  {
-   "authors": [
-    "Jianliang Chen",
-    "Caiyun Shi",
-    "Xin Wei"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "The purpose of this study is to address workflow fragmentation in conventional fabric weave design, where weave drafting, fabric preview, file export and loom-side data transfer are often handled through separate tools or manual operations. This paper presents an integrated, lightweight, web-based platform for interactive woven fabric design, Canvas-based fabric visualization and LAN-based loom data distribution, aiming to improve cross-platform accessibility, design-data continuity and…",
-    "arxiv_id": null,
-    "citations": 0,
-    "doi": "10.1108/ijcst-08-2025-0138"
-   },
-   "id": "66e1b2a2a08f28df",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-05T00:00:00Z",
-   "score": 0.1726,
-   "section": "papers",
-   "source": "Semantic Scholar · data visualization",
-   "source_id": "s2_datavis",
-   "summary": "The purpose of this study is to address workflow fragmentation in conventional fabric weave design, where weave drafting, fabric preview, file export and loom-side data transfer are often handled through separate tools or manual operations. This paper presents an integrated, lightweight, web-based…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "An integrated web-based platform for fabric weave design, visualization and loom-oriented data distribution",
-   "url": "https://www.semanticscholar.org/paper/b4486e7fec3b286f8b3c3d1bba05a4de574dd98f",
-   "venue": "International Journal of Clothing Science and Technology"
-  },
-  {
-   "authors": [
-    "Suemin Jeon",
-    "Kaiyuan Tang",
-    "Chaoli Wang",
-    "Won-Ki Jeong"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Despite the promise of virtual reality (VR) for intuitive spatial interaction, volume visualization (VolVis) in VR remains constrained by high rendering costs and motion discomfort. Recent advances have shown that representing volumetric scenes with 3D Gaussian splatting enables high-performance rendering, making this representation well-suited for VR. However, existing Gaussian-based scene editing workflows remain limited by slow offline segmentation and fatigue-inducing manual selection. To…",
-    "arxiv_id": "2608.04475",
-    "citations": 1,
-    "doi": null
-   },
-   "id": "a2aaf741bee8a845",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-05T00:00:00Z",
-   "score": 0.3352,
-   "section": "papers",
-   "source": "Semantic Scholar · data visualization",
-   "source_id": "s2_datavis",
-   "summary": "Despite the promise of virtual reality (VR) for intuitive spatial interaction, volume visualization (VolVis) in VR remains constrained by high rendering costs and motion discomfort. Recent advances have shown that representing volumetric scenes with 3D Gaussian splatting enables high-performance…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "Super-Gaussian: Interactive Scene Editing for 3D Gaussian Splatting and NLI-Based Volume Visualization in Virtual Reality",
-   "url": "https://www.semanticscholar.org/paper/a2b84969c23aab10444e7b1e936f8a99c4a6b9f2",
-   "venue": null
   }
  ],
  "meta": {
-  "count": 18,
-  "generated_at": "2026-08-11T15:14:13Z",
+  "count": 33,
+  "generated_at": "2026-08-11T17:10:46Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -578,7 +988,7 @@
    },
    {
     "category": "optional",
-    "count": 0,
+    "count": 50,
     "error": null,
     "full_text_count": 0,
     "id": "openalex_datavis",
@@ -590,7 +1000,7 @@
    },
    {
     "category": "optional",
-    "count": 30,
+    "count": 0,
     "error": null,
     "full_text_count": 0,
     "id": "s2_datavis",
@@ -614,7 +1024,7 @@
    },
    {
     "category": "optional",
-    "count": 0,
+    "count": 40,
     "error": null,
     "full_text_count": 0,
     "id": "openalex_techcomm",
