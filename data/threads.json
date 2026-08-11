@@ -1,56 +1,17 @@
 {
  "meta": {
   "count": 3,
-  "generated_at": "2026-08-11T19:17:13Z",
+  "generated_at": "2026-08-11T21:02:05Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "0f6589919b970acf",
-     "phrase": {
-      "en": "Pass/fail to ease mental health",
-      "zh": "通过/不及格缓解心理压力"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/11/us/university-michigan-grades-freshmen-pass-fail.html"
-    },
-    {
-     "item_id": "ace934e3fe632d7b",
-     "phrase": {
-      "en": "Switch to curb mental health crisis",
-      "zh": "转向以遏制心理危机"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/aug/11/university-of-michigan-pass-fail-grading-system"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Universities are rethinking grades to ease student stress, with pass/fail models gaining ground.",
-    "zh": "大学重新思考评分以减轻学生压力，及格/不及格模式渐受欢迎。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "Academic grading and mental health",
-    "zh": "学业评分与心理健康"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow human-centered systems; Michigan's shift to pass/fail reflects a growing trend in educational design.",
-    "zh": "你关注以人为本的系统，密歇根转向通过/不及格反映教育设计趋势。"
-   }
-  },
-  {
-   "angles": [
-    {
      "item_id": "3f5e5baa1f92301c",
      "phrase": {
-      "en": "Secretly used military jet",
-      "zh": "秘密使用军用飞机"
+      "en": "secret military jet escape",
+      "zh": "秘密军用飞机逃离"
      },
      "section": "news",
      "source": "The New York Times",
@@ -59,8 +20,8 @@
     {
      "item_id": "828bbdfb46357f83",
      "phrase": {
-      "en": "Other presidents obscured risky travel",
-      "zh": "其他总统也曾掩盖危险行程"
+      "en": "past presidents obscured travel",
+      "zh": "历任总统隐瞒行程"
      },
      "section": "news",
      "source": "The New York Times",
@@ -69,38 +30,67 @@
     {
      "item_id": "bb728b27ab012ce3",
      "phrase": {
-      "en": "Smuggled out via catering truck",
-      "zh": "通过餐饮卡车被偷运出"
+      "en": "smuggled out in catering truck",
+      "zh": "藏身餐饮车偷溜"
      },
      "section": "news",
      "source": "BBC World",
      "url": "https://www.bbc.co.uk/news/videos/cj3672ljgzro?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "d078a805990d576f",
-     "phrase": {
-      "en": "Catering truck ruse over Iran threat",
-      "zh": "因伊朗威胁使用餐饮卡车计谋"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cm2g90vvy62o?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "Reports of Trump using a catering truck to evade threats reveal the extreme lengths leaders go for safety.",
-    "zh": "特朗普用餐饮卡车躲避威胁的报道揭示领导人为安全采取的极端措施。"
+    "en": "Trump's secret jet escape from Turkey steals the spotlight, with other presidents' travel tricks revealed.",
+    "zh": "特朗普秘密逃离土耳其成为焦点，其他总统的出行花招也被揭露。"
    },
-   "id": "t2",
+   "id": "t1",
    "keyword": {
-    "en": "Presidential security and disguise",
-    "zh": "总统安全与伪装"
+    "en": "presidential security theater",
+    "zh": "总统安全秀"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You analyze narratives; the catering truck story is a vivid example of security and media manipulation.",
-    "zh": "你分析叙事，餐饮卡车故事是安全与媒体操控的生动案例。"
+    "en": "You follow political communication and visual rhetoric: the staged deception is a masterclass in impression management.",
+    "zh": "你关注政治传播和视觉修辞：这种精心策划的欺骗是印象管理的经典案例。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "0f6589919b970acf",
+     "phrase": {
+      "en": "pass/fail for mental health",
+      "zh": "为心理健康改用及格制"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/11/us/university-michigan-grades-freshmen-pass-fail.html"
+    },
+    {
+     "item_id": "ace934e3fe632d7b",
+     "phrase": {
+      "en": "curb mental health crisis",
+      "zh": "遏制心理健康危机"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/11/university-of-michigan-pass-fail-grading-system"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Universities swap letter grades for pass/fail to ease student stress, sparking debate on academic standards.",
+    "zh": "大学将字母评分改为及格/不及格以缓解学生压力，引发学术标准讨论。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "mental health grading",
+    "zh": "心理健康评分"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about HCI and human factors: this design choice directly impacts how students experience feedback and learning.",
+    "zh": "你关注人机交互和人为因素：这一设计选择直接影响了学生的反馈和学习体验。"
    }
   },
   {
@@ -108,38 +98,38 @@
     {
      "item_id": "8f998659f7cabbd4",
      "phrase": {
-      "en": "AMIE real-time video consultation",
-      "zh": "AMIE实时视频问诊"
+      "en": "real-time clinical video consults",
+      "zh": "实时临床视频咨询"
      },
      "section": "news",
      "source": "Google AI Blog",
      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/"
     },
     {
-     "item_id": "3fbeede890980e1c",
+     "item_id": "1b8f08780ec644f0",
      "phrase": {
-      "en": "CPR training with visualization and feedback",
-      "zh": "CPR培训结合可视化与反馈"
+      "en": "brain's Ozempic moment",
+      "zh": "大脑的奥兹匹克时刻"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.08729v1"
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://economist.com/science-and-technology/2026/08/11/the-brain-may-be-about-to-have-its-ozempic-moment"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "AI systems are increasingly used in clinical settings, from virtual consultations to medical training.",
-    "zh": "AI系统越来越多用于临床，从虚拟问诊到医学培训。"
+    "en": "Google's AMIE demonstrates real-time clinical video consultations, while debates on brain drugs heat up.",
+    "zh": "谷歌AMIE展示实时临床视频咨询，同时关于大脑药物的辩论升温。"
    },
    "id": "t3",
    "keyword": {
-    "en": "AI in healthcare",
-    "zh": "医疗AI"
+    "en": "AI in medicine",
+    "zh": "AI医疗"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow embodied AI; Google's AMIE demonstrates real-time video consultation, a step toward embodied clinical agents.",
-    "zh": "你关注具身AI，谷歌AMIE展示实时视频问诊，向具身临床代理迈进。"
+    "en": "You follow embodied AI and HCI: AMIE's video interaction is a milestone in human-AI collaboration.",
+    "zh": "你关注具身AI和人机交互：AMIE的视频交互是人机协作的里程碑。"
    }
   }
  ]
