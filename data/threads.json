@@ -1,17 +1,37 @@
 {
  "meta": {
-  "count": 3,
-  "generated_at": "2026-08-11T21:02:05Z",
+  "count": 4,
+  "generated_at": "2026-08-11T23:00:22Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "item_id": "8e5af636a87e0261",
+     "phrase": {
+      "en": "frames as deception scrutiny",
+      "zh": "聚焦欺骗审查"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/11/trump-air-force-one-deception-democrats"
+    },
+    {
+     "item_id": "fa238dc32e781954",
+     "phrase": {
+      "en": "frames as shell game",
+      "zh": "视为壳游戏"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c9d84874dzjo?at_medium=RSS&at_campaign=rss"
+    },
+    {
      "item_id": "3f5e5baa1f92301c",
      "phrase": {
-      "en": "secret military jet escape",
-      "zh": "秘密军用飞机逃离"
+      "en": "frames as secret flight",
+      "zh": "描述秘密飞行"
      },
      "section": "news",
      "source": "The New York Times",
@@ -20,8 +40,8 @@
     {
      "item_id": "828bbdfb46357f83",
      "phrase": {
-      "en": "past presidents obscured travel",
-      "zh": "历任总统隐瞒行程"
+      "en": "historic travel concealment",
+      "zh": "历史旅行隐瞒"
      },
      "section": "news",
      "source": "The New York Times",
@@ -30,8 +50,8 @@
     {
      "item_id": "bb728b27ab012ce3",
      "phrase": {
-      "en": "smuggled out in catering truck",
-      "zh": "藏身餐饮车偷溜"
+      "en": "catering truck escape",
+      "zh": "餐车逃脱"
      },
      "section": "news",
      "source": "BBC World",
@@ -40,96 +60,169 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Trump's secret jet escape from Turkey steals the spotlight, with other presidents' travel tricks revealed.",
-    "zh": "特朗普秘密逃离土耳其成为焦点，其他总统的出行花招也被揭露。"
+    "en": "Trump's secret jet escape unveils layered deception in presidential security.",
+    "zh": "特朗普秘密乘机逃离，揭示总统安保的多重伪装。"
    },
    "id": "t1",
    "keyword": {
-    "en": "presidential security theater",
-    "zh": "总统安全秀"
+    "en": "presidential decoy ops",
+    "zh": "总统替身行动"
    },
    "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-07",
+     "item_id": "3f5e5baa1f92301c",
+     "label": {
+      "en": "NATO summit in Turkey",
+      "zh": "北约峰会在土耳其"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/10/us/politics/trump-plane-ruse.html"
+    },
+    {
+     "date": "2026-08-11",
+     "item_id": "bb728b27ab012ce3",
+     "label": {
+      "en": "reports reveal ruse",
+      "zh": "报道揭露诡计"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/videos/cj3672ljgzro?at_medium=RSS&at_campaign=rss"
+    }
+   ],
    "why_now": {
-    "en": "You follow political communication and visual rhetoric: the staged deception is a masterclass in impression management.",
-    "zh": "你关注政治传播和视觉修辞：这种精心策划的欺骗是印象管理的经典案例。"
+    "en": "You study visual rhetoric and embodied cognition: this is a live case of staged visibility and physical concealment.",
+    "zh": "你关注视觉修辞与具身认知，这正是舞台可见性与身体隐藏的鲜活案例。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "0f6589919b970acf",
+     "item_id": "2e159a708ced1934",
      "phrase": {
-      "en": "pass/fail for mental health",
-      "zh": "为心理健康改用及格制"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/11/us/university-michigan-grades-freshmen-pass-fail.html"
-    },
-    {
-     "item_id": "ace934e3fe632d7b",
-     "phrase": {
-      "en": "curb mental health crisis",
-      "zh": "遏制心理健康危机"
+      "en": "frames as legal victory",
+      "zh": "视为法律胜利"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/aug/11/university-of-michigan-pass-fail-grading-system"
+     "url": "https://www.theguardian.com/us-news/2026/aug/11/judge-blocks-trump-mail-in-voting-usps"
+    },
+    {
+     "item_id": "974c6b5b8ab4a6d8",
+     "phrase": {
+      "en": "frames as expanded ban",
+      "zh": "描述扩大禁令"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/11/nx-s1-5928383/trump-mail-in-voting-executive-order-usps"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Universities swap letter grades for pass/fail to ease student stress, sparking debate on academic standards.",
-    "zh": "大学将字母评分改为及格/不及格以缓解学生压力，引发学术标准讨论。"
+    "en": "Courts push back on USPS restrictions, preserving mail-in ballots nationwide.",
+    "zh": "法院驳回邮政限制，保留全国邮寄选票。"
    },
    "id": "t2",
    "keyword": {
-    "en": "mental health grading",
-    "zh": "心理健康评分"
+    "en": "mail-in voting blocks",
+    "zh": "邮寄投票限制"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about HCI and human factors: this design choice directly impacts how students experience feedback and learning.",
-    "zh": "你关注人机交互和人为因素：这一设计选择直接影响了学生的反馈和学习体验。"
+    "en": "You care about data-driven decision-making: this ruling affects election integrity data flows.",
+    "zh": "你关注数据驱动决策，这一裁决影响选举诚信的数据流。"
    }
   },
   {
    "angles": [
     {
+     "item_id": "828e79fae5701a81",
+     "phrase": {
+      "en": "mixed-initiative scaffolding",
+      "zh": "混合主动脚手架"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.09698v1"
+    },
+    {
+     "item_id": "3fbeede890980e1c",
+     "phrase": {
+      "en": "in-situ CP training",
+      "zh": "原位CPR训练"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.08729v1"
+    },
+    {
      "item_id": "8f998659f7cabbd4",
      "phrase": {
-      "en": "real-time clinical video consults",
-      "zh": "实时临床视频咨询"
+      "en": "AI clinical video consults",
+      "zh": "AI临床视频咨询"
      },
      "section": "news",
      "source": "Google AI Blog",
      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "New systems let humans guide AI for narrative, health, and design.",
+    "zh": "新系统让人类引导AI用于叙事、健康与设计。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "interactive AI systems",
+    "zh": "交互式AI系统"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You explore HCI and embodied AI: these mixed-initiative systems show where you can intervene.",
+    "zh": "你探索人机交互与具身AI，这些混合主动系统展示你的介入点。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "30baa7822ef67b72",
+     "phrase": {
+      "en": "frames as theft risk",
+      "zh": "视为窃取风险"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything"
     },
     {
-     "item_id": "1b8f08780ec644f0",
+     "item_id": "157e07a2c0953313",
      "phrase": {
-      "en": "brain's Ozempic moment",
-      "zh": "大脑的奥兹匹克时刻"
+      "en": "LLM inference optimization",
+      "zh": "LLM推理优化"
      },
      "section": "news",
      "source": "Hacker News (AI filter)",
-     "url": "https://economist.com/science-and-technology/2026/08/11/the-brain-may-be-about-to-have-its-ozempic-moment"
+     "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Google's AMIE demonstrates real-time clinical video consultations, while debates on brain drugs heat up.",
-    "zh": "谷歌AMIE展示实时临床视频咨询，同时关于大脑药物的辩论升温。"
+    "en": "Unencrypted chain-of-thought leaks from proprietary LLM APIs raise security red flags.",
+    "zh": "专有大模型API的未加密思维链泄露引发安全警示。"
    },
-   "id": "t3",
+   "id": "t4",
    "keyword": {
-    "en": "AI in medicine",
-    "zh": "AI医疗"
+    "en": "AI reasoning trace theft",
+    "zh": "AI推理轨迹窃取"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow embodied AI and HCI: AMIE's video interaction is a milestone in human-AI collaboration.",
-    "zh": "你关注具身AI和人机交互：AMIE的视频交互是人机协作的里程碑。"
+    "en": "You work with LLM APIs: this directly threatens the integrity of your AI outputs.",
+    "zh": "你使用大模型API，这直接威胁你AI输出的完整性。"
    }
   }
  ]

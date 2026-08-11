@@ -1,0 +1,28 @@
+{
+ "full_text": "Apple is seemingly developing an iOS feature that can verify when a photograph was taken using an iPhone camera. 9to5Mac reports that the iOS 27 beta 5 includes code references for an \"Apple Reference Image\" system that can embed provenance metadata into iPhone photographs at the point of capture - enabling users to prove where the photo originated, and that it isn't AI fakery.\n\nApple Reference Image isn't currently live, but a privacy disclosure in the iOS beta notes that the feature will be off by default. When (or if) it does roll out, 9to5Mac says it can be enabled via Settings > Camera > Reference Image > Reference Mode, and that only p …\n\nRead the full story at The Verge.",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/fb0820454639ed05.json",
+  "id": "fb0820454639ed05",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-08-11T16:19:15Z",
+  "section": "news",
+  "source": "The Verge · AI",
+  "source_id": "verge_ai",
+  "summary": "Apple is seemingly developing an iOS feature that can verify when a photograph was taken using an iPhone camera. 9to5Mac reports that the iOS 27 beta 5 includes code references for an \"Apple Reference Image\" system that can embed provenance metadata into iPhone photographs at the point of capture -…",
+  "tags": [],
+  "title": "Apple could help you prove your iPhone photos aren’t deepfakes",
+  "url": "https://www.theverge.com/tech/977921/apple-reference-image-iphone-metadata"
+ },
+ "meta": {
+  "content_hash": "e36b1b24f03524d2",
+  "generated_at": "2026-08-11T23:00:22Z",
+  "item_id": "fb0820454639ed05",
+  "section": "news",
+  "source": "The Verge · AI",
+  "source_id": "verge_ai"
+ }
+}

@@ -1,28 +1,48 @@
 {
- "brief": "New York City abandons a long fight over a community garden, a Colombian earthquake's toll rises past 180, and papers explore AI in writing, financial advice, and materials science.",
- "meta": {
-  "generated_at": "2026-08-11T21:02:05Z"
+ "apropos_of_nothing": {
+  "query": "stone skipping world championship OR rock skipping records",
+  "source": {
+   "name": "VICE",
+   "published_at": "2026-07-24T07:00:00Z",
+   "title": "4 No-Skip Grunge Albums Turning 30 This Year",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOS0NtUndQV2x0bjVNOGJkeVZFckFQa0FxVDF5LUh2YWV6QUNQOGRrV3F4RGhURk9IanNpSmhKQ0JNdTRfWFhjcDJrOEVBd1g4bUpUMGxfNEo4bzM0RUJOLWZlNDh3UDd1eDNMU0RLX0RGeDZfUlpFNFRYQ2lVRFkwUks2VQ?oc=5"
+  },
+  "summaries": {
+   "en": {
+    "summary": "Four grunge albums turn 30 this year, celebrated for their timeless, no-skip quality.",
+    "why_irrelevant": "Music nostalgia sits far from the feed's AI and data focus."
+   },
+   "zh": {
+    "summary": "本年有四张垃圾摇滚专辑迎来30周年，以无可跳过的经典之作而备受纪念。",
+    "why_irrelevant": "音乐怀旧与用户关注的人工智能和数据话题无关。"
+   }
+  },
+  "topic": "competitive stone skipping"
  },
- "news_summary": "The Elizabeth Street Garden housing plan is dropped, and a 7.4-magnitude quake in Colombia kills over 180, while the US cancels 175,000 visas and Trump's DOJ monitors Minnesota polling sites.",
- "papers_summary": "Research covers AI-generated financial advice evaluation, narrative drafting scaffolds for writers, and a physics-constrained Python framework for SPDC data, plus CFRP impact modeling and SARS-CoV-2 inhibitor docking.",
+ "brief": "Today's headlines focus on U.S. political tensions around voting and immigration, Australian housing and migration policy, plus AI security research on stealing reasoning traces. Scientific papers cover AI-assisted writing, financial advice evaluation, and more.",
+ "meta": {
+  "generated_at": "2026-08-11T23:00:22Z"
+ },
+ "news_summary": "U.S. news includes primary elections, a judge blocking USPS mail-in voting restrictions, visa cancellations, and Iran-related military updates. Australia debates migration cuts and housing, while UK police chiefs protest early release of PC Harper's killers.",
+ "papers_summary": "Research highlights include a paper on stealing reasoning traces from proprietary LLMs, a framework for AI-assisted narrative drafting, and a study on how people evaluate AI-style financial advice.",
  "summaries": {
   "en": {
-   "brief": "New York City abandons a long fight over a community garden, a Colombian earthquake's toll rises past 180, and papers explore AI in writing, financial advice, and materials science.",
-   "news_summary": "The Elizabeth Street Garden housing plan is dropped, and a 7.4-magnitude quake in Colombia kills over 180, while the US cancels 175,000 visas and Trump's DOJ monitors Minnesota polling sites.",
-   "papers_summary": "Research covers AI-generated financial advice evaluation, narrative drafting scaffolds for writers, and a physics-constrained Python framework for SPDC data, plus CFRP impact modeling and SARS-CoV-2 inhibitor docking."
+   "brief": "Today's headlines focus on U.S. political tensions around voting and immigration, Australian housing and migration policy, plus AI security research on stealing reasoning traces. Scientific papers cover AI-assisted writing, financial advice evaluation, and more.",
+   "news_summary": "U.S. news includes primary elections, a judge blocking USPS mail-in voting restrictions, visa cancellations, and Iran-related military updates. Australia debates migration cuts and housing, while UK police chiefs protest early release of PC Harper's killers.",
+   "papers_summary": "Research highlights include a paper on stealing reasoning traces from proprietary LLMs, a framework for AI-assisted narrative drafting, and a study on how people evaluate AI-style financial advice."
   },
   "zh": {
-   "brief": "今日焦點包括哥倫比亞大地震救援、長崎原爆內幕揭露，以及AI對工作與生活的影響；研究方面則聚焦於AI金融建議評估與敘事寫作工具。",
-   "news_summary": "哥倫比亞7.4級地震已造成至少181人死亡，救援工作持續進行；BBC中文報導長崎原爆參與者自述、台灣斷網演習及芬蘭管道案。",
-   "papers_summary": "研究探討AI金融建議的接受度、敘事草稿的知識缺口緩解，以及材料科學與醫學影像等領域的新進展。"
+   "brief": "今日新闻聚焦长崎原子弹内幕、台湾断网演习及芬兰管道受损案，同时关注AI工时与哥伦比亚地震；论文方面暂无优先中文项，英文研究涵盖AI写作辅助与金融建议评估。",
+   "news_summary": "中文新闻涵盖历史回顾、地区安全、国际法律、科技影响及社会问题；英文新闻则关注美国政治、国际冲突及科技进展，提供多元视角。",
+   "papers_summary": "优先中文论文无条目；英文论文涉及AI叙事生成、金融建议评估等，反映AI应用与评估的前沿动态。"
   }
  },
  "todays_image": {
-  "caption": "Just as that earthquake-scarred mailbox endures as a relic of disaster, Elizabeth Street Garden survives as a standing rebuke to plans of erasure.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2006_2038_1a",
-  "source_name": "National Postal Museum",
-  "source_url": "https://postalmuseum.si.edu/object/npm_2006.2038.1",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2006_2038_1a",
-  "title": "Mailbox remnant from 1906 San Francisco earthquake"
+  "caption": "A mid-century ballot box, once a symbol of public choice, now feels like a relic in a land where migration is cut, housing codes are shredded, and an $11bn bank profit decides the real vote.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-JN2026-00282-000001",
+  "source_name": "National Museum of American History",
+  "source_url": null,
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-JN2026-00282-000001&max=150",
+  "title": "Ballot box, mid-20th century"
  }
 }
