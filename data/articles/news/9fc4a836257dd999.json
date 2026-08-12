@@ -1,0 +1,31 @@
+{
+ "full_text": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents , and few executives doubt the technology’s potential to transform work. But many organizations find that realizing the desired return on investment (ROI) from AI hinges on having the right foundation, with inadequate infrastructure and data being major blockers .\n\nAgentic AI places considerable new demands on enterprise data systems. The shift from answering questions to taking actions means AI agents need data from across the enterprise, in all its structured and unstructured forms, and with the right business context. To make decisions and act in real time, agents also need frictionless access to the organization’s operational systems—for example, those storing its supply chain, point-of-sale, or human resources data. Legacy data systems, even those updated just a few years ago, struggle to meet these demands.\n\nDOWNLOAD THE REPORT\n\nAs AI agents become embedded more widely in enterprise operations, the need to overcome the restrictions of legacy data systems grows more urgent. If Gartner’s prediction that AI agents will augment or automate 50% of business decisions by 2027 proves correct, organizations must eliminate bottlenecks or risk depriving agents of the data they need to make the right decisions at speed.\n\nThis report, based on a survey of 300 data and technology executives, explores how legacy systems are limiting the effectiveness of AI agents in many organizations. It finds that a handful of organizations—the data leaders—are having greater success with agentic AI and experiencing fewer data limitations as a result of legacy systems. These leaders offer a guide to creating the right data environment for agents to flourish and trusted systems to scale.\n\nKey findings from the report include:\n\nFew companies currently provide agentic AI with ample access to enterprise data. Across all the surveyed organizations, AI only has access to an average of 45% of company data. That number falls to 30% or less in organizations categorized as “data laggards”. A select group, however, ensures access to over 70% of their data. These “data leaders” are having greater success with their agents than the rest.\n\nTrust in agent decisions is a reflection of data readiness. Today, only around half of surveyed organizations trust that the decisions their AI agents make are accurate and relevant. By contrast, 100% of the data leaders trust their agents’ decisions, a strong indicator that reliable AI requires a reliable data foundation.\n\nData leaders find it easier to achieve agent scale and speed. Two-thirds of data laggards say legacy data systems limit AI agent scaling (66%) and prevent agents from making decisions at speed (68%). Having largely overcome legacy data constraints, the leaders have mostly cleared these roadblocks, with just 8% reporting either constraint.\n\nThe pressure is on to make data estates agent-ready. Within two years, 100% of respondents plan to be using agentic AI, with 69% expecting to use it widely. Without removing data system constraints, agentic AI will fail to deliver the desired speed and efficiencies it promises.\n\nData access and context are top priorities. The most important initiative to enable scaling among all respondents is improving access to structured and unstructured data for AI agents. Also high on the list is enhancing data and AI governance with business context. Data leaders are also focusing heavily on the automation of data management.\n\nDownload the full report.\n\nThis content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review’s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/9fc4a836257dd999.json",
+  "id": "9fc4a836257dd999",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-08-12T16:51:57Z",
+  "section": "news",
+  "source": "MIT Technology Review · AI",
+  "source_id": "mit_tr_ai",
+  "summary": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents, and few executives doubt the technology’s potential to transform work. But many organizations find that realizing the desired return on investment (ROI) from AI hinges…",
+  "tags": [
+   "dev-tools",
+   "agents"
+  ],
+  "title": "Scaling AI agents with trustworthy data",
+  "url": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/"
+ },
+ "meta": {
+  "content_hash": "b6e24e9d7a401a66",
+  "generated_at": "2026-08-12T19:17:44Z",
+  "item_id": "9fc4a836257dd999",
+  "section": "news",
+  "source": "MIT Technology Review · AI",
+  "source_id": "mit_tr_ai"
+ }
+}
