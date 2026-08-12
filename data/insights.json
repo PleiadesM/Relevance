@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
   "source": {
-   "name": "wror.com",
-   "published_at": "2026-08-10T16:45:00Z",
-   "title": "Topsfield Fair Opens Entries for 2026 Competitions , Promotes $20K Pumpkin Prize",
-   "url": "https://wror.com/2026/08/10/topsfield-fair-opens-entries-for-2026-competitions-promotes-20k-pumpkin-prize/"
+   "name": "rock929rocks.com",
+   "published_at": "2026-08-10T11:40:00Z",
+   "title": "Topsfield Fair Opens Entries for 2026 Competitions, Promotes $20K Pumpkin Prize",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaXFzNnk3RzhuTHUzNUNNaUtwbE1vbzhQd0hpejl1SkdaVkhXbjJoSEZLNlNnZDExOHV0TVhOZEp1Sm10OC0wQUQ5bW9HcHFXSHNyNkdhSTlpdGZJQnBVRlM1UFRlUlhHUUpiWU5XY3NTdGU1T2tCaWZXNVZxcGpKQU9UcDlJXzlrT3dHQko1dGdoOXhqLWluSXZsdzdLY0EwanFjQjZQMzFvZS02Sll3alh3Q1g?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "Topsfield Fair opens entries for its 2026 competitions, featuring a $20,000 prize for the largest pumpkin.",
-    "why_irrelevant": "It's a niche agricultural contest far from typical tech and lifestyle feeds."
+    "summary": "Topsfield Fair opens entries for 2026 competitions, promoting a $20K prize for the biggest pumpkin.",
+    "why_irrelevant": "A hyper-local agricultural contest far outside typical tech and culture feeds."
    },
    "zh": {
-    "summary": "Topsfield博览会开放2026年比赛报名，最大南瓜奖金达2万美元。",
-    "why_irrelevant": "这是农业小众赛事，远离日常科技和生活资讯。"
+    "summary": "托普斯菲尔德博览会开放2026年竞赛报名，为最大南瓜设立2万美元奖金。",
+    "why_irrelevant": "地方性农业赛事，与日常科技文化资讯相距甚远。"
    }
   },
   "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news spans political scandals, extreme weather, and international incidents, while research explores AI-assisted writing and visualization design.",
+ "brief": "The UK braces for extreme heat and potential power shortages, while political controversies and health concerns dominate global news; research focuses on AI interpretability, medical applications, and infrastructure resilience.",
  "meta": {
-  "generated_at": "2026-08-12T07:49:20Z"
+  "generated_at": "2026-08-12T09:30:40Z"
  },
- "news_summary": "UK faces extreme heat with emergency meetings, Australia deals with political controversies and a shooting hero's cleared charges, and international stories include a Zimbabwe ferry sinking and Typhoon Dolphin in China.",
- "papers_summary": "Papers focus on AI-assisted research writing with accountability, a wearable glove for haptic feedback in XR, and visualization design under divided attention.",
+ "news_summary": "UK faces a heatwave-induced electricity shortfall during a solar eclipse, alongside political scandals in Australia and US primary results. Health and cybersecurity stories also feature prominently.",
+ "papers_summary": "Papers explore explainable AI in medical diagnostics, ethics of brain-computer interfaces, and structural engineering optimization, reflecting a trend toward transparent and robust technologies.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans political scandals, extreme weather, and international incidents, while research explores AI-assisted writing and visualization design.",
-   "news_summary": "UK faces extreme heat with emergency meetings, Australia deals with political controversies and a shooting hero's cleared charges, and international stories include a Zimbabwe ferry sinking and Typhoon Dolphin in China.",
-   "papers_summary": "Papers focus on AI-assisted research writing with accountability, a wearable glove for haptic feedback in XR, and visualization design under divided attention."
+   "brief": "The UK braces for extreme heat and potential power shortages, while political controversies and health concerns dominate global news; research focuses on AI interpretability, medical applications, and infrastructure resilience.",
+   "news_summary": "UK faces a heatwave-induced electricity shortfall during a solar eclipse, alongside political scandals in Australia and US primary results. Health and cybersecurity stories also feature prominently.",
+   "papers_summary": "Papers explore explainable AI in medical diagnostics, ethics of brain-computer interfaces, and structural engineering optimization, reflecting a trend toward transparent and robust technologies."
   },
   "zh": {
-   "brief": "今日简讯：乌克兰称俄罗斯使用朝鲜导弹；台湾模拟断网演练；太阳高分辨率图像公布；AI相关论文聚焦人机交互与可解释性。",
-   "news_summary": "乌克兰指控俄罗斯使用朝鲜导弹，日本公民被朝鲜绑架事件再受关注；台湾进行断网演练；中国闪婚诈骗问题凸显；芬兰管道案件香港审理引发国际法讨论。",
-   "papers_summary": "论文关注AI辅助写作的问责机制、XR触觉增强、叙事关键帧生成等，强调人机协同和体验优化。"
+   "brief": "今日重点：长崎原爆纪念活动对台湾席位的安排引发争议，俄乌战争中使用朝鲜导弹及曾我瞳遭绑架事件凸显东北亚紧张局势，同时太阳高清影像与台湾断网演习成为关注焦点。",
+   "news_summary": "长崎原爆纪念式未给台湾使节席引发台日关系讨论；乌克兰称俄罗斯使用朝鲜导弹攻击，绑架受害者曾我瞳的故事再次引发关注；台湾首度演练断网场景，太阳观测影像亦获突破。",
+   "papers_summary": "今日论文聚焦机器学习与医学应用，包括可解释AI在肝癌和结直肠癌预测中的进展，以及脑机接口伦理、工业物联网安全框架等。"
   }
  },
  "todays_image": {
-  "caption": "Crepis barbigera's spiky seeds scatter like Joyce's wild claims across the political landscape, while Japan's ambassador delicately sidesteps the melon-sized gaffe.Crepis barbigera's windblown seeds mirror how Joyce's wild claims scatter ac",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3c5c5adab287f44a982fdf56d3d735b3f",
+  "caption": "Like the heat-tolerant Vigna oblongifolia, the UK is bracing to survive under an extreme heatwave that demands emergency measures.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m33da3b418f5cc4af4bfdbef76558b9d8c",
   "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3de345da3-b2e9-49c1-b88d-5a03d8a3c7a6",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3c5c5adab287f44a982fdf56d3d735b3f/90",
-  "title": "Crepis barbigera Leiberg"
+  "source_url": "http://n2t.net/ark:/65665/341893750-9045-4d5e-89c8-3ebad23334f7",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m33da3b418f5cc4af4bfdbef76558b9d8c/90",
+  "title": "Vigna oblongifolia A. Rich."
  }
 }
