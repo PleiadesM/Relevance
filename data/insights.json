@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "Gloucestershire cheese rolling OR cheese rolling race",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "Runner's World",
-   "published_at": "2026-07-27T07:00:00Z",
-   "title": "This Chaotic Cheese-Rolling Race Has No Permit, No Insurance, and No Plans to Stop",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNY2xQUWNoa29tNHVUU3JGYWlEdDZ0NXMwakF0RkhFQzkyZHdaY2ZKd1VTNnNGNTJKTHpFaHV0RjFEelk2cGZ3NWlXT2lGeWNUVWhzVjc0Z213d0pOck1vVGhIY3BTVHA0c3Z1RGhzRUs0Y01QZDJ6T2ZvWlpkTk94WHVJVQ?oc=5"
+   "name": "wror.com",
+   "published_at": "2026-08-10T16:45:00Z",
+   "title": "Topsfield Fair Opens Entries for 2026 Competitions , Promotes $20K Pumpkin Prize",
+   "url": "https://wror.com/2026/08/10/topsfield-fair-opens-entries-for-2026-competitions-promotes-20k-pumpkin-prize/"
   },
   "summaries": {
    "en": {
-    "summary": "A chaotic cheese-rolling race in England continues without permits or insurance, as highlighted by Runner's World.",
-    "why_irrelevant": "It's a quirky niche sport far removed from typical dashboard content."
+    "summary": "Topsfield Fair opens entries for its 2026 competitions, featuring a $20,000 prize for the largest pumpkin.",
+    "why_irrelevant": "It's a niche agricultural contest far from typical tech and lifestyle feeds."
    },
    "zh": {
-    "summary": "英国一场混乱的滚奶酪比赛在没有许可和保险的情况下继续进行，Runner's World 报道了此事。",
-    "why_irrelevant": "这是一项奇特的小众运动，远离常规的仪表板内容。"
+    "summary": "Topsfield博览会开放2026年比赛报名，最大南瓜奖金达2万美元。",
+    "why_irrelevant": "这是农业小众赛事，远离日常科技和生活资讯。"
    }
   },
-  "topic": "competitive cheese rolling"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news spans global politics, natural disasters, and personal stories, while research focuses on AI-assisted writing, visualization, and interaction techniques.",
+ "brief": "Today's news spans political scandals, extreme weather, and international incidents, while research explores AI-assisted writing and visualization design.",
  "meta": {
-  "generated_at": "2026-08-12T05:44:38Z"
+  "generated_at": "2026-08-12T07:49:20Z"
  },
- "news_summary": "Key stories include progressive wins in US primaries, Typhoon Dolphin's impact in China, Colombia's earthquake response, and Ronaldo's marriage, alongside geopolitical tensions and a solar eclipse in Europe.",
- "papers_summary": "Research highlights include methods for auditing AI-assisted writing, enhancing visualization design under divided attention, and using wearables for haptic feedback in XR, along with novel interaction techniques for creative writing.",
+ "news_summary": "UK faces extreme heat with emergency meetings, Australia deals with political controversies and a shooting hero's cleared charges, and international stories include a Zimbabwe ferry sinking and Typhoon Dolphin in China.",
+ "papers_summary": "Papers focus on AI-assisted research writing with accountability, a wearable glove for haptic feedback in XR, and visualization design under divided attention.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans global politics, natural disasters, and personal stories, while research focuses on AI-assisted writing, visualization, and interaction techniques.",
-   "news_summary": "Key stories include progressive wins in US primaries, Typhoon Dolphin's impact in China, Colombia's earthquake response, and Ronaldo's marriage, alongside geopolitical tensions and a solar eclipse in Europe.",
-   "papers_summary": "Research highlights include methods for auditing AI-assisted writing, enhancing visualization design under divided attention, and using wearables for haptic feedback in XR, along with novel interaction techniques for creative writing."
+   "brief": "Today's news spans political scandals, extreme weather, and international incidents, while research explores AI-assisted writing and visualization design.",
+   "news_summary": "UK faces extreme heat with emergency meetings, Australia deals with political controversies and a shooting hero's cleared charges, and international stories include a Zimbabwe ferry sinking and Typhoon Dolphin in China.",
+   "papers_summary": "Papers focus on AI-assisted research writing with accountability, a wearable glove for haptic feedback in XR, and visualization design under divided attention."
   },
   "zh": {
-   "brief": "今日焦点包括乌克兰指责俄罗斯使用朝鲜导弹、太阳高清影像公布、台湾断网演习，以及多篇关于AI与工作、国际政治的报道。研究方面，AI辅助写作和可视化设计的新方法成为亮点。",
-   "news_summary": "乌克兰称俄罗斯使用朝鲜导弹攻击，引发国际关注；太阳观测影像达到空前清晰度，展现太阳活动细节。台湾首次演练断网场景，为战时应变做准备。",
-   "papers_summary": "研究探讨了AI辅助研究写作的责任性问题，以及可视化设计在分心环境下的重要性，还提出了用于远程操作车辆和音乐治疗的神经网络与可视化工具。"
+   "brief": "今日简讯：乌克兰称俄罗斯使用朝鲜导弹；台湾模拟断网演练；太阳高分辨率图像公布；AI相关论文聚焦人机交互与可解释性。",
+   "news_summary": "乌克兰指控俄罗斯使用朝鲜导弹，日本公民被朝鲜绑架事件再受关注；台湾进行断网演练；中国闪婚诈骗问题凸显；芬兰管道案件香港审理引发国际法讨论。",
+   "papers_summary": "论文关注AI辅助写作的问责机制、XR触觉增强、叙事关键帧生成等，强调人机协同和体验优化。"
   }
  },
  "todays_image": {
-  "caption": "Just as the sun's corona is a fleeting halo revealed only during an eclipse, the melon memo leak serves as a momentary distraction—a stunt that obscures the real political issues.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=SIA-MAH-4691&max=1024",
-  "source_name": "Smithsonian Institution Archives",
-  "source_url": "https://siarchives.si.edu/collections/siris_arc_391446",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SIA-MAH-4691&max=150",
-  "title": "Corona of the Sun During Solar Eclipse"
+  "caption": "Crepis barbigera's spiky seeds scatter like Joyce's wild claims across the political landscape, while Japan's ambassador delicately sidesteps the melon-sized gaffe.Crepis barbigera's windblown seeds mirror how Joyce's wild claims scatter ac",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3c5c5adab287f44a982fdf56d3d735b3f",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3de345da3-b2e9-49c1-b88d-5a03d8a3c7a6",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3c5c5adab287f44a982fdf56d3d735b3f/90",
+  "title": "Crepis barbigera Leiberg"
  }
 }
