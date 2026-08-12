@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "stone skipping world championship OR rock skipping records",
+  "query": "\"snail racing championship\" OR \"world snail racing\"",
   "source": {
-   "name": "VICE",
-   "published_at": "2026-07-24T07:00:00Z",
-   "title": "4 No-Skip Grunge Albums Turning 30 This Year",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOS0NtUndQV2x0bjVNOGJkeVZFckFQa0FxVDF5LUh2YWV6QUNQOGRrV3F4RGhURk9IanNpSmhKQ0JNdTRfWFhjcDJrOEVBd1g4bUpUMGxfNEo4bzM0RUJOLWZlNDh3UDd1eDNMU0RLX0RGeDZfUlpFNFRYQ2lVRFkwUks2VQ?oc=5"
+   "name": "New Statesman",
+   "published_at": "2026-08-05T16:11:25Z",
+   "title": "Searching for the world’s fastest snail",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTDBVZ081UDNSd1p0bTlLbUVrNEUzeWI4OWpianFOYy1ld0VQS2ZtVjMxblNrbUVzemxWU0xzTkh0TEwtS0tOT3pwMXp2cm9EMWg1TVFFQWJkNHdhczI1OU5IMENEdElSX0FCWks0LUkycUNCb0pVODFtOEh3TUlJWWcxOUxnUUUxWWNsMDVOLXc?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "Four grunge albums turn 30 this year, celebrated for their timeless, no-skip quality.",
-    "why_irrelevant": "Music nostalgia sits far from the feed's AI and data focus."
+    "summary": "A New Statesman piece hunts for the planet's quickest snail.",
+    "why_irrelevant": "It's a whimsical natural-history detour from your tech-and-politics feed."
    },
    "zh": {
-    "summary": "本年有四张垃圾摇滚专辑迎来30周年，以无可跳过的经典之作而备受纪念。",
-    "why_irrelevant": "音乐怀旧与用户关注的人工智能和数据话题无关。"
+    "summary": "《新政治家》一篇文章寻找地球上最快的蜗牛。",
+    "why_irrelevant": "这是一条异想天开的自然史岔路，偏离你的科技与政治资讯流。"
    }
   },
-  "topic": "competitive stone skipping"
+  "topic": "competitive snail racing"
  },
- "brief": "Today's headlines focus on U.S. political tensions around voting and immigration, Australian housing and migration policy, plus AI security research on stealing reasoning traces. Scientific papers cover AI-assisted writing, financial advice evaluation, and more.",
+ "brief": "Today sees a mix of political dramas, from tight US primaries to Trump's decoy flight, alongside severe weather and disasters, while AI research explores new frontiers in human-computer interaction.",
  "meta": {
-  "generated_at": "2026-08-11T23:00:22Z"
+  "generated_at": "2026-08-12T02:41:41Z"
  },
- "news_summary": "U.S. news includes primary elections, a judge blocking USPS mail-in voting restrictions, visa cancellations, and Iran-related military updates. Australia debates migration cuts and housing, while UK police chiefs protest early release of PC Harper's killers.",
- "papers_summary": "Research highlights include a paper on stealing reasoning traces from proprietary LLMs, a framework for AI-assisted narrative drafting, and a study on how people evaluate AI-style financial advice.",
+ "news_summary": "US primary results are coming in with tight races, while Trump's secret evacuation from Air Force One raises scrutiny; severe storms hit the Midwest, a wildfire threatens Big Sur, and Colombia mourns an earthquake's toll.",
+ "papers_summary": "AI research this week focuses on auditable AI-assisted writing, narrative keyframing for creative writing, and enhancing XR with haptic feedback, alongside new tools for code comprehension and data generation.",
  "summaries": {
   "en": {
-   "brief": "Today's headlines focus on U.S. political tensions around voting and immigration, Australian housing and migration policy, plus AI security research on stealing reasoning traces. Scientific papers cover AI-assisted writing, financial advice evaluation, and more.",
-   "news_summary": "U.S. news includes primary elections, a judge blocking USPS mail-in voting restrictions, visa cancellations, and Iran-related military updates. Australia debates migration cuts and housing, while UK police chiefs protest early release of PC Harper's killers.",
-   "papers_summary": "Research highlights include a paper on stealing reasoning traces from proprietary LLMs, a framework for AI-assisted narrative drafting, and a study on how people evaluate AI-style financial advice."
+   "brief": "Today sees a mix of political dramas, from tight US primaries to Trump's decoy flight, alongside severe weather and disasters, while AI research explores new frontiers in human-computer interaction.",
+   "news_summary": "US primary results are coming in with tight races, while Trump's secret evacuation from Air Force One raises scrutiny; severe storms hit the Midwest, a wildfire threatens Big Sur, and Colombia mourns an earthquake's toll.",
+   "papers_summary": "AI research this week focuses on auditable AI-assisted writing, narrative keyframing for creative writing, and enhancing XR with haptic feedback, alongside new tools for code comprehension and data generation."
   },
   "zh": {
-   "brief": "今日新闻聚焦长崎原子弹内幕、台湾断网演习及芬兰管道受损案，同时关注AI工时与哥伦比亚地震；论文方面暂无优先中文项，英文研究涵盖AI写作辅助与金融建议评估。",
-   "news_summary": "中文新闻涵盖历史回顾、地区安全、国际法律、科技影响及社会问题；英文新闻则关注美国政治、国际冲突及科技进展，提供多元视角。",
-   "papers_summary": "优先中文论文无条目；英文论文涉及AI叙事生成、金融建议评估等，反映AI应用与评估的前沿动态。"
+   "brief": "今日焦点包括曾我瞳遭朝鮮綁架案、太陽高清影像、長崎原爆內幕、台灣斷網演習等重大新聞，同時科研領域則探討AI輔助寫作與視覺化設計。",
+   "news_summary": "新聞重點在於國際與地區重要事件，包括日本綁架案、太陽觀測突破、原爆歷史見證、台灣防災演習，以及哥倫比亞地震災情。",
+   "papers_summary": "研究論文側重於AI輔助寫作與視覺化設計，涵蓋可審計的AI研究寫作、互動式音樂視覺化等主題，反映科技與人機互動的發展趨勢。"
   }
  },
  "todays_image": {
-  "caption": "A mid-century ballot box, once a symbol of public choice, now feels like a relic in a land where migration is cut, housing codes are shredded, and an $11bn bank profit decides the real vote.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-JN2026-00282-000001",
-  "source_name": "National Museum of American History",
-  "source_url": null,
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-JN2026-00282-000001&max=150",
-  "title": "Ballot box, mid-20th century"
+  "caption": "The star-like florets of Chaetopappa asteroides huddle in tight clusters, much like the neck-and-neck contenders in Wisconsin's primary race.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3d1b2a964-ed98-4ee0-8f71-927381c84000",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c/90",
+  "title": "Chaetopappa asteroides (Nutt.) DC."
  }
 }
