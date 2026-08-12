@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"snail racing championship\" OR \"world snail racing\"",
+  "query": "Gloucestershire cheese rolling OR cheese rolling race",
   "source": {
-   "name": "New Statesman",
-   "published_at": "2026-08-05T16:11:25Z",
-   "title": "Searching for the world’s fastest snail",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTDBVZ081UDNSd1p0bTlLbUVrNEUzeWI4OWpianFOYy1ld0VQS2ZtVjMxblNrbUVzemxWU0xzTkh0TEwtS0tOT3pwMXp2cm9EMWg1TVFFQWJkNHdhczI1OU5IMENEdElSX0FCWks0LUkycUNCb0pVODFtOEh3TUlJWWcxOUxnUUUxWWNsMDVOLXc?oc=5"
+   "name": "Runner's World",
+   "published_at": "2026-07-27T07:00:00Z",
+   "title": "This Chaotic Cheese-Rolling Race Has No Permit, No Insurance, and No Plans to Stop",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNY2xQUWNoa29tNHVUU3JGYWlEdDZ0NXMwakF0RkhFQzkyZHdaY2ZKd1VTNnNGNTJKTHpFaHV0RjFEelk2cGZ3NWlXT2lGeWNUVWhzVjc0Z213d0pOck1vVGhIY3BTVHA0c3Z1RGhzRUs0Y01QZDJ6T2ZvWlpkTk94WHVJVQ?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A New Statesman piece hunts for the planet's quickest snail.",
-    "why_irrelevant": "It's a whimsical natural-history detour from your tech-and-politics feed."
+    "summary": "A chaotic cheese-rolling race in England continues without permits or insurance, as highlighted by Runner's World.",
+    "why_irrelevant": "It's a quirky niche sport far removed from typical dashboard content."
    },
    "zh": {
-    "summary": "《新政治家》一篇文章寻找地球上最快的蜗牛。",
-    "why_irrelevant": "这是一条异想天开的自然史岔路，偏离你的科技与政治资讯流。"
+    "summary": "英国一场混乱的滚奶酪比赛在没有许可和保险的情况下继续进行，Runner's World 报道了此事。",
+    "why_irrelevant": "这是一项奇特的小众运动，远离常规的仪表板内容。"
    }
   },
-  "topic": "competitive snail racing"
+  "topic": "competitive cheese rolling"
  },
- "brief": "Today sees a mix of political dramas, from tight US primaries to Trump's decoy flight, alongside severe weather and disasters, while AI research explores new frontiers in human-computer interaction.",
+ "brief": "Today's news spans global politics, natural disasters, and personal stories, while research focuses on AI-assisted writing, visualization, and interaction techniques.",
  "meta": {
-  "generated_at": "2026-08-12T02:41:41Z"
+  "generated_at": "2026-08-12T05:44:38Z"
  },
- "news_summary": "US primary results are coming in with tight races, while Trump's secret evacuation from Air Force One raises scrutiny; severe storms hit the Midwest, a wildfire threatens Big Sur, and Colombia mourns an earthquake's toll.",
- "papers_summary": "AI research this week focuses on auditable AI-assisted writing, narrative keyframing for creative writing, and enhancing XR with haptic feedback, alongside new tools for code comprehension and data generation.",
+ "news_summary": "Key stories include progressive wins in US primaries, Typhoon Dolphin's impact in China, Colombia's earthquake response, and Ronaldo's marriage, alongside geopolitical tensions and a solar eclipse in Europe.",
+ "papers_summary": "Research highlights include methods for auditing AI-assisted writing, enhancing visualization design under divided attention, and using wearables for haptic feedback in XR, along with novel interaction techniques for creative writing.",
  "summaries": {
   "en": {
-   "brief": "Today sees a mix of political dramas, from tight US primaries to Trump's decoy flight, alongside severe weather and disasters, while AI research explores new frontiers in human-computer interaction.",
-   "news_summary": "US primary results are coming in with tight races, while Trump's secret evacuation from Air Force One raises scrutiny; severe storms hit the Midwest, a wildfire threatens Big Sur, and Colombia mourns an earthquake's toll.",
-   "papers_summary": "AI research this week focuses on auditable AI-assisted writing, narrative keyframing for creative writing, and enhancing XR with haptic feedback, alongside new tools for code comprehension and data generation."
+   "brief": "Today's news spans global politics, natural disasters, and personal stories, while research focuses on AI-assisted writing, visualization, and interaction techniques.",
+   "news_summary": "Key stories include progressive wins in US primaries, Typhoon Dolphin's impact in China, Colombia's earthquake response, and Ronaldo's marriage, alongside geopolitical tensions and a solar eclipse in Europe.",
+   "papers_summary": "Research highlights include methods for auditing AI-assisted writing, enhancing visualization design under divided attention, and using wearables for haptic feedback in XR, along with novel interaction techniques for creative writing."
   },
   "zh": {
-   "brief": "今日焦点包括曾我瞳遭朝鮮綁架案、太陽高清影像、長崎原爆內幕、台灣斷網演習等重大新聞，同時科研領域則探討AI輔助寫作與視覺化設計。",
-   "news_summary": "新聞重點在於國際與地區重要事件，包括日本綁架案、太陽觀測突破、原爆歷史見證、台灣防災演習，以及哥倫比亞地震災情。",
-   "papers_summary": "研究論文側重於AI輔助寫作與視覺化設計，涵蓋可審計的AI研究寫作、互動式音樂視覺化等主題，反映科技與人機互動的發展趨勢。"
+   "brief": "今日焦点包括乌克兰指责俄罗斯使用朝鲜导弹、太阳高清影像公布、台湾断网演习，以及多篇关于AI与工作、国际政治的报道。研究方面，AI辅助写作和可视化设计的新方法成为亮点。",
+   "news_summary": "乌克兰称俄罗斯使用朝鲜导弹攻击，引发国际关注；太阳观测影像达到空前清晰度，展现太阳活动细节。台湾首次演练断网场景，为战时应变做准备。",
+   "papers_summary": "研究探讨了AI辅助研究写作的责任性问题，以及可视化设计在分心环境下的重要性，还提出了用于远程操作车辆和音乐治疗的神经网络与可视化工具。"
   }
  },
  "todays_image": {
-  "caption": "The star-like florets of Chaetopappa asteroides huddle in tight clusters, much like the neck-and-neck contenders in Wisconsin's primary race.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3d1b2a964-ed98-4ee0-8f71-927381c84000",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c/90",
-  "title": "Chaetopappa asteroides (Nutt.) DC."
+  "caption": "Just as the sun's corona is a fleeting halo revealed only during an eclipse, the melon memo leak serves as a momentary distraction—a stunt that obscures the real political issues.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=SIA-MAH-4691&max=1024",
+  "source_name": "Smithsonian Institution Archives",
+  "source_url": "https://siarchives.si.edu/collections/siris_arc_391446",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SIA-MAH-4691&max=150",
+  "title": "Corona of the Sun During Solar Eclipse"
  }
 }
