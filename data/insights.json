@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "dog grooming competition OR grooming championship",
+  "query": "cheese rolling championship OR Gloucestershire cheese rolling",
   "source": {
-   "name": "USA Today",
-   "published_at": "2026-08-04T19:56:00Z",
-   "title": "Meet the pups who ruled the 2026 World Dog Surfing Championships",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPLXRBSjNEUHFvMVQxdlZHYmY1bjMyTzA2MWhhUXl5YmJ2MG5IUTJING1hT1BjWmZNZnV4cF9VenJ4cGVXQWxRVnpaT3NMczFDajhiLTVENU1MdXFxdTRXYmstYnM1RENRNm1FSThUOE5HYVhfUnU3b0tYQ2ZyVFRNZjM1UzhYRjBsX1VEaUlFWTBiMWJCdUthZVoycGhUTy1lNUNTUVZyVWpOakVlczNZMnFjV2FBQU1sNGFfODJDUHMyNHZNMC1ZRUhB?oc=5"
+   "name": "Runner's World",
+   "published_at": "2026-07-27T07:00:00Z",
+   "title": "This Chaotic Cheese-Rolling Race Has No Permit, No Insurance, and No Plans to Stop",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNY2xQUWNoa29tNHVUU3JGYWlEdDZ0NXMwakF0RkhFQzkyZHdaY2ZKd1VTNnNGNTJKTHpFaHV0RjFEelk2cGZ3NWlXT2lGeWNUVWhzVjc0Z213d0pOck1vVGhIY3BTVHA0c3Z1RGhzRUs0Y01QZDJ6T2ZvWlpkTk94WHVJVQ?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "The 2026 World Dog Surfing Championships crowned canine champions riding waves in California.",
-    "why_irrelevant": "Surfing dogs are an extreme niche far from typical pet-care or daily news topics."
+    "summary": "A chaotic cheese-rolling race in the UK continues without permits or insurance, embracing its wild tradition.",
+    "why_irrelevant": "A quirky rural British event far from tech, politics, or science."
    },
    "zh": {
-    "summary": "2026年世界狗狗冲浪锦标赛在加州决出犬类冠军。",
-    "why_irrelevant": "冲浪狗属于极端小众，远离日常宠物护理或常见新闻话题。"
+    "summary": "英国一项混乱的滚奶酪比赛在没有许可和保险的情况下继续举办，尽情拥抱这一狂野传统。",
+    "why_irrelevant": "这是远离科技、政治和科学的古怪英国乡村活动。"
    }
   },
-  "topic": "competitive dog grooming"
+  "topic": "competitive cheese rolling"
  },
- "brief": "Today's news covers a mix of political primaries, economic data, and tech issues, while AI research advances in healthcare and writing tools.",
+ "brief": "Today's news features the European solar eclipse, economic shifts with Zhu Rongji's passing and US inflation cooling, along with political and social stories from the US and UK. Research highlights AI-assisted writing tools and wearable XR technologies.",
  "meta": {
-  "generated_at": "2026-08-12T15:12:51Z"
+  "generated_at": "2026-08-12T17:10:01Z"
  },
- "news_summary": "US credit card debt nears record, inflation eases, and political primaries in Wisconsin show progressive-moderate tensions. Heatwaves and wildfires prompt UK action, while Trump's security decoy and an eclipse draw attention. Tech news includes a 16-year-old SQLite bug and AI glasses privacy complaints.",
- "papers_summary": "AI research focuses on proactive concussion diagnosis via deep learning, auditable AI-assisted writing, and visual-to-haptic XR gloves. Other work covers efficient cryptography, electronic structure analysis, and interpretable cancer metastasis prediction.",
+ "news_summary": "Millions across Europe view a rare solar eclipse while Britain braces for backup power; US inflation eases to 3.4%; Zhu Rongji, architect of China's market reforms, dies at 97; and multiple US political and social stories unfold.",
+ "papers_summary": "Papers explore interactive AI writing aids like narrative keyframing and auditable research writing, plus a wearable glove for visual-to-haptic feedback in XR environments.",
  "summaries": {
   "en": {
-   "brief": "Today's news covers a mix of political primaries, economic data, and tech issues, while AI research advances in healthcare and writing tools.",
-   "news_summary": "US credit card debt nears record, inflation eases, and political primaries in Wisconsin show progressive-moderate tensions. Heatwaves and wildfires prompt UK action, while Trump's security decoy and an eclipse draw attention. Tech news includes a 16-year-old SQLite bug and AI glasses privacy complaints.",
-   "papers_summary": "AI research focuses on proactive concussion diagnosis via deep learning, auditable AI-assisted writing, and visual-to-haptic XR gloves. Other work covers efficient cryptography, electronic structure analysis, and interpretable cancer metastasis prediction."
+   "brief": "Today's news features the European solar eclipse, economic shifts with Zhu Rongji's passing and US inflation cooling, along with political and social stories from the US and UK. Research highlights AI-assisted writing tools and wearable XR technologies.",
+   "news_summary": "Millions across Europe view a rare solar eclipse while Britain braces for backup power; US inflation eases to 3.4%; Zhu Rongji, architect of China's market reforms, dies at 97; and multiple US political and social stories unfold.",
+   "papers_summary": "Papers explore interactive AI writing aids like narrative keyframing and auditable research writing, plus a wearable glove for visual-to-haptic feedback in XR environments."
   },
   "zh": {
-   "brief": "今日要聞涵蓋前中國總理朱鎔基逝世、美國特勤局保護特朗普的策略、中國閃婚詐騙現象及太陽觀測新突破",
-   "news_summary": "前中國總理朱鎔基逝世享年97歲，其改革遺產引發討論；美國特勤局被曝使用障眼法與誘餌保護特朗普；中國單身漢遭遇閃婚騙局損失畢生積蓄；長崎原爆紀念儀式因台灣代表安排引發台日關係爭議。",
-   "papers_summary": "今日研究聚焦於AI輔助寫作的可審計性、XR中的觸覺增強、以及癌症預測的臨床應用等主題。"
+   "brief": "今日新闻以朱镕基逝世为核心，回顾其经济改革遗产；同时涉及特朗普疫苗言论、中国闪婚骗局等社会议题。科研方面无重点中文论文，但英文研究提及AI辅助写作与XR触觉增强等方向。",
+   "news_summary": "中国前总理朱镕基逝世，享年97岁，BBC回顾其主导经济改革的‘经济沙皇’生涯，包括国企改革带来的下岗争议。其他新闻包括特朗普疫苗误导言论、中国闪婚骗局调查、长崎原爆纪念台湾代表待遇争议，以及俄乌冲突中朝鲜导弹的使用。",
+   "papers_summary": "今日无中文重点论文，英文研究涵盖AI辅助写作的可审计性、XR中的触觉反馈、以及神经网络遥操作车辆等主题。"
   }
  },
  "todays_image": {
-  "caption": "Just as the Harvard team photographed an eclipse without staring at the sun, the Secret Service hid Trump by redirecting eyes elsewhere.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2007_127Whipple-000001",
-  "source_name": "National Portrait Gallery",
-  "source_url": "https://npg.si.edu/object/npg_NPG.2007.127",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2007_127Whipple-000001",
-  "title": "Harvard Observatory Team, Photographing Eclipse"
+  "caption": "Like the quilt's celestial bodies cooling into neat orbits, today's easing food and fuel costs are pricey planets drifting into calmer alignment.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-89-10656-000001",
+  "source_name": "National Museum of American History",
+  "source_url": null,
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-89-10656-000001&max=150",
+  "title": "1876 Ellen Harding Baker's \"Solar System\" Quilt"
  }
 }
