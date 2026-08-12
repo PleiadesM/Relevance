@@ -18,7 +18,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T00:00:00Z",
-   "score": 0.4475,
+   "score": 0.4415,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -47,7 +47,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T00:00:00Z",
-   "score": 0.4475,
+   "score": 0.4415,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -76,7 +76,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T00:00:00Z",
-   "score": 0.585,
+   "score": 0.579,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -87,6 +87,200 @@
    "title": "Proactive concussion prediction using symmetry-aware multiscale explainable hybrid deep learning and multimodal data fusion",
    "url": "https://doi.org/10.1038/s41598-026-54871-9",
    "venue": "Scientific Reports"
+  },
+  {
+   "authors": [
+    "Yang Zhou",
+    "Chengqun Yu"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Language models now draft, classify and criticise inside research production, yet the artifacts they help produce carry little accountable history. Rather than detecting machine involvement afterwards, we specify an auditability discipline built at production time: git sealing with an anchor lineage, hash-bound provenance, red-line gates that refuse non-compliant artifacts and log every refusal, cross-model role separation, and programmatic assembly from registered sources. Adherence is…",
+    "arxiv_id": "2608.10858"
+   },
+   "id": "e7e28f23358317eb",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-11T12:30:42Z",
+   "score": 0.6962,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Language models now draft, classify and criticise inside research production, yet the artifacts they help produce carry little accountable history. Rather than detecting machine involvement afterwards, we specify an auditability discipline built at production time: git sealing with an anchor…",
+   "tags": [
+    "ai-writing",
+    "techcomm"
+   ],
+   "title": "Auditable AI-Assisted Research Writing: An Engineering Discipline with Pre-Registered Process Observation",
+   "url": "https://arxiv.org/abs/2608.10858v1",
+   "venue": "arXiv cs.DL"
+  },
+  {
+   "authors": [
+    "Faisal Mohd",
+    "Hamdi Elsaddik",
+    "Erhan Baturay Onural",
+    "Jihong Zhang",
+    "Fedwa Laamarti",
+    "Abdulmotaleb El Saddik"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Extended Reality (XR) systems increasingly deliver high-fidelity visual and auditory experiences, yet tactile perception remains comparatively underutilized as a modality for enriching embodied interaction. This work presents a visual-to-haptic wearable glove and a feature-based visual-to-haptic mapping algorithm that translates spatial and temporal visual features from images and videos into distributed vibrotactile patterns. The proposed method extracts motion, edge, and brightness cues and…",
+    "arxiv_id": "2608.10368"
+   },
+   "id": "73d520d9948f44eb",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-11T01:51:12Z",
+   "score": 0.6552,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Extended Reality (XR) systems increasingly deliver high-fidelity visual and auditory experiences, yet tactile perception remains comparatively underutilized as a modality for enriching embodied interaction. This work presents a visual-to-haptic wearable glove and a feature-based visual-to-haptic…",
+   "tags": [
+    "ai-writing",
+    "embodied"
+   ],
+   "title": "Visual-to-Haptic Augmentation in XR: A Wearable Glove for Perceptual Grounding in Multimodal Interaction",
+   "url": "https://arxiv.org/abs/2608.10368v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Ning Ding",
+    "Azim Eskandarian"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Direct teleoperation of vehicles faces critical technical bottlenecks: communication latency and the operator's inability to physically perceive unmodeled environmental disturbances (e.g., aerodynamic drag, bank angles) coupled with highly nonlinear tire-road dynamics. To address these challenges, we propose a tailored unilateral teleoperation framework. The system integrates the Wave Variable (WV) approach to passively guarantee stability under stochastic delays, and an adaptive Radial Basis…",
+    "arxiv_id": "2608.10367"
+   },
+   "id": "669f70b8f4f61cbc",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-11T01:51:08Z",
+   "score": 0.4627,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Direct teleoperation of vehicles faces critical technical bottlenecks: communication latency and the operator's inability to physically perceive unmodeled environmental disturbances (e.g., aerodynamic drag, bank angles) coupled with highly nonlinear tire-road dynamics. To address these challenges,…",
+   "tags": [],
+   "title": "A Neural Network Based Teleoperation for Remote Controlled Vehicles",
+   "url": "https://arxiv.org/abs/2608.10367v1",
+   "venue": "arXiv cs.RO"
+  },
+  {
+   "authors": [
+    "Abhishek Karwankar",
+    "Elise Ruggiero",
+    "Daniel Stevens",
+    "Matthew Louis Mauriello"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Designing music for therapeutic contexts requires navigating complex relationships between musical structure and listeners' sensory responses, yet composers often lack structured representations of these interactions, relying instead on intuition. We present ResonaVis, an interactive visualization system that helps composers analyze interaction and audio data from prior sessions with children with Autism Spectrum Disorder (ASD), informing future compositions. ResonaVis integrates audio features…",
+    "arxiv_id": "2608.10338"
+   },
+   "id": "bd6217ca3288318f",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-11T00:42:04Z",
+   "score": 0.4986,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Designing music for therapeutic contexts requires navigating complex relationships between musical structure and listeners' sensory responses, yet composers often lack structured representations of these interactions, relying instead on intuition. We present ResonaVis, an interactive visualization…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "ResonaVis: Visualizing Interactive Music Data to Support Reflective Music Composition for Therapeutic Contexts",
+   "url": "https://arxiv.org/abs/2608.10338v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Chao Zhang",
+    "Abe Davis"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "We introduce narrative keyframing, an interaction technique for AI-assisted creative writing that lets writers specify different types of narrative constraints at selected moments in a story, then use AI to generate intervening prose. Inspired by the use of keyframing in animation, narrative keyframing offers a flexible way to connect story planning with adaptive control over generated text. We explore three types of keyframes: plot keyframes define significant events in a story, character…",
+    "arxiv_id": "2608.10337"
+   },
+   "id": "68b99b97244a829f",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-11T00:41:29Z",
+   "score": 0.6511,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "We introduce narrative keyframing, an interaction technique for AI-assisted creative writing that lets writers specify different types of narrative constraints at selected moments in a story, then use AI to generate intervening prose. Inspired by the use of keyframing in animation, narrative…",
+   "tags": [
+    "ai-writing",
+    "techcomm"
+   ],
+   "title": "Narrative Keyframing for Generative Creative Writing",
+   "url": "https://arxiv.org/abs/2608.10337v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Liuyang Yang",
+    "Liyu Shan",
+    "Peiyi Xie",
+    "Tong Tong",
+    "Changlong Yang",
+    "Lizhu Liu"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Metachronous liver metastasis (MLM) after curative surgery is a major determinant of poor prognosis in colorectal cancer (CRC), yet existing approaches based on clinicopathological indicators or imaging alone have limited predictive performance and clinical applicability. This retrospective multicenter study included 2983 CRC patients from four Chinese medical centers, including 161 MLM cases and 2822 non-MLM cases with definite 5-year postoperative outcome ascertainment. We developed CMLM, an…",
+    "citations": 0,
+    "doi": "10.1038/s41698-026-01619-3"
+   },
+   "id": "7b36f7cf475e0d41",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-11T00:00:00Z",
+   "score": 0.3653,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Metachronous liver metastasis (MLM) after curative surgery is a major determinant of poor prognosis in colorectal cancer (CRC), yet existing approaches based on clinicopathological indicators or imaging alone have limited predictive performance and clinical applicability. This retrospective…",
+   "tags": [],
+   "title": "From predictive model to clinical application: interpretable prediction of metachronous liver metastasis in colorectal cancer",
+   "url": "https://doi.org/10.1038/s41698-026-01619-3",
+   "venue": "npj Precision Oncology"
+  },
+  {
+   "authors": [
+    "Ali Akhmetkaliyev",
+    "Mohammed Alaa Ala’anzy",
+    "Yassine Himeur"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "This project introduces an end-to-end Adaptive Zero-Trust Blockchain Framework designed for low-latency, privacy-preserving, and explainable intrusion detection in Industrial IoT (IIoT) environments. Built to operate under OT timing and resource constraints, the framework integrates sequential machine learning detection with continuous trust verification, tamper-evident logging, and operator triage visualization. Core Architecture &amp; Pipeline ComponentsLightweight Detection Engine: Utilizes…",
+    "citations": 0,
+    "doi": "10.24433/co.1632446.v1"
+   },
+   "id": "6900ef252f021cf2",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-11T00:00:00Z",
+   "score": 0.5028,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "This project introduces an end-to-end Adaptive Zero-Trust Blockchain Framework designed for low-latency, privacy-preserving, and explainable intrusion detection in Industrial IoT (IIoT) environments. Built to operate under OT timing and resource constraints, the framework integrates sequential…",
+   "tags": [
+    "systems"
+   ],
+   "title": "An Adaptive Zero-Trust Blockchain Framework for Low-Latency, Privacy-Preserving, and Explainable Intrusion Detection in Industrial IoT",
+   "url": "https://doi.org/10.24433/co.1632446.v1",
+   "venue": "Code Ocean"
   },
   {
    "authors": [
@@ -104,7 +298,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.5074,
+   "score": 0.5028,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -131,7 +325,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.5074,
+   "score": 0.5028,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -156,7 +350,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.5074,
+   "score": 0.5028,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -165,63 +359,6 @@
    "title": "From black-box prediction to transparent insight: the status quo and paradigm shift of explainable artificial intelligence in hepatocellular carcinoma research",
    "url": "https://doi.org/10.1186/s43046-026-00397-0",
    "venue": "Journal of the Egyptian National Cancer Institute"
-  },
-  {
-   "authors": [
-    "Ali Akhmetkaliyev",
-    "Mohammed Alaa Ala’anzy",
-    "Yassine Himeur"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "This project introduces an end-to-end Adaptive Zero-Trust Blockchain Framework designed for low-latency, privacy-preserving, and explainable intrusion detection in Industrial IoT (IIoT) environments. Built to operate under OT timing and resource constraints, the framework integrates sequential machine learning detection with continuous trust verification, tamper-evident logging, and operator triage visualization. Core Architecture &amp; Pipeline ComponentsLightweight Detection Engine: Utilizes…",
-    "citations": 0,
-    "doi": "10.24433/co.1632446.v1"
-   },
-   "id": "6900ef252f021cf2",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.5074,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "This project introduces an end-to-end Adaptive Zero-Trust Blockchain Framework designed for low-latency, privacy-preserving, and explainable intrusion detection in Industrial IoT (IIoT) environments. Built to operate under OT timing and resource constraints, the framework integrates sequential…",
-   "tags": [
-    "systems"
-   ],
-   "title": "An Adaptive Zero-Trust Blockchain Framework for Low-Latency, Privacy-Preserving, and Explainable Intrusion Detection in Industrial IoT",
-   "url": "https://doi.org/10.24433/co.1632446.v1",
-   "venue": "Code Ocean"
-  },
-  {
-   "authors": [
-    "Liuyang Yang",
-    "Liyu Shan",
-    "Peiyi Xie",
-    "Tong Tong",
-    "Changlong Yang",
-    "Lizhu Liu"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Metachronous liver metastasis (MLM) after curative surgery is a major determinant of poor prognosis in colorectal cancer (CRC), yet existing approaches based on clinicopathological indicators or imaging alone have limited predictive performance and clinical applicability. This retrospective multicenter study included 2983 CRC patients from four Chinese medical centers, including 161 MLM cases and 2822 non-MLM cases with definite 5-year postoperative outcome ascertainment. We developed CMLM, an…",
-    "citations": 0,
-    "doi": "10.1038/s41698-026-01619-3"
-   },
-   "id": "7b36f7cf475e0d41",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.3699,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Metachronous liver metastasis (MLM) after curative surgery is a major determinant of poor prognosis in colorectal cancer (CRC), yet existing approaches based on clinicopathological indicators or imaging alone have limited predictive performance and clinical applicability. This retrospective…",
-   "tags": [],
-   "title": "From predictive model to clinical application: interpretable prediction of metachronous liver metastasis in colorectal cancer",
-   "url": "https://doi.org/10.1038/s41698-026-01619-3",
-   "venue": "npj Precision Oncology"
   },
   {
    "authors": [
@@ -237,7 +374,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.3699,
+   "score": 0.3653,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -265,7 +402,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.5074,
+   "score": 0.5028,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -293,7 +430,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.3699,
+   "score": 0.3653,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -322,7 +459,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.5074,
+   "score": 0.5028,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -331,58 +468,6 @@
    "title": "Impact of oral health on quality of life among Tibetan adolescents in Suoxian County: a cross-sectional study",
    "url": "https://doi.org/10.3389/fpubh.2026.1814034",
    "venue": "Frontiers in Public Health"
-  },
-  {
-   "authors": [
-    "Letícia Soto da Costa",
-    "Ricardo S. Bovendorp",
-    "Danilo Simonini-Teixeira",
-    "Plínio Barbosa Camargo",
-    "Vicky M. Oelze"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Anthropogenic disturbance is a major driver of environmental change, altering resource availability and the feeding ecology of primates, particularly in rapidly changing tropical landscapes. The vulnerable Wied’s marmoset ( Callithrix kuhlii ), endemic to the Brazilian Atlantic Forest, inhabits increasingly human-modified environments. However, how these changes affect its feeding ecology remains poorly understood. Here, we used carbon (δ 13 C) and nitrogen (δ 15 N) stable isotope analyses to…",
-    "citations": 0,
-    "doi": "10.3389/fevo.2026.1893225"
-   },
-   "id": "e7cdf23c37d38ce1",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.5074,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Anthropogenic disturbance is a major driver of environmental change, altering resource availability and the feeding ecology of primates, particularly in rapidly changing tropical landscapes. The vulnerable Wied’s marmoset ( Callithrix kuhlii ), endemic to the Brazilian Atlantic Forest, inhabits…",
-   "tags": [],
-   "title": "Between forest and city: stable isotope evidence for anthropogenic impacts on the dietary ecology of the vulnerable Wied’s marmosets in Brazil",
-   "url": "https://doi.org/10.3389/fevo.2026.1893225",
-   "venue": "Frontiers in Ecology and Evolution"
-  },
-  {
-   "authors": [
-    "Oded Cohen"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "In this article, I seek to present a case description of personalized learning implemented in my teaching practice as a high school history teacher in central Israel. The study spans two consecutive academic years in two 11th-grade Second-Chance Academic (MABAR) classes. Grounded in qualitative educational discourse, this research offers a reflective perspective on lived experience rather than quantitative data. At the center is an interpretive examination of personalized learning during…",
-    "citations": 0,
-    "doi": "10.3389/feduc.2026.1910822"
-   },
-   "id": "e2f5ca4d2cb6d26e",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.3699,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "In this article, I seek to present a case description of personalized learning implemented in my teaching practice as a high school history teacher in central Israel. The study spans two consecutive academic years in two 11th-grade Second-Chance Academic (MABAR) classes. Grounded in qualitative…",
-   "tags": [],
-   "title": "“In their own way”: personalization in history teaching in second-chance academic classes",
-   "url": "https://doi.org/10.3389/feduc.2026.1910822",
-   "venue": "Frontiers in Education"
   },
   {
    "authors": [
@@ -403,7 +488,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.3699,
+   "score": 0.3653,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -429,7 +514,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.5074,
+   "score": 0.5028,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -441,6 +526,58 @@
    "title": "A systematic literature review exploring the application of deep learning in electric vehicles from 2015 to 2025",
    "url": "https://doi.org/10.3389/frai.2026.1826633",
    "venue": "Frontiers in Artificial Intelligence"
+  },
+  {
+   "authors": [
+    "Letícia Soto da Costa",
+    "Ricardo S. Bovendorp",
+    "Danilo Simonini-Teixeira",
+    "Plínio Barbosa Camargo",
+    "Vicky M. Oelze"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Anthropogenic disturbance is a major driver of environmental change, altering resource availability and the feeding ecology of primates, particularly in rapidly changing tropical landscapes. The vulnerable Wied’s marmoset ( Callithrix kuhlii ), endemic to the Brazilian Atlantic Forest, inhabits increasingly human-modified environments. However, how these changes affect its feeding ecology remains poorly understood. Here, we used carbon (δ 13 C) and nitrogen (δ 15 N) stable isotope analyses to…",
+    "citations": 0,
+    "doi": "10.3389/fevo.2026.1893225"
+   },
+   "id": "e7cdf23c37d38ce1",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-11T00:00:00Z",
+   "score": 0.5028,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Anthropogenic disturbance is a major driver of environmental change, altering resource availability and the feeding ecology of primates, particularly in rapidly changing tropical landscapes. The vulnerable Wied’s marmoset ( Callithrix kuhlii ), endemic to the Brazilian Atlantic Forest, inhabits…",
+   "tags": [],
+   "title": "Between forest and city: stable isotope evidence for anthropogenic impacts on the dietary ecology of the vulnerable Wied’s marmosets in Brazil",
+   "url": "https://doi.org/10.3389/fevo.2026.1893225",
+   "venue": "Frontiers in Ecology and Evolution"
+  },
+  {
+   "authors": [
+    "Oded Cohen"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "In this article, I seek to present a case description of personalized learning implemented in my teaching practice as a high school history teacher in central Israel. The study spans two consecutive academic years in two 11th-grade Second-Chance Academic (MABAR) classes. Grounded in qualitative educational discourse, this research offers a reflective perspective on lived experience rather than quantitative data. At the center is an interpretive examination of personalized learning during…",
+    "citations": 0,
+    "doi": "10.3389/feduc.2026.1910822"
+   },
+   "id": "e2f5ca4d2cb6d26e",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-11T00:00:00Z",
+   "score": 0.3653,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "In this article, I seek to present a case description of personalized learning implemented in my teaching practice as a high school history teacher in central Israel. The study spans two consecutive academic years in two 11th-grade Second-Chance Academic (MABAR) classes. Grounded in qualitative…",
+   "tags": [],
+   "title": "“In their own way”: personalization in history teaching in second-chance academic classes",
+   "url": "https://doi.org/10.3389/feduc.2026.1910822",
+   "venue": "Frontiers in Education"
   },
   {
    "authors": [
@@ -461,7 +598,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.5074,
+   "score": 0.5028,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -490,7 +627,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.5074,
+   "score": 0.5028,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -519,7 +656,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.5074,
+   "score": 0.5028,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -548,7 +685,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.3699,
+   "score": 0.3653,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -573,7 +710,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.5074,
+   "score": 0.5028,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -585,161 +722,147 @@
   },
   {
    "authors": [
-    "Madison Percy Jones",
-    "Morgan C. Banville",
-    "Leah Heilig"
+    "Jiho Kim",
+    "Anna L. Chinni",
+    "Karen B. Schloss",
+    "Michael Gleicher"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "To illustrate how environmental aesthetics shape present-day science communication pedagogy, this article situates contemporary science communication in the context of the American environmental writing tradition, drawing from the field reporting techniques of William Bartram as a form of artist's study. We use teaching case examples to demonstrate how the aesthetic experience of scientific knowledge—the acts of etching, visiting, feeling, and being in nature—ultimately contributes to better…",
-    "citations": 0,
-    "doi": "10.1177/00472816261471749"
+    "abstract_snippet": "Studies have shown that visualization design affects interpretability when visualization interpretation is the user's sole task. However, in real-world settings, users often engage with visualizations while performing concurrent tasks, such as when users simultaneously monitor alerts or respond to messages. Such divided attention may alter how users interpret visualizations, potentially increasing the importance of designs that align with viewer expectations. We investigated this possibility…",
+    "arxiv_id": "2608.10320"
    },
-   "id": "3edd96c27f389a93",
+   "id": "4f602752619f9bcd",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-08T17:56:07Z",
-   "score": 0.2734,
+   "published_at": "2026-08-10T23:44:11Z",
+   "score": 0.4952,
    "section": "papers",
-   "source": "TechComm journals (CrossRef)",
-   "source_id": "crossref_techcomm_journals",
-   "summary": "To illustrate how environmental aesthetics shape present-day science communication pedagogy, this article situates contemporary science communication in the context of the American environmental writing tradition, drawing from the field reporting techniques of William Bartram as a form of artist's…",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Studies have shown that visualization design affects interpretability when visualization interpretation is the user's sole task. However, in real-world settings, users often engage with visualizations while performing concurrent tasks, such as when users simultaneously monitor alerts or respond to…",
    "tags": [
-    "pedagogy",
-    "techcomm"
+    "visualization"
    ],
-   "title": "Visualizing Environments: Toward A Natural History of Science Communication",
-   "url": "https://doi.org/10.1177/00472816261471749",
-   "venue": "Journal of Technical Writing and Communication"
+   "title": "Divided Attention Amplifies the Importance of Expectation-Aligned Visualization Design",
+   "url": "https://arxiv.org/abs/2608.10320v1",
+   "venue": "arXiv cs.HC"
   },
   {
    "authors": [
-    "Mason Pellegrini",
-    "Clay Spinuzzi"
+    "Costain Nachuma",
+    "Minhaz F. Zibran"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "",
-    "citations": 0,
-    "doi": "10.1080/10572252.2026.2710366"
+    "abstract_snippet": "Comprendia is an Eclipse plugin that integrates structural dependency visualization with LLM-powered code explanation on a shared interactive graph for Java program comprehension. The tool rests on four pillars: (1) a multi-edge-type dependency graph with live search and multiple layouts; (2) LLM explanations grounded in Graph-Aware Callee Pruning (GACP), an auditable strategy that selects relevant callees using the same graph the developer navigates; (3) a clone-detection overlay that…",
+    "also_in": [
+     {
+      "source": "arXiv cs.HC (writing & docs)",
+      "url": "https://arxiv.org/abs/2608.10290v1"
+     }
+    ],
+    "arxiv_id": "2608.10290"
    },
-   "id": "040f914a761e7b5b",
+   "id": "8cd31d3c5963198f",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-07T05:14:54Z",
-   "score": 0.4672,
+   "published_at": "2026-08-10T22:50:27Z",
+   "score": 0.8245,
    "section": "papers",
-   "source": "TechComm journals (CrossRef)",
-   "source_id": "crossref_techcomm_journals",
-   "summary": "",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Comprendia is an Eclipse plugin that integrates structural dependency visualization with LLM-powered code explanation on a shared interactive graph for Java program comprehension. The tool rests on four pillars: (1) a multi-edge-type dependency graph with live search and multiple layouts; (2) LLM…",
+   "tags": [
+    "ml-vis",
+    "llm",
+    "visualization"
+   ],
+   "title": "Comprendia: AI-Augmented Code Comprehension",
+   "url": "https://arxiv.org/abs/2608.10290v1",
+   "venue": "arXiv cs.SE"
+  },
+  {
+   "authors": [
+    "Karen B. Schloss",
+    "Halle C. Braun",
+    "Kushin Mukherjee",
+    "Anna L. Chinni",
+    "Seth R. Gorelik"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "With increasing evidence that affective connotation (emotional association) is an important aspect of visual communication, there is a need for methods to predict affective connotation of visualizations. Many aspects of visualization design, including colors, textures, and shapes, can contribute to affective connotation, and a key question is how multiple design properties combine to determine the emotion association of a whole visualization. In this study, we focused specifically on color and…",
+    "also_in": [
+     {
+      "source": "arXiv cs.HC (writing & docs)",
+      "url": "https://arxiv.org/abs/2608.10169v1"
+     }
+    ],
+    "arxiv_id": "2608.10169"
+   },
+   "id": "bf28dc1af3f83807",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T19:37:18Z",
+   "score": 0.4811,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "With increasing evidence that affective connotation (emotional association) is an important aspect of visual communication, there is a need for methods to predict affective connotation of visualizations. Many aspects of visualization design, including colors, textures, and shapes, can contribute to…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Predicting affective connotation of visualizations from their constituent colors",
+   "url": "https://arxiv.org/abs/2608.10169v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Ruqi Sun",
+    "Jiaping Li",
+    "Wenhui Tao",
+    "Ximing Zheng",
+    "Yuefeng Tan",
+    "Jiahao Wei"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Great fiction earns its verisimilitude through precise details, from how a longsword is gripped to pierce armor gaps to why a bleeding corpse cannot yet smell of decay, weaving domain expertise into the fabric of invented worlds. Current AI writing tools offer limited support for discovering and integrating unfamiliar domain knowledge into narrative. They require explicit queries that authors cannot formulate, generate finished prose that risks homogenizing voice, or assist only within the…",
+    "arxiv_id": "2608.09698"
+   },
+   "id": "828e79fae5701a81",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-10T15:03:26Z",
+   "score": 0.6187,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Great fiction earns its verisimilitude through precise details, from how a longsword is gripped to pierce armor gaps to why a bleeding corpse cannot yet smell of decay, weaving domain expertise into the fabric of invented worlds. Current AI writing tools offer limited support for discovering and…",
    "tags": [
     "ai-writing",
-    "llm"
+    "techcomm"
    ],
-   "title": "Can We Responsively Code Qualitative Data with an LLM Aide? A Human-In-The-Loop Approach",
-   "url": "https://doi.org/10.1080/10572252.2026.2710366",
-   "venue": "Technical Communication Quarterly"
-  },
-  {
-   "authors": [
-    "Sunitha Tumkur"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "citations": 0,
-    "doi": "10.1109/tpc.2026.3711952"
-   },
-   "id": "29802937b2099c6b",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-06T19:08:30Z",
-   "score": 0.2207,
-   "section": "papers",
-   "source": "TechComm journals (CrossRef)",
-   "source_id": "crossref_techcomm_journals",
-   "summary": "",
-   "tags": [
-    "pedagogy"
-   ],
-   "title": "Teaching Professional Self-Presentation With Video Résumés: An Instructor-and-Peer Feedback Intervention",
-   "url": "https://doi.org/10.1109/tpc.2026.3711952",
-   "venue": "IEEE Transactions on Professional Communication"
-  },
-  {
-   "authors": [
-    "Claire Lauer",
-    "Amber Hedquist",
-    "Stephen Carradini",
-    "Srinivasan Ravichandran",
-    "Anqi Shao",
-    "Poorva Ketkar"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "This article examines how aesthetic design and anthropomorphism support public engagement with complex environmental issues through “Blue,” a character developed for a community-based water education initiative in Arizona. Drawing on qualitative usability-testing data, the study analyzes user responses to Blue's design. We argue that Blue's effectiveness stems from his construction as a social presence and identify four design functions that shaped engagement: building approachability,…",
-    "citations": 0,
-    "doi": "10.1177/00472816261471752"
-   },
-   "id": "bdb16283089b369c",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-06T13:50:48Z",
-   "score": 0.2164,
-   "section": "papers",
-   "source": "TechComm journals (CrossRef)",
-   "source_id": "crossref_techcomm_journals",
-   "summary": "This article examines how aesthetic design and anthropomorphism support public engagement with complex environmental issues through “Blue,” a character developed for a community-based water education initiative in Arizona. Drawing on qualitative usability-testing data, the study analyzes user…",
-   "tags": [
-    "ux"
-   ],
-   "title": "“Cute” as Environmental Strategy: Anthropomorphizing Nature to Promote Engagement with Environmental Issues",
-   "url": "https://doi.org/10.1177/00472816261471752",
-   "venue": "Journal of Technical Writing and Communication"
-  },
-  {
-   "authors": [
-    "Maureen A. Mathison",
-    "Stephanie Weidauer",
-    "Mickey Gough"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "citations": 0,
-    "doi": "10.1080/10572252.2026.2712991"
-   },
-   "id": "e4769a89f6477941",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-05T16:30:29Z",
-   "score": 0.2015,
-   "section": "papers",
-   "source": "TechComm journals (CrossRef)",
-   "source_id": "crossref_techcomm_journals",
-   "summary": "",
-   "tags": [
-    "pedagogy"
-   ],
-   "title": "Facilitating Social Justice in the Technical Editing Classroom",
-   "url": "https://doi.org/10.1080/10572252.2026.2712991",
-   "venue": "Technical Communication Quarterly"
+   "title": "VeriForge: Mitigating Latent Knowledge Gaps in Narrative Drafting via Mixed-Initiative Scaffolding",
+   "url": "https://arxiv.org/abs/2608.09698v1",
+   "venue": "arXiv cs.HC"
   }
  ],
  "meta": {
-  "count": 26,
-  "generated_at": "2026-08-12T09:30:40Z",
+  "count": 30,
+  "generated_at": "2026-08-12T11:09:22Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
    {
     "category": "optional",
-    "count": 0,
-    "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60",
+    "count": 4,
+    "error": null,
     "full_text_count": 0,
     "id": "arxiv_datavis",
     "name": "arXiv cs.HC + cs.GR",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
@@ -770,12 +893,12 @@
    },
    {
     "category": "optional",
-    "count": 16,
-    "error": null,
+    "count": 0,
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A1050-6519%2Cfrom-created-date%3A2026-07-15&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
-    "ok": true,
+    "ok": false,
     "section": "papers",
     "skip_reason": null,
     "type": "crossref"
@@ -794,12 +917,12 @@
    },
    {
     "category": "optional",
-    "count": 0,
-    "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC&sortBy=submittedDate&sortOrder=descending&max_results=40",
+    "count": 7,
+    "error": null,
     "full_text_count": 0,
     "id": "arxiv_hci_writing",
     "name": "arXiv cs.HC (writing & docs)",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
