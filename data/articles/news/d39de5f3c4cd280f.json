@@ -1,0 +1,30 @@
+{
+ "full_text": "SpaceXAI has introduced Grok Bot , an always-on AI agent service designed to behave like independent \"AI teammates\" that can do your work for you. The bots share their own cloud-based computer environment, and can sign into apps, tools, and websites you already use to complete multi-step workplace tasks, only coming back when their assigned work is completed or if something requires approval.\n\nGrok Bot (or Bots, as SpaceXAI inconsistently pluralizes it) is the latest push from Elon Musk's AI company to keep up with business services launched by rival AI providers, including OpenAI's ChatGPT Work , Anthropic's Claude Cowork , and Microsoft's Cop …\n\nRead the full story at The Verge.",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/d39de5f3c4cd280f.json",
+  "id": "d39de5f3c4cd280f",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-08-12T11:58:54Z",
+  "section": "news",
+  "source": "The Verge · AI",
+  "source_id": "verge_ai",
+  "summary": "SpaceXAI has introduced Grok Bot, an always-on AI agent service designed to behave like independent \"AI teammates\" that can do your work for you. The bots share their own cloud-based computer environment, and can sign into apps, tools, and websites you already use to complete multi-step workplace…",
+  "tags": [
+   "agents"
+  ],
+  "title": "Grok is now an AI ‘teammate’ you can assign work",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch"
+ },
+ "meta": {
+  "content_hash": "334e9cea2bbaca6f",
+  "generated_at": "2026-08-12T13:43:36Z",
+  "item_id": "d39de5f3c4cd280f",
+  "section": "news",
+  "source": "The Verge · AI",
+  "source_id": "verge_ai"
+ }
+}
