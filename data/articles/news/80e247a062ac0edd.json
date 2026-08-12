@@ -1,0 +1,28 @@
+{
+ "full_text": "Terabytes worth of credentials, many belonging to the world’s biggest and most sensitive organizations, have been exposed in a supply-chain attack on LiteLLM, an open source tool that streamlines AI-driven software development. Microsoft, Amazon, Cisco, Samsung, and Salesforce are only a handful of the entities whose access secrets were exposed.\n\nThe revelation was posted on Tuesday and Wednesday by security firms CloudSEK and Hudson Rock. CloudSEK said it found cloud keys, repository tokens, SSH keys, Kubernetes secrets, package publishing credentials, environment variables, and AI provider keys that could allow attackers to gain access to more than 2,500 organizations.\n\n40 minutes is all it takes\n\nThe credentials were extracted during a 40-minute window in March while the victims used compromised versions of LiteLLM downloaded from the package’s official location in the Python Package Index repository. Hudson Rock said it made the discovery after analyzing a 195TB file that it obtained. Neither firm identified the source of the information.\n\nRead full article\n\nComments",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/80e247a062ac0edd.json",
+  "id": "80e247a062ac0edd",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-08-12T21:43:21Z",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai",
+  "summary": "The data was scraped and exfiltrated from 2,500 users of a compromised AI package.",
+  "tags": [],
+  "title": "Terabytes of credentials leaked in massive supply-chain attack",
+  "url": "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/"
+ },
+ "meta": {
+  "content_hash": "40b34ea2f9087f39",
+  "generated_at": "2026-08-12T22:59:05Z",
+  "item_id": "80e247a062ac0edd",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai"
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "full_text": "Twitch now lets users opt out of Amazon's use of content from their channels to train Amazon's \"generative AI content models.\" The change, announced today, comes more than two years after a company executive confirmed that Amazon was using Twitch content for AI training.\n\nIn an updated support page , Twitch confirms that users must opt out if they don’t want their “streams, VODs, clips, stream chats, and pictures and text on your channel [to] be used in future training of a model developed by Amazon whose purpose is to generate or synthesize text, audio, images, or video.”\n\nTo opt out, users must go to the proper settings at www.twitch.tv/settings/security .\n\nRead full article\n\nComments",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/c8bbf5b040b9ed57.json",
+  "id": "c8bbf5b040b9ed57",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-08-12T21:00:30Z",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai",
+  "summary": "Streaming platform says user-generated content \"may be used for future Gen AI model improvements.\"",
+  "tags": [],
+  "title": "Twitch content has trained Amazon AI for years, but users can opt out now",
+  "url": "https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now/"
+ },
+ "meta": {
+  "content_hash": "31f4e62dd6192709",
+  "generated_at": "2026-08-12T22:59:05Z",
+  "item_id": "c8bbf5b040b9ed57",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai"
+ }
+}
