@@ -1,215 +1,215 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-08-13T13:44:12Z",
+  "count": 5,
+  "generated_at": "2026-08-13T15:13:01Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "f5ff5caf880b6bee",
+     "item_id": "b1c53262262f87b7",
      "phrase": {
-      "en": "Eleven models, varied results",
-      "zh": "十一个模型，结果各异"
+      "en": "AI agents misbehave, deterring users",
+      "zh": "智能体行为不端，用户却步"
      },
      "section": "news",
      "source": "Hacker News (AI filter)",
-     "url": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results/"
+     "url": "https://www.economist.com/business/2026/08/12/ai-agents-lie-cheat-and-steal-that-is-putting-off-users"
     },
     {
      "item_id": "2c82914f0787066b",
      "phrase": {
-      "en": "Twitch users outraged over AI training",
-      "zh": "Twitch用户对AI训练愤怒"
+      "en": "Twitch users outraged by AI data use",
+      "zh": "Twitch用户抗议数据用于AI"
      },
      "section": "news",
      "source": "BBC World",
      "url": "https://www.bbc.co.uk/news/articles/cp30pz8d09jo?at_medium=RSS&at_campaign=rss"
     },
     {
-     "full_text_file": "articles/news/05c1c486aa0edded.json",
-     "item_id": "05c1c486aa0edded",
+     "item_id": "1c4a07ca0da5534a",
      "phrase": {
-      "en": "Microsoft merges Copilot apps",
-      "zh": "微软合并Copilot应用"
+      "en": "Disclosing persuasive intent reduces persuasion",
+      "zh": "披露说服意图降低说服力"
      },
-     "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/tech/979466/microsoft-copilot-365-app-unified-experience"
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.11794v1"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "Different AI models give wildly different answers to the same prompt, and users are pushing back.",
-    "zh": "不同AI模型对同一提示给出迥异的答案，用户开始反击。"
+    "en": "From lying agents to hidden training data, AI's trust problem surfaces everywhere.",
+    "zh": "从撒谎的智能体到隐藏的训练数据，AI的信任问题处处显现。"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI model choices",
-    "zh": "AI模型选择"
+    "en": "AI trust & transparency",
+    "zh": "AI信任与透明"
    },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow AI and tech communication: today's reports show model variability and user outrage over data use, a critical moment.",
-    "zh": "你关注AI与技术传播：今日报道显示模型差异与用户对数据使用的愤怒，这是关键时刻。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "233b3c322c06cef9",
-     "phrase": {
-      "en": "Europe's fifth heatwave",
-      "zh": "欧洲第五次热浪"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/13/weather/europe-heat-wave-extreme-heat-warning.html"
-    },
-    {
-     "item_id": "53a0db967ed0653b",
-     "phrase": {
-      "en": "Extreme heat warnings expand",
-      "zh": "极端高温警告扩大"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/environment/live/2026/aug/13/europe-heatwave-france-spain-italy-uk-degrees-temperature-record-summer-drought-latest-news-updates"
-    }
+   "relates_to": [
+    "t2"
    ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Europe is baking again, and the heat exposes deeper vulnerabilities.",
-    "zh": "欧洲再次炙烤，高温暴露更深层的脆弱。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "climate stress",
-    "zh": "气候压力"
-   },
-   "relates_to": [],
    "why_now": {
-    "en": "You care about critical visualization and human factors: extreme heat is a data story you might visualize or communicate.",
-    "zh": "你关注批判性可视化与人为因素：极端高温是可视觉化或传播的数据故事。"
+    "en": "You care about human-AI interaction and communication: today multiple sources confront AI's opaque, sometimes deceptive behavior.",
+    "zh": "你关心人机交互与传播，今日多家来源直面AI的不透明乃至欺骗行为。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "a1f6d337ae40e8c0",
+     "item_id": "acbfbfd4b1348041",
      "phrase": {
-      "en": "Putin visits disputed islands",
-      "zh": "普京视察争议岛屿"
+      "en": "Specialized RAG beats frontier LLMs in clinical",
+      "zh": "专用RAG在临床上胜过前沿LLM"
      },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/13/world/asia/putin-visit-islands-japan-russia.html"
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.12138v1"
     },
     {
-     "item_id": "42ce85f696632fcf",
+     "item_id": "f5ff5caf880b6bee",
      "phrase": {
-      "en": "Taiwan drills slow internet",
-      "zh": "台湾演习降速网络"
+      "en": "One prompt, 11 models, varied results",
+      "zh": "同一提示，11个模型结果迥异"
      },
      "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/13/g-s1-138581/taiwan-briefly-slows-its-mobile-internet-to-text-only-speed-as-part-of-defense-drill"
-    },
-    {
-     "item_id": "6ff1bbc8cc272735",
-     "phrase": {
-      "en": "Japan condemns island visit",
-      "zh": "日本谴责岛屿访问"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/13/japan-condemns-vladimir-putin-visit-kuril-islands"
-    },
-    {
-     "item_id": "9d93a42920c110b6",
-     "phrase": {
-      "en": "Blockade threatens grain supplies",
-      "zh": "封锁威胁粮食供应"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/13/world/europe/russia-ukraine-ports-odesa-cargo-ship-attacks.html"
-    },
-    {
-     "item_id": "f6d3365435786ecf",
-     "phrase": {
-      "en": "Incheon becomes busiest airport",
-      "zh": "仁川成最繁忙机场"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/13/south-korea-incheon-airport-iran-war-middle-east"
+     "source": "Hacker News (AI filter)",
+     "url": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results/"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Tensions flare over islands, ports, and airspace, redrawing global routes.",
-    "zh": "岛屿、港口和领空紧张局势加剧，重绘全球路线。"
+    "en": "Benchmarks clash with real-world use; models diverge and overpromise.",
+    "zh": "基准测试与现实应用冲突，模型结果不一且过度承诺。"
    },
-   "id": "t3",
+   "id": "t2",
    "keyword": {
-    "en": "geopolitical flashpoints",
-    "zh": "地缘政治热点"
+    "en": "LLM evaluation & limitations",
+    "zh": "LLM评估与局限"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow global affairs and data: these flashpoints affect data routes and you might analyze their impact.",
-    "zh": "你关注全球事务与数据：这些热点影响数据路线，你可以分析其影响。"
+    "en": "You follow LLMs closely: today's evidence shows specialized vs. general models and prompt variability, key for your work.",
+    "zh": "你密切关注LLM，今日证据显示专用与通用模型之别及提示变异性，关乎你的工作。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "d3a4b0616a72f822",
+     "item_id": "42b88f0d867c8e8a",
      "phrase": {
-      "en": "Democratic Socialists gaining votes",
-      "zh": "民主党社会主义者获票增加"
+      "en": "AI 3D models flood market, few buy",
+      "zh": "AI 3D模型泛滥，买家寥寥"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/13/magazine/democratic-socialism-dsa-elections-primaries.html"
+     "source": "Hacker News (AI filter)",
+     "url": "https://www.404media.co/ai-generated-3d-models-flood-market-but-almost-no-one-is-buying-them/"
     },
     {
-     "item_id": "632bcc015171f3b3",
+     "item_id": "65fe368bd5e3a4cd",
      "phrase": {
-      "en": "Mixed signals from primary voters",
-      "zh": "初选选民信号混杂"
+      "en": "ESL learners collaborate via AI slides",
+      "zh": "ESL学习者通过AI幻灯片协作"
      },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/13/nx-s1-5929473/primary-voters-send-mixed-signals-about-what-they-want-from-the-democratic-party"
+     "section": "papers",
+     "source": "TechComm journals (CrossRef)",
+     "url": "https://doi.org/10.1177/07410883261461544"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "AI churns out 3D models and slides, but buyers and learners hesitate.",
+    "zh": "AI批量生成3D模型和幻灯片，但买家和学习者却犹豫不决。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "AI-generated content adoption",
+    "zh": "AI生成内容的应用"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You study human-computer interaction and visual communication: today's stories show the gap between AI output and real adoption.",
+    "zh": "你研究人机交互与视觉传播，今日新闻展示AI产出与实际采用之间的鸿沟。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "73d520d9948f44eb",
+     "phrase": {
+      "en": "Wearable glove adds haptics in XR",
+      "zh": "可穿戴手套为XR增加触觉"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.10368v1"
     },
     {
-     "item_id": "df77f5f7996d4af9",
+     "item_id": "174daaf65227f18c",
      "phrase": {
-      "en": "Swing voters open to socialism",
-      "zh": "摇摆选民接受社会主义"
+      "en": "Brain-computer interface ethics in mental health",
+      "zh": "脑机接口在心理保健中的伦理"
      },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/13/nx-s1-5929406/nevada-economy-socialism-focus-groups"
+     "section": "papers",
+     "source": "OpenAlex · information visualization",
+     "url": "https://doi.org/10.3389/fnhum.2026.1846283"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Voters are sending mixed signals, and the left's appeal shows limits.",
-    "zh": "选民发出复杂信号，左翼吸引力显现局限。"
+    "en": "Touch and body awareness enter digital experience, from gloves to brain interfaces.",
+    "zh": "触觉与身体意识进入数字体验，从手套到脑机接口。"
    },
    "id": "t4",
    "keyword": {
-    "en": "political shifts",
-    "zh": "政治转向"
+    "en": "embodied cognition & XR interfaces",
+    "zh": "具身认知与XR界面"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about visual rhetoric and communication: political shifts are a canvas for understanding public narratives.",
-    "zh": "你关注视觉修辞与传播：政治转向是理解公共叙事的画布。"
+    "en": "You're interested in embodied AI and embodied cognition: today's papers push physical sensing into HCI and ethics.",
+    "zh": "你对具身AI和具身认知感兴趣，今日论文将物理感知推进到人机交互与伦理。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "e7e28f23358317eb",
+     "phrase": {
+      "en": "Auditable AI-assisted research writing",
+      "zh": "可审计的AI辅助研究写作"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.10858v1"
+    },
+    {
+     "item_id": "8d7787b0a76a8798",
+     "phrase": {
+      "en": "Institutional COVID emails analyzed",
+      "zh": "机构新冠邮件分析"
+     },
+     "section": "papers",
+     "source": "TechComm journals (CrossRef)",
+     "url": "https://doi.org/10.1109/tpc.2026.3712702"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Research writing and institutional messages grapple with AI's role and accountability.",
+    "zh": "研究写作与机构信息在处理AI的角色与责任。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "technical communication practices",
+    "zh": "技术传播实践"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about technical communication: today's studies question how AI fits into writing and crisis messaging.",
+    "zh": "你关注技术传播，今日研究质疑AI如何融入写作与危机传播。"
    }
   }
  ]

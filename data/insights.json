@@ -1,48 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "(\"rooftop beekeeping\" OR \"urban honey harvest\")",
-  "source": {
-   "name": "hokkoku.co.jp",
-   "published_at": "2026-08-13T00:30:00Z",
-   "title": "金沢 ・ 片町のビル屋上で 「 養蜂 」 香林坊交差点近く トチノキやタブノキからハチミツ｜社会｜石川のニュース｜北國新聞",
-   "url": "https://www.hokkoku.co.jp/articles/-/2198116"
-  },
-  "summaries": {
-   "en": {
-    "summary": "A rooftop beekeeping project in Kanazawa's Katamachi district gathers honey from horse chestnut and bay trees near Korinbo intersection.",
-    "why_irrelevant": "A sweet, low-tech detour far from geopolitics, heatwaves, and AI."
-   },
-   "zh": {
-    "summary": "金泽片町的屋顶养蜂项目，在香林坊路口附近从七叶树和樟树上采集蜂蜜。",
-    "why_irrelevant": "远离地缘政治、热浪和人工智能的甜蜜低科技小插曲。"
-   }
-  },
-  "topic": "urban beekeeping on rooftops"
- },
- "brief": "Elections in the UK, heatwaves in Europe, and AI integration headlines dominate today's news, while research highlights AI transparency and clinical RAG systems.",
+ "brief": "Today's news spans politics, climate, sports, and AI, with notable stories on US defense budget disputes, European heatwaves, and a major electric aircraft flight. Research highlights AI in organizations and clinical RAG systems.",
  "meta": {
-  "generated_at": "2026-08-13T13:44:12Z"
+  "generated_at": "2026-08-13T15:13:01Z"
  },
- "news_summary": "UK byelection in Clacton, European heatwaves and solar eclipse, and Microsoft's AI super app plans lead today's coverage, alongside political and geopolitical tensions.",
- "papers_summary": "AI research today focuses on organizational use of ChatGPT, clinical RAG performance, and transparency in AI chatbots, plus visualization tools for charts and qualitative data.",
+ "news_summary": "US defense secretary Hegseth faces backlash for excluding Democrats from budget talks; UK seizes shadow fleet tanker despite Putin threats; Iger and Kushner buy Lakers; Europe endures record heatwave; Australia's BNPL boom wanes; Palestinians ordered out in Qusra; Farage byelection underway; El Niño effects felt globally; Canadian hockey players suspended; Leavitt steps down as press secretary; Zambia votes; NY health insurance crisis; quantum fractal proof; French ambassador investigated; Bryan Johnson's longevity blueprint; NYC outdoor dining resumes year-round.",
+ "papers_summary": "Research covers COVID communication in universities, rhetorical structures in engineering articles, visual aesthetics of data, AI use in organizations via ChatGPT, clinical RAG performance, ESL peer interactions with GenAI, transparency in AI chatbots, and more.",
  "summaries": {
   "en": {
-   "brief": "Elections in the UK, heatwaves in Europe, and AI integration headlines dominate today's news, while research highlights AI transparency and clinical RAG systems.",
-   "news_summary": "UK byelection in Clacton, European heatwaves and solar eclipse, and Microsoft's AI super app plans lead today's coverage, alongside political and geopolitical tensions.",
-   "papers_summary": "AI research today focuses on organizational use of ChatGPT, clinical RAG performance, and transparency in AI chatbots, plus visualization tools for charts and qualitative data."
+   "brief": "Today's news spans politics, climate, sports, and AI, with notable stories on US defense budget disputes, European heatwaves, and a major electric aircraft flight. Research highlights AI in organizations and clinical RAG systems.",
+   "news_summary": "US defense secretary Hegseth faces backlash for excluding Democrats from budget talks; UK seizes shadow fleet tanker despite Putin threats; Iger and Kushner buy Lakers; Europe endures record heatwave; Australia's BNPL boom wanes; Palestinians ordered out in Qusra; Farage byelection underway; El Niño effects felt globally; Canadian hockey players suspended; Leavitt steps down as press secretary; Zambia votes; NY health insurance crisis; quantum fractal proof; French ambassador investigated; Bryan Johnson's longevity blueprint; NYC outdoor dining resumes year-round.",
+   "papers_summary": "Research covers COVID communication in universities, rhetorical structures in engineering articles, visual aesthetics of data, AI use in organizations via ChatGPT, clinical RAG performance, ESL peer interactions with GenAI, transparency in AI chatbots, and more."
   },
   "zh": {
-   "brief": "今日重点：中国前总理朱镕基逝世，引发各方评价；台湾进行城镇韧性演练，模拟战时断网；欧洲出现近30年来最壮观日食；AI在生活和研究中的应用引发更多讨论。",
-   "news_summary": "中国前总理朱镕基逝世，台湾、香港及国际社会对其评价不一；台湾模拟战时断网进行城填韧性演练，应对台海紧张局势；欧洲和英国多地观测到罕见日食，同时欧洲正遭受极端热浪侵袭。",
-   "papers_summary": "今日无优先中文论文，但英文论文关注AI在组织中的应用、临床RAG系统、AI透明性及可视化工具等议题，显示AI研究和应用持续深入。"
+   "brief": "今日焦点涵盖朱镕基逝世引发的两岸三地反响、台湾首次模拟战时断网演练，以及近期中国内陆暴雨灾害；科研方面关注组织AI使用与透明度研究。",
+   "news_summary": "朱镕基逝世引发两岸三地不同评价；台湾举行城镇韧性演练，首度模拟战时断网；中国东部及内陆持续受台风暴雨影响。",
+   "papers_summary": "近期论文探讨组织如何运用ChatGPT等生成式AI，以及AI聊天机器人的意图披露对说服效果的影响。"
   }
  },
  "todays_image": {
-  "caption": "The American Revolution's rebellious spirit finds a quirky echo in Clacton, where a satirical outsider challenges the political establishment.The American Revolution's rebellious spirit finds a quirky echo in Clacton, where a satirical outs",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2014q066524",
-  "source_name": "National Museum of American History",
-  "source_url": null,
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2014q066524&max=150",
-  "title": "A History of the American Revolution"
+  "caption": "Like a German gyro spinning alone, Hegseth's closed-door defense budget talks leave Democrats orbiting outside.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-AD84BE4A8CF12_001-000001",
+  "source_name": "National Air and Space Museum",
+  "source_url": "http://n2t.net/ark:/65665/nv9eb35d945-bc6c-4394-9baf-cced9519394b",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-AD84BE4A8CF12_001-000001",
+  "title": "Gyro, German"
  }
 }
