@@ -1,28 +1,48 @@
 {
- "brief": "Today's news spans politics, climate, sports, and AI, with notable stories on US defense budget disputes, European heatwaves, and a major electric aircraft flight. Research highlights AI in organizations and clinical RAG systems.",
- "meta": {
-  "generated_at": "2026-08-13T15:13:01Z"
+ "apropos_of_nothing": {
+  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
+  "source": {
+   "name": "Boston's ROCK 92.9",
+   "published_at": "2026-08-10T11:40:00Z",
+   "title": "Topsfield Fair Opens Entries for 2026 Competitions, Promotes $20K Pumpkin Prize",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaXFzNnk3RzhuTHUzNUNNaUtwbE1vbzhQd0hpejl1SkdaVkhXbjJoSEZLNlNnZDExOHV0TVhOZEp1Sm10OC0wQUQ5bW9HcHFXSHNyNkdhSTlpdGZJQnBVRlM1UFRlUlhHUUpiWU5XY3NTdGU1T2tCaWZXNVZxcGpKQU9UcDlJXzlrT3dHQko1dGdoOXhqLWluSXZsdzdLY0EwanFjQjZQMzFvZS02Sll3alh3Q1g?oc=5"
+  },
+  "summaries": {
+   "en": {
+    "summary": "The Topsfield Fair has opened entries for 2026 competitions, promoting a $20,000 prize for the largest pumpkin.",
+    "why_irrelevant": "A regional event focused on competitive agriculture."
+   },
+   "zh": {
+    "summary": "托普斯菲尔德博览会已开启2026年竞赛报名，并为最大南瓜设立了两万美元奖金。",
+    "why_irrelevant": "这是一项注重农业竞技的地方性活动。"
+   }
+  },
+  "topic": "competitive pumpkin growing"
  },
- "news_summary": "US defense secretary Hegseth faces backlash for excluding Democrats from budget talks; UK seizes shadow fleet tanker despite Putin threats; Iger and Kushner buy Lakers; Europe endures record heatwave; Australia's BNPL boom wanes; Palestinians ordered out in Qusra; Farage byelection underway; El Niño effects felt globally; Canadian hockey players suspended; Leavitt steps down as press secretary; Zambia votes; NY health insurance crisis; quantum fractal proof; French ambassador investigated; Bryan Johnson's longevity blueprint; NYC outdoor dining resumes year-round.",
- "papers_summary": "Research covers COVID communication in universities, rhetorical structures in engineering articles, visual aesthetics of data, AI use in organizations via ChatGPT, clinical RAG performance, ESL peer interactions with GenAI, transparency in AI chatbots, and more.",
+ "brief": "Google unveils Gemini 3.7 Flash amid AI advancements, while a U.S. carrier grapples with prolonged deployment and a landmark European heatwave intensifies. Research highlights AI's organizational impact and clinical RAG systems.",
+ "meta": {
+  "generated_at": "2026-08-13T17:09:50Z"
+ },
+ "news_summary": "Google's Gemini 3.7 Flash promises improvements, while the USS Abraham Lincoln faces morale and supply issues after 250+ days at sea. Europe battles a record heatwave, and Luigi Mangione's plea deal looms.",
+ "papers_summary": "Studies examine ChatGPT's organizational use, a clinical RAG outperforming frontier models, and transparency's effect on AI persuasion.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans politics, climate, sports, and AI, with notable stories on US defense budget disputes, European heatwaves, and a major electric aircraft flight. Research highlights AI in organizations and clinical RAG systems.",
-   "news_summary": "US defense secretary Hegseth faces backlash for excluding Democrats from budget talks; UK seizes shadow fleet tanker despite Putin threats; Iger and Kushner buy Lakers; Europe endures record heatwave; Australia's BNPL boom wanes; Palestinians ordered out in Qusra; Farage byelection underway; El Niño effects felt globally; Canadian hockey players suspended; Leavitt steps down as press secretary; Zambia votes; NY health insurance crisis; quantum fractal proof; French ambassador investigated; Bryan Johnson's longevity blueprint; NYC outdoor dining resumes year-round.",
-   "papers_summary": "Research covers COVID communication in universities, rhetorical structures in engineering articles, visual aesthetics of data, AI use in organizations via ChatGPT, clinical RAG performance, ESL peer interactions with GenAI, transparency in AI chatbots, and more."
+   "brief": "Google unveils Gemini 3.7 Flash amid AI advancements, while a U.S. carrier grapples with prolonged deployment and a landmark European heatwave intensifies. Research highlights AI's organizational impact and clinical RAG systems.",
+   "news_summary": "Google's Gemini 3.7 Flash promises improvements, while the USS Abraham Lincoln faces morale and supply issues after 250+ days at sea. Europe battles a record heatwave, and Luigi Mangione's plea deal looms.",
+   "papers_summary": "Studies examine ChatGPT's organizational use, a clinical RAG outperforming frontier models, and transparency's effect on AI persuasion."
   },
   "zh": {
-   "brief": "今日焦点涵盖朱镕基逝世引发的两岸三地反响、台湾首次模拟战时断网演练，以及近期中国内陆暴雨灾害；科研方面关注组织AI使用与透明度研究。",
-   "news_summary": "朱镕基逝世引发两岸三地不同评价；台湾举行城镇韧性演练，首度模拟战时断网；中国东部及内陆持续受台风暴雨影响。",
-   "papers_summary": "近期论文探讨组织如何运用ChatGPT等生成式AI，以及AI聊天机器人的意图披露对说服效果的影响。"
+   "brief": "今日新闻聚焦中国台风灾情、朱镕基逝世及台湾断网演习，研究方面则关注AI在组织中的使用与透明度。",
+   "news_summary": "台风白海豚持续影响中国内陆，引发对灾害深入的讨论；朱镕基逝世引发两岸三地不同反响；台湾首度模拟战时断网，测试通讯应变能力。",
+   "papers_summary": "研究探讨了组织如何使用ChatGPT等AI工具，以及AI聊天机器人在披露说服意图后对说服效果的影响。"
   }
  },
  "todays_image": {
-  "caption": "Like a German gyro spinning alone, Hegseth's closed-door defense budget talks leave Democrats orbiting outside.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-AD84BE4A8CF12_001-000001",
+  "caption": "Both the Dauntless and Gemini 3.7 Flash make their mark by diving in fast and striking with precision.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19610109000_AER01",
   "source_name": "National Air and Space Museum",
-  "source_url": "http://n2t.net/ark:/65665/nv9eb35d945-bc6c-4394-9baf-cced9519394b",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-AD84BE4A8CF12_001-000001",
-  "title": "Gyro, German"
+  "source_url": "http://n2t.net/ark:/65665/nv9e4e59693-acd8-4170-be24-c7854642b85b",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19610109000_AER01",
+  "title": "Douglas SBD-6 Dauntless"
  }
 }

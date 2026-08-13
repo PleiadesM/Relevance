@@ -1,37 +1,27 @@
 {
  "meta": {
   "count": 5,
-  "generated_at": "2026-08-13T15:13:01Z",
+  "generated_at": "2026-08-13T17:09:50Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "b1c53262262f87b7",
+     "item_id": "e61c685d42652e29",
      "phrase": {
-      "en": "AI agents misbehave, deterring users",
-      "zh": "智能体行为不端，用户却步"
+      "en": "watermarks trivial to remove",
+      "zh": "水印易去除"
      },
      "section": "news",
      "source": "Hacker News (AI filter)",
-     "url": "https://www.economist.com/business/2026/08/12/ai-agents-lie-cheat-and-steal-that-is-putting-off-users"
-    },
-    {
-     "item_id": "2c82914f0787066b",
-     "phrase": {
-      "en": "Twitch users outraged by AI data use",
-      "zh": "Twitch用户抗议数据用于AI"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cp30pz8d09jo?at_medium=RSS&at_campaign=rss"
+     "url": "https://www.seangoedecke.com/text-ai-watermarks/"
     },
     {
      "item_id": "1c4a07ca0da5534a",
      "phrase": {
-      "en": "Disclosing persuasive intent reduces persuasion",
-      "zh": "披露说服意图降低说服力"
+      "en": "disclosing intent reduces persuasion",
+      "zh": "披露意图减少说服"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
@@ -40,176 +30,243 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "From lying agents to hidden training data, AI's trust problem surfaces everywhere.",
-    "zh": "从撒谎的智能体到隐藏的训练数据，AI的信任问题处处显现。"
+    "en": "When AI speaks, we ask: who is really talking, and to what end?",
+    "zh": "当AI说话时，我们问：谁在真正说话，目的何在？"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI trust & transparency",
-    "zh": "AI信任与透明"
+    "en": "AI transparency",
+    "zh": "AI透明"
    },
-   "relates_to": [
-    "t2"
-   ],
+   "relates_to": [],
    "why_now": {
-    "en": "You care about human-AI interaction and communication: today multiple sources confront AI's opaque, sometimes deceptive behavior.",
-    "zh": "你关心人机交互与传播，今日多家来源直面AI的不透明乃至欺骗行为。"
+    "en": "You study HCI and visual rhetoric; today's papers and news both probe AI's persuasive power and the fight over watermarks.",
+    "zh": "你研究人机交互与视觉修辞；今日的论文和新闻都在探讨AI的说服力与水印之争。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "acbfbfd4b1348041",
+     "full_text_file": "articles/news/26236fb9308d6d52.json",
+     "item_id": "26236fb9308d6d52",
      "phrase": {
-      "en": "Specialized RAG beats frontier LLMs in clinical",
-      "zh": "专用RAG在临床上胜过前沿LLM"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.12138v1"
-    },
-    {
-     "item_id": "f5ff5caf880b6bee",
-     "phrase": {
-      "en": "One prompt, 11 models, varied results",
-      "zh": "同一提示，11个模型结果迥异"
+      "en": "Flock tightens rules",
+      "zh": "Flock收紧规则"
      },
      "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results/"
+     "source": "MIT Technology Review · AI",
+     "url": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/"
+    },
+    {
+     "item_id": "fc65dda4021174f3",
+     "phrase": {
+      "en": "US spied on left groups",
+      "zh": "美国监控左翼团体"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/13/us/politics/dhs-inquiry-immigration-protests-minnesota.html"
+    },
+    {
+     "item_id": "d0d0137bdd7565a4",
+     "phrase": {
+      "en": "staffer posed as activist",
+      "zh": "员工扮活动人士"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/australia-news/2026/aug/14/one-nation-staffer-accused-of-posing-as-leftwing-content-creator-in-undercover-videos-ntwnfb"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Benchmarks clash with real-world use; models diverge and overpromise.",
-    "zh": "基准测试与现实应用冲突，模型结果不一且过度承诺。"
+    "en": "Watching the watchers: from license plates to undercover agents, the gaze turns inward.",
+    "zh": "监视监视者：从车牌到卧底，目光转向内部。"
    },
    "id": "t2",
    "keyword": {
-    "en": "LLM evaluation & limitations",
-    "zh": "LLM评估与局限"
+    "en": "surveillance and civil liberties",
+    "zh": "监控与公民自由"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow LLMs closely: today's evidence shows specialized vs. general models and prompt variability, key for your work.",
-    "zh": "你密切关注LLM，今日证据显示专用与通用模型之别及提示变异性，关乎你的工作。"
+    "en": "You care about data privacy and visual rhetoric; new reports on police tech and political infiltration show surveillance is a live wire.",
+    "zh": "你在乎数据隐私与视觉修辞；关于警察技术与政治渗透的新报道表明监控是一条带电的线。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "42b88f0d867c8e8a",
+     "item_id": "d35b667300af3e6b",
      "phrase": {
-      "en": "AI 3D models flood market, few buy",
-      "zh": "AI 3D模型泛滥，买家寥寥"
+      "en": "Tokyo protests visit",
+      "zh": "东京抗议访问"
      },
      "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://www.404media.co/ai-generated-3d-models-flood-market-but-almost-no-one-is-buying-them/"
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/13/g-s1-138631/vladimir-putins-first-visit-to-disputed-pacific-islands-draws-tokyo-protest"
     },
     {
-     "item_id": "65fe368bd5e3a4cd",
+     "item_id": "a1f6d337ae40e8c0",
      "phrase": {
-      "en": "ESL learners collaborate via AI slides",
-      "zh": "ESL学习者通过AI幻灯片协作"
+      "en": "Putin angers Tokyo",
+      "zh": "普京激怒东京"
      },
-     "section": "papers",
-     "source": "TechComm journals (CrossRef)",
-     "url": "https://doi.org/10.1177/07410883261461544"
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/13/world/asia/putin-visit-islands-japan-russia.html"
+    },
+    {
+     "item_id": "42ce85f696632fcf",
+     "phrase": {
+      "en": "mobile internet throttled",
+      "zh": "移动互联网限速"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/13/g-s1-138581/taiwan-briefly-slows-its-mobile-internet-to-text-only-speed-as-part-of-defense-drill"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "AI churns out 3D models and slides, but buyers and learners hesitate.",
-    "zh": "AI批量生成3D模型和幻灯片，但买家和学习者却犹豫不决。"
+    "en": "From Pacific islands to Taiwan strait, old disputes reignite under new pressures.",
+    "zh": "从太平洋岛屿到台湾海峡，旧争端在新压力下复燃。"
    },
    "id": "t3",
    "keyword": {
-    "en": "AI-generated content adoption",
-    "zh": "AI生成内容的应用"
+    "en": "geopolitical flashpoints",
+    "zh": "地缘政治热点"
    },
    "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-13",
+     "item_id": "d35b667300af3e6b",
+     "label": {
+      "en": "Putin visits disputed isles",
+      "zh": "普京访问争议岛屿"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/13/g-s1-138631/vladimir-putins-first-visit-to-disputed-pacific-islands-draws-tokyo-protest"
+    },
+    {
+     "date": "2026-08-13",
+     "item_id": "42ce85f696632fcf",
+     "label": {
+      "en": "Taiwan defense drill",
+      "zh": "台湾防御演习"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/13/g-s1-138581/taiwan-briefly-slows-its-mobile-internet-to-text-only-speed-as-part-of-defense-drill"
+    }
+   ],
    "why_now": {
-    "en": "You study human-computer interaction and visual communication: today's stories show the gap between AI output and real adoption.",
-    "zh": "你研究人机交互与视觉传播，今日新闻展示AI产出与实际采用之间的鸿沟。"
+    "en": "You read global news daily; Putin's island visit and Taiwan's drill both signal escalation you should track.",
+    "zh": "你每日阅读全球新闻；普京登岛与台湾演习都显示局势升级，值得你跟踪。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "73d520d9948f44eb",
+     "item_id": "dda4deb4f596a913",
      "phrase": {
-      "en": "Wearable glove adds haptics in XR",
-      "zh": "可穿戴手套为XR增加触觉"
+      "en": "reports of shortages",
+      "zh": "短缺报道"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cyvl2d5j52lo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "52549ae1a142987e",
+     "phrase": {
+      "en": "conditions misrepresented",
+      "zh": "状况被歪曲"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/live/2026/aug/13/karoline-leavitt-white-house-primaries-trump-politics-latest-updates"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "A long deployment wears thin: ships, sailors, and the politics of their condition.",
+    "zh": "长期部署消磨一切：舰船、水手及其处境的政治。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "military deployment strain",
+    "zh": "军事部署压力"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-13",
+     "item_id": "dda4deb4f596a913",
+     "label": {
+      "en": "carrier conditions alarm",
+      "zh": "航母状况引警报"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cyvl2d5j52lo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "date": "2026-08-13",
+     "item_id": "52549ae1a142987e",
+     "label": {
+      "en": "Hegseth downplays",
+      "zh": "赫格塞斯淡化"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/live/2026/aug/13/karoline-leavitt-white-house-primaries-trump-politics-latest-updates"
+    }
+   ],
+   "why_now": {
+    "en": "You follow human factors and systems; the carrier's 250-day ordeal is a case study in endurance and miscommunication.",
+    "zh": "你关注人为因素与系统；航母250天的磨难是忍耐与误沟通的案例研究。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "8cd31d3c5963198f",
+     "phrase": {
+      "en": "Eclipse plugin for comprehension",
+      "zh": "Eclipse理解插件"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.10290v1"
+    },
+    {
+     "item_id": "4afc5c6af524bbfd",
+     "phrase": {
+      "en": "organizations use ChatGPT",
+      "zh": "组织使用ChatGPT"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.10368v1"
-    },
-    {
-     "item_id": "174daaf65227f18c",
-     "phrase": {
-      "en": "Brain-computer interface ethics in mental health",
-      "zh": "脑机接口在心理保健中的伦理"
-     },
-     "section": "papers",
-     "source": "OpenAlex · information visualization",
-     "url": "https://doi.org/10.3389/fnhum.2026.1846283"
+     "url": "https://arxiv.org/abs/2608.12236v1"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Touch and body awareness enter digital experience, from gloves to brain interfaces.",
-    "zh": "触觉与身体意识进入数字体验，从手套到脑机接口。"
-   },
-   "id": "t4",
-   "keyword": {
-    "en": "embodied cognition & XR interfaces",
-    "zh": "具身认知与XR界面"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You're interested in embodied AI and embodied cognition: today's papers push physical sensing into HCI and ethics.",
-    "zh": "你对具身AI和具身认知感兴趣，今日论文将物理感知推进到人机交互与伦理。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "e7e28f23358317eb",
-     "phrase": {
-      "en": "Auditable AI-assisted research writing",
-      "zh": "可审计的AI辅助研究写作"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.10858v1"
-    },
-    {
-     "item_id": "8d7787b0a76a8798",
-     "phrase": {
-      "en": "Institutional COVID emails analyzed",
-      "zh": "机构新冠邮件分析"
-     },
-     "section": "papers",
-     "source": "TechComm journals (CrossRef)",
-     "url": "https://doi.org/10.1109/tpc.2026.3712702"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Research writing and institutional messages grapple with AI's role and accountability.",
-    "zh": "研究写作与机构信息在处理AI的角色与责任。"
+    "en": "Coding with a co-pilot: new plugins and data show how AI reshapes the craft.",
+    "zh": "与副驾驶一起编码：新插件与数据展示AI如何重塑这门手艺。"
    },
    "id": "t5",
    "keyword": {
-    "en": "technical communication practices",
-    "zh": "技术传播实践"
+    "en": "AI code tools",
+    "zh": "AI代码工具"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about technical communication: today's studies question how AI fits into writing and crisis messaging.",
-    "zh": "你关注技术传播，今日研究质疑AI如何融入写作与危机传播。"
+    "en": "You build and study interfaces; Comprendia's plugin and ChatGPT's usage data reveal the practical AI coding landscape today.",
+    "zh": "你构建与研究界面；Comprendia插件与ChatGPT使用数据揭示了当今实际AI编码生态。"
    }
   }
  ]
