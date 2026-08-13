@@ -1,5 +1,5 @@
 {
- "full_text": "AI companies' penchant for scraping through large swathes of the public web in search of valuable training data has already led to lawsuits and technical fixes aimed at stopping the practice. Now, a pair of designers are hoping to stymie these scrapers with a new font designed to offer people a perfectly readable webpage while serving scrapers a subtly edited, nonsensical version in the underlying HTML.\n\nShieldFont, as designers Isaque Seneda and Gabriel Abrucio write in a recent white paper , was made to offer web publishers \"a practical opt-out from unauthorized AI training and [to] disrupt what is collected when that choice is ignored.\"\n\nWhen is a horse a potato?\n\nThe font is based around ligatures , a long-standing feature of many fonts that is usually used to replace certain letter pairs with a more readable version when they're smushed up next to each other. With ShieldFont, though, those ligatures are instead used to replace entire words with others in an attempt to destroy the text's value to scrapers. This substitution only happens when the font engine draws the page on screen, meaning scrapers that simply download plaintext source code get an altered version that end users never see.\n\nRead full article\n\nComments",
+ "full_text": "AI companies' penchant for scraping through large swaths of the public web in search of valuable training data has already led to lawsuits and technical fixes aimed at stopping the practice. Now, a pair of designers is hoping to stymie these scrapers with a new font designed to offer people a perfectly readable webpage while serving scrapers a subtly edited, nonsensical version in the underlying HTML.\n\nShieldFont, as designers Isaque Seneda and Gabriel Abrucio write in a recent white paper , was made to offer web publishers \"a practical opt-out from unauthorized AI training and [to] disrupt what is collected when that choice is ignored.\"\n\nWhen is a horse a potato?\n\nThe font is based around ligatures , a long-standing feature of many fonts that is usually used to replace certain letter pairs with a more readable version when they're smushed up next to each other. With ShieldFont, though, those ligatures are instead used to replace entire words with others in an attempt to destroy the text's value to scrapers. This substitution only happens when the font engine draws the page onscreen, meaning scrapers that simply download plaintext source code get an altered version that end users never see.\n\nRead full article\n\nComments",
  "item": {
   "category": "open",
   "extra": {},
@@ -18,8 +18,8 @@
   "url": "https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers/"
  },
  "meta": {
-  "content_hash": "6f4124c17d8ee003",
-  "generated_at": "2026-08-12T22:59:05Z",
+  "content_hash": "4ecfd3e63f3f05ff",
+  "generated_at": "2026-08-13T13:44:12Z",
   "item_id": "98d1fca11c68c07e",
   "section": "news",
   "source": "Ars Technica · AI",

@@ -1,130 +1,141 @@
 {
  "meta": {
   "count": 4,
-  "generated_at": "2026-08-13T11:09:45Z",
+  "generated_at": "2026-08-13T13:44:12Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "item_id": "f5ff5caf880b6bee",
+     "phrase": {
+      "en": "Eleven models, varied results",
+      "zh": "十一个模型，结果各异"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results/"
+    },
+    {
      "item_id": "2c82914f0787066b",
      "phrase": {
-      "en": "outrage over default opt-in",
-      "zh": "默认同意引发愤怒"
+      "en": "Twitch users outraged over AI training",
+      "zh": "Twitch用户对AI训练愤怒"
      },
      "section": "news",
      "source": "BBC World",
      "url": "https://www.bbc.co.uk/news/articles/cp30pz8d09jo?at_medium=RSS&at_campaign=rss"
     },
     {
-     "full_text_file": "articles/news/b0283593eb915823.json",
-     "item_id": "b0283593eb915823",
+     "full_text_file": "articles/news/05c1c486aa0edded.json",
+     "item_id": "05c1c486aa0edded",
      "phrase": {
-      "en": "children's mixed views on AI",
-      "zh": "儿童对AI看法复杂"
+      "en": "Microsoft merges Copilot apps",
+      "zh": "微软合并Copilot应用"
      },
      "section": "news",
-     "source": "MIT Technology Review · AI",
-     "url": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/"
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/tech/979466/microsoft-copilot-365-app-unified-experience"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Platforms ride user data into AI, users want a say.",
-    "zh": "平台用用户数据训练AI，用户希望有发言权。"
+    "en": "Different AI models give wildly different answers to the same prompt, and users are pushing back.",
+    "zh": "不同AI模型对同一提示给出迥异的答案，用户开始反击。"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI data training ethics",
-    "zh": "AI训练数据伦理"
+    "en": "AI model choices",
+    "zh": "AI模型选择"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You study HCI and AI: Twitch's opt-out AI training is a live case of consent in practice.",
-    "zh": "你研究人机交互与AI：Twitch的默认训练是同意机制的现实案例。"
+    "en": "You follow AI and tech communication: today's reports show model variability and user outrage over data use, a critical moment.",
+    "zh": "你关注AI与技术传播：今日报道显示模型差异与用户对数据使用的愤怒，这是关键时刻。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "73d520d9948f44eb",
+     "item_id": "233b3c322c06cef9",
      "phrase": {
-      "en": "haptic glove for XR grounding",
-      "zh": "XR触觉手套"
+      "en": "Europe's fifth heatwave",
+      "zh": "欧洲第五次热浪"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.10368v1"
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/13/weather/europe-heat-wave-extreme-heat-warning.html"
     },
     {
-     "item_id": "8cd31d3c5963198f",
+     "item_id": "53a0db967ed0653b",
      "phrase": {
-      "en": "LLM code explanation plugin",
-      "zh": "LLM代码解释插件"
+      "en": "Extreme heat warnings expand",
+      "zh": "极端高温警告扩大"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.10290v1"
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/environment/live/2026/aug/13/europe-heatwave-france-spain-italy-uk-degrees-temperature-record-summer-drought-latest-news-updates"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Virtual worlds reach for the sense of touch.",
-    "zh": "虚拟世界延伸至触觉。"
+    "en": "Europe is baking again, and the heat exposes deeper vulnerabilities.",
+    "zh": "欧洲再次炙烤，高温暴露更深层的脆弱。"
    },
    "id": "t2",
    "keyword": {
-    "en": "XR embodied interaction",
-    "zh": "XR具身交互"
+    "en": "climate stress",
+    "zh": "气候压力"
    },
    "relates_to": [],
    "why_now": {
-    "en": "Your embodied AI interest meets XR: a new glove grounds perception in haptics.",
-    "zh": "你的具身AI兴趣遇上XR：新手套以触觉锚定感知。"
+    "en": "You care about critical visualization and human factors: extreme heat is a data story you might visualize or communicate.",
+    "zh": "你关注批判性可视化与人为因素：极端高温是可视觉化或传播的数据故事。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "acbfbfd4b1348041",
+     "item_id": "a1f6d337ae40e8c0",
      "phrase": {
-      "en": "RAG matches frontier LLMs",
-      "zh": "RAG媲美前沿LLM"
+      "en": "Putin visits disputed islands",
+      "zh": "普京视察争议岛屿"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.12138v1"
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/13/world/asia/putin-visit-islands-japan-russia.html"
     },
     {
-     "item_id": "caa08843d1f93919",
+     "item_id": "42ce85f696632fcf",
      "phrase": {
-      "en": "explainable deep learning diagnosis",
-      "zh": "可解释深度学习诊断"
+      "en": "Taiwan drills slow internet",
+      "zh": "台湾演习降速网络"
      },
-     "section": "papers",
-     "source": "OpenAlex · information visualization",
-     "url": "https://doi.org/10.1038/s41598-026-54871-9"
-    }
-   ],
-   "convergence": "divergent",
-   "gloss": {
-    "en": "Clinical AI must show its work or risk distrust.",
-    "zh": "临床AI必须展示推理否则失去信任。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "explainable medical AI",
-    "zh": "可解释医疗AI"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You track AI in critical settings: clinical RAG and explainable concussion prediction redefine trust in healthcare.",
-    "zh": "你追踪关键领域AI：临床RAG与可解释脑震荡预测重塑医疗信任。"
-   }
-  },
-  {
-   "angles": [
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/13/g-s1-138581/taiwan-briefly-slows-its-mobile-internet-to-text-only-speed-as-part-of-defense-drill"
+    },
+    {
+     "item_id": "6ff1bbc8cc272735",
+     "phrase": {
+      "en": "Japan condemns island visit",
+      "zh": "日本谴责岛屿访问"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/13/japan-condemns-vladimir-putin-visit-kuril-islands"
+    },
+    {
+     "item_id": "9d93a42920c110b6",
+     "phrase": {
+      "en": "Blockade threatens grain supplies",
+      "zh": "封锁威胁粮食供应"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/13/world/europe/russia-ukraine-ports-odesa-cargo-ship-attacks.html"
+    },
     {
      "item_id": "f6d3365435786ecf",
      "phrase": {
@@ -134,32 +145,71 @@
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/world/2026/aug/13/south-korea-incheon-airport-iran-war-middle-east"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Tensions flare over islands, ports, and airspace, redrawing global routes.",
+    "zh": "岛屿、港口和领空紧张局势加剧，重绘全球路线。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "geopolitical flashpoints",
+    "zh": "地缘政治热点"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow global affairs and data: these flashpoints affect data routes and you might analyze their impact.",
+    "zh": "你关注全球事务与数据：这些热点影响数据路线，你可以分析其影响。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "d3a4b0616a72f822",
+     "phrase": {
+      "en": "Democratic Socialists gaining votes",
+      "zh": "民主党社会主义者获票增加"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/13/magazine/democratic-socialism-dsa-elections-primaries.html"
     },
     {
-     "item_id": "648f27248604ee92",
+     "item_id": "632bcc015171f3b3",
      "phrase": {
-      "en": "military families in limbo",
-      "zh": "军人家庭悬而未决"
+      "en": "Mixed signals from primary voters",
+      "zh": "初选选民信号混杂"
      },
      "section": "news",
      "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/13/nx-s1-5929463/evacuation-bahrain-troops-iran-war"
+     "url": "https://www.npr.org/2026/08/13/nx-s1-5929473/primary-voters-send-mixed-signals-about-what-they-want-from-the-democratic-party"
+    },
+    {
+     "item_id": "df77f5f7996d4af9",
+     "phrase": {
+      "en": "Swing voters open to socialism",
+      "zh": "摇摆选民接受社会主义"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/13/nx-s1-5929406/nevada-economy-socialism-focus-groups"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "War reroutes planes and airports away from old hubs.",
-    "zh": "战争令飞机与机场绕开旧枢纽。"
+    "en": "Voters are sending mixed signals, and the left's appeal shows limits.",
+    "zh": "选民发出复杂信号，左翼吸引力显现局限。"
    },
    "id": "t4",
    "keyword": {
-    "en": "geopolitical flight disruption",
-    "zh": "地缘政治航线中断"
+    "en": "political shifts",
+    "zh": "政治转向"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You read news for context: Iran war is redrawing global air traffic via Incheon.",
-    "zh": "你读新闻获背景：伊朗战争正通过仁川重绘全球航线。"
+    "en": "You care about visual rhetoric and communication: political shifts are a canvas for understanding public narratives.",
+    "zh": "你关注视觉修辞与传播：政治转向是理解公共叙事的画布。"
    }
   }
  ]

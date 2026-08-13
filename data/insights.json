@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
+  "query": "(\"rooftop beekeeping\" OR \"urban honey harvest\")",
   "source": {
-   "name": "thatslife.com.au",
-   "published_at": "2026-08-04T07:00:00Z",
-   "title": "Oh my gourd! Meet the Aussie bloke who paddled in a giant pumpkin",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pc3kyb0xrM2RkQ2FNOGpla3JFd1RpY0ZDcWdxejdGbThsZ2sxNVM3ZEZLRmRKR3RaZkxMMGZzZUJfdDBjT0VfV0QyRUdUdUxBWVNFcnBJOThvWWNRWDcwdmVSMUZ2dm1VaDZfa1Bra2o4MlpPQjkwNU01TTRQMXM?oc=5"
+   "name": "hokkoku.co.jp",
+   "published_at": "2026-08-13T00:30:00Z",
+   "title": "金沢 ・ 片町のビル屋上で 「 養蜂 」 香林坊交差点近く トチノキやタブノキからハチミツ｜社会｜石川のニュース｜北國新聞",
+   "url": "https://www.hokkoku.co.jp/articles/-/2198116"
   },
   "summaries": {
    "en": {
-    "summary": "An Australian man paddled a giant pumpkin across a lake, a quirky feat of adventurous horticulture.",
-    "why_irrelevant": "This is a lighthearted stunt, far from tech news or daily finance feeds."
+    "summary": "A rooftop beekeeping project in Kanazawa's Katamachi district gathers honey from horse chestnut and bay trees near Korinbo intersection.",
+    "why_irrelevant": "A sweet, low-tech detour far from geopolitics, heatwaves, and AI."
    },
    "zh": {
-    "summary": "一名澳大利亚男子划着巨型南瓜穿越湖泊，展现了奇特的园艺冒险。",
-    "why_irrelevant": "这是一则轻松趣闻，远离科技或日常财经内容。"
+    "summary": "金泽片町的屋顶养蜂项目，在香林坊路口附近从七叶树和樟树上采集蜂蜜。",
+    "why_irrelevant": "远离地缘政治、热浪和人工智能的甜蜜低科技小插曲。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "urban beekeeping on rooftops"
  },
- "brief": "Today's news spans geopolitical tensions from Putin's island visit to Japan, UK actions on shadow fleet, and global events like the solar eclipse and heatwave, while research focuses on AI in organizations, clinical RAG systems, and visualization tools.",
+ "brief": "Elections in the UK, heatwaves in Europe, and AI integration headlines dominate today's news, while research highlights AI transparency and clinical RAG systems.",
  "meta": {
-  "generated_at": "2026-08-13T11:09:45Z"
+  "generated_at": "2026-08-13T13:44:12Z"
  },
- "news_summary": "Key stories include Putin's visit to disputed Kuril islands angering Japan, UK defending seizure of shadow fleet tanker, Zambia's elections, and a total solar eclipse. Also notable: Trump's decoy plane, Kansas concerns, and AI training data controversies.",
- "papers_summary": "Papers examine organizational use of ChatGPT, clinical RAG performance, transparency in AI chatbots, and novel visualization construction/editing interfaces, along with other technical advances.",
+ "news_summary": "UK byelection in Clacton, European heatwaves and solar eclipse, and Microsoft's AI super app plans lead today's coverage, alongside political and geopolitical tensions.",
+ "papers_summary": "AI research today focuses on organizational use of ChatGPT, clinical RAG performance, and transparency in AI chatbots, plus visualization tools for charts and qualitative data.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans geopolitical tensions from Putin's island visit to Japan, UK actions on shadow fleet, and global events like the solar eclipse and heatwave, while research focuses on AI in organizations, clinical RAG systems, and visualization tools.",
-   "news_summary": "Key stories include Putin's visit to disputed Kuril islands angering Japan, UK defending seizure of shadow fleet tanker, Zambia's elections, and a total solar eclipse. Also notable: Trump's decoy plane, Kansas concerns, and AI training data controversies.",
-   "papers_summary": "Papers examine organizational use of ChatGPT, clinical RAG performance, transparency in AI chatbots, and novel visualization construction/editing interfaces, along with other technical advances."
+   "brief": "Elections in the UK, heatwaves in Europe, and AI integration headlines dominate today's news, while research highlights AI transparency and clinical RAG systems.",
+   "news_summary": "UK byelection in Clacton, European heatwaves and solar eclipse, and Microsoft's AI super app plans lead today's coverage, alongside political and geopolitical tensions.",
+   "papers_summary": "AI research today focuses on organizational use of ChatGPT, clinical RAG performance, and transparency in AI chatbots, plus visualization tools for charts and qualitative data."
   },
   "zh": {
-   "brief": "今日焦点为中国前总理朱镕基逝世，各地反应不一；台湾举行战时断网演练；欧洲出现近30年最壮观日食。研究方面，AI在组织中的实际应用与透明性成为热点。",
-   "news_summary": "朱镕基逝世引发台港不同评价；台湾首度模拟战时断网，测试通讯设施应变；欧洲多地观测到罕见日食。",
-   "papers_summary": "AI研究关注组织实际应用与聊天机器人透明度，临床RAG系统性能可比肩前沿LLM。"
+   "brief": "今日重点：中国前总理朱镕基逝世，引发各方评价；台湾进行城镇韧性演练，模拟战时断网；欧洲出现近30年来最壮观日食；AI在生活和研究中的应用引发更多讨论。",
+   "news_summary": "中国前总理朱镕基逝世，台湾、香港及国际社会对其评价不一；台湾模拟战时断网进行城填韧性演练，应对台海紧张局势；欧洲和英国多地观测到罕见日食，同时欧洲正遭受极端热浪侵袭。",
+   "papers_summary": "今日无优先中文论文，但英文论文关注AI在组织中的应用、临床RAG系统、AI透明性及可视化工具等议题，显示AI研究和应用持续深入。"
   }
  },
  "todays_image": {
-  "caption": "The eclipse's shadow reveals the sun's hidden corona, just as the UK's bold seizure strips the shadow fleet of its dark cover to expose Putin's threat.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=SIA-MAH-4691&max=1024",
-  "source_name": "Smithsonian Institution Archives",
-  "source_url": "https://siarchives.si.edu/collections/siris_arc_391446",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SIA-MAH-4691&max=150",
-  "title": "Corona of the Sun During Solar Eclipse"
+  "caption": "The American Revolution's rebellious spirit finds a quirky echo in Clacton, where a satirical outsider challenges the political establishment.The American Revolution's rebellious spirit finds a quirky echo in Clacton, where a satirical outs",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2014q066524",
+  "source_name": "National Museum of American History",
+  "source_url": null,
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2014q066524&max=150",
+  "title": "A History of the American Revolution"
  }
 }
