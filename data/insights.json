@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "sheep shearing competition OR golden shears",
+  "query": "world sheep shearing championship OR shearing competition record",
   "source": {
-   "name": "NZ Herald",
-   "published_at": "2026-07-26T07:00:00Z",
-   "title": "Wales pip Kiwis by 0.9 points to clinch shearing series",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVHdycVQ3S2dfQVFyb0wwRFVmY3VJR1V0SFAwYlhDZERETVVCTGNXajF4Ymp3WDFJZkt4NW1vUkxYTVp1Nm5zQjd0Tlg3ZFNKMWdvbU1SZFBwaHBFVFcwOEJpWWdtMWdBMWVuQlZjeEwtbXpxMnMxNFNjMExNT0pVZnRuOUNvQkpQT2VfVW1yT2N5ZDI0cUotV3pBcjF6X3NiUmowaUl1NW5NOGRrYnpVUEhMTWs3b3hpQ0x1bzlQWWhyOUNaNlRELUdrNmFSS0x4cXplWkhfcw?oc=5"
+   "name": "Agriland",
+   "published_at": "2026-08-09T14:00:00Z",
+   "title": "Listen: Sheaf throwing, shearing and sheepdog trials at Clonmany Show",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZHFwSnNyalp1LUtGZFpHX2pDZThoYzFPYTFYUFFYTlRvb2c5UHA2N0JQUGJmRVJhb2h4UmRxQm9rUjBMMjFvZ1g5SFdYbW15MjVEbERuODlhVWpMb21Db1dSVHlGMy1heldPc1V4R2RxNjk5M1FWelpXRFBmOXlLX3AxeGdEeXJEZEVwQ0tNUmJ1R0FvSDJvVHFmLVY4MjVnbHNKaVYteGI?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "Wales edged out New Zealand by 0.9 points to win the shearing series.",
-    "why_irrelevant": "A niche sports result unrelated to mainstream interests."
+    "summary": "A rural Irish show features sheaf throwing, sheep shearing, and sheepdog trials, celebrating traditional farm skills.",
+    "why_irrelevant": "It's a niche rural event, far from typical tech and geopolitical topics."
    },
    "zh": {
-    "summary": "威尔士以0.9分的微弱优势赢得剪羊毛系列赛。",
-    "why_irrelevant": "小众赛事结果，与主流话题无关。"
+    "summary": "爱尔兰乡村展会展示捆抛、剪羊毛和牧羊犬比赛，颂扬传统农艺。",
+    "why_irrelevant": "这是小众乡村活动，远离常见科技与地缘政治话题。"
    }
   },
   "topic": "competitive sheep shearing championships"
  },
- "brief": "Today's news spans from political scandals and economic slowdowns to a historic solar eclipse and AI controversies, while research focuses on AI transparency, data visualization, and organizational use of generative AI.",
+ "brief": "Europe faces a severe heatwave with health warnings, while global stories cover political shifts, AI ethics, and geopolitical tensions. Research highlights AI's organizational impact and visualization design.",
  "meta": {
-  "generated_at": "2026-08-13T07:50:24Z"
+  "generated_at": "2026-08-13T09:31:55Z"
  },
- "news_summary": "Key stories include the solar eclipse across Europe, AI backlash on Twitch, political controversies in Australia and the UK, and economic concerns amid Iran tensions.",
- "papers_summary": "Research covers AI transparency, organizational use of ChatGPT, clinical RAG systems, and visualization tools, reflecting a focus on applied AI and communication.",
+ "news_summary": "Heatwave hits Europe, causing health alerts; US politics heats up with primary results and socialist voter appeal; tech mogul Bryan Johnson's longevity quest sparks debate; global tensions include Russian blockade and West Bank settler incidents; AI concerns rise as Amazon trains models on Twitch content.",
+ "papers_summary": "Studies explore AI's role in organizations and medicine, the persuasive power of disclosure, and the aesthetics of data visualization, offering insights into technology's evolving impact.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans from political scandals and economic slowdowns to a historic solar eclipse and AI controversies, while research focuses on AI transparency, data visualization, and organizational use of generative AI.",
-   "news_summary": "Key stories include the solar eclipse across Europe, AI backlash on Twitch, political controversies in Australia and the UK, and economic concerns amid Iran tensions.",
-   "papers_summary": "Research covers AI transparency, organizational use of ChatGPT, clinical RAG systems, and visualization tools, reflecting a focus on applied AI and communication."
+   "brief": "Europe faces a severe heatwave with health warnings, while global stories cover political shifts, AI ethics, and geopolitical tensions. Research highlights AI's organizational impact and visualization design.",
+   "news_summary": "Heatwave hits Europe, causing health alerts; US politics heats up with primary results and socialist voter appeal; tech mogul Bryan Johnson's longevity quest sparks debate; global tensions include Russian blockade and West Bank settler incidents; AI concerns rise as Amazon trains models on Twitch content.",
+   "papers_summary": "Studies explore AI's role in organizations and medicine, the persuasive power of disclosure, and the aesthetics of data visualization, offering insights into technology's evolving impact."
   },
   "zh": {
-   "brief": "今日焦点包括欧洲日全食壮观景象、台湾首次模拟战时断网演练、以及朱镕基逝世引发的对中国经济改革的回顾。AI代理引发安全担忧，同时多项研究探讨AI透明度与视觉数据设计。",
-   "news_summary": "欧洲迎来近30年最壮观日食，西班牙部分地区可见日全食。台湾演练战时应变，朱镕基逝世引发关注。AI代理擅自订课、大学误判AI论文等事件凸显AI伦理问题。",
-   "papers_summary": "研究显示AI使用透明度可减少说服效果，临床RAG系统在医疗基准上表现优异。视觉数据设计论文探讨文化与审美弹性，组织AI应用研究通过ChatGPT使用记录分析工作场景。"
+   "brief": "今日聚焦台灣首次模擬戰時斷網演練及英國近30年最壯觀日食；前中國總理朱鎔基逝世，享年97歲。",
+   "news_summary": "台灣舉行城鎮韌性演練，首度模擬戰時斷網恐影響通訊；英國及西班牙出現罕見日食景象。前中國總理朱鎔基逝世，享耆壽97歲，各界回顧其改革遺產。",
+   "papers_summary": "研究探討機構如何利用ChatGPT等生成式AI，以及AI聊天機器人揭露說服意圖對用戶的影響。"
   }
  },
  "todays_image": {
-  "caption": "The sun's corona only appears when the eclipse dims the center, just as sports betting's true pull becomes visible when the spotlight shifts from politics.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=SIA-MAH-4691&max=1024",
-  "source_name": "Smithsonian Institution Archives",
-  "source_url": "https://siarchives.si.edu/collections/siris_arc_391446",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SIA-MAH-4691&max=150",
-  "title": "Corona of the Sun During Solar Eclipse"
+  "caption": "A lighthouse blueprint reminds us that even when the digital “signal” goes dark, resilient communities still need old-school beacons of guidance to navigate through crisis.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-CH1078",
+  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/30588",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-CH1078",
+  "title": "Design for a Lighthouse"
  }
 }

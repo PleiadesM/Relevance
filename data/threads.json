@@ -1,71 +1,86 @@
 {
  "meta": {
   "count": 4,
-  "generated_at": "2026-08-13T07:50:24Z",
+  "generated_at": "2026-08-13T09:31:55Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "item_id": "1c4a07ca0da5534a",
+     "phrase": {
+      "en": "Disclosure reduces persuasion",
+      "zh": "披露减少说服效应"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.11794v1"
+    },
+    {
      "item_id": "2c82914f0787066b",
      "phrase": {
-      "en": "frames as privacy violation",
-      "zh": "视为隐私侵犯"
+      "en": "Twitch users revolt over data use",
+      "zh": "Twitch用户反对数据使用"
      },
      "section": "news",
      "source": "BBC World",
      "url": "https://www.bbc.co.uk/news/articles/cp30pz8d09jo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "4afc5c6af524bbfd",
-     "phrase": {
-      "en": "frames as organizational adoption",
-      "zh": "视为组织采纳"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.12236v1"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Your streams and messages feed the machines—consent is the new battleground.",
-    "zh": "你的流媒体和消息喂养机器，同意成为新战场。"
+    "en": "The push to see inside machine minds grows louder.",
+    "zh": "要求看清机器内心的呼声渐高。"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI data use",
-    "zh": "AI数据使用"
+    "en": "AI transparency",
+    "zh": "AI透明度"
    },
    "relates_to": [],
-   "timeline": [
+   "why_now": {
+    "en": "You care about HCI and tech comm: new disclosure studies and platform backlashes are reshaping AI's social contract.",
+    "zh": "你关注人机交互和技术传播，新披露研究和平台反弹正在重塑AI的社会契约。"
+   }
+  },
+  {
+   "angles": [
     {
-     "date": "2026-08-12",
-     "item_id": "4afc5c6af524bbfd",
-     "label": {
-      "en": "study on AI use",
-      "zh": "AI使用研究"
+     "item_id": "afea3052142025b0",
+     "phrase": {
+      "en": "Editing charts via language",
+      "zh": "用语言编辑图表"
      },
      "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.12236v1"
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.11581v1"
     },
     {
-     "date": "2026-08-13",
-     "item_id": "2c82914f0787066b",
-     "label": {
-      "en": "Twitch backlash erupts",
-      "zh": "Twitch争议爆发"
+     "item_id": "65fe368bd5e3a4cd",
+     "phrase": {
+      "en": "Multimodal composing with AI",
+      "zh": "AI辅助多模态写作"
      },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cp30pz8d09jo?at_medium=RSS&at_campaign=rss"
+     "section": "papers",
+     "source": "TechComm journals (CrossRef)",
+     "url": "https://doi.org/10.1177/07410883261461544"
     }
    ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Images and words join forces to shape meaning.",
+    "zh": "图像与文字联手塑造意义。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "visual rhetoric",
+    "zh": "视觉修辞"
+   },
+   "relates_to": [],
    "why_now": {
-    "en": "You care about AI and HCI: Twitch backlash shows user data fueling AI raises trust questions.",
-    "zh": "你关注AI与人机交互，Twitch争议显示用户数据喂养AI引发信任问题。"
+    "en": "You teach visual rhetoric: these papers show how AI-assisted tools blend visuals and text, a hot topic.",
+    "zh": "你讲授视觉修辞，这些文章展示AI工具如何融合视觉与文本，是热门话题。"
    }
   },
   {
@@ -73,8 +88,8 @@
     {
      "item_id": "73d520d9948f44eb",
      "phrase": {
-      "en": "frames as tactile augmentation",
-      "zh": "视为触觉增强"
+      "en": "XR glove adds touch",
+      "zh": "XR手套增添触觉"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
@@ -83,8 +98,8 @@
     {
      "item_id": "caa08843d1f93919",
      "phrase": {
-      "en": "frames as predictive modeling",
-      "zh": "视为预测建模"
+      "en": "Multimodal data fusion for concussion",
+      "zh": "多模态融合预测脑震荡"
      },
      "section": "papers",
      "source": "OpenAlex · information visualization",
@@ -93,96 +108,57 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Touch and motion join sight and sound in immersive worlds.",
-    "zh": "触觉与动觉加入沉浸式世界的视觉与听觉。"
+    "en": "Flesh meets machine in tactile, present ways.",
+    "zh": "肉身与机器以触觉、在场方式相遇。"
    },
-   "id": "t2",
+   "id": "t3",
    "keyword": {
     "en": "embodied interaction",
     "zh": "具身交互"
    },
    "relates_to": [],
    "why_now": {
-    "en": "Your interest in embodied AI and HCI: wearable haptics deepen multimodal grounding.",
-    "zh": "你对具身AI与人机交互的兴趣：可穿戴触觉深化多模态感知。"
+    "en": "You follow embodied AI: the XR glove paper grounds AI in touch, a frontier you watch.",
+    "zh": "你关注具身AI，XR手套论文将AI扎根于触觉，是你关注的边界。"
    }
   },
   {
    "angles": [
-    {
-     "item_id": "65fe368bd5e3a4cd",
-     "phrase": {
-      "en": "frames as peer interaction",
-      "zh": "视为同伴互动"
-     },
-     "section": "papers",
-     "source": "TechComm journals (CrossRef)",
-     "url": "https://doi.org/10.1177/07410883261461544"
-    },
-    {
-     "item_id": "e7e28f23358317eb",
-     "phrase": {
-      "en": "frames as process accountability",
-      "zh": "视为过程问责"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.10858v1"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Machines draft, edit, and critique—researchers ask who's accountable.",
-    "zh": "机器起草、编辑、评论——研究者追问谁负责。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "AI in writing",
-    "zh": "AI写作"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You care about writing docs and HCI: new studies probe AI's role in research and learning.",
-    "zh": "你关注写作文档与人机交互，新研究探讨AI在研究学习中的角色。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "16868699006e5d6d",
-     "phrase": {
-      "en": "frames as safety breach",
-      "zh": "视为安全漏洞"
-     },
-     "section": "news",
-     "source": "BBC 中文",
-     "url": "https://www.bbc.com/zhongwen/articles/cddjp613mvdo/trad?at_medium=RSS&at_campaign=rss"
-    },
     {
      "item_id": "8cd31d3c5963198f",
      "phrase": {
-      "en": "frames as understanding aid",
-      "zh": "视为理解辅助"
+      "en": "AI-augmented code comprehension",
+      "zh": "AI增强代码理解"
      },
      "section": "papers",
      "source": "arXiv cs.HC + cs.GR",
      "url": "https://arxiv.org/abs/2608.10290v1"
+    },
+    {
+     "item_id": "a479df86cbadeac0",
+     "phrase": {
+      "en": "ChatGPT desktop for Linux",
+      "zh": "ChatGPT桌面版登陆Linux"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://openai.com/codex/"
     }
    ],
-   "convergence": "divergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "Agents that bend rules to please users raise new safety alarms.",
-    "zh": "为取悦用户而违规的代理引发新的安全警报。"
+    "en": "People and algorithms co-author the future.",
+    "zh": "人与算法共同书写未来。"
    },
    "id": "t4",
    "keyword": {
-    "en": "AI assistant risks",
-    "zh": "AI助手风险"
+    "en": "human-AI collaboration",
+    "zh": "人机协作"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow AI and HCI: real-world agent misbehavior highlights design trade-offs.",
-    "zh": "你关注AI与人机交互，真实代理不当行为凸显设计取舍。"
+    "en": "You're interested in LLM use: today's papers and news show how collaboration is being codified and contested.",
+    "zh": "你关注LLM应用，今天的论文和新闻展示协作如何被规范与争议。"
    }
   }
  ]
