@@ -1,0 +1,216 @@
+{
+ "meta": {
+  "count": 4,
+  "generated_at": "2026-08-13T21:00:30Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "97b4a4f86d2042cb",
+     "phrase": {
+      "en": "How organizations use AI",
+      "zh": "组织如何使用AI"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://cdn.openai.com/pdf/how-organizations-use-chatgpt.pdf"
+    },
+    {
+     "item_id": "4afc5c6af524bbfd",
+     "phrase": {
+      "en": "ChatGPT usage linked to firm data",
+      "zh": "ChatGPT使用关联企业数据"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.12236v1"
+    },
+    {
+     "item_id": "6ec68aaa81b20206",
+     "phrase": {
+      "en": "New Gemini 3.7 Flash release",
+      "zh": "新Gemini 3.7 Flash发布"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+    },
+    {
+     "full_text_file": "articles/news/20c6c47bfee573ba.json",
+     "item_id": "20c6c47bfee573ba",
+     "phrase": {
+      "en": "OpenAI executive departure",
+      "zh": "OpenAI高管离职"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "From labs to workplaces, AI's practical impact is being measured and debated.",
+    "zh": "从实验室到职场，AI的实际影响正被衡量与讨论。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI in the real world",
+    "zh": "AI实际应用"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about AI and HCI: today new evidence quantifies how organizations actually use chatbots, and model releases keep accelerating.",
+    "zh": "你关注AI与人机交互，今日有新证据量化组织实际使用聊天机器人的方式，且模型发布持续加速。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "73d520d9948f44eb",
+     "phrase": {
+      "en": "Haptic glove for XR",
+      "zh": "XR触觉手套"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.10368v1"
+    },
+    {
+     "item_id": "b65fbc8a7c278a0a",
+     "phrase": {
+      "en": "Robotics training from Hugging Face",
+      "zh": "Hugging Face机器人训练"
+     },
+     "section": "news",
+     "source": "Hugging Face Blog",
+     "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Machines gain hands and senses, touching reality beyond screens.",
+    "zh": "机器有了手和感官，触及屏幕外的现实。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "Embodied AI",
+    "zh": "具身AI"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track embodied AI: new robotics tools and haptic gloves show progress in grounding machines in the physical world.",
+    "zh": "你关注具身AI，新机器人工具和触觉手套展示机器在物理世界落地进展。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "dda4deb4f596a913",
+     "phrase": {
+      "en": "Carrier conditions alarming",
+      "zh": "航母状况堪忧"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cyvl2d5j52lo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "3fb845e807006d23",
+     "phrase": {
+      "en": "Denies misrepresented conditions",
+      "zh": "否认状况被歪曲"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/13/uss-abraham-conditions-hegseth"
+    },
+    {
+     "item_id": "02e1c957e56d2c3a",
+     "phrase": {
+      "en": "Crash victims' damages",
+      "zh": "空难受害者赔偿"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/ce85p80nn2yo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "cfb60ed85c8050f8",
+     "phrase": {
+      "en": "Homes ablaze in fire",
+      "zh": "火灾烧毁房屋"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/uk-news/2026/aug/13/several-homes-ablaze-as-firefighters-try-to-contain-west-midlands-grassfire"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Numbers tell stories beyond headlines, from aircraft carrier to hospitals.",
+    "zh": "数字讲述头条之外的故事，从航母到医院。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "Data journalism",
+    "zh": "数据新闻"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You like critical visualization: data-driven reporting shapes today's narratives, and you can read between the lines.",
+    "zh": "你欣赏批判性可视化，数据驱动报道塑造今日叙事，你能看懂言外之意。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "fc65dda4021174f3",
+     "phrase": {
+      "en": "Expansive surveillance of groups",
+      "zh": "对团体的广泛监控"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/13/us/politics/dhs-inquiry-immigration-protests-minnesota.html"
+    },
+    {
+     "item_id": "ab5449282dd3a9e3",
+     "phrase": {
+      "en": "Dismissed antisemitism case",
+      "zh": "反犹案被驳回"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/13/us/harvard-antisemitism-case-dismissed.html"
+    },
+    {
+     "item_id": "799576e137112e01",
+     "phrase": {
+      "en": "Assassination plot thwarted",
+      "zh": "暗杀阴谋被挫败"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/13/russian-plot-kill-ukrainian-american-thwarted-poland-says-polish-pm"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "When states watch, who is watched and why? New cases test the edges.",
+    "zh": "国家监控时，谁被看、为何被看？新案例考验边界。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "Surveillance ethics",
+    "zh": "监控伦理"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You think about critical visualization and HCI: surveillance shapes data flows and user experiences, and today's news brings it home.",
+    "zh": "你思考批判性可视化和人机交互，监控塑造数据流和用户体验，今日新闻让你切身感受。"
+   }
+  }
+ ]
+}

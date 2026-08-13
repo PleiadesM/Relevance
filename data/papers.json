@@ -2,6 +2,89 @@
  "items": [
   {
    "authors": [
+    "Clémence Labarre",
+    "Babooshka Shavazipour",
+    "Denis Loustau",
+    "Jean‐Christophe Domec"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "<title>Abstract</title> Context: While the management of forests at a regional level takes into account different forest types and management objectives, the potential effects of projected climate impacts at a sub-regional scale remain largely unexplored. Aims: To better support the strategic planning of management, we address the critical challenge of reconciling regional strategies with site specific constraints. Methods: We considered two climate scenarios and various levels of timber-damage…",
+    "citations": 0,
+    "doi": "10.1186/s13595-026-01355-5"
+   },
+   "id": "7e04f626d4f3c439",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-13T00:00:00Z",
+   "score": 0.5451,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "<title>Abstract</title> Context: While the management of forests at a regional level takes into account different forest types and management objectives, the potential effects of projected climate impacts at a sub-regional scale remain largely unexplored. Aims: To better support the strategic…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Bridging local decisions and regional forest strategies under climate risks: a flexibility-based optimization framework",
+   "url": "https://doi.org/10.1186/s13595-026-01355-5",
+   "venue": "Annals of Forest Science"
+  },
+  {
+   "authors": [
+    "Mingyan Li",
+    "Meng Liu",
+    "Shuo Chen",
+    "Yang He"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.1007/s00784-026-07079-0"
+   },
+   "id": "a03217af0b0e5c20",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-13T00:00:00Z",
+   "score": 0.4076,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [],
+   "title": "Three-dimensional spatiotemporal analysis of condylar remodeling after conservative treatment of pediatric mandibular condylar sagittal fractures",
+   "url": "https://doi.org/10.1007/s00784-026-07079-0",
+   "venue": "Clinical Oral Investigations"
+  },
+  {
+   "authors": [
+    "Umar Umar"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Islamic Religious Education (IRE) learning media are still frequently oriented toward content delivery, visualization, attractiveness, and memorization practice. Such an orientation does not fully support the aims of IRE, which encompass understanding, internalization, disposition formation, and contextual action. This article aims to analyze the dominant orientation of IRE learning media, identify the media affordances required for mindful, meaningful, and joyful learning, and formulate the…",
+    "citations": 0,
+    "doi": "10.51878/learning.v6i3.14864"
+   },
+   "id": "427c7c9a06de8aae",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-13T00:00:00Z",
+   "score": 0.5451,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Islamic Religious Education (IRE) learning media are still frequently oriented toward content delivery, visualization, attractiveness, and memorization practice. Such an orientation does not fully support the aims of IRE, which encompass understanding, internalization, disposition formation, and…",
+   "tags": [
+    "ml-vis",
+    "visualization"
+   ],
+   "title": "REORIENTASI MEDIA PEMBELAJARAN PAI DALAM KERANGKA DEEP LEARNING: KAJIAN KONSEPTUAL PEMBELAJARAN BERKESADARAN, BERMAKNA, DAN MENGGEMBIRAKAN",
+   "url": "https://doi.org/10.51878/learning.v6i3.14864",
+   "venue": "LEARNING Jurnal Inovasi Penelitian Pendidikan dan Pembelajaran"
+  },
+  {
+   "authors": [
     "Aaron Chatterji",
     "David Holtz",
     "Neel Rakholia",
@@ -17,7 +100,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T16:32:52Z",
-   "score": 0.6798,
+   "score": 0.6732,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -48,7 +131,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T14:55:46Z",
-   "score": 0.8135,
+   "score": 0.8071,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -75,7 +158,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T08:37:44Z",
-   "score": 0.6503,
+   "score": 0.6443,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -103,7 +186,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T04:32:08Z",
-   "score": 0.6762,
+   "score": 0.6704,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -133,7 +216,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T02:40:09Z",
-   "score": 0.4774,
+   "score": 0.4718,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -147,174 +230,403 @@
   },
   {
    "authors": [
-    "Nico Meyer",
-    "Christopher Mutschler",
-    "Andreas Maier",
-    "Daniel D. Scherer"
+    "Elizaveta Akimova"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Abstract Quantum error correction is crucial for protecting quantum information against decoherence. Traditional codes like the surface code require substantial overhead, making them impractical for near-term, early fault-tolerant devices. We propose a novel objective function for tailoring error correction codes to specific noise structures by maximizing the distinguishability between quantum states after a noise channel, ensuring efficient recovery operations. We formalize this concept with…",
+    "abstract_snippet": "This interview documents the professional journey of Lumi Liu, focusing on the intersection of branding, data visualization, and scientific storytelling. The text explores the methodology of translating complex medical and technical information into clear, emotionally resonant visual narratives, analyzes the balance between artistic expression and scientific accuracy in medical illustration, and investigates the evolving role of the designer as a communicator across cultures and disciplines. As…",
     "citations": 0,
-    "doi": "10.1088/2058-9565/ae98b1"
+    "doi": "10.5281/zenodo.21907946"
    },
-   "id": "0566e7d6dada5e4a",
+   "id": "b262469feec23d11",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T00:00:00Z",
-   "score": 0.4815,
+   "score": 0.4773,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Abstract Quantum error correction is crucial for protecting quantum information against decoherence. Traditional codes like the surface code require substantial overhead, making them impractical for near-term, early fault-tolerant devices. We propose a novel objective function for tailoring error…",
-   "tags": [],
-   "title": "Learning Encodings by Maximizing State Distinguishability: Variational Quantum Error Correction",
-   "url": "https://doi.org/10.1088/2058-9565/ae98b1",
-   "venue": "Quantum Science and Technology"
-  },
-  {
-   "authors": [
-    "Sofía Celi",
-    "Rafaël del Pino",
-    "Thomas Espitau",
-    "Guilhem Niot",
-    "Thomas Prest"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "International audience",
-    "citations": 0,
-    "doi": null
-   },
-   "id": "2359201f16a3f37a",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-12T00:00:00Z",
-   "score": 0.344,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "International audience",
-   "tags": [],
-   "title": "Efficient Threshold ML-DSA",
-   "url": "https://inria.hal.science/hal-05442192",
-   "venue": "HAL (Le Centre pour la Communication Scientifique Directe)"
-  },
-  {
-   "authors": [
-    "Sean Trott",
-    "Benjamin K. Bergen"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract Embodied theories of language emphasize the role of sensorimotor experience in linguistic knowledge. Central to testing these theories is the creation of large datasets of linguistic norms , which contain judgments about a word’s sensorimotor associations and can be used to predict human behavioral or brain data – sometimes in contrast to competing variables, such as those derived from distributional language models. Yet many of these datasets contain judgments about words in…",
-    "citations": 0,
-    "doi": "10.3758/s13428-026-03134-6"
-   },
-   "id": "d9166c46ecea25aa",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-12T00:00:00Z",
-   "score": 0.4815,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract Embodied theories of language emphasize the role of sensorimotor experience in linguistic knowledge. Central to testing these theories is the creation of large datasets of linguistic norms , which contain judgments about a word’s sensorimotor associations and can be used to predict human…",
+   "summary": "This interview documents the professional journey of Lumi Liu, focusing on the intersection of branding, data visualization, and scientific storytelling. The text explores the methodology of translating complex medical and technical information into clear, emotionally resonant visual narratives,…",
    "tags": [
-    "embodied"
+    "visualization"
    ],
-   "title": "Contextualized sensorimotor norms: Multi-dimensional measures of sensorimotor strength for ambiguous English words, in context",
-   "url": "https://doi.org/10.3758/s13428-026-03134-6",
-   "venue": "Behavior Research Methods"
+   "title": "Lumi Liu on Data Visualization, Medical Communication, and the Art of Making Complexity Clear",
+   "url": "https://doi.org/10.5281/zenodo.21907946",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)"
   },
   {
    "authors": [
-    "Dina Pereira",
-    "Janete Cunha‐Santos",
-    "Ana Vasconcelos‐Ferreira",
-    "Joana Duarte‐Neves",
-    "Isabel Onofre",
-    "Célia A. Aveleira"
+    "Muhammad Hilmy Naufal",
+    "Wiharto Wiharto",
+    "Herdito Ibnu Dewangkoro"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "",
-    "citations": 1,
-    "doi": "10.1038/s41514-026-00469-4"
-   },
-   "id": "9e37e7d890a2c3cc",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-12T00:00:00Z",
-   "score": 0.3691,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "",
-   "tags": [],
-   "title": "Nuclear aging in polyglutamine-induced neurodegeneration",
-   "url": "https://doi.org/10.1038/s41514-026-00469-4",
-   "venue": "npj Aging"
-  },
-  {
-   "authors": [
-    "R. Soyoung Kim",
-    "Oscar A. Paredes Mellone",
-    "John Vinson",
-    "Angel T. Garcia‐Esparza",
-    "Mengxin Liu",
-    "Ikenna Chris‐Okoro"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract Ruthenium oxides are essential catalysts and charge storage materials whose performance across reactions, from the oxygen evolution reaction to the chlor-alkali process, depends critically on reversible Ru redox cycling and the associated electronic structure changes. Although the Ru K-edge X-ray absorption spectroscopy (XAS) is routinely used for in situ studies, it provides limited information due to the low spectral resolution. This work reveals direct insights on the electronic…",
+    "abstract_snippet": "Ischemic stroke lesion segmentation from Magnetic Resonance Imaging (MRI) remains a challenging task due to the small lesion size, irregular morphology, low contrast with surrounding tissue, and severe class imbalance. To address these challenges, this study proposes an enhanced UNet++ architecture that integrates Modified InceptionNeXt Blocks and Feature-Scale Channel Attention (FSCA) to improve multi-scale feature extraction and adaptive feature fusion. Hyperparameter tuning was performed by…",
     "citations": 0,
-    "doi": "10.1021/acs.jpclett.6c01434"
+    "doi": "10.62411/jcta.16410"
    },
-   "id": "0e7a0d7e9be0a6d0",
+   "id": "8bbcb623679c6f56",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T00:00:00Z",
-   "score": 0.344,
+   "score": 0.4773,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Abstract Ruthenium oxides are essential catalysts and charge storage materials whose performance across reactions, from the oxygen evolution reaction to the chlor-alkali process, depends critically on reversible Ru redox cycling and the associated electronic structure changes. Although the Ru…",
+   "summary": "Ischemic stroke lesion segmentation from Magnetic Resonance Imaging (MRI) remains a challenging task due to the small lesion size, irregular morphology, low contrast with surrounding tissue, and severe class imbalance. To address these challenges, this study proposes an enhanced UNet++ architecture…",
    "tags": [],
-   "title": "Understandingthe Electronic Structure of RutheniumOxides during Redox Cycling with High Energy Resolution X-rayAbsorption Spectroscopy",
-   "url": "https://doi.org/10.1021/acs.jpclett.6c01434",
-   "venue": "The Journal of Physical Chemistry Letters"
+   "title": "An Enhanced UNet++ with InceptionNeXt Blocks and Feature-Scale Channel Attention for Ischemic Stroke Lesion Segmentation",
+   "url": "https://doi.org/10.62411/jcta.16410",
+   "venue": "Journal of Computing Theories and Applications"
   },
   {
    "authors": [
-    "Akinbowale Nathaniel Babatunde",
-    "Damilare Peter Oyinloye",
-    "Roseline Oluwaseun Ogundokun",
-    "Folasade Abimbola Aluko",
-    "Ayodele Babatunde",
-    "Akeem Femi Kadri"
+    "Yaser A. Nanehkaran",
+    "Licai Zhu",
+    "Tolga Pusatlı",
+    "Junde Chen",
+    "Youngseob Eum",
+    "Yanni Zhang"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Abstract Diagnosis of concussion has been hampered by its subtle and late symptoms, the reliance on subjective judgment, and the lack of real-time multimodal data integration. The developed computational models are generally black boxes and lack the robustness required for safety-critical scenarios. We introduce a symmetry-aware, multiscale, explainable, hybrid deep learning framework for early prediction of concussion risk. The system effectively combines kinematic sensor data, EEG, contextual…",
+    "abstract_snippet": "Water distribution networks (WDNs) are among the most critical urban infrastructure systems, especially in arid regions such as Iran, where water scarcity has intensified in recent years. Optimizing the operation of WDNs is essential to achieving sustainable, cost-effective water management. One of the key strategies for improving network efficiency is pressure management, which not only ensures reliable service delivery but also reduces operational and maintenance costs. This study presents a…",
     "citations": 0,
-    "doi": "10.1038/s41598-026-54871-9"
+    "doi": "10.3389/feart.2026.1847899"
    },
-   "id": "caa08843d1f93919",
+   "id": "05b5536ff26b24cf",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T00:00:00Z",
-   "score": 0.4815,
+   "score": 0.4773,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Abstract Diagnosis of concussion has been hampered by its subtle and late symptoms, the reliance on subjective judgment, and the lack of real-time multimodal data integration. The developed computational models are generally black boxes and lack the robustness required for safety-critical…",
+   "summary": "Water distribution networks (WDNs) are among the most critical urban infrastructure systems, especially in arid regions such as Iran, where water scarcity has intensified in recent years. Optimizing the operation of WDNs is essential to achieving sustainable, cost-effective water management. One of…",
    "tags": [
+    "systems",
     "ml-vis"
    ],
-   "title": "Proactive concussion prediction using symmetry-aware multiscale explainable hybrid deep learning and multimodal data fusion",
-   "url": "https://doi.org/10.1038/s41598-026-54871-9",
+   "title": "Optimal operation of water distribution networks using pressure management via non-dominated sorting differential evolution, shrimp algorithms and deep neural networks",
+   "url": "https://doi.org/10.3389/feart.2026.1847899",
+   "venue": "Frontiers in Earth Science"
+  },
+  {
+   "authors": [
+    "Yufan Liang",
+    "Zhuoyan Huang",
+    "Zixia Li",
+    "Hanrong Li",
+    "Junxin Lu",
+    "Kexin Zhong"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Objective To develop an inflammation-oriented dietary pattern among postmenopausal women using data from the Health and Retirement Study, examine its association with inflammatory biomarkers, and secondarily explore menopause timing-related differences in the dietary score. Methods This study included 1,426 postmenopausal women. Natural dietary patterns were identified using principal component analysis based on intake data for 40 food groups from the 2013 Health Care and Nutrition Survey;…",
+    "citations": 0,
+    "doi": "10.3389/fnut.2026.1905625"
+   },
+   "id": "63768a4e0c732f20",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-12T00:00:00Z",
+   "score": 0.3398,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Objective To develop an inflammation-oriented dietary pattern among postmenopausal women using data from the Health and Retirement Study, examine its association with inflammatory biomarkers, and secondarily explore menopause timing-related differences in the dietary score. Methods This study…",
+   "tags": [],
+   "title": "Inflammation-oriented dietary pattern and menopause timing in postmenopausal women: evidence from the Health and Retirement Study",
+   "url": "https://doi.org/10.3389/fnut.2026.1905625",
+   "venue": "Frontiers in Nutrition"
+  },
+  {
+   "authors": [
+    "Sufeng Zhou",
+    "Yuping Wu",
+    "Wei Liu",
+    "Chen Zhou",
+    "Lijun Xie",
+    "Quankun Zhuang"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Introduction SH-1028 is an irreversible third-generation epidermal growth factor receptor-tyrosine kinase inhibitor (EGFR-TKI) developed for treating locally advanced or metastatic non-small cell lung cancer (NSCLC) harboring EGFR T790M mutation. This study aimed to systematically investigate the absorption, distribution, metabolism and excretion (ADME) profiles of SH-1028 in rats and humans using a [ 14 C] radiolabeled tracer. Methods This integrated preclinical and clinical investigation…",
+    "citations": 0,
+    "doi": "10.3389/fphar.2026.1897957"
+   },
+   "id": "f22189d4472824d3",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-12T00:00:00Z",
+   "score": 0.4773,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Introduction SH-1028 is an irreversible third-generation epidermal growth factor receptor-tyrosine kinase inhibitor (EGFR-TKI) developed for treating locally advanced or metastatic non-small cell lung cancer (NSCLC) harboring EGFR T790M mutation. This study aimed to systematically investigate the…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Absorption, distribution, metabolism, and excretion of [14C]SH-1028, a third-generation EGFR-TKI, in rats and humans",
+   "url": "https://doi.org/10.3389/fphar.2026.1897957",
+   "venue": "Frontiers in Pharmacology"
+  },
+  {
+   "authors": [
+    "Andreas Spörlein",
+    "Anna Michelle Flegler",
+    "Valentin Burkhardt",
+    "Tobias Schulz",
+    "Stefan Richtsfeld",
+    "Christoph Becker"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Background Submandibular gland lesions are rare and diagnostically challenging because benign neoplasms, inflammatory mass lesions, carcinomas, and lymphomas may present with overlapping sonographic features. While ultrasound is central to the preoperative work-up, most malignancy prediction models were developed in mixed major salivary gland cohorts dominated by parotid tumors. Their performance in the submandibular gland remains unclear. Methods We conducted a retrospective cohort study of…",
+    "citations": 0,
+    "doi": "10.3389/fsurg.2026.1869074"
+   },
+   "id": "c837e1c8a00256e4",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-12T00:00:00Z",
+   "score": 0.3398,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Background Submandibular gland lesions are rare and diagnostically challenging because benign neoplasms, inflammatory mass lesions, carcinomas, and lymphomas may present with overlapping sonographic features. While ultrasound is central to the preoperative work-up, most malignancy prediction models…",
+   "tags": [],
+   "title": "Preoperative ultrasound risk stratification of submandibular gland lesions: a retrospective cohort study",
+   "url": "https://doi.org/10.3389/fsurg.2026.1869074",
+   "venue": "Frontiers in Surgery"
+  },
+  {
+   "authors": [
+    "Jiarong Chen",
+    "Youcai Feng",
+    "Jiabo Chen",
+    "Danping Zeng",
+    "Hua Li",
+    "Hongjun Gao"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Oblique vaginal septum syndrome (Herlyn-Werner-Wunderlich syndrome) is a congenital reproductive tract malformation frequently accompanied by ipsilateral renal dysplasia. During infancy, it can lead to urinary tract infections, dysuria, and abdominal masses. Delayed intervention predisposes patients to hydronephrosis and even renal failure. Current treatment primarily involves incision and drainage; however, traditional transvaginal surgery in infants is limited by a restricted surgical field…",
+    "citations": 0,
+    "doi": "10.3389/fped.2026.1912583"
+   },
+   "id": "9b1393ab73fb1a93",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-12T00:00:00Z",
+   "score": 0.3398,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Oblique vaginal septum syndrome (Herlyn-Werner-Wunderlich syndrome) is a congenital reproductive tract malformation frequently accompanied by ipsilateral renal dysplasia. During infancy, it can lead to urinary tract infections, dysuria, and abdominal masses. Delayed intervention predisposes…",
+   "tags": [],
+   "title": "Herlyn-Werner-Wunderlich syndrome in three infants: a case report of surgical treatment",
+   "url": "https://doi.org/10.3389/fped.2026.1912583",
+   "venue": "Frontiers in Pediatrics"
+  },
+  {
+   "authors": [
+    "Emily Gallmetzer",
+    "Elijah Mak",
+    "Firat Kara",
+    "Burcu Zeydan",
+    "Ekta Kapoor",
+    "Chrisandra L. Shufelt"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Background Premature and early menopause involve ovarian hormone deprivation, which may contribute to later-life vulnerability to cognitive decline and neurodegenerative diseases. Multimodal neuroimaging biomarkers provide a means of detecting structural, microstructural, functional, and molecular brain changes before clinical symptoms emerge. Methods Following PRISMA guidelines, we conducted a systematic search of PubMed. Study quality was assessed using the Newcastle–Ottawa Scale. Results…",
+    "citations": 0,
+    "doi": "10.3389/frdem.2026.1912295"
+   },
+   "id": "e8413ac443b61185",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-12T00:00:00Z",
+   "score": 0.3398,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Background Premature and early menopause involve ovarian hormone deprivation, which may contribute to later-life vulnerability to cognitive decline and neurodegenerative diseases. Multimodal neuroimaging biomarkers provide a means of detecting structural, microstructural, functional, and molecular…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Premature and early menopause and neuroimaging biomarkers of neurodegenerative diseases: a systematic review",
+   "url": "https://doi.org/10.3389/frdem.2026.1912295",
+   "venue": "Frontiers in Dementia"
+  },
+  {
+   "authors": [
+    "Muci Fu"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "This qualitative study explores how experienced musical theater singers understand and manage the balance between emotional expression and vocal stability during character construction. Data source includes systematic observation, semi-structured interviews and field notes with five high-achieving musical theater soloists from the UK and China. The qualitative analysis of the data reveals a dual influence of emotion and voice, which means that emotions may threaten vocal stability through…",
+    "citations": 0,
+    "doi": "10.3389/fpsyg.2026.1838236"
+   },
+   "id": "429305df0f728f49",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-12T00:00:00Z",
+   "score": 0.3398,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "This qualitative study explores how experienced musical theater singers understand and manage the balance between emotional expression and vocal stability during character construction. Data source includes systematic observation, semi-structured interviews and field notes with five high-achieving…",
+   "tags": [
+    "systems"
+   ],
+   "title": "“Sing it, interpret it”: emotion-voice balance in character-construction for musical theater singers",
+   "url": "https://doi.org/10.3389/fpsyg.2026.1838236",
+   "venue": "Frontiers in Psychology"
+  },
+  {
+   "authors": [
+    "Laurie Martin",
+    "Colombe Otis",
+    "Bertrand Lussier",
+    "Eric Troncy"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Chronic pain (CP) associated with canine osteoarthritis (OA), remains under-detected, under-diagnosed, and insufficiently managed, while the early signals prompting owners to consult a veterinarian are poorly characterized. This narrative review draws on self-determination theory (SDT) to explore how the experience of OA-associated CP reshapes the self-determination capacities within owner–dog dyads. It describes the deco-construction of dyadic co-construction induced by the apparition and…",
+    "citations": 0,
+    "doi": "10.3389/fvets.2026.1828548"
+   },
+   "id": "6c6ad124b9dead6e",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-12T00:00:00Z",
+   "score": 0.4773,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Chronic pain (CP) associated with canine osteoarthritis (OA), remains under-detected, under-diagnosed, and insufficiently managed, while the early signals prompting owners to consult a veterinarian are poorly characterized. This narrative review draws on self-determination theory (SDT) to explore…",
+   "tags": [
+    "systems"
+   ],
+   "title": "From dyadic deco-construction to reco-construction: a framework for the human–osteoarthritic dog relationship",
+   "url": "https://doi.org/10.3389/fvets.2026.1828548",
+   "venue": "Frontiers in Veterinary Science"
+  },
+  {
+   "authors": [
+    "Sarocha Suthisawat",
+    "Suthee Mangmee",
+    "Katarina Leugers",
+    "Nattaya Kamchompoo",
+    "Artittaya Athipanyasilp",
+    "Patimaporn Wongprompitak"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Older adults are at high risk for influenza-associated morbidity and mortality. Monitoring influenza immunity in this population is crucial for disease prevention and control. However, data on immunity to seasonal influenza viruses among elderly populations remain limited. This study aimed to characterize the quantity, functional quality, and breadth of antibody responses to circulating influenza viruses among community-dwelling elderly in Thailand. A total of 442 plasma samples from elderly…",
+    "citations": 0,
+    "doi": "10.1038/s41598-026-65982-8"
+   },
+   "id": "19878e72bbdb19d2",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-12T00:00:00Z",
+   "score": 0.4773,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Older adults are at high risk for influenza-associated morbidity and mortality. Monitoring influenza immunity in this population is crucial for disease prevention and control. However, data on immunity to seasonal influenza viruses among elderly populations remain limited. This study aimed to…",
+   "tags": [],
+   "title": "Pre-existing and breadth of immunity to seasonal influenza viruses among community-dwelling older adults in Thailand",
+   "url": "https://doi.org/10.1038/s41598-026-65982-8",
    "venue": "Scientific Reports"
+  },
+  {
+   "authors": [
+    "Long Jin",
+    "Qifan Zhao",
+    "Ying Xiao",
+    "Yuan Hu",
+    "Jie Wu",
+    "Gaofei Zhang"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Objective Local Progression-Free Survival (LPFS) is an important clinical endpoint following hypofractionated stereotactic radiotherapy (HSRT) for brain metastases (BMs). However, accurate prediction of local failure risk remains challenging because conventional clinical factors do not fully capture tumor heterogeneity. Therefore, we aimed to develop and validate an explainable radiomics-based deep learning survival model to predict LPFS after HSRT and identify patients at elevated risk of…",
+    "citations": 0,
+    "doi": "10.3389/fnins.2026.1908548"
+   },
+   "id": "d02468d4d15c8d05",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-12T00:00:00Z",
+   "score": 0.4773,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Objective Local Progression-Free Survival (LPFS) is an important clinical endpoint following hypofractionated stereotactic radiotherapy (HSRT) for brain metastases (BMs). However, accurate prediction of local failure risk remains challenging because conventional clinical factors do not fully…",
+   "tags": [],
+   "title": "Multimodal DeepSurv model with SHAP-based interpretation for predicting local failure in patients with brain metastases undergoing hypofractionated stereotactic radiotherapy",
+   "url": "https://doi.org/10.3389/fnins.2026.1908548",
+   "venue": "Frontiers in Neuroscience"
+  },
+  {
+   "authors": [
+    "Jingru Ren",
+    "Yi Xing",
+    "Hao Zhou",
+    "Xinyu Hong",
+    "Xiaofang Huang",
+    "Weiguo Liu"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Background This study aimed to investigate cortical and subcortical changes in GBA -related Parkinson’s disease ( GBA -PD) patients and evaluate the ability of these structural changes to identify patients with GBA -PD. Methods T1-weighted magnetic resonance imaging images were obtained for 86 participants, including 19 GBA -PD, 42 idiopathic PD (iPD) cases, and 25 healthy controls (HCs). Cortical thickness, cortical volume, and subcortical volume (including amygdala volume) were calculated to…",
+    "citations": 0,
+    "doi": "10.3389/fnagi.2026.1885255"
+   },
+   "id": "45ae461e53301d10",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-12T00:00:00Z",
+   "score": 0.4773,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Background This study aimed to investigate cortical and subcortical changes in GBA -related Parkinson’s disease ( GBA -PD) patients and evaluate the ability of these structural changes to identify patients with GBA -PD. Methods T1-weighted magnetic resonance imaging images were obtained for 86…",
+   "tags": [],
+   "title": "Cortical and subcortical morphological alterations in de novo GBA-related Parkinson’s disease",
+   "url": "https://doi.org/10.3389/fnagi.2026.1885255",
+   "venue": "Frontiers in Aging Neuroscience"
+  },
+  {
+   "authors": [
+    "Sara Pearl",
+    "Anand Anbarasu"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Background Carbapenem resistant Acinetobacter baumannii (CRAB) is recognized as one of the most critical priority pathogens by the World Health Organization due to its persistence in nosocomial settings, extensive antimicrobial resistance, and increasing dissemination at the global level. Despite the escalating availability of genomic data, genotype–phenotype integrated studies exploring the genetic determinants associated with carbapenem resistance remain limited. Methods In this study, a…",
+    "citations": 0,
+    "doi": "10.3389/fcimb.2026.1886564"
+   },
+   "id": "f05ec9f565346337",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-12T00:00:00Z",
+   "score": 0.3398,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Background Carbapenem resistant Acinetobacter baumannii (CRAB) is recognized as one of the most critical priority pathogens by the World Health Organization due to its persistence in nosocomial settings, extensive antimicrobial resistance, and increasing dissemination at the global level. Despite…",
+   "tags": [],
+   "title": "Comparative genomics of carbapenem resistant and susceptible clinical Acinetobacter baumannii reveals lineage-associated mobilization of acquired carbapenemase determinants: an integrative in silico genomics approach",
+   "url": "https://doi.org/10.3389/fcimb.2026.1886564",
+   "venue": "Frontiers in Cellular and Infection Microbiology"
   },
   {
    "authors": [
@@ -330,7 +642,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T19:15:54Z",
-   "score": 0.7865,
+   "score": 0.7814,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -356,7 +668,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T12:30:42Z",
-   "score": 0.5869,
+   "score": 0.5822,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -387,7 +699,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T01:51:12Z",
-   "score": 0.559,
+   "score": 0.5548,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -414,7 +726,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T01:51:08Z",
-   "score": 0.3665,
+   "score": 0.3623,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -440,7 +752,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:42:04Z",
-   "score": 0.4037,
+   "score": 0.3995,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -451,418 +763,6 @@
    "title": "ResonaVis: Visualizing Interactive Music Data to Support Reflective Music Composition for Therapeutic Contexts",
    "url": "https://arxiv.org/abs/2608.10338v1",
    "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Liuyang Yang",
-    "Liyu Shan",
-    "Peiyi Xie",
-    "Tong Tong",
-    "Changlong Yang",
-    "Lizhu Liu"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Metachronous liver metastasis (MLM) after curative surgery is a major determinant of poor prognosis in colorectal cancer (CRC), yet existing approaches based on clinicopathological indicators or imaging alone have limited predictive performance and clinical applicability. This retrospective multicenter study included 2983 CRC patients from four Chinese medical centers, including 161 MLM cases and 2822 non-MLM cases with definite 5-year postoperative outcome ascertainment. We developed CMLM, an…",
-    "citations": 0,
-    "doi": "10.1038/s41698-026-01619-3"
-   },
-   "id": "7b36f7cf475e0d41",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.2921,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Metachronous liver metastasis (MLM) after curative surgery is a major determinant of poor prognosis in colorectal cancer (CRC), yet existing approaches based on clinicopathological indicators or imaging alone have limited predictive performance and clinical applicability. This retrospective…",
-   "tags": [],
-   "title": "From predictive model to clinical application: interpretable prediction of metachronous liver metastasis in colorectal cancer",
-   "url": "https://doi.org/10.1038/s41698-026-01619-3",
-   "venue": "npj Precision Oncology"
-  },
-  {
-   "authors": [
-    "Văn Thức Ngô",
-    "Thi Bich Thao Tran",
-    "Ba-Thanh Vu",
-    "Viet Hai Hoang"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract Predicting the flexural capacity of reinforced ultra-high-performance concrete (UHPC) beams remains challenging due to the nonlinear interactions among longitudinal reinforcement, sectional geometry, material strength, and fiber-related parameters. This study proposes an explainable metaheuristic-enhanced CatBoost framework in which hyperparameter optimization is systematically compared across four strategies: grid search, particle swarm optimization, grey wolf optimization (GWO), and…",
-    "citations": 0,
-    "doi": "10.1088/2053-1591/ae9517"
-   },
-   "id": "f090f18a5352760d",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4296,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract Predicting the flexural capacity of reinforced ultra-high-performance concrete (UHPC) beams remains challenging due to the nonlinear interactions among longitudinal reinforcement, sectional geometry, material strength, and fiber-related parameters. This study proposes an explainable…",
-   "tags": [],
-   "title": "Metaheuristic-optimized CatBoost models for flexural capacity prediction of reinforced UHPC beams: robustness assessment and SHAP interpretation",
-   "url": "https://doi.org/10.1088/2053-1591/ae9517",
-   "venue": "Materials Research Express"
-  },
-  {
-   "authors": [
-    "John Doe"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "citations": 0,
-    "doi": "10.21203/rs.3.rs-10636111/v1"
-   },
-   "id": "1380963612c2be55",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.2921,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "",
-   "tags": [],
-   "title": "Sensorless Downhole Fluid Submergence Estimation for Progressive Cavity Pumps Using an Extended Kalman Filter",
-   "url": "https://doi.org/10.21203/rs.3.rs-10636111/v1",
-   "venue": "Research Square"
-  },
-  {
-   "authors": [
-    "Ajay Chandra",
-    "Arkalgud Ramaprasad",
-    "Madhavi Rangaswamy"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Invasive, semi-invasive, and non-invasive brain-computer interfaces (BCI) are playing an increasingly important role in mental healthcare. They play a central role in all the stages of neuro-behavioural interventions, both by the care providers and the caretakers of a patient. The novelty of the technology and its rapid development create complex ethical challenges that must be balanced against the potential gains in efficiency and effectiveness of using the technology in mental healthcare. The…",
-    "citations": 0,
-    "doi": "10.3389/fnhum.2026.1846283"
-   },
-   "id": "174daaf65227f18c",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4296,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Invasive, semi-invasive, and non-invasive brain-computer interfaces (BCI) are playing an increasingly important role in mental healthcare. They play a central role in all the stages of neuro-behavioural interventions, both by the care providers and the caretakers of a patient. The novelty of the…",
-   "tags": [],
-   "title": "Ethics of brain-computer interface in mental healthcare",
-   "url": "https://doi.org/10.3389/fnhum.2026.1846283",
-   "venue": "Frontiers in Human Neuroscience"
-  },
-  {
-   "authors": [
-    "Ali Akhmetkaliyev",
-    "Mohammed Alaa Ala’anzy",
-    "Yassine Himeur"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "This project introduces an end-to-end Adaptive Zero-Trust Blockchain Framework designed for low-latency, privacy-preserving, and explainable intrusion detection in Industrial IoT (IIoT) environments. Built to operate under OT timing and resource constraints, the framework integrates sequential machine learning detection with continuous trust verification, tamper-evident logging, and operator triage visualization. Core Architecture &amp; Pipeline ComponentsLightweight Detection Engine: Utilizes…",
-    "citations": 0,
-    "doi": "10.24433/co.1632446.v1"
-   },
-   "id": "6900ef252f021cf2",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4296,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "This project introduces an end-to-end Adaptive Zero-Trust Blockchain Framework designed for low-latency, privacy-preserving, and explainable intrusion detection in Industrial IoT (IIoT) environments. Built to operate under OT timing and resource constraints, the framework integrates sequential…",
-   "tags": [
-    "systems"
-   ],
-   "title": "An Adaptive Zero-Trust Blockchain Framework for Low-Latency, Privacy-Preserving, and Explainable Intrusion Detection in Industrial IoT",
-   "url": "https://doi.org/10.24433/co.1632446.v1",
-   "venue": "Code Ocean"
-  },
-  {
-   "authors": [
-    "Yuehua Li",
-    "Pengfei Li"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Hepatocellular carcinoma (HCC) is a malignancy with high global incidence and mortality, whose significant heterogeneity and poor prognosis pose severe clinical challenges. While artificial intelligence (AI) shows potential in HCC imaging, pathology, and prognosis, its \"black-box\" nature limits clinical adoption. Explainable AI (XAI) aims to reveal the decision-making logic of AI models. This narrative review synthesizes recent advances of XAI across four key domains of HCC research. In imaging…",
-    "citations": 0,
-    "doi": "10.1186/s43046-026-00397-0"
-   },
-   "id": "bd0ed0ffff65e599",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4296,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Hepatocellular carcinoma (HCC) is a malignancy with high global incidence and mortality, whose significant heterogeneity and poor prognosis pose severe clinical challenges. While artificial intelligence (AI) shows potential in HCC imaging, pathology, and prognosis, its \"black-box\" nature limits…",
-   "tags": [],
-   "title": "From black-box prediction to transparent insight: the status quo and paradigm shift of explainable artificial intelligence in hepatocellular carcinoma research",
-   "url": "https://doi.org/10.1186/s43046-026-00397-0",
-   "venue": "Journal of the Egyptian National Cancer Institute"
-  },
-  {
-   "authors": [
-    "Jinrong Huang",
-    "Zuolang Tu",
-    "Daolin Wu",
-    "Fuwei Liu",
-    "Lihui Du"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Background Living alone has become increasingly prevalent across the globe, but its association with all-cause mortality among cancer patients remains unclear. This systematic review and meta-analysis evaluated the relationship between living alone and all-cause mortality risk in cancer patients. Methods A comprehensive search of PubMed, Embase, Cochrane Library, and Ovid Medline was performed up to July 10, 2026. We included cohort studies that reported adjusted hazard ratios (HRs) and 95%…",
-    "citations": 0,
-    "doi": "10.3389/fonc.2026.1866474"
-   },
-   "id": "311b5d7b1e5e4bde",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4296,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Background Living alone has become increasingly prevalent across the globe, but its association with all-cause mortality among cancer patients remains unclear. This systematic review and meta-analysis evaluated the relationship between living alone and all-cause mortality risk in cancer patients.…",
-   "tags": [
-    "systems"
-   ],
-   "title": "Living alone and mortality risk in cancer patients: a systematic review and meta-analysis",
-   "url": "https://doi.org/10.3389/fonc.2026.1866474",
-   "venue": "Frontiers in Oncology"
-  },
-  {
-   "authors": [
-    "Mussawir Ejaz",
-    "Muhammad Zulkifl Hasan",
-    "Muhammad Zunnurain Hussain"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "The Internet of Medical Things (IoMT) has revolutionized healthcare by enabling continuous remote patient monitoring; however, it has also introduced critical vulnerabilities where cyber-attacks can directly threaten patient safety. Traditional digital forensics as well as intrusion detection systems (IDS) largely rely on the unimodal analysis of network traffic, which focuses on packet headers and flow statistics. While effective against volumetric attacks, these methods fail to detect…",
-    "citations": 0,
-    "doi": "10.1007/s44354-026-00042-1"
-   },
-   "id": "bd9a887c0d61592a",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.2921,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "The Internet of Medical Things (IoMT) has revolutionized healthcare by enabling continuous remote patient monitoring; however, it has also introduced critical vulnerabilities where cyber-attacks can directly threaten patient safety. Traditional digital forensics as well as intrusion detection…",
-   "tags": [],
-   "title": "Multimodal behavioral fingerprinting of IoMT devices a forensic approach using network and biometric signatures",
-   "url": "https://doi.org/10.1007/s44354-026-00042-1",
-   "venue": "Discover Networks"
-  },
-  {
-   "authors": [
-    "Siyuan Cao",
-    "Ying Ji",
-    "Qitao Du",
-    "Lei Wang",
-    "Ma Mi",
-    "Xiaopei Du"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Background Oral health (OH) is critical to overall wellbeing, yet its impact on quality of life (QoL) among Tibetan adolescents in remote regions such as Suoxian County remains poorly understood. This study investigates the prevalence of oral-health issues and their effects on QoL in this population. Methods A cross-sectional study was conducted in Suoxian County, Tibet. The primary cohort comprised 811 adolescents aged 13–15 years recruited from Suo County Middle School, who underwent clinical…",
-    "citations": 0,
-    "doi": "10.3389/fpubh.2026.1814034"
-   },
-   "id": "d4651f0504763147",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4296,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Background Oral health (OH) is critical to overall wellbeing, yet its impact on quality of life (QoL) among Tibetan adolescents in remote regions such as Suoxian County remains poorly understood. This study investigates the prevalence of oral-health issues and their effects on QoL in this…",
-   "tags": [],
-   "title": "Impact of oral health on quality of life among Tibetan adolescents in Suoxian County: a cross-sectional study",
-   "url": "https://doi.org/10.3389/fpubh.2026.1814034",
-   "venue": "Frontiers in Public Health"
-  },
-  {
-   "authors": [
-    "Letícia Soto da Costa",
-    "Ricardo S. Bovendorp",
-    "Danilo Simonini-Teixeira",
-    "Plínio Barbosa Camargo",
-    "Vicky M. Oelze"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Anthropogenic disturbance is a major driver of environmental change, altering resource availability and the feeding ecology of primates, particularly in rapidly changing tropical landscapes. The vulnerable Wied’s marmoset ( Callithrix kuhlii ), endemic to the Brazilian Atlantic Forest, inhabits increasingly human-modified environments. However, how these changes affect its feeding ecology remains poorly understood. Here, we used carbon (δ 13 C) and nitrogen (δ 15 N) stable isotope analyses to…",
-    "citations": 0,
-    "doi": "10.3389/fevo.2026.1893225"
-   },
-   "id": "e7cdf23c37d38ce1",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4296,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Anthropogenic disturbance is a major driver of environmental change, altering resource availability and the feeding ecology of primates, particularly in rapidly changing tropical landscapes. The vulnerable Wied’s marmoset ( Callithrix kuhlii ), endemic to the Brazilian Atlantic Forest, inhabits…",
-   "tags": [],
-   "title": "Between forest and city: stable isotope evidence for anthropogenic impacts on the dietary ecology of the vulnerable Wied’s marmosets in Brazil",
-   "url": "https://doi.org/10.3389/fevo.2026.1893225",
-   "venue": "Frontiers in Ecology and Evolution"
-  },
-  {
-   "authors": [
-    "Oded Cohen"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "In this article, I seek to present a case description of personalized learning implemented in my teaching practice as a high school history teacher in central Israel. The study spans two consecutive academic years in two 11th-grade Second-Chance Academic (MABAR) classes. Grounded in qualitative educational discourse, this research offers a reflective perspective on lived experience rather than quantitative data. At the center is an interpretive examination of personalized learning during…",
-    "citations": 0,
-    "doi": "10.3389/feduc.2026.1910822"
-   },
-   "id": "e2f5ca4d2cb6d26e",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.2921,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "In this article, I seek to present a case description of personalized learning implemented in my teaching practice as a high school history teacher in central Israel. The study spans two consecutive academic years in two 11th-grade Second-Chance Academic (MABAR) classes. Grounded in qualitative…",
-   "tags": [],
-   "title": "“In their own way”: personalization in history teaching in second-chance academic classes",
-   "url": "https://doi.org/10.3389/feduc.2026.1910822",
-   "venue": "Frontiers in Education"
-  },
-  {
-   "authors": [
-    "Ayyappasamy Sudalaiyadum Perumal",
-    "F.C.M.J.M. van Delft",
-    "Giulia Ippoliti",
-    "Ondřej Kašpar",
-    "Viola Tokárová",
-    "Monalisha Nayak"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Computational resources required for solving NP-complete problems grow exponentially with a polynomial increase in problem size. This exponentially increasing computational resource is runtime for sequential electronic computers and space for massively parallel DNA computing. Here, we report the proof of concept of a computer, whose operation consists in the exploration by motile bacteria of a microfluidic network encoding an algorithm for solving the Subset Sum Problem (SSP)—a classic…",
-    "citations": 0,
-    "doi": "10.1038/s41378-026-01341-x"
-   },
-   "id": "d675c7c2ea7c71fc",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.2921,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Computational resources required for solving NP-complete problems grow exponentially with a polynomial increase in problem size. This exponentially increasing computational resource is runtime for sequential electronic computers and space for massively parallel DNA computing. Here, we report the…",
-   "tags": [],
-   "title": "Amplification of computational power by the multiplication of bacteria exploring microfluidic networks encoding mathematical problems",
-   "url": "https://doi.org/10.1038/s41378-026-01341-x",
-   "venue": "Microsystems & Nanoengineering"
-  },
-  {
-   "authors": [
-    "John Vianney Ssennono",
-    "Javeed Kittur",
-    "Sabah-ud-din Waqar"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Introduction Electric vehicles (EVs) are rapidly gaining popularity and global recognition, driven by their reliability, flexibility, simplicity, and scalability. This paper provides a systematic literature review of research at the intersection of electric vehicles and deep learning, aiming to identify current advancements and explore their potential for future scalability. Methods A total of 92 publications from 2015 to 2025 were included in the final synthesis phase of the review. These…",
-    "citations": 0,
-    "doi": "10.3389/frai.2026.1826633"
-   },
-   "id": "dd6bb7ba4024a3bb",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4296,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Introduction Electric vehicles (EVs) are rapidly gaining popularity and global recognition, driven by their reliability, flexibility, simplicity, and scalability. This paper provides a systematic literature review of research at the intersection of electric vehicles and deep learning, aiming to…",
-   "tags": [
-    "systems",
-    "ml-vis"
-   ],
-   "title": "A systematic literature review exploring the application of deep learning in electric vehicles from 2015 to 2025",
-   "url": "https://doi.org/10.3389/frai.2026.1826633",
-   "venue": "Frontiers in Artificial Intelligence"
-  },
-  {
-   "authors": [
-    "Rajesh Kashyap Shanker",
-    "Anupama Rao",
-    "Ashwini Prabhu",
-    "Vijaya Kumar",
-    "Sowmiya Narayani",
-    "Ranajit Das"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Background Platelet-rich fibrin has shown regenerative potential in periodontal treatments; nonetheless, patients with Type 2 diabetes mellitus (T2DM) may experience altered biological activities. Therefore, this study aimed to evaluate the regenerative potential and growth factor release profiles of advanced platelet-rich fibrin (A PRF) and injectable platelet-rich fibrin (i-PRF) derived from participants with controlled and uncontrolled T2DM. Methods This study compared n = 87 (29 per group)…",
-    "citations": 0,
-    "doi": "10.3389/fdmed.2026.1895392"
-   },
-   "id": "725c6ae6667e746a",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4296,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Background Platelet-rich fibrin has shown regenerative potential in periodontal treatments; nonetheless, patients with Type 2 diabetes mellitus (T2DM) may experience altered biological activities. Therefore, this study aimed to evaluate the regenerative potential and growth factor release profiles…",
-   "tags": [],
-   "title": "Effect of glycaemic control on growth factor release and in-vitro biological properties of advanced and injectable platelet-rich fibrin in type 2 diabetes Mellitus",
-   "url": "https://doi.org/10.3389/fdmed.2026.1895392",
-   "venue": "Frontiers in Dental Medicine"
-  },
-  {
-   "authors": [
-    "Zhen Ma",
-    "Jinli Hou",
-    "Yanmiao Ma",
-    "Xingyue Xu",
-    "Lei Song",
-    "Mei Liu"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "citations": 0,
-    "doi": "10.21203/rs.3.rs-9979062/v1"
-   },
-   "id": "377304a8db9711e6",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4296,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "",
-   "tags": [],
-   "title": "In situ spatial pharmaco-proteomics reveals that andrographolide sulfonate resolves cytokine storm by restoring immune restraint and blocking death execution",
-   "url": "https://doi.org/10.21203/rs.3.rs-9979062/v1",
-   "venue": "Research Square"
   },
   {
    "authors": [
@@ -880,7 +780,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-10T23:44:11Z",
-   "score": 0.4013,
+   "score": 0.3973,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -906,7 +806,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-10T22:50:27Z",
-   "score": 0.7317,
+   "score": 0.7277,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -937,7 +837,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-10T19:37:18Z",
-   "score": 0.3917,
+   "score": 0.3878,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -951,8 +851,8 @@
   }
  ],
  "meta": {
-  "count": 34,
-  "generated_at": "2026-08-13T19:17:58Z",
+  "count": 30,
+  "generated_at": "2026-08-13T21:00:30Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -995,7 +895,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-07-16&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-16&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
