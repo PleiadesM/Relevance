@@ -17,7 +17,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T16:32:52Z",
-   "score": 0.6882,
+   "score": 0.6798,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -48,7 +48,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T14:55:46Z",
-   "score": 0.8218,
+   "score": 0.8135,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -75,7 +75,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T08:37:44Z",
-   "score": 0.658,
+   "score": 0.6503,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -103,7 +103,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T04:32:08Z",
-   "score": 0.6835,
+   "score": 0.6762,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -133,7 +133,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T02:40:09Z",
-   "score": 0.4846,
+   "score": 0.4774,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -144,6 +144,33 @@
    "title": "RAGE-Vis:A Relation-Aware Generative Editing Interface for Natural Language-Based Chart Editing",
    "url": "https://arxiv.org/abs/2608.11581v1",
    "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Nico Meyer",
+    "Christopher Mutschler",
+    "Andreas Maier",
+    "Daniel D. Scherer"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract Quantum error correction is crucial for protecting quantum information against decoherence. Traditional codes like the surface code require substantial overhead, making them impractical for near-term, early fault-tolerant devices. We propose a novel objective function for tailoring error correction codes to specific noise structures by maximizing the distinguishability between quantum states after a noise channel, ensuring efficient recovery operations. We formalize this concept with…",
+    "citations": 0,
+    "doi": "10.1088/2058-9565/ae98b1"
+   },
+   "id": "0566e7d6dada5e4a",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-12T00:00:00Z",
+   "score": 0.4815,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract Quantum error correction is crucial for protecting quantum information against decoherence. Traditional codes like the surface code require substantial overhead, making them impractical for near-term, early fault-tolerant devices. We propose a novel objective function for tailoring error…",
+   "tags": [],
+   "title": "Learning Encodings by Maximizing State Distinguishability: Variational Quantum Error Correction",
+   "url": "https://doi.org/10.1088/2058-9565/ae98b1",
+   "venue": "Quantum Science and Technology"
   },
   {
    "authors": [
@@ -163,7 +190,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T00:00:00Z",
-   "score": 0.3494,
+   "score": 0.344,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -172,6 +199,62 @@
    "title": "Efficient Threshold ML-DSA",
    "url": "https://inria.hal.science/hal-05442192",
    "venue": "HAL (Le Centre pour la Communication Scientifique Directe)"
+  },
+  {
+   "authors": [
+    "Sean Trott",
+    "Benjamin K. Bergen"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract Embodied theories of language emphasize the role of sensorimotor experience in linguistic knowledge. Central to testing these theories is the creation of large datasets of linguistic norms , which contain judgments about a word’s sensorimotor associations and can be used to predict human behavioral or brain data – sometimes in contrast to competing variables, such as those derived from distributional language models. Yet many of these datasets contain judgments about words in…",
+    "citations": 0,
+    "doi": "10.3758/s13428-026-03134-6"
+   },
+   "id": "d9166c46ecea25aa",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-12T00:00:00Z",
+   "score": 0.4815,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract Embodied theories of language emphasize the role of sensorimotor experience in linguistic knowledge. Central to testing these theories is the creation of large datasets of linguistic norms , which contain judgments about a word’s sensorimotor associations and can be used to predict human…",
+   "tags": [
+    "embodied"
+   ],
+   "title": "Contextualized sensorimotor norms: Multi-dimensional measures of sensorimotor strength for ambiguous English words, in context",
+   "url": "https://doi.org/10.3758/s13428-026-03134-6",
+   "venue": "Behavior Research Methods"
+  },
+  {
+   "authors": [
+    "Dina Pereira",
+    "Janete Cunha‐Santos",
+    "Ana Vasconcelos‐Ferreira",
+    "Joana Duarte‐Neves",
+    "Isabel Onofre",
+    "Célia A. Aveleira"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 1,
+    "doi": "10.1038/s41514-026-00469-4"
+   },
+   "id": "9e37e7d890a2c3cc",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-12T00:00:00Z",
+   "score": 0.3691,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [],
+   "title": "Nuclear aging in polyglutamine-induced neurodegeneration",
+   "url": "https://doi.org/10.1038/s41514-026-00469-4",
+   "venue": "npj Aging"
   },
   {
    "authors": [
@@ -192,7 +275,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T00:00:00Z",
-   "score": 0.3494,
+   "score": 0.344,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -221,7 +304,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T00:00:00Z",
-   "score": 0.4869,
+   "score": 0.4815,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -247,7 +330,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T19:15:54Z",
-   "score": 0.7931,
+   "score": 0.7865,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -273,7 +356,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T12:30:42Z",
-   "score": 0.5929,
+   "score": 0.5869,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -304,7 +387,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T01:51:12Z",
-   "score": 0.5643,
+   "score": 0.559,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -331,7 +414,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T01:51:08Z",
-   "score": 0.3718,
+   "score": 0.3665,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -357,7 +440,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:42:04Z",
-   "score": 0.4089,
+   "score": 0.4037,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -388,7 +471,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.2961,
+   "score": 0.2921,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -397,60 +480,6 @@
    "title": "From predictive model to clinical application: interpretable prediction of metachronous liver metastasis in colorectal cancer",
    "url": "https://doi.org/10.1038/s41698-026-01619-3",
    "venue": "npj Precision Oncology"
-  },
-  {
-   "authors": [
-    "Ali Akhmetkaliyev",
-    "Mohammed Alaa Ala’anzy",
-    "Yassine Himeur"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "This project introduces an end-to-end Adaptive Zero-Trust Blockchain Framework designed for low-latency, privacy-preserving, and explainable intrusion detection in Industrial IoT (IIoT) environments. Built to operate under OT timing and resource constraints, the framework integrates sequential machine learning detection with continuous trust verification, tamper-evident logging, and operator triage visualization. Core Architecture &amp; Pipeline ComponentsLightweight Detection Engine: Utilizes…",
-    "citations": 0,
-    "doi": "10.24433/co.1632446.v1"
-   },
-   "id": "6900ef252f021cf2",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4336,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "This project introduces an end-to-end Adaptive Zero-Trust Blockchain Framework designed for low-latency, privacy-preserving, and explainable intrusion detection in Industrial IoT (IIoT) environments. Built to operate under OT timing and resource constraints, the framework integrates sequential…",
-   "tags": [
-    "systems"
-   ],
-   "title": "An Adaptive Zero-Trust Blockchain Framework for Low-Latency, Privacy-Preserving, and Explainable Intrusion Detection in Industrial IoT",
-   "url": "https://doi.org/10.24433/co.1632446.v1",
-   "venue": "Code Ocean"
-  },
-  {
-   "authors": [
-    "Ajay Chandra",
-    "Arkalgud Ramaprasad",
-    "Madhavi Rangaswamy"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Invasive, semi-invasive, and non-invasive brain-computer interfaces (BCI) are playing an increasingly important role in mental healthcare. They play a central role in all the stages of neuro-behavioural interventions, both by the care providers and the caretakers of a patient. The novelty of the technology and its rapid development create complex ethical challenges that must be balanced against the potential gains in efficiency and effectiveness of using the technology in mental healthcare. The…",
-    "citations": 0,
-    "doi": "10.3389/fnhum.2026.1846283"
-   },
-   "id": "174daaf65227f18c",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4336,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Invasive, semi-invasive, and non-invasive brain-computer interfaces (BCI) are playing an increasingly important role in mental healthcare. They play a central role in all the stages of neuro-behavioural interventions, both by the care providers and the caretakers of a patient. The novelty of the…",
-   "tags": [],
-   "title": "Ethics of brain-computer interface in mental healthcare",
-   "url": "https://doi.org/10.3389/fnhum.2026.1846283",
-   "venue": "Frontiers in Human Neuroscience"
   },
   {
    "authors": [
@@ -469,7 +498,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4336,
+   "score": 0.4296,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -478,6 +507,84 @@
    "title": "Metaheuristic-optimized CatBoost models for flexural capacity prediction of reinforced UHPC beams: robustness assessment and SHAP interpretation",
    "url": "https://doi.org/10.1088/2053-1591/ae9517",
    "venue": "Materials Research Express"
+  },
+  {
+   "authors": [
+    "John Doe"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.21203/rs.3.rs-10636111/v1"
+   },
+   "id": "1380963612c2be55",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-11T00:00:00Z",
+   "score": 0.2921,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [],
+   "title": "Sensorless Downhole Fluid Submergence Estimation for Progressive Cavity Pumps Using an Extended Kalman Filter",
+   "url": "https://doi.org/10.21203/rs.3.rs-10636111/v1",
+   "venue": "Research Square"
+  },
+  {
+   "authors": [
+    "Ajay Chandra",
+    "Arkalgud Ramaprasad",
+    "Madhavi Rangaswamy"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Invasive, semi-invasive, and non-invasive brain-computer interfaces (BCI) are playing an increasingly important role in mental healthcare. They play a central role in all the stages of neuro-behavioural interventions, both by the care providers and the caretakers of a patient. The novelty of the technology and its rapid development create complex ethical challenges that must be balanced against the potential gains in efficiency and effectiveness of using the technology in mental healthcare. The…",
+    "citations": 0,
+    "doi": "10.3389/fnhum.2026.1846283"
+   },
+   "id": "174daaf65227f18c",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-11T00:00:00Z",
+   "score": 0.4296,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Invasive, semi-invasive, and non-invasive brain-computer interfaces (BCI) are playing an increasingly important role in mental healthcare. They play a central role in all the stages of neuro-behavioural interventions, both by the care providers and the caretakers of a patient. The novelty of the…",
+   "tags": [],
+   "title": "Ethics of brain-computer interface in mental healthcare",
+   "url": "https://doi.org/10.3389/fnhum.2026.1846283",
+   "venue": "Frontiers in Human Neuroscience"
+  },
+  {
+   "authors": [
+    "Ali Akhmetkaliyev",
+    "Mohammed Alaa Ala’anzy",
+    "Yassine Himeur"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "This project introduces an end-to-end Adaptive Zero-Trust Blockchain Framework designed for low-latency, privacy-preserving, and explainable intrusion detection in Industrial IoT (IIoT) environments. Built to operate under OT timing and resource constraints, the framework integrates sequential machine learning detection with continuous trust verification, tamper-evident logging, and operator triage visualization. Core Architecture &amp; Pipeline ComponentsLightweight Detection Engine: Utilizes…",
+    "citations": 0,
+    "doi": "10.24433/co.1632446.v1"
+   },
+   "id": "6900ef252f021cf2",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-11T00:00:00Z",
+   "score": 0.4296,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "This project introduces an end-to-end Adaptive Zero-Trust Blockchain Framework designed for low-latency, privacy-preserving, and explainable intrusion detection in Industrial IoT (IIoT) environments. Built to operate under OT timing and resource constraints, the framework integrates sequential…",
+   "tags": [
+    "systems"
+   ],
+   "title": "An Adaptive Zero-Trust Blockchain Framework for Low-Latency, Privacy-Preserving, and Explainable Intrusion Detection in Industrial IoT",
+   "url": "https://doi.org/10.24433/co.1632446.v1",
+   "venue": "Code Ocean"
   },
   {
    "authors": [
@@ -494,7 +601,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4336,
+   "score": 0.4296,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -503,30 +610,6 @@
    "title": "From black-box prediction to transparent insight: the status quo and paradigm shift of explainable artificial intelligence in hepatocellular carcinoma research",
    "url": "https://doi.org/10.1186/s43046-026-00397-0",
    "venue": "Journal of the Egyptian National Cancer Institute"
-  },
-  {
-   "authors": [
-    "John Doe"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "citations": 0,
-    "doi": "10.21203/rs.3.rs-10636111/v1"
-   },
-   "id": "1380963612c2be55",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.2961,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "",
-   "tags": [],
-   "title": "Sensorless Downhole Fluid Submergence Estimation for Progressive Cavity Pumps Using an Extended Kalman Filter",
-   "url": "https://doi.org/10.21203/rs.3.rs-10636111/v1",
-   "venue": "Research Square"
   },
   {
    "authors": [
@@ -546,7 +629,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4336,
+   "score": 0.4296,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -574,7 +657,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.2961,
+   "score": 0.2921,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -603,7 +686,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4336,
+   "score": 0.4296,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -612,6 +695,58 @@
    "title": "Impact of oral health on quality of life among Tibetan adolescents in Suoxian County: a cross-sectional study",
    "url": "https://doi.org/10.3389/fpubh.2026.1814034",
    "venue": "Frontiers in Public Health"
+  },
+  {
+   "authors": [
+    "Letícia Soto da Costa",
+    "Ricardo S. Bovendorp",
+    "Danilo Simonini-Teixeira",
+    "Plínio Barbosa Camargo",
+    "Vicky M. Oelze"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Anthropogenic disturbance is a major driver of environmental change, altering resource availability and the feeding ecology of primates, particularly in rapidly changing tropical landscapes. The vulnerable Wied’s marmoset ( Callithrix kuhlii ), endemic to the Brazilian Atlantic Forest, inhabits increasingly human-modified environments. However, how these changes affect its feeding ecology remains poorly understood. Here, we used carbon (δ 13 C) and nitrogen (δ 15 N) stable isotope analyses to…",
+    "citations": 0,
+    "doi": "10.3389/fevo.2026.1893225"
+   },
+   "id": "e7cdf23c37d38ce1",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-11T00:00:00Z",
+   "score": 0.4296,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Anthropogenic disturbance is a major driver of environmental change, altering resource availability and the feeding ecology of primates, particularly in rapidly changing tropical landscapes. The vulnerable Wied’s marmoset ( Callithrix kuhlii ), endemic to the Brazilian Atlantic Forest, inhabits…",
+   "tags": [],
+   "title": "Between forest and city: stable isotope evidence for anthropogenic impacts on the dietary ecology of the vulnerable Wied’s marmosets in Brazil",
+   "url": "https://doi.org/10.3389/fevo.2026.1893225",
+   "venue": "Frontiers in Ecology and Evolution"
+  },
+  {
+   "authors": [
+    "Oded Cohen"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "In this article, I seek to present a case description of personalized learning implemented in my teaching practice as a high school history teacher in central Israel. The study spans two consecutive academic years in two 11th-grade Second-Chance Academic (MABAR) classes. Grounded in qualitative educational discourse, this research offers a reflective perspective on lived experience rather than quantitative data. At the center is an interpretive examination of personalized learning during…",
+    "citations": 0,
+    "doi": "10.3389/feduc.2026.1910822"
+   },
+   "id": "e2f5ca4d2cb6d26e",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-11T00:00:00Z",
+   "score": 0.2921,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "In this article, I seek to present a case description of personalized learning implemented in my teaching practice as a high school history teacher in central Israel. The study spans two consecutive academic years in two 11th-grade Second-Chance Academic (MABAR) classes. Grounded in qualitative…",
+   "tags": [],
+   "title": "“In their own way”: personalization in history teaching in second-chance academic classes",
+   "url": "https://doi.org/10.3389/feduc.2026.1910822",
+   "venue": "Frontiers in Education"
   },
   {
    "authors": [
@@ -632,7 +767,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.2961,
+   "score": 0.2921,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -658,7 +793,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4336,
+   "score": 0.4296,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -670,58 +805,6 @@
    "title": "A systematic literature review exploring the application of deep learning in electric vehicles from 2015 to 2025",
    "url": "https://doi.org/10.3389/frai.2026.1826633",
    "venue": "Frontiers in Artificial Intelligence"
-  },
-  {
-   "authors": [
-    "Letícia Soto da Costa",
-    "Ricardo S. Bovendorp",
-    "Danilo Simonini-Teixeira",
-    "Plínio Barbosa Camargo",
-    "Vicky M. Oelze"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Anthropogenic disturbance is a major driver of environmental change, altering resource availability and the feeding ecology of primates, particularly in rapidly changing tropical landscapes. The vulnerable Wied’s marmoset ( Callithrix kuhlii ), endemic to the Brazilian Atlantic Forest, inhabits increasingly human-modified environments. However, how these changes affect its feeding ecology remains poorly understood. Here, we used carbon (δ 13 C) and nitrogen (δ 15 N) stable isotope analyses to…",
-    "citations": 0,
-    "doi": "10.3389/fevo.2026.1893225"
-   },
-   "id": "e7cdf23c37d38ce1",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4336,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Anthropogenic disturbance is a major driver of environmental change, altering resource availability and the feeding ecology of primates, particularly in rapidly changing tropical landscapes. The vulnerable Wied’s marmoset ( Callithrix kuhlii ), endemic to the Brazilian Atlantic Forest, inhabits…",
-   "tags": [],
-   "title": "Between forest and city: stable isotope evidence for anthropogenic impacts on the dietary ecology of the vulnerable Wied’s marmosets in Brazil",
-   "url": "https://doi.org/10.3389/fevo.2026.1893225",
-   "venue": "Frontiers in Ecology and Evolution"
-  },
-  {
-   "authors": [
-    "Oded Cohen"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "In this article, I seek to present a case description of personalized learning implemented in my teaching practice as a high school history teacher in central Israel. The study spans two consecutive academic years in two 11th-grade Second-Chance Academic (MABAR) classes. Grounded in qualitative educational discourse, this research offers a reflective perspective on lived experience rather than quantitative data. At the center is an interpretive examination of personalized learning during…",
-    "citations": 0,
-    "doi": "10.3389/feduc.2026.1910822"
-   },
-   "id": "e2f5ca4d2cb6d26e",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.2961,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "In this article, I seek to present a case description of personalized learning implemented in my teaching practice as a high school history teacher in central Israel. The study spans two consecutive academic years in two 11th-grade Second-Chance Academic (MABAR) classes. Grounded in qualitative…",
-   "tags": [],
-   "title": "“In their own way”: personalization in history teaching in second-chance academic classes",
-   "url": "https://doi.org/10.3389/feduc.2026.1910822",
-   "venue": "Frontiers in Education"
   },
   {
    "authors": [
@@ -742,7 +825,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4336,
+   "score": 0.4296,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -771,7 +854,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4336,
+   "score": 0.4296,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -780,89 +863,6 @@
    "title": "In situ spatial pharmaco-proteomics reveals that andrographolide sulfonate resolves cytokine storm by restoring immune restraint and blocking death execution",
    "url": "https://doi.org/10.21203/rs.3.rs-9979062/v1",
    "venue": "Research Square"
-  },
-  {
-   "authors": [
-    "Yeon–Hee Lee",
-    "Seongwoo Jang",
-    "Seonggwang Jeon",
-    "Tae-Seok Kim",
-    "Chena Lee",
-    "Peter Svensson"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "citations": 0,
-    "doi": "10.21203/rs.3.rs-10482645/v1"
-   },
-   "id": "ecd4c3ac62e69ff2",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4336,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "",
-   "tags": [],
-   "title": "Serum Vitamin D Status in CBCT-Defined Temporomandibular Joint Osteoarthritis: Associations with Structural Severity and Pain Burden",
-   "url": "https://doi.org/10.21203/rs.3.rs-10482645/v1",
-   "venue": "Research Square"
-  },
-  {
-   "authors": [
-    "Xue Li",
-    "Zuokuan He",
-    "Qin Gao",
-    "Zhili Hou",
-    "Kairu Zhang",
-    "Zhonghua Qin"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Background Type 2 diabetes mellitus (T2DM) is a major risk factor for pulmonary tuberculosis (PTB), exacerbates disease severity and reduces the efficacy of anti-tuberculosis therapy. Previous studies have shown that T2DM is associated with exacerbated metabolic disturbances in patients with PTB. However, metabolic differences between PTB patients with comorbid T2DM (PTB-DM) and those with PTB after anti-TB therapy remain unclear. Methods Untargeted metabolomic analysis was conducted on plasma…",
-    "citations": 0,
-    "doi": "10.3389/fcimb.2026.1887961"
-   },
-   "id": "549ca5cb905ff3a1",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.2961,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Background Type 2 diabetes mellitus (T2DM) is a major risk factor for pulmonary tuberculosis (PTB), exacerbates disease severity and reduces the efficacy of anti-tuberculosis therapy. Previous studies have shown that T2DM is associated with exacerbated metabolic disturbances in patients with PTB.…",
-   "tags": [],
-   "title": "Type 2 diabetes mellitus is associated with distinct post-treatment metabolic profiles in pulmonary tuberculosis",
-   "url": "https://doi.org/10.3389/fcimb.2026.1887961",
-   "venue": "Frontiers in Cellular and Infection Microbiology"
-  },
-  {
-   "authors": [
-    "Hongxia Gu",
-    "Huisheng Wu"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Feline Infectious Peritonitis (FIP) is a highly lethal disease in cats, and early differential diagnosis remains a significant clinical challenge. In this study, we analyzed differences in serum exosomal miRNA expression between FIP-affected cats and healthy control cats via high-throughput sequencing and identified five significantly differentially expressed miRNAs (miR-21-5p, miR-155-5p, miR-200c-3p, miR-486-5p, and miR-423-5p). A combined diagnostic model was constructed based on three key…",
-    "citations": 0,
-    "doi": "10.3389/ebm.2026.10915"
-   },
-   "id": "c83136015b4b97b6",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4336,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Feline Infectious Peritonitis (FIP) is a highly lethal disease in cats, and early differential diagnosis remains a significant clinical challenge. In this study, we analyzed differences in serum exosomal miRNA expression between FIP-affected cats and healthy control cats via high-throughput…",
-   "tags": [],
-   "title": "The value of serum exosomal miRNA signature profiles for the early diagnosis of feline infectious peritonitis",
-   "url": "https://doi.org/10.3389/ebm.2026.10915",
-   "venue": "Experimental Biology and Medicine"
   },
   {
    "authors": [
@@ -880,7 +880,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-10T23:44:11Z",
-   "score": 0.4065,
+   "score": 0.4013,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -906,7 +906,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-10T22:50:27Z",
-   "score": 0.7368,
+   "score": 0.7317,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -937,7 +937,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-10T19:37:18Z",
-   "score": 0.3966,
+   "score": 0.3917,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -952,7 +952,7 @@
  ],
  "meta": {
   "count": 34,
-  "generated_at": "2026-08-13T17:09:50Z",
+  "generated_at": "2026-08-13T19:17:58Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -995,7 +995,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-16&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-07-16&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",

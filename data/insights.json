@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "Boston's ROCK 92.9",
-   "published_at": "2026-08-10T11:40:00Z",
-   "title": "Topsfield Fair Opens Entries for 2026 Competitions, Promotes $20K Pumpkin Prize",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaXFzNnk3RzhuTHUzNUNNaUtwbE1vbzhQd0hpejl1SkdaVkhXbjJoSEZLNlNnZDExOHV0TVhOZEp1Sm10OC0wQUQ5bW9HcHFXSHNyNkdhSTlpdGZJQnBVRlM1UFRlUlhHUUpiWU5XY3NTdGU1T2tCaWZXNVZxcGpKQU9UcDlJXzlrT3dHQko1dGdoOXhqLWluSXZsdzdLY0EwanFjQjZQMzFvZS02Sll3alh3Q1g?oc=5"
+   "name": "wror.com",
+   "published_at": "2026-08-10T16:45:00Z",
+   "title": "Topsfield Fair Opens Entries for 2026 Competitions , Promotes $20K Pumpkin Prize",
+   "url": "https://wror.com/2026/08/10/topsfield-fair-opens-entries-for-2026-competitions-promotes-20k-pumpkin-prize/"
   },
   "summaries": {
    "en": {
-    "summary": "The Topsfield Fair has opened entries for 2026 competitions, promoting a $20,000 prize for the largest pumpkin.",
-    "why_irrelevant": "A regional event focused on competitive agriculture."
+    "summary": "The Topsfield Fair is now accepting entries for its 2026 competitions, with a $20,000 prize for the largest pumpkin.",
+    "why_irrelevant": "It's a niche agricultural contest far from typical daily feeds."
    },
    "zh": {
-    "summary": "托普斯菲尔德博览会已开启2026年竞赛报名，并为最大南瓜设立了两万美元奖金。",
-    "why_irrelevant": "这是一项注重农业竞技的地方性活动。"
+    "summary": "Topsfield博览会开始接受2026年比赛报名，最大南瓜奖金达2万美元。",
+    "why_irrelevant": "这是小众农业赛事，远离日常资讯。"
    }
   },
   "topic": "competitive pumpkin growing"
  },
- "brief": "Google unveils Gemini 3.7 Flash amid AI advancements, while a U.S. carrier grapples with prolonged deployment and a landmark European heatwave intensifies. Research highlights AI's organizational impact and clinical RAG systems.",
+ "brief": "Today's news spans legal and political battles in the US, extreme weather in Europe, and geopolitical tensions, while AI and visualization papers explore transparency and user interaction.",
  "meta": {
-  "generated_at": "2026-08-13T17:09:50Z"
+  "generated_at": "2026-08-13T19:17:58Z"
  },
- "news_summary": "Google's Gemini 3.7 Flash promises improvements, while the USS Abraham Lincoln faces morale and supply issues after 250+ days at sea. Europe battles a record heatwave, and Luigi Mangione's plea deal looms.",
- "papers_summary": "Studies examine ChatGPT's organizational use, a clinical RAG outperforming frontier models, and transparency's effect on AI persuasion.",
+ "news_summary": "US news covers a $29m Boeing verdict, carrier hardships, Kennedy Center closure votes, and executions, alongside UK heat, Greek wildfires, and West Bank displacement.",
+ "papers_summary": "AI papers study ChatGPT usage in organizations and transparency in chatbots, while visualization research focuses on composite chart construction and natural language editing.",
  "summaries": {
   "en": {
-   "brief": "Google unveils Gemini 3.7 Flash amid AI advancements, while a U.S. carrier grapples with prolonged deployment and a landmark European heatwave intensifies. Research highlights AI's organizational impact and clinical RAG systems.",
-   "news_summary": "Google's Gemini 3.7 Flash promises improvements, while the USS Abraham Lincoln faces morale and supply issues after 250+ days at sea. Europe battles a record heatwave, and Luigi Mangione's plea deal looms.",
-   "papers_summary": "Studies examine ChatGPT's organizational use, a clinical RAG outperforming frontier models, and transparency's effect on AI persuasion."
+   "brief": "Today's news spans legal and political battles in the US, extreme weather in Europe, and geopolitical tensions, while AI and visualization papers explore transparency and user interaction.",
+   "news_summary": "US news covers a $29m Boeing verdict, carrier hardships, Kennedy Center closure votes, and executions, alongside UK heat, Greek wildfires, and West Bank displacement.",
+   "papers_summary": "AI papers study ChatGPT usage in organizations and transparency in chatbots, while visualization research focuses on composite chart construction and natural language editing."
   },
   "zh": {
-   "brief": "今日新闻聚焦中国台风灾情、朱镕基逝世及台湾断网演习，研究方面则关注AI在组织中的使用与透明度。",
-   "news_summary": "台风白海豚持续影响中国内陆，引发对灾害深入的讨论；朱镕基逝世引发两岸三地不同反响；台湾首度模拟战时断网，测试通讯应变能力。",
-   "papers_summary": "研究探讨了组织如何使用ChatGPT等AI工具，以及AI聊天机器人在披露说服意图后对说服效果的影响。"
+   "brief": "国际与两岸焦点集中在朱镕基逝世、台湾战备演练及多地台风暴雨；科研领域则关注AI在组织中的实际应用与对话系统的透明度。",
+   "news_summary": "朱镕基逝世引发两岸不同评价；台湾举行模拟断网演练以应对战时通讯挑战；台风“白海豚”深入内陆引发持续暴雨；欧洲多地出现罕见日食奇观。",
+   "papers_summary": "近期研究探索AI在组织中的实际使用模式，并指出任务特定RAG系统在医学基准上可媲美前沿LLM；同时，揭示AI对话中披露说服意图能减少其影响力。"
   }
  },
  "todays_image": {
-  "caption": "Both the Dauntless and Gemini 3.7 Flash make their mark by diving in fast and striking with precision.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19610109000_AER01",
+  "caption": "Both the model aircraft carrier and the crash award involve the heavy cost of aviation—one a miniature symbol of power, the other a real family's $29 million recompense for loss.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19830024000-NASM2018-10027",
   "source_name": "National Air and Space Museum",
-  "source_url": "http://n2t.net/ark:/65665/nv9e4e59693-acd8-4170-be24-c7854642b85b",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19610109000_AER01",
-  "title": "Douglas SBD-6 Dauntless"
+  "source_url": "http://n2t.net/ark:/65665/nv9aba2da94-05c6-4161-9a40-455407b2163e",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19830024000-NASM2018-10027",
+  "title": "Model, Aircraft Carrier, USS Enterprise"
  }
 }

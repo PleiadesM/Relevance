@@ -1,5 +1,5 @@
 {
- "full_text": "Suno is releasing Studio 2.0 with significant upgrades that push it closer to an actual digital audio workstation (DAW), rather than a bare-bones audio editor with generative AI features. The biggest addition is undoubtedly MIDI support. Suno says that MIDI was its most requested feature, and it's basically a prerequisite for any modern DAW. Unfortunately, Suno Studio doesn't appear to support third-party plugins or VSTs yet, so you're stuck using its proprietary built-in synth. That synth appears to be a basic two-oscillator wavetable plugin with three envelopes and four envelopes.\n\nThe point is less about using your favorite Arturia vintag …\n\nRead the full story at The Verge.",
+ "full_text": "Suno is releasing Studio 2.0 with significant upgrades that push it closer to an actual digital audio workstation (DAW), rather than a bare-bones audio editor with generative AI features. The biggest addition is undoubtedly MIDI support. Suno says that MIDI was its most requested feature, and it's basically a prerequisite for any modern DAW. Unfortunately, Suno Studio doesn't appear to support third-party plugins or VSTs yet, so you're stuck using its proprietary built-in synth. That synth appears to be a basic two-oscillator wavetable plugin with three envelopes and four LFOs.\n\nThe point is less about using your favorite Arturia vintage syn …\n\nRead the full story at The Verge.",
  "item": {
   "category": "open",
   "extra": {},
@@ -20,8 +20,8 @@
   "url": "https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects"
  },
  "meta": {
-  "content_hash": "90d43aa540f47a84",
-  "generated_at": "2026-08-13T17:09:50Z",
+  "content_hash": "38a72c179c748aff",
+  "generated_at": "2026-08-13T19:17:58Z",
   "item_id": "161a41d109caaa1e",
   "section": "news",
   "source": "The Verge · AI",
