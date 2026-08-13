@@ -1,44 +1,44 @@
 {
  "apropos_of_nothing": {
-  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
+  "query": "(\"snail racing championship\" OR \"world snail racing\")",
   "source": {
-   "name": "The Bloomfield Democrat",
-   "published_at": "2026-08-04T20:00:00Z",
-   "title": "King grows winning vegetables",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTmFkU0RCbUJYak90SXVOWDZyM19MWjRHZGwwV0VhaTFJOHlDb2t3dENYa3JpX1VsY2pKeUxBT2F1R3ZBUzBJazd5YURFUDg1cDUtMlJBcjRPQzB2T2FsSDM5MDR3S1hMQ3RxR0YzMV9LWFI3eEVtTXM2RTBDT3pmejY3NlhCYUxMUkRJamk1anRFblpCQTFzSlFMQlg2Y3puZmx0Ulc0ZGtvdw?oc=5"
+   "name": "newstatesman.com",
+   "published_at": "2026-08-11T04:15:00Z",
+   "title": "Searching for the world fastest snail",
+   "url": "https://www.newstatesman.com/this-england/2026/08/searching-for-the-words-fastest-snail"
   },
   "summaries": {
    "en": {
-    "summary": "A local newspaper celebrates a farmer named King who wins top honors for his vegetables at a county fair.",
-    "why_irrelevant": "A niche community achievement, far from global tech and lifestyle feeds."
+    "summary": "A New Statesman piece explores the surprisingly competitive world of snail racing, complete with dedicated trainers and races.",
+    "why_irrelevant": "It's an intentionally obscure niche topic far from any typical feed content."
    },
    "zh": {
-    "summary": "本地报纸报道一位名叫金的农民在县博览会上以蔬菜赢得最高荣誉。",
-    "why_irrelevant": "一个小众社区成就，远离全球科技和生活方式资讯。"
+    "summary": "《新政治家》一篇文章探索了蜗牛赛跑的竞争世界，包括专门的训练师和比赛。",
+    "why_irrelevant": "这是一个刻意冷门的话题，远离常规信息流。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "competitive snail racing"
  },
- "brief": "Today's news covers a mix of legal, political, and entertainment stories, from an ICE agent's guilty plea to Travis Kelce's wedding comments and a deadly Ebola outbreak, while research highlights AI's role in organizations and transparency in chatbots.",
+ "brief": "Today's news covers AI concerns, political scandals, and global conflicts, while papers explore AI's organizational use and transparency.",
  "meta": {
-  "generated_at": "2026-08-13T02:44:37Z"
+  "generated_at": "2026-08-13T05:46:53Z"
  },
- "news_summary": "Key news includes the ICE agent pleading guilty, Telstra CEO's pay rise despite outage, a surrogate dispute ending with a birth in Texas, Trump's press secretary leaving, and the deadly Ebola outbreak; also notable are the solar eclipse photos and Travis Kelce's wedding remarks.",
- "papers_summary": "Research papers explore organizational use of AI via ChatGPT, a clinical RAG system's performance, transparency in AI chatbots, and visualization tools for composite and qualitative data, among others.",
+ "news_summary": "Headlines include AI development warnings, political controversies in Australia, Japan-Russia tensions, and grain supply threats from the Ukraine conflict.",
+ "papers_summary": "Research highlights AI's role in organizations, clinical RAG systems, and transparency in AI chatbots, alongside visualization and qualitative data tools.",
  "summaries": {
   "en": {
-   "brief": "Today's news covers a mix of legal, political, and entertainment stories, from an ICE agent's guilty plea to Travis Kelce's wedding comments and a deadly Ebola outbreak, while research highlights AI's role in organizations and transparency in chatbots.",
-   "news_summary": "Key news includes the ICE agent pleading guilty, Telstra CEO's pay rise despite outage, a surrogate dispute ending with a birth in Texas, Trump's press secretary leaving, and the deadly Ebola outbreak; also notable are the solar eclipse photos and Travis Kelce's wedding remarks.",
-   "papers_summary": "Research papers explore organizational use of AI via ChatGPT, a clinical RAG system's performance, transparency in AI chatbots, and visualization tools for composite and qualitative data, among others."
+   "brief": "Today's news covers AI concerns, political scandals, and global conflicts, while papers explore AI's organizational use and transparency.",
+   "news_summary": "Headlines include AI development warnings, political controversies in Australia, Japan-Russia tensions, and grain supply threats from the Ukraine conflict.",
+   "papers_summary": "Research highlights AI's role in organizations, clinical RAG systems, and transparency in AI chatbots, alongside visualization and qualitative data tools."
   },
   "zh": {
-   "brief": "今日焦点包括中国前总理朱镕基逝世，以及AI代理故障、误用AI论文指控等新闻；研究方面关注AI在组织中的使用和医疗RAG系统。",
-   "news_summary": "中国前总理朱镕基逝世，享年97岁，被视为中国经济改革的推动者；此外，AI代理未经授权侵入健身系统预约，以及大学误判学生使用AI写论文等事件引发关注。",
-   "papers_summary": "研究显示ChatGPT在企业中的使用情况，以及特定临床RAG系统在医疗基准上超越前沿LLM。"
+   "brief": "今日焦点包括朱镕基逝世、台湾首次模拟战时断网演习、以及近30年最壮观日食；研究方面关注AI在组织中的实际应用与透明度问题。",
+   "news_summary": "中国前总理朱镕基逝世，享年97岁，其经济改革遗产引发讨论；台湾首度模拟战时断网，测试关键通讯设施应变能力；英国等地民众目睹近30年最壮观日食。",
+   "papers_summary": "研究揭示ChatGPT在企业中的使用模式，并探讨AI聊天机器人披露说服意图可降低说服效果；此外，临床RAG系统在医疗基准上表现优于新LLM。"
   }
  },
  "todays_image": {
-  "caption": "The sun's corona, visible only when the moon obscures the sun's core, mirrors how the ICE agent's guilty plea brought the hidden force of his push into stark view.",
+  "caption": "Just as the sun's corona only becomes visible when the main disc is obscured, an asylum hotel's closure reveals the fragile lives previously hidden in its shadow.",
   "image_url": "https://ids.si.edu/ids/deliveryService?id=SIA-MAH-4691&max=1024",
   "source_name": "Smithsonian Institution Archives",
   "source_url": "https://siarchives.si.edu/collections/siris_arc_391446",
