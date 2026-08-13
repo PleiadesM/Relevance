@@ -1,44 +1,44 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"snail racing championship\" OR \"world snail racing\")",
+  "query": "sheep shearing competition OR golden shears",
   "source": {
-   "name": "newstatesman.com",
-   "published_at": "2026-08-11T04:15:00Z",
-   "title": "Searching for the world fastest snail",
-   "url": "https://www.newstatesman.com/this-england/2026/08/searching-for-the-words-fastest-snail"
+   "name": "NZ Herald",
+   "published_at": "2026-07-26T07:00:00Z",
+   "title": "Wales pip Kiwis by 0.9 points to clinch shearing series",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVHdycVQ3S2dfQVFyb0wwRFVmY3VJR1V0SFAwYlhDZERETVVCTGNXajF4Ymp3WDFJZkt4NW1vUkxYTVp1Nm5zQjd0Tlg3ZFNKMWdvbU1SZFBwaHBFVFcwOEJpWWdtMWdBMWVuQlZjeEwtbXpxMnMxNFNjMExNT0pVZnRuOUNvQkpQT2VfVW1yT2N5ZDI0cUotV3pBcjF6X3NiUmowaUl1NW5NOGRrYnpVUEhMTWs3b3hpQ0x1bzlQWWhyOUNaNlRELUdrNmFSS0x4cXplWkhfcw?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A New Statesman piece explores the surprisingly competitive world of snail racing, complete with dedicated trainers and races.",
-    "why_irrelevant": "It's an intentionally obscure niche topic far from any typical feed content."
+    "summary": "Wales edged out New Zealand by 0.9 points to win the shearing series.",
+    "why_irrelevant": "A niche sports result unrelated to mainstream interests."
    },
    "zh": {
-    "summary": "《新政治家》一篇文章探索了蜗牛赛跑的竞争世界，包括专门的训练师和比赛。",
-    "why_irrelevant": "这是一个刻意冷门的话题，远离常规信息流。"
+    "summary": "威尔士以0.9分的微弱优势赢得剪羊毛系列赛。",
+    "why_irrelevant": "小众赛事结果，与主流话题无关。"
    }
   },
-  "topic": "competitive snail racing"
+  "topic": "competitive sheep shearing championships"
  },
- "brief": "Today's news covers AI concerns, political scandals, and global conflicts, while papers explore AI's organizational use and transparency.",
+ "brief": "Today's news spans from political scandals and economic slowdowns to a historic solar eclipse and AI controversies, while research focuses on AI transparency, data visualization, and organizational use of generative AI.",
  "meta": {
-  "generated_at": "2026-08-13T05:46:53Z"
+  "generated_at": "2026-08-13T07:50:24Z"
  },
- "news_summary": "Headlines include AI development warnings, political controversies in Australia, Japan-Russia tensions, and grain supply threats from the Ukraine conflict.",
- "papers_summary": "Research highlights AI's role in organizations, clinical RAG systems, and transparency in AI chatbots, alongside visualization and qualitative data tools.",
+ "news_summary": "Key stories include the solar eclipse across Europe, AI backlash on Twitch, political controversies in Australia and the UK, and economic concerns amid Iran tensions.",
+ "papers_summary": "Research covers AI transparency, organizational use of ChatGPT, clinical RAG systems, and visualization tools, reflecting a focus on applied AI and communication.",
  "summaries": {
   "en": {
-   "brief": "Today's news covers AI concerns, political scandals, and global conflicts, while papers explore AI's organizational use and transparency.",
-   "news_summary": "Headlines include AI development warnings, political controversies in Australia, Japan-Russia tensions, and grain supply threats from the Ukraine conflict.",
-   "papers_summary": "Research highlights AI's role in organizations, clinical RAG systems, and transparency in AI chatbots, alongside visualization and qualitative data tools."
+   "brief": "Today's news spans from political scandals and economic slowdowns to a historic solar eclipse and AI controversies, while research focuses on AI transparency, data visualization, and organizational use of generative AI.",
+   "news_summary": "Key stories include the solar eclipse across Europe, AI backlash on Twitch, political controversies in Australia and the UK, and economic concerns amid Iran tensions.",
+   "papers_summary": "Research covers AI transparency, organizational use of ChatGPT, clinical RAG systems, and visualization tools, reflecting a focus on applied AI and communication."
   },
   "zh": {
-   "brief": "今日焦点包括朱镕基逝世、台湾首次模拟战时断网演习、以及近30年最壮观日食；研究方面关注AI在组织中的实际应用与透明度问题。",
-   "news_summary": "中国前总理朱镕基逝世，享年97岁，其经济改革遗产引发讨论；台湾首度模拟战时断网，测试关键通讯设施应变能力；英国等地民众目睹近30年最壮观日食。",
-   "papers_summary": "研究揭示ChatGPT在企业中的使用模式，并探讨AI聊天机器人披露说服意图可降低说服效果；此外，临床RAG系统在医疗基准上表现优于新LLM。"
+   "brief": "今日焦点包括欧洲日全食壮观景象、台湾首次模拟战时断网演练、以及朱镕基逝世引发的对中国经济改革的回顾。AI代理引发安全担忧，同时多项研究探讨AI透明度与视觉数据设计。",
+   "news_summary": "欧洲迎来近30年最壮观日食，西班牙部分地区可见日全食。台湾演练战时应变，朱镕基逝世引发关注。AI代理擅自订课、大学误判AI论文等事件凸显AI伦理问题。",
+   "papers_summary": "研究显示AI使用透明度可减少说服效果，临床RAG系统在医疗基准上表现优异。视觉数据设计论文探讨文化与审美弹性，组织AI应用研究通过ChatGPT使用记录分析工作场景。"
   }
  },
  "todays_image": {
-  "caption": "Just as the sun's corona only becomes visible when the main disc is obscured, an asylum hotel's closure reveals the fragile lives previously hidden in its shadow.",
+  "caption": "The sun's corona only appears when the eclipse dims the center, just as sports betting's true pull becomes visible when the spotlight shifts from politics.",
   "image_url": "https://ids.si.edu/ids/deliveryService?id=SIA-MAH-4691&max=1024",
   "source_name": "Smithsonian Institution Archives",
   "source_url": "https://siarchives.si.edu/collections/siris_arc_391446",
