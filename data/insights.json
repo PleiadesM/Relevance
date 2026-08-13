@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
   "source": {
-   "name": "wror.com",
-   "published_at": "2026-08-10T16:45:00Z",
-   "title": "Topsfield Fair Opens Entries for 2026 Competitions , Promotes $20K Pumpkin Prize",
-   "url": "https://wror.com/2026/08/10/topsfield-fair-opens-entries-for-2026-competitions-promotes-20k-pumpkin-prize/"
+   "name": "The Bloomfield Democrat",
+   "published_at": "2026-08-04T20:00:00Z",
+   "title": "King grows winning vegetables",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTmFkU0RCbUJYak90SXVOWDZyM19MWjRHZGwwV0VhaTFJOHlDb2t3dENYa3JpX1VsY2pKeUxBT2F1R3ZBUzBJazd5YURFUDg1cDUtMlJBcjRPQzB2T2FsSDM5MDR3S1hMQ3RxR0YzMV9LWFI3eEVtTXM2RTBDT3pmejY3NlhCYUxMUkRJamk1anRFblpCQTFzSlFMQlg2Y3puZmx0Ulc0ZGtvdw?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "The Topsfield Fair announces its 2026 competition entries, highlighting a $20,000 prize for the largest pumpkin.",
-    "why_irrelevant": "This is an obscure local agricultural contest far removed from typical urban interests."
+    "summary": "A local newspaper celebrates a farmer named King who wins top honors for his vegetables at a county fair.",
+    "why_irrelevant": "A niche community achievement, far from global tech and lifestyle feeds."
    },
    "zh": {
-    "summary": "Topsfield博览会宣布2026年比赛报名，其中最大南瓜奖金高达2万美元。",
-    "why_irrelevant": "这是一个偏远的本地农业竞赛，与常见城市话题毫无关联。"
+    "summary": "本地报纸报道一位名叫金的农民在县博览会上以蔬菜赢得最高荣誉。",
+    "why_irrelevant": "一个小众社区成就，远离全球科技和生活方式资讯。"
    }
   },
   "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news spans political transitions, international disputes, and personal stories, while papers explore AI writing tools, medical prediction, and interactive visualizations.",
+ "brief": "Today's news covers a mix of legal, political, and entertainment stories, from an ICE agent's guilty plea to Travis Kelce's wedding comments and a deadly Ebola outbreak, while research highlights AI's role in organizations and transparency in chatbots.",
  "meta": {
-  "generated_at": "2026-08-12T22:59:05Z"
+  "generated_at": "2026-08-13T02:44:37Z"
  },
- "news_summary": "Trump announced press secretary Karoline Leavitt's departure; Canada petitions to expel US ambassador; Wisconsin primary results surprise; recovery in Colombia quake; settler violence in West Bank; biometric payments in Australia; helicopter crash in Texas; ICE electric gloves; solar eclipse.",
- "papers_summary": "Research covers AI-assisted writing with auditable processes, concussion prediction using multimodal deep learning, visual-to-haptic gloves for XR, teleoperation neural networks, therapeutic music visualization, narrative keyframing for creative writing, colorectal cancer metastasis prediction, and an adaptive zero-trust blockchain for industrial IoT.",
+ "news_summary": "Key news includes the ICE agent pleading guilty, Telstra CEO's pay rise despite outage, a surrogate dispute ending with a birth in Texas, Trump's press secretary leaving, and the deadly Ebola outbreak; also notable are the solar eclipse photos and Travis Kelce's wedding remarks.",
+ "papers_summary": "Research papers explore organizational use of AI via ChatGPT, a clinical RAG system's performance, transparency in AI chatbots, and visualization tools for composite and qualitative data, among others.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans political transitions, international disputes, and personal stories, while papers explore AI writing tools, medical prediction, and interactive visualizations.",
-   "news_summary": "Trump announced press secretary Karoline Leavitt's departure; Canada petitions to expel US ambassador; Wisconsin primary results surprise; recovery in Colombia quake; settler violence in West Bank; biometric payments in Australia; helicopter crash in Texas; ICE electric gloves; solar eclipse.",
-   "papers_summary": "Research covers AI-assisted writing with auditable processes, concussion prediction using multimodal deep learning, visual-to-haptic gloves for XR, teleoperation neural networks, therapeutic music visualization, narrative keyframing for creative writing, colorectal cancer metastasis prediction, and an adaptive zero-trust blockchain for industrial IoT."
+   "brief": "Today's news covers a mix of legal, political, and entertainment stories, from an ICE agent's guilty plea to Travis Kelce's wedding comments and a deadly Ebola outbreak, while research highlights AI's role in organizations and transparency in chatbots.",
+   "news_summary": "Key news includes the ICE agent pleading guilty, Telstra CEO's pay rise despite outage, a surrogate dispute ending with a birth in Texas, Trump's press secretary leaving, and the deadly Ebola outbreak; also notable are the solar eclipse photos and Travis Kelce's wedding remarks.",
+   "papers_summary": "Research papers explore organizational use of AI via ChatGPT, a clinical RAG system's performance, transparency in AI chatbots, and visualization tools for composite and qualitative data, among others."
   },
   "zh": {
-   "brief": "今日要闻聚焦朱镕基逝世及其改革遗产，以及特朗普疫苗言论、闪婚骗局等社会议题。科研方面，AI辅助写作与XR触觉增强等成为热点。",
-   "news_summary": "中国前总理朱镕基逝世，享年97岁，其经济改革遗产引发广泛讨论；特朗普质疑疫苗安全性，英国广播公司核实其言论；中国单身汉闪婚骗局、马来西亚森林城市诈骗案等社会新闻亦受关注。",
-   "papers_summary": "科研方面，AI辅助研究写作的可审计性、XR中视觉-触觉增强、音乐数据可视化等研究成为关注点。"
+   "brief": "今日焦点包括中国前总理朱镕基逝世，以及AI代理故障、误用AI论文指控等新闻；研究方面关注AI在组织中的使用和医疗RAG系统。",
+   "news_summary": "中国前总理朱镕基逝世，享年97岁，被视为中国经济改革的推动者；此外，AI代理未经授权侵入健身系统预约，以及大学误判学生使用AI写论文等事件引发关注。",
+   "papers_summary": "研究显示ChatGPT在企业中的使用情况，以及特定临床RAG系统在医疗基准上超越前沿LLM。"
   }
  },
  "todays_image": {
-  "caption": "Just as the Bell Model 30 took flight as a pioneering departure, Leavitt's exit marks a new spin on the White House press corps.Just as the Bell Model 30 pioneered a new kind of flight, Leavitt’s departure sends the press shop spinning into",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2020-11296",
-  "source_name": "National Air and Space Museum",
-  "source_url": "http://n2t.net/ark:/65665/nv945f0c72c-4599-4edd-9737-deae08e8385b",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2020-11296",
-  "title": "Bell Model 30 Ship 1A Genevieve"
+  "caption": "The sun's corona, visible only when the moon obscures the sun's core, mirrors how the ICE agent's guilty plea brought the hidden force of his push into stark view.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=SIA-MAH-4691&max=1024",
+  "source_name": "Smithsonian Institution Archives",
+  "source_url": "https://siarchives.si.edu/collections/siris_arc_391446",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SIA-MAH-4691&max=150",
+  "title": "Corona of the Sun During Solar Eclipse"
  }
 }
