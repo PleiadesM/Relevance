@@ -2,87 +2,6 @@
  "items": [
   {
    "authors": [
-    "Jiaxin Zhang"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "citations": 0,
-    "doi": "10.1109/tpc.2026.3712702"
-   },
-   "id": "8d7787b0a76a8798",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-12T19:07:37Z",
-   "score": 0.5823,
-   "section": "papers",
-   "source": "TechComm journals (CrossRef)",
-   "source_id": "crossref_techcomm_journals",
-   "summary": "",
-   "tags": [
-    "ai-writing"
-   ],
-   "title": "Understanding Institutional COVID-19 Communication in Crisis and Risk-Mitigation Scenarios: A Thematic Analysis of 96 University Emails",
-   "url": "https://doi.org/10.1109/tpc.2026.3712702",
-   "venue": "IEEE Transactions on Professional Communication"
-  },
-  {
-   "authors": [
-    "Xiaofang Zhang",
-    "Issra Pramoolsook"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "citations": 0,
-    "doi": "10.1109/tpc.2026.3712515"
-   },
-   "id": "0ba9c33f2a2ef00a",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-12T19:07:13Z",
-   "score": 0.4448,
-   "section": "papers",
-   "source": "TechComm journals (CrossRef)",
-   "source_id": "crossref_techcomm_journals",
-   "summary": "",
-   "tags": [
-    "techcomm"
-   ],
-   "title": "Understanding the Rhetorical Structure of Experimental Aerospace Engineering Research Articles",
-   "url": "https://doi.org/10.1109/tpc.2026.3712515",
-   "venue": "IEEE Transactions on Professional Communication"
-  },
-  {
-   "authors": [
-    "Charles Kostelnick"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Although the aesthetic dimension of charts and graphs is widely acknowledged, with principles of beauty and composition providing a touchstone for design and analysis, the qualities and functions of aesthetic elements are highly variable and mutable, both culturally and rhetorically. Culturally, data design has undergone radical shifts in taste—from elaborate Victorian designs to streamlined modernist forms to today's complex interactive displays. Rhetorically, aesthetic elements also vary in…",
-    "citations": 0,
-    "doi": "10.1177/00472816261471747"
-   },
-   "id": "b1767e6d5420661f",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-12T18:24:04Z",
-   "score": 0.4423,
-   "section": "papers",
-   "source": "TechComm journals (CrossRef)",
-   "source_id": "crossref_techcomm_journals",
-   "summary": "Although the aesthetic dimension of charts and graphs is widely acknowledged, with principles of beauty and composition providing a touchstone for design and analysis, the qualities and functions of aesthetic elements are highly variable and mutable, both culturally and rhetorically. Culturally,…",
-   "tags": [
-    "ux",
-    "visualization",
-    "techcomm"
-   ],
-   "title": "The Variable Visual Aesthetics of Data Design: Culture, Ornament, and Rhetorical Elasticity",
-   "url": "https://doi.org/10.1177/00472816261471747",
-   "venue": "Journal of Technical Writing and Communication"
-  },
-  {
-   "authors": [
     "Aaron Chatterji",
     "David Holtz",
     "Neel Rakholia",
@@ -98,7 +17,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T16:32:52Z",
-   "score": 0.7201,
+   "score": 0.7131,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -129,7 +48,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T14:55:46Z",
-   "score": 0.8531,
+   "score": 0.8462,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -141,34 +60,6 @@
    "title": "A corpus-specific clinical RAG system matches or outperforms newer frontier LLMs on HealthBench",
    "url": "https://arxiv.org/abs/2608.12138v1",
    "venue": "arXiv cs.CL"
-  },
-  {
-   "authors": [
-    "Meilu Liu",
-    "Lawrence Jun Zhang",
-    "Christine Biebricher"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Using a multiple case-study approach, this study investigated the dynamics of peer interactions that took place through Microsoft Copilot among six pairs ( n = 12) of ESL learners, focusing on their interaction patterns, use of semiotic and multimodal resources, and functions of languaging. Our analyses illustrated that four pairs displayed collaborative orientation, one pair demonstrated an expert-novice pattern, and one pair exhibited a dominant-passive pattern. It was also found that while…",
-    "citations": 0,
-    "doi": "10.1177/07410883261461544"
-   },
-   "id": "65fe368bd5e3a4cd",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-12T12:18:21Z",
-   "score": 0.5593,
-   "section": "papers",
-   "source": "TechComm journals (CrossRef)",
-   "source_id": "crossref_techcomm_journals",
-   "summary": "Using a multiple case-study approach, this study investigated the dynamics of peer interactions that took place through Microsoft Copilot among six pairs ( n = 12) of ESL learners, focusing on their interaction patterns, use of semiotic and multimodal resources, and functions of languaging. Our…",
-   "tags": [
-    "ai-writing"
-   ],
-   "title": "Exploring ESL Learners’ Peer Interactions in GenAI-Supported Collaborative Multimodal PowerPoint Composing",
-   "url": "https://doi.org/10.1177/07410883261461544",
-   "venue": "Written Communication"
   },
   {
    "authors": [
@@ -184,7 +75,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T08:37:44Z",
-   "score": 0.687,
+   "score": 0.6806,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -212,7 +103,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T04:32:08Z",
-   "score": 0.7111,
+   "score": 0.705,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -242,7 +133,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T02:40:09Z",
-   "score": 0.5116,
+   "score": 0.5056,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -272,7 +163,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T00:00:00Z",
-   "score": 0.3698,
+   "score": 0.3653,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -301,7 +192,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T00:00:00Z",
-   "score": 0.3698,
+   "score": 0.3653,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -330,7 +221,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T00:00:00Z",
-   "score": 0.5073,
+   "score": 0.5028,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -356,7 +247,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T19:15:54Z",
-   "score": 0.8178,
+   "score": 0.8124,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -382,7 +273,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T12:30:42Z",
-   "score": 0.6158,
+   "score": 0.6107,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -413,7 +304,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T01:51:12Z",
-   "score": 0.5844,
+   "score": 0.58,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -440,7 +331,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T01:51:08Z",
-   "score": 0.3919,
+   "score": 0.3875,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -466,7 +357,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:42:04Z",
-   "score": 0.4288,
+   "score": 0.4244,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -497,7 +388,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.3114,
+   "score": 0.3081,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -523,7 +414,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4489,
+   "score": 0.4456,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -551,7 +442,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4489,
+   "score": 0.4456,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -578,7 +469,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4489,
+   "score": 0.4456,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -603,7 +494,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4489,
+   "score": 0.4456,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -627,7 +518,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.3114,
+   "score": 0.3081,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -655,7 +546,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4489,
+   "score": 0.4456,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -683,7 +574,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.3114,
+   "score": 0.3081,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -712,7 +603,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4489,
+   "score": 0.4456,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -741,7 +632,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.3114,
+   "score": 0.3081,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -767,7 +658,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4489,
+   "score": 0.4456,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -798,7 +689,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4489,
+   "score": 0.4456,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -822,7 +713,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.3114,
+   "score": 0.3081,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -851,7 +742,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4489,
+   "score": 0.4456,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -880,7 +771,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4489,
+   "score": 0.4456,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -909,7 +800,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4489,
+   "score": 0.4456,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -938,7 +829,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.3114,
+   "score": 0.3081,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -963,7 +854,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4489,
+   "score": 0.4456,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -989,7 +880,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-10T23:44:11Z",
-   "score": 0.4262,
+   "score": 0.4218,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -1015,7 +906,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-10T22:50:27Z",
-   "score": 0.7563,
+   "score": 0.752,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -1046,7 +937,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-10T19:37:18Z",
-   "score": 0.4153,
+   "score": 0.4112,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -1057,125 +948,11 @@
    "title": "Predicting affective connotation of visualizations from their constituent colors",
    "url": "https://arxiv.org/abs/2608.10169v1",
    "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Madison Percy Jones",
-    "Morgan C. Banville",
-    "Leah Heilig"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "To illustrate how environmental aesthetics shape present-day science communication pedagogy, this article situates contemporary science communication in the context of the American environmental writing tradition, drawing from the field reporting techniques of William Bartram as a form of artist's study. We use teaching case examples to demonstrate how the aesthetic experience of scientific knowledge—the acts of etching, visiting, feeling, and being in nature—ultimately contributes to better…",
-    "citations": 0,
-    "doi": "10.1177/00472816261471749"
-   },
-   "id": "3edd96c27f389a93",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-08T17:56:07Z",
-   "score": 0.2427,
-   "section": "papers",
-   "source": "TechComm journals (CrossRef)",
-   "source_id": "crossref_techcomm_journals",
-   "summary": "To illustrate how environmental aesthetics shape present-day science communication pedagogy, this article situates contemporary science communication in the context of the American environmental writing tradition, drawing from the field reporting techniques of William Bartram as a form of artist's…",
-   "tags": [
-    "pedagogy",
-    "techcomm"
-   ],
-   "title": "Visualizing Environments: Toward A Natural History of Science Communication",
-   "url": "https://doi.org/10.1177/00472816261471749",
-   "venue": "Journal of Technical Writing and Communication"
-  },
-  {
-   "authors": [
-    "Mason Pellegrini",
-    "Clay Spinuzzi"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "citations": 0,
-    "doi": "10.1080/10572252.2026.2710366"
-   },
-   "id": "040f914a761e7b5b",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-07T05:14:54Z",
-   "score": 0.4474,
-   "section": "papers",
-   "source": "TechComm journals (CrossRef)",
-   "source_id": "crossref_techcomm_journals",
-   "summary": "",
-   "tags": [
-    "ai-writing",
-    "llm"
-   ],
-   "title": "Can We Responsively Code Qualitative Data with an LLM Aide? A Human-In-The-Loop Approach",
-   "url": "https://doi.org/10.1080/10572252.2026.2710366",
-   "venue": "Technical Communication Quarterly"
-  },
-  {
-   "authors": [
-    "Sunitha Tumkur"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "citations": 0,
-    "doi": "10.1109/tpc.2026.3711952"
-   },
-   "id": "29802937b2099c6b",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-06T19:08:30Z",
-   "score": 0.2031,
-   "section": "papers",
-   "source": "TechComm journals (CrossRef)",
-   "source_id": "crossref_techcomm_journals",
-   "summary": "",
-   "tags": [
-    "pedagogy"
-   ],
-   "title": "Teaching Professional Self-Presentation With Video Résumés: An Instructor-and-Peer Feedback Intervention",
-   "url": "https://doi.org/10.1109/tpc.2026.3711952",
-   "venue": "IEEE Transactions on Professional Communication"
-  },
-  {
-   "authors": [
-    "Claire Lauer",
-    "Amber Hedquist",
-    "Stephen Carradini",
-    "Srinivasan Ravichandran",
-    "Anqi Shao",
-    "Poorva Ketkar"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "This article examines how aesthetic design and anthropomorphism support public engagement with complex environmental issues through “Blue,” a character developed for a community-based water education initiative in Arizona. Drawing on qualitative usability-testing data, the study analyzes user responses to Blue's design. We argue that Blue's effectiveness stems from his construction as a social presence and identify four design functions that shaped engagement: building approachability,…",
-    "citations": 0,
-    "doi": "10.1177/00472816261471752"
-   },
-   "id": "bdb16283089b369c",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-06T13:50:48Z",
-   "score": 0.1999,
-   "section": "papers",
-   "source": "TechComm journals (CrossRef)",
-   "source_id": "crossref_techcomm_journals",
-   "summary": "This article examines how aesthetic design and anthropomorphism support public engagement with complex environmental issues through “Blue,” a character developed for a community-based water education initiative in Arizona. Drawing on qualitative usability-testing data, the study analyzes user…",
-   "tags": [
-    "ux"
-   ],
-   "title": "“Cute” as Environmental Strategy: Anthropomorphizing Nature to Promote Engagement with Environmental Issues",
-   "url": "https://doi.org/10.1177/00472816261471752",
-   "venue": "Journal of Technical Writing and Communication"
   }
  ],
  "meta": {
-  "count": 42,
-  "generated_at": "2026-08-13T09:31:55Z",
+  "count": 34,
+  "generated_at": "2026-08-13T11:09:45Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -1217,12 +994,12 @@
    },
    {
     "category": "optional",
-    "count": 20,
-    "error": null,
+    "count": 0,
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0741-0883%2Cfrom-created-date%3A2026-07-16&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
-    "ok": true,
+    "ok": false,
     "section": "papers",
     "skip_reason": null,
     "type": "crossref"

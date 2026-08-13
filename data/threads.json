@@ -1,86 +1,48 @@
 {
  "meta": {
   "count": 4,
-  "generated_at": "2026-08-13T09:31:55Z",
+  "generated_at": "2026-08-13T11:09:45Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "1c4a07ca0da5534a",
-     "phrase": {
-      "en": "Disclosure reduces persuasion",
-      "zh": "披露减少说服效应"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.11794v1"
-    },
-    {
      "item_id": "2c82914f0787066b",
      "phrase": {
-      "en": "Twitch users revolt over data use",
-      "zh": "Twitch用户反对数据使用"
+      "en": "outrage over default opt-in",
+      "zh": "默认同意引发愤怒"
      },
      "section": "news",
      "source": "BBC World",
      "url": "https://www.bbc.co.uk/news/articles/cp30pz8d09jo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "full_text_file": "articles/news/b0283593eb915823.json",
+     "item_id": "b0283593eb915823",
+     "phrase": {
+      "en": "children's mixed views on AI",
+      "zh": "儿童对AI看法复杂"
+     },
+     "section": "news",
+     "source": "MIT Technology Review · AI",
+     "url": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "The push to see inside machine minds grows louder.",
-    "zh": "要求看清机器内心的呼声渐高。"
+    "en": "Platforms ride user data into AI, users want a say.",
+    "zh": "平台用用户数据训练AI，用户希望有发言权。"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI transparency",
-    "zh": "AI透明度"
+    "en": "AI data training ethics",
+    "zh": "AI训练数据伦理"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about HCI and tech comm: new disclosure studies and platform backlashes are reshaping AI's social contract.",
-    "zh": "你关注人机交互和技术传播，新披露研究和平台反弹正在重塑AI的社会契约。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "afea3052142025b0",
-     "phrase": {
-      "en": "Editing charts via language",
-      "zh": "用语言编辑图表"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.11581v1"
-    },
-    {
-     "item_id": "65fe368bd5e3a4cd",
-     "phrase": {
-      "en": "Multimodal composing with AI",
-      "zh": "AI辅助多模态写作"
-     },
-     "section": "papers",
-     "source": "TechComm journals (CrossRef)",
-     "url": "https://doi.org/10.1177/07410883261461544"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Images and words join forces to shape meaning.",
-    "zh": "图像与文字联手塑造意义。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "visual rhetoric",
-    "zh": "视觉修辞"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You teach visual rhetoric: these papers show how AI-assisted tools blend visuals and text, a hot topic.",
-    "zh": "你讲授视觉修辞，这些文章展示AI工具如何融合视觉与文本，是热门话题。"
+    "en": "You study HCI and AI: Twitch's opt-out AI training is a live case of consent in practice.",
+    "zh": "你研究人机交互与AI：Twitch的默认训练是同意机制的现实案例。"
    }
   },
   {
@@ -88,77 +50,116 @@
     {
      "item_id": "73d520d9948f44eb",
      "phrase": {
-      "en": "XR glove adds touch",
-      "zh": "XR手套增添触觉"
+      "en": "haptic glove for XR grounding",
+      "zh": "XR触觉手套"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
      "url": "https://arxiv.org/abs/2608.10368v1"
     },
     {
+     "item_id": "8cd31d3c5963198f",
+     "phrase": {
+      "en": "LLM code explanation plugin",
+      "zh": "LLM代码解释插件"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.10290v1"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Virtual worlds reach for the sense of touch.",
+    "zh": "虚拟世界延伸至触觉。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "XR embodied interaction",
+    "zh": "XR具身交互"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "Your embodied AI interest meets XR: a new glove grounds perception in haptics.",
+    "zh": "你的具身AI兴趣遇上XR：新手套以触觉锚定感知。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "acbfbfd4b1348041",
+     "phrase": {
+      "en": "RAG matches frontier LLMs",
+      "zh": "RAG媲美前沿LLM"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.12138v1"
+    },
+    {
      "item_id": "caa08843d1f93919",
      "phrase": {
-      "en": "Multimodal data fusion for concussion",
-      "zh": "多模态融合预测脑震荡"
+      "en": "explainable deep learning diagnosis",
+      "zh": "可解释深度学习诊断"
      },
      "section": "papers",
      "source": "OpenAlex · information visualization",
      "url": "https://doi.org/10.1038/s41598-026-54871-9"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "divergent",
    "gloss": {
-    "en": "Flesh meets machine in tactile, present ways.",
-    "zh": "肉身与机器以触觉、在场方式相遇。"
+    "en": "Clinical AI must show its work or risk distrust.",
+    "zh": "临床AI必须展示推理否则失去信任。"
    },
    "id": "t3",
    "keyword": {
-    "en": "embodied interaction",
-    "zh": "具身交互"
+    "en": "explainable medical AI",
+    "zh": "可解释医疗AI"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow embodied AI: the XR glove paper grounds AI in touch, a frontier you watch.",
-    "zh": "你关注具身AI，XR手套论文将AI扎根于触觉，是你关注的边界。"
+    "en": "You track AI in critical settings: clinical RAG and explainable concussion prediction redefine trust in healthcare.",
+    "zh": "你追踪关键领域AI：临床RAG与可解释脑震荡预测重塑医疗信任。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "8cd31d3c5963198f",
+     "item_id": "f6d3365435786ecf",
      "phrase": {
-      "en": "AI-augmented code comprehension",
-      "zh": "AI增强代码理解"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.10290v1"
-    },
-    {
-     "item_id": "a479df86cbadeac0",
-     "phrase": {
-      "en": "ChatGPT desktop for Linux",
-      "zh": "ChatGPT桌面版登陆Linux"
+      "en": "Incheon becomes busiest airport",
+      "zh": "仁川成最繁忙机场"
      },
      "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://openai.com/codex/"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/13/south-korea-incheon-airport-iran-war-middle-east"
+    },
+    {
+     "item_id": "648f27248604ee92",
+     "phrase": {
+      "en": "military families in limbo",
+      "zh": "军人家庭悬而未决"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/13/nx-s1-5929463/evacuation-bahrain-troops-iran-war"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "People and algorithms co-author the future.",
-    "zh": "人与算法共同书写未来。"
+    "en": "War reroutes planes and airports away from old hubs.",
+    "zh": "战争令飞机与机场绕开旧枢纽。"
    },
    "id": "t4",
    "keyword": {
-    "en": "human-AI collaboration",
-    "zh": "人机协作"
+    "en": "geopolitical flight disruption",
+    "zh": "地缘政治航线中断"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You're interested in LLM use: today's papers and news show how collaboration is being codified and contested.",
-    "zh": "你关注LLM应用，今天的论文和新闻展示协作如何被规范与争议。"
+    "en": "You read news for context: Iran war is redrawing global air traffic via Incheon.",
+    "zh": "你读新闻获背景：伊朗战争正通过仁川重绘全球航线。"
    }
   }
  ]

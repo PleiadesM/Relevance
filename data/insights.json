@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "world sheep shearing championship OR shearing competition record",
+  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
   "source": {
-   "name": "Agriland",
-   "published_at": "2026-08-09T14:00:00Z",
-   "title": "Listen: Sheaf throwing, shearing and sheepdog trials at Clonmany Show",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZHFwSnNyalp1LUtGZFpHX2pDZThoYzFPYTFYUFFYTlRvb2c5UHA2N0JQUGJmRVJhb2h4UmRxQm9rUjBMMjFvZ1g5SFdYbW15MjVEbERuODlhVWpMb21Db1dSVHlGMy1heldPc1V4R2RxNjk5M1FWelpXRFBmOXlLX3AxeGdEeXJEZEVwQ0tNUmJ1R0FvSDJvVHFmLVY4MjVnbHNKaVYteGI?oc=5"
+   "name": "thatslife.com.au",
+   "published_at": "2026-08-04T07:00:00Z",
+   "title": "Oh my gourd! Meet the Aussie bloke who paddled in a giant pumpkin",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pc3kyb0xrM2RkQ2FNOGpla3JFd1RpY0ZDcWdxejdGbThsZ2sxNVM3ZEZLRmRKR3RaZkxMMGZzZUJfdDBjT0VfV0QyRUdUdUxBWVNFcnBJOThvWWNRWDcwdmVSMUZ2dm1VaDZfa1Bra2o4MlpPQjkwNU01TTRQMXM?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A rural Irish show features sheaf throwing, sheep shearing, and sheepdog trials, celebrating traditional farm skills.",
-    "why_irrelevant": "It's a niche rural event, far from typical tech and geopolitical topics."
+    "summary": "An Australian man paddled a giant pumpkin across a lake, a quirky feat of adventurous horticulture.",
+    "why_irrelevant": "This is a lighthearted stunt, far from tech news or daily finance feeds."
    },
    "zh": {
-    "summary": "爱尔兰乡村展会展示捆抛、剪羊毛和牧羊犬比赛，颂扬传统农艺。",
-    "why_irrelevant": "这是小众乡村活动，远离常见科技与地缘政治话题。"
+    "summary": "一名澳大利亚男子划着巨型南瓜穿越湖泊，展现了奇特的园艺冒险。",
+    "why_irrelevant": "这是一则轻松趣闻，远离科技或日常财经内容。"
    }
   },
-  "topic": "competitive sheep shearing championships"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Europe faces a severe heatwave with health warnings, while global stories cover political shifts, AI ethics, and geopolitical tensions. Research highlights AI's organizational impact and visualization design.",
+ "brief": "Today's news spans geopolitical tensions from Putin's island visit to Japan, UK actions on shadow fleet, and global events like the solar eclipse and heatwave, while research focuses on AI in organizations, clinical RAG systems, and visualization tools.",
  "meta": {
-  "generated_at": "2026-08-13T09:31:55Z"
+  "generated_at": "2026-08-13T11:09:45Z"
  },
- "news_summary": "Heatwave hits Europe, causing health alerts; US politics heats up with primary results and socialist voter appeal; tech mogul Bryan Johnson's longevity quest sparks debate; global tensions include Russian blockade and West Bank settler incidents; AI concerns rise as Amazon trains models on Twitch content.",
- "papers_summary": "Studies explore AI's role in organizations and medicine, the persuasive power of disclosure, and the aesthetics of data visualization, offering insights into technology's evolving impact.",
+ "news_summary": "Key stories include Putin's visit to disputed Kuril islands angering Japan, UK defending seizure of shadow fleet tanker, Zambia's elections, and a total solar eclipse. Also notable: Trump's decoy plane, Kansas concerns, and AI training data controversies.",
+ "papers_summary": "Papers examine organizational use of ChatGPT, clinical RAG performance, transparency in AI chatbots, and novel visualization construction/editing interfaces, along with other technical advances.",
  "summaries": {
   "en": {
-   "brief": "Europe faces a severe heatwave with health warnings, while global stories cover political shifts, AI ethics, and geopolitical tensions. Research highlights AI's organizational impact and visualization design.",
-   "news_summary": "Heatwave hits Europe, causing health alerts; US politics heats up with primary results and socialist voter appeal; tech mogul Bryan Johnson's longevity quest sparks debate; global tensions include Russian blockade and West Bank settler incidents; AI concerns rise as Amazon trains models on Twitch content.",
-   "papers_summary": "Studies explore AI's role in organizations and medicine, the persuasive power of disclosure, and the aesthetics of data visualization, offering insights into technology's evolving impact."
+   "brief": "Today's news spans geopolitical tensions from Putin's island visit to Japan, UK actions on shadow fleet, and global events like the solar eclipse and heatwave, while research focuses on AI in organizations, clinical RAG systems, and visualization tools.",
+   "news_summary": "Key stories include Putin's visit to disputed Kuril islands angering Japan, UK defending seizure of shadow fleet tanker, Zambia's elections, and a total solar eclipse. Also notable: Trump's decoy plane, Kansas concerns, and AI training data controversies.",
+   "papers_summary": "Papers examine organizational use of ChatGPT, clinical RAG performance, transparency in AI chatbots, and novel visualization construction/editing interfaces, along with other technical advances."
   },
   "zh": {
-   "brief": "今日聚焦台灣首次模擬戰時斷網演練及英國近30年最壯觀日食；前中國總理朱鎔基逝世，享年97歲。",
-   "news_summary": "台灣舉行城鎮韌性演練，首度模擬戰時斷網恐影響通訊；英國及西班牙出現罕見日食景象。前中國總理朱鎔基逝世，享耆壽97歲，各界回顧其改革遺產。",
-   "papers_summary": "研究探討機構如何利用ChatGPT等生成式AI，以及AI聊天機器人揭露說服意圖對用戶的影響。"
+   "brief": "今日焦点为中国前总理朱镕基逝世，各地反应不一；台湾举行战时断网演练；欧洲出现近30年最壮观日食。研究方面，AI在组织中的实际应用与透明性成为热点。",
+   "news_summary": "朱镕基逝世引发台港不同评价；台湾首度模拟战时断网，测试通讯设施应变；欧洲多地观测到罕见日食。",
+   "papers_summary": "AI研究关注组织实际应用与聊天机器人透明度，临床RAG系统性能可比肩前沿LLM。"
   }
  },
  "todays_image": {
-  "caption": "A lighthouse blueprint reminds us that even when the digital “signal” goes dark, resilient communities still need old-school beacons of guidance to navigate through crisis.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-CH1078",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/30588",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-CH1078",
-  "title": "Design for a Lighthouse"
+  "caption": "The eclipse's shadow reveals the sun's hidden corona, just as the UK's bold seizure strips the shadow fleet of its dark cover to expose Putin's threat.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=SIA-MAH-4691&max=1024",
+  "source_name": "Smithsonian Institution Archives",
+  "source_url": "https://siarchives.si.edu/collections/siris_arc_391446",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SIA-MAH-4691&max=150",
+  "title": "Corona of the Sun During Solar Eclipse"
  }
 }
