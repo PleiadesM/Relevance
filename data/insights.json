@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "dog grooming competition OR creative dog grooming",
+  "query": "oyster shucking championship OR oyster shucking record",
   "source": {
-   "name": "Morning Journal",
-   "published_at": "2026-08-03T21:22:41Z",
-   "title": "Lorain County Kennel Club’s annual dog show set",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdXpvSWlTdTVhX29VemIwV05VQW9ZWVZhbjZiay1xMkhlUHJQcW9fTFVfcFlFNzVZRDFNZXJLZ2Z5MDgxbGxva3dfdmw4MldrdDdQOUNmZnY2cVRlQmgyVDNqR1pUYzVKaWdvR1JWcFh3YTdFNmM1U3ZkYzFlR2hIRTlqOW5xR0gyX3Q2Nml4SFkzQjA?oc=5"
+   "name": "Medianet News Hub",
+   "published_at": "2026-08-13T01:19:41Z",
+   "title": "Sydney vision opportunity: Australia’s champion oyster shucker takes on Western Sydney amateurs",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNLVQzNk5ZUUZuVHdPbWtlZXFJRFVjbmM4cVZRSHNwUUNwalcwcWxwX2lvVWN0bW9XY3I3bUpEclRjLUVPM1JvUFY2QUdPUHpkTmduSHJwUWZkOC1wbG9TVFZBbzJwYVFGMmdVb21wSmhKeGJYZldIa21QSGFxR2FmWHBLWXJMUXpOQkJtbnBLZE4tU2M4d3pQc2cyTkxvdnlqLUl3ZWRYWmktOFRKRjJZcE4yN1pBaGROUjNDQ1pmNHUyNDlXdDVRWU5qZVpPVTVMTzBLUFJrRWU?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "The Lorain County Kennel Club announces its annual dog show, a local event celebrating canine breeds and conformation judging.",
-    "why_irrelevant": "It centers on competitive dog showing, far from typical personal interests."
+    "summary": "Australia's champion oyster shucker challenges Western Sydney amateurs in a Sydney-based competition.",
+    "why_irrelevant": "A niche competitive food sport with no connection to tech, politics, or AI."
    },
    "zh": {
-    "summary": "洛兰县养犬俱乐部宣布举办年度狗展，展示犬种与体型评判。",
-    "why_irrelevant": "它以竞技性狗展为主题，远离日常个人兴趣。"
+    "summary": "澳大利亚开蚝冠军在西悉尼向业余爱好者发起挑战。",
+    "why_irrelevant": "一种小众的竞技美食活动，与科技、政治或AI无关。"
    }
   },
-  "topic": "competitive dog grooming"
+  "topic": "competitive oyster shucking"
  },
- "brief": "Today's news spans geopolitical tensions, domestic political maneuvers, and environmental crises, while research highlights AI's organizational impact and visualization innovations.",
+ "brief": "Today's news spans US political controversies, surveillance revelations, and international incidents, while research highlights AI's dual role in organizational use and persuasive communication.",
  "meta": {
-  "generated_at": "2026-08-13T21:00:30Z"
+  "generated_at": "2026-08-13T22:59:58Z"
  },
- "news_summary": "Key stories include the Kennedy Center board's defiance over Trump's name, US carrier conditions controversies, West Bank settler actions, and extreme heat in the UK and Greece.",
- "papers_summary": "Papers cover AI adoption in enterprises, clinical RAG systems, transparency in AI chatbots, and novel visualization interfaces.",
+ "news_summary": "US news features Trump's immigration surveillance, Kennedy Center disputes, and a carrier crew crisis; global items include the Clacton byelection and a train derailment in Sussex.",
+ "papers_summary": "Papers examine AI in organizations, clinical RAG systems, transparency in chatbots, and visualization tools for chart editing, reflecting current tech trends.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans geopolitical tensions, domestic political maneuvers, and environmental crises, while research highlights AI's organizational impact and visualization innovations.",
-   "news_summary": "Key stories include the Kennedy Center board's defiance over Trump's name, US carrier conditions controversies, West Bank settler actions, and extreme heat in the UK and Greece.",
-   "papers_summary": "Papers cover AI adoption in enterprises, clinical RAG systems, transparency in AI chatbots, and novel visualization interfaces."
+   "brief": "Today's news spans US political controversies, surveillance revelations, and international incidents, while research highlights AI's dual role in organizational use and persuasive communication.",
+   "news_summary": "US news features Trump's immigration surveillance, Kennedy Center disputes, and a carrier crew crisis; global items include the Clacton byelection and a train derailment in Sussex.",
+   "papers_summary": "Papers examine AI in organizations, clinical RAG systems, transparency in chatbots, and visualization tools for chart editing, reflecting current tech trends."
   },
   "zh": {
-   "brief": "今日焦点涵盖中国台风灾情、台湾战备演练与朱镕基逝世报道，科研界则关注AI在组织中的应用与临床RAG系统进展。",
-   "news_summary": "白海豚台风持续影响中国内陆，台湾首度模拟战时断网演练，朱镕基逝世引发两岸三地不同反应，同时欧洲日食奇观引人注目。",
-   "papers_summary": "研究显示ChatGPT在企业中的使用模式，并发现专业临床RAG系统可与前沿LLM媲美，同时探讨了AI说服意图的透明度问题。"
+   "brief": "今日焦点为中国台风灾害与台湾战备演练，同时科技与AI应用新闻引发关注。研究方面，AI在组织中的应用及可视化技术取得进展。",
+   "news_summary": "强台风“白海豚”持续影响中国内陆，台湾首次模拟战时应变“断网”，日全食吸引欧洲民众。此外，朱镕基逝世引发各界回顾，AI代理擅自操作事件及学术诚信问题亦成为话题。",
+   "papers_summary": "研究论文涵盖了如何将生成式AI（如ChatGPT）应用于组织流程、临床RAG系统性能对比、以及AI系统透明度对说服力的影响，同时介绍了可视化构建与编辑的新方法。"
   }
  },
  "todays_image": {
-  "caption": "A model carrier can be steered off course, just as KPMG's ethical failures show how a corporate ship can drift from its mission.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19830024000-NASM2018-10027",
+  "caption": "Both the Pioneer drone and Trump's immigration spies operate as aerial or human surveillance tools scanning for targets.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A20000794000-NASM2018-10275",
   "source_name": "National Air and Space Museum",
-  "source_url": "http://n2t.net/ark:/65665/nv9aba2da94-05c6-4161-9a40-455407b2163e",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19830024000-NASM2018-10027",
-  "title": "Model, Aircraft Carrier, USS Enterprise"
+  "source_url": "http://n2t.net/ark:/65665/nv9fea849d3-da50-448b-908d-eca2cd902411",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A20000794000-NASM2018-10275",
+  "title": "Pioneer RQ-2A UAV"
  }
 }
