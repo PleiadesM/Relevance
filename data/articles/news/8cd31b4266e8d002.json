@@ -1,0 +1,30 @@
+{
+ "full_text": "Google will now allow you to remove visible watermarks from the images, videos, and music made with AI tools. With the update , you can toggle off a new \"Media watermark\" setting in Gemini and Google's AI video generator, Flow.\n\nWhen toggled off, Google will remove the \"sparkle\" watermark that appears in the bottom-right corner of content generated with the company's Nano Banana and Omni models. Though visible watermarks are now optional, AI-generated content will have invisible SynthID watermarks and C2PA metadata embedded in the background, according to Josh Woodward , the vice president of Google Labs, Gemini, and AI Studio. That means you  …\n\nRead the full story at The Verge.",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/8cd31b4266e8d002.json",
+  "id": "8cd31b4266e8d002",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-08-14T16:39:32Z",
+  "section": "news",
+  "source": "The Verge · AI",
+  "source_id": "verge_ai",
+  "summary": "Google will now allow you to remove visible watermarks from the images, videos, and music made with AI tools. With the update, you can toggle off a new \"Media watermark\" setting in Gemini and Google's AI video generator, Flow. When toggled off, Google will remove the \"sparkle\" watermark that…",
+  "tags": [
+   "llm"
+  ],
+  "title": "You can now turn off Google Gemini’s visible watermarks",
+  "url": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal"
+ },
+ "meta": {
+  "content_hash": "2dc7b195210758d3",
+  "generated_at": "2026-08-14T17:09:00Z",
+  "item_id": "8cd31b4266e8d002",
+  "section": "news",
+  "source": "The Verge · AI",
+  "source_id": "verge_ai"
+ }
+}

@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"sand sculpture contest\" OR \"sandcastle competition winners\")",
+  "query": "duck herding championship OR border collie duck herding",
   "source": {
-   "name": "shorelinemedia.net",
-   "published_at": "2026-08-13T02:45:00Z",
-   "title": "96th Annual Pentwater Homecoming",
-   "url": "https://www.shorelinemedia.net/ludington_daily_news/news/96th-annual-pentwater-homecoming/article_5bf4c7da-9fcb-4b6f-875a-53f99a35dcf8.html"
+   "name": "The Columbus Dispatch",
+   "published_at": "2026-07-23T07:00:00Z",
+   "title": "How border collies are helping manage Ohio's Canada geese",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNczJ5RVc5YmRKYXpxWkN5emhEY1NWVEI4SmwxMkxkdFRYbU1nZGNYeXJRVTdKX29WbW0zdVM2aC1YYUZKdXFBY09NVFdYbklWUThGTWt5LWEweXhmd0E4MWE1bS1aMjhUVTk1SHo2RmpIOTNtT19NNmN6Y2JXMndNQWNDclNIWFhKNC1EOFhfMHJMWDZwYjZfLTNSRFVDam96dUVaYV9od0tYQTFpQ2dLVnRUcHNhTnc2aU5ia2JkWWRyVmJRb3RrLXc1OXEwVnp2QVQ4?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "The 96th Annual Pentwater Homecoming celebrates a lakeside town's parade, fireworks, and community gatherings in August 2026.",
-    "why_irrelevant": "A niche local event unrelated to your usual tech and finance topics."
+    "summary": "Border collies are being used in Ohio to humanely manage Canada geese populations.",
+    "why_irrelevant": "It's a local wildlife management story, far from your usual topics."
    },
    "zh": {
-    "summary": "2026年8月，彭特沃特镇举办第96届返乡节，包括游行、烟花和社区聚会。",
-    "why_irrelevant": "与您常看的科技和财经话题无关的地方盛事。"
+    "summary": "俄亥俄州正在使用边境牧羊犬来人道地管理加拿大鹅的数量。",
+    "why_irrelevant": "这是一个地方性的野生动物管理新闻，与你平时关注的话题相去甚远。"
    }
   },
-  "topic": "competitive sandcastle building championships"
+  "topic": "competitive duck herding"
  },
- "brief": "Today's news spans from local derailments and wildfire risks to international political maneuvers and an art heist recovery, while research papers focus on ethics in visualization and diverse scientific studies.",
+ "brief": "Today's news spans legal challenges for celebrities and politicians, AI watermark changes, and climate-related infrastructure strain, while papers cover BCI research and health studies.",
  "meta": {
-  "generated_at": "2026-08-14T15:05:40Z"
+  "generated_at": "2026-08-14T17:09:00Z"
  },
- "news_summary": "Key stories include a train derailment in Essex, UK wildfire concerns prompting a barbecue ban, Luigi Mangione's court appearance over a health executive's killing, recovered Cézanne and Renoir paintings, and geopolitical tensions involving Russia, Iran, and China.",
- "papers_summary": "Research highlights include a study on ethics approval in IEEE VIS papers, EEG decoding with CNNs and LSTMs, contribution statements in HCI, and various medical and biological studies.",
+ "news_summary": "Key stories include Selena Gomez's lawsuit, French court blocking social media age ban, Luigi Mangione's guilty plea, and broader issues like wildfires, speed camera backlash, and transportation struggles amid heat.",
+ "papers_summary": "Research highlights include EEG decoding with CNN/LSTM, contribution statements in HCI, and various health and genomics studies.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans from local derailments and wildfire risks to international political maneuvers and an art heist recovery, while research papers focus on ethics in visualization and diverse scientific studies.",
-   "news_summary": "Key stories include a train derailment in Essex, UK wildfire concerns prompting a barbecue ban, Luigi Mangione's court appearance over a health executive's killing, recovered Cézanne and Renoir paintings, and geopolitical tensions involving Russia, Iran, and China.",
-   "papers_summary": "Research highlights include a study on ethics approval in IEEE VIS papers, EEG decoding with CNNs and LSTMs, contribution statements in HCI, and various medical and biological studies."
+   "brief": "Today's news spans legal challenges for celebrities and politicians, AI watermark changes, and climate-related infrastructure strain, while papers cover BCI research and health studies.",
+   "news_summary": "Key stories include Selena Gomez's lawsuit, French court blocking social media age ban, Luigi Mangione's guilty plea, and broader issues like wildfires, speed camera backlash, and transportation struggles amid heat.",
+   "papers_summary": "Research highlights include EEG decoding with CNN/LSTM, contribution statements in HCI, and various health and genomics studies."
   },
   "zh": {
-   "brief": "今日要闻聚焦韓國股市暴跌、C919首飛國際航線、AI對青年就業的衝擊及美軍航母人道危機；研究方面則揭露IEEE VIS倫理審查缺失、腦電圖解碼新進展與可解釋機器學習在醫學上的應用。",
-   "news_summary": "韓國股市重創散戶，C919挑戰國際市場，AI加劇青年就業壓力，美軍航母爆出人道問題，朱鎔基辭世引發兩岸討論。",
-   "papers_summary": "研究顯示多數IEEE VIS論文缺乏倫理審查，另有腦電圖解碼與可解釋機器學習在醫學上的創新應用。"
+   "brief": "今日要闻聚焦韩国股市暴跌重创散户、C919首飞国际航线，以及美国航母官兵人道状况引发担忧；科研方面则关注脑机接口与可视化研究的贡献声明等议题。",
+   "news_summary": "韩国股市暴跌令散户损失惨重；中国国产客机C919完成首次国际商业飞行，挑战波音与空客；美国林肯号航母因长期部署暴露官兵生活条件问题。",
+   "papers_summary": "研究涉及脑电信号解码、可视化研究贡献声明、神经内分泌肿瘤预后模型等，展现跨学科进展。"
   }
  },
  "todays_image": {
-  "caption": "The railroad accident derailed early faith in locomotives, just as Korea's stock crash derails retail investors' hopes in the market.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-2003-24804-000001",
-  "source_name": "National Museum of American History",
-  "source_url": null,
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-2003-24804-000001&max=150",
-  "title": "Accident on the Camden and Amboy Railroad"
+  "caption": "A vintage camera from Andersen’s studio froze fleeting moments in time, just as Selena Gomez’s lawsuit now tries to freeze who gets to frame her public image.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-E6355D1642602_4001-000002",
+  "source_name": "National Museum of African American History and Culture",
+  "source_url": "https://nmaahc.si.edu/object/nmaahc_2007.1.1.1",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-E6355D1642602_4001-000002",
+  "title": "Camera from the studio of H.C. Anderson"
  }
 }
