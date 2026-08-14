@@ -1,44 +1,44 @@
 {
  "apropos_of_nothing": {
-  "query": "snail racing championship OR world snail racing",
+  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
   "source": {
-   "name": "BBC",
-   "published_at": "2026-07-19T07:00:00Z",
-   "title": "'Snailor Swift' becomes world snail racing champion",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5rR1FsMmRrZFE4b3FGY3p1TlRGU0pkTUtQeGJYZjBKX0FER1dab2RzZjVLaTEtRmU2NFl4V3M4bC1Xc2l0NFVVNHN1TnNYZi02blJOZUJDZDlyT0hr?oc=5"
+   "name": "Mshale",
+   "published_at": "2026-08-13T01:00:54Z",
+   "title": "Bauman Farms Open For Harvest Season Yankees Vs Brewers (opFlBEwucZ)",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKQ0FtOUNyNTZoWkFXd1V0RDFvYmdPdVFfTThUWkZ4cWI5ZmJHMWRtbWxTQUtpREp1M0RFdVIyY0VCb0d3akMxZkRTNzBramd5a2V6VTUyVmllMTA?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A snail named 'Snailor Swift' won the World Snail Racing Championships in Norfolk.",
-    "why_irrelevant": "Deliberately distant from typical feed topics."
+    "summary": "Bauman Farms opens for harvest season with a Yankees vs Brewers themed event, blending farm life and baseball.",
+    "why_irrelevant": "It's a niche local farm and sports mashup unlikely to appear in a general feed."
    },
    "zh": {
-    "summary": "一只名为“蜗牛·斯威夫特”的蜗牛在诺福克世界蜗牛锦标赛中夺冠。",
-    "why_irrelevant": "故意远离常规信息流内容。"
+    "summary": "鲍曼农场开启丰收季，举办洋基队对酿酒人队主题的棒球活动。",
+    "why_irrelevant": "这是地方农场与体育的小众结合，与普通信息流无关。"
    }
   },
-  "topic": "competitive snail racing"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news spans geopolitical tensions, domestic policy shifts, and human-interest stories, while research highlights ethics in visualization and AI applications.",
+ "brief": "Today's news covers the UK Clacton by-election, extreme weather in Japan, and ongoing issues in Afghanistan, while research highlights ethics in visualization and AI's role in work.",
  "meta": {
-  "generated_at": "2026-08-14T02:43:22Z"
+  "generated_at": "2026-08-14T05:44:07Z"
  },
- "news_summary": "Key stories include the release of a kidnapped American missionary, Trump's order to revert to steam catapults on carriers, and investigations into 'mention markets' and ICE detainee deaths.",
- "papers_summary": "Papers explore ethics in IEEE VIS research, AI journaling nudges, and organizational AI usage, alongside technical studies in EEG decoding and graphic surfaces.",
+ "news_summary": "Nigel Farage won the Clacton by-election, but the event was overshadowed by his absence and the novelty of Count Binface; amidst this, severe rains in Japan caused deaths and stranded thousands, and reports on Afghanistan underline the ongoing erasure of women from public life.",
+ "papers_summary": "Research in visualization and HCI focuses on ethics and reproducibility, with a study suggesting over 63% of IEEE VIS papers could be retracted due to missing ethics statements, alongside other works on EEG decoding and AI in journaling.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans geopolitical tensions, domestic policy shifts, and human-interest stories, while research highlights ethics in visualization and AI applications.",
-   "news_summary": "Key stories include the release of a kidnapped American missionary, Trump's order to revert to steam catapults on carriers, and investigations into 'mention markets' and ICE detainee deaths.",
-   "papers_summary": "Papers explore ethics in IEEE VIS research, AI journaling nudges, and organizational AI usage, alongside technical studies in EEG decoding and graphic surfaces."
+   "brief": "Today's news covers the UK Clacton by-election, extreme weather in Japan, and ongoing issues in Afghanistan, while research highlights ethics in visualization and AI's role in work.",
+   "news_summary": "Nigel Farage won the Clacton by-election, but the event was overshadowed by his absence and the novelty of Count Binface; amidst this, severe rains in Japan caused deaths and stranded thousands, and reports on Afghanistan underline the ongoing erasure of women from public life.",
+   "papers_summary": "Research in visualization and HCI focuses on ethics and reproducibility, with a study suggesting over 63% of IEEE VIS papers could be retracted due to missing ethics statements, alongside other works on EEG decoding and AI in journaling."
   },
   "zh": {
-   "brief": "今日焦点集中在伊朗持久战、台风白海豚深入内陆、朱镕基逝世及台湾断网演练；科研方面关注IEEE VIS论文伦理报告缺失及AI工具使用研究。",
-   "news_summary": "中文新闻围绕伊朗战争持久性、台风白海豚灾情、朱镕基逝世影响及台湾战备演练；国际方面涉及美国传教士获释、澳洲政治及罗马尼亚核电站因干旱停运。",
-   "papers_summary": "研究指出超过63%的IEEE VIS论文存在伦理报告问题，另有研究探讨AI写作工具及组织使用ChatGPT的方式。"
+   "brief": "今日焦点包括美国指控中国通过低关税国家转运规避关税，中国高校毕业生就业压力创新高，以及台湾进行战时断网演练；科研方面则关注AI对组织使用和学术伦理的影响。",
+   "news_summary": "美国报告称中国利用低关税国家转运货物规避关税，同时中国高校毕业生人数创历史新高，就业压力巨大；此外，台风'白海豚'带来持续暴雨，朱镕基逝世引发两岸反响，台湾举行城镇韧性演练模拟断网。",
+   "papers_summary": "今日论文主要探讨AI在组织中的使用情况、学术伦理声明的重要性，以及情绪脑电解码等技术研究，涵盖可视化、人机交互和计算机图形学等领域。"
   }
  },
  "todays_image": {
-  "caption": "Like the Langley Aerodrome Number 5 breaking free from the ground, the missionary's release marks a flight from captivity to freedom.",
+  "caption": "Both Langley's ill-fated flying machine and Farage's victory lap suggest that launching something successfully is pointless if you're not there for the landing.Both Langley's Aerodrome and Farage's campaign sought flight—one into the air, t",
   "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19050001000-NASM2018-10826",
   "source_name": "National Air and Space Museum",
   "source_url": "http://n2t.net/ark:/65665/nv938196f32-a24c-4396-b441-2f691f9c5248",
