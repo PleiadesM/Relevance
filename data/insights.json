@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "duck herding championship OR border collie duck herding",
+  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
   "source": {
-   "name": "The Columbus Dispatch",
-   "published_at": "2026-07-23T07:00:00Z",
-   "title": "How border collies are helping manage Ohio's Canada geese",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNczJ5RVc5YmRKYXpxWkN5emhEY1NWVEI4SmwxMkxkdFRYbU1nZGNYeXJRVTdKX29WbW0zdVM2aC1YYUZKdXFBY09NVFdYbklWUThGTWt5LWEweXhmd0E4MWE1bS1aMjhUVTk1SHo2RmpIOTNtT19NNmN6Y2JXMndNQWNDclNIWFhKNC1EOFhfMHJMWDZwYjZfLTNSRFVDam96dUVaYV9od0tYQTFpQ2dLVnRUcHNhTnc2aU5ia2JkWWRyVmJRb3RrLXc1OXEwVnp2QVQ4?oc=5"
+   "name": "The Bloomfield Democrat",
+   "published_at": "2026-08-04T20:00:00Z",
+   "title": "King grows winning vegetables",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTmFkU0RCbUJYak90SXVOWDZyM19MWjRHZGwwV0VhaTFJOHlDb2t3dENYa3JpX1VsY2pKeUxBT2F1R3ZBUzBJazd5YURFUDg1cDUtMlJBcjRPQzB2T2FsSDM5MDR3S1hMQ3RxR0YzMV9LWFI3eEVtTXM2RTBDT3pmejY3NlhCYUxMUkRJamk1anRFblpCQTFzSlFMQlg2Y3puZmx0Ulc0ZGtvdw?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "Border collies are being used in Ohio to humanely manage Canada geese populations.",
-    "why_irrelevant": "It's a local wildlife management story, far from your usual topics."
+    "summary": "A small-town newspaper reports a local king's award-winning vegetables at the county fair.",
+    "why_irrelevant": "Local monarchs and rural prize vegetables are far from typical feed topics."
    },
    "zh": {
-    "summary": "俄亥俄州正在使用边境牧羊犬来人道地管理加拿大鹅的数量。",
-    "why_irrelevant": "这是一个地方性的野生动物管理新闻，与你平时关注的话题相去甚远。"
+    "summary": "小镇报纸报道当地国王在县集市上获奖的蔬菜。",
+    "why_irrelevant": "地方君主和乡村获奖蔬菜与常见资讯主题相去甚远。"
    }
   },
-  "topic": "competitive duck herding"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news spans legal challenges for celebrities and politicians, AI watermark changes, and climate-related infrastructure strain, while papers cover BCI research and health studies.",
+ "brief": "Today's news spans from US political and legal developments to international climate and security concerns, with high-profile court cases and extreme weather events. In research, ethics in visualization and deep learning for EEG decoding are highlighted.",
  "meta": {
-  "generated_at": "2026-08-14T17:09:00Z"
+  "generated_at": "2026-08-14T19:11:22Z"
  },
- "news_summary": "Key stories include Selena Gomez's lawsuit, French court blocking social media age ban, Luigi Mangione's guilty plea, and broader issues like wildfires, speed camera backlash, and transportation struggles amid heat.",
- "papers_summary": "Research highlights include EEG decoding with CNN/LSTM, contribution statements in HCI, and various health and genomics studies.",
+ "news_summary": "US news features Trump's Supreme Court request, a memorial vandalism arrest, and Mangione's guilty plea. Internationally, climate-related stories like Tropical Storm Lala and extreme heat dominate, alongside political tensions in the West Bank.",
+ "papers_summary": "One paper examines ethics reporting in IEEE VIS, another explores CNN-LSTM for EEG decoding, and others cover contribution statements in visualization research.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans legal challenges for celebrities and politicians, AI watermark changes, and climate-related infrastructure strain, while papers cover BCI research and health studies.",
-   "news_summary": "Key stories include Selena Gomez's lawsuit, French court blocking social media age ban, Luigi Mangione's guilty plea, and broader issues like wildfires, speed camera backlash, and transportation struggles amid heat.",
-   "papers_summary": "Research highlights include EEG decoding with CNN/LSTM, contribution statements in HCI, and various health and genomics studies."
+   "brief": "Today's news spans from US political and legal developments to international climate and security concerns, with high-profile court cases and extreme weather events. In research, ethics in visualization and deep learning for EEG decoding are highlighted.",
+   "news_summary": "US news features Trump's Supreme Court request, a memorial vandalism arrest, and Mangione's guilty plea. Internationally, climate-related stories like Tropical Storm Lala and extreme heat dominate, alongside political tensions in the West Bank.",
+   "papers_summary": "One paper examines ethics reporting in IEEE VIS, another explores CNN-LSTM for EEG decoding, and others cover contribution statements in visualization research."
   },
   "zh": {
-   "brief": "今日要闻聚焦韩国股市暴跌重创散户、C919首飞国际航线，以及美国航母官兵人道状况引发担忧；科研方面则关注脑机接口与可视化研究的贡献声明等议题。",
-   "news_summary": "韩国股市暴跌令散户损失惨重；中国国产客机C919完成首次国际商业飞行，挑战波音与空客；美国林肯号航母因长期部署暴露官兵生活条件问题。",
-   "papers_summary": "研究涉及脑电信号解码、可视化研究贡献声明、神经内分泌肿瘤预后模型等，展现跨学科进展。"
+   "brief": "今日重点包括韩国股市暴跌重创散户、台湾前总统女儿陈幸妤离婚事件、中国国产客机C919首飞国际航线，以及美国航母林肯号官兵人道状况等新闻；研究方面关注可视化与伦理问题。",
+   "news_summary": "韩国股市调整令散户惨亏，C919完成首次国际商业航班，陈幸妤离婚引发媒体伦理反思，而美国林肯号航母官兵面临人道问题。",
+   "papers_summary": "研究显示超过63%的IEEE VIS论文可能面临撤稿风险，另有关于脑电图解码和贡献声明的探讨。"
   }
  },
  "todays_image": {
-  "caption": "A vintage camera from Andersen’s studio froze fleeting moments in time, just as Selena Gomez’s lawsuit now tries to freeze who gets to frame her public image.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-E6355D1642602_4001-000002",
-  "source_name": "National Museum of African American History and Culture",
-  "source_url": "https://nmaahc.si.edu/object/nmaahc_2007.1.1.1",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-E6355D1642602_4001-000002",
-  "title": "Camera from the studio of H.C. Anderson"
+  "caption": "Like a model aircraft carrier showcasing a mighty vessel, Trump's Supreme Court bid seeks to keep the vast enterprise of his ballroom work afloat.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19830024000-NASM2018-10027",
+  "source_name": "National Air and Space Museum",
+  "source_url": "http://n2t.net/ark:/65665/nv9aba2da94-05c6-4161-9a40-455407b2163e",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19830024000-NASM2018-10027",
+  "title": "Model, Aircraft Carrier, USS Enterprise"
  }
 }

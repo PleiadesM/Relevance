@@ -2,6 +2,32 @@
  "items": [
   {
    "authors": [
+    "Lonni Besançon",
+    "Tobias Isenberg"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "We analyzed the ethics reporting in 255 IEEE VIS papers from 2024 and 2025, as published in TVCG. This analysis arose from our experience as readers and reviewers of IEEE VIS papers that such reporting is frequently incomplete or missing, as well as from investigations in which we ourselves had to answer challenges regarding ethics approval in our own work. Visualization research naturally often involves human participants, yet ethics approval and informed-consent procedures are not always…",
+    "arxiv_id": "2608.13295"
+   },
+   "id": "30f44523ef6c5172",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-13T14:26:23Z",
+   "score": 0.5196,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "We analyzed the ethics reporting in 255 IEEE VIS papers from 2024 and 2025, as published in TVCG. This analysis arose from our experience as readers and reviewers of IEEE VIS papers that such reporting is frequently incomplete or missing, as well as from investigations in which we ourselves had to…",
+   "tags": [
+    "eval-study"
+   ],
+   "title": "More Than 63% of IEEE VIS Research Liable to be Retracted?! Ethics Approval Statements Protect Participants (and Researchers!)",
+   "url": "https://arxiv.org/abs/2608.13295v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
     "Athanasios Karagounis"
    ],
    "category": "optional",
@@ -13,7 +39,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T14:20:51Z",
-   "score": 0.6796,
+   "score": 0.6717,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -34,24 +60,54 @@
    "category": "optional",
    "extra": {
     "abstract_snippet": "Contribution statements are an increasingly common way to make research labor visible, reduce academic malfeasance, and provide broader transparency. Despite this potential value, they remain uncommon in visualization and HCI. To explore this gap, we conducted an online study with (N=21) visualization and HCI researchers. We find a range of differing opinions about the utility of contribution statements, which are set against a background of tensions relating to contribution frameworks that…",
+    "also_in": [
+     {
+      "source": "arXiv cs.HC (writing & docs)",
+      "url": "https://arxiv.org/abs/2608.12792v1"
+     }
+    ],
     "arxiv_id": "2608.12792"
    },
    "id": "4464bb3e7f130d82",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T03:53:53Z",
-   "score": 0.6413,
+   "score": 0.6744,
    "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
    "summary": "Contribution statements are an increasingly common way to make research labor visible, reduce academic malfeasance, and provide broader transparency. Despite this potential value, they remain uncommon in visualization and HCI. To explore this gap, we conducted an online study with (N=21)…",
    "tags": [
-    "ai-writing",
     "visualization"
    ],
    "title": "Considering Contribution Statements in Visualization and HCI Research",
    "url": "https://arxiv.org/abs/2608.12792v1",
    "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Hakan Üstünel"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "This study introduces the spatial and analytical construction of the Quartic Overhauser (QOVR) surface generation framework designed to resolve boundary alignment and localized shape modification constraints. This framework implements a variable parameter fourth degree novel architecture to achieve exact parameter isolation across orthogonal coordinate axes. The analytical pipeline integrates directional spline blending functions with symmetric spatial control matrices, ensuring that internal…",
+    "arxiv_id": "2608.12697"
+   },
+   "id": "2cdc53f2efd36fa4",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-13T01:20:42Z",
+   "score": 0.6659,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "This study introduces the spatial and analytical construction of the Quartic Overhauser (QOVR) surface generation framework designed to resolve boundary alignment and localized shape modification constraints. This framework implements a variable parameter fourth degree novel architecture to achieve…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Matrix-Driven Quartic Overhauser (QOVR) Surfaces Structural Framework: Continuity Limitations, Computer Graphics Algorithms, and Software Implementation",
+   "url": "https://arxiv.org/abs/2608.12697v1",
+   "venue": "arXiv cs.GR"
   },
   {
    "authors": [
@@ -67,7 +123,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4869,
+   "score": 0.4818,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -96,7 +152,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4869,
+   "score": 0.4818,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -126,7 +182,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4869,
+   "score": 0.4818,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -151,7 +207,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4869,
+   "score": 0.4818,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -180,7 +236,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.3494,
+   "score": 0.3443,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -209,7 +265,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4869,
+   "score": 0.4818,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -238,7 +294,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4869,
+   "score": 0.4818,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -264,7 +320,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.3494,
+   "score": 0.3443,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -293,7 +349,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4869,
+   "score": 0.4818,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -323,7 +379,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4869,
+   "score": 0.4818,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -351,7 +407,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4869,
+   "score": 0.4818,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -380,7 +436,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.3494,
+   "score": 0.3443,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -409,7 +465,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4869,
+   "score": 0.4818,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -434,7 +490,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4869,
+   "score": 0.4818,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -459,7 +515,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4869,
+   "score": 0.4818,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -484,7 +540,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.3494,
+   "score": 0.3443,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -513,7 +569,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.3494,
+   "score": 0.3443,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -538,7 +594,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T20:52:59Z",
-   "score": 0.7582,
+   "score": 0.7518,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -566,7 +622,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T19:36:49Z",
-   "score": 0.4217,
+   "score": 0.4154,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -595,7 +651,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T16:32:52Z",
-   "score": 0.6048,
+   "score": 0.5988,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -626,7 +682,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T14:55:46Z",
-   "score": 0.74,
+   "score": 0.7341,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -653,7 +709,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T08:37:44Z",
-   "score": 0.5821,
+   "score": 0.5766,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -667,225 +723,103 @@
   },
   {
    "authors": [
-    "Ana Carla Correia",
-    "Thifany Souza",
-    "Ana Carolina Correia",
-    "Nivan Ferreira"
+    "Zheng Wang",
+    "Zhiyang Shen",
+    "Lingyun Yu",
+    "Shixia Liu"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Cell migration is a biological process involved in various physiological and pathological phenomena. Advances in microscopy have generated large, multimodal datasets on cellular movement, whose complexity challenges analysis. Data visualization offers powerful tools to explore such data, but the development of effective tools is often hindered by the lack of structured analytical requirements and a shared vocabulary between visualization specialists and domain experts. This article addresses…",
-    "arxiv_id": null,
-    "citations": 0,
-    "doi": "10.1111/cgf.70589"
+    "abstract_snippet": "Compositing multiple visualizations into a coherent whole remains challenging due to the vast design space and the need to balance the coverage of task-relevant data insights (e.g., trends and outliers), perceptual clarity, and aesthetic quality. In this paper, we present VisPuzzle, a task-aware method that formulates visualization composition as a stepwise search problem over a composition graph. In this graph, nodes represent either data composition operations (e.g., union, join) or visual…",
+    "arxiv_id": "2608.11635"
    },
-   "id": "8f338b828248f8b1",
+   "id": "5f17edca4dad11d4",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-12T00:00:00Z",
-   "score": 0.4187,
+   "published_at": "2026-08-12T04:32:08Z",
+   "score": 0.6059,
    "section": "papers",
-   "source": "Semantic Scholar · data visualization",
-   "source_id": "s2_datavis",
-   "summary": "Cell migration is a biological process involved in various physiological and pathological phenomena. Advances in microscopy have generated large, multimodal datasets on cellular movement, whose complexity challenges analysis. Data visualization offers powerful tools to explore such data, but the…",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Compositing multiple visualizations into a coherent whole remains challenging due to the vast design space and the need to balance the coverage of task-relevant data insights (e.g., trends and outliers), perceptual clarity, and aesthetic quality. In this paper, we present VisPuzzle, a task-aware…",
    "tags": [
-    "systems",
     "visualization"
    ],
-   "title": "Cell‐Migration Visualization: Task Taxonomy, Systematic Review and Research Agenda",
-   "url": "https://www.semanticscholar.org/paper/a6c5e89563a94d381f756c5d906e08964c4ee41a",
-   "venue": "Computer graphics forum (Print)"
+   "title": "VisPuzzle: Task-Aware Composite Visualization Construction",
+   "url": "https://arxiv.org/abs/2608.11635v1",
+   "venue": "arXiv cs.HC"
   },
   {
    "authors": [
-    "Liang Zhang",
-    "Xin Lai"
+    "Ziyao Kang",
+    "Yiping Sun",
+    "Linxuan Tian",
+    "Henghuan Qu",
+    "Wei Zeng",
+    "Jiazhi Xia"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "The exponential growth of data in biomedicine has created an urgent need for intuitive visualization tools. These tools should effectively represent complex biological networks and remain accessible to domain experts without extensive computational training. Current network visualization approaches often require specialized programming skills and/or cannot handle the scale and complexity of modern biomedical datasets, which creates significant barriers to biological discovery. We develop…",
-    "arxiv_id": null,
-    "citations": 0,
-    "doi": "10.64898/2026.01.20.700593"
+    "abstract_snippet": "Natural language offers an easy way for users to express chart editing intents, which are often composite and cross-component (e.g., adjusting style, extending categories, highlighting values). However, existing methods typically map instructions to a single operation or widget, limiting their ability to handle high-level requests and often producing locally plausible but globally inconsistent results due to a lack of awareness of relationships between chart components. To address these…",
+    "arxiv_id": "2608.11581"
    },
-   "id": "c82c0be3828816ba",
+   "id": "afea3052142025b0",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-11T00:00:00Z",
-   "score": 0.4786,
+   "published_at": "2026-08-12T02:40:09Z",
+   "score": 0.4088,
    "section": "papers",
-   "source": "Semantic Scholar · data visualization",
-   "source_id": "s2_datavis",
-   "summary": "The exponential growth of data in biomedicine has created an urgent need for intuitive visualization tools. These tools should effectively represent complex biological networks and remain accessible to domain experts without extensive computational training. Current network visualization approaches…",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Natural language offers an easy way for users to express chart editing intents, which are often composite and cross-component (e.g., adjusting style, extending categories, highlighting values). However, existing methods typically map instructions to a single operation or widget, limiting their…",
    "tags": [
     "visualization"
    ],
-   "title": "RingNet: An Interactive Platform for Multi-Modal Data Visualization in Networks",
-   "url": "https://www.semanticscholar.org/paper/e95420ce41c33a3f2740aa75ed499449610bc6e7",
-   "venue": "bioRxiv"
+   "title": "RAGE-Vis:A Relation-Aware Generative Editing Interface for Natural Language-Based Chart Editing",
+   "url": "https://arxiv.org/abs/2608.11581v1",
+   "venue": "arXiv cs.HC"
   },
   {
    "authors": [
-    "Magdaléna Kejstová",
-    "Simone Kriglstein"
+    "Omar Khan",
+    "JooYoung Seo"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "People encounter data visualizations daily, yet visualization literacy, the ability to read, construct, and critically assess charts, remains rarely taught in formal education. Games offer engaging, feedback-rich environments for practicing these skills. This paper presents a two-phase systematic review that connects general educational game research with visualization literacy games. Phase 1 synthesizes 97 reviews of educational and serious games, mapping dominant design and evaluation…",
-    "arxiv_id": null,
-    "citations": 0,
-    "doi": "10.1145/3815598.3815609"
+    "abstract_snippet": "Qualitative data visualizations -- concept maps, network graphs, Sankey diagrams, and coding stripes -- are integral to research practice, yet remain entirely inaccessible to blind and low-vision (BLV) researchers. While visualization has seen advanced multimodal solutions for quantitative charts, qualitative visualizations, and their non-linear, semantically rich structures have received no attention. We present QUARTZ, a web-based system that provides screen-reader-accessible, multimodal…",
+    "arxiv_id": "2608.11364"
    },
-   "id": "67b48abcc1433dcc",
+   "id": "aba1a350e98739f6",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.4259,
+   "published_at": "2026-08-11T19:15:54Z",
+   "score": 0.7236,
    "section": "papers",
-   "source": "Semantic Scholar · data visualization",
-   "source_id": "s2_datavis",
-   "summary": "People encounter data visualizations daily, yet visualization literacy, the ability to read, construct, and critically assess charts, remains rarely taught in formal education. Games offer engaging, feedback-rich environments for practicing these skills. This paper presents a two-phase systematic…",
-   "tags": [
-    "systems",
-    "visualization"
-   ],
-   "title": "Playing with Data: A Systematic Review of Games for Visualization Literacy",
-   "url": "https://www.semanticscholar.org/paper/04d10ec36c2029e98649b6480d7ad2201a9ccbd3",
-   "venue": "International Conference on Foundations of Digital Games"
-  },
-  {
-   "authors": [
-    "Mia Hines",
-    "Alvitta Ottley"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Public health organizations regularly produce and publish data visualizations to raise awareness of critical issues, influence decision-making processes, and promote overall well-being. However, the design practices shaping these visualizations in real-world settings remain largely unexamined, limiting the research community's ability to evaluate their effectiveness, accessibility, and alignment with communication goals. To address this gap, we construct and analyze a large-scale corpus of over…",
-    "arxiv_id": "2608.08657",
-    "citations": 0,
-    "doi": null
-   },
-   "id": "86a687e2645a9949",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-09T00:00:00Z",
-   "score": 0.4259,
-   "section": "papers",
-   "source": "Semantic Scholar · data visualization",
-   "source_id": "s2_datavis",
-   "summary": "Public health organizations regularly produce and publish data visualizations to raise awareness of critical issues, influence decision-making processes, and promote overall well-being. However, the design practices shaping these visualizations in real-world settings remain largely unexamined,…",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Qualitative data visualizations -- concept maps, network graphs, Sankey diagrams, and coding stripes -- are integral to research practice, yet remain entirely inaccessible to blind and low-vision (BLV) researchers. While visualization has seen advanced multimodal solutions for quantitative charts,…",
    "tags": [
     "visualization"
    ],
-   "title": "Charting Public Health: A Taxonomic Study of Visualization Practices in the Public Health Field",
-   "url": "https://www.semanticscholar.org/paper/cd16e1f70ed412b8a74b798e8ec32fcd72148dce",
-   "venue": null
-  },
-  {
-   "authors": [
-    "Paul C. Parsons",
-    "Colin M. Gray",
-    "Ali Baigelenov"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Data visualization research has developed many influential forms of design knowledge, including perceptual principles, design guidelines, process models, and formalized representations of design constraints. These contributions have been effective at articulating explicit, portable, and codified forms of knowledge. Yet the broader landscape on which visualization design depends remains less clearly articulated, especially with respect to intermediate-level knowledge, precedents, tacit…",
-    "arxiv_id": "2608.08270",
-    "citations": 1,
-    "doi": null
-   },
-   "id": "509f1c6ec2839cc5",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-08T00:00:00Z",
-   "score": 0.434,
-   "section": "papers",
-   "source": "Semantic Scholar · data visualization",
-   "source_id": "s2_datavis",
-   "summary": "Data visualization research has developed many influential forms of design knowledge, including perceptual principles, design guidelines, process models, and formalized representations of design constraints. These contributions have been effective at articulating explicit, portable, and codified…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "Design Knowledge in Data Visualization: Mapping the Epistemic Landscape",
-   "url": "https://www.semanticscholar.org/paper/f4a99c3078a1cc143dfd0758776938d0b17e6704",
-   "venue": null
-  },
-  {
-   "authors": [
-    "Haodi Zhang",
-    "Xiaohui Tang",
-    "Yuanfeng Song"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "In the era of big data, effectively leveraging vast amounts of data is one of the major challenges across industries, especially in data visualization, which helps decision-makers intuitively understand data. However, many existing data visualization tools require users to have certain technical skills, posing a barrier for users without a technical background. With the widespread use of voice interfaces, particularly smart assistants, the task of converting voice queries into data…",
-    "arxiv_id": null,
-    "citations": 0,
-    "doi": "10.1145/3770855.3818209"
-   },
-   "id": "3b69503af8a16f0b",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-08T00:00:00Z",
-   "score": 0.4089,
-   "section": "papers",
-   "source": "Semantic Scholar · data visualization",
-   "source_id": "s2_datavis",
-   "summary": "In the era of big data, effectively leveraging vast amounts of data is one of the major challenges across industries, especially in data visualization, which helps decision-makers intuitively understand data. However, many existing data visualization tools require users to have certain technical…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "SD-DVQ: Semantic-Driven Data Visualization Query Generation from Speech Queries",
-   "url": "https://www.semanticscholar.org/paper/c96e904dfd162d7f9f553c580b1fb2523eb1cc37",
-   "venue": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2"
-  },
-  {
-   "authors": [
-    "Paul C. Parsons",
-    "P. Shukla",
-    "Phuong Bui",
-    "Srishti Agrawal",
-    "Ali Baigelenov"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Visualization design often proceeds under unresolved conditions---goals shift, data remain provisional, stakeholder needs evolve, and several plausible directions may remain available at once. Existing visualization frameworks help organize design work and articulate major decisions, yet offer limited explanation of how practitioners proceed before a path forward has become clear. Drawing on an episode-level analysis of a previously collected three-phase qualitative corpus involving eleven…",
-    "arxiv_id": "2608.08274",
-    "citations": 1,
-    "doi": null
-   },
-   "id": "77a9bdaff9f4cdd8",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-08T00:00:00Z",
-   "score": 0.334,
-   "section": "papers",
-   "source": "Semantic Scholar · data visualization",
-   "source_id": "s2_datavis",
-   "summary": "Visualization design often proceeds under unresolved conditions---goals shift, data remain provisional, stakeholder needs evolve, and several plausible directions may remain available at once. Existing visualization frameworks help organize design work and articulate major decisions, yet offer…",
-   "tags": [
-    "systems",
-    "visualization"
-   ],
-   "title": "Situatedness in Visualization Design: Making Unresolved Work Actionable",
-   "url": "https://www.semanticscholar.org/paper/17b659784acda5b17a4682f4df622ae98bace994",
-   "venue": null
+   "title": "QUARTZ: Qualitative Understanding via Accessible Representation and Visualization",
+   "url": "https://arxiv.org/abs/2608.11364v1",
+   "venue": "arXiv cs.HC"
   }
  ],
  "meta": {
-  "count": 31,
-  "generated_at": "2026-08-14T17:09:00Z",
+  "count": 29,
+  "generated_at": "2026-08-14T19:11:22Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
    {
     "category": "optional",
-    "count": 0,
-    "error": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60 (Caus",
+    "count": 6,
+    "error": null,
     "full_text_count": 0,
     "id": "arxiv_datavis",
     "name": "arXiv cs.HC + cs.GR",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
@@ -904,7 +838,7 @@
    },
    {
     "category": "optional",
-    "count": 30,
+    "count": 0,
     "error": null,
     "full_text_count": 0,
     "id": "s2_datavis",
@@ -917,7 +851,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-17&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-07-17&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",

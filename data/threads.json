@@ -1,102 +1,18 @@
 {
  "meta": {
-  "count": 5,
-  "generated_at": "2026-08-14T17:09:00Z",
+  "count": 2,
+  "generated_at": "2026-08-14T19:11:22Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "88c81070f4e6088b",
-     "phrase": {
-      "en": "frame as infrastructure crisis",
-      "zh": "视为基础设施危机"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/14/world/europe/heat-trains-transportation-roads.html"
-    },
-    {
-     "item_id": "a7b9431f7ab7bc0b",
-     "phrase": {
-      "en": "frame as arson and emergency",
-      "zh": "聚焦纵火与应急"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/14/arrested-suspicion-starting-wildfires-europe-france"
-    },
-    {
-     "item_id": "3734fcaf9431f11e",
-     "phrase": {
-      "en": "visualizes heat and fires",
-      "zh": "呈现热浪与火灾"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/14/world/europe/europe-heat-wave-photos.html"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Europe's rails and roads, built for a cooler past, buckle under heat and fire.",
-    "zh": "欧洲的铁路公路为凉爽过去而建，如今在高温野火中不堪重负。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "European heat crisis",
-    "zh": "欧洲热浪危机"
-   },
-   "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-08-14",
-     "item_id": "88c81070f4e6088b",
-     "label": {
-      "en": "transport struggles",
-      "zh": "交通陷入困境"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/14/world/europe/heat-trains-transportation-roads.html"
-    },
-    {
-     "date": "2026-08-14",
-     "item_id": "a7b9431f7ab7bc0b",
-     "label": {
-      "en": "wildfires rage",
-      "zh": "野火肆虐"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/14/arrested-suspicion-starting-wildfires-europe-france"
-    },
-    {
-     "date": "2026-08-14",
-     "item_id": "3734fcaf9431f11e",
-     "label": {
-      "en": "heat hammers Europe",
-      "zh": "热浪冲击欧洲"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/14/world/europe/europe-heat-wave-photos.html"
-    }
-   ],
-   "why_now": {
-    "en": "You track climate data: today's reports show heat and wildfires straining infrastructure, a concrete sign of changing systems.",
-    "zh": "你关注气候数据，今日报道显示高温野火冲击基础设施，是系统变化的切实信号。"
-   }
-  },
-  {
-   "angles": [
-    {
      "full_text_file": "articles/news/8cd31b4266e8d002.json",
      "item_id": "8cd31b4266e8d002",
      "phrase": {
-      "en": "announces new setting",
-      "zh": "宣布新设置"
+      "en": "Google allows removing watermarks",
+      "zh": "谷歌允许移除水印"
      },
      "section": "news",
      "source": "The Verge · AI",
@@ -105,149 +21,67 @@
     {
      "item_id": "1c4a07ca0da5534a",
      "phrase": {
-      "en": "debates disclosure effects",
-      "zh": "探讨披露效果"
+      "en": "disclosure reduces persuasion",
+      "zh": "披露降低说服力"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
      "url": "https://arxiv.org/abs/2608.11794v1"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "divergent",
    "gloss": {
-    "en": "Google lets you delete Gemini's visible watermarks—trust in provenance gets fuzzier.",
-    "zh": "谷歌允许用户移除Gemini可见水印，内容来源信任变得更模糊。"
+    "en": "Google now lets users strip AI-made marks, easing provenance tracking.",
+    "zh": "谷歌允许用户移除AI生成内容的水印，溯源变难。"
    },
-   "id": "t2",
+   "id": "t1",
    "keyword": {
     "en": "AI watermark removal",
     "zh": "AI水印移除"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about provenance and visual rhetoric: toggling off watermarks changes how we read AI media.",
-    "zh": "你关注来源追溯与视觉修辞，关闭水印将改变我们解读AI媒体的方式。"
+    "en": "You care about AI transparency: this move directly affects content provenance and trust.",
+    "zh": "你关注AI透明度，这一变化直接影响内容溯源与信任。"
    }
   },
   {
    "angles": [
     {
-     "full_text_file": "articles/news/07376730c1b6825b.json",
-     "item_id": "07376730c1b6825b",
+     "item_id": "acbfbfd4b1348041",
      "phrase": {
-      "en": "frames as price war",
-      "zh": "视为价格战"
-     },
-     "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/"
-    },
-    {
-     "item_id": "f164d2ccf3f88adb",
-     "phrase": {
-      "en": "critique of AI labs",
-      "zh": "批评AI实验室"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://weightythoughts.com/p/when-genius-failsthe-intellectual"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "OpenAI and Anthropic cut prices as Chinese rivals rise—AI commoditizes fast.",
-    "zh": "OpenAI和Anthropic降价以应对中国对手，AI迅速商品化。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "AI price war",
-    "zh": "AI价格战"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow LLM economics: today's price moves signal a market shift toward cheaper models.",
-    "zh": "你关注大模型经济，今日价格变动指示市场向更便宜模型转变。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "1c4a07ca0da5534a",
-     "phrase": {
-      "en": "transparency reduces persuasion",
-      "zh": "透明减少说服"
+      "en": "clinical RAG matches frontier",
+      "zh": "临床RAG匹敌前沿"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.11794v1"
+     "url": "https://arxiv.org/abs/2608.12138v1"
     },
     {
-     "full_text_file": "articles/news/8cd31b4266e8d002.json",
-     "item_id": "8cd31b4266e8d002",
+     "item_id": "e9c1b938ad1206c8",
      "phrase": {
-      "en": "optional watermark setting",
-      "zh": "可选水印设置"
+      "en": "verifier for GPU kernels",
+      "zh": "GPU内核验证器"
      },
      "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal"
+     "source": "Hacker News (AI filter)",
+     "url": "https://arxiv.org/abs/2608.12700"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Disclosing AI intent reduces persuasion—but the industry blurs its own lines.",
-    "zh": "披露AI意图能减少说服效果，但业界却在模糊界线。"
+    "en": "New benchmarks show specialized systems still rival frontier models.",
+    "zh": "新基准显示专用系统仍可与前沿模型匹敌。"
    },
-   "id": "t4",
+   "id": "t2",
    "keyword": {
-    "en": "AI transparency",
-    "zh": "AI透明度"
-   },
-   "relates_to": [
-    "t2"
-   ],
-   "why_now": {
-    "en": "You study HCI and ethics: new arXiv paper finds transparency matters, while Google's watermark toggle cuts against it.",
-    "zh": "你研究人机交互与伦理，新论文发现透明度重要，而谷歌移水印与之相悖。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "b1e22db5844eb5e6",
-     "phrase": {
-      "en": "uses CNN and LSTM",
-      "zh": "结合CNN与LSTM"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.13285v1"
-    },
-    {
-     "item_id": "10a79c3bcfc176ff",
-     "phrase": {
-      "en": "explores brain data",
-      "zh": "探索脑数据"
-     },
-     "section": "papers",
-     "source": "OpenAlex · information visualization",
-     "url": "https://doi.org/10.5281/zenodo.17568649"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Brain signals decode thoughts—bridging neural activity to external devices.",
-    "zh": "脑信号解码思想，连接神经活动与外部设备。"
-   },
-   "id": "t5",
-   "keyword": {
-    "en": "BCI and embodied cognition",
-    "zh": "脑机接口与具身认知"
+    "en": "LLM evaluation",
+    "zh": "LLM评估"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You're into embodied AI: the EEG decoding paper pushes toward direct brain-computer links.",
-    "zh": "你关注具身AI，EEG解码研究推动直接脑机连接。"
+    "en": "You track LLM capabilities: these results challenge the assumption that bigger is always better.",
+    "zh": "你关注LLM能力，这些结果挑战了越大越好的假设。"
    }
   }
  ]
