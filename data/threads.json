@@ -1,0 +1,191 @@
+{
+ "meta": {
+  "count": 3,
+  "generated_at": "2026-08-14T15:05:40Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "full_text_file": "articles/news/07376730c1b6825b.json",
+     "item_id": "07376730c1b6825b",
+     "phrase": {
+      "en": "frames as competition",
+      "zh": "视为竞争"
+     },
+     "section": "news",
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/"
+    },
+    {
+     "item_id": "8d25f1a55102b94a",
+     "phrase": {
+      "en": "frames as local AI",
+      "zh": "本地AI"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://hashagent.pages.dev/"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "OpenAI and Anthropic slash prices as Chinese rivals rise.",
+    "zh": "OpenAI和Anthropic降价，中国对手崛起。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI price war",
+    "zh": "AI价格战"
+   },
+   "relates_to": [
+    "t2"
+   ],
+   "timeline": [
+    {
+     "date": "2025-11",
+     "label": {
+      "en": "Chinese models surge",
+      "zh": "中国模型崛起"
+     }
+    },
+    {
+     "date": "2026-03",
+     "label": {
+      "en": "OpenAI price cut",
+      "zh": "OpenAI降价"
+     }
+    },
+    {
+     "date": "2026-08-14",
+     "full_text_file": "articles/news/07376730c1b6825b.json",
+     "item_id": "07376730c1b6825b",
+     "label": {
+      "en": "price war escalates",
+      "zh": "价格战升级"
+     },
+     "section": "news",
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/"
+    }
+   ],
+   "why_now": {
+    "en": "You follow AI: today's pricing moves signal a market shift.",
+    "zh": "你关注AI，今日定价变动预示市场转变。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "8d25f1a55102b94a",
+     "phrase": {
+      "en": "frames as tech demo",
+      "zh": "技术展示"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://hashagent.pages.dev/"
+    },
+    {
+     "full_text_file": "articles/news/07376730c1b6825b.json",
+     "item_id": "07376730c1b6825b",
+     "phrase": {
+      "en": "frames as cloud battle",
+      "zh": "云端竞争"
+     },
+     "section": "news",
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "AI agents run in your browser via WebGPU, no cloud needed.",
+    "zh": "AI代理在浏览器本地运行，无需云端。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "local AI agents",
+    "zh": "本地AI代理"
+   },
+   "relates_to": [
+    "t1"
+   ],
+   "why_now": {
+    "en": "You care about embodied AI: local agents offer privacy and speed.",
+    "zh": "你关注具身AI，本地代理更隐私更快速。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "88c81070f4e6088b",
+     "phrase": {
+      "en": "transport not adapted",
+      "zh": "交通未适应"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/14/world/europe/heat-trains-transportation-roads.html"
+    },
+    {
+     "item_id": "a7b9431f7ab7bc0b",
+     "phrase": {
+      "en": "wildfire human cause",
+      "zh": "野火人为"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/14/arrested-suspicion-starting-wildfires-europe-france"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Europe's transport and cities fail under heatwaves and floods.",
+    "zh": "欧洲交通与城市在热浪洪水中不堪重负。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "climate infrastructure",
+    "zh": "气候基础设施"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-12",
+     "label": {
+      "en": "heatwave peaks",
+      "zh": "热浪高峰"
+     }
+    },
+    {
+     "date": "2026-08-14",
+     "item_id": "88c81070f4e6088b",
+     "label": {
+      "en": "rail failures",
+      "zh": "铁路故障"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/14/world/europe/heat-trains-transportation-roads.html"
+    },
+    {
+     "date": "2026-08-14",
+     "item_id": "a7b9431f7ab7bc0b",
+     "label": {
+      "en": "wildfire arrests",
+      "zh": "野火逮捕"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/14/arrested-suspicion-starting-wildfires-europe-france"
+    }
+   ],
+   "why_now": {
+    "en": "You follow data visualization of climate: infrastructure data shows strain.",
+    "zh": "你关注气候数据可视化，基础设施数据显压力。"
+   }
+  }
+ ]
+}

@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "query": "(\"sand sculpture contest\" OR \"sandcastle competition winners\")",
   "source": {
-   "name": "wror.com",
-   "published_at": "2026-08-10T16:45:00Z",
-   "title": "Topsfield Fair Opens Entries for 2026 Competitions , Promotes $20K Pumpkin Prize",
-   "url": "https://wror.com/2026/08/10/topsfield-fair-opens-entries-for-2026-competitions-promotes-20k-pumpkin-prize/"
+   "name": "shorelinemedia.net",
+   "published_at": "2026-08-13T02:45:00Z",
+   "title": "96th Annual Pentwater Homecoming",
+   "url": "https://www.shorelinemedia.net/ludington_daily_news/news/96th-annual-pentwater-homecoming/article_5bf4c7da-9fcb-4b6f-875a-53f99a35dcf8.html"
   },
   "summaries": {
    "en": {
-    "summary": "Topsfield Fair opens entries for 2026 competitions, promoting a $20K prize for the largest pumpkin.",
-    "why_irrelevant": "A niche agricultural contest far removed from typical daily feeds."
+    "summary": "The 96th Annual Pentwater Homecoming celebrates a lakeside town's parade, fireworks, and community gatherings in August 2026.",
+    "why_irrelevant": "A niche local event unrelated to your usual tech and finance topics."
    },
    "zh": {
-    "summary": "托普斯菲尔德博览会开放2026年比赛报名，为最大南瓜设立2万美元奖金。",
-    "why_irrelevant": "一个小众的农业竞赛，远离日常信息流。"
+    "summary": "2026年8月，彭特沃特镇举办第96届返乡节，包括游行、烟花和社区聚会。",
+    "why_irrelevant": "与您常看的科技和财经话题无关的地方盛事。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "competitive sandcastle building championships"
  },
- "brief": "Today's news spans from a Supreme Court appeal for a dog to extreme weather events in Europe and Japan, while papers highlight ethical concerns in visualization research and advancements in EEG decoding and image manipulation detection.",
+ "brief": "Today's news spans from local derailments and wildfire risks to international political maneuvers and an art heist recovery, while research papers focus on ethics in visualization and diverse scientific studies.",
  "meta": {
-  "generated_at": "2026-08-14T13:38:56Z"
+  "generated_at": "2026-08-14T15:05:40Z"
  },
- "news_summary": "Headlines include a dog's Supreme Court appeal, USS George Washington deployment, discovery of gold in Belgium, wildfires in Europe, Farage's by-election win, Mangione's court appearance, and climate-related disasters in Japan and Europe.",
- "papers_summary": "Research focuses on ethics in visualization (high retraction risk), EEG decoding with CNN/LSTM, contribution statements in HCI, Quartic Overhauser surfaces, and machine learning for COVID-19 symptoms.",
+ "news_summary": "Key stories include a train derailment in Essex, UK wildfire concerns prompting a barbecue ban, Luigi Mangione's court appearance over a health executive's killing, recovered Cézanne and Renoir paintings, and geopolitical tensions involving Russia, Iran, and China.",
+ "papers_summary": "Research highlights include a study on ethics approval in IEEE VIS papers, EEG decoding with CNNs and LSTMs, contribution statements in HCI, and various medical and biological studies.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans from a Supreme Court appeal for a dog to extreme weather events in Europe and Japan, while papers highlight ethical concerns in visualization research and advancements in EEG decoding and image manipulation detection.",
-   "news_summary": "Headlines include a dog's Supreme Court appeal, USS George Washington deployment, discovery of gold in Belgium, wildfires in Europe, Farage's by-election win, Mangione's court appearance, and climate-related disasters in Japan and Europe.",
-   "papers_summary": "Research focuses on ethics in visualization (high retraction risk), EEG decoding with CNN/LSTM, contribution statements in HCI, Quartic Overhauser surfaces, and machine learning for COVID-19 symptoms."
+   "brief": "Today's news spans from local derailments and wildfire risks to international political maneuvers and an art heist recovery, while research papers focus on ethics in visualization and diverse scientific studies.",
+   "news_summary": "Key stories include a train derailment in Essex, UK wildfire concerns prompting a barbecue ban, Luigi Mangione's court appearance over a health executive's killing, recovered Cézanne and Renoir paintings, and geopolitical tensions involving Russia, Iran, and China.",
+   "papers_summary": "Research highlights include a study on ethics approval in IEEE VIS papers, EEG decoding with CNNs and LSTMs, contribution statements in HCI, and various medical and biological studies."
   },
   "zh": {
-   "brief": "今日新闻聚焦中国国产大飞机C919首次国际商业飞行，以及台湾前总统陈水扁女儿陈幸妤离婚事件引发媒体伦理反思；论文方面，研究揭示IEEE VIS论文伦理审查缺失，以及脑电信号解码、图像编辑检测等多项进展。",
-   "news_summary": "C919完成首条国际航线，挑战波音空客；陈幸妤离婚案重提20年前媒体伦理；美军航母曝出补给危机，另有关于中国规避关税及青年就业等国内外重要新闻。",
-   "papers_summary": "研究发现超63%的IEEE VIS论文缺乏伦理审批声明，另有多项关于可视化、图像编辑检测及以儿童为对象的心理学研究。"
+   "brief": "今日要闻聚焦韓國股市暴跌、C919首飛國際航線、AI對青年就業的衝擊及美軍航母人道危機；研究方面則揭露IEEE VIS倫理審查缺失、腦電圖解碼新進展與可解釋機器學習在醫學上的應用。",
+   "news_summary": "韓國股市重創散戶，C919挑戰國際市場，AI加劇青年就業壓力，美軍航母爆出人道問題，朱鎔基辭世引發兩岸討論。",
+   "papers_summary": "研究顯示多數IEEE VIS論文缺乏倫理審查，另有腦電圖解碼與可解釋機器學習在醫學上的創新應用。"
   }
  },
  "todays_image": {
-  "caption": "Both the fire engine plate and Bruce's Supreme Court appeal are urgent calls for rescue, one frozen in metal and the other in legal briefs.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q00827",
+  "caption": "The railroad accident derailed early faith in locomotives, just as Korea's stock crash derails retail investors' hopes in the market.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-2003-24804-000001",
   "source_name": "National Museum of American History",
   "source_url": null,
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q00827&max=150",
-  "title": "Fire Engine Plate, \"HIBERNIA\""
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-2003-24804-000001&max=150",
+  "title": "Accident on the Camden and Amboy Railroad"
  }
 }

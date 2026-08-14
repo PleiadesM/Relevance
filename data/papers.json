@@ -14,7 +14,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T14:26:23Z",
-   "score": 0.5414,
+   "score": 0.5355,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -39,7 +39,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T14:20:51Z",
-   "score": 0.6935,
+   "score": 0.6877,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -72,7 +72,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T03:53:53Z",
-   "score": 0.6936,
+   "score": 0.6885,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -97,7 +97,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T01:20:42Z",
-   "score": 0.6846,
+   "score": 0.6796,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -108,6 +108,227 @@
    "title": "Matrix-Driven Quartic Overhauser (QOVR) Surfaces Structural Framework: Continuity Limitations, Computer Graphics Algorithms, and Software Implementation",
    "url": "https://arxiv.org/abs/2608.12697v1",
    "venue": "arXiv cs.GR"
+  },
+  {
+   "authors": [
+    "Yaara Diamant Karasik"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "ExSeq Brain AD - Spatial Genomics Data Explorer & Analysis Scripts This repository contains an interactive web-based data explorer, Xenium HTML viewers, and computational analysis pipelines for spatial transcriptomics data from the ExSeq Brain AD study. 🚀 Data Explorer The full interactive data explorer is available via GitHub Pages: 👉 https://yaara-dev.github.io/early-AD-data-code/ Click the link above to explore the spatial genomics data with interactive 2D and 3D visualizations, filtering…",
+    "citations": 0,
+    "doi": "10.5281/zenodo.17568649"
+   },
+   "id": "10a79c3bcfc176ff",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-13T00:00:00Z",
+   "score": 0.4923,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "ExSeq Brain AD - Spatial Genomics Data Explorer & Analysis Scripts This repository contains an interactive web-based data explorer, Xenium HTML viewers, and computational analysis pipelines for spatial transcriptomics data from the ExSeq Brain AD study. 🚀 Data Explorer The full interactive data…",
+   "tags": [],
+   "title": "yaara-dev/early-AD-data-code: early-AD-data-code 1.2.3",
+   "url": "https://doi.org/10.5281/zenodo.17568649",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)"
+  },
+  {
+   "authors": [
+    "Yangwei Fan",
+    "Yuqian Yang",
+    "Ke Wang",
+    "Tian Zhang",
+    "Xuyuan Dong",
+    "Yu Shi"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Background Gastroenteropancreatic neuroendocrine tumors (GEP-NETs) display marked clinical heterogeneity, and conventional prognostic indicators such as TNM stage and Ki-67 index provide limited individualized risk discrimination. We aimed to develop and externally validate interpretable machine learning models for survival prediction. Methods This retrospective study enrolled 337 patients with histologically confirmed GEP-NETs, randomly partitioned into a training set (n = 236) and an…",
+    "citations": 0,
+    "doi": "10.3389/fonc.2026.1899619"
+   },
+   "id": "6ae21c885c6767da",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-13T00:00:00Z",
+   "score": 0.4923,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Background Gastroenteropancreatic neuroendocrine tumors (GEP-NETs) display marked clinical heterogeneity, and conventional prognostic indicators such as TNM stage and Ki-67 index provide limited individualized risk discrimination. We aimed to develop and externally validate interpretable machine…",
+   "tags": [
+    "ml-vis"
+   ],
+   "title": "Interpretable machine learning prognostication of gastroenteropancreatic neuroendocrine tumors across Chinese and United States cohorts",
+   "url": "https://doi.org/10.3389/fonc.2026.1899619",
+   "venue": "Frontiers in Oncology"
+  },
+  {
+   "authors": [
+    "Mohamad Qamarul Abidin Mohd Zawawi",
+    "Han Ming Gan",
+    "Nur Sabrina Badrulhisham",
+    "Zaidi Mohd Noh",
+    "Kamarul Rahim Kamarudin"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Magallana saidii (Wong &amp; Sigwart, 2021), locally known as the white oyster, is an oyster species endemic to the Muar River, Johor, Malaysia. Although long recognized and exploited by local fishers, it has not been reported elsewhere, making it of conservation concern due to its restricted distribution. Despite its ecological and economic importance, M. saidii has received limited molecular attention since its recent taxonomic description. In this study, two complete mitochondrial genomes…",
+    "citations": 0,
+    "doi": "10.55003/cast.2026.270583"
+   },
+   "id": "6eb0b8731b8e2eae",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-13T00:00:00Z",
+   "score": 0.4923,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Magallana saidii (Wong &amp; Sigwart, 2021), locally known as the white oyster, is an oyster species endemic to the Muar River, Johor, Malaysia. Although long recognized and exploited by local fishers, it has not been reported elsewhere, making it of conservation concern due to its restricted…",
+   "tags": [],
+   "title": "Complete Mitochondrial Genomes of Magallana saidii (Wong &amp; Sigwart, 2021) from Malaysia and Phylogenetic Insight",
+   "url": "https://doi.org/10.55003/cast.2026.270583",
+   "venue": "Current Applied Science and Technology"
+  },
+  {
+   "authors": [
+    "Ed Daly",
+    "Lisa Ryan"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Introduction Sport-related head injury is increasingly recognised as a public health concern; however, research has predominantly focused on acute injury and individual recovery. Far less attention has been paid to how concussion and cumulative head injury are experienced and managed within families over time. In particular, the invisibility of concussion, the labour required of families to secure care, and the role of fragmented systems in shaping long-term harm remain underexplored. This…",
+    "citations": 0,
+    "doi": "10.3389/fspor.2026.1867508"
+   },
+   "id": "2f0849e8edb47929",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-13T00:00:00Z",
+   "score": 0.4923,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Introduction Sport-related head injury is increasingly recognised as a public health concern; however, research has predominantly focused on acute injury and individual recovery. Far less attention has been paid to how concussion and cumulative head injury are experienced and managed within…",
+   "tags": [],
+   "title": "Living with the aftermath: family experiences of managing concussion and sport-related head injury",
+   "url": "https://doi.org/10.3389/fspor.2026.1867508",
+   "venue": "Frontiers in Sports and Active Living"
+  },
+  {
+   "authors": [
+    "Collins K. Boahen",
+    "Thomas Nørrelykke Nissen",
+    "Nina M. Birk",
+    "Mihai G. Netea",
+    "Christine Stabell Benn",
+    "Vinod Kumar"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "The Bacillus Calmette-Guérin (BCG) vaccine, primarily designed for tuberculosis, exerts non-specific immunological effects that vary considerably among children. Limited knowledge exists regarding genetic variants that can impact immune responses post-vaccination. Understanding the genetic factors influencing the immune response in children following BCG vaccination is crucial for optimizing vaccine strategies. Genome-wide pQTL mapping of 65 circulating inflammatory proteins profiled at Month…",
+    "citations": 0,
+    "doi": "10.1016/j.biopha.2026.119848"
+   },
+   "id": "ffb2f6f2b0aa2d0e",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-13T00:00:00Z",
+   "score": 0.3548,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "The Bacillus Calmette-Guérin (BCG) vaccine, primarily designed for tuberculosis, exerts non-specific immunological effects that vary considerably among children. Limited knowledge exists regarding genetic variants that can impact immune responses post-vaccination. Understanding the genetic factors…",
+   "tags": [],
+   "title": "Genetic analysis of inflammatory proteins following BCG vaccination in Danish children",
+   "url": "https://doi.org/10.1016/j.biopha.2026.119848",
+   "venue": "Biomedicine & Pharmacotherapy"
+  },
+  {
+   "authors": [
+    "Yanhong Wang",
+    "Sufei Wei",
+    "Ruirui Wang",
+    "Yaxin Chen",
+    "Qi Jin",
+    "Ke Zhang"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Objective This study employed a longitudinal design to investigate perinatal post-traumatic stress disorder in high-risk pregnant women across multiple time points, aiming to identify optimal timing for intervention. Methods A longitudinal research design was used to assess the P-PTSD inventory scores at 1 month after diagnosis of high-risk pregnancy (T 0 ), 3 months after diagnosis (T 1 ), 6 months after diagnosis (T 2 ), and 1 month postpartum (T 3 ), to analyse the overall trend of P-PTSD…",
+    "citations": 0,
+    "doi": "10.3389/fpsyg.2026.1795171"
+   },
+   "id": "c518c0c0c769ec9c",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-13T00:00:00Z",
+   "score": 0.4923,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Objective This study employed a longitudinal design to investigate perinatal post-traumatic stress disorder in high-risk pregnant women across multiple time points, aiming to identify optimal timing for intervention. Methods A longitudinal research design was used to assess the P-PTSD inventory…",
+   "tags": [],
+   "title": "Post-traumatic stress disorder symptoms in high-risk pregnant women during the perinatal period: a longitudinal study",
+   "url": "https://doi.org/10.3389/fpsyg.2026.1795171",
+   "venue": "Frontiers in Psychology"
+  },
+  {
+   "authors": [
+    "Sandra Rozenštoka",
+    "Elena Comadran de Barnola",
+    "Santa Kauzena",
+    "Gundega Akuratere",
+    "Zinta Galeja",
+    "Daira Deicmane"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Background Neck functional capacity is clinically relevant in sports medicine for performance support, screening, and injury prevention in sports characterized by acceleration, contact, and sustained precision demands. Ultrasound can quantify local muscle morphology and may improve interpretation of neck performance beyond crude anthropometry (e.g., neck girth) and global strength indicators. Objective To determine whether sternocleidomastoid (SCM) cross-sectional area (CSA) and neck…",
+    "citations": 0,
+    "doi": "10.3389/fphys.2026.1852707"
+   },
+   "id": "599eafc51dab60bc",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-13T00:00:00Z",
+   "score": 0.4923,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Background Neck functional capacity is clinically relevant in sports medicine for performance support, screening, and injury prevention in sports characterized by acceleration, contact, and sustained precision demands. Ultrasound can quantify local muscle morphology and may improve interpretation…",
+   "tags": [],
+   "title": "Sternocleidomastoid muscle morphology is independently associated with neck strength and endurance in athletes and para-athletes",
+   "url": "https://doi.org/10.3389/fphys.2026.1852707",
+   "venue": "Frontiers in Physiology"
+  },
+  {
+   "authors": [
+    "Akira Noda",
+    "N. Hirota",
+    "Hideaki Kawai"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "A previous study has reported similarity in the variability of tropical high cloud cover in the present climate and in climate change (interannual and centennial scales) in the tropics, evaluated based on percentage cloud cover, which is a standard output of the Coupled Model Intercomparison Project (CMIP). However, physically interpreting intermodel comparisons of simulated clouds using the standard output of cloud cover is not necessarily straightforward. The present study uses data from the…",
+    "citations": 0,
+    "doi": "10.1007/s00382-026-08312-y"
+   },
+   "id": "80cfac13b9e30a03",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-13T00:00:00Z",
+   "score": 0.3548,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "A previous study has reported similarity in the variability of tropical high cloud cover in the present climate and in climate change (interannual and centennial scales) in the tropics, evaluated based on percentage cloud cover, which is a standard output of the Coupled Model Intercomparison…",
+   "tags": [],
+   "title": "Responses of regional high cloud cover to interannual variability and global warming: insights from a satellite simulator",
+   "url": "https://doi.org/10.1007/s00382-026-08312-y",
+   "venue": "Climate Dynamics"
   },
   {
    "authors": [
@@ -128,7 +349,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4961,
+   "score": 0.4923,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -142,449 +363,221 @@
   },
   {
    "authors": [
-    "Jinyoung Park",
-    "Minseok Son",
-    "Changick Kim"
+    "Christina Schuster",
+    "Elena Loos",
+    "Thomas Traunwieser",
+    "Michael C. Frühwald (8906036)",
+    "Michaela Kuhlen"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "State Space Models (SSMs) have emerged as powerful architectures in computer vision, yet improving their computational efficiency remains crucial for practical and scalable deployment.While token reduction serves as an effective approach for model efficiency, applying it to SSMs requires careful consideration of their unique sequential modeling capabilities.In this work, we propose MaMe, a token-merging strategy tailored for SSM-based vision models.MaMe addresses two key challenges: quantifying…",
+    "abstract_snippet": "Introduction Exercise interventions may help mitigate treatment-related physical impairment in pediatric oncology, but implementation in routine care remains challenging, particularly during active treatment and in heterogeneous patient cohorts. Patients This prospective single-center pilot study evaluated an individualized exercise program for children and adolescents aged 4–17 years undergoing cancer treatment during the COVID-19 pandemic. Method The program combined supervised in-hospital…",
     "citations": 0,
-    "doi": "10.1109/icip61757.2026.11630301"
+    "doi": "10.3389/fped.2026.1914065"
    },
-   "id": "3760008a3b617d27",
+   "id": "c9583e03e9aef2ab",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4961,
+   "score": 0.4923,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "State Space Models (SSMs) have emerged as powerful architectures in computer vision, yet improving their computational efficiency remains crucial for practical and scalable deployment.While token reduction serves as an effective approach for model efficiency, applying it to SSMs requires careful…",
+   "summary": "Introduction Exercise interventions may help mitigate treatment-related physical impairment in pediatric oncology, but implementation in routine care remains challenging, particularly during active treatment and in heterogeneous patient cohorts. Patients This prospective single-center pilot study…",
    "tags": [],
-   "title": "Towards Efficient Vision State Space Models via Token Merging",
-   "url": "https://doi.org/10.1109/icip61757.2026.11630301",
-   "venue": null
+   "title": "Feasibility, uptake, and exploratory outcomes of an individualized exercise program in pediatric oncology: a prospective single-center pilot study",
+   "url": "https://doi.org/10.3389/fped.2026.1914065",
+   "venue": "Frontiers in Pediatrics"
   },
   {
    "authors": [
-    "Clémence Labarre",
-    "Babooshka Shavazipour",
-    "Denis Loustau",
-    "Jean‐Christophe Domec"
+    "Laura Núñez-Crespo",
+    "Víctor J. Colino-Rabanal",
+    "José Ángel Sánchez‐Agudo",
+    "Raul Hernández-Marchena",
+    "Fernando Rodríguez"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "<title>Abstract</title> Context: While the management of forests at a regional level takes into account different forest types and management objectives, the potential effects of projected climate impacts at a sub-regional scale remain largely unexplored. Aims: To better support the strategic planning of management, we address the critical challenge of reconciling regional strategies with site specific constraints. Methods: We considered two climate scenarios and various levels of timber-damage…",
+    "abstract_snippet": "Monetary ecosystem service (ES) valuations often differ across studies even when similar methods are applied because available data implicitly determine which biophysical, management, and demand-side drivers are represented. These implicit “valuation boundaries” are rarely reported, limiting comparability, evidence synthesis, and benefit transfer. We propose a logic-chain-based reporting framework that makes valuation boundaries explicit through determinant coverage disclosure. The framework…",
     "citations": 0,
-    "doi": "10.1186/s13595-026-01355-5"
+    "doi": "10.3390/agronomy16161552"
    },
-   "id": "7e04f626d4f3c439",
+   "id": "0dad6fe2a33fd898",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4961,
+   "score": 0.4923,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "<title>Abstract</title> Context: While the management of forests at a regional level takes into account different forest types and management objectives, the potential effects of projected climate impacts at a sub-regional scale remain largely unexplored. Aims: To better support the strategic…",
+   "summary": "Monetary ecosystem service (ES) valuations often differ across studies even when similar methods are applied because available data implicitly determine which biophysical, management, and demand-side drivers are represented. These implicit “valuation boundaries” are rarely reported, limiting…",
    "tags": [
     "systems"
    ],
-   "title": "Bridging local decisions and regional forest strategies under climate risks: a flexibility-based optimization framework",
-   "url": "https://doi.org/10.1186/s13595-026-01355-5",
-   "venue": "Annals of Forest Science"
+   "title": "Valuation Boundaries in Monetary Ecosystem Service Assessment: A Logic-Chain-Based Reporting Framework with a Vineyard Application",
+   "url": "https://doi.org/10.3390/agronomy16161552",
+   "venue": "Agronomy"
   },
   {
    "authors": [
-    "Haozhen Yan",
-    "Yan Hong",
-    "Jiahui Zhan",
-    "S. Lang",
-    "Yikun Ji",
-    "Yujie Gao"
+    "Shri Hari S Pai",
+    "Qadeer Akbar Sial",
+    "Minwook Kang",
+    "Hyungtak Seo"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Recent advances in image manipulation have enabled highly photorealistic content generation, but also lowered the barrier to arbitrary editing, raising concerns about multimedia authenticity and security. Existing Image Manipulation Detection and Localization (IMDL) methods mainly target splicing or copy-move forgeries, while benchmarks for inpainting-based manipulations remain limited. To bridge this gap, we present COCO-Inpaint, a comprehensive benchmark specifically designed for inpainting…",
+    "abstract_snippet": "Ascorbic acid is an essential antioxidant involved in redox homeostasis, immune response, and metabolic processes. The development of low-cost high accurate electrochemical sensors is critical to overcome conventional glass carbon electrodes (GCE). In this report, we report the first non-enzymatic electrochemical ascorbic acid sensors based on nickel diselenide (NiSe 2 ) grown on flexible carbon sheets using solvothermal process. Furthermore, the cobalt (Co) doping of various concentrations on…",
     "citations": 0,
-    "doi": "10.1109/icip61757.2026.11629184"
+    "doi": "10.1016/j.apsadv.2026.101031"
    },
-   "id": "15ba0cc058811c09",
+   "id": "e5ca881151594d97",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4961,
+   "score": 0.3548,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Recent advances in image manipulation have enabled highly photorealistic content generation, but also lowered the barrier to arbitrary editing, raising concerns about multimedia authenticity and security. Existing Image Manipulation Detection and Localization (IMDL) methods mainly target splicing…",
+   "summary": "Ascorbic acid is an essential antioxidant involved in redox homeostasis, immune response, and metabolic processes. The development of low-cost high accurate electrochemical sensors is critical to overcome conventional glass carbon electrodes (GCE). In this report, we report the first non-enzymatic…",
    "tags": [],
-   "title": "Coco-Inpaint: A Benchmark for Detecting and Localizing Inpainting-Based Image Manipulations",
-   "url": "https://doi.org/10.1109/icip61757.2026.11629184",
-   "venue": null
+   "title": "Effect of cobalt doping on NiSe2-based sensing electrode for non-enzymatic electrochemical ascorbic acid detection",
+   "url": "https://doi.org/10.1016/j.apsadv.2026.101031",
+   "venue": "Applied Surface Science Advances"
   },
   {
    "authors": [
-    "Maria Celeste Fasano",
-    "Maria Grazia Monaci",
-    "Gianni Nuti",
-    "Manuela Filippa"
+    "Mehreen Ahmed",
+    "Amr Al-Haidari",
+    "Shruti Agarwal",
+    "Jianmin Sun",
+    "Emma U. Hammarlund",
+    "Lars Rönnstrand"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Introduction Music is a highly rewarding experience, yet individuals differ substantially in how pleasurable they find music. In adults, sensitivity to musical reward has been consistently linked to socio-emotional traits, particularly empathy. However, little is known about whether this association is already present in middle childhood, before music engagement becomes increasingly tied to identity formation and autonomous, self-directed use during adolescence. The present study examined…",
+    "abstract_snippet": "Abstract Cancer stem cells (CSCs) are tumor cell subsets with self-renewal, multilineage differentiation, and tumor-initiating capacity that sustain cancer initiation, progression, metastasis, and relapse. Targeting CSCs therefore represents a promising route to improve the durability of cancer treatment. However, translation of this approach into routine care has been slow because of the biological complexity and clinical constraints. This review discusses current concepts of CSC origin and…",
     "citations": 0,
-    "doi": "10.3389/fcogn.2026.1804916"
+    "doi": "10.1038/s41392-026-02887-y"
    },
-   "id": "a216f51058a1bec7",
+   "id": "675c8b14c25044dc",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4961,
+   "score": 0.4923,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Introduction Music is a highly rewarding experience, yet individuals differ substantially in how pleasurable they find music. In adults, sensitivity to musical reward has been consistently linked to socio-emotional traits, particularly empathy. However, little is known about whether this…",
+   "summary": "Abstract Cancer stem cells (CSCs) are tumor cell subsets with self-renewal, multilineage differentiation, and tumor-initiating capacity that sustain cancer initiation, progression, metastasis, and relapse. Targeting CSCs therefore represents a promising route to improve the durability of cancer…",
    "tags": [],
-   "title": "Empathy and musical reward sensitivity in middle childhood: a psychometric validation of the Barcelona music reward questionnaire in children aged 7–9",
-   "url": "https://doi.org/10.3389/fcogn.2026.1804916",
-   "venue": "Frontiers in Cognition"
+   "title": "Translational insights and clinical challenges of targeting cancer stem cells",
+   "url": "https://doi.org/10.1038/s41392-026-02887-y",
+   "venue": "Signal Transduction and Targeted Therapy"
   },
   {
    "authors": [
-    "María del Carmen Carcelén‐Fraile",
-    "María Luisa Montánchez-Torres"
+    "H. Wen",
+    "C. F. Li"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Introduction Self-regulation, emotional regulation, and school adjustment are fundamental for children’s learning and wellbeing during primary education. This study aimed to analyze the effects of a combined physical–cognitive intervention based on motor games and soroban abacus training on these outcomes in children in the first cycle of primary education. Methods A randomized controlled trial was conducted with 82 primary school children allocated to an experimental group ( n = 41) or a…",
+    "abstract_snippet": "The semantic evolution of textile-related vocabulary preserved in bamboo and silk manuscripts remains difficult to investigate because of archaic language forms, incomplete textual records, and the absence of temporally comparable semantic representations. This study develops a computational framework that integrates an ancient Chinese BERT model with dynamic word vector alignment to quantify long-term semantic variation in historical textile corpora. After constructing period-specific corpus…",
     "citations": 0,
-    "doi": "10.3389/fpsyg.2026.1790797"
+    "doi": "10.7716/aem.v15i3.3089"
    },
-   "id": "7e5272fe3ce5ab2b",
+   "id": "8045736c48c72348",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4961,
+   "score": 0.4923,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Introduction Self-regulation, emotional regulation, and school adjustment are fundamental for children’s learning and wellbeing during primary education. This study aimed to analyze the effects of a combined physical–cognitive intervention based on motor games and soroban abacus training on these…",
+   "summary": "The semantic evolution of textile-related vocabulary preserved in bamboo and silk manuscripts remains difficult to investigate because of archaic language forms, incomplete textual records, and the absence of temporally comparable semantic representations. This study develops a computational…",
    "tags": [],
-   "title": "Impact of a physical–cognitive intervention on emotional regulation and school adjustment in primary school children",
-   "url": "https://doi.org/10.3389/fpsyg.2026.1790797",
-   "venue": "Frontiers in Psychology"
+   "title": "Using Natural Language Processing Technology to Explore the Semantic Evolution of \"Textile\" Related Words in Bamboo and Silk Manuscripts",
+   "url": "https://doi.org/10.7716/aem.v15i3.3089",
+   "venue": "Advanced Electromagnetics"
   },
   {
    "authors": [
-    "Somjate Thongdamrongtham",
-    "Sitthichai Chaikhan",
-    "Chiraporn Chiraporn"
+    "Zongshuai Gao",
+    "Yunxia Zhu"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Phosphorus pollution from municipal and agricultural sources drives freshwater eutrophication globally, yet conventional removal technologies permanently immobilize phosphorus in metal laden sludge, precluding nutrient recovery. Water treatment residuals (WTRs) aluminum and iron rich byproducts of coagulation flocculation processes represent abundant, low-cost precursors for phosphorus adsorbent development. This systematic review and meta-analysis quantitatively evaluated the effectiveness of…",
+    "abstract_snippet": "Background The clinical manifestations of anti-synthetase syndrome-associated interstitial lung disease (ASyS-ILD) are highly heterogeneous, and the mechanisms underlying its development and progression remain poorly understood. This study aimed to identify distinct clinical phenotypes of ASyS-ILD and clusters associated with progressive pulmonary fibrosis (PPF) using unsupervised cluster analysis. Methods A total of 134 patients with ASyS-ILD were retrospectively enrolled. Unsupervised…",
     "citations": 0,
-    "doi": "10.55003/cast.2026.268550"
+    "doi": "10.3389/fimmu.2026.1899365"
    },
-   "id": "b9531bcbc00ce4ae",
+   "id": "db7bbb125a31ccc4",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.3586,
+   "score": 0.4923,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Phosphorus pollution from municipal and agricultural sources drives freshwater eutrophication globally, yet conventional removal technologies permanently immobilize phosphorus in metal laden sludge, precluding nutrient recovery. Water treatment residuals (WTRs) aluminum and iron rich byproducts of…",
-   "tags": [
-    "systems"
-   ],
-   "title": "Thermal Modification of Water Treatment Residuals for Enhanced Phosphorus Removal: A Systematic Review and Meta-Analysis",
-   "url": "https://doi.org/10.55003/cast.2026.268550",
-   "venue": "Current Applied Science and Technology"
-  },
-  {
-   "authors": [
-    "Khalaf Lafee Alhammad",
-    "Sarah Okour"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Introduction In an attempt to provide new momentum to their media and information literacy (MIL) plans, the UN and UNESCO have accelerated their efforts worldwide. This study makes the voice of Jordanian youth heard and explained by exploring MIL programs in the Jordan Media Institute (JMI). It paves the way for understanding the journey of MIL in Jordan thus far. Methods By using a triangulation of research methods, we examine the effects of MIL programs on respondents through an online…",
-    "citations": 0,
-    "doi": "10.3389/fcomm.2026.1840799"
-   },
-   "id": "51a15e2c88367705",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4961,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Introduction In an attempt to provide new momentum to their media and information literacy (MIL) plans, the UN and UNESCO have accelerated their efforts worldwide. This study makes the voice of Jordanian youth heard and explained by exploring MIL programs in the Jordan Media Institute (JMI). It…",
+   "summary": "Background The clinical manifestations of anti-synthetase syndrome-associated interstitial lung disease (ASyS-ILD) are highly heterogeneous, and the mechanisms underlying its development and progression remain poorly understood. This study aimed to identify distinct clinical phenotypes of ASyS-ILD…",
    "tags": [],
-   "title": "Evaluating and supporting media and information literacy in Jordan: Jordan Media Institute as a case study",
-   "url": "https://doi.org/10.3389/fcomm.2026.1840799",
-   "venue": "Frontiers in Communication"
+   "title": "Distinct phenotypic clusters associated with progressive pulmonary fibrosis in anti-synthetase syndrome-associated interstitial lung disease",
+   "url": "https://doi.org/10.3389/fimmu.2026.1899365",
+   "venue": "Frontiers in Immunology"
   },
   {
    "authors": [
-    "Haoyu Wei",
-    "Daniel T. Kaplan",
-    "Haowei Xu",
-    "L. Ju"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract An outstanding challenge in materials science and physics is the harnessing of light for switching ferroic orders in, e.g., ferroelectrics. Here, we propose a mechanism through which electrons in few-layer 2D materials excited with above-bandgap light cause ionic structural transitions. Using perturbation theory within a many-body formalism, we show that the ionic coupling is mediated by a resonant change in electronic occupation functions, ultimately governed by the quantum geometric…",
-    "citations": 0,
-    "doi": "10.1021/acsnano.5c06178"
-   },
-   "id": "5a7d406c2eaa3619",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.3586,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract An outstanding challenge in materials science and physics is the harnessing of light for switching ferroic orders in, e.g., ferroelectrics. Here, we propose a mechanism through which electrons in few-layer 2D materials excited with above-bandgap light cause ionic structural transitions.…",
-   "tags": [],
-   "title": "UltrafastSwitchable Polar and Magnetic Orders byNonlinear Light–Matter Interaction",
-   "url": "https://doi.org/10.1021/acsnano.5c06178",
-   "venue": "ACS Nano"
-  },
-  {
-   "authors": [
-    "Ru Zhang",
-    "Yang Liu",
-    "Jianbin Sun",
-    "Ruofu Liu",
-    "Zhao Yi",
-    "Youzhi Sun"
+    "William Bright Asomani",
+    "DOUGLAS OSEI kuffuor"
    ],
    "category": "optional",
    "extra": {
     "abstract_snippet": "",
     "citations": 0,
-    "doi": "10.21203/rs.3.rs-10073877/v1"
+    "doi": "10.21203/rs.3.rs-10651445/v1"
    },
-   "id": "4dd7d02064142112",
+   "id": "903f4005292013b1",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.3586,
+   "score": 0.3548,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
    "summary": "",
    "tags": [
-    "systems"
+    "ml-vis"
    ],
-   "title": "Traditional Chinese Medicine for Breast Cancer-Related Lymphedema: An Umbrella Review of Systematic Reviews and Meta-Analyses",
-   "url": "https://doi.org/10.21203/rs.3.rs-10073877/v1",
+   "title": "Multi-Sensor Machine Learning and Spatial-Statistical Analysis of Illegal Small- Scale Mining (Galamsey) Dynamics in Wassa Amenfi East District, Ghana, 2023–2025",
+   "url": "https://doi.org/10.21203/rs.3.rs-10651445/v1",
    "venue": "Research Square"
   },
   {
    "authors": [
-    "L. Zhang"
+    "Yangyang Rao",
+    "Xialing Zhu",
+    "Min Chen",
+    "aqiang zhu"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Digital heritage preservation increasingly relies on high-fidelity 3 D r econstruction technologies to ensure the long-term preservation and dissemination of cultural heritage information. However, accurate color reproduction and historical representation remain major challenges, particularly for organic artifacts such as textiles and leather that undergo color fading and material degradation over time. This study investigates the key factors affecting color reconstruction and age…",
+    "abstract_snippet": "<title>Abstract</title> <bold>Purpose</bold> This study explores the clinical features, diagnostic criteria, and optimal timing for surgery in primary labia minora fusion, a rare congenital vulvar malformation, emphasizing that appropriate surgical timing can reduce the impact of retrograde menstrual flow and minimize long-term complications. <bold>Methods</bold> Retrospective analysis of clinical data from a 17-year-old patient with primary labia minora fusion. <bold>Results</bold> The patient…",
     "citations": 0,
-    "doi": "10.7716/aem.v15i3.3271"
+    "doi": "10.1186/s12905-026-04773-9"
    },
-   "id": "6338fd0f05da9f8b",
+   "id": "762146083c0130b9",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4961,
+   "score": 0.3548,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Digital heritage preservation increasingly relies on high-fidelity 3 D r econstruction technologies to ensure the long-term preservation and dissemination of cultural heritage information. However, accurate color reproduction and historical representation remain major challenges, particularly for…",
+   "summary": "<title>Abstract</title> <bold>Purpose</bold> This study explores the clinical features, diagnostic criteria, and optimal timing for surgery in primary labia minora fusion, a rare congenital vulvar malformation, emphasizing that appropriate surgical timing can reduce the impact of retrograde…",
    "tags": [],
-   "title": "Challenges in Color Reproduction and Historical Representation of 3D Models in Digital Heritage Preservation",
-   "url": "https://doi.org/10.7716/aem.v15i3.3271",
-   "venue": "Advanced Electromagnetics"
-  },
-  {
-   "authors": [
-    "Yang Lv",
-    "Wei Gong",
-    "Long Li",
-    "Zeli Li",
-    "Jiarui Nicole Fu",
-    "Fachao Zhi"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Objective Resveratrol is a dietary polyphenol found in grapes, peanuts, and berries, with reported anti-inflammatory, immunomodulatory, barrier-protective, and microbiota-regulating properties. Functional dyspepsia (FD) is associated with duodenal immune dysregulation, epithelial barrier impairment, and microbial imbalance, suggesting an active mucosal microenvironment. This study therefore examined whether resveratrol could alleviate FD-like pathological changes. We also examined its links…",
-    "citations": 0,
-    "doi": "10.3389/fimmu.2026.1906024"
-   },
-   "id": "99e78667888baabf",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.3586,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Objective Resveratrol is a dietary polyphenol found in grapes, peanuts, and berries, with reported anti-inflammatory, immunomodulatory, barrier-protective, and microbiota-regulating properties. Functional dyspepsia (FD) is associated with duodenal immune dysregulation, epithelial barrier…",
-   "tags": [],
-   "title": "Resveratrol alleviates functional dyspepsia-like pathology by modulating chemokine- and cytokine-related immune–epithelial signaling in the duodenal mucosa",
-   "url": "https://doi.org/10.3389/fimmu.2026.1906024",
-   "venue": "Frontiers in Immunology"
-  },
-  {
-   "authors": [
-    "Erik Senneby",
-    "Zakarias Thorin",
-    "Eva Gustafsson",
-    "Torgny Sunnerhagen",
-    "Ana Friães",
-    "Rafael Mamede"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract Purpose Streptococcus pyogenes cause invasive infections with variable incidence over time. In 2023, an increase in invasive S. pyogenes infections caused by emm- types 1 and 12 was reported globally. In Southern Sweden an increase in S. pyogenes emm 12 severe infections was also noted and we set out to determine if this increase was caused by a single genetic sublineage. Methods Data on severe S. pyogenes infections notified between July 1st 2016 and June 30th 2023, including emm-…",
-    "citations": 0,
-    "doi": "10.1007/s10096-026-05621-2"
-   },
-   "id": "715f2d3c116cd7a5",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.3586,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract Purpose Streptococcus pyogenes cause invasive infections with variable incidence over time. In 2023, an increase in invasive S. pyogenes infections caused by emm- types 1 and 12 was reported globally. In Southern Sweden an increase in S. pyogenes emm 12 severe infections was also noted and…",
-   "tags": [],
-   "title": "Genomic analysis and clinical characteristics of a seasonal upsurge of Streptococcus pyogenes emm12",
-   "url": "https://doi.org/10.1007/s10096-026-05621-2",
-   "venue": "European Journal of Clinical Microbiology & Infectious Diseases"
-  },
-  {
-   "authors": [
-    "Cristina Grippaudo",
-    "Ilaria Tucci",
-    "Elena Gimondo",
-    "Elisa Russo",
-    "Iole Vozza"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Background Access to orthodontic treatment remains limited for many socially vulnerable children and adolescents due to financial, administrative, and social barriers. Despite the high prevalence of malocclusion and its potential impact on oral health and quality of life, few reports have described practical models aimed at improving access to orthodontic care for underserved populations. This study describes a community-based model developed at the Caritas Dental Clinic in Rome to provide free…",
-    "citations": 0,
-    "doi": "10.3389/fdmed.2026.1863855"
-   },
-   "id": "4a0274d57d158796",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4961,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Background Access to orthodontic treatment remains limited for many socially vulnerable children and adolescents due to financial, administrative, and social barriers. Despite the high prevalence of malocclusion and its potential impact on oral health and quality of life, few reports have described…",
-   "tags": [],
-   "title": "Four years of free orthodontic care for vulnerable children: a community case study from the Caritas Dental Clinic in Rome",
-   "url": "https://doi.org/10.3389/fdmed.2026.1863855",
-   "venue": "Frontiers in Dental Medicine"
-  },
-  {
-   "authors": [
-    "Yan Xie",
-    "Hanrou Ouyang",
-    "Xiaodan Zhang",
-    "Xiaoru Zheng",
-    "Haoran Liang",
-    "Wenbin Fu"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Background Whether dominant-side, non-dominant-side, or bilateral acupuncture produces comparable cortical activation remains unresolved. This study compared phase-specific cortical hemodynamic responses across these configurations at LR3-LI4 using functional near-infrared spectroscopy (fNIRS). Methods In total, 53 healthy right-handed adults were randomized to dominant-side acupuncture (DS, n = 13), bilateral (BI, n = 15), non-dominant-side stimulation (NDS, n = 14), or sham (SH, n = 11).…",
-    "citations": 0,
-    "doi": "10.3389/fneur.2026.1815369"
-   },
-   "id": "addcdd70f5271528",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4961,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Background Whether dominant-side, non-dominant-side, or bilateral acupuncture produces comparable cortical activation remains unresolved. This study compared phase-specific cortical hemodynamic responses across these configurations at LR3-LI4 using functional near-infrared spectroscopy (fNIRS).…",
-   "tags": [],
-   "title": "LR3-LI4 needling side and configuration are associated with phase-specific cortical activation and network organization: a functional near-infrared spectroscopy study in healthy adults",
-   "url": "https://doi.org/10.3389/fneur.2026.1815369",
-   "venue": "Frontiers in Neurology"
-  },
-  {
-   "authors": [
-    "Yarê Baker",
-    "Veronica Geretti",
-    "Sungah Kang",
-    "Rongrong Wu",
-    "Hui Wang",
-    "Quanfu He"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "2,4 C20H30O11 C6H6O4 1,4,5 C8H13O8 C10H15O5 C15H22O11 C17H26O11 C19H28O14 1,2 C20H30O12 C6H10O5 C8H13O9 C10H15O6 C15H22O12 1,2,5 C17H26O12 C19H28O15 1 C20H30O13 C6H10O6 C8H14O5 C10H15O7 C15H22O13 1 C17H26O13 1,2 C19H28O16 1,2 C20H30O14 C6H10O7 C8H14O6 C10H15O8 C15H22O14 1 C17H26O14 1,2,5 C19H30O6 C20H30O15 C6H12O6 5 C8H14O7 C10H15O9 C15H24O13 1,2,5 C17H28O8 C19H30O7 C20H30O16 C8H14O8 C10H15O10 C15H26O10 1,2,5 C17H28O9 C19H30O8 C20H30O17 5 C7H8O5 4,5 C8H14O9 C10H15O11 C17H28O10 C19H30O9…",
-    "citations": 0,
-    "doi": "10.5194/egusphere-2026-4788-supplement"
-   },
-   "id": "8c284fa365a8e461",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.3586,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "2,4 C20H30O11 C6H6O4 1,4,5 C8H13O8 C10H15O5 C15H22O11 C17H26O11 C19H28O14 1,2 C20H30O12 C6H10O5 C8H13O9 C10H15O6 C15H22O12 1,2,5 C17H26O12 C19H28O15 1 C20H30O13 C6H10O6 C8H14O5 C10H15O7 C15H22O13 1 C17H26O13 1,2 C19H28O16 1,2 C20H30O14 C6H10O7 C8H14O6 C10H15O8 C15H22O14 1 C17H26O14 1,2,5 C19H30O6…",
-   "tags": [],
-   "title": "Supplementary material to \"Impact of the chemical regime on highly oxygenated molecule and secondary organic aerosol formation: Effects of varying the importance of NO, HO <sub>2</sub> ·, RO <sub>2</sub> · reactions on α-pinene photooxidation products\"",
-   "url": "https://doi.org/10.5194/egusphere-2026-4788-supplement",
-   "venue": null
-  },
-  {
-   "authors": [
-    "Michal Kubaščík",
-    "Swati Aggarwal",
-    "Ondrej Karpiš",
-    "Andrej Tupý",
-    "Peter Šarafín",
-    "Miroslav Chochul"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Early detection of hypoglycemia among non-hypoglycemic conditions is critical in type 1 diabetes (T1D), as delayed intervention can lead to serious neurological and metabolic consequences. Although continuous glucose monitoring (CGM) systems provide continuous glucose measurements, they are invasive and do not capture early neurophysiological alterations associated with hypoglycemia-related metabolic changes. This study presents a preliminary feasibility investigation of a non-invasive…",
-    "citations": 0,
-    "doi": "10.3389/fnhum.2026.1852403"
-   },
-   "id": "288be6b40a95a853",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.3586,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Early detection of hypoglycemia among non-hypoglycemic conditions is critical in type 1 diabetes (T1D), as delayed intervention can lead to serious neurological and metabolic consequences. Although continuous glucose monitoring (CGM) systems provide continuous glucose measurements, they are…",
-   "tags": [
-    "systems"
-   ],
-   "title": "EEG-based hypoglycemia detection in Type 1 Diabetes: Proof-of-concept study",
-   "url": "https://doi.org/10.3389/fnhum.2026.1852403",
-   "venue": "Frontiers in Human Neuroscience"
+   "title": "Case report: a rare case of congenital vulvar malformation that is often overlooked",
+   "url": "https://doi.org/10.1186/s12905-026-04773-9",
+   "venue": "BMC Women s Health"
   },
   {
    "authors": [
@@ -601,7 +594,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T20:52:59Z",
-   "score": 0.7695,
+   "score": 0.7648,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -629,7 +622,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T19:36:49Z",
-   "score": 0.4328,
+   "score": 0.4282,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -658,7 +651,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T16:32:52Z",
-   "score": 0.6155,
+   "score": 0.6111,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -689,7 +682,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T14:55:46Z",
-   "score": 0.7505,
+   "score": 0.7461,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -716,7 +709,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T08:37:44Z",
-   "score": 0.5919,
+   "score": 0.5878,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -744,7 +737,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T04:32:08Z",
-   "score": 0.6205,
+   "score": 0.6166,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -774,7 +767,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T02:40:09Z",
-   "score": 0.423,
+   "score": 0.4192,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -800,7 +793,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T19:15:54Z",
-   "score": 0.7367,
+   "score": 0.7332,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -815,7 +808,7 @@
  ],
  "meta": {
   "count": 29,
-  "generated_at": "2026-08-14T13:38:56Z",
+  "generated_at": "2026-08-14T15:05:40Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -858,7 +851,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-07-17&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-17&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
