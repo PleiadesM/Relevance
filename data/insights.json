@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
+  "query": "moss growing competition OR moss cultivation show",
   "source": {
-   "name": "Mshale",
-   "published_at": "2026-08-13T01:00:54Z",
-   "title": "Bauman Farms Open For Harvest Season Yankees Vs Brewers (opFlBEwucZ)",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKQ0FtOUNyNTZoWkFXd1V0RDFvYmdPdVFfTThUWkZ4cWI5ZmJHMWRtbWxTQUtpREp1M0RFdVIyY0VCb0d3akMxZkRTNzBramd5a2V6VTUyVmllMTA?oc=5"
+   "name": "Seattle Refined",
+   "published_at": "2026-08-07T22:13:51Z",
+   "title": "The 'Moss Boss' tends America's largest public moss garden at Bloedel Reserve",
+   "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNR05rZUFLMVJKVENwLUlmcGcyM3o3bjJsMDdia1lvRVJQTEFydGRKMjhhUjhHU25VTldtRG5raUdkaEMzQk1WanVsdTJtVjctam8zS2p4WDdOUlk1VU1STGJWdXJZNGYtX3M0ZjhTdHR6YmF6Uk9YckYzSEVwcTFmSUtRVFhVNm82ZFN2OURweXExaFdtZXpLemdvRjBaOXJWTUctMDNZdG92a2drS1dyeEh4UzJBS0U3d1RVeG40RHhjYUhDU1U1YVlDVUN4TDlSR0pfcHJYQnV3X25MdXdlNXUyN1hRZ3NGWVVZa2xSQ04yVjFKTWd2OF9mTEE4STQy?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "Bauman Farms opens for harvest season with a Yankees vs Brewers themed event, blending farm life and baseball.",
-    "why_irrelevant": "It's a niche local farm and sports mashup unlikely to appear in a general feed."
+    "summary": "The 'Moss Boss' cares for America's largest public moss garden at Bloedel Reserve.",
+    "why_irrelevant": "It is a niche horticulture profile far from typical news feeds."
    },
    "zh": {
-    "summary": "鲍曼农场开启丰收季，举办洋基队对酿酒人队主题的棒球活动。",
-    "why_irrelevant": "这是地方农场与体育的小众结合，与普通信息流无关。"
+    "summary": "“苔藓老板”照料着美国最大的公共苔藓花园，位于布洛德尔保护区。",
+    "why_irrelevant": "这是一个小众园艺话题，远离日常新闻推送。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "competitive moss growing"
  },
- "brief": "Today's news covers the UK Clacton by-election, extreme weather in Japan, and ongoing issues in Afghanistan, while research highlights ethics in visualization and AI's role in work.",
+ "brief": "Global heatwaves and wildfires prompt evacuations and health concerns, while political figures like Farage win UK by-elections and US court rulings address election and education issues. Research highlights ethical scrutiny in visualization and AI's organizational impacts.",
  "meta": {
-  "generated_at": "2026-08-14T05:44:07Z"
+  "generated_at": "2026-08-14T07:47:42Z"
  },
- "news_summary": "Nigel Farage won the Clacton by-election, but the event was overshadowed by his absence and the novelty of Count Binface; amidst this, severe rains in Japan caused deaths and stranded thousands, and reports on Afghanistan underline the ongoing erasure of women from public life.",
- "papers_summary": "Research in visualization and HCI focuses on ethics and reproducibility, with a study suggesting over 63% of IEEE VIS papers could be retracted due to missing ethics statements, alongside other works on EEG decoding and AI in journaling.",
+ "news_summary": "Extreme weather across Europe leads to evacuations and casualties, with UK and Japan experiencing unprecedented conditions. Politically, Farage wins Clacton, US courts dismiss cases on Harvard antisemitism and Nevada electors, and Taliban rule erases women's rights.",
+ "papers_summary": "Visualization research faces potential retractions due to ethics lapses, while new frameworks optimize forest management under climate risks. AI's role in organizations and journaling is explored, alongside advances in EEG decoding for BCIs.",
  "summaries": {
   "en": {
-   "brief": "Today's news covers the UK Clacton by-election, extreme weather in Japan, and ongoing issues in Afghanistan, while research highlights ethics in visualization and AI's role in work.",
-   "news_summary": "Nigel Farage won the Clacton by-election, but the event was overshadowed by his absence and the novelty of Count Binface; amidst this, severe rains in Japan caused deaths and stranded thousands, and reports on Afghanistan underline the ongoing erasure of women from public life.",
-   "papers_summary": "Research in visualization and HCI focuses on ethics and reproducibility, with a study suggesting over 63% of IEEE VIS papers could be retracted due to missing ethics statements, alongside other works on EEG decoding and AI in journaling."
+   "brief": "Global heatwaves and wildfires prompt evacuations and health concerns, while political figures like Farage win UK by-elections and US court rulings address election and education issues. Research highlights ethical scrutiny in visualization and AI's organizational impacts.",
+   "news_summary": "Extreme weather across Europe leads to evacuations and casualties, with UK and Japan experiencing unprecedented conditions. Politically, Farage wins Clacton, US courts dismiss cases on Harvard antisemitism and Nevada electors, and Taliban rule erases women's rights.",
+   "papers_summary": "Visualization research faces potential retractions due to ethics lapses, while new frameworks optimize forest management under climate risks. AI's role in organizations and journaling is explored, alongside advances in EEG decoding for BCIs."
   },
   "zh": {
-   "brief": "今日焦点包括美国指控中国通过低关税国家转运规避关税，中国高校毕业生就业压力创新高，以及台湾进行战时断网演练；科研方面则关注AI对组织使用和学术伦理的影响。",
-   "news_summary": "美国报告称中国利用低关税国家转运货物规避关税，同时中国高校毕业生人数创历史新高，就业压力巨大；此外，台风'白海豚'带来持续暴雨，朱镕基逝世引发两岸反响，台湾举行城镇韧性演练模拟断网。",
-   "papers_summary": "今日论文主要探讨AI在组织中的使用情况、学术伦理声明的重要性，以及情绪脑电解码等技术研究，涵盖可视化、人机交互和计算机图形学等领域。"
+   "brief": "今日要闻聚焦美军航母部署困境、中国毕业生就业压力、台风灾害及台湾演训，同时伊朗战争持久性与国际动态备受关注。",
+   "news_summary": "美军林肯号航母长期部署引发人道问题，美国报告指多国助中国规避关税；中国毕业生人数创新高，AI冲击就业；台风'白海豚'深入内陆，朱鎔基辞世引发两岸反应，台湾举行城巿韧性演训。",
+   "papers_summary": "研究显示IEEE VIS论文伦理声明缺失或致大量撤稿，另有关于AI日志工具、论文指导及组织AI使用的多项人机交互研究。"
   }
  },
  "todays_image": {
-  "caption": "Both Langley's ill-fated flying machine and Farage's victory lap suggest that launching something successfully is pointless if you're not there for the landing.Both Langley's Aerodrome and Farage's campaign sought flight—one into the air, t",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19050001000-NASM2018-10826",
-  "source_name": "National Air and Space Museum",
-  "source_url": "http://n2t.net/ark:/65665/nv938196f32-a24c-4396-b441-2f691f9c5248",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19050001000-NASM2018-10826",
-  "title": "Langley Aerodrome Number 5"
+  "caption": "The vintage Fair Mount Company cape links to today's story through its firefighting heritage, mirroring the bravery of the firefighters now battling European blazes.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2012q28329",
+  "source_name": "National Museum of American History",
+  "source_url": null,
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2012q28329&max=150",
+  "title": "Fair Mount Company Cape"
  }
 }
