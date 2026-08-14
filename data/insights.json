@@ -1,48 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "cheese rolling championship OR Gloucester cheese rolling",
-  "source": {
-   "name": "runnersworld.com",
-   "published_at": "2026-07-27T07:00:00Z",
-   "title": "This Chaotic Cheese-Rolling Race Has No Permit, No Insurance, and No Plans to Stop",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNY2xQUWNoa29tNHVUU3JGYWlEdDZ0NXMwakF0RkhFQzkyZHdaY2ZKd1VTNnNGNTJKTHpFaHV0RjFEelk2cGZ3NWlXT2lGeWNUVWhzVjc0Z213d0pOck1vVGhIY3BTVHA0c3Z1RGhzRUs0Y01QZDJ6T2ZvWlpkTk94WHVJVQ?oc=5"
-  },
-  "summaries": {
-   "en": {
-    "summary": "A chaotic cheese-rolling race in Britain continues without a permit or insurance, delighting participants and onlookers.",
-    "why_irrelevant": "It's a quirky rural tradition far off the corporate and tech news radar."
-   },
-   "zh": {
-    "summary": "英国一场混乱的滚奶酪比赛在没有许可证和保险的情况下继续进行，令参与者和旁观者欣喜。",
-    "why_irrelevant": "这是一项古怪的乡村传统，远离企业和科技新闻热点。"
-   }
-  },
-  "topic": "competitive cheese rolling"
- },
- "brief": "Extreme heat grips Europe with record temperatures, while US politics sees AOC's Senate run and Farage's Clacton win; research highlights ethics in visualization and AI's role in organizations.",
+ "brief": "Global weather extremes dominate today's news with record heat and flooding, while a kidnapped missionary is freed and a stolen Matisse is recovered. Research highlights ethical concerns in visualization and AI's organizational impacts.",
  "meta": {
-  "generated_at": "2026-08-14T09:18:51Z"
+  "generated_at": "2026-08-14T11:07:15Z"
  },
- "news_summary": "Europe faces record heat with hospitalizations, while US reports on immigration enforcement and political races; UK's Farage wins by-election amid ethics probe.",
- "papers_summary": "Papers examine ethics in visualization research, AI-supported journaling, and how organizations use ChatGPT.",
+ "news_summary": "Extreme weather hits Europe and Asia with wildfires and unprecedented rain, while Moldova faces Russian interference, a US missionary is released in Niger, and a stolen Matisse is found in Brazil.",
+ "papers_summary": "Papers explore ethical gaps in IEEE VIS research, AI adoption in organizations, and novel methods in visualization and HCI.",
  "summaries": {
   "en": {
-   "brief": "Extreme heat grips Europe with record temperatures, while US politics sees AOC's Senate run and Farage's Clacton win; research highlights ethics in visualization and AI's role in organizations.",
-   "news_summary": "Europe faces record heat with hospitalizations, while US reports on immigration enforcement and political races; UK's Farage wins by-election amid ethics probe.",
-   "papers_summary": "Papers examine ethics in visualization research, AI-supported journaling, and how organizations use ChatGPT."
+   "brief": "Global weather extremes dominate today's news with record heat and flooding, while a kidnapped missionary is freed and a stolen Matisse is recovered. Research highlights ethical concerns in visualization and AI's organizational impacts.",
+   "news_summary": "Extreme weather hits Europe and Asia with wildfires and unprecedented rain, while Moldova faces Russian interference, a US missionary is released in Niger, and a stolen Matisse is found in Brazil.",
+   "papers_summary": "Papers explore ethical gaps in IEEE VIS research, AI adoption in organizations, and novel methods in visualization and HCI."
   },
   "zh": {
-   "brief": "今日焦点包括美军航母官兵困境、中国毕业生就业压力、台湾城熟演练，以及AI对就业的影响。",
-   "news_summary": "美航母林肯号官兵面临生活条件恶化，台湾进行城熟韧性演练，中国青年就业压力因AI浪潮加剧，同时台风白海豚引发内陆洪灾。",
-   "papers_summary": "研究显示多数IEEE VIS论文缺乏伦理审批声明，另有研究探讨AI辅助写作和论著贡献声明的价值。"
+   "brief": "今日中文新闻聚焦台湾前总统女儿离婚案引发的媒体伦理讨论、C919首飞国际航线以及AI对就业的影响；学术方面则关注IEEE VIS论文伦理审查和AI写作工具的研究。",
+   "news_summary": "台湾前总统陈水扁女儿陈幸妤离婚消息成为舆论焦点，引发对媒体伦理的反思；中国国产C919完成首次国际商业航班，挑战波音和空客；此外，AI浪潮冲击青年就业，美军航母官兵生活条件也引发担忧。",
+   "papers_summary": "有研究指出超过63%的IEEE VIS论文可能面临撤稿风险，引发对学术伦理的关注；另一项研究探讨了AI辅助写作工具中行为可控性和详细度的影响。"
   }
  },
  "todays_image": {
-  "caption": "A vintage \"HIBERNIA\" fire engine plate evokes firefighting history, while today's firefighters battle a Europe-wide heatwave that's pushing health systems to the brink.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q00827",
+  "caption": "Like the cape in the public domain image jutting into open waters, Chen Hsing-yu's sudden media reappearance after 20 years thrusts her back into the public eye as a striking, solitary figure.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2012q28329",
   "source_name": "National Museum of American History",
   "source_url": null,
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q00827&max=150",
-  "title": "Fire Engine Plate, \"HIBERNIA\""
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2012q28329&max=150",
+  "title": "Fair Mount Company Cape"
  }
 }
