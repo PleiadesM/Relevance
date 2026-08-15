@@ -1,44 +1,44 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "query": "oyster shucking championship OR national oyster shucking contest",
   "source": {
-   "name": "sana.sy",
-   "published_at": "2026-08-14T15:30:00Z",
-   "title": "Russian gardener grows giant 360 - kg pumpkin",
-   "url": "https://sana.sy/en/miscellaneous/2336350/"
+   "name": "WPTV",
+   "published_at": "2026-07-29T07:00:00Z",
+   "title": "Lucky Shuck in Jupiter hosting annual oyster eating contest for National Oyster Day",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPd3FBWXRtUlFlTU1LNnAyME1Ba0UxM2E1UFlHS3FBa1d1c1FIbG10X0NDMUZtZnpZLTE5MU50aFQ5OEg4LWp4ZE1xcmpfZXFCZUtWdm5YbTAzRThVRmpkMi1sVW9PdXF3d1BFY0xhZkIxNmZfaWNSSUxzQ0NXNGlWN1h4bjRDaXdoTGNxTGJ3Y0oyTGpxX3ZqVmcxTThMdXJXWGRVVXowTjdmSjc0NkV1YXhaZll6SWJ4U3V4bQ?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A Russian gardener has grown a giant pumpkin weighing 360 kilograms, breaking local records.",
-    "why_irrelevant": "It's an exotic agricultural feat far from typical urban or tech-focused feeds."
+    "summary": "Lucky Shuck in Jupiter hosts its annual oyster eating contest for National Oyster Day, drawing locals to compete in a fun, food-centric event.",
+    "why_irrelevant": "A local food competition unrelated to global issues or personal interests."
    },
    "zh": {
-    "summary": "一位俄罗斯园丁种出了一个重达360公斤的巨大南瓜，打破了当地纪录。",
-    "why_irrelevant": "这是一项远离都市或科技类信息流的奇异农业成就。"
+    "summary": "木星幸运蚌餐厅在国家牡蛎日举办年度吃牡蛎比赛，吸引当地居民参与这一美食娱乐活动。",
+    "why_irrelevant": "本地美食赛事，与个人关注无关。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "competitive oyster shucking"
  },
- "brief": "Today's headlines are dominated by concerns over the prolonged deployment of the USS Abraham Lincoln and its crew, with President Trump dismissing criticisms. Elsewhere, the tragic death of Cambridge professor Jason Arday, a Croatian wildfire, and political tensions around the Strait of Hormuz also feature prominently. In research, papers focus on innovation vs. cybersecurity, trust in AI for oncology, and ethical reporting in visualization science.",
+ "brief": "Today's news is dominated by political controversies in the US, including attacks on congressional stock trading, Trump's downplaying of USS Abraham Lincoln crew concerns, and a guilty plea in the Luigi Mangione case, alongside a major earthquake in Indonesia. Research papers focus on topics from cybersecurity in regulated industries to AI in oncology and genetic analysis.",
  "meta": {
-  "generated_at": "2026-08-14T22:38:10Z"
+  "generated_at": "2026-08-15T01:47:33Z"
  },
- "news_summary": "The main stories include President Trump downplaying sailor welfare issues on USS Lincoln, the apparent suicide of Cambridge professor Jason Arday, a severe wildfire in Croatia, and threats to declare the Strait of Hormuz US territory. Additional items cover Hawaiian Electric warning of prolonged outages, political matters in Alaska, and a stock trading scandal in Congress.",
- "papers_summary": "Papers today address balancing rapid innovation with cybersecurity in regulated industries, improving trust in AI diagnostic tools in oncology, and analyzing ethics reporting in visualization research. Also notable are studies on palmitoylation in neuroblastoma differentiation and forensic analysis of industrial control systems.",
+ "news_summary": "US midterm campaigns use congressional stock trading as an attack line, Trump dismisses concerns about the USS Abraham Lincoln's record deployment, and Luigi Mangione pleads guilty. A 7.7-magnitude earthquake hits Indonesia, triggering tsunami warnings.",
+ "papers_summary": "Papers cover institutional tensions between innovation and cybersecurity, explainable AI to reduce algorithmic aversion in oncology, genetic profiling of palmitoylation in neuronal differentiation, and forensic analysis of industrial control systems.",
  "summaries": {
   "en": {
-   "brief": "Today's headlines are dominated by concerns over the prolonged deployment of the USS Abraham Lincoln and its crew, with President Trump dismissing criticisms. Elsewhere, the tragic death of Cambridge professor Jason Arday, a Croatian wildfire, and political tensions around the Strait of Hormuz also feature prominently. In research, papers focus on innovation vs. cybersecurity, trust in AI for oncology, and ethical reporting in visualization science.",
-   "news_summary": "The main stories include President Trump downplaying sailor welfare issues on USS Lincoln, the apparent suicide of Cambridge professor Jason Arday, a severe wildfire in Croatia, and threats to declare the Strait of Hormuz US territory. Additional items cover Hawaiian Electric warning of prolonged outages, political matters in Alaska, and a stock trading scandal in Congress.",
-   "papers_summary": "Papers today address balancing rapid innovation with cybersecurity in regulated industries, improving trust in AI diagnostic tools in oncology, and analyzing ethics reporting in visualization research. Also notable are studies on palmitoylation in neuroblastoma differentiation and forensic analysis of industrial control systems."
+   "brief": "Today's news is dominated by political controversies in the US, including attacks on congressional stock trading, Trump's downplaying of USS Abraham Lincoln crew concerns, and a guilty plea in the Luigi Mangione case, alongside a major earthquake in Indonesia. Research papers focus on topics from cybersecurity in regulated industries to AI in oncology and genetic analysis.",
+   "news_summary": "US midterm campaigns use congressional stock trading as an attack line, Trump dismisses concerns about the USS Abraham Lincoln's record deployment, and Luigi Mangione pleads guilty. A 7.7-magnitude earthquake hits Indonesia, triggering tsunami warnings.",
+   "papers_summary": "Papers cover institutional tensions between innovation and cybersecurity, explainable AI to reduce algorithmic aversion in oncology, genetic profiling of palmitoylation in neuronal differentiation, and forensic analysis of industrial control systems."
   },
   "zh": {
-   "brief": "今日焦点涵盖韩国股市暴跌冲击散户、C919首飞国际航线挑战波音空客，以及美航母林肯号人道危机争议。",
-   "news_summary": "韩国股市动荡令散户损失惨重；中国国产客机C919完成首条国际航线，挑战国际市场；美军林肯号航母超长部署引发官兵生活条件担忧。",
-   "papers_summary": "研究关注组织创新与网络安全平衡、AI在肿瘤诊断中的信任问题，以及可视化研究中的伦理审查与贡献声明。"
+   "brief": "今日新闻聚焦韩国股市暴跌、C919国际首航、特朗普航母言论及金融风暴回忆；研究方面则涉及组织创新与网络安全平衡、医学AI信任及神经科学新进展。",
+   "news_summary": "韩国股市重挫令散户损失惨重；C919完成首次国际商业飞行，挑战波音空客；美国林肯号航母被曝恶劣条件，特朗普回应称部署时间“远远不够”；朱镕基逝世引发两岸及港澳讨论。",
+   "papers_summary": "多篇论文探讨受监管组织创新与网络安全的张力、医疗AI的信任构建，以及神经母细胞瘤分化中的棕榈酰化机制。"
   }
  },
  "todays_image": {
-  "caption": "The USS Enterprise model, like the USS Lincoln, anchors a legacy of carriers whose troubles trace back to early-war base attacks—proof that even mighty decks can be rocked at their moorings.",
+  "caption": "The model aircraft carrier \"Enterprise\" evokes how congressional stock trading has become a flagship issue steering midterm campaign attacks.",
   "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19830024000-NASM2018-10027",
   "source_name": "National Air and Space Museum",
   "source_url": "http://n2t.net/ark:/65665/nv9aba2da94-05c6-4161-9a40-455407b2163e",

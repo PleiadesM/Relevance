@@ -1,0 +1,234 @@
+{
+ "meta": {
+  "count": 3,
+  "generated_at": "2026-08-15T01:47:33Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "b728c139c1222184",
+     "phrase": {
+      "en": "frames as 'not nearly enough'",
+      "zh": "称‘远远不够’"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/14/us/politics/trump-uss-abraham-lincoln.html"
+    },
+    {
+     "item_id": "c4df2a7afe73d4ab",
+     "phrase": {
+      "en": "frames as family worries dismissed",
+      "zh": "家属担忧被忽视"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/live/2026/aug/14/donald-trump-speech-crime-safety-new-york-republicans-midterms-us-politics-latest-news-updates"
+    },
+    {
+     "item_id": "3463d884e71fb0c3",
+     "phrase": {
+      "en": "frames as logistics hub strain",
+      "zh": "后勤枢纽承压"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/14/us/politics/uss-abraham-lincoln-trump-supplies-diego-garcia.html"
+    },
+    {
+     "item_id": "7873530c96d54a7d",
+     "phrase": {
+      "en": "frames as mental health crisis",
+      "zh": "心理健康危机"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/14/trump-uss-abraham-lincoln-deployment"
+    },
+    {
+     "item_id": "dc99065cd6638a9c",
+     "phrase": {
+      "en": "frames as relief underway",
+      "zh": "换防进行中"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "A record-long deployment strains sailors and politics alike.",
+    "zh": "创纪录的部署让水兵与政治都绷紧了弦。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "carrier deployment",
+    "zh": "航母部署"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-14",
+     "label": {
+      "en": "record 250 days at sea",
+      "zh": "创纪录250天海上部署"
+     }
+    },
+    {
+     "date": "2026-08-15",
+     "item_id": "b728c139c1222184",
+     "label": {
+      "en": "president downplays concerns",
+      "zh": "总统淡化担忧"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/14/us/politics/trump-uss-abraham-lincoln.html"
+    }
+   ],
+   "why_now": {
+    "en": "You track geopolitics: today the president's dismissal clashes with reports of crew distress and relief plans.",
+    "zh": "你关注地缘政治：今日总统的轻描淡写与船员困境及换防计划形成冲突。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "7a536b731aa54ea0",
+     "phrase": {
+      "en": "frames as campaign issue",
+      "zh": "竞选议题"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/14/us/politics/stock-trading-congress.html"
+    },
+    {
+     "item_id": "eed93a4afd4e4803",
+     "phrase": {
+      "en": "frames as plagiarism tragedy",
+      "zh": "抄袭指控悲剧"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/uk-news/2026/aug/14/jason-arday-found-dead-after-resigning-from-cambridge-over-plagiarism-claims"
+    },
+    {
+     "item_id": "67419616ec32e491",
+     "phrase": {
+      "en": "frames as university investigation",
+      "zh": "大学调查"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/14/world/europe/jason-arday-dead.html"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Public figures face scrutiny over ethics and legality, with tragic turns.",
+    "zh": "公众人物面临道德与法律审查，甚至出现悲剧。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "misconduct probes",
+    "zh": "不当行为调查"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-14",
+     "item_id": "eed93a4afd4e4803",
+     "label": {
+      "en": "Arday found dead",
+      "zh": "阿代去世"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/uk-news/2026/aug/14/jason-arday-found-dead-after-resigning-from-cambridge-over-plagiarism-claims"
+    },
+    {
+     "date": "2026-08-15",
+     "item_id": "7a536b731aa54ea0",
+     "label": {
+      "en": "stock trading attacks",
+      "zh": "股票交易攻击"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/14/us/politics/stock-trading-congress.html"
+    }
+   ],
+   "why_now": {
+    "en": "You care about institutions: today Cambridge and Congress both face integrity questions.",
+    "zh": "你关注机构：今日剑桥与国会都面临诚信质疑。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "7ee23d6ebd6d107b",
+     "phrase": {
+      "en": "frames as official sympathy",
+      "zh": "官方同情"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/14/world/middleeast/israel-west-bank-settler-violence-military-police.html"
+    },
+    {
+     "item_id": "b8f861090b3ebd20",
+     "phrase": {
+      "en": "frames as besieged families",
+      "zh": "被围困家庭"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c1w1ylw0p3no?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Settler violence challenges military and political norms in the occupied territories.",
+    "zh": "定居者暴力挑战被占领地区的军事与政治规范。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "west bank settlers",
+    "zh": "约旦河西岸定居者"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-14",
+     "item_id": "7ee23d6ebd6d107b",
+     "label": {
+      "en": "military sympathy reported",
+      "zh": "军方同情报道"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/14/world/middleeast/israel-west-bank-settler-violence-military-police.html"
+    },
+    {
+     "date": "2026-08-14",
+     "item_id": "b8f861090b3ebd20",
+     "label": {
+      "en": "activists attempt aid",
+      "zh": "活动人士试图援助"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c1w1ylw0p3no?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "why_now": {
+    "en": "You follow international affairs: today reports show army inaction and settler sympathies.",
+    "zh": "你关注国际事务：今日报道显示军队不作为与对定居者的同情。"
+   }
+  }
+ ]
+}

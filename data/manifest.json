@@ -4,13 +4,13 @@
  },
  "app": "personal-newsdash",
  "app_version": "0.7.0",
- "build_id": "20260814T223810Z",
+ "build_id": "20260815T014733Z",
  "crypto": {
   "alg": "AES-256-GCM",
   "check": {
    "aad": "newsdash:v1:check",
-   "ct": "nDFUVmI9diq5mlKxqKK2vWIck0J+K4SAEbH3",
-   "nonce": "T2tEuA4OfDfvbsHw"
+   "ct": "/b0p0IkVhj2BmY3iPaqFf4DKZT+s6vET6SpL",
+   "nonce": "GhL74GuPoAt91/Ye"
   },
   "kdf": {
    "hash": "SHA-256",
@@ -19,13 +19,13 @@
    "salt": "39KH3tFyj0E6BQREk5096Q=="
   }
  },
- "generated_at": "2026-08-14T22:38:10Z",
+ "generated_at": "2026-08-15T01:47:33Z",
  "insights_file": "insights.json",
  "schema_version": 1,
  "sections": [
   {
    "category": "open",
-   "count": 100,
+   "count": 96,
    "encrypted": false,
    "file": "news.json",
    "id": "news",
@@ -34,7 +34,7 @@
   },
   {
    "category": "optional",
-   "count": 34,
+   "count": 22,
    "encrypted": false,
    "file": "papers.json",
    "id": "papers",
@@ -60,6 +60,6 @@
  },
  "source_status_file": "source-status.json",
  "status": "ok",
- "threads_file": null,
+ "threads_file": "threads.json",
  "threads_private_file": null
 }
