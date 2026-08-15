@@ -1,0 +1,176 @@
+{
+ "meta": {
+  "count": 2,
+  "generated_at": "2026-08-15T04:44:53Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "b728c139c1222184",
+     "phrase": {
+      "en": "President downplays sailor hardships",
+      "zh": "总统淡化水兵困难"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/14/us/politics/trump-uss-abraham-lincoln.html"
+    },
+    {
+     "item_id": "c4df2a7afe73d4ab",
+     "phrase": {
+      "en": "Live blog on Trump's dismissal",
+      "zh": "特朗普不屑的直播博客"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/live/2026/aug/14/donald-trump-speech-crime-safety-new-york-republicans-midterms-us-politics-latest-news-updates"
+    },
+    {
+     "item_id": "7873530c96d54a7d",
+     "phrase": {
+      "en": "Downplays while families worry",
+      "zh": "淡化而家属担忧"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/14/trump-uss-abraham-lincoln-deployment"
+    },
+    {
+     "item_id": "dc99065cd6638a9c",
+     "phrase": {
+      "en": "Reports of food and plumbing issues",
+      "zh": "报告食物与管道问题"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "A record-long deployment strains sailors and politics alike.",
+    "zh": "创纪录的部署让水兵与政治都承受压力。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "carrier deployment woes",
+    "zh": "航母部署困境"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-12",
+     "item_id": "62989d6c0698801f",
+     "label": {
+      "en": "carrier's record 250 days",
+      "zh": "航母创纪录250天"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.12582v1"
+    },
+    {
+     "date": "2026-08-14",
+     "item_id": "dc99065cd6638a9c",
+     "label": {
+      "en": "relief carrier dispatched",
+      "zh": "派出接替航母"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "date": "2026-08-15",
+     "item_id": "b728c139c1222184",
+     "label": {
+      "en": "Trump calls it 'not enough'",
+      "zh": "特朗普称“还不够”"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/14/us/politics/trump-uss-abraham-lincoln.html"
+    }
+   ],
+   "why_now": {
+    "en": "You follow geopolitics and human factors: today's news shows a superpower's reach exceeding its sailors' endurance.",
+    "zh": "你关注地缘政治与人为因素：今日新闻显示超级大国的触角超过了水兵的耐力。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "c79d90336c08aeea",
+     "phrase": {
+      "en": "Heat deaths in cold country",
+      "zh": "寒冷国家热死人"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/15/world/europe/heat-deaths-in-a-cold-country-are-a-warning-to-the-rest-of-europe.html"
+    },
+    {
+     "item_id": "58ff667053c7a439",
+     "phrase": {
+      "en": "Emergency alerts sent to phones",
+      "zh": "紧急警报发送至手机"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/14/emergency-alert-warning-wildfire-risk-sent-phones-england-wales"
+    },
+    {
+     "item_id": "06a8a9fa48a02876",
+     "phrase": {
+      "en": "Forest Service chief seeks support",
+      "zh": "林务局长请求支援"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/14/michael-boren-idaho-wildfire-ranch"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Heat and drought push authorities to warn whole populations at once.",
+    "zh": "高温干旱迫使当局向全体居民发出警报。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "wildfire alerts",
+    "zh": "野火警报"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-14",
+     "item_id": "58ff667053c7a439",
+     "label": {
+      "en": "England and Wales alerts",
+      "zh": "英格兰威尔士警报"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/14/emergency-alert-warning-wildfire-risk-sent-phones-england-wales"
+    },
+    {
+     "date": "2026-08-15",
+     "item_id": "c79d90336c08aeea",
+     "label": {
+      "en": "Heat deaths warning",
+      "zh": "热死警告"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/15/world/europe/heat-deaths-in-a-cold-country-are-a-warning-to-the-rest-of-europe.html"
+    }
+   ],
+   "why_now": {
+    "en": "You care about climate data and communication: today's alerts show how risk messaging reaches millions instantly.",
+    "zh": "你关注气候数据与传播：今日警报显示风险信息如何瞬间触达数百万人。"
+   }
+  }
+ ]
+}

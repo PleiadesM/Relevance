@@ -15,7 +15,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.4725,
+   "score": 0.4658,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -41,7 +41,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.61,
+   "score": 0.6033,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -67,7 +67,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.4725,
+   "score": 0.4658,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -91,7 +91,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.4725,
+   "score": 0.4658,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -115,7 +115,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.4725,
+   "score": 0.4658,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -126,6 +126,115 @@
    "title": "Post-incident Forensic Analysis of Industrial Control Systems (ICS)",
    "url": "https://aisel.aisnet.org/treos_amcis2026/128",
    "venue": "Journal of the Association for Information Systems"
+  },
+  {
+   "authors": [
+    "Lonni Besançon",
+    "Tobias Isenberg"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "We analyzed the ethics reporting in 255 IEEE VIS papers from 2024 and 2025, as published in TVCG. This analysis arose from our experience as readers and reviewers of IEEE VIS papers that such reporting is frequently incomplete or missing, as well as from investigations in which we ourselves had to answer challenges regarding ethics approval in our own work. Visualization research naturally often involves human participants, yet ethics approval and informed-consent procedures are not always…",
+    "arxiv_id": "2608.13295"
+   },
+   "id": "30f44523ef6c5172",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-13T14:26:23Z",
+   "score": 0.4852,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "We analyzed the ethics reporting in 255 IEEE VIS papers from 2024 and 2025, as published in TVCG. This analysis arose from our experience as readers and reviewers of IEEE VIS papers that such reporting is frequently incomplete or missing, as well as from investigations in which we ourselves had to…",
+   "tags": [
+    "eval-study"
+   ],
+   "title": "More Than 63% of IEEE VIS Research Liable to be Retracted?! Ethics Approval Statements Protect Participants (and Researchers!)",
+   "url": "https://arxiv.org/abs/2608.13295v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Athanasios Karagounis"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Motor imagery (MI) brain--computer interfaces (BCIs) have emerged as a promising approach for establishing flexible communication pathways between the human brain and external devices , particularly for individuals affected by stroke or neurodegenerative disorders. Reliable decoding of motor-imagery electroencephalography (MI-EEG) remains challenging because EEG recordings contain substantial noise and exhibit complex, weakly informative relationships with the underlying brain activity.…",
+    "arxiv_id": "2608.13285"
+   },
+   "id": "b1e22db5844eb5e6",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-13T14:20:51Z",
+   "score": 0.6374,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Motor imagery (MI) brain--computer interfaces (BCIs) have emerged as a promising approach for establishing flexible communication pathways between the human brain and external devices , particularly for individuals affected by stroke or neurodegenerative disorders. Reliable decoding of…",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "EEG Decoding Using CNN and LSTM Network",
+   "url": "https://arxiv.org/abs/2608.13285v1",
+   "venue": "arXiv cs.LG"
+  },
+  {
+   "authors": [
+    "Mara Solen",
+    "Wesley Willett",
+    "Andrew M McNutt"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Contribution statements are an increasingly common way to make research labor visible, reduce academic malfeasance, and provide broader transparency. Despite this potential value, they remain uncommon in visualization and HCI. To explore this gap, we conducted an online study with (N=21) visualization and HCI researchers. We find a range of differing opinions about the utility of contribution statements, which are set against a background of tensions relating to contribution frameworks that…",
+    "also_in": [
+     {
+      "source": "arXiv cs.HC (writing & docs)",
+      "url": "https://arxiv.org/abs/2608.12792v1"
+     }
+    ],
+    "arxiv_id": "2608.12792"
+   },
+   "id": "4464bb3e7f130d82",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-13T03:53:53Z",
+   "score": 0.6441,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Contribution statements are an increasingly common way to make research labor visible, reduce academic malfeasance, and provide broader transparency. Despite this potential value, they remain uncommon in visualization and HCI. To explore this gap, we conducted an online study with (N=21)…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Considering Contribution Statements in Visualization and HCI Research",
+   "url": "https://arxiv.org/abs/2608.12792v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Hakan Üstünel"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "This study introduces the spatial and analytical construction of the Quartic Overhauser (QOVR) surface generation framework designed to resolve boundary alignment and localized shape modification constraints. This framework implements a variable parameter fourth degree novel architecture to achieve exact parameter isolation across orthogonal coordinate axes. The analytical pipeline integrates directional spline blending functions with symmetric spatial control matrices, ensuring that internal…",
+    "arxiv_id": "2608.12697"
+   },
+   "id": "2cdc53f2efd36fa4",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-13T01:20:42Z",
+   "score": 0.6365,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "This study introduces the spatial and analytical construction of the Quartic Overhauser (QOVR) surface generation framework designed to resolve boundary alignment and localized shape modification constraints. This framework implements a variable parameter fourth degree novel architecture to achieve…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Matrix-Driven Quartic Overhauser (QOVR) Surfaces Structural Framework: Continuity Limitations, Computer Graphics Algorithms, and Software Implementation",
+   "url": "https://arxiv.org/abs/2608.12697v1",
+   "venue": "arXiv cs.GR"
   },
   {
    "authors": [
@@ -141,7 +250,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4631,
+   "score": 0.4593,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -170,7 +279,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4631,
+   "score": 0.4593,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -200,7 +309,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4631,
+   "score": 0.4593,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -225,7 +334,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4631,
+   "score": 0.4593,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -254,7 +363,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.3256,
+   "score": 0.3218,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -283,7 +392,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4631,
+   "score": 0.4593,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -312,7 +421,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4631,
+   "score": 0.4593,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -338,7 +447,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.3256,
+   "score": 0.3218,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -367,7 +476,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4631,
+   "score": 0.4593,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -397,7 +506,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4631,
+   "score": 0.4593,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -425,7 +534,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4631,
+   "score": 0.4593,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -454,7 +563,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.3256,
+   "score": 0.3218,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -483,7 +592,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4631,
+   "score": 0.4593,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -508,7 +617,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4631,
+   "score": 0.4593,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -533,7 +642,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.4631,
+   "score": 0.4593,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -558,7 +667,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.3256,
+   "score": 0.3218,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -587,7 +696,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T00:00:00Z",
-   "score": 0.3256,
+   "score": 0.3218,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -596,22 +705,248 @@
    "title": "Case report: a rare case of congenital vulvar malformation that is often overlooked",
    "url": "https://doi.org/10.1186/s12905-026-04773-9",
    "venue": "BMC Women s Health"
+  },
+  {
+   "authors": [
+    "Nadia Mehjabin",
+    "Henry Kautz",
+    "Subigya Nepal"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "AI journaling tools can tailor prompts to a person's own sensed behavior, but it is unclear which behaviors respond to them. We analyzed 369 journal entries from an eight-week passive sensing study. An LLM labeled each entry as expressing an intention to change a behavior or not, and we measured follow-through against 26 sensor features with a 3-day before/after comparison. Responsiveness depended most on whether a behavior involves other people. Behaviors that depend on others improved in only…",
+    "arxiv_id": "2608.12582"
+   },
+   "id": "62989d6c0698801f",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-12T20:52:59Z",
+   "score": 0.7239,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "AI journaling tools can tailor prompts to a person's own sensed behavior, but it is unclear which behaviors respond to them. We analyzed 369 journal entries from an eight-week passive sensing study. An LLM labeled each entry as expressing an intention to change a behavior or not, and we measured…",
+   "tags": [
+    "ai-writing",
+    "llm"
+   ],
+   "title": "Not All Nudges Land: Behavioral Controllability and Elaboration Quality in AI-Supported Journaling",
+   "url": "https://arxiv.org/abs/2608.12582v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Lin-Yin Huang",
+    "Dennis Zyska",
+    "Iryna Gurevych"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "At the studied research institute, one professorship oversees approximately 20 theses per semester, while day-to-day supervision is distributed among doctoral and postdoctoral researchers. To manage this supervision demand, the institute uses an exposé-first workflow in which students prepare a research proposal before entering the main thesis-writing phase. This paper asks how students, supervisors, and administrators experience the exposé-first workflow as a structured process for early…",
+    "arxiv_id": "2608.12546"
+   },
+   "id": "60e8bbb5d3d56203",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-12T19:36:49Z",
+   "score": 0.3879,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "At the studied research institute, one professorship oversees approximately 20 theses per semester, while day-to-day supervision is distributed among doctoral and postdoctoral researchers. To manage this supervision demand, the institute uses an exposé-first workflow in which students prepare a…",
+   "tags": [
+    "pedagogy"
+   ],
+   "title": "Transforming Interactions in Thesis Supervision: An Exposé-First Workflow in Higher Education",
+   "url": "https://arxiv.org/abs/2608.12546v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Aaron Chatterji",
+    "David Holtz",
+    "Neel Rakholia",
+    "Prasanna Tambe",
+    "Gawesha Weeratunga"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "We study how organizations use frontier generative AI by linking ChatGPT Enterprise account records to usage, worker roles, task classifications, and public-company financial data through March 2026. These linked data enable a privacy-preserving analysis of adoption, worker roles, and message-level tasks at scale: for instance, the worker-level sample we analyze at the six-month adoption horizon includes over 1,500 organizations and over 17 million messages. We document four facts about…",
+    "arxiv_id": "2608.12236"
+   },
+   "id": "4afc5c6af524bbfd",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-12T16:32:52Z",
+   "score": 0.5723,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "We study how organizations use frontier generative AI by linking ChatGPT Enterprise account records to usage, worker roles, task classifications, and public-company financial data through March 2026. These linked data enable a privacy-preserving analysis of adoption, worker roles, and message-level…",
+   "tags": [
+    "ai-writing",
+    "llm"
+   ],
+   "title": "How Organizations Use AI: Evidence from ChatGPT",
+   "url": "https://arxiv.org/abs/2608.12236v1",
+   "venue": "arXiv econ.GN"
+  },
+  {
+   "authors": [
+    "Praveen Reddy",
+    "Charuta Mandke",
+    "Suvrankar Datta",
+    "Sarah Khan",
+    "Siddharth Reddy Anthireddy",
+    "Shitij Arora"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "General-purpose large language models (LLMs) have recently been reported to match or exceed specialized clinical AI tools on medical benchmarks, but such comparisons draw on a narrow set of systems and on benchmarks developed largely in high-income settings. We evaluate VITA, a retrieval-augmented generation (RAG) system purpose-built for contextual knowledge retrieval in India and other low- and middle-income (LMIC) settings. VITA retrieves from a curated corpus of disease-specific guidelines,…",
+    "arxiv_id": "2608.12138"
+   },
+   "id": "acbfbfd4b1348041",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-12T14:55:46Z",
+   "score": 0.7081,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "General-purpose large language models (LLMs) have recently been reported to match or exceed specialized clinical AI tools on medical benchmarks, but such comparisons draw on a narrow set of systems and on benchmarks developed largely in high-income settings. We evaluate VITA, a retrieval-augmented…",
+   "tags": [
+    "ai-writing",
+    "llm"
+   ],
+   "title": "A corpus-specific clinical RAG system matches or outperforms newer frontier LLMs on HealthBench",
+   "url": "https://arxiv.org/abs/2608.12138v1",
+   "venue": "arXiv cs.CL"
+  },
+  {
+   "authors": [
+    "Adrian Rauchfleisch",
+    "Andreas Jungherr"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "The growing role of AI-generated content and AI-enabled systems in public communication has led regulators to demand clear disclosure of content provenance and AI involvement. But the effects of such disclosures remain uncertain. We test two disclosure approaches in their impact on an AI chatbot's persuasive appeal. In a preregistered experiment, 1,500 UK adults held a short conversation with a persuasive chatbot about one of 60 policy issues. The chatbot was identical for everyone. We…",
+    "arxiv_id": "2608.11794"
+   },
+   "id": "1c4a07ca0da5534a",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-12T08:37:44Z",
+   "score": 0.5525,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "The growing role of AI-generated content and AI-enabled systems in public communication has led regulators to demand clear disclosure of content provenance and AI involvement. But the effects of such disclosures remain uncertain. We test two disclosure approaches in their impact on an AI chatbot's…",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "Toward Meaningful Transparency for AI Chatbots: Disclosing Persuasive Intent Reduces Persuasion",
+   "url": "https://arxiv.org/abs/2608.11794v1",
+   "venue": "arXiv cs.CY"
+  },
+  {
+   "authors": [
+    "Zheng Wang",
+    "Zhiyang Shen",
+    "Lingyun Yu",
+    "Shixia Liu"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Compositing multiple visualizations into a coherent whole remains challenging due to the vast design space and the need to balance the coverage of task-relevant data insights (e.g., trends and outliers), perceptual clarity, and aesthetic quality. In this paper, we present VisPuzzle, a task-aware method that formulates visualization composition as a stepwise search problem over a composition graph. In this graph, nodes represent either data composition operations (e.g., union, join) or visual…",
+    "arxiv_id": "2608.11635"
+   },
+   "id": "5f17edca4dad11d4",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-12T04:32:08Z",
+   "score": 0.583,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Compositing multiple visualizations into a coherent whole remains challenging due to the vast design space and the need to balance the coverage of task-relevant data insights (e.g., trends and outliers), perceptual clarity, and aesthetic quality. In this paper, we present VisPuzzle, a task-aware…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "VisPuzzle: Task-Aware Composite Visualization Construction",
+   "url": "https://arxiv.org/abs/2608.11635v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Ziyao Kang",
+    "Yiping Sun",
+    "Linxuan Tian",
+    "Henghuan Qu",
+    "Wei Zeng",
+    "Jiazhi Xia"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Natural language offers an easy way for users to express chart editing intents, which are often composite and cross-component (e.g., adjusting style, extending categories, highlighting values). However, existing methods typically map instructions to a single operation or widget, limiting their ability to handle high-level requests and often producing locally plausible but globally inconsistent results due to a lack of awareness of relationships between chart components. To address these…",
+    "arxiv_id": "2608.11581"
+   },
+   "id": "afea3052142025b0",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-12T02:40:09Z",
+   "score": 0.3863,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Natural language offers an easy way for users to express chart editing intents, which are often composite and cross-component (e.g., adjusting style, extending categories, highlighting values). However, existing methods typically map instructions to a single operation or widget, limiting their…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "RAGE-Vis:A Relation-Aware Generative Editing Interface for Natural Language-Based Chart Editing",
+   "url": "https://arxiv.org/abs/2608.11581v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Omar Khan",
+    "JooYoung Seo"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Qualitative data visualizations -- concept maps, network graphs, Sankey diagrams, and coding stripes -- are integral to research practice, yet remain entirely inaccessible to blind and low-vision (BLV) researchers. While visualization has seen advanced multimodal solutions for quantitative charts, qualitative visualizations, and their non-linear, semantically rich structures have received no attention. We present QUARTZ, a web-based system that provides screen-reader-accessible, multimodal…",
+    "arxiv_id": "2608.11364"
+   },
+   "id": "aba1a350e98739f6",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-11T19:15:54Z",
+   "score": 0.7031,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Qualitative data visualizations -- concept maps, network graphs, Sankey diagrams, and coding stripes -- are integral to research practice, yet remain entirely inaccessible to blind and low-vision (BLV) researchers. While visualization has seen advanced multimodal solutions for quantitative charts,…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "QUARTZ: Qualitative Understanding via Accessible Representation and Visualization",
+   "url": "https://arxiv.org/abs/2608.11364v1",
+   "venue": "arXiv cs.HC"
   }
  ],
  "meta": {
-  "count": 22,
-  "generated_at": "2026-08-15T03:02:39Z",
+  "count": 34,
+  "generated_at": "2026-08-15T04:44:53Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
    {
     "category": "optional",
-    "count": 0,
-    "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60",
+    "count": 6,
+    "error": null,
     "full_text_count": 0,
     "id": "arxiv_datavis",
     "name": "arXiv cs.HC + cs.GR",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
@@ -643,7 +978,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-07-18&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-18&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
@@ -666,12 +1001,12 @@
    },
    {
     "category": "optional",
-    "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC&sortBy=submittedDate&sortOrder=descending&max_results=40",
+    "count": 7,
+    "error": null,
     "full_text_count": 0,
     "id": "arxiv_hci_writing",
     "name": "arXiv cs.HC (writing & docs)",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
