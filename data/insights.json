@@ -1,48 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "mechanical pencil mechanism OR Japanese stationery design",
-  "source": {
-   "name": "朝日新聞",
-   "published_at": "2026-07-21T07:00:00Z",
-   "title": "Student opens museum showing his mechanical pencils in Kyoto",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBfb2ttS1UyMzZXdWxRT2xIWnJGdkcwcUNFLVpubllqRk0zNWNQZVRES041SlBaWWp6TEpKNlRGVUlyNVRlUnlUZlJ0T3RzYVZOWnN4NUZ3?oc=5"
-  },
-  "summaries": {
-   "en": {
-    "summary": "A student in Kyoto has opened a small museum displaying his personal collection of mechanical pencils.",
-    "why_irrelevant": "This is a niche hobbyist story about a personal collection, far from your usual streams."
-   },
-   "zh": {
-    "summary": "京都一名学生开设了一家小型博物馆，展示他个人收藏的自动铅笔。",
-    "why_irrelevant": "这是一个关于个人收藏的小众爱好故事，远离你的常规信息流。"
-   }
-  },
-  "topic": "Japanese stationery mechanical pencil mechanisms"
- },
- "brief": "A powerful earthquake in Indonesia and escalating Israeli strikes in Lebanon dominate world news, while research highlights ethical issues in visualization and computational challenges in neuroscience.",
+ "brief": "Today's news covers a major Indonesian earthquake, renewed Middle East tensions, a U.S. political comeback bid, and lighter stories from viral sea lion assault to world's ugliest dog. Research highlights AI trust in oncology, cybersecurity/innovation balance, and neural mechanisms of emotion regulation.",
  "meta": {
-  "generated_at": "2026-08-15T12:57:01Z"
+  "generated_at": "2026-08-15T14:36:42Z"
  },
- "news_summary": "A 7.7-magnitude earthquake in Indonesia killed at least 38, Israeli strikes in Lebanon killed 11, and the Met police apologized for exposing email addresses of Mohamed Al Fayed's victims.",
- "papers_summary": "Research examines ethics in visualization, with a study finding over 63% of IEEE VIS papers might be retractable due to missing ethics approvals, and others explore cybersecurity in regulated organizations and AI trust in oncology.",
+ "news_summary": "A 7.7-magnitude earthquake in eastern Indonesia has killed at least 47 people, while Israeli strikes on southern Lebanon have killed 11, marking the worst toll since a June truce. In U.S. politics, Sherrod Brown seeks a Senate comeback in Ohio, and other items include a school shooting, a stranded family, and a posthumous award for an Indigenous culture promoter.",
+ "papers_summary": "Recent papers explore balancing innovation and cybersecurity in regulated organizations, trust in AI for oncology decision support, and the role of zDHHC palmitoyltransferases in neuronal differentiation. Additional studies investigate emotion regulation pathways and sustainable zeolite synthesis.",
  "summaries": {
   "en": {
-   "brief": "A powerful earthquake in Indonesia and escalating Israeli strikes in Lebanon dominate world news, while research highlights ethical issues in visualization and computational challenges in neuroscience.",
-   "news_summary": "A 7.7-magnitude earthquake in Indonesia killed at least 38, Israeli strikes in Lebanon killed 11, and the Met police apologized for exposing email addresses of Mohamed Al Fayed's victims.",
-   "papers_summary": "Research examines ethics in visualization, with a study finding over 63% of IEEE VIS papers might be retractable due to missing ethics approvals, and others explore cybersecurity in regulated organizations and AI trust in oncology."
+   "brief": "Today's news covers a major Indonesian earthquake, renewed Middle East tensions, a U.S. political comeback bid, and lighter stories from viral sea lion assault to world's ugliest dog. Research highlights AI trust in oncology, cybersecurity/innovation balance, and neural mechanisms of emotion regulation.",
+   "news_summary": "A 7.7-magnitude earthquake in eastern Indonesia has killed at least 47 people, while Israeli strikes on southern Lebanon have killed 11, marking the worst toll since a June truce. In U.S. politics, Sherrod Brown seeks a Senate comeback in Ohio, and other items include a school shooting, a stranded family, and a posthumous award for an Indigenous culture promoter.",
+   "papers_summary": "Recent papers explore balancing innovation and cybersecurity in regulated organizations, trust in AI for oncology decision support, and the role of zDHHC palmitoyltransferases in neuronal differentiation. Additional studies investigate emotion regulation pathways and sustainable zeolite synthesis."
   },
   "zh": {
-   "brief": "今日重点：台湾前总统陈水扁之女陈幸妤离婚曝光，重燃20年前媒体伦理讨论；韩国股市暴跌重创散户。国际方面印尼强震致38人死亡，以色列空袭黎巴嫩致9死。",
-   "news_summary": "台湾媒体焦点重聚陈幸妤，引发对往日媒体行为的反思；韩国股市暴跌令散户损失惨重。",
-   "papers_summary": "今日无华人论文，国际研究聚焦可视化伦理、AI医疗信任及网络安全。"
+   "brief": "今日焦点为韩国股市暴跌重创散户，以及台湾前总统陈水扁女儿离婚事件引发的媒体伦理反思。国际方面，印尼强震伤亡持续攀升，黎巴嫩遭以色列空袭。",
+   "news_summary": "韩国股市调整令散户损失惨重，而台湾陈幸妤离婚案旧事重提，引发对媒体过往行为的讨论。国际新闻包括印尼地震和黎以冲突。",
+   "papers_summary": "研究论文涉及高度监管组织中的创新与网络安全平衡、AI在肿瘤学中的信任问题，以及蛋白质棕榈酰化等生物医学课题。"
   }
  },
  "todays_image": {
-  "caption": "The tiny Borreria perpusilla, whose name means \"very small,\" serves as a reminder that even the smallest overlooked detail—like a faulty shower fixture—can carry life-or-death consequences, echoing the tragic electrocution of the Irish teen",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m39b901120c1b24cdcb078478055490201",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3ef775029-7ea2-4cee-a1de-13b30acd931b",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m39b901120c1b24cdcb078478055490201/90",
-  "title": "Borreria perpusilla Hook. f."
+  "caption": "The earthquake tag letter is a relic of disaster marking broken structures, much like Brown's populist pitch is a weathered message hoping to rebuild trust in a fractured political landscape.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2018_2014_1a",
+  "source_name": "National Postal Museum",
+  "source_url": "https://postalmuseum.si.edu/object/npm_2018.2014.1",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2018_2014_1a",
+  "title": "San Francisco earthquake tag letter"
  }
 }
