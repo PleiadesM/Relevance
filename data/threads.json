@@ -1,204 +1,125 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-08-15T18:45:53Z",
+  "count": 3,
+  "generated_at": "2026-08-15T20:36:09Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "9e2f52bf50d487e5",
+     "item_id": "2b21a7c844dd9137",
      "phrase": {
-      "en": "NYT: children among dead",
-      "zh": "时报：儿童遇难"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/15/world/middleeast/israel-strikes-lebanon-ansar.html"
-    },
-    {
-     "item_id": "12b2377bdf596469",
-     "phrase": {
-      "en": "BBC: strikes on Hezbollah infrastructure",
-      "zh": "BBC：打击真主党设施"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "bc7d16f4ca12bc29",
-     "phrase": {
-      "en": "Guardian: worst toll since June",
-      "zh": "卫报：六月以来最重"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/15/israeli-strike-on-southern-lebanon-kills-seven-in-worst-toll-since-june-state-media-says"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Deadly airstrikes in southern Lebanon shatter the June truce, killing children.",
-    "zh": "南黎巴嫩致命空袭打破六月停火，儿童罹难。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "Israel-Hezbollah strikes",
-    "zh": "以色列-真主党冲突"
-   },
-   "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-06",
-     "label": {
-      "en": "truce begins",
-      "zh": "停火开始"
-     }
-    },
-    {
-     "date": "2026-08-15",
-     "item_id": "9e2f52bf50d487e5",
-     "label": {
-      "en": "11 killed, worst since truce",
-      "zh": "11人死亡，停火以来最严重"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/15/world/middleeast/israel-strikes-lebanon-ansar.html"
-    }
-   ],
-   "why_now": {
-    "en": "You follow geopolitics; three sources converge on the worst toll since the truce, a fresh escalation.",
-    "zh": "你关注地缘政治，三个来源同时报道停火以来最严重伤亡，局势升级。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "a7b9431f7ab7bc0b",
-     "phrase": {
-      "en": "Guardian: hundreds arrested for arson",
-      "zh": "卫报：数百人因纵火被捕"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/14/arrested-suspicion-starting-wildfires-europe-france"
-    },
-    {
-     "item_id": "ac0cc723648b9f2e",
-     "phrase": {
-      "en": "BBC: Belgium's worst fire",
-      "zh": "BBC：比利时最严重火灾"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cp8eex1nmpvo?at_medium=RSS&at_campaign=rss"
-    }
-   ],
-   "convergence": "divergent",
-   "gloss": {
-    "en": "Wildfires rage across Europe, with French arson arrests and Belgian parks burning.",
-    "zh": "野火肆虐欧洲，法国纵火逮捕，比利时公园燃烧。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "European wildfires",
-    "zh": "欧洲野火"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You study climate and data; this is the concrete state of Europe's fire season today.",
-    "zh": "你研究气候与数据，这是今日欧洲火灾季的具体状况。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "31461f407e24f3e6",
-     "phrase": {
-      "en": "BBC: books boom because AI",
-      "zh": "BBC：AI导致书籍热卖"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "ce3e9b7028eb17b9",
-     "phrase": {
-      "en": "HN: remember vs think",
-      "zh": "HN：记忆与思考"
+      "en": "asks: is AI drug discovery working?",
+      "zh": "质疑AI药物发现效果"
      },
      "section": "news",
      "source": "Hacker News (AI filter)",
-     "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians"
+     "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really"
+    },
+    {
+     "item_id": "acbfbfd4b1348041",
+     "phrase": {
+      "en": "clinical RAG matches frontier LLMs",
+      "zh": "临床RAG媲美前沿LLM"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.12138v1"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "AI training is consuming secondhand books and even pulp, raising ethical flags.",
-    "zh": "AI训练消耗二手书甚至纸浆，引发伦理关注。"
+    "en": "Two new pieces ask whether AI is really transforming drug discovery or just promising.",
+    "zh": "两篇新文章问：AI是否真的在改变药物发现，还是仅有承诺。"
    },
-   "id": "t3",
+   "id": "t1",
    "keyword": {
-    "en": "AI training data ethics",
-    "zh": "AI训练数据伦理"
+    "en": "AI in drug discovery",
+    "zh": "AI药物发现"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track LLM data practices; this shows a tangible side effect of training hunger.",
-    "zh": "你追踪大语言模型数据实践，这展示训练渴求的具体副作用。"
+    "en": "You follow AI applications; today brings a candid assessment and a clinical benchmark.",
+    "zh": "你关注AI应用，今天有诚实的评估和临床基准。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "1c4a07ca0da5534a",
+     "item_id": "ce3e9b7028eb17b9",
      "phrase": {
-      "en": "Disclosing intent reduces persuasion",
-      "zh": "披露意图减少说服"
+      "en": "AI out-remembers, not outthinks",
+      "zh": "AI记忆优于思考"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.11794v1"
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians"
     },
     {
      "item_id": "7e7284e9ac1b392e",
      "phrase": {
-      "en": "Trust in oncology AI",
-      "zh": "肿瘤AI的信任"
+      "en": "explainable AI for trust",
+      "zh": "可解释AI建立信任"
      },
      "section": "papers",
      "source": "OpenAlex · information visualization",
      "url": "https://aisel.aisnet.org/treos_amcis2026/191"
-    },
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Two reflections on what AI can and cannot do in high-stakes thinking.",
+    "zh": "两篇反思AI在高风险思维中的能与不能。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "AI cognitive limits",
+    "zh": "AI认知边界"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about embodied AI and HCI; these pieces probe AI's problem-solving and trust.",
+    "zh": "你关注具身AI和人机交互，这些文章探讨AI的解决问题和信任。"
+   }
+  },
+  {
+   "angles": [
     {
      "item_id": "4464bb3e7f130d82",
      "phrase": {
-      "en": "Contribution statements in HCI",
-      "zh": "人机交互贡献声明"
+      "en": "contribution statements in HCI",
+      "zh": "HCI中的贡献声明"
      },
      "section": "papers",
      "source": "arXiv cs.HC + cs.GR",
      "url": "https://arxiv.org/abs/2608.12792v1"
+    },
+    {
+     "item_id": "62989d6c0698801f",
+     "phrase": {
+      "en": "nudges in AI journaling",
+      "zh": "AI日志中的助推"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.12582v1"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "New papers probe transparency, contribution, and trust in AI systems, from chatbots to oncology.",
-    "zh": "新论文探讨从聊天机器人到肿瘤学的AI透明度、贡献和信任。"
+    "en": "Two papers examine the meta-level of HCI research—how we document and what we measure.",
+    "zh": "两篇论文审视HCI研究的元层面——我们如何记录和衡量。"
    },
-   "id": "t4",
+   "id": "t3",
    "keyword": {
-    "en": "AI accountability in HCI",
-    "zh": "人机交互中的AI问责"
+    "en": "HCI research practice",
+    "zh": "人机交互研究实践"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow HCI and critical visualization; these papers define the field's current questions.",
-    "zh": "你关注人机交互与批判性可视化，这些论文定义领域当前问题。"
+    "en": "You are in HCI; these help you reflect on your own research methods.",
+    "zh": "你从事人机交互，这些帮助你反思自己的研究方法。"
    }
   }
  ]

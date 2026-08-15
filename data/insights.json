@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "world snail racing championship OR snail race rules",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "BBC",
-   "published_at": "2026-07-19T07:00:00Z",
-   "title": "'Snailor Swift' becomes world snail racing champion",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5rR1FsMmRrZFE4b3FGY3p1TlRGU0pkTUtQeGJYZjBKX0FER1dab2RzZjVLaTEtRmU2NFl4V3M4bC1Xc2l0NFVVNHN1TnNYZi02blJOZUJDZDlyT0hr?oc=5"
+   "name": "sana.sy",
+   "published_at": "2026-08-14T15:30:00Z",
+   "title": "Russian gardener grows giant 360 - kg pumpkin",
+   "url": "https://sana.sy/en/miscellaneous/2336350/"
   },
   "summaries": {
    "en": {
-    "summary": "A snail named Snailor Swift won the World Snail Racing Championship, as reported by BBC.",
-    "why_irrelevant": "a whimsical animal competition far from daily news topics."
+    "summary": "A Russian gardener has grown a giant pumpkin weighing 360 kilograms.",
+    "why_irrelevant": "It is a niche agricultural feat far from typical daily news."
    },
    "zh": {
-    "summary": "据BBC报道，一只名为“蜗牛泰勒”的蜗牛赢得了世界蜗牛竞速锦标赛。",
-    "why_irrelevant": "这是一项离日常新闻话题很远的趣味动物比赛。"
+    "summary": "一位俄罗斯园丁种出了一个重达360公斤的巨型南瓜。",
+    "why_irrelevant": "这是一个远离日常新闻的小众农业壮举。"
    }
   },
-  "topic": "competitive snail racing"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news spans US politics and international incidents, from Democratic primary scheduling and USS Lincoln criticism to Middle East strikes and a massive egg recall, while papers explore AI's role in mathematics and medicine, plus cybersecurity and biomedical research.",
+ "brief": "Today's news is marked by multiple tragedies and political tensions, including earthquakes, floods, and conflicts, while research highlights the challenges of balancing innovation with security and trust in AI.",
  "meta": {
-  "generated_at": "2026-08-15T18:45:53Z"
+  "generated_at": "2026-08-15T20:36:09Z"
  },
- "news_summary": "US politics and international affairs dominate, with Democratic primary calendar changes, criticism of Trump over USS Lincoln conditions, Canadian petition against US ambassador, and deadly strikes and wildfires worldwide. Domestic issues include an egg recall and Cambridge professor's death.",
- "papers_summary": "Papers cover AI's impact on mathematics and clinical medicine, cybersecurity in regulated industries, and biomedical studies on palmitoylation, biomarkers, and asthma, reflecting diverse research interests.",
+ "news_summary": "Major stories include a deadly earthquake in Indonesia, severe flooding in the US Midwest, Israeli strikes in Lebanon, and various political and social developments from hate crime charges in New York to succession rule changes in Liechtenstein.",
+ "papers_summary": "Research topics range from managing innovation-cybersecurity tensions in regulated organizations to improving trust in AI diagnostics, with studies on neuroblastoma differentiation and asthma mechanisms also featured.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans US politics and international incidents, from Democratic primary scheduling and USS Lincoln criticism to Middle East strikes and a massive egg recall, while papers explore AI's role in mathematics and medicine, plus cybersecurity and biomedical research.",
-   "news_summary": "US politics and international affairs dominate, with Democratic primary calendar changes, criticism of Trump over USS Lincoln conditions, Canadian petition against US ambassador, and deadly strikes and wildfires worldwide. Domestic issues include an egg recall and Cambridge professor's death.",
-   "papers_summary": "Papers cover AI's impact on mathematics and clinical medicine, cybersecurity in regulated industries, and biomedical studies on palmitoylation, biomarkers, and asthma, reflecting diverse research interests."
+   "brief": "Today's news is marked by multiple tragedies and political tensions, including earthquakes, floods, and conflicts, while research highlights the challenges of balancing innovation with security and trust in AI.",
+   "news_summary": "Major stories include a deadly earthquake in Indonesia, severe flooding in the US Midwest, Israeli strikes in Lebanon, and various political and social developments from hate crime charges in New York to succession rule changes in Liechtenstein.",
+   "papers_summary": "Research topics range from managing innovation-cybersecurity tensions in regulated organizations to improving trust in AI diagnostics, with studies on neuroblastoma differentiation and asthma mechanisms also featured."
   },
   "zh": {
-   "brief": "今日重点为台湾前总统陈水扁女儿陈幸妤再成媒体焦点，引发对媒体伦理的反思；国际方面，印尼东部发生强震、美国鸡蛋召回及多国野火等事件。研究方面，多项研究关注AI在医疗与网络安全中的应用。",
-   "news_summary": "台湾前总统陈水扁女儿陈幸妤离婚事件曝光，时隔20年再成焦点，引发对媒体伦理的讨论。国际新闻包括印尼强震、美国鸡蛋召回、多国野火等。",
-   "papers_summary": "研究摘要提及AI在肿瘤学与眼科诊断中的应用、网络安全与创新的平衡、以及神经细胞分化相关基因表达等。"
+   "brief": "今日重点：台湾前总统陈水扁女儿陈幸妤离婚曝光，引发媒体伦理反思；国际新闻关注印尼强震、以色列空袭等事件。",
+   "news_summary": "台湾媒体聚焦陈幸妤离婚事件，回顾20年前媒体追访伦理；全球新闻涵盖印尼地震、以色列空袭、美国洪水等。",
+   "papers_summary": "暂无中文论文，英文研究涉及AI诊断、生物标志物等。"
   }
  },
  "todays_image": {
-  "caption": "A lighthouse keeper guides ships through treacherous waters, just as Voltair's Test Flight Engineer will navigate new aircraft through the risky skies of certification.A lighthouse keeper guides ships through treacherous waters, just as Vol",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-CH1078",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/30588",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-CH1078",
-  "title": "Design for a Lighthouse"
+  "caption": "A medal for crossing into danger, like Powell's, finds a dark echo in migrants now being stopped at the crossing into Ceuta.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-A2022_101_1_57_001",
+  "source_name": "National Museum of African American History and Culture",
+  "source_url": "https://nmaahc.si.edu/object/nmaahc_A2022.101.1.57",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-A2022_101_1_57_001",
+  "title": "Soldier’s Medal awarded to Major Colin L. Powell"
  }
 }
