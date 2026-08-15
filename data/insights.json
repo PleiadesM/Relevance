@@ -1,44 +1,44 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "query": "moss wall competition OR moss art contest",
   "source": {
-   "name": "novinky.cz",
-   "published_at": "2026-08-13T07:45:00Z",
-   "title": "Chcete obří a sladké dýně ? Rozhoduje voda , opylení i prkénko",
-   "url": "https://www.novinky.cz/clanek/bydleni-zahrada-chcete-obri-a-sladke-dyne-rozhoduje-voda-opyleni-i-prkenko-40592366"
+   "name": "Flaunt Magazine",
+   "published_at": "2026-08-05T19:48:47Z",
+   "title": "Moss | Cultural Connection in Midtown",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9HUnBKMEthRXR4X21pQ3F1VmdJN1hxYV9jOUFBT3FNWkluT0lDQmRwaFl2cTdDTUt6MGhXcm1GY2xPNWpEZ05qUFhPb2JJWTZmRVpwY0lmMldBZmRHY1NZZGVsZktFaTRJNHQyVTk5MDA?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A Czech gardening article explains how watering, pollination, and a board affect giant sweet pumpkin growth.",
-    "why_irrelevant": "It's a localized European gardening tip far from your usual topics."
+    "summary": "A midtown cultural event links moss to artistic expression, far from practical gardening.",
+    "why_irrelevant": "It's a niche art-world story."
    },
    "zh": {
-    "summary": "一篇捷克园艺文章讲解浇水、授粉和木板如何影响巨型甜南瓜的生长。",
-    "why_irrelevant": "这是与你通常话题相距甚远的本地欧洲园艺技巧。"
+    "summary": "市中心的一项文化活动将苔藓与艺术表现联系起来，远离实用园艺。",
+    "why_irrelevant": "这是一个小众的艺术界故事。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "competitive moss wall growing"
  },
- "brief": "A 7.7-magnitude earthquake in Indonesia has killed at least 14, wildfire and heatwave impacts are visible from space, and the Taliban mark five years in power amid growing international engagement. Notable research covers cybersecurity tensions in regulated industries and ethics in visualization research.",
+ "brief": "A magnitude 7.7 earthquake in Indonesia has killed at least 20, while Europe grapples with extreme heat and its health impacts. Research highlights challenges in balancing innovation with cybersecurity and the importance of ethics in visualization research.",
  "meta": {
-  "generated_at": "2026-08-15T06:55:32Z"
+  "generated_at": "2026-08-15T08:43:45Z"
  },
- "news_summary": "A major earthquake struck Indonesia, causing fatalities; Europe faces heatwave risks; the Taliban celebrate five years in power; and a Picasso print was recovered after years.",
- "papers_summary": "Research highlights include balancing innovation with cybersecurity in regulated organizations and a call for better ethics reporting in visualization conferences.",
+ "news_summary": "A powerful earthquake struck Indonesia, causing casualties and damage, while Europe faces intense heatwaves affecting hospitals and landscapes. Other notable stories include the death of artist Mary Heilmann and growing concerns over Taliban relations.",
+ "papers_summary": "Papers discuss managing institutional tension between innovation and cybersecurity, explainable AI in oncology, and ethics in visualization research, including a study suggesting many IEEE VIS papers may lack proper ethics approval.",
  "summaries": {
   "en": {
-   "brief": "A 7.7-magnitude earthquake in Indonesia has killed at least 14, wildfire and heatwave impacts are visible from space, and the Taliban mark five years in power amid growing international engagement. Notable research covers cybersecurity tensions in regulated industries and ethics in visualization research.",
-   "news_summary": "A major earthquake struck Indonesia, causing fatalities; Europe faces heatwave risks; the Taliban celebrate five years in power; and a Picasso print was recovered after years.",
-   "papers_summary": "Research highlights include balancing innovation with cybersecurity in regulated organizations and a call for better ethics reporting in visualization conferences."
+   "brief": "A magnitude 7.7 earthquake in Indonesia has killed at least 20, while Europe grapples with extreme heat and its health impacts. Research highlights challenges in balancing innovation with cybersecurity and the importance of ethics in visualization research.",
+   "news_summary": "A powerful earthquake struck Indonesia, causing casualties and damage, while Europe faces intense heatwaves affecting hospitals and landscapes. Other notable stories include the death of artist Mary Heilmann and growing concerns over Taliban relations.",
+   "papers_summary": "Papers discuss managing institutional tension between innovation and cybersecurity, explainable AI in oncology, and ethics in visualization research, including a study suggesting many IEEE VIS papers may lack proper ethics approval."
   },
   "zh": {
-   "brief": "今日焦點包括台灣前總統陳水扁女兒陳幸妤離婚事件引發媒體倫理反思，韓國股市暴跌重創散戶，中國國產客機C919首飛國際航線挑戰波音與空巴；國際方面印尼強震致14死，歐洲熱浪與阿富汗局勢亦受關注。",
-   "news_summary": "華文新聞聚焦台灣、韓國及中國的社會與經濟事件，而國際新聞則涵蓋印尼地震、阿富汗局勢及歐洲熱浪等，顯示全球各地不同挑戰並存。",
-   "papers_summary": "研究方面，視覺化與人機互動領域關注倫理審查、貢獻聲明等議題，同時有針對神經科學與網絡安全的研究，顯示學術界持續探討技術與社會的互動。"
+   "brief": "今日重點：台灣政壇往事再掀波瀾，韓國股市暴跌重創散戶，中國C919首飛國際航線；國際上印尼強震致災，歐洲熱浪危機持續；學術界關注可視化研究倫理與AI信任問題。",
+   "news_summary": "台灣前總統陳水扁之女陳幸妤因離婚事件再成焦點，引發對媒體倫理的反思；韓國股市重挫，散戶損失慘重；C919完成首趟國際商業航班，標誌中國客機進軍海外市場的里程碑；印尼發生7.7級強震，至少20人罹難。",
+   "papers_summary": "研究顯示高度監管組織在創新與網路安全間存在緊張關係，另有論文探討腫瘤學中解釋性決策框架以減緩演算法排斥，以及IEEE VIS論文倫理審查缺失的問題。"
   }
  },
  "todays_image": {
-  "caption": "The tiny, ground-hugging Borreria perpusilla Hook. f. shares its name with the trembling earth that just devastated Indonesia in a 7.7-magnitude quake.",
+  "caption": "The tiny Borreria perpusilla clings to the earth with fragile roots as the same ground suddenly convulses beneath it, a quiet contrast to the tremor's deadly force.",
   "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m39b901120c1b24cdcb078478055490201",
   "source_name": "NMNH - Botany Dept.",
   "source_url": "http://n2t.net/ark:/65665/3ef775029-7ea2-4cee-a1de-13b30acd931b",

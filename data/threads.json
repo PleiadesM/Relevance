@@ -1,115 +1,17 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-08-15T06:55:32Z",
+  "count": 6,
+  "generated_at": "2026-08-15T08:43:45Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "1c4a07ca0da5534a",
-     "phrase": {
-      "en": "Disclosing persuasive intent reduces persuasion",
-      "zh": "披露说服意图可减少说服效果"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.11794v1"
-    },
-    {
-     "item_id": "683c300e7ea1c863",
-     "phrase": {
-      "en": "Editable context graph for LLM transparency",
-      "zh": "可编辑的LLM上下文图增强透明"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://chenxiachan.github.io/thoughtdag/"
-    },
-    {
-     "item_id": "7e7284e9ac1b392e",
-     "phrase": {
-      "en": "Explainable framework mitigates algorithmic aversion",
-      "zh": "可解释框架减轻算法厌恶"
-     },
-     "section": "papers",
-     "source": "OpenAlex · information visualization",
-     "url": "https://aisel.aisnet.org/treos_amcis2026/191"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "AI must tell when it persuades; honesty reduces sway.",
-    "zh": "当AI试图说服时，明示其意图可削弱影响力。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "AI transparency",
-    "zh": "AI透明度"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You research HCI and AI ethics: new findings show disclosure changes behavior today.",
-    "zh": "你研究人机交互与AI伦理，今日新发现表明披露能改变行为。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "62989d6c0698801f",
-     "phrase": {
-      "en": "AI journaling prompts vary by behavioral controllability",
-      "zh": "AI日记提示因行为可控性而异"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.12582v1"
-    },
-    {
-     "item_id": "c0e9b45d1c51e76e",
-     "phrase": {
-      "en": "LLM tags without classification",
-      "zh": "LLM无需分类而直接标记"
-     },
-     "section": "news",
-     "source": "Simon Willison",
-     "url": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/"
-    },
-    {
-     "item_id": "4afc5c6af524bbfd",
-     "phrase": {
-      "en": "Firm-level AI use patterns from ChatGPT logs",
-      "zh": "从ChatGPT日志看企业级AI使用模式"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.12236v1"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Researchers use AI to write, but context matters for control.",
-    "zh": "研究者用AI写作，但上下文对控制很重要。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "AI-assisted writing",
-    "zh": "AI辅助写作"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You're into LLM and HCI: today's papers measure how AI nudges journaling and tag creation.",
-    "zh": "你关注LLM与人机交互，今日论文衡量AI如何助推日记与标签生成。"
-   }
-  },
-  {
-   "angles": [
-    {
      "item_id": "b728c139c1222184",
      "phrase": {
-      "en": "Trump says deployment 'not nearly enough'",
-      "zh": "特朗普称部署“远不够”"
+      "en": "president dismisses reports",
+      "zh": "总统驳回报道"
      },
      "section": "news",
      "source": "The New York Times",
@@ -118,33 +20,53 @@
     {
      "item_id": "c4df2a7afe73d4ab",
      "phrase": {
-      "en": "Downplays concerns, record 250 days",
-      "zh": "淡化担忧，创纪录250天"
+      "en": "live blog details reaction",
+      "zh": "实时博客详述反应"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/us-news/live/2026/aug/14/donald-trump-speech-crime-safety-new-york-republicans-midterms-us-politics-latest-news-updates"
     },
     {
+     "item_id": "3463d884e71fb0c3",
+     "phrase": {
+      "en": "logistics hub shift",
+      "zh": "物流枢纽转移"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/14/us/politics/uss-abraham-lincoln-trump-supplies-diego-garcia.html"
+    },
+    {
      "item_id": "7873530c96d54a7d",
      "phrase": {
-      "en": "Mental health crisis cited",
-      "zh": "提及心理健康危机"
+      "en": "families cite mental health",
+      "zh": "家属指出心理问题"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/us-news/2026/aug/14/trump-uss-abraham-lincoln-deployment"
+    },
+    {
+     "item_id": "dc99065cd6638a9c",
+     "phrase": {
+      "en": "relief carrier dispatched",
+      "zh": "派出接替航母"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Record deployments wear sailors thin; leadership downplays pain.",
-    "zh": "创纪录部署使水手疲惫，领导层淡化痛苦。"
+    "en": "A record-breaking deployment turns into a morale and safety disaster at sea.",
+    "zh": "创纪录的部署演变为海上士气与安全灾难。"
    },
-   "id": "t3",
+   "id": "t1",
    "keyword": {
-    "en": "warship deployment strain",
-    "zh": "军舰部署压力"
+    "en": "carrier crisis",
+    "zh": "航母危机"
    },
    "relates_to": [],
    "timeline": [
@@ -152,8 +74,8 @@
      "date": "2026-08-14",
      "item_id": "3463d884e71fb0c3",
      "label": {
-      "en": "Navy logistics strain",
-      "zh": "海军后勤紧张"
+      "en": "Navy details problems",
+      "zh": "海军披露问题"
      },
      "section": "news",
      "source": "The New York Times",
@@ -163,8 +85,8 @@
      "date": "2026-08-14",
      "item_id": "7873530c96d54a7d",
      "label": {
-      "en": "Deployment criticized",
-      "zh": "部署受批评"
+      "en": "Trump downplays",
+      "zh": "特朗普淡化"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -172,19 +94,82 @@
     },
     {
      "date": "2026-08-15",
-     "item_id": "b728c139c1222184",
+     "item_id": "dc99065cd6638a9c",
      "label": {
-      "en": "Trump defends deployment",
-      "zh": "特朗普辩护部署"
+      "en": "relief carrier sent",
+      "zh": "派出接替航母"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/14/us/politics/trump-uss-abraham-lincoln.html"
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss"
     }
    ],
    "why_now": {
-    "en": "You track geopolitics and human factors: today two sources spotlight the Lincoln's mental-health toll.",
-    "zh": "你关注地缘政治与人为因素，今日两来源聚焦林肯号心理健康问题。"
+    "en": "You track systemic failures; today the Navy's own numbers and the president's dismissal collide.",
+    "zh": "你关注系统性问题，今日海军数据与总统淡化态度冲突。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "38a23d623d097c84",
+     "phrase": {
+      "en": "satellite shows scorched land",
+      "zh": "卫星显示焦土"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c4gxy0wqqd9o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "7f5e53bf3864b40d",
+     "phrase": {
+      "en": "ward temps exceed limits",
+      "zh": "病房温度超标"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/society/2026/aug/15/dangerously-hostile-heatwaves-leave-hospital-wards-unsafe-data-reveals"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Searing heat scorches landscapes and makes hospitals unsafe.",
+    "zh": "酷热炙烤大地，医院也变得不安全。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "heatwave health",
+    "zh": "热浪健康"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-15",
+     "item_id": "38a23d623d097c84",
+     "label": {
+      "en": "space images",
+      "zh": "太空影像"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c4gxy0wqqd9o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "date": "2026-08-15",
+     "item_id": "7f5e53bf3864b40d",
+     "label": {
+      "en": "ward temps data",
+      "zh": "病房温度数据"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/society/2026/aug/15/dangerously-hostile-heatwaves-leave-hospital-wards-unsafe-data-reveals"
+    }
+   ],
+   "why_now": {
+    "en": "You care about data and visualization; the NHS temperature data reveals a public health tipping point.",
+    "zh": "你关注数据与可视化，NHS温度数据揭示公共卫生临界点。"
    }
   },
   {
@@ -192,38 +177,229 @@
     {
      "item_id": "7e7284e9ac1b392e",
      "phrase": {
-      "en": "Explainable framework mitigates algorithmic aversion",
-      "zh": "可解释框架减轻算法厌恶"
+      "en": "oncology trust framework",
+      "zh": "肿瘤信任框架"
      },
      "section": "papers",
      "source": "OpenAlex · information visualization",
      "url": "https://aisel.aisnet.org/treos_amcis2026/191"
     },
     {
-     "item_id": "acbfbfd4b1348041",
+     "item_id": "1c4a07ca0da5534a",
      "phrase": {
-      "en": "Clinical RAG matches frontier LLMs",
-      "zh": "临床RAG匹配前沿LLM"
+      "en": "disclosure reduces persuasion",
+      "zh": "披露降低说服"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.12138v1"
+     "url": "https://arxiv.org/abs/2608.11794v1"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "New systems aim to make AI decisions clear and trustworthy in high-stakes fields.",
+    "zh": "新系统旨在让高风险领域中的AI决策清晰可信。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "explainable AI",
+    "zh": "可解释AI"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-12",
+     "item_id": "1c4a07ca0da5534a",
+     "label": {
+      "en": "persuasion study",
+      "zh": "说服研究"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.11794v1"
+    },
+    {
+     "date": "2026-08-15",
+     "item_id": "7e7284e9ac1b392e",
+     "label": {
+      "en": "oncology framework",
+      "zh": "肿瘤学框架"
+     },
+     "section": "papers",
+     "source": "OpenAlex · information visualization",
+     "url": "https://aisel.aisnet.org/treos_amcis2026/191"
+    }
+   ],
+   "why_now": {
+    "en": "You study HCI and critical visualization; these papers show how transparency is being engineered today.",
+    "zh": "你研究人机交互与批判可视化，这些论文展示今日透明度工程。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "aba1a350e98739f6",
+     "phrase": {
+      "en": "blind-accessible visualizations",
+      "zh": "盲人可用可视化"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.11364v1"
+    },
+    {
+     "item_id": "c82c0be3828816ba",
+     "phrase": {
+      "en": "biomedical network tool",
+      "zh": "生物网络工具"
+     },
+     "section": "papers",
+     "source": "Semantic Scholar · data visualization",
+     "url": "https://www.semanticscholar.org/paper/e95420ce41c33a3f2740aa75ed499449610bc6e7"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "AI reads scans well, but doctors hesitate without explanation.",
-    "zh": "AI读片好，但无解释则医生产生犹豫。"
+    "en": "New tools bring data visualization to blind and low-vision users, reshaping the field.",
+    "zh": "新工具让盲人与低视力用户也能用数据可视化，重塑该领域。"
    },
    "id": "t4",
    "keyword": {
-    "en": "AI in oncology",
-    "zh": "AI在肿瘤学"
+    "en": "visualization access",
+    "zh": "可视化无障碍"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-11",
+     "item_id": "c82c0be3828816ba",
+     "label": {
+      "en": "ringnet platform",
+      "zh": "RingNet平台"
+     },
+     "section": "papers",
+     "source": "Semantic Scholar · data visualization",
+     "url": "https://www.semanticscholar.org/paper/e95420ce41c33a3f2740aa75ed499449610bc6e7"
+    },
+    {
+     "date": "2026-08-11",
+     "item_id": "aba1a350e98739f6",
+     "label": {
+      "en": "quartz paper",
+      "zh": "QUARTZ论文"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.11364v1"
+    }
+   ],
+   "why_now": {
+    "en": "You work on data visualization and accessibility; today two papers push the frontier.",
+    "zh": "你从事数据可视化与无障碍，今日两篇论文推动前沿。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "1c4a07ca0da5534a",
+     "phrase": {
+      "en": "disclosure lowers persuasion",
+      "zh": "披露降低说服"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.11794v1"
+    },
+    {
+     "item_id": "7e7284e9ac1b392e",
+     "phrase": {
+      "en": "trust in clinical AI",
+      "zh": "临床AI信任"
+     },
+     "section": "papers",
+     "source": "OpenAlex · information visualization",
+     "url": "https://aisel.aisnet.org/treos_amcis2026/191"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Revealing AI's role can change how much it persuades you.",
+    "zh": "揭示AI角色可改变其说服力。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "AI transparency",
+    "zh": "AI透明度"
+   },
+   "relates_to": [
+    "t2"
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-12",
+     "item_id": "1c4a07ca0da5534a",
+     "label": {
+      "en": "persuasion study",
+      "zh": "说服研究"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.11794v1"
+    },
+    {
+     "date": "2026-08-15",
+     "item_id": "7e7284e9ac1b392e",
+     "label": {
+      "en": "oncology trust",
+      "zh": "肿瘤信任"
+     },
+     "section": "papers",
+     "source": "OpenAlex · information visualization",
+     "url": "https://aisel.aisnet.org/treos_amcis2026/191"
+    }
+   ],
+   "why_now": {
+    "en": "You study communication and ethics; this finding challenges how you think about disclosure.",
+    "zh": "你研究传播与伦理，这一发现挑战你对披露的思考。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "683c300e7ea1c863",
+     "phrase": {
+      "en": "editable context graph",
+      "zh": "可编辑上下文图"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://chenxiachan.github.io/thoughtdag/"
+    },
+    {
+     "item_id": "c0e9b45d1c51e76e",
+     "phrase": {
+      "en": "blog tagging hack",
+      "zh": "博客标签技巧"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Tools that let you see and edit the context behind AI conversations are emerging.",
+    "zh": "能查看并编辑AI对话上下文的工具正在涌现。"
+   },
+   "id": "t6",
+   "keyword": {
+    "en": "LLM context",
+    "zh": "LLM上下文"
    },
    "relates_to": [],
    "why_now": {
-    "en": "Your interest in AI and HCI meets clinical reality: trust hinges on explainability today.",
-    "zh": "您对AI与人机交互的兴趣关联临床现实，今日信任取决于可解释性。"
+    "en": "You build with LLMs; ThoughtDAG offers a concrete way to manage context.",
+    "zh": "你用LLM开发，ThoughtDAG提供了管理上下文的具体方式。"
    }
   }
  ]
