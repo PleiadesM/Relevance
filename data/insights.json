@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "mushroom foraging contest OR Pacific Northwest mushroom hunting",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "Tasting Table",
-   "published_at": "2026-08-02T01:20:00Z",
-   "title": "11 Common Mushroom Myths, Debunked",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9SYlo0cnRha3VCTTdtRWVSNW10WldwMWVxNUF3WHA2QjNJNDBhVV9qYlAyS3dScUl3UmptY290RVpmZXBSSjNCZkFmMmk4LW9uX0FsNXZYVjRwd09TOW05NlVaX1BnNElULVY4bEN3?oc=5"
+   "name": "novinky.cz",
+   "published_at": "2026-08-13T07:45:00Z",
+   "title": "Chcete obří a sladké dýně ? Rozhoduje voda , opylení i prkénko",
+   "url": "https://www.novinky.cz/clanek/bydleni-zahrada-chcete-obri-a-sladke-dyne-rozhoduje-voda-opyleni-i-prkenko-40592366"
   },
   "summaries": {
    "en": {
-    "summary": "A Tasting Table article debunks 11 common misconceptions about mushrooms, from how they grow to their nutritional value.",
-    "why_irrelevant": "A pure food-science topic, far from the user's usual political and tech feeds."
+    "summary": "A Czech gardening article explains how watering, pollination, and a board affect giant sweet pumpkin growth.",
+    "why_irrelevant": "It's a localized European gardening tip far from your usual topics."
    },
    "zh": {
-    "summary": "Tasting Table 的一篇文章揭穿了 11 个关于蘑菇的常见误解，涵盖生长方式和营养价值等。",
-    "why_irrelevant": "纯食品科学话题，远离用户通常关注的政治和技术动态。"
+    "summary": "一篇捷克园艺文章讲解浇水、授粉和木板如何影响巨型甜南瓜的生长。",
+    "why_irrelevant": "这是与你通常话题相距甚远的本地欧洲园艺技巧。"
    }
   },
-  "topic": "competitive mushroom foraging in Pacific Northwest forests"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news spans hate crimes, Taliban rule, European heat waves, and US political issues, while papers focus on cybersecurity, AI trust, and cellular biology.",
+ "brief": "A 7.7-magnitude earthquake in Indonesia has killed at least 14, wildfire and heatwave impacts are visible from space, and the Taliban mark five years in power amid growing international engagement. Notable research covers cybersecurity tensions in regulated industries and ethics in visualization research.",
  "meta": {
-  "generated_at": "2026-08-15T04:44:53Z"
+  "generated_at": "2026-08-15T06:55:32Z"
  },
- "news_summary": "Major stories include a hate crime at a NYC synagogue, Taliban's 5-year rule in Afghanistan, European heat deaths, and Trump's comments on USS Lincoln deployment.",
- "papers_summary": "Research highlights include managing innovation-cybersecurity tension, explainable AI for oncology, palmitoylation gene expression, and ethics in visualization research.",
+ "news_summary": "A major earthquake struck Indonesia, causing fatalities; Europe faces heatwave risks; the Taliban celebrate five years in power; and a Picasso print was recovered after years.",
+ "papers_summary": "Research highlights include balancing innovation with cybersecurity in regulated organizations and a call for better ethics reporting in visualization conferences.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans hate crimes, Taliban rule, European heat waves, and US political issues, while papers focus on cybersecurity, AI trust, and cellular biology.",
-   "news_summary": "Major stories include a hate crime at a NYC synagogue, Taliban's 5-year rule in Afghanistan, European heat deaths, and Trump's comments on USS Lincoln deployment.",
-   "papers_summary": "Research highlights include managing innovation-cybersecurity tension, explainable AI for oncology, palmitoylation gene expression, and ethics in visualization research."
+   "brief": "A 7.7-magnitude earthquake in Indonesia has killed at least 14, wildfire and heatwave impacts are visible from space, and the Taliban mark five years in power amid growing international engagement. Notable research covers cybersecurity tensions in regulated industries and ethics in visualization research.",
+   "news_summary": "A major earthquake struck Indonesia, causing fatalities; Europe faces heatwave risks; the Taliban celebrate five years in power; and a Picasso print was recovered after years.",
+   "papers_summary": "Research highlights include balancing innovation with cybersecurity in regulated organizations and a call for better ethics reporting in visualization conferences."
   },
   "zh": {
-   "brief": "今日焦点涵盖台湾政治人物家属隐私、韩国股市暴跌、C919首飞国际航线、美国航母官兵困境等新闻，以及可视化研究中伦理报告与贡献声明的学术讨论。",
-   "news_summary": "台湾前总统陈水扁女儿陈幸妤因离婚曝光成焦点，引发媒体伦理反思；韩国股市暴跌重创散户；C919首飞国际航线挑战波音空客；美国林肯号航母长期部署引发人道担忧，特朗普淡化问题。",
-   "papers_summary": "研究论文聚焦可视化领域的伦理问题，包括IEEE VIS论文伦理审批缺失和贡献声明讨论，以及阿尔茨海默病早期数据代码库等。"
+   "brief": "今日焦點包括台灣前總統陳水扁女兒陳幸妤離婚事件引發媒體倫理反思，韓國股市暴跌重創散戶，中國國產客機C919首飛國際航線挑戰波音與空巴；國際方面印尼強震致14死，歐洲熱浪與阿富汗局勢亦受關注。",
+   "news_summary": "華文新聞聚焦台灣、韓國及中國的社會與經濟事件，而國際新聞則涵蓋印尼地震、阿富汗局勢及歐洲熱浪等，顯示全球各地不同挑戰並存。",
+   "papers_summary": "研究方面，視覺化與人機互動領域關注倫理審查、貢獻聲明等議題，同時有針對神經科學與網絡安全的研究，顯示學術界持續探討技術與社會的互動。"
   }
  },
  "todays_image": {
-  "caption": "Ancient ruins and modern disruptions both show that a synagogue's walls can fall, but the sanctity of worship remains a target across time.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1917-4-459MattFlynn",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/23121",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1917-4-459MattFlynn",
-  "title": "Ruins of the Eshtemoa Synagogue at as-Samu, Palestine"
+  "caption": "The tiny, ground-hugging Borreria perpusilla Hook. f. shares its name with the trembling earth that just devastated Indonesia in a 7.7-magnitude quake.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m39b901120c1b24cdcb078478055490201",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3ef775029-7ea2-4cee-a1de-13b30acd931b",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m39b901120c1b24cdcb078478055490201/90",
+  "title": "Borreria perpusilla Hook. f."
  }
 }

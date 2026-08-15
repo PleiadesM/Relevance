@@ -1,17 +1,115 @@
 {
  "meta": {
-  "count": 2,
-  "generated_at": "2026-08-15T04:44:53Z",
+  "count": 4,
+  "generated_at": "2026-08-15T06:55:32Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "item_id": "1c4a07ca0da5534a",
+     "phrase": {
+      "en": "Disclosing persuasive intent reduces persuasion",
+      "zh": "披露说服意图可减少说服效果"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.11794v1"
+    },
+    {
+     "item_id": "683c300e7ea1c863",
+     "phrase": {
+      "en": "Editable context graph for LLM transparency",
+      "zh": "可编辑的LLM上下文图增强透明"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://chenxiachan.github.io/thoughtdag/"
+    },
+    {
+     "item_id": "7e7284e9ac1b392e",
+     "phrase": {
+      "en": "Explainable framework mitigates algorithmic aversion",
+      "zh": "可解释框架减轻算法厌恶"
+     },
+     "section": "papers",
+     "source": "OpenAlex · information visualization",
+     "url": "https://aisel.aisnet.org/treos_amcis2026/191"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "AI must tell when it persuades; honesty reduces sway.",
+    "zh": "当AI试图说服时，明示其意图可削弱影响力。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI transparency",
+    "zh": "AI透明度"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You research HCI and AI ethics: new findings show disclosure changes behavior today.",
+    "zh": "你研究人机交互与AI伦理，今日新发现表明披露能改变行为。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "62989d6c0698801f",
+     "phrase": {
+      "en": "AI journaling prompts vary by behavioral controllability",
+      "zh": "AI日记提示因行为可控性而异"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.12582v1"
+    },
+    {
+     "item_id": "c0e9b45d1c51e76e",
+     "phrase": {
+      "en": "LLM tags without classification",
+      "zh": "LLM无需分类而直接标记"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/"
+    },
+    {
+     "item_id": "4afc5c6af524bbfd",
+     "phrase": {
+      "en": "Firm-level AI use patterns from ChatGPT logs",
+      "zh": "从ChatGPT日志看企业级AI使用模式"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.12236v1"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Researchers use AI to write, but context matters for control.",
+    "zh": "研究者用AI写作，但上下文对控制很重要。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "AI-assisted writing",
+    "zh": "AI辅助写作"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You're into LLM and HCI: today's papers measure how AI nudges journaling and tag creation.",
+    "zh": "你关注LLM与人机交互，今日论文衡量AI如何助推日记与标签生成。"
+   }
+  },
+  {
+   "angles": [
+    {
      "item_id": "b728c139c1222184",
      "phrase": {
-      "en": "President downplays sailor hardships",
-      "zh": "总统淡化水兵困难"
+      "en": "Trump says deployment 'not nearly enough'",
+      "zh": "特朗普称部署“远不够”"
      },
      "section": "news",
      "source": "The New York Times",
@@ -20,8 +118,8 @@
     {
      "item_id": "c4df2a7afe73d4ab",
      "phrase": {
-      "en": "Live blog on Trump's dismissal",
-      "zh": "特朗普不屑的直播博客"
+      "en": "Downplays concerns, record 250 days",
+      "zh": "淡化担忧，创纪录250天"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -30,64 +128,54 @@
     {
      "item_id": "7873530c96d54a7d",
      "phrase": {
-      "en": "Downplays while families worry",
-      "zh": "淡化而家属担忧"
+      "en": "Mental health crisis cited",
+      "zh": "提及心理健康危机"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/14/trump-uss-abraham-lincoln-deployment"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Record deployments wear sailors thin; leadership downplays pain.",
+    "zh": "创纪录部署使水手疲惫，领导层淡化痛苦。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "warship deployment strain",
+    "zh": "军舰部署压力"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-14",
+     "item_id": "3463d884e71fb0c3",
+     "label": {
+      "en": "Navy logistics strain",
+      "zh": "海军后勤紧张"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/14/us/politics/uss-abraham-lincoln-trump-supplies-diego-garcia.html"
+    },
+    {
+     "date": "2026-08-14",
+     "item_id": "7873530c96d54a7d",
+     "label": {
+      "en": "Deployment criticized",
+      "zh": "部署受批评"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/us-news/2026/aug/14/trump-uss-abraham-lincoln-deployment"
     },
     {
-     "item_id": "dc99065cd6638a9c",
-     "phrase": {
-      "en": "Reports of food and plumbing issues",
-      "zh": "报告食物与管道问题"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "A record-long deployment strains sailors and politics alike.",
-    "zh": "创纪录的部署让水兵与政治都承受压力。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "carrier deployment woes",
-    "zh": "航母部署困境"
-   },
-   "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-08-12",
-     "item_id": "62989d6c0698801f",
-     "label": {
-      "en": "carrier's record 250 days",
-      "zh": "航母创纪录250天"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.12582v1"
-    },
-    {
-     "date": "2026-08-14",
-     "item_id": "dc99065cd6638a9c",
-     "label": {
-      "en": "relief carrier dispatched",
-      "zh": "派出接替航母"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss"
-    },
-    {
      "date": "2026-08-15",
      "item_id": "b728c139c1222184",
      "label": {
-      "en": "Trump calls it 'not enough'",
-      "zh": "特朗普称“还不够”"
+      "en": "Trump defends deployment",
+      "zh": "特朗普辩护部署"
      },
      "section": "news",
      "source": "The New York Times",
@@ -95,81 +183,47 @@
     }
    ],
    "why_now": {
-    "en": "You follow geopolitics and human factors: today's news shows a superpower's reach exceeding its sailors' endurance.",
-    "zh": "你关注地缘政治与人为因素：今日新闻显示超级大国的触角超过了水兵的耐力。"
+    "en": "You track geopolitics and human factors: today two sources spotlight the Lincoln's mental-health toll.",
+    "zh": "你关注地缘政治与人为因素，今日两来源聚焦林肯号心理健康问题。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "c79d90336c08aeea",
+     "item_id": "7e7284e9ac1b392e",
      "phrase": {
-      "en": "Heat deaths in cold country",
-      "zh": "寒冷国家热死人"
+      "en": "Explainable framework mitigates algorithmic aversion",
+      "zh": "可解释框架减轻算法厌恶"
      },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/15/world/europe/heat-deaths-in-a-cold-country-are-a-warning-to-the-rest-of-europe.html"
+     "section": "papers",
+     "source": "OpenAlex · information visualization",
+     "url": "https://aisel.aisnet.org/treos_amcis2026/191"
     },
     {
-     "item_id": "58ff667053c7a439",
+     "item_id": "acbfbfd4b1348041",
      "phrase": {
-      "en": "Emergency alerts sent to phones",
-      "zh": "紧急警报发送至手机"
+      "en": "Clinical RAG matches frontier LLMs",
+      "zh": "临床RAG匹配前沿LLM"
      },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/14/emergency-alert-warning-wildfire-risk-sent-phones-england-wales"
-    },
-    {
-     "item_id": "06a8a9fa48a02876",
-     "phrase": {
-      "en": "Forest Service chief seeks support",
-      "zh": "林务局长请求支援"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/aug/14/michael-boren-idaho-wildfire-ranch"
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.12138v1"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Heat and drought push authorities to warn whole populations at once.",
-    "zh": "高温干旱迫使当局向全体居民发出警报。"
+    "en": "AI reads scans well, but doctors hesitate without explanation.",
+    "zh": "AI读片好，但无解释则医生产生犹豫。"
    },
-   "id": "t2",
+   "id": "t4",
    "keyword": {
-    "en": "wildfire alerts",
-    "zh": "野火警报"
+    "en": "AI in oncology",
+    "zh": "AI在肿瘤学"
    },
    "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-08-14",
-     "item_id": "58ff667053c7a439",
-     "label": {
-      "en": "England and Wales alerts",
-      "zh": "英格兰威尔士警报"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/14/emergency-alert-warning-wildfire-risk-sent-phones-england-wales"
-    },
-    {
-     "date": "2026-08-15",
-     "item_id": "c79d90336c08aeea",
-     "label": {
-      "en": "Heat deaths warning",
-      "zh": "热死警告"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/15/world/europe/heat-deaths-in-a-cold-country-are-a-warning-to-the-rest-of-europe.html"
-    }
-   ],
    "why_now": {
-    "en": "You care about climate data and communication: today's alerts show how risk messaging reaches millions instantly.",
-    "zh": "你关注气候数据与传播：今日警报显示风险信息如何瞬间触达数百万人。"
+    "en": "Your interest in AI and HCI meets clinical reality: trust hinges on explainability today.",
+    "zh": "您对AI与人机交互的兴趣关联临床现实，今日信任取决于可解释性。"
    }
   }
  ]
