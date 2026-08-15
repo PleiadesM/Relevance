@@ -1,95 +1,17 @@
 {
  "meta": {
-  "count": 3,
-  "generated_at": "2026-08-15T16:39:04Z",
+  "count": 4,
+  "generated_at": "2026-08-15T18:45:53Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "acbfbfd4b1348041",
-     "phrase": {
-      "en": "Corpus-specific RAG outperforms frontier LLMs",
-      "zh": "特定语料RAG优于前沿LLM"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.12138v1"
-    },
-    {
-     "item_id": "7e7284e9ac1b392e",
-     "phrase": {
-      "en": "Explainable framework mitigates algorithmic aversion",
-      "zh": "可解释框架缓解算法厌恶"
-     },
-     "section": "papers",
-     "source": "OpenAlex · information visualization",
-     "url": "https://aisel.aisnet.org/treos_amcis2026/191"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Clinical AI tools match or surpass general models, yet trust gaps remain.",
-    "zh": "临床AI工具匹敌或超越通用模型，但信任差距仍在。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "AI in medicine",
-    "zh": "AI医疗"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You value HCI and trust: new papers on clinical RAG and explainable AI land today.",
-    "zh": "你重视人机交互与信任，今日临床RAG与可解释AI论文发布。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "b1e22db5844eb5e6",
-     "phrase": {
-      "en": "CNN-LSTM decodes motor imagery",
-      "zh": "CNN-LSTM解码运动想象"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.13285v1"
-    },
-    {
-     "item_id": "7f9270dd8de07c7a",
-     "phrase": {
-      "en": "Brain listens inward during REM",
-      "zh": "REM期间大脑内听"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://medicalxpress.com/news/2026-07-brain-rem-eeg.html"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Brain signals decode thoughts and dreams, advancing BCI and understanding of sleep.",
-    "zh": "脑信号解码思维与梦境，推进脑机接口与睡眠认知。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "EEG and brain-computer interface",
-    "zh": "脑电与脑机接口"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow embodied AI; new EEG papers and REM sleep findings connect brains to machines.",
-    "zh": "你关注具身AI，新脑电论文与REM睡眠发现连接大脑与机器。"
-   }
-  },
-  {
-   "angles": [
-    {
      "item_id": "9e2f52bf50d487e5",
      "phrase": {
-      "en": "Health officials report deaths",
-      "zh": "卫生官员报告死亡"
+      "en": "NYT: children among dead",
+      "zh": "时报：儿童遇难"
      },
      "section": "news",
      "source": "The New York Times",
@@ -98,8 +20,8 @@
     {
      "item_id": "12b2377bdf596469",
      "phrase": {
-      "en": "Military says struck terror infrastructure",
-      "zh": "军方称打击恐怖设施"
+      "en": "BBC: strikes on Hezbollah infrastructure",
+      "zh": "BBC：打击真主党设施"
      },
      "section": "news",
      "source": "BBC World",
@@ -108,8 +30,8 @@
     {
      "item_id": "bc7d16f4ca12bc29",
      "phrase": {
-      "en": "Worst toll since truce",
-      "zh": "停火以来最惨重"
+      "en": "Guardian: worst toll since June",
+      "zh": "卫报：六月以来最重"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -118,18 +40,165 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Fresh Israeli strikes kill civilians in Lebanon, breaking fragile truce.",
-    "zh": "以色列新空袭致黎巴嫩平民死亡，破坏脆弱停火。"
+    "en": "Deadly airstrikes in southern Lebanon shatter the June truce, killing children.",
+    "zh": "南黎巴嫩致命空袭打破六月停火，儿童罹难。"
    },
-   "id": "t3",
+   "id": "t1",
    "keyword": {
-    "en": "Lebanon strikes",
-    "zh": "黎巴嫩空袭"
+    "en": "Israel-Hezbollah strikes",
+    "zh": "以色列-真主党冲突"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-06",
+     "label": {
+      "en": "truce begins",
+      "zh": "停火开始"
+     }
+    },
+    {
+     "date": "2026-08-15",
+     "item_id": "9e2f52bf50d487e5",
+     "label": {
+      "en": "11 killed, worst since truce",
+      "zh": "11人死亡，停火以来最严重"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/15/world/middleeast/israel-strikes-lebanon-ansar.html"
+    }
+   ],
+   "why_now": {
+    "en": "You follow geopolitics; three sources converge on the worst toll since the truce, a fresh escalation.",
+    "zh": "你关注地缘政治，三个来源同时报道停火以来最严重伤亡，局势升级。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "a7b9431f7ab7bc0b",
+     "phrase": {
+      "en": "Guardian: hundreds arrested for arson",
+      "zh": "卫报：数百人因纵火被捕"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/14/arrested-suspicion-starting-wildfires-europe-france"
+    },
+    {
+     "item_id": "ac0cc723648b9f2e",
+     "phrase": {
+      "en": "BBC: Belgium's worst fire",
+      "zh": "BBC：比利时最严重火灾"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cp8eex1nmpvo?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Wildfires rage across Europe, with French arson arrests and Belgian parks burning.",
+    "zh": "野火肆虐欧洲，法国纵火逮捕，比利时公园燃烧。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "European wildfires",
+    "zh": "欧洲野火"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You need global situational awareness; today's events shift regional dynamics.",
-    "zh": "你需要全球态势感知，今日事件改变地区动态。"
+    "en": "You study climate and data; this is the concrete state of Europe's fire season today.",
+    "zh": "你研究气候与数据，这是今日欧洲火灾季的具体状况。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "31461f407e24f3e6",
+     "phrase": {
+      "en": "BBC: books boom because AI",
+      "zh": "BBC：AI导致书籍热卖"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "ce3e9b7028eb17b9",
+     "phrase": {
+      "en": "HN: remember vs think",
+      "zh": "HN：记忆与思考"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "AI training is consuming secondhand books and even pulp, raising ethical flags.",
+    "zh": "AI训练消耗二手书甚至纸浆，引发伦理关注。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "AI training data ethics",
+    "zh": "AI训练数据伦理"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track LLM data practices; this shows a tangible side effect of training hunger.",
+    "zh": "你追踪大语言模型数据实践，这展示训练渴求的具体副作用。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "1c4a07ca0da5534a",
+     "phrase": {
+      "en": "Disclosing intent reduces persuasion",
+      "zh": "披露意图减少说服"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.11794v1"
+    },
+    {
+     "item_id": "7e7284e9ac1b392e",
+     "phrase": {
+      "en": "Trust in oncology AI",
+      "zh": "肿瘤AI的信任"
+     },
+     "section": "papers",
+     "source": "OpenAlex · information visualization",
+     "url": "https://aisel.aisnet.org/treos_amcis2026/191"
+    },
+    {
+     "item_id": "4464bb3e7f130d82",
+     "phrase": {
+      "en": "Contribution statements in HCI",
+      "zh": "人机交互贡献声明"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.12792v1"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "New papers probe transparency, contribution, and trust in AI systems, from chatbots to oncology.",
+    "zh": "新论文探讨从聊天机器人到肿瘤学的AI透明度、贡献和信任。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "AI accountability in HCI",
+    "zh": "人机交互中的AI问责"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow HCI and critical visualization; these papers define the field's current questions.",
+    "zh": "你关注人机交互与批判性可视化，这些论文定义领域当前问题。"
    }
   }
  ]
