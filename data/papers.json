@@ -15,7 +15,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.4291,
+   "score": 0.4221,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -41,7 +41,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.5666,
+   "score": 0.5596,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -67,7 +67,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.4291,
+   "score": 0.4221,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -91,7 +91,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.4291,
+   "score": 0.4221,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -115,7 +115,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.4291,
+   "score": 0.4221,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -129,431 +129,409 @@
   },
   {
    "authors": [
-    "Xin Shen",
-    "Luyu Wen",
-    "Lejie Ma",
-    "Shuyi Chen",
-    "Jikun Yang",
-    "Zhaofeng Chen"
+    "Gobinda Chandra Behera",
+    "Sankha Deb"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "",
+    "abstract_snippet": "This record contains the supplementary materials associated with the manuscript entitled “An Interactive Dynamic Flexible Integrated Process Planning and Scheduling Framework using Q-Learning-Assisted Multiobjective Optimization,” submitted to the Journal of Intelligent Manufacturing. The supplementary materials include: Supplementary Information (PDF): Additional information supporting the methodology and mathematical expression results presented in the manuscript. Supplementary Video S1…",
     "citations": 0,
-    "doi": "10.1007/s41060-026-01231-5"
+    "doi": "10.5281/zenodo.21929078"
    },
-   "id": "4c069211682c231a",
+   "id": "6fb1f883d8efc1a9",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-14T00:00:00Z",
-   "score": 0.356,
+   "score": 0.4882,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "",
+   "summary": "This record contains the supplementary materials associated with the manuscript entitled “An Interactive Dynamic Flexible Integrated Process Planning and Scheduling Framework using Q-Learning-Assisted Multiobjective Optimization,” submitted to the Journal of Intelligent Manufacturing. The…",
    "tags": [
     "systems"
    ],
-   "title": "Multi-objective optimization-based overlapping community detection in software ecosystem",
-   "url": "https://doi.org/10.1007/s41060-026-01231-5",
-   "venue": "International Journal of Data Science and Analytics"
+   "title": "Supplementary Information for \"An Interactive Dynamic Flexible Integrated Process Planning and Scheduling Framework using Q-Learning-Assisted Multiobjective Optimization\"",
+   "url": "https://doi.org/10.5281/zenodo.21929078",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)"
   },
   {
    "authors": [
-    "Sayera Dhaubhadel",
-    "Judith D. Cohn",
-    "Tanmoy Bhattacharya",
-    "Ruy M. Ribeiro",
-    "Kumkum Ganguly",
-    "Nicolas W. Hengartner"
+    "Hang Hu",
+    "Xing Wang",
+    "Linlin Guo",
+    "Ziling Zeng",
+    "Hongmei Tang",
+    "Yun Zhang"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "ABSTRACT We present a data-driven framework to predict 15-year all-cause mortality using outpatient administrative records for 2.3 million Veterans in the largest integrated U.S. healthcare system. Rather than relying on predefined clinical phenotypes, we used the 1,000 most common outpatient medical codes from each of three data types/modalities – ICD-9 (Dx), Current Procedural Terminology (CPT), and prescription drugs (Rx), encoded as binary features. Using these features, we trained three…",
+    "abstract_snippet": "Asthma is a common chronic airway inflammatory disease affecting millions of patients worldwide, and its treatment remains a clinical challenge.A variety of immune cells, cytokines and inflammatory mediators are associated with asthmatic pathogenesis.The α-Cyperone (CYP) is the active ingredient of Cyperus rotundus L., which exhibits significant anti-inflammatory effects in numerous diseases.However, whether and how CYP plays a role in allergic asthma has not yet been reported.It was found that…",
     "citations": 0,
-    "doi": "10.1038/s41598-026-65989-1"
+    "doi": "10.3892/ijmm.2026.5957"
    },
-   "id": "38e0e10b9c94b8dc",
+   "id": "76a38af3e9975f25",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-14T00:00:00Z",
-   "score": 0.356,
+   "score": 0.4882,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "ABSTRACT We present a data-driven framework to predict 15-year all-cause mortality using outpatient administrative records for 2.3 million Veterans in the largest integrated U.S. healthcare system. Rather than relying on predefined clinical phenotypes, we used the 1,000 most common outpatient…",
+   "summary": "Asthma is a common chronic airway inflammatory disease affecting millions of patients worldwide, and its treatment remains a clinical challenge.A variety of immune cells, cytokines and inflammatory mediators are associated with asthmatic pathogenesis.The α-Cyperone (CYP) is the active ingredient of…",
+   "tags": [],
+   "title": "α‑Cyperone targets the PAK1‑JNK/NF‑κB axis to modulate dendritic cells maturation and Th2/Th9 differentiation in an asthma model",
+   "url": "https://doi.org/10.3892/ijmm.2026.5957",
+   "venue": "International Journal of Molecular Medicine"
+  },
+  {
+   "authors": [
+    "Tehmina Shehryar",
+    "Anum Abdul Salam",
+    "Santhoshi Varada",
+    "Fakhar Jabran",
+    "Muhammad Usman Akram"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Artificial intelligence (AI) has shown remarkable accuracy in the diagnosis of common ocular diseases such as diabetic retinopathy (DR), glaucoma, retinopathy of prematurity (ROP), and age-related macular degeneration (AMD), often matching or even outperforming expert clinicians. Despite these advancements, AI adoption in clinical settings remains limited due to key barriers. This systematic review evaluates 34 studies (2018–2025) highlighting AI's diagnostic performance (often &amp;#x003E;90%…",
+    "citations": 0,
+    "doi": "10.18240/ijo.2026.09.17"
+   },
+   "id": "ffd3dffd1781d3da",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-14T00:00:00Z",
+   "score": 0.4882,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Artificial intelligence (AI) has shown remarkable accuracy in the diagnosis of common ocular diseases such as diabetic retinopathy (DR), glaucoma, retinopathy of prematurity (ROP), and age-related macular degeneration (AMD), often matching or even outperforming expert clinicians. Despite these…",
    "tags": [
     "systems"
    ],
-   "title": "Data-driven prediction of fifteen-year all-cause mortality among 2.3 million individuals in the VA",
-   "url": "https://doi.org/10.1038/s41598-026-65989-1",
-   "venue": "Scientific Reports"
+   "title": "Why aren’t we using AI in eye clinics? A systematic review of barriers and solutions in AI-based fundus image diagnostics for ocular diseases",
+   "url": "https://doi.org/10.18240/ijo.2026.09.17",
+   "venue": "International Journal of Ophthalmology"
   },
   {
    "authors": [
-    "Kei Kimura",
-    "Yuki Soga",
-    "Rintaro Yoshino",
-    "Andi Zheng",
-    "Satoshi Nonomura",
-    "Gaoge Yan"
+    "Bizzi Emanuele",
+    "Mauro Angela",
+    "Cristiano Germinario",
+    "Casarin Francesca",
+    "Berra Silvia",
+    "Ministrini Stefano"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Abstract Emotion and mood regulation critically depends on interactions between the anterior cingulate cortex (ACC) and the amygdala. However, the detailed architecture of ACC projections to their major targets, the basal (BA) and accessory (AcBA) basal nuclei of the amygdala, remains unclear. To address this issue, a combined retrograde and anterograde tracing with viral vectors were performed in macaques to map the projection patterns from pregenual (pgACC), subgenual (sgACC), and dorsal…",
+    "abstract_snippet": "Background Recurrent idiopathic recurrent pericarditis (RP) is increasingly recognized as an organ-specific autoinflammatory syndrome driven by the interleukin-1 (IL-1) axis. Behçet’s Disease (BD), a systemic vasculitis, exhibits significant pathogenetic overlap with RP through IL-1 mediated hyperinflammation, particularly in phenotypes dominated by serositis. The clinical evolution of prolonged, seemingly idiopathic RP into overt, systemic BD upon the tapering of targeted therapy remains a…",
     "citations": 0,
-    "doi": "10.1523/jneurosci.0671-26.2026"
+    "doi": "10.3389/fimmu.2026.1900526"
    },
-   "id": "29466177352b028d",
+   "id": "7f0a21d91184f403",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-14T00:00:00Z",
-   "score": 0.4935,
+   "score": 0.3507,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Abstract Emotion and mood regulation critically depends on interactions between the anterior cingulate cortex (ACC) and the amygdala. However, the detailed architecture of ACC projections to their major targets, the basal (BA) and accessory (AcBA) basal nuclei of the amygdala, remains unclear. To…",
-   "tags": [],
-   "title": "Anterior cingulate cortex projections to the amygdala in primates: topographic and layer-specific organization underlying emotion and mood regulation",
-   "url": "https://doi.org/10.1523/jneurosci.0671-26.2026",
-   "venue": "Journal of Neuroscience"
-  },
-  {
-   "authors": [
-    "Raaghav Ravishankar",
-    "Sandeep S. Kulkarni",
-    "Nitin H. Vaidya"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "citations": 0,
-    "doi": "10.1007/978-3-032-35251-4_38"
-   },
-   "id": "64ca82490d533dca",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-14T00:00:00Z",
-   "score": 0.356,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "",
-   "tags": [],
-   "title": "Asynchronous Checkpoint for Eventually Consistent Databases",
-   "url": "https://doi.org/10.1007/978-3-032-35251-4_38",
-   "venue": "Lecture notes in computer science"
-  },
-  {
-   "authors": [
-    "Eyasu Derbew Demeke",
-    "Wondimagegn Mamo Mengistu",
-    "Teshome Tayye Anbesa",
-    "Yedilfana Setarge Mekonnen"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "<title>Abstract</title> This study focuses on the synthesis of Nano Zeolite-X from industrial sludge generated by a wastewater treatment plant using a sol-gel method. The fundamental structure of zeolites is an aluminosilicate framework composed of a tetrahedral arrangement of silicon and aluminum ions (Si <sup>+ 4</sup> and Al <sup>+ 3</sup> ) surrounded by four oxygen anions(O <sup>-2</sup> ). The structural formula of zeolite is based on crystallographic unit cell. Nano zeolites are…",
-    "citations": 1,
-    "doi": "10.1038/s41598-026-63174-y"
-   },
-   "id": "49e286a3a40dcd2d",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-14T00:00:00Z",
-   "score": 0.5186,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "<title>Abstract</title> This study focuses on the synthesis of Nano Zeolite-X from industrial sludge generated by a wastewater treatment plant using a sol-gel method. The fundamental structure of zeolites is an aluminosilicate framework composed of a tetrahedral arrangement of silicon and aluminum…",
+   "summary": "Background Recurrent idiopathic recurrent pericarditis (RP) is increasingly recognized as an organ-specific autoinflammatory syndrome driven by the interleukin-1 (IL-1) axis. Behçet’s Disease (BD), a systemic vasculitis, exhibits significant pathogenetic overlap with RP through IL-1 mediated…",
    "tags": [
     "systems"
    ],
-   "title": "Sustainable synthesis and characterization of nano zeolite-X from industrial sludge for environmental applications",
-   "url": "https://doi.org/10.1038/s41598-026-63174-y",
-   "venue": "Scientific Reports"
+   "title": "Case Report: From idiopathic recurrent pericarditis to systemic Behçet’s Disease: unmasking a unified IL-1-driven autoinflammatory phenotype",
+   "url": "https://doi.org/10.3389/fimmu.2026.1900526",
+   "venue": "Frontiers in Immunology"
   },
   {
    "authors": [
-    "Madison Cooley",
-    "Shandian Zhe",
-    "Robert M. Kirby",
-    "Varun Shankar"
+    "Tanusha Singh",
+    "Kundai Mavis Makozho"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Abstract. We present polynomial-augmented neural networks (PANNs), a novel machine learning architecture that combines deep neural networks (DNNs) with polynomial expansions. PANNs combine the strengths of DNNs (flexibility and efficiency in higher-dimensional approximation) with those of polynomial approximation (rapid convergence rates for smooth functions). To aid in both stable training and enhanced accuracy over a variety of problems, we present (1) a family of orthogonality constraints…",
+    "abstract_snippet": "Background Dental professionals are routinely exposed to occupational biological hazards, yet evidence from low-resource settings remains limited. This study assessed infection prevention and control (IPC) knowledge and practices, quantified occupational biological exposures, and identified factors associated with sharps injuries and occupational infections. Methods A cross-sectional analytical study was conducted among 220 dental professionals in Bulawayo, Zimbabwe. Data were collected using a…",
     "citations": 0,
-    "doi": "10.1137/25m1773556"
+    "doi": "10.3389/fpubh.2026.1933281"
    },
-   "id": "95ebda63720adb1f",
+   "id": "e2327f153badd059",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-14T00:00:00Z",
-   "score": 0.4935,
+   "score": 0.4882,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Abstract. We present polynomial-augmented neural networks (PANNs), a novel machine learning architecture that combines deep neural networks (DNNs) with polynomial expansions. PANNs combine the strengths of DNNs (flexibility and efficiency in higher-dimensional approximation) with those of…",
-   "tags": [
-    "ml-vis"
-   ],
-   "title": "Polynomial-Augmented Neural Networks (PANNs) with Weak Orthogonality Constraints for Enhanced Function and PDE Approximation",
-   "url": "https://doi.org/10.1137/25m1773556",
-   "venue": "SIAM Journal on Scientific Computing"
-  },
-  {
-   "authors": [
-    "Fatemeh Binesh",
-    "Ahmad Mujafar Syah"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Introduction As AI becomes embedded across hospitality and tourism, its ethical implications remain fragmented and largely undertheorized; this scoping review synthesizes the evidence on AI ethics in the sector. Methods Following a PRISMA-guided search and screening of Web of Science, Scopus, and Emerald, we reviewed 32 studies and organized findings into nine cross-cutting themes, with associated research gaps and future questions. To extend prior descriptive work, we interpret the literature…",
-    "citations": 0,
-    "doi": "10.3389/frai.2026.1913343"
-   },
-   "id": "99039b76b42ed213",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-14T00:00:00Z",
-   "score": 0.4935,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Introduction As AI becomes embedded across hospitality and tourism, its ethical implications remain fragmented and largely undertheorized; this scoping review synthesizes the evidence on AI ethics in the sector. Methods Following a PRISMA-guided search and screening of Web of Science, Scopus, and…",
+   "summary": "Background Dental professionals are routinely exposed to occupational biological hazards, yet evidence from low-resource settings remains limited. This study assessed infection prevention and control (IPC) knowledge and practices, quantified occupational biological exposures, and identified factors…",
    "tags": [],
-   "title": "AI ethics in hospitality and tourism: theoretical perspectives, ethical beliefs, and actionable outcomes",
-   "url": "https://doi.org/10.3389/frai.2026.1913343",
-   "venue": "Frontiers in Artificial Intelligence"
+   "title": "When knowledge is not enough: infection prevention and control practices and occupational biological exposures among dental professionals in Zimbabwe",
+   "url": "https://doi.org/10.3389/fpubh.2026.1933281",
+   "venue": "Frontiers in Public Health"
   },
   {
    "authors": [
-    "Maysaa Alakbaree",
-    "Ali Abdulqader",
-    "Faisal Ali"
+    "Jing Wang",
+    "Ye Tao",
+    "Meng Hua-don",
+    "Zhu Xiong-fen",
+    "Xiu-min Xu",
+    "Da-Wei Mi"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Dietary chemical carotenoids are predominantly found in colored foods and consumed worldwide. Carotenoids, whether natural or as supplements, have been shown to possess beneficial health effects, including antioxidant, anti-inflammatory, and anticancer properties; however, their effects on bFGF-mediated angiogenesis and their possible binding to bFGF are unknown. This study investigates the anti-angiogenic activity of some carotenoid substances compared to the authorized anti-angiogenic…",
+    "abstract_snippet": "Objective To evaluate the cross-cohort reproducibility of Anaeroglobus as a candidate salivary microbiome signal for childhood caries and to place this signal within plaque community, functional, and host-response contexts. Methods Public pediatric salivary 16S rRNA cohorts were analyzed using a discovery–primary external validation–second validation framework. Genus-level features were assessed after CLR transformation and covariate adjustment, with plaque microbiome, plaque transcriptome, and…",
     "citations": 0,
-    "doi": "10.33263/briac164.110"
+    "doi": "10.3389/fcimb.2026.1850479"
    },
-   "id": "8272498396a2b808",
+   "id": "9cd04790b461f2c0",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-14T00:00:00Z",
-   "score": 0.356,
+   "score": 0.3507,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Dietary chemical carotenoids are predominantly found in colored foods and consumed worldwide. Carotenoids, whether natural or as supplements, have been shown to possess beneficial health effects, including antioxidant, anti-inflammatory, and anticancer properties; however, their effects on…",
+   "summary": "Objective To evaluate the cross-cohort reproducibility of Anaeroglobus as a candidate salivary microbiome signal for childhood caries and to place this signal within plaque community, functional, and host-response contexts. Methods Public pediatric salivary 16S rRNA cohorts were analyzed using a…",
    "tags": [],
-   "title": "Computational Analysis of Carotenoids Targeting Fibroblast Growth Factor (bFGF) in Comparison with Anti-Angiogenic Drug",
-   "url": "https://doi.org/10.33263/briac164.110",
-   "venue": "Biointerface Research in Applied Chemistry"
+   "title": "Multicohort external validation of Anaeroglobus as a candidate salivary biomarker for childhood caries",
+   "url": "https://doi.org/10.3389/fcimb.2026.1850479",
+   "venue": "Frontiers in Cellular and Infection Microbiology"
   },
   {
    "authors": [
-    "Tian-Hang Wu",
-    "Yun-Xia Zhang",
-    "Shi-Qin Qi",
-    "Ran Tang"
+    "Wenwen Zhao",
+    "Mingjie Meng",
+    "Yiheng Geng",
+    "Ruyue Qi",
+    "Jinjia Zhang",
+    "Min Zhang"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Background Endoscopic retrograde cholangiopancreatography (ERCP) is increasingly used in children with pancreaticobiliary diseases. Although pediatric ERCP is feasible in experienced centers, perioperative adverse events, delayed recognition of early warning signs, and drainage-related problems remain important safety concerns. This study evaluated the real-world implementation of a risk-stratified perioperative safety pathway in children undergoing elective ERCP. Methods This single-center…",
+    "abstract_snippet": "Background Type 2 diabetes mellitus (T2DM) represents a major public health challenge among middle-aged and older populations worldwide. The underlying mechanisms linking sedentary behavior to T2DM remain incompletely understood. Sarcopenic obesity (SO), a phenotype defined by concurrent low muscle mass and excess adiposity, may represent a key intermediate correlate linking sedentary behavior with T2DM in cross-sectional observations. This study aimed to explore the indirect cross-sectional…",
     "citations": 0,
-    "doi": "10.3389/fped.2026.1900187"
+    "doi": "10.3389/fendo.2026.1813608"
    },
-   "id": "9387aef014c89e3d",
+   "id": "ad071cc3cb6bc076",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-14T00:00:00Z",
-   "score": 0.4935,
+   "score": 0.4882,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Background Endoscopic retrograde cholangiopancreatography (ERCP) is increasingly used in children with pancreaticobiliary diseases. Although pediatric ERCP is feasible in experienced centers, perioperative adverse events, delayed recognition of early warning signs, and drainage-related problems…",
+   "summary": "Background Type 2 diabetes mellitus (T2DM) represents a major public health challenge among middle-aged and older populations worldwide. The underlying mechanisms linking sedentary behavior to T2DM remain incompletely understood. Sarcopenic obesity (SO), a phenotype defined by concurrent low muscle…",
    "tags": [],
-   "title": "Implementation of a risk-stratified perioperative safety pathway for children undergoing elective ERCP: a single-center real-world retrospective cohort study",
-   "url": "https://doi.org/10.3389/fped.2026.1900187",
-   "venue": "Frontiers in Pediatrics"
+   "title": "Sedentary behavior and type 2 diabetes in community-dwelling middle-aged and older adults: indirect cross-sectional correlation of sarcopenic obesity",
+   "url": "https://doi.org/10.3389/fendo.2026.1813608",
+   "venue": "Frontiers in Endocrinology"
   },
   {
    "authors": [
-    "Kai Tomita",
-    "Yuji Nishida",
-    "Daiki Matsumoto",
-    "Kazuhiro Ichikawa",
-    "Shunto Watanabe",
-    "Keisuke Kawano"
+    "Sabine Wilson",
+    "Abraham Silva",
+    "Martha Serrano-Serrano",
+    "Vaios Karanikas",
+    "Inja Waldhauer",
+    "Anne Schoenle"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Abstract This study explores advanced molecular breeding techniques for Aurantiochytrium limacinum , a eukaryotic microorganism valued for its industrial production of DHA and astaxanthin. We first employed the CRISPR-Cas9 system to simultaneously disrupt two genes: crtIBY , a multifunctional carotenoid synthesis gene used as a visual marker, and lig4 , which is involved in non-homologous end joining (NHEJ). This genetic disruption caused the wild-type orange colonies to turn into a white…",
+    "abstract_snippet": "Abstract Clinical translation of T cell bispecific (TCB) therapies in solid tumors is hindered by the immunosuppressive tumor microenvironment and intratumoral heterogeneity, features poorly captured by standard preclinical models. We applied an integrated translational framework, combining humanized mouse models, a patient-derived ex vivo organ culture (EVOC) platform, and Phase 1 clinical trial data (ClinTrials.gov identifier NCT03539484), to define the biologic determinants of functional…",
     "citations": 0,
-    "doi": "10.1038/s41598-026-64798-w"
+    "doi": "10.1038/s41698-026-01643-3"
    },
-   "id": "ed692400b2e73972",
+   "id": "55c05efe6ea04a6b",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-14T00:00:00Z",
-   "score": 0.356,
+   "score": 0.3507,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Abstract This study explores advanced molecular breeding techniques for Aurantiochytrium limacinum , a eukaryotic microorganism valued for its industrial production of DHA and astaxanthin. We first employed the CRISPR-Cas9 system to simultaneously disrupt two genes: crtIBY , a multifunctional…",
+   "summary": "Abstract Clinical translation of T cell bispecific (TCB) therapies in solid tumors is hindered by the immunosuppressive tumor microenvironment and intratumoral heterogeneity, features poorly captured by standard preclinical models. We applied an integrated translational framework, combining…",
    "tags": [
     "systems"
    ],
-   "title": "Homologous knock-in processes facilitated by CRISPR-Cas9 in Aurantiochytrium and disrupting the gene for DNA ligase IV prevents transformation events",
-   "url": "https://doi.org/10.1038/s41598-026-64798-w",
-   "venue": "Scientific Reports"
+   "title": "Early functional reactivity to a CEACAM5 x CD3 T cell bispecific antibody in solid tumors associates with baseline immune contexture rather than target antigen density alone",
+   "url": "https://doi.org/10.1038/s41698-026-01643-3",
+   "venue": "npj Precision Oncology"
   },
   {
    "authors": [
-    "Thalita Reis",
-    "André Araújo",
-    "José Silva",
-    "Alenilton Silva",
-    "Rendrikson Oliveira"
+    "Sümeyye Özburak",
+    "Hakan Kitapçı"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Abstract This study investigates the adoption of sustainable practices in software development through a mixed-method approach that integrates quantitative and qualitative analyses. Grounded in the best practices proposed by the Green Software Foundation (GSF), a research instrument was developed to assess professionals’ perceptions and the extent of sustainability adoption in different software development contexts. The quantitative analysis suggested a moderate level of maturity, with greater…",
+    "abstract_snippet": "This study examines the associations among individual cultural values, innovation effectiveness, and transformational leadership among international students in higher education institutions in the Marmara Region of Türkiye. Adopting a quantitative, cross-sectional design, the study addresses the culture–leadership–innovation nexus at the individual level. While prior research has predominantly focused on innovation at the organizational level, evidence regarding individual cultural values and…",
     "citations": 0,
-    "doi": "10.1007/s00607-026-01727-9"
+    "doi": "10.3389/fpsyg.2026.1786404"
    },
-   "id": "3212736af3ca40bd",
+   "id": "afb6435abbf7f5f4",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-14T00:00:00Z",
-   "score": 0.4935,
+   "score": 0.3507,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Abstract This study investigates the adoption of sustainable practices in software development through a mixed-method approach that integrates quantitative and qualitative analyses. Grounded in the best practices proposed by the Green Software Foundation (GSF), a research instrument was developed…",
+   "summary": "This study examines the associations among individual cultural values, innovation effectiveness, and transformational leadership among international students in higher education institutions in the Marmara Region of Türkiye. Adopting a quantitative, cross-sectional design, the study addresses the…",
    "tags": [],
-   "title": "Coding for sustainability? Investigating how sustainable practices emerge in software development",
-   "url": "https://doi.org/10.1007/s00607-026-01727-9",
-   "venue": "Computing"
+   "title": "Associations among individual cultural values, innovation effectiveness, and transformational leadership—evidence from international university students in Türkiye",
+   "url": "https://doi.org/10.3389/fpsyg.2026.1786404",
+   "venue": "Frontiers in Psychology"
   },
   {
    "authors": [
-    "Hao Zhang",
-    "Yitong Shang",
-    "Duo Li"
+    "Mirthe Muilwijk",
+    "Yvonne T. van der Schouw",
+    "Jessica C. Kiefte-de Jong",
+    "Rimke C. Vos",
+    "Marco Spruit",
+    "Jona Stunt"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Renewable energy-driven IoT microgrids, such as telecommunication base stations, are increasingly vulnerable to sophisticated cyber–physical attacks due to their deep digitalization. Traditional rule-based intrusion detection systems struggle to differentiate between natural physical non-linearities and stealthy threats, such as sensor data spoofing (Chameleon attacks) and control logic tampering (Vampire attacks), and often lack actionable recovery mechanisms. To address this critical gap,…",
+    "abstract_snippet": "Abstract Introduction Obesity and related health conditions are unevenly distributed across neighborhoods, often co-occuring with multiple health challenges and socioeconomic disadvantages. Using an ecosyndemic framework, which integrates ecological and social dimensions that contribute to the clustering of health problems, this study examines how adverse obesity-related health outcomes spatially cluster in relation to obesogenic environments and socioeconomic position (SEP) across Dutch…",
     "citations": 0,
-    "doi": "10.1016/j.seta.2026.105246"
+    "doi": "10.1371/journal.pone.0354964"
    },
-   "id": "edb974aaeadbc454",
+   "id": "a8e6af50ab310512",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-14T00:00:00Z",
-   "score": 0.356,
+   "score": 0.3507,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Renewable energy-driven IoT microgrids, such as telecommunication base stations, are increasingly vulnerable to sophisticated cyber–physical attacks due to their deep digitalization. Traditional rule-based intrusion detection systems struggle to differentiate between natural physical…",
+   "summary": "Abstract Introduction Obesity and related health conditions are unevenly distributed across neighborhoods, often co-occuring with multiple health challenges and socioeconomic disadvantages. Using an ecosyndemic framework, which integrates ecological and social dimensions that contribute to the…",
    "tags": [
     "systems"
    ],
-   "title": "A data-driven resilience framework for renewable telecom microgrids under cyber–physical attacks",
-   "url": "https://doi.org/10.1016/j.seta.2026.105246",
-   "venue": "Sustainable Energy Technologies and Assessments"
+   "title": "An ecosyndemic framework for understanding obesity: Spatial clustering of health, environmental and socioeconomic disadvantage in the Netherlands",
+   "url": "https://doi.org/10.1371/journal.pone.0354964",
+   "venue": "PLoS ONE"
   },
   {
    "authors": [
-    "Chaogong Zeng",
-    "Chengjun Chai",
-    "Jiali Xu",
-    "Mian Sha",
-    "Jian Xin"
+    "Mareike Beiküfner",
+    "Insa Kühling",
+    "Maria Elena Vergara-Hernandez",
+    "Gabriele Broll",
+    "Dieter Trautz"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Background Cardiorespiratory fitness (CRF) among Chinese adolescents has been declining year by year, with the decline being particularly pronounced in rural areas. As a novel indicator of body composition, the a body shape index (ABSI) has rarely been examined in previous studies regarding its association with CRF among adolescents in rural areas. This study aims to guide the improvement and enhancement of CRF among adolescents in rural China. Methods Using a stratified random cluster sampling…",
+    "abstract_snippet": "Organic farming is frequently discussed as a strategy for mitigating nitrate leaching, especially in water protection areas. The effectiveness of nitrogen (N) management practices within organic crop rotations requires evaluation to balance yield performance with nitrate leaching. A field trial was conducted from 2020 to 2024 in North-West Germany, to assess the impact of grass-clover management on yield performance and nitrate leaching in an organic rotation of grass-clover-(cover crop…",
     "citations": 0,
-    "doi": "10.3389/fnut.2026.1871460"
+    "doi": "10.1016/j.eja.2026.128301"
    },
-   "id": "a42ac12f99506b7a",
+   "id": "e2b26a4880d2f8a1",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-14T00:00:00Z",
-   "score": 0.356,
+   "score": 0.3507,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Background Cardiorespiratory fitness (CRF) among Chinese adolescents has been declining year by year, with the decline being particularly pronounced in rural areas. As a novel indicator of body composition, the a body shape index (ABSI) has rarely been examined in previous studies regarding its…",
-   "tags": [],
-   "title": "The association between a body shape index and cardiorespiratory fitness among adolescents in rural China: a sex-specific cross-sectional study",
-   "url": "https://doi.org/10.3389/fnut.2026.1871460",
-   "venue": "Frontiers in Nutrition"
-  },
-  {
-   "authors": [
-    "Hunter N. Jimenez",
-    "Erkan İstanbulluoğlu",
-    "Tolga Görüm",
-    "Thomas Stanley",
-    "Pukar Amatya",
-    "Hakan Tanyaş"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract. The 6 February 2023 Türkiye–Syria earthquake doublet triggered thousands of coseismic landslides. On 14–15 March, an Atmospheric River (AR) delivered up to 183 mm of rainfall across the seismically weakened region, triggering hundreds of additional landslides and debris flows, causing extensive downstream flooding and damage. Existing regional hazard assessment tools typically model seismic- and rainfall-triggered landslides separately, and rarely incorporate post-seismic hillslope…",
-    "citations": 1,
-    "doi": "10.5194/nhess-26-3815-2026"
-   },
-   "id": "6cbaa515c6a32548",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-14T00:00:00Z",
-   "score": 0.5186,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract. The 6 February 2023 Türkiye–Syria earthquake doublet triggered thousands of coseismic landslides. On 14–15 March, an Atmospheric River (AR) delivered up to 183 mm of rainfall across the seismically weakened region, triggering hundreds of additional landslides and debris flows, causing…",
-   "tags": [],
-   "title": "Modeling the combined effects of the 2023 Türkiye–Syria earthquake and an Atmospheric River event on landslide hazard",
-   "url": "https://doi.org/10.5194/nhess-26-3815-2026",
-   "venue": "Natural hazards and earth system sciences"
-  },
-  {
-   "authors": [
-    "Winry Ember",
-    "M. Pulupa",
-    "Mihailo M. Martinović",
-    "J. W. Bonnell",
-    "Mingzhe Liu",
-    "S. D. Bale"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract The Parker Solar Probe (PSP) Fields Experiment (FIELDS) uses Radio Frequency Spectrometer (RFS) data and Quasi‐Thermal Noise Spectroscopy (QTN) to determine the temperature and density of electrons in the heliosphere. The FIELDS antennas typically operate with a negative bias current. We quantify the effect of the bias current on the shot noise spectrum by comparing spectra with a nominal negative bias current and spectra with minimal bias. The observed increase in the shot noise…",
-    "citations": 0,
-    "doi": "10.1029/2026gl122357"
-   },
-   "id": "4de0e6c3d05c4fc9",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-14T00:00:00Z",
-   "score": 0.356,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract The Parker Solar Probe (PSP) Fields Experiment (FIELDS) uses Radio Frequency Spectrometer (RFS) data and Quasi‐Thermal Noise Spectroscopy (QTN) to determine the temperature and density of electrons in the heliosphere. The FIELDS antennas typically operate with a negative bias current. We…",
+   "summary": "Organic farming is frequently discussed as a strategy for mitigating nitrate leaching, especially in water protection areas. The effectiveness of nitrogen (N) management practices within organic crop rotations requires evaluation to balance yield performance with nitrate leaching. A field trial was…",
    "tags": [
     "eval-study"
    ],
-   "title": "Electron Shot Noise on a Current Biased Antenna",
-   "url": "https://doi.org/10.1029/2026gl122357",
-   "venue": "Geophysical Research Letters"
+   "title": "Key management practices controlling yield performance and nitrate leaching in a grass-clover based organic crop rotation",
+   "url": "https://doi.org/10.1016/j.eja.2026.128301",
+   "venue": "European Journal of Agronomy"
+  },
+  {
+   "authors": [
+    "Gamze Özbay",
+    "Veronika Laine",
+    "Chris Heilakka",
+    "Mariia Matlova",
+    "Ella Sippola",
+    "Alexandra Streicher"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Cold environments impose strong energetic constraints on mammals, driving adaptations including thermogenesis, insulation and torpor. Bats are the only mammals capable of powered flight and inhabit different climates, yet the evolutionary basis of their cold tolerance remains poorly understood. In this study, we screened 571 records and retained 137 studies on mammalian cold adaptation. While physiological research focused mainly on non-shivering thermogenesis and metabolic regulation, studies…",
+    "citations": 0,
+    "doi": "10.32942/x2m97z"
+   },
+   "id": "0fa8c63d9728826c",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-14T00:00:00Z",
+   "score": 0.4882,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Cold environments impose strong energetic constraints on mammals, driving adaptations including thermogenesis, insulation and torpor. Bats are the only mammals capable of powered flight and inhabit different climates, yet the evolutionary basis of their cold tolerance remains poorly understood. In…",
+   "tags": [],
+   "title": "Cold adaptation in mammals: mechanisms and genomic insights from bats",
+   "url": "https://doi.org/10.32942/x2m97z",
+   "venue": null
+  },
+  {
+   "authors": [
+    "Jing Wen",
+    "Zhen Li",
+    "Wenchao Li",
+    "Danxuan Liu",
+    "Yongxiang Yu",
+    "Zhenzhen Wang"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Background With the rising incidence of syphilis in recent decades, the number of patients with syphilis serofast has also increased, posing challenges to clinical management of patients and increasing the social burden. Objective In this study, we aimed to analyze influencing factors associated with syphilis serofast, develop and validate a predictive model for clinical prevention of syphilis serofast. Methods A total of 373 syphilis patients were selected as the study subjects. Using a…",
+    "citations": 0,
+    "doi": "10.3389/fimmu.2026.1897585"
+   },
+   "id": "56e53fd27f3811c4",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-14T00:00:00Z",
+   "score": 0.4882,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Background With the rising incidence of syphilis in recent decades, the number of patients with syphilis serofast has also increased, posing challenges to clinical management of patients and increasing the social burden. Objective In this study, we aimed to analyze influencing factors associated…",
+   "tags": [
+    "eval-study"
+   ],
+   "title": "Analysis of influencing factors for syphilis serofast and development and evaluation of a predictive model",
+   "url": "https://doi.org/10.3389/fimmu.2026.1897585",
+   "venue": "Frontiers in Immunology"
+  },
+  {
+   "authors": [
+    "Feihu Zhang",
+    "Zhengpeng Li",
+    "Xin Wen",
+    "Chensheng Cheng",
+    "Biao Deng",
+    "Taiyuan Zhang"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "In underwater target detection tasks, side-scan sonar (SSS) is currently the most widely used imaging tool. However, due to the inherent imaging mechanism of sonar and the complexity of the underwater environment, SSS images often suffer from blurred target boundaries and strong noise interference, which significantly increases the difficulty of high-precision underwater target recognition. We propose a Lightweight Edge–Frequency Driven Real-Time Detection Transformer (LEF-RT-DETR) framework,…",
+    "citations": 0,
+    "doi": "10.3389/fmars.2026.1797307"
+   },
+   "id": "97d08a99df5a973d",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-14T00:00:00Z",
+   "score": 0.3507,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "In underwater target detection tasks, side-scan sonar (SSS) is currently the most widely used imaging tool. However, due to the inherent imaging mechanism of sonar and the complexity of the underwater environment, SSS images often suffer from blurred target boundaries and strong noise interference,…",
+   "tags": [],
+   "title": "Lightweight Edge–Frequency Driven Real-Time Detection Transformer for side-scan sonar target detection",
+   "url": "https://doi.org/10.3389/fmars.2026.1797307",
+   "venue": "Frontiers in Marine Science"
   },
   {
    "authors": [
@@ -569,7 +547,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T14:26:23Z",
-   "score": 0.4536,
+   "score": 0.4475,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -594,7 +572,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T14:20:51Z",
-   "score": 0.6058,
+   "score": 0.5997,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -627,7 +605,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T03:53:53Z",
-   "score": 0.6162,
+   "score": 0.6108,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -652,7 +630,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T01:20:42Z",
-   "score": 0.6095,
+   "score": 0.6043,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -679,7 +657,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T20:52:59Z",
-   "score": 0.6983,
+   "score": 0.6933,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -707,7 +685,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T19:36:49Z",
-   "score": 0.3627,
+   "score": 0.3578,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -736,7 +714,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T16:32:52Z",
-   "score": 0.5479,
+   "score": 0.5432,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -767,7 +745,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T14:55:46Z",
-   "score": 0.6842,
+   "score": 0.6796,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -794,7 +772,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T08:37:44Z",
-   "score": 0.5303,
+   "score": 0.5261,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -822,7 +800,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T04:32:08Z",
-   "score": 0.5619,
+   "score": 0.5578,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -852,7 +830,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T02:40:09Z",
-   "score": 0.3657,
+   "score": 0.3617,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -878,7 +856,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T19:15:54Z",
-   "score": 0.6842,
+   "score": 0.6805,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -892,8 +870,8 @@
   }
  ],
  "meta": {
-  "count": 32,
-  "generated_at": "2026-08-15T14:36:42Z",
+  "count": 31,
+  "generated_at": "2026-08-15T16:39:04Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -936,7 +914,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-18&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-07-18&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",

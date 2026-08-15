@@ -1,125 +1,27 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-08-15T14:36:42Z",
+  "count": 3,
+  "generated_at": "2026-08-15T16:39:04Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "12b2377bdf596469",
+     "item_id": "acbfbfd4b1348041",
      "phrase": {
-      "en": "frames as targeting Hezbollah infrastructure",
-      "zh": "定位真主党基础设施"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "9e2f52bf50d487e5",
-     "phrase": {
-      "en": "frames as deadliest in months, children killed",
-      "zh": "数月来最致命，儿童丧生"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/15/world/middleeast/israel-strikes-lebanon-ansar.html"
-    },
-    {
-     "item_id": "bc7d16f4ca12bc29",
-     "phrase": {
-      "en": "frames as worst toll since June truce",
-      "zh": "自六月休战最惨重"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/15/israeli-strike-on-southern-lebanon-kills-seven-in-worst-toll-since-june-state-media-says"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Deadly overnight strikes hit southern Lebanon, killing civilians including children.",
-    "zh": "以色列彻夜空袭黎巴嫩南部，造成包括儿童在内的平民伤亡。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "Israeli strikes on Lebanon",
-    "zh": "以色列袭击黎巴嫩"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You care about conflict and civilian toll: today the deadliest toll since the June truce shifts the regional tension.",
-    "zh": "你关注冲突与平民伤亡，今日自六月休战以来最严重伤亡改变地区紧张局势。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "db47eb31e3db3c69",
-     "phrase": {
-      "en": "frames as strongest in decades, 47 dead",
-      "zh": "数十年来最强，47人死亡"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/15/world/asia/earthquake-indonesia-flores-tsunami.html"
-    },
-    {
-     "item_id": "445edbff6198aed7",
-     "phrase": {
-      "en": "frames as rescue operations under way",
-      "zh": "救援行动进行中"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c5y0zz63gero?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "b5816de27c36c70e",
-     "phrase": {
-      "en": "frames as thousands seeking higher ground",
-      "zh": "数千人前往高地避难"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/15/indonesia-earthquake"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "A 7.7-magnitude quake struck Flores, killing dozens and prompting tsunami fear.",
-    "zh": "弗洛勒斯岛发生7.7级地震，数十人遇难，引发海啸恐慌。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "Indonesia earthquake",
-    "zh": "印尼地震"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow global disasters as they unfold: this morning's powerful quake is one of the strongest in decades.",
-    "zh": "你关注全球灾害动态：今晨强震为数十年来最强之一。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "1c4a07ca0da5534a",
-     "phrase": {
-      "en": "frames as meaningful transparency reduces persuasion",
-      "zh": "有意义透明度降低说服力"
+      "en": "Corpus-specific RAG outperforms frontier LLMs",
+      "zh": "特定语料RAG优于前沿LLM"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.11794v1"
+     "url": "https://arxiv.org/abs/2608.12138v1"
     },
     {
      "item_id": "7e7284e9ac1b392e",
      "phrase": {
-      "en": "frames as design for trust in AI systems",
-      "zh": "设计建立AI系统信任"
+      "en": "Explainable framework mitigates algorithmic aversion",
+      "zh": "可解释框架缓解算法厌恶"
      },
      "section": "papers",
      "source": "OpenAlex · information visualization",
@@ -128,57 +30,106 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "New research shows disclosing AI's persuasive intent reduces its influence on users.",
-    "zh": "新研究显示，披露AI的说服意图会降低其对用户的影响力。"
+    "en": "Clinical AI tools match or surpass general models, yet trust gaps remain.",
+    "zh": "临床AI工具匹敌或超越通用模型，但信任差距仍在。"
    },
-   "id": "t3",
+   "id": "t1",
    "keyword": {
-    "en": "AI chatbot transparency",
-    "zh": "AI聊天机器人透明度"
+    "en": "AI in medicine",
+    "zh": "AI医疗"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You work on HCI and critical visualization: this finding directly touches your interest in how interface transparency shapes user trust.",
-    "zh": "你研究人机交互与批判可视化：这一发现直接影响你对界面透明度如何塑造用户信任的兴趣。"
+    "en": "You value HCI and trust: new papers on clinical RAG and explainable AI land today.",
+    "zh": "你重视人机交互与信任，今日临床RAG与可解释AI论文发布。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "31461f407e24f3e6",
+     "item_id": "b1e22db5844eb5e6",
      "phrase": {
-      "en": "frames as AI training causing book pulping",
-      "zh": "AI训练导致图书粉碎"
+      "en": "CNN-LSTM decodes motor imagery",
+      "zh": "CNN-LSTM解码运动想象"
      },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o?at_medium=RSS&at_campaign=rss"
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.13285v1"
     },
     {
-     "item_id": "af4c70f54071b727",
+     "item_id": "7f9270dd8de07c7a",
      "phrase": {
-      "en": "frames as LLM-native recommendation at Netflix",
-      "zh": "Netflix的LLM原生推荐"
+      "en": "Brain listens inward during REM",
+      "zh": "REM期间大脑内听"
      },
      "section": "news",
      "source": "Hacker News (AI filter)",
-     "url": "https://netflixtechblog.com/genrec-towards-llm-native-recommendation-at-netflix-f20be6f643e3"
+     "url": "https://medicalxpress.com/news/2026-07-brain-rem-eeg.html"
     }
    ],
-   "convergence": "divergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "AI's thirst for data and energy contrasts with physical limitations, raising sustainability debates.",
-    "zh": "AI对数据和能源的渴望与物理限制形成对比，引发可持续性辩论。"
+    "en": "Brain signals decode thoughts and dreams, advancing BCI and understanding of sleep.",
+    "zh": "脑信号解码思维与梦境，推进脑机接口与睡眠认知。"
    },
-   "id": "t4",
+   "id": "t2",
    "keyword": {
-    "en": "AI data center energy",
-    "zh": "AI数据中心能源"
+    "en": "EEG and brain-computer interface",
+    "zh": "脑电与脑机接口"
    },
    "relates_to": [],
    "why_now": {
-    "en": "Your interest in technical communication intersects: the environmental cost of AI is now a public conversation.",
-    "zh": "你对技术传播的兴趣交叉：AI的环境成本如今成为公开讨论。"
+    "en": "You follow embodied AI; new EEG papers and REM sleep findings connect brains to machines.",
+    "zh": "你关注具身AI，新脑电论文与REM睡眠发现连接大脑与机器。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "9e2f52bf50d487e5",
+     "phrase": {
+      "en": "Health officials report deaths",
+      "zh": "卫生官员报告死亡"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/15/world/middleeast/israel-strikes-lebanon-ansar.html"
+    },
+    {
+     "item_id": "12b2377bdf596469",
+     "phrase": {
+      "en": "Military says struck terror infrastructure",
+      "zh": "军方称打击恐怖设施"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "bc7d16f4ca12bc29",
+     "phrase": {
+      "en": "Worst toll since truce",
+      "zh": "停火以来最惨重"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/15/israeli-strike-on-southern-lebanon-kills-seven-in-worst-toll-since-june-state-media-says"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Fresh Israeli strikes kill civilians in Lebanon, breaking fragile truce.",
+    "zh": "以色列新空袭致黎巴嫩平民死亡，破坏脆弱停火。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "Lebanon strikes",
+    "zh": "黎巴嫩空袭"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You need global situational awareness; today's events shift regional dynamics.",
+    "zh": "你需要全球态势感知，今日事件改变地区动态。"
    }
   }
  ]
