@@ -1,21 +1,196 @@
 {
  "meta": {
-  "count": 3,
-  "generated_at": "2026-08-15T20:36:09Z",
+  "count": 5,
+  "generated_at": "2026-08-15T22:35:52Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "2b21a7c844dd9137",
+     "item_id": "6c8234a1db1eaf16",
      "phrase": {
-      "en": "asks: is AI drug discovery working?",
-      "zh": "质疑AI药物发现效果"
+      "en": "worst-case 25in rain on Big Island",
+      "zh": "最坏情况大岛25英寸降雨"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "90bb8e42988efef4",
+     "phrase": {
+      "en": "Iniki's legacy and movie cameo",
+      "zh": "伊尼基遗留与电影客串"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/15/weather/hurricane-iniki-hawaii-history-lala.html"
+    },
+    {
+     "item_id": "0102bffa7d867921",
+     "phrase": {
+      "en": "islanders stock propane, ice, Oreos",
+      "zh": "岛民囤丙烷、冰块、奥利奥"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/15/weather/hurricane-lala-hawaii-emergency-prep.html"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Hawaii faces its first direct hurricane in decades, with memories of past storms shaping preparations.",
+    "zh": "夏威夷面临数十年来首次直击飓风，过往风暴记忆影响备战。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "hurricane",
+    "zh": "飓风"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "1992-09-11",
+     "item_id": "90bb8e42988efef4",
+     "label": {
+      "en": "Hurricane Iniki hits Hawaii",
+      "zh": "伊尼基飓风来袭"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/15/weather/hurricane-iniki-hawaii-history-lala.html"
+    },
+    {
+     "date": "2026-08-15",
+     "item_id": "6c8234a1db1eaf16",
+     "label": {
+      "en": "Lala approaches Hawaii",
+      "zh": "拉拉逼近夏威夷"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "why_now": {
+    "en": "You track natural events and data viz: the storm's approach is live data storytelling.",
+    "zh": "你关注自然事件与数据可视化：风暴逼近是实时数据叙事。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "2d32dfa6f6ee5d8a",
+     "phrase": {
+      "en": "Qatar denies holding Iranian pilots",
+      "zh": "卡塔尔否认扣押伊飞行员"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cj4kk8kz271o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "ea17511e2196fd3e",
+     "phrase": {
+      "en": "Iran says pilots held since March",
+      "zh": "伊朗称飞行员3月起被扣"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/15/world/middleeast/iran-missing-pilots-qatar.html"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Iran claims Qatar holds its pilots; Qatar denies, stoking war tensions.",
+    "zh": "伊朗称卡塔尔扣押飞行员，卡塔尔否认，加剧战争紧张。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "Qatar-Iran",
+    "zh": "卡塔尔-伊朗"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-03-02",
+     "item_id": "ea17511e2196fd3e",
+     "label": {
+      "en": "fighter jets shot down",
+      "zh": "战斗机被击落"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/15/world/middleeast/iran-missing-pilots-qatar.html"
+    },
+    {
+     "date": "2026-08-15",
+     "item_id": "2d32dfa6f6ee5d8a",
+     "label": {
+      "en": "Qatar denies capture",
+      "zh": "卡塔尔否认扣押"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cj4kk8kz271o?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "why_now": {
+    "en": "You follow geopolitics and critical analysis: the Iran-Qatar dispute is a key flashpoint today.",
+    "zh": "你关注地缘政治与批判分析：伊卡争端是今日关键热点。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "ff5969608fb1ec00",
+     "phrase": {
+      "en": "dozens detained, social media calls",
+      "zh": "数十人被拘留，社交媒体号召"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/ckg44x2ey1ro?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "d1b1a4682e3ba8bd",
+     "phrase": {
+      "en": "111 arrested trying to enter",
+      "zh": "111人试图入境被捕"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/15/moroccan-police-arrest-more-than-100-people-as-they-attempt-to-enter-ceuta"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Morocco arrests migrants attempting to cross into Spain's Ceuta enclave amid social media calls.",
+    "zh": "摩洛哥逮捕试图越境进入西班牙休达的移民，社交媒体号召引发。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "Ceuta migration",
+    "zh": "休达移民"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about human-centered data and HCI: the migrant flow is real-world human movement data.",
+    "zh": "你关注以人为中心的数据与人机交互：移民流是真实人类移动数据。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "ce3e9b7028eb17b9",
+     "phrase": {
+      "en": "AI has larger working memory than humans",
+      "zh": "AI工作记忆大于人类"
      },
      "section": "news",
      "source": "Hacker News (AI filter)",
-     "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really"
+     "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians"
     },
     {
      "item_id": "acbfbfd4b1348041",
@@ -30,96 +205,57 @@
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Two new pieces ask whether AI is really transforming drug discovery or just promising.",
-    "zh": "两篇新文章问：AI是否真的在改变药物发现，还是仅有承诺。"
+    "en": "AI's working memory dwarfs human capacity, sparking debate on its implications.",
+    "zh": "AI工作记忆远超人类，引发其影响之辩。"
    },
-   "id": "t1",
+   "id": "t4",
    "keyword": {
-    "en": "AI in drug discovery",
-    "zh": "AI药物发现"
+    "en": "AI memory",
+    "zh": "AI记忆"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow AI applications; today brings a candid assessment and a clinical benchmark.",
-    "zh": "你关注AI应用，今天有诚实的评估和临床基准。"
+    "en": "You follow LLM and embodied AI: this challenges your assumptions about intelligence and scale.",
+    "zh": "你关注大语言模型与具身AI：这挑战你对智能与规模的假设。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "ce3e9b7028eb17b9",
-     "phrase": {
-      "en": "AI out-remembers, not outthinks",
-      "zh": "AI记忆优于思考"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians"
-    },
-    {
      "item_id": "7e7284e9ac1b392e",
      "phrase": {
-      "en": "explainable AI for trust",
-      "zh": "可解释AI建立信任"
+      "en": "explainable framework mitigates algorithmic aversion",
+      "zh": "可解释框架缓解算法厌恶"
      },
      "section": "papers",
      "source": "OpenAlex · information visualization",
      "url": "https://aisel.aisnet.org/treos_amcis2026/191"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Two reflections on what AI can and cannot do in high-stakes thinking.",
-    "zh": "两篇反思AI在高风险思维中的能与不能。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "AI cognitive limits",
-    "zh": "AI认知边界"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You care about embodied AI and HCI; these pieces probe AI's problem-solving and trust.",
-    "zh": "你关注具身AI和人机交互，这些文章探讨AI的解决问题和信任。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "4464bb3e7f130d82",
-     "phrase": {
-      "en": "contribution statements in HCI",
-      "zh": "HCI中的贡献声明"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.12792v1"
     },
     {
-     "item_id": "62989d6c0698801f",
+     "item_id": "1c4a07ca0da5534a",
      "phrase": {
-      "en": "nudges in AI journaling",
-      "zh": "AI日志中的助推"
+      "en": "disclosing persuasive intent reduces persuasion",
+      "zh": "披露说服意图减少说服"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.12582v1"
+     "url": "https://arxiv.org/abs/2608.11794v1"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Two papers examine the meta-level of HCI research—how we document and what we measure.",
-    "zh": "两篇论文审视HCI研究的元层面——我们如何记录和衡量。"
+    "en": "Researchers explore how disclosing AI intent and explaining decisions can build trust and reduce persuasion.",
+    "zh": "研究者探索披露AI意图与解释决策如何建立信任并降低说服。"
    },
-   "id": "t3",
+   "id": "t5",
    "keyword": {
-    "en": "HCI research practice",
-    "zh": "人机交互研究实践"
+    "en": "AI transparency",
+    "zh": "AI透明度"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You are in HCI; these help you reflect on your own research methods.",
-    "zh": "你从事人机交互，这些帮助你反思自己的研究方法。"
+    "en": "You care about critical visualization and trust: these findings are key for ethical AI design.",
+    "zh": "你关注批判性可视化与信任：这些发现对伦理AI设计至关重要。"
    }
   }
  ]
