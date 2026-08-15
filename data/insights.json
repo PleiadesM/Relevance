@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "moss wall competition OR moss art contest",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "Flaunt Magazine",
-   "published_at": "2026-08-05T19:48:47Z",
-   "title": "Moss | Cultural Connection in Midtown",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9HUnBKMEthRXR4X21pQ3F1VmdJN1hxYV9jOUFBT3FNWkluT0lDQmRwaFl2cTdDTUt6MGhXcm1GY2xPNWpEZ05qUFhPb2JJWTZmRVpwY0lmMldBZmRHY1NZZGVsZktFaTRJNHQyVTk5MDA?oc=5"
+   "name": "sana.sy",
+   "published_at": "2026-08-14T15:30:00Z",
+   "title": "Russian gardener grows giant 360 - kg pumpkin",
+   "url": "https://sana.sy/en/miscellaneous/2336350/"
   },
   "summaries": {
    "en": {
-    "summary": "A midtown cultural event links moss to artistic expression, far from practical gardening.",
-    "why_irrelevant": "It's a niche art-world story."
+    "summary": "A Russian gardener has cultivated a colossal pumpkin weighing 360 kilograms.",
+    "why_irrelevant": "It's a niche record far from typical tech or market news."
    },
    "zh": {
-    "summary": "市中心的一项文化活动将苔藓与艺术表现联系起来，远离实用园艺。",
-    "why_irrelevant": "这是一个小众的艺术界故事。"
+    "summary": "俄罗斯一位园丁种出了重达360公斤的巨型南瓜。",
+    "why_irrelevant": "这是小众纪录，远离常见科技或市场新闻。"
    }
   },
-  "topic": "competitive moss wall growing"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "A magnitude 7.7 earthquake in Indonesia has killed at least 20, while Europe grapples with extreme heat and its health impacts. Research highlights challenges in balancing innovation with cybersecurity and the importance of ethics in visualization research.",
+ "brief": "A 7.7-magnitude earthquake in Indonesia has killed at least 38, while the tragic death of Cambridge professor Jason Arday raises questions about institutional oversight. In research, ethics and trust in AI and visualization are central themes.",
  "meta": {
-  "generated_at": "2026-08-15T08:43:45Z"
+  "generated_at": "2026-08-15T10:36:47Z"
  },
- "news_summary": "A powerful earthquake struck Indonesia, causing casualties and damage, while Europe faces intense heatwaves affecting hospitals and landscapes. Other notable stories include the death of artist Mary Heilmann and growing concerns over Taliban relations.",
- "papers_summary": "Papers discuss managing institutional tension between innovation and cybersecurity, explainable AI in oncology, and ethics in visualization research, including a study suggesting many IEEE VIS papers may lack proper ethics approval.",
+ "news_summary": "A major earthquake struck Indonesia's Flores region, causing casualties and prompting evacuations. The death of Cambridge professor Jason Arday, who had resigned amid a plagiarism row, has sparked debate on race and hiring practices. Other stories cover U.S. immigration backlog, UK politics, and international tensions.",
+ "papers_summary": "Papers highlight ethics in visualization research, with over 63% of IEEE VIS papers lacking ethics approval statements, and the need for trust in AI decision support in oncology. Other research covers palmitoylation in neuroblastoma differentiation and EEG decoding with CNNs and LSTMs.",
  "summaries": {
   "en": {
-   "brief": "A magnitude 7.7 earthquake in Indonesia has killed at least 20, while Europe grapples with extreme heat and its health impacts. Research highlights challenges in balancing innovation with cybersecurity and the importance of ethics in visualization research.",
-   "news_summary": "A powerful earthquake struck Indonesia, causing casualties and damage, while Europe faces intense heatwaves affecting hospitals and landscapes. Other notable stories include the death of artist Mary Heilmann and growing concerns over Taliban relations.",
-   "papers_summary": "Papers discuss managing institutional tension between innovation and cybersecurity, explainable AI in oncology, and ethics in visualization research, including a study suggesting many IEEE VIS papers may lack proper ethics approval."
+   "brief": "A 7.7-magnitude earthquake in Indonesia has killed at least 38, while the tragic death of Cambridge professor Jason Arday raises questions about institutional oversight. In research, ethics and trust in AI and visualization are central themes.",
+   "news_summary": "A major earthquake struck Indonesia's Flores region, causing casualties and prompting evacuations. The death of Cambridge professor Jason Arday, who had resigned amid a plagiarism row, has sparked debate on race and hiring practices. Other stories cover U.S. immigration backlog, UK politics, and international tensions.",
+   "papers_summary": "Papers highlight ethics in visualization research, with over 63% of IEEE VIS papers lacking ethics approval statements, and the need for trust in AI decision support in oncology. Other research covers palmitoylation in neuroblastoma differentiation and EEG decoding with CNNs and LSTMs."
   },
   "zh": {
-   "brief": "今日重點：台灣政壇往事再掀波瀾，韓國股市暴跌重創散戶，中國C919首飛國際航線；國際上印尼強震致災，歐洲熱浪危機持續；學術界關注可視化研究倫理與AI信任問題。",
-   "news_summary": "台灣前總統陳水扁之女陳幸妤因離婚事件再成焦點，引發對媒體倫理的反思；韓國股市重挫，散戶損失慘重；C919完成首趟國際商業航班，標誌中國客機進軍海外市場的里程碑；印尼發生7.7級強震，至少20人罹難。",
-   "papers_summary": "研究顯示高度監管組織在創新與網路安全間存在緊張關係，另有論文探討腫瘤學中解釋性決策框架以減緩演算法排斥，以及IEEE VIS論文倫理審查缺失的問題。"
+   "brief": "今日重点：陈水扁女儿陈幸妤离婚消息重燃媒体关注，韩国股市暴跌令散户损失惨重；国际方面，印尼强震造成至少38人死亡，剑桥大学黑人教授Jason Arday去世引发对其学术争议的反思。",
+   "news_summary": "陈幸妤离婚事件时隔20年再成焦点，引发对媒体伦理的讨论；韩国股市大跌令散户遭受重大损失。",
+   "papers_summary": "无优先中文论文，英文论文涉及可视化研究中的伦理审查与贡献声明等议题。"
   }
  },
  "todays_image": {
-  "caption": "The tiny Borreria perpusilla clings to the earth with fragile roots as the same ground suddenly convulses beneath it, a quiet contrast to the tremor's deadly force.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m39b901120c1b24cdcb078478055490201",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3ef775029-7ea2-4cee-a1de-13b30acd931b",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m39b901120c1b24cdcb078478055490201/90",
-  "title": "Borreria perpusilla Hook. f."
+  "caption": "Like the mailbox remnant, the professor’s death preserves unanswered messages about what Cambridge failed to deliver on race and hiring.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2006_2038_1a",
+  "source_name": "National Postal Museum",
+  "source_url": "https://postalmuseum.si.edu/object/npm_2006.2038.1",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2006_2038_1a",
+  "title": "Mailbox remnant from 1906 San Francisco earthquake"
  }
 }

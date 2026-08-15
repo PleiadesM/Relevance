@@ -1,175 +1,57 @@
 {
  "meta": {
-  "count": 6,
-  "generated_at": "2026-08-15T08:43:45Z",
+  "count": 3,
+  "generated_at": "2026-08-15T10:36:47Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "b728c139c1222184",
+     "item_id": "db47eb31e3db3c69",
      "phrase": {
-      "en": "president dismisses reports",
-      "zh": "总统驳回报道"
+      "en": "38 dead, strongest in decades",
+      "zh": "38人遇难，数十年最强"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/14/us/politics/trump-uss-abraham-lincoln.html"
+     "url": "https://www.nytimes.com/2026/08/15/world/asia/earthquake-indonesia-flores-tsunami.html"
     },
     {
-     "item_id": "c4df2a7afe73d4ab",
+     "item_id": "b5816de27c36c70e",
      "phrase": {
-      "en": "live blog details reaction",
-      "zh": "实时博客详述反应"
+      "en": "killings and thousands seek higher ground",
+      "zh": "遇难及数千人避难"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/live/2026/aug/14/donald-trump-speech-crime-safety-new-york-republicans-midterms-us-politics-latest-news-updates"
+     "url": "https://www.theguardian.com/world/2026/aug/15/indonesia-earthquake"
     },
     {
-     "item_id": "3463d884e71fb0c3",
+     "item_id": "445edbff6198aed7",
      "phrase": {
-      "en": "logistics hub shift",
-      "zh": "物流枢纽转移"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/14/us/politics/uss-abraham-lincoln-trump-supplies-diego-garcia.html"
-    },
-    {
-     "item_id": "7873530c96d54a7d",
-     "phrase": {
-      "en": "families cite mental health",
-      "zh": "家属指出心理问题"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/aug/14/trump-uss-abraham-lincoln-deployment"
-    },
-    {
-     "item_id": "dc99065cd6638a9c",
-     "phrase": {
-      "en": "relief carrier dispatched",
-      "zh": "派出接替航母"
+      "en": "rescue operation under way",
+      "zh": "救援行动进行中"
      },
      "section": "news",
      "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/c5y0zz63gero?at_medium=RSS&at_campaign=rss"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "A record-breaking deployment turns into a morale and safety disaster at sea.",
-    "zh": "创纪录的部署演变为海上士气与安全灾难。"
+    "en": "A strong quake hits Flores, killing dozens and triggering rescue.",
+    "zh": "强震袭击弗洛勒斯岛，数十人遇难，救援展开。"
    },
    "id": "t1",
    "keyword": {
-    "en": "carrier crisis",
-    "zh": "航母危机"
+    "en": "Indonesia earthquake",
+    "zh": "印尼地震"
    },
    "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-08-14",
-     "item_id": "3463d884e71fb0c3",
-     "label": {
-      "en": "Navy details problems",
-      "zh": "海军披露问题"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/14/us/politics/uss-abraham-lincoln-trump-supplies-diego-garcia.html"
-    },
-    {
-     "date": "2026-08-14",
-     "item_id": "7873530c96d54a7d",
-     "label": {
-      "en": "Trump downplays",
-      "zh": "特朗普淡化"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/aug/14/trump-uss-abraham-lincoln-deployment"
-    },
-    {
-     "date": "2026-08-15",
-     "item_id": "dc99065cd6638a9c",
-     "label": {
-      "en": "relief carrier sent",
-      "zh": "派出接替航母"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss"
-    }
-   ],
    "why_now": {
-    "en": "You track systemic failures; today the Navy's own numbers and the president's dismissal collide.",
-    "zh": "你关注系统性问题，今日海军数据与总统淡化态度冲突。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "38a23d623d097c84",
-     "phrase": {
-      "en": "satellite shows scorched land",
-      "zh": "卫星显示焦土"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c4gxy0wqqd9o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "7f5e53bf3864b40d",
-     "phrase": {
-      "en": "ward temps exceed limits",
-      "zh": "病房温度超标"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/society/2026/aug/15/dangerously-hostile-heatwaves-leave-hospital-wards-unsafe-data-reveals"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Searing heat scorches landscapes and makes hospitals unsafe.",
-    "zh": "酷热炙烤大地，医院也变得不安全。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "heatwave health",
-    "zh": "热浪健康"
-   },
-   "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-08-15",
-     "item_id": "38a23d623d097c84",
-     "label": {
-      "en": "space images",
-      "zh": "太空影像"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c4gxy0wqqd9o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "date": "2026-08-15",
-     "item_id": "7f5e53bf3864b40d",
-     "label": {
-      "en": "ward temps data",
-      "zh": "病房温度数据"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/society/2026/aug/15/dangerously-hostile-heatwaves-leave-hospital-wards-unsafe-data-reveals"
-    }
-   ],
-   "why_now": {
-    "en": "You care about data and visualization; the NHS temperature data reveals a public health tipping point.",
-    "zh": "你关注数据与可视化，NHS温度数据揭示公共卫生临界点。"
+    "en": "You track global events; three major sources report the same disaster today.",
+    "zh": "你关注全球动态，三大媒体今日报道同一灾难。"
    }
   },
   {
@@ -177,8 +59,8 @@
     {
      "item_id": "7e7284e9ac1b392e",
      "phrase": {
-      "en": "oncology trust framework",
-      "zh": "肿瘤信任框架"
+      "en": "explainable AI reduces aversion",
+      "zh": "可解释AI减少排斥"
      },
      "section": "papers",
      "source": "OpenAlex · information visualization",
@@ -187,8 +69,8 @@
     {
      "item_id": "1c4a07ca0da5534a",
      "phrase": {
-      "en": "disclosure reduces persuasion",
-      "zh": "披露降低说服"
+      "en": "disclosing intent reduces persuasion",
+      "zh": "披露意图降低说服"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
@@ -197,209 +79,57 @@
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "New systems aim to make AI decisions clear and trustworthy in high-stakes fields.",
-    "zh": "新系统旨在让高风险领域中的AI决策清晰可信。"
+    "en": "Studies probe how transparent AI affects trust and persuasion.",
+    "zh": "研究探讨透明AI如何影响信任与说服。"
    },
-   "id": "t3",
-   "keyword": {
-    "en": "explainable AI",
-    "zh": "可解释AI"
-   },
-   "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-08-12",
-     "item_id": "1c4a07ca0da5534a",
-     "label": {
-      "en": "persuasion study",
-      "zh": "说服研究"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.11794v1"
-    },
-    {
-     "date": "2026-08-15",
-     "item_id": "7e7284e9ac1b392e",
-     "label": {
-      "en": "oncology framework",
-      "zh": "肿瘤学框架"
-     },
-     "section": "papers",
-     "source": "OpenAlex · information visualization",
-     "url": "https://aisel.aisnet.org/treos_amcis2026/191"
-    }
-   ],
-   "why_now": {
-    "en": "You study HCI and critical visualization; these papers show how transparency is being engineered today.",
-    "zh": "你研究人机交互与批判可视化，这些论文展示今日透明度工程。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "aba1a350e98739f6",
-     "phrase": {
-      "en": "blind-accessible visualizations",
-      "zh": "盲人可用可视化"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.11364v1"
-    },
-    {
-     "item_id": "c82c0be3828816ba",
-     "phrase": {
-      "en": "biomedical network tool",
-      "zh": "生物网络工具"
-     },
-     "section": "papers",
-     "source": "Semantic Scholar · data visualization",
-     "url": "https://www.semanticscholar.org/paper/e95420ce41c33a3f2740aa75ed499449610bc6e7"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "New tools bring data visualization to blind and low-vision users, reshaping the field.",
-    "zh": "新工具让盲人与低视力用户也能用数据可视化，重塑该领域。"
-   },
-   "id": "t4",
-   "keyword": {
-    "en": "visualization access",
-    "zh": "可视化无障碍"
-   },
-   "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-08-11",
-     "item_id": "c82c0be3828816ba",
-     "label": {
-      "en": "ringnet platform",
-      "zh": "RingNet平台"
-     },
-     "section": "papers",
-     "source": "Semantic Scholar · data visualization",
-     "url": "https://www.semanticscholar.org/paper/e95420ce41c33a3f2740aa75ed499449610bc6e7"
-    },
-    {
-     "date": "2026-08-11",
-     "item_id": "aba1a350e98739f6",
-     "label": {
-      "en": "quartz paper",
-      "zh": "QUARTZ论文"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.11364v1"
-    }
-   ],
-   "why_now": {
-    "en": "You work on data visualization and accessibility; today two papers push the frontier.",
-    "zh": "你从事数据可视化与无障碍，今日两篇论文推动前沿。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "1c4a07ca0da5534a",
-     "phrase": {
-      "en": "disclosure lowers persuasion",
-      "zh": "披露降低说服"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.11794v1"
-    },
-    {
-     "item_id": "7e7284e9ac1b392e",
-     "phrase": {
-      "en": "trust in clinical AI",
-      "zh": "临床AI信任"
-     },
-     "section": "papers",
-     "source": "OpenAlex · information visualization",
-     "url": "https://aisel.aisnet.org/treos_amcis2026/191"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Revealing AI's role can change how much it persuades you.",
-    "zh": "揭示AI角色可改变其说服力。"
-   },
-   "id": "t5",
+   "id": "t2",
    "keyword": {
     "en": "AI transparency",
     "zh": "AI透明度"
    },
-   "relates_to": [
-    "t2"
-   ],
-   "timeline": [
-    {
-     "date": "2026-08-12",
-     "item_id": "1c4a07ca0da5534a",
-     "label": {
-      "en": "persuasion study",
-      "zh": "说服研究"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.11794v1"
-    },
-    {
-     "date": "2026-08-15",
-     "item_id": "7e7284e9ac1b392e",
-     "label": {
-      "en": "oncology trust",
-      "zh": "肿瘤信任"
-     },
-     "section": "papers",
-     "source": "OpenAlex · information visualization",
-     "url": "https://aisel.aisnet.org/treos_amcis2026/191"
-    }
-   ],
+   "relates_to": [],
    "why_now": {
-    "en": "You study communication and ethics; this finding challenges how you think about disclosure.",
-    "zh": "你研究传播与伦理，这一发现挑战你对披露的思考。"
+    "en": "You study HCI and AI: new papers reveal disclosure reduces persuasion.",
+    "zh": "你研究人机交互与AI，新论文揭示披露减少说服。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "683c300e7ea1c863",
+     "item_id": "eed93a4afd4e4803",
      "phrase": {
-      "en": "editable context graph",
-      "zh": "可编辑上下文图"
+      "en": "plagiarism row ends in tragedy",
+      "zh": "剽窃风波以悲剧收场"
      },
      "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://chenxiachan.github.io/thoughtdag/"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/uk-news/2026/aug/14/jason-arday-found-dead-after-resigning-from-cambridge-over-plagiarism-claims"
     },
     {
-     "item_id": "c0e9b45d1c51e76e",
+     "item_id": "f9c94f3e88986a94",
      "phrase": {
-      "en": "blog tagging hack",
-      "zh": "博客标签技巧"
+      "en": "hard questions on race and hiring",
+      "zh": "种族与招聘的难题"
      },
      "section": "news",
-     "source": "Simon Willison",
-     "url": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/15/world/europe/jason-arday-cambridge-hiring-questions.html"
     }
    ],
-   "convergence": "divergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "Tools that let you see and edit the context behind AI conversations are emerging.",
-    "zh": "能查看并编辑AI对话上下文的工具正在涌现。"
+    "en": "Cambridge professor's death raises questions about hiring and ethics.",
+    "zh": "剑桥教授之死引发招聘与伦理质疑。"
    },
-   "id": "t6",
+   "id": "t3",
    "keyword": {
-    "en": "LLM context",
-    "zh": "LLM上下文"
+    "en": "academic integrity",
+    "zh": "学术诚信"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You build with LLMs; ThoughtDAG offers a concrete way to manage context.",
-    "zh": "你用LLM开发，ThoughtDAG提供了管理上下文的具体方式。"
+    "en": "You follow academic ethics; this case highlights systemic flaws.",
+    "zh": "你关注学术伦理，此案凸显系统缺陷。"
    }
   }
  ]
