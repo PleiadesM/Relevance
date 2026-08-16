@@ -1,87 +1,17 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-08-16T18:45:10Z",
+  "count": 5,
+  "generated_at": "2026-08-16T20:35:47Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "f0a3a23476f8dd31",
-     "phrase": {
-      "en": "military AI hampered by feuds",
-      "zh": "军事AI受内斗阻碍"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/16/us/politics/military-ai-china-anthropic.html"
-    },
-    {
-     "item_id": "d0e589225fe9e450",
-     "phrase": {
-      "en": "public views AI negatively",
-      "zh": "公众对AI负面看法"
-     },
-     "section": "news",
-     "source": "Simon Willison",
-     "url": "https://simonwillison.net/2026/Aug/16/dario-amodei/"
-    },
-    {
-     "full_text_file": "articles/news/e9e36031d21a274a.json",
-     "item_id": "e9e36031d21a274a",
-     "phrase": {
-      "en": "ChatGPT tracks user actions",
-      "zh": "ChatGPT追踪用户行为"
-     },
-     "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes"
-    },
-    {
-     "item_id": "d098a643cbe0356c",
-     "phrase": {
-      "en": "AI credit resale market",
-      "zh": "AI信用转售市场"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://vectoral.com/blog/who-are-the-token-brokers"
-    },
-    {
-     "item_id": "4afc5c6af524bbfd",
-     "phrase": {
-      "en": "organizations use AI evidence",
-      "zh": "组织使用AI的证据"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.12236v1"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Nations and militaries race for AI supremacy, but internal feuds and external rivals complicate the path.",
-    "zh": "国家与军队竞逐AI主导，但内斗与外敌使道路曲折。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "AI dominance",
-    "zh": "AI主导权"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You track AI policy and military tech; today's report reveals U.S. internal conflicts hindering AI goals.",
-    "zh": "你关注AI政策与军事技术，今日报道揭示美国内部冲突阻碍AI目标。"
-   }
-  },
-  {
-   "angles": [
-    {
      "item_id": "7e93f19827e12031",
      "phrase": {
-      "en": "Wales wildfire battle continues",
-      "zh": "威尔士野火战斗持续"
+      "en": "Wales fire battle ongoing",
+      "zh": "威尔士灭火持续"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -90,8 +20,8 @@
     {
      "item_id": "50afdd0636846965",
      "phrase": {
-      "en": "Greek wildfire kills two",
-      "zh": "希腊野火致两人死亡"
+      "en": "Greece and Belgium fires",
+      "zh": "希腊和比利时野火"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -100,8 +30,8 @@
     {
      "item_id": "ac0cc723648b9f2e",
      "phrase": {
-      "en": "Belgian fire doubles in size",
-      "zh": "比利时火灾规模翻倍"
+      "en": "Belgian fire doubles",
+      "zh": "比利时野火扩大"
      },
      "section": "news",
      "source": "BBC World",
@@ -110,77 +40,97 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Wildfires rage across Europe, from Wales to Greece and Belgium, straining resources and lives.",
-    "zh": "野火肆虐欧洲，从威尔士到希腊和比利时，资源与生命受压。"
+    "en": "Fires rage across Europe, testing emergency services.",
+    "zh": "野火肆虐欧洲，考验应急服务。"
    },
-   "id": "t2",
+   "id": "t1",
    "keyword": {
     "en": "wildfire crisis",
     "zh": "野火危机"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about environmental data and policy; today multiple fires demand attention to climate impacts.",
-    "zh": "你关注环境数据与政策，今日多起火灾凸显气候影响。"
+    "en": "You follow climate impacts: today's wildfires in Wales, Greece, and Belgium show a continent under strain.",
+    "zh": "你关注气候影响，今日威尔士、希腊、比利时的野火显示欧洲承压。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "bcd5c393cd47a5bf",
+     "full_text_file": "articles/news/e9e36031d21a274a.json",
+     "item_id": "e9e36031d21a274a",
      "phrase": {
-      "en": "Atlantic calm so far",
-      "zh": "大西洋迄今平静"
+      "en": "ChatGPT tracks clicks",
+      "zh": "ChatGPT追踪点击"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/16/weather/el-nino-lala-tropical-storm.html"
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes"
     },
     {
-     "item_id": "a96fbce315a333fd",
+     "item_id": "b3c316e18d790700",
      "phrase": {
-      "en": "Lala weakens to tropical storm",
-      "zh": "拉拉减弱为热带风暴"
+      "en": "MathCode writes code",
+      "zh": "MathCode编写代码"
      },
      "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/16/g-s1-138926/lala-tropical-storm-hawaii-hurricane"
-    },
-    {
-     "item_id": "0f47347b136134c4",
-     "phrase": {
-      "en": "Lala lashes Hawaii",
-      "zh": "拉拉袭击夏威夷"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/16/hurricane-lala-hawaii-big-island-avoids-landfall"
-    },
-    {
-     "item_id": "6c8234a1db1eaf16",
-     "phrase": {
-      "en": "flash floods in Hawaii",
-      "zh": "夏威夷山洪暴发"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss"
+     "source": "Hacker News (AI filter)",
+     "url": "https://math-ai-org.github.io/mathcode/"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "Hawaii faces Lala's wrath while Atlantic season stays quiet, a tale of two oceans.",
-    "zh": "夏威夷遭拉拉肆虐，大西洋季平静，两洋对比鲜明。"
+    "en": "AI systems track actions and write code autonomously.",
+    "zh": "AI系统自主追踪操作并编写代码。"
    },
-   "id": "t3",
+   "id": "t2",
    "keyword": {
-    "en": "hurricane impact",
-    "zh": "飓风影响"
+    "en": "AI agents",
+    "zh": "AI代理"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow climate patterns; Lala's path and Atlantic calm show shifting storm dynamics.",
-    "zh": "你关注气候模式，拉拉路径与大西洋平静显示风暴动态变化。"
+    "en": "You track embodied AI and HCI: new tools reveal how AI observes and assists human work.",
+    "zh": "你追踪具身AI与人机交互，新工具显示AI如何观察和协助人类工作。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "f0a3a23476f8dd31",
+     "phrase": {
+      "en": "Pentagon wants AI edge",
+      "zh": "五角大楼寻求AI优势"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/16/us/politics/military-ai-china-anthropic.html"
+    },
+    {
+     "item_id": "d0e589225fe9e450",
+     "phrase": {
+      "en": "Amodei on AI views",
+      "zh": "Amodei谈AI观点"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Aug/16/dario-amodei/"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "AI promises strategic advantage while raising risks.",
+    "zh": "AI带来战略优势也带来风险。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "AI security",
+    "zh": "AI安全"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about AI policy: the military's bid for dominance is tangled with domestic feuds.",
+    "zh": "你关注AI政策，军方主导权之争受国内纷争困扰。"
    }
   },
   {
@@ -188,8 +138,8 @@
     {
      "item_id": "02e764a3f88e65ad",
      "phrase": {
-      "en": "recoveries and new thefts",
-      "zh": "追回与新盗窃"
+      "en": "recovered then stolen",
+      "zh": "追回又遭窃"
      },
      "section": "news",
      "source": "NPR News",
@@ -198,38 +148,91 @@
     {
      "item_id": "c6d8bd8969d0a464",
      "phrase": {
-      "en": "paintings stolen without alarms",
-      "zh": "无警报盗窃画作"
+      "en": "professional heist suspected",
+      "zh": "疑似专业盗窃"
      },
      "section": "news",
      "source": "BBC World",
      "url": "https://www.bbc.co.uk/news/articles/cqjxx2gzd9qo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "42784f477d213159",
-     "phrase": {
-      "en": "Renaissance artworks stolen",
-      "zh": "文艺复兴艺术品被盗"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/artanddesign/2026/aug/16/antonello-da-messina-renaissance-paintings-stolen-sicilian-museum-holiday"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Masterpieces vanish from museums in Italy, echoing a good-bad week for cultural security.",
-    "zh": "意大利博物馆杰作失窃，文化安全一周喜忧参半。"
+    "en": "Priceless paintings vanish, exposing security gaps.",
+    "zh": "珍贵画作失窃，暴露安全漏洞。"
    },
    "id": "t4",
    "keyword": {
-    "en": "art theft",
+    "en": "art heists",
     "zh": "艺术品盗窃"
    },
    "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-15",
+     "item_id": "02e764a3f88e65ad",
+     "label": {
+      "en": "three paintings stolen",
+      "zh": "三幅画被盗"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/16/nx-s1-5933052/sicily-art-heist-museum-parma"
+    },
+    {
+     "date": "2026-08-16",
+     "item_id": "c6d8bd8969d0a464",
+     "label": {
+      "en": "four more taken",
+      "zh": "又失四幅"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cqjxx2gzd9qo?at_medium=RSS&at_campaign=rss"
+    }
+   ],
    "why_now": {
-    "en": "You value cultural heritage and security; today's thefts highlight museum vulnerabilities.",
-    "zh": "你重视文化遗产与安全，今日盗窃凸显博物馆脆弱性。"
+    "en": "You appreciate visual culture: these thefts highlight the fragility of heritage.",
+    "zh": "你欣赏视觉文化，这些盗窃凸显遗产的脆弱。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "25dfe9922ba77754",
+     "phrase": {
+      "en": "Indiana braces for rain",
+      "zh": "印第安纳迎雨"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/16/us/indiana-storms-flooding.html"
+    },
+    {
+     "item_id": "8dc841dbcbe37f21",
+     "phrase": {
+      "en": "six dead from storms",
+      "zh": "风暴致六人死亡"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/16/indiana-storms-flooding-deaths"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Deadly storms flood Midwest, rescue teams respond.",
+    "zh": "致命风暴引发中西部洪水，救援队行动。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "storm flooding",
+    "zh": "暴雨洪水"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You analyze data visualization: flood maps and risk models are vital for such events.",
+    "zh": "你分析数据可视化，洪灾地图和风险模型至关重要。"
    }
   }
  ]
