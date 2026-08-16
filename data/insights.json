@@ -1,6 +1,6 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"snail racing championship\" OR \"world snail racing\")",
+  "query": "(\"snail racing championship\" OR \"World Snail Racing Championships\")",
   "source": {
    "name": "newstatesman.com",
    "published_at": "2026-08-11T04:15:00Z",
@@ -9,40 +9,40 @@
   },
   "summaries": {
    "en": {
-    "summary": "A New Statesman feature follows the quest to find the world's fastest snail, a quirky blend of science and whimsy.",
-    "why_irrelevant": "It is a niche curiosity far removed from typical tech or business feeds."
+    "summary": "A New Statesman piece chronicles the quest to find the world's fastest snail, a quirky niche pursuit.",
+    "why_irrelevant": "snail racing is far from typical tech or daily news."
    },
    "zh": {
-    "summary": "《新政治家》杂志追踪寻找世界上最快蜗牛的奇趣故事，融合科学与幽默。",
-    "why_irrelevant": "这是一则与日常科技或商业资讯毫无关联的冷门趣闻。"
+    "summary": "《新政治家》一文追踪寻找世界上最快的蜗牛这一奇特小众活动。",
+    "why_irrelevant": "蜗牛赛跑远离日常科技或新闻动态。"
    }
   },
   "topic": "competitive snail racing"
  },
- "brief": "Today's news covers art thefts in Italy, wildfires in Greece and Belgium, political shifts in the U.S., and international tensions involving Ukraine and Iran, while papers focus on diverse topics from AI to agriculture.",
+ "brief": "Today's news spans geopolitical tensions, environmental crises, and domestic political shifts, while new research covers diverse scientific and social topics.",
  "meta": {
-  "generated_at": "2026-08-16T16:39:38Z"
+  "generated_at": "2026-08-16T18:45:10Z"
  },
- "news_summary": "Italian police recovered three stolen paintings but thieves stole four more in Sicily; Greek wildfires killed two and a Belgian wildfire doubled in size; a 13-year-old girl survived a Michigan shooting; and the U.S. drone attack on Russia killed at least six, among other developments.",
- "papers_summary": "Research today spans topics like social media food photography, AR in construction, vegetation monitoring, genetic correlation methods, and deep learning for cotton fiber analysis.",
+ "news_summary": "Headlines include wildfires in Greece and Wales, Ukraine-Russia escalations, U.S. political races with progressive tensions, and economic strategies amid drought and war.",
+ "papers_summary": "Research papers range from agricultural monitoring to genetic correlations, with some studies on media behavior and construction management.",
  "summaries": {
   "en": {
-   "brief": "Today's news covers art thefts in Italy, wildfires in Greece and Belgium, political shifts in the U.S., and international tensions involving Ukraine and Iran, while papers focus on diverse topics from AI to agriculture.",
-   "news_summary": "Italian police recovered three stolen paintings but thieves stole four more in Sicily; Greek wildfires killed two and a Belgian wildfire doubled in size; a 13-year-old girl survived a Michigan shooting; and the U.S. drone attack on Russia killed at least six, among other developments.",
-   "papers_summary": "Research today spans topics like social media food photography, AR in construction, vegetation monitoring, genetic correlation methods, and deep learning for cotton fiber analysis."
+   "brief": "Today's news spans geopolitical tensions, environmental crises, and domestic political shifts, while new research covers diverse scientific and social topics.",
+   "news_summary": "Headlines include wildfires in Greece and Wales, Ukraine-Russia escalations, U.S. political races with progressive tensions, and economic strategies amid drought and war.",
+   "papers_summary": "Research papers range from agricultural monitoring to genetic correlations, with some studies on media behavior and construction management."
   },
   "zh": {
-   "brief": "今日新闻聚焦靖國神社與東亞外交敏感關係、印尼地震災情，以及學術界對劍橋教授之死的震盪；研究方面則涵蓋多項技術與社會科學主題，但缺乏重大突破。",
-   "news_summary": "靖國神社參拜爭議再起，牽動中日韓關係；印尼強震造成數十人死亡；劍橋教授之死引發學術界討論；卡斯特羅之女回憶往事。",
-   "papers_summary": "研究主題多元，包括社交媒體食物圖片分析、AR-BIM整合系統、植被覆蓋變化、基因相關性估計等，但無重大突破。"
+   "brief": "今日焦点涵盖靖国神社参拜争议、Z世代月经知识传播、剑桥教授之死等话题，同时国际新闻关注俄乌冲突、希腊野火及美国政治动态。",
+   "news_summary": "靖国神社因高市早苗的供奉行为再次引发东亚外交紧张，印尼强震造成重大伤亡，卡斯特罗之女的回忆录引发关注。",
+   "papers_summary": "今日无中文论文摘要，但英文研究涉及食物摄影、建筑信息模型、植被覆盖变化等多元领域。"
   }
  },
  "todays_image": {
-  "caption": "The gentleman's watchful gaze in the portrait mirrors the vigilance Italy's art police must maintain to protect cultural treasures from theft and damage.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-2020.20.234_1",
-  "source_name": "Smithsonian American Art Museum",
-  "source_url": "https://americanart.si.edu/collections/search/artwork/?id=114206",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-2020.20.234_1",
-  "title": "Portrait of a Gentleman"
+  "caption": "Like the tiny aster that can split a prairie’s bloom, El-Sayed could split Michigan’s Democratic vote and cost them the race.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3d1b2a964-ed98-4ee0-8f71-927381c84000",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c/90",
+  "title": "Chaetopappa asteroides (Nutt.) DC."
  }
 }

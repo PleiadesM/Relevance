@@ -1,0 +1,236 @@
+{
+ "meta": {
+  "count": 4,
+  "generated_at": "2026-08-16T18:45:10Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "f0a3a23476f8dd31",
+     "phrase": {
+      "en": "military AI hampered by feuds",
+      "zh": "军事AI受内斗阻碍"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/16/us/politics/military-ai-china-anthropic.html"
+    },
+    {
+     "item_id": "d0e589225fe9e450",
+     "phrase": {
+      "en": "public views AI negatively",
+      "zh": "公众对AI负面看法"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Aug/16/dario-amodei/"
+    },
+    {
+     "full_text_file": "articles/news/e9e36031d21a274a.json",
+     "item_id": "e9e36031d21a274a",
+     "phrase": {
+      "en": "ChatGPT tracks user actions",
+      "zh": "ChatGPT追踪用户行为"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes"
+    },
+    {
+     "item_id": "d098a643cbe0356c",
+     "phrase": {
+      "en": "AI credit resale market",
+      "zh": "AI信用转售市场"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://vectoral.com/blog/who-are-the-token-brokers"
+    },
+    {
+     "item_id": "4afc5c6af524bbfd",
+     "phrase": {
+      "en": "organizations use AI evidence",
+      "zh": "组织使用AI的证据"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.12236v1"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Nations and militaries race for AI supremacy, but internal feuds and external rivals complicate the path.",
+    "zh": "国家与军队竞逐AI主导，但内斗与外敌使道路曲折。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI dominance",
+    "zh": "AI主导权"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track AI policy and military tech; today's report reveals U.S. internal conflicts hindering AI goals.",
+    "zh": "你关注AI政策与军事技术，今日报道揭示美国内部冲突阻碍AI目标。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "7e93f19827e12031",
+     "phrase": {
+      "en": "Wales wildfire battle continues",
+      "zh": "威尔士野火战斗持续"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/uk-news/2026/aug/16/blaenavon-south-wales-wildfire-gruelling-battle-firefighters-military"
+    },
+    {
+     "item_id": "50afdd0636846965",
+     "phrase": {
+      "en": "Greek wildfire kills two",
+      "zh": "希腊野火致两人死亡"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/16/greek-island-salamis-belgium-high-fens-helicopters-wildfire"
+    },
+    {
+     "item_id": "ac0cc723648b9f2e",
+     "phrase": {
+      "en": "Belgian fire doubles in size",
+      "zh": "比利时火灾规模翻倍"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cp8eex1nmpvo?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Wildfires rage across Europe, from Wales to Greece and Belgium, straining resources and lives.",
+    "zh": "野火肆虐欧洲，从威尔士到希腊和比利时，资源与生命受压。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "wildfire crisis",
+    "zh": "野火危机"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about environmental data and policy; today multiple fires demand attention to climate impacts.",
+    "zh": "你关注环境数据与政策，今日多起火灾凸显气候影响。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "bcd5c393cd47a5bf",
+     "phrase": {
+      "en": "Atlantic calm so far",
+      "zh": "大西洋迄今平静"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/16/weather/el-nino-lala-tropical-storm.html"
+    },
+    {
+     "item_id": "a96fbce315a333fd",
+     "phrase": {
+      "en": "Lala weakens to tropical storm",
+      "zh": "拉拉减弱为热带风暴"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/16/g-s1-138926/lala-tropical-storm-hawaii-hurricane"
+    },
+    {
+     "item_id": "0f47347b136134c4",
+     "phrase": {
+      "en": "Lala lashes Hawaii",
+      "zh": "拉拉袭击夏威夷"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/16/hurricane-lala-hawaii-big-island-avoids-landfall"
+    },
+    {
+     "item_id": "6c8234a1db1eaf16",
+     "phrase": {
+      "en": "flash floods in Hawaii",
+      "zh": "夏威夷山洪暴发"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Hawaii faces Lala's wrath while Atlantic season stays quiet, a tale of two oceans.",
+    "zh": "夏威夷遭拉拉肆虐，大西洋季平静，两洋对比鲜明。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "hurricane impact",
+    "zh": "飓风影响"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow climate patterns; Lala's path and Atlantic calm show shifting storm dynamics.",
+    "zh": "你关注气候模式，拉拉路径与大西洋平静显示风暴动态变化。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "02e764a3f88e65ad",
+     "phrase": {
+      "en": "recoveries and new thefts",
+      "zh": "追回与新盗窃"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/16/nx-s1-5933052/sicily-art-heist-museum-parma"
+    },
+    {
+     "item_id": "c6d8bd8969d0a464",
+     "phrase": {
+      "en": "paintings stolen without alarms",
+      "zh": "无警报盗窃画作"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cqjxx2gzd9qo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "42784f477d213159",
+     "phrase": {
+      "en": "Renaissance artworks stolen",
+      "zh": "文艺复兴艺术品被盗"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/artanddesign/2026/aug/16/antonello-da-messina-renaissance-paintings-stolen-sicilian-museum-holiday"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Masterpieces vanish from museums in Italy, echoing a good-bad week for cultural security.",
+    "zh": "意大利博物馆杰作失窃，文化安全一周喜忧参半。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "art theft",
+    "zh": "艺术品盗窃"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You value cultural heritage and security; today's thefts highlight museum vulnerabilities.",
+    "zh": "你重视文化遗产与安全，今日盗窃凸显博物馆脆弱性。"
+   }
+  }
+ ]
+}
