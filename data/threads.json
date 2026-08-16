@@ -1,0 +1,87 @@
+{
+ "meta": {
+  "count": 2,
+  "generated_at": "2026-08-16T04:48:24Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "acbfbfd4b1348041",
+     "phrase": {
+      "en": "Clinical RAG matches frontier LLMs",
+      "zh": "临床RAG媲美前沿LLM"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.12138v1"
+    },
+    {
+     "item_id": "7e7284e9ac1b392e",
+     "phrase": {
+      "en": "Explainability reduces algorithmic aversion",
+      "zh": "可解释性降低算法厌恶"
+     },
+     "section": "papers",
+     "source": "OpenAlex · information visualization",
+     "url": "https://aisel.aisnet.org/treos_amcis2026/191"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "AI models assist diagnosis but trust and transparency remain hurdles.",
+    "zh": "AI模型辅助诊断，但信任与透明仍是障碍。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI in healthcare",
+    "zh": "医疗AI"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about applied AI: new research on clinical RAG and oncology decision support lands today.",
+    "zh": "你关注应用AI，今日临床RAG与肿瘤决策支持的新研究上线。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "6c8234a1db1eaf16",
+     "phrase": {
+      "en": "Hawaii braces for potential hurricane",
+      "zh": "夏威夷面临飓风威胁"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "ed73342ed4ed7fa9",
+     "phrase": {
+      "en": "Midwest braces for more flooding",
+      "zh": "中西部再迎洪水"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/15/nx-s1-5932552/midwest-flooding-indiana-fema"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "From hurricanes to floods, extreme weather tests communities worldwide.",
+    "zh": "从飓风到洪水，极端天气考验全球社区。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "extreme weather impact",
+    "zh": "极端天气影响"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track global events: Hawaii hurricane and Midwest floods show climate's increasing toll.",
+    "zh": "你关注全球事件，夏威夷飓风与中西部洪水显示气候影响加剧。"
+   }
+  }
+ ]
+}
