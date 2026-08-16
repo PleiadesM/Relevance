@@ -1,0 +1,262 @@
+{
+ "meta": {
+  "count": 5,
+  "generated_at": "2026-08-16T12:58:45Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "full_text_file": "articles/news/31c93564dfe36b04.json",
+     "item_id": "31c93564dfe36b04",
+     "phrase": {
+      "en": "Rogue AI not fiction anymore",
+      "zh": "失控AI不再是科幻"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai"
+    },
+    {
+     "item_id": "2df5f995c50ba3fb",
+     "phrase": {
+      "en": "LLM limited to fifth grade",
+      "zh": "LLM止步五年级"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://littlelearner-ll.github.io/"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Fears grow that rogue AI is no longer fiction, as studies probe its limits.",
+    "zh": "担忧加剧，失控AI不再是科幻，研究在探其边界。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI safety",
+    "zh": "AI安全"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow AI ethics: today's articles question AI control and its data diet.",
+    "zh": "你关注AI伦理，今日文章质疑AI控制及其数据基础。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "d08f1ce483fece20",
+     "phrase": {
+      "en": "Russia launches aerial attacks",
+      "zh": "俄发动空袭"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "3a82de6ab035d915",
+     "phrase": {
+      "en": "massive drone attack kills six",
+      "zh": "大规模无人机袭击致六死"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/16/ukrainian-drone-attack-on-russia-wildberries-warehouse-fire"
+    },
+    {
+     "item_id": "cc575fbf6ea40512",
+     "phrase": {
+      "en": "largest aerial attacks of war",
+      "zh": "战争最大空袭"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/16/nx-s1-5933006/ukraine-aerial-attack-6-dead-russia"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Drone strikes escalate on both sides, with civilian costs rising.",
+    "zh": "双方无人机攻击升级，平民代价上升。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "Ukraine conflict",
+    "zh": "俄乌冲突"
+   },
+   "relates_to": [
+    "t1"
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-16",
+     "item_id": "3a82de6ab035d915",
+     "label": {
+      "en": "massive drone attack",
+      "zh": "大规模无人机袭击"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/16/ukrainian-drone-attack-on-russia-wildberries-warehouse-fire"
+    },
+    {
+     "date": "2026-08-16",
+     "item_id": "d08f1ce483fece20",
+     "label": {
+      "en": "five killed in strikes",
+      "zh": "空袭致五人死亡"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "date": "2026-08-16",
+     "item_id": "cc575fbf6ea40512",
+     "label": {
+      "en": "largest attack wave",
+      "zh": "最大规模攻击"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/16/nx-s1-5933006/ukraine-aerial-attack-6-dead-russia"
+    }
+   ],
+   "why_now": {
+    "en": "You track global tech impact: today's news shows war's technological toll.",
+    "zh": "你关注全球科技影响：今日新闻显示战争科技代价。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "5144281a4b093a8b",
+     "phrase": {
+      "en": "airport arrests new front",
+      "zh": "机场逮捕新战线"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/16/us/trump-immigration-crackdown.html"
+    },
+    {
+     "item_id": "62e0df36000d8387",
+     "phrase": {
+      "en": "trans teen's mom asks",
+      "zh": "跨性别者母亲发问"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/16/nx-s1-5932491/transgender-health-care-medicaid-trump-oz"
+    },
+    {
+     "item_id": "2850560c416e973e",
+     "phrase": {
+      "en": "right to rejoin family",
+      "zh": "重聚家庭的权利"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/uk-news/2026/aug/16/man-under-threat-of-deportation-to-jamaica-wins-right-to-rejoin-his-british-family"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Airport arrests and deportation fights reshape lives.",
+    "zh": "机场逮捕与遣返抗争改变人生。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "immigration enforcement",
+    "zh": "移民执法"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about human rights and policy: airport arrests are a new front.",
+    "zh": "你关注人权与政策：机场逮捕是新战线。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "50d0165490d3d837",
+     "phrase": {
+      "en": "false nuclear claim ricocheted",
+      "zh": "虚假核声明反弹"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/16/business/iran-nuclear-false-claims.html"
+    },
+    {
+     "item_id": "d2bc265de4b13117",
+     "phrase": {
+      "en": "scam uses AI to exploit",
+      "zh": "诈骗利用AI"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/money/2026/aug/16/scam-ai-holiday-photos-instagram-facebook"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "False claims spread via AI and social media, testing verification.",
+    "zh": "虚假声明借AI和社交网络传播，考验核实能力。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "AI in journalism",
+    "zh": "AI与新闻"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You study human-AI interaction: misinformation is a key challenge.",
+    "zh": "你研究人机交互：虚假信息是核心挑战。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "8484f4f70d267db4",
+     "phrase": {
+      "en": "kidney disappointment euphemism",
+      "zh": "肾脏失望委婉语"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://scholar.google.com/scholar?q=%22kidney+disappointment%22"
+    },
+    {
+     "item_id": "acbfbfd4b1348041",
+     "phrase": {
+      "en": "clinical RAG matches frontier",
+      "zh": "临床RAG匹敌前沿"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.12138v1"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Clinical AI systems compete with general models, but evidence is mixed.",
+    "zh": "临床AI系统与通用模型竞争，但证据不一。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "AI in healthcare",
+    "zh": "AI医疗"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow AI applications: medical AI's performance is pivotal.",
+    "zh": "你关注AI应用：医疗AI的性能至关重要。"
+   }
+  }
+ ]
+}
