@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "query": "(\"snail racing championship\" OR \"world snail racing\")",
   "source": {
-   "name": "sana.sy",
-   "published_at": "2026-08-14T15:30:00Z",
-   "title": "Russian gardener grows giant 360 - kg pumpkin",
-   "url": "https://sana.sy/en/miscellaneous/2336350/"
+   "name": "newstatesman.com",
+   "published_at": "2026-08-11T04:15:00Z",
+   "title": "Searching for the world fastest snail",
+   "url": "https://www.newstatesman.com/this-england/2026/08/searching-for-the-words-fastest-snail"
   },
   "summaries": {
    "en": {
-    "summary": "A Russian gardener successfully grew a pumpkin weighing 360 kilograms, setting a new personal record.",
-    "why_irrelevant": "It's an obscure regional agricultural achievement, far from typical tech or lifestyle feeds."
+    "summary": "A New Statesman feature follows the quest to find the world's fastest snail, a quirky blend of science and whimsy.",
+    "why_irrelevant": "It is a niche curiosity far removed from typical tech or business feeds."
    },
    "zh": {
-    "summary": "俄罗斯一位园丁成功种出了重达360公斤的南瓜，创下了个人新纪录。",
-    "why_irrelevant": "这是一项偏远地区的农业成就，远离常见的科技或生活资讯。"
+    "summary": "《新政治家》杂志追踪寻找世界上最快蜗牛的奇趣故事，融合科学与幽默。",
+    "why_irrelevant": "这是一则与日常科技或商业资讯毫无关联的冷门趣闻。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "competitive snail racing"
  },
- "brief": "Today's news spans from rare Renaissance art theft in Sicily to U.S. military AI concerns, while papers explore topics from social media to biomedical imaging.",
+ "brief": "Today's news covers art thefts in Italy, wildfires in Greece and Belgium, political shifts in the U.S., and international tensions involving Ukraine and Iran, while papers focus on diverse topics from AI to agriculture.",
  "meta": {
-  "generated_at": "2026-08-16T14:36:05Z"
+  "generated_at": "2026-08-16T16:39:38Z"
  },
- "news_summary": "Key news includes the theft of Renaissance paintings from a Sicilian museum, Hurricane Lala affecting Hawaii, and the U.S. military's AI ambitions challenged by China.",
- "papers_summary": "Papers cover diverse topics such as social media analysis (Foodstagramming), construction error management with AR-BIM, and genetic correlation estimation, alongside medical imaging and agricultural studies.",
+ "news_summary": "Italian police recovered three stolen paintings but thieves stole four more in Sicily; Greek wildfires killed two and a Belgian wildfire doubled in size; a 13-year-old girl survived a Michigan shooting; and the U.S. drone attack on Russia killed at least six, among other developments.",
+ "papers_summary": "Research today spans topics like social media food photography, AR in construction, vegetation monitoring, genetic correlation methods, and deep learning for cotton fiber analysis.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans from rare Renaissance art theft in Sicily to U.S. military AI concerns, while papers explore topics from social media to biomedical imaging.",
-   "news_summary": "Key news includes the theft of Renaissance paintings from a Sicilian museum, Hurricane Lala affecting Hawaii, and the U.S. military's AI ambitions challenged by China.",
-   "papers_summary": "Papers cover diverse topics such as social media analysis (Foodstagramming), construction error management with AR-BIM, and genetic correlation estimation, alongside medical imaging and agricultural studies."
+   "brief": "Today's news covers art thefts in Italy, wildfires in Greece and Belgium, political shifts in the U.S., and international tensions involving Ukraine and Iran, while papers focus on diverse topics from AI to agriculture.",
+   "news_summary": "Italian police recovered three stolen paintings but thieves stole four more in Sicily; Greek wildfires killed two and a Belgian wildfire doubled in size; a 13-year-old girl survived a Michigan shooting; and the U.S. drone attack on Russia killed at least six, among other developments.",
+   "papers_summary": "Research today spans topics like social media food photography, AR in construction, vegetation monitoring, genetic correlation methods, and deep learning for cotton fiber analysis."
   },
   "zh": {
-   "brief": "今日焦点包括靖國神社參拜爭議、劍橋教授之死引發學術界震盪，以及印尼地震災情；科研方面則有AI與醫療影像等多元研究。",
-   "news_summary": "靖國神社參拜再掀東亞外交波瀾，劍橋教授阿爾戴之死引發學術界討論，印尼強震造成逾40死。",
-   "papers_summary": "今日研究涵蓋社交媒體影像分析、AR建築管理、遺傳相關性估計等多元主題，其中AI於醫療影像分割與棉花纖維分析之應用尤為突出。"
+   "brief": "今日新闻聚焦靖國神社與東亞外交敏感關係、印尼地震災情，以及學術界對劍橋教授之死的震盪；研究方面則涵蓋多項技術與社會科學主題，但缺乏重大突破。",
+   "news_summary": "靖國神社參拜爭議再起，牽動中日韓關係；印尼強震造成數十人死亡；劍橋教授之死引發學術界討論；卡斯特羅之女回憶往事。",
+   "papers_summary": "研究主題多元，包括社交媒體食物圖片分析、AR-BIM整合系統、植被覆蓋變化、基因相關性估計等，但無重大突破。"
   }
  },
  "todays_image": {
-  "caption": "Like an ewer pours water to refresh and cleanse, Cambridge’s support aims to pour understanding and care into the mental health struggles highlighted by Jason Arday.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1929.8.480.1_1",
+  "caption": "The gentleman's watchful gaze in the portrait mirrors the vigilance Italy's art police must maintain to protect cultural treasures from theft and damage.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-2020.20.234_1",
   "source_name": "Smithsonian American Art Museum",
-  "source_url": "https://americanart.si.edu/collections/search/artwork/?id=29841",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1929.8.480.1_1",
-  "title": "Ewer"
+  "source_url": "https://americanart.si.edu/collections/search/artwork/?id=114206",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-2020.20.234_1",
+  "title": "Portrait of a Gentleman"
  }
 }
