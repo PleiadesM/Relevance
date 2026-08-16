@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
+  "query": "\"sand sculpture competition\" OR \"sand sculpting festival\"",
   "source": {
-   "name": "Axios",
-   "published_at": "2026-08-14T22:00:23Z",
-   "title": "Behold the 1,387-pound pumpkin that won the Iowa State Fair",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQR0x4RDBpSFIwYUcyMDJuZFhqb0ZqLVg1Qk9GQktjSHlSTWludlcxTVFobF9CdWdOcnI3anUxMlR6ajhNZTIxVFBPdDlEX0RNMmdXMzFSZ0Q4OEhKbV8xZzczQmxMT3dvS2JhLTAxYjdoM3g4b2NxT1hteUllV3EzRFZ3eHZsQzRuU0p2OTdNeks?oc=5"
+   "name": "fifetoday.co.uk",
+   "published_at": "2026-08-07T11:51:00Z",
+   "title": "BBC names date for first episode of sand sculpture competition on Fife beach",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeEtoNjI3d2xhOU44aWVIV0U0cXRXZHlKbWE5OEdERzh4czZyYTQ4OFc2Q2gtbWRGeE5DcThFaHZhbXlwbjhQbDl0dkFVNkV6NzJXVEFDNXNZSVI1b2lTUnVFWnZ1VnV2cFRmd01hd2ZLVjNWWHl5c2locFp5T0NUcVhsVHE2TUdTWkFZcmE3aUItWGNzaThqUVhCRjk1cnY1UUxXS0ZBUzd6cHhEa0k4UE9tSXpXWlBBVGJ6WElaMF9LQQ?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A 1,387-pound pumpkin won the Iowa State Fair, setting a new record.",
-    "why_irrelevant": "It's a niche agricultural contest far from your usual interests."
+    "summary": "BBC announces the air date for a sand sculpture competition taking place on a Fife beach.",
+    "why_irrelevant": "It's a niche local arts event far from mainstream news cycles."
    },
    "zh": {
-    "summary": "一个重达1387磅的南瓜在爱荷华州博览会上创纪录地获胜。",
-    "why_irrelevant": "这是一项与你的日常兴趣相距甚远的小众农业比赛。"
+    "summary": "BBC宣布在法夫海滩举办的沙雕比赛的播出日期。",
+    "why_irrelevant": "这是一个远离主流新闻周期的小众本地艺术活动。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "competitive sand sculpting festivals"
  },
- "brief": "Today's news is dominated by natural disasters and political tensions, including Hurricane Lala threatening Hawaii, a deadly earthquake in Indonesia, and U.S.-Iran conflict fallout. Meanwhile, research highlights AI in healthcare and cybersecurity, alongside a novel AI-assisted GPU porting of a weather simulation model.",
+ "brief": "Today's news is dominated by natural disasters and geopolitical tensions, including a deadly earthquake in Indonesia, Russian strikes on Ukraine, and a looming hurricane in Hawaii. Meanwhile, AI research explores multi-agent systems and education technology, while academic papers delve into diverse topics from brain tumor segmentation to cotton fiber analysis.",
  "meta": {
-  "generated_at": "2026-08-16T06:56:54Z"
+  "generated_at": "2026-08-16T08:44:55Z"
  },
- "news_summary": "Key events include Hurricane Lala approaching Hawaii, a powerful earthquake in Indonesia with dozens dead, and ongoing U.S.-Iran tensions affecting visas and diplomacy. Also notable are Australia's gun buyback after a beach attack, a scandal in Japan-Australia defense talks, and AI-driven scams exploiting vacation photos.",
- "papers_summary": "Research topics range from AI trust in oncology and barriers to AI in eye clinics, to palmitoylation in neuroblastoma differentiation and a case report on Behçet's Disease. A significant technical paper discusses AI-assisted porting of a 250k line weather simulation code to GPU.",
+ "news_summary": "Major events include a magnitude 7.7 earthquake in Indonesia killing at least 51, Russian aerial attacks on Ukraine, and Hurricane Lala threatening Hawaii. Other notable stories cover economic concerns, AI in education, and social issues.",
+ "papers_summary": "The papers highlight applications of AI in medical imaging, agricultural analysis, and construction error management, along with studies on genetics, psychology, and environmental monitoring.",
  "summaries": {
   "en": {
-   "brief": "Today's news is dominated by natural disasters and political tensions, including Hurricane Lala threatening Hawaii, a deadly earthquake in Indonesia, and U.S.-Iran conflict fallout. Meanwhile, research highlights AI in healthcare and cybersecurity, alongside a novel AI-assisted GPU porting of a weather simulation model.",
-   "news_summary": "Key events include Hurricane Lala approaching Hawaii, a powerful earthquake in Indonesia with dozens dead, and ongoing U.S.-Iran tensions affecting visas and diplomacy. Also notable are Australia's gun buyback after a beach attack, a scandal in Japan-Australia defense talks, and AI-driven scams exploiting vacation photos.",
-   "papers_summary": "Research topics range from AI trust in oncology and barriers to AI in eye clinics, to palmitoylation in neuroblastoma differentiation and a case report on Behçet's Disease. A significant technical paper discusses AI-assisted porting of a 250k line weather simulation code to GPU."
+   "brief": "Today's news is dominated by natural disasters and geopolitical tensions, including a deadly earthquake in Indonesia, Russian strikes on Ukraine, and a looming hurricane in Hawaii. Meanwhile, AI research explores multi-agent systems and education technology, while academic papers delve into diverse topics from brain tumor segmentation to cotton fiber analysis.",
+   "news_summary": "Major events include a magnitude 7.7 earthquake in Indonesia killing at least 51, Russian aerial attacks on Ukraine, and Hurricane Lala threatening Hawaii. Other notable stories cover economic concerns, AI in education, and social issues.",
+   "papers_summary": "The papers highlight applications of AI in medical imaging, agricultural analysis, and construction error management, along with studies on genetics, psychology, and environmental monitoring."
   },
   "zh": {
-   "brief": "今日重點：劍橋教授之死引發學術界震盪，印尼強震致47死，卡斯特羅之女回憶複雜父女情。科學研究聚焦AI於醫療與網絡安全應用。",
-   "news_summary": "劍橋教授阿爾戴之死引發學術爭議，印尼強震造成嚴重傷亡，卡斯特羅之女揭露隱藏的家庭祕密。",
-   "papers_summary": "研究探討AI在眼科診斷與腫瘤學中的障礙與信任問題，以及網絡安全與創新的平衡。"
+   "brief": "今日新闻聚焦印尼强震救援、Z世代女性月经知识代际传递，以及剑桥学者之死引发的学术争议；研究方面暂无优先论文，但英文论文涉及AI辅助气候模拟代码移植等。",
+   "news_summary": "印尼强震致数十人遇难，救援持续；Z世代女性更懂月经知识并分享给母亲一代；剑桥教授之死引发学术圈震动；卡斯特罗之女回忆其父亲。",
+   "papers_summary": "今日无优先中文论文，英文论文涉及AI辅助GPU移植天气模拟代码、多智能体系统模式及遗传相关性估计等。"
   }
  },
  "todays_image": {
-  "caption": "Like the Hawker Hurricane that once ruled the skies, Hawaii now faces its own namesake storm, Hurricane Lala, in a battle of wind and rain.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2022-06753",
-  "source_name": "National Air and Space Museum",
-  "source_url": "http://n2t.net/ark:/65665/nv95757ca0b-c36a-4fea-b2a2-5ab16997ffa3",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2022-06753",
-  "title": "Hawker Hurricane Mk. IIC"
+  "caption": "The earthquake tag letter was a fragile cry for help sent through chaos, while Gen Z women are shattering the silence around menstruation with a clear, informed message their mothers never had the words to send.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2018_2014_1a",
+  "source_name": "National Postal Museum",
+  "source_url": "https://postalmuseum.si.edu/object/npm_2018.2014.1",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2018_2014_1a",
+  "title": "San Francisco earthquake tag letter"
  }
 }

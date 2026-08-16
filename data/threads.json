@@ -1,0 +1,176 @@
+{
+ "meta": {
+  "count": 4,
+  "generated_at": "2026-08-16T08:44:55Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "6d8761d0e4e0a028",
+     "phrase": {
+      "en": "Neuroscientist warns of cognitive decline",
+      "zh": "神经科学家警告认知下降"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/education/2026/aug/16/neuroscientist-screen-use-schools-educational-technology-jared-cooney-horvath"
+    },
+    {
+     "item_id": "2df5f995c50ba3fb",
+     "phrase": {
+      "en": "Limits of LLM training on low-level text",
+      "zh": "低水平文本训练的限制"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://littlelearner-ll.github.io/"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Screen time and AI tools reshape how children learn and think.",
+    "zh": "屏幕时间与AI工具重塑儿童学习与思维的方式。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI in education",
+    "zh": "AI与教育"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You study human-computer interaction and embodied cognition: today's debate on screen use in schools and LLM training data limits directly questions how…",
+    "zh": "你研究人机交互与具身认知：今日关于校园屏幕使用和LLM训练数据限制的辩论，直接挑战技术如何塑造年轻心灵。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "62989d6c0698801f",
+     "phrase": {
+      "en": "Behavioral controllability varies",
+      "zh": "行为可控性各异"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.12582v1"
+    },
+    {
+     "full_text_file": "articles/news/ae78c8835ae52762.json",
+     "item_id": "ae78c8835ae52762",
+     "phrase": {
+      "en": "Satirical AI chatbot interaction",
+      "zh": "讽刺性AI聊天互动"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "AI nudges in journaling apps may not always land as intended.",
+    "zh": "日志应用中的AI提示未必总能如愿生效。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "AI-supported journaling",
+    "zh": "AI辅助日志"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about HCI and behavioral design: this study reveals the complexity of tailoring AI prompts to personal behavior, informing your design thinking.",
+    "zh": "你在乎人机交互与行为设计：这项研究揭示了个性化AI提示的复杂性，启发你的设计思考。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "81fa7dbf42b70d08",
+     "phrase": {
+      "en": "AI-assisted GPU porting of legacy code",
+      "zh": "AI辅助遗留代码GPU移植"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://arxiv.org/abs/2608.13122"
+    },
+    {
+     "item_id": "4afc5c6af524bbfd",
+     "phrase": {
+      "en": "How organizations use AI, evidence from ChatGPT",
+      "zh": "组织如何使用AI，来自ChatGPT的证据"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.12236v1"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Using AI to modernize old simulation code, a sign of AI's growing role in software engineering.",
+    "zh": "用AI现代化旧模拟代码，显示AI在软件工程中日益重要的作用。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "AI-assisted legacy code porting",
+    "zh": "AI辅助遗留代码移植"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow embodied AI and technical communication: this practical example of AI-assisted GPU porting shows how AI tools are entering complex engineering…",
+    "zh": "你关注具身AI与技术传播：这个AI辅助GPU移植的实际案例展示了AI工具如何进入复杂工程流程。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "6c8234a1db1eaf16",
+     "phrase": {
+      "en": "Hurricane Lala hits Hawaii",
+      "zh": "飓风拉拉袭击夏威夷"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "a456dd03d41d02e6",
+     "phrase": {
+      "en": "Indonesia earthquake displaces thousands",
+      "zh": "印尼地震使数千人流离失所"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c3v00w5ylw9o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "ed73342ed4ed7fa9",
+     "phrase": {
+      "en": "Midwest braces for flooding",
+      "zh": "中西部严防洪水"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/15/nx-s1-5932552/midwest-flooding-indiana-fema"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Hurricanes, floods, and earthquakes strike across regions, highlighting climate and geological vulnerabilities.",
+    "zh": "飓风、洪水和地震袭击各地，凸显气候与地质脆弱性。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "Natural disasters and climate impact",
+    "zh": "自然灾害与气候影响"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You read about data visualization and critical visualization: these events often generate data that needs clear visualization for public understanding and…",
+    "zh": "你阅读数据可视化和批判性可视化：这些事件常产生需要清晰可视化以便公众理解和政策制定的数据。"
+   }
+  }
+ ]
+}

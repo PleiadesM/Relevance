@@ -2,536 +2,429 @@
  "items": [
   {
    "authors": [
-    "Marcus Winkfield",
-    "Puzant Balozian"
+    "Raiswa Saha",
+    "Rajnigandha Singh",
+    "Christine D'lima",
+    "Arijit Das",
+    "Satish Chandra Pant",
+    "Varaprasad Raghavareddy"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Organizations continually navigate the need to balance innovation with cybersecurity (World Economic Forum, 2026). Although prior information systems (IS) research acknowledges tension between digital innovation and cybersecurity (Heierhoff & Hoffmann, 2022; Nelson & Madnick, 2017), limited understanding remains regarding how these demands are managed within highly regulated environments where early-stage research and rapid prototyping are critical to organizational success. In defense…",
+    "abstract_snippet": "",
     "citations": 0,
-    "doi": null
+    "doi": "10.1016/j.ijhm.2026.104866"
    },
-   "id": "012caf8afb58c070",
+   "id": "f3e10ff95258867e",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.3771,
+   "score": 0.372,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Organizations continually navigate the need to balance innovation with cybersecurity (World Economic Forum, 2026). Although prior information systems (IS) research acknowledges tension between digital innovation and cybersecurity (Heierhoff & Hoffmann, 2022; Nelson & Madnick, 2017), limited…",
-   "tags": [
-    "systems"
-   ],
-   "title": "How Can Highly Regulated Organizations Manage the Institutional Tension Between Rapid Innovation and Cybersecurity?",
-   "url": "https://aisel.aisnet.org/treos_amcis2026/37",
-   "venue": "Journal of the Association for Information Systems"
-  },
-  {
-   "authors": [
-    "Abdullah Al Helal"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Diagnostic AI models for breast imaging increasingly achieve strong predictive performance, yet clinical adoption remains limited when systems are perceived as opaque. This challenge, known as algorithmic aversion, is especially critical in oncology workflows where clinicians must justify decisions and manage the asymmetric consequences of false negatives and false positives (Dietvorst et al., 2015). I argue that the bottleneck in AI-driven healthcare is not only predictive accuracy, but…",
-    "citations": 0,
-    "doi": null
-   },
-   "id": "7e7284e9ac1b392e",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.5146,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Diagnostic AI models for breast imaging increasingly achieve strong predictive performance, yet clinical adoption remains limited when systems are perceived as opaque. This challenge, known as algorithmic aversion, is especially critical in oncology workflows where clinicians must justify decisions…",
-   "tags": [
-    "systems"
-   ],
-   "title": "Designing for Trust: An Explainable Decision Support Framework to Mitigate Algorithmic Aversion in Oncology",
-   "url": "https://aisel.aisnet.org/treos_amcis2026/191",
-   "venue": "Journal of the Association for Information Systems"
-  },
-  {
-   "authors": [
-    "Mohammad Abdallah Matari"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Protein S-Palmitoylation is a reversible post-translational modification that regulates protein trafficking, membrane localization, and neuronal function through the activity of the zinc finger Asp-His-His-Cys (zDHHC) family of palmitoyl acyltransferases. Although SH-SY5Y neuroblastoma cells are widely used as an in vitro model of neuronal differentiation, the expression profile of the complete zDHHC family during retinoic acid (RA)-induced differentiation has not been systematically…",
-    "citations": 0,
-    "doi": null
-   },
-   "id": "2da808ed78c140df",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.3771,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Protein S-Palmitoylation is a reversible post-translational modification that regulates protein trafficking, membrane localization, and neuronal function through the activity of the zinc finger Asp-His-His-Cys (zDHHC) family of palmitoyl acyltransferases. Although SH-SY5Y neuroblastoma cells are…",
+   "summary": "",
    "tags": [],
-   "title": "Characterization of zDHHC Palmitoyltransferase Expression During Retinoic Acid-Induced Differentiation of SH-SY5Y Neuroblastoma Cells",
-   "url": "https://scholarship.shu.edu/dissertations/4489",
-   "venue": "Seton Hall University eRepository (Seton Hall University)"
+   "title": "Foodstagramming decoded: A mixed-methods and topic modeling approach",
+   "url": "https://doi.org/10.1016/j.ijhm.2026.104866",
+   "venue": "International Journal of Hospitality Management"
   },
   {
    "authors": [
-    "Ayesha Lodhi"
+    "Sezen Aksu",
+    "Aslı Er Akan"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Palmitoylation is a reversible post-translational modification involving covalent attachment of palmitoyl groups to cysteine residues. Till date, 23 members of this family have been identified in mammals, located in Golgi apparatus and endoplasmic reticulum and nearly 40% of synaptic proteins are estimated undergo palmitoylation. These proteins include vesicle fusion proteins (SNARE), signaling molecules, ion channels and neurotransmitter receptors such as gamma-aminobutyric acidreceptors,…",
+    "abstract_snippet": "Managing construction-related errors has become increasingly important as construction projects continue to grow in scale and technical complexity. Digital technologies, particularly the combined use of Building Information Modeling (BIM) and Augmented Reality (AR), offer new opportunities to strengthen inspection procedures and facilitate more effective construction error management. Accordingly, this study evaluates the applicability of BIM–AR integration within the broader framework of smart…",
     "citations": 0,
-    "doi": null
+    "doi": "10.38027/smart.v3n1-11"
    },
-   "id": "5eb9c650a37f729a",
+   "id": "deeafe75ee042c03",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.3771,
+   "score": 0.372,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Palmitoylation is a reversible post-translational modification involving covalent attachment of palmitoyl groups to cysteine residues. Till date, 23 members of this family have been identified in mammals, located in Golgi apparatus and endoplasmic reticulum and nearly 40% of synaptic proteins are…",
+   "summary": "Managing construction-related errors has become increasingly important as construction projects continue to grow in scale and technical complexity. Digital technologies, particularly the combined use of Building Information Modeling (BIM) and Augmented Reality (AR), offer new opportunities to…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Exploring the Role of AR-Integrated BIM Systems in Construction Site Error Management",
+   "url": "https://doi.org/10.38027/smart.v3n1-11",
+   "venue": "Smart Design Policies"
+  },
+  {
+   "authors": [
+    "Taj-din Rahmani",
+    "LAMIAE BELHAK",
+    "Aboubakre Fertahi",
+    "Mohammed Ezoubair"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Vegetation cover is an important indicator of ecosystem condition and environmental sustainability, particularly in semi-arid regions affected by climatic variability and anthropogenic pressures.This study assesses vegetationcover differences in the Oued Rdat Basin, northwestern Morocco, between 1984 and 2022 using Landsat imagery, the modified soil adjusted vegetation index (MSAVI), and Geographic Information Systems.Two Landsat scenes acquired in July 1984 and July 2022 were processed and…",
+    "citations": 0,
+    "doi": "10.12912/27197050/226766"
+   },
+   "id": "24f6ead8c4b2390b",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-15T00:00:00Z",
+   "score": 0.5095,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Vegetation cover is an important indicator of ecosystem condition and environmental sustainability, particularly in semi-arid regions affected by climatic variability and anthropogenic pressures.This study assesses vegetationcover differences in the Oued Rdat Basin, northwestern Morocco, between…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Bi-temporal assessment of vegetation-cover change using Landsat modified soil adjusted vegetation index (1984–2022): The Oued Rdat Basin, Morocco",
+   "url": "https://doi.org/10.12912/27197050/226766",
+   "venue": "Ecological Engineering & Environmental Technology"
+  },
+  {
+   "authors": [
+    "Yiliang Zhang",
+    "Wei Jiang",
+    "Jiangnan Shen",
+    "Youshu Cheng",
+    "Yixuan Ye",
+    "Qiongshi Lu"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract With the increasing accessibility of individual-level data from genome wide association studies, it is now common for researchers to have individual-level data of some traits in one specific population. For some traits, we can only access public released summary-level data due to privacy and safety concerns. The current methods to estimate genetic correlation can only be applied when the input data type of the two traits of interest is either both individual-level or both…",
+    "citations": 3,
+    "doi": "10.1038/s41467-026-76693-z"
+   },
+   "id": "086e883239e0ed09",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-15T00:00:00Z",
+   "score": 0.5597,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract With the increasing accessibility of individual-level data from genome wide association studies, it is now common for researchers to have individual-level data of some traits in one specific population. For some traits, we can only access public released summary-level data due to privacy…",
    "tags": [],
-   "title": "Expression Profiling and Bioinformatic Characterization of Depalmitoylation-associated Genes During SH-SY5Y Neuronal Differentiation",
-   "url": "https://scholarship.shu.edu/dissertations/4490",
-   "venue": "Seton Hall University eRepository (Seton Hall University)"
+   "title": "Estimating genetic correlation jointly using individual-level and summary-level GWAS data",
+   "url": "https://doi.org/10.1038/s41467-026-76693-z",
+   "venue": "Nature Communications"
   },
   {
    "authors": [
-    "Kelly L. Roberts-Cooper"
+    "Scott D. Ryan",
+    "Hui Huang",
+    "Catherine A. LaBrenz",
+    "Yao Wang",
+    "Eusebius Small",
+    "Lacey Jenkins"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Appearing in the Harvard Business Review in 1958, the formal term \"Information Technology\" (IT) refers to the combination of hardware, software, services, and infrastructure that delivers data, voice, and video to domestic users. The concept of IT existed before 1958, but the information age in the late 20th century was the beginning of widespread use. The term Operational Technology (OT) emerged in 2006 in a Gartner Group research paper. OT evolved to refer to the software and hardware systems…",
+    "abstract_snippet": "",
     "citations": 0,
-    "doi": null
+    "doi": "10.21203/rs.3.rs-10481347/v1"
    },
-   "id": "188d230549ed2546",
+   "id": "562b794f948b4084",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.3771,
+   "score": 0.372,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Appearing in the Harvard Business Review in 1958, the formal term \"Information Technology\" (IT) refers to the combination of hardware, software, services, and infrastructure that delivers data, voice, and video to domestic users. The concept of IT existed before 1958, but the information age in the…",
-   "tags": [
-    "systems"
-   ],
-   "title": "Post-incident Forensic Analysis of Industrial Control Systems (ICS)",
-   "url": "https://aisel.aisnet.org/treos_amcis2026/128",
-   "venue": "Journal of the Association for Information Systems"
+   "summary": "",
+   "tags": [],
+   "title": "Professional perspectives on postsecondary education supports for young adults with foster care experience: A concept mapping study",
+   "url": "https://doi.org/10.21203/rs.3.rs-10481347/v1",
+   "venue": "Research Square"
   },
   {
    "authors": [
-    "Gobinda Chandra Behera",
-    "Sankha Deb"
+    "Concepción Muñoz-Sosa",
+    "Bárbara Luque",
+    "Esperanza García‐Sancho",
+    "Carmen Tabernero"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "This record contains the supplementary materials associated with the manuscript entitled “An Interactive Dynamic Flexible Integrated Process Planning and Scheduling Framework using Q-Learning-Assisted Multiobjective Optimization,” submitted to the Journal of Intelligent Manufacturing. The supplementary materials include: Supplementary Information (PDF): Additional information supporting the methodology and mathematical expression results presented in the manuscript. Supplementary Video S1…",
+    "abstract_snippet": "Background: A high prevalence of somatisation is associated with a strong impairment of quality of life. Recent research suggests common underlying mechanism of central sensitisation in functional syndromes and chronic pain, with emotion regulation (ER) processes closely linked to somatic symptoms. This study examines the relationship between negative affect (NA) and anger rumination (AR) and its influence on somatisation. Methods: Five hundred seven individuals participated (mean age = 34.60 ±…",
     "citations": 0,
-    "doi": "10.5281/zenodo.21929078"
+    "doi": "10.62641/aep.v54i4.2193"
    },
-   "id": "6fb1f883d8efc1a9",
+   "id": "6792f956c59cd659",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-14T00:00:00Z",
-   "score": 0.4545,
+   "published_at": "2026-08-15T00:00:00Z",
+   "score": 0.5095,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "This record contains the supplementary materials associated with the manuscript entitled “An Interactive Dynamic Flexible Integrated Process Planning and Scheduling Framework using Q-Learning-Assisted Multiobjective Optimization,” submitted to the Journal of Intelligent Manufacturing. The…",
-   "tags": [
-    "systems"
+   "summary": "Background: A high prevalence of somatisation is associated with a strong impairment of quality of life. Recent research suggests common underlying mechanism of central sensitisation in functional syndromes and chronic pain, with emotion regulation (ER) processes closely linked to somatic symptoms.…",
+   "tags": [],
+   "title": "The Mediating Role of Negative Affect in the Relationship Between Anger Rumination and Somatic Symptoms",
+   "url": "https://doi.org/10.62641/aep.v54i4.2193",
+   "venue": "Actas Españolas de Psiquiatría"
+  },
+  {
+   "authors": [
+    "Jingjing Xu",
+    "Zhiwei Yang",
+    "Xin Wu",
+    "Jian Xiong",
+    "Zhiqin Zhao"
    ],
-   "title": "Supplementary Information for \"An Interactive Dynamic Flexible Integrated Process Planning and Scheduling Framework using Q-Learning-Assisted Multiobjective Optimization\"",
-   "url": "https://doi.org/10.5281/zenodo.21929078",
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "<title>Abstract</title> In clinical practice, Magnetic Resonance Imaging (MRI) often lacks specific modalities, inevitably leading to a degradation in predictive performance. Different modes are currently treated as independent and non-interfering during training for modal feature extraction, yet there are rich semantic relations between pixels across different modalities. This paper proposes the Cross Modal Reliable Pixel Contrastive Learning (CMR-PCL) algorithm for incomplete modal brain…",
+    "citations": 0,
+    "doi": "10.1038/s41598-026-65210-3"
+   },
+   "id": "304e7648477c9469",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-15T00:00:00Z",
+   "score": 0.5095,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "<title>Abstract</title> In clinical practice, Magnetic Resonance Imaging (MRI) often lacks specific modalities, inevitably leading to a degradation in predictive performance. Different modes are currently treated as independent and non-interfering during training for modal feature extraction, yet…",
+   "tags": [],
+   "title": "Cross modal reliable pixel contrastive learning for incomplete modal brain tumor segmentation",
+   "url": "https://doi.org/10.1038/s41598-026-65210-3",
+   "venue": "Scientific Reports"
+  },
+  {
+   "authors": [
+    "Camila Sabino de Oliveira",
+    "Bárbara Silva‐Vignato",
+    "Simara Larissa Fanalli",
+    "Mariah Castro Durval",
+    "Felipe André Oliveira Freitas",
+    "Andrezza Felício"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract Understanding the genetic regulation underlying host–microbiota interactions is key to elucidating how microbial communities influence host metabolism, immunity, and physiology. In this context, the main objective of this study was to integrate genomic, transcriptomic, and microbial data to identify shared regulatory variants, highlight key microbial taxa, and prioritize biological pathways related to lipid metabolism, immune function, and host metabolic adaptation across multiple…",
+    "citations": 0,
+    "doi": "10.1007/s10142-026-02009-5"
+   },
+   "id": "68612cd28d615049",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-15T00:00:00Z",
+   "score": 0.5095,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract Understanding the genetic regulation underlying host–microbiota interactions is key to elucidating how microbial communities influence host metabolism, immunity, and physiology. In this context, the main objective of this study was to integrate genomic, transcriptomic, and microbial data…",
+   "tags": [],
+   "title": "Associations of host gene expression in the brain, liver, muscle with fecal and cecal microbiota composition in pigs",
+   "url": "https://doi.org/10.1007/s10142-026-02009-5",
+   "venue": "Functional & Integrative Genomics"
+  },
+  {
+   "authors": [
+    "Shalini P. Etukuri",
+    "Chaney L. Courtney",
+    "Conner Rhoden",
+    "Matthew Laufer",
+    "Riley Main",
+    "Ryan A. Smith"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.21203/rs.3.rs-10594498/v1"
+   },
+   "id": "8e8100bdc95d9c0a",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-15T00:00:00Z",
+   "score": 0.372,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [
+    "ml-vis"
+   ],
+   "title": "Automated Segmentation and Quantitative Analysis of Cotton Fiber Cross Sections Using a Deep Learning-Based Workflow",
+   "url": "https://doi.org/10.21203/rs.3.rs-10594498/v1",
+   "venue": "Research Square"
+  },
+  {
+   "authors": [
+    "Phulumphai Kawinthalakon"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "This reproducibility package contains the frozen evidence, derived data, software, audit records, and figure-generation materials supporting a pre-specified held-out evaluation of a ground-based ultralow-frequency (ULF) spatial-coherence classifier under simulated loss of upstream solar-wind information. The primary evaluation comprised 56 chronologically held-out geomagnetic events and 1,120 pre-specified 12-hour synthetic outage placements. Comparator definitions, the Rp threshold, weighting,…",
+    "citations": 0,
+    "doi": "10.5281/zenodo.21956922"
+   },
+   "id": "dec1c427b6bdc91a",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-15T00:00:00Z",
+   "score": 0.5095,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "This reproducibility package contains the frozen evidence, derived data, software, audit records, and figure-generation materials supporting a pre-specified held-out evaluation of a ground-based ultralow-frequency (ULF) spatial-coherence classifier under simulated loss of upstream solar-wind…",
+   "tags": [
+    "eval-study"
+   ],
+   "title": "GroundFallback: Frozen Held-Out Evaluation Evidence, Data, and Reproducibility Code for a Ground-Based ULF Spatial-Coherence Classifier",
+   "url": "https://doi.org/10.5281/zenodo.21956922",
    "venue": "Zenodo (CERN European Organization for Nuclear Research)"
   },
   {
    "authors": [
-    "Jing Wang",
-    "Ye Tao",
-    "Meng Hua-don",
-    "Zhu Xiong-fen",
-    "Xiu-min Xu",
-    "Da-Wei Mi"
+    "Maximilian Bechtel",
+    "Julien Steffen"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Objective To evaluate the cross-cohort reproducibility of Anaeroglobus as a candidate salivary microbiome signal for childhood caries and to place this signal within plaque community, functional, and host-response contexts. Methods Public pediatric salivary 16S rRNA cohorts were analyzed using a discovery–primary external validation–second validation framework. Genus-level features were assessed after CLR transformation and covariate adjustment, with plaque microbiome, plaque transcriptome, and…",
-    "citations": 0,
-    "doi": "10.3389/fcimb.2026.1850479"
+    "abstract_snippet": "Abstract We present OMOL-1k-MD, a new dataset for the benchmark and training of universal machine-learning interatomic potentials (uMLIPs). It contains three independent ab initio molecular dynamics (AIMD) trajectories of 10 ps each for 1000 arbitrarily chosen neutral closed shell molecular systems from the OMOL25 dataset, calculated at the PBE level of theory at 300 K. In contrast to most other MLIP training or benchmark data sets, which are focused on local minimum structures, OMOL-1k-MD…",
+    "citations": 1,
+    "doi": "10.1038/s41524-026-02286-5"
    },
-   "id": "9cd04790b461f2c0",
+   "id": "f5732912caa54c9c",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-14T00:00:00Z",
-   "score": 0.317,
+   "published_at": "2026-08-15T00:00:00Z",
+   "score": 0.5346,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Objective To evaluate the cross-cohort reproducibility of Anaeroglobus as a candidate salivary microbiome signal for childhood caries and to place this signal within plaque community, functional, and host-response contexts. Methods Public pediatric salivary 16S rRNA cohorts were analyzed using a…",
-   "tags": [],
-   "title": "Multicohort external validation of Anaeroglobus as a candidate salivary biomarker for childhood caries",
-   "url": "https://doi.org/10.3389/fcimb.2026.1850479",
-   "venue": "Frontiers in Cellular and Infection Microbiology"
-  },
-  {
-   "authors": [
-    "Hang Hu",
-    "Xing Wang",
-    "Linlin Guo",
-    "Ziling Zeng",
-    "Hongmei Tang",
-    "Yun Zhang"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Asthma is a common chronic airway inflammatory disease affecting millions of patients worldwide, and its treatment remains a clinical challenge.A variety of immune cells, cytokines and inflammatory mediators are associated with asthmatic pathogenesis.The α-Cyperone (CYP) is the active ingredient of Cyperus rotundus L., which exhibits significant anti-inflammatory effects in numerous diseases.However, whether and how CYP plays a role in allergic asthma has not yet been reported.It was found that…",
-    "citations": 0,
-    "doi": "10.3892/ijmm.2026.5957"
-   },
-   "id": "76a38af3e9975f25",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-14T00:00:00Z",
-   "score": 0.4545,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Asthma is a common chronic airway inflammatory disease affecting millions of patients worldwide, and its treatment remains a clinical challenge.A variety of immune cells, cytokines and inflammatory mediators are associated with asthmatic pathogenesis.The α-Cyperone (CYP) is the active ingredient of…",
-   "tags": [],
-   "title": "α‑Cyperone targets the PAK1‑JNK/NF‑κB axis to modulate dendritic cells maturation and Th2/Th9 differentiation in an asthma model",
-   "url": "https://doi.org/10.3892/ijmm.2026.5957",
-   "venue": "International Journal of Molecular Medicine"
-  },
-  {
-   "authors": [
-    "Tehmina Shehryar",
-    "Anum Abdul Salam",
-    "Santhoshi Varada",
-    "Fakhar Jabran",
-    "Muhammad Usman Akram"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Artificial intelligence (AI) has shown remarkable accuracy in the diagnosis of common ocular diseases such as diabetic retinopathy (DR), glaucoma, retinopathy of prematurity (ROP), and age-related macular degeneration (AMD), often matching or even outperforming expert clinicians. Despite these advancements, AI adoption in clinical settings remains limited due to key barriers. This systematic review evaluates 34 studies (2018–2025) highlighting AI's diagnostic performance (often &amp;#x003E;90%…",
-    "citations": 0,
-    "doi": "10.18240/ijo.2026.09.17"
-   },
-   "id": "ffd3dffd1781d3da",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-14T00:00:00Z",
-   "score": 0.4545,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Artificial intelligence (AI) has shown remarkable accuracy in the diagnosis of common ocular diseases such as diabetic retinopathy (DR), glaucoma, retinopathy of prematurity (ROP), and age-related macular degeneration (AMD), often matching or even outperforming expert clinicians. Despite these…",
+   "summary": "Abstract We present OMOL-1k-MD, a new dataset for the benchmark and training of universal machine-learning interatomic potentials (uMLIPs). It contains three independent ab initio molecular dynamics (AIMD) trajectories of 10 ps each for 1000 arbitrarily chosen neutral closed shell molecular systems…",
    "tags": [
     "systems"
    ],
-   "title": "Why aren’t we using AI in eye clinics? A systematic review of barriers and solutions in AI-based fundus image diagnostics for ocular diseases",
-   "url": "https://doi.org/10.18240/ijo.2026.09.17",
-   "venue": "International Journal of Ophthalmology"
+   "title": "Vibrational power spectra as a tool to benchmark universal machine-learning interatomic potentials for molecular systems: the OMOL-1k-MD data set",
+   "url": "https://doi.org/10.1038/s41524-026-02286-5",
+   "venue": "npj Computational Materials"
   },
   {
    "authors": [
-    "Bizzi Emanuele",
-    "Mauro Angela",
-    "Cristiano Germinario",
-    "Casarin Francesca",
-    "Berra Silvia",
-    "Ministrini Stefano"
+    "Xingcai Chen",
+    "Lei Yang",
+    "Jie Wang",
+    "Limin Zhai",
+    "Jie Bai",
+    "Jingwen Xiao"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Background Recurrent idiopathic recurrent pericarditis (RP) is increasingly recognized as an organ-specific autoinflammatory syndrome driven by the interleukin-1 (IL-1) axis. Behçet’s Disease (BD), a systemic vasculitis, exhibits significant pathogenetic overlap with RP through IL-1 mediated hyperinflammation, particularly in phenotypes dominated by serositis. The clinical evolution of prolonged, seemingly idiopathic RP into overt, systemic BD upon the tapering of targeted therapy remains a…",
+    "abstract_snippet": "",
     "citations": 0,
-    "doi": "10.3389/fimmu.2026.1900526"
+    "doi": "10.21203/rs.3.rs-10556327/v1"
    },
-   "id": "7f0a21d91184f403",
+   "id": "5fd03f517706dd0f",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-14T00:00:00Z",
-   "score": 0.317,
+   "published_at": "2026-08-15T00:00:00Z",
+   "score": 0.372,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Background Recurrent idiopathic recurrent pericarditis (RP) is increasingly recognized as an organ-specific autoinflammatory syndrome driven by the interleukin-1 (IL-1) axis. Behçet’s Disease (BD), a systemic vasculitis, exhibits significant pathogenetic overlap with RP through IL-1 mediated…",
-   "tags": [
-    "systems"
-   ],
-   "title": "Case Report: From idiopathic recurrent pericarditis to systemic Behçet’s Disease: unmasking a unified IL-1-driven autoinflammatory phenotype",
-   "url": "https://doi.org/10.3389/fimmu.2026.1900526",
-   "venue": "Frontiers in Immunology"
-  },
-  {
-   "authors": [
-    "Tanusha Singh",
-    "Kundai Mavis Makozho"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Background Dental professionals are routinely exposed to occupational biological hazards, yet evidence from low-resource settings remains limited. This study assessed infection prevention and control (IPC) knowledge and practices, quantified occupational biological exposures, and identified factors associated with sharps injuries and occupational infections. Methods A cross-sectional analytical study was conducted among 220 dental professionals in Bulawayo, Zimbabwe. Data were collected using a…",
-    "citations": 0,
-    "doi": "10.3389/fpubh.2026.1933281"
-   },
-   "id": "e2327f153badd059",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-14T00:00:00Z",
-   "score": 0.4545,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Background Dental professionals are routinely exposed to occupational biological hazards, yet evidence from low-resource settings remains limited. This study assessed infection prevention and control (IPC) knowledge and practices, quantified occupational biological exposures, and identified factors…",
+   "summary": "",
    "tags": [],
-   "title": "When knowledge is not enough: infection prevention and control practices and occupational biological exposures among dental professionals in Zimbabwe",
-   "url": "https://doi.org/10.3389/fpubh.2026.1933281",
-   "venue": "Frontiers in Public Health"
+   "title": "Integrated Plasma miR-15a-5p, Inflammatory Markers, and PBMC Cell-Cycle Genes for Distinguishing Active from Latent Tuberculosis: A Cross-Sectional Diagnostic Study",
+   "url": "https://doi.org/10.21203/rs.3.rs-10556327/v1",
+   "venue": "Research Square"
   },
   {
    "authors": [
-    "Wenwen Zhao",
-    "Mingjie Meng",
-    "Yiheng Geng",
-    "Ruyue Qi",
-    "Jinjia Zhang",
-    "Min Zhang"
+    "Siddharth Annaldasula",
+    "Manuel Vera",
+    "Adrián Casanova",
+    "Thomas Borsch",
+    "Katja Reichel"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Background Type 2 diabetes mellitus (T2DM) represents a major public health challenge among middle-aged and older populations worldwide. The underlying mechanisms linking sedentary behavior to T2DM remain incompletely understood. Sarcopenic obesity (SO), a phenotype defined by concurrent low muscle mass and excess adiposity, may represent a key intermediate correlate linking sedentary behavior with T2DM in cross-sectional observations. This study aimed to explore the indirect cross-sectional…",
+    "abstract_snippet": "<title>Abstract</title> <italic>Arnica montana</italic> L. is a medicinal plant endemic to Europe and declining in large parts of its range. Low sequence diversity in genetic marker regions caused biogeographic patterns and the phylogenetic relationship between <italic>A. montana</italic> and its Holarctic congeners to remain obscure. We therefore evaluated entire chloroplast genomes of <italic>A. montana</italic> and related species as complex markers. To reliably detect even small genetic…",
     "citations": 0,
-    "doi": "10.3389/fendo.2026.1813608"
+    "doi": "10.1038/s41598-026-65517-1"
    },
-   "id": "ad071cc3cb6bc076",
+   "id": "82ec5ad5535c5536",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-14T00:00:00Z",
-   "score": 0.4545,
+   "published_at": "2026-08-15T00:00:00Z",
+   "score": 0.372,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Background Type 2 diabetes mellitus (T2DM) represents a major public health challenge among middle-aged and older populations worldwide. The underlying mechanisms linking sedentary behavior to T2DM remain incompletely understood. Sarcopenic obesity (SO), a phenotype defined by concurrent low muscle…",
+   "summary": "<title>Abstract</title> <italic>Arnica montana</italic> L. is a medicinal plant endemic to Europe and declining in large parts of its range. Low sequence diversity in genetic marker regions caused biogeographic patterns and the phylogenetic relationship between <italic>A. montana</italic> and its…",
    "tags": [],
-   "title": "Sedentary behavior and type 2 diabetes in community-dwelling middle-aged and older adults: indirect cross-sectional correlation of sarcopenic obesity",
-   "url": "https://doi.org/10.3389/fendo.2026.1813608",
-   "venue": "Frontiers in Endocrinology"
+   "title": "Towards whole plastome phylogeography: resolving small genetic distances among European Arnica montana L. with the PlastidPipeline",
+   "url": "https://doi.org/10.1038/s41598-026-65517-1",
+   "venue": "Scientific Reports"
   },
   {
    "authors": [
-    "Sabine Wilson",
-    "Abraham Silva",
-    "Martha Serrano-Serrano",
-    "Vaios Karanikas",
-    "Inja Waldhauer",
-    "Anne Schoenle"
+    "Qinghua Li",
+    "Tianfu Gao",
+    "Xinhao Rao",
+    "Zhelei Ren",
+    "Haodi Duan",
+    "Xiaomin Xie"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Abstract Clinical translation of T cell bispecific (TCB) therapies in solid tumors is hindered by the immunosuppressive tumor microenvironment and intratumoral heterogeneity, features poorly captured by standard preclinical models. We applied an integrated translational framework, combining humanized mouse models, a patient-derived ex vivo organ culture (EVOC) platform, and Phase 1 clinical trial data (ClinTrials.gov identifier NCT03539484), to define the biologic determinants of functional…",
+    "abstract_snippet": "Abstract Translating advanced luminescent materials into field-deployable screening tools remains a core challenge, demanding synergy between advanced optical materials and device engineering. Here, we demonstrate a portable dual-mode near-infrared semi-quantitative screening device. the luminescence performance of the core emitting materials, specifically lead-free Nd³⁺/Yb³⁺ co-doped Cs₂NaYCl₆ double perovskite phosphors, was first optimized through a machine-learning (ML) guided approach.…",
     "citations": 0,
-    "doi": "10.1038/s41698-026-01643-3"
+    "doi": "10.1038/s43246-026-01335-2"
    },
-   "id": "55c05efe6ea04a6b",
+   "id": "7f28e3ba02d76546",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-14T00:00:00Z",
-   "score": 0.317,
+   "published_at": "2026-08-15T00:00:00Z",
+   "score": 0.5095,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Abstract Clinical translation of T cell bispecific (TCB) therapies in solid tumors is hindered by the immunosuppressive tumor microenvironment and intratumoral heterogeneity, features poorly captured by standard preclinical models. We applied an integrated translational framework, combining…",
-   "tags": [
-    "systems"
-   ],
-   "title": "Early functional reactivity to a CEACAM5 x CD3 T cell bispecific antibody in solid tumors associates with baseline immune contexture rather than target antigen density alone",
-   "url": "https://doi.org/10.1038/s41698-026-01643-3",
-   "venue": "npj Precision Oncology"
-  },
-  {
-   "authors": [
-    "Sümeyye Özburak",
-    "Hakan Kitapçı"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "This study examines the associations among individual cultural values, innovation effectiveness, and transformational leadership among international students in higher education institutions in the Marmara Region of Türkiye. Adopting a quantitative, cross-sectional design, the study addresses the culture–leadership–innovation nexus at the individual level. While prior research has predominantly focused on innovation at the organizational level, evidence regarding individual cultural values and…",
-    "citations": 0,
-    "doi": "10.3389/fpsyg.2026.1786404"
-   },
-   "id": "afb6435abbf7f5f4",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-14T00:00:00Z",
-   "score": 0.317,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "This study examines the associations among individual cultural values, innovation effectiveness, and transformational leadership among international students in higher education institutions in the Marmara Region of Türkiye. Adopting a quantitative, cross-sectional design, the study addresses the…",
+   "summary": "Abstract Translating advanced luminescent materials into field-deployable screening tools remains a core challenge, demanding synergy between advanced optical materials and device engineering. Here, we demonstrate a portable dual-mode near-infrared semi-quantitative screening device. the…",
    "tags": [],
-   "title": "Associations among individual cultural values, innovation effectiveness, and transformational leadership—evidence from international university students in Türkiye",
-   "url": "https://doi.org/10.3389/fpsyg.2026.1786404",
-   "venue": "Frontiers in Psychology"
+   "title": "An Integrated dual-mode NIR Screening Device Forged by Spectrally Engineered Perovskite pc-LEDs",
+   "url": "https://doi.org/10.1038/s43246-026-01335-2",
+   "venue": "Communications Materials"
   },
   {
    "authors": [
-    "Mirthe Muilwijk",
-    "Yvonne T. van der Schouw",
-    "Jessica C. Kiefte-de Jong",
-    "Rimke C. Vos",
-    "Marco Spruit",
-    "Jona Stunt"
+    "Guy M. Kirwan",
+    "Till Töpfer",
+    "Jiří Mlíkovský",
+    "Sylke Frahnert",
+    "HEIN VAN GROUW",
+    "Mark Adams"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Abstract Introduction Obesity and related health conditions are unevenly distributed across neighborhoods, often co-occuring with multiple health challenges and socioeconomic disadvantages. Using an ecosyndemic framework, which integrates ecological and social dimensions that contribute to the clustering of health problems, this study examines how adverse obesity-related health outcomes spatially cluster in relation to obesogenic environments and socioeconomic position (SEP) across Dutch…",
+    "abstract_snippet": "Type specimens represent the crucial physical reference for any scientific bird name, but type material is scattered widely across the globe, and there is still no one comprehensive source documenting the presence, status and condition of all avian type specimens, as well as associated information on nomenclature and the validity of individual names. Indeed, many collections, including very large and globally important repositories, lack a published type catalogue. Where such works are…",
     "citations": 0,
-    "doi": "10.1371/journal.pone.0354964"
+    "doi": "10.1111/ibi.70109"
    },
-   "id": "a8e6af50ab310512",
+   "id": "e0fb54945ea23b61",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-14T00:00:00Z",
-   "score": 0.317,
+   "published_at": "2026-08-15T00:00:00Z",
+   "score": 0.372,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Abstract Introduction Obesity and related health conditions are unevenly distributed across neighborhoods, often co-occuring with multiple health challenges and socioeconomic disadvantages. Using an ecosyndemic framework, which integrates ecological and social dimensions that contribute to the…",
-   "tags": [
-    "systems"
-   ],
-   "title": "An ecosyndemic framework for understanding obesity: Spatial clustering of health, environmental and socioeconomic disadvantage in the Netherlands",
-   "url": "https://doi.org/10.1371/journal.pone.0354964",
-   "venue": "PLoS ONE"
-  },
-  {
-   "authors": [
-    "Mareike Beiküfner",
-    "Insa Kühling",
-    "Maria Elena Vergara-Hernandez",
-    "Gabriele Broll",
-    "Dieter Trautz"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Organic farming is frequently discussed as a strategy for mitigating nitrate leaching, especially in water protection areas. The effectiveness of nitrogen (N) management practices within organic crop rotations requires evaluation to balance yield performance with nitrate leaching. A field trial was conducted from 2020 to 2024 in North-West Germany, to assess the impact of grass-clover management on yield performance and nitrate leaching in an organic rotation of grass-clover-(cover crop…",
-    "citations": 0,
-    "doi": "10.1016/j.eja.2026.128301"
-   },
-   "id": "e2b26a4880d2f8a1",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-14T00:00:00Z",
-   "score": 0.317,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Organic farming is frequently discussed as a strategy for mitigating nitrate leaching, especially in water protection areas. The effectiveness of nitrogen (N) management practices within organic crop rotations requires evaluation to balance yield performance with nitrate leaching. A field trial was…",
-   "tags": [
-    "eval-study"
-   ],
-   "title": "Key management practices controlling yield performance and nitrate leaching in a grass-clover based organic crop rotation",
-   "url": "https://doi.org/10.1016/j.eja.2026.128301",
-   "venue": "European Journal of Agronomy"
-  },
-  {
-   "authors": [
-    "Gamze Özbay",
-    "Veronika Laine",
-    "Chris Heilakka",
-    "Mariia Matlova",
-    "Ella Sippola",
-    "Alexandra Streicher"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Cold environments impose strong energetic constraints on mammals, driving adaptations including thermogenesis, insulation and torpor. Bats are the only mammals capable of powered flight and inhabit different climates, yet the evolutionary basis of their cold tolerance remains poorly understood. In this study, we screened 571 records and retained 137 studies on mammalian cold adaptation. While physiological research focused mainly on non-shivering thermogenesis and metabolic regulation, studies…",
-    "citations": 0,
-    "doi": "10.32942/x2m97z"
-   },
-   "id": "0fa8c63d9728826c",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-14T00:00:00Z",
-   "score": 0.4545,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Cold environments impose strong energetic constraints on mammals, driving adaptations including thermogenesis, insulation and torpor. Bats are the only mammals capable of powered flight and inhabit different climates, yet the evolutionary basis of their cold tolerance remains poorly understood. In…",
+   "summary": "Type specimens represent the crucial physical reference for any scientific bird name, but type material is scattered widely across the globe, and there is still no one comprehensive source documenting the presence, status and condition of all avian type specimens, as well as associated information…",
    "tags": [],
-   "title": "Cold adaptation in mammals: mechanisms and genomic insights from bats",
-   "url": "https://doi.org/10.32942/x2m97z",
-   "venue": null
-  },
-  {
-   "authors": [
-    "Jing Wen",
-    "Zhen Li",
-    "Wenchao Li",
-    "Danxuan Liu",
-    "Yongxiang Yu",
-    "Zhenzhen Wang"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Background With the rising incidence of syphilis in recent decades, the number of patients with syphilis serofast has also increased, posing challenges to clinical management of patients and increasing the social burden. Objective In this study, we aimed to analyze influencing factors associated with syphilis serofast, develop and validate a predictive model for clinical prevention of syphilis serofast. Methods A total of 373 syphilis patients were selected as the study subjects. Using a…",
-    "citations": 0,
-    "doi": "10.3389/fimmu.2026.1897585"
-   },
-   "id": "56e53fd27f3811c4",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-14T00:00:00Z",
-   "score": 0.4545,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Background With the rising incidence of syphilis in recent decades, the number of patients with syphilis serofast has also increased, posing challenges to clinical management of patients and increasing the social burden. Objective In this study, we aimed to analyze influencing factors associated…",
-   "tags": [
-    "eval-study"
-   ],
-   "title": "Analysis of influencing factors for syphilis serofast and development and evaluation of a predictive model",
-   "url": "https://doi.org/10.3389/fimmu.2026.1897585",
-   "venue": "Frontiers in Immunology"
-  },
-  {
-   "authors": [
-    "Feihu Zhang",
-    "Zhengpeng Li",
-    "Xin Wen",
-    "Chensheng Cheng",
-    "Biao Deng",
-    "Taiyuan Zhang"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "In underwater target detection tasks, side-scan sonar (SSS) is currently the most widely used imaging tool. However, due to the inherent imaging mechanism of sonar and the complexity of the underwater environment, SSS images often suffer from blurred target boundaries and strong noise interference, which significantly increases the difficulty of high-precision underwater target recognition. We propose a Lightweight Edge–Frequency Driven Real-Time Detection Transformer (LEF-RT-DETR) framework,…",
-    "citations": 0,
-    "doi": "10.3389/fmars.2026.1797307"
-   },
-   "id": "97d08a99df5a973d",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-14T00:00:00Z",
-   "score": 0.317,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "In underwater target detection tasks, side-scan sonar (SSS) is currently the most widely used imaging tool. However, due to the inherent imaging mechanism of sonar and the complexity of the underwater environment, SSS images often suffer from blurred target boundaries and strong noise interference,…",
-   "tags": [],
-   "title": "Lightweight Edge–Frequency Driven Real-Time Detection Transformer for side-scan sonar target detection",
-   "url": "https://doi.org/10.3389/fmars.2026.1797307",
-   "venue": "Frontiers in Marine Science"
+   "title": "Towards a unified publicly accessible database of avian type specimens",
+   "url": "https://doi.org/10.1111/ibi.70109",
+   "venue": "Ibis"
   },
   {
    "authors": [
@@ -547,7 +440,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T14:26:23Z",
-   "score": 0.4088,
+   "score": 0.4044,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -572,7 +465,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T14:20:51Z",
-   "score": 0.5611,
+   "score": 0.5566,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -605,7 +498,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T03:53:53Z",
-   "score": 0.5767,
+   "score": 0.5728,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -630,7 +523,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-13T01:20:42Z",
-   "score": 0.5711,
+   "score": 0.5674,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -657,7 +550,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T20:52:59Z",
-   "score": 0.6619,
+   "score": 0.6583,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -685,7 +578,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T19:36:49Z",
-   "score": 0.3269,
+   "score": 0.3233,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -714,7 +607,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T16:32:52Z",
-   "score": 0.5134,
+   "score": 0.51,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -745,7 +638,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T14:55:46Z",
-   "score": 0.6503,
+   "score": 0.647,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -772,7 +665,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T08:37:44Z",
-   "score": 0.4989,
+   "score": 0.4958,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -800,7 +693,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T04:32:08Z",
-   "score": 0.5319,
+   "score": 0.529,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -830,7 +723,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-12T02:40:09Z",
-   "score": 0.3364,
+   "score": 0.3335,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -856,7 +749,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-11T19:15:54Z",
-   "score": 0.6574,
+   "score": 0.6547,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -870,8 +763,8 @@
   }
  ],
  "meta": {
-  "count": 31,
-  "generated_at": "2026-08-16T06:56:54Z",
+  "count": 27,
+  "generated_at": "2026-08-16T08:44:55Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
