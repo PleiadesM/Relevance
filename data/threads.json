@@ -1,28 +1,67 @@
 {
  "meta": {
-  "count": 5,
-  "generated_at": "2026-08-16T12:58:45Z",
+  "count": 4,
+  "generated_at": "2026-08-16T14:36:05Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "item_id": "f0a3a23476f8dd31",
+     "phrase": {
+      "en": "U.S. military AI feuds with China",
+      "zh": "美军事AI内斗对华"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/16/us/politics/military-ai-china-anthropic.html"
+    },
+    {
      "full_text_file": "articles/news/31c93564dfe36b04.json",
      "item_id": "31c93564dfe36b04",
      "phrase": {
-      "en": "Rogue AI not fiction anymore",
-      "zh": "失控AI不再是科幻"
+      "en": "Rogue AI now a reality",
+      "zh": "失控AI已成现实"
      },
      "section": "news",
      "source": "The Verge · AI",
      "url": "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "America's military AI ambitions clash with internal feuds as China advances.",
+    "zh": "美国军事AI雄心与内斗相冲，中国正推进。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI security race",
+    "zh": "AI安全竞赛"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow AI policy: today's report reveals how infighting may undermine U.S. dominance.",
+    "zh": "你关注AI政策，今日报道揭示内斗可能削弱美国优势。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "62989d6c0698801f",
+     "phrase": {
+      "en": "Nudges may not always land",
+      "zh": "提示并非总能奏效"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.12582v1"
     },
     {
      "item_id": "2df5f995c50ba3fb",
      "phrase": {
-      "en": "LLM limited to fifth grade",
-      "zh": "LLM止步五年级"
+      "en": "LLM limited to grade five",
+      "zh": "LLM限于五年级水平"
      },
      "section": "news",
      "source": "Hacker News (AI filter)",
@@ -31,36 +70,26 @@
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Fears grow that rogue AI is no longer fiction, as studies probe its limits.",
-    "zh": "担忧加剧，失控AI不再是科幻，研究在探其边界。"
+    "en": "Studies explore how AI nudges and journals shape behavior and writing.",
+    "zh": "研究探索AI提示和日记如何影响行为与写作。"
    },
-   "id": "t1",
+   "id": "t2",
    "keyword": {
-    "en": "AI safety",
-    "zh": "AI安全"
+    "en": "AI journaling research",
+    "zh": "AI日记研究"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow AI ethics: today's articles question AI control and its data diet.",
-    "zh": "你关注AI伦理，今日文章质疑AI控制及其数据基础。"
+    "en": "You're into HCI and LLMs: fresh papers dissect AI's role in personal writing.",
+    "zh": "你关注人机交互和大模型，新论文剖析AI在个人写作中的作用。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "d08f1ce483fece20",
-     "phrase": {
-      "en": "Russia launches aerial attacks",
-      "zh": "俄发动空袭"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss"
-    },
-    {
      "item_id": "3a82de6ab035d915",
      "phrase": {
-      "en": "massive drone attack kills six",
+      "en": "Massive drone attack kills six",
       "zh": "大规模无人机袭击致六死"
      },
      "section": "news",
@@ -70,8 +99,8 @@
     {
      "item_id": "cc575fbf6ea40512",
      "phrase": {
-      "en": "largest aerial attacks of war",
-      "zh": "战争最大空袭"
+      "en": "Largest aerial attack yet",
+      "zh": "迄今最大空袭"
      },
      "section": "news",
      "source": "NPR News",
@@ -80,182 +109,57 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Drone strikes escalate on both sides, with civilian costs rising.",
-    "zh": "双方无人机攻击升级，平民代价上升。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "Ukraine conflict",
-    "zh": "俄乌冲突"
-   },
-   "relates_to": [
-    "t1"
-   ],
-   "timeline": [
-    {
-     "date": "2026-08-16",
-     "item_id": "3a82de6ab035d915",
-     "label": {
-      "en": "massive drone attack",
-      "zh": "大规模无人机袭击"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/16/ukrainian-drone-attack-on-russia-wildberries-warehouse-fire"
-    },
-    {
-     "date": "2026-08-16",
-     "item_id": "d08f1ce483fece20",
-     "label": {
-      "en": "five killed in strikes",
-      "zh": "空袭致五人死亡"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "date": "2026-08-16",
-     "item_id": "cc575fbf6ea40512",
-     "label": {
-      "en": "largest attack wave",
-      "zh": "最大规模攻击"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/16/nx-s1-5933006/ukraine-aerial-attack-6-dead-russia"
-    }
-   ],
-   "why_now": {
-    "en": "You track global tech impact: today's news shows war's technological toll.",
-    "zh": "你关注全球科技影响：今日新闻显示战争科技代价。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "5144281a4b093a8b",
-     "phrase": {
-      "en": "airport arrests new front",
-      "zh": "机场逮捕新战线"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/16/us/trump-immigration-crackdown.html"
-    },
-    {
-     "item_id": "62e0df36000d8387",
-     "phrase": {
-      "en": "trans teen's mom asks",
-      "zh": "跨性别者母亲发问"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/16/nx-s1-5932491/transgender-health-care-medicaid-trump-oz"
-    },
-    {
-     "item_id": "2850560c416e973e",
-     "phrase": {
-      "en": "right to rejoin family",
-      "zh": "重聚家庭的权利"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/uk-news/2026/aug/16/man-under-threat-of-deportation-to-jamaica-wins-right-to-rejoin-his-british-family"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Airport arrests and deportation fights reshape lives.",
-    "zh": "机场逮捕与遣返抗争改变人生。"
+    "en": "Kyiv launches massive drone strikes on Russia, escalating the war.",
+    "zh": "基辅对俄发动大规模无人机袭击，战争升级。"
    },
    "id": "t3",
    "keyword": {
-    "en": "immigration enforcement",
-    "zh": "移民执法"
+    "en": "Ukraine drone attacks",
+    "zh": "乌克兰无人机攻击"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about human rights and policy: airport arrests are a new front.",
-    "zh": "你关注人权与政策：机场逮捕是新战线。"
+    "en": "You follow global tech in conflict: drones redefine modern warfare today.",
+    "zh": "你关注冲突中的技术，无人机今日重塑现代战争。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "50d0165490d3d837",
+     "item_id": "c6d8bd8969d0a464",
      "phrase": {
-      "en": "false nuclear claim ricocheted",
-      "zh": "虚假核声明反弹"
+      "en": "Paintings stolen silently",
+      "zh": "画作无声被盗"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/16/business/iran-nuclear-false-claims.html"
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cqjxx2gzd9qo?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "d2bc265de4b13117",
+     "item_id": "42784f477d213159",
      "phrase": {
-      "en": "scam uses AI to exploit",
-      "zh": "诈骗利用AI"
+      "en": "Da Messina works taken",
+      "zh": "梅西纳作品被掠"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/money/2026/aug/16/scam-ai-holiday-photos-instagram-facebook"
+     "url": "https://www.theguardian.com/artanddesign/2026/aug/16/antonello-da-messina-renaissance-paintings-stolen-sicilian-museum-holiday"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "False claims spread via AI and social media, testing verification.",
-    "zh": "虚假声明借AI和社交网络传播，考验核实能力。"
+    "en": "Priceless paintings stolen from a museum, pointing to a professional job.",
+    "zh": "无价画作失窃，疑为专业作案。"
    },
    "id": "t4",
    "keyword": {
-    "en": "AI in journalism",
-    "zh": "AI与新闻"
+    "en": "Renaissance art heist",
+    "zh": "文艺复兴艺术盗窃"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You study human-AI interaction: misinformation is a key challenge.",
-    "zh": "你研究人机交互：虚假信息是核心挑战。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "8484f4f70d267db4",
-     "phrase": {
-      "en": "kidney disappointment euphemism",
-      "zh": "肾脏失望委婉语"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://scholar.google.com/scholar?q=%22kidney+disappointment%22"
-    },
-    {
-     "item_id": "acbfbfd4b1348041",
-     "phrase": {
-      "en": "clinical RAG matches frontier",
-      "zh": "临床RAG匹敌前沿"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.12138v1"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Clinical AI systems compete with general models, but evidence is mixed.",
-    "zh": "临床AI系统与通用模型竞争，但证据不一。"
-   },
-   "id": "t5",
-   "keyword": {
-    "en": "AI in healthcare",
-    "zh": "AI医疗"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow AI applications: medical AI's performance is pivotal.",
-    "zh": "你关注AI应用：医疗AI的性能至关重要。"
+    "en": "You appreciate cultural heritage: a bold heist disrupts the art world today.",
+    "zh": "你欣赏文化遗产，今日大胆盗窃震动艺术界。"
    }
   }
  ]

@@ -9,40 +9,40 @@
   },
   "summaries": {
    "en": {
-    "summary": "A Russian gardener cultivates a record-breaking 360-kilogram pumpkin, overshadowing typical small-scale harvests.",
-    "why_irrelevant": "It focuses on extreme agricultural feats, far from your usual interests."
+    "summary": "A Russian gardener successfully grew a pumpkin weighing 360 kilograms, setting a new personal record.",
+    "why_irrelevant": "It's an obscure regional agricultural achievement, far from typical tech or lifestyle feeds."
    },
    "zh": {
-    "summary": "一位俄罗斯园丁种出重达360公斤的巨型南瓜，远超普通收成。",
-    "why_irrelevant": "这聚焦于极端农业成就，与你的日常关注相距甚远。"
+    "summary": "俄罗斯一位园丁成功种出了重达360公斤的南瓜，创下了个人新纪录。",
+    "why_irrelevant": "这是一项偏远地区的农业成就，远离常见的科技或生活资讯。"
    }
   },
   "topic": "competitive pumpkin growing"
  },
- "brief": "Today is marked by natural disasters, political turmoil, and cultural shifts, from hurricanes and earthquakes to AI debates and art thefts.",
+ "brief": "Today's news spans from rare Renaissance art theft in Sicily to U.S. military AI concerns, while papers explore topics from social media to biomedical imaging.",
  "meta": {
-  "generated_at": "2026-08-16T12:58:45Z"
+  "generated_at": "2026-08-16T14:36:05Z"
  },
- "news_summary": "Severe weather and earthquakes cause devastation, while political and social issues dominate headlines, including immigration enforcement and cultural controversies.",
- "papers_summary": "Research spans diverse fields from AI in construction to genetic correlations, reflecting broad scientific inquiry.",
+ "news_summary": "Key news includes the theft of Renaissance paintings from a Sicilian museum, Hurricane Lala affecting Hawaii, and the U.S. military's AI ambitions challenged by China.",
+ "papers_summary": "Papers cover diverse topics such as social media analysis (Foodstagramming), construction error management with AR-BIM, and genetic correlation estimation, alongside medical imaging and agricultural studies.",
  "summaries": {
   "en": {
-   "brief": "Today is marked by natural disasters, political turmoil, and cultural shifts, from hurricanes and earthquakes to AI debates and art thefts.",
-   "news_summary": "Severe weather and earthquakes cause devastation, while political and social issues dominate headlines, including immigration enforcement and cultural controversies.",
-   "papers_summary": "Research spans diverse fields from AI in construction to genetic correlations, reflecting broad scientific inquiry."
+   "brief": "Today's news spans from rare Renaissance art theft in Sicily to U.S. military AI concerns, while papers explore topics from social media to biomedical imaging.",
+   "news_summary": "Key news includes the theft of Renaissance paintings from a Sicilian museum, Hurricane Lala affecting Hawaii, and the U.S. military's AI ambitions challenged by China.",
+   "papers_summary": "Papers cover diverse topics such as social media analysis (Foodstagramming), construction error management with AR-BIM, and genetic correlation estimation, alongside medical imaging and agricultural studies."
   },
   "zh": {
-   "brief": "今日焦点集中在靖國神社參拜爭議、印尼地震救援，以及劍橋教授之死引發的學術界震盪。",
-   "news_summary": "靖國神社參拜再掀東亞外交波瀾，印尼強震造成重大傷亡，劍橋教授之死引發學術界討論。",
-   "papers_summary": "今日無優先級論文，但英文論文涉及信息可視化、基因關聯等多領域研究。"
+   "brief": "今日焦点包括靖國神社參拜爭議、劍橋教授之死引發學術界震盪，以及印尼地震災情；科研方面則有AI與醫療影像等多元研究。",
+   "news_summary": "靖國神社參拜再掀東亞外交波瀾，劍橋教授阿爾戴之死引發學術界討論，印尼強震造成逾40死。",
+   "papers_summary": "今日研究涵蓋社交媒體影像分析、AR建築管理、遺傳相關性估計等多元主題，其中AI於醫療影像分割與棉花纖維分析之應用尤為突出。"
   }
  },
  "todays_image": {
-  "caption": "The rain-soaked fronds of Nephrolepis biserrata mirror Hawaii's own bending under Hurricane Lala's relentless floods and winds.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b969ec535e9148aa9e818a2225298d54",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/32c312997-e741-46d2-a643-bceafab358ec",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b969ec535e9148aa9e818a2225298d54/90",
-  "title": "Nephrolepis biserrata (Sw.) Schott"
+  "caption": "Like an ewer pours water to refresh and cleanse, Cambridge’s support aims to pour understanding and care into the mental health struggles highlighted by Jason Arday.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1929.8.480.1_1",
+  "source_name": "Smithsonian American Art Museum",
+  "source_url": "https://americanart.si.edu/collections/search/artwork/?id=29841",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1929.8.480.1_1",
+  "title": "Ewer"
  }
 }
