@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"sand sculpture competition\" OR \"sand sculpting festival\"",
+  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
   "source": {
-   "name": "fifetoday.co.uk",
-   "published_at": "2026-08-07T11:51:00Z",
-   "title": "BBC names date for first episode of sand sculpture competition on Fife beach",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeEtoNjI3d2xhOU44aWVIV0U0cXRXZHlKbWE5OEdERzh4czZyYTQ4OFc2Q2gtbWRGeE5DcThFaHZhbXlwbjhQbDl0dkFVNkV6NzJXVEFDNXNZSVI1b2lTUnVFWnZ1VnV2cFRmd01hd2ZLVjNWWHl5c2locFp5T0NUcVhsVHE2TUdTWkFZcmE3aUItWGNzaThqUVhCRjk1cnY1UUxXS0ZBUzd6cHhEa0k4UE9tSXpXWlBBVGJ6WElaMF9LQQ?oc=5"
+   "name": "Atlas Obscura",
+   "published_at": "2026-08-14T07:00:00Z",
+   "title": "Racing a Giant Pumpkin Boat in Goffstown’s Regatta",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaGpXMG9hekg5VXY2ZGFnRVJmb3VVVDVFYmpSUVZPc1FUdUszbDJ6T2tHdDlZZ0x1aF9nVVItZEtnOVV0NmY2bU9NbUszTDZtQzN5dm52VGlvTW9tODgwTEZQbXNjZkF4bk1yMTA1aU9wQ1YtZmR2RTJxckk2em9lUEhNUmhpQlRnR0E?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "BBC announces the air date for a sand sculpture competition taking place on a Fife beach.",
-    "why_irrelevant": "It's a niche local arts event far from mainstream news cycles."
+    "summary": "Each fall, Goffstown, New Hampshire hosts a regatta where competitors paddle across a lake in hollowed-out giant pumpkins.",
+    "why_irrelevant": "This is a whimsical, localized event, far outside a typical news feed."
    },
    "zh": {
-    "summary": "BBC宣布在法夫海滩举办的沙雕比赛的播出日期。",
-    "why_irrelevant": "这是一个远离主流新闻周期的小众本地艺术活动。"
+    "summary": "每年秋天，新罕布什尔州戈夫斯敦都会举办一场比赛，参赛者乘坐挖空的巨型南瓜划过湖面。",
+    "why_irrelevant": "这是一个奇特的本土活动，与常规新闻推送相去甚远。"
    }
   },
-  "topic": "competitive sand sculpting festivals"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news is dominated by natural disasters and geopolitical tensions, including a deadly earthquake in Indonesia, Russian strikes on Ukraine, and a looming hurricane in Hawaii. Meanwhile, AI research explores multi-agent systems and education technology, while academic papers delve into diverse topics from brain tumor segmentation to cotton fiber analysis.",
+ "brief": "Ukraine and Russia trade massive aerial strikes, while political and social stories range from U.S. domestic policy shifts to international tensions. Research covers diverse topics from construction to genetics.",
  "meta": {
-  "generated_at": "2026-08-16T08:44:55Z"
+  "generated_at": "2026-08-16T10:37:27Z"
  },
- "news_summary": "Major events include a magnitude 7.7 earthquake in Indonesia killing at least 51, Russian aerial attacks on Ukraine, and Hurricane Lala threatening Hawaii. Other notable stories cover economic concerns, AI in education, and social issues.",
- "papers_summary": "The papers highlight applications of AI in medical imaging, agricultural analysis, and construction error management, along with studies on genetics, psychology, and environmental monitoring.",
+ "news_summary": "Ukraine and Russia launch major drone and missile attacks, causing casualties; U.S. politics sees progressive wins and immigration enforcement controversies; other stories include pub protections, fossil exports, and postpartum psychosis awareness.",
+ "papers_summary": "Research spans environmental monitoring, genetic correlation methods, construction error management, medical imaging, and social media analysis.",
  "summaries": {
   "en": {
-   "brief": "Today's news is dominated by natural disasters and geopolitical tensions, including a deadly earthquake in Indonesia, Russian strikes on Ukraine, and a looming hurricane in Hawaii. Meanwhile, AI research explores multi-agent systems and education technology, while academic papers delve into diverse topics from brain tumor segmentation to cotton fiber analysis.",
-   "news_summary": "Major events include a magnitude 7.7 earthquake in Indonesia killing at least 51, Russian aerial attacks on Ukraine, and Hurricane Lala threatening Hawaii. Other notable stories cover economic concerns, AI in education, and social issues.",
-   "papers_summary": "The papers highlight applications of AI in medical imaging, agricultural analysis, and construction error management, along with studies on genetics, psychology, and environmental monitoring."
+   "brief": "Ukraine and Russia trade massive aerial strikes, while political and social stories range from U.S. domestic policy shifts to international tensions. Research covers diverse topics from construction to genetics.",
+   "news_summary": "Ukraine and Russia launch major drone and missile attacks, causing casualties; U.S. politics sees progressive wins and immigration enforcement controversies; other stories include pub protections, fossil exports, and postpartum psychosis awareness.",
+   "papers_summary": "Research spans environmental monitoring, genetic correlation methods, construction error management, medical imaging, and social media analysis."
   },
   "zh": {
-   "brief": "今日新闻聚焦印尼强震救援、Z世代女性月经知识代际传递，以及剑桥学者之死引发的学术争议；研究方面暂无优先论文，但英文论文涉及AI辅助气候模拟代码移植等。",
-   "news_summary": "印尼强震致数十人遇难，救援持续；Z世代女性更懂月经知识并分享给母亲一代；剑桥教授之死引发学术圈震动；卡斯特罗之女回忆其父亲。",
-   "papers_summary": "今日无优先中文论文，英文论文涉及AI辅助GPU移植天气模拟代码、多智能体系统模式及遗传相关性估计等。"
+   "brief": "今日新聞重點包括印尼地震、劍橋教授之死、烏克蘭與俄羅斯互相空襲，以及美國政治與科技相關報導；學術論文則涵蓋從基因關聯到影像分割等多樣主題。",
+   "news_summary": "印尼強震造成至少47人死亡，救援持續進行；劍橋大學教授之死引發學術界震盪；烏克蘭與俄羅斯互相發動大規模空襲，造成多人傷亡。另有卡斯特羅之女回憶父親、Z世代女性分享月經知識等報導。",
+   "papers_summary": "今日論文摘要未提供中文優先項目，僅有英文背景資料，涵蓋資訊視覺化、基因關聯、腦腫瘤分割等領域，但無重大突破或與新聞直接相關的研究。"
   }
  },
  "todays_image": {
-  "caption": "The earthquake tag letter was a fragile cry for help sent through chaos, while Gen Z women are shattering the silence around menstruation with a clear, informed message their mothers never had the words to send.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2018_2014_1a",
-  "source_name": "National Postal Museum",
-  "source_url": "https://postalmuseum.si.edu/object/npm_2018.2014.1",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2018_2014_1a",
-  "title": "San Francisco earthquake tag letter"
+  "caption": "The drone fly, a harmless mimic, finds a chilling parallel in the deadly drone swarms now buzzing over Russia.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3697394922d3345399d58f3b41c5d8a50",
+  "source_name": "NMNH - Education & Outreach",
+  "source_url": "http://n2t.net/ark:/65665/3fd218074-dc14-42e3-a448-c344dd03e802",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3697394922d3345399d58f3b41c5d8a50/90",
+  "title": "Drone Fly"
  }
 }
