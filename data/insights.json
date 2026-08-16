@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
   "source": {
-   "name": "fftimes.com",
-   "published_at": "2026-08-12T23:30:00Z",
-   "title": "The Fair Ambassador has taken over where the Fair Queen once reigned – Fort Frances Times",
-   "url": "https://fftimes.com/news/district-news/the-fair-ambassador-has-taken-over-where-the-fair-queen-once-reigned/"
+   "name": "Axios",
+   "published_at": "2026-08-14T22:00:23Z",
+   "title": "Behold the 1,387-pound pumpkin that won the Iowa State Fair",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQR0x4RDBpSFIwYUcyMDJuZFhqb0ZqLVg1Qk9GQktjSHlSTWludlcxTVFobF9CdWdOcnI3anUxMlR6ajhNZTIxVFBPdDlEX0RNMmdXMzFSZ0Q4OEhKbV8xZzczQmxMT3dvS2JhLTAxYjdoM3g4b2NxT1hteUllV3EzRFZ3eHZsQzRuU0p2OTdNeks?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A small-town fair pageant shifts from a queen to an ambassador, spotlighting local civic ritual.",
-    "why_irrelevant": "An ultra-local ceremony far from global or tech-centric feeds."
+    "summary": "A 1,387-pound pumpkin won the Iowa State Fair, setting a new record.",
+    "why_irrelevant": "It's a niche agricultural contest far from your usual interests."
    },
    "zh": {
-    "summary": "小镇集市选美从女王改为大使，突出地方公民仪式。",
-    "why_irrelevant": "极端本地活动，远离全球或科技资讯流。"
+    "summary": "一个重达1387磅的南瓜在爱荷华州博览会上创纪录地获胜。",
+    "why_irrelevant": "这是一项与你的日常兴趣相距甚远的小众农业比赛。"
    }
   },
   "topic": "competitive pumpkin growing"
  },
- "brief": "Rescue efforts continue in Indonesia after a deadly earthquake, while Australia debates superannuation policy and the US faces hurricane threats. In tech, AI systems and multi-agent architectures dominate discussions, alongside research on AI trust in medicine and cybersecurity.",
+ "brief": "Today's news is dominated by natural disasters and political tensions, including Hurricane Lala threatening Hawaii, a deadly earthquake in Indonesia, and U.S.-Iran conflict fallout. Meanwhile, research highlights AI in healthcare and cybersecurity, alongside a novel AI-assisted GPU porting of a weather simulation model.",
  "meta": {
-  "generated_at": "2026-08-16T04:48:24Z"
+  "generated_at": "2026-08-16T06:56:54Z"
  },
- "news_summary": "Major events include the Indonesia earthquake rescue, Australia's political clash over superannuation, Hawaii bracing for a rare hurricane, and US-UK legal controversies involving Trump. Tech news highlights AI's role in weather simulation porting and the emergence of robotaxis.",
- "papers_summary": "Research focuses on AI trust in clinical settings (oncology, eye clinics), cybersecurity in regulated industries, and molecular studies on palmitoylation in neuroblastoma differentiation and asthma mechanisms.",
+ "news_summary": "Key events include Hurricane Lala approaching Hawaii, a powerful earthquake in Indonesia with dozens dead, and ongoing U.S.-Iran tensions affecting visas and diplomacy. Also notable are Australia's gun buyback after a beach attack, a scandal in Japan-Australia defense talks, and AI-driven scams exploiting vacation photos.",
+ "papers_summary": "Research topics range from AI trust in oncology and barriers to AI in eye clinics, to palmitoylation in neuroblastoma differentiation and a case report on Behçet's Disease. A significant technical paper discusses AI-assisted porting of a 250k line weather simulation code to GPU.",
  "summaries": {
   "en": {
-   "brief": "Rescue efforts continue in Indonesia after a deadly earthquake, while Australia debates superannuation policy and the US faces hurricane threats. In tech, AI systems and multi-agent architectures dominate discussions, alongside research on AI trust in medicine and cybersecurity.",
-   "news_summary": "Major events include the Indonesia earthquake rescue, Australia's political clash over superannuation, Hawaii bracing for a rare hurricane, and US-UK legal controversies involving Trump. Tech news highlights AI's role in weather simulation porting and the emergence of robotaxis.",
-   "papers_summary": "Research focuses on AI trust in clinical settings (oncology, eye clinics), cybersecurity in regulated industries, and molecular studies on palmitoylation in neuroblastoma differentiation and asthma mechanisms."
+   "brief": "Today's news is dominated by natural disasters and political tensions, including Hurricane Lala threatening Hawaii, a deadly earthquake in Indonesia, and U.S.-Iran conflict fallout. Meanwhile, research highlights AI in healthcare and cybersecurity, alongside a novel AI-assisted GPU porting of a weather simulation model.",
+   "news_summary": "Key events include Hurricane Lala approaching Hawaii, a powerful earthquake in Indonesia with dozens dead, and ongoing U.S.-Iran tensions affecting visas and diplomacy. Also notable are Australia's gun buyback after a beach attack, a scandal in Japan-Australia defense talks, and AI-driven scams exploiting vacation photos.",
+   "papers_summary": "Research topics range from AI trust in oncology and barriers to AI in eye clinics, to palmitoylation in neuroblastoma differentiation and a case report on Behçet's Disease. A significant technical paper discusses AI-assisted porting of a 250k line weather simulation code to GPU."
   },
   "zh": {
-   "brief": "今日焦点：英国剑桥大学教授之死引发学术界震荡，印尼强震致47人遇难，卡斯特罗之女回忆往事；研究方面关注AI在眼科诊断中的应用障碍及网络安全与创新的平衡。",
-   "news_summary": "英国剑桥大学教授阿尔戴之死引发广泛关注，因其特殊成长经历和学术争议。印尼地震造成47人死亡，救援仍在继续。卡斯特罗之女阿丽娜·费尔南德斯公开回忆其与父亲的关系。",
-   "papers_summary": "研究论文涉及AI在眼科诊断中的障碍、网络安全与创新的平衡、以及神经细胞分化中的蛋白质修饰等主题。"
+   "brief": "今日重點：劍橋教授之死引發學術界震盪，印尼強震致47死，卡斯特羅之女回憶複雜父女情。科學研究聚焦AI於醫療與網絡安全應用。",
+   "news_summary": "劍橋教授阿爾戴之死引發學術爭議，印尼強震造成嚴重傷亡，卡斯特羅之女揭露隱藏的家庭祕密。",
+   "papers_summary": "研究探討AI在眼科診斷與腫瘤學中的障礙與信任問題，以及網絡安全與創新的平衡。"
   }
  },
  "todays_image": {
-  "caption": "Like the Apollo 8 rescue net kept astronauts safe, Chalmers rejects Hanson’s push to dismantle the superannuation safety net.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19700321000_PS01",
+  "caption": "Like the Hawker Hurricane that once ruled the skies, Hawaii now faces its own namesake storm, Hurricane Lala, in a battle of wind and rain.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2022-06753",
   "source_name": "National Air and Space Museum",
-  "source_url": "http://n2t.net/ark:/65665/nv9bc553881-ab8d-4b7e-a89f-6c034d1ebc0f",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19700321000_PS01",
-  "title": "Rescue Net, Apollo 8"
+  "source_url": "http://n2t.net/ark:/65665/nv95757ca0b-c36a-4fea-b2a2-5ab16997ffa3",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2022-06753",
+  "title": "Hawker Hurricane Mk. IIC"
  }
 }
