@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
+  "query": "Cornwall coastal rowing regatta OR gig rowing championship",
   "source": {
-   "name": "USA Today",
-   "published_at": "2026-08-16T00:28:55Z",
-   "title": "See contestants of the 2026 Iowa State Fair Giant Pumpkin contest",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1HbEVQWGV2ZGw1bnl1dXZTa1pjdFpoMUdsWkMwVUt2UkRud0lkdUlCeUU4dVJhQm8yRDVRSUF1blFqQkgwdEZ1UVpOWTAtLW4wazg5UEdxQktISGpPSWc?oc=5"
+   "name": "Yachting Monthly",
+   "published_at": "2026-08-13T04:00:50Z",
+   "title": "Notes from the World Pilot Gig Championships: 'We watched a glorious parade of gigs pass metres from our stern'",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOTmg2WVE4dzNUSDF0STdUU3J1eGg0a0d0bnZ3bXd4bTY4NHNYcjljVEVaVmFVSG9pR3M0OXhWTHdfS2tXOWVod043V3lwel90cVV5YzlwRHlLc3pWUDBXaXJoUWMzdWFFUmJaUFd6NVNXSjFQQ0RUNlRXNGhfUk5mTDlYQndnU2hxZmgtYjJNaWRyclRaeVNyT3BMaGR5Zkw2b3pFUUhDYzgxUjdCcms2SHJhZmY4VUZzUVB4Y1FQNFZUN1RRVm1SMXdDMGdMdHUwT0Ytdi0wODFRcG1sWi1BTmhsQ09WTzFCNFZlem9n?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "The 2026 Iowa State Fair's Giant Pumpkin contest showcased record-breaking entries.",
-    "why_irrelevant": "It's hyper-local and seasonal, unrelated to your usual tech and finance feed."
+    "summary": "A report from the World Pilot Gig Championships describes the parade of traditional gig boats passing close by.",
+    "why_irrelevant": "It's a niche maritime event far from typical personal interests."
    },
    "zh": {
-    "summary": "2026年爱荷华州博览会的巨型南瓜比赛展示了破纪录的参赛作品。",
-    "why_irrelevant": "这是地方性和季节性的内容，与您常看的科技和财经资讯无关。"
+    "summary": "一篇来自世界领航艇锦标赛的报道描述了传统赛艇从旁经过的壮观场面。",
+    "why_irrelevant": "这是一项小众水上赛事，与日常关注点相距甚远。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "coastal rowing regattas in Cornwall"
  },
- "brief": "Today's news spans geopolitical shifts, natural disasters, and cultural moments, while papers delve into AI, visualization, and medical research.",
+ "brief": "Today's news is marked by the death of actress Hayden Panettiere, geopolitical tensions involving Trump's decisions on South Korea and Iran, and severe weather events, while research covers diverse topics from social media behavior to medical imaging.",
  "meta": {
-  "generated_at": "2026-08-17T03:11:13Z"
+  "generated_at": "2026-08-17T04:55:37Z"
  },
- "news_summary": "Trump's decision to scale back South Korea military drills, Hurricane Lala hitting Hawaii, and Kushner's meeting with Hamas dominate headlines, alongside cultural and social stories.",
- "papers_summary": "Research covers topics from AR-integrated BIM systems to genetic correlation estimation, with a focus on visualization and data analysis.",
+ "news_summary": "The news includes the passing of Hayden Panettiere, Trump's scaling back of South Korea drills, an Ebola outbreak in DR Congo, a deadly landslide in South Korea, and Australian political developments, among other stories.",
+ "papers_summary": "Research topics range from foodstagramming behavior and AR in construction to genetic correlation methods and deep learning for cotton fiber analysis, reflecting diverse academic interests.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans geopolitical shifts, natural disasters, and cultural moments, while papers delve into AI, visualization, and medical research.",
-   "news_summary": "Trump's decision to scale back South Korea military drills, Hurricane Lala hitting Hawaii, and Kushner's meeting with Hamas dominate headlines, alongside cultural and social stories.",
-   "papers_summary": "Research covers topics from AR-integrated BIM systems to genetic correlation estimation, with a focus on visualization and data analysis."
+   "brief": "Today's news is marked by the death of actress Hayden Panettiere, geopolitical tensions involving Trump's decisions on South Korea and Iran, and severe weather events, while research covers diverse topics from social media behavior to medical imaging.",
+   "news_summary": "The news includes the passing of Hayden Panettiere, Trump's scaling back of South Korea drills, an Ebola outbreak in DR Congo, a deadly landslide in South Korea, and Australian political developments, among other stories.",
+   "papers_summary": "Research topics range from foodstagramming behavior and AR in construction to genetic correlation methods and deep learning for cotton fiber analysis, reflecting diverse academic interests."
   },
   "zh": {
-   "brief": "今日焦点包括美軍林肯號航母人員精神健康問題、靖國神社參拜引發東亞爭議，以及劍橋教授之死引發學術界震盪；同時，多項研究探討資訊視覺化與醫療等領域。",
-   "news_summary": "美軍指揮官關注航母人員精神健康；靖國神社參拜再掀外交波瀾；Z世代女性更懂月經知識；劍橋教授之死引發學術界關注。",
-   "papers_summary": "研究涵蓋食物照片分享、AR-BIM建築管理、植被變化監測等主題，並探討基因關聯與腦腫瘤分割等醫療應用。"
+   "brief": "今日新闻关注美军航母人员心理健康、女性投资趋势及靖国神社争议，同时国际上有明星逝世、地区冲突与自然灾害等动态。",
+   "news_summary": "中文新闻聚焦美军航母心理健康、外国超市文化体验、女性投资差异、靖国神社争议及Z世代月经知识普及；国际新闻包括Hayden Panettiere去世、加沙和平谈判、刚果埃博拉疫情等。",
+   "papers_summary": "研究论文涉及信息可视化、生物医学与农业技术，如社交媒体内容分析、AR-BIM系统、植被覆盖评估及深度学习应用，但中文简报暂无研究摘要。"
   }
  },
  "todays_image": {
-  "caption": "Both the Hawker Hurricane's battle-weary pilots and the Lincoln's crew share the invisible weight of combat, where mental resilience must weather its own storm.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2022-06753",
-  "source_name": "National Air and Space Museum",
-  "source_url": "http://n2t.net/ark:/65665/nv95757ca0b-c36a-4fea-b2a2-5ab16997ffa3",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2022-06753",
-  "title": "Hawker Hurricane Mk. IIC"
+  "caption": "The audience chairs, once filled with hopeful guests and stars, now sit empty like the spotlight that has dimmed for Hayden Panettiere, a familiar face from the screen’s own stage.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2016_7_6_001",
+  "source_name": "National Museum of African American History and Culture",
+  "source_url": "https://nmaahc.si.edu/object/nmaahc_2016.7.6",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2016_7_6_001",
+  "title": "Audience chairs from the set of The Oprah Winfrey Show at Harpo Studios"
  }
 }

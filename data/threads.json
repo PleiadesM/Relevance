@@ -1,175 +1,263 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-08-17T03:11:13Z",
+  "count": 5,
+  "generated_at": "2026-08-17T04:55:37Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "full_text_file": "articles/news/24d4ed4fc010412f.json",
-     "item_id": "24d4ed4fc010412f",
+     "item_id": "6c1c075a21097ba8",
      "phrase": {
-      "en": "safety team disbanded",
-      "zh": "安全团队解散"
+      "en": "Report contains AI hallucinations",
+      "zh": "报告包含AI幻觉"
      },
      "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/australia-news/2026/aug/17/australia-social-media-ban-report-ai-hallucinations-ntwnfb"
     },
     {
-     "item_id": "7903298557e2df1c",
+     "item_id": "960607a846148f95",
      "phrase": {
-      "en": "Nvidia cuts financing",
-      "zh": "Nvidia削减融资"
+      "en": "Gmail glitch causes misdelivery",
+      "zh": "Gmail故障导致误投递"
      },
      "section": "news",
      "source": "Hacker News (AI filter)",
-     "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/"
+     "url": "https://boston.conman.org/2026/08/11.1"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "OpenAI disbands its safety team while Nvidia scales back financing, signaling a shift in AI risk management.",
-    "zh": "OpenAI解散安全团队，Nvidia削减融资，AI风险管理转向。"
+    "en": "A trusted report is found laced with phantom references, shaking faith in AI-assisted work.",
+    "zh": "一份受信任的报告被发现掺杂幽灵引用，动摇了人们对AI辅助工作的信心。"
    },
    "id": "t1",
    "keyword": {
-    "en": "OpenAI prepares",
-    "zh": "OpenAI准备"
+    "en": "AI hallucinations",
+    "zh": "AI幻觉"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow AI governance: today's reports show a retreat from safety-first postures.",
-    "zh": "你关注AI治理，今日报道显示安全优先姿态的退却。"
+    "en": "You care about AI reliability in HCI and technical writing; today's Senate hearing exposes the risk of AI-generated falsehoods in official documents.",
+    "zh": "你关注HCI和技术写作中的AI可靠性；今日参议院听证会揭露了官方文件中AI生成虚假信息的风险。"
    }
   },
   {
    "angles": [
     {
+     "item_id": "a07e4dde432a4267",
+     "phrase": {
+      "en": "LLM as sounding board",
+      "zh": "LLM作为共鸣板"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.13944v1"
+    },
+    {
+     "item_id": "222032ef1499b640",
+     "phrase": {
+      "en": "Qwen defaults to overthinking",
+      "zh": "Qwen默认过度思考"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Creative tools and open models push boundaries, from songwriting to thinking-too-much LLMs.",
+    "zh": "创意工具和开放模型突破边界，从写歌到过度思考的大语言模型。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "Generative AI",
+    "zh": "生成式AI"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow LLMs and creativity; today brings a study on AI as a sounding board and a new Qwen model that overdoes introspection.",
+    "zh": "你关注大语言模型与创意，今天有关于AI作为共鸣板的研究和一个过度内省的Qwen新模型。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "bd394cdb35b7216d",
+     "phrase": {
+      "en": "Landslide in South Korea",
+      "zh": "韩国山体滑坡"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cvgww971nn2o?at_medium=RSS&at_campaign=rss"
+    },
+    {
      "item_id": "25dfe9922ba77754",
      "phrase": {
-      "en": "Indiana prepares for more",
-      "zh": "印第安纳准备更多降水"
+      "en": "Indiana braces for more rain",
+      "zh": "印第安纳准备更多降雨"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/08/16/us/indiana-storms-flooding.html"
     },
     {
+     "item_id": "6c8234a1db1eaf16",
+     "phrase": {
+      "en": "Hurricane Lala hits Hawaii",
+      "zh": "飓风拉拉袭夏威夷"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "0f47347b136134c4",
+     "phrase": {
+      "en": "Lala weakens after devastating Hawaii",
+      "zh": "拉拉减弱但已重创夏威夷"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/16/hurricane-lala-hawaii-big-island-avoids-landfall"
+    },
+    {
      "item_id": "4bea14ea3f5e7a5c",
      "phrase": {
-      "en": "record floods submerge suburbs",
-      "zh": "创纪录洪水淹没郊区"
+      "en": "Floods in Indiana kill several",
+      "zh": "印第安纳洪水致多人死亡"
      },
      "section": "news",
      "source": "NPR News",
      "url": "https://www.npr.org/2026/08/16/nx-s1-5934670/indiana-flooding-deaths"
-    },
-    {
-     "item_id": "8dc841dbcbe37f21",
-     "phrase": {
-      "en": "six dead from storms",
-      "zh": "六人因风暴死亡"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/aug/16/indiana-storms-flooding-deaths"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Deadly storms and floods batter Indiana and Hawaii, displacing communities and testing resilience.",
-    "zh": "致命风暴和洪水袭击印第安纳和夏威夷，社区流离失所。"
+    "en": "From Hawaii hurricanes to Indiana floods, extreme weather wreaks havoc across the globe.",
+    "zh": "从夏威夷飓风到印第安纳洪水，极端天气在全球肆虐。"
    },
-   "id": "t2",
+   "id": "t3",
    "keyword": {
-    "en": "storms and floods",
-    "zh": "风暴洪水"
+    "en": "climate disasters",
+    "zh": "气候灾难"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about data-driven risk: multiple sources track the same extreme weather events today.",
-    "zh": "你关注数据驱动风险，多源今日追踪同一极端天气。"
+    "en": "You think about data visualization of environmental data; today's storm coverage shows how multiple regions are hit simultaneously.",
+    "zh": "你思考环境数据的可视化，今日风暴报道显示多个地区同时受灾。"
    }
   },
   {
    "angles": [
     {
+     "item_id": "1891913df2e402a5",
+     "phrase": {
+      "en": "Ralph Carr in living hell",
+      "zh": "拉尔夫·卡尔身处活地狱"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/australia-news/2026/aug/17/ralph-carr-in-living-hell-after-being-convicted-of-victorian-court-hears-ntwnfb"
+    },
+    {
+     "item_id": "60d45cd2711ae991",
+     "phrase": {
+      "en": "Alan Jones alleged kiss",
+      "zh": "艾伦·琼斯被指亲吻"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/australia-news/2026/aug/17/alan-jones-allegedly-kissed-driver-in-wardrobe-james-packer-personal-suite-crown-towers-ntwnfb"
+    },
+    {
+     "item_id": "3c417976750a258b",
+     "phrase": {
+      "en": "Fraudster in Farage's circle",
+      "zh": "法拉奇圈子里的骗子"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/17/world/europe/posh-george-nigel-farage-reform.html"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Fraud, assault, and misconduct accusations plague public figures, from UK politics to Australian media.",
+    "zh": "欺诈、性侵和行为不端指控困扰公众人物，从英国政坛到澳大利亚媒体。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "political scandals",
+    "zh": "政治丑闻"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You may be interested in visual rhetoric of public image; today's headlines show how scandals reshape reputations.",
+    "zh": "你可能对公共形象的视觉修辞感兴趣，今日头条显示丑闻如何重塑声誉。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "d722a2a40f928cb4",
+     "phrase": {
+      "en": "US-Iran deal deadline missed",
+      "zh": "美伊协议期限错过"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/17/world/middleeast/iran-mou-deadline.html"
+    },
+    {
      "item_id": "0e0631a1b99d9f8b",
      "phrase": {
-      "en": "cuts drills despite warnings",
-      "zh": "无视警告削减军演"
+      "en": "Trump cuts Korea drills",
+      "zh": "特朗普削减韩美军演"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/world/2026/aug/17/trump-cuts-south-korea-joint-drills-us-military-good-relationship-kim-jong-un"
     },
     {
-     "item_id": "3813a88ce0b5536c",
+     "item_id": "eb085dffed249c61",
      "phrase": {
-      "en": "scaling back exercises",
-      "zh": "缩减演习规模"
+      "en": "Kushner arrives in Israel",
+      "zh": "库什纳抵达以色列"
      },
      "section": "news",
      "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Trump orders scaling back South Korea drills, citing ties with Kim, despite military warnings.",
-    "zh": "特朗普以与金正恩关系为由削减韩美军演，军方警告。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "Trump defense cuts",
-    "zh": "特朗普削减军演"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You analyze geopolitics; today's move reshapes regional security assumptions.",
-    "zh": "你分析地缘政治，今日举措重塑区域安全假设。"
-   }
-  },
-  {
-   "angles": [
+     "url": "https://www.bbc.co.uk/news/articles/c77gg5vn44yo?at_medium=RSS&at_campaign=rss"
+    },
     {
-     "item_id": "663ecc68fb28ff23",
+     "item_id": "f5e8ff521dfaf7eb",
      "phrase": {
-      "en": "admiral praises sailors",
-      "zh": "上将赞扬水手"
+      "en": "Kushner meets Hamas",
+      "zh": "库什纳会见哈马斯"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/16/us/politics/uss-lincoln-iran-admiral.html"
-    },
-    {
-     "item_id": "0afd3998f9a9fee3",
-     "phrase": {
-      "en": "中文报道心理健康",
-      "zh": "中文报道心理健康"
-     },
-     "section": "news",
-     "source": "BBC 中文",
-     "url": "https://www.bbc.com/zhongwen/articles/c5yvv1vz252o/trad?at_medium=RSS&at_campaign=rss"
+     "url": "https://www.nytimes.com/2026/08/16/world/middleeast/kushner-hamas-talks.html"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "Admiral acknowledges hardships on carrier deployment, with parallel coverage in Chinese media.",
-    "zh": "上将承认航母部署艰辛，中文媒体同步报道。"
+    "en": "Trump's moves reshape Middle East peace and security alliances, from Gaza to Korea.",
+    "zh": "特朗普的举动重塑中东和平与安全联盟，从加沙到韩国。"
    },
-   "id": "t4",
+   "id": "t5",
    "keyword": {
-    "en": "military mental health",
-    "zh": "军人心理健康"
+    "en": "US foreign policy",
+    "zh": "美国外交政策"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You study embodied cognition and stress; this human factor story resonates.",
-    "zh": "你研究具身认知和压力，这一人文因素故事引发共鸣。"
+    "en": "You follow international relations and HCI of diplomacy; today's Kushner visit and drill cuts signal major shifts.",
+    "zh": "你关注国际关系和外交的HCI，今日库什纳访问和军演削减标志着重大转变。"
    }
   }
  ]
