@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "query": "rooftop beekeeping cooperative OR urban apiary honey",
   "source": {
-   "name": "sana.sy",
-   "published_at": "2026-08-14T15:30:00Z",
-   "title": "Russian gardener grows giant 360 - kg pumpkin",
-   "url": "https://sana.sy/en/miscellaneous/2336350/"
+   "name": "yourvalley.net",
+   "published_at": "2026-07-20T07:00:00Z",
+   "title": "Goodyear office building hosts rooftop beehives",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMnZoMVBrQjV4V2ZicFdLWVBYVlZqbzByN0FZN3c3Qm5NcC03YWFLcDFNV2pqQTF2RlVFRGVSOWQzbF83UXVYM1dOWXVzMGNQMzJCdlNoUnNfcDlzR1NlS1lON1FrMUVzVGl0b2NGSllKUGtJVmVOMUVmdGNsMmlaY0lSa1RRUWgwZjZFVUs3NHdoUm1aNWNhMGJ2UlJYcTdlYUswVzF3bmVoeXVCNjBLbi0yVEdjaWt1?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A Russian gardener grew a 360-kg pumpkin, a record-sized gourd showcased in a news brief.",
-    "why_irrelevant": "A niche agricultural feat far from typical feed topics."
+    "summary": "Goodyear office building hosts rooftop beehives in a routine corporate sustainability gesture.",
+    "why_irrelevant": "It's a mundane local business story, far from any trending topic."
    },
    "zh": {
-    "summary": "俄罗斯一名园丁种出360公斤重的巨型南瓜，新闻简报中展示了这一创纪录的瓜。",
-    "why_irrelevant": "小众农业奇事，远离常见资讯主题。"
+    "summary": "Goodyear办公楼在屋顶放置蜂箱，作为常规的企业可持续发展举措。",
+    "why_irrelevant": "这是平淡的本地商业新闻，远离任何热门话题。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "cooperative beekeeping in urban rooftop gardens"
  },
- "brief": "Today's news spans geopolitical tensions, AI industry shifts, and natural disasters, while research papers cover diverse topics from data visualization to genomics.",
+ "brief": "Today's news spans from Hurricane Lala's impact on Hawaii to political maneuvers in Australia and the Middle East, while AI developments include Qwen 3.8 and OpenAI's team changes. Research highlights include brain tumor segmentation and genetic correlation methods.",
  "meta": {
-  "generated_at": "2026-08-16T22:34:57Z"
+  "generated_at": "2026-08-17T01:53:14Z"
  },
- "news_summary": "Key stories include Trump scaling back military drills with South Korea, Kushner's rare meeting with Hamas, wildfires in Greece and Belgium, and significant AI developments like Anthropic's watermark controversy and Stripe's OpenRouter acquisition.",
- "papers_summary": "Papers cover a wide range including foodstagramming analysis, AR-BIM in construction, vegetation cover change in Morocco, genetic correlation methods, and deep learning for cotton fiber segmentation.",
+ "news_summary": "Hurricane Lala hits Hawaii with widespread damage, Trump announces cuts to South Korea drills, Kushner meets Hamas, and several other global stories including Ebola in Congo, wildfires in Greece, and a tragic car crash in Ireland.",
+ "papers_summary": "Papers cover topics from food photography analysis on social media to deep learning for cotton fiber analysis, brain tumor segmentation using MRI, and genetic correlation estimation methods.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans geopolitical tensions, AI industry shifts, and natural disasters, while research papers cover diverse topics from data visualization to genomics.",
-   "news_summary": "Key stories include Trump scaling back military drills with South Korea, Kushner's rare meeting with Hamas, wildfires in Greece and Belgium, and significant AI developments like Anthropic's watermark controversy and Stripe's OpenRouter acquisition.",
-   "papers_summary": "Papers cover a wide range including foodstagramming analysis, AR-BIM in construction, vegetation cover change in Morocco, genetic correlation methods, and deep learning for cotton fiber segmentation."
+   "brief": "Today's news spans from Hurricane Lala's impact on Hawaii to political maneuvers in Australia and the Middle East, while AI developments include Qwen 3.8 and OpenAI's team changes. Research highlights include brain tumor segmentation and genetic correlation methods.",
+   "news_summary": "Hurricane Lala hits Hawaii with widespread damage, Trump announces cuts to South Korea drills, Kushner meets Hamas, and several other global stories including Ebola in Congo, wildfires in Greece, and a tragic car crash in Ireland.",
+   "papers_summary": "Papers cover topics from food photography analysis on social media to deep learning for cotton fiber analysis, brain tumor segmentation using MRI, and genetic correlation estimation methods."
   },
   "zh": {
-   "brief": "今日焦点：靖國神社參拜爭議再起，日本與中韓關係緊張；印尼強震造成重大傷亡。學術界因劍橋教授之死掀起討論。國際上，特朗普削減美韓軍演，庫什納會見哈馬斯，AI領域動盪（OpenAI解散預備隊，Nvidia削減融資）。",
-   "news_summary": "靖國神社參拜問題持續影響東亞外交，印尼地震救援進行中。國際新聞聚焦特朗普政策調整、中東和談與AI行業變動。",
-   "papers_summary": "研究論文涉及信息可視化、基因關聯、深度學習分割等多領域，但與新聞關聯不大。"
+   "brief": "今日焦点涵盖社会文化议题（如超市旅游、女性投资、靖国神社争议）以及印尼强震等灾害新闻；科研方面，暂无中文论文，但英文研究涉及医学影像分割和遗传关联分析等主题。",
+   "news_summary": "中文新闻聚焦于文化观察（超市旅游体验、Z世代月经知识）、社会问题（女性投资、学术争议）及区域灾害（印尼地震），同时提及卡斯特罗之女回忆录等。英文新闻则关注澳大利亚政治、美国政策、自然灾害及科技动态。",
+   "papers_summary": "英文论文涉及信息可视化、建筑信息模型、遥感植被变化、遗传关联分析等，涵盖医学影像分割和棉花纤维分析等应用。目前暂无中文论文摘要。"
   }
  },
  "todays_image": {
-  "caption": "The star-like \"Chaetopappa asteroides\" mirrors the scaled-back \"star-spangled\" military drills with South Korea.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3d1b2a964-ed98-4ee0-8f71-927381c84000",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c/90",
-  "title": "Chaetopappa asteroides (Nutt.) DC."
+  "caption": "A Hurricane that once flew through storms now mirrors the political storm, with Hume deflecting Chalmers' super claims while Victorian teachers clear the air with a pay deal.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2022-06753",
+  "source_name": "National Air and Space Museum",
+  "source_url": "http://n2t.net/ark:/65665/nv95757ca0b-c36a-4fea-b2a2-5ab16997ffa3",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2022-06753",
+  "title": "Hawker Hurricane Mk. IIC"
  }
 }
