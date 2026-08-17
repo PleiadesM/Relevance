@@ -1,0 +1,176 @@
+{
+ "meta": {
+  "count": 4,
+  "generated_at": "2026-08-17T03:11:13Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "full_text_file": "articles/news/24d4ed4fc010412f.json",
+     "item_id": "24d4ed4fc010412f",
+     "phrase": {
+      "en": "safety team disbanded",
+      "zh": "安全团队解散"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team"
+    },
+    {
+     "item_id": "7903298557e2df1c",
+     "phrase": {
+      "en": "Nvidia cuts financing",
+      "zh": "Nvidia削减融资"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "OpenAI disbands its safety team while Nvidia scales back financing, signaling a shift in AI risk management.",
+    "zh": "OpenAI解散安全团队，Nvidia削减融资，AI风险管理转向。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "OpenAI prepares",
+    "zh": "OpenAI准备"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow AI governance: today's reports show a retreat from safety-first postures.",
+    "zh": "你关注AI治理，今日报道显示安全优先姿态的退却。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "25dfe9922ba77754",
+     "phrase": {
+      "en": "Indiana prepares for more",
+      "zh": "印第安纳准备更多降水"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/16/us/indiana-storms-flooding.html"
+    },
+    {
+     "item_id": "4bea14ea3f5e7a5c",
+     "phrase": {
+      "en": "record floods submerge suburbs",
+      "zh": "创纪录洪水淹没郊区"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/16/nx-s1-5934670/indiana-flooding-deaths"
+    },
+    {
+     "item_id": "8dc841dbcbe37f21",
+     "phrase": {
+      "en": "six dead from storms",
+      "zh": "六人因风暴死亡"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/16/indiana-storms-flooding-deaths"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Deadly storms and floods batter Indiana and Hawaii, displacing communities and testing resilience.",
+    "zh": "致命风暴和洪水袭击印第安纳和夏威夷，社区流离失所。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "storms and floods",
+    "zh": "风暴洪水"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about data-driven risk: multiple sources track the same extreme weather events today.",
+    "zh": "你关注数据驱动风险，多源今日追踪同一极端天气。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "0e0631a1b99d9f8b",
+     "phrase": {
+      "en": "cuts drills despite warnings",
+      "zh": "无视警告削减军演"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/17/trump-cuts-south-korea-joint-drills-us-military-good-relationship-kim-jong-un"
+    },
+    {
+     "item_id": "3813a88ce0b5536c",
+     "phrase": {
+      "en": "scaling back exercises",
+      "zh": "缩减演习规模"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Trump orders scaling back South Korea drills, citing ties with Kim, despite military warnings.",
+    "zh": "特朗普以与金正恩关系为由削减韩美军演，军方警告。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "Trump defense cuts",
+    "zh": "特朗普削减军演"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You analyze geopolitics; today's move reshapes regional security assumptions.",
+    "zh": "你分析地缘政治，今日举措重塑区域安全假设。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "663ecc68fb28ff23",
+     "phrase": {
+      "en": "admiral praises sailors",
+      "zh": "上将赞扬水手"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/16/us/politics/uss-lincoln-iran-admiral.html"
+    },
+    {
+     "item_id": "0afd3998f9a9fee3",
+     "phrase": {
+      "en": "中文报道心理健康",
+      "zh": "中文报道心理健康"
+     },
+     "section": "news",
+     "source": "BBC 中文",
+     "url": "https://www.bbc.com/zhongwen/articles/c5yvv1vz252o/trad?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Admiral acknowledges hardships on carrier deployment, with parallel coverage in Chinese media.",
+    "zh": "上将承认航母部署艰辛，中文媒体同步报道。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "military mental health",
+    "zh": "军人心理健康"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You study embodied cognition and stress; this human factor story resonates.",
+    "zh": "你研究具身认知和压力，这一人文因素故事引发共鸣。"
+   }
+  }
+ ]
+}

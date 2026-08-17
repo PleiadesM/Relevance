@@ -1,44 +1,44 @@
 {
  "apropos_of_nothing": {
-  "query": "rooftop beekeeping cooperative OR urban apiary honey",
+  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
   "source": {
-   "name": "yourvalley.net",
-   "published_at": "2026-07-20T07:00:00Z",
-   "title": "Goodyear office building hosts rooftop beehives",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMnZoMVBrQjV4V2ZicFdLWVBYVlZqbzByN0FZN3c3Qm5NcC03YWFLcDFNV2pqQTF2RlVFRGVSOWQzbF83UXVYM1dOWXVzMGNQMzJCdlNoUnNfcDlzR1NlS1lON1FrMUVzVGl0b2NGSllKUGtJVmVOMUVmdGNsMmlaY0lSa1RRUWgwZjZFVUs3NHdoUm1aNWNhMGJ2UlJYcTdlYUswVzF3bmVoeXVCNjBLbi0yVEdjaWt1?oc=5"
+   "name": "USA Today",
+   "published_at": "2026-08-16T00:28:55Z",
+   "title": "See contestants of the 2026 Iowa State Fair Giant Pumpkin contest",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1HbEVQWGV2ZGw1bnl1dXZTa1pjdFpoMUdsWkMwVUt2UkRud0lkdUlCeUU4dVJhQm8yRDVRSUF1blFqQkgwdEZ1UVpOWTAtLW4wazg5UEdxQktISGpPSWc?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "Goodyear office building hosts rooftop beehives in a routine corporate sustainability gesture.",
-    "why_irrelevant": "It's a mundane local business story, far from any trending topic."
+    "summary": "The 2026 Iowa State Fair's Giant Pumpkin contest showcased record-breaking entries.",
+    "why_irrelevant": "It's hyper-local and seasonal, unrelated to your usual tech and finance feed."
    },
    "zh": {
-    "summary": "Goodyear办公楼在屋顶放置蜂箱，作为常规的企业可持续发展举措。",
-    "why_irrelevant": "这是平淡的本地商业新闻，远离任何热门话题。"
+    "summary": "2026年爱荷华州博览会的巨型南瓜比赛展示了破纪录的参赛作品。",
+    "why_irrelevant": "这是地方性和季节性的内容，与您常看的科技和财经资讯无关。"
    }
   },
-  "topic": "cooperative beekeeping in urban rooftop gardens"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news spans from Hurricane Lala's impact on Hawaii to political maneuvers in Australia and the Middle East, while AI developments include Qwen 3.8 and OpenAI's team changes. Research highlights include brain tumor segmentation and genetic correlation methods.",
+ "brief": "Today's news spans geopolitical shifts, natural disasters, and cultural moments, while papers delve into AI, visualization, and medical research.",
  "meta": {
-  "generated_at": "2026-08-17T01:53:14Z"
+  "generated_at": "2026-08-17T03:11:13Z"
  },
- "news_summary": "Hurricane Lala hits Hawaii with widespread damage, Trump announces cuts to South Korea drills, Kushner meets Hamas, and several other global stories including Ebola in Congo, wildfires in Greece, and a tragic car crash in Ireland.",
- "papers_summary": "Papers cover topics from food photography analysis on social media to deep learning for cotton fiber analysis, brain tumor segmentation using MRI, and genetic correlation estimation methods.",
+ "news_summary": "Trump's decision to scale back South Korea military drills, Hurricane Lala hitting Hawaii, and Kushner's meeting with Hamas dominate headlines, alongside cultural and social stories.",
+ "papers_summary": "Research covers topics from AR-integrated BIM systems to genetic correlation estimation, with a focus on visualization and data analysis.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans from Hurricane Lala's impact on Hawaii to political maneuvers in Australia and the Middle East, while AI developments include Qwen 3.8 and OpenAI's team changes. Research highlights include brain tumor segmentation and genetic correlation methods.",
-   "news_summary": "Hurricane Lala hits Hawaii with widespread damage, Trump announces cuts to South Korea drills, Kushner meets Hamas, and several other global stories including Ebola in Congo, wildfires in Greece, and a tragic car crash in Ireland.",
-   "papers_summary": "Papers cover topics from food photography analysis on social media to deep learning for cotton fiber analysis, brain tumor segmentation using MRI, and genetic correlation estimation methods."
+   "brief": "Today's news spans geopolitical shifts, natural disasters, and cultural moments, while papers delve into AI, visualization, and medical research.",
+   "news_summary": "Trump's decision to scale back South Korea military drills, Hurricane Lala hitting Hawaii, and Kushner's meeting with Hamas dominate headlines, alongside cultural and social stories.",
+   "papers_summary": "Research covers topics from AR-integrated BIM systems to genetic correlation estimation, with a focus on visualization and data analysis."
   },
   "zh": {
-   "brief": "今日焦点涵盖社会文化议题（如超市旅游、女性投资、靖国神社争议）以及印尼强震等灾害新闻；科研方面，暂无中文论文，但英文研究涉及医学影像分割和遗传关联分析等主题。",
-   "news_summary": "中文新闻聚焦于文化观察（超市旅游体验、Z世代月经知识）、社会问题（女性投资、学术争议）及区域灾害（印尼地震），同时提及卡斯特罗之女回忆录等。英文新闻则关注澳大利亚政治、美国政策、自然灾害及科技动态。",
-   "papers_summary": "英文论文涉及信息可视化、建筑信息模型、遥感植被变化、遗传关联分析等，涵盖医学影像分割和棉花纤维分析等应用。目前暂无中文论文摘要。"
+   "brief": "今日焦点包括美軍林肯號航母人員精神健康問題、靖國神社參拜引發東亞爭議，以及劍橋教授之死引發學術界震盪；同時，多項研究探討資訊視覺化與醫療等領域。",
+   "news_summary": "美軍指揮官關注航母人員精神健康；靖國神社參拜再掀外交波瀾；Z世代女性更懂月經知識；劍橋教授之死引發學術界關注。",
+   "papers_summary": "研究涵蓋食物照片分享、AR-BIM建築管理、植被變化監測等主題，並探討基因關聯與腦腫瘤分割等醫療應用。"
   }
  },
  "todays_image": {
-  "caption": "A Hurricane that once flew through storms now mirrors the political storm, with Hume deflecting Chalmers' super claims while Victorian teachers clear the air with a pay deal.",
+  "caption": "Both the Hawker Hurricane's battle-weary pilots and the Lincoln's crew share the invisible weight of combat, where mental resilience must weather its own storm.",
   "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2022-06753",
   "source_name": "National Air and Space Museum",
   "source_url": "http://n2t.net/ark:/65665/nv95757ca0b-c36a-4fea-b2a2-5ab16997ffa3",
