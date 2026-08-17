@@ -1,44 +1,44 @@
 {
  "apropos_of_nothing": {
-  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
+  "query": "cheese rolling championship OR Gloucestershire cheese rolling",
   "source": {
-   "name": "IGN",
-   "published_at": "2026-08-16T09:10:35Z",
-   "title": "How to Get Atlantic Giant Pumpkin",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWE0xZDltN0xxaW9jMHRua01QS2Q1b0FtV2JIaFhsWHB0NmFFYWR4X014TU5pU1MtMUZnMDIxVXpuNmtnRmRkTnhLRFFTMDBhQXRJQ0w2WHBxR1VMaUlVcHEwRWdzd3RubFMyWThMdWVLQjg5c0ZWamo5dHFGallkajZkZ0JFSXBFQ2c?oc=5"
+   "name": "Runner's World",
+   "published_at": "2026-07-27T07:00:00Z",
+   "title": "This Chaotic Cheese-Rolling Race Has No Permit, No Insurance, and No Plans to Stop",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNY2xQUWNoa29tNHVUU3JGYWlEdDZ0NXMwakF0RkhFQzkyZHdaY2ZKd1VTNnNGNTJKTHpFaHV0RjFEelk2cGZ3NWlXT2lGeWNUVWhzVjc0Z213d0pOck1vVGhIY3BTVHA0c3Z1RGhzRUs0Y01QZDJ6T2ZvWlpkTk94WHVJVQ?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A guide on how to grow an Atlantic Giant pumpkin, from seed selection to vine maintenance.",
-    "why_irrelevant": "tutorial-style content on a niche gardening topic."
+    "summary": "A chaotic cheese-rolling race in England continues without permits or insurance, celebrating its renegade spirit.",
+    "why_irrelevant": "It's an obscure local tradition, not your field of work."
    },
    "zh": {
-    "summary": "一份关于如何种植大西洋巨型南瓜的指南，从选种到藤蔓养护。",
-    "why_irrelevant": "教程式内容，属于小众园艺话题。"
+    "summary": "英格兰一项混乱的滚奶酪比赛在没有许可和保险的情况下继续进行，颂扬其叛逆精神。",
+    "why_irrelevant": "这是一项偏僻的当地传统，与你的工作领域无关。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "competitive cheese rolling"
  },
- "brief": "Geopolitical tensions persist as Trump scales back military drills with South Korea, Ukraine strikes Russia, and aid shortages follow Indonesia's earthquake, while research highlights advances in AI-driven medical imaging and construction error management.",
+ "brief": "Today's news spans global crises from earthquakes and wildfires to geopolitical tensions involving the US, Iran, and North Korea, while research focuses on diverse topics from data visualization to genetics.",
  "meta": {
-  "generated_at": "2026-08-17T08:58:34Z"
+  "generated_at": "2026-08-17T10:46:55Z"
  },
- "news_summary": "Top headlines include Trump's decision to reduce US-South Korea military exercises, Ukraine's large aerial attack on Russia, and Kushner's visit to Israel for Gaza peace talks, alongside natural disasters and political debates in Australia and Europe.",
- "papers_summary": "Research papers cover topics from foodstagramming to genetic correlation and brain tumor segmentation, with notable work on AR-integrated BIM for construction and bi-temporal vegetation analysis in Morocco.",
+ "news_summary": "Major stories include a deadly earthquake in Indonesia causing aid shortages, Trump's decision to cut military drills with South Korea citing relations with Kim Jong-un, ongoing US-Iran war deadline miss, and a rare sea turtle's recovery after a 5,000-mile journey.",
+ "papers_summary": "Research papers cover varied topics such as AR-integrated BIM systems, vegetation cover change using remote sensing, genetic correlation estimation, and brain tumor segmentation with incomplete MRI modalities.",
  "summaries": {
   "en": {
-   "brief": "Geopolitical tensions persist as Trump scales back military drills with South Korea, Ukraine strikes Russia, and aid shortages follow Indonesia's earthquake, while research highlights advances in AI-driven medical imaging and construction error management.",
-   "news_summary": "Top headlines include Trump's decision to reduce US-South Korea military exercises, Ukraine's large aerial attack on Russia, and Kushner's visit to Israel for Gaza peace talks, alongside natural disasters and political debates in Australia and Europe.",
-   "papers_summary": "Research papers cover topics from foodstagramming to genetic correlation and brain tumor segmentation, with notable work on AR-integrated BIM for construction and bi-temporal vegetation analysis in Morocco."
+   "brief": "Today's news spans global crises from earthquakes and wildfires to geopolitical tensions involving the US, Iran, and North Korea, while research focuses on diverse topics from data visualization to genetics.",
+   "news_summary": "Major stories include a deadly earthquake in Indonesia causing aid shortages, Trump's decision to cut military drills with South Korea citing relations with Kim Jong-un, ongoing US-Iran war deadline miss, and a rare sea turtle's recovery after a 5,000-mile journey.",
+   "papers_summary": "Research papers cover varied topics such as AR-integrated BIM systems, vegetation cover change using remote sensing, genetic correlation estimation, and brain tumor segmentation with incomplete MRI modalities."
   },
   "zh": {
-   "brief": "今日焦点包括特朗普缩减美韩军演、泰国枪枝问题、林肯号心理健康，以及靖国神社争议；学术研究则关注从信息可视化到基因关联的多个议题。",
-   "news_summary": "新闻方面，特朗普宣布缩减与韩国的联合军演，称因与金正恩关系良好；泰国枪枝泛滥问题因近期枪击事件而凸显；美军林肯号指挥官承诺优先处理船员精神健康；此外，外国超市成为游客体验当地特色的新宠，而靖国神社参拜争议仍牵动东亚关系。",
-   "papers_summary": "研究方面，涉及食物摄影的社交分享、AR-BIM在建筑错误管理中的应用、植被覆盖变化检测、基因相关性估计、寄养青年教育支持、情绪与躯体症状研究等，涵盖多个学科领域。"
+   "brief": "今日新闻聚焦泰國槍支問題、中國動畫電影黑馬、特朗普削減美韓軍演等事件；學術研究涵蓋資訊視覺化、生物醫學等領域。",
+   "news_summary": "泰國槍擊事件凸顯槍支管制失效；中國動畫《牛來》因「爛到爆紅」成為票房黑馬；特朗普以與金正恩關係良好為由縮減軍演規模，引發盟友擔憂。",
+   "papers_summary": "本日學術研究涵蓋社交媒體食物照片分析、AR-BIM施工錯誤管理、植被覆蓋變化評估等主題，多項研究採用新方法探討環境與健康議題。"
   }
  },
  "todays_image": {
-  "caption": "Like the San Francisco earthquake tag letter left amid ruins, today's morning news brief delivers urgent fragments of a world in upheaval.",
+  "caption": "The old San Francisco earthquake tag, once a token of relief, echoes today’s Indonesia quake where aid tags are all too scarce.",
   "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2018_2014_1a",
   "source_name": "National Postal Museum",
   "source_url": "https://postalmuseum.si.edu/object/npm_2018.2014.1",
