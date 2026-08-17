@@ -1,7 +1,7 @@
 {
  "meta": {
-  "count": 6,
-  "generated_at": "2026-08-17T18:55:11Z",
+  "count": 5,
+  "generated_at": "2026-08-17T20:41:24Z",
   "scope": "public"
  },
  "threads": [
@@ -10,7 +10,7 @@
     {
      "item_id": "9c50d613a3f20d6c",
      "phrase": {
-      "en": "platforms fight AI slop",
+      "en": "Platforms fight AI slop",
       "zh": "平台反击AI垃圾"
      },
      "section": "news",
@@ -18,152 +18,40 @@
      "url": "https://www.nytimes.com/2026/08/17/technology/ai-slop.html"
     },
     {
-     "item_id": "c69ca1e16da2b637",
+     "item_id": "c5c7a61aa87082a9",
      "phrase": {
-      "en": "rare books fed to AI",
-      "zh": "珍本喂给AI"
+      "en": "AI;DR tool for summaries",
+      "zh": "AI摘要工具问世"
      },
      "section": "news",
-     "source": "Simon Willison",
-     "url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/"
+     "source": "Hacker News (AI filter)",
+     "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read"
+    },
+    {
+     "item_id": "4ecd221e1dbe74c1",
+     "phrase": {
+      "en": "Amazon destroys books to train AI",
+      "zh": "亚马逊毁书训练AI"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Platforms shovel away the AI-generated muck that buried human voices.",
-    "zh": "平台铲除淹没人类声音的AI垃圾。"
+    "en": "Platforms are pushing back against AI-generated spam and low-quality content.",
+    "zh": "平台开始反击AI生成的垃圾内容和低质文本。"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI slop cleanup",
-    "zh": "AI垃圾清理"
-   },
-   "relates_to": [
-    "t2"
-   ],
-   "why_now": {
-    "en": "You care about content quality and AI's impact: today Spotify and LinkedIn push back against low-grade AI slop.",
-    "zh": "你关注内容质量，今日Spotify和LinkedIn反击低质AI内容。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "full_text_file": "articles/news/2d7433c33b813dc5.json",
-     "item_id": "2d7433c33b813dc5",
-     "phrase": {
-      "en": "AirTag reveals book trashing",
-      "zh": "AirTag揭毁书"
-     },
-     "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/"
-    },
-    {
-     "item_id": "c69ca1e16da2b637",
-     "phrase": {
-      "en": "shipment ends at AI facility",
-      "zh": "包裹终达AI基地"
-     },
-     "section": "news",
-     "source": "Simon Willison",
-     "url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "The secret lives of books and data that train AI, now under scrutiny.",
-    "zh": "训练AI的书籍与数据之秘，正受审视。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "AI data provenance",
-    "zh": "AI数据溯源"
-   },
-   "relates_to": [
-    "t1"
-   ],
-   "why_now": {
-    "en": "You follow AI ethics and data practices: a hidden AirTag exposes Amazon's use of rare books for AI training.",
-    "zh": "你关注AI伦理，今日隐藏AirTag揭露亚马逊用珍本书训练AI。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "eb085dffed249c61",
-     "phrase": {
-      "en": "Kushner meets Netanyahu",
-      "zh": "库什纳晤内塔尼亚胡"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c77gg5vn44yo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "671ec743cba240b3",
-     "phrase": {
-      "en": "no breakthrough on Gaza",
-      "zh": "加沙无突破"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/17/netanyahu-kushner-talks-gaza-israel-us-board-of-peace"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Diplomacy shuffles in the Middle East, but the door stays stuck.",
-    "zh": "中东外交穿梭，门槛依旧卡住。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "Gaza peace talks",
-    "zh": "加沙和谈"
+    "en": "AI content moderation",
+    "zh": "AI内容清理"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track geopolitics: Kushner's talks with Netanyahu yield no breakthrough, and Trump threatens Oman — a volatile mix.",
-    "zh": "你关注地缘政治，今日库什纳会谈无果，特朗普威胁阿曼。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "55cbc58b4cd60d61",
-     "phrase": {
-      "en": "French PM heckled over fires",
-      "zh": "法总理遭嘘"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cx2rzx5g5yro?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "a8bc2a988e7662c3",
-     "phrase": {
-      "en": "EU sends help as fires spread",
-      "zh": "欧盟驰援灭火"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/aug/17/europe-wildfires-france-greece-belgium-germany-climate-crisis-drought-extreme-heat-latest-news-updates"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Europe burns and politicians face the heat, literally.",
-    "zh": "欧洲燃烧，政客面对炙烤。"
-   },
-   "id": "t4",
-   "keyword": {
-    "en": "climate wildfires",
-    "zh": "气候野火"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You're interested in climate impacts: wildfires rage across Europe, and leaders get heckled — a vivid sign of the crisis.",
-    "zh": "你关注气候影响，今日欧洲野火肆虐，领导人遭嘘。"
+    "en": "You follow AI ethics: today Spotify, LinkedIn, and others are actively cleaning up AI slop, showing the industry's next big challenge.",
+    "zh": "你关注AI伦理，今日Spotify与LinkedIn等主动清理AI垃圾内容，行业下一个大挑战浮现。"
    }
   },
   {
@@ -172,76 +60,167 @@
      "item_id": "58b52ffb561f2072",
      "phrase": {
       "en": "Nvidia backs huge data center",
-      "zh": "Nvidia巨资建中心"
+      "zh": "英伟达支持巨型数据中心"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/08/17/technology/nvidia-ohio-data-center-openai.html"
     },
     {
-     "item_id": "c69ca1e16da2b637",
+     "full_text_file": "articles/news/2d7433c33b813dc5.json",
+     "item_id": "2d7433c33b813dc5",
      "phrase": {
-      "en": "AI facility in spotlight",
-      "zh": "AI设施受关注"
+      "en": "Amazon destroys books for AI",
+      "zh": "亚马逊毁书为AI训练"
      },
      "section": "news",
-     "source": "Simon Willison",
-     "url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/"
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "divergent",
    "gloss": {
-    "en": "Billions pour into giant data centers, reshaping economies and power grids.",
-    "zh": "巨额资金涌入巨型数据中心，重塑经济与电网。"
+    "en": "Tech giants pour billions into massive data centers, fueling AI but raising sustainability questions.",
+    "zh": "科技巨头重金投资大型数据中心，推动AI也引发可持续性担忧。"
    },
-   "id": "t5",
+   "id": "t2",
    "keyword": {
-    "en": "AI data centers",
-    "zh": "AI数据中心"
+    "en": "Data center investment",
+    "zh": "数据中心投资"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about AI infrastructure: Nvidia's $105B backing for an Ohio data center signals a new era of AI compute.",
-    "zh": "你关注AI基建，今日Nvidia百亿投资俄亥俄数据中心。"
+    "en": "You care about AI infrastructure: Nvidia's $105B backing and OpenAI leasing signal a major scale-up today.",
+    "zh": "你关注AI基础设施，英伟达千亿美元支持与OpenAI租赁标志大规模扩张。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "c93b1113549c975a",
+     "item_id": "8906a161536f9330",
      "phrase": {
-      "en": "Supreme Court rejects Trump",
-      "zh": "最高法驳回特朗普"
+      "en": "Trump lashes at Oman",
+      "zh": "特朗普抨击阿曼"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/17/us/politics/trump-iran-truce-oman.html"
+    },
+    {
+     "item_id": "294b8b11a1c88e48",
+     "phrase": {
+      "en": "Trump threatens bomb Oman",
+      "zh": "特朗普威胁轰炸阿曼"
      },
      "section": "news",
      "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c74gekjgrllo?at_medium=RSS&at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/cy5dzk0ryzdo?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "387d920c3e3fe7c0",
+     "item_id": "ed532b2ab326d1e7",
      "phrase": {
-      "en": "3M knew for decades",
-      "zh": "3M知情数十载"
+      "en": "Houthis strike Saudi vessel",
+      "zh": "胡塞袭击沙特船只"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/environment/2026/aug/18/3m-knew-for-more-than-50-years-that-its-products-could-harm-humans-australian-government-alleges-in-court-documents"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/17/world/middleeast/houthis-saudi-strike.html"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Courts and lawsuits hold powerful figures and firms to account.",
-    "zh": "法庭与诉讼让权贵与公司担责。"
+    "en": "Trump's pressure on Iran and Oman intensifies as a truce expires, risking wider conflict.",
+    "zh": "停火到期，特朗普对伊朗和阿曼施压升级，冲突风险加大。"
    },
-   "id": "t6",
+   "id": "t3",
    "keyword": {
-    "en": "legal accountability",
-    "zh": "法律问责"
+    "en": "US-Iran tensions",
+    "zh": "美伊紧张局势"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow legal battles and tech ethics: the Supreme Court rejects Trump's appeal, and 3M faces a government lawsuit.",
-    "zh": "你关注法律与科技伦理，今日最高法院驳回特朗普上诉，3M遭起诉。"
+    "en": "You follow geopolitics: today's threats and Houthi attacks on shipping could disrupt global stability and tech supply chains.",
+    "zh": "你关注地缘政治，今日威胁和胡塞袭击可能扰乱全球稳定与科技供应链。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "eb085dffed249c61",
+     "phrase": {
+      "en": "Kushner hails meeting",
+      "zh": "库什纳称赞会谈"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c77gg5vn44yo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "671ec743cba240b3",
+     "phrase": {
+      "en": "No breakthrough on Gaza",
+      "zh": "加沙谈判无突破"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/17/netanyahu-kushner-talks-gaza-israel-us-board-of-peace"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "US envoys and Israeli leaders struggle to break the deadlock in ceasefire talks, with no major progress yet.",
+    "zh": "美特使与以色列领导人努力打破停火谈判僵局，暂无重大进展。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "Gaza peace efforts",
+    "zh": "加沙和平努力"
+   },
+   "relates_to": [
+    "t3"
+   ],
+   "why_now": {
+    "en": "You observe negotiation dynamics: the latest meetings show how entrenched positions hinder peace, relevant to your interest in conflict resolution.",
+    "zh": "你观察谈判动态，最新会议显示立场僵化阻碍和平，与解决冲突兴趣相关。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "55cbc58b4cd60d61",
+     "phrase": {
+      "en": "French PM heckled over fires",
+      "zh": "法国总理因火灾遭嘘"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cx2rzx5g5yro?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "4d583bc9de42224e",
+     "phrase": {
+      "en": "Farmers face unprecedented crisis",
+      "zh": "农民面临空前危机"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/environment/2026/aug/17/european-farmers-unprecedented-crisis-successive-heatwaves"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Extreme heat is devastating European agriculture and triggering political blame, as wildfires rage.",
+    "zh": "极端高温重创欧洲农业并引发政治指责，野火肆虐。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "Heatwave crisis",
+    "zh": "热浪危机"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track climate data visualization: today's reports on farmer crisis and French PM heckling show the human cost and data needs.",
+    "zh": "你关注气候数据可视化，今日农民危机与法国总理被嘘显示人本成本与数据需求。"
    }
   }
  ]
