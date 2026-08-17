@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "cheese rolling championship OR Gloucestershire cheese rolling",
+  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
   "source": {
-   "name": "Runner's World",
-   "published_at": "2026-07-27T07:00:00Z",
-   "title": "This Chaotic Cheese-Rolling Race Has No Permit, No Insurance, and No Plans to Stop",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNY2xQUWNoa29tNHVUU3JGYWlEdDZ0NXMwakF0RkhFQzkyZHdaY2ZKd1VTNnNGNTJKTHpFaHV0RjFEelk2cGZ3NWlXT2lGeWNUVWhzVjc0Z213d0pOck1vVGhIY3BTVHA0c3Z1RGhzRUs0Y01QZDJ6T2ZvWlpkTk94WHVJVQ?oc=5"
+   "name": "Atlas Obscura",
+   "published_at": "2026-08-14T07:00:00Z",
+   "title": "Racing a Giant Pumpkin Boat in Goffstown’s Regatta",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaGpXMG9hekg5VXY2ZGFnRVJmb3VVVDVFYmpSUVZPc1FUdUszbDJ6T2tHdDlZZ0x1aF9nVVItZEtnOVV0NmY2bU9NbUszTDZtQzN5dm52VGlvTW9tODgwTEZQbXNjZkF4bk1yMTA1aU9wQ1YtZmR2RTJxckk2em9lUEhNUmhpQlRnR0E?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A chaotic cheese-rolling race in England continues without permits or insurance, celebrating its renegade spirit.",
-    "why_irrelevant": "It's an obscure local tradition, not your field of work."
+    "summary": "Racing giant pumpkin boats in Goffstown's regatta turns oversized gourds into quirky watercraft.",
+    "why_irrelevant": "a playful local event far from typical tech or business feeds."
    },
    "zh": {
-    "summary": "英格兰一项混乱的滚奶酪比赛在没有许可和保险的情况下继续进行，颂扬其叛逆精神。",
-    "why_irrelevant": "这是一项偏僻的当地传统，与你的工作领域无关。"
+    "summary": "戈夫斯敦的赛艇会上，巨型南瓜被改造成奇特的小船参赛。",
+    "why_irrelevant": "这是一项地方趣味活动，远离常规科技或商业资讯。"
    }
   },
-  "topic": "competitive cheese rolling"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news spans global crises from earthquakes and wildfires to geopolitical tensions involving the US, Iran, and North Korea, while research focuses on diverse topics from data visualization to genetics.",
+ "brief": "Today's news is dominated by President Trump's controversial foreign policy moves, including threats against Oman and military drill cuts with South Korea, alongside domestic issues like the UK's welfare reform proposal and the tragic death of actress Hayden Panettiere. Research highlights a diverse range of studies from AI vision models to agricultural and biomedical applications.",
  "meta": {
-  "generated_at": "2026-08-17T10:46:55Z"
+  "generated_at": "2026-08-17T13:03:27Z"
  },
- "news_summary": "Major stories include a deadly earthquake in Indonesia causing aid shortages, Trump's decision to cut military drills with South Korea citing relations with Kim Jong-un, ongoing US-Iran war deadline miss, and a rare sea turtle's recovery after a 5,000-mile journey.",
- "papers_summary": "Research papers cover varied topics such as AR-integrated BIM systems, vegetation cover change using remote sensing, genetic correlation estimation, and brain tumor segmentation with incomplete MRI modalities.",
+ "news_summary": "Key stories include Trump's threats to bomb Oman and his decision to reduce military drills with South Korea, as well as UK political debates on welfare reform and European weather changes. Also notable are the passing of actress Hayden Panettiere and ongoing Middle East peace efforts.",
+ "papers_summary": "The papers cover topics such as the latest AI vision model, methods for construction error management, vegetation cover analysis, and genetic correlation estimation, reflecting a broad spectrum of scientific inquiry.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans global crises from earthquakes and wildfires to geopolitical tensions involving the US, Iran, and North Korea, while research focuses on diverse topics from data visualization to genetics.",
-   "news_summary": "Major stories include a deadly earthquake in Indonesia causing aid shortages, Trump's decision to cut military drills with South Korea citing relations with Kim Jong-un, ongoing US-Iran war deadline miss, and a rare sea turtle's recovery after a 5,000-mile journey.",
-   "papers_summary": "Research papers cover varied topics such as AR-integrated BIM systems, vegetation cover change using remote sensing, genetic correlation estimation, and brain tumor segmentation with incomplete MRI modalities."
+   "brief": "Today's news is dominated by President Trump's controversial foreign policy moves, including threats against Oman and military drill cuts with South Korea, alongside domestic issues like the UK's welfare reform proposal and the tragic death of actress Hayden Panettiere. Research highlights a diverse range of studies from AI vision models to agricultural and biomedical applications.",
+   "news_summary": "Key stories include Trump's threats to bomb Oman and his decision to reduce military drills with South Korea, as well as UK political debates on welfare reform and European weather changes. Also notable are the passing of actress Hayden Panettiere and ongoing Middle East peace efforts.",
+   "papers_summary": "The papers cover topics such as the latest AI vision model, methods for construction error management, vegetation cover analysis, and genetic correlation estimation, reflecting a broad spectrum of scientific inquiry."
   },
   "zh": {
-   "brief": "今日新闻聚焦泰國槍支問題、中國動畫電影黑馬、特朗普削減美韓軍演等事件；學術研究涵蓋資訊視覺化、生物醫學等領域。",
-   "news_summary": "泰國槍擊事件凸顯槍支管制失效；中國動畫《牛來》因「爛到爆紅」成為票房黑馬；特朗普以與金正恩關係良好為由縮減軍演規模，引發盟友擔憂。",
-   "papers_summary": "本日學術研究涵蓋社交媒體食物照片分析、AR-BIM施工錯誤管理、植被覆蓋變化評估等主題，多項研究採用新方法探討環境與健康議題。"
+   "brief": "今日焦点包括美国多州对Meta的诉讼、泰国枪支问题、以及中国动画电影《牛来》的意外走红；同时，特朗普宣布缩减与韩国的军演规模，并威胁阿曼。",
+   "news_summary": "美国30个州起诉Meta，要求改革年轻用户社交平台；泰国枪击事件凸显枪支泛滥问题；中国动画电影《牛来》因“烂到爆红”成为票房黑马；特朗普因与金正恩关系良好而缩减美韩军演。",
+   "papers_summary": "研究涵盖社交媒体内容分析（如“Foodstagramming”）、建筑信息建模（AR-BIM）中的错误管理、以及基因关联研究等方法论进展。"
   }
  },
  "todays_image": {
-  "caption": "The old San Francisco earthquake tag, once a token of relief, echoes today’s Indonesia quake where aid tags are all too scarce.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2018_2014_1a",
-  "source_name": "National Postal Museum",
-  "source_url": "https://postalmuseum.si.edu/object/npm_2018.2014.1",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2018_2014_1a",
-  "title": "San Francisco earthquake tag letter"
+  "caption": "The feathery seed heads of Indian ricegrass resemble sweeping brushes, loosely echoing Reform's call for long-term benefits claimants to clean up high streets.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3cc4d157be5424457b6248e4176d2bef1",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3059e6c32-1b44-4fae-9b86-31ff03e16f53",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3cc4d157be5424457b6248e4176d2bef1/90",
+  "title": "Achnatherum hymenoides (Roem. & Schult.) Barkworth"
  }
 }
