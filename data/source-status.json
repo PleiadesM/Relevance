@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-17T07:13:41Z",
+ "generated_at": "2026-08-17T08:58:34Z",
  "private_summary": {
   "configured": 0,
   "total": 0
@@ -103,7 +103,7 @@
   },
   {
    "category": "open",
-   "count": 6,
+   "count": 5,
    "error": null,
    "full_text_count": 0,
    "id": "hn_frontpage_ai",
@@ -115,7 +115,7 @@
   },
   {
    "category": "open",
-   "count": 31,
+   "count": 28,
    "error": null,
    "full_text_count": 0,
    "id": "bbc_world",
@@ -199,7 +199,7 @@
   },
   {
    "category": "optional",
-   "count": 0,
+   "count": 30,
    "error": null,
    "full_text_count": 0,
    "id": "s2_datavis",
@@ -211,12 +211,12 @@
   },
   {
    "category": "optional",
-   "count": 0,
-   "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A1050-6519%2Cfrom-created-date%3A2026-07-20&rows=12&sort=created&order=desc",
+   "count": 12,
+   "error": null,
    "full_text_count": 0,
    "id": "crossref_techcomm_journals",
    "name": "TechComm journals (CrossRef)",
-   "ok": false,
+   "ok": true,
    "section": "papers",
    "skip_reason": null,
    "type": "crossref"

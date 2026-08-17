@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
   "source": {
-   "name": "sana.sy",
-   "published_at": "2026-08-14T15:30:00Z",
-   "title": "Russian gardener grows giant 360 - kg pumpkin",
-   "url": "https://sana.sy/en/miscellaneous/2336350/"
+   "name": "IGN",
+   "published_at": "2026-08-16T09:10:35Z",
+   "title": "How to Get Atlantic Giant Pumpkin",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWE0xZDltN0xxaW9jMHRua01QS2Q1b0FtV2JIaFhsWHB0NmFFYWR4X014TU5pU1MtMUZnMDIxVXpuNmtnRmRkTnhLRFFTMDBhQXRJQ0w2WHBxR1VMaUlVcHEwRWdzd3RubFMyWThMdWVLQjg5c0ZWamo5dHFGallkajZkZ0JFSXBFQ2c?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A Russian gardener grows a giant 360-kg pumpkin, as reported by sana.sy.",
-    "why_irrelevant": "This is a niche, regional news story far removed from mainstream interests."
+    "summary": "A guide on how to grow an Atlantic Giant pumpkin, from seed selection to vine maintenance.",
+    "why_irrelevant": "tutorial-style content on a niche gardening topic."
    },
    "zh": {
-    "summary": "俄罗斯一位园丁种出了重达360公斤的巨型南瓜。",
-    "why_irrelevant": "这是一则冷门区域新闻，与主流关注点相距甚远。"
+    "summary": "一份关于如何种植大西洋巨型南瓜的指南，从选种到藤蔓养护。",
+    "why_irrelevant": "教程式内容，属于小众园艺话题。"
    }
   },
   "topic": "competitive pumpkin growing"
  },
- "brief": "Today's headlines are dominated by Trump's decision to reduce military drills with South Korea, citing his relationship with North Korea, while Jared Kushner engages in rare talks with Hamas. Additionally, actor Hayden Panettiere has died, and an Ebola outbreak in DR Congo becomes the deadliest on record.",
+ "brief": "Geopolitical tensions persist as Trump scales back military drills with South Korea, Ukraine strikes Russia, and aid shortages follow Indonesia's earthquake, while research highlights advances in AI-driven medical imaging and construction error management.",
  "meta": {
-  "generated_at": "2026-08-17T07:13:41Z"
+  "generated_at": "2026-08-17T08:58:34Z"
  },
- "news_summary": "Trump orders Pentagon to curtail joint exercises with South Korea, praising North Korea, as Kushner meets with Netanyahu after rare Hamas talks. Other stories include Australian political controversy, Cuban hardships, and a deadly Ebola outbreak.",
- "papers_summary": "Research papers cover diverse topics including foodstagramming, AR-BIM systems, genetic correlation, and brain tumor segmentation, but none directly relate to the major news events.",
+ "news_summary": "Top headlines include Trump's decision to reduce US-South Korea military exercises, Ukraine's large aerial attack on Russia, and Kushner's visit to Israel for Gaza peace talks, alongside natural disasters and political debates in Australia and Europe.",
+ "papers_summary": "Research papers cover topics from foodstagramming to genetic correlation and brain tumor segmentation, with notable work on AR-integrated BIM for construction and bi-temporal vegetation analysis in Morocco.",
  "summaries": {
   "en": {
-   "brief": "Today's headlines are dominated by Trump's decision to reduce military drills with South Korea, citing his relationship with North Korea, while Jared Kushner engages in rare talks with Hamas. Additionally, actor Hayden Panettiere has died, and an Ebola outbreak in DR Congo becomes the deadliest on record.",
-   "news_summary": "Trump orders Pentagon to curtail joint exercises with South Korea, praising North Korea, as Kushner meets with Netanyahu after rare Hamas talks. Other stories include Australian political controversy, Cuban hardships, and a deadly Ebola outbreak.",
-   "papers_summary": "Research papers cover diverse topics including foodstagramming, AR-BIM systems, genetic correlation, and brain tumor segmentation, but none directly relate to the major news events."
+   "brief": "Geopolitical tensions persist as Trump scales back military drills with South Korea, Ukraine strikes Russia, and aid shortages follow Indonesia's earthquake, while research highlights advances in AI-driven medical imaging and construction error management.",
+   "news_summary": "Top headlines include Trump's decision to reduce US-South Korea military exercises, Ukraine's large aerial attack on Russia, and Kushner's visit to Israel for Gaza peace talks, alongside natural disasters and political debates in Australia and Europe.",
+   "papers_summary": "Research papers cover topics from foodstagramming to genetic correlation and brain tumor segmentation, with notable work on AR-integrated BIM for construction and bi-temporal vegetation analysis in Morocco."
   },
   "zh": {
-   "brief": "今日新闻聚焦泰国枪枝问题、美国航母精神健康、靖国神社争议等，研究则涉及社交媒体饮食行为分析与建筑信息模型错误管理。",
-   "news_summary": "泰国枪枝氾滥问题引发关注；美军官承认航母海上服役挑战；外媒探讨外国超市旅游吸引力；女性投资与月经知识传播成热议；靖国神社参拜再成东亚焦点。",
-   "papers_summary": "相关研究探讨社交媒体饮食帖文分析、AR-BIM系统在建筑错误管理的角色，以及棉花纤维自动分割技术。"
+   "brief": "今日焦点包括特朗普缩减美韩军演、泰国枪枝问题、林肯号心理健康，以及靖国神社争议；学术研究则关注从信息可视化到基因关联的多个议题。",
+   "news_summary": "新闻方面，特朗普宣布缩减与韩国的联合军演，称因与金正恩关系良好；泰国枪枝泛滥问题因近期枪击事件而凸显；美军林肯号指挥官承诺优先处理船员精神健康；此外，外国超市成为游客体验当地特色的新宠，而靖国神社参拜争议仍牵动东亚关系。",
+   "papers_summary": "研究方面，涉及食物摄影的社交分享、AR-BIM在建筑错误管理中的应用、植被覆盖变化检测、基因相关性估计、寄养青年教育支持、情绪与躯体症状研究等，涵盖多个学科领域。"
   }
  },
  "todays_image": {
-  "caption": "A ghostly march of an American patrol echoes ironically over a landscape where modern Russian patrols now meet deadly Ukrainian strikes.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=SIL-SIL40-0329-01_crop&max=1000",
-  "source_name": "Smithsonian Libraries",
-  "source_url": "https://siris-libraries.si.edu/ipac20/ipac.jsp?&profile=liball&source=~!silibraries&uri=full=3100001~!980040~!0#focus",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SIL-SIL40-0329-01_crop&max=150",
-  "title": "American patrol march F.W. Meacham"
+  "caption": "Like the San Francisco earthquake tag letter left amid ruins, today's morning news brief delivers urgent fragments of a world in upheaval.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2018_2014_1a",
+  "source_name": "National Postal Museum",
+  "source_url": "https://postalmuseum.si.edu/object/npm_2018.2014.1",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2018_2014_1a",
+  "title": "San Francisco earthquake tag letter"
  }
 }

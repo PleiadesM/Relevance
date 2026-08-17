@@ -1,7 +1,7 @@
 {
  "meta": {
   "count": 3,
-  "generated_at": "2026-08-17T07:13:41Z",
+  "generated_at": "2026-08-17T08:58:34Z",
   "scope": "public"
  },
  "threads": [
@@ -10,8 +10,8 @@
     {
      "item_id": "8108bfa584efba5c",
      "phrase": {
-      "en": "Pentagon curtails exercises",
-      "zh": "五角大楼缩减演习"
+      "en": "frames as punishment for Iran",
+      "zh": "视为对伊朗的惩罚"
      },
      "section": "news",
      "source": "The New York Times",
@@ -20,8 +20,8 @@
     {
      "item_id": "c453ec1ac0f450dc",
      "phrase": {
-      "en": "NPR reports scaling back",
-      "zh": "NPR报道缩减规模"
+      "en": "frames as denuclearization snub",
+      "zh": "视为无核化冷落"
      },
      "section": "news",
      "source": "NPR News",
@@ -30,53 +30,39 @@
     {
      "item_id": "0e0631a1b99d9f8b",
      "phrase": {
-      "en": "drills cut despite warnings",
-      "zh": "无视警告削减演习"
+      "en": "frames with military warnings",
+      "zh": "带有军事警告"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/world/2026/aug/17/trump-cuts-south-korea-joint-drills-us-military-good-relationship-kim-jong-un"
-    },
-    {
-     "item_id": "3813a88ce0b5536c",
-     "phrase": {
-      "en": "BBC notes good relations",
-      "zh": "BBC提良好关系"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Trump reduces joint exercises with South Korea, citing Iran and North Korea ties.",
-    "zh": "特朗普以伊朗和朝鲜关系为由缩减与韩国的联合军演。"
+    "en": "Trump cuts joint exercises with Seoul, citing ties with Pyongyang.",
+    "zh": "特朗普削减与韩联合演习，称与平壤关系良好。"
    },
    "id": "t1",
    "keyword": {
-    "en": "US-South Korea military drills cut",
-    "zh": "美韩军演缩减"
+    "en": "US-South Korea drills",
+    "zh": "美韩军演"
    },
    "relates_to": [],
    "timeline": [
     {
      "date": "2026-06",
-     "item_id": "d722a2a40f928cb4",
      "label": {
-      "en": "cease-fire in June",
-      "zh": "六月停火"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/17/world/middleeast/iran-mou-deadline.html"
+      "en": "cease-fire agreed",
+      "zh": "达成停火"
+     }
     },
     {
      "date": "2026-08-17",
      "item_id": "8108bfa584efba5c",
      "label": {
       "en": "drill cuts ordered",
-      "zh": "下令削减军演"
+      "zh": "下令削减演习"
      },
      "section": "news",
      "source": "The New York Times",
@@ -84,86 +70,164 @@
     }
    ],
    "why_now": {
-    "en": "You track geopolitics and alliances: this shift alters regional security dynamics.",
-    "zh": "你关注地缘政治和联盟：这一转变改变地区安全动态。"
+    "en": "You track geopolitics and tech policy; today's order shifts alliance dynamics you care about.",
+    "zh": "你关注地缘政治与科技政策，今日命令改变你关心的联盟动态。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "bfac00b5f618173e",
+     "item_id": "a07e4dde432a4267",
      "phrase": {
-      "en": "sensor-fused agents",
-      "zh": "传感器融合代理"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.14273v1"
-    },
-    {
-     "item_id": "b1e22db5844eb5e6",
-     "phrase": {
-      "en": "EEG decoding with CNN",
-      "zh": "CNN解码脑电图"
+      "en": "frames as interpretive aid",
+      "zh": "视为解释性辅助"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.13285v1"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Sensors and AI converge for health and wellbeing monitoring.",
-    "zh": "传感器和AI融合用于健康监测。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "wearable health sensing",
-    "zh": "可穿戴健康传感"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow HCI and embodied AI: this trend integrates sensing with interaction.",
-    "zh": "你关注人机交互和具身AI：这一趋势整合传感与交互。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "6c8234a1db1eaf16",
-     "phrase": {
-      "en": "100 homes swept away",
-      "zh": "百栋房屋被冲走"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss"
+     "url": "https://arxiv.org/abs/2608.13944v1"
     },
     {
-     "item_id": "0f47347b136134c4",
+     "item_id": "62989d6c0698801f",
      "phrase": {
-      "en": "Lala weakens after havoc",
-      "zh": "拉拉肆虐后减弱"
+      "en": "frames via behavioral data",
+      "zh": "通过行为数据"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.12582v1"
+    },
+    {
+     "item_id": "7ecd96ed4e0b15eb",
+     "phrase": {
+      "en": "frames as rendering tool",
+      "zh": "视为渲染工具"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/16/hurricane-lala-hawaii-big-island-avoids-landfall"
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Hurricane Lala wreaks havoc, homes swept and power out.",
-    "zh": "飓风拉拉肆虐，房屋被冲走，电力中断。"
+    "en": "LLMs shift from generators to sounding boards in art and writing.",
+    "zh": "大语言模型从生成者转为艺术与写作的共鸣板。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "AI in creative practice",
+    "zh": "AI创意实践"
+   },
+   "relates_to": [
+    "t3"
+   ],
+   "timeline": [
+    {
+     "date": "2026-05",
+     "label": {
+      "en": "markdown tool started",
+      "zh": "Markdown工具启动"
+     }
+    },
+    {
+     "date": "2026-08-13",
+     "item_id": "62989d6c0698801f",
+     "label": {
+      "en": "journaling study released",
+      "zh": "日志研究发布"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.12582v1"
+    },
+    {
+     "date": "2026-08-14",
+     "item_id": "a07e4dde432a4267",
+     "label": {
+      "en": "songwriting paper out",
+      "zh": "歌曲写作论文"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.13944v1"
+    },
+    {
+     "date": "2026-08-16",
+     "item_id": "7ecd96ed4e0b15eb",
+     "label": {
+      "en": "markdown upgrades detailed",
+      "zh": "Markdown升级详情"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/"
+    }
+   ],
+   "why_now": {
+    "en": "You follow LLMs and HCI; today's papers and tools show concrete turns in human-AI collaboration.",
+    "zh": "你关注大语言模型与人机交互，今日论文与工具展示人机协作的具体转向。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "83c5174fc9cc07a9",
+     "phrase": {
+      "en": "frames as hype critique",
+      "zh": "视为炒作批判"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://duti.dev/blog/2026/spr/"
+    },
+    {
+     "item_id": "62989d6c0698801f",
+     "phrase": {
+      "en": "frames as adaptive assistant",
+      "zh": "视为自适应助手"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.12582v1"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Language models move beyond text to act as autonomous agents in complex tasks.",
+    "zh": "语言模型超越文本，成为复杂任务中的自主代理。"
    },
    "id": "t3",
    "keyword": {
-    "en": "Hawaii hurricane impact",
-    "zh": "夏威夷飓风影响"
+    "en": "LLM agents",
+    "zh": "LLM代理"
    },
    "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-14",
+     "item_id": "62989d6c0698801f",
+     "label": {
+      "en": "agentic HCI papers",
+      "zh": "代理HCI论文"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.12582v1"
+    },
+    {
+     "date": "2026-08-17",
+     "item_id": "83c5174fc9cc07a9",
+     "label": {
+      "en": "AI hackathon rants",
+      "zh": "AI黑客松吐槽"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://duti.dev/blog/2026/spr/"
+    }
+   ],
    "why_now": {
-    "en": "You track climate and disasters: this event highlights infrastructure vulnerability.",
-    "zh": "你关注气候和灾害：这一事件凸显基础设施脆弱性。"
+    "en": "You follow cutting-edge AI; today's reports from different angles signal the field's pivot toward agency.",
+    "zh": "你关注前沿AI，今日多方报道标志该领域转向自主性。"
    }
   }
  ]
