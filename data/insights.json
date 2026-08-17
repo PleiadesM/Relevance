@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "Cornwall coastal rowing regatta OR gig rowing championship",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "Yachting Monthly",
-   "published_at": "2026-08-13T04:00:50Z",
-   "title": "Notes from the World Pilot Gig Championships: 'We watched a glorious parade of gigs pass metres from our stern'",
-   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOTmg2WVE4dzNUSDF0STdUU3J1eGg0a0d0bnZ3bXd4bTY4NHNYcjljVEVaVmFVSG9pR3M0OXhWTHdfS2tXOWVod043V3lwel90cVV5YzlwRHlLc3pWUDBXaXJoUWMzdWFFUmJaUFd6NVNXSjFQQ0RUNlRXNGhfUk5mTDlYQndnU2hxZmgtYjJNaWRyclRaeVNyT3BMaGR5Zkw2b3pFUUhDYzgxUjdCcms2SHJhZmY4VUZzUVB4Y1FQNFZUN1RRVm1SMXdDMGdMdHUwT0Ytdi0wODFRcG1sWi1BTmhsQ09WTzFCNFZlem9n?oc=5"
+   "name": "sana.sy",
+   "published_at": "2026-08-14T15:30:00Z",
+   "title": "Russian gardener grows giant 360 - kg pumpkin",
+   "url": "https://sana.sy/en/miscellaneous/2336350/"
   },
   "summaries": {
    "en": {
-    "summary": "A report from the World Pilot Gig Championships describes the parade of traditional gig boats passing close by.",
-    "why_irrelevant": "It's a niche maritime event far from typical personal interests."
+    "summary": "A Russian gardener grows a giant 360-kg pumpkin, as reported by sana.sy.",
+    "why_irrelevant": "This is a niche, regional news story far removed from mainstream interests."
    },
    "zh": {
-    "summary": "一篇来自世界领航艇锦标赛的报道描述了传统赛艇从旁经过的壮观场面。",
-    "why_irrelevant": "这是一项小众水上赛事，与日常关注点相距甚远。"
+    "summary": "俄罗斯一位园丁种出了重达360公斤的巨型南瓜。",
+    "why_irrelevant": "这是一则冷门区域新闻，与主流关注点相距甚远。"
    }
   },
-  "topic": "coastal rowing regattas in Cornwall"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news is marked by the death of actress Hayden Panettiere, geopolitical tensions involving Trump's decisions on South Korea and Iran, and severe weather events, while research covers diverse topics from social media behavior to medical imaging.",
+ "brief": "Today's headlines are dominated by Trump's decision to reduce military drills with South Korea, citing his relationship with North Korea, while Jared Kushner engages in rare talks with Hamas. Additionally, actor Hayden Panettiere has died, and an Ebola outbreak in DR Congo becomes the deadliest on record.",
  "meta": {
-  "generated_at": "2026-08-17T04:55:37Z"
+  "generated_at": "2026-08-17T07:13:41Z"
  },
- "news_summary": "The news includes the passing of Hayden Panettiere, Trump's scaling back of South Korea drills, an Ebola outbreak in DR Congo, a deadly landslide in South Korea, and Australian political developments, among other stories.",
- "papers_summary": "Research topics range from foodstagramming behavior and AR in construction to genetic correlation methods and deep learning for cotton fiber analysis, reflecting diverse academic interests.",
+ "news_summary": "Trump orders Pentagon to curtail joint exercises with South Korea, praising North Korea, as Kushner meets with Netanyahu after rare Hamas talks. Other stories include Australian political controversy, Cuban hardships, and a deadly Ebola outbreak.",
+ "papers_summary": "Research papers cover diverse topics including foodstagramming, AR-BIM systems, genetic correlation, and brain tumor segmentation, but none directly relate to the major news events.",
  "summaries": {
   "en": {
-   "brief": "Today's news is marked by the death of actress Hayden Panettiere, geopolitical tensions involving Trump's decisions on South Korea and Iran, and severe weather events, while research covers diverse topics from social media behavior to medical imaging.",
-   "news_summary": "The news includes the passing of Hayden Panettiere, Trump's scaling back of South Korea drills, an Ebola outbreak in DR Congo, a deadly landslide in South Korea, and Australian political developments, among other stories.",
-   "papers_summary": "Research topics range from foodstagramming behavior and AR in construction to genetic correlation methods and deep learning for cotton fiber analysis, reflecting diverse academic interests."
+   "brief": "Today's headlines are dominated by Trump's decision to reduce military drills with South Korea, citing his relationship with North Korea, while Jared Kushner engages in rare talks with Hamas. Additionally, actor Hayden Panettiere has died, and an Ebola outbreak in DR Congo becomes the deadliest on record.",
+   "news_summary": "Trump orders Pentagon to curtail joint exercises with South Korea, praising North Korea, as Kushner meets with Netanyahu after rare Hamas talks. Other stories include Australian political controversy, Cuban hardships, and a deadly Ebola outbreak.",
+   "papers_summary": "Research papers cover diverse topics including foodstagramming, AR-BIM systems, genetic correlation, and brain tumor segmentation, but none directly relate to the major news events."
   },
   "zh": {
-   "brief": "今日新闻关注美军航母人员心理健康、女性投资趋势及靖国神社争议，同时国际上有明星逝世、地区冲突与自然灾害等动态。",
-   "news_summary": "中文新闻聚焦美军航母心理健康、外国超市文化体验、女性投资差异、靖国神社争议及Z世代月经知识普及；国际新闻包括Hayden Panettiere去世、加沙和平谈判、刚果埃博拉疫情等。",
-   "papers_summary": "研究论文涉及信息可视化、生物医学与农业技术，如社交媒体内容分析、AR-BIM系统、植被覆盖评估及深度学习应用，但中文简报暂无研究摘要。"
+   "brief": "今日新闻聚焦泰国枪枝问题、美国航母精神健康、靖国神社争议等，研究则涉及社交媒体饮食行为分析与建筑信息模型错误管理。",
+   "news_summary": "泰国枪枝氾滥问题引发关注；美军官承认航母海上服役挑战；外媒探讨外国超市旅游吸引力；女性投资与月经知识传播成热议；靖国神社参拜再成东亚焦点。",
+   "papers_summary": "相关研究探讨社交媒体饮食帖文分析、AR-BIM系统在建筑错误管理的角色，以及棉花纤维自动分割技术。"
   }
  },
  "todays_image": {
-  "caption": "The audience chairs, once filled with hopeful guests and stars, now sit empty like the spotlight that has dimmed for Hayden Panettiere, a familiar face from the screen’s own stage.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2016_7_6_001",
-  "source_name": "National Museum of African American History and Culture",
-  "source_url": "https://nmaahc.si.edu/object/nmaahc_2016.7.6",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2016_7_6_001",
-  "title": "Audience chairs from the set of The Oprah Winfrey Show at Harpo Studios"
+  "caption": "A ghostly march of an American patrol echoes ironically over a landscape where modern Russian patrols now meet deadly Ukrainian strikes.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=SIL-SIL40-0329-01_crop&max=1000",
+  "source_name": "Smithsonian Libraries",
+  "source_url": "https://siris-libraries.si.edu/ipac20/ipac.jsp?&profile=liball&source=~!silibraries&uri=full=3100001~!980040~!0#focus",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SIL-SIL40-0329-01_crop&max=150",
+  "title": "American patrol march F.W. Meacham"
  }
 }

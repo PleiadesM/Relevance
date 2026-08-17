@@ -1,115 +1,139 @@
 {
  "meta": {
-  "count": 5,
-  "generated_at": "2026-08-17T04:55:37Z",
+  "count": 3,
+  "generated_at": "2026-08-17T07:13:41Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "6c1c075a21097ba8",
+     "item_id": "8108bfa584efba5c",
      "phrase": {
-      "en": "Report contains AI hallucinations",
-      "zh": "报告包含AI幻觉"
+      "en": "Pentagon curtails exercises",
+      "zh": "五角大楼缩减演习"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/16/us/politics/trump-south-korea-military-exercises.html"
+    },
+    {
+     "item_id": "c453ec1ac0f450dc",
+     "phrase": {
+      "en": "NPR reports scaling back",
+      "zh": "NPR报道缩减规模"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/17/g-s1-138969/trump-exercises-south-korea"
+    },
+    {
+     "item_id": "0e0631a1b99d9f8b",
+     "phrase": {
+      "en": "drills cut despite warnings",
+      "zh": "无视警告削减演习"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/australia-news/2026/aug/17/australia-social-media-ban-report-ai-hallucinations-ntwnfb"
+     "url": "https://www.theguardian.com/world/2026/aug/17/trump-cuts-south-korea-joint-drills-us-military-good-relationship-kim-jong-un"
     },
     {
-     "item_id": "960607a846148f95",
+     "item_id": "3813a88ce0b5536c",
      "phrase": {
-      "en": "Gmail glitch causes misdelivery",
-      "zh": "Gmail故障导致误投递"
+      "en": "BBC notes good relations",
+      "zh": "BBC提良好关系"
      },
      "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://boston.conman.org/2026/08/11.1"
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "A trusted report is found laced with phantom references, shaking faith in AI-assisted work.",
-    "zh": "一份受信任的报告被发现掺杂幽灵引用，动摇了人们对AI辅助工作的信心。"
+    "en": "Trump reduces joint exercises with South Korea, citing Iran and North Korea ties.",
+    "zh": "特朗普以伊朗和朝鲜关系为由缩减与韩国的联合军演。"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI hallucinations",
-    "zh": "AI幻觉"
+    "en": "US-South Korea military drills cut",
+    "zh": "美韩军演缩减"
    },
    "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-06",
+     "item_id": "d722a2a40f928cb4",
+     "label": {
+      "en": "cease-fire in June",
+      "zh": "六月停火"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/17/world/middleeast/iran-mou-deadline.html"
+    },
+    {
+     "date": "2026-08-17",
+     "item_id": "8108bfa584efba5c",
+     "label": {
+      "en": "drill cuts ordered",
+      "zh": "下令削减军演"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/16/us/politics/trump-south-korea-military-exercises.html"
+    }
+   ],
    "why_now": {
-    "en": "You care about AI reliability in HCI and technical writing; today's Senate hearing exposes the risk of AI-generated falsehoods in official documents.",
-    "zh": "你关注HCI和技术写作中的AI可靠性；今日参议院听证会揭露了官方文件中AI生成虚假信息的风险。"
+    "en": "You track geopolitics and alliances: this shift alters regional security dynamics.",
+    "zh": "你关注地缘政治和联盟：这一转变改变地区安全动态。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "a07e4dde432a4267",
+     "item_id": "bfac00b5f618173e",
      "phrase": {
-      "en": "LLM as sounding board",
-      "zh": "LLM作为共鸣板"
+      "en": "sensor-fused agents",
+      "zh": "传感器融合代理"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.14273v1"
+    },
+    {
+     "item_id": "b1e22db5844eb5e6",
+     "phrase": {
+      "en": "EEG decoding with CNN",
+      "zh": "CNN解码脑电图"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.13944v1"
-    },
-    {
-     "item_id": "222032ef1499b640",
-     "phrase": {
-      "en": "Qwen defaults to overthinking",
-      "zh": "Qwen默认过度思考"
-     },
-     "section": "news",
-     "source": "Simon Willison",
-     "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/"
+     "url": "https://arxiv.org/abs/2608.13285v1"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Creative tools and open models push boundaries, from songwriting to thinking-too-much LLMs.",
-    "zh": "创意工具和开放模型突破边界，从写歌到过度思考的大语言模型。"
+    "en": "Sensors and AI converge for health and wellbeing monitoring.",
+    "zh": "传感器和AI融合用于健康监测。"
    },
    "id": "t2",
    "keyword": {
-    "en": "Generative AI",
-    "zh": "生成式AI"
+    "en": "wearable health sensing",
+    "zh": "可穿戴健康传感"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow LLMs and creativity; today brings a study on AI as a sounding board and a new Qwen model that overdoes introspection.",
-    "zh": "你关注大语言模型与创意，今天有关于AI作为共鸣板的研究和一个过度内省的Qwen新模型。"
+    "en": "You follow HCI and embodied AI: this trend integrates sensing with interaction.",
+    "zh": "你关注人机交互和具身AI：这一趋势整合传感与交互。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "bd394cdb35b7216d",
-     "phrase": {
-      "en": "Landslide in South Korea",
-      "zh": "韩国山体滑坡"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cvgww971nn2o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "25dfe9922ba77754",
-     "phrase": {
-      "en": "Indiana braces for more rain",
-      "zh": "印第安纳准备更多降雨"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/16/us/indiana-storms-flooding.html"
-    },
-    {
      "item_id": "6c8234a1db1eaf16",
      "phrase": {
-      "en": "Hurricane Lala hits Hawaii",
-      "zh": "飓风拉拉袭夏威夷"
+      "en": "100 homes swept away",
+      "zh": "百栋房屋被冲走"
      },
      "section": "news",
      "source": "BBC World",
@@ -118,146 +142,28 @@
     {
      "item_id": "0f47347b136134c4",
      "phrase": {
-      "en": "Lala weakens after devastating Hawaii",
-      "zh": "拉拉减弱但已重创夏威夷"
+      "en": "Lala weakens after havoc",
+      "zh": "拉拉肆虐后减弱"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/world/2026/aug/16/hurricane-lala-hawaii-big-island-avoids-landfall"
-    },
-    {
-     "item_id": "4bea14ea3f5e7a5c",
-     "phrase": {
-      "en": "Floods in Indiana kill several",
-      "zh": "印第安纳洪水致多人死亡"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/16/nx-s1-5934670/indiana-flooding-deaths"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "From Hawaii hurricanes to Indiana floods, extreme weather wreaks havoc across the globe.",
-    "zh": "从夏威夷飓风到印第安纳洪水，极端天气在全球肆虐。"
+    "en": "Hurricane Lala wreaks havoc, homes swept and power out.",
+    "zh": "飓风拉拉肆虐，房屋被冲走，电力中断。"
    },
    "id": "t3",
    "keyword": {
-    "en": "climate disasters",
-    "zh": "气候灾难"
+    "en": "Hawaii hurricane impact",
+    "zh": "夏威夷飓风影响"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You think about data visualization of environmental data; today's storm coverage shows how multiple regions are hit simultaneously.",
-    "zh": "你思考环境数据的可视化，今日风暴报道显示多个地区同时受灾。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "1891913df2e402a5",
-     "phrase": {
-      "en": "Ralph Carr in living hell",
-      "zh": "拉尔夫·卡尔身处活地狱"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/australia-news/2026/aug/17/ralph-carr-in-living-hell-after-being-convicted-of-victorian-court-hears-ntwnfb"
-    },
-    {
-     "item_id": "60d45cd2711ae991",
-     "phrase": {
-      "en": "Alan Jones alleged kiss",
-      "zh": "艾伦·琼斯被指亲吻"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/australia-news/2026/aug/17/alan-jones-allegedly-kissed-driver-in-wardrobe-james-packer-personal-suite-crown-towers-ntwnfb"
-    },
-    {
-     "item_id": "3c417976750a258b",
-     "phrase": {
-      "en": "Fraudster in Farage's circle",
-      "zh": "法拉奇圈子里的骗子"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/17/world/europe/posh-george-nigel-farage-reform.html"
-    }
-   ],
-   "convergence": "divergent",
-   "gloss": {
-    "en": "Fraud, assault, and misconduct accusations plague public figures, from UK politics to Australian media.",
-    "zh": "欺诈、性侵和行为不端指控困扰公众人物，从英国政坛到澳大利亚媒体。"
-   },
-   "id": "t4",
-   "keyword": {
-    "en": "political scandals",
-    "zh": "政治丑闻"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You may be interested in visual rhetoric of public image; today's headlines show how scandals reshape reputations.",
-    "zh": "你可能对公共形象的视觉修辞感兴趣，今日头条显示丑闻如何重塑声誉。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "d722a2a40f928cb4",
-     "phrase": {
-      "en": "US-Iran deal deadline missed",
-      "zh": "美伊协议期限错过"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/17/world/middleeast/iran-mou-deadline.html"
-    },
-    {
-     "item_id": "0e0631a1b99d9f8b",
-     "phrase": {
-      "en": "Trump cuts Korea drills",
-      "zh": "特朗普削减韩美军演"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/17/trump-cuts-south-korea-joint-drills-us-military-good-relationship-kim-jong-un"
-    },
-    {
-     "item_id": "eb085dffed249c61",
-     "phrase": {
-      "en": "Kushner arrives in Israel",
-      "zh": "库什纳抵达以色列"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c77gg5vn44yo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "f5e8ff521dfaf7eb",
-     "phrase": {
-      "en": "Kushner meets Hamas",
-      "zh": "库什纳会见哈马斯"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/16/world/middleeast/kushner-hamas-talks.html"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Trump's moves reshape Middle East peace and security alliances, from Gaza to Korea.",
-    "zh": "特朗普的举动重塑中东和平与安全联盟，从加沙到韩国。"
-   },
-   "id": "t5",
-   "keyword": {
-    "en": "US foreign policy",
-    "zh": "美国外交政策"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow international relations and HCI of diplomacy; today's Kushner visit and drill cuts signal major shifts.",
-    "zh": "你关注国际关系和外交的HCI，今日库什纳访问和军演削减标志着重大转变。"
+    "en": "You track climate and disasters: this event highlights infrastructure vulnerability.",
+    "zh": "你关注气候和灾害：这一事件凸显基础设施脆弱性。"
    }
   }
  ]
