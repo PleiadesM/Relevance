@@ -1,0 +1,174 @@
+{
+ "meta": {
+  "count": 3,
+  "generated_at": "2026-08-17T14:41:38Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "17b19cab134f364c",
+     "phrase": {
+      "en": "calls decision 'inane, haphazard'",
+      "zh": "称决定“荒谬草率”"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/live/2026/aug/17/politics-trump-south-korea-military-pentagon-republicans-democrats"
+    },
+    {
+     "item_id": "02d10b156b6c301f",
+     "phrase": {
+      "en": "strains alliance with South",
+      "zh": "与韩国同盟紧张"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/17/world/asia/trump-korea-military-kim-jong-un.html"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Trump's overture to North Korea puts old allies at odds.",
+    "zh": "特朗普示好朝鲜，旧盟友生嫌隙。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "Korea alliance strain",
+    "zh": "韩美同盟紧张"
+   },
+   "relates_to": [
+    "t2"
+   ],
+   "timeline": [
+    {
+     "date": "2026-06-01",
+     "label": {
+      "en": "cease-fire agreed",
+      "zh": "达成停火"
+     }
+    },
+    {
+     "date": "2026-08-17",
+     "item_id": "17b19cab134f364c",
+     "label": {
+      "en": "drills cut, ally anger",
+      "zh": "军演缩减盟友不满"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/live/2026/aug/17/politics-trump-south-korea-military-pentagon-republicans-democrats"
+    }
+   ],
+   "why_now": {
+    "en": "You follow geopolitics: today's drill cuts and alliance friction redraw the map.",
+    "zh": "你关注地缘政治：今日军演缩减与同盟摩擦重绘版图。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "full_text_file": "articles/news/b4e4bc1740afa2d0.json",
+     "item_id": "b4e4bc1740afa2d0",
+     "phrase": {
+      "en": "explains invisible text watermarks",
+      "zh": "解释不可见文本水印"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system"
+    },
+    {
+     "item_id": "3073dfac5179a0ca",
+     "phrase": {
+      "en": "pauses AI scanning after error",
+      "zh": "出错后暂停AI扫描"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/technology/2026/aug/17/humiliated-sainsburys-store-pauses-ai-scanning-after-false-shoplifting-accusation"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "AI systems face new rules demanding explainability.",
+    "zh": "AI系统面临新的可解释性要求。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "AI transparency",
+    "zh": "AI透明度"
+   },
+   "relates_to": [
+    "t3"
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-14",
+     "label": {
+      "en": "watermark plan announced",
+      "zh": "水印计划公布"
+     }
+    },
+    {
+     "date": "2026-08-17",
+     "full_text_file": "articles/news/b4e4bc1740afa2d0.json",
+     "item_id": "b4e4bc1740afa2d0",
+     "label": {
+      "en": "details clarified",
+      "zh": "细节澄清"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system"
+    }
+   ],
+   "why_now": {
+    "en": "You care about HCI and critical visualization: watermarks and audits are now concrete.",
+    "zh": "你关心人机交互与批判可视化：水印与审计已落地。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "a3e8c1e6a3b04435",
+     "phrase": {
+      "en": "rare books end at AI facility",
+      "zh": "珍本书流入AI设施"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/"
+    },
+    {
+     "item_id": "29a28656b9eeea1e",
+     "phrase": {
+      "en": "China wants its data to power AI",
+      "zh": "中国欲以数据驱动AI"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/17/world/asia/china-ai-data-chatbots.html"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "What feeds AI models becomes a geopolitical and ethical flashpoint.",
+    "zh": "AI模型的喂养来源成为地缘与伦理焦点。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "AI data sourcing",
+    "zh": "AI数据来源"
+   },
+   "relates_to": [
+    "t2"
+   ],
+   "why_now": {
+    "en": "You track LLM data practices: book shipments into training facilities and China's data ambitions are today's hooks.",
+    "zh": "你追踪大模型数据实践：书籍入训练设施与中国数据雄心是今日焦点。"
+   }
+  }
+ ]
+}
