@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "worm charming championship OR worm grunting",
+  "query": "(\"snail racing championship\" OR \"world snail racing\")",
   "source": {
-   "name": "Country Life",
-   "published_at": "2026-08-16T08:00:00Z",
-   "title": "Would you still charm me if I was a worm?",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZ01ldHJyb3hDMGw3cEF2WEFYMzE2R09EMHhoS3BDR3JORWhNN0JrWHlzZEpuQTgzU0NvTFJ6Skw4UnFfNzlVVHhka0FWMWxTM1BySy1ud1ZIMmhBRDRWOXJEWXpRUDhUcHp3aDd4eUR1VEE0VVNpOTRSenBmWUxXUVdvUnZkSzd4YmVWLWc5SExtN3p1VkdpLWVQU0RRQkE?oc=5"
+   "name": "newstatesman.com",
+   "published_at": "2026-08-11T04:15:00Z",
+   "title": "Searching for the world fastest snail",
+   "url": "https://www.newstatesman.com/this-england/2026/08/searching-for-the-words-fastest-snail"
   },
   "summaries": {
    "en": {
-    "summary": "A whimsical Country Life article ponders whether love endures if one partner becomes a worm, tied to the quirky tradition of worm charming.",
-    "why_irrelevant": "An offbeat rural pastime with no bearing on modern tech or policy debates."
+    "summary": "A New Statesman feature chronicles the eccentric pursuit of finding the world's fastest racing snail.",
+    "why_irrelevant": "A novelty subculture far from typical news and personal interests."
    },
    "zh": {
-    "summary": "《乡村生活》一篇幽默文章探讨若爱人变成蠕虫，爱情是否依旧，与逗引蠕虫的古怪传统相关。",
-    "why_irrelevant": "偏门乡村消遣，与科技或政策话题毫无关联。"
+    "summary": "《新政治家》一篇特写报道了寻找世界上最快赛蜗牛的奇特追求。",
+    "why_irrelevant": "一个远离常规新闻与个人兴趣的猎奇亚文化。"
    }
   },
-  "topic": "The International Worm charming Championship"
+  "topic": "competitive snail racing"
  },
- "brief": "US threats over Iran and Gulf tensions dominate, alongside domestic political and legal developments, while research covers diverse topics from AI to agriculture.",
+ "brief": "Today's news spans legal, political, and social issues, from Trump's legal battles and military decisions to notable deaths and policy changes. Research covers diverse topics from social media behavior to medical imaging and agriculture.",
  "meta": {
-  "generated_at": "2026-08-17T16:43:44Z"
+  "generated_at": "2026-08-17T18:55:11Z"
  },
- "news_summary": "Trump threatens Oman over Iran, Kushner meets Netanyahu on Gaza peace, and US gas prices hit record highs; Supreme Court rejects Trump's appeal in Carroll case; Hayden Panettiere dies at 36.",
- "papers_summary": "Research papers span construction error management, vegetation monitoring, genetic correlation methods, foster care education, and brain tumor segmentation, reflecting varied academic interests.",
+ "news_summary": "Key stories include the Supreme Court rejecting Trump's appeal, Hayden Panettiere's death investigation, Trump's decision to reduce military drills with South Korea, and a US Navy destroyer losing power. Other notable items: BNPL loans for essentials, UK security leaks, Tupac trial start, and wildfire responses in Europe.",
+ "papers_summary": "Research topics range from social media analysis ('Foodstagramming') to technological applications (AR in construction, deep learning for cotton fiber analysis) and methodological advances (genetic correlation, brain tumor segmentation, vegetation cover assessment).",
  "summaries": {
   "en": {
-   "brief": "US threats over Iran and Gulf tensions dominate, alongside domestic political and legal developments, while research covers diverse topics from AI to agriculture.",
-   "news_summary": "Trump threatens Oman over Iran, Kushner meets Netanyahu on Gaza peace, and US gas prices hit record highs; Supreme Court rejects Trump's appeal in Carroll case; Hayden Panettiere dies at 36.",
-   "papers_summary": "Research papers span construction error management, vegetation monitoring, genetic correlation methods, foster care education, and brain tumor segmentation, reflecting varied academic interests."
+   "brief": "Today's news spans legal, political, and social issues, from Trump's legal battles and military decisions to notable deaths and policy changes. Research covers diverse topics from social media behavior to medical imaging and agriculture.",
+   "news_summary": "Key stories include the Supreme Court rejecting Trump's appeal, Hayden Panettiere's death investigation, Trump's decision to reduce military drills with South Korea, and a US Navy destroyer losing power. Other notable items: BNPL loans for essentials, UK security leaks, Tupac trial start, and wildfire responses in Europe.",
+   "papers_summary": "Research topics range from social media analysis ('Foodstagramming') to technological applications (AR in construction, deep learning for cotton fiber analysis) and methodological advances (genetic correlation, brain tumor segmentation, vegetation cover assessment)."
   },
   "zh": {
-   "brief": "今日新闻聚焦中国纪念江泽民诞辰百年，规格堪比开国元老；美国多州起诉Meta，要求改革青少年社交平台；泰国枪支问题严重。论文方面，研究涵盖社交媒体内容分析、建筑信息模型、遥感植被监测等多元主题。",
-   "news_summary": "中国以高规格纪念江泽民，凸显其在官方历史中的地位；美国30州联合起诉Meta，要求改变青少年社交平台；泰国枪支泛滥问题引发关注，而中国一部烂片却意外成为票房黑马。",
-   "papers_summary": "研究涉及饮食社交媒体的内容分析、AR集成BIM在施工错误管理中的应用、以及利用遥感技术评估植被覆盖变化等多个领域，展示了信息可视化与科学研究的交叉应用。"
+   "brief": "今日新闻聚焦于中国纪念江泽民诞辰百年的高规格活动，以及美国对韩国军演规模的调整；研究方面则涉及社交媒体、建筑信息模型、遥感监测等多个领域。",
+   "news_summary": "中国官方高规格纪念江泽民诞辰百年，规格比肩周恩来、邓小平等元老；美国因与朝鲜关系良好而缩减美韩军演，引发争议。",
+   "papers_summary": "研究论文涵盖食物照片分析、AR集成BIM系统、植被覆盖变化遥感评估、基因关联分析等多元主题。"
   }
  },
  "todays_image": {
-  "caption": "Just as Lobophora sp. thrives in turbulent coastal waters, Trump’s threat injects a similar storm of chaos into Oman’s strategic seas.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7",
+  "caption": "Just as the star-like aster blooms unbowed in the wild, the Supreme Court's rejection stands firm against a powerful figure's attempt to uproot a survivor's verified truth.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c",
   "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3a20dbcaf-62f6-4dd2-b936-69074b28dad5",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7/90",
-  "title": "Lobophora sp."
+  "source_url": "http://n2t.net/ark:/65665/3d1b2a964-ed98-4ee0-8f71-927381c84000",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c/90",
+  "title": "Chaetopappa asteroides (Nutt.) DC."
  }
 }
