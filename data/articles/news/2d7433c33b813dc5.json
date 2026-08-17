@@ -2,14 +2,7 @@
  "full_text": "For the past year or so, booksellers have suspected that AI firms are buying up huge lots of rare books, then destroying them after scanning them to train AI. But this was hard to prove until now, as 404 Media reports that an Airtag hidden in a rare book shows that at least one tech giant, in the race to advance its frontier models, is behind some of the bulk orders: Amazon.\n\nOn Monday, 404 Media revealed that it had connected with a bookseller who agreed to plant an Airtag in a rare book that was part of a bulk order. That Airtag was then tracked to an Amazon AI training facility in Las Vegas that housed a team focused on tearing books from their spines and scanning pages, 404 Media reported. Apparently tone-deaf to the escalating backlash over destructive book scanning, a logo on the door of that team’s warehouse, VGT3, showed a Tyrannosaurus rex preparing to devour a book, 404 Media documented.\n\nAmazon deflects\n\nAmazon declined to comment on 404 Media’s findings, only providing Ars with the same statement it gave to 404 Media, which does not mention AI training specifically.\n\nRead full article\n\nComments",
  "item": {
   "category": "open",
-  "extra": {
-   "also_in": [
-    {
-     "source": "Hacker News (AI filter)",
-     "url": "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/"
-    }
-   ]
-  },
+  "extra": {},
   "full_text_available": true,
   "full_text_file": "articles/news/2d7433c33b813dc5.json",
   "id": "2d7433c33b813dc5",
@@ -25,8 +18,8 @@
   "url": "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/"
  },
  "meta": {
-  "content_hash": "f792891e4c444d76",
-  "generated_at": "2026-08-17T20:41:24Z",
+  "content_hash": "46323081013977e8",
+  "generated_at": "2026-08-17T22:38:21Z",
   "item_id": "2d7433c33b813dc5",
   "section": "news",
   "source": "Ars Technica · AI",

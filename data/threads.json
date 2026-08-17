@@ -1,226 +1,165 @@
 {
  "meta": {
-  "count": 5,
-  "generated_at": "2026-08-17T20:41:24Z",
+  "count": 4,
+  "generated_at": "2026-08-17T22:38:21Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "item_id": "a59930ede3c87ce2",
+     "phrase": {
+      "en": "Australia wants AI everywhere",
+      "zh": "澳大利亚处处用AI"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/australia-news/live/2026/aug/18/australia-politics-live-labor-coalition-gambling-advertising-ai-charlton-datacentres-question-time-anthony-albanese-angus-taylor-one-nation-pauline-hanson-ntwnfb"
+    },
+    {
+     "item_id": "58b52ffb561f2072",
+     "phrase": {
+      "en": "Nvidia invests billions in data center",
+      "zh": "英伟达巨额投资数据中心"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/17/technology/nvidia-ohio-data-center-openai.html"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Governments and companies push AI everywhere, from Australia's policy to Ohio's data centers.",
+    "zh": "政府和企业在各处推动AI，从澳大利亚的政策到俄亥俄的数据中心。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI adoption",
+    "zh": "AI 应用"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow AI policy: today Australia calls for AI 'everywhere,' and Nvidia backs a massive data center—two signals of the AI infrastructure race.",
+    "zh": "你关注AI政策：今日澳大利亚呼吁‘处处用AI’，英伟达支持大型数据中心——两个AI基础设施竞赛信号。"
+   }
+  },
+  {
+   "angles": [
+    {
      "item_id": "9c50d613a3f20d6c",
      "phrase": {
-      "en": "Platforms fight AI slop",
-      "zh": "平台反击AI垃圾"
+      "en": "Platforms dig out of AI slop",
+      "zh": "平台清理AI垃圾"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/08/17/technology/ai-slop.html"
     },
     {
-     "item_id": "c5c7a61aa87082a9",
-     "phrase": {
-      "en": "AI;DR tool for summaries",
-      "zh": "AI摘要工具问世"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read"
-    },
-    {
-     "item_id": "4ecd221e1dbe74c1",
-     "phrase": {
-      "en": "Amazon destroys books to train AI",
-      "zh": "亚马逊毁书训练AI"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Platforms are pushing back against AI-generated spam and low-quality content.",
-    "zh": "平台开始反击AI生成的垃圾内容和低质文本。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "AI content moderation",
-    "zh": "AI内容清理"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow AI ethics: today Spotify, LinkedIn, and others are actively cleaning up AI slop, showing the industry's next big challenge.",
-    "zh": "你关注AI伦理，今日Spotify与LinkedIn等主动清理AI垃圾内容，行业下一个大挑战浮现。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "58b52ffb561f2072",
-     "phrase": {
-      "en": "Nvidia backs huge data center",
-      "zh": "英伟达支持巨型数据中心"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/17/technology/nvidia-ohio-data-center-openai.html"
-    },
-    {
      "full_text_file": "articles/news/2d7433c33b813dc5.json",
      "item_id": "2d7433c33b813dc5",
      "phrase": {
-      "en": "Amazon destroys books for AI",
-      "zh": "亚马逊毁书为AI训练"
+      "en": "Amazon trashes books for AI",
+      "zh": "亚马逊毁书训AI"
      },
      "section": "news",
      "source": "Ars Technica · AI",
      "url": "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/"
     }
    ],
-   "convergence": "divergent",
+   "convergence": "convergent",
    "gloss": {
-    "en": "Tech giants pour billions into massive data centers, fueling AI but raising sustainability questions.",
-    "zh": "科技巨头重金投资大型数据中心，推动AI也引发可持续性担忧。"
+    "en": "Platforms fight back against the flood of low-quality AI-generated content.",
+    "zh": "平台反击低质量AI生成内容的洪流。"
    },
    "id": "t2",
    "keyword": {
-    "en": "Data center investment",
-    "zh": "数据中心投资"
+    "en": "AI slop",
+    "zh": "AI 垃圾内容"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about AI infrastructure: Nvidia's $105B backing and OpenAI leasing signal a major scale-up today.",
-    "zh": "你关注AI基础设施，英伟达千亿美元支持与OpenAI租赁标志大规模扩张。"
+    "en": "You think about content quality and AI: today Spotify and LinkedIn are cleaning up AI slop, a direct hit to your interest in AI's impact on communication.",
+    "zh": "你思考内容质量和AI：今日Spotify和LinkedIn清理AI垃圾，直接影响你对AI影响沟通的兴趣。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "8906a161536f9330",
+     "item_id": "bfac00b5f618173e",
      "phrase": {
-      "en": "Trump lashes at Oman",
-      "zh": "特朗普抨击阿曼"
+      "en": "Conversational agents for wellbeing",
+      "zh": "健康对话代理设计"
      },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/17/us/politics/trump-iran-truce-oman.html"
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.14273v1"
     },
     {
-     "item_id": "294b8b11a1c88e48",
+     "item_id": "b1e22db5844eb5e6",
      "phrase": {
-      "en": "Trump threatens bomb Oman",
-      "zh": "特朗普威胁轰炸阿曼"
+      "en": "EEG decoding with CNN",
+      "zh": "CNN解码脑电"
      },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cy5dzk0ryzdo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "ed532b2ab326d1e7",
-     "phrase": {
-      "en": "Houthis strike Saudi vessel",
-      "zh": "胡塞袭击沙特船只"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/17/world/middleeast/houthis-saudi-strike.html"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Trump's pressure on Iran and Oman intensifies as a truce expires, risking wider conflict.",
-    "zh": "停火到期，特朗普对伊朗和阿曼施压升级，冲突风险加大。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "US-Iran tensions",
-    "zh": "美伊紧张局势"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow geopolitics: today's threats and Houthi attacks on shipping could disrupt global stability and tech supply chains.",
-    "zh": "你关注地缘政治，今日威胁和胡塞袭击可能扰乱全球稳定与科技供应链。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "eb085dffed249c61",
-     "phrase": {
-      "en": "Kushner hails meeting",
-      "zh": "库什纳称赞会谈"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c77gg5vn44yo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "671ec743cba240b3",
-     "phrase": {
-      "en": "No breakthrough on Gaza",
-      "zh": "加沙谈判无突破"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/17/netanyahu-kushner-talks-gaza-israel-us-board-of-peace"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "US envoys and Israeli leaders struggle to break the deadlock in ceasefire talks, with no major progress yet.",
-    "zh": "美特使与以色列领导人努力打破停火谈判僵局，暂无重大进展。"
-   },
-   "id": "t4",
-   "keyword": {
-    "en": "Gaza peace efforts",
-    "zh": "加沙和平努力"
-   },
-   "relates_to": [
-    "t3"
-   ],
-   "why_now": {
-    "en": "You observe negotiation dynamics: the latest meetings show how entrenched positions hinder peace, relevant to your interest in conflict resolution.",
-    "zh": "你观察谈判动态，最新会议显示立场僵化阻碍和平，与解决冲突兴趣相关。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "55cbc58b4cd60d61",
-     "phrase": {
-      "en": "French PM heckled over fires",
-      "zh": "法国总理因火灾遭嘘"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cx2rzx5g5yro?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "4d583bc9de42224e",
-     "phrase": {
-      "en": "Farmers face unprecedented crisis",
-      "zh": "农民面临空前危机"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/environment/2026/aug/17/european-farmers-unprecedented-crisis-successive-heatwaves"
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.13285v1"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Extreme heat is devastating European agriculture and triggering political blame, as wildfires rage.",
-    "zh": "极端高温重创欧洲农业并引发政治指责，野火肆虐。"
+    "en": "Wearable devices gather rich health data, but turning that into helpful conversation is still a challenge.",
+    "zh": "可穿戴设备收集丰富健康数据，但转化为有用对话仍是挑战。"
    },
-   "id": "t5",
+   "id": "t3",
    "keyword": {
-    "en": "Heatwave crisis",
-    "zh": "热浪危机"
+    "en": "wearable health",
+    "zh": "可穿戴健康"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track climate data visualization: today's reports on farmer crisis and French PM heckling show the human cost and data needs.",
-    "zh": "你关注气候数据可视化，今日农民危机与法国总理被嘘显示人本成本与数据需求。"
+    "en": "Your interest in embodied AI and HCI aligns: this paper explores designing conversational agents for wellbeing using sensor data, bridging body and machine.",
+    "zh": "你对具身AI和人机交互的兴趣契合：本文探索用传感器数据设计健康对话代理，连接身体与机器。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "4464bb3e7f130d82",
+     "phrase": {
+      "en": "Making research labor visible",
+      "zh": "让研究劳动可见"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.12792v2"
+    },
+    {
+     "item_id": "086e883239e0ed09",
+     "phrase": {
+      "en": "Estimating genetic correlation",
+      "zh": "估算遗传相关性"
+     },
+     "section": "papers",
+     "source": "OpenAlex · information visualization",
+     "url": "https://doi.org/10.1038/s41467-026-76693-z"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Scholars are formalizing how visuals persuade, from data stories to research contributions.",
+    "zh": "学者正规范化视觉如何说服，从数据故事到研究贡献。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "visual rhetoric",
+    "zh": "视觉修辞"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "Your declared interest in visual rhetoric is served: today's papers analyze contribution statements and data storytelling, helping you craft more persuasive…",
+    "zh": "你声明对视觉修辞感兴趣：今日论文分析贡献声明和数据叙事，助你构建更有说服力的视觉论据。"
    }
   }
  ]

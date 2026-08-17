@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "mushroom picking contest OR national mushroom championship",
+  "query": "mushroom identification contest OR Pacific Northwest mycological society",
   "source": {
-   "name": "Food & Wine",
-   "published_at": "2026-07-24T07:00:00Z",
-   "title": "Scientists Say This Is the World’s Best Place to Forage for Mushrooms",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE14RFJwTW5QX1FGTE9yQ2R1MkIxc25JNzgyQmQ5T2l3NUpBQjc3YUl2RDR2bEplbmpDeHJBV0VtejBYZGU5c3FUa3Zrc2Jpamh3aUlMX1hOTjhQZGdORUFJOG1VUXpDQlJjOExVNUJHWk1DQkk?oc=5"
+   "name": "newportnewstimes.com",
+   "published_at": "2026-08-13T18:45:00Z",
+   "title": "All about Oregon mushrooms",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUGx5MTZGMEpiSTRaZlVTNkJSNnVmTTRPODlERTlWeU5vb3VRWFV2LS1Hanl1NjV6dWtQTmFZdVhqRkIyMkVEd3hRMjhvSUNNRWJFWFpzQ3QyQlI2RnJsS1NZTWlpZmxOUWs1UFIzZlAwaGphUzlQWUV6aTRrM3hqbWRxRTRaREN2Ym1fajA3UGlYdkFSMTJjaFpTUktBdmFyMV8tc1NlOUF6Z1didU5sQU16WGRXNklscmlheQ?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A Food & Wine piece names the world's premier foraging spot for mushrooms.",
-    "why_irrelevant": "Because it’s a niche culinary travel topic, far from the usual tech or business feed."
+    "summary": "Oregon's coastal newspaper profiles the region's diverse mushroom species and foraging culture.",
+    "why_irrelevant": "Hyper-local natural history far from tech and politics feeds."
    },
    "zh": {
-    "summary": "《美食与葡萄酒》杂志评选出全球最佳采蘑菇地点。",
-    "why_irrelevant": "因属小众美食旅行话题，远离日常科技或商业资讯。"
+    "summary": "俄勒冈沿海报纸介绍该地区多样的蘑菇种类和采集文化。",
+    "why_irrelevant": "高度本地化的自然史，远离科技与政治资讯。"
    }
   },
-  "topic": "mushroom picking championships"
+  "topic": "competitive mushroom identification in Pacific Northwest forests"
  },
- "brief": "Today's news spans geopolitical tensions, AI content moderation, and rare medical breakthroughs, while research highlights technology's role in environmental monitoring and medical imaging.",
+ "brief": "Today's news spans from US political developments and environmental crises to local governance and tech investments, while research papers cover topics from social media behavior to advanced imaging and agricultural analysis.",
  "meta": {
-  "generated_at": "2026-08-17T20:41:24Z"
+  "generated_at": "2026-08-17T22:38:21Z"
  },
- "news_summary": "Notable stories include Ukraine's satellite-enabled drone warfare, Nvidia's massive data center investment, political disputes over military drills and border projects, and societal shifts in consumer finance and AI-generated content.",
- "papers_summary": "Research covers diverse topics from AR in construction and vegetation mapping to genetic correlation and brain tumor segmentation, underscoring technology's impact across fields.",
+ "news_summary": "US news highlights Lake Powell's record low, vaccine exemption rise, and Democratic primary changes, while international stories include Australia's AI push, Middle East diplomacy efforts, and tributes to Hayden Panettiere.",
+ "papers_summary": "Research focuses on social media's impact on dining, AR-BIM integration in construction, genetic correlation methods, and deep learning for cotton fiber analysis and brain tumor segmentation.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans geopolitical tensions, AI content moderation, and rare medical breakthroughs, while research highlights technology's role in environmental monitoring and medical imaging.",
-   "news_summary": "Notable stories include Ukraine's satellite-enabled drone warfare, Nvidia's massive data center investment, political disputes over military drills and border projects, and societal shifts in consumer finance and AI-generated content.",
-   "papers_summary": "Research covers diverse topics from AR in construction and vegetation mapping to genetic correlation and brain tumor segmentation, underscoring technology's impact across fields."
+   "brief": "Today's news spans from US political developments and environmental crises to local governance and tech investments, while research papers cover topics from social media behavior to advanced imaging and agricultural analysis.",
+   "news_summary": "US news highlights Lake Powell's record low, vaccine exemption rise, and Democratic primary changes, while international stories include Australia's AI push, Middle East diplomacy efforts, and tributes to Hayden Panettiere.",
+   "papers_summary": "Research focuses on social media's impact on dining, AR-BIM integration in construction, genetic correlation methods, and deep learning for cotton fiber analysis and brain tumor segmentation."
   },
   "zh": {
-   "brief": "今日焦点包括中国官方对已故领导人江泽民的高规格纪念，以及美国多州对Meta的诉讼可能改变社交媒体格局；同时，研究领域在图像分割和遗传关联等方向有新进展。",
-   "news_summary": "中国以高规格纪念江泽民诞辰百年，显示其在官方纪念序列中的地位；美国多州诉讼Meta，寻求改革青少年社交媒体体验；泰国枪支问题严重，法律效果有限。",
-   "papers_summary": "研究涉及多种技术应用，如AR集成BIM系统在施工错误管理中的应用，以及深度学习方法在棉花纤维截面分析中的自动化分割，展示了跨领域的技术进步。"
+   "brief": "今日焦点包括中國官方對江澤民的紀念規格，以及美國多州對Meta的訴訟，同時國際新聞涵蓋泰國槍枝問題、美朝軍演調整等。研究方面無重大突破，但多篇論文探討社交媒體、建築管理與基因關聯等議題。",
+   "news_summary": "今日新聞集中於中共紀念江澤民的高規格、美國各州起訴Meta要求改革社交平台、泰國槍枝泛濫問題，以及特朗普宣布縮減美韓聯合軍演規模。",
+   "papers_summary": "今日論文無重大突破，多篇涉及信息可視化與數據分析，如社交媒體行為解碼、建築管理錯誤管理及基因關聯研究。"
   }
  },
  "todays_image": {
-  "caption": "The Predator's once-cutting-edge drone tech now echoes Ukraine's satellite-guided swarm, trading one predator's lone eye for a constellation of them.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2017-03151",
-  "source_name": "National Air and Space Museum",
-  "source_url": "http://n2t.net/ark:/65665/nv98883bd76-aa82-4d4d-8a92-76fa5e942cc5",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2017-03151",
-  "title": "General Atomics MQ-1L Predator A"
+  "caption": "Like Roebling's gauge prevented steam pressure from blowing up, Australia must gauge AI's risks to avoid its own political \"melon\" explosions.Just as Roebling's gauge measured dangerous steam pressure, Australia must gauge AI's risks before",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-RWS2011-00845",
+  "source_name": "National Museum of American History",
+  "source_url": null,
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-RWS2011-00845&max=150",
+  "title": "Roebling Safety Steam Gauge, Patent Model"
  }
 }
