@@ -1,173 +1,186 @@
 {
  "meta": {
-  "count": 3,
-  "generated_at": "2026-08-17T14:41:38Z",
+  "count": 4,
+  "generated_at": "2026-08-17T16:43:44Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "17b19cab134f364c",
+     "item_id": "a07e4dde432a4267",
      "phrase": {
-      "en": "calls decision 'inane, haphazard'",
-      "zh": "称决定“荒谬草率”"
+      "en": "LLM as reflective partner in songwriting",
+      "zh": "LLM作为创作回音壁"
      },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/live/2026/aug/17/politics-trump-south-korea-military-pentagon-republicans-democrats"
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.13944v1"
     },
     {
-     "item_id": "02d10b156b6c301f",
+     "item_id": "c69ca1e16da2b637",
      "phrase": {
-      "en": "strains alliance with South",
-      "zh": "与韩国同盟紧张"
+      "en": "Rare books traced to AI training",
+      "zh": "珍本书流入AI训练"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/17/world/asia/trump-korea-military-kim-jong-un.html"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Trump's overture to North Korea puts old allies at odds.",
-    "zh": "特朗普示好朝鲜，旧盟友生嫌隙。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "Korea alliance strain",
-    "zh": "韩美同盟紧张"
-   },
-   "relates_to": [
-    "t2"
-   ],
-   "timeline": [
-    {
-     "date": "2026-06-01",
-     "label": {
-      "en": "cease-fire agreed",
-      "zh": "达成停火"
-     }
-    },
-    {
-     "date": "2026-08-17",
-     "item_id": "17b19cab134f364c",
-     "label": {
-      "en": "drills cut, ally anger",
-      "zh": "军演缩减盟友不满"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/live/2026/aug/17/politics-trump-south-korea-military-pentagon-republicans-democrats"
-    }
-   ],
-   "why_now": {
-    "en": "You follow geopolitics: today's drill cuts and alliance friction redraw the map.",
-    "zh": "你关注地缘政治：今日军演缩减与同盟摩擦重绘版图。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "full_text_file": "articles/news/b4e4bc1740afa2d0.json",
-     "item_id": "b4e4bc1740afa2d0",
-     "phrase": {
-      "en": "explains invisible text watermarks",
-      "zh": "解释不可见文本水印"
-     },
-     "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system"
-    },
-    {
-     "item_id": "3073dfac5179a0ca",
-     "phrase": {
-      "en": "pauses AI scanning after error",
-      "zh": "出错后暂停AI扫描"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/technology/2026/aug/17/humiliated-sainsburys-store-pauses-ai-scanning-after-false-shoplifting-accusation"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "AI systems face new rules demanding explainability.",
-    "zh": "AI系统面临新的可解释性要求。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "AI transparency",
-    "zh": "AI透明度"
-   },
-   "relates_to": [
-    "t3"
-   ],
-   "timeline": [
-    {
-     "date": "2026-08-14",
-     "label": {
-      "en": "watermark plan announced",
-      "zh": "水印计划公布"
-     }
-    },
-    {
-     "date": "2026-08-17",
-     "full_text_file": "articles/news/b4e4bc1740afa2d0.json",
-     "item_id": "b4e4bc1740afa2d0",
-     "label": {
-      "en": "details clarified",
-      "zh": "细节澄清"
-     },
-     "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system"
-    }
-   ],
-   "why_now": {
-    "en": "You care about HCI and critical visualization: watermarks and audits are now concrete.",
-    "zh": "你关心人机交互与批判可视化：水印与审计已落地。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "a3e8c1e6a3b04435",
-     "phrase": {
-      "en": "rare books end at AI facility",
-      "zh": "珍本书流入AI设施"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/"
-    },
-    {
-     "item_id": "29a28656b9eeea1e",
-     "phrase": {
-      "en": "China wants its data to power AI",
-      "zh": "中国欲以数据驱动AI"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/17/world/asia/china-ai-data-chatbots.html"
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "What feeds AI models becomes a geopolitical and ethical flashpoint.",
-    "zh": "AI模型的喂养来源成为地缘与伦理焦点。"
+    "en": "Human creativity meets algorithmic mirrors, from songwriting to books.",
+    "zh": "人类创意与算法之镜相遇，从写歌到书籍。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI in creative practice",
+    "zh": "AI创意实践"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about HCI and human-AI interaction: today brings both a study of LLMs as creative sounding boards and a dark tale of books feeding Amazon's AI.",
+    "zh": "你关注人机交互与AI协作，今日既有LLM作为创意回音壁的研究，也有书籍流入AI训练库的暗面。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "294b8b11a1c88e48",
+     "phrase": {
+      "en": "Threatens ally over Iran dispute",
+      "zh": "威胁盟友涉伊朗争议"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cy5dzk0ryzdo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "ff16c4d7bbc9c692",
+     "phrase": {
+      "en": "Record August gas prices amid talks",
+      "zh": "谈判期间油价创纪录"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/17/gas-prices-august-record-iran-war"
+    },
+    {
+     "item_id": "ed532b2ab326d1e7",
+     "phrase": {
+      "en": "Houthi strike escalates Red Sea",
+      "zh": "胡塞袭击红海升级"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/17/world/middleeast/houthis-saudi-strike.html"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Strait of Hormuz chokes, oil prices rise, and war words fly.",
+    "zh": "霍尔木兹海峡受阻，油价攀升，战争言论四起。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "Middle East conflict and energy",
+    "zh": "中东冲突与能源"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "Energy and geopolitics intersect: today's threats and strikes directly affect gas prices, a concrete shift you can feel at the pump.",
+    "zh": "能源与地缘政治交织，今日威胁与袭击直接影响油价，你在加油站能感受到变化。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "597b716a3c61e3df",
+     "phrase": {
+      "en": "Court rejects Carroll appeal again",
+      "zh": "法院再驳卡罗尔上诉"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/17/us/politics/supreme-court-trump-carroll.html"
+    },
+    {
+     "item_id": "c93b1113549c975a",
+     "phrase": {
+      "en": "Supreme court refuses Trump bid",
+      "zh": "最高法院拒绝特朗普请求"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c74gekjgrllo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "1ee6f237b7f4315f",
+     "phrase": {
+      "en": "Carroll verdict stands",
+      "zh": "卡罗尔判决维持"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/17/trump-e-jean-carroll-appeal"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Trump's legal defeats and political moves dominate headlines.",
+    "zh": "特朗普法律受挫与政治动向占据头条。"
    },
    "id": "t3",
    "keyword": {
-    "en": "AI data sourcing",
-    "zh": "AI数据来源"
+    "en": "US politics and legal battles",
+    "zh": "美国政治与法律斗争"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track political rhetoric: the Supreme Court's repeated rejection and new diplomatic pushes reshape the landscape.",
+    "zh": "你关注政治话语，最高法院屡次驳回与新外交举动重塑格局。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "9c50d613a3f20d6c",
+     "phrase": {
+      "en": "Platforms fight AI slop",
+      "zh": "平台对抗AI垃圾"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/17/technology/ai-slop.html"
+    },
+    {
+     "item_id": "05cf8c9f30ac8583",
+     "phrase": {
+      "en": "Privacy dilemma with facial recognition",
+      "zh": "面部识别隐私困境"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/business/2026/aug/18/concerns-security-privacy-facial-recognition-technology-coles-woolworths"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "From slop to surveillance, AI reshapes digital and physical life.",
+    "zh": "从垃圾内容到监控，AI重塑数字与物理生活。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "AI's societal impact",
+    "zh": "AI社会影响"
    },
    "relates_to": [
-    "t2"
+    "t1"
    ],
    "why_now": {
-    "en": "You track LLM data practices: book shipments into training facilities and China's data ambitions are today's hooks.",
-    "zh": "你追踪大模型数据实践：书籍入训练设施与中国数据雄心是今日焦点。"
+    "en": "You study critical visualization and HCI: AI slop and facial recognition are visual and interaction design problems with real consequences today.",
+    "zh": "你研究批判可视化与人机交互，AI垃圾与面部识别是今日有实际后果的视觉与交互设计问题。"
    }
   }
  ]
