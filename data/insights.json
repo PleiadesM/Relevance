@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "horn honking contest OR car horn festival",
+  "query": "axe throwing league OR urban axe throwing championship",
   "source": {
-   "name": "Law and Crime News",
-   "published_at": "2026-08-14T15:01:00Z",
-   "title": "Driver responds to woman honking at him by pinning her arm in her own car door as she tried to drive away: Cops",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOaDU3TFZvZUVGbE45eFJBN2RaLTZMVzF4MGVsS1ZWbVBVWTBSbVNVX1RGT0ViemJrbGVVWEd5Z0xSMVdUdHQzLWJKYm1yMm45czBsdWEyMDVaZW1uSVRWQ0ZpVWhhTzQtSnIxRGhoODJKSkRDSVY4RkJqU3BRYXlhaGE5WGJ6NFZPcFY3S1kzWE5sVENLZlkzSjJLZ2s1NGpfNE92UEo2M3JYTWJ0YXQxVkJUbU00cS02Rmc3LTV2RlEwaks2OFprT01HT3pJMV9WdTNXY0RhczI?oc=5"
+   "name": "Yahoo News New Zealand",
+   "published_at": "2026-08-10T16:14:55Z",
+   "title": "Axe-throwing sports bar abruptly closes all of its locations including one in Las Vegas",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBIdC1HUDZlalBZOVNGaEo2aE90ZWRDUU05T0xMMmNfWDJfeElFUE5QWnV1ZjBMUUgxR3VPelFBV1ZvekE1YjUweTlzVmE3LUNaMzE0RWtxY0xfTzhpTnlmWWo2UVVYWU9EQkdTUWJRb2d6VkFhbDdlQTlEUHlydw?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A driver pinned a woman's arm in her car door after she honked at him, leading to his arrest.",
-    "why_irrelevant": "A minor, local crime story with no broader implications."
+    "summary": "An axe-throwing sports bar chain abruptly shut all locations, including one in Las Vegas, as reported by Yahoo News New Zealand.",
+    "why_irrelevant": "A niche leisure-business closure far from the feed's news-heavy, geopolitics and tech-oriented focus."
    },
    "zh": {
-    "summary": "一名司机因被女子鸣笛，将其手臂夹在车门中，随后被捕。",
-    "why_irrelevant": "本地小案件，无深远影响。"
+    "summary": "据雅虎新闻新西兰报道，一家掷斧运动酒吧连锁突然关闭了所有门店，包括拉斯维加斯的一家。",
+    "why_irrelevant": "小众休闲商业新闻，远离以新闻、地缘政治和技术为主的推送内容。"
    }
   },
-  "topic": "competitive horn honking"
+  "topic": "competitive axe throwing leagues"
  },
- "brief": "Today's news spans political deals on gambling ads in Australia, UK economic and legal issues, and international tensions, while research focuses on visualization and AI-driven human-computer interaction.",
+ "brief": "Global tensions rise as Russia warns the UK over drone use in Ukraine, while UK pay growth slows amid cost-of-living pressures. In research, studies explore uncertainty visualization, generative AI adoption, and human-robot interaction.",
  "meta": {
-  "generated_at": "2026-08-18T07:01:41Z"
+  "generated_at": "2026-08-18T08:51:37Z"
  },
- "news_summary": "Australia's major parties strike a deal on gambling ad restrictions, UK faces slowing pay growth and ongoing legal cases, and international stories highlight conflicts and social issues.",
- "papers_summary": "Papers explore prediction market visualizations and uncertainty displays, plus methods for improving AI-human interaction and qualitative data analysis.",
+ "news_summary": "Geopolitical tensions escalate with Russia threatening the UK over Ukrainian drone attacks, while the US-Iran ceasefire expiry pushes oil prices above $90. Domestically, UK pay growth slows and a man is charged over a dog-bite death.",
+ "papers_summary": "Research highlights include visualization of uncertainty, prediction market displays, and generative AI's workplace impact, alongside studies on human-robot interaction and in-vehicle emotional responses.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans political deals on gambling ads in Australia, UK economic and legal issues, and international tensions, while research focuses on visualization and AI-driven human-computer interaction.",
-   "news_summary": "Australia's major parties strike a deal on gambling ad restrictions, UK faces slowing pay growth and ongoing legal cases, and international stories highlight conflicts and social issues.",
-   "papers_summary": "Papers explore prediction market visualizations and uncertainty displays, plus methods for improving AI-human interaction and qualitative data analysis."
+   "brief": "Global tensions rise as Russia warns the UK over drone use in Ukraine, while UK pay growth slows amid cost-of-living pressures. In research, studies explore uncertainty visualization, generative AI adoption, and human-robot interaction.",
+   "news_summary": "Geopolitical tensions escalate with Russia threatening the UK over Ukrainian drone attacks, while the US-Iran ceasefire expiry pushes oil prices above $90. Domestically, UK pay growth slows and a man is charged over a dog-bite death.",
+   "papers_summary": "Research highlights include visualization of uncertainty, prediction market displays, and generative AI's workplace impact, alongside studies on human-robot interaction and in-vehicle emotional responses."
   },
   "zh": {
-   "brief": "今日新闻聚焦AI竞争、社交媒体监管及日本AI应用滞后，论文则关注生成式AI对职场的影响及可视化设计。",
-   "news_summary": "中美AI竞赛路线不同，日本企业AI应用缓慢，Meta面临诉讼或改变社交平台，泰国枪支问题严重。",
-   "papers_summary": "论文探讨生成式AI在职场的作用与沟通变化，以及可视化设计中不确定性表达与用户体验。"
+   "brief": "今日焦点集中在中共纪念前总理朱镕基的政治逻辑，以及中美人工智能竞赛的路线分歧；学术界则探索可视化不确定性、生成式AI对工作的影响等议题。",
+   "news_summary": "中国官方在赞誉朱镕基的同时警惕民间悼念演变批评，中美AI竞赛路径各异；日本企业AI应用迟缓，泰国枪支问题突出，Meta面临诉讼。",
+   "papers_summary": "研究关注预测市场可视化、大型语言模型驱动的定性分析，以及不确定性可视化在人类监督中的作用。"
   }
  },
  "todays_image": {
-  "caption": "Both the secret deliberations of the Federal Convention and Australia’s backroom Senate deal show that key political decisions often hinge on what happens behind closed doors.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2014q066604",
-  "source_name": "National Museum of American History",
-  "source_url": null,
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2014q066604&max=150",
-  "title": "Secret Proceedings and Debates of the Federal Convention"
+  "caption": "The dense, interconnected fronds of Macrocystis sp. mirror the tightly woven family bonds now torn apart by the sudden shock and grief Klitschko describes.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3da0b26f6ec8b49dfa4782854d90a9dee",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3e42cc703-4d95-4155-898b-f8b61164ddc2",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3da0b26f6ec8b49dfa4782854d90a9dee/90",
+  "title": "Macrocystis sp."
  }
 }
