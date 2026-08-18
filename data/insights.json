@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "mushroom identification contest OR Pacific Northwest mycological society",
+  "query": "stone skipping championship OR world stone skipping",
   "source": {
-   "name": "newportnewstimes.com",
-   "published_at": "2026-08-13T18:45:00Z",
-   "title": "All about Oregon mushrooms",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUGx5MTZGMEpiSTRaZlVTNkJSNnVmTTRPODlERTlWeU5vb3VRWFV2LS1Hanl1NjV6dWtQTmFZdVhqRkIyMkVEd3hRMjhvSUNNRWJFWFpzQ3QyQlI2RnJsS1NZTWlpZmxOUWs1UFIzZlAwaGphUzlQWUV6aTRrM3hqbWRxRTRaREN2Ym1fajA3UGlYdkFSMTJjaFpTUktBdmFyMV8tc1NlOUF6Z1didU5sQU16WGRXNklscmlheQ?oc=5"
+   "name": "CBC",
+   "published_at": "2026-07-27T07:00:00Z",
+   "title": "N.S. rock skipper secures spot at world championship",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5zLXZPOVg0aEtQbjNWbVlkdEtVSTJvTDc1STQ3a0hBQXhQTmpRYVZvRDMxOWk3OVZ6eVR5YWU0VXFDMjllQUdxUFlydGNFRS1FQ2cxNGZsdEdhdw?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "Oregon's coastal newspaper profiles the region's diverse mushroom species and foraging culture.",
-    "why_irrelevant": "Hyper-local natural history far from tech and politics feeds."
+    "summary": "A Nova Scotia stone skipper has qualified for the world championship.",
+    "why_irrelevant": "A niche outdoor pastime far from global issues."
    },
    "zh": {
-    "summary": "俄勒冈沿海报纸介绍该地区多样的蘑菇种类和采集文化。",
-    "why_irrelevant": "高度本地化的自然史，远离科技与政治资讯。"
+    "summary": "新斯科舍省一位打水漂选手获得了世界锦标赛参赛资格。",
+    "why_irrelevant": "小众户外消遣，远离全球话题。"
    }
   },
-  "topic": "competitive mushroom identification in Pacific Northwest forests"
+  "topic": "competitive stone skipping"
  },
- "brief": "Today's news spans from US political developments and environmental crises to local governance and tech investments, while research papers cover topics from social media behavior to advanced imaging and agricultural analysis.",
+ "brief": "Trump's mail-in voting contradiction and North Korea overtures dominate US politics, while a new open-source AI model matches GPT-5 performance, and research spans from brain tumor segmentation to cotton fiber analysis.",
  "meta": {
-  "generated_at": "2026-08-17T22:38:21Z"
+  "generated_at": "2026-08-18T01:48:50Z"
  },
- "news_summary": "US news highlights Lake Powell's record low, vaccine exemption rise, and Democratic primary changes, while international stories include Australia's AI push, Middle East diplomacy efforts, and tributes to Hayden Panettiere.",
- "papers_summary": "Research focuses on social media's impact on dining, AR-BIM integration in construction, genetic correlation methods, and deep learning for cotton fiber analysis and brain tumor segmentation.",
+ "news_summary": "Trump votes by mail despite criticism, threatens Middle East mediators, and reportedly reduces US-South Korea drills citing Kim Jong-un relations. Australia finalizes gambling reform, and extreme weather hits South Korea and the Philippines.",
+ "papers_summary": "Research includes a deep learning model for brain tumor segmentation, a study on anger rumination and somatic symptoms, and a genomic correlation method, among other visual information and agriculture topics.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans from US political developments and environmental crises to local governance and tech investments, while research papers cover topics from social media behavior to advanced imaging and agricultural analysis.",
-   "news_summary": "US news highlights Lake Powell's record low, vaccine exemption rise, and Democratic primary changes, while international stories include Australia's AI push, Middle East diplomacy efforts, and tributes to Hayden Panettiere.",
-   "papers_summary": "Research focuses on social media's impact on dining, AR-BIM integration in construction, genetic correlation methods, and deep learning for cotton fiber analysis and brain tumor segmentation."
+   "brief": "Trump's mail-in voting contradiction and North Korea overtures dominate US politics, while a new open-source AI model matches GPT-5 performance, and research spans from brain tumor segmentation to cotton fiber analysis.",
+   "news_summary": "Trump votes by mail despite criticism, threatens Middle East mediators, and reportedly reduces US-South Korea drills citing Kim Jong-un relations. Australia finalizes gambling reform, and extreme weather hits South Korea and the Philippines.",
+   "papers_summary": "Research includes a deep learning model for brain tumor segmentation, a study on anger rumination and somatic symptoms, and a genomic correlation method, among other visual information and agriculture topics."
   },
   "zh": {
-   "brief": "今日焦点包括中國官方對江澤民的紀念規格，以及美國多州對Meta的訴訟，同時國際新聞涵蓋泰國槍枝問題、美朝軍演調整等。研究方面無重大突破，但多篇論文探討社交媒體、建築管理與基因關聯等議題。",
-   "news_summary": "今日新聞集中於中共紀念江澤民的高規格、美國各州起訴Meta要求改革社交平台、泰國槍枝泛濫問題，以及特朗普宣布縮減美韓聯合軍演規模。",
-   "papers_summary": "今日論文無重大突破，多篇涉及信息可視化與數據分析，如社交媒體行為解碼、建築管理錯誤管理及基因關聯研究。"
+   "brief": "今日焦点在于全球AI竞争与地缘政治，同时科技与娱乐领域出现意外黑马。",
+   "news_summary": "中美AI竞赛路线分化引发关注，同时特朗普在朝鲜半岛与伊朗问题上的外交动作频繁。",
+   "papers_summary": "研究涉及可视化、生物医学及农业技术，多聚焦于数据与图像分析。"
   }
  },
  "todays_image": {
-  "caption": "Like Roebling's gauge prevented steam pressure from blowing up, Australia must gauge AI's risks to avoid its own political \"melon\" explosions.Just as Roebling's gauge measured dangerous steam pressure, Australia must gauge AI's risks before",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-RWS2011-00845",
+  "caption": "The mid-century ballot box, once a fixed civic fixture, now feels like a ghost beside the Florida mail-in ballot that carried Trump’s latest vote.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-JN2026-00282-000001",
   "source_name": "National Museum of American History",
   "source_url": null,
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-RWS2011-00845&max=150",
-  "title": "Roebling Safety Steam Gauge, Patent Model"
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-JN2026-00282-000001&max=150",
+  "title": "Ballot box, mid-20th century"
  }
 }

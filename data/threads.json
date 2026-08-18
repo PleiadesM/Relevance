@@ -1,165 +1,135 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-08-17T22:38:21Z",
+  "count": 3,
+  "generated_at": "2026-08-18T01:48:50Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "a59930ede3c87ce2",
+     "item_id": "17b19cab134f364c",
      "phrase": {
-      "en": "Australia wants AI everywhere",
-      "zh": "澳大利亚处处用AI"
+      "en": "Trump claims safer by scaling back",
+      "zh": "川普稱縮減軍演更安全"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/australia-news/live/2026/aug/18/australia-politics-live-labor-coalition-gambling-advertising-ai-charlton-datacentres-question-time-anthony-albanese-angus-taylor-one-nation-pauline-hanson-ntwnfb"
+     "url": "https://www.theguardian.com/us-news/live/2026/aug/17/politics-trump-south-korea-military-pentagon-republicans-democrats"
     },
     {
-     "item_id": "58b52ffb561f2072",
+     "item_id": "ac8f8bd0c3c81597",
      "phrase": {
-      "en": "Nvidia invests billions in data center",
-      "zh": "英伟达巨额投资数据中心"
+      "en": "BBC decodes latest shift on Korea",
+      "zh": "BBC解讀朝鮮政策轉變"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/17/technology/nvidia-ohio-data-center-openai.html"
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/videos/cy45zjw424xo?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "Governments and companies push AI everywhere, from Australia's policy to Ohio's data centers.",
-    "zh": "政府和企业在各处推动AI，从澳大利亚的政策到俄亥俄的数据中心。"
+    "en": "Trump scales back joint drills, citing Kim's response, after missile tests.",
+    "zh": "川普因金正恩回應縮減美韓軍演，此前有飛彈試射。"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI adoption",
-    "zh": "AI 应用"
+    "en": "US military drills with South Korea",
+    "zh": "美韓軍演規模"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow AI policy: today Australia calls for AI 'everywhere,' and Nvidia backs a massive data center—two signals of the AI infrastructure race.",
-    "zh": "你关注AI政策：今日澳大利亚呼吁‘处处用AI’，英伟达支持大型数据中心——两个AI基础设施竞赛信号。"
+    "en": "You follow geopolitics and rhetoric: today's shift reframes security as personal diplomacy.",
+    "zh": "你關注地緣政治，今日轉變將安全個人化。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "9c50d613a3f20d6c",
+     "item_id": "4e1e2f4b328ce5d7",
      "phrase": {
-      "en": "Platforms dig out of AI slop",
-      "zh": "平台清理AI垃圾"
+      "en": "Iran quagmire recalls North Korea",
+      "zh": "伊朗困境聯想到北韓"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/17/technology/ai-slop.html"
+     "url": "https://www.nytimes.com/2026/08/17/us/politics/trump-iran-north-korea-kim-jong-un.html"
     },
     {
-     "full_text_file": "articles/news/2d7433c33b813dc5.json",
-     "item_id": "2d7433c33b813dc5",
+     "item_id": "8906a161536f9330",
      "phrase": {
-      "en": "Amazon trashes books for AI",
-      "zh": "亚马逊毁书训AI"
+      "en": "Trump lashes out as Iran options shrink",
+      "zh": "伊朗選項減少川普怒批"
      },
      "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/17/us/politics/trump-iran-truce-oman.html"
+    },
+    {
+     "item_id": "294b8b11a1c88e48",
+     "phrase": {
+      "en": "Trump threatens Oman over Iran deal",
+      "zh": "川普威脅阿曼"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cy5dzk0ryzdo?at_medium=RSS&at_campaign=rss"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Platforms fight back against the flood of low-quality AI-generated content.",
-    "zh": "平台反击低质量AI生成内容的洪流。"
+    "en": "As truce expires, Trump lashes out at mediator Oman, echoing past failures.",
+    "zh": "休戰到期，川普遷怒調解者阿曼，重演過去失敗。"
    },
    "id": "t2",
    "keyword": {
-    "en": "AI slop",
-    "zh": "AI 垃圾内容"
+    "en": "Iran nuclear diplomacy",
+    "zh": "伊朗核談判"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You think about content quality and AI: today Spotify and LinkedIn are cleaning up AI slop, a direct hit to your interest in AI's impact on communication.",
-    "zh": "你思考内容质量和AI：今日Spotify和LinkedIn清理AI垃圾，直接影响你对AI影响沟通的兴趣。"
+    "en": "You track negotiation narratives: today's threats reveal a pattern in Trump's foreign policy rhetoric.",
+    "zh": "你追蹤談判敘事，今日威脅顯現川普言辭模式。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "bfac00b5f618173e",
+     "item_id": "a6407775562e1979",
      "phrase": {
-      "en": "Conversational agents for wellbeing",
-      "zh": "健康对话代理设计"
+      "en": "NYT: Trump votes by mail again",
+      "zh": "紐時：川普再郵寄投票"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.14273v1"
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/17/us/politics/trump-mail-vote-florida-election.html"
     },
     {
-     "item_id": "b1e22db5844eb5e6",
+     "item_id": "5336f114339bff2c",
      "phrase": {
-      "en": "EEG decoding with CNN",
-      "zh": "CNN解码脑电"
+      "en": "Guardian: report on Trump's ballot",
+      "zh": "衛報：川普郵寄投票報導"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.13285v1"
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/17/trump-mail-vote-florida-republican-primary"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Wearable devices gather rich health data, but turning that into helpful conversation is still a challenge.",
-    "zh": "可穿戴设备收集丰富健康数据，但转化为有用对话仍是挑战。"
+    "en": "President again votes by mail despite condemning the practice as fraud.",
+    "zh": "總統再度郵寄投票，儘管他譴責此舉為舞弊。"
    },
    "id": "t3",
    "keyword": {
-    "en": "wearable health",
-    "zh": "可穿戴健康"
+    "en": "Mail-in voting contradiction",
+    "zh": "郵寄投票矛盾"
    },
    "relates_to": [],
    "why_now": {
-    "en": "Your interest in embodied AI and HCI aligns: this paper explores designing conversational agents for wellbeing using sensor data, bridging body and machine.",
-    "zh": "你对具身AI和人机交互的兴趣契合：本文探索用传感器数据设计健康对话代理，连接身体与机器。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "4464bb3e7f130d82",
-     "phrase": {
-      "en": "Making research labor visible",
-      "zh": "让研究劳动可见"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.12792v2"
-    },
-    {
-     "item_id": "086e883239e0ed09",
-     "phrase": {
-      "en": "Estimating genetic correlation",
-      "zh": "估算遗传相关性"
-     },
-     "section": "papers",
-     "source": "OpenAlex · information visualization",
-     "url": "https://doi.org/10.1038/s41467-026-76693-z"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Scholars are formalizing how visuals persuade, from data stories to research contributions.",
-    "zh": "学者正规范化视觉如何说服，从数据故事到研究贡献。"
-   },
-   "id": "t4",
-   "keyword": {
-    "en": "visual rhetoric",
-    "zh": "视觉修辞"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "Your declared interest in visual rhetoric is served: today's papers analyze contribution statements and data storytelling, helping you craft more persuasive…",
-    "zh": "你声明对视觉修辞感兴趣：今日论文分析贡献声明和数据叙事，助你构建更有说服力的视觉论据。"
+    "en": "You study political communication: this contradiction highlights the gap between rhetoric and action.",
+    "zh": "你研究政治傳播，此矛盾凸顯言辭與行動的差距。"
    }
   }
  ]

@@ -19,7 +19,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.286,
+   "score": 0.2804,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -44,7 +44,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.286,
+   "score": 0.2804,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -73,7 +73,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.4235,
+   "score": 0.4179,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -104,7 +104,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.4736,
+   "score": 0.468,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -133,7 +133,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.286,
+   "score": 0.2804,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -160,7 +160,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.4235,
+   "score": 0.4179,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -188,7 +188,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.4235,
+   "score": 0.4179,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -217,7 +217,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.4235,
+   "score": 0.4179,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -246,7 +246,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.286,
+   "score": 0.2804,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -272,7 +272,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.4235,
+   "score": 0.4179,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -299,7 +299,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.4485,
+   "score": 0.4429,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -330,7 +330,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.286,
+   "score": 0.2804,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -358,7 +358,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.286,
+   "score": 0.2804,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -387,7 +387,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.4235,
+   "score": 0.4179,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -416,7 +416,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.286,
+   "score": 0.2804,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -425,319 +425,22 @@
    "title": "Towards a unified publicly accessible database of avian type specimens",
    "url": "https://doi.org/10.1111/ibi.70109",
    "venue": "Ibis"
-  },
-  {
-   "authors": [
-    "Kai Nylund",
-    "Michael Correll",
-    "Lace Padilla"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Widely used non-linear dimensionality reduction (NLDR) methods such as UMAP and t-SNE are stochastic--repeated runs on the same data can produce different low-dimensional projections. In this paper, we explore two problems related to projection variability: on some datasets clusters, structure, and outliers may change run-to-run, and on others projections can be extremely stable when overfitting noise. To address the first problem, we propose visualizing the median of multiple NLDR outputs…",
-    "arxiv_id": "2608.14513"
-   },
-   "id": "d09f8b12cd349aaf",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-14T17:32:26Z",
-   "score": 0.5722,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Widely used non-linear dimensionality reduction (NLDR) methods such as UMAP and t-SNE are stochastic--repeated runs on the same data can produce different low-dimensional projections. In this paper, we explore two problems related to projection variability: on some datasets clusters, structure, and…",
-   "tags": [],
-   "title": "Visualizing Uncertainty in Non-linear Projections with Ensembles",
-   "url": "https://arxiv.org/abs/2608.14513v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Daniel Klötzl",
-    "Daniel Weiskopf"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "We present an uncertainty-aware Jacobi set computation method. In general, Jacobi sets are topological descriptors that capture the gradient alignments of two scalar fields, as, e.g., used for multi-field visualization. We adopt and reformulate an existing computational approach that relies on an edge-based identification of Jacobi set edges on a given triangulation. Our extension to uncertainty visualization builds upon a versatile, spatially coherent uncertainty model for pairs of scalar…",
-    "arxiv_id": "2608.14409"
-   },
-   "id": "b31873d9821de90d",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-14T15:53:56Z",
-   "score": 0.5687,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "We present an uncertainty-aware Jacobi set computation method. In general, Jacobi sets are topological descriptors that capture the gradient alignments of two scalar fields, as, e.g., used for multi-field visualization. We adopt and reformulate an existing computational approach that relies on an…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "Uncertainty-Aware Jacobi Set Computation",
-   "url": "https://arxiv.org/abs/2608.14409v1",
-   "venue": "arXiv cs.GR"
-  },
-  {
-   "authors": [
-    "Wei Wei",
-    "Foroozan Daneshzand",
-    "Zezhong Wang",
-    "Erica Mattson",
-    "Jenny Farkas",
-    "Sarah Storteboom"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "In this work, we present how employing the lens of entanglement helped us examine and reframe epistemic tensions arising in a visualization co-design project. Entanglement theory challenges traditional assumptions in the visualization research community by emphasizing that knowledge is not produced through linear, isolated processes, but is inherently entangled with phenomena and apparatuses. While this perspective offers a compelling critique of conventional research practices, its practical…",
-    "arxiv_id": "2608.14364"
-   },
-   "id": "e989beb1ae757e11",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-14T15:04:29Z",
-   "score": 0.3745,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "In this work, we present how employing the lens of entanglement helped us examine and reframe epistemic tensions arising in a visualization co-design project. Entanglement theory challenges traditional assumptions in the visualization research community by emphasizing that knowledge is not produced…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "Epistemic Tensions: Reframing A Visualization Co-Design through Entanglement Theory",
-   "url": "https://arxiv.org/abs/2608.14364v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Hansoo Lee",
-    "Pablo Fonseca",
-    "Md Haseen Akhtar"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Mobile and wearable devices increasingly collect continuous wellbeing data, including sleep, activity, heart rate, stress, blood glucose, and blood pressure. Yet access to such data does not automatically help people interpret their condition or change behavior. Many health applications remain dashboard-first, presenting charts, thresholds, goals, and alerts while leaving users to decide what a change means and what action should follow. Conversely, generic LLM-based conversational agents (CAs)…",
-    "arxiv_id": "2608.14273"
-   },
-   "id": "bfac00b5f618173e",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-14T12:55:25Z",
-   "score": 0.5626,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Mobile and wearable devices increasingly collect continuous wellbeing data, including sleep, activity, heart rate, stress, blood glucose, and blood pressure. Yet access to such data does not automatically help people interpret their condition or change behavior. Many health applications remain…",
-   "tags": [],
-   "title": "Designing Mobile and Wearable Sensor-Fused Conversational Agents for Health and Wellbeing",
-   "url": "https://arxiv.org/abs/2608.14273v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Michael R. Martin",
-    "Joseph Insley",
-    "Victor A. Mateevitsi",
-    "Silvio Rizzi",
-    "Kwan-Liu Ma"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Scientific simulations often produce scalar volumes faster than they can be stored, transferred, and loaded, while in situ reduction must use only a limited share of simulation resources. This work encodes scalar fields as anisotropic Gaussian primitives under a fixed budget. The complete primitive set is allocated analytically from local field structure, including position, orientation, and shape, then refined directly against the scalar field without densification, pruning, or count changes.…",
-    "arxiv_id": "2608.14112"
-   },
-   "id": "6da10895199a2f6a",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-14T09:15:35Z",
-   "score": 0.3628,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Scientific simulations often produce scalar volumes faster than they can be stored, transferred, and loaded, while in situ reduction must use only a limited share of simulation resources. This work encodes scalar fields as anisotropic Gaussian primitives under a fixed budget. The complete primitive…",
-   "tags": [],
-   "title": "Fixed-Budget Gaussian Volume Encoding with Structure-Aware Allocation",
-   "url": "https://arxiv.org/abs/2608.14112v1",
-   "venue": "arXiv cs.CV"
-  },
-  {
-   "authors": [
-    "Xiao Xiao"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "This paper examines a use of AI in creative practice as an interpretive sounding board for human-generated material, rather than the more familiar pattern of AI generation followed by human curation. Through the lens of resonance as theorized by Hartmut Rosa, I present a first-person case study of songwriting from July 2025 to March 2026, drawing on 16 original pieces in English, French, and other languages along with piano solos. I describe a configuration in which resonance is not located…",
-    "arxiv_id": "2608.13944"
-   },
-   "id": "a07e4dde432a4267",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-14T04:33:33Z",
-   "score": 0.6465,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "This paper examines a use of AI in creative practice as an interpretive sounding board for human-generated material, rather than the more familiar pattern of AI generation followed by human curation. Through the lens of resonance as theorized by Hartmut Rosa, I present a first-person case study of…",
-   "tags": [
-    "ai-writing",
-    "llm",
-    "techcomm"
-   ],
-   "title": "Musical Mirrors: The LLM as Sounding Board in Songwriting",
-   "url": "https://arxiv.org/abs/2608.13944v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Lonni Besançon",
-    "Tobias Isenberg"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "We analyzed the ethics reporting in 255 IEEE VIS papers from 2024 and 2025, as published in TVCG. This analysis arose from our experience as readers and reviewers of IEEE VIS papers that such reporting is frequently incomplete or missing, as well as from investigations in which we ourselves had to answer challenges regarding ethics approval in our own work. Visualization research naturally often involves human participants, yet ethics approval and informed-consent procedures are not always…",
-    "arxiv_id": "2608.13295"
-   },
-   "id": "30f44523ef6c5172",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-13T14:26:23Z",
-   "score": 0.3302,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "We analyzed the ethics reporting in 255 IEEE VIS papers from 2024 and 2025, as published in TVCG. This analysis arose from our experience as readers and reviewers of IEEE VIS papers that such reporting is frequently incomplete or missing, as well as from investigations in which we ourselves had to…",
-   "tags": [
-    "eval-study"
-   ],
-   "title": "More Than 63% of IEEE VIS Research Liable to be Retracted?! Ethics Approval Statements Protect Participants (and Researchers!)",
-   "url": "https://arxiv.org/abs/2608.13295v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Athanasios Karagounis"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Motor imagery (MI) brain--computer interfaces (BCIs) have emerged as a promising approach for establishing flexible communication pathways between the human brain and external devices , particularly for individuals affected by stroke or neurodegenerative disorders. Reliable decoding of motor-imagery electroencephalography (MI-EEG) remains challenging because EEG recordings contain substantial noise and exhibit complex, weakly informative relationships with the underlying brain activity.…",
-    "arxiv_id": "2608.13285"
-   },
-   "id": "b1e22db5844eb5e6",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-13T14:20:51Z",
-   "score": 0.4825,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Motor imagery (MI) brain--computer interfaces (BCIs) have emerged as a promising approach for establishing flexible communication pathways between the human brain and external devices , particularly for individuals affected by stroke or neurodegenerative disorders. Reliable decoding of…",
-   "tags": [
-    "ai-writing"
-   ],
-   "title": "EEG Decoding Using CNN and LSTM Network",
-   "url": "https://arxiv.org/abs/2608.13285v1",
-   "venue": "arXiv cs.LG"
-  },
-  {
-   "authors": [
-    "Mara Solen",
-    "Wesley Willett",
-    "Andrew M McNutt"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Contribution statements are an increasingly common way to make research labor visible, reduce academic malfeasance, and provide broader transparency. Despite this potential value, they remain uncommon in visualization and HCI. To explore this gap, we conducted an online study with (N=21) visualization and HCI researchers. We find a range of differing opinions about the utility of contribution statements, which are set against a background of tensions relating to contribution frameworks that…",
-    "also_in": [
-     {
-      "source": "arXiv cs.HC (writing & docs)",
-      "url": "https://arxiv.org/abs/2608.12792v2"
-     }
-    ],
-    "arxiv_id": "2608.12792"
-   },
-   "id": "4464bb3e7f130d82",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-13T03:53:53Z",
-   "score": 0.5073,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Contribution statements are an increasingly common way to make research labor visible, reduce academic malfeasance, and provide broader transparency. Despite this potential value, they remain uncommon in visualization and HCI. To explore this gap, we conducted an online study with (N=21)…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "Considering Contribution Statements in Visualization and HCI Research",
-   "url": "https://arxiv.org/abs/2608.12792v2",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Hakan Üstünel"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "This study introduces the spatial and analytical construction of the Quartic Overhauser (QOVR) surface generation framework designed to resolve boundary alignment and localized shape modification constraints. This framework implements a variable parameter fourth degree novel architecture to achieve exact parameter isolation across orthogonal coordinate axes. The analytical pipeline integrates directional spline blending functions with symmetric spatial control matrices, ensuring that internal…",
-    "arxiv_id": "2608.12697"
-   },
-   "id": "2cdc53f2efd36fa4",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-13T01:20:42Z",
-   "score": 0.5039,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "This study introduces the spatial and analytical construction of the Quartic Overhauser (QOVR) surface generation framework designed to resolve boundary alignment and localized shape modification constraints. This framework implements a variable parameter fourth degree novel architecture to achieve…",
-   "tags": [
-    "systems"
-   ],
-   "title": "Matrix-Driven Quartic Overhauser (QOVR) Surfaces Structural Framework: Continuity Limitations, Computer Graphics Algorithms, and Software Implementation",
-   "url": "https://arxiv.org/abs/2608.12697v1",
-   "venue": "arXiv cs.GR"
-  },
-  {
-   "authors": [
-    "Nadia Mehjabin",
-    "Henry Kautz",
-    "Subigya Nepal"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "AI journaling tools can tailor prompts to a person's own sensed behavior, but it is unclear which behaviors respond to them. We analyzed 369 journal entries from an eight-week passive sensing study. An LLM labeled each entry as expressing an intention to change a behavior or not, and we measured follow-through against 26 sensor features with a 3-day before/after comparison. Responsiveness depended most on whether a behavior involves other people. Behaviors that depend on others improved in only…",
-    "arxiv_id": "2608.12582"
-   },
-   "id": "62989d6c0698801f",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-12T20:52:59Z",
-   "score": 0.5981,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "AI journaling tools can tailor prompts to a person's own sensed behavior, but it is unclear which behaviors respond to them. We analyzed 369 journal entries from an eight-week passive sensing study. An LLM labeled each entry as expressing an intention to change a behavior or not, and we measured…",
-   "tags": [
-    "ai-writing",
-    "llm"
-   ],
-   "title": "Not All Nudges Land: Behavioral Controllability and Elaboration Quality in AI-Supported Journaling",
-   "url": "https://arxiv.org/abs/2608.12582v1",
-   "venue": "arXiv cs.HC"
   }
  ],
  "meta": {
-  "count": 26,
-  "generated_at": "2026-08-17T22:38:21Z",
+  "count": 15,
+  "generated_at": "2026-08-18T01:48:50Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
    {
     "category": "optional",
-    "count": 8,
-    "error": null,
+    "count": 0,
+    "error": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60 (Caus",
     "full_text_count": 0,
     "id": "arxiv_datavis",
     "name": "arXiv cs.HC + cs.GR",
-    "ok": true,
+    "ok": false,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
@@ -769,7 +472,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-20&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-21&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
@@ -792,12 +495,12 @@
    },
    {
     "category": "optional",
-    "count": 4,
-    "error": null,
+    "count": 0,
+    "error": "429 Client Error: Too Many Requests for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC&sortBy=submittedDate&sortOrder=descending&max_results=40",
     "full_text_count": 0,
     "id": "arxiv_hci_writing",
     "name": "arXiv cs.HC (writing & docs)",
-    "ok": true,
+    "ok": false,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
