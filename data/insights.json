@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "snail racing championship OR world snail racing",
+  "query": "horn honking contest OR car horn festival",
   "source": {
-   "name": "BBC",
-   "published_at": "2026-07-19T07:00:00Z",
-   "title": "'Snailor Swift' becomes world snail racing champion",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5rR1FsMmRrZFE4b3FGY3p1TlRGU0pkTUtQeGJYZjBKX0FER1dab2RzZjVLaTEtRmU2NFl4V3M4bC1Xc2l0NFVVNHN1TnNYZi02blJOZUJDZDlyT0hr?oc=5"
+   "name": "Law and Crime News",
+   "published_at": "2026-08-14T15:01:00Z",
+   "title": "Driver responds to woman honking at him by pinning her arm in her own car door as she tried to drive away: Cops",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOaDU3TFZvZUVGbE45eFJBN2RaLTZMVzF4MGVsS1ZWbVBVWTBSbVNVX1RGT0ViemJrbGVVWEd5Z0xSMVdUdHQzLWJKYm1yMm45czBsdWEyMDVaZW1uSVRWQ0ZpVWhhTzQtSnIxRGhoODJKSkRDSVY4RkJqU3BRYXlhaGE5WGJ6NFZPcFY3S1kzWE5sVENLZlkzSjJLZ2s1NGpfNE92UEo2M3JYTWJ0YXQxVkJUbU00cS02Rmc3LTV2RlEwaks2OFprT01HT3pJMV9WdTNXY0RhczI?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A snail named 'Snailor Swift' won the World Snail Racing Championships in Norfolk, England.",
-    "why_irrelevant": "It's a whimsical, animal-racing story far removed from typical tech and geopolitics news."
+    "summary": "A driver pinned a woman's arm in her car door after she honked at him, leading to his arrest.",
+    "why_irrelevant": "A minor, local crime story with no broader implications."
    },
    "zh": {
-    "summary": "一只名为“蜗牛泰勒·斯威夫特”的蜗牛赢得了诺福克世界蜗牛赛跑锦标赛。",
-    "why_irrelevant": "这是一个远离常规科技与地缘政治新闻的趣味动物比赛故事。"
+    "summary": "一名司机因被女子鸣笛，将其手臂夹在车门中，随后被捕。",
+    "why_irrelevant": "本地小案件，无深远影响。"
    }
   },
-  "topic": "competitive snail racing"
+  "topic": "competitive horn honking"
  },
- "brief": "Today's news spans geopolitical tensions, domestic policy battles, and environmental crises, while research focuses on human-AI interaction and visualization of uncertainty.",
+ "brief": "Today's news spans political deals on gambling ads in Australia, UK economic and legal issues, and international tensions, while research focuses on visualization and AI-driven human-computer interaction.",
  "meta": {
-  "generated_at": "2026-08-18T04:49:28Z"
+  "generated_at": "2026-08-18T07:01:41Z"
  },
- "news_summary": "Global news highlights U.S.-Canada tariff negotiations, Trump's moves on North Korea and mail-in voting, AI advancements, and environmental records in Lake Powell.",
- "papers_summary": "Papers examine visualization of uncertainty, human-robot interaction, and the impact of generative AI on workplace productivity.",
+ "news_summary": "Australia's major parties strike a deal on gambling ad restrictions, UK faces slowing pay growth and ongoing legal cases, and international stories highlight conflicts and social issues.",
+ "papers_summary": "Papers explore prediction market visualizations and uncertainty displays, plus methods for improving AI-human interaction and qualitative data analysis.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans geopolitical tensions, domestic policy battles, and environmental crises, while research focuses on human-AI interaction and visualization of uncertainty.",
-   "news_summary": "Global news highlights U.S.-Canada tariff negotiations, Trump's moves on North Korea and mail-in voting, AI advancements, and environmental records in Lake Powell.",
-   "papers_summary": "Papers examine visualization of uncertainty, human-robot interaction, and the impact of generative AI on workplace productivity."
+   "brief": "Today's news spans political deals on gambling ads in Australia, UK economic and legal issues, and international tensions, while research focuses on visualization and AI-driven human-computer interaction.",
+   "news_summary": "Australia's major parties strike a deal on gambling ad restrictions, UK faces slowing pay growth and ongoing legal cases, and international stories highlight conflicts and social issues.",
+   "papers_summary": "Papers explore prediction market visualizations and uncertainty displays, plus methods for improving AI-human interaction and qualitative data analysis."
   },
   "zh": {
-   "brief": "今日新闻聚焦于AI竞争、地缘政治与社会议题，其中AI发展路线与领导层纪念规格引发热议；研究方面则关注预测市场可视化与人机交互中的不确定性表达。",
-   "news_summary": "新闻涵盖中美AI竞赛的不同策略、日本AI应用迟缓、Meta面临诉讼、泰国枪支问题及中国动画电影意外走红等，同时涉及韩国军演调整与江澤民纪念规格。",
-   "papers_summary": "研究论文集中于预测市场可视化、AI不确定性可视化、人机交互设计及职场生成式AI应用等，强调提升系统透明性与用户体验。"
+   "brief": "今日新闻聚焦AI竞争、社交媒体监管及日本AI应用滞后，论文则关注生成式AI对职场的影响及可视化设计。",
+   "news_summary": "中美AI竞赛路线不同，日本企业AI应用缓慢，Meta面临诉讼或改变社交平台，泰国枪支问题严重。",
+   "papers_summary": "论文探讨生成式AI在职场的作用与沟通变化，以及可视化设计中不确定性表达与用户体验。"
   }
  },
  "todays_image": {
-  "caption": "Just as the flexible stems of Hippuris vulgaris L. bend with every current, so must the people of Chocó sway and adapt to the earth's sudden, unforgiving jolt.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3e90c5d1ce05e4a999c33094f28aae3d3",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/311ae1e54-7fe5-4715-9180-91fe2268371f",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3e90c5d1ce05e4a999c33094f28aae3d3/90",
-  "title": "Hippuris vulgaris L."
+  "caption": "Both the secret deliberations of the Federal Convention and Australia’s backroom Senate deal show that key political decisions often hinge on what happens behind closed doors.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2014q066604",
+  "source_name": "National Museum of American History",
+  "source_url": null,
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2014q066604&max=150",
+  "title": "Secret Proceedings and Debates of the Federal Convention"
  }
 }
