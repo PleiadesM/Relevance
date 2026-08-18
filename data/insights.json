@@ -1,28 +1,48 @@
 {
- "brief": "Today's news covers geopolitical tensions, AI security vulnerabilities, and domestic political shifts, while research highlights human-centered AI and interactive visualization.",
- "meta": {
-  "generated_at": "2026-08-18T13:05:35Z"
+ "apropos_of_nothing": {
+  "query": "small town whale watching festival OR Pacific Northwest whale watching",
+  "source": {
+   "name": "San Luis Obispo Tribune",
+   "published_at": "2026-07-22T07:00:00Z",
+   "title": "3 SLO County communities make best seaside summer vacation list. Which ones?",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMVROUWdpeXpteVdJeTV6aFBEUDFVdmM1Rm43Y25YQldoSlN5YzBPem0yOVRKYmhkUldXMmc4aFlqblJSTnJSUnVxNm54MUhlTDZkeXV5dGVTZUJqOHR5azVYeExGMjh2THUtVTA4MUNGaG1idUU4allwOUFmUjNJbTNRZC11S2850gGIAUFVX3lxTFBxV2l4S2NzUm5HUlBZcDFXMEp5VDJubWNXd0NwNm54RGl0QjdEcWVjMlY4bl9OMWJ4dUpPVU5OUXpwU1Rzbk1PQzluSC1WWS1JQmlYQ2RKVHlYVHdrcHNNZ05iYkdrTDJabmEzcG1CaHliNXNoXzNzNkJjNmdrdHAxTmRvU3dzVTI?oc=5"
+  },
+  "summaries": {
+   "en": {
+    "summary": "Three San Luis Obispo County communities made a list of best seaside summer vacation spots.",
+    "why_irrelevant": "Focuses on California's Central Coast, far from the PNW's whale-watching scene."
+   },
+   "zh": {
+    "summary": "圣路易斯奥比斯波县的三个社区入选最佳海滨夏季度假胜地名单。",
+    "why_irrelevant": "关注加州中部海岸，远离西北太平洋的观鲸场景。"
+   }
+  },
+  "topic": "competitive whale watching in Pacific Northwest small towns"
  },
- "news_summary": "News ranges from Microsoft Copilot's hackable secret parameter and ABC's lawsuit against the FCC, to UK politics on Ukraine and bus nationalization, plus a Zimbabwe ferry disaster and oil price surge.",
- "papers_summary": "Papers focus on human-AI interaction, including prediction market visualizations, generative AI workplace impact, and robot design for diverse communities.",
+ "brief": "Today's news is dominated by geopolitical tensions and environmental concerns, while research highlights advances in AI and visualization for human oversight and interaction.",
+ "meta": {
+  "generated_at": "2026-08-18T14:50:15Z"
+ },
+ "news_summary": "Global headlines cover a major wildfire in Belgium, rising bond yields, the Strait of Hormuz attack, and political clashes between the Trump administration and media, alongside domestic UK issues like gas supply and salmonella outbreak.",
+ "papers_summary": "Research papers focus on human-computer interaction and visualization, including prediction market visualizations, uncertainty-to-action displays, and the adoption of generative AI in the workplace.",
  "summaries": {
   "en": {
-   "brief": "Today's news covers geopolitical tensions, AI security vulnerabilities, and domestic political shifts, while research highlights human-centered AI and interactive visualization.",
-   "news_summary": "News ranges from Microsoft Copilot's hackable secret parameter and ABC's lawsuit against the FCC, to UK politics on Ukraine and bus nationalization, plus a Zimbabwe ferry disaster and oil price surge.",
-   "papers_summary": "Papers focus on human-AI interaction, including prediction market visualizations, generative AI workplace impact, and robot design for diverse communities."
+   "brief": "Today's news is dominated by geopolitical tensions and environmental concerns, while research highlights advances in AI and visualization for human oversight and interaction.",
+   "news_summary": "Global headlines cover a major wildfire in Belgium, rising bond yields, the Strait of Hormuz attack, and political clashes between the Trump administration and media, alongside domestic UK issues like gas supply and salmonella outbreak.",
+   "papers_summary": "Research papers focus on human-computer interaction and visualization, including prediction market visualizations, uncertainty-to-action displays, and the adoption of generative AI in the workplace."
   },
   "zh": {
-   "brief": "今日聚焦中国前总理朱镕基的葬礼及其政治象征，同时关注中美AI竞争、日本AI应用迟缓等科技议题；研究方面，多篇论文探讨不确定性可视化与AI系统的人机协作。",
-   "news_summary": "中国前总理朱镕基遗体火化，官方纪念规格引发关注；同时，中美AI军备竞赛、日本企业AI采用缓慢等话题成为焦点。",
-   "papers_summary": "多篇论文聚焦于不确定性可视化与人工智能系统的人机协作，强调在人类监督中如何呈现不确定性并触发相应行动。"
+   "brief": "今日焦点：中国前总理朱镕基逝世引发民间悼念与官方谨慎之间的微妙张力；同时，AI在中美竞争、日本企业应用缓慢及青少年保护等方面成为全球热议话题。",
+   "news_summary": "中国前总理朱镕基火化，官方悼念与民间情感形成对比；Z世代用抗焦虑药替代酒精引发讨论；日本企业AI应用缓慢；中美AI竞赛路线分歧明显。",
+   "papers_summary": "多篇研究探讨AI在可视化不确定性、人机交互、生成式AI对工作影响等领域的进展，强调AI系统设计中的人类监督与用户体验。"
   }
  },
  "todays_image": {
-  "caption": "Like a Mulready caricature hiding satire within a familiar envelope, the Copilot hack smuggled its secret input inside seemingly innocuous text.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-0_205561_12a",
-  "source_name": "National Postal Museum",
-  "source_url": "https://postalmuseum.si.edu/object/npm_0.205561.12",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-0_205561_12a",
-  "title": "Southgate Mulready caricature cover"
+  "caption": "Like the asteroides flower that blooms anew after flames, the Belgian firefighters work to encircle the wildfire so the land can rise again from the ashes.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3d1b2a964-ed98-4ee0-8f71-927381c84000",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c/90",
+  "title": "Chaetopappa asteroides (Nutt.) DC."
  }
 }

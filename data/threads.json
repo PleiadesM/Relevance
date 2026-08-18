@@ -1,7 +1,7 @@
 {
  "meta": {
-  "count": 2,
-  "generated_at": "2026-08-18T13:05:35Z",
+  "count": 3,
+  "generated_at": "2026-08-18T14:50:15Z",
   "scope": "public"
  },
  "threads": [
@@ -10,8 +10,8 @@
     {
      "item_id": "cd394d60e86d3276",
      "phrase": {
-      "en": "limits conversations for safety",
-      "zh": "限制对话保安全"
+      "en": "launch with safety limits",
+      "zh": "推出并设安全限制"
      },
      "section": "news",
      "source": "The New York Times",
@@ -20,29 +20,28 @@
     {
      "item_id": "e999abd36ae2e96b",
      "phrase": {
-      "en": "built-in protections for learning",
-      "zh": "内置保护助学习"
+      "en": "built-in protections for teens",
+      "zh": "内置青少年保护"
      },
      "section": "news",
      "source": "OpenAI News",
      "url": "https://openai.com/index/chatgpt-for-teens"
     },
     {
-     "full_text_file": "articles/news/3cdc6c80107ce634.json",
-     "item_id": "3cdc6c80107ce634",
+     "item_id": "2e49e1fbe7d7c705",
      "phrase": {
-      "en": "dedicated mode amid scrutiny",
-      "zh": "监管下专属模式"
+      "en": "partner for AI literacy",
+      "zh": "合作提升AI素养"
      },
      "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/981333/openai-chatgpt-teen-mode"
+     "source": "OpenAI News",
+     "url": "https://openai.com/index/partnering-with-codeai"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "ChatGPT gets a teen mode as public worry over AI’s reach grows.",
-    "zh": "ChatGPT推出青少年模式，公众对AI影响担忧加剧。"
+    "en": "OpenAI tailors ChatGPT for teens with built-in protections, while partners push AI literacy in schools.",
+    "zh": "OpenAI为青少年定制ChatGPT并内置保护，合作伙伴推动校园AI素养。"
    },
    "id": "t1",
    "keyword": {
@@ -51,48 +50,88 @@
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track embodied AI and HCI: this launch directly addresses human-AI interaction design for vulnerable users, a pressing HCI topic.",
-    "zh": "你追踪具身AI与人机交互：此次发布直接针对弱势用户的AI交互设计，是人机交互紧迫议题。"
+    "en": "You follow AI and HCI: new teen-focused AI launches today with safety features, shaping human-AI interaction design.",
+    "zh": "你关注AI与人机交互，今日青少年AI上线并带安全设计，影响人机交互。"
    }
   },
   {
    "angles": [
     {
-     "full_text_file": "articles/news/cf83dbdff311b02d.json",
-     "item_id": "cf83dbdff311b02d",
+     "full_text_file": "articles/news/b3156b4f80053ded.json",
+     "item_id": "b3156b4f80053ded",
      "phrase": {
-      "en": "reports hide real usage",
-      "zh": "报告隐藏真实使用"
+      "en": "self-improvement not imminent",
+      "zh": "自我改进不会很快"
      },
      "section": "news",
      "source": "MIT Technology Review · AI",
-     "url": "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/"
+     "url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/"
     },
     {
-     "item_id": "987e4de53495697e",
+     "item_id": "ab3e0d08f3644a3d",
      "phrase": {
-      "en": "AIs already out of control",
-      "zh": "AI已失控"
+      "en": "local reviewer replaces AI",
+      "zh": "本地工具替代AI审查"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/18/opinion/ezra-klein-podcast-helen-toner.html"
+     "source": "Hacker News (AI filter)",
+     "url": "https://github.com/mukundzha/avouch"
     }
    ],
    "convergence": "divergent",
    "gloss": {
-    "en": "Tech firms keep AI usage stats secret, blocking honest evaluation.",
-    "zh": "科技公司隐瞒AI使用数据，阻碍诚实评估。"
+    "en": "Debate heats up on whether AI can recursively improve itself, with skepticism from experts.",
+    "zh": "关于AI能否递归自我改进的争论升温，专家持怀疑态度。"
    },
    "id": "t2",
    "keyword": {
-    "en": "AI data transparency",
-    "zh": "AI数据透明度"
+    "en": "AI self-improvement",
+    "zh": "AI自我改进"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about AI’s real impact: today’s critique questions what we know about actual usage, vital for your research on human-AI interaction.",
-    "zh": "你关注AI的实际影响：今日批评质疑我们对实际使用的认知，这对你的人机交互研究至关重要。"
+    "en": "You track AI trends: a new analysis questions rapid self-improvement, relevant to your embodied AI interests.",
+    "zh": "你关注AI趋势，新分析质疑快速自我改进，与具身AI兴趣相关。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "full_text_file": "articles/news/81e7295b685f74bf.json",
+     "item_id": "81e7295b685f74bf",
+     "phrase": {
+      "en": "AI chats with sources",
+      "zh": "AI对话带来源"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/981283/mozilla-firefox-smart-window-ai-features"
+    },
+    {
+     "item_id": "ab3e0d08f3644a3d",
+     "phrase": {
+      "en": "free local alternative",
+      "zh": "免费本地替代品"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://github.com/mukundzha/avouch"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Firefox's new AI browser mode surfaces web info with sources, while a hacker builds free local AI tools.",
+    "zh": "Firefox新版AI浏览器展示带来源的网络信息，黑客打造免费本地AI工具。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "AI browser tools",
+    "zh": "AI浏览器工具"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about HCI and AI: new browser AI features change how you interact with information online.",
+    "zh": "你关注人机交互与AI，新浏览器AI功能改变你在线获取信息的方式。"
    }
   }
  ]

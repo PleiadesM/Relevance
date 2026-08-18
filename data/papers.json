@@ -16,7 +16,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-17T17:04:33Z",
-   "score": 0.7471,
+   "score": 0.7398,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -41,7 +41,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-17T12:04:18Z",
-   "score": 0.8266,
+   "score": 0.8197,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -69,7 +69,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-17T11:28:41Z",
-   "score": 0.7242,
+   "score": 0.7174,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -100,7 +100,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-17T08:49:39Z",
-   "score": 0.8139,
+   "score": 0.8073,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -126,7 +126,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-17T03:22:38Z",
-   "score": 0.4612,
+   "score": 0.455,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -155,7 +155,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-16T05:48:36Z",
-   "score": 0.5855,
+   "score": 0.5807,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -182,7 +182,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T16:22:36Z",
-   "score": 0.5911,
+   "score": 0.587,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -208,7 +208,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T14:16:32Z",
-   "score": 0.5462,
+   "score": 0.5422,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -239,7 +239,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T05:19:51Z",
-   "score": 0.5266,
+   "score": 0.523,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -265,7 +265,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T01:32:28Z",
-   "score": 0.5189,
+   "score": 0.5155,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -276,432 +276,6 @@
    "title": "Command-Space Counterfactual Explanations for Pareto-Conditioned Reinforcement Learning",
    "url": "https://arxiv.org/abs/2608.14963v1",
    "venue": "arXiv cs.LG"
-  },
-  {
-   "authors": [
-    "Raiswa Saha",
-    "Rajnigandha Singh",
-    "Christine D'lima",
-    "Arijit Das",
-    "Satish Chandra Pant",
-    "Varaprasad Raghavareddy"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "citations": 0,
-    "doi": "10.1016/j.ijhm.2026.104866"
-   },
-   "id": "f3e10ff95258867e",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.2621,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "",
-   "tags": [],
-   "title": "Foodstagramming decoded: A mixed-methods and topic modeling approach",
-   "url": "https://doi.org/10.1016/j.ijhm.2026.104866",
-   "venue": "International Journal of Hospitality Management"
-  },
-  {
-   "authors": [
-    "Sezen Aksu",
-    "Aslı Er Akan"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Managing construction-related errors has become increasingly important as construction projects continue to grow in scale and technical complexity. Digital technologies, particularly the combined use of Building Information Modeling (BIM) and Augmented Reality (AR), offer new opportunities to strengthen inspection procedures and facilitate more effective construction error management. Accordingly, this study evaluates the applicability of BIM–AR integration within the broader framework of smart…",
-    "citations": 0,
-    "doi": "10.38027/smart.v3n1-11"
-   },
-   "id": "deeafe75ee042c03",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.2621,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Managing construction-related errors has become increasingly important as construction projects continue to grow in scale and technical complexity. Digital technologies, particularly the combined use of Building Information Modeling (BIM) and Augmented Reality (AR), offer new opportunities to…",
-   "tags": [
-    "systems"
-   ],
-   "title": "Exploring the Role of AR-Integrated BIM Systems in Construction Site Error Management",
-   "url": "https://doi.org/10.38027/smart.v3n1-11",
-   "venue": "Smart Design Policies"
-  },
-  {
-   "authors": [
-    "Taj-din Rahmani",
-    "LAMIAE BELHAK",
-    "Aboubakre Fertahi",
-    "Mohammed Ezoubair"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Vegetation cover is an important indicator of ecosystem condition and environmental sustainability, particularly in semi-arid regions affected by climatic variability and anthropogenic pressures.This study assesses vegetationcover differences in the Oued Rdat Basin, northwestern Morocco, between 1984 and 2022 using Landsat imagery, the modified soil adjusted vegetation index (MSAVI), and Geographic Information Systems.Two Landsat scenes acquired in July 1984 and July 2022 were processed and…",
-    "citations": 0,
-    "doi": "10.12912/27197050/226766"
-   },
-   "id": "24f6ead8c4b2390b",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.3996,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Vegetation cover is an important indicator of ecosystem condition and environmental sustainability, particularly in semi-arid regions affected by climatic variability and anthropogenic pressures.This study assesses vegetationcover differences in the Oued Rdat Basin, northwestern Morocco, between…",
-   "tags": [
-    "systems"
-   ],
-   "title": "Bi-temporal assessment of vegetation-cover change using Landsat modified soil adjusted vegetation index (1984–2022): The Oued Rdat Basin, Morocco",
-   "url": "https://doi.org/10.12912/27197050/226766",
-   "venue": "Ecological Engineering & Environmental Technology"
-  },
-  {
-   "authors": [
-    "Yiliang Zhang",
-    "Wei Jiang",
-    "Jiangnan Shen",
-    "Youshu Cheng",
-    "Yixuan Ye",
-    "Qiongshi Lu"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract With the increasing accessibility of individual-level data from genome wide association studies, it is now common for researchers to have individual-level data of some traits in one specific population. For some traits, we can only access public released summary-level data due to privacy and safety concerns. The current methods to estimate genetic correlation can only be applied when the input data type of the two traits of interest is either both individual-level or both…",
-    "citations": 3,
-    "doi": "10.1038/s41467-026-76693-z"
-   },
-   "id": "086e883239e0ed09",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.4498,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract With the increasing accessibility of individual-level data from genome wide association studies, it is now common for researchers to have individual-level data of some traits in one specific population. For some traits, we can only access public released summary-level data due to privacy…",
-   "tags": [],
-   "title": "Estimating genetic correlation jointly using individual-level and summary-level GWAS data",
-   "url": "https://doi.org/10.1038/s41467-026-76693-z",
-   "venue": "Nature Communications"
-  },
-  {
-   "authors": [
-    "Scott D. Ryan",
-    "Hui Huang",
-    "Catherine A. LaBrenz",
-    "Yao Wang",
-    "Eusebius Small",
-    "Lacey Jenkins"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "citations": 0,
-    "doi": "10.21203/rs.3.rs-10481347/v1"
-   },
-   "id": "562b794f948b4084",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.2621,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "",
-   "tags": [],
-   "title": "Professional perspectives on postsecondary education supports for young adults with foster care experience: A concept mapping study",
-   "url": "https://doi.org/10.21203/rs.3.rs-10481347/v1",
-   "venue": "Research Square"
-  },
-  {
-   "authors": [
-    "Concepción Muñoz-Sosa",
-    "Bárbara Luque",
-    "Esperanza García‐Sancho",
-    "Carmen Tabernero"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Background: A high prevalence of somatisation is associated with a strong impairment of quality of life. Recent research suggests common underlying mechanism of central sensitisation in functional syndromes and chronic pain, with emotion regulation (ER) processes closely linked to somatic symptoms. This study examines the relationship between negative affect (NA) and anger rumination (AR) and its influence on somatisation. Methods: Five hundred seven individuals participated (mean age = 34.60 ±…",
-    "citations": 0,
-    "doi": "10.62641/aep.v54i4.2193"
-   },
-   "id": "6792f956c59cd659",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.3996,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Background: A high prevalence of somatisation is associated with a strong impairment of quality of life. Recent research suggests common underlying mechanism of central sensitisation in functional syndromes and chronic pain, with emotion regulation (ER) processes closely linked to somatic symptoms.…",
-   "tags": [],
-   "title": "The Mediating Role of Negative Affect in the Relationship Between Anger Rumination and Somatic Symptoms",
-   "url": "https://doi.org/10.62641/aep.v54i4.2193",
-   "venue": "Actas Españolas de Psiquiatría"
-  },
-  {
-   "authors": [
-    "Jingjing Xu",
-    "Zhiwei Yang",
-    "Xin Wu",
-    "Jian Xiong",
-    "Zhiqin Zhao"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "<title>Abstract</title> In clinical practice, Magnetic Resonance Imaging (MRI) often lacks specific modalities, inevitably leading to a degradation in predictive performance. Different modes are currently treated as independent and non-interfering during training for modal feature extraction, yet there are rich semantic relations between pixels across different modalities. This paper proposes the Cross Modal Reliable Pixel Contrastive Learning (CMR-PCL) algorithm for incomplete modal brain…",
-    "citations": 0,
-    "doi": "10.1038/s41598-026-65210-3"
-   },
-   "id": "304e7648477c9469",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.3996,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "<title>Abstract</title> In clinical practice, Magnetic Resonance Imaging (MRI) often lacks specific modalities, inevitably leading to a degradation in predictive performance. Different modes are currently treated as independent and non-interfering during training for modal feature extraction, yet…",
-   "tags": [],
-   "title": "Cross modal reliable pixel contrastive learning for incomplete modal brain tumor segmentation",
-   "url": "https://doi.org/10.1038/s41598-026-65210-3",
-   "venue": "Scientific Reports"
-  },
-  {
-   "authors": [
-    "Camila Sabino de Oliveira",
-    "Bárbara Silva‐Vignato",
-    "Simara Larissa Fanalli",
-    "Mariah Castro Durval",
-    "Felipe André Oliveira Freitas",
-    "Andrezza Felício"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract Understanding the genetic regulation underlying host–microbiota interactions is key to elucidating how microbial communities influence host metabolism, immunity, and physiology. In this context, the main objective of this study was to integrate genomic, transcriptomic, and microbial data to identify shared regulatory variants, highlight key microbial taxa, and prioritize biological pathways related to lipid metabolism, immune function, and host metabolic adaptation across multiple…",
-    "citations": 0,
-    "doi": "10.1007/s10142-026-02009-5"
-   },
-   "id": "68612cd28d615049",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.3996,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract Understanding the genetic regulation underlying host–microbiota interactions is key to elucidating how microbial communities influence host metabolism, immunity, and physiology. In this context, the main objective of this study was to integrate genomic, transcriptomic, and microbial data…",
-   "tags": [],
-   "title": "Associations of host gene expression in the brain, liver, muscle with fecal and cecal microbiota composition in pigs",
-   "url": "https://doi.org/10.1007/s10142-026-02009-5",
-   "venue": "Functional & Integrative Genomics"
-  },
-  {
-   "authors": [
-    "Shalini P. Etukuri",
-    "Chaney L. Courtney",
-    "Conner Rhoden",
-    "Matthew Laufer",
-    "Riley Main",
-    "Ryan A. Smith"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "citations": 0,
-    "doi": "10.21203/rs.3.rs-10594498/v1"
-   },
-   "id": "8e8100bdc95d9c0a",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.2621,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "",
-   "tags": [
-    "ml-vis"
-   ],
-   "title": "Automated Segmentation and Quantitative Analysis of Cotton Fiber Cross Sections Using a Deep Learning-Based Workflow",
-   "url": "https://doi.org/10.21203/rs.3.rs-10594498/v1",
-   "venue": "Research Square"
-  },
-  {
-   "authors": [
-    "Phulumphai Kawinthalakon"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "This reproducibility package contains the frozen evidence, derived data, software, audit records, and figure-generation materials supporting a pre-specified held-out evaluation of a ground-based ultralow-frequency (ULF) spatial-coherence classifier under simulated loss of upstream solar-wind information. The primary evaluation comprised 56 chronologically held-out geomagnetic events and 1,120 pre-specified 12-hour synthetic outage placements. Comparator definitions, the Rp threshold, weighting,…",
-    "citations": 0,
-    "doi": "10.5281/zenodo.21956922"
-   },
-   "id": "dec1c427b6bdc91a",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.3996,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "This reproducibility package contains the frozen evidence, derived data, software, audit records, and figure-generation materials supporting a pre-specified held-out evaluation of a ground-based ultralow-frequency (ULF) spatial-coherence classifier under simulated loss of upstream solar-wind…",
-   "tags": [
-    "eval-study"
-   ],
-   "title": "GroundFallback: Frozen Held-Out Evaluation Evidence, Data, and Reproducibility Code for a Ground-Based ULF Spatial-Coherence Classifier",
-   "url": "https://doi.org/10.5281/zenodo.21956922",
-   "venue": "Zenodo (CERN European Organization for Nuclear Research)"
-  },
-  {
-   "authors": [
-    "Maximilian Bechtel",
-    "Julien Steffen"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract We present OMOL-1k-MD, a new dataset for the benchmark and training of universal machine-learning interatomic potentials (uMLIPs). It contains three independent ab initio molecular dynamics (AIMD) trajectories of 10 ps each for 1000 arbitrarily chosen neutral closed shell molecular systems from the OMOL25 dataset, calculated at the PBE level of theory at 300 K. In contrast to most other MLIP training or benchmark data sets, which are focused on local minimum structures, OMOL-1k-MD…",
-    "citations": 1,
-    "doi": "10.1038/s41524-026-02286-5"
-   },
-   "id": "f5732912caa54c9c",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.4247,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract We present OMOL-1k-MD, a new dataset for the benchmark and training of universal machine-learning interatomic potentials (uMLIPs). It contains three independent ab initio molecular dynamics (AIMD) trajectories of 10 ps each for 1000 arbitrarily chosen neutral closed shell molecular systems…",
-   "tags": [
-    "systems"
-   ],
-   "title": "Vibrational power spectra as a tool to benchmark universal machine-learning interatomic potentials for molecular systems: the OMOL-1k-MD data set",
-   "url": "https://doi.org/10.1038/s41524-026-02286-5",
-   "venue": "npj Computational Materials"
-  },
-  {
-   "authors": [
-    "Xingcai Chen",
-    "Lei Yang",
-    "Jie Wang",
-    "Limin Zhai",
-    "Jie Bai",
-    "Jingwen Xiao"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "citations": 0,
-    "doi": "10.21203/rs.3.rs-10556327/v1"
-   },
-   "id": "5fd03f517706dd0f",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.2621,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "",
-   "tags": [],
-   "title": "Integrated Plasma miR-15a-5p, Inflammatory Markers, and PBMC Cell-Cycle Genes for Distinguishing Active from Latent Tuberculosis: A Cross-Sectional Diagnostic Study",
-   "url": "https://doi.org/10.21203/rs.3.rs-10556327/v1",
-   "venue": "Research Square"
-  },
-  {
-   "authors": [
-    "Siddharth Annaldasula",
-    "Manuel Vera",
-    "Adrián Casanova",
-    "Thomas Borsch",
-    "Katja Reichel"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "<title>Abstract</title> <italic>Arnica montana</italic> L. is a medicinal plant endemic to Europe and declining in large parts of its range. Low sequence diversity in genetic marker regions caused biogeographic patterns and the phylogenetic relationship between <italic>A. montana</italic> and its Holarctic congeners to remain obscure. We therefore evaluated entire chloroplast genomes of <italic>A. montana</italic> and related species as complex markers. To reliably detect even small genetic…",
-    "citations": 0,
-    "doi": "10.1038/s41598-026-65517-1"
-   },
-   "id": "82ec5ad5535c5536",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.2621,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "<title>Abstract</title> <italic>Arnica montana</italic> L. is a medicinal plant endemic to Europe and declining in large parts of its range. Low sequence diversity in genetic marker regions caused biogeographic patterns and the phylogenetic relationship between <italic>A. montana</italic> and its…",
-   "tags": [],
-   "title": "Towards whole plastome phylogeography: resolving small genetic distances among European Arnica montana L. with the PlastidPipeline",
-   "url": "https://doi.org/10.1038/s41598-026-65517-1",
-   "venue": "Scientific Reports"
-  },
-  {
-   "authors": [
-    "Qinghua Li",
-    "Tianfu Gao",
-    "Xinhao Rao",
-    "Zhelei Ren",
-    "Haodi Duan",
-    "Xiaomin Xie"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract Translating advanced luminescent materials into field-deployable screening tools remains a core challenge, demanding synergy between advanced optical materials and device engineering. Here, we demonstrate a portable dual-mode near-infrared semi-quantitative screening device. the luminescence performance of the core emitting materials, specifically lead-free Nd³⁺/Yb³⁺ co-doped Cs₂NaYCl₆ double perovskite phosphors, was first optimized through a machine-learning (ML) guided approach.…",
-    "citations": 0,
-    "doi": "10.1038/s43246-026-01335-2"
-   },
-   "id": "7f28e3ba02d76546",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.3996,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract Translating advanced luminescent materials into field-deployable screening tools remains a core challenge, demanding synergy between advanced optical materials and device engineering. Here, we demonstrate a portable dual-mode near-infrared semi-quantitative screening device. the…",
-   "tags": [],
-   "title": "An Integrated dual-mode NIR Screening Device Forged by Spectrally Engineered Perovskite pc-LEDs",
-   "url": "https://doi.org/10.1038/s43246-026-01335-2",
-   "venue": "Communications Materials"
-  },
-  {
-   "authors": [
-    "Guy M. Kirwan",
-    "Till Töpfer",
-    "Jiří Mlíkovský",
-    "Sylke Frahnert",
-    "HEIN VAN GROUW",
-    "Mark Adams"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Type specimens represent the crucial physical reference for any scientific bird name, but type material is scattered widely across the globe, and there is still no one comprehensive source documenting the presence, status and condition of all avian type specimens, as well as associated information on nomenclature and the validity of individual names. Indeed, many collections, including very large and globally important repositories, lack a published type catalogue. Where such works are…",
-    "citations": 0,
-    "doi": "10.1111/ibi.70109"
-   },
-   "id": "e0fb54945ea23b61",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.2621,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Type specimens represent the crucial physical reference for any scientific bird name, but type material is scattered widely across the globe, and there is still no one comprehensive source documenting the presence, status and condition of all avian type specimens, as well as associated information…",
-   "tags": [],
-   "title": "Towards a unified publicly accessible database of avian type specimens",
-   "url": "https://doi.org/10.1111/ibi.70109",
-   "venue": "Ibis"
   },
   {
    "authors": [
@@ -721,7 +295,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-14T20:15:55Z",
-   "score": 0.6888,
+   "score": 0.6856,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -754,7 +328,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-14T18:41:08Z",
-   "score": 0.5459,
+   "score": 0.5427,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -781,7 +355,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-14T17:32:26Z",
-   "score": 0.5438,
+   "score": 0.5407,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -805,7 +379,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-14T15:53:56Z",
-   "score": 0.5409,
+   "score": 0.5378,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -835,7 +409,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-14T15:04:29Z",
-   "score": 0.3469,
+   "score": 0.3439,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -862,7 +436,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-14T12:55:25Z",
-   "score": 0.5357,
+   "score": 0.5328,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -874,8 +448,8 @@
   }
  ],
  "meta": {
-  "count": 31,
-  "generated_at": "2026-08-18T13:05:35Z",
+  "count": 16,
+  "generated_at": "2026-08-18T14:50:15Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -893,7 +467,7 @@
    },
    {
     "category": "optional",
-    "count": 50,
+    "count": 0,
     "error": null,
     "full_text_count": 0,
     "id": "openalex_datavis",
@@ -918,7 +492,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-07-21&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-21&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
@@ -929,7 +503,7 @@
    },
    {
     "category": "optional",
-    "count": 40,
+    "count": 0,
     "error": null,
     "full_text_count": 0,
     "id": "openalex_techcomm",
