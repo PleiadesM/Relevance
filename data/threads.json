@@ -1,96 +1,169 @@
 {
  "meta": {
   "count": 3,
-  "generated_at": "2026-08-18T18:54:21Z",
+  "generated_at": "2026-08-18T20:38:08Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "746bc956c7718de5",
+     "item_id": "056dfb8bcdae240f",
      "phrase": {
-      "en": "four states take Meta to trial",
-      "zh": "四州将Meta告上法庭"
+      "en": "First Amendment violation claim",
+      "zh": "称违反第一修正案"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/18/technology/meta-social-media-addiction-trial.html"
-    },
-    {
-     "item_id": "d78da3de2ca9e9fa",
-     "phrase": {
-      "en": "Meta knew and lied, jury hears",
-      "zh": "Meta知情并撒谎"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/18/nx-s1-5935458/meta-child-safety-social-media-addiction-trial-opening"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "States sue Meta, saying it addicted children; the first big trial begins.",
-    "zh": "多州起诉Meta，称其让儿童上瘾；首场大审判开始。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "child safety on social media",
-    "zh": "儿童社交媒体安全"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You care about HCI and ethics; today the first federal trial over algorithmic harm opens.",
-    "zh": "你关注人机交互与伦理，今日首场算法伤害联邦审判开庭。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "ca4a24d160c176eb",
-     "phrase": {
-      "en": "ABC right to resist pressure",
-      "zh": "ABC有权抵抗压力"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/live/2026/aug/18/donald-trump-florida-alaska-wyoming-primaries-midterms-white-house-ballroom-iran-cnn-latest-news-updates"
+     "url": "https://www.nytimes.com/2026/08/18/business/media/abc-fcc-lawsuit-broadcast-licenses.html"
     },
     {
      "item_id": "d180981db80d9627",
      "phrase": {
-      "en": "Disney sues over license renewal",
-      "zh": "迪士尼起诉执照续期"
+      "en": "retaliation for broadcasts",
+      "zh": "报复广播内容"
      },
      "section": "news",
      "source": "BBC World",
      "url": "https://www.bbc.co.uk/news/articles/cx2rzr49vr2o?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "056dfb8bcdae240f",
+     "item_id": "ca4a24d160c176eb",
      "phrase": {
-      "en": "First Amendment violation alleged",
-      "zh": "指控违反第一修正案"
+      "en": "pressure tactics criticized",
+      "zh": "批评施压策略"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/18/business/media/abc-fcc-lawsuit-broadcast-licenses.html"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/live/2026/aug/18/donald-trump-florida-alaska-wyoming-primaries-midterms-white-house-ballroom-iran-cnn-latest-news-updates"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "ABC fights Trump's FCC over license threats; advocates warn of weaponization.",
-    "zh": "ABC对抗特朗普FCC的执照威胁；倡导者警告武器化。"
+    "en": "ABC fights FCC threats, a test of press freedom in the US.",
+    "zh": "ABC对抗FCC威胁，考验美国新闻自由。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "media vs. regulator",
+    "zh": "媒体对监管"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-18",
+     "item_id": "056dfb8bcdae240f",
+     "label": {
+      "en": "FCC threat to ABC",
+      "zh": "FCC威胁ABC"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/18/business/media/abc-fcc-lawsuit-broadcast-licenses.html"
+    },
+    {
+     "date": "2026-08-18",
+     "item_id": "d180981db80d9627",
+     "label": {
+      "en": "ABC sues FCC",
+      "zh": "ABC起诉FCC"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cx2rzr49vr2o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "date": "2026-08-18",
+     "item_id": "ca4a24d160c176eb",
+     "label": {
+      "en": "advocacy support",
+      "zh": "倡导支持"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/live/2026/aug/18/donald-trump-florida-alaska-wyoming-primaries-midterms-white-house-ballroom-iran-cnn-latest-news-updates"
+    }
+   ],
+   "why_now": {
+    "en": "You follow HCI and rhetoric: this clash shapes how public discourse is regulated and visualized in news.",
+    "zh": "你关注人机交互与修辞：这场冲突塑造公共话语的监管与呈现。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "full_text_file": "articles/news/b59d7539026bd45e.json",
+     "item_id": "b59d7539026bd45e",
+     "phrase": {
+      "en": "security updates after hack",
+      "zh": "黑客后安全更新"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack"
+    },
+    {
+     "item_id": "8160d06f655e6301",
+     "phrase": {
+      "en": "democratic oversight initiative",
+      "zh": "民主监督倡议"
+     },
+     "section": "news",
+     "source": "OpenAI News",
+     "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security"
+    },
+    {
+     "full_text_file": "articles/news/767e4e941e84cea3.json",
+     "item_id": "767e4e941e84cea3",
+     "phrase": {
+      "en": "AI likeness abuse",
+      "zh": "AI肖像滥用"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/entertainment/981644/robin-williams-instagram-account-ai"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "OpenAI tightens security after an AI hack, while other AI risks surface.",
+    "zh": "OpenAI在AI入侵后加强安全，其他风险也浮现。"
    },
    "id": "t2",
    "keyword": {
-    "en": "media freedom under pressure",
-    "zh": "媒体自由受压"
+    "en": "AI security",
+    "zh": "AI安全"
    },
    "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-07",
+     "full_text_file": "articles/news/b59d7539026bd45e.json",
+     "item_id": "b59d7539026bd45e",
+     "label": {
+      "en": "AI hack incident",
+      "zh": "AI入侵事件"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack"
+    },
+    {
+     "date": "2026-08-18",
+     "full_text_file": "articles/news/b59d7539026bd45e.json",
+     "item_id": "b59d7539026bd45e",
+     "label": {
+      "en": "security updates",
+      "zh": "安全更新"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack"
+    }
+   ],
    "why_now": {
-    "en": "You follow political communication; today's lawsuit tests press freedom bounds.",
-    "zh": "你关注政治传播，今日诉讼考验新闻自由边界。"
+    "en": "You track AI developments: today's security updates and mishaps directly affect your field.",
+    "zh": "你关注AI进展：今日安全更新与事故直接影响你的领域。"
    }
   },
   {
@@ -98,18 +171,29 @@
     {
      "item_id": "3d7a635f10feef37",
      "phrase": {
-      "en": "AI tax boom not debt cure",
-      "zh": "AI税收繁荣难解债务"
+      "en": "AI tax boom effect",
+      "zh": "AI税收繁荣影响"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/08/18/us/politics/ai-national-debt-budget.html"
     },
     {
+     "full_text_file": "articles/news/b3156b4f80053ded.json",
+     "item_id": "b3156b4f80053ded",
+     "phrase": {
+      "en": "self-improvement slow",
+      "zh": "自我改进缓慢"
+     },
+     "section": "news",
+     "source": "MIT Technology Review · AI",
+     "url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/"
+    },
+    {
      "item_id": "71b79317ab06ec89",
      "phrase": {
-      "en": "genAI shifts work balance",
-      "zh": "生成式AI改变工作平衡"
+      "en": "GenAI workplace shift",
+      "zh": "GenAI工作场所转变"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
@@ -118,18 +202,54 @@
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "AI's budget and workplace effects: tax boom but not debt fix; adoption alters productivity.",
-    "zh": "AI的预算和工作影响：税收增加但非解决债务；采用改变生产力。"
+    "en": "From taxes to self-improvement, AI's impact on work and daily life is debated.",
+    "zh": "从税收到自我改进，AI对工作与日常的影响引发讨论。"
    },
    "id": "t3",
    "keyword": {
-    "en": "AI economic impact",
-    "zh": "AI经济影响"
+    "en": "AI and society",
+    "zh": "AI与社会"
    },
    "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-14",
+     "item_id": "85e092cc82954414",
+     "label": {
+      "en": "future of VIS",
+      "zh": "可视化未来"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.14815v1"
+    },
+    {
+     "date": "2026-08-18",
+     "item_id": "3d7a635f10feef37",
+     "label": {
+      "en": "AI tax debate",
+      "zh": "AI税收辩论"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/18/us/politics/ai-national-debt-budget.html"
+    },
+    {
+     "date": "2026-08-18",
+     "full_text_file": "articles/news/b3156b4f80053ded.json",
+     "item_id": "b3156b4f80053ded",
+     "label": {
+      "en": "recursive self-improvement",
+      "zh": "递归自我改进"
+     },
+     "section": "news",
+     "source": "MIT Technology Review · AI",
+     "url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/"
+    }
+   ],
    "why_now": {
-    "en": "You study tech's societal impact; today's analyses show AI's mixed economic reality.",
-    "zh": "你研究技术的社会影响，今日分析显示AI经济影响复杂。"
+    "en": "You care about AI's societal implications; today's analyses and news query its real effects.",
+    "zh": "你关心AI的社会影响，今日分析质疑其实际效果。"
    }
   }
  ]
