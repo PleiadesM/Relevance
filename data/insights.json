@@ -1,48 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
-  "source": {
-   "name": "Yahoo",
-   "published_at": "2026-08-15T00:22:00Z",
-   "title": "Fan favorite Iowa State Fairs giant pumpkin contest draws thousands of spectators",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTjUyVTNwcEsyTmhRWjVxLVBMd0RjNloxUDRtZ0ZuaHZIOHpaZ0IxQTVkNmRIbTNzbFFQcFZ1TFk2SkZtczFRVHY2UkpFVGMxald2Q3dyOVNIbm9jMGo0OXdyMmlyaDZpUWlmY1RlV1hBcUNtc3NGbFhyV2dkRkJCaVBVOWc?oc=5"
-  },
-  "summaries": {
-   "en": {
-    "summary": "Yahoo repeats a local news report about the Iowa State Fair's giant pumpkin contest drawing thousands of spectators.",
-    "why_irrelevant": "It's a syndicated local event story, far from niche tech or business feeds."
-   },
-   "zh": {
-    "summary": "雅虎转载了当地新闻，报道爱荷华州博览会巨型南瓜比赛吸引数千观众。",
-    "why_irrelevant": "这是本地活动的转载，远离小众科技或商业内容。"
-   }
-  },
-  "topic": "competitive pumpkin growing"
- },
- "brief": "Today's news is dominated by escalating tensions between the Trump administration and media outlets, with ABC suing over FCC threats, alongside new sanctions on ICC officials and a move to open old-growth forests to drilling. In research, papers focus on visualizations for uncertainty in AI and prediction markets, plus Japan's impact-based forecasting tool.",
+ "brief": "Today's news spans from political tensions and environmental health improvements to technological milestones, while research highlights advancements in visualization, AI, and disaster management.",
  "meta": {
-  "generated_at": "2026-08-18T20:38:08Z"
+  "generated_at": "2026-08-18T22:39:02Z"
  },
- "news_summary": "The Trump administration faces backlash as ABC and Disney sue the FCC over alleged First Amendment violations, while the Pentagon threatens university funding and new sanctions target ICC officials. Elsewhere, ZZ Top's Frank Beard dies, and Canada braces for potential new tariffs.",
- "papers_summary": "Recent papers explore visualizations for uncertainty in AI systems and prediction markets, as well as Japan's 'Kikikuru' risk map for impact-based forecasting. Other studies examine qualitative data analysis with LLMs and human-robot interaction design.",
+ "news_summary": "News covers Australian politics, UK health and environment, US political disputes, international trade tensions, and notable legal and tech stories.",
+ "papers_summary": "Research papers focus on impact-based forecasting, visualization of uncertainty, AI-driven insight extraction, and human-robot interaction design.",
  "summaries": {
   "en": {
-   "brief": "Today's news is dominated by escalating tensions between the Trump administration and media outlets, with ABC suing over FCC threats, alongside new sanctions on ICC officials and a move to open old-growth forests to drilling. In research, papers focus on visualizations for uncertainty in AI and prediction markets, plus Japan's impact-based forecasting tool.",
-   "news_summary": "The Trump administration faces backlash as ABC and Disney sue the FCC over alleged First Amendment violations, while the Pentagon threatens university funding and new sanctions target ICC officials. Elsewhere, ZZ Top's Frank Beard dies, and Canada braces for potential new tariffs.",
-   "papers_summary": "Recent papers explore visualizations for uncertainty in AI systems and prediction markets, as well as Japan's 'Kikikuru' risk map for impact-based forecasting. Other studies examine qualitative data analysis with LLMs and human-robot interaction design."
+   "brief": "Today's news spans from political tensions and environmental health improvements to technological milestones, while research highlights advancements in visualization, AI, and disaster management.",
+   "news_summary": "News covers Australian politics, UK health and environment, US political disputes, international trade tensions, and notable legal and tech stories.",
+   "papers_summary": "Research papers focus on impact-based forecasting, visualization of uncertainty, AI-driven insight extraction, and human-robot interaction design."
   },
   "zh": {
-   "brief": "今日焦点涵盖朱鎔基逝世引发的政治悼念与保守反应，以及中日美在AI发展上的不同路径；研究方面关注不确定性可视化与人机交互设计。",
-   "news_summary": "朱鎔基火化引发对改革时代的民间悼念与官方警惕，同时Z世代抗焦虑药物使用、AI军备竞赛、日本AI应用迟缓等话题受到关注。",
-   "papers_summary": "近期研究探讨了不确定性可视化在人机监督中的作用，以及预测市场可视化与红迪讨论的关联，反映了人机交互与信息设计的交叉趋势。"
+   "brief": "今日焦点包括朱鎔基火化背后的政治逻辑、Z世代用抗焦虑药物替代酒精的趋势，以及中美AI军备竞赛的路线之争；学术界则关注预测市场可视化、不确定性可视化与人类监督等话题。",
+   "news_summary": "中国已故总理朱鎔基火化引发民间悼念与官方提防的复杂张力；Z世代社交焦虑推动药物自我治疗；日本企业AI应用缓慢受到关注；中美AI竞争路径差异成为焦点。",
+   "papers_summary": "研究涉及预测市场可视化与不确定性沟通、基于LLM的定性数据分析框架，以及机器人交互中的多样性设计等方向。"
   }
  },
  "todays_image": {
-  "caption": "Just as Oprah’s audience chairs once filled a space for open conversation, ABC now holds its ground as a platform that refuses to be silenced by political pressure.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2016_7_6_001",
-  "source_name": "National Museum of African American History and Culture",
-  "source_url": "https://nmaahc.si.edu/object/nmaahc_2016.7.6",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2016_7_6_001",
-  "title": "Audience chairs from the set of The Oprah Winfrey Show at Harpo Studios"
+  "caption": "The Sputnik music box’s tinny, orbiting melody mirrors the circular, mechanical spin of political attacks and reforms looping through today’s Australian news cycle.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-0699F218A3282_001",
+  "source_name": "National Air and Space Museum",
+  "source_url": "http://n2t.net/ark:/65665/nv9f37ccaff-86b0-48b1-975e-2766942c561e",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-0699F218A3282_001",
+  "title": "Music Box, Sputnik Model"
  }
 }
