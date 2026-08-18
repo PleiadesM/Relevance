@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "سانا",
-   "published_at": "2026-08-14T10:45:09Z",
-   "title": "Russian gardener grows giant 360-kg pumpkin",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9qcE9YMGI4LU9Nd0N0OEZBZDNRcXBXLXVXUUxnbjhQdlk1WHAtdHRjQ3pUV1pmQWp0SlRFTEtjd0lKNTFwZzBSeVc4LW9oRkExVkZV?oc=5"
+   "name": "novinky.cz",
+   "published_at": "2026-08-13T07:45:00Z",
+   "title": "Chcete obří a sladké dýně ? Rozhoduje voda , opylení i prkénko",
+   "url": "https://www.novinky.cz/clanek/bydleni-zahrada-chcete-obri-a-sladke-dyne-rozhoduje-voda-opyleni-i-prkenko-40592366"
   },
   "summaries": {
    "en": {
-    "summary": "A Russian gardener has grown a giant 360-kilogram pumpkin, as reported by SANA.",
-    "why_irrelevant": "It is a niche agricultural oddity far from typical tech and lifestyle feeds."
+    "summary": "A Czech gardening article explains how to grow giant, sweet pumpkins by managing water, pollination, and a wooden board.",
+    "why_irrelevant": "Very localized practical advice far from typical feed topics."
    },
    "zh": {
-    "summary": "据萨那通讯社报道，一名俄罗斯园丁种出了一个重达360公斤的巨型南瓜。",
-    "why_irrelevant": "这是一个小众的农业奇闻，远离常规科技和生活类信息流。"
+    "summary": "捷克园艺文章介绍通过控制水分、授粉和木板来种植巨大甜南瓜的方法。",
+    "why_irrelevant": "高度本地化的实用建议，远离常见信息流主题。"
    }
   },
   "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news spans from high-profile trials and political standoffs to tech launches and environmental crises, while research covers diverse topics from disaster forecasting to maternal health in Ghana.",
+ "brief": "Today's news spans geopolitical strain with US sanctions on ICC officials, rising bond yields, and a landmark Meta trial; meanwhile, research highlights uncertainty visualization and AI-driven insight extraction.",
  "meta": {
-  "generated_at": "2026-08-18T16:46:29Z"
+  "generated_at": "2026-08-18T18:54:21Z"
  },
- "news_summary": "Key stories include the Tupac Shakur murder trial, ABC's lawsuit against Trump's FCC, Nigeria drug bust, Israel-West Bank tensions, and OpenAI's ChatGPT for teens.",
- "papers_summary": "Papers cover Japan's impact-based forecasting, nonlinear programming, North Pacific water variability, unsafe abortion in Ghana, and more.",
+ "news_summary": "Global markets react to inflation and AI spending, while political and legal battles unfold over immigration, international justice, and tech's impact on youth.",
+ "papers_summary": "Papers explore better communication of uncertainty, from visualizations to LLM-based qualitative analysis, aiming to improve decision-making and human oversight.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans from high-profile trials and political standoffs to tech launches and environmental crises, while research covers diverse topics from disaster forecasting to maternal health in Ghana.",
-   "news_summary": "Key stories include the Tupac Shakur murder trial, ABC's lawsuit against Trump's FCC, Nigeria drug bust, Israel-West Bank tensions, and OpenAI's ChatGPT for teens.",
-   "papers_summary": "Papers cover Japan's impact-based forecasting, nonlinear programming, North Pacific water variability, unsafe abortion in Ghana, and more."
+   "brief": "Today's news spans geopolitical strain with US sanctions on ICC officials, rising bond yields, and a landmark Meta trial; meanwhile, research highlights uncertainty visualization and AI-driven insight extraction.",
+   "news_summary": "Global markets react to inflation and AI spending, while political and legal battles unfold over immigration, international justice, and tech's impact on youth.",
+   "papers_summary": "Papers explore better communication of uncertainty, from visualizations to LLM-based qualitative analysis, aiming to improve decision-making and human oversight."
   },
   "zh": {
-   "brief": "今日新闻焦点包括中国前总理朱镕基逝世后的政治反响，以及中美AI竞赛的路线差异；研究方面涉及日本气象预警、非线性优化、海洋中间水等多样主题。",
-   "news_summary": "中国前总理朱镕基的葬礼引发对其改革时代的纪念与对当前领导层的微妙批评；同时，Z世代以抗焦虑药物替代酒精的趋势、日本企业AI应用缓慢及中美AI竞赛的不同路径成为关注点。",
-   "papers_summary": "研究摘要涵盖日本气象厅的实时风险地图、非线性规划求解方法、北太平洋中层水变异、加纳不安全堕胎决定因素、配电网优化、PCSK9抑制剂文献计量、手写数学公式识别、金属玻璃结构分析、湖泊沉积事件层及印度生育延迟地理聚类等。"
+   "brief": "今日新闻焦点集中于中国前总理朱镕基的葬礼及其引发的政治讨论、Z世代用药物替代酒精的自我治疗趋势，以及AI在中美、日本等地的竞争与落地差异。研究方面，则关注灾害预报可视化、预测市场可视化、AI不确定性可视化等人机交互课题。",
+   "news_summary": "新闻主要涉及中国对朱镕基的官方悼念与民间情绪的张力，Z世代应对焦虑的药物使用问题，以及游戏、AI应用在各地的不同现状。",
+   "papers_summary": "研究集中在信息可视化与人机交互领域，包括日本气象厅的灾害风险地图、预测市场可视化、AI不确定性可视化等主题。"
   }
  },
  "todays_image": {
-  "caption": "The gavel that once upheld justice in an earlier era now silently echoes the courtroom where justice is sought for Tupac's long-silenced voice.The gavel that once upheld justice in an earlier era now silently echoes the courtroom where just",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-A2017_13_1_7_001",
-  "source_name": "National Museum of African American History and Culture",
-  "source_url": "https://nmaahc.si.edu/object/nmaahc_A2017.13.1.7",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-A2017_13_1_7_001",
-  "title": "Gavel used by Judge Robert Terrell"
+  "caption": "Like the pine siskin, a bird known for unpredictable cross-border movements, elderly Britons are being abruptly uprooted from their homes in a Brexit-driven migration no one saw coming.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3a4f6a06bcf474de3835176f2fd8e4907",
+  "source_name": "NMNH - Vertebrate Zoology - Birds Division",
+  "source_url": "http://n2t.net/ark:/65665/30f645ca3-7c8d-465a-a63f-4cd77f4f80f7",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3a4f6a06bcf474de3835176f2fd8e4907/90",
+  "title": "Carduelis pinus pinus"
  }
 }

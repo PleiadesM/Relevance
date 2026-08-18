@@ -1,140 +1,76 @@
 {
  "meta": {
-  "count": 6,
-  "generated_at": "2026-08-18T16:46:29Z",
+  "count": 3,
+  "generated_at": "2026-08-18T18:54:21Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "d8926eb6070af85b",
-     "phrase": {
-      "en": "OpenAI introduces teen version",
-      "zh": "OpenAI推出青少年版"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/technology/2026/aug/18/openai-chatgpt-for-teens"
-    },
-    {
-     "item_id": "cd394d60e86d3276",
-     "phrase": {
-      "en": "Safeguards amid growing concerns",
-      "zh": "担忧声中加强防护"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/18/technology/chatgpt-for-teens-openai.html"
-    },
-    {
      "item_id": "746bc956c7718de5",
      "phrase": {
-      "en": "Meta faces trial over addiction",
-      "zh": "Meta因成瘾面临审判"
+      "en": "four states take Meta to trial",
+      "zh": "四州将Meta告上法庭"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/08/18/technology/meta-social-media-addiction-trial.html"
+    },
+    {
+     "item_id": "d78da3de2ca9e9fa",
+     "phrase": {
+      "en": "Meta knew and lied, jury hears",
+      "zh": "Meta知情并撒谎"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/18/nx-s1-5935458/meta-child-safety-social-media-addiction-trial-opening"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "ChatGPT for teens arrives amid worries about children's wellbeing.",
-    "zh": "ChatGPT青少年版上线，背后是对儿童福祉的担忧。"
+    "en": "States sue Meta, saying it addicted children; the first big trial begins.",
+    "zh": "多州起诉Meta，称其让儿童上瘾；首场大审判开始。"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI safety in youth",
-    "zh": "青少年AI安全"
+    "en": "child safety on social media",
+    "zh": "儿童社交媒体安全"
    },
-   "relates_to": [
-    "t2"
-   ],
+   "relates_to": [],
    "why_now": {
-    "en": "You follow AI: OpenAI's new teen mode and Meta's trial both put child safety at the center today.",
-    "zh": "你关注AI，今天OpenAI的青少年模式和Meta的诉讼都把儿童安全推到台前。"
+    "en": "You care about HCI and ethics; today the first federal trial over algorithmic harm opens.",
+    "zh": "你关注人机交互与伦理，今日首场算法伤害联邦审判开庭。"
    }
   },
   {
    "angles": [
-    {
-     "full_text_file": "articles/news/b3156b4f80053ded.json",
-     "item_id": "b3156b4f80053ded",
-     "phrase": {
-      "en": "Self-improvement may be slow",
-      "zh": "自我改进或缓慢"
-     },
-     "section": "news",
-     "source": "MIT Technology Review · AI",
-     "url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/"
-    },
-    {
-     "item_id": "3d7a635f10feef37",
-     "phrase": {
-      "en": "AI tax boom could ease debt",
-      "zh": "AI税收繁荣或缓解债务"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/18/us/politics/ai-national-debt-budget.html"
-    }
-   ],
-   "convergence": "divergent",
-   "gloss": {
-    "en": "AI's self-improvement and tax booms reshape budgets and jobs.",
-    "zh": "AI自我改进和税收繁荣重塑预算与就业。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "AI economic impact",
-    "zh": "AI经济影响"
-   },
-   "relates_to": [
-    "t1"
-   ],
-   "why_now": {
-    "en": "You track AI trends: a new analysis says recursive self-improvement may lag, while tax projections hinge on labor shifts.",
-    "zh": "你追踪AI趋势：新分析称递归自我改进或滞后，税收预测取决于劳动力变化。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "d180981db80d9627",
-     "phrase": {
-      "en": "Disney and ABC sue regulator",
-      "zh": "迪士尼和ABC起诉监管机构"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cx2rzr49vr2o?at_medium=RSS&at_campaign=rss"
-    },
     {
      "item_id": "ca4a24d160c176eb",
      "phrase": {
-      "en": "Advocates back ABC's stand",
-      "zh": "倡导组织支持ABC立场"
+      "en": "ABC right to resist pressure",
+      "zh": "ABC有权抵抗压力"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/us-news/live/2026/aug/18/donald-trump-florida-alaska-wyoming-primaries-midterms-white-house-ballroom-iran-cnn-latest-news-updates"
     },
     {
-     "item_id": "82df3d9048f48210",
+     "item_id": "d180981db80d9627",
      "phrase": {
-      "en": "Lawsuit alleges chilling message",
-      "zh": "诉讼指控寒蝉效应"
+      "en": "Disney sues over license renewal",
+      "zh": "迪士尼起诉执照续期"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/aug/18/abc-sues-trump-federal-communications-commission"
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cx2rzr49vr2o?at_medium=RSS&at_campaign=rss"
     },
     {
      "item_id": "056dfb8bcdae240f",
      "phrase": {
-      "en": "First Amendment rights violated",
-      "zh": "侵犯第一修正案权利"
+      "en": "First Amendment violation alleged",
+      "zh": "指控违反第一修正案"
      },
      "section": "news",
      "source": "The New York Times",
@@ -143,145 +79,57 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "ABC sues the FCC, claiming retaliation for its coverage.",
-    "zh": "ABC起诉FCC，称因其报道而遭报复。"
+    "en": "ABC fights Trump's FCC over license threats; advocates warn of weaponization.",
+    "zh": "ABC对抗特朗普FCC的执照威胁；倡导者警告武器化。"
    },
-   "id": "t3",
+   "id": "t2",
    "keyword": {
     "en": "media freedom under pressure",
     "zh": "媒体自由受压"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about visual rhetoric and technical communication: this clash between a network and regulator tests how media frames power.",
-    "zh": "你关心视觉修辞和技术传播，这场网络与监管机构的冲突考验媒体如何构架权力。"
+    "en": "You follow political communication; today's lawsuit tests press freedom bounds.",
+    "zh": "你关注政治传播，今日诉讼考验新闻自由边界。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "917b853d2de9e9e6",
+     "item_id": "3d7a635f10feef37",
      "phrase": {
-      "en": "Grid blackout could last years",
-      "zh": "电网停电或持续数年"
+      "en": "AI tax boom not debt cure",
+      "zh": "AI税收繁荣难解债务"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/18/magazine/national-blackout-power-electricity-outage.html"
+     "url": "https://www.nytimes.com/2026/08/18/us/politics/ai-national-debt-budget.html"
     },
     {
-     "item_id": "70884d7d608f0e44",
+     "item_id": "71b79317ab06ec89",
      "phrase": {
-      "en": "UK gas shortage by 2030s",
-      "zh": "英国2030年代天然气短缺"
+      "en": "genAI shifts work balance",
+      "zh": "生成式AI改变工作平衡"
      },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/business/2026/aug/18/uk-risks-running-out-of-gas-2030s"
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.15550v1"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Aging grids and shrinking gas supplies threaten blackouts and shortages.",
-    "zh": "老化电网和天然气短缺威胁停电和供应不足。"
+    "en": "AI's budget and workplace effects: tax boom but not debt fix; adoption alters productivity.",
+    "zh": "AI的预算和工作影响：税收增加但非解决债务；采用改变生产力。"
    },
-   "id": "t4",
+   "id": "t3",
    "keyword": {
-    "en": "energy security risks",
-    "zh": "能源安全风险"
+    "en": "AI economic impact",
+    "zh": "AI经济影响"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You value data visualization: these stories about infrastructure failures highlight the need for clear risk communication.",
-    "zh": "你重视数据可视化，这些基础设施故障故事凸显清晰风险沟通的必要。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "e92862f1d566610b",
-     "phrase": {
-      "en": "Israel strikes Syrian base",
-      "zh": "以色列空袭叙利亚基地"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/18/world/middleeast/israel-airstrikes-syria-air-base.html"
-    },
-    {
-     "item_id": "e69d736f48d1e104",
-     "phrase": {
-      "en": "S.Korea stresses alliance",
-      "zh": "韩国强调同盟"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/18/g-s1-139096/s-korea-stresses-us-alliance-amid-confusion-over-trump-drill-cut"
-    },
-    {
-     "item_id": "819a82ebf6153283",
-     "phrase": {
-      "en": "UK supports Ukraine fully",
-      "zh": "英国全力支持乌克兰"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cy5dz0kkn0wo?at_medium=RSS&at_campaign=rss"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "From Israel's strikes to Russia's warnings, global conflicts escalate.",
-    "zh": "从以色列空袭到俄罗斯警告，全球冲突升级。"
-   },
-   "id": "t5",
-   "keyword": {
-    "en": "geopolitical tensions",
-    "zh": "地缘政治紧张"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow world affairs: today's events in Syria, Korea, and Ukraine show shifting alliances and new frictions.",
-    "zh": "你关注世界事务，今天叙利亚、韩国和乌克兰的事件显示联盟变化和新摩擦。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "a82763eaa1e24308",
-     "phrase": {
-      "en": "Influencer arrested for cocaine",
-      "zh": "网红因可卡因被捕"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c1e155428qyo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "0bd7ad35aa3487ee",
-     "phrase": {
-      "en": "Students ran trafficking ring",
-      "zh": "学生经营贩毒团伙"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/aug/18/penn-state-cocaine-trafficking-ring"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Cocaine rings surface from Nigeria to Penn State, revealing global networks.",
-    "zh": "从尼日利亚到宾州州大，可卡因团伙浮出水面，揭示全球网络。"
-   },
-   "id": "t6",
-   "keyword": {
-    "en": "drug trafficking cases",
-    "zh": "毒品贩运案件"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You might find the data angle interesting: these cases show how law enforcement and media track criminal patterns.",
-    "zh": "你或许对数据角度感兴趣，这些案例展示执法和媒体如何追踪犯罪模式。"
+    "en": "You study tech's societal impact; today's analyses show AI's mixed economic reality.",
+    "zh": "你研究技术的社会影响，今日分析显示AI经济影响复杂。"
    }
   }
  ]
