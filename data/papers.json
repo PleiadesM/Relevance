@@ -2,6 +2,283 @@
  "items": [
   {
    "authors": [
+    "Subham Sah",
+    "Alireza Karduni",
+    "Douglas Markant",
+    "Wenwen Dou"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Prediction market platforms present contracts about future events through visualizations that show probabilities, prices, trends, odds, and payout information. Although these visualizations often appear precise, they do not always show uncertainty directly. As a result, users infer uncertainty from market movement, visualization cues, and contextual information. In this paper, we examine how users interpret prediction market visualizations through a qualitative analysis of posts and comments…",
+    "arxiv_id": "2608.16814"
+   },
+   "id": "8b1f64aed811ad1c",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-17T17:04:33Z",
+   "score": 0.7918,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Prediction market platforms present contracts about future events through visualizations that show probabilities, prices, trends, odds, and payout information. Although these visualizations often appear precise, they do not always show uncertainty directly. As a result, users infer uncertainty from…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Prediction market visualizations, betting, and uncertainty: A study of Reddit Posts and Comments",
+   "url": "https://arxiv.org/abs/2608.16814v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Kasumi Ban"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "The qualitative research methodologies that underpin consumer-insight generation - the KJ method, Grounded Theory, and Thematic Analysis - share a structural constraint: the cognitive processing capacity of the human analyst. Replication research further shows that conclusions vary substantially across analysts analyzing identical data (analyst bias). This paper proposes Computational KJ-Ho (the Kawakita Jiro method), a theoretical framework that computationally realizes the KJ method's…",
+    "arxiv_id": "2608.16467"
+   },
+   "id": "12a65588365faba8",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-17T12:04:18Z",
+   "score": 0.8687,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "The qualitative research methodologies that underpin consumer-insight generation - the KJ method, Grounded Theory, and Thematic Analysis - share a structural constraint: the cognitive processing capacity of the human analyst. Replication research further shows that conclusions vary substantially…",
+   "tags": [
+    "ai-writing",
+    "llm"
+   ],
+   "title": "Computational KJ-Ho: An Analyst-Bias-Free Insight Extraction Framework from Large-Scale Qualitative Data Using Domain-Specialized LLMs",
+   "url": "https://arxiv.org/abs/2608.16467v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Chisom Anyabolu",
+    "Akshat Dubey",
+    "Georges Hattab"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Artificial intelligence systems often disclose uncertainty, yet they rarely make clear what response that uncertainty should trigger. Most uncertainty visualizations encode uncertainty in model outputs, leaving users to discern the most appropriate course of action. A second region of the design space--uncertainty in the decision process itself, including how multiple uncertainty conditions compose into an oversight response-- remains comparatively underexplored. We address this gap with two…",
+    "arxiv_id": "2608.16428"
+   },
+   "id": "f356843c1a3c2b75",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-17T11:28:41Z",
+   "score": 0.766,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Artificial intelligence systems often disclose uncertainty, yet they rarely make clear what response that uncertainty should trigger. Most uncertainty visualizations encode uncertainty in model outputs, leaving users to discern the most appropriate course of action. A second region of the design…",
+   "tags": [
+    "systems",
+    "visualization"
+   ],
+   "title": "Visualizing Uncertainty-to-Action Composition for Human Oversight",
+   "url": "https://arxiv.org/abs/2608.16428v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Jianing Yin",
+    "Weng Pan Kuan",
+    "Xiaoyun Liu",
+    "Zhiyuan Wen",
+    "Yuxuan Li",
+    "Milos Stojmenovic"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Debate is a structured form of persuasive communication that trains argument construction, rebuttal, oral delivery, and audience awareness. These skills are valued in education, language learning, and professional communication. Recent AI debate systems and LLM-based judges have advanced argument generation and debate evaluation, but most remain text-centered and rarely support learners through a complete multimodal practice experience. We introduce PolyDebate, a game-orchestrated multimodal…",
+    "arxiv_id": "2608.16276"
+   },
+   "id": "d743c18da2ac1d81",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-17T08:49:39Z",
+   "score": 0.8544,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Debate is a structured form of persuasive communication that trains argument construction, rebuttal, oral delivery, and audience awareness. These skills are valued in education, language learning, and professional communication. Recent AI debate systems and LLM-based judges have advanced argument…",
+   "tags": [
+    "ai-writing",
+    "llm"
+   ],
+   "title": "PolyDebate: A Game-Orchestrated Multimodal System for Debate Skills Practice and Evaluation",
+   "url": "https://arxiv.org/abs/2608.16276v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Raj Korpan"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Social robots are being developed for homes, schools, and other environments where they will interact with diverse users. While Human-Robot Interaction (HRI) research often emphasizes natural communication, engagement, personalization, and task success, these goals do not fully address the social complexity of real-world deployment. This paper proposes \\emph{Pluralistic HRI}, a framework for designing social robots that treat human diversity as a foundational design concern. The framework…",
+    "arxiv_id": "2608.16049"
+   },
+   "id": "03f76379b79c6125",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-17T03:22:38Z",
+   "score": 0.4992,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Social robots are being developed for homes, schools, and other environments where they will interact with diverse users. While Human-Robot Interaction (HRI) research often emphasizes natural communication, engagement, personalization, and task success, these goals do not fully address the social…",
+   "tags": [
+    "ux"
+   ],
+   "title": "Pluralistic Human-Robot Interaction: Designing for Robot Interaction with Diverse Communities",
+   "url": "https://arxiv.org/abs/2608.16049v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Yulin Yu",
+    "Yan Chen",
+    "Rui Hu",
+    "Siddharth Suri",
+    "Scott Counts"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Generative AI is transforming the workplace by augmenting and automating cognitive tasks, reshaping how organizations work and innovate while raising questions about workplace inequality and the future of work. Despite rapid adoption, empirical evidence on how these tools alter work practices and generate productivity gains remains limited. We examine how AI use affects the quantity and nature of information work using digital trace data from the Microsoft M365 application suite across multiple…",
+    "arxiv_id": "2608.15550"
+   },
+   "id": "71b79317ab06ec89",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-16T05:48:36Z",
+   "score": 0.6149,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Generative AI is transforming the workplace by augmenting and automating cognitive tasks, reshaping how organizations work and innovate while raising questions about workplace inequality and the future of work. Despite rapid adoption, empirical evidence on how these tools alter work practices and…",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "Adoption of Generative AI in the Workplace: Increasing and Shifting the Balance of Productivity and Communication Activity",
+   "url": "https://arxiv.org/abs/2608.15550v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Anchit Mishra",
+    "Oliver Schneider",
+    "Matthew Brehmer"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Details on demand is a common design pattern in visualization design, especially useful when interacting with visually-saturated or small displays. Beyond visualization, another common approach for saturated displays is to incorporate other modalities, such as haptic feedback. While haptic rendering in visualization has primarily targeted accessibility needs, with haptics as a substitute for visual feedback, studies using haptics outside of a visualization context have shown value in…",
+    "arxiv_id": "2608.15307"
+   },
+   "id": "3940b0bf73318d6e",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-15T16:22:36Z",
+   "score": 0.6161,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Details on demand is a common design pattern in visualization design, especially useful when interacting with visually-saturated or small displays. Beyond visualization, another common approach for saturated displays is to incorporate other modalities, such as haptic feedback. While haptic…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Vibes on Demand: Adding Vibrotactile Encoding to Line Charts Shows Experiential Benefits Without Performance Costs",
+   "url": "https://arxiv.org/abs/2608.15307v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Diego Mardian",
+    "Frank Liu"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Clinical documentation forces physicians to split attention between the patient and their keyboard, and much of it spills into uncom- pensated after-hours work. We present MDwAIstScheduler, a low- cost, belt-worn pipeline that lets a physician speak naturally dur- ing the encounter and have the resulting medications, allergies, labs/orders/referrals, follow-up scheduling, vitals, and problems land in the EHR as review-ready drafts. Building on our earlier prototype, which relied on cloud speech…",
+    "arxiv_id": "2608.15252"
+   },
+   "id": "442b151c3fac00cc",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-15T14:16:32Z",
+   "score": 0.5706,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Clinical documentation forces physicians to split attention between the patient and their keyboard, and much of it spills into uncom- pensated after-hours work. We present MDwAIstScheduler, a low- cost, belt-worn pipeline that lets a physician speak naturally dur- ing the encounter and have the…",
+   "tags": [
+    "ai-writing",
+    "techcomm"
+   ],
+   "title": "MDwAIstScheduler: Bringing On-Device Voice Documentation into Clinical Practice",
+   "url": "https://arxiv.org/abs/2608.15252v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Huy Quyen Ngo",
+    "Suresh Kumaar Jayaraman",
+    "Brian Mok",
+    "Ken Friedl",
+    "Oliver Krause",
+    "Aaron Steinfeld"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Modern vehicles, with advanced AI voice and autonomous navigation features, extend beyond traditional driving but, like any autonomous system, can potentially make mistakes or behave in ways unexpected by users. Although providing real-time explanations can alleviate some confusion, constant information can overwhelm users and potentially cause unnecessary distractions. Some situations may require explanations or corrective vehicle behavior, and thus, recognizing user response to unexpected…",
+    "arxiv_id": "2608.15048"
+   },
+   "id": "5225f197efff82b7",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-15T05:19:51Z",
+   "score": 0.5486,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Modern vehicles, with advanced AI voice and autonomous navigation features, extend beyond traditional driving but, like any autonomous system, can potentially make mistakes or behave in ways unexpected by users. Although providing real-time explanations can alleviate some confusion, constant…",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "Beyond Overt Reactions: Analyzing Subtle User Emotional Response to Unexpected In-Vehicle System Behavior",
+   "url": "https://arxiv.org/abs/2608.15048v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Joanikij Chulev",
+    "Hendrik Baier"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Pareto Conditioned Networks learn multiple multi-objective reinforcement learning behaviours by conditioning a single policy on a desired return command. However, the local mapping from command and state to action remains opaque. We propose command-space counterfactual explanations for PCNs: given a fixed state, original command, and foil action, we search, in a black-box setting, for a minimally changed desired-return command under which the same trained policy would choose the foil. Our…",
+    "arxiv_id": "2608.14963"
+   },
+   "id": "ee81d181739578f5",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-15T01:32:28Z",
+   "score": 0.5399,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Pareto Conditioned Networks learn multiple multi-objective reinforcement learning behaviours by conditioning a single policy on a desired return command. However, the local mapping from command and state to action remains opaque. We propose command-space counterfactual explanations for PCNs: given…",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "Command-Space Counterfactual Explanations for Pareto-Conditioned Reinforcement Learning",
+   "url": "https://arxiv.org/abs/2608.14963v1",
+   "venue": "arXiv cs.LG"
+  },
+  {
+   "authors": [
     "Raiswa Saha",
     "Rajnigandha Singh",
     "Christine D'lima",
@@ -19,7 +296,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.2804,
+   "score": 0.2781,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -44,7 +321,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.2804,
+   "score": 0.2781,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -73,7 +350,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.4179,
+   "score": 0.4156,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -104,7 +381,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.468,
+   "score": 0.4658,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -133,7 +410,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.2804,
+   "score": 0.2781,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -160,7 +437,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.4179,
+   "score": 0.4156,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -188,7 +465,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.4179,
+   "score": 0.4156,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -217,7 +494,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.4179,
+   "score": 0.4156,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -246,7 +523,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.2804,
+   "score": 0.2781,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -272,7 +549,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.4179,
+   "score": 0.4156,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -299,7 +576,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.4429,
+   "score": 0.4407,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -330,7 +607,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.2804,
+   "score": 0.2781,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -358,7 +635,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.2804,
+   "score": 0.2781,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -387,7 +664,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.4179,
+   "score": 0.4156,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -416,7 +693,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-15T00:00:00Z",
-   "score": 0.2804,
+   "score": 0.2781,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -425,22 +702,191 @@
    "title": "Towards a unified publicly accessible database of avian type specimens",
    "url": "https://doi.org/10.1111/ibi.70109",
    "venue": "Ibis"
+  },
+  {
+   "authors": [
+    "Ella Hugie",
+    "Alexandra Irger",
+    "Grace Guo",
+    "Kenneth Moreland",
+    "David Pugmire",
+    "Scott Klasky"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "As AI agents increasingly participate in scientific workflows, scientists are shifting from direct authorship toward oversight, inspection, and steering. LLM-driven visualization systems are a promising interface for this hand-off, yet they remain largely stateless, forcing users to reconstruct context across refinements and offering little support for revisiting prior decisions or exploring alternatives. We present RaivenTracks, a workflow-aware extension of the Raiven DSL-mediated…",
+    "arxiv_id": "2608.14869"
+   },
+   "id": "6fd958ea60428462",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-14T20:15:55Z",
+   "score": 0.7085,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "As AI agents increasingly participate in scientific workflows, scientists are shifting from direct authorship toward oversight, inspection, and steering. LLM-driven visualization systems are a promising interface for this hand-off, yet they remain largely stateless, forcing users to reconstruct…",
+   "tags": [
+    "systems",
+    "ml-vis",
+    "llm",
+    "visualization"
+   ],
+   "title": "RaivenTracks: Branching Provenance for Conversational Visualization Workflows",
+   "url": "https://arxiv.org/abs/2608.14869v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Chen Zhu-Tian",
+    "Nam Wook Kim",
+    "Saeed Boorboor",
+    "Shivam Raval",
+    "Pan Hao",
+    "Qianwen Wang"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Recent advances in agents (i.e., autonomous, goal-driven AI systems that iteratively observe, act, and learn from their environments) offer a fundamentally different approach from traditional AI models that passively respond to input. These AI agents are rapidly reshaping how we approach data-intensive tasks and providing new opportunities for the VIS community. Imagine an agent autonomously generating visualizations to analyze complex data, discovering patterns collaboratively, testing…",
+    "arxiv_id": "2608.14815"
+   },
+   "id": "85e092cc82954414",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-14T18:41:08Z",
+   "score": 0.5652,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Recent advances in agents (i.e., autonomous, goal-driven AI systems that iteratively observe, act, and learn from their environments) offer a fundamentally different approach from traditional AI models that passively respond to input. These AI agents are rapidly reshaping how we approach…",
+   "tags": [
+    "systems"
+   ],
+   "title": "AI Agents and the Future of VIS",
+   "url": "https://arxiv.org/abs/2608.14815v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Kai Nylund",
+    "Michael Correll",
+    "Lace Padilla"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Widely used non-linear dimensionality reduction (NLDR) methods such as UMAP and t-SNE are stochastic--repeated runs on the same data can produce different low-dimensional projections. In this paper, we explore two problems related to projection variability: on some datasets clusters, structure, and outliers may change run-to-run, and on others projections can be extremely stable when overfitting noise. To address the first problem, we propose visualizing the median of multiple NLDR outputs…",
+    "arxiv_id": "2608.14513"
+   },
+   "id": "d09f8b12cd349aaf",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-14T17:32:26Z",
+   "score": 0.5629,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Widely used non-linear dimensionality reduction (NLDR) methods such as UMAP and t-SNE are stochastic--repeated runs on the same data can produce different low-dimensional projections. In this paper, we explore two problems related to projection variability: on some datasets clusters, structure, and…",
+   "tags": [],
+   "title": "Visualizing Uncertainty in Non-linear Projections with Ensembles",
+   "url": "https://arxiv.org/abs/2608.14513v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Daniel Klötzl",
+    "Daniel Weiskopf"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "We present an uncertainty-aware Jacobi set computation method. In general, Jacobi sets are topological descriptors that capture the gradient alignments of two scalar fields, as, e.g., used for multi-field visualization. We adopt and reformulate an existing computational approach that relies on an edge-based identification of Jacobi set edges on a given triangulation. Our extension to uncertainty visualization builds upon a versatile, spatially coherent uncertainty model for pairs of scalar…",
+    "arxiv_id": "2608.14409"
+   },
+   "id": "b31873d9821de90d",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-14T15:53:56Z",
+   "score": 0.5596,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "We present an uncertainty-aware Jacobi set computation method. In general, Jacobi sets are topological descriptors that capture the gradient alignments of two scalar fields, as, e.g., used for multi-field visualization. We adopt and reformulate an existing computational approach that relies on an…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Uncertainty-Aware Jacobi Set Computation",
+   "url": "https://arxiv.org/abs/2608.14409v1",
+   "venue": "arXiv cs.GR"
+  },
+  {
+   "authors": [
+    "Wei Wei",
+    "Foroozan Daneshzand",
+    "Zezhong Wang",
+    "Erica Mattson",
+    "Jenny Farkas",
+    "Sarah Storteboom"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "In this work, we present how employing the lens of entanglement helped us examine and reframe epistemic tensions arising in a visualization co-design project. Entanglement theory challenges traditional assumptions in the visualization research community by emphasizing that knowledge is not produced through linear, isolated processes, but is inherently entangled with phenomena and apparatuses. While this perspective offers a compelling critique of conventional research practices, its practical…",
+    "arxiv_id": "2608.14364"
+   },
+   "id": "e989beb1ae757e11",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-14T15:04:29Z",
+   "score": 0.3655,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "In this work, we present how employing the lens of entanglement helped us examine and reframe epistemic tensions arising in a visualization co-design project. Entanglement theory challenges traditional assumptions in the visualization research community by emphasizing that knowledge is not produced…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Epistemic Tensions: Reframing A Visualization Co-Design through Entanglement Theory",
+   "url": "https://arxiv.org/abs/2608.14364v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Hansoo Lee",
+    "Pablo Fonseca",
+    "Md Haseen Akhtar"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Mobile and wearable devices increasingly collect continuous wellbeing data, including sleep, activity, heart rate, stress, blood glucose, and blood pressure. Yet access to such data does not automatically help people interpret their condition or change behavior. Many health applications remain dashboard-first, presenting charts, thresholds, goals, and alerts while leaving users to decide what a change means and what action should follow. Conversely, generic LLM-based conversational agents (CAs)…",
+    "arxiv_id": "2608.14273"
+   },
+   "id": "bfac00b5f618173e",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-14T12:55:25Z",
+   "score": 0.5538,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Mobile and wearable devices increasingly collect continuous wellbeing data, including sleep, activity, heart rate, stress, blood glucose, and blood pressure. Yet access to such data does not automatically help people interpret their condition or change behavior. Many health applications remain…",
+   "tags": [],
+   "title": "Designing Mobile and Wearable Sensor-Fused Conversational Agents for Health and Wellbeing",
+   "url": "https://arxiv.org/abs/2608.14273v1",
+   "venue": "arXiv cs.HC"
   }
  ],
  "meta": {
-  "count": 15,
-  "generated_at": "2026-08-18T01:48:50Z",
+  "count": 31,
+  "generated_at": "2026-08-18T03:07:23Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
    {
     "category": "optional",
-    "count": 0,
-    "error": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60 (Caus",
+    "count": 9,
+    "error": null,
     "full_text_count": 0,
     "id": "arxiv_datavis",
     "name": "arXiv cs.HC + cs.GR",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
@@ -472,7 +918,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-21&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-07-21&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
@@ -495,12 +941,12 @@
    },
    {
     "category": "optional",
-    "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC&sortBy=submittedDate&sortOrder=descending&max_results=40",
+    "count": 7,
+    "error": null,
     "full_text_count": 0,
     "id": "arxiv_hci_writing",
     "name": "arXiv cs.HC (writing & docs)",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
