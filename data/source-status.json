@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T14:50:15Z",
+ "generated_at": "2026-08-18T16:46:29Z",
  "private_summary": {
   "configured": 0,
   "total": 0
@@ -115,7 +115,7 @@
   },
   {
    "category": "open",
-   "count": 27,
+   "count": 26,
    "error": null,
    "full_text_count": 0,
    "id": "bbc_world",
@@ -151,7 +151,7 @@
   },
   {
    "category": "open",
-   "count": 27,
+   "count": 23,
    "error": null,
    "full_text_count": 0,
    "id": "nyt_homepage",
@@ -175,19 +175,19 @@
   },
   {
    "category": "optional",
-   "count": 9,
-   "error": null,
+   "count": 0,
+   "error": "406 Client Error: Not Acceptable for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60",
    "full_text_count": 0,
    "id": "arxiv_datavis",
    "name": "arXiv cs.HC + cs.GR",
-   "ok": true,
+   "ok": false,
    "section": "papers",
    "skip_reason": null,
    "type": "arxiv"
   },
   {
    "category": "optional",
-   "count": 0,
+   "count": 50,
    "error": null,
    "full_text_count": 0,
    "id": "openalex_datavis",
@@ -223,7 +223,7 @@
   },
   {
    "category": "optional",
-   "count": 0,
+   "count": 40,
    "error": null,
    "full_text_count": 0,
    "id": "openalex_techcomm",
@@ -235,12 +235,12 @@
   },
   {
    "category": "optional",
-   "count": 7,
-   "error": null,
+   "count": 0,
+   "error": "406 Client Error: Not Acceptable for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC&sortBy=submittedDate&sortOrder=descending&max_results=40",
    "full_text_count": 0,
    "id": "arxiv_hci_writing",
    "name": "arXiv cs.HC (writing & docs)",
-   "ok": true,
+   "ok": false,
    "section": "papers",
    "skip_reason": null,
    "type": "arxiv"

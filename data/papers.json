@@ -2,472 +2,387 @@
  "items": [
   {
    "authors": [
-    "Subham Sah",
-    "Alireza Karduni",
-    "Douglas Markant",
-    "Wenwen Dou"
+    "Takuma OTA",
+    "Y. Igarashi"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Prediction market platforms present contracts about future events through visualizations that show probabilities, prices, trends, odds, and payout information. Although these visualizations often appear precise, they do not always show uncertainty directly. As a result, users infer uncertainty from market movement, visualization cues, and contextual information. In this paper, we examine how users interpret prediction market visualizations through a qualitative analysis of posts and comments…",
-    "arxiv_id": "2608.16814"
+    "abstract_snippet": "Abstract Impact‑Based Forecasting (IBF) has attracted international attention as an approach to enhance disaster risk management by linking weather forecast information to concrete societal actions. This review examines the implementation of IBF in Japan, focusing on the Real‑time Risk Map provided by the Japan Meteorological Agency, and systematically organizes its design philosophy, technical structure, operational framework, and role in decision support. Japan is characterized by steep…",
+    "citations": 0,
+    "doi": "10.1007/s44394-026-00034-3"
    },
-   "id": "8b1f64aed811ad1c",
+   "id": "33841bb8de490bb2",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-17T17:04:33Z",
-   "score": 0.7398,
+   "published_at": "2026-08-18T00:00:00Z",
+   "score": 0.4216,
    "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Prediction market platforms present contracts about future events through visualizations that show probabilities, prices, trends, odds, and payout information. Although these visualizations often appear precise, they do not always show uncertainty directly. As a result, users infer uncertainty from…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "Prediction market visualizations, betting, and uncertainty: A study of Reddit Posts and Comments",
-   "url": "https://arxiv.org/abs/2608.16814v1",
-   "venue": "arXiv cs.HC"
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract Impact‑Based Forecasting (IBF) has attracted international attention as an approach to enhance disaster risk management by linking weather forecast information to concrete societal actions. This review examines the implementation of IBF in Japan, focusing on the Real‑time Risk Map provided…",
+   "tags": [],
+   "title": "Impact-based forecasting in Japan: a review of the Japan meteorological agency’s real-time risk map “Kikikuru”",
+   "url": "https://doi.org/10.1007/s44394-026-00034-3",
+   "venue": "Journal of the Meteorological Society of Japan Ser II"
   },
   {
    "authors": [
-    "Kasumi Ban"
+    "Yara Hossam Eldin Elkassaby",
+    "Mohamed H. Gadallah"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "The qualitative research methodologies that underpin consumer-insight generation - the KJ method, Grounded Theory, and Thematic Analysis - share a structural constraint: the cognitive processing capacity of the human analyst. Replication research further shows that conclusions vary substantially across analysts analyzing identical data (analyst bias). This paper proposes Computational KJ-Ho (the Kawakita Jiro method), a theoretical framework that computationally realizes the KJ method's…",
-    "arxiv_id": "2608.16467"
+    "abstract_snippet": "<title>Abstract</title> Solving nonlinear constrained optimization problems efficiently remains a challenge. This paper describes a four-component method developed to address these difficulties: Design of Experiments (DOE) screening using L9 and L81 orthogonal arrays to eliminate statistically non-significant variables before optimization begins; adaptive domain splitting into 4–8 gradient-guided subregions to handle multimodality; Taylor series expansion (1st–3rd order) and Radial Basis…",
+    "citations": 0,
+    "doi": "10.1186/s44147-026-01169-2"
    },
-   "id": "12a65588365faba8",
+   "id": "a76379c4688d0c6c",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-17T12:04:18Z",
-   "score": 0.8197,
+   "published_at": "2026-08-18T00:00:00Z",
+   "score": 0.5591,
    "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "The qualitative research methodologies that underpin consumer-insight generation - the KJ method, Grounded Theory, and Thematic Analysis - share a structural constraint: the cognitive processing capacity of the human analyst. Replication research further shows that conclusions vary substantially…",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "<title>Abstract</title> Solving nonlinear constrained optimization problems efficiently remains a challenge. This paper describes a four-component method developed to address these difficulties: Design of Experiments (DOE) screening using L9 and L81 orthogonal arrays to eliminate statistically…",
    "tags": [
-    "ai-writing",
-    "llm"
+    "eval-study"
    ],
-   "title": "Computational KJ-Ho: An Analyst-Bias-Free Insight Extraction Framework from Large-Scale Qualitative Data Using Domain-Specialized LLMs",
-   "url": "https://arxiv.org/abs/2608.16467v1",
-   "venue": "arXiv cs.HC"
+   "title": "Approaches to nonlinear programming problems: Taylor series expansion, RBF surrogate modeling, DOE-based dimensionality reduction, and adaptive domain splitting",
+   "url": "https://doi.org/10.1186/s44147-026-01169-2",
+   "venue": "Journal of Engineering and Applied Science"
   },
   {
    "authors": [
-    "Chisom Anyabolu",
-    "Akshat Dubey",
-    "Georges Hattab"
+    "Qiang Ren",
+    "Yansong Liu",
+    "Yansheng Zhang",
+    "Shumin Tu",
+    "Wei Huang",
+    "Feng Nan"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Artificial intelligence systems often disclose uncertainty, yet they rarely make clear what response that uncertainty should trigger. Most uncertainty visualizations encode uncertainty in model outputs, leaving users to discern the most appropriate course of action. A second region of the design space--uncertainty in the decision process itself, including how multiple uncertainty conditions compose into an oversight response-- remains comparatively underexplored. We address this gap with two…",
-    "arxiv_id": "2608.16428"
+    "abstract_snippet": "Abstract. The North Pacific Intermediate Water (NPIW) plays a crucial role in modulating oceanic thermohaline circulation and biogeochemical processes. However, limited continuous observations have hindered the understanding of its short-term variability and structural response to mesoscale processes. This study investigates the intraseasonal structural variability of the NPIW and its modulation by mesoscale eddies, based on long-term mooring observations from three sites (M1–M3) across the…",
+    "citations": 0,
+    "doi": "10.5194/os-22-2449-2026"
    },
-   "id": "f356843c1a3c2b75",
+   "id": "cdfc6f9a4c63b244",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-17T11:28:41Z",
-   "score": 0.7174,
+   "published_at": "2026-08-17T00:00:00Z",
+   "score": 0.3504,
    "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Artificial intelligence systems often disclose uncertainty, yet they rarely make clear what response that uncertainty should trigger. Most uncertainty visualizations encode uncertainty in model outputs, leaving users to discern the most appropriate course of action. A second region of the design…",
-   "tags": [
-    "systems",
-    "visualization"
-   ],
-   "title": "Visualizing Uncertainty-to-Action Composition for Human Oversight",
-   "url": "https://arxiv.org/abs/2608.16428v1",
-   "venue": "arXiv cs.HC"
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract. The North Pacific Intermediate Water (NPIW) plays a crucial role in modulating oceanic thermohaline circulation and biogeochemical processes. However, limited continuous observations have hindered the understanding of its short-term variability and structural response to mesoscale…",
+   "tags": [],
+   "title": "Intraseasonal variability and eddy-induced structural modulation of the North Pacific intermediate water revealed by multi-mooring observations",
+   "url": "https://doi.org/10.5194/os-22-2449-2026",
+   "venue": "Ocean science"
   },
   {
    "authors": [
-    "Jianing Yin",
-    "Weng Pan Kuan",
-    "Xiaoyun Liu",
-    "Zhiyuan Wen",
-    "Yuxuan Li",
-    "Milos Stojmenovic"
+    "Kelvin Stefan Osafo",
+    "Sahadetu A. Mustapha-Sahabi",
+    "Derrick Ofosu Amoh",
+    "Pengming Sun"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Debate is a structured form of persuasive communication that trains argument construction, rebuttal, oral delivery, and audience awareness. These skills are valued in education, language learning, and professional communication. Recent AI debate systems and LLM-based judges have advanced argument generation and debate evaluation, but most remain text-centered and rarely support learners through a complete multimodal practice experience. We introduce PolyDebate, a game-orchestrated multimodal…",
-    "arxiv_id": "2608.16276"
+    "abstract_snippet": "Background Unsafe abortion remains a significant driver of maternal morbidity and mortality in Ghana. Despite progressive policies, many women continue to bypass safe clinical pathways. This study aims to identify the socio-demographic factors and qualitative dynamics associated with repeat unsafe abortion among women presenting with unsafe abortion complications at Tema General Hospital. Method The study targeted women aged 15–49 years who were admitted for complications arising from unsafe…",
+    "citations": 0,
+    "doi": "10.3389/fgwh.2026.1812634"
    },
-   "id": "d743c18da2ac1d81",
+   "id": "bc17f06056a32154",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-17T08:49:39Z",
-   "score": 0.8073,
+   "published_at": "2026-08-17T00:00:00Z",
+   "score": 0.4879,
    "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Debate is a structured form of persuasive communication that trains argument construction, rebuttal, oral delivery, and audience awareness. These skills are valued in education, language learning, and professional communication. Recent AI debate systems and LLM-based judges have advanced argument…",
-   "tags": [
-    "ai-writing",
-    "llm"
-   ],
-   "title": "PolyDebate: A Game-Orchestrated Multimodal System for Debate Skills Practice and Evaluation",
-   "url": "https://arxiv.org/abs/2608.16276v1",
-   "venue": "arXiv cs.HC"
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Background Unsafe abortion remains a significant driver of maternal morbidity and mortality in Ghana. Despite progressive policies, many women continue to bypass safe clinical pathways. This study aims to identify the socio-demographic factors and qualitative dynamics associated with repeat unsafe…",
+   "tags": [],
+   "title": "Determinants and dynamics of repeat unsafe abortion in Ghana—a mixed-method study at Tema General Hospital",
+   "url": "https://doi.org/10.3389/fgwh.2026.1812634",
+   "venue": "Frontiers in Global Women s Health"
   },
   {
    "authors": [
-    "Raj Korpan"
+    "Zhuochao Wu",
+    "Yongbiao Yang",
+    "Qingshan Xu"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Social robots are being developed for homes, schools, and other environments where they will interact with diverse users. While Human-Robot Interaction (HRI) research often emphasizes natural communication, engagement, personalization, and task success, these goals do not fully address the social complexity of real-world deployment. This paper proposes \\emph{Pluralistic HRI}, a framework for designing social robots that treat human diversity as a foundational design concern. The framework…",
-    "arxiv_id": "2608.16049"
+    "abstract_snippet": "With the increasing penetration of distributed renewable energy resources, distribution networks are gradually evolving into interconnected systems composed of multiple microgrids. Microgrids are typically equipped with controllable reactive power resources and can provide voltage support to the distribution network through points of common coupling. However, directly dispatching microgrid reactive resources without explicitly quantifying boundary support responsibilities and local dispatch…",
+    "citations": 0,
+    "doi": "10.3389/fenrg.2026.1906240"
    },
-   "id": "03f76379b79c6125",
+   "id": "f7790c03c6838ba3",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-17T03:22:38Z",
-   "score": 0.455,
+   "published_at": "2026-08-17T00:00:00Z",
+   "score": 0.3504,
    "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Social robots are being developed for homes, schools, and other environments where they will interact with diverse users. While Human-Robot Interaction (HRI) research often emphasizes natural communication, engagement, personalization, and task success, these goals do not fully address the social…",
-   "tags": [
-    "ux"
-   ],
-   "title": "Pluralistic Human-Robot Interaction: Designing for Robot Interaction with Diverse Communities",
-   "url": "https://arxiv.org/abs/2608.16049v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Yulin Yu",
-    "Yan Chen",
-    "Rui Hu",
-    "Siddharth Suri",
-    "Scott Counts"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Generative AI is transforming the workplace by augmenting and automating cognitive tasks, reshaping how organizations work and innovate while raising questions about workplace inequality and the future of work. Despite rapid adoption, empirical evidence on how these tools alter work practices and generate productivity gains remains limited. We examine how AI use affects the quantity and nature of information work using digital trace data from the Microsoft M365 application suite across multiple…",
-    "arxiv_id": "2608.15550"
-   },
-   "id": "71b79317ab06ec89",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-16T05:48:36Z",
-   "score": 0.5807,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Generative AI is transforming the workplace by augmenting and automating cognitive tasks, reshaping how organizations work and innovate while raising questions about workplace inequality and the future of work. Despite rapid adoption, empirical evidence on how these tools alter work practices and…",
-   "tags": [
-    "ai-writing"
-   ],
-   "title": "Adoption of Generative AI in the Workplace: Increasing and Shifting the Balance of Productivity and Communication Activity",
-   "url": "https://arxiv.org/abs/2608.15550v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Anchit Mishra",
-    "Oliver Schneider",
-    "Matthew Brehmer"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Details on demand is a common design pattern in visualization design, especially useful when interacting with visually-saturated or small displays. Beyond visualization, another common approach for saturated displays is to incorporate other modalities, such as haptic feedback. While haptic rendering in visualization has primarily targeted accessibility needs, with haptics as a substitute for visual feedback, studies using haptics outside of a visualization context have shown value in…",
-    "arxiv_id": "2608.15307"
-   },
-   "id": "3940b0bf73318d6e",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-15T16:22:36Z",
-   "score": 0.587,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Details on demand is a common design pattern in visualization design, especially useful when interacting with visually-saturated or small displays. Beyond visualization, another common approach for saturated displays is to incorporate other modalities, such as haptic feedback. While haptic…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "Vibes on Demand: Adding Vibrotactile Encoding to Line Charts Shows Experiential Benefits Without Performance Costs",
-   "url": "https://arxiv.org/abs/2608.15307v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Diego Mardian",
-    "Frank Liu"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Clinical documentation forces physicians to split attention between the patient and their keyboard, and much of it spills into uncom- pensated after-hours work. We present MDwAIstScheduler, a low- cost, belt-worn pipeline that lets a physician speak naturally dur- ing the encounter and have the resulting medications, allergies, labs/orders/referrals, follow-up scheduling, vitals, and problems land in the EHR as review-ready drafts. Building on our earlier prototype, which relied on cloud speech…",
-    "arxiv_id": "2608.15252"
-   },
-   "id": "442b151c3fac00cc",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-15T14:16:32Z",
-   "score": 0.5422,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Clinical documentation forces physicians to split attention between the patient and their keyboard, and much of it spills into uncom- pensated after-hours work. We present MDwAIstScheduler, a low- cost, belt-worn pipeline that lets a physician speak naturally dur- ing the encounter and have the…",
-   "tags": [
-    "ai-writing",
-    "techcomm"
-   ],
-   "title": "MDwAIstScheduler: Bringing On-Device Voice Documentation into Clinical Practice",
-   "url": "https://arxiv.org/abs/2608.15252v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Huy Quyen Ngo",
-    "Suresh Kumaar Jayaraman",
-    "Brian Mok",
-    "Ken Friedl",
-    "Oliver Krause",
-    "Aaron Steinfeld"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Modern vehicles, with advanced AI voice and autonomous navigation features, extend beyond traditional driving but, like any autonomous system, can potentially make mistakes or behave in ways unexpected by users. Although providing real-time explanations can alleviate some confusion, constant information can overwhelm users and potentially cause unnecessary distractions. Some situations may require explanations or corrective vehicle behavior, and thus, recognizing user response to unexpected…",
-    "arxiv_id": "2608.15048"
-   },
-   "id": "5225f197efff82b7",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-15T05:19:51Z",
-   "score": 0.523,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Modern vehicles, with advanced AI voice and autonomous navigation features, extend beyond traditional driving but, like any autonomous system, can potentially make mistakes or behave in ways unexpected by users. Although providing real-time explanations can alleviate some confusion, constant…",
-   "tags": [
-    "ai-writing"
-   ],
-   "title": "Beyond Overt Reactions: Analyzing Subtle User Emotional Response to Unexpected In-Vehicle System Behavior",
-   "url": "https://arxiv.org/abs/2608.15048v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Joanikij Chulev",
-    "Hendrik Baier"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Pareto Conditioned Networks learn multiple multi-objective reinforcement learning behaviours by conditioning a single policy on a desired return command. However, the local mapping from command and state to action remains opaque. We propose command-space counterfactual explanations for PCNs: given a fixed state, original command, and foil action, we search, in a black-box setting, for a minimally changed desired-return command under which the same trained policy would choose the foil. Our…",
-    "arxiv_id": "2608.14963"
-   },
-   "id": "ee81d181739578f5",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-15T01:32:28Z",
-   "score": 0.5155,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Pareto Conditioned Networks learn multiple multi-objective reinforcement learning behaviours by conditioning a single policy on a desired return command. However, the local mapping from command and state to action remains opaque. We propose command-space counterfactual explanations for PCNs: given…",
-   "tags": [
-    "ai-writing"
-   ],
-   "title": "Command-Space Counterfactual Explanations for Pareto-Conditioned Reinforcement Learning",
-   "url": "https://arxiv.org/abs/2608.14963v1",
-   "venue": "arXiv cs.LG"
-  },
-  {
-   "authors": [
-    "Ella Hugie",
-    "Alexandra Irger",
-    "Grace Guo",
-    "Kenneth Moreland",
-    "David Pugmire",
-    "Scott Klasky"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "As AI agents increasingly participate in scientific workflows, scientists are shifting from direct authorship toward oversight, inspection, and steering. LLM-driven visualization systems are a promising interface for this hand-off, yet they remain largely stateless, forcing users to reconstruct context across refinements and offering little support for revisiting prior decisions or exploring alternatives. We present RaivenTracks, a workflow-aware extension of the Raiven DSL-mediated…",
-    "arxiv_id": "2608.14869"
-   },
-   "id": "6fd958ea60428462",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-14T20:15:55Z",
-   "score": 0.6856,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "As AI agents increasingly participate in scientific workflows, scientists are shifting from direct authorship toward oversight, inspection, and steering. LLM-driven visualization systems are a promising interface for this hand-off, yet they remain largely stateless, forcing users to reconstruct…",
-   "tags": [
-    "systems",
-    "ml-vis",
-    "llm",
-    "visualization"
-   ],
-   "title": "RaivenTracks: Branching Provenance for Conversational Visualization Workflows",
-   "url": "https://arxiv.org/abs/2608.14869v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Chen Zhu-Tian",
-    "Nam Wook Kim",
-    "Saeed Boorboor",
-    "Shivam Raval",
-    "Pan Hao",
-    "Qianwen Wang"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Recent advances in agents (i.e., autonomous, goal-driven AI systems that iteratively observe, act, and learn from their environments) offer a fundamentally different approach from traditional AI models that passively respond to input. These AI agents are rapidly reshaping how we approach data-intensive tasks and providing new opportunities for the VIS community. Imagine an agent autonomously generating visualizations to analyze complex data, discovering patterns collaboratively, testing…",
-    "arxiv_id": "2608.14815"
-   },
-   "id": "85e092cc82954414",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-14T18:41:08Z",
-   "score": 0.5427,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Recent advances in agents (i.e., autonomous, goal-driven AI systems that iteratively observe, act, and learn from their environments) offer a fundamentally different approach from traditional AI models that passively respond to input. These AI agents are rapidly reshaping how we approach…",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "With the increasing penetration of distributed renewable energy resources, distribution networks are gradually evolving into interconnected systems composed of multiple microgrids. Microgrids are typically equipped with controllable reactive power resources and can provide voltage support to the…",
    "tags": [
     "systems"
    ],
-   "title": "AI Agents and the Future of VIS",
-   "url": "https://arxiv.org/abs/2608.14815v1",
-   "venue": "arXiv cs.HC"
+   "title": "Cost-aware distributed reactive power dispatch for voltage optimization in active distribution networks with multiple microgrids",
+   "url": "https://doi.org/10.3389/fenrg.2026.1906240",
+   "venue": "Frontiers in Energy Research"
   },
   {
    "authors": [
-    "Kai Nylund",
-    "Michael Correll",
-    "Lace Padilla"
+    "Kannan O. Ahmed",
+    "Taha Hussein Musa",
+    "Moataz M Hassan",
+    "Bashir A. Yousef",
+    "Riad Mohammed Abdelrahman",
+    "Alka Ahuja"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Widely used non-linear dimensionality reduction (NLDR) methods such as UMAP and t-SNE are stochastic--repeated runs on the same data can produce different low-dimensional projections. In this paper, we explore two problems related to projection variability: on some datasets clusters, structure, and outliers may change run-to-run, and on others projections can be extremely stable when overfitting noise. To address the first problem, we propose visualizing the median of multiple NLDR outputs…",
-    "arxiv_id": "2608.14513"
+    "abstract_snippet": "Introduction Proprotein convertase subtilisin/kexin type 9 (PCSK9) inhibitors are transformative lipid-lowering therapies, yet the structure of the research literature is strongly shaped by trial priorities. This study aimed to map global research trends on PCSK9 inhibitors using a bibliometric analysis of Scopus and PubMed. Methods Metadata on publication year, journal, citations, authorship, country, institution, and keywords were extracted. Annual output, mean citations, h-index…",
+    "citations": 0,
+    "doi": "10.2174/0118741924443766260813051333"
    },
-   "id": "d09f8b12cd349aaf",
+   "id": "3e496b317011dd2a",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-14T17:32:26Z",
-   "score": 0.5407,
+   "published_at": "2026-08-17T00:00:00Z",
+   "score": 0.4879,
    "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Widely used non-linear dimensionality reduction (NLDR) methods such as UMAP and t-SNE are stochastic--repeated runs on the same data can produce different low-dimensional projections. In this paper, we explore two problems related to projection variability: on some datasets clusters, structure, and…",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Introduction Proprotein convertase subtilisin/kexin type 9 (PCSK9) inhibitors are transformative lipid-lowering therapies, yet the structure of the research literature is strongly shaped by trial priorities. This study aimed to map global research trends on PCSK9 inhibitors using a bibliometric…",
    "tags": [],
-   "title": "Visualizing Uncertainty in Non-linear Projections with Ensembles",
-   "url": "https://arxiv.org/abs/2608.14513v1",
-   "venue": "arXiv cs.HC"
+   "title": "Cross-Database Mapping of PCSK9 Inhibitor Research: A Bibliometric Analysis of Scopus and PubMed",
+   "url": "https://doi.org/10.2174/0118741924443766260813051333",
+   "venue": "The Open Cardiovascular Medicine Journal"
   },
   {
    "authors": [
-    "Daniel Klötzl",
-    "Daniel Weiskopf"
+    "Xinkang Chen",
+    "Zhou He"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "We present an uncertainty-aware Jacobi set computation method. In general, Jacobi sets are topological descriptors that capture the gradient alignments of two scalar fields, as, e.g., used for multi-field visualization. We adopt and reformulate an existing computational approach that relies on an edge-based identification of Jacobi set edges on a given triangulation. Our extension to uncertainty visualization builds upon a versatile, spatially coherent uncertainty model for pairs of scalar…",
-    "arxiv_id": "2608.14409"
+    "abstract_snippet": "Handwritten mathematical expression recognition (HMER) aims to convert images of handwritten mathematical expressions into structured LaTeX sequences. Although recent encoder-decoder models have achieved strong performance, they still struggle with visually similar symbols, Greek letters, special symbols, and structural tokens such as fractions, radicals, superscripts, and subscripts, especially when expressions contain complex spatial layouts. To address these issues, we propose a…",
+    "citations": 0,
+    "doi": "10.1117/1.jei.35.4.043022"
    },
-   "id": "b31873d9821de90d",
+   "id": "c30fe8366afb5f53",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-14T15:53:56Z",
-   "score": 0.5378,
+   "published_at": "2026-08-17T00:00:00Z",
+   "score": 0.4879,
    "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "We present an uncertainty-aware Jacobi set computation method. In general, Jacobi sets are topological descriptors that capture the gradient alignments of two scalar fields, as, e.g., used for multi-field visualization. We adopt and reformulate an existing computational approach that relies on an…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "Uncertainty-Aware Jacobi Set Computation",
-   "url": "https://arxiv.org/abs/2608.14409v1",
-   "venue": "arXiv cs.GR"
-  },
-  {
-   "authors": [
-    "Wei Wei",
-    "Foroozan Daneshzand",
-    "Zezhong Wang",
-    "Erica Mattson",
-    "Jenny Farkas",
-    "Sarah Storteboom"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "In this work, we present how employing the lens of entanglement helped us examine and reframe epistemic tensions arising in a visualization co-design project. Entanglement theory challenges traditional assumptions in the visualization research community by emphasizing that knowledge is not produced through linear, isolated processes, but is inherently entangled with phenomena and apparatuses. While this perspective offers a compelling critique of conventional research practices, its practical…",
-    "arxiv_id": "2608.14364"
-   },
-   "id": "e989beb1ae757e11",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-14T15:04:29Z",
-   "score": 0.3439,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "In this work, we present how employing the lens of entanglement helped us examine and reframe epistemic tensions arising in a visualization co-design project. Entanglement theory challenges traditional assumptions in the visualization research community by emphasizing that knowledge is not produced…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "Epistemic Tensions: Reframing A Visualization Co-Design through Entanglement Theory",
-   "url": "https://arxiv.org/abs/2608.14364v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Hansoo Lee",
-    "Pablo Fonseca",
-    "Md Haseen Akhtar"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Mobile and wearable devices increasingly collect continuous wellbeing data, including sleep, activity, heart rate, stress, blood glucose, and blood pressure. Yet access to such data does not automatically help people interpret their condition or change behavior. Many health applications remain dashboard-first, presenting charts, thresholds, goals, and alerts while leaving users to decide what a change means and what action should follow. Conversely, generic LLM-based conversational agents (CAs)…",
-    "arxiv_id": "2608.14273"
-   },
-   "id": "bfac00b5f618173e",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-14T12:55:25Z",
-   "score": 0.5328,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Mobile and wearable devices increasingly collect continuous wellbeing data, including sleep, activity, heart rate, stress, blood glucose, and blood pressure. Yet access to such data does not automatically help people interpret their condition or change behavior. Many health applications remain…",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Handwritten mathematical expression recognition (HMER) aims to convert images of handwritten mathematical expressions into structured LaTeX sequences. Although recent encoder-decoder models have achieved strong performance, they still struggle with visually similar symbols, Greek letters, special…",
    "tags": [],
-   "title": "Designing Mobile and Wearable Sensor-Fused Conversational Agents for Health and Wellbeing",
-   "url": "https://arxiv.org/abs/2608.14273v1",
-   "venue": "arXiv cs.HC"
+   "title": "CP-Former: counting-based position-aware transformer for handwritten mathematical expression recognition",
+   "url": "https://doi.org/10.1117/1.jei.35.4.043022",
+   "venue": "Journal of Electronic Imaging"
+  },
+  {
+   "authors": [
+    "Sangjun Kang",
+    "Hyeyoung Cho",
+    "Takeshi Egami",
+    "Yuxuan Liao",
+    "Jianwei Miao",
+    "Christian Kuebel"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract Pair distribution function (PDF) analysis provides a quantitative framework for resolving short- and medium-range order in glasses. This article summarizes recent advances that extend PDF methods from bulk x-ray and neutron-diffraction methods to local electron microscopy-based characterization for metallic glasses. High-energy x-rays and neutrons offer robust structural averages, while electron-based approaches such as electron PDF (ePDF) enable nanoscale mapping of local order and…",
+    "citations": 1,
+    "doi": "10.1557/s43577-026-01120-z"
+   },
+   "id": "3865f05ca0599be0",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-17T00:00:00Z",
+   "score": 0.513,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract Pair distribution function (PDF) analysis provides a quantitative framework for resolving short- and medium-range order in glasses. This article summarizes recent advances that extend PDF methods from bulk x-ray and neutron-diffraction methods to local electron microscopy-based…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Pair distribution analysis of short- and medium-range order of metallic glasses: Direct imaging and diffraction-based approaches",
+   "url": "https://doi.org/10.1557/s43577-026-01120-z",
+   "venue": "MRS Bulletin"
+  },
+  {
+   "authors": [
+    "Jan Magne Cederstrøm",
+    "Pål Ringkjøb Nielsen",
+    "George Edward Young",
+    "Jostein Bakke"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Flood frequency and magnitude are expected to increase under future climate scenarios, yet long-term records of flood variability remain sparse beyond the instrumental period. Lake sediments provide valuable archives of past floods, but existing detection methods often struggle to identify both minerogenic and organic flood layers at high resolution. Here, we present a new non-destructive approach based on computed tomography (CT) scanning combined with thresholding techniques to isolate flood…",
+    "citations": 0,
+    "doi": "10.3389/feart.2026.1826750"
+   },
+   "id": "3bbc95f0ff862bba",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-17T00:00:00Z",
+   "score": 0.4879,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Flood frequency and magnitude are expected to increase under future climate scenarios, yet long-term records of flood variability remain sparse beyond the instrumental period. Lake sediments provide valuable archives of past floods, but existing detection methods often struggle to identify both…",
+   "tags": [],
+   "title": "An improved method for detecting event layers in lake sediment archives",
+   "url": "https://doi.org/10.3389/feart.2026.1826750",
+   "venue": "Frontiers in Earth Science"
+  },
+  {
+   "authors": [
+    "Mayank Singh",
+    "Chander Shekhar",
+    "Jagriti Gupta",
+    "Rajeev Kumar"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Background Rapid sociodemographic changes in India, including rising female education, workforce participation, urbanization, and changing gender norms, have contributed to delayed childbearing. Despite declining fertility, limited evidence exists on the district-level geographic variations and determinants of delayed motherhood (childbirth at age ≥35) in India. This study applies multilevel and geospatial analyses to examine the distribution, determinants, and district-level spatial clustering…",
+    "citations": 0,
+    "doi": "10.3389/fgwh.2026.1762981"
+   },
+   "id": "fbc1e6feff53cc46",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-17T00:00:00Z",
+   "score": 0.3504,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Background Rapid sociodemographic changes in India, including rising female education, workforce participation, urbanization, and changing gender norms, have contributed to delayed childbearing. Despite declining fertility, limited evidence exists on the district-level geographic variations and…",
+   "tags": [],
+   "title": "Geographical clustering of delayed motherhood in India: an application of multilevel and geospatial analyses",
+   "url": "https://doi.org/10.3389/fgwh.2026.1762981",
+   "venue": "Frontiers in Global Women s Health"
+  },
+  {
+   "authors": [
+    "Shanu S L",
+    "Jenila jose jancy V",
+    "John Wesley J",
+    "Susan Alby",
+    "Gowri E",
+    "Abina A"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Drug-resistant Mycobacterium tuberculosis (Mtb) remains a major challenge, creating a need for rapid and accurate whole-genome sequencing (WGS)-based resistance prediction. Existing CNN-based approaches have achieved strong performance, but their ability to jointly capture hierarchical mutation patterns and long-range dependencies among genomic variants remains limited. This study proposes a Hierarchical CNN-Transformer Mutation Pattern Encoding (HCT-MPE) framework that hierarchically encodes…",
+    "citations": 0,
+    "doi": "10.64751/ijpams.2026.v6.n3.202"
+   },
+   "id": "5b778c75a75b8f60",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-17T00:00:00Z",
+   "score": 0.4879,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Drug-resistant Mycobacterium tuberculosis (Mtb) remains a major challenge, creating a need for rapid and accurate whole-genome sequencing (WGS)-based resistance prediction. Existing CNN-based approaches have achieved strong performance, but their ability to jointly capture hierarchical mutation…",
+   "tags": [],
+   "title": "Mycobacterium Tuberculosis Drug Resistance Prediction from Whole Genome Sequences Using Hierarchical CNN-Transformer Mutation Pattern Encoding",
+   "url": "https://doi.org/10.64751/ijpams.2026.v6.n3.202",
+   "venue": "International Journal of Pharmacy with Medical Sciences"
+  },
+  {
+   "authors": [
+    "V. Vignesh",
+    "G. V. Narendran",
+    "R. Senthil Kumar",
+    "R. Sitharthan"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Blast furnace (BF) operation involves strongly coupled thermal and chemical processes governed by nonlinear heat transfer, gas–solid reactions, and dynamic operational control. Accurate real-time prediction of key thermal and gas parameters is essential for maintaining furnace stability, improving energy efficiency, and reducing carbon emissions. However, most existing studies focus on single-parameter forecasting and fail to adequately capture the heterogeneous temporal dynamics and strong…",
+    "citations": 0,
+    "doi": "10.3389/frai.2026.1826705"
+   },
+   "id": "b290487d11828a36",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-17T00:00:00Z",
+   "score": 0.4879,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Blast furnace (BF) operation involves strongly coupled thermal and chemical processes governed by nonlinear heat transfer, gas–solid reactions, and dynamic operational control. Accurate real-time prediction of key thermal and gas parameters is essential for maintaining furnace stability, improving…",
+   "tags": [
+    "systems",
+    "ml-vis"
+   ],
+   "title": "Hybrid fuzzy clustering and temporal deep learning framework for multi-parameter forecasting in industrial thermal processes",
+   "url": "https://doi.org/10.3389/frai.2026.1826705",
+   "venue": "Frontiers in Artificial Intelligence"
+  },
+  {
+   "authors": [
+    "Jun Seo Park",
+    "Hye Won Jun",
+    "Jaesung Lee",
+    "Sung Joong Lee"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract Peripheral nerve injury-induced persistent pain hypersensitivity cannot be fully explained by increased neuronal excitability alone. Rather, it is increasingly recognized as a pathological tissue state characterized by sustained glial activation, immune signaling, and synaptic remodeling within the spinal cord. In this context, metabolic remodeling of the spinal cord has emerged as a potentially important feature of neuropathic pain. However, the metabolic patterns associated with this…",
+    "citations": 0,
+    "doi": "10.1007/s11011-026-01927-4"
+   },
+   "id": "258efed775296cfc",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-17T00:00:00Z",
+   "score": 0.4879,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract Peripheral nerve injury-induced persistent pain hypersensitivity cannot be fully explained by increased neuronal excitability alone. Rather, it is increasingly recognized as a pathological tissue state characterized by sustained glial activation, immune signaling, and synaptic remodeling…",
+   "tags": [],
+   "title": "Peripheral nerve injury induces an immunometabolic signature involving reduced free fatty-acid pools",
+   "url": "https://doi.org/10.1007/s11011-026-01927-4",
+   "venue": "Metabolic Brain Disease"
   }
  ],
  "meta": {
-  "count": 16,
-  "generated_at": "2026-08-18T14:50:15Z",
+  "count": 13,
+  "generated_at": "2026-08-18T16:46:29Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
    {
     "category": "optional",
-    "count": 9,
-    "error": null,
+    "count": 0,
+    "error": "406 Client Error: Not Acceptable for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60",
     "full_text_count": 0,
     "id": "arxiv_datavis",
     "name": "arXiv cs.HC + cs.GR",
-    "ok": true,
+    "ok": false,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
    },
    {
     "category": "optional",
-    "count": 0,
+    "count": 50,
     "error": null,
     "full_text_count": 0,
     "id": "openalex_datavis",
@@ -503,7 +418,7 @@
    },
    {
     "category": "optional",
-    "count": 0,
+    "count": 40,
     "error": null,
     "full_text_count": 0,
     "id": "openalex_techcomm",
@@ -515,12 +430,12 @@
    },
    {
     "category": "optional",
-    "count": 7,
-    "error": null,
+    "count": 0,
+    "error": "406 Client Error: Not Acceptable for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC&sortBy=submittedDate&sortOrder=descending&max_results=40",
     "full_text_count": 0,
     "id": "arxiv_hci_writing",
     "name": "arXiv cs.HC (writing & docs)",
-    "ok": true,
+    "ok": false,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
