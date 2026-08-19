@@ -1,0 +1,126 @@
+{
+ "meta": {
+  "count": 3,
+  "generated_at": "2026-08-19T03:09:32Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "af17eb4931bad19b",
+     "phrase": {
+      "en": "Cognitive accessibility in data visualization",
+      "zh": "数据可视化中的认知无障碍"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.17039v1"
+    },
+    {
+     "item_id": "32c99ae8f8dcd76b",
+     "phrase": {
+      "en": "Accessibility interventions in generative AI",
+      "zh": "生成式AI中的无障碍干预"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.17175v1"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Designing tech for minds that work differently.",
+    "zh": "为不同运作的思维设计技术。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "cognitive accessibility",
+    "zh": "认知无障碍"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You work in HCI and inclusive design: new work bridges cognitive accessibility with data and AI.",
+    "zh": "你从事人机交互与包容设计：新工作连接认知无障碍与数据和AI。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "370344743109855f",
+     "phrase": {
+      "en": "Tariffs on hold, deal near",
+      "zh": "关税暂停，协议接近"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/18/world/canada/tariffs-trade-trump-carney.html"
+    },
+    {
+     "item_id": "b52f98434e14ceb2",
+     "phrase": {
+      "en": "Trump pauses tariffs for deal",
+      "zh": "特朗普为协议暂停关税"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cy9wz79ze29o?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Tariffs paused for three days as deal nears.",
+    "zh": "关税暂停三天，协议临近。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "Trump tariffs on Canada",
+    "zh": "特朗普对加拿大关税"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow policy shifts: the tariff pause is a live, evolving trade story.",
+    "zh": "你关注政策变化：关税暂停是实时演变的贸易故事。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "f817048d0089572e",
+     "phrase": {
+      "en": "Sacked minister calls for election",
+      "zh": "被撤部长呼吁选举"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "a05c9ce79dd1a6ad",
+     "phrase": {
+      "en": "Dismissed minister's election demand",
+      "zh": "被解职部长的选举要求"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/18/ukraines-dismissed-defence-minister-calls-for-wartime-presidential-election"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Ex-defense minister urges wartime vote, challenging Zelensky.",
+    "zh": "前国防部长敦促战时投票，挑战泽连斯基。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "Ukraine election call",
+    "zh": "乌克兰选举呼吁"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow geopolitics: a direct challenge to Ukraine's leadership emerges.",
+    "zh": "你关注地缘政治：对乌克兰领导层的直接挑战出现。"
+   }
+  }
+ ]
+}
