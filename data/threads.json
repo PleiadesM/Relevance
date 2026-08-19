@@ -1,235 +1,224 @@
 {
  "meta": {
   "count": 5,
-  "generated_at": "2026-08-19T18:51:04Z",
+  "generated_at": "2026-08-19T20:43:20Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "29e44c10fdbb52dd",
+     "item_id": "02e49de861fb74cf",
      "phrase": {
-      "en": "emphasizes data protection",
-      "zh": "强调数据保护"
+      "en": "frames it as procedural collapse",
+      "zh": "视为流程崩塌"
      },
-     "section": "news",
-     "source": "OpenAI News",
-     "url": "https://openai.com/index/our-commitment-to-zero-data-retention"
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.17326v1"
     },
-    {
-     "full_text_file": "articles/news/001feb37314ef9d8.json",
-     "item_id": "001feb37314ef9d8",
-     "phrase": {
-      "en": "frames as strategic pause",
-      "zh": "视为战略暂停"
-     },
-     "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "OpenAI tightens data privacy for AI models, balancing safety and trust.",
-    "zh": "OpenAI加强AI模型数据隐私，平衡安全与信任。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "AI data privacy",
-    "zh": "AI数据隐私"
-   },
-   "relates_to": [
-    "t2"
-   ],
-   "timeline": [
-    {
-     "date": "2026-08-19",
-     "item_id": "29e44c10fdbb52dd",
-     "label": {
-      "en": "OpenAI privacy moves",
-      "zh": "OpenAI隐私举措"
-     },
-     "section": "news",
-     "source": "OpenAI News",
-     "url": "https://openai.com/index/our-commitment-to-zero-data-retention"
-    },
-    {
-     "date": "2026-08-19",
-     "full_text_file": "articles/news/001feb37314ef9d8.json",
-     "item_id": "001feb37314ef9d8",
-     "label": {
-      "en": "OpenAI brakes",
-      "zh": "OpenAI刹车"
-     },
-     "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai"
-    }
-   ],
-   "why_now": {
-    "en": "You care about AI and privacy: today OpenAI's Zero Data Retention and Private Safety Processing reshape the frontier.",
-    "zh": "你关注AI与隐私，今日OpenAI零保留与私有安全处理重塑前沿。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "full_text_file": "articles/news/001feb37314ef9d8.json",
-     "item_id": "001feb37314ef9d8",
-     "phrase": {
-      "en": "reports strategic slowdown",
-      "zh": "报道战略放缓"
-     },
-     "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai"
-    },
-    {
-     "item_id": "29e44c10fdbb52dd",
-     "phrase": {
-      "en": "shows privacy commitment",
-      "zh": "显示隐私承诺"
-     },
-     "section": "news",
-     "source": "OpenAI News",
-     "url": "https://openai.com/index/our-commitment-to-zero-data-retention"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "OpenAI hits the brakes amid competition and IPO pressure, signaling a cautious turn.",
-    "zh": "OpenAI在竞争与IPO压力下踩刹车，转向谨慎。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "OpenAI's strategic slowdown",
-    "zh": "OpenAI战略放缓"
-   },
-   "relates_to": [
-    "t1"
-   ],
-   "why_now": {
-    "en": "You track AI industry dynamics: today's braking affects the frontier model race you follow.",
-    "zh": "你关注AI行业动态，今日刹车影响你追踪的前沿模型竞赛。"
-   }
-  },
-  {
-   "angles": [
     {
      "full_text_file": "articles/news/f7e1f9b8c8459e5b.json",
      "item_id": "f7e1f9b8c8459e5b",
      "phrase": {
-      "en": "Mac app for Meta AI",
-      "zh": "Meta AI Mac应用"
+      "en": "frames it as convenience",
+      "zh": "强调便利性"
      },
      "section": "news",
      "source": "The Verge · AI",
      "url": "https://www.theverge.com/tech/982270/meta-ai-mac-app"
-    },
-    {
-     "item_id": "33cbe32ded77770e",
-     "phrase": {
-      "en": "open-source agent harness",
-      "zh": "开源代理框架"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://github.com/onecli/onecli"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "AI tools become more integrated into daily computing, from Mac apps to sandboxed agents.",
-    "zh": "AI工具更融入日常计算，从Mac应用到沙盒代理。"
+    "en": "From student essays to professional docs, AI reshapes how we write and think.",
+    "zh": "从学生作文到专业文档，AI重塑写作与思维。"
    },
-   "id": "t3",
+   "id": "t1",
    "keyword": {
-    "en": "AI interface evolution",
-    "zh": "AI界面演进"
+    "en": "AI writing tools",
+    "zh": "AI写作工具"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You study HCI and AI: Meta's Mac app and OneCLI's agent harness are new interaction paradigms.",
-    "zh": "你研究人机交互与AI，Meta Mac应用和OneCLI是新的交互范式。"
+    "en": "You care about HCI and technical communication: new research exposes hidden mechanics of AI-assisted writing, and a major tool launches on Mac today.",
+    "zh": "你关心人机交互与技术传播，新研究揭示AI辅助写作的隐藏机制，今日还有大厂工具上Mac。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "af17eb4931bad19b",
+     "item_id": "40e4e8ee6d0763f6",
      "phrase": {
-      "en": "explores cognitive accessibility",
-      "zh": "探索认知无障碍"
+      "en": "frames it as privacy safeguard",
+      "zh": "视为隐私保护"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.17039v1"
+     "section": "news",
+     "source": "OpenAI News",
+     "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models"
     },
     {
-     "item_id": "32c99ae8f8dcd76b",
+     "item_id": "cedcffe09df7d268",
      "phrase": {
-      "en": "AI for cognitive impairment",
-      "zh": "AI支持认知障碍"
+      "en": "frames it as data control",
+      "zh": "视为数据控制"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.17175v1"
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://grapheneos.social/@GrapheneOS/117057099753905023"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Research highlights how data visualization must accommodate diverse cognitive abilities.",
-    "zh": "研究强调数据可视化需适应多样认知能力。"
+    "en": "AI's thirst for data meets the demand for privacy, forcing new compromises.",
+    "zh": "AI对数据的渴求与隐私需求相遇，催生新的平衡。"
    },
-   "id": "t4",
+   "id": "t2",
    "keyword": {
-    "en": "cognitive accessibility in visualization",
-    "zh": "可视化认知无障碍"
+    "en": "data privacy",
+    "zh": "数据隐私"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about data visualization and accessibility: new papers deepen the cognitive angle.",
-    "zh": "你关注数据可视化与无障碍，新论文深化认知角度。"
+    "en": "You work with critical visualization: OpenAI's privacy step and Google's source-code shuttering both touch how data flows, a core concern for you today.",
+    "zh": "你研究批判性可视化，OpenAI的隐私举措与Google的源码收紧都涉及数据流动，今日值得关注。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "5f016b8bdf964176",
+     "item_id": "f817048d0089572e",
      "phrase": {
-      "en": "recall elections over data centers",
-      "zh": "数据中心引发罢免"
+      "en": "frames it as constitutional issue",
+      "zh": "视为宪法议题"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/19/technology/data-centers-voter-concerns-independence-missouri.html"
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "764ef9aadfc25539",
+     "item_id": "c0afa27cf3f12bf4",
      "phrase": {
-      "en": "privacy concerns on Roblox",
-      "zh": "Roblox隐私担忧"
+      "en": "frames it as political necessity",
+      "zh": "视为政治必需"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/videos/c62eyn5ggnzo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "2830899ead993980",
+     "phrase": {
+      "en": "frames it as corruption crisis",
+      "zh": "视为腐败危机"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/australia-news/2026/aug/20/roblox-esafety-commissioner-children-adults-ntwnfb"
+     "url": "https://www.theguardian.com/world/2026/aug/19/volodymyr-zelenskyy-sacks-senior-aide-amid-ukraine-corruption-crisis"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Calls for wartime elections stir political turmoil in Ukraine.",
+    "zh": "战时选举呼吁引发乌克兰政坛动荡。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "Ukraine elections",
+    "zh": "乌克兰选举"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow global AI policy, but this governance pivot is key for understanding disruption contexts.",
+    "zh": "你关注全球AI政策，但这一治理转折是理解动荡背景的关键。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "df6a9d3fd64ac842",
+     "phrase": {
+      "en": "frames it as erosion of clout",
+      "zh": "视为影响力削弱"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/19/us/politics/trump-primary-election-republican-endorsements.html"
+    },
+    {
+     "item_id": "6c254f718ca5d408",
+     "phrase": {
+      "en": "frames it as progressive victory",
+      "zh": "视为进步派胜利"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/19/angie-nixon-florida-democratic-socialist"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Local communities push back against data centers, leading to recall elections.",
-    "zh": "地方社区抵制数据中心，引发罢免选举。"
+    "en": "Trump's endorsed candidates keep losing, signaling waning influence.",
+    "zh": "特朗普支持的候选人接连失利，影响力减弱。"
    },
-   "id": "t5",
+   "id": "t4",
    "keyword": {
-    "en": "data center backlash",
-    "zh": "数据中心抵制"
+    "en": "Trump primary losses",
+    "zh": "特朗普初选失利"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow AI infrastructure: data center siting is a flashpoint for governance and HCI.",
-    "zh": "你关注AI基础设施，数据中心选址是治理与人机交互的焦点。"
+    "en": "You study visual rhetoric of political communication: these electoral shifts are rich data points for narrative analysis.",
+    "zh": "你研究政治传播的视觉修辞，这些选举变动为叙事分析提供了丰富数据。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "e650d1553c105d49",
+     "phrase": {
+      "en": "frames it as denial",
+      "zh": "视为否认"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/19/world/asia/north-korea-trump-military-drills.html"
+    },
+    {
+     "item_id": "c25ca78804826ff8",
+     "phrase": {
+      "en": "frames it as reduced drills",
+      "zh": "视为缩减军演"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cnvn0j31qj8o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "e92581cf18287c2c",
+     "phrase": {
+      "en": "frames it as claiming talks",
+      "zh": "视为声称对话"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/19/kim-jong-un-sister-doubt-trump-claims-secret-us-north-korea-talks"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Washington and Pyongyang send mixed signals over potential talks.",
+    "zh": "美朝就潜在对话发出矛盾信号。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "US-North Korea talks",
+    "zh": "美朝对话"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track geopolitical shifts affecting tech policy; today's denials contradict earlier claims.",
+    "zh": "你关注影响科技政策的地缘变动，今日否认与先前说法矛盾。"
    }
   }
  ]
