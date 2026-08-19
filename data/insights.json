@@ -1,40 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "cheese rolling race OR Gloucestershire cheese rolling",
-  "source": {
-   "name": "dailystar.co.uk",
-   "published_at": "2026-08-10T07:00:00Z",
-   "title": "All the mad places Andy Burnham must visit on UK tour - from Nessie hunting to cheese chasing",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTVB0TFZsWWQ2WmhsakVmWUFjZ3dCa3pGeEdDSUZOTWZSUmZzOXQzVG14a3paU3lCZW9GWXhzYUplSlBkQ3BJUk82TWVjZHUyVi04Qy1hcFpaZmFWV0k2Uk9EZGRvdFlTd2VCM3JTZ3B3dkdnSDc2Q0RRdnNSVDZUenp5VkM?oc=5"
-  },
-  "summaries": {
-   "en": {
-    "summary": "A British politician's suggested UK tour includes hunting the Loch Ness Monster and chasing cheese downhill.",
-    "why_irrelevant": "It's a celebrity travel piece, far from your usual interests."
-   },
-   "zh": {
-    "summary": "一位英国政客的英国之旅建议包括寻找尼斯湖水怪和追赶滚奶酪。",
-    "why_irrelevant": "这是一篇名人旅行报道，与你的日常关注相去甚远。"
-   }
-  },
-  "topic": "competitive cheese rolling"
- },
- "brief": "U.S. debt hits $40 trillion amid geopolitical tensions, vaccine advances, and political shifts; research highlights MRI diagnostics and LLM writing disengagement.",
+ "brief": "U.S. debt hits $40 trillion amid rising Treasury yields, while Prince Harry and Meghan plan a return to the UK. In research, MRI and social network studies highlight diverse scientific inquiries.",
  "meta": {
-  "generated_at": "2026-08-19T20:43:20Z"
+  "generated_at": "2026-08-19T22:38:21Z"
  },
- "news_summary": "U.S. debt tops $40 trillion, with Trump's fiscal promises hampered. Israel probes Gaza killings, and Trump's nominees face primary losses. Ecuador intelligence chief dies in Kenya crash. Moderna and Merck's mRNA vaccine shows promise against melanoma.",
- "papers_summary": "Research evaluates post-contrast T2-FLAIR MRI for intracranial pathology, compares MRI systems for Pseudopus apodus anatomy, and examines disengagement in LLM-assisted writing.",
+ "news_summary": "U.S. national debt tops $40 trillion, Treasury yields rise, and Prince Harry and Meghan are moving back to the UK. Australia summons Israel's ambassador over the Frankcom killing, and New York faces a housing shortage.",
+ "papers_summary": "Papers explore MRI diagnostics (including a lizard study), social status in Colombian networks, and the structure of disengagement in LLM-assisted writing, among other topics.",
  "summaries": {
   "en": {
-   "brief": "U.S. debt hits $40 trillion amid geopolitical tensions, vaccine advances, and political shifts; research highlights MRI diagnostics and LLM writing disengagement.",
-   "news_summary": "U.S. debt tops $40 trillion, with Trump's fiscal promises hampered. Israel probes Gaza killings, and Trump's nominees face primary losses. Ecuador intelligence chief dies in Kenya crash. Moderna and Merck's mRNA vaccine shows promise against melanoma.",
-   "papers_summary": "Research evaluates post-contrast T2-FLAIR MRI for intracranial pathology, compares MRI systems for Pseudopus apodus anatomy, and examines disengagement in LLM-assisted writing."
+   "brief": "U.S. debt hits $40 trillion amid rising Treasury yields, while Prince Harry and Meghan plan a return to the UK. In research, MRI and social network studies highlight diverse scientific inquiries.",
+   "news_summary": "U.S. national debt tops $40 trillion, Treasury yields rise, and Prince Harry and Meghan are moving back to the UK. Australia summons Israel's ambassador over the Frankcom killing, and New York faces a housing shortage.",
+   "papers_summary": "Papers explore MRI diagnostics (including a lizard study), social status in Colombian networks, and the structure of disengagement in LLM-assisted writing, among other topics."
   },
   "zh": {
-   "brief": "今日焦点包括中国科技企业宇树科技上市暴涨、法国公职人员性侵指控，以及美国债务突破40万亿美元等新闻；论文方面暂无中文优先内容，但国际研究涵盖医学影像、AI写作和网络科学等主题。",
-   "news_summary": "中文新闻聚焦宇树科技上市首日大涨、法国公务员下药丑闻、国产动画《牛来》意外走红及GLP-1药物对运动表现的影响；国际新闻则涉及美国债务新高、特朗普政策争议及加拿大贸易谈判。",
-   "papers_summary": "国际论文涉及MRI诊断、AI辅助写作中的脱节现象、乡村社会网络地位影响等，暂无中文优先论文。"
+   "brief": "今日新闻关注法国官员被控下药、中国机器人公司上市暴涨及动画《牛来》意外走红；科研方面无重点中文论文，英文论文涉及医学影像、AI写作等。",
+   "news_summary": "法国高级公务员被200多名女性指控在面试中下药致小便失禁；中国机器人公司宇树科技上市首日股价暴涨近五倍；动画《牛来》因粗糙制作意外爆红。",
+   "papers_summary": "中文论文库暂无重点；英文论文涉及医学影像诊断、AI辅助写作的参与度问题等，但相关性不强。"
   }
+ },
+ "todays_image": {
+  "caption": "The Treasury Building’s stoic pillars mirror the market’s unease as rising yields shake the very foundations of the economy.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=SIA-2010-1090-000002",
+  "source_name": "National Museum of American History",
+  "source_url": null,
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SIA-2010-1090-000002&max=150",
+  "title": "Treasury Building"
  }
 }
