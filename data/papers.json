@@ -2,6 +2,35 @@
  "items": [
   {
    "authors": [
+    "JaeWon Kim",
+    "Katelyn Mei"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "When students use large language models for writing, the dominant explanation for disengagement is dispositional: they are over-reliant, and the remedy is to scaffold self-regulation. We argue that a structural explanation is needed, offering an alternative basis for design interventions to support appropriate AI-assisted writing. Current LLM writing interfaces induce procedural collapse: the replacement of an iterative, self-paced writing process with a single output that shifts the writer's…",
+    "arxiv_id": "2608.17326"
+   },
+   "id": "02e49de861fb74cf",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-18T03:38:17Z",
+   "score": 0.6546,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "When students use large language models for writing, the dominant explanation for disengagement is dispositional: they are over-reliant, and the remedy is to scaffold self-regulation. We argue that a structural explanation is needed, offering an alternative basis for design interventions to support…",
+   "tags": [
+    "pedagogy",
+    "ai-writing",
+    "ux",
+    "llm"
+   ],
+   "title": "Procedural Collapse: A Structural Account of Disengagement in LLM-Assisted Writing",
+   "url": "https://arxiv.org/abs/2608.17326v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
     "Takuma OTA",
     "Y. Igarashi"
    ],
@@ -15,7 +44,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.3664,
+   "score": 0.36,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -40,7 +69,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.5039,
+   "score": 0.4975,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -51,6 +80,231 @@
    "title": "Approaches to nonlinear programming problems: Taylor series expansion, RBF surrogate modeling, DOE-based dimensionality reduction, and adaptive domain splitting",
    "url": "https://doi.org/10.1186/s44147-026-01169-2",
    "venue": "Journal of Engineering and Applied Science"
+  },
+  {
+   "authors": [
+    "Yibo Meng",
+    "Jingruo Chen",
+    "Lyumanshan Ye",
+    "Bingyi Liu",
+    "Zhicong Lu"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Generative AI systems are increasingly used by older adults with cognitive impairment for everyday tasks such as information seeking, health management, and communication. While these systems provide flexible, language-based support, their open-ended outputs introduce risks of over-reliance, misinterpretation, and inappropriate decision-making. Prior work has focused on usability and adoption, with limited attention to how system design shapes users' participation in decision-making and the…",
+    "arxiv_id": "2608.17175"
+   },
+   "id": "32c99ae8f8dcd76b",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-17T22:24:34Z",
+   "score": 0.6364,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Generative AI systems are increasingly used by older adults with cognitive impairment for everyday tasks such as information seeking, health management, and communication. While these systems provide flexible, language-based support, their open-ended outputs introduce risks of over-reliance,…",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "Balancing Safety and Autonomy: Accessibility-Oriented Interventions in Generative AI for Cognitive Impairment",
+   "url": "https://arxiv.org/abs/2608.17175v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Xi Zheng",
+    "Xuyu Yang",
+    "Can Liu",
+    "Yuhan Luo"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "As online health information-seeking shifts to conversational AI, high-quality information retrieval increasingly relies on users' ``communicative acts''(proactively sharing and seeking information)---similar to how effective diagnosis and personalized guidance are elicited in patient-clinician communication. Drawing on health communication research, this study examines how a chatbot's modality of empathetic expression (Verbal, Visual, Multimodal) and the conversational context (General,…",
+    "arxiv_id": "2608.17144"
+   },
+   "id": "eb9081e0a455c9f7",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-17T21:29:02Z",
+   "score": 0.6333,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "As online health information-seeking shifts to conversational AI, high-quality information retrieval increasingly relies on users' ``communicative acts''(proactively sharing and seeking information)---similar to how effective diagnosis and personalized guidance are elicited in patient-clinician…",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "Health Inquiry with AI: How Empathetic Expression and Conversational Contexts Shape Users' Communicative Acts",
+   "url": "https://arxiv.org/abs/2608.17144v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Keke Wu",
+    "Jinjuan Heidi Feng",
+    "Jonathan Lazar"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Data visualization aims to augment human cognition and make data accessible to diverse audiences. As data increasingly shapes participation and decision-making across many domains, there is a growing need to examine whether prevailing assumptions in visualization adequately reflect the diversity of human abilities, experiences, and needs. We argue that cognitive accessibility provides a critical lens for examining these questions and functions as a stress test for visualization theory. Drawing…",
+    "arxiv_id": "2608.17039"
+   },
+   "id": "af17eb4931bad19b",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-17T18:38:39Z",
+   "score": 0.8039,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Data visualization aims to augment human cognition and make data accessible to diverse audiences. As data increasingly shapes participation and decision-making across many domains, there is a growing need to examine whether prevailing assumptions in visualization adequately reflect the diversity of…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "What Cognitive Accessibility Reveals About Data Visualization",
+   "url": "https://arxiv.org/abs/2608.17039v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Mara Solen",
+    "Thomas James Davidson",
+    "Emily Wall",
+    "Tamara Munzner"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "The sharing of curated fitness data posts occurs frequently on fitness-focused social platforms such as Strava and on general social media platforms such as Instagram, which is a novel context for visualization. To better understand the process of sharing and designing fitness data posts, as well as the role of visualization within them, we conduct a constructivist grounded theory study. We conduct and analyze 18 semi-structured interviews with fitness data sharers. From our analysis of the…",
+    "arxiv_id": "2608.17014"
+   },
+   "id": "fe0cfc61000658f7",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-17T18:09:05Z",
+   "score": 0.4699,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "The sharing of curated fitness data posts occurs frequently on fitness-focused social platforms such as Strava and on general social media platforms such as Instagram, which is a novel context for visualization. To better understand the process of sharing and designing fitness data posts, as well…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "\"It just kind of shows that I went somewhere\": An Exploratory Study of Fitness Data Sharing",
+   "url": "https://arxiv.org/abs/2608.17014v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Subham Sah",
+    "Alireza Karduni",
+    "Douglas Markant",
+    "Wenwen Dou"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Prediction market platforms present contracts about future events through visualizations that show probabilities, prices, trends, odds, and payout information. Although these visualizations often appear precise, they do not always show uncertainty directly. As a result, users infer uncertainty from market movement, visualization cues, and contextual information. In this paper, we examine how users interpret prediction market visualizations through a qualitative analysis of posts and comments…",
+    "arxiv_id": "2608.16814"
+   },
+   "id": "8b1f64aed811ad1c",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-17T17:04:33Z",
+   "score": 0.6589,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Prediction market platforms present contracts about future events through visualizations that show probabilities, prices, trends, odds, and payout information. Although these visualizations often appear precise, they do not always show uncertainty directly. As a result, users infer uncertainty from…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Prediction market visualizations, betting, and uncertainty: A study of Reddit Posts and Comments",
+   "url": "https://arxiv.org/abs/2608.16814v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Kasumi Ban"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "The qualitative research methodologies that underpin consumer-insight generation - the KJ method, Grounded Theory, and Thematic Analysis - share a structural constraint: the cognitive processing capacity of the human analyst. Replication research further shows that conclusions vary substantially across analysts analyzing identical data (analyst bias). This paper proposes Computational KJ-Ho (the Kawakita Jiro method), a theoretical framework that computationally realizes the KJ method's…",
+    "arxiv_id": "2608.16467"
+   },
+   "id": "12a65588365faba8",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-17T12:04:18Z",
+   "score": 0.7435,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "The qualitative research methodologies that underpin consumer-insight generation - the KJ method, Grounded Theory, and Thematic Analysis - share a structural constraint: the cognitive processing capacity of the human analyst. Replication research further shows that conclusions vary substantially…",
+   "tags": [
+    "ai-writing",
+    "llm"
+   ],
+   "title": "Computational KJ-Ho: An Analyst-Bias-Free Insight Extraction Framework from Large-Scale Qualitative Data Using Domain-Specialized LLMs",
+   "url": "https://arxiv.org/abs/2608.16467v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Chisom Anyabolu",
+    "Akshat Dubey",
+    "Georges Hattab"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Artificial intelligence systems often disclose uncertainty, yet they rarely make clear what response that uncertainty should trigger. Most uncertainty visualizations encode uncertainty in model outputs, leaving users to discern the most appropriate course of action. A second region of the design space--uncertainty in the decision process itself, including how multiple uncertainty conditions compose into an oversight response-- remains comparatively underexplored. We address this gap with two…",
+    "arxiv_id": "2608.16428"
+   },
+   "id": "f356843c1a3c2b75",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-17T11:28:41Z",
+   "score": 0.6417,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Artificial intelligence systems often disclose uncertainty, yet they rarely make clear what response that uncertainty should trigger. Most uncertainty visualizations encode uncertainty in model outputs, leaving users to discern the most appropriate course of action. A second region of the design…",
+   "tags": [
+    "systems",
+    "visualization"
+   ],
+   "title": "Visualizing Uncertainty-to-Action Composition for Human Oversight",
+   "url": "https://arxiv.org/abs/2608.16428v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Jianing Yin",
+    "Weng Pan Kuan",
+    "Xiaoyun Liu",
+    "Zhiyuan Wen",
+    "Yuxuan Li",
+    "Milos Stojmenovic"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Debate is a structured form of persuasive communication that trains argument construction, rebuttal, oral delivery, and audience awareness. These skills are valued in education, language learning, and professional communication. Recent AI debate systems and LLM-based judges have advanced argument generation and debate evaluation, but most remain text-centered and rarely support learners through a complete multimodal practice experience. We introduce PolyDebate, a game-orchestrated multimodal…",
+    "arxiv_id": "2608.16276"
+   },
+   "id": "d743c18da2ac1d81",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-17T08:49:39Z",
+   "score": 0.734,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Debate is a structured form of persuasive communication that trains argument construction, rebuttal, oral delivery, and audience awareness. These skills are valued in education, language learning, and professional communication. Recent AI debate systems and LLM-based judges have advanced argument…",
+   "tags": [
+    "ai-writing",
+    "llm"
+   ],
+   "title": "PolyDebate: A Game-Orchestrated Multimodal System for Debate Skills Practice and Evaluation",
+   "url": "https://arxiv.org/abs/2608.16276v1",
+   "venue": "arXiv cs.HC"
   },
   {
    "authors": [
@@ -71,7 +325,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-17T00:00:00Z",
-   "score": 0.3089,
+   "score": 0.3041,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -98,7 +352,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-17T00:00:00Z",
-   "score": 0.4464,
+   "score": 0.4416,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -124,7 +378,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-17T00:00:00Z",
-   "score": 0.3089,
+   "score": 0.3041,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -155,7 +409,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-17T00:00:00Z",
-   "score": 0.4464,
+   "score": 0.4416,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -184,7 +438,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-17T00:00:00Z",
-   "score": 0.4715,
+   "score": 0.4667,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -213,7 +467,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-17T00:00:00Z",
-   "score": 0.4464,
+   "score": 0.4416,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -240,7 +494,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-17T00:00:00Z",
-   "score": 0.3089,
+   "score": 0.3041,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -269,7 +523,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-17T00:00:00Z",
-   "score": 0.4464,
+   "score": 0.4416,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -294,7 +548,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-17T00:00:00Z",
-   "score": 0.4464,
+   "score": 0.4416,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -321,7 +575,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-17T00:00:00Z",
-   "score": 0.4464,
+   "score": 0.4416,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -346,7 +600,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-17T00:00:00Z",
-   "score": 0.3089,
+   "score": 0.3041,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -358,19 +612,19 @@
   }
  ],
  "meta": {
-  "count": 13,
-  "generated_at": "2026-08-19T10:44:29Z",
+  "count": 22,
+  "generated_at": "2026-08-19T13:06:20Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
    {
     "category": "optional",
-    "count": 0,
-    "error": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60 (Caus",
+    "count": 4,
+    "error": null,
     "full_text_count": 0,
     "id": "arxiv_datavis",
     "name": "arXiv cs.HC + cs.GR",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
@@ -402,7 +656,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-22&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-07-22&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
@@ -425,12 +679,12 @@
    },
    {
     "category": "optional",
-    "count": 0,
-    "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC&sortBy=submittedDate&sortOrder=descending&max_results=40",
+    "count": 5,
+    "error": null,
     "full_text_count": 0,
     "id": "arxiv_hci_writing",
     "name": "arXiv cs.HC (writing & docs)",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
