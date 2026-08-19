@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "query": "(\"Shetland Wool Week\" OR \"Fair Isle knitting\")",
   "source": {
-   "name": "sana.sy",
-   "published_at": "2026-08-14T15:30:00Z",
-   "title": "Russian gardener grows giant 360 - kg pumpkin",
-   "url": "https://sana.sy/en/miscellaneous/2336350/"
+   "name": "shetlandtimes.co.uk",
+   "published_at": "2026-08-19T14:00:00Z",
+   "title": "Shetland Wool Week patron Helen Robertson reflects on her love for the craft and its heritage in the isles",
+   "url": "https://www.shetlandtimes.co.uk/lifestyle/wool-week-patron-reflects-on-the-evolution-of-knitting-from-442835/"
   },
   "summaries": {
    "en": {
-    "summary": "A Russian gardener grew a giant pumpkin weighing 360 kilograms, reported by a Syrian news agency.",
-    "why_irrelevant": "It's a niche agricultural novelty far from typical tech or lifestyle feeds."
+    "summary": "Shetland Wool Week patron Helen Robertson shares her passion for knitting and the craft's island heritage.",
+    "why_irrelevant": "A crafty, island-dwelling detour far from politics, tech, and data visualization."
    },
    "zh": {
-    "summary": "一名俄罗斯园丁种出了重达360公斤的巨型南瓜，由叙利亚通讯社报道。",
-    "why_irrelevant": "这是小众农业奇闻，远离常见科技或生活资讯。"
+    "summary": "设得兰羊毛周赞助人海伦·罗伯逊分享了她对编织的热爱及其岛屿传统。",
+    "why_irrelevant": "远离政治、科技和数据可视化的手工艺岛屿之旅。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "Shetland wool week knitting festival"
  },
- "brief": "Today's news spans geopolitical tensions, domestic politics, and economic pressures, while research focuses on AI-assisted writing, accessibility, and data visualization.",
+ "brief": "Today's news covers UK homelessness funding concerns, US political primaries, energy price forecasts, and international incidents, while papers explore AI-human interaction and visualization challenges.",
  "meta": {
-  "generated_at": "2026-08-19T13:06:20Z"
+  "generated_at": "2026-08-19T14:51:12Z"
  },
- "news_summary": "News highlights include political wins, trade negotiations, and international incidents, with notable stories on Ukraine, Israel, and economic challenges in the UK.",
- "papers_summary": "Papers cover topics in human-computer interaction, including AI writing support, cognitive accessibility, and visualization for decision-making.",
+ "news_summary": "UK politics focus on homelessness and energy bills, US sees key Senate primaries and political controversies, plus international stories on immigration and security incidents.",
+ "papers_summary": "Research addresses disengagement in LLM-assisted writing, accessibility in AI and visualization, and uncertainty visualization for human oversight.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans geopolitical tensions, domestic politics, and economic pressures, while research focuses on AI-assisted writing, accessibility, and data visualization.",
-   "news_summary": "News highlights include political wins, trade negotiations, and international incidents, with notable stories on Ukraine, Israel, and economic challenges in the UK.",
-   "papers_summary": "Papers cover topics in human-computer interaction, including AI writing support, cognitive accessibility, and visualization for decision-making."
+   "brief": "Today's news covers UK homelessness funding concerns, US political primaries, energy price forecasts, and international incidents, while papers explore AI-human interaction and visualization challenges.",
+   "news_summary": "UK politics focus on homelessness and energy bills, US sees key Senate primaries and political controversies, plus international stories on immigration and security incidents.",
+   "papers_summary": "Research addresses disengagement in LLM-assisted writing, accessibility in AI and visualization, and uncertainty visualization for human oversight."
   },
   "zh": {
-   "brief": "今日焦点包括宇樹科技上市首日暴涨、动画《牛来》意外走红、法国公务员下药指控，以及GLP-1药物对运动表现的影响等新闻；论文方面涉及人机交互和生成式AI的可及性研究。",
-   "news_summary": "中国新闻聚焦于宇樹科技上市首日股价狂涨近五倍，以及《牛来》动画因粗糙制作意外走红引发观影潮。此外，法国公务员被指控下药、减肥药提升运动表现的争议、以及中国民商事律师的风险评估等话题也受到关注。",
-   "papers_summary": "论文研究涉及LLM辅助写作中的脱节现象、面向认知障碍的生成式AI干预、以及不确定性可视化在人类监督中的作用。"
+   "brief": "今日焦点包括中国机器人公司宇树科技上市首日暴涨近五倍，以及法国公务员被指控下药丑闻，同时学术研究关注AI写作参与度及数据可视化中的认知无障碍问题。",
+   "news_summary": "中国新闻聚焦宇树科技IPO首日飙升、法国公务员下药指控、《牛来》动画意外走红、GLP-1药物对运动表现的影响及中国律师执业风险增加。国际新闻涉及英国无家可归问题、美国政治及德国极右翼等。",
+   "papers_summary": "研究关注LLM辅助写作中的退出机制、认知障碍人群的AI可访问性、数据可视化中的认知无障碍，以及预测市场可视化和不确定性可视化等。"
   }
  },
  "todays_image": {
-  "caption": "Old-fashioned organizing, like the Bell Model 30's rotor, lifts progressive momentum skyward.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2020-11296",
-  "source_name": "National Air and Space Museum",
-  "source_url": "http://n2t.net/ark:/65665/nv945f0c72c-4599-4edd-9737-deae08e8385b",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2020-11296",
-  "title": "Bell Model 30 Ship 1A Genevieve"
+  "caption": "Both the post-mob violence destitution and today's rough sleeping crisis expose how systemic failures leave vulnerable people homeless with only scraps to salvage.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2010_36_9_1_001-000001",
+  "source_name": "National Museum of African American History and Culture",
+  "source_url": "https://nmaahc.si.edu/object/nmaahc_2010.36.9.1",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2010_36_9_1_001-000001",
+  "title": "<I>Old Negro saving few articles after mob violence. Many went destitute + homeless</I>"
  }
 }
