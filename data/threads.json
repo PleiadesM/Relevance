@@ -1,95 +1,17 @@
 {
  "meta": {
-  "count": 3,
-  "generated_at": "2026-08-19T03:09:32Z",
+  "count": 5,
+  "generated_at": "2026-08-19T04:49:37Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "af17eb4931bad19b",
-     "phrase": {
-      "en": "Cognitive accessibility in data visualization",
-      "zh": "数据可视化中的认知无障碍"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.17039v1"
-    },
-    {
-     "item_id": "32c99ae8f8dcd76b",
-     "phrase": {
-      "en": "Accessibility interventions in generative AI",
-      "zh": "生成式AI中的无障碍干预"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.17175v1"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Designing tech for minds that work differently.",
-    "zh": "为不同运作的思维设计技术。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "cognitive accessibility",
-    "zh": "认知无障碍"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You work in HCI and inclusive design: new work bridges cognitive accessibility with data and AI.",
-    "zh": "你从事人机交互与包容设计：新工作连接认知无障碍与数据和AI。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "370344743109855f",
-     "phrase": {
-      "en": "Tariffs on hold, deal near",
-      "zh": "关税暂停，协议接近"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/18/world/canada/tariffs-trade-trump-carney.html"
-    },
-    {
-     "item_id": "b52f98434e14ceb2",
-     "phrase": {
-      "en": "Trump pauses tariffs for deal",
-      "zh": "特朗普为协议暂停关税"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cy9wz79ze29o?at_medium=RSS&at_campaign=rss"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Tariffs paused for three days as deal nears.",
-    "zh": "关税暂停三天，协议临近。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "Trump tariffs on Canada",
-    "zh": "特朗普对加拿大关税"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow policy shifts: the tariff pause is a live, evolving trade story.",
-    "zh": "你关注政策变化：关税暂停是实时演变的贸易故事。"
-   }
-  },
-  {
-   "angles": [
-    {
      "item_id": "f817048d0089572e",
      "phrase": {
-      "en": "Sacked minister calls for election",
-      "zh": "被撤部长呼吁选举"
+      "en": "Calls for election under martial law",
+      "zh": "呼吁戒严下选举"
      },
      "section": "news",
      "source": "BBC World",
@@ -98,8 +20,8 @@
     {
      "item_id": "a05c9ce79dd1a6ad",
      "phrase": {
-      "en": "Dismissed minister's election demand",
-      "zh": "被解职部长的选举要求"
+      "en": "Most direct challenge to Zelenskyy",
+      "zh": "对泽连斯基最直接挑战"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -108,18 +30,194 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Ex-defense minister urges wartime vote, challenging Zelensky.",
-    "zh": "前国防部长敦促战时投票，挑战泽连斯基。"
+    "en": "A dismissed minister breaks the taboo: Ukraine should vote even in war.",
+    "zh": "被解职的部长打破禁忌：战时乌克兰也应举行选举。"
    },
-   "id": "t3",
+   "id": "t1",
    "keyword": {
-    "en": "Ukraine election call",
-    "zh": "乌克兰选举呼吁"
+    "en": "Ukraine wartime election",
+    "zh": "乌克兰战时选举"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow geopolitics: a direct challenge to Ukraine's leadership emerges.",
-    "zh": "你关注地缘政治：对乌克兰领导层的直接挑战出现。"
+    "en": "You track political rhetoric: the first direct challenge to Zelenskyy since 2022 reframes democratic norms under fire.",
+    "zh": "你关注政治话语：这是2022年以来对泽连斯基的直接挑战，重新定义战火下的民主规范。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "beb4a39c8d5d74c5",
+     "phrase": {
+      "en": "Grassroots enthusiasm beats big money",
+      "zh": "草根热情击败大金主"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/19/us/politics/florida-primaries-takeaways.html"
+    },
+    {
+     "item_id": "ca4a24d160c176eb",
+     "phrase": {
+      "en": "Democratic socialist shocks establishment",
+      "zh": "民主社会主义者震惊建制派"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/live/2026/aug/18/donald-trump-florida-alaska-wyoming-primaries-midterms-white-house-ballroom-iran-cnn-latest-news-updates"
+    },
+    {
+     "item_id": "2255c95cc9987e72",
+     "phrase": {
+      "en": "Surprise primary win noted",
+      "zh": "意外初选胜利被提及"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/18/florida-primary-results-governor-senate"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "A progressive socialist beats big money in Florida's Senate primary.",
+    "zh": "佛罗里达参议院初选中，进步派社会主义者击败大金主。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "Florida primary upset",
+    "zh": "佛州初选爆冷"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You study narrative and rhetoric: the grassroots win upends the usual money-driven story, a live case in political communication.",
+    "zh": "你研究叙事和修辞：草根胜利颠覆常规金钱驱动叙事，是政治传播的鲜活案例。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "c25ca78804826ff8",
+     "phrase": {
+      "en": "Cites Washington request",
+      "zh": "称应华盛顿要求"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cnvn0j31qj8o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "45a759c513a18212",
+     "phrase": {
+      "en": "Pentagon scales back exercises",
+      "zh": "五角大楼缩减演习"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/18/us/politics/pentagon-south-korea-training-exercises.html"
+    },
+    {
+     "item_id": "59290747ba0a8a8b",
+     "phrase": {
+      "en": "End six days early",
+      "zh": "提前六天结束"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/19/us-south-korea-army-drills-cut-trump-push-kim-jong-un-talks"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Washington cuts joint drills short, echoing Trump's outreach to Pyongyang.",
+    "zh": "华盛顿缩短联合军演，呼应特朗普对平壤的示好。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "US-South Korea drills scaled back",
+    "zh": "美韩军演缩减"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow geopolitical shifts in tech policy; this signals a rebalancing that could affect regional stability and tech supply chains.",
+    "zh": "你关注科技政策的地缘政治转变；这标志着可能影响地区稳定和技术供应链的再平衡。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "370344743109855f",
+     "phrase": {
+      "en": "Deal with Canada near",
+      "zh": "与加拿大协议接近"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/18/world/canada/tariffs-trade-trump-carney.html"
+    },
+    {
+     "item_id": "b52f98434e14ceb2",
+     "phrase": {
+      "en": "Pauses tariffs for three days",
+      "zh": "暂停关税三天"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cy9wz79ze29o?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Trump halts new tariffs on Canada, hinting a deal is near but not sealed.",
+    "zh": "特朗普暂停对加拿大新关税，暗示协议接近但未敲定。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "Canada tariff pause",
+    "zh": "加拿大关税暂停"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You monitor economic signals; tariff swings affect global markets and, indirectly, tech costs.",
+    "zh": "你关注经济信号；关税波动影响全球市场，并间接影响科技成本。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "af17eb4931bad19b",
+     "phrase": {
+      "en": "Cognitive accessibility enhances visualization",
+      "zh": "认知无障碍增强可视化"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.17039v1"
+    },
+    {
+     "item_id": "32c99ae8f8dcd76b",
+     "phrase": {
+      "en": "AI interventions for cognitive impairment",
+      "zh": "针对认知障碍的AI干预"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.17175v1"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Papers argue data visuals must serve diverse minds, not just the average user.",
+    "zh": "论文主张数据可视化应服务多样心智，而非仅平均用户。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "Cognitive accessibility in visualization",
+    "zh": "认知无障碍可视化"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about inclusive design in visual rhetoric: this theme broadens your understanding of who visualization excludes.",
+    "zh": "你关注视觉修辞中的包容性设计：这一主题拓宽你对可视化排斥谁的理解。"
    }
   }
  ]
