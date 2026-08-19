@@ -1,40 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
-  "source": {
-   "name": "rutlandherald.com",
-   "published_at": "2026-08-18T05:30:00Z",
-   "title": "Rutland Herald Community News for Aug . 18 , 2026",
-   "url": "https://www.rutlandherald.com/news/community/rutland-herald-community-news-for-aug-18-2026/article_bcb9ca78-892d-5a59-b2eb-b781d2e519b1.html"
-  },
-  "summaries": {
-   "en": {
-    "summary": "Rutland Herald community news lists local events, including a pumpkin-growing contest in Vermont.",
-    "why_irrelevant": "Local Vermont news is far from your typical urban tech feed."
-   },
-   "zh": {
-    "summary": "《拉特兰先驱报》社区新闻列出了当地活动，包括佛蒙特州的南瓜种植比赛。",
-    "why_irrelevant": "佛蒙特州本地新闻远离你常见的都市科技资讯。"
-   }
-  },
-  "topic": "competitive pumpkin growing"
- },
- "brief": "Today's news covers political upheavals, from local recall elections over data centers to a stunning progressive primary win in Florida, alongside geopolitical tensions involving Iran, Ukraine, and trade disputes with Canada. In tech, Google's new AI phone features draw skepticism, while a sandboxed agent harness launches. Papers delve into MRI diagnostics, social status dynamics, and the impact of LLMs on writing disengagement.",
+ "brief": "Global markets rebounded as the U.S. Treasury eased bond market stress, while Fed minutes revealed growing impatience with inflation. Politically, Trump's FDA pick drew criticism, and North Korea cast doubt on U.S. talks, as Canada-U.S. trade deal details remained murky. Research highlights include MRI diagnostic advances and social dynamics studies.",
  "meta": {
-  "generated_at": "2026-08-19T16:44:42Z"
+  "generated_at": "2026-08-19T18:51:04Z"
  },
- "news_summary": "Local officials face recalls over data centers, Angie Nixon's progressive win in Florida shakes the establishment, and the U.S. Treasury's bond buyback eases market stress. International stories include an arrest in the Nord Stream case, UAE halting trade with Iran, and Trump pausing Canadian tariffs.",
- "papers_summary": "Research highlights include MRI improvements with T2-FLAIR sequences, the social and economic effects of prestige versus dominance in rural Colombia, and a structural account of disengagement in LLM-assisted writing, suggesting scaffolding as a solution.",
+ "news_summary": "U.S. Treasury bond buyback boosted markets, but Fed minutes showed more officials favoring rate hikes. Trump's FDA nominee faced backlash, and Kim Yo-jong dismissed U.S.-North Korea talks, while Canada and the U.S. edged toward a trade deal.",
+ "papers_summary": "Research covers medical imaging (CE-T2 FLAIR MRI value), neuroimmune HLA polymorphism, and social status dynamics in rural Colombia, alongside LLM writing disengagement and plant stress tolerance.",
  "summaries": {
   "en": {
-   "brief": "Today's news covers political upheavals, from local recall elections over data centers to a stunning progressive primary win in Florida, alongside geopolitical tensions involving Iran, Ukraine, and trade disputes with Canada. In tech, Google's new AI phone features draw skepticism, while a sandboxed agent harness launches. Papers delve into MRI diagnostics, social status dynamics, and the impact of LLMs on writing disengagement.",
-   "news_summary": "Local officials face recalls over data centers, Angie Nixon's progressive win in Florida shakes the establishment, and the U.S. Treasury's bond buyback eases market stress. International stories include an arrest in the Nord Stream case, UAE halting trade with Iran, and Trump pausing Canadian tariffs.",
-   "papers_summary": "Research highlights include MRI improvements with T2-FLAIR sequences, the social and economic effects of prestige versus dominance in rural Colombia, and a structural account of disengagement in LLM-assisted writing, suggesting scaffolding as a solution."
+   "brief": "Global markets rebounded as the U.S. Treasury eased bond market stress, while Fed minutes revealed growing impatience with inflation. Politically, Trump's FDA pick drew criticism, and North Korea cast doubt on U.S. talks, as Canada-U.S. trade deal details remained murky. Research highlights include MRI diagnostic advances and social dynamics studies.",
+   "news_summary": "U.S. Treasury bond buyback boosted markets, but Fed minutes showed more officials favoring rate hikes. Trump's FDA nominee faced backlash, and Kim Yo-jong dismissed U.S.-North Korea talks, while Canada and the U.S. edged toward a trade deal.",
+   "papers_summary": "Research covers medical imaging (CE-T2 FLAIR MRI value), neuroimmune HLA polymorphism, and social status dynamics in rural Colombia, alongside LLM writing disengagement and plant stress tolerance."
   },
   "zh": {
-   "brief": "今日焦点涵盖法国官员被控下药、中国机器人公司上市大涨、动画《牛来》意外走红，以及关于减肥药与运动表现、律师职业风险的讨论。",
-   "news_summary": "中文新闻聚焦于法国官员性侵指控、宇树科技上市首日股价暴涨、动画《牛来》的文化现象，以及GLP-1药物对运动表现的影响和中国律师面临的职业风险。",
-   "papers_summary": "研究方面，涉及医学影像、社交媒体影响、LLM辅助写作、植物耐热机制等，但今日未提供优先中文论文内容。"
+   "brief": "今日新闻焦点包括法国公务员下药丑闻、中国机器人公司上市暴涨及动画《牛来》意外走红；研究方面暂无重大突破。",
+   "news_summary": "法国公务员被指控在面试中下药致女性失禁，引发公愤；中国宇树科技上市首日股价大涨近五倍；动画《牛来》因粗糙制作意外走红。",
+   "papers_summary": "暂无优先研究，背景中涉及MRI诊断、LLM写作参与度等一般性研究。"
   }
+ },
+ "todays_image": {
+  "caption": "Like V-Mail reduced letters to microfilm to lighten the load, zero data retention erases the model's memory to protect what matters.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2002_2013_52",
+  "source_name": "National Postal Museum",
+  "source_url": "https://postalmuseum.si.edu/object/npm_2002.2013.52",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2002_2013_52",
+  "title": "V-Mail Letter Sheet"
  }
 }

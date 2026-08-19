@@ -1,86 +1,235 @@
 {
  "meta": {
-  "count": 2,
-  "generated_at": "2026-08-19T16:44:42Z",
+  "count": 5,
+  "generated_at": "2026-08-19T18:51:04Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "001318f28b57e908",
+     "item_id": "29e44c10fdbb52dd",
      "phrase": {
-      "en": "human review fixes AI under-assessment",
-      "zh": "人工复核纠正AI评估不足"
+      "en": "emphasizes data protection",
+      "zh": "强调数据保护"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/australia-news/2026/aug/19/aged-care-support-at-home-review-ai-integrated-assessment-tool"
+     "source": "OpenAI News",
+     "url": "https://openai.com/index/our-commitment-to-zero-data-retention"
     },
     {
-     "item_id": "f356843c1a3c2b75",
+     "full_text_file": "articles/news/001feb37314ef9d8.json",
+     "item_id": "001feb37314ef9d8",
      "phrase": {
-      "en": "visualizing uncertainty for oversight",
-      "zh": "可视化不确定性以助监督"
+      "en": "frames as strategic pause",
+      "zh": "视为战略暂停"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.16428v1"
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "Automated systems shape who gets benefits, but human review often corrects them.",
-    "zh": "自动化系统决定福利分配，但人工复核常纠正其错误。"
+    "en": "OpenAI tightens data privacy for AI models, balancing safety and trust.",
+    "zh": "OpenAI加强AI模型数据隐私，平衡安全与信任。"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI-assisted decision making",
-    "zh": "AI辅助决策"
+    "en": "AI data privacy",
+    "zh": "AI数据隐私"
    },
-   "relates_to": [],
+   "relates_to": [
+    "t2"
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "item_id": "29e44c10fdbb52dd",
+     "label": {
+      "en": "OpenAI privacy moves",
+      "zh": "OpenAI隐私举措"
+     },
+     "section": "news",
+     "source": "OpenAI News",
+     "url": "https://openai.com/index/our-commitment-to-zero-data-retention"
+    },
+    {
+     "date": "2026-08-19",
+     "full_text_file": "articles/news/001feb37314ef9d8.json",
+     "item_id": "001feb37314ef9d8",
+     "label": {
+      "en": "OpenAI brakes",
+      "zh": "OpenAI刹车"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai"
+    }
+   ],
    "why_now": {
-    "en": "You care about human oversight in AI: one-fifth of appeals overturn automated decisions, and new papers probe uncertainty visualization.",
-    "zh": "你关注AI中的人类监督：五分之一的上诉推翻自动决定，新论文探讨不确定性可视化。"
+    "en": "You care about AI and privacy: today OpenAI's Zero Data Retention and Private Safety Processing reshape the frontier.",
+    "zh": "你关注AI与隐私，今日OpenAI零保留与私有安全处理重塑前沿。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "9ac30260ea94e63c",
+     "full_text_file": "articles/news/001feb37314ef9d8.json",
+     "item_id": "001feb37314ef9d8",
      "phrase": {
-      "en": "sacking creates potent opponent",
-      "zh": "解职造就强大对手"
+      "en": "reports strategic slowdown",
+      "zh": "报道战略放缓"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/19/mykhailo-fedorov-zelenskyy-loyalist-opponent-ukraine"
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai"
     },
     {
-     "item_id": "f817048d0089572e",
+     "item_id": "29e44c10fdbb52dd",
      "phrase": {
-      "en": "calls for presidential election",
-      "zh": "呼吁总统选举"
+      "en": "shows privacy commitment",
+      "zh": "显示隐私承诺"
      },
      "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo?at_medium=RSS&at_campaign=rss"
+     "source": "OpenAI News",
+     "url": "https://openai.com/index/our-commitment-to-zero-data-retention"
     }
    ],
-   "convergence": "divergent",
+   "convergence": "convergent",
    "gloss": {
-    "en": "Zelenskyy's dismissals create new opponents and calls for elections amid war.",
-    "zh": "泽连斯基的免职引发新对手和战时选举呼声。"
+    "en": "OpenAI hits the brakes amid competition and IPO pressure, signaling a cautious turn.",
+    "zh": "OpenAI在竞争与IPO压力下踩刹车，转向谨慎。"
    },
    "id": "t2",
    "keyword": {
-    "en": "Ukrainian politics turmoil",
-    "zh": "乌克兰政局动荡"
+    "en": "OpenAI's strategic slowdown",
+    "zh": "OpenAI战略放缓"
+   },
+   "relates_to": [
+    "t1"
+   ],
+   "why_now": {
+    "en": "You track AI industry dynamics: today's braking affects the frontier model race you follow.",
+    "zh": "你关注AI行业动态，今日刹车影响你追踪的前沿模型竞赛。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "full_text_file": "articles/news/f7e1f9b8c8459e5b.json",
+     "item_id": "f7e1f9b8c8459e5b",
+     "phrase": {
+      "en": "Mac app for Meta AI",
+      "zh": "Meta AI Mac应用"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/tech/982270/meta-ai-mac-app"
+    },
+    {
+     "item_id": "33cbe32ded77770e",
+     "phrase": {
+      "en": "open-source agent harness",
+      "zh": "开源代理框架"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://github.com/onecli/onecli"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "AI tools become more integrated into daily computing, from Mac apps to sandboxed agents.",
+    "zh": "AI工具更融入日常计算，从Mac应用到沙盒代理。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "AI interface evolution",
+    "zh": "AI界面演进"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow geopolitical shifts: a sacked loyalist turns opponent, and an election demand surfaces.",
-    "zh": "你关注地缘政治变化：被解职的盟友成对手，选举要求浮现。"
+    "en": "You study HCI and AI: Meta's Mac app and OneCLI's agent harness are new interaction paradigms.",
+    "zh": "你研究人机交互与AI，Meta Mac应用和OneCLI是新的交互范式。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "af17eb4931bad19b",
+     "phrase": {
+      "en": "explores cognitive accessibility",
+      "zh": "探索认知无障碍"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.17039v1"
+    },
+    {
+     "item_id": "32c99ae8f8dcd76b",
+     "phrase": {
+      "en": "AI for cognitive impairment",
+      "zh": "AI支持认知障碍"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.17175v1"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Research highlights how data visualization must accommodate diverse cognitive abilities.",
+    "zh": "研究强调数据可视化需适应多样认知能力。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "cognitive accessibility in visualization",
+    "zh": "可视化认知无障碍"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about data visualization and accessibility: new papers deepen the cognitive angle.",
+    "zh": "你关注数据可视化与无障碍，新论文深化认知角度。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "5f016b8bdf964176",
+     "phrase": {
+      "en": "recall elections over data centers",
+      "zh": "数据中心引发罢免"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/19/technology/data-centers-voter-concerns-independence-missouri.html"
+    },
+    {
+     "item_id": "764ef9aadfc25539",
+     "phrase": {
+      "en": "privacy concerns on Roblox",
+      "zh": "Roblox隐私担忧"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/australia-news/2026/aug/20/roblox-esafety-commissioner-children-adults-ntwnfb"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Local communities push back against data centers, leading to recall elections.",
+    "zh": "地方社区抵制数据中心，引发罢免选举。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "data center backlash",
+    "zh": "数据中心抵制"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow AI infrastructure: data center siting is a flashpoint for governance and HCI.",
+    "zh": "你关注AI基础设施，数据中心选址是治理与人机交互的焦点。"
    }
   }
  ]
