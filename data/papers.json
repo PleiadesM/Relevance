@@ -2,6 +2,93 @@
  "items": [
   {
    "authors": [
+    "Hemlata Sarkar",
+    "Sibani Patro",
+    "Neekita Meher",
+    "Adya Kinkar Panda"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "<title>Abstract</title> Background To demonstrate the diagnostic value of the CE-T2 FLAIR sequence in addition to CE-T1WI in MR imaging of intracranial pathologies. The CE-T2 FLAIR sequence is not widely utilised, but if included in standard MR acquisition protocols, it might enhance patient care by increasing diagnostic sensitivity and facilitating early diagnosis before an invasive CSF sample is obtained. Methods A total of sixty-four patients underwent Gadolinium contrast-enhanced MRI of the…",
+    "citations": 0,
+    "doi": "10.1186/s43055-026-01843-8"
+   },
+   "id": "b8aed1aaa0f69f70",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-19T00:00:00Z",
+   "score": 0.5592,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "<title>Abstract</title> Background To demonstrate the diagnostic value of the CE-T2 FLAIR sequence in addition to CE-T1WI in MR imaging of intracranial pathologies. The CE-T2 FLAIR sequence is not widely utilised, but if included in standard MR acquisition protocols, it might enhance patient care…",
+   "tags": [
+    "eval-study"
+   ],
+   "title": "Evaluation of the usefulness of post-contrast T2-FLAIR sequence MRI in the diagnosis of intracranial pathology",
+   "url": "https://doi.org/10.1186/s43055-026-01843-8",
+   "venue": "The Egyptian Journal of Radiology and Nuclear Medicine"
+  },
+  {
+   "authors": [
+    "Isabel García Real",
+    "Encarnación Fernández-Valle",
+    "David Castejón",
+    "Nerea Moreno",
+    "Pilar Pérez‐Lloret",
+    "Sara Jiménez"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Pseudopus apodus is an anguimorph lizard belonging to the order Squamata. Anatomical information on this species remains limited, particularly regarding soft tissues, and has primarily focused on the axial skeleton of both living and fossil specimens. Recently, the anatomy of its coelomic cavity has been described using dissection and multidetector computed tomography (CT), and its brain has been characterized neuroanatomically by combining ultra-high-resolution magnetic resonance imaging (MRI)…",
+    "citations": 0,
+    "doi": "10.20944/preprints202608.1269.v1"
+   },
+   "id": "abc06ad4461bec8d",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-19T00:00:00Z",
+   "score": 0.5592,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Pseudopus apodus is an anguimorph lizard belonging to the order Squamata. Anatomical information on this species remains limited, particularly regarding soft tissues, and has primarily focused on the axial skeleton of both living and fossil specimens. Recently, the anatomy of its coelomic cavity…",
+   "tags": [
+    "systems"
+   ],
+   "title": "MRI anatomy of Pseudopus apodus: A Descriptive and Comparative Study of High-Field and Low-Field MRI Systems",
+   "url": "https://doi.org/10.20944/preprints202608.1269.v1",
+   "venue": "Preprints.org"
+  },
+  {
+   "authors": [
+    "Daniel Redhead",
+    "Arlenys Hurtado Manyoma",
+    "Danier Hurtado Manyoma",
+    "Cody T. Ross"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract Social status regulates influence and well-being in most social animals. In humans, social status can be attained via distinct routes: prestige (tracking the ability of individuals to confer benefits) and dominance (tracking the ability of individuals to inflict costs). Although prestige and dominance are well studied from a psychological perspective, their influence on social behaviours, including social levelling, remains under-explored—especially in close-knit, rural or…",
+    "citations": 0,
+    "doi": "10.1098/rspb.2026.1504"
+   },
+   "id": "bbe4514b4657e1e6",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-19T00:00:00Z",
+   "score": 0.5592,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract Social status regulates influence and well-being in most social animals. In humans, social status can be attained via distinct routes: prestige (tracking the ability of individuals to confer benefits) and dominance (tracking the ability of individuals to inflict costs). Although prestige…",
+   "tags": [],
+   "title": "Social and economic consequences of prestige and dominance in rural Colombian social networks",
+   "url": "https://doi.org/10.1098/rspb.2026.1504",
+   "venue": "Proceedings of the Royal Society B Biological Sciences"
+  },
+  {
+   "authors": [
     "JaeWon Kim",
     "Katelyn Mei"
    ],
@@ -14,7 +101,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-18T03:38:17Z",
-   "score": 0.6484,
+   "score": 0.6418,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -31,55 +118,278 @@
   },
   {
    "authors": [
-    "Takuma OTA",
-    "Y. Igarashi"
+    "Jun Wang",
+    "Xiujuan Wu",
+    "Zhou Zhou",
+    "Sitong Zheng",
+    "Minghui Hu",
+    "Yincui Xiao"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Abstract Impact‑Based Forecasting (IBF) has attracted international attention as an approach to enhance disaster risk management by linking weather forecast information to concrete societal actions. This review examines the implementation of IBF in Japan, focusing on the Real‑time Risk Map provided by the Japan Meteorological Agency, and systematically organizes its design philosophy, technical structure, operational framework, and role in decision support. Japan is characterized by steep…",
+    "abstract_snippet": "Heat stress (HS) has emerged as a significant environmental factor affecting plant growth and agricultural productivity. Alternative polyadenylation (APA) is a crucial co-transcriptional process that regulates developmental processes and stress responses in plants. However, the distinct roles of its resultant transcripts in plant HS response remain to be investigated. In this study, we employed poly(A) tag sequencing (PAT-seq) to identify over 1500 transcripts whose expression exhibited…",
     "citations": 0,
-    "doi": "10.1007/s44394-026-00034-3"
+    "doi": "10.1007/s44154-026-00340-2"
    },
-   "id": "33841bb8de490bb2",
+   "id": "d5890322323f0352",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.3554,
+   "score": 0.3505,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Abstract Impact‑Based Forecasting (IBF) has attracted international attention as an approach to enhance disaster risk management by linking weather forecast information to concrete societal actions. This review examines the implementation of IBF in Japan, focusing on the Real‑time Risk Map provided…",
+   "summary": "Heat stress (HS) has emerged as a significant environmental factor affecting plant growth and agricultural productivity. Alternative polyadenylation (APA) is a crucial co-transcriptional process that regulates developmental processes and stress responses in plants. However, the distinct roles of…",
    "tags": [],
-   "title": "Impact-based forecasting in Japan: a review of the Japan meteorological agency’s real-time risk map “Kikikuru”",
-   "url": "https://doi.org/10.1007/s44394-026-00034-3",
-   "venue": "Journal of the Meteorological Society of Japan Ser II"
+   "title": "Identification of specific transcripts for plant heat stress tolerance through genome-wide analysis of SIZ1-dependent alternative polyadenylation",
+   "url": "https://doi.org/10.1007/s44154-026-00340-2",
+   "venue": "Stress Biology"
   },
   {
    "authors": [
-    "Yara Hossam Eldin Elkassaby",
-    "Mohamed H. Gadallah"
+    "Yunxi Zhao",
+    "Yuhan Tu",
+    "Lingzhi Zhao",
+    "Chuanfeng Shao",
+    "Peilei Chen"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "<title>Abstract</title> Solving nonlinear constrained optimization problems efficiently remains a challenge. This paper describes a four-component method developed to address these difficulties: Design of Experiments (DOE) screening using L9 and L81 orthogonal arrays to eliminate statistically non-significant variables before optimization begins; adaptive domain splitting into 4–8 gradient-guided subregions to handle multimodality; Taylor series expansion (1st–3rd order) and Radial Basis…",
+    "abstract_snippet": "Background Pediatric departments in primary hospitals face challenges such as insufficient diagnostic capabilities, weak management systems, and a lack of guidance on medication use. These factors have led to persistently high rates of antimicrobial use and misuse, which seriously jeopardize the safety of pediatric care in primary hospitals. Clinical pharmacists play a key role in ensuring the appropriate use of medications. However, in primary hospitals, their role is often marginalized or…",
     "citations": 0,
-    "doi": "10.1186/s44147-026-01169-2"
+    "doi": "10.3389/fmed.2026.1917853"
    },
-   "id": "a76379c4688d0c6c",
+   "id": "e79db8fd1d55adb1",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.4929,
+   "score": 0.3505,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "<title>Abstract</title> Solving nonlinear constrained optimization problems efficiently remains a challenge. This paper describes a four-component method developed to address these difficulties: Design of Experiments (DOE) screening using L9 and L81 orthogonal arrays to eliminate statistically…",
+   "summary": "Background Pediatric departments in primary hospitals face challenges such as insufficient diagnostic capabilities, weak management systems, and a lack of guidance on medication use. These factors have led to persistently high rates of antimicrobial use and misuse, which seriously jeopardize the…",
    "tags": [
-    "eval-study"
+    "systems"
    ],
-   "title": "Approaches to nonlinear programming problems: Taylor series expansion, RBF surrogate modeling, DOE-based dimensionality reduction, and adaptive domain splitting",
-   "url": "https://doi.org/10.1186/s44147-026-01169-2",
-   "venue": "Journal of Engineering and Applied Science"
+   "title": "The clinical value of PDCA cycle led by clinical pharmacists in optimizing the use of antimicrobial drugs in pediatric departments of primary hospitals",
+   "url": "https://doi.org/10.3389/fmed.2026.1917853",
+   "venue": "Frontiers in Medicine"
+  },
+  {
+   "authors": [
+    "Chipo Muganu",
+    "Mbuyu Germain Ntunka",
+    "Phakamile Ndlovu"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.21203/rs.3.rs-10711116/v1"
+   },
+   "id": "3e2305b00b6652f7",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-18T00:00:00Z",
+   "score": 0.3505,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [],
+   "title": "Research Trends in the Valorisation of Potato Peels for Fermentative Biohydrogen Production: A Bibliometric Analysis (2015-2025)",
+   "url": "https://doi.org/10.21203/rs.3.rs-10711116/v1",
+   "venue": "Research Square"
+  },
+  {
+   "authors": [
+    "Gonçalo Farias",
+    "Arnaud Bude",
+    "Nektaria Karavas",
+    "Christelle Rossignol",
+    "Isabelle Lantier",
+    "Julie Suman"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Introduction The efficacy of nasal vaccination critically depends on the delivery method, which must ensure precise and reproducible deposition of the vaccine within the nasal cavity to effectively stimulate mucosal immune structures such as the nasal\\x{2011}associated lymphoid tissue (NALT). Transitioning from pre\\x{2011}clinical models to human applications is challenging because of anatomical and physiological differences in nasal structure and airflow dynamics. Methods We developed a…",
+    "citations": 0,
+    "doi": "10.3389/fddev.2026.1875011"
+   },
+   "id": "6f9415df361cf39c",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-18T00:00:00Z",
+   "score": 0.3505,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Introduction The efficacy of nasal vaccination critically depends on the delivery method, which must ensure precise and reproducible deposition of the vaccine within the nasal cavity to effectively stimulate mucosal immune structures such as the nasal\\x{2011}associated lymphoid tissue (NALT).…",
+   "tags": [],
+   "title": "Engineering a medical device for intranasal immunisation: ensuring targeted delivery and formulation stability",
+   "url": "https://doi.org/10.3389/fddev.2026.1875011",
+   "venue": "Frontiers in Drug Delivery"
+  },
+  {
+   "authors": [
+    "Nicolas Zadeh"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Networks of coupled resonate and fire neurons are studied in their mean-field limit through the formal derivation of a nonlinear kinetic Fokker-Planck equation in a half-plane with a threshold-reset mechanism. After structural considerations on the model and on the associated partial differential equation, an original finite-difference scheme is introduced and studied, with non-negativity and mass-preservation properties proved rigorously. A consistency analysis of the scheme is carried out,…",
+    "citations": 0,
+    "doi": "10.33774/coe-2026-n2ssp"
+   },
+   "id": "8907fe272221df0f",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-18T00:00:00Z",
+   "score": 0.3505,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Networks of coupled resonate and fire neurons are studied in their mean-field limit through the formal derivation of a nonlinear kinetic Fokker-Planck equation in a half-plane with a threshold-reset mechanism. After structural considerations on the model and on the associated partial differential…",
+   "tags": [],
+   "title": "Kinetic description and numerical study of a network of noisy resonate and fire neurons - long version",
+   "url": "https://doi.org/10.33774/coe-2026-n2ssp",
+   "venue": null
+  },
+  {
+   "authors": [
+    "Shuo Liu",
+    "Siwen Yang",
+    "Jing Hu",
+    "Tao Bai",
+    "Jian-Ping Li"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Human leukocyte antigen (HLA) polymorphism shapes antigen presentation and susceptibility to immune-mediated disease. In neuroimmune disorders, a central question is how HLA-dependent antigen visibility becomes disease-specific immunity and tissue injury. In this Review, we integrate genetic, molecular, cellular, and clinical evidence across multiple sclerosis (MS), neuromyelitis optica spectrum disorder, Guillain–Barré syndrome, narcolepsy, autoimmune encephalitis, and myasthenia gravis. The…",
+    "citations": 0,
+    "doi": "10.3389/fimmu.2026.1863697"
+   },
+   "id": "dcf79d0dd87aa1eb",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-18T00:00:00Z",
+   "score": 0.3505,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Human leukocyte antigen (HLA) polymorphism shapes antigen presentation and susceptibility to immune-mediated disease. In neuroimmune disorders, a central question is how HLA-dependent antigen visibility becomes disease-specific immunity and tissue injury. In this Review, we integrate genetic,…",
+   "tags": [],
+   "title": "HLA polymorphism in neuroimmune diseases: linking antigen presentation to neuroinflammatory programs",
+   "url": "https://doi.org/10.3389/fimmu.2026.1863697",
+   "venue": "Frontiers in Immunology"
+  },
+  {
+   "authors": [
+    "Quan Gao",
+    "Yan Zhou",
+    "Desheng Xue"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Attracting and retaining international migrant academics has become a priority for higher education systems worldwide. While existing research recognizes that their knowledge creation is shaped by the networks in which they are embedded, less is known about how international academics in China build such embeddedness and especially how they connect to different types and scales of collaborative ties. This study addresses this gap through mixed-methods research in China’s Sino-Foreign…",
+    "citations": 0,
+    "doi": "10.1007/s10734-026-01745-8"
+   },
+   "id": "9bdda4ba4152e4dd",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-18T00:00:00Z",
+   "score": 0.488,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Attracting and retaining international migrant academics has become a priority for higher education systems worldwide. While existing research recognizes that their knowledge creation is shaped by the networks in which they are embedded, less is known about how international academics in China…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Network embeddedness of knowledge creation among international migrant academics in China’s Sino-Foreign Cooperative Universities",
+   "url": "https://doi.org/10.1007/s10734-026-01745-8",
+   "venue": "Higher Education"
+  },
+  {
+   "authors": [
+    "Mohamed Ashour",
+    "Nada Fouad",
+    "Ngoc Diep Lai",
+    "Tarek Mohamed"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.1007/s11082-026-09052-3"
+   },
+   "id": "074bddd6848b7dfc",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-18T00:00:00Z",
+   "score": 0.3505,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [],
+   "title": "Synthesis and characterization of size-controllable titanium dioxide nanocolloids via pulsed laser ablation in distilled water",
+   "url": "https://doi.org/10.1007/s11082-026-09052-3",
+   "venue": "Optical and Quantum Electronics"
+  },
+  {
+   "authors": [
+    "Siphesihle Siyamukela Masimula",
+    "Mpinane Flory Senekane",
+    "Nisha Naicker"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Background The availability of reliable information in the delivery of environmental health services (EHS) is crucial to identifying environmental health threats in communities and deploying targeted interventions. This requires environmental health information management practices and systems to be evaluated from time-to-time to bring efficiency and enable continuous improvement for improved public health outcomes. As a result, this study assesses environmental health information management in…",
+    "citations": 0,
+    "doi": "10.3389/frhs.2026.1890673"
+   },
+   "id": "41fdafe880cbd590",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-18T00:00:00Z",
+   "score": 0.488,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Background The availability of reliable information in the delivery of environmental health services (EHS) is crucial to identifying environmental health threats in communities and deploying targeted interventions. This requires environmental health information management practices and systems to…",
+   "tags": [
+    "systems"
+   ],
+   "title": "From data collection to action: environmental health information management practices in eleven municipalities in the east coast of South Africa",
+   "url": "https://doi.org/10.3389/frhs.2026.1890673",
+   "venue": "Frontiers in Health Services"
+  },
+  {
+   "authors": [
+    "Wei-Ting Wu",
+    "Ke-Vin Chang",
+    "Levent Özçakar"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.12701/jyms.2026.43.56"
+   },
+   "id": "56bfc1fc2ee69708",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-18T00:00:00Z",
+   "score": 0.3505,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [],
+   "title": "When a calf mass is not a tumor: dynamic ultrasonographic diagnosis of an accessory soleus muscle",
+   "url": "https://doi.org/10.12701/jyms.2026.43.56",
+   "venue": "Journal of Yeungnam Medical Science"
   },
   {
    "authors": [
@@ -98,7 +408,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-17T22:24:34Z",
-   "score": 0.6305,
+   "score": 0.6244,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -126,7 +436,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-17T21:29:02Z",
-   "score": 0.6275,
+   "score": 0.6214,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -153,7 +463,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-17T18:38:39Z",
-   "score": 0.7984,
+   "score": 0.7924,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -181,7 +491,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-17T18:09:05Z",
-   "score": 0.4643,
+   "score": 0.4584,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -209,7 +519,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-17T17:04:33Z",
-   "score": 0.6534,
+   "score": 0.6476,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -234,7 +544,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-17T12:04:18Z",
-   "score": 0.7383,
+   "score": 0.7329,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -262,7 +572,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-17T11:28:41Z",
-   "score": 0.6366,
+   "score": 0.6312,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -293,7 +603,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-17T08:49:39Z",
-   "score": 0.729,
+   "score": 0.7238,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -305,315 +615,11 @@
    "title": "PolyDebate: A Game-Orchestrated Multimodal System for Debate Skills Practice and Evaluation",
    "url": "https://arxiv.org/abs/2608.16276v1",
    "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Qiang Ren",
-    "Yansong Liu",
-    "Yansheng Zhang",
-    "Shumin Tu",
-    "Wei Huang",
-    "Feng Nan"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract. The North Pacific Intermediate Water (NPIW) plays a crucial role in modulating oceanic thermohaline circulation and biogeochemical processes. However, limited continuous observations have hindered the understanding of its short-term variability and structural response to mesoscale processes. This study investigates the intraseasonal structural variability of the NPIW and its modulation by mesoscale eddies, based on long-term mooring observations from three sites (M1–M3) across the…",
-    "citations": 0,
-    "doi": "10.5194/os-22-2449-2026"
-   },
-   "id": "cdfc6f9a4c63b244",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-17T00:00:00Z",
-   "score": 0.3006,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract. The North Pacific Intermediate Water (NPIW) plays a crucial role in modulating oceanic thermohaline circulation and biogeochemical processes. However, limited continuous observations have hindered the understanding of its short-term variability and structural response to mesoscale…",
-   "tags": [],
-   "title": "Intraseasonal variability and eddy-induced structural modulation of the North Pacific intermediate water revealed by multi-mooring observations",
-   "url": "https://doi.org/10.5194/os-22-2449-2026",
-   "venue": "Ocean science"
-  },
-  {
-   "authors": [
-    "Kelvin Stefan Osafo",
-    "Sahadetu A. Mustapha-Sahabi",
-    "Derrick Ofosu Amoh",
-    "Pengming Sun"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Background Unsafe abortion remains a significant driver of maternal morbidity and mortality in Ghana. Despite progressive policies, many women continue to bypass safe clinical pathways. This study aims to identify the socio-demographic factors and qualitative dynamics associated with repeat unsafe abortion among women presenting with unsafe abortion complications at Tema General Hospital. Method The study targeted women aged 15–49 years who were admitted for complications arising from unsafe…",
-    "citations": 0,
-    "doi": "10.3389/fgwh.2026.1812634"
-   },
-   "id": "bc17f06056a32154",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-17T00:00:00Z",
-   "score": 0.4381,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Background Unsafe abortion remains a significant driver of maternal morbidity and mortality in Ghana. Despite progressive policies, many women continue to bypass safe clinical pathways. This study aims to identify the socio-demographic factors and qualitative dynamics associated with repeat unsafe…",
-   "tags": [],
-   "title": "Determinants and dynamics of repeat unsafe abortion in Ghana—a mixed-method study at Tema General Hospital",
-   "url": "https://doi.org/10.3389/fgwh.2026.1812634",
-   "venue": "Frontiers in Global Women s Health"
-  },
-  {
-   "authors": [
-    "Zhuochao Wu",
-    "Yongbiao Yang",
-    "Qingshan Xu"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "With the increasing penetration of distributed renewable energy resources, distribution networks are gradually evolving into interconnected systems composed of multiple microgrids. Microgrids are typically equipped with controllable reactive power resources and can provide voltage support to the distribution network through points of common coupling. However, directly dispatching microgrid reactive resources without explicitly quantifying boundary support responsibilities and local dispatch…",
-    "citations": 0,
-    "doi": "10.3389/fenrg.2026.1906240"
-   },
-   "id": "f7790c03c6838ba3",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-17T00:00:00Z",
-   "score": 0.3006,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "With the increasing penetration of distributed renewable energy resources, distribution networks are gradually evolving into interconnected systems composed of multiple microgrids. Microgrids are typically equipped with controllable reactive power resources and can provide voltage support to the…",
-   "tags": [
-    "systems"
-   ],
-   "title": "Cost-aware distributed reactive power dispatch for voltage optimization in active distribution networks with multiple microgrids",
-   "url": "https://doi.org/10.3389/fenrg.2026.1906240",
-   "venue": "Frontiers in Energy Research"
-  },
-  {
-   "authors": [
-    "Kannan O. Ahmed",
-    "Taha Hussein Musa",
-    "Moataz M Hassan",
-    "Bashir A. Yousef",
-    "Riad Mohammed Abdelrahman",
-    "Alka Ahuja"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Introduction Proprotein convertase subtilisin/kexin type 9 (PCSK9) inhibitors are transformative lipid-lowering therapies, yet the structure of the research literature is strongly shaped by trial priorities. This study aimed to map global research trends on PCSK9 inhibitors using a bibliometric analysis of Scopus and PubMed. Methods Metadata on publication year, journal, citations, authorship, country, institution, and keywords were extracted. Annual output, mean citations, h-index…",
-    "citations": 0,
-    "doi": "10.2174/0118741924443766260813051333"
-   },
-   "id": "3e496b317011dd2a",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-17T00:00:00Z",
-   "score": 0.4381,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Introduction Proprotein convertase subtilisin/kexin type 9 (PCSK9) inhibitors are transformative lipid-lowering therapies, yet the structure of the research literature is strongly shaped by trial priorities. This study aimed to map global research trends on PCSK9 inhibitors using a bibliometric…",
-   "tags": [],
-   "title": "Cross-Database Mapping of PCSK9 Inhibitor Research: A Bibliometric Analysis of Scopus and PubMed",
-   "url": "https://doi.org/10.2174/0118741924443766260813051333",
-   "venue": "The Open Cardiovascular Medicine Journal"
-  },
-  {
-   "authors": [
-    "Sangjun Kang",
-    "Hyeyoung Cho",
-    "Takeshi Egami",
-    "Yuxuan Liao",
-    "Jianwei Miao",
-    "Christian Kuebel"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract Pair distribution function (PDF) analysis provides a quantitative framework for resolving short- and medium-range order in glasses. This article summarizes recent advances that extend PDF methods from bulk x-ray and neutron-diffraction methods to local electron microscopy-based characterization for metallic glasses. High-energy x-rays and neutrons offer robust structural averages, while electron-based approaches such as electron PDF (ePDF) enable nanoscale mapping of local order and…",
-    "citations": 1,
-    "doi": "10.1557/s43577-026-01120-z"
-   },
-   "id": "3865f05ca0599be0",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-17T00:00:00Z",
-   "score": 0.4632,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract Pair distribution function (PDF) analysis provides a quantitative framework for resolving short- and medium-range order in glasses. This article summarizes recent advances that extend PDF methods from bulk x-ray and neutron-diffraction methods to local electron microscopy-based…",
-   "tags": [
-    "systems"
-   ],
-   "title": "Pair distribution analysis of short- and medium-range order of metallic glasses: Direct imaging and diffraction-based approaches",
-   "url": "https://doi.org/10.1557/s43577-026-01120-z",
-   "venue": "MRS Bulletin"
-  },
-  {
-   "authors": [
-    "Jan Magne Cederstrøm",
-    "Pål Ringkjøb Nielsen",
-    "George Edward Young",
-    "Jostein Bakke"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Flood frequency and magnitude are expected to increase under future climate scenarios, yet long-term records of flood variability remain sparse beyond the instrumental period. Lake sediments provide valuable archives of past floods, but existing detection methods often struggle to identify both minerogenic and organic flood layers at high resolution. Here, we present a new non-destructive approach based on computed tomography (CT) scanning combined with thresholding techniques to isolate flood…",
-    "citations": 0,
-    "doi": "10.3389/feart.2026.1826750"
-   },
-   "id": "3bbc95f0ff862bba",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-17T00:00:00Z",
-   "score": 0.4381,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Flood frequency and magnitude are expected to increase under future climate scenarios, yet long-term records of flood variability remain sparse beyond the instrumental period. Lake sediments provide valuable archives of past floods, but existing detection methods often struggle to identify both…",
-   "tags": [],
-   "title": "An improved method for detecting event layers in lake sediment archives",
-   "url": "https://doi.org/10.3389/feart.2026.1826750",
-   "venue": "Frontiers in Earth Science"
-  },
-  {
-   "authors": [
-    "Mayank Singh",
-    "Chander Shekhar",
-    "Jagriti Gupta",
-    "Rajeev Kumar"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Background Rapid sociodemographic changes in India, including rising female education, workforce participation, urbanization, and changing gender norms, have contributed to delayed childbearing. Despite declining fertility, limited evidence exists on the district-level geographic variations and determinants of delayed motherhood (childbirth at age ≥35) in India. This study applies multilevel and geospatial analyses to examine the distribution, determinants, and district-level spatial clustering…",
-    "citations": 0,
-    "doi": "10.3389/fgwh.2026.1762981"
-   },
-   "id": "fbc1e6feff53cc46",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-17T00:00:00Z",
-   "score": 0.3006,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Background Rapid sociodemographic changes in India, including rising female education, workforce participation, urbanization, and changing gender norms, have contributed to delayed childbearing. Despite declining fertility, limited evidence exists on the district-level geographic variations and…",
-   "tags": [],
-   "title": "Geographical clustering of delayed motherhood in India: an application of multilevel and geospatial analyses",
-   "url": "https://doi.org/10.3389/fgwh.2026.1762981",
-   "venue": "Frontiers in Global Women s Health"
-  },
-  {
-   "authors": [
-    "Shanu S L",
-    "Jenila jose jancy V",
-    "John Wesley J",
-    "Susan Alby",
-    "Gowri E",
-    "Abina A"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Drug-resistant Mycobacterium tuberculosis (Mtb) remains a major challenge, creating a need for rapid and accurate whole-genome sequencing (WGS)-based resistance prediction. Existing CNN-based approaches have achieved strong performance, but their ability to jointly capture hierarchical mutation patterns and long-range dependencies among genomic variants remains limited. This study proposes a Hierarchical CNN-Transformer Mutation Pattern Encoding (HCT-MPE) framework that hierarchically encodes…",
-    "citations": 0,
-    "doi": "10.64751/ijpams.2026.v6.n3.202"
-   },
-   "id": "5b778c75a75b8f60",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-17T00:00:00Z",
-   "score": 0.4381,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Drug-resistant Mycobacterium tuberculosis (Mtb) remains a major challenge, creating a need for rapid and accurate whole-genome sequencing (WGS)-based resistance prediction. Existing CNN-based approaches have achieved strong performance, but their ability to jointly capture hierarchical mutation…",
-   "tags": [],
-   "title": "Mycobacterium Tuberculosis Drug Resistance Prediction from Whole Genome Sequences Using Hierarchical CNN-Transformer Mutation Pattern Encoding",
-   "url": "https://doi.org/10.64751/ijpams.2026.v6.n3.202",
-   "venue": "International Journal of Pharmacy with Medical Sciences"
-  },
-  {
-   "authors": [
-    "Xinkang Chen",
-    "Zhou He"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Handwritten mathematical expression recognition (HMER) aims to convert images of handwritten mathematical expressions into structured LaTeX sequences. Although recent encoder-decoder models have achieved strong performance, they still struggle with visually similar symbols, Greek letters, special symbols, and structural tokens such as fractions, radicals, superscripts, and subscripts, especially when expressions contain complex spatial layouts. To address these issues, we propose a…",
-    "citations": 0,
-    "doi": "10.1117/1.jei.35.4.043022"
-   },
-   "id": "c30fe8366afb5f53",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-17T00:00:00Z",
-   "score": 0.4381,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Handwritten mathematical expression recognition (HMER) aims to convert images of handwritten mathematical expressions into structured LaTeX sequences. Although recent encoder-decoder models have achieved strong performance, they still struggle with visually similar symbols, Greek letters, special…",
-   "tags": [],
-   "title": "CP-Former: counting-based position-aware transformer for handwritten mathematical expression recognition",
-   "url": "https://doi.org/10.1117/1.jei.35.4.043022",
-   "venue": "Journal of Electronic Imaging"
-  },
-  {
-   "authors": [
-    "Jun Seo Park",
-    "Hye Won Jun",
-    "Jaesung Lee",
-    "Sung Joong Lee"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract Peripheral nerve injury-induced persistent pain hypersensitivity cannot be fully explained by increased neuronal excitability alone. Rather, it is increasingly recognized as a pathological tissue state characterized by sustained glial activation, immune signaling, and synaptic remodeling within the spinal cord. In this context, metabolic remodeling of the spinal cord has emerged as a potentially important feature of neuropathic pain. However, the metabolic patterns associated with this…",
-    "citations": 0,
-    "doi": "10.1007/s11011-026-01927-4"
-   },
-   "id": "258efed775296cfc",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-17T00:00:00Z",
-   "score": 0.4381,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract Peripheral nerve injury-induced persistent pain hypersensitivity cannot be fully explained by increased neuronal excitability alone. Rather, it is increasingly recognized as a pathological tissue state characterized by sustained glial activation, immune signaling, and synaptic remodeling…",
-   "tags": [],
-   "title": "Peripheral nerve injury induces an immunometabolic signature involving reduced free fatty-acid pools",
-   "url": "https://doi.org/10.1007/s11011-026-01927-4",
-   "venue": "Metabolic Brain Disease"
-  },
-  {
-   "authors": [
-    "Richard A. Dizon",
-    "Joseph C. Barrera"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Public-sector performance monitoring depends overwhelmingly on managerial self-report, yet whether such self-assessment reflects the service quality experienced by citizens is rarely tested directly. This study examined human resource capacity in devolved social welfare offices and compared managers' self-assessments against the assessments of the clients they serve. Instruments anchored on identical national administrative standards were administered to the complete population of Local Social…",
-    "citations": 0,
-    "doi": "10.18282/hrms6223"
-   },
-   "id": "2bfc2402ec6bb0ab",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-17T00:00:00Z",
-   "score": 0.3006,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Public-sector performance monitoring depends overwhelmingly on managerial self-report, yet whether such self-assessment reflects the service quality experienced by citizens is rarely tested directly. This study examined human resource capacity in devolved social welfare offices and compared…",
-   "tags": [],
-   "title": "Human Resource Capacity and the Self-Assessment Gap in Devolved Public Social Welfare Offices: Evidence from Local Social Welfare and Development Officers in the Philippines",
-   "url": "https://doi.org/10.18282/hrms6223",
-   "venue": "Human Resources Management and Services"
   }
  ],
  "meta": {
   "count": 22,
-  "generated_at": "2026-08-19T14:51:12Z",
+  "generated_at": "2026-08-19T16:44:42Z",
   "kind": "papers",
   "section": "papers",
   "sources": [

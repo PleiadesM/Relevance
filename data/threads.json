@@ -1,0 +1,87 @@
+{
+ "meta": {
+  "count": 2,
+  "generated_at": "2026-08-19T16:44:42Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "001318f28b57e908",
+     "phrase": {
+      "en": "human review fixes AI under-assessment",
+      "zh": "人工复核纠正AI评估不足"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/australia-news/2026/aug/19/aged-care-support-at-home-review-ai-integrated-assessment-tool"
+    },
+    {
+     "item_id": "f356843c1a3c2b75",
+     "phrase": {
+      "en": "visualizing uncertainty for oversight",
+      "zh": "可视化不确定性以助监督"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.16428v1"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Automated systems shape who gets benefits, but human review often corrects them.",
+    "zh": "自动化系统决定福利分配，但人工复核常纠正其错误。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI-assisted decision making",
+    "zh": "AI辅助决策"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about human oversight in AI: one-fifth of appeals overturn automated decisions, and new papers probe uncertainty visualization.",
+    "zh": "你关注AI中的人类监督：五分之一的上诉推翻自动决定，新论文探讨不确定性可视化。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "9ac30260ea94e63c",
+     "phrase": {
+      "en": "sacking creates potent opponent",
+      "zh": "解职造就强大对手"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/19/mykhailo-fedorov-zelenskyy-loyalist-opponent-ukraine"
+    },
+    {
+     "item_id": "f817048d0089572e",
+     "phrase": {
+      "en": "calls for presidential election",
+      "zh": "呼吁总统选举"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Zelenskyy's dismissals create new opponents and calls for elections amid war.",
+    "zh": "泽连斯基的免职引发新对手和战时选举呼声。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "Ukrainian politics turmoil",
+    "zh": "乌克兰政局动荡"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow geopolitical shifts: a sacked loyalist turns opponent, and an election demand surfaces.",
+    "zh": "你关注地缘政治变化：被解职的盟友成对手，选举要求浮现。"
+   }
+  }
+ ]
+}

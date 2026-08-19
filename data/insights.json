@@ -1,48 +1,40 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"Shetland Wool Week\" OR \"Fair Isle knitting\")",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "shetlandtimes.co.uk",
-   "published_at": "2026-08-19T14:00:00Z",
-   "title": "Shetland Wool Week patron Helen Robertson reflects on her love for the craft and its heritage in the isles",
-   "url": "https://www.shetlandtimes.co.uk/lifestyle/wool-week-patron-reflects-on-the-evolution-of-knitting-from-442835/"
+   "name": "rutlandherald.com",
+   "published_at": "2026-08-18T05:30:00Z",
+   "title": "Rutland Herald Community News for Aug . 18 , 2026",
+   "url": "https://www.rutlandherald.com/news/community/rutland-herald-community-news-for-aug-18-2026/article_bcb9ca78-892d-5a59-b2eb-b781d2e519b1.html"
   },
   "summaries": {
    "en": {
-    "summary": "Shetland Wool Week patron Helen Robertson shares her passion for knitting and the craft's island heritage.",
-    "why_irrelevant": "A crafty, island-dwelling detour far from politics, tech, and data visualization."
+    "summary": "Rutland Herald community news lists local events, including a pumpkin-growing contest in Vermont.",
+    "why_irrelevant": "Local Vermont news is far from your typical urban tech feed."
    },
    "zh": {
-    "summary": "设得兰羊毛周赞助人海伦·罗伯逊分享了她对编织的热爱及其岛屿传统。",
-    "why_irrelevant": "远离政治、科技和数据可视化的手工艺岛屿之旅。"
+    "summary": "《拉特兰先驱报》社区新闻列出了当地活动，包括佛蒙特州的南瓜种植比赛。",
+    "why_irrelevant": "佛蒙特州本地新闻远离你常见的都市科技资讯。"
    }
   },
-  "topic": "Shetland wool week knitting festival"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news covers UK homelessness funding concerns, US political primaries, energy price forecasts, and international incidents, while papers explore AI-human interaction and visualization challenges.",
+ "brief": "Today's news covers political upheavals, from local recall elections over data centers to a stunning progressive primary win in Florida, alongside geopolitical tensions involving Iran, Ukraine, and trade disputes with Canada. In tech, Google's new AI phone features draw skepticism, while a sandboxed agent harness launches. Papers delve into MRI diagnostics, social status dynamics, and the impact of LLMs on writing disengagement.",
  "meta": {
-  "generated_at": "2026-08-19T14:51:12Z"
+  "generated_at": "2026-08-19T16:44:42Z"
  },
- "news_summary": "UK politics focus on homelessness and energy bills, US sees key Senate primaries and political controversies, plus international stories on immigration and security incidents.",
- "papers_summary": "Research addresses disengagement in LLM-assisted writing, accessibility in AI and visualization, and uncertainty visualization for human oversight.",
+ "news_summary": "Local officials face recalls over data centers, Angie Nixon's progressive win in Florida shakes the establishment, and the U.S. Treasury's bond buyback eases market stress. International stories include an arrest in the Nord Stream case, UAE halting trade with Iran, and Trump pausing Canadian tariffs.",
+ "papers_summary": "Research highlights include MRI improvements with T2-FLAIR sequences, the social and economic effects of prestige versus dominance in rural Colombia, and a structural account of disengagement in LLM-assisted writing, suggesting scaffolding as a solution.",
  "summaries": {
   "en": {
-   "brief": "Today's news covers UK homelessness funding concerns, US political primaries, energy price forecasts, and international incidents, while papers explore AI-human interaction and visualization challenges.",
-   "news_summary": "UK politics focus on homelessness and energy bills, US sees key Senate primaries and political controversies, plus international stories on immigration and security incidents.",
-   "papers_summary": "Research addresses disengagement in LLM-assisted writing, accessibility in AI and visualization, and uncertainty visualization for human oversight."
+   "brief": "Today's news covers political upheavals, from local recall elections over data centers to a stunning progressive primary win in Florida, alongside geopolitical tensions involving Iran, Ukraine, and trade disputes with Canada. In tech, Google's new AI phone features draw skepticism, while a sandboxed agent harness launches. Papers delve into MRI diagnostics, social status dynamics, and the impact of LLMs on writing disengagement.",
+   "news_summary": "Local officials face recalls over data centers, Angie Nixon's progressive win in Florida shakes the establishment, and the U.S. Treasury's bond buyback eases market stress. International stories include an arrest in the Nord Stream case, UAE halting trade with Iran, and Trump pausing Canadian tariffs.",
+   "papers_summary": "Research highlights include MRI improvements with T2-FLAIR sequences, the social and economic effects of prestige versus dominance in rural Colombia, and a structural account of disengagement in LLM-assisted writing, suggesting scaffolding as a solution."
   },
   "zh": {
-   "brief": "今日焦点包括中国机器人公司宇树科技上市首日暴涨近五倍，以及法国公务员被指控下药丑闻，同时学术研究关注AI写作参与度及数据可视化中的认知无障碍问题。",
-   "news_summary": "中国新闻聚焦宇树科技IPO首日飙升、法国公务员下药指控、《牛来》动画意外走红、GLP-1药物对运动表现的影响及中国律师执业风险增加。国际新闻涉及英国无家可归问题、美国政治及德国极右翼等。",
-   "papers_summary": "研究关注LLM辅助写作中的退出机制、认知障碍人群的AI可访问性、数据可视化中的认知无障碍，以及预测市场可视化和不确定性可视化等。"
+   "brief": "今日焦点涵盖法国官员被控下药、中国机器人公司上市大涨、动画《牛来》意外走红，以及关于减肥药与运动表现、律师职业风险的讨论。",
+   "news_summary": "中文新闻聚焦于法国官员性侵指控、宇树科技上市首日股价暴涨、动画《牛来》的文化现象，以及GLP-1药物对运动表现的影响和中国律师面临的职业风险。",
+   "papers_summary": "研究方面，涉及医学影像、社交媒体影响、LLM辅助写作、植物耐热机制等，但今日未提供优先中文论文内容。"
   }
- },
- "todays_image": {
-  "caption": "Both the post-mob violence destitution and today's rough sleeping crisis expose how systemic failures leave vulnerable people homeless with only scraps to salvage.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2010_36_9_1_001-000001",
-  "source_name": "National Museum of African American History and Culture",
-  "source_url": "https://nmaahc.si.edu/object/nmaahc_2010.36.9.1",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2010_36_9_1_001-000001",
-  "title": "<I>Old Negro saving few articles after mob violence. Many went destitute + homeless</I>"
  }
 }
