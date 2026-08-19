@@ -1,105 +1,17 @@
 {
  "meta": {
-  "count": 5,
-  "generated_at": "2026-08-19T04:49:37Z",
+  "count": 2,
+  "generated_at": "2026-08-19T07:03:03Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "f817048d0089572e",
-     "phrase": {
-      "en": "Calls for election under martial law",
-      "zh": "呼吁戒严下选举"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "a05c9ce79dd1a6ad",
-     "phrase": {
-      "en": "Most direct challenge to Zelenskyy",
-      "zh": "对泽连斯基最直接挑战"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/18/ukraines-dismissed-defence-minister-calls-for-wartime-presidential-election"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "A dismissed minister breaks the taboo: Ukraine should vote even in war.",
-    "zh": "被解职的部长打破禁忌：战时乌克兰也应举行选举。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "Ukraine wartime election",
-    "zh": "乌克兰战时选举"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You track political rhetoric: the first direct challenge to Zelenskyy since 2022 reframes democratic norms under fire.",
-    "zh": "你关注政治话语：这是2022年以来对泽连斯基的直接挑战，重新定义战火下的民主规范。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "beb4a39c8d5d74c5",
-     "phrase": {
-      "en": "Grassroots enthusiasm beats big money",
-      "zh": "草根热情击败大金主"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/19/us/politics/florida-primaries-takeaways.html"
-    },
-    {
-     "item_id": "ca4a24d160c176eb",
-     "phrase": {
-      "en": "Democratic socialist shocks establishment",
-      "zh": "民主社会主义者震惊建制派"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/live/2026/aug/18/donald-trump-florida-alaska-wyoming-primaries-midterms-white-house-ballroom-iran-cnn-latest-news-updates"
-    },
-    {
-     "item_id": "2255c95cc9987e72",
-     "phrase": {
-      "en": "Surprise primary win noted",
-      "zh": "意外初选胜利被提及"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/aug/18/florida-primary-results-governor-senate"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "A progressive socialist beats big money in Florida's Senate primary.",
-    "zh": "佛罗里达参议院初选中，进步派社会主义者击败大金主。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "Florida primary upset",
-    "zh": "佛州初选爆冷"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You study narrative and rhetoric: the grassroots win upends the usual money-driven story, a live case in political communication.",
-    "zh": "你研究叙事和修辞：草根胜利颠覆常规金钱驱动叙事，是政治传播的鲜活案例。"
-   }
-  },
-  {
-   "angles": [
-    {
      "item_id": "c25ca78804826ff8",
      "phrase": {
-      "en": "Cites Washington request",
-      "zh": "称应华盛顿要求"
+      "en": "Drills shortened at US request",
+      "zh": "军演应美方要求缩短"
      },
      "section": "news",
      "source": "BBC World",
@@ -108,8 +20,8 @@
     {
      "item_id": "45a759c513a18212",
      "phrase": {
-      "en": "Pentagon scales back exercises",
-      "zh": "五角大楼缩减演习"
+      "en": "Pentagon reduces exercises",
+      "zh": "五角大楼减少演习"
      },
      "section": "news",
      "source": "The New York Times",
@@ -118,7 +30,7 @@
     {
      "item_id": "59290747ba0a8a8b",
      "phrase": {
-      "en": "End six days early",
+      "en": "Ends six days early",
       "zh": "提前六天结束"
      },
      "section": "news",
@@ -128,57 +40,53 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Washington cuts joint drills short, echoing Trump's outreach to Pyongyang.",
-    "zh": "华盛顿缩短联合军演，呼应特朗普对平壤的示好。"
+    "en": "The US cuts joint drills short, a signal to North Korea.",
+    "zh": "美国缩短联合军演，向朝鲜发出信号。"
    },
-   "id": "t3",
+   "id": "t1",
    "keyword": {
-    "en": "US-South Korea drills scaled back",
+    "en": "US-South Korea drills",
     "zh": "美韩军演缩减"
    },
    "relates_to": [],
-   "why_now": {
-    "en": "You follow geopolitical shifts in tech policy; this signals a rebalancing that could affect regional stability and tech supply chains.",
-    "zh": "你关注科技政策的地缘政治转变；这标志着可能影响地区稳定和技术供应链的再平衡。"
-   }
-  },
-  {
-   "angles": [
+   "timeline": [
     {
-     "item_id": "370344743109855f",
-     "phrase": {
-      "en": "Deal with Canada near",
-      "zh": "与加拿大协议接近"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/18/world/canada/tariffs-trade-trump-carney.html"
-    },
-    {
-     "item_id": "b52f98434e14ceb2",
-     "phrase": {
-      "en": "Pauses tariffs for three days",
-      "zh": "暂停关税三天"
+     "date": "2026-08-19",
+     "item_id": "c25ca78804826ff8",
+     "label": {
+      "en": "US request to shorten",
+      "zh": "美国要求缩短"
      },
      "section": "news",
      "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cy9wz79ze29o?at_medium=RSS&at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/cnvn0j31qj8o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "date": "2026-08-19",
+     "item_id": "45a759c513a18212",
+     "label": {
+      "en": "Pentagon scales back",
+      "zh": "五角大楼缩减"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/18/us/politics/pentagon-south-korea-training-exercises.html"
+    },
+    {
+     "date": "2026-08-19",
+     "item_id": "59290747ba0a8a8b",
+     "label": {
+      "en": "South Korea confirms",
+      "zh": "韩国确认"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/19/us-south-korea-army-drills-cut-trump-push-kim-jong-un-talks"
     }
    ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Trump halts new tariffs on Canada, hinting a deal is near but not sealed.",
-    "zh": "特朗普暂停对加拿大新关税，暗示协议接近但未敲定。"
-   },
-   "id": "t4",
-   "keyword": {
-    "en": "Canada tariff pause",
-    "zh": "加拿大关税暂停"
-   },
-   "relates_to": [],
    "why_now": {
-    "en": "You monitor economic signals; tariff swings affect global markets and, indirectly, tech costs.",
-    "zh": "你关注经济信号；关税波动影响全球市场，并间接影响科技成本。"
+    "en": "You follow geopolitical shifts: today's news shows a concrete change in US-ally military posture.",
+    "zh": "你关注地缘政治变化，今日新闻显示美国与盟友军事姿态的实质变化。"
    }
   },
   {
@@ -186,38 +94,65 @@
     {
      "item_id": "af17eb4931bad19b",
      "phrase": {
-      "en": "Cognitive accessibility enhances visualization",
-      "zh": "认知无障碍增强可视化"
+      "en": "frames it as security",
+      "zh": "视为安全议题"
      },
      "section": "papers",
      "source": "arXiv cs.HC + cs.GR",
      "url": "https://arxiv.org/abs/2608.17039v1"
     },
     {
-     "item_id": "32c99ae8f8dcd76b",
+     "item_id": "633d16773cd52282",
      "phrase": {
-      "en": "AI interventions for cognitive impairment",
-      "zh": "针对认知障碍的AI干预"
+      "en": "frames it as trade",
+      "zh": "视为贸易议题"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.17175v1"
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/australia-news/live/2026/aug/19/erin-patterson-appeal-live-mushroom-murders-court-australia-victoria-ntwnfb"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "Papers argue data visuals must serve diverse minds, not just the average user.",
-    "zh": "论文主张数据可视化应服务多样心智，而非仅平均用户。"
+    "en": "Nations race to own the chips that own the future.",
+    "zh": "各国竞相掌握决定未来的芯片。"
    },
-   "id": "t5",
+   "id": "t2",
    "keyword": {
-    "en": "Cognitive accessibility in visualization",
-    "zh": "认知无障碍可视化"
+    "en": "computation sovereignty",
+    "zh": "算力主权"
    },
    "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-03",
+     "label": {
+      "en": "first export curbs",
+      "zh": "首轮出口管制"
+     }
+    },
+    {
+     "date": "2026-06-18",
+     "label": {
+      "en": "allies join the rules",
+      "zh": "盟友加入规则"
+     }
+    },
+    {
+     "date": "2026-07-22",
+     "item_id": "af17eb4931bad19b",
+     "label": {
+      "en": "two new rules land",
+      "zh": "两项新规落地"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.17039v1"
+    }
+   ],
    "why_now": {
-    "en": "You care about inclusive design in visual rhetoric: this theme broadens your understanding of who visualization excludes.",
-    "zh": "你关注视觉修辞中的包容性设计：这一主题拓宽你对可视化排斥谁的理解。"
+    "en": "You follow chip policy: today two new export rules redraw it.",
+    "zh": "你关注芯片政策，今日两项新出口规定重划版图。"
    }
   }
  ]
