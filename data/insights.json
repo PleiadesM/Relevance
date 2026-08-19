@@ -1,28 +1,48 @@
 {
- "brief": "Today's news spans from political tensions and environmental health improvements to technological milestones, while research highlights advancements in visualization, AI, and disaster management.",
- "meta": {
-  "generated_at": "2026-08-18T22:39:02Z"
+ "apropos_of_nothing": {
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "source": {
+   "name": "rutlandherald.com",
+   "published_at": "2026-08-18T05:30:00Z",
+   "title": "Rutland Herald Community News for Aug . 18 , 2026",
+   "url": "https://www.rutlandherald.com/news/community/rutland-herald-community-news-for-aug-18-2026/article_bcb9ca78-892d-5a59-b2eb-b781d2e519b1.html"
+  },
+  "summaries": {
+   "en": {
+    "summary": "The Rutland Herald lists community events from a small Vermont town.",
+    "why_irrelevant": "Far from the user's usual topics."
+   },
+   "zh": {
+    "summary": "《拉特兰先驱报》列出了佛蒙特州小镇的社区活动。",
+    "why_irrelevant": "与用户常关注的话题相距甚远。"
+   }
+  },
+  "topic": "competitive pumpkin growing"
  },
- "news_summary": "News covers Australian politics, UK health and environment, US political disputes, international trade tensions, and notable legal and tech stories.",
- "papers_summary": "Research papers focus on impact-based forecasting, visualization of uncertainty, AI-driven insight extraction, and human-robot interaction design.",
+ "brief": "Florida primaries set the stage for key November races, while Trump's closest aide comes under scrutiny and bushfire warnings escalate in Australia. Research highlights advances in disaster forecasting, drug resistance prediction, and geospatial health analysis.",
+ "meta": {
+  "generated_at": "2026-08-19T01:51:06Z"
+ },
+ "news_summary": "Florida's primaries saw Trump-backed Byron Donalds win the GOP gubernatorial nomination, while democratic socialist Angie Nixon upset in the Senate race. Meanwhile, Erin Patterson's appeal in Australia, Trump aide Natalie Harp's role, and escalating bushfire warnings dominate headlines.",
+ "papers_summary": "Research spans impact-based forecasting in Japan, drug resistance prediction in tuberculosis via deep learning, and geospatial analysis of delayed motherhood in India, among other topics.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans from political tensions and environmental health improvements to technological milestones, while research highlights advancements in visualization, AI, and disaster management.",
-   "news_summary": "News covers Australian politics, UK health and environment, US political disputes, international trade tensions, and notable legal and tech stories.",
-   "papers_summary": "Research papers focus on impact-based forecasting, visualization of uncertainty, AI-driven insight extraction, and human-robot interaction design."
+   "brief": "Florida primaries set the stage for key November races, while Trump's closest aide comes under scrutiny and bushfire warnings escalate in Australia. Research highlights advances in disaster forecasting, drug resistance prediction, and geospatial health analysis.",
+   "news_summary": "Florida's primaries saw Trump-backed Byron Donalds win the GOP gubernatorial nomination, while democratic socialist Angie Nixon upset in the Senate race. Meanwhile, Erin Patterson's appeal in Australia, Trump aide Natalie Harp's role, and escalating bushfire warnings dominate headlines.",
+   "papers_summary": "Research spans impact-based forecasting in Japan, drug resistance prediction in tuberculosis via deep learning, and geospatial analysis of delayed motherhood in India, among other topics."
   },
   "zh": {
-   "brief": "今日焦点包括朱鎔基火化背后的政治逻辑、Z世代用抗焦虑药物替代酒精的趋势，以及中美AI军备竞赛的路线之争；学术界则关注预测市场可视化、不确定性可视化与人类监督等话题。",
-   "news_summary": "中国已故总理朱鎔基火化引发民间悼念与官方提防的复杂张力；Z世代社交焦虑推动药物自我治疗；日本企业AI应用缓慢受到关注；中美AI竞争路径差异成为焦点。",
-   "papers_summary": "研究涉及预测市场可视化与不确定性沟通、基于LLM的定性数据分析框架，以及机器人交互中的多样性设计等方向。"
+   "brief": "今日焦点：中国前总理朱镕基火化引发对其改革时代遗产的审视；GLP-1减肥药对运动表现的影响引发科学争议；世界其他地区则关注特朗普政府的政策动向及澳大利亚山林大火预警。",
+   "news_summary": "中文新闻聚焦中国国内议题，包括朱镕基身后事、民商事律师的风险评估、Z世代抗焦虑药物滥用及减肥药与运动表现的关系。国际新闻则关注特朗普政府、佛罗里达州初选及澳大利亚火灾预警。",
+   "papers_summary": "研究论文涵盖气候预报、海洋环流、公共卫生及机器学习在药物耐药性预测中的应用，展现了广泛的研究领域。"
   }
  },
  "todays_image": {
-  "caption": "The Sputnik music box’s tinny, orbiting melody mirrors the circular, mechanical spin of political attacks and reforms looping through today’s Australian news cycle.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-0699F218A3282_001",
-  "source_name": "National Air and Space Museum",
-  "source_url": "http://n2t.net/ark:/65665/nv9f37ccaff-86b0-48b1-975e-2766942c561e",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-0699F218A3282_001",
-  "title": "Music Box, Sputnik Model"
+  "caption": "The \"Warning poster\" image becomes a grimly fitting foreshadowing of the deadly mushrooms lurking in Erin Patterson's beef wellington, a cautionary tale made real in today's headlines.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2020_2007_2_b",
+  "source_name": "National Postal Museum",
+  "source_url": "https://postalmuseum.si.edu/object/npm_2020.2007.2",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-2020_2007_2_b",
+  "title": "Warning poster"
  }
 }
