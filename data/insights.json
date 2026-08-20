@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
+  "query": "cheese rolling championship OR Gloucestershire cheese rolling",
   "source": {
-   "name": "IGN",
-   "published_at": "2026-08-16T09:10:35Z",
-   "title": "How to Get Atlantic Giant Pumpkin - Grow a Garden 2 [Roblox] Guide",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWE0xZDltN0xxaW9jMHRua01QS2Q1b0FtV2JIaFhsWHB0NmFFYWR4X014TU5pU1MtMUZnMDIxVXpuNmtnRmRkTnhLRFFTMDBhQXRJQ0w2WHBxR1VMaUlVcHEwRWdzd3RubFMyWThMdWVLQjg5c0ZWamo5dHFGallkajZkZ0JFSXBFQ2c?oc=5"
+   "name": "Runner's World",
+   "published_at": "2026-07-27T07:00:00Z",
+   "title": "This Chaotic Cheese-Rolling Race Has No Permit, No Insurance, and No Plans to Stop",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNY2xQUWNoa29tNHVUU3JGYWlEdDZ0NXMwakF0RkhFQzkyZHdaY2ZKd1VTNnNGNTJKTHpFaHV0RjFEelk2cGZ3NWlXT2lGeWNUVWhzVjc0Z213d0pOck1vVGhIY3BTVHA0c3Z1RGhzRUs0Y01QZDJ6T2ZvWlpkTk94WHVJVQ?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A Roblox guide explains how to obtain an Atlantic Giant Pumpkin in the game Grow a Garden 2.",
-    "why_irrelevant": "It's a virtual game item, far from real-world agricultural news."
+    "summary": "An unlicensed, uninsured cheese-rolling race in England continues despite legal risks and chaos.",
+    "why_irrelevant": "It is a niche sporting oddity far from the user's likely tech or lifestyle feed."
    },
    "zh": {
-    "summary": "一份Roblox指南讲解了如何在游戏《Grow a Garden 2》中获得大西洋巨型南瓜。",
-    "why_irrelevant": "它属于虚拟游戏物品，远离现实农业新闻。"
+    "summary": "英国一场无执照、无保险的滚奶酪比赛尽管法律风险高且混乱，仍继续进行。",
+    "why_irrelevant": "这是一种小众的古怪体育赛事，与用户可能关注的科技或生活内容相去甚远。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "competitive cheese rolling"
  },
- "brief": "The world grapples with Russia's massive attack on Kyiv, Australian outrage over Israel's decision on aid worker death, and Prince Harry and Meghan's return to the UK, while research focuses on visual analytics evaluation and sonification of uncertainty.",
+ "brief": "Today's headlines are marked by tragic events and geopolitical tensions, alongside research on improving visual analytics and AI-assisted writing.",
  "meta": {
-  "generated_at": "2026-08-20T08:54:25Z"
+  "generated_at": "2026-08-20T10:45:09Z"
  },
- "news_summary": "Russia's massive missile attack on Kyiv kills at least 13, prompting Ukraine to call for more air defenses. Australia expresses outrage as Israel declines to investigate the killing of aid worker Zomi Frankcom, and Prince Harry and Meghan plan to move back to Britain.",
- "papers_summary": "New papers explore model literacy as a summative evaluation factor for visual analytics and the affective aspects of sonification in uncertainty visualization, while another proposes a multimodal RAG to reduce technician search burden for aircraft maintenance.",
+ "news_summary": "Major news includes a deadly Russian missile attack on Kyiv, a helicopter crash in Kenya killing Ecuador's intelligence chief, and China sentencing Evergrande founder to life in prison. Additionally, North Korea fired missiles after US scaled back drills, and Israel faces criticism for settlement plans.",
+ "papers_summary": "Research highlights include papers on evaluating visual analytics performance, affective sonification for uncertainty visualization, and a multimodal RAG for aircraft maintenance manuals, reflecting a focus on human-computer interaction and applied AI.",
  "summaries": {
   "en": {
-   "brief": "The world grapples with Russia's massive attack on Kyiv, Australian outrage over Israel's decision on aid worker death, and Prince Harry and Meghan's return to the UK, while research focuses on visual analytics evaluation and sonification of uncertainty.",
-   "news_summary": "Russia's massive missile attack on Kyiv kills at least 13, prompting Ukraine to call for more air defenses. Australia expresses outrage as Israel declines to investigate the killing of aid worker Zomi Frankcom, and Prince Harry and Meghan plan to move back to Britain.",
-   "papers_summary": "New papers explore model literacy as a summative evaluation factor for visual analytics and the affective aspects of sonification in uncertainty visualization, while another proposes a multimodal RAG to reduce technician search burden for aircraft maintenance."
+   "brief": "Today's headlines are marked by tragic events and geopolitical tensions, alongside research on improving visual analytics and AI-assisted writing.",
+   "news_summary": "Major news includes a deadly Russian missile attack on Kyiv, a helicopter crash in Kenya killing Ecuador's intelligence chief, and China sentencing Evergrande founder to life in prison. Additionally, North Korea fired missiles after US scaled back drills, and Israel faces criticism for settlement plans.",
+   "papers_summary": "Research highlights include papers on evaluating visual analytics performance, affective sonification for uncertainty visualization, and a multimodal RAG for aircraft maintenance manuals, reflecting a focus on human-computer interaction and applied AI."
   },
   "zh": {
-   "brief": "今日焦点包括台湾普发现金的政治算盘、恒大许家印被判无期徒刑，以及英国王室成员哈里梅根计划返英。",
-   "news_summary": "台湾总统赖清德宣布普发一万元现金，引发K型经济分配与选举考量争论；恒大创始人许家印被判无期徒刑并没收财产；哈里王子与梅根计划迁回英国。",
-   "papers_summary": "研究方面，视觉分析评估、不确定性可视化的情感音效，以及LLM辅助写作中的参与度问题成为关注点。"
+   "brief": "今日新闻聚焦於台灣鞭刑公投與普發現金的社會與政治爭議，恆大許家印被判無期徒刑，以及俄羅斯對基輔的大規模攻擊；研究方面則著重於視覺化與人機互動的評估方法。",
+   "news_summary": "台灣提出鞭刑入法公投引發人權爭議，賴清德宣佈普發一萬元現金；恆大許家印被判無期徒刑；俄羅斯攻擊基輔造成傷亡，同時中國出入境新規引發擔憂。",
+   "papers_summary": "研究論文涵蓋視覺分析評估、不確定性視覺化的聲音呈現、LLM輔助寫作中的脫離現象，以及MRI與社會網絡等領域的應用。"
   }
  },
  "todays_image": {
-  "caption": "Just as the 1918 air raid over Fere-en-Tardenois unleashed physical destruction from above, Trump's threat of economic pain drops financial bombs on nations aiding Iran.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-2003-17779",
-  "source_name": "National Museum of American History",
-  "source_url": null,
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-2003-17779&max=150",
-  "title": "Air Raid, Fere-en-Tardenois"
+  "caption": "Like the Bell Model 30's pioneering lift-off, America's record debt and an experimental skin-cancer vaccine both hover between a bold breakthrough and a risky crash.Just as the Bell Model 30 took a first tentative hop into the unknown, Amer",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2020-11296",
+  "source_name": "National Air and Space Museum",
+  "source_url": "http://n2t.net/ark:/65665/nv945f0c72c-4599-4edd-9737-deae08e8385b",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2020-11296",
+  "title": "Bell Model 30 Ship 1A Genevieve"
  }
 }

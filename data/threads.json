@@ -1,7 +1,7 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-08-20T08:54:25Z",
+  "count": 3,
+  "generated_at": "2026-08-20T10:45:09Z",
   "scope": "public"
  },
  "threads": [
@@ -10,177 +10,136 @@
     {
      "item_id": "dcb3f337339de0a6",
      "phrase": {
-      "en": "frames it as shortages",
-      "zh": "强调防空短缺"
+      "en": "air defense shortages deadly",
+      "zh": "防空短缺致伤亡"
      },
      "section": "news",
      "source": "BBC World",
      "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss"
     },
     {
+     "item_id": "ce3c7e68a8d20bf0",
+     "phrase": {
+      "en": "interceptors depleted, attacks intensify",
+      "zh": "拦截弹耗尽攻击加剧"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/20/world/europe/ukraine-kyiv-missiles-russia-war.html"
+    },
+    {
+     "item_id": "1f7c0caa844373c7",
+     "phrase": {
+      "en": "supermarket warehouses targeted",
+      "zh": "超市仓库遭袭"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/20/world/europe/ukraine-grocery-stores-shortages.html"
+    },
+    {
      "item_id": "450aedd0a16b8b4b",
      "phrase": {
-      "en": "frames it as massive attack",
-      "zh": "称大规模袭击"
+      "en": "death toll rises to 15",
+      "zh": "死亡人数升至15"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/world/live/2026/aug/20/ukraine-volodymyr-zelenskyy-russia-vladimir-putin-kyiv-europe-live-latest-updates"
-    },
-    {
-     "item_id": "0ab954e66fbffbd8",
-     "phrase": {
-      "en": "frames it as heavy bombardment",
-      "zh": "称猛烈轰炸"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/20/ukraine-kyiv-deaths-russian-missile-attack"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Kyiv's skies falter as missiles find their mark.",
-    "zh": "基辅上空防空乏力，导弹屡屡得手。"
+    "en": "Russia's relentless air campaign grinds on, targeting cities and supplies.",
+    "zh": "俄罗斯无情空袭持续，目标指向城市与补给。"
    },
    "id": "t1",
    "keyword": {
-    "en": "Ukraine air defense crisis",
-    "zh": "乌克兰防空危机"
+    "en": "war in Ukraine",
+    "zh": "乌克兰战争"
    },
-   "relates_to": [
-    "t2"
-   ],
+   "relates_to": [],
    "why_now": {
-    "en": "You follow AI and tech, but today's human cost of defense shortfalls is stark—13 dead in Kyiv.",
-    "zh": "你关注AI与科技，但今日基辅防空缺口造成13人遇难，代价惨重。"
+    "en": "You follow geopolitics: today's Kyiv strikes and empty shelves change the war's texture.",
+    "zh": "你关注地缘政治，今日基辅遇袭与空货架改变战事面貌。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "9a4b34ea4b82992d",
+     "item_id": "c00d4b2cb82f3ef7",
      "phrase": {
-      "en": "frames it as insult",
-      "zh": "称其为侮辱"
+      "en": "missiles fired after drill cut",
+      "zh": "削减军演后发射导弹"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/20/zomi-frankcom-deserved-more-slain-aid-workers-family-says-after-israel-rejects-criminal-investigation-ntwnfb"
+     "url": "https://www.theguardian.com/world/2026/aug/20/north-korea-fires-10-missiles-day-after-trump-curtails-south-korea-joint-drills"
     },
     {
-     "item_id": "c9c03e450d659c0a",
+     "item_id": "b4474da8c14bf74b",
      "phrase": {
-      "en": "frames it as outraged",
-      "zh": "称其令人愤怒"
+      "en": "experts warn of risks",
+      "zh": "专家警示风险"
      },
      "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cp87g29r718o?at_medium=RSS&at_campaign=rss"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/20/us/politics/trumps-order-military-exercises-risks.html"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Australia's outrage meets Israel's refusal to investigate.",
-    "zh": "澳大利亚怒火遇上以色列拒绝调查。"
+    "en": "Trump's drill cut with Seoul raises alliance questions.",
+    "zh": "特朗普削减美韩军演引发盟友疑虑。"
    },
    "id": "t2",
    "keyword": {
-    "en": "Zomi Frankcom killing fallout",
-    "zh": "弗兰科姆之死余波"
+    "en": "US-South Korea drills",
+    "zh": "美韩军演"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about global ethics and communication—this diplomatic clash shows how words become action.",
-    "zh": "你关注全球伦理与沟通，这场外交冲突展示言论如何化为行动。"
+    "en": "You track defense policy: the launch after the drill cut tests the new posture.",
+    "zh": "你关注国防政策，军演削减后的发射考验新姿态。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "fb235972af9721c8",
+     "item_id": "ab746b83a6a7beed",
      "phrase": {
-      "en": "frames it as relocation",
-      "zh": "称其移居"
+      "en": "reporting system failed immigrants",
+      "zh": "举报系统辜负移民"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/20/nx-s1-5850361/grievance-ice-detention-immigrants"
+    },
+    {
+     "item_id": "4ecb5638ff252f11",
+     "phrase": {
+      "en": "detention centre culture of fear",
+      "zh": "拘留中心恐惧文化"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/uk-news/2026/aug/19/prince-harry-and-meghan-moving-back-to-britain-this-month"
-    },
-    {
-     "item_id": "2bc5ad69fd941cc1",
-     "phrase": {
-      "en": "frames it as moving back",
-      "zh": "称其回归"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/19/world/europe/prince-harry-meghan-return-uk.html"
-    },
-    {
-     "item_id": "a214648305f5df94",
-     "phrase": {
-      "en": "frames it as timeline",
-      "zh": "提供时间线"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/19/world/europe/harry-meghan-uk-royals-timeline.html"
+     "url": "https://www.theguardian.com/australia-news/2026/aug/20/villawood-detention-centre-conditions-report-ntwnfb"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "The Sussexes sail back to Britain's fold.",
-    "zh": "苏塞克斯夫妇重返英国怀抱。"
+    "en": "Reporting system fails, fueling hunger strikes and unrest.",
+    "zh": "举报系统失效，引发绝食与动荡。"
    },
    "id": "t3",
    "keyword": {
-    "en": "Harry and Meghan return",
-    "zh": "哈里梅根返英"
+    "en": "ice detention failures",
+    "zh": "ICE拘留所失职"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track human stories and media narratives—this move reshapes a royal saga you've followed.",
-    "zh": "你关注人文故事与媒体叙事，此举重塑你关注的王室传奇。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "709bc39afaab3c15",
-     "phrase": {
-      "en": "frames it as dreadful",
-      "zh": "称其恐怖"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/ckg3j3yn4exo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "456e9d0a2e754e51",
-     "phrase": {
-      "en": "frames it as overwhelming",
-      "zh": "称证据确凿"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/australia-news/live/2026/aug/20/erin-patterson-appeal-live-court-mushroom-murders-australia-victoria-ntwnfb"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Prosecutors push for life without parole.",
-    "zh": "检方力推终身监禁不得假释。"
-   },
-   "id": "t4",
-   "keyword": {
-    "en": "Mushroom killer appeal",
-    "zh": "蘑菇杀手上诉"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow true crime and justice arcs—this appeal's outcome could set precedent.",
-    "zh": "你关注真实犯罪与正义叙事，此次上诉结果或成先例。"
+    "en": "You care about human rights and institutional critique: this failure is systematic.",
+    "zh": "你关注人权与制度批判，此失职是系统性的。"
    }
   }
  ]
