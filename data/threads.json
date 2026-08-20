@@ -1,76 +1,37 @@
 {
  "meta": {
-  "count": 5,
-  "generated_at": "2026-08-20T07:03:40Z",
+  "count": 4,
+  "generated_at": "2026-08-20T08:54:25Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "2bc5ad69fd941cc1",
-     "phrase": {
-      "en": "confirms move, non-working status",
-      "zh": "确认迁居，非在职身份"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/19/world/europe/prince-harry-meghan-return-uk.html"
-    },
-    {
-     "item_id": "a214648305f5df94",
-     "phrase": {
-      "en": "timeline of break and return",
-      "zh": "决裂与回归时间线"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/19/world/europe/harry-meghan-uk-royals-timeline.html"
-    },
-    {
-     "item_id": "fb235972af9721c8",
-     "phrase": {
-      "en": "reports relocation this month",
-      "zh": "报道本月迁居"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/uk-news/2026/aug/19/prince-harry-and-meghan-moving-back-to-britain-this-month"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Prince Harry and Meghan plan to move back to the UK, staying as non-working royals.",
-    "zh": "哈里与梅根计划返回英国，但仍为非在职王室成员。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "royal return",
-    "zh": "王室回归"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow international news: the couple's return reshapes royal dynamics.",
-    "zh": "你关注国际新闻，这对夫妇的回归重塑王室动态。"
-   }
-  },
-  {
-   "angles": [
-    {
      "item_id": "dcb3f337339de0a6",
      "phrase": {
-      "en": "at least 12 killed",
-      "zh": "至少12人遇难"
+      "en": "frames it as shortages",
+      "zh": "强调防空短缺"
      },
      "section": "news",
      "source": "BBC World",
      "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss"
     },
     {
+     "item_id": "450aedd0a16b8b4b",
+     "phrase": {
+      "en": "frames it as massive attack",
+      "zh": "称大规模袭击"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/aug/20/ukraine-volodymyr-zelenskyy-russia-vladimir-putin-kyiv-europe-live-latest-updates"
+    },
+    {
      "item_id": "0ab954e66fbffbd8",
      "phrase": {
-      "en": "children's hospital hit",
-      "zh": "儿童医院遇袭"
+      "en": "frames it as heavy bombardment",
+      "zh": "称猛烈轰炸"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -79,135 +40,147 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Russian attacks on Kyiv kill civilians amid air defense shortages.",
-    "zh": "俄罗斯袭击基辅致平民死亡，防空短缺严重。"
+    "en": "Kyiv's skies falter as missiles find their mark.",
+    "zh": "基辅上空防空乏力，导弹屡屡得手。"
    },
-   "id": "t2",
+   "id": "t1",
    "keyword": {
-    "en": "Ukraine air defense",
-    "zh": "乌克兰防空"
+    "en": "Ukraine air defense crisis",
+    "zh": "乌克兰防空危机"
    },
-   "relates_to": [],
+   "relates_to": [
+    "t2"
+   ],
    "why_now": {
-    "en": "You track geopolitical crises: today's strikes highlight defense gaps.",
-    "zh": "你关注地缘危机，今日袭击凸显防务缺口。"
+    "en": "You follow AI and tech, but today's human cost of defense shortfalls is stark—13 dead in Kyiv.",
+    "zh": "你关注AI与科技，但今日基辅防空缺口造成13人遇难，代价惨重。"
    }
   },
   {
    "angles": [
     {
+     "item_id": "9a4b34ea4b82992d",
+     "phrase": {
+      "en": "frames it as insult",
+      "zh": "称其为侮辱"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/20/zomi-frankcom-deserved-more-slain-aid-workers-family-says-after-israel-rejects-criminal-investigation-ntwnfb"
+    },
+    {
      "item_id": "c9c03e450d659c0a",
      "phrase": {
-      "en": "outrage, no investigation",
-      "zh": "愤怒，无调查"
+      "en": "frames it as outraged",
+      "zh": "称其令人愤怒"
      },
      "section": "news",
      "source": "BBC World",
      "url": "https://www.bbc.co.uk/news/articles/cp87g29r718o?at_medium=RSS&at_campaign=rss"
-    },
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Australia's outrage meets Israel's refusal to investigate.",
+    "zh": "澳大利亚怒火遇上以色列拒绝调查。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "Zomi Frankcom killing fallout",
+    "zh": "弗兰科姆之死余波"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about global ethics and communication—this diplomatic clash shows how words become action.",
+    "zh": "你关注全球伦理与沟通，这场外交冲突展示言论如何化为行动。"
+   }
+  },
+  {
+   "angles": [
     {
-     "item_id": "255b8b200f500e6d",
+     "item_id": "fb235972af9721c8",
      "phrase": {
-      "en": "condemns insulting decision",
-      "zh": "谴责侮辱性决定"
+      "en": "frames it as relocation",
+      "zh": "称其移居"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/australia-news/2026/aug/20/australia-idf-reaction-gaza-strike-zomi-frankcom-penny-wong-statement-ntwnfb"
+     "url": "https://www.theguardian.com/uk-news/2026/aug/19/prince-harry-and-meghan-moving-back-to-britain-this-month"
+    },
+    {
+     "item_id": "2bc5ad69fd941cc1",
+     "phrase": {
+      "en": "frames it as moving back",
+      "zh": "称其回归"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/19/world/europe/prince-harry-meghan-return-uk.html"
+    },
+    {
+     "item_id": "a214648305f5df94",
+     "phrase": {
+      "en": "frames it as timeline",
+      "zh": "提供时间线"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/19/world/europe/harry-meghan-uk-royals-timeline.html"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Australia outraged as Israel declines to probe killing of aid worker.",
-    "zh": "以色列拒查援助者之死，澳大利亚愤怒。"
+    "en": "The Sussexes sail back to Britain's fold.",
+    "zh": "苏塞克斯夫妇重返英国怀抱。"
    },
    "id": "t3",
    "keyword": {
-    "en": "aid worker justice",
-    "zh": "援助者正义"
+    "en": "Harry and Meghan return",
+    "zh": "哈里梅根返英"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about international law: this decision impacts accountability.",
-    "zh": "你关注国际法，此决定影响问责。"
+    "en": "You track human stories and media narratives—this move reshapes a royal saga you've followed.",
+    "zh": "你关注人文故事与媒体叙事，此举重塑你关注的王室传奇。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "32e8774b5899ef01",
+     "item_id": "709bc39afaab3c15",
      "phrase": {
-      "en": "economic pressure new phase",
-      "zh": "经济施压新阶段"
+      "en": "frames it as dreadful",
+      "zh": "称其恐怖"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/ckg3j3yn4exo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "456e9d0a2e754e51",
+     "phrase": {
+      "en": "frames it as overwhelming",
+      "zh": "称证据确凿"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/20/trump-threatens-crush-iran-economy-war-hormuz"
-    },
-    {
-     "item_id": "698133865befef95",
-     "phrase": {
-      "en": "unspecified actions, past bluffs",
-      "zh": "未定行动，过往虚张"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/19/us/politics/trump-sanctions-iran.html"
+     "url": "https://www.theguardian.com/australia-news/live/2026/aug/20/erin-patterson-appeal-live-court-mushroom-murders-australia-victoria-ntwnfb"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "Trump threatens economic action against Iran's partners, shifting from military.",
-    "zh": "特朗普威胁对伊朗伙伴经济行动，转变军事策略。"
+    "en": "Prosecutors push for life without parole.",
+    "zh": "检方力推终身监禁不得假释。"
    },
    "id": "t4",
    "keyword": {
-    "en": "Trump Iran threats",
-    "zh": "特朗普伊朗威胁"
+    "en": "Mushroom killer appeal",
+    "zh": "蘑菇杀手上诉"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You monitor US foreign policy: this pivot affects global trade.",
-    "zh": "你关注美国外交，此转变影响全球贸易。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "24e37f85479f9be1",
-     "phrase": {
-      "en": "professor admits AI editing",
-      "zh": "教授承认AI编辑"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/aug/19/uc-berkeley-professor-ai"
-    },
-    {
-     "item_id": "02e49de861fb74cf",
-     "phrase": {
-      "en": "AI-assisted writing disengagement",
-      "zh": "AI辅助写作脱离"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.17326v2"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "AI tools reshape writing and editing, raising academic integrity questions.",
-    "zh": "AI工具重塑写作与编辑，引发学术诚信问题。"
-   },
-   "id": "t5",
-   "keyword": {
-    "en": "AI in writing",
-    "zh": "AI写作"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You study human-computer interaction: this case shows AI's role in academia.",
-    "zh": "你研究人机交互，此案例显示AI在学术中的作用。"
+    "en": "You follow true crime and justice arcs—this appeal's outcome could set precedent.",
+    "zh": "你关注真实犯罪与正义叙事，此次上诉结果或成先例。"
    }
   }
  ]
