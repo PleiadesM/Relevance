@@ -1,7 +1,7 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-08-20T20:44:04Z",
+  "count": 5,
+  "generated_at": "2026-08-20T22:42:27Z",
   "scope": "public"
  },
  "threads": [
@@ -11,158 +11,224 @@
      "full_text_file": "articles/news/405394dc0504d1e8.json",
      "item_id": "405394dc0504d1e8",
      "phrase": {
-      "en": "Frames as data exfiltration risk",
-      "zh": "视为数据外泄风险"
+      "en": "Crypto attack steals user data",
+      "zh": "加密攻击窃取用户数据"
      },
      "section": "news",
      "source": "Ars Technica · AI",
      "url": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/"
     },
     {
-     "full_text_file": "articles/news/2c476df832c24754.json",
-     "item_id": "2c476df832c24754",
+     "item_id": "998edc7f469ef712",
      "phrase": {
-      "en": "Frames as distraction from real issues",
-      "zh": "视为分散注意力的争论"
+      "en": "AI borrowing inflates bond yields",
+      "zh": "AI借贷推高债券收益"
      },
      "section": "news",
-     "source": "MIT Technology Review · AI",
-     "url": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/20/business/bond-yields-tech-ai-debt.html"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "AI's dark corners hide risks of data leaks and consciousness debates.",
-    "zh": "AI的阴暗角落隐藏数据泄露与意识争论的风险。"
+    "en": "AI's dark side emerges as vulnerabilities and economic impacts surface.",
+    "zh": "AI的阴暗面显现，漏洞与经济影响浮出水面。"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI safety",
-    "zh": "AI安全"
+    "en": "AI safety & security",
+    "zh": "AI安全与安保"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about LLM safety: today's Grok exploit and consciousness trap debate show new attack surfaces.",
-    "zh": "你关注LLM安全，今日Grok漏洞与意识辩论揭示新攻击面。"
+    "en": "You track AI: today's reports on data exfiltration and bond yields show AI's dual edge.",
+    "zh": "你关注AI，今日数据泄露与债券收益报道显示AI双刃剑。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "af17eb4931bad19b",
+     "item_id": "3e1b869d42da4fc8",
      "phrase": {
-      "en": "Frames as accessibility in visualization",
-      "zh": "可视化中的无障碍"
+      "en": "Why they're coming home now",
+      "zh": "为何此时归家"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.17039v1"
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/20/world/europe/harry-meghan-britain-return.html"
     },
     {
-     "item_id": "32c99ae8f8dcd76b",
+     "item_id": "81f4f8f5514bd1b4",
      "phrase": {
-      "en": "Frames as AI for cognitive impairment",
-      "zh": "面向认知障碍的AI"
+      "en": "Security funding is private matter",
+      "zh": "安保费用属私事"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.17175v1"
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/uk-news/2026/aug/20/harry-and-meghan-security-funding-on-uk-return-is-private-matter-burnham-says"
+    },
+    {
+     "item_id": "52d7d9be184278ad",
+     "phrase": {
+      "en": "Neighbors indifferent to departure",
+      "zh": "邻居对离开漠然"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/20/us/prince-harry-meghan-montecito-california-uk.html"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Designs that open data to minds, not just eyes.",
-    "zh": "设计让数据触及心智，而非仅眼睛。"
+    "en": "Harry and Meghan head back to the UK, blending personal with political.",
+    "zh": "哈里与梅根返英，个人与政治交织。"
    },
    "id": "t2",
    "keyword": {
-    "en": "cognitive accessibility",
-    "zh": "认知无障碍"
+    "en": "royal return",
+    "zh": "王室回归"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You study HCI and accessibility: two new papers reframe visualization and AI for cognitive needs.",
-    "zh": "你研究人机交互与无障碍，两篇新论文重构可视化与AI的认知需求。"
+    "en": "You value narrative shifts: the Sussexes' move is a cultural story with security angles.",
+    "zh": "你重视叙事转变，苏塞克斯家族动向是具安全角度的文化故事。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "02e49de861fb74cf",
+     "item_id": "0ab954e66fbffbd8",
      "phrase": {
-      "en": "Frames as procedural collapse",
-      "zh": "视为程序性崩溃"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.17326v2"
-    },
-    {
-     "item_id": "acf6467dd735b052",
-     "phrase": {
-      "en": "Frames as new coding approach",
-      "zh": "视为新编码方法"
+      "en": "16 killed in intense bombardment",
+      "zh": "猛烈轰炸致16死"
      },
      "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://www.danielvaughn.dev/posts/huzzah/"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/20/ukraine-kyiv-deaths-russian-missile-attack"
+    },
+    {
+     "item_id": "dcb3f337339de0a6",
+     "phrase": {
+      "en": "Critical infrastructure hit deliberately",
+      "zh": "蓄意打击关键设施"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "fd861449a7243068",
+     "phrase": {
+      "en": "Aircraft carrier departs weary",
+      "zh": "疲惫航母撤离"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/20/briefing/aircraft-carrier-ukraine-russia-missiles.html"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "AI writing tools can unravel when structure fails.",
-    "zh": "AI写作工具在结构失效时可能瓦解。"
+    "en": "Heavy strikes on Kyiv and Russian advances signal a grim phase.",
+    "zh": "基辅遭重创，俄方推进标志严峻阶段。"
    },
    "id": "t3",
    "keyword": {
-    "en": "LLM-assisted writing",
-    "zh": "LLM辅助写作"
+    "en": "Ukraine war escalation",
+    "zh": "乌克兰战争升级"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about technical communication: a new paper dissects why LLM writing disengages students.",
-    "zh": "你关注技术传播，新论文剖析LLM写作为何让学生脱离。"
+    "en": "You follow global conflict: today's attacks redefine the war's trajectory.",
+    "zh": "你关注全球冲突，今日袭击重定战争轨迹。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "9636ce590c77f70c",
+     "item_id": "8cd298c6bb8871a6",
      "phrase": {
-      "en": "Frames as model literacy metric",
-      "zh": "视为模型素养指标"
+      "en": "Senator visits detention center",
+      "zh": "参议员探访拘留中心"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.18721v1"
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/20/nyregion/senator-andy-kim-delaney-hall-detainee-deaths.html"
     },
     {
-     "item_id": "b8aed1aaa0f69f70",
+     "item_id": "92a3389ec850c85a",
      "phrase": {
-      "en": "Frames as diagnostic imaging value",
-      "zh": "视为诊断影像价值"
+      "en": "Brain injury during ICE arrest",
+      "zh": "ICE逮捕致脑损伤"
      },
-     "section": "papers",
-     "source": "OpenAlex · information visualization",
-     "url": "https://doi.org/10.1186/s43055-026-01843-8"
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/20/ice-arrest-brain-injury-virginia"
+    },
+    {
+     "item_id": "964379ebcd33ef51",
+     "phrase": {
+      "en": "Voter roll claims exaggerated",
+      "zh": "选民名册说法夸大"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/20/us/politics/trump-nevada-voter-election-fraud.html"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Visual analytics needs new metrics to judge model literacy.",
-    "zh": "视觉分析需要新指标评估模型素养。"
+    "en": "Immigration actions face scrutiny over rights and fairness.",
+    "zh": "移民行动面临权利与公正审视。"
    },
    "id": "t4",
    "keyword": {
-    "en": "data visualization",
-    "zh": "数据可视化"
+    "en": "immigration enforcement",
+    "zh": "移民执法"
    },
-   "relates_to": [
-    "t2"
-   ],
+   "relates_to": [],
    "why_now": {
-    "en": "You work on visualization: one paper proposes a fresh evaluation factor for visual analytics.",
-    "zh": "你从事可视化，一篇论文提出视觉分析的新评估因素。"
+    "en": "You care about human-centered policy: ICE cases raise urgent questions.",
+    "zh": "你关注以人为本政策，ICE案件引发紧迫问题。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "05ac42a339cf6717",
+     "phrase": {
+      "en": "Canadian official hopeful",
+      "zh": "加方官员感希望"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/20/world/canada/trump-carney-tariffs-trade-deal.html"
+    },
+    {
+     "item_id": "aefb9ada7d430058",
+     "phrase": {
+      "en": "Sanctions to crush Iran economy",
+      "zh": "制裁压垮伊朗经济"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c87n90eg0p2o?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "US-Canada trade talks teeter between hope and hardline posturing.",
+    "zh": "美加贸易谈判在希望与强硬间摇摆。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "transatlantic relations",
+    "zh": "跨大西洋关系"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You analyze international systems: tariff deadlines test alliance stability.",
+    "zh": "你分析国际体系，关税期限考验联盟稳定。"
    }
   }
  ]
