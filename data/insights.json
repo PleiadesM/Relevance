@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "snail racing championship OR world snail racing",
+  "query": "snail racing championships OR world snail racing",
   "source": {
-   "name": "eastangliabylines.co.uk",
+   "name": "East Anglia Bylines",
    "published_at": "2026-08-01T16:09:16Z",
    "title": "Ready – steady – slow. World Championship snail race",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdTI4WFE3WGRYNS1lRjNLcEdWUmhKdm9IdzAzVWtRUklfX1cteERaQW5wUEZEWkx3WUFsR3EyUWtqS0hfNl9JcFJSaEc4cnlNamIwTDZta0Item1XSHpRaVlwRm94N1B6N2NYa1U1bnlleERTWUxNZDFkcXF5cVRneTJ2Vl9sd2t3VGlJZjlZeWFWb3ROWksyNkNYMVpCcnM?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "The World Championship snail race in East Anglia celebrates the slowest of creatures, where spectators cheer on gastropods in a test of patience and speed.",
-    "why_irrelevant": "A whimsical offbeat event far removed from typical news and personal interests."
+    "summary": "Competitive snail racing reaches its pinnacle at the World Championship in East Anglia.",
+    "why_irrelevant": "A deliberately distant detour from the feed."
    },
    "zh": {
-    "summary": "东盎格利亚的世界蜗牛赛跑锦标赛以最慢的生物为看点，观众在耐心与速度的考验中为腹足动物加油。",
-    "why_irrelevant": "这是一场离奇古怪的活动，与常规新闻和个人兴趣相去甚远。"
+    "summary": "竞争性蜗牛赛跑在东英吉利亚的世界锦标赛中达到顶峰。",
+    "why_irrelevant": "刻意远离信息流的岔路。"
    }
   },
   "topic": "competitive snail racing"
  },
- "brief": "Today's news spans geopolitics, royal returns, and legal appeals, while papers explore technical communication, visual analytics, and academic innovations.",
+ "brief": "Today's news is marked by tragedy and tension, from the death of a missing teen hiker in Australia to Israeli military accountability and geopolitical strains, while research highlights advances in visual analytics, sonification, and LLM-assisted writing.",
  "meta": {
-  "generated_at": "2026-08-20T03:08:24Z"
+  "generated_at": "2026-08-20T04:50:53Z"
  },
- "news_summary": "Key events include Israel's decision on an aid worker's killing, Missouri's congressional map ruling, Trump's threats over Iran, and Prince Harry and Meghan's planned UK return.",
- "papers_summary": "Research highlights include a master's program in Kenya, DACUM roles in technical communication, model literacy in visual analytics, and sonification for uncertainty visualization.",
+ "news_summary": "Key stories include the discovery of a missing teen hiker's body, Australia's outrage over Israel's decision not to prosecute for an aid worker's death, a Russian missile attack on Kyiv, and political developments in the US, UK, and elsewhere.",
+ "papers_summary": "Papers focus on improving visual analytics evaluation, exploring emotional aspects of sonification for uncertainty, and addressing disengagement in LLM-assisted writing, alongside diverse studies from MRI to social networks.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans geopolitics, royal returns, and legal appeals, while papers explore technical communication, visual analytics, and academic innovations.",
-   "news_summary": "Key events include Israel's decision on an aid worker's killing, Missouri's congressional map ruling, Trump's threats over Iran, and Prince Harry and Meghan's planned UK return.",
-   "papers_summary": "Research highlights include a master's program in Kenya, DACUM roles in technical communication, model literacy in visual analytics, and sonification for uncertainty visualization."
+   "brief": "Today's news is marked by tragedy and tension, from the death of a missing teen hiker in Australia to Israeli military accountability and geopolitical strains, while research highlights advances in visual analytics, sonification, and LLM-assisted writing.",
+   "news_summary": "Key stories include the discovery of a missing teen hiker's body, Australia's outrage over Israel's decision not to prosecute for an aid worker's death, a Russian missile attack on Kyiv, and political developments in the US, UK, and elsewhere.",
+   "papers_summary": "Papers focus on improving visual analytics evaluation, exploring emotional aspects of sonification for uncertainty, and addressing disengagement in LLM-assisted writing, alongside diverse studies from MRI to social networks."
   },
   "zh": {
-   "brief": "今日新闻聚焦中国出入境新规、法国公务员下药丑闻、机器人公司上市暴涨及动画《牛来》爆红；学术方面关注视觉分析评估与LLM辅助写作中的脱节问题。",
-   "news_summary": "中国出入境新规引发民众担忧，法国公务员被指控下药，宇树科技上市首日股价飙升近五倍，动画《牛来》意外走红。",
-   "papers_summary": "视觉分析评估研究提出模型素养新因素，LLM辅助写作研究揭示程序性脱节现象。"
+   "brief": "今日焦点集中在台湾鞭刑公投争议、哈里王子夫妇返英、中国出入境新规，以及宇树科技上市暴涨。研究方面则探讨视觉分析评估、AI写作中的脱离现象等。",
+   "news_summary": "台湾鞭刑公投引发人权争议；哈里与梅根计划迁回英国；中国新出入境规定引发担忧；宇树科技上市首日股价大涨。",
+   "papers_summary": "研究涉及视觉分析评估的新框架、不确定性可视化的声音情感、AI辅助写作中的脱节现象，以及飞机维护手册的多模态RAG应用。"
   }
  },
  "todays_image": {
-  "caption": "Just as the compass once guided sailors through uncharted seas, this ruling leaves the search for justice in Zomi Frankcom's killing without a clear moral direction.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-9707_01-000001",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/9707",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-9707_01-000001",
-  "title": "The Invention of the Compass"
+  "caption": "Like the Apollo 8 recovery net reaching into an unforgiving ocean, the search for the missing hiker was a desperate, ultimately futile grasp against the vast indifference of the bush.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19700321000_PS01",
+  "source_name": "National Air and Space Museum",
+  "source_url": "http://n2t.net/ark:/65665/nv9bc553881-ab8d-4b7e-a89f-6c034d1ebc0f",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19700321000_PS01",
+  "title": "Rescue Net, Apollo 8"
  }
 }

@@ -1,106 +1,86 @@
 {
  "meta": {
-  "count": 5,
-  "generated_at": "2026-08-20T03:08:24Z",
+  "count": 4,
+  "generated_at": "2026-08-20T04:50:53Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "2bc5ad69fd941cc1",
+     "item_id": "d155839a1b273751",
      "phrase": {
-      "en": "frames as a decision",
-      "zh": "视为一项决定"
+      "en": "reports death after search",
+      "zh": "报道搜救后身亡"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/19/world/europe/prince-harry-meghan-return-uk.html"
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c304e2dlv20o?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "a214648305f5df94",
+     "item_id": "c8487a10823c04d8",
      "phrase": {
-      "en": "frames as a timeline",
-      "zh": "视为时间线"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/19/world/europe/harry-meghan-uk-royals-timeline.html"
-    },
-    {
-     "item_id": "fb235972af9721c8",
-     "phrase": {
-      "en": "frames as a report",
-      "zh": "视为报道"
+      "en": "details heartbreaking discovery",
+      "zh": "详述令人心碎的发现"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/uk-news/2026/aug/19/prince-harry-and-meghan-moving-back-to-britain-this-month"
+     "url": "https://www.theguardian.com/australia-news/2026/aug/20/lily-hooper-missing-hiker-found-dead-nsw-national-park"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Harry and Meghan move back to the UK, six years after stepping away.",
-    "zh": "哈利与梅根在离开六年后迁回英国。"
+    "en": "A young hiker's disappearance ends in tragedy after an eight-day search.",
+    "zh": "一名年轻徒步者失踪，八天搜寻以悲剧告终。"
    },
    "id": "t1",
    "keyword": {
-    "en": "royal return",
-    "zh": "王室回归"
+    "en": "missing hiker found dead",
+    "zh": "失踪徒步者身亡"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track media narratives: today’s reports reframe the Sussexes’ transatlantic story.",
-    "zh": "你关注媒体叙事，今日报道重写苏塞克斯的跨洋故事。"
+    "en": "You follow human stories and risk communication: today the search outcome shifts from hope to grief.",
+    "zh": "你关注人类故事与风险传播：今日搜救结果由希望转为悲痛。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "ab5b335d39dda59f",
-     "phrase": {
-      "en": "frames as a live event",
-      "zh": "视为实时事件"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/australia-news/live/2026/aug/20/australian-politics-live-penny-wong-labor-government-anthony-albanese-gambling-ndis-question-time-angus-taylor-pauline-hanson-ntwnfb"
-    },
-    {
-     "item_id": "c9c03e450d659c0a",
-     "phrase": {
-      "en": "frames as an insult",
-      "zh": "视为侮辱"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cp87g29r718o?at_medium=RSS&at_campaign=rss"
-    },
-    {
      "item_id": "255b8b200f500e6d",
      "phrase": {
-      "en": "frames as condemnation",
-      "zh": "视为谴责"
+      "en": "condemns 'insulting' decision",
+      "zh": "谴责'侮辱性'决定"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/australia-news/2026/aug/20/australia-idf-reaction-gaza-strike-zomi-frankcom-penny-wong-statement-ntwnfb"
+    },
+    {
+     "item_id": "c9c03e450d659c0a",
+     "phrase": {
+      "en": "summons ambassador over killing",
+      "zh": "就杀害事件召见大使"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cp87g29r718o?at_medium=RSS&at_campaign=rss"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Australia reacts with outrage as Israel clears its forces over an aid worker’s death.",
-    "zh": "以色列为援助人员之死免责，澳大利亚愤慨回应。"
+    "en": "Australia's anger over Israel's decision not to prosecute in aid worker's death.",
+    "zh": "澳大利亚对以色列不起诉援助人员之死感到愤怒。"
    },
    "id": "t2",
    "keyword": {
-    "en": "IDF accountability",
-    "zh": "以军问责"
+    "en": "Israel-Australia diplomatic rift",
+    "zh": "以色列与澳大利亚外交裂痕"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow geopolitics: this dispute could reshape diplomatic ties and legal norms.",
-    "zh": "你关注地缘政治，此争端或重塑外交与法律规范。"
+    "en": "You track geopolitical tensions and human rights: today Australia escalates rhetoric and summons ambassador.",
+    "zh": "你关注地缘政治与人权：今日澳大利亚升级言论并召见大使。"
    }
   },
   {
@@ -108,8 +88,8 @@
     {
      "item_id": "24e37f85479f9be1",
      "phrase": {
-      "en": "frames as an admission",
-      "zh": "视为承认"
+      "en": "professor used AI to edit",
+      "zh": "教授使用AI编辑"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -118,8 +98,8 @@
     {
      "item_id": "02e49de861fb74cf",
      "phrase": {
-      "en": "frames as structural disengagement",
-      "zh": "视为结构性脱离"
+      "en": "LLM writing leads to disengagement",
+      "zh": "LLM写作导致脱离"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
@@ -128,96 +108,67 @@
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "A professor admits AI helped edit her op-ed, stirring debate over machine writing.",
-    "zh": "教授承认用AI编辑评论，引发机器写作之争。"
+    "en": "AI's role in classrooms and writing is scrutinized from ethics to disengagement.",
+    "zh": "人工智能在课堂和写作中的角色从伦理到脱离参与受到审视。"
    },
    "id": "t3",
    "keyword": {
-    "en": "AI authorship",
-    "zh": "AI署名"
+    "en": "AI in education and writing",
+    "zh": "人工智能与教育写作"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You study HCI and writing: this case tests authorship boundaries in the AI age.",
-    "zh": "你研究人机交互与写作，此案测试AI时代的作者界限。"
+    "en": "You care about human-computer interaction and AI: today a professor admits AI editing and a paper links LLM use to disengagement.",
+    "zh": "你关心人机交互与AI：今日一位教授承认使用AI编辑，且有论文联系LLM使用与脱离。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "bf2e183802b87d61",
+     "item_id": "2bc5ad69fd941cc1",
      "phrase": {
-      "en": "frames as a loyalty story",
-      "zh": "视为忠诚故事"
+      "en": "reporting return to UK",
+      "zh": "报道返英"
      },
      "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c80nzdjgmk3o?at_medium=RSS&at_campaign=rss"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/19/world/europe/prince-harry-meghan-return-uk.html"
     },
     {
-     "item_id": "f73b38b4e7ad9e51",
+     "item_id": "a214648305f5df94",
      "phrase": {
-      "en": "frames as false claims",
-      "zh": "视为虚假指控"
+      "en": "timeline of their break",
+      "zh": "他们决裂的时间线"
      },
      "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/19/nx-s1-5938799/trump-census-bureau-noncitizen-voting"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Trump touts a disputed Census report on noncitizen voting, sparking expert alarms.",
-    "zh": "特朗普引用受争议的人口普查报告，专家敲响警钟。"
-   },
-   "id": "t4",
-   "keyword": {
-    "en": "election integrity",
-    "zh": "选举诚信"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You care about data-driven claims: misinformation can skew public trust and policy.",
-    "zh": "你关注数据驱动的主张，谣言可扭曲信任与政策。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "a5ac77ae1cc4ffc3",
-     "phrase": {
-      "en": "frames as testimony",
-      "zh": "视为证词"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/19/nx-s1-5936648/meta-trial-arturo-bejar-whistleblower-testimony"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/19/world/europe/harry-meghan-uk-royals-timeline.html"
     },
     {
-     "item_id": "f55a874c00b7b5e4",
+     "item_id": "fb235972af9721c8",
      "phrase": {
-      "en": "frames as AI impact",
-      "zh": "视为AI影响"
+      "en": "plans to move this month",
+      "zh": "计划本月搬回"
      },
      "section": "news",
-     "source": "Simon Willison",
-     "url": "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/uk-news/2026/aug/19/prince-harry-and-meghan-moving-back-to-britain-this-month"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "A whistleblower testifies against Meta, spotlighting platform accountability for child safety.",
-    "zh": "举报人作证指控Meta，聚焦平台对儿童安全的责任。"
+    "en": "Harry and Meghan's planned move back to Britain marks a new chapter.",
+    "zh": "哈里与梅根计划返英开启新篇章。"
    },
-   "id": "t5",
+   "id": "t4",
    "keyword": {
-    "en": "tech regulation",
-    "zh": "科技监管"
+    "en": "royal return to UK",
+    "zh": "王室成员返英"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You study HCI and ethics: this trial could set precedents for platform design oversight.",
-    "zh": "你研究人机交互与伦理，此案可能为平台设计监督开先例。"
+    "en": "You follow media narratives and visual rhetoric: the Sussexes' return reshapes their public image.",
+    "zh": "你关注媒体叙事与视觉修辞：苏塞克斯夫妇回归重塑公众形象。"
    }
   }
  ]
