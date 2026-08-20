@@ -1,0 +1,169 @@
+{
+ "meta": {
+  "count": 4,
+  "generated_at": "2026-08-20T20:44:04Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "full_text_file": "articles/news/405394dc0504d1e8.json",
+     "item_id": "405394dc0504d1e8",
+     "phrase": {
+      "en": "Frames as data exfiltration risk",
+      "zh": "视为数据外泄风险"
+     },
+     "section": "news",
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/"
+    },
+    {
+     "full_text_file": "articles/news/2c476df832c24754.json",
+     "item_id": "2c476df832c24754",
+     "phrase": {
+      "en": "Frames as distraction from real issues",
+      "zh": "视为分散注意力的争论"
+     },
+     "section": "news",
+     "source": "MIT Technology Review · AI",
+     "url": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "AI's dark corners hide risks of data leaks and consciousness debates.",
+    "zh": "AI的阴暗角落隐藏数据泄露与意识争论的风险。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI safety",
+    "zh": "AI安全"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about LLM safety: today's Grok exploit and consciousness trap debate show new attack surfaces.",
+    "zh": "你关注LLM安全，今日Grok漏洞与意识辩论揭示新攻击面。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "af17eb4931bad19b",
+     "phrase": {
+      "en": "Frames as accessibility in visualization",
+      "zh": "可视化中的无障碍"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.17039v1"
+    },
+    {
+     "item_id": "32c99ae8f8dcd76b",
+     "phrase": {
+      "en": "Frames as AI for cognitive impairment",
+      "zh": "面向认知障碍的AI"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.17175v1"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Designs that open data to minds, not just eyes.",
+    "zh": "设计让数据触及心智，而非仅眼睛。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "cognitive accessibility",
+    "zh": "认知无障碍"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You study HCI and accessibility: two new papers reframe visualization and AI for cognitive needs.",
+    "zh": "你研究人机交互与无障碍，两篇新论文重构可视化与AI的认知需求。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "02e49de861fb74cf",
+     "phrase": {
+      "en": "Frames as procedural collapse",
+      "zh": "视为程序性崩溃"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.17326v2"
+    },
+    {
+     "item_id": "acf6467dd735b052",
+     "phrase": {
+      "en": "Frames as new coding approach",
+      "zh": "视为新编码方法"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://www.danielvaughn.dev/posts/huzzah/"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "AI writing tools can unravel when structure fails.",
+    "zh": "AI写作工具在结构失效时可能瓦解。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "LLM-assisted writing",
+    "zh": "LLM辅助写作"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about technical communication: a new paper dissects why LLM writing disengages students.",
+    "zh": "你关注技术传播，新论文剖析LLM写作为何让学生脱离。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "9636ce590c77f70c",
+     "phrase": {
+      "en": "Frames as model literacy metric",
+      "zh": "视为模型素养指标"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.18721v1"
+    },
+    {
+     "item_id": "b8aed1aaa0f69f70",
+     "phrase": {
+      "en": "Frames as diagnostic imaging value",
+      "zh": "视为诊断影像价值"
+     },
+     "section": "papers",
+     "source": "OpenAlex · information visualization",
+     "url": "https://doi.org/10.1186/s43055-026-01843-8"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Visual analytics needs new metrics to judge model literacy.",
+    "zh": "视觉分析需要新指标评估模型素养。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "data visualization",
+    "zh": "数据可视化"
+   },
+   "relates_to": [
+    "t2"
+   ],
+   "why_now": {
+    "en": "You work on visualization: one paper proposes a fresh evaluation factor for visual analytics.",
+    "zh": "你从事可视化，一篇论文提出视觉分析的新评估因素。"
+   }
+  }
+ ]
+}

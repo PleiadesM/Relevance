@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "snail racing championship OR world snail racing",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "East Anglia Bylines",
-   "published_at": "2026-08-01T16:09:16Z",
-   "title": "Ready – steady – slow. World Championship snail race",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdTI4WFE3WGRYNS1lRjNLcEdWUmhKdm9IdzAzVWtRUklfX1cteERaQW5wUEZEWkx3WUFsR3EyUWtqS0hfNl9JcFJSaEc4cnlNamIwTDZta0Item1XSHpRaVlwRm94N1B6N2NYa1U1bnlleERTWUxNZDFkcXF5cVRneTJ2Vl9sd2t3VGlJZjlZeWFWb3ROWksyNkNYMVpCcnM?oc=5"
+   "name": "kuban24.tv",
+   "published_at": "2026-08-20T12:45:00Z",
+   "title": "Гигантскую тыкву весом 400 кг вырастила жительница Славянского района",
+   "url": "https://kuban24.tv/item/gigantskuyu-tykvu-vesom-400-kg-vyrastila-zhitelnitsa-slavyanskogo-rajona"
   },
   "summaries": {
    "en": {
-    "summary": "The World Championship snail race in East Anglia celebrates the slowest pace in competitive sport.",
-    "why_irrelevant": "It's a whimsical, slow-paced event far from tech and politics."
+    "summary": "A resident of Slavyansky district grew a giant pumpkin weighing 400 kg.",
+    "why_irrelevant": "Local record unrelated to your interests or daily news."
    },
    "zh": {
-    "summary": "东英吉利的世界蜗牛锦标赛庆祝最慢的竞技速度。",
-    "why_irrelevant": "这是一个离科技和政治很远的古怪慢节奏活动。"
+    "summary": "斯拉维扬斯克区的一位居民种出了一个重达400公斤的巨型南瓜。",
+    "why_irrelevant": "当地纪录与你的兴趣或日常新闻无关。"
    }
   },
-  "topic": "competitive snail racing"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news spans U.S. politics and policy, from primary wins and federal investigations to economic strategies and international deportations. Papers focus on visual analytics and medical imaging, with themes of uncertainty and user trust.",
+ "brief": "Today's news spans royal family moves, migrant tragedies, political scandals, and international tensions, while papers explore visual analytics and social dynamics.",
  "meta": {
-  "generated_at": "2026-08-20T18:56:38Z"
+  "generated_at": "2026-08-20T20:44:04Z"
  },
- "news_summary": "U.S. political news highlights progressive primary wins, federal scrutiny of Trump aide Natalie Harp, and a controversial deportation deal with Liberia. International and domestic stories include Treasury actions on Iran and bond markets, plus debates on education and security.",
- "papers_summary": "Research papers explore visual analytics evaluation, sonification for uncertainty, and multimodal RAG for maintenance manuals, alongside medical imaging studies and social network analyses.",
+ "news_summary": "News highlights include Prince Harry and Meghan's UK return, a boat disaster in Nigeria, and US political scrutiny over aide Natalie Harp, alongside international stories on Iran sanctions and immigration.",
+ "papers_summary": "Papers cover visual analytics evaluation, sonification for uncertainty visualization, and social status dynamics in Colombia, among other topics.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans U.S. politics and policy, from primary wins and federal investigations to economic strategies and international deportations. Papers focus on visual analytics and medical imaging, with themes of uncertainty and user trust.",
-   "news_summary": "U.S. political news highlights progressive primary wins, federal scrutiny of Trump aide Natalie Harp, and a controversial deportation deal with Liberia. International and domestic stories include Treasury actions on Iran and bond markets, plus debates on education and security.",
-   "papers_summary": "Research papers explore visual analytics evaluation, sonification for uncertainty, and multimodal RAG for maintenance manuals, alongside medical imaging studies and social network analyses."
+   "brief": "Today's news spans royal family moves, migrant tragedies, political scandals, and international tensions, while papers explore visual analytics and social dynamics.",
+   "news_summary": "News highlights include Prince Harry and Meghan's UK return, a boat disaster in Nigeria, and US political scrutiny over aide Natalie Harp, alongside international stories on Iran sanctions and immigration.",
+   "papers_summary": "Papers cover visual analytics evaluation, sonification for uncertainty visualization, and social status dynamics in Colombia, among other topics."
   },
   "zh": {
-   "brief": "台海两岸今日焦点：台湾公投鞭刑与普发现金引发争议，恒大许家印被判无期；同时，国际上英国王室、美国政治与驱逐移民等议题持续发酵。",
-   "news_summary": "台湾提出鞭刑公投与普发一万元，引发人权与分配正义辩论；恒大许家印被判无期；中国出入境新规引发民众担忧。",
-   "papers_summary": "本周论文涉及视觉分析评估、不确定性可视化中的情感声音，以及LLM辅助写作中的脱节现象等主题。"
+   "brief": "今日要闻聚焦台灣鞭刑公投與普發現金的社會爭議、恆大許家印被判刑，以及國際上美國對伊朗制裁、奈及利亞船難等事件；學術方面則關注視覺分析評估與不確定性視覺化的情感面向。",
+   "news_summary": "台灣提出鞭刑公投與普發一萬元的政策引發辯論，恆大許家印遭判無期徒刑；國際上美國宣布制裁伊朗、奈及利亞發生船難、英國王室成員遷居動向受矚。",
+   "papers_summary": "研究探討視覺分析的新評估方法、不確定性視覺化的情感音效，以及多模態RAG在飛機維修手冊中的應用。"
   }
  },
  "todays_image": {
-  "caption": "Like the USS Enterprise, these moderates stayed the course and carried their campaigns safely through turbulent political waters.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19830024000-NASM2018-10027",
-  "source_name": "National Air and Space Museum",
-  "source_url": "http://n2t.net/ark:/65665/nv9aba2da94-05c6-4161-9a40-455407b2163e",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19830024000-NASM2018-10027",
-  "title": "Model, Aircraft Carrier, USS Enterprise"
+  "caption": "A royal entrance once painted as a grand, enduring spectacle now echoes in the shrug of neighbors watching a prince and his wife simply leave, proving even palaces can’t hold a story’s attention.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-B448A824BCD32-000001",
+  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/36364",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-B448A824BCD32-000001",
+  "title": "Veue de l’Entrée de la Maison Royale de Fonteine-Bleau"
  }
 }
