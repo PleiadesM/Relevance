@@ -2,6 +2,146 @@
  "items": [
   {
    "authors": [
+    "Belinda Oechsler",
+    "Yvonne Cleary",
+    "Sissi Closs"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.1109/tpc.2026.3712512"
+   },
+   "id": "1298dd5bfa7f35ff",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-19T19:06:57Z",
+   "score": 0.6056,
+   "section": "papers",
+   "source": "TechComm journals (CrossRef)",
+   "source_id": "crossref_techcomm_journals",
+   "summary": "",
+   "tags": [
+    "techcomm"
+   ],
+   "title": "Piloting Kenya’s First Master’s Program in Technical Communication: Digital Innovation, Intercultural Challenges, and Lessons for Higher Education in the Global South",
+   "url": "https://doi.org/10.1109/tpc.2026.3712512",
+   "venue": "IEEE Transactions on Professional Communication"
+  },
+  {
+   "authors": [
+    "Wenbin Liu",
+    "Saul Carliner"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.1109/tpc.2026.3712283"
+   },
+   "id": "5d5e7eece6a49e8d",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-19T19:05:14Z",
+   "score": 0.6055,
+   "section": "papers",
+   "source": "TechComm journals (CrossRef)",
+   "source_id": "crossref_techcomm_journals",
+   "summary": "",
+   "tags": [
+    "techcomm"
+   ],
+   "title": "Using the DACUM Approach to Identify the Roles of Cultures and Cultural Competence in Technical Communication",
+   "url": "https://doi.org/10.1109/tpc.2026.3712283",
+   "venue": "IEEE Transactions on Professional Communication"
+  },
+  {
+   "authors": [
+    "Lei Xia",
+    "Siyu Wu",
+    "Haodian Li",
+    "Ye Sun",
+    "Liang Zhou",
+    "Lei Shi"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Understanding and enhancing visual analytics (VA) performance is important for maximizing their impact. Existing studies have successfully applied well-established summative evaluation methods from information visualization to the VA context, yet the recent emphasis on an extra data analysis/modeling stage in the VA pipeline poses an additional challenge. Inspired by the modern concept of visualization literacy, this paper examines model literacy, namely users' knowledge of the analysis model…",
+    "arxiv_id": "2608.18721"
+   },
+   "id": "9636ce590c77f70c",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-19T09:22:18Z",
+   "score": 0.5642,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Understanding and enhancing visual analytics (VA) performance is important for maximizing their impact. Existing studies have successfully applied well-established summative evaluation methods from information visualization to the VA context, yet the recent emphasis on an extra data…",
+   "tags": [
+    "eval-study",
+    "visualization"
+   ],
+   "title": "Model Literacy: An Extra Summative Evaluation Factor for Visual Analytics",
+   "url": "https://arxiv.org/abs/2608.18721v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Marcel-Simon Dutt",
+    "Sita A. Vriend",
+    "Elias Elmquist",
+    "Daniel Weiskopf"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Affective visualization can influence how users perceive, interpret, and engage with data by embedding and conveying emotion through visual design. While sound is widely used in media to evoke emotions, little is known about how sonification can support affective visualization. In this work, we investigate how sonification can communicate emotion in uncertainty visualizations through a co-design study. Participants created two sonifications to accompany a visualization: one conveying the…",
+    "arxiv_id": "2608.18680"
+   },
+   "id": "aba75f6cc79d9d0a",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-19T08:31:09Z",
+   "score": 0.753,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Affective visualization can influence how users perceive, interpret, and engage with data by embedding and conveying emotion through visual design. While sound is widely used in media to evoke emotions, little is known about how sonification can support affective visualization. In this work, we…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Sounds Uncertain: Exploring the Affective Aspects of Sonification for Uncertainty Visualization",
+   "url": "https://arxiv.org/abs/2608.18680v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Seongjun Ha",
+    "Md Rashedul Islam",
+    "Gaurav Nanda",
+    "Damon Lercel"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Proper use of the aircraft maintenance manual is essential for correct maintenance, providing procedures, diagrams, cautions, and specifications. However, technicians often avoid consulting it because it is difficult to navigate and time-consuming under strict schedules. Retrieval augmented generation (RAG) models have recently been introduced in aircraft maintenance, yet existing models focus solely on textual retrieval. This research therefore targeted the Cessna 172 Maintenance Manual…",
+    "arxiv_id": "2608.18465"
+   },
+   "id": "8ae0b77ed940999a",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-19T02:39:35Z",
+   "score": 0.7287,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Proper use of the aircraft maintenance manual is essential for correct maintenance, providing procedures, diagrams, cautions, and specifications. However, technicians often avoid consulting it because it is difficult to navigate and time-consuming under strict schedules. Retrieval augmented…",
+   "tags": [],
+   "title": "Reducing Technician Search Burden: A Multimodal RAG for Cessna 172 Maintenance Manual",
+   "url": "https://arxiv.org/abs/2608.18465v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
     "Hemlata Sarkar",
     "Sibani Patro",
     "Neekita Meher",
@@ -17,7 +157,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T00:00:00Z",
-   "score": 0.5299,
+   "score": 0.5259,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -48,7 +188,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T00:00:00Z",
-   "score": 0.5299,
+   "score": 0.5259,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -77,7 +217,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T00:00:00Z",
-   "score": 0.5299,
+   "score": 0.5259,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -86,6 +226,35 @@
    "title": "Social and economic consequences of prestige and dominance in rural Colombian social networks",
    "url": "https://doi.org/10.1098/rspb.2026.1504",
    "venue": "Proceedings of the Royal Society B Biological Sciences"
+  },
+  {
+   "authors": [
+    "JaeWon Kim",
+    "Katelyn X. Mei"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "When students use large language models for writing, the dominant explanation for disengagement is dispositional: they are over-reliant, and the remedy is to scaffold self-regulation. We argue that a structural explanation is needed, offering an alternative basis for design interventions to support appropriate AI-assisted writing. Current LLM writing interfaces induce procedural collapse: the replacement of an iterative, self-paced writing process with a single output that shifts the writer's…",
+    "arxiv_id": "2608.17326"
+   },
+   "id": "02e49de861fb74cf",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-18T03:38:17Z",
+   "score": 0.6081,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "When students use large language models for writing, the dominant explanation for disengagement is dispositional: they are over-reliant, and the remedy is to scaffold self-regulation. We argue that a structural explanation is needed, offering an alternative basis for design interventions to support…",
+   "tags": [
+    "pedagogy",
+    "ai-writing",
+    "ux",
+    "llm"
+   ],
+   "title": "Procedural Collapse: A Structural Account of Disengagement in LLM-Assisted Writing",
+   "url": "https://arxiv.org/abs/2608.17326v2",
+   "venue": "arXiv cs.HC"
   },
   {
    "authors": [
@@ -106,7 +275,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.3284,
+   "score": 0.3254,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -134,7 +303,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.3284,
+   "score": 0.3254,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -162,7 +331,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.3284,
+   "score": 0.3254,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -191,7 +360,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.3284,
+   "score": 0.3254,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -215,7 +384,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.3284,
+   "score": 0.3254,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -243,7 +412,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.3284,
+   "score": 0.3254,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -269,7 +438,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.4659,
+   "score": 0.4629,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -298,7 +467,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.3284,
+   "score": 0.3254,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -324,7 +493,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.4659,
+   "score": 0.4629,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -355,7 +524,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.4659,
+   "score": 0.4629,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -366,22 +535,186 @@
    "title": "Enhancing decision support tools in agroforestry: Integrating farmers’ perspectives on goals, challenges, and experience",
    "url": "https://doi.org/10.3389/fsufs.2026.1899433",
    "venue": "Frontiers in Sustainable Food Systems"
+  },
+  {
+   "authors": [
+    "Yibo Meng",
+    "Jingruo Chen",
+    "Lyumanshan Ye",
+    "Bingyi Liu",
+    "Zhicong Lu"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Generative AI systems are increasingly used by older adults with cognitive impairment for everyday tasks such as information seeking, health management, and communication. While these systems provide flexible, language-based support, their open-ended outputs introduce risks of over-reliance, misinterpretation, and inappropriate decision-making. Prior work has focused on usability and adoption, with limited attention to how system design shapes users' participation in decision-making and the…",
+    "arxiv_id": "2608.17175"
+   },
+   "id": "32c99ae8f8dcd76b",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-17T22:24:34Z",
+   "score": 0.5927,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Generative AI systems are increasingly used by older adults with cognitive impairment for everyday tasks such as information seeking, health management, and communication. While these systems provide flexible, language-based support, their open-ended outputs introduce risks of over-reliance,…",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "Balancing Safety and Autonomy: Accessibility-Oriented Interventions in Generative AI for Cognitive Impairment",
+   "url": "https://arxiv.org/abs/2608.17175v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Xi Zheng",
+    "Xuyu Yang",
+    "Can Liu",
+    "Yuhan Luo"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "As online health information-seeking shifts to conversational AI, high-quality information retrieval increasingly relies on users' ``communicative acts''(proactively sharing and seeking information)---similar to how effective diagnosis and personalized guidance are elicited in patient-clinician communication. Drawing on health communication research, this study examines how a chatbot's modality of empathetic expression (Verbal, Visual, Multimodal) and the conversational context (General,…",
+    "arxiv_id": "2608.17144"
+   },
+   "id": "eb9081e0a455c9f7",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-17T21:29:02Z",
+   "score": 0.5901,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "As online health information-seeking shifts to conversational AI, high-quality information retrieval increasingly relies on users' ``communicative acts''(proactively sharing and seeking information)---similar to how effective diagnosis and personalized guidance are elicited in patient-clinician…",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "Health Inquiry with AI: How Empathetic Expression and Conversational Contexts Shape Users' Communicative Acts",
+   "url": "https://arxiv.org/abs/2608.17144v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Mason T. Pellegrini"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.1109/tpc.2026.3711953"
+   },
+   "id": "b7d9d382ba644e93",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-17T19:12:23Z",
+   "score": 0.3298,
+   "section": "papers",
+   "source": "TechComm journals (CrossRef)",
+   "source_id": "crossref_techcomm_journals",
+   "summary": "",
+   "tags": [],
+   "title": "Pitching as Dialogue: The Development of Entrepreneurial Ventures Through Iterative Feedback at the Start-Up Chile Business Accelerator",
+   "url": "https://doi.org/10.1109/tpc.2026.3711953",
+   "venue": "IEEE Transactions on Professional Communication"
+  },
+  {
+   "authors": [
+    "Keke Wu",
+    "Jinjuan Heidi Feng",
+    "Jonathan Lazar"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Data visualization aims to augment human cognition and make data accessible to diverse audiences. As data increasingly shapes participation and decision-making across many domains, there is a growing need to examine whether prevailing assumptions in visualization adequately reflect the diversity of human abilities, experiences, and needs. We argue that cognitive accessibility provides a critical lens for examining these questions and functions as a stress test for visualization theory. Drawing…",
+    "arxiv_id": "2608.17039"
+   },
+   "id": "af17eb4931bad19b",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-17T18:38:39Z",
+   "score": 0.7622,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Data visualization aims to augment human cognition and make data accessible to diverse audiences. As data increasingly shapes participation and decision-making across many domains, there is a growing need to examine whether prevailing assumptions in visualization adequately reflect the diversity of…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "What Cognitive Accessibility Reveals About Data Visualization",
+   "url": "https://arxiv.org/abs/2608.17039v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Mara Solen",
+    "Thomas James Davidson",
+    "Emily Wall",
+    "Tamara Munzner"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "The sharing of curated fitness data posts occurs frequently on fitness-focused social platforms such as Strava and on general social media platforms such as Instagram, which is a novel context for visualization. To better understand the process of sharing and designing fitness data posts, as well as the role of visualization within them, we conduct a constructivist grounded theory study. We conduct and analyze 18 semi-structured interviews with fitness data sharers. From our analysis of the…",
+    "arxiv_id": "2608.17014"
+   },
+   "id": "fe0cfc61000658f7",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-17T18:09:05Z",
+   "score": 0.4283,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "The sharing of curated fitness data posts occurs frequently on fitness-focused social platforms such as Strava and on general social media platforms such as Instagram, which is a novel context for visualization. To better understand the process of sharing and designing fitness data posts, as well…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "\"It just kind of shows that I went somewhere\": An Exploratory Study of Fitness Data Sharing",
+   "url": "https://arxiv.org/abs/2608.17014v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Subham Sah",
+    "Alireza Karduni",
+    "Douglas Markant",
+    "Wenwen Dou"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Prediction market platforms present contracts about future events through visualizations that show probabilities, prices, trends, odds, and payout information. Although these visualizations often appear precise, they do not always show uncertainty directly. As a result, users infer uncertainty from market movement, visualization cues, and contextual information. In this paper, we examine how users interpret prediction market visualizations through a qualitative analysis of posts and comments…",
+    "arxiv_id": "2608.16814"
+   },
+   "id": "8b1f64aed811ad1c",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-17T17:04:33Z",
+   "score": 0.6179,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Prediction market platforms present contracts about future events through visualizations that show probabilities, prices, trends, odds, and payout information. Although these visualizations often appear precise, they do not always show uncertainty directly. As a result, users infer uncertainty from…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Prediction market visualizations, betting, and uncertainty: A study of Reddit Posts and Comments",
+   "url": "https://arxiv.org/abs/2608.16814v1",
+   "venue": "arXiv cs.HC"
   }
  ],
  "meta": {
-  "count": 13,
-  "generated_at": "2026-08-20T01:49:24Z",
+  "count": 25,
+  "generated_at": "2026-08-20T03:08:24Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
    {
     "category": "optional",
-    "count": 0,
-    "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60",
+    "count": 6,
+    "error": null,
     "full_text_count": 0,
     "id": "arxiv_datavis",
     "name": "arXiv cs.HC + cs.GR",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
@@ -412,12 +745,12 @@
    },
    {
     "category": "optional",
-    "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A1050-6519%2Cfrom-created-date%3A2026-07-23&rows=12&sort=created&order=desc",
+    "count": 14,
+    "error": null,
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "crossref"
@@ -436,12 +769,12 @@
    },
    {
     "category": "optional",
-    "count": 0,
-    "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC&sortBy=submittedDate&sortOrder=descending&max_results=40",
+    "count": 3,
+    "error": null,
     "full_text_count": 0,
     "id": "arxiv_hci_writing",
     "name": "arXiv cs.HC (writing & docs)",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
