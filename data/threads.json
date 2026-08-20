@@ -1,7 +1,7 @@
 {
  "meta": {
-  "count": 5,
-  "generated_at": "2026-08-20T13:09:03Z",
+  "count": 4,
+  "generated_at": "2026-08-20T14:53:08Z",
   "scope": "public"
  },
  "threads": [
@@ -11,77 +11,39 @@
      "full_text_file": "articles/news/405394dc0504d1e8.json",
      "item_id": "405394dc0504d1e8",
      "phrase": {
-      "en": "Frames as new attack vector",
-      "zh": "视作新攻击途径"
+      "en": "frames as new attack method",
+      "zh": "视为新攻击方式"
      },
      "section": "news",
      "source": "Ars Technica · AI",
      "url": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/"
     },
     {
-     "item_id": "ff8b16f324854d10",
+     "full_text_file": "articles/news/d58ef60becbf7d03.json",
+     "item_id": "d58ef60becbf7d03",
      "phrase": {
-      "en": "Frames as security concern",
-      "zh": "视为安全隐忧"
+      "en": "frames as crisis in math",
+      "zh": "视为数学危机"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/live/2026/aug/20/donald-trump-national-debt-borrowing-record-michael-cohen-canada-iran-latest-news-updates"
-    }
-   ],
-   "convergence": "divergent",
-   "gloss": {
-    "en": "Encrypted prompts slip past guards, leaking user data.",
-    "zh": "加密提示绕过护栏，泄露用户数据。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "LLM security",
-    "zh": "大模型安全"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You care about AI safety: a new attack breaks guardrails.",
-    "zh": "你关注AI安全：新攻击突破护栏。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "19739c528e967534",
-     "phrase": {
-      "en": "Frames as job creation",
-      "zh": "视作创造就业"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/20/world/asia/ai-jobs-data-annotation-india-karur.html"
-    },
-    {
-     "item_id": "89f6b4d44e3b492d",
-     "phrase": {
-      "en": "Frames as on-device model",
-      "zh": "视作端侧模型"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://simedw.com/2026/08/20/midi-autocomplete/"
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/podcast/982434/ai-math-openai-astra-existential-crisis"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Humans train AI in India's small city.",
-    "zh": "印度小城人类训练AI。"
+    "en": "New attacks break AI guardrails, raising safety concerns.",
+    "zh": "新攻击突破AI护栏，引发安全担忧。"
    },
-   "id": "t2",
+   "id": "t1",
    "keyword": {
-    "en": "data annotation labor",
-    "zh": "数据标注劳动"
+    "en": "AI safety vulnerabilities",
+    "zh": "AI安全漏洞"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You study HCI: AI jobs shift to unseen workers.",
-    "zh": "你研究人机交互：AI岗位转向隐形工人。"
+    "en": "You follow AI safety: today's exploit on Grok shows guardrails fail against encrypted attacks.",
+    "zh": "你关注AI安全，今日Grok漏洞显示护栏难挡加密攻击。"
    }
   },
   {
@@ -89,8 +51,8 @@
     {
      "item_id": "ce3c7e68a8d20bf0",
      "phrase": {
-      "en": "Frames as civilian toll",
-      "zh": "强调平民伤亡"
+      "en": "frames as defensive doubt",
+      "zh": "强调防御存疑"
      },
      "section": "news",
      "source": "The New York Times",
@@ -99,8 +61,8 @@
     {
      "item_id": "dcb3f337339de0a6",
      "phrase": {
-      "en": "Frames as defense shortage",
-      "zh": "强调防空短缺"
+      "en": "frames as civilian toll",
+      "zh": "强调平民伤亡"
      },
      "section": "news",
      "source": "BBC World",
@@ -109,7 +71,7 @@
     {
      "item_id": "0ab954e66fbffbd8",
      "phrase": {
-      "en": "Frames as heavy bombardment",
+      "en": "frames as heavy bombardment",
       "zh": "强调猛烈轰炸"
      },
      "section": "news",
@@ -119,8 +81,8 @@
     {
      "item_id": "1f7c0caa844373c7",
      "phrase": {
-      "en": "Frames as supply hardship",
-      "zh": "强调供给困难"
+      "en": "frames as wartime hardship",
+      "zh": "强调战时困苦"
      },
      "section": "news",
      "source": "The New York Times",
@@ -129,37 +91,47 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Missiles hit Kyiv, air defense low.",
-    "zh": "导弹袭基辅，防空告急。"
+    "en": "Russian strikes worsen, Ukraine faces shortages.",
+    "zh": "俄军打击加剧，乌克兰面临短缺。"
    },
-   "id": "t3",
+   "id": "t2",
    "keyword": {
-    "en": "Ukraine war impact",
-    "zh": "乌克兰战争影响"
+    "en": "Ukraine war intensifies",
+    "zh": "乌克兰战争升级"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow geopolitics: attacks intensify.",
-    "zh": "你关注地缘政治：攻击加剧。"
+    "en": "You track geopolitics: today's attacks and shortages show shifting dynamics.",
+    "zh": "你关注地缘政治，今日袭击与短缺显示态势变化。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "ff8b16f324854d10",
+     "item_id": "1183e34ded914be2",
      "phrase": {
-      "en": "Frames as political blame",
-      "zh": "视作政治归责"
+      "en": "frames as slowing sales",
+      "zh": "强调销售放缓"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/live/2026/aug/20/donald-trump-national-debt-borrowing-record-michael-cohen-canada-iran-latest-news-updates"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/20/business/walmart-target-retail-consumer-economy.html"
+    },
+    {
+     "item_id": "3ec2573d70bc80b8",
+     "phrase": {
+      "en": "frames as market stress",
+      "zh": "强调市场压力"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/20/business/iran-war-oil-bonds.html"
     },
     {
      "item_id": "6bb18ee29840e568",
      "phrase": {
-      "en": "Frames as economic concern",
-      "zh": "视作经济担忧"
+      "en": "frames as debt milestone",
+      "zh": "强调债务里程碑"
      },
      "section": "news",
      "source": "NPR News",
@@ -168,58 +140,58 @@
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Debt tops $40 trillion; parties clash.",
-    "zh": "国债破40万亿，两党交锋。"
+    "en": "Consumers tighten spending, markets feel stress.",
+    "zh": "消费者收紧开支，市场承压。"
    },
-   "id": "t4",
+   "id": "t3",
    "keyword": {
-    "en": "US national debt",
-    "zh": "美国国债"
+    "en": "economic slowdown",
+    "zh": "经济放缓"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You monitor economy: debt milestone shifts policy.",
-    "zh": "你关注经济：债务里程碑影响政策。"
+    "en": "You analyze data viz: economic indicators affect visualization trends.",
+    "zh": "你分析数据可视化，经济指标影响可视化趋势。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "41b8c9458d6cf3eb",
-     "phrase": {
-      "en": "Frames as news payment levy",
-      "zh": "视作新闻付费税"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://www.reuters.com/legal/litigation/australia-passes-law-levy-tech-giants-that-fail-pay-local-news-2026-08-20/"
-    },
-    {
      "full_text_file": "articles/news/75a9312ad2cc39a3.json",
      "item_id": "75a9312ad2cc39a3",
      "phrase": {
-      "en": "Frames as collaboration tool",
-      "zh": "视作协作工具"
+      "en": "frames as collaboration",
+      "zh": "强调协作"
      },
      "section": "news",
      "source": "The Verge · AI",
      "url": "https://www.theverge.com/tech/982628/slack-code-vibe-coding-channels-launch"
+    },
+    {
+     "item_id": "89f6b4d44e3b492d",
+     "phrase": {
+      "en": "frames as innovation",
+      "zh": "强调创新"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://simedw.com/2026/08/20/midi-autocomplete/"
     }
    ],
    "convergence": "divergent",
    "gloss": {
-    "en": "Australia taxes giants; Slack adds AI channels.",
-    "zh": "澳洲征税巨头，Slack推AI频道。"
+    "en": "AI tools reshape creative and technical work.",
+    "zh": "AI工具重塑创意与技术工作。"
    },
-   "id": "t5",
+   "id": "t4",
    "keyword": {
-    "en": "tech regulation",
-    "zh": "科技监管"
+    "en": "AI in creative fields",
+    "zh": "AI创意应用"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow tech policy: new laws and tools emerge.",
-    "zh": "你关注科技政策：新法规与新工具涌现。"
+    "en": "You're into HCI and AI: these developments show practical impacts.",
+    "zh": "你关注人机交互与AI，这些发展显示实际影响。"
    }
   }
  ]
