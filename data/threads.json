@@ -1,145 +1,225 @@
 {
  "meta": {
-  "count": 3,
-  "generated_at": "2026-08-20T10:45:09Z",
+  "count": 5,
+  "generated_at": "2026-08-20T13:09:03Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "dcb3f337339de0a6",
+     "full_text_file": "articles/news/405394dc0504d1e8.json",
+     "item_id": "405394dc0504d1e8",
      "phrase": {
-      "en": "air defense shortages deadly",
-      "zh": "防空短缺致伤亡"
+      "en": "Frames as new attack vector",
+      "zh": "视作新攻击途径"
      },
      "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss"
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/"
     },
+    {
+     "item_id": "ff8b16f324854d10",
+     "phrase": {
+      "en": "Frames as security concern",
+      "zh": "视为安全隐忧"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/live/2026/aug/20/donald-trump-national-debt-borrowing-record-michael-cohen-canada-iran-latest-news-updates"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Encrypted prompts slip past guards, leaking user data.",
+    "zh": "加密提示绕过护栏，泄露用户数据。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "LLM security",
+    "zh": "大模型安全"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about AI safety: a new attack breaks guardrails.",
+    "zh": "你关注AI安全：新攻击突破护栏。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "19739c528e967534",
+     "phrase": {
+      "en": "Frames as job creation",
+      "zh": "视作创造就业"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/20/world/asia/ai-jobs-data-annotation-india-karur.html"
+    },
+    {
+     "item_id": "89f6b4d44e3b492d",
+     "phrase": {
+      "en": "Frames as on-device model",
+      "zh": "视作端侧模型"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://simedw.com/2026/08/20/midi-autocomplete/"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Humans train AI in India's small city.",
+    "zh": "印度小城人类训练AI。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "data annotation labor",
+    "zh": "数据标注劳动"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You study HCI: AI jobs shift to unseen workers.",
+    "zh": "你研究人机交互：AI岗位转向隐形工人。"
+   }
+  },
+  {
+   "angles": [
     {
      "item_id": "ce3c7e68a8d20bf0",
      "phrase": {
-      "en": "interceptors depleted, attacks intensify",
-      "zh": "拦截弹耗尽攻击加剧"
+      "en": "Frames as civilian toll",
+      "zh": "强调平民伤亡"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/08/20/world/europe/ukraine-kyiv-missiles-russia-war.html"
     },
     {
+     "item_id": "dcb3f337339de0a6",
+     "phrase": {
+      "en": "Frames as defense shortage",
+      "zh": "强调防空短缺"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "0ab954e66fbffbd8",
+     "phrase": {
+      "en": "Frames as heavy bombardment",
+      "zh": "强调猛烈轰炸"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/20/ukraine-kyiv-deaths-russian-missile-attack"
+    },
+    {
      "item_id": "1f7c0caa844373c7",
      "phrase": {
-      "en": "supermarket warehouses targeted",
-      "zh": "超市仓库遭袭"
+      "en": "Frames as supply hardship",
+      "zh": "强调供给困难"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/08/20/world/europe/ukraine-grocery-stores-shortages.html"
-    },
-    {
-     "item_id": "450aedd0a16b8b4b",
-     "phrase": {
-      "en": "death toll rises to 15",
-      "zh": "死亡人数升至15"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/aug/20/ukraine-volodymyr-zelenskyy-russia-vladimir-putin-kyiv-europe-live-latest-updates"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Russia's relentless air campaign grinds on, targeting cities and supplies.",
-    "zh": "俄罗斯无情空袭持续，目标指向城市与补给。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "war in Ukraine",
-    "zh": "乌克兰战争"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow geopolitics: today's Kyiv strikes and empty shelves change the war's texture.",
-    "zh": "你关注地缘政治，今日基辅遇袭与空货架改变战事面貌。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "c00d4b2cb82f3ef7",
-     "phrase": {
-      "en": "missiles fired after drill cut",
-      "zh": "削减军演后发射导弹"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/20/north-korea-fires-10-missiles-day-after-trump-curtails-south-korea-joint-drills"
-    },
-    {
-     "item_id": "b4474da8c14bf74b",
-     "phrase": {
-      "en": "experts warn of risks",
-      "zh": "专家警示风险"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/20/us/politics/trumps-order-military-exercises-risks.html"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Trump's drill cut with Seoul raises alliance questions.",
-    "zh": "特朗普削减美韩军演引发盟友疑虑。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "US-South Korea drills",
-    "zh": "美韩军演"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You track defense policy: the launch after the drill cut tests the new posture.",
-    "zh": "你关注国防政策，军演削减后的发射考验新姿态。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "ab746b83a6a7beed",
-     "phrase": {
-      "en": "reporting system failed immigrants",
-      "zh": "举报系统辜负移民"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/20/nx-s1-5850361/grievance-ice-detention-immigrants"
-    },
-    {
-     "item_id": "4ecb5638ff252f11",
-     "phrase": {
-      "en": "detention centre culture of fear",
-      "zh": "拘留中心恐惧文化"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/australia-news/2026/aug/20/villawood-detention-centre-conditions-report-ntwnfb"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Reporting system fails, fueling hunger strikes and unrest.",
-    "zh": "举报系统失效，引发绝食与动荡。"
+    "en": "Missiles hit Kyiv, air defense low.",
+    "zh": "导弹袭基辅，防空告急。"
    },
    "id": "t3",
    "keyword": {
-    "en": "ice detention failures",
-    "zh": "ICE拘留所失职"
+    "en": "Ukraine war impact",
+    "zh": "乌克兰战争影响"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about human rights and institutional critique: this failure is systematic.",
-    "zh": "你关注人权与制度批判，此失职是系统性的。"
+    "en": "You follow geopolitics: attacks intensify.",
+    "zh": "你关注地缘政治：攻击加剧。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "ff8b16f324854d10",
+     "phrase": {
+      "en": "Frames as political blame",
+      "zh": "视作政治归责"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/live/2026/aug/20/donald-trump-national-debt-borrowing-record-michael-cohen-canada-iran-latest-news-updates"
+    },
+    {
+     "item_id": "6bb18ee29840e568",
+     "phrase": {
+      "en": "Frames as economic concern",
+      "zh": "视作经济担忧"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/20/g-s1-139388/up-first-newsletter-us-debt-venezuela-oil-deals-census-bureau-trump-voting-claims"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Debt tops $40 trillion; parties clash.",
+    "zh": "国债破40万亿，两党交锋。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "US national debt",
+    "zh": "美国国债"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You monitor economy: debt milestone shifts policy.",
+    "zh": "你关注经济：债务里程碑影响政策。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "41b8c9458d6cf3eb",
+     "phrase": {
+      "en": "Frames as news payment levy",
+      "zh": "视作新闻付费税"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://www.reuters.com/legal/litigation/australia-passes-law-levy-tech-giants-that-fail-pay-local-news-2026-08-20/"
+    },
+    {
+     "full_text_file": "articles/news/75a9312ad2cc39a3.json",
+     "item_id": "75a9312ad2cc39a3",
+     "phrase": {
+      "en": "Frames as collaboration tool",
+      "zh": "视作协作工具"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/tech/982628/slack-code-vibe-coding-channels-launch"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Australia taxes giants; Slack adds AI channels.",
+    "zh": "澳洲征税巨头，Slack推AI频道。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "tech regulation",
+    "zh": "科技监管"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow tech policy: new laws and tools emerge.",
+    "zh": "你关注科技政策：新法规与新工具涌现。"
    }
   }
  ]
