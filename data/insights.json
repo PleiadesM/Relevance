@@ -1,28 +1,48 @@
 {
- "brief": "U.S. debt hits $40 trillion amid rising Treasury yields, while Prince Harry and Meghan plan a return to the UK. In research, MRI and social network studies highlight diverse scientific inquiries.",
- "meta": {
-  "generated_at": "2026-08-19T22:38:21Z"
+ "apropos_of_nothing": {
+  "query": "sheepdog trials Scotland OR Highlands sheepdog competition",
+  "source": {
+   "name": "Patch",
+   "published_at": "2026-08-13T02:06:00Z",
+   "title": "160th Scottish Highland Games Bring World Championships To Pleasanton",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWWtwUEViZVhZQ3VGXzVZM1B1dFhpRk9vdXBWYTVJQVAyaEwtYnQ1UURZaVFsTnVXckpNaXVNS1hVNHFiOF8yMV8zRDg0bUVsR2JiNFhfU3JTaUplU012SjR6cVYtT0RtNVR4SUNXV2FzQ1g0cjJQOUlIYm5menBGUElyTVRSTEZTVzVYU24yUFJNcVUtcTJEMUtyWHFQMU5vdmMwRkFoTGZEQdIBvwFBVV95cUxPNjBtRWJNcEpKU1FOdUR4MlFZM05EMTVfei0tTmdPVjVfc2F0MHNxUmtmdVdzUi1LNVI5SVUzdERTZ1ZnQmc5R1hhN0hOTjgtTFZmRnlXNWd3d1RreGZoeW1CVXBEc3hDbTRacTZJV1pYajZRU1AybzhzcVJMQm12RnlYbWcyaVBvNm56bjU1cDlhbEJGRWNFZU5QeDRZSlNoNnpFS3pIYUtJdU9Tc0h5QUlPaHp5TlUwNUxIVlpnaw?oc=5"
+  },
+  "summaries": {
+   "en": {
+    "summary": "The 160th Scottish Highland Games in Pleasanton, California, will host world championships, drawing competitors and spectators to a celebration of Scottish culture.",
+    "why_irrelevant": "It is a local California community event, far removed from typical tech or business feed topics."
+   },
+   "zh": {
+    "summary": "加州普莱森顿将举办第160届苏格兰高地运动会，并作为世界锦标赛的举办地，吸引选手和观众共庆苏格兰文化。",
+    "why_irrelevant": "这是加州本地社区活动，与常见的科技或商业资讯相距甚远。"
+   }
+  },
+  "topic": "sheepdog trials in the Scottish Highlands"
  },
- "news_summary": "U.S. national debt tops $40 trillion, Treasury yields rise, and Prince Harry and Meghan are moving back to the UK. Australia summons Israel's ambassador over the Frankcom killing, and New York faces a housing shortage.",
- "papers_summary": "Papers explore MRI diagnostics (including a lizard study), social status in Colombian networks, and the structure of disengagement in LLM-assisted writing, among other topics.",
+ "brief": "Today's news spans geopolitical tensions, domestic politics in Australia and the US, and human-interest stories, while papers focus on medical imaging, neuroscience, social networks, and environmental health.",
+ "meta": {
+  "generated_at": "2026-08-20T01:49:24Z"
+ },
+ "news_summary": "News highlights include Trump's threats over Iran, Australia's rising debt and jobless rate, Prince Harry and Meghan's return to the UK, and various US political developments including Alabama voting rights and Wyoming primary results.",
+ "papers_summary": "Papers cover diverse topics from MRI techniques and neurological studies to social status in Colombia, plant heat stress, pediatric antibiotic use, and environmental health practices.",
  "summaries": {
   "en": {
-   "brief": "U.S. debt hits $40 trillion amid rising Treasury yields, while Prince Harry and Meghan plan a return to the UK. In research, MRI and social network studies highlight diverse scientific inquiries.",
-   "news_summary": "U.S. national debt tops $40 trillion, Treasury yields rise, and Prince Harry and Meghan are moving back to the UK. Australia summons Israel's ambassador over the Frankcom killing, and New York faces a housing shortage.",
-   "papers_summary": "Papers explore MRI diagnostics (including a lizard study), social status in Colombian networks, and the structure of disengagement in LLM-assisted writing, among other topics."
+   "brief": "Today's news spans geopolitical tensions, domestic politics in Australia and the US, and human-interest stories, while papers focus on medical imaging, neuroscience, social networks, and environmental health.",
+   "news_summary": "News highlights include Trump's threats over Iran, Australia's rising debt and jobless rate, Prince Harry and Meghan's return to the UK, and various US political developments including Alabama voting rights and Wyoming primary results.",
+   "papers_summary": "Papers cover diverse topics from MRI techniques and neurological studies to social status in Colombia, plant heat stress, pediatric antibiotic use, and environmental health practices."
   },
   "zh": {
-   "brief": "今日新闻关注法国官员被控下药、中国机器人公司上市暴涨及动画《牛来》意外走红；科研方面无重点中文论文，英文论文涉及医学影像、AI写作等。",
-   "news_summary": "法国高级公务员被200多名女性指控在面试中下药致小便失禁；中国机器人公司宇树科技上市首日股价暴涨近五倍；动画《牛来》因粗糙制作意外爆红。",
-   "papers_summary": "中文论文库暂无重点；英文论文涉及医学影像诊断、AI辅助写作的参与度问题等，但相关性不强。"
+   "brief": "今日新聞聚焦中國出入境新規引發的焦慮、法國公務員被控下藥、以及人形機器人公司上市暴漲；論文方面則涵蓋MRI診斷、植物熱逆境與神經免疫疾病等研究。",
+   "news_summary": "中國新出入境規定將於9月15日實施，BBC報導了此前已受限制出境的民眾案例；法國文化部高級公務員被指控在面試中下藥，超過200名女性受害；宇樹科技上市首日股價暴漲近五倍；動畫《牛來》因製作粗糙意外爆紅，引發觀眾共鳴。",
+   "papers_summary": "研究涵蓋MRI增強序列的診斷價值、Pseudopus apodus蜥蜴的MRI解剖、植物熱逆境耐受性相關的基因分析、以及HLA多態性在神經免疫疾病中的作用等，顯示多樣化的科學探索。"
   }
  },
  "todays_image": {
-  "caption": "The Treasury Building’s stoic pillars mirror the market’s unease as rising yields shake the very foundations of the economy.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=SIA-2010-1090-000002",
-  "source_name": "National Museum of American History",
-  "source_url": null,
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SIA-2010-1090-000002&max=150",
-  "title": "Treasury Building"
+  "caption": "The creeping spread of Mnium hornum moss mirrors the slow crawl of Australia's jobless rate to 4.5% as national debt hits $1tn.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3fedc125669444c639976c3c33ea0bce8",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/370b4e409-c39d-4a3e-a1ef-c56f81562c1a",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3fedc125669444c639976c3c33ea0bce8/90",
+  "title": "Mnium hornum Hedw."
  }
 }
