@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"competitive whistling\" OR \"whistling competition\"",
+  "query": "snail racing championship OR world snail racing",
   "source": {
-   "name": "ScreenHub Australia",
-   "published_at": "2026-08-10T06:05:09Z",
-   "title": "Whistle review: the surprisingly hopeful world of competitive whistling",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPY2NIQ3VjdnR2YW1fVGJrTHZOWTJaQTFQbk1Fd3ZyMUdxbXNRQ1JNWWtTSF9YMnBOcWpORUpCcHd5Wkk4NmxYdFRrMVpPcG1lRVBHVFRrZFRXR3BUNExfNjVBT0M3MHV4dzR3cUZtUUxqc0ZRclJIaHBrbkREWktlNGhOa1ljTFBEM08yVEw3R2tXZllFa3ZXWXFnQUtfc0RUYmFHUEtZVlZGZ0ZpRTRpdzd2WnA2d1dLX3ZVWHh3?oc=5"
+   "name": "East Anglia Bylines",
+   "published_at": "2026-08-01T16:09:16Z",
+   "title": "Ready – steady – slow. World Championship snail race",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdTI4WFE3WGRYNS1lRjNLcEdWUmhKdm9IdzAzVWtRUklfX1cteERaQW5wUEZEWkx3WUFsR3EyUWtqS0hfNl9JcFJSaEc4cnlNamIwTDZta0Item1XSHpRaVlwRm94N1B6N2NYa1U1bnlleERTWUxNZDFkcXF5cVRneTJ2Vl9sd2t3VGlJZjlZeWFWb3ROWksyNkNYMVpCcnM?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "Competitive whistling, once a niche folk art, now draws international crowds with its precise, melodic performances.",
-    "why_irrelevant": "A far cry from your usual tech and business news."
+    "summary": "The World Championship snail race in East Anglia celebrates the slowest pace in competitive sport.",
+    "why_irrelevant": "It's a whimsical, slow-paced event far from tech and politics."
    },
    "zh": {
-    "summary": "竞技口哨曾是小众民俗艺术，如今以其精准旋律吸引国际观众。",
-    "why_irrelevant": "与你常看的科技商业资讯相去甚远。"
+    "summary": "东英吉利的世界蜗牛锦标赛庆祝最慢的竞技速度。",
+    "why_irrelevant": "这是一个离科技和政治很远的古怪慢节奏活动。"
    }
   },
-  "topic": "the art of competitive whistling"
+  "topic": "competitive snail racing"
  },
- "brief": "Today's news spans federal investigations, royal returns, and economic signals, while research focuses on technical communication, AI evaluation, and visualization.",
+ "brief": "Today's news spans U.S. politics and policy, from primary wins and federal investigations to economic strategies and international deportations. Papers focus on visual analytics and medical imaging, with themes of uncertainty and user trust.",
  "meta": {
-  "generated_at": "2026-08-20T16:49:11Z"
+  "generated_at": "2026-08-20T18:56:38Z"
  },
- "news_summary": "US politics see FBI scrutiny of a congressman and White House aide, with Prince Harry and Meghan planning a UK return; economic news includes Walmart's slow growth and Treasury interventions.",
- "papers_summary": "Research covers digital innovation in education, AI model literacy, and multimodal maintenance manuals, reflecting ongoing tech and visualization challenges.",
+ "news_summary": "U.S. political news highlights progressive primary wins, federal scrutiny of Trump aide Natalie Harp, and a controversial deportation deal with Liberia. International and domestic stories include Treasury actions on Iran and bond markets, plus debates on education and security.",
+ "papers_summary": "Research papers explore visual analytics evaluation, sonification for uncertainty, and multimodal RAG for maintenance manuals, alongside medical imaging studies and social network analyses.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans federal investigations, royal returns, and economic signals, while research focuses on technical communication, AI evaluation, and visualization.",
-   "news_summary": "US politics see FBI scrutiny of a congressman and White House aide, with Prince Harry and Meghan planning a UK return; economic news includes Walmart's slow growth and Treasury interventions.",
-   "papers_summary": "Research covers digital innovation in education, AI model literacy, and multimodal maintenance manuals, reflecting ongoing tech and visualization challenges."
+   "brief": "Today's news spans U.S. politics and policy, from primary wins and federal investigations to economic strategies and international deportations. Papers focus on visual analytics and medical imaging, with themes of uncertainty and user trust.",
+   "news_summary": "U.S. political news highlights progressive primary wins, federal scrutiny of Trump aide Natalie Harp, and a controversial deportation deal with Liberia. International and domestic stories include Treasury actions on Iran and bond markets, plus debates on education and security.",
+   "papers_summary": "Research papers explore visual analytics evaluation, sonification for uncertainty, and multimodal RAG for maintenance manuals, alongside medical imaging studies and social network analyses."
   },
   "zh": {
-   "brief": "台湾民调显示八成民众支持鞭刑，政府评估是否仿效新加坡，引发人权争议；同时赖清德宣布普发一万元现金，背后是经济分配与选举考量。恒大许家印被判无期徒刑。国际方面，哈里王子夫妇计划返英。",
-   "news_summary": "台湾社会对重大刑案不满，鞭刑公投获高支持率，但遭人权团体反对；普发现金政策反映K型经济焦虑。恒大许家印被判无期并罚款。",
-   "papers_summary": "无优先中文论文，英文论文涵盖技术传播、视觉分析评估、LLM写作辅助等主题。"
+   "brief": "台海两岸今日焦点：台湾公投鞭刑与普发现金引发争议，恒大许家印被判无期；同时，国际上英国王室、美国政治与驱逐移民等议题持续发酵。",
+   "news_summary": "台湾提出鞭刑公投与普发一万元，引发人权与分配正义辩论；恒大许家印被判无期；中国出入境新规引发民众担忧。",
+   "papers_summary": "本周论文涉及视觉分析评估、不确定性可视化中的情感声音，以及LLM辅助写作中的脱节现象等主题。"
   }
  },
  "todays_image": {
-  "caption": "The image's \"establishment\" and the FBI's inquiry both peer behind closed doors.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-F593F685B46C2-000001",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/98578",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-F593F685B46C2-000001",
-  "title": "Exterior, Frederick Crace and Son Establishment, 14 Wigmore Street, London"
+  "caption": "Like the USS Enterprise, these moderates stayed the course and carried their campaigns safely through turbulent political waters.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19830024000-NASM2018-10027",
+  "source_name": "National Air and Space Museum",
+  "source_url": "http://n2t.net/ark:/65665/nv9aba2da94-05c6-4161-9a40-455407b2163e",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19830024000-NASM2018-10027",
+  "title": "Model, Aircraft Carrier, USS Enterprise"
  }
 }
