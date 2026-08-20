@@ -1,44 +1,44 @@
 {
  "apropos_of_nothing": {
-  "query": "snail racing championships OR world snail racing",
+  "query": "\"world sandcastle championship\" OR \"sand sculpture competition\"",
   "source": {
-   "name": "East Anglia Bylines",
-   "published_at": "2026-08-01T16:09:16Z",
-   "title": "Ready – steady – slow. World Championship snail race",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdTI4WFE3WGRYNS1lRjNLcEdWUmhKdm9IdzAzVWtRUklfX1cteERaQW5wUEZEWkx3WUFsR3EyUWtqS0hfNl9JcFJSaEc4cnlNamIwTDZta0Item1XSHpRaVlwRm94N1B6N2NYa1U1bnlleERTWUxNZDFkcXF5cVRneTJ2Vl9sd2t3VGlJZjlZeWFWb3ROWksyNkNYMVpCcnM?oc=5"
+   "name": "Brooklyn Paper",
+   "published_at": "2026-08-18T18:40:31Z",
+   "title": "Sand, sculptures and summer fun: Coney Island’s 34th annual competition crowns its winners",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOHlHb2tIR2VKd3N6WXRUQUxRUFpBTzZkWTdTTUlfdkktcUFiZWRFd195VFhJcVRhT1QyRmEtZktNR1M2WE9QdEFSWGRIX2VpQ2ctQ29aRVJDd1RJLWUzVkwzLTRWWHN3V2taXzYzY2RBREdHcmpXNVV3MEdaTDJOQg?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "Competitive snail racing reaches its pinnacle at the World Championship in East Anglia.",
-    "why_irrelevant": "A deliberately distant detour from the feed."
+    "summary": "Coney Island's 34th annual sand sculpture contest celebrates its champions with sandy artistry and family fun.",
+    "why_irrelevant": "a beachy local event far removed from global politics and royal news."
    },
    "zh": {
-    "summary": "竞争性蜗牛赛跑在东英吉利亚的世界锦标赛中达到顶峰。",
-    "why_irrelevant": "刻意远离信息流的岔路。"
+    "summary": "科尼岛第34届年度沙雕比赛以沙雕艺术和家庭乐趣庆祝其冠军得主。",
+    "why_irrelevant": "远离全球政治和皇室新闻的海滩本地活动。"
    }
   },
-  "topic": "competitive snail racing"
+  "topic": "competitive sandcastle building"
  },
- "brief": "Today's news is marked by tragedy and tension, from the death of a missing teen hiker in Australia to Israeli military accountability and geopolitical strains, while research highlights advances in visual analytics, sonification, and LLM-assisted writing.",
+ "brief": "Today's news spans Australian apologies for a hiker's death, UK exam results, Prince Harry and Meghan's planned return, Russian strikes on Kyiv, and the sentencing of Evergrande's founder. Papers cover technical communication education, visual analytics evaluation, and LLM-assisted writing.",
  "meta": {
-  "generated_at": "2026-08-20T04:50:53Z"
+  "generated_at": "2026-08-20T07:03:40Z"
  },
- "news_summary": "Key stories include the discovery of a missing teen hiker's body, Australia's outrage over Israel's decision not to prosecute for an aid worker's death, a Russian missile attack on Kyiv, and political developments in the US, UK, and elsewhere.",
- "papers_summary": "Papers focus on improving visual analytics evaluation, exploring emotional aspects of sonification for uncertainty, and addressing disengagement in LLM-assisted writing, alongside diverse studies from MRI to social networks.",
+ "news_summary": "Key events include NSW police apologizing for miscommunication over Lily Hooper's death, hundreds of thousands awaiting GCSE results, Harry and Meghan deciding to move back to the UK, a deadly Russian missile attack on Kyiv, and China sentencing Evergrande's founder to life in prison.",
+ "papers_summary": "Research highlights include a pilot master's program in technical communication in Kenya, using DACUM to identify cultural competencies, evaluating visual analytics with model literacy, exploring sonification for uncertainty, and a multimodal RAG for aircraft maintenance manuals, plus a study on disengagement in LLM-assisted writing.",
  "summaries": {
   "en": {
-   "brief": "Today's news is marked by tragedy and tension, from the death of a missing teen hiker in Australia to Israeli military accountability and geopolitical strains, while research highlights advances in visual analytics, sonification, and LLM-assisted writing.",
-   "news_summary": "Key stories include the discovery of a missing teen hiker's body, Australia's outrage over Israel's decision not to prosecute for an aid worker's death, a Russian missile attack on Kyiv, and political developments in the US, UK, and elsewhere.",
-   "papers_summary": "Papers focus on improving visual analytics evaluation, exploring emotional aspects of sonification for uncertainty, and addressing disengagement in LLM-assisted writing, alongside diverse studies from MRI to social networks."
+   "brief": "Today's news spans Australian apologies for a hiker's death, UK exam results, Prince Harry and Meghan's planned return, Russian strikes on Kyiv, and the sentencing of Evergrande's founder. Papers cover technical communication education, visual analytics evaluation, and LLM-assisted writing.",
+   "news_summary": "Key events include NSW police apologizing for miscommunication over Lily Hooper's death, hundreds of thousands awaiting GCSE results, Harry and Meghan deciding to move back to the UK, a deadly Russian missile attack on Kyiv, and China sentencing Evergrande's founder to life in prison.",
+   "papers_summary": "Research highlights include a pilot master's program in technical communication in Kenya, using DACUM to identify cultural competencies, evaluating visual analytics with model literacy, exploring sonification for uncertainty, and a multimodal RAG for aircraft maintenance manuals, plus a study on disengagement in LLM-assisted writing."
   },
   "zh": {
-   "brief": "今日焦点集中在台湾鞭刑公投争议、哈里王子夫妇返英、中国出入境新规，以及宇树科技上市暴涨。研究方面则探讨视觉分析评估、AI写作中的脱离现象等。",
-   "news_summary": "台湾鞭刑公投引发人权争议；哈里与梅根计划迁回英国；中国新出入境规定引发担忧；宇树科技上市首日股价大涨。",
-   "papers_summary": "研究涉及视觉分析评估的新框架、不确定性可视化的声音情感、AI辅助写作中的脱节现象，以及飞机维护手册的多模态RAG应用。"
+   "brief": "今日焦点包括恆大創辦人許家印被判無期徒刑、台灣提出鞭刑公投引發爭議、哈里王子夫婦計劃遷回英國，以及中國出入境新規引發關注。科研方面，多篇論文探討技術傳播、視覺化評估與輔助寫作中的結構性問題。",
+   "news_summary": "恆大創辦人許家印因詐騙等罪行被判終身監禁，集團被罰巨款；台灣近期提出鞭刑公投，民調顯示多數民眾支持但人權團體反對；哈里王子夫婦決定遷回英國但保留非在職王室身份；中國出入境新規即將實施，部分民眾擔憂出境自由受限。",
+   "papers_summary": "今日論文涉及技術傳播教育、視覺化評估標準（如模型素養）、聲音不確定性視覺化、航空維修手冊的RAG系統，以及LLM輔助寫作中使用者脫離的結構性原因。"
   }
  },
  "todays_image": {
-  "caption": "Like the Apollo 8 recovery net reaching into an unforgiving ocean, the search for the missing hiker was a desperate, ultimately futile grasp against the vast indifference of the bush.",
+  "caption": "The Apollo 8 rescue net symbolises a safety net that was ready for retrieval, while the police apology highlights how a broken net of communication failed to save Lily Hooper.",
   "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19700321000_PS01",
   "source_name": "National Air and Space Museum",
   "source_url": "http://n2t.net/ark:/65665/nv9bc553881-ab8d-4b7e-a89f-6c034d1ebc0f",

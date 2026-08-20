@@ -1,134 +1,17 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-08-20T04:50:53Z",
+  "count": 5,
+  "generated_at": "2026-08-20T07:03:40Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "d155839a1b273751",
-     "phrase": {
-      "en": "reports death after search",
-      "zh": "报道搜救后身亡"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c304e2dlv20o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "c8487a10823c04d8",
-     "phrase": {
-      "en": "details heartbreaking discovery",
-      "zh": "详述令人心碎的发现"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/australia-news/2026/aug/20/lily-hooper-missing-hiker-found-dead-nsw-national-park"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "A young hiker's disappearance ends in tragedy after an eight-day search.",
-    "zh": "一名年轻徒步者失踪，八天搜寻以悲剧告终。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "missing hiker found dead",
-    "zh": "失踪徒步者身亡"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow human stories and risk communication: today the search outcome shifts from hope to grief.",
-    "zh": "你关注人类故事与风险传播：今日搜救结果由希望转为悲痛。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "255b8b200f500e6d",
-     "phrase": {
-      "en": "condemns 'insulting' decision",
-      "zh": "谴责'侮辱性'决定"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/australia-news/2026/aug/20/australia-idf-reaction-gaza-strike-zomi-frankcom-penny-wong-statement-ntwnfb"
-    },
-    {
-     "item_id": "c9c03e450d659c0a",
-     "phrase": {
-      "en": "summons ambassador over killing",
-      "zh": "就杀害事件召见大使"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cp87g29r718o?at_medium=RSS&at_campaign=rss"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Australia's anger over Israel's decision not to prosecute in aid worker's death.",
-    "zh": "澳大利亚对以色列不起诉援助人员之死感到愤怒。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "Israel-Australia diplomatic rift",
-    "zh": "以色列与澳大利亚外交裂痕"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You track geopolitical tensions and human rights: today Australia escalates rhetoric and summons ambassador.",
-    "zh": "你关注地缘政治与人权：今日澳大利亚升级言论并召见大使。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "24e37f85479f9be1",
-     "phrase": {
-      "en": "professor used AI to edit",
-      "zh": "教授使用AI编辑"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/aug/19/uc-berkeley-professor-ai"
-    },
-    {
-     "item_id": "02e49de861fb74cf",
-     "phrase": {
-      "en": "LLM writing leads to disengagement",
-      "zh": "LLM写作导致脱离"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.17326v2"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "AI's role in classrooms and writing is scrutinized from ethics to disengagement.",
-    "zh": "人工智能在课堂和写作中的角色从伦理到脱离参与受到审视。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "AI in education and writing",
-    "zh": "人工智能与教育写作"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You care about human-computer interaction and AI: today a professor admits AI editing and a paper links LLM use to disengagement.",
-    "zh": "你关心人机交互与AI：今日一位教授承认使用AI编辑，且有论文联系LLM使用与脱离。"
-   }
-  },
-  {
-   "angles": [
-    {
      "item_id": "2bc5ad69fd941cc1",
      "phrase": {
-      "en": "reporting return to UK",
-      "zh": "报道返英"
+      "en": "confirms move, non-working status",
+      "zh": "确认迁居，非在职身份"
      },
      "section": "news",
      "source": "The New York Times",
@@ -137,8 +20,8 @@
     {
      "item_id": "a214648305f5df94",
      "phrase": {
-      "en": "timeline of their break",
-      "zh": "他们决裂的时间线"
+      "en": "timeline of break and return",
+      "zh": "决裂与回归时间线"
      },
      "section": "news",
      "source": "The New York Times",
@@ -147,8 +30,8 @@
     {
      "item_id": "fb235972af9721c8",
      "phrase": {
-      "en": "plans to move this month",
-      "zh": "计划本月搬回"
+      "en": "reports relocation this month",
+      "zh": "报道本月迁居"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -157,18 +40,174 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Harry and Meghan's planned move back to Britain marks a new chapter.",
-    "zh": "哈里与梅根计划返英开启新篇章。"
+    "en": "Prince Harry and Meghan plan to move back to the UK, staying as non-working royals.",
+    "zh": "哈里与梅根计划返回英国，但仍为非在职王室成员。"
    },
-   "id": "t4",
+   "id": "t1",
    "keyword": {
-    "en": "royal return to UK",
-    "zh": "王室成员返英"
+    "en": "royal return",
+    "zh": "王室回归"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow media narratives and visual rhetoric: the Sussexes' return reshapes their public image.",
-    "zh": "你关注媒体叙事与视觉修辞：苏塞克斯夫妇回归重塑公众形象。"
+    "en": "You follow international news: the couple's return reshapes royal dynamics.",
+    "zh": "你关注国际新闻，这对夫妇的回归重塑王室动态。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "dcb3f337339de0a6",
+     "phrase": {
+      "en": "at least 12 killed",
+      "zh": "至少12人遇难"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "0ab954e66fbffbd8",
+     "phrase": {
+      "en": "children's hospital hit",
+      "zh": "儿童医院遇袭"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/20/ukraine-kyiv-deaths-russian-missile-attack"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Russian attacks on Kyiv kill civilians amid air defense shortages.",
+    "zh": "俄罗斯袭击基辅致平民死亡，防空短缺严重。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "Ukraine air defense",
+    "zh": "乌克兰防空"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track geopolitical crises: today's strikes highlight defense gaps.",
+    "zh": "你关注地缘危机，今日袭击凸显防务缺口。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "c9c03e450d659c0a",
+     "phrase": {
+      "en": "outrage, no investigation",
+      "zh": "愤怒，无调查"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cp87g29r718o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "255b8b200f500e6d",
+     "phrase": {
+      "en": "condemns insulting decision",
+      "zh": "谴责侮辱性决定"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/australia-news/2026/aug/20/australia-idf-reaction-gaza-strike-zomi-frankcom-penny-wong-statement-ntwnfb"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Australia outraged as Israel declines to probe killing of aid worker.",
+    "zh": "以色列拒查援助者之死，澳大利亚愤怒。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "aid worker justice",
+    "zh": "援助者正义"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about international law: this decision impacts accountability.",
+    "zh": "你关注国际法，此决定影响问责。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "32e8774b5899ef01",
+     "phrase": {
+      "en": "economic pressure new phase",
+      "zh": "经济施压新阶段"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/20/trump-threatens-crush-iran-economy-war-hormuz"
+    },
+    {
+     "item_id": "698133865befef95",
+     "phrase": {
+      "en": "unspecified actions, past bluffs",
+      "zh": "未定行动，过往虚张"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/19/us/politics/trump-sanctions-iran.html"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Trump threatens economic action against Iran's partners, shifting from military.",
+    "zh": "特朗普威胁对伊朗伙伴经济行动，转变军事策略。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "Trump Iran threats",
+    "zh": "特朗普伊朗威胁"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You monitor US foreign policy: this pivot affects global trade.",
+    "zh": "你关注美国外交，此转变影响全球贸易。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "24e37f85479f9be1",
+     "phrase": {
+      "en": "professor admits AI editing",
+      "zh": "教授承认AI编辑"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/19/uc-berkeley-professor-ai"
+    },
+    {
+     "item_id": "02e49de861fb74cf",
+     "phrase": {
+      "en": "AI-assisted writing disengagement",
+      "zh": "AI辅助写作脱离"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.17326v2"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "AI tools reshape writing and editing, raising academic integrity questions.",
+    "zh": "AI工具重塑写作与编辑，引发学术诚信问题。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "AI in writing",
+    "zh": "AI写作"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You study human-computer interaction: this case shows AI's role in academia.",
+    "zh": "你研究人机交互，此案例显示AI在学术中的作用。"
    }
   }
  ]
