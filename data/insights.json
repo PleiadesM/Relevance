@@ -1,48 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "snail racing championship OR World Snail Racing Championships",
-  "source": {
-   "name": "GTPlanet",
-   "published_at": "2026-08-13T20:53:33Z",
-   "title": "Gran Turismo 7’s New Online Time Trial Raises Eyebrows Ahead of Update",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQR2lTLWZTUmxNVkxxaUhxbVJqTzloQmVYbEtJOHRrelN5RUZPYnRfT2NNY2NLMTVJMjJsaWZvUEVKQm9IblEwMUdDNjBySHVhdGpRZVpQaUxCb29RNDN4NGtBeEl1QlFlbHFLc3FfbGs1QzQ0RHpsRkNRcHJRZjZEU21nRi02SkhGVXV1cUpOeVdPSFlvVTJGQmJPVnU2NWYyc1ZaZ2RDdw?oc=5"
-  },
-  "summaries": {
-   "en": {
-    "summary": "Gran Turismo 7's upcoming online time trial is stirring debate among players before its release.",
-    "why_irrelevant": "It is a niche gaming update, far removed from daily tech or political news."
-   },
-   "zh": {
-    "summary": "《GT赛车7》即将推出的线上计时赛在发布前就引发了玩家热议。",
-    "why_irrelevant": "它是小众游戏更新，与日常科技或政治新闻相距甚远。"
-   }
-  },
-  "topic": "competitive snail racing"
- },
- "brief": "Today's news centers on national security trials, US political maneuvering, and environmental concerns, while research focuses on human-computer interaction and visualization.",
+ "brief": "Today's news covers legal and political developments from Hong Kong's Tiananmen verdict to Trump's Iran threats, along with lighter stories like a python's cancer treatment and cash hoarding in the EU. Research focuses on visualization design, agent documentation, and human-AI interaction.",
  "meta": {
-  "generated_at": "2026-08-21T03:14:13Z"
+  "generated_at": "2026-08-21T04:51:53Z"
  },
- "news_summary": "News highlights include the Hong Kong subversion convictions, Trump's Iran threats, and the death of Nancy Kissinger, alongside stories on election logistics, Cuban sanctions, and Somali piracy.",
- "papers_summary": "Papers explore how agents interact with docs, visualization education, and human-centered AI, with a focus on UX and evaluation methods.",
+ "news_summary": "Highlights include Hong Kong activists found guilty of subversion, Imran Khan returning to jail, and US sanctions on Cuba, alongside human-interest stories like a python's pioneering treatment and a former Liberal MP criticizing gambling reforms.",
+ "papers_summary": "Papers explore topics from fruit odors affecting fly courtship to coding agents' use of documentation, and visualization education, highlighting the breadth of HCI and vis research.",
  "summaries": {
   "en": {
-   "brief": "Today's news centers on national security trials, US political maneuvering, and environmental concerns, while research focuses on human-computer interaction and visualization.",
-   "news_summary": "News highlights include the Hong Kong subversion convictions, Trump's Iran threats, and the death of Nancy Kissinger, alongside stories on election logistics, Cuban sanctions, and Somali piracy.",
-   "papers_summary": "Papers explore how agents interact with docs, visualization education, and human-centered AI, with a focus on UX and evaluation methods."
+   "brief": "Today's news covers legal and political developments from Hong Kong's Tiananmen verdict to Trump's Iran threats, along with lighter stories like a python's cancer treatment and cash hoarding in the EU. Research focuses on visualization design, agent documentation, and human-AI interaction.",
+   "news_summary": "Highlights include Hong Kong activists found guilty of subversion, Imran Khan returning to jail, and US sanctions on Cuba, alongside human-interest stories like a python's pioneering treatment and a former Liberal MP criticizing gambling reforms.",
+   "papers_summary": "Papers explore topics from fruit odors affecting fly courtship to coding agents' use of documentation, and visualization education, highlighting the breadth of HCI and vis research."
   },
   "zh": {
-   "brief": "今日重點包括香港支聯會顛覆案定罪、恆大許家印被判無期，以及台灣鞭刑公投與普發現金引發討論；研究方面聚焦視覺化設計與coding agents的文檔使用。",
-   "news_summary": "香港高等法院裁定支聯會及李卓人等人煽動顛覆國家政權罪成，最高可囚10年；恆大許家印被判無期徒刑並沒收財產。台灣方面，鞭刑公投與普發現金政策引發社會辯論，反映K型經濟與政治算盤。",
-   "papers_summary": "研究顯示果蠅雄性可藉果實氣味提升吸引力，另有多篇人機互動論文探討coding agents與文檔互動、視覺化設計教學等主題。"
+   "brief": "今日焦点包括香港国安法下的颠覆罪判决、台湾鞭刑与普发现金的政治议题，以及恒大许家印被判刑；学术上探讨可视化教学与人机交互。",
+   "news_summary": "香港法院裁定支联会煽动颠覆罪成；台湾讨论鞭刑公投与普发现金；恒大许家印被判无期徒刑并罚款。",
+   "papers_summary": "研究揭示果蝇气味影响择偶，以及编码代理如何阅读技术文档；另有可视化设计概念清单和智能家居隐私期望等研究。"
   }
  },
  "todays_image": {
-  "caption": "The gavel's historic pound of justice echoes into Hong Kong's national security verdict, where the weight of law lands differently on Tiananmen memories.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-A2017_13_1_7_001",
-  "source_name": "National Museum of African American History and Culture",
-  "source_url": "https://nmaahc.si.edu/object/nmaahc_A2017.13.1.7",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-A2017_13_1_7_001",
-  "title": "Gavel used by Judge Robert Terrell"
+  "caption": "The frieze's \"Equity\" embodies the balanced scales of justice that today's allegations of foreign interference and far-right activism strain to tip.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-C8336A99DE972-000001",
+  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/127771",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-C8336A99DE972-000001",
+  "title": "Study for \"Equity\" in \"The Common Law\" Frieze for \"The Reign of Law\" Mural at New York Appellate Division Courthouse"
  }
 }
