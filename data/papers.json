@@ -2,60 +2,6 @@
  "items": [
   {
    "authors": [
-    "Saiqi Li",
-    "Ziqiang Zhang",
-    "Qianyun Zhang",
-    "Yi Shen",
-    "Chong Zhang",
-    "Jia Huang"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "citations": 0,
-    "doi": "10.1016/j.isci.2026.117106"
-   },
-   "id": "8ba30b07bef4eab9",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-21T00:00:00Z",
-   "score": 0.4145,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "",
-   "tags": [],
-   "title": "Tetracycline-loaded nanomotors target neutrophil activation and oxidative stress in acute lung injury.",
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42602995",
-   "venue": "PubMed"
-  },
-  {
-   "authors": [
-    "J. Otárola Jiménez",
-    "M. ; https://orcid.org/0000-0002-6710-1071 Knaden"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Highlights• Fruit-derived-odors act as natural perfumes for male vinegar flies • Female mating decisions are modulated by these fruit- derived male odors• Odors of some fruit enhance male attractiveness more than those of other fruit• The observed change in male attractiveness is independent of male pheromones",
-    "citations": 0,
-    "doi": null
-   },
-   "id": "08b1b7d275684310",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-21T00:00:00Z",
-   "score": 0.4145,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Highlights• Fruit-derived-odors act as natural perfumes for male vinegar flies • Female mating decisions are modulated by these fruit- derived male odors• Odors of some fruit enhance male attractiveness more than those of other fruit• The observed change in male attractiveness is independent of…",
-   "tags": [],
-   "title": "Fruit odors enhance attractiveness of male Drosophila melanogaster flies during courtship",
-   "url": "https://hdl.handle.net/21.11116/0000-0013-4C12-2",
-   "venue": "MPG.PuRe (Max Planck Society)"
-  },
-  {
-   "authors": [
     "Zhijun Gao",
     "Jing Chen"
    ],
@@ -68,7 +14,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T15:51:54Z",
-   "score": 0.6787,
+   "score": 0.672,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -97,7 +43,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T14:23:07Z",
-   "score": 0.5205,
+   "score": 0.5139,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -126,7 +72,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T12:17:24Z",
-   "score": 0.6651,
+   "score": 0.6587,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -156,7 +102,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T10:35:00Z",
-   "score": 0.4663,
+   "score": 0.46,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -182,7 +128,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T09:27:56Z",
-   "score": 0.6548,
+   "score": 0.6485,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -210,7 +156,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T03:54:52Z",
-   "score": 0.4429,
+   "score": 0.4371,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -237,7 +183,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T01:32:06Z",
-   "score": 0.435,
+   "score": 0.4294,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -246,295 +192,6 @@
    "title": "Generating Diverse Personas for User Simulators to Test Interview Dialogue Systems",
    "url": "https://arxiv.org/abs/2608.19549v1",
    "venue": "arXiv cs.CL"
-  },
-  {
-   "authors": [
-    "Hannah McCalmon",
-    "George Cai",
-    "Constantine Tsibouris",
-    "Noé Hamou",
-    "Jo Hoskins",
-    "Farhad Pashakhanloo"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "In natural environments, animals must detect behaviorally relevant odors despite variability in both odor mixture composition and stimulus intensity. Although mice can identify salient odors embedded in complex mixtures, how target concentration and background complexity jointly constrain discrimination remains unclear. We trained mice in a two-alternative forced choice task to identify target odors embedded in mixtures containing up to 16 background components. After performance stabilized, we…",
-    "citations": 0,
-    "doi": "10.1016/j.celrep.2026.117883"
-   },
-   "id": "08a0208b93aa04ff",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-20T00:00:00Z",
-   "score": 0.4825,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "In natural environments, animals must detect behaviorally relevant odors despite variability in both odor mixture composition and stimulus intensity. Although mice can identify salient odors embedded in complex mixtures, how target concentration and background complexity jointly constrain…",
-   "tags": [],
-   "title": "Sparse input representations explain odor discrimination in complex, concentration-varying mixtures",
-   "url": "https://doi.org/10.1016/j.celrep.2026.117883",
-   "venue": "Cell Reports"
-  },
-  {
-   "authors": [
-    "Michael García-Rodríguez",
-    "Javier Rodeiro-Iglesias",
-    "Juan Antonio Añel"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract. This study extends previous research on CMIP5 models to investigate the reproducibility of climate models within the Coupled Model Intercomparison Project (CMIP). It evaluates the accessibility to the source code of the CMIP models through all their phases, emphasizing the need for public repositories to ensure transparency regarding model input, output, and usage rights, along with an analysis of licenses for compliance with scientific standards. A central focus of the research is…",
-    "citations": 0,
-    "doi": "10.5194/gmd-19-7687-2026"
-   },
-   "id": "5a330816eb280069",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-20T00:00:00Z",
-   "score": 0.345,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract. This study extends previous research on CMIP5 models to investigate the reproducibility of climate models within the Coupled Model Intercomparison Project (CMIP). It evaluates the accessibility to the source code of the CMIP models through all their phases, emphasizing the need for public…",
-   "tags": [],
-   "title": "Code accessibility and code quality across phases of the models of the Coupled Model Intercomparison Project",
-   "url": "https://doi.org/10.5194/gmd-19-7687-2026",
-   "venue": "Geoscientific model development"
-  },
-  {
-   "authors": [
-    "Wei Xie",
-    "Fandong Kong",
-    "Yongchang Zhao",
-    "Qiurui Cao",
-    "Hai He",
-    "Yulan Xian"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract Background: Anal fissure, a prevalent anorectal disorder, is defined as a longitudinal tear in the anoderm distal to the dentate line.Chronicity develops in a substantial fraction of anal fissures despite initial conservative success, resulting in significant quality-of-life deficits. Therapeutic efforts for these CAFes entail anal pressure reduction as a cornerstone, implemented through either nonsurgical agents or surgical procedures.Surgical intervention has historically constituted…",
-    "citations": 0,
-    "doi": "10.1186/s13063-026-09960-5"
-   },
-   "id": "7160c9bdb86feb3d",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-20T00:00:00Z",
-   "score": 0.345,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract Background: Anal fissure, a prevalent anorectal disorder, is defined as a longitudinal tear in the anoderm distal to the dentate line.Chronicity develops in a substantial fraction of anal fissures despite initial conservative success, resulting in significant quality-of-life deficits.…",
-   "tags": [],
-   "title": "Lateral internal sphincterotomy with skin grafting for chronic anal fissure: protocol of a multi-center randomized controlled trial",
-   "url": "https://doi.org/10.1186/s13063-026-09960-5",
-   "venue": "Trials"
-  },
-  {
-   "authors": [
-    "Yongliang Ou",
-    "Lena Scholz",
-    "Sanath Keshav",
-    "Yuji Ikeda",
-    "Marvin A. Kraft",
-    "Sergiy V. Divinski"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract Improving solid electrolytes is critical for high-performance all-solid-state batteries, yet the microstructural features that enable fast ion transport remain poorly understood. Here, we use multiscale modeling to resolve polycrystalline ion transport from atomic-scale hopping at grain boundaries to continuum-scale percolation, thereby providing insights into realistic solid-electrolyte microstructures. Accurate lightweight machine-learning potentials—developed via closed-loop active…",
-    "citations": 0,
-    "doi": "10.1038/s41467-026-76216-w"
-   },
-   "id": "60698c32f86b434e",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-20T00:00:00Z",
-   "score": 0.4825,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract Improving solid electrolytes is critical for high-performance all-solid-state batteries, yet the microstructural features that enable fast ion transport remain poorly understood. Here, we use multiscale modeling to resolve polycrystalline ion transport from atomic-scale hopping at grain…",
-   "tags": [],
-   "title": "Microstructural insights into fast ion transport in solid electrolytes via multiscale modeling",
-   "url": "https://doi.org/10.1038/s41467-026-76216-w",
-   "venue": "Nature Communications"
-  },
-  {
-   "authors": [
-    "Zhen Luo",
-    "Mackenzie Hofford",
-    "Ruochong Fan",
-    "Wenyu Song",
-    "Thomas G. Kannampallil",
-    "Adam Wilcox"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract Objective This study investigated associations between social determinants of health (SDoH) and time to MOUD initiation across care settings, providing insights for targeted interventions to promote equitable care for OUD patients. Material and Methods We linked patient-level electronic health records (EHRs) from a regional integrated health system with census-tract–level SDoH from the Population Level Analysis and Community Estimates (PLACES) database. The study cohort included…",
-    "citations": 0,
-    "doi": "10.1038/s44401-026-00147-3"
-   },
-   "id": "bd73509783c2fc96",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-20T00:00:00Z",
-   "score": 0.345,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract Objective This study investigated associations between social determinants of health (SDoH) and time to MOUD initiation across care settings, providing insights for targeted interventions to promote equitable care for OUD patients. Material and Methods We linked patient-level electronic…",
-   "tags": [],
-   "title": "Differential associations between social determinants of health and the initiation of medications for opioid use disorder across care settings",
-   "url": "https://doi.org/10.1038/s44401-026-00147-3",
-   "venue": "npj Health Systems"
-  },
-  {
-   "authors": [
-    "Ryan Leung",
-    "Michael See",
-    "Ankita George",
-    "Patrick Barry",
-    "Kyle A. France",
-    "Natalie Charitakis"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Neuronal-glial cell fate switch during forebrain development is highly regulated. DLX transcription factors are necessary for promoting GABAergic interneuron differentiation and migration but the mechanisms for concomitant repression of glial fate in neural progenitors remain elusive. Here, the DLX2 regulatory network dynamic in the developing ventral telencephalon is characterised using a multi-omic approach at single-cell resolution, including single-cell whole genome spatial transcriptomics.…",
-    "citations": 0,
-    "doi": "10.1038/s41467-026-76838-0"
-   },
-   "id": "51c64d5a8f3ca27c",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-20T00:00:00Z",
-   "score": 0.4825,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Neuronal-glial cell fate switch during forebrain development is highly regulated. DLX transcription factors are necessary for promoting GABAergic interneuron differentiation and migration but the mechanisms for concomitant repression of glial fate in neural progenitors remain elusive. Here, the…",
-   "tags": [
-    "ml-vis"
-   ],
-   "title": "The DLX/Notch axis is necessary for spatiotemporal regulation of neural cell fate",
-   "url": "https://doi.org/10.1038/s41467-026-76838-0",
-   "venue": "Nature Communications"
-  },
-  {
-   "authors": [
-    "Markus Ingold",
-    "Qingming Gao",
-    "Jennifer R. Mandel",
-    "James P. McNellie",
-    "Kyle G. Keepers",
-    "Jessica G. Barb"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "ABSTRACT In sunflower ( Helianthus annuus L.), the composition of fatty acids in the seeds, primarily oleic, linoleic, stearic and palmitic acid, is of utmost importance for oil quality. Despite this, the genetic basis of this trait and its interaction with the environment is poorly understood. Understanding this interaction is critical to improvement of sunflower within the context of climate change. In this work, we incorporated fatty acid composition measurements from the sunflower SAM…",
-    "citations": 0,
-    "doi": "10.1007/s00122-026-05346-y"
-   },
-   "id": "1718827b840f7448",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-20T00:00:00Z",
-   "score": 0.4825,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "ABSTRACT In sunflower ( Helianthus annuus L.), the composition of fatty acids in the seeds, primarily oleic, linoleic, stearic and palmitic acid, is of utmost importance for oil quality. Despite this, the genetic basis of this trait and its interaction with the environment is poorly understood.…",
-   "tags": [],
-   "title": "The stability of fatty acid composition in sunflower oil is dependent on environment and affected by structural variation",
-   "url": "https://doi.org/10.1007/s00122-026-05346-y",
-   "venue": "Theoretical and Applied Genetics"
-  },
-  {
-   "authors": [
-    "Bjoern Perder",
-    "Yu Xia",
-    "J. Yao",
-    "Ignace Van der Wee",
-    "Miaoyan Qiu",
-    "Alvin Gea Chen Yao"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract The epicardium is a crucial source of progenitor cells and paracrine signals that support heart development and regeneration. However, the molecular mechanisms that guide epicardial cell fate decisions remain incompletely understood. Here, we identify the transcription factor Scleraxis a (encoded by scxa ) as a key regulator of epicardial progenitor differentiation in zebrafish. Through single-cell transcriptomics, genetic lineage tracing, and cardiac injury models, we show that scxa…",
-    "citations": 0,
-    "doi": "10.1038/s41467-026-77008-y"
-   },
-   "id": "92d0296291cff1e7",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-20T00:00:00Z",
-   "score": 0.4825,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract The epicardium is a crucial source of progenitor cells and paracrine signals that support heart development and regeneration. However, the molecular mechanisms that guide epicardial cell fate decisions remain incompletely understood. Here, we identify the transcription factor Scleraxis a…",
-   "tags": [],
-   "title": "Hypoxia-activated scleraxis a mediates epicardial progenitor differentiation into a unique cardiac perivascular cell type",
-   "url": "https://doi.org/10.1038/s41467-026-77008-y",
-   "venue": "Nature Communications"
-  },
-  {
-   "authors": [
-    "Maohua Li",
-    "Qing Li",
-    "Rong Tang",
-    "Yuqin Liu",
-    "Wei Xue",
-    "Yan Li"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract Background Physical resilience varies widely among older stroke survivors, yet its latent heterogeneity and underlying psychosocial mechanisms remain unclear. Aim To identify distinct subgroups of physical resilience in older adults with stroke and to examine differences in network structures across these subgroups. Design: A cross-sectional study. Methods A total of 346 older adults with stroke were recruited from a tertiary Grade‑A hospital in Daqing, China, between May 2025 and…",
-    "citations": 0,
-    "doi": "10.1186/s12877-026-08101-6"
-   },
-   "id": "99241e5dd3ab8da9",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-20T00:00:00Z",
-   "score": 0.4825,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract Background Physical resilience varies widely among older stroke survivors, yet its latent heterogeneity and underlying psychosocial mechanisms remain unclear. Aim To identify distinct subgroups of physical resilience in older adults with stroke and to examine differences in network…",
-   "tags": [],
-   "title": "Identifying the heterogeneity of physical resilience in Chinese older adult stroke patients using latent profile analysis and network analysis",
-   "url": "https://doi.org/10.1186/s12877-026-08101-6",
-   "venue": "BMC Geriatrics"
-  },
-  {
-   "authors": [
-    "Maverick C Guenther",
-    "Bethany Dado-Senn",
-    "Madison N. Myers",
-    "Jayasimha R. Daddam",
-    "G. Andres Contreras",
-    "Z Z Zhou"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract Development of the mammary gland begins in utero and requires coordinated interactions between the epithelial rich parenchyma and the surrounding mammary fat pad (mFP). In this study we investigated how maternal heat stress (HS) during gestation impacts the development of the offspring mFP. Mammary fat pad tissue was collected from Holstein heifers at birth that were gestated under either HS or active cooling conditions for the last 54 days of gestation in a subtropical summer. Heifers…",
-    "citations": 0,
-    "doi": "10.1038/s41598-026-66367-7"
-   },
-   "id": "dcde78675d8f4ec8",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-20T00:00:00Z",
-   "score": 0.345,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract Development of the mammary gland begins in utero and requires coordinated interactions between the epithelial rich parenchyma and the surrounding mammary fat pad (mFP). In this study we investigated how maternal heat stress (HS) during gestation impacts the development of the offspring…",
-   "tags": [],
-   "title": "In utero hyperthermia impacts the histological and transcriptomic signature of the mammary fat pad of newborn heifers",
-   "url": "https://doi.org/10.1038/s41598-026-66367-7",
-   "venue": "Scientific Reports"
   },
   {
    "authors": [
@@ -558,7 +215,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T19:51:36Z",
-   "score": 0.6496,
+   "score": 0.6443,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -588,7 +245,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T09:22:18Z",
-   "score": 0.4269,
+   "score": 0.4222,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -617,7 +274,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T08:31:09Z",
-   "score": 0.6171,
+   "score": 0.6125,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -645,7 +302,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T02:39:35Z",
-   "score": 0.602,
+   "score": 0.5977,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -657,8 +314,8 @@
   }
  ],
  "meta": {
-  "count": 23,
-  "generated_at": "2026-08-21T18:53:32Z",
+  "count": 11,
+  "generated_at": "2026-08-21T20:38:21Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -676,7 +333,7 @@
    },
    {
     "category": "optional",
-    "count": 50,
+    "count": 0,
     "error": null,
     "full_text_count": 0,
     "id": "openalex_datavis",
@@ -701,7 +358,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-24&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-07-24&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
@@ -712,7 +369,7 @@
    },
    {
     "category": "optional",
-    "count": 40,
+    "count": 0,
     "error": null,
     "full_text_count": 0,
     "id": "openalex_techcomm",

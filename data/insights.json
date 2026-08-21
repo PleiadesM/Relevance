@@ -1,24 +1,44 @@
 {
- "brief": "Today's news covers a deadly drone strike in Ukraine, legal and political battles in the US, and international tensions, while research papers explore topics from nanomedicine to visualization education.",
- "meta": {
-  "generated_at": "2026-08-21T18:53:32Z"
+ "apropos_of_nothing": {
+  "query": "Gloucestershire cheese rolling OR cheese rolling championship",
+  "source": {
+   "name": "Runner's World",
+   "published_at": "2026-07-27T07:00:00Z",
+   "title": "This Chaotic Cheese-Rolling Race Has No Permit, No Insurance, and No Plans to Stop",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNY2xQUWNoa29tNHVUU3JGYWlEdDZ0NXMwakF0RkhFQzkyZHdaY2ZKd1VTNnNGNTJKTHpFaHV0RjFEelk2cGZ3NWlXT2lGeWNUVWhzVjc0Z213d0pOck1vVGhIY3BTVHA0c3Z1RGhzRUs0Y01QZDJ6T2ZvWlpkTk94WHVJVQ?oc=5"
+  },
+  "summaries": {
+   "en": {
+    "summary": "This article details the unlicensed, uninsured, chaotic cheese-rolling race that continues despite legal and safety concerns.",
+    "why_irrelevant": "Far from typical dashboard feeds about finance and tech."
+   },
+   "zh": {
+    "summary": "这篇文章报道了一场无许可、无保险的混乱奶酪滚动比赛，尽管存在法律和安全问题，比赛仍将继续。",
+    "why_irrelevant": "远离通常的财经和科技信息流。"
+   }
+  },
+  "topic": "competitive cheese rolling"
  },
- "news_summary": "Key stories include a Russian double-tap strike killing 15 in a Ukrainian mall, the Supreme Court allowing Trump's ballroom construction, and Doris Miller's family reacting to a possible Navy honor change.",
- "papers_summary": "Research highlights include tetracycline-loaded nanomotors for lung injury, the role of fruit odors in fly courtship, and several studies on visualization design and documentation.",
+ "brief": "Today's news spans from regulatory fines on Uber to geopolitical tensions and local tragedies, while research focuses on human-centered AI and visualization.",
+ "meta": {
+  "generated_at": "2026-08-21T20:38:21Z"
+ },
+ "news_summary": "Key stories include Uber's $966m fine, the US Supreme Court allowing Trump's ballroom construction, a Russian strike on a Ukrainian mall, and Meghan's potential Netflix role.",
+ "papers_summary": "Research highlights include studies on coding agents' documentation use, concept inventories for visualization, and the impact of robot voice pitch on children's stress.",
  "summaries": {
   "en": {
-   "brief": "Today's news covers a deadly drone strike in Ukraine, legal and political battles in the US, and international tensions, while research papers explore topics from nanomedicine to visualization education.",
-   "news_summary": "Key stories include a Russian double-tap strike killing 15 in a Ukrainian mall, the Supreme Court allowing Trump's ballroom construction, and Doris Miller's family reacting to a possible Navy honor change.",
-   "papers_summary": "Research highlights include tetracycline-loaded nanomotors for lung injury, the role of fruit odors in fly courtship, and several studies on visualization design and documentation."
+   "brief": "Today's news spans from regulatory fines on Uber to geopolitical tensions and local tragedies, while research focuses on human-centered AI and visualization.",
+   "news_summary": "Key stories include Uber's $966m fine, the US Supreme Court allowing Trump's ballroom construction, a Russian strike on a Ukrainian mall, and Meghan's potential Netflix role.",
+   "papers_summary": "Research highlights include studies on coding agents' documentation use, concept inventories for visualization, and the impact of robot voice pitch on children's stress."
   },
   "zh": {
-   "brief": "今日台灣與香港政治事件、印度抗議及巴拿馬運河角力為焦點，同時科研論文關注設計教育、編碼智能體與隱私等议题。",
-   "news_summary": "台灣时隔一年再辦公投，香港支聯會颠覆案定罪，印度Z世代抗議升溫，美中在巴拿馬運河交鋒。",
-   "papers_summary": "研究探討視覺化設計課程概念清單、編碼智能體與文檔互動，以及智能家居隱私期望。"
+   "brief": "今日焦点包括台湾公投、香港国安法判决、印度抗议及美中在巴拿马运河的角力，研究方面则关注AI代理与文档交互、可视化教育等。",
+   "news_summary": "台湾举行近八年第四次公投，香港支联会案裁定有罪，印度Z世代抗议浪潮，以及美中在巴拿马运河问题上的交锋成为主要新闻。",
+   "papers_summary": "研究关注AI代理如何阅读与编写技术文档、可视化设计教育、智能家居隐私、机器人音调对儿童压力的影响等主题。"
   }
  },
  "todays_image": {
-  "caption": "The small, resilient sedge spreads unnoticed through disturbed ground, much like the sudden, double-tapping horror that uproots lives in an ordinary shopping mall.",
+  "caption": "Just as Cyperus difformis thrives in irregular, variable conditions, Uber’s automated suspensions proved irregular enough to warrant a $966m penalty.",
   "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3bda56200cdde4ae5a6918081c0b1f9b7",
   "source_name": "NMNH - Botany Dept.",
   "source_url": "http://n2t.net/ark:/65665/350a52be4-a889-473f-89fd-d9859a097448",
