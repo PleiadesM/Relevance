@@ -1,17 +1,179 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-08-21T10:45:02Z",
+  "count": 5,
+  "generated_at": "2026-08-21T13:08:37Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "full_text_file": "articles/news/d82a2ef7b31b14d6.json",
+     "item_id": "d82a2ef7b31b14d6",
+     "phrase": {
+      "en": "framed as creepiness arms race",
+      "zh": "定义为令人不适的军备竞赛"
+     },
+     "section": "news",
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect/"
+    },
+    {
+     "item_id": "a0691dfdc810824d",
+     "phrase": {
+      "en": "framed as government privacy intrusion",
+      "zh": "定义为政府隐私侵犯"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Glasses that see for you, and apps that see the glasses.",
+    "zh": "能替你看的眼镜，和能看见眼镜的应用。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "weaponized visibility",
+    "zh": "可武器化的可见性"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow embodied AI and privacy; today Meta AI glasses and anti-detection apps collide in public.",
+    "zh": "你关注具身AI与隐私，今日Meta AI眼镜与反检测应用在公共空间相撞。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "de4e6ce5418a2c2f",
+     "phrase": {
+      "en": "frames as unjust pressure",
+      "zh": "视为不公正施压"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/21/world/middleeast/iran-sanctions-united-states-ghalibaf.html"
+    },
+    {
+     "item_id": "20de79c834281c78",
+     "phrase": {
+      "en": "frames as failed militarism",
+      "zh": "视为军事失败"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/21/nx-s1-5940610/iran-us-threat-economic-warfare"
+    },
+    {
+     "item_id": "33fff008e8d0276e",
+     "phrase": {
+      "en": "frames as navigational hazard",
+      "zh": "视为航行风险"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/21/business/iran-war-hormuz-oil-spill.html"
+    },
+    {
+     "item_id": "1d14e4f44d5549f2",
+     "phrase": {
+      "en": "frames as market worry",
+      "zh": "视为市场忧虑"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/21/nx-s1-5931262/morning-news-brief"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Sanctions tighten, ships go dark, and straits grow tense.",
+    "zh": "制裁收紧，船舶熄灯，海峡趋紧。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "economic siege on Iran",
+    "zh": "对伊朗的经济围困"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-21",
+     "item_id": "20de79c834281c78",
+     "label": {
+      "en": "Iran scorns sanctions",
+      "zh": "伊朗蔑视制裁"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/21/nx-s1-5940610/iran-us-threat-economic-warfare"
+    },
+    {
+     "date": "2026-08-21",
+     "item_id": "33fff008e8d0276e",
+     "label": {
+      "en": "Hormuz ships go dark",
+      "zh": "霍尔木兹船只熄灯"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/21/business/iran-war-hormuz-oil-spill.html"
+    }
+   ],
+   "why_now": {
+    "en": "You track geopolitics and data; today Iran dismisses D-Day threats while oil-shipping risks spike.",
+    "zh": "你关注地缘政治与数据，今日伊朗蔑视D-Day威胁，而油运风险飙升。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "1ed0e114c7f5f2b0",
+     "phrase": {
+      "en": "framed as urgent loss",
+      "zh": "视为紧迫损失"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://annas-archive.pk/blog/physical-destruction.html"
+    },
+    {
+     "item_id": "b819dfaed2d27951",
+     "phrase": {
+      "en": "framed as creative gains",
+      "zh": "视为创造性收益"
+     },
+     "section": "news",
+     "source": "Google DeepMind Blog",
+     "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Rare books are food for models, and then they vanish.",
+    "zh": "珍本成为模型的食粮，随后消失。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "AI erases print heritage",
+    "zh": "AI清除印刷遗产"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about technical communication and preservation; today a blog warns book scanning lags AI's appetite.",
+    "zh": "你关心技术传播与保存，今日博客警告书籍扫描落后于AI的胃口。"
+   }
+  },
+  {
+   "angles": [
+    {
      "item_id": "ef3f33deabadc36f",
      "phrase": {
-      "en": "agents discover and write docs",
-      "zh": "智能体发现与编写文档"
+      "en": "frames as behavioral study",
+      "zh": "视为行为研究"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
@@ -20,8 +182,8 @@
     {
      "item_id": "8ae0b77ed940999a",
      "phrase": {
-      "en": "multimodal RAG for manuals",
-      "zh": "多模态检索增强用于手册"
+      "en": "frames as retrieval aid",
+      "zh": "视为检索辅助"
      },
      "section": "papers",
      "source": "arXiv cs.HC + cs.GR",
@@ -30,135 +192,81 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Coding agents now read the docs humans wrote, reshaping how software gets built.",
-    "zh": "编码智能体开始阅读人类撰写的文档，重塑软件开发方式。"
+    "en": "Manuals were for humans; now codes read them too.",
+    "zh": "手册曾为人而写，如今代码也读它们。"
    },
-   "id": "t1",
+   "id": "t4",
    "keyword": {
-    "en": "Agent Documentation",
-    "zh": "智能体文档"
+    "en": "documentation for agents",
+    "zh": "面向智能体的文档"
    },
    "relates_to": [],
-   "why_now": {
-    "en": "You study HCI and technical communication: new research shows agents need doc changes, not just tooling.",
-    "zh": "你研究人机交互与技术传播，新研究显示智能体需要文档变革，不仅是工具。"
-   }
-  },
-  {
-   "angles": [
+   "timeline": [
     {
-     "item_id": "a5218bfdf22069f9",
-     "phrase": {
-      "en": "concept inventory for design",
-      "zh": "设计概念清单"
+     "date": "2026-08-20",
+     "item_id": "ef3f33deabadc36f",
+     "label": {
+      "en": "agent doc study",
+      "zh": "智能体文档研究"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.20195v1"
+    },
+    {
+     "date": "2026-08-20",
+     "item_id": "8ae0b77ed940999a",
+     "label": {
+      "en": "manual RAG system",
+      "zh": "手册RAG系统"
      },
      "section": "papers",
      "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.20090v1"
-    },
-    {
-     "item_id": "af17eb4931bad19b",
-     "phrase": {
-      "en": "cognitive accessibility insights",
-      "zh": "认知无障碍见解"
-     },
-     "section": "papers",
-     "source": "Semantic Scholar · data visualization",
-     "url": "https://www.semanticscholar.org/paper/6dd07404ee8b436e9a3b701c536154e2753d9965"
+     "url": "https://arxiv.org/abs/2608.18465v1"
     }
    ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "What should students learn about visualization? New tools and concepts reshape the classroom.",
-    "zh": "学生应学什么可视化？新工具与新概念重塑课堂。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "Visualization Pedagogy",
-    "zh": "可视化教学"
-   },
-   "relates_to": [],
    "why_now": {
-    "en": "You care about data visualization and technical communication: new concept inventory and cognitive insights inform how to teach it.",
-    "zh": "你在意数据可视化与技术传播，新概念清单与认知见解为教学提供指导。"
+    "en": "You study HCI and technical writing; today research probes how coding agents use docs.",
+    "zh": "你研究人机交互与技术写作，今日研究探究编码智能体如何使用文档。"
    }
   },
   {
    "angles": [
     {
+     "item_id": "9a5978e7a0cb6552",
+     "phrase": {
+      "en": "framed as stress intervention",
+      "zh": "视为压力干预"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.19826v1"
+    },
+    {
      "item_id": "aba75f6cc79d9d0a",
      "phrase": {
-      "en": "sonification of uncertainty",
-      "zh": "不确定性的试听化"
+      "en": "framed as affective sound",
+      "zh": "视为情感化声音"
      },
      "section": "papers",
      "source": "arXiv cs.HC + cs.GR",
      "url": "https://arxiv.org/abs/2608.18680v1"
-    },
-    {
-     "item_id": "af17eb4931bad19b",
-     "phrase": {
-      "en": "affective visualization link",
-      "zh": "情感可视化关联"
-     },
-     "section": "papers",
-     "source": "Semantic Scholar · data visualization",
-     "url": "https://www.semanticscholar.org/paper/6dd07404ee8b436e9a3b701c536154e2753d9965"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Visualization isn't just cognition—sound and emotion shape how we feel data.",
-    "zh": "可视化不仅是认知，声音与情感塑造我们如何感知数据。"
+    "en": "Robots speak, children tense; sound is a design lever.",
+    "zh": "机器人说话，孩子紧张；声音是设计杠杆。"
    },
-   "id": "t3",
+   "id": "t5",
    "keyword": {
-    "en": "Visualization Affect",
-    "zh": "可视化的情感"
+    "en": "AI voice affects us",
+    "zh": "AI语音影响情绪"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You explore critical visualization: new research ties affective sonification to uncertainty, expanding the field's emotional dimension.",
-    "zh": "你探索批判可视化，新研究将情感试听与不确定性关联，扩展领域的情感维度。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "18f1a63eb69938ab",
-     "phrase": {
-      "en": "privacy expectations revealed",
-      "zh": "隐私期望被揭露"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.19873v1"
-    },
-    {
-     "item_id": "a0691dfdc810824d",
-     "phrase": {
-      "en": "phone data privacy case",
-      "zh": "手机数据隐私案"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Smart homes keep secrets; users react when they learn what devices do with data.",
-    "zh": "智能家居保守秘密，用户了解设备数据行为后做出反应。"
-   },
-   "id": "t4",
-   "keyword": {
-    "en": "Smart Home Privacy",
-    "zh": "智能家居隐私"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You're interested in HCI and ethics: a new study reveals how confirming privacy expectations changes user trust and coping.",
-    "zh": "你关注人机交互与伦理，新研究揭示确认隐私期望如何改变用户信任与应对。"
+    "en": "You study embodied interaction; today a robot-voice study shows pitch matters for stress.",
+    "zh": "你研究具身交互，今日机器人语音研究表明音调影响压力。"
    }
   }
  ]

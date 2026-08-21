@@ -1,48 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
-  "source": {
-   "name": "kuban24.tv",
-   "published_at": "2026-08-20T12:45:00Z",
-   "title": "Гигантскую тыкву весом 400 кг вырастила жительница Славянского района",
-   "url": "https://kuban24.tv/item/gigantskuyu-tykvu-vesom-400-kg-vyrastila-zhitelnitsa-slavyanskogo-rajona"
-  },
-  "summaries": {
-   "en": {
-    "summary": "A resident of Slavyansky District grew a giant pumpkin weighing 400 kg.",
-    "why_irrelevant": "It's a regional Russian news item, far from mainstream tech or lifestyle feeds."
-   },
-   "zh": {
-    "summary": "斯拉维扬斯克区的一位居民种出了一个重达400公斤的巨型南瓜。",
-    "why_irrelevant": "这是一条俄罗斯地方新闻，远离主流科技或生活资讯流。"
-   }
-  },
-  "topic": "competitive pumpkin growing"
- },
- "brief": "Today's news spans geopolitics, environmental concerns, and cultural events, while research focuses on human-computer interaction and visualization.",
+ "brief": "Today's news covers geopolitical tensions, economic instability, and social issues, with key stories on Iran, fuel shortages in Russia, and political developments in the US and UK. Research highlights advances in visualization and human-computer interaction.",
  "meta": {
-  "generated_at": "2026-08-21T10:45:02Z"
+  "generated_at": "2026-08-21T13:08:37Z"
  },
- "news_summary": "UK politics, global market stability, Russian-linked weapons discovery, glacier melt revealing bodies, and NYC tornadoes headline the news, alongside Hong Kong convictions and Italy's political landscape.",
- "papers_summary": "Research papers explore fruit odors in Drosophila courtship, coding agent documentation, visualization education, and human-AI interaction, with a focus on user trust, stress, and personalized guidance.",
+ "news_summary": "News items focus on Iran economic warfare, Russian fuel shortages, US bond market concerns, and various political and social issues in the UK and US, alongside tech-related stories.",
+ "papers_summary": "Papers cover topics in visualization design, human-AI interaction, and robot-child interaction, emphasizing user-centered approaches and technical documentation.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans geopolitics, environmental concerns, and cultural events, while research focuses on human-computer interaction and visualization.",
-   "news_summary": "UK politics, global market stability, Russian-linked weapons discovery, glacier melt revealing bodies, and NYC tornadoes headline the news, alongside Hong Kong convictions and Italy's political landscape.",
-   "papers_summary": "Research papers explore fruit odors in Drosophila courtship, coding agent documentation, visualization education, and human-AI interaction, with a focus on user trust, stress, and personalized guidance."
+   "brief": "Today's news covers geopolitical tensions, economic instability, and social issues, with key stories on Iran, fuel shortages in Russia, and political developments in the US and UK. Research highlights advances in visualization and human-computer interaction.",
+   "news_summary": "News items focus on Iran economic warfare, Russian fuel shortages, US bond market concerns, and various political and social issues in the UK and US, alongside tech-related stories.",
+   "papers_summary": "Papers cover topics in visualization design, human-AI interaction, and robot-child interaction, emphasizing user-centered approaches and technical documentation."
   },
   "zh": {
-   "brief": "今日新闻焦点包括香港支联会颠覆案定罪、台湾公投、特朗普与金正恩关系及巴拿马运河中美角力；学术方面暂无中文论文，但英文研究涉及可视化教育与人机交互。",
-   "news_summary": "香港高等法院裁定支联会煽动颠覆罪成，台湾将举行三项公投，特朗普欲与金正恩缓和关系或影响韩国，巴拿马运河成中美角力点。",
-   "papers_summary": "英文研究关注可视化设计概念清单、智能文档历史、儿童与机器人语音交互等，暂无中文论文。"
+   "brief": "今日新闻聚焦印度Z世代抗议、香港国安法判决、台湾公投等地缘政治事件，以及美国对伊朗经济战、巴拿马运河角力等国际动态；论文方面主要涉及可视化设计与智能文档系统研究。",
+   "news_summary": "印度Z世代因一句侮辱引发的反抗运动成为莫迪政府执政以来最严峻挑战之一；香港高等法院裁定支联会煽动颠覆罪名成立；台湾举行三大公投；美国与伊朗经济战升级，中美在巴拿马运河再现角力。",
+   "papers_summary": "论文涉及可视化设计教育、智能家居隐私、机器人音调对儿童压力影响、文档历史可视化等主题。"
   }
  },
  "todays_image": {
-  "caption": "Like the Great Aletsch Glacier, whose ice is slowly eroded by warming, the two-state solution is eroded by allowing goods from the occupied West Bank.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-23238_03-000001",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/23238",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-23238_03-000001",
-  "title": "Great Aletsch Glacier, Switzerland"
+  "caption": "Like the marine algae Champia parvula drawing on ancient sunlight to sustain life, Russians' dwindling petrol supply reveals a resilience rooted not in fuel, but in the enduring warmth of collective resolve.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m302e2e34e33724db2a314022d7b516ec7",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3a7a2ea33-c931-454e-b66a-216426d6db43",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m302e2e34e33724db2a314022d7b516ec7/90",
+  "title": "Champia parvula (C. Agardh) Harv."
  }
 }
