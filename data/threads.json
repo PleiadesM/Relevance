@@ -1,57 +1,17 @@
 {
  "meta": {
-  "count": 3,
-  "generated_at": "2026-08-21T16:49:44Z",
+  "count": 4,
+  "generated_at": "2026-08-21T18:53:32Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "dbfacc7620071076",
-     "phrase": {
-      "en": "AI helps homework, harms exams",
-      "zh": "AI助作业，碍考试"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://canews24.online/?p=71"
-    },
-    {
-     "full_text_file": "articles/news/047e01752cead926.json",
-     "item_id": "047e01752cead926",
-     "phrase": {
-      "en": "creators face AI money backlash",
-      "zh": "创作者遭AI资金反对"
-     },
-     "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "AI boosts homework scores but may hurt exams.",
-    "zh": "AI提高作业分，但可能拉低考试成绩。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "AI in education",
-    "zh": "AI与教育"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You care about AI's real impact on learning; a new study shows a trade-off.",
-    "zh": "你关注AI对学习的真实影响，新研究揭示了权衡。"
-   }
-  },
-  {
-   "angles": [
-    {
      "item_id": "ef3f33deabadc36f",
      "phrase": {
-      "en": "agents read docs differently",
-      "zh": "代理阅读文档方式不同"
+      "en": "Empirical study of coding agents' docs",
+      "zh": "编码代理文档的实证研究"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
@@ -60,8 +20,8 @@
     {
      "item_id": "1ed65cbbd5dd3a6f",
      "phrase": {
-      "en": "observability for AI agents",
-      "zh": "AI代理可观测性"
+      "en": "eBPF observability for AI agents",
+      "zh": "AI代理的eBPF可观测性"
      },
      "section": "news",
      "source": "Hacker News (AI filter)",
@@ -70,59 +30,136 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Coding agents need docs written for them.",
-    "zh": "编码代理需要为它们编写的文档。"
+    "en": "As AI agents write code, we need tools to watch them work.",
+    "zh": "AI代理编写代码时，我们需要工具来观察它们的工作。"
    },
-   "id": "t2",
+   "id": "t1",
    "keyword": {
-    "en": "AI agent documentation",
-    "zh": "AI代理文档"
+    "en": "AI agent observability",
+    "zh": "AI代理可观测性"
    },
-   "relates_to": [
-    "t1"
-   ],
+   "relates_to": [],
    "why_now": {
-    "en": "You study human-AI interaction; this shows a shift in technical communication.",
-    "zh": "你研究人机交互，这显示技术沟通的转变。"
+    "en": "You follow embodied AI and HCI: today two new tools make agent behavior inspectable, a key step for trust and debugging.",
+    "zh": "你关注具身AI和人机交互，今日两款新工具使代理行为可检查，是信任与调试的关键一步。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "a5218bfdf22069f9",
+     "full_text_file": "articles/news/047e01752cead926.json",
+     "item_id": "047e01752cead926",
      "phrase": {
-      "en": "concept inventory for design",
-      "zh": "设计概念清单"
+      "en": "Creators face backlash for AI money",
+      "zh": "创作者因AI资金面临反弹"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash"
+    },
+    {
+     "item_id": "edaf01faff685aa8",
+     "phrase": {
+      "en": "LLMs prove Unix won",
+      "zh": "LLM证明Unix赢了"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://bastian.rieck.me/blog/2026/unix/"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "AI money flows into YouTube, stirring creator backlash.",
+    "zh": "AI资金涌入YouTube，引发创作者反弹。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "AI in creative industries",
+    "zh": "创意产业中的AI"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about visual rhetoric and tech criticism: creators' pushback shapes how AI tools are perceived and adopted.",
+    "zh": "你关注视觉修辞与技术批评，创作者的抵制影响AI工具的认知与采用。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "aba75f6cc79d9d0a",
+     "phrase": {
+      "en": "Sonification for uncertainty visualization",
+      "zh": "不确定性的声化表示"
      },
      "section": "papers",
      "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.20090v1"
+     "url": "https://arxiv.org/abs/2608.18680v1"
     },
     {
-     "item_id": "af17eb4931bad19b",
+     "item_id": "08a0208b93aa04ff",
      "phrase": {
-      "en": "cognitive accessibility in viz",
-      "zh": "可视化中的认知可访问性"
+      "en": "Sparse input explains odor discrimination",
+      "zh": "稀疏输入解释气味识别"
      },
      "section": "papers",
-     "source": "Semantic Scholar · data visualization",
-     "url": "https://www.semanticscholar.org/paper/6dd07404ee8b436e9a3b701c536154e2753d9965"
+     "source": "OpenAlex · information visualization",
+     "url": "https://doi.org/10.1016/j.celrep.2026.117883"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Teachers define what students must learn in visualization.",
-    "zh": "教师定义学生在可视化中必须学什么。"
+    "en": "Sonification and visuals carry emotion, shifting how we read data.",
+    "zh": "声音与视觉承载情感，改变我们解读数据的方式。"
    },
    "id": "t3",
    "keyword": {
-    "en": "visualization pedagogy",
-    "zh": "可视化教学"
+    "en": "Emotional data representation",
+    "zh": "情感数据表示"
    },
    "relates_to": [],
    "why_now": {
-    "en": "Your interest in data visualization education finds new curriculum tools.",
-    "zh": "你对数据可视化教育的兴趣找到了新课程工具。"
+    "en": "You explore critical visualization and affective design: this work links emotion to uncertainty perception.",
+    "zh": "你探索批判性可视化与情感设计，此研究将情感与不确定性感知相连。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "b819dfaed2d27951",
+     "phrase": {
+      "en": "From Atari to EVE Online",
+      "zh": "从Atari到EVE Online"
+     },
+     "section": "news",
+     "source": "Google DeepMind Blog",
+     "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/"
+    },
+    {
+     "item_id": "d7ab43f989faa8c2",
+     "phrase": {
+      "en": "Open-source Codex for coding agents",
+      "zh": "开源Codex用于编码代理"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://github.com/proliferate-ai/proliferate"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "DeepMind applies 15 years of AI research to games.",
+    "zh": "DeepMind将15年AI研究应用于游戏。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "AI in game design",
+    "zh": "游戏设计中的AI"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow embodied AI and AI agents: this shows AI's leap from Atari to complex virtual worlds.",
+    "zh": "你关注具身AI与AI代理，此展示AI从Atari到复杂虚拟世界的飞跃。"
    }
   }
  ]

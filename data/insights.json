@@ -1,48 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
-  "source": {
-   "name": "kuban24.tv",
-   "published_at": "2026-08-20T12:45:00Z",
-   "title": "Гигантскую тыкву весом 400 кг вырастила жительница Славянского района",
-   "url": "https://kuban24.tv/item/gigantskuyu-tykvu-vesom-400-kg-vyrastila-zhitelnitsa-slavyanskogo-rajona"
-  },
-  "summaries": {
-   "en": {
-    "summary": "A woman in Slavyansky district grew a giant 400 kg pumpkin.",
-    "why_irrelevant": "It is a regional human-interest story, not a tech or global trend."
-   },
-   "zh": {
-    "summary": "斯拉维扬斯克区一名女子种出了重达400公斤的巨型南瓜。",
-    "why_irrelevant": "本地人文故事，远离科技或全球潮流。"
-   }
-  },
-  "topic": "competitive pumpkin growing"
- },
- "brief": "Trump's name at the Kennedy Center and a Navy carrier renaming spark controversy, while a Texas court slashes Infowars' Sandy Hook judgment; research highlights AI's impact on learning and documentation practices.",
+ "brief": "Today's news covers a deadly drone strike in Ukraine, legal and political battles in the US, and international tensions, while research papers explore topics from nanomedicine to visualization education.",
  "meta": {
-  "generated_at": "2026-08-21T16:49:44Z"
+  "generated_at": "2026-08-21T18:53:32Z"
  },
- "news_summary": "News focuses on political and legal battles: attempts to block Trump's name at the Kennedy Center, carrier renaming backlash, and a reduced judgment for Alex Jones, alongside severe weather and international incidents.",
- "papers_summary": "Papers explore how AI and visualizations affect human interactions, including fruit fly courtship, documentation for coding agents, and visualization education.",
+ "news_summary": "Key stories include a Russian double-tap strike killing 15 in a Ukrainian mall, the Supreme Court allowing Trump's ballroom construction, and Doris Miller's family reacting to a possible Navy honor change.",
+ "papers_summary": "Research highlights include tetracycline-loaded nanomotors for lung injury, the role of fruit odors in fly courtship, and several studies on visualization design and documentation.",
  "summaries": {
   "en": {
-   "brief": "Trump's name at the Kennedy Center and a Navy carrier renaming spark controversy, while a Texas court slashes Infowars' Sandy Hook judgment; research highlights AI's impact on learning and documentation practices.",
-   "news_summary": "News focuses on political and legal battles: attempts to block Trump's name at the Kennedy Center, carrier renaming backlash, and a reduced judgment for Alex Jones, alongside severe weather and international incidents.",
-   "papers_summary": "Papers explore how AI and visualizations affect human interactions, including fruit fly courtship, documentation for coding agents, and visualization education."
+   "brief": "Today's news covers a deadly drone strike in Ukraine, legal and political battles in the US, and international tensions, while research papers explore topics from nanomedicine to visualization education.",
+   "news_summary": "Key stories include a Russian double-tap strike killing 15 in a Ukrainian mall, the Supreme Court allowing Trump's ballroom construction, and Doris Miller's family reacting to a possible Navy honor change.",
+   "papers_summary": "Research highlights include tetracycline-loaded nanomotors for lung injury, the role of fruit odors in fly courtship, and several studies on visualization design and documentation."
   },
   "zh": {
-   "brief": "今日重点包括台湾再度举行公投、香港支联会颠覆案判决，以及美国与中国的巴拿马运河角力。学术方面则聚焦于可视化教学与智能文档历史等研究。",
-   "news_summary": "台湾举行近八年第四次公投，涉及多项议题；香港法院裁定支联会颠覆罪名成立，引发关注。国际方面，美中在巴拿马运河问题上的摩擦升温，而印度Z世代抗议活动成为莫迪政府的挑战。",
-   "papers_summary": "研究探讨了可视化设计教学的概念清单，以及智能文档历史工具如何帮助用户反思写作过程。另有研究关注机器人音调对儿童压力的影响。"
+   "brief": "今日台灣與香港政治事件、印度抗議及巴拿馬運河角力為焦點，同時科研論文關注設計教育、編碼智能體與隱私等议题。",
+   "news_summary": "台灣时隔一年再辦公投，香港支聯會颠覆案定罪，印度Z世代抗議升溫，美中在巴拿馬運河交鋒。",
+   "papers_summary": "研究探討視覺化設計課程概念清單、編碼智能體與文檔互動，以及智能家居隱私期望。"
   }
  },
  "todays_image": {
-  "caption": "The gavel that once struck order now echoes in Beatty's legal bid to gavel down Trump's return to the Kennedy Center.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-A2017_13_1_7_001",
-  "source_name": "National Museum of African American History and Culture",
-  "source_url": "https://nmaahc.si.edu/object/nmaahc_A2017.13.1.7",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-A2017_13_1_7_001",
-  "title": "Gavel used by Judge Robert Terrell"
+  "caption": "The small, resilient sedge spreads unnoticed through disturbed ground, much like the sudden, double-tapping horror that uproots lives in an ordinary shopping mall.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3bda56200cdde4ae5a6918081c0b1f9b7",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/350a52be4-a889-473f-89fd-d9859a097448",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3bda56200cdde4ae5a6918081c0b1f9b7/90",
+  "title": "Cyperus difformis L."
  }
 }
