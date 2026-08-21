@@ -15,7 +15,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-21T00:00:00Z",
-   "score": 0.4771,
+   "score": 0.4718,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -24,6 +24,318 @@
    "title": "Fruit odors enhance attractiveness of male <i>Drosophila melanogaster</i> flies during courtship",
    "url": "https://hdl.handle.net/21.11116/0000-0013-4C12-2",
    "venue": "MPG.PuRe (Max Planck Society)"
+  },
+  {
+   "authors": [
+    "Zhijun Gao",
+    "Jing Chen"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Technical documentation is written for human developers, but an increasing share of software changes is now authored by autonomous coding agents. Which documents they consult, when, and what follows remain unknown. We conduct a behaviour-grounded study of agent-documentation interaction across two public datasets: 557 agentic coding sessions from SWE-chat, yielding 94,813 development events including 3,033 documentation interactions; and 33,097 agentic pull requests from AIDev, with 690,260…",
+    "arxiv_id": "2608.20195"
+   },
+   "id": "ef3f33deabadc36f",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-20T15:51:54Z",
+   "score": 0.7455,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Technical documentation is written for human developers, but an increasing share of software changes is now authored by autonomous coding agents. Which documents they consult, when, and what follows remain unknown. We conduct a behaviour-grounded study of agent-documentation interaction across two…",
+   "tags": [
+    "ai-writing",
+    "techcomm"
+   ],
+   "title": "From Agent Behaviour to Agent-Friendly Documentation: An Empirical Study of How Coding Agents Discover, Read, and Write Technical Documentation",
+   "url": "https://arxiv.org/abs/2608.20195v1",
+   "venue": "arXiv cs.SE"
+  },
+  {
+   "authors": [
+    "Medina Lamkin",
+    "Heer Patel",
+    "Sayamindu Dasgupta",
+    "Leilani Battle"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "The term \"visualization design\" encompasses multiple concepts and skills that go well beyond current assessments of graphical perception and visualization literacy. In the context of education, what exactly should a student be able to do if they \"know\" visualization design? To answer this question, we draw on existing methodology from the field of education to propose a concept inventory for visualization design, i.e., a theoretical model capturing the most important concepts and skills…",
+    "arxiv_id": "2608.20090"
+   },
+   "id": "a5218bfdf22069f9",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-20T14:23:07Z",
+   "score": 0.5862,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "The term \"visualization design\" encompasses multiple concepts and skills that go well beyond current assessments of graphical perception and visualization literacy. In the context of education, what exactly should a student be able to do if they \"know\" visualization design? To answer this question,…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "What Do Visualization Instructors Want Students to Learn? Introducing a Concept Inventory for Visualization Design",
+   "url": "https://arxiv.org/abs/2608.20090v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Nini Kurashvili",
+    "Yana Ivanchenko",
+    "Greta Schiavo",
+    "Cansu Koyuturk",
+    "Dimitri Ognibene"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Artificial intelligence (AI) systems are increasingly used across domains to provide personalized information, recommendations, and decision support. However, in some contexts, AI-generated information may not be suitable for direct delivery to the final recipient. Instead, it may need to be interpreted, adapted, and communicated by a human who understands the recipient's needs, emotional state, and situational context. Human-AI interaction research has given less attention to situations in…",
+    "arxiv_id": "2608.19950"
+   },
+   "id": "8e2e5c7d95c1877b",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-20T12:17:24Z",
+   "score": 0.7291,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Artificial intelligence (AI) systems are increasingly used across domains to provide personalized information, recommendations, and decision support. However, in some contexts, AI-generated information may not be suitable for direct delivery to the final recipient. Instead, it may need to be…",
+   "tags": [
+    "ai-writing",
+    "ux"
+   ],
+   "title": "Designing Human-mediated AI Guidance: Ready Together for Personalized Family Emergency Preparedness",
+   "url": "https://arxiv.org/abs/2608.19950v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Tania Khatun",
+    "Mahdieh Sheikh Rezaei",
+    "Danny Yuxing Huang",
+    "Oded Nov",
+    "Reza Ghaiumy Anaraky"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Users of smart home devices are often unaware of how their devices handle personal data. We examine how revealing these data practices influences user trust, satisfaction, and coping behaviors, including decisions to block device communications. Using Expectation-Confirmation Theory, we conducted two complementary studies to balance ecological validity with experimental control. An in-situ field study used network monitoring to reveal actual device traffic, and an online experiment presented…",
+    "arxiv_id": "2608.19873"
+   },
+   "id": "18f1a63eb69938ab",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-20T10:35:00Z",
+   "score": 0.5291,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Users of smart home devices are often unaware of how their devices handle personal data. We examine how revealing these data practices influences user trust, satisfaction, and coping behaviors, including decisions to block device communications. Using Expectation-Confirmation Theory, we conducted…",
+   "tags": [],
+   "title": "Evaluating Smart Home Device User Responses to their (Un)Confirmed Privacy Expectations",
+   "url": "https://arxiv.org/abs/2608.19873v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Nina G. M. van Roij",
+    "Emilia I. Barakova",
+    "Briana Isaila",
+    "Aoju Chen"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "This study examined whether variations in robot speech pitch influence children's stress levels during a robot-guided game. Although lower-pitched voices have been shown to facilitate stress regulation in human communication, it remains unclear whether this effect generalizes to synthetic voices in child-robot interactions. Twenty-seven Dutch children aged 8-12 years were randomly assigned to interact with a Zenbo Junior II robot using either a lower-pitched or a higher-pitched voice. The…",
+    "arxiv_id": "2608.19826"
+   },
+   "id": "9a5978e7a0cb6552",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-20T09:27:56Z",
+   "score": 0.7167,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "This study examined whether variations in robot speech pitch influence children's stress levels during a robot-guided game. Although lower-pitched voices have been shown to facilitate stress regulation in human communication, it remains unclear whether this effect generalizes to synthetic voices in…",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "Calming Robot Pitches? Exploring the Influence of Robot Voice Pitch on Children's Stress Levels",
+   "url": "https://arxiv.org/abs/2608.19826v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "David Zhou",
+    "Andrew Chen",
+    "John Joon Young Chung",
+    "Sarah Sterman"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Much of the text produced throughout the lifetime of a document is impermanent. In this paper, we explore how writing activity traces can be made visible and interactive to help writers navigate their document histories and understand their writing processes. Using the Flower and Hayes cognitive process model of writing, IRIS infers writing process states from keystroke logs and presents them using an AI-enhanced version history. IRIS provides three primary interactions: revision highlighting…",
+    "arxiv_id": "2608.19614"
+   },
+   "id": "972431023342694d",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-20T03:54:52Z",
+   "score": 0.5009,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Much of the text produced throughout the lifetime of a document is impermanent. In this paper, we explore how writing activity traces can be made visible and interactive to help writers navigate their document histories and understand their writing processes. Using the Flower and Hayes cognitive…",
+   "tags": [
+    "techcomm"
+   ],
+   "title": "IRIS: Navigating and Reflecting on Writing Traces Using Intelligent Document Histories",
+   "url": "https://arxiv.org/abs/2608.19614v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Mikio Nakano",
+    "Kazunori Komatani",
+    "Hironori Takeuchi"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "This paper addresses the issue of the significant labor required to test interview dialogue systems. While interview dialogue systems are expected to be useful in various scenarios, like other dialogue systems, testing them with human users requires significant effort and cost. Therefore, testing with user simulators can be beneficial. Since most conventional user simulators have been primarily designed for training task-oriented dialogue systems, little attention has been paid to the personas…",
+    "arxiv_id": "2608.19549"
+   },
+   "id": "fdb9a862f3eb82bf",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-20T01:32:06Z",
+   "score": 0.4914,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "This paper addresses the issue of the significant labor required to test interview dialogue systems. While interview dialogue systems are expected to be useful in various scenarios, like other dialogue systems, testing them with human users requires significant effort and cost. Therefore, testing…",
+   "tags": [],
+   "title": "Generating Diverse Personas for User Simulators to Test Interview Dialogue Systems",
+   "url": "https://arxiv.org/abs/2608.19549v1",
+   "venue": "arXiv cs.CL"
+  },
+  {
+   "authors": [
+    "Jasmine Tan Otto",
+    "Alexandra Diehl",
+    "Max Kreminski",
+    "Scott Davidoff"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Scientific visualization is an active site of infrastructuring with many layers of data and evidential claims. This paper reflects on collaborative Mars geoscience research conducted at the NASA Jet Propulsion Lab, which produced the PIXLISE spectroscopic analysis platform, through a retrospective analysis of a scientific discovery made by the team using PIXLISE. The history of infrastructuring in scientific visualization is exceedingly rich, which presents an opportunity for archival research.…",
+    "also_in": [
+     {
+      "source": "arXiv cs.HC (writing & docs)",
+      "url": "https://arxiv.org/abs/2608.19413v1"
+     }
+    ],
+    "arxiv_id": "2608.19413"
+   },
+   "id": "aab7a544928b8707",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-19T19:51:36Z",
+   "score": 0.7022,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Scientific visualization is an active site of infrastructuring with many layers of data and evidential claims. This paper reflects on collaborative Mars geoscience research conducted at the NASA Jet Propulsion Lab, which produced the PIXLISE spectroscopic analysis platform, through a retrospective…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Scientific Visualization as a Collaborative Data Infrastructure",
+   "url": "https://arxiv.org/abs/2608.19413v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Lei Xia",
+    "Siyu Wu",
+    "Haodian Li",
+    "Ye Sun",
+    "Liang Zhou",
+    "Lei Shi"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Understanding and enhancing visual analytics (VA) performance is important for maximizing their impact. Existing studies have successfully applied well-established summative evaluation methods from information visualization to the VA context, yet the recent emphasis on an extra data analysis/modeling stage in the VA pipeline poses an additional challenge. Inspired by the modern concept of visualization literacy, this paper examines model literacy, namely users' knowledge of the analysis model…",
+    "arxiv_id": "2608.18721"
+   },
+   "id": "9636ce590c77f70c",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-19T09:22:18Z",
+   "score": 0.4734,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Understanding and enhancing visual analytics (VA) performance is important for maximizing their impact. Existing studies have successfully applied well-established summative evaluation methods from information visualization to the VA context, yet the recent emphasis on an extra data…",
+   "tags": [
+    "eval-study",
+    "visualization"
+   ],
+   "title": "Model Literacy: An Extra Summative Evaluation Factor for Visual Analytics",
+   "url": "https://arxiv.org/abs/2608.18721v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Marcel-Simon Dutt",
+    "Sita A. Vriend",
+    "Elias Elmquist",
+    "Daniel Weiskopf"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Affective visualization can influence how users perceive, interpret, and engage with data by embedding and conveying emotion through visual design. While sound is widely used in media to evoke emotions, little is known about how sonification can support affective visualization. In this work, we investigate how sonification can communicate emotion in uncertainty visualizations through a co-design study. Participants created two sonifications to accompany a visualization: one conveying the…",
+    "arxiv_id": "2608.18680"
+   },
+   "id": "aba75f6cc79d9d0a",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-19T08:31:09Z",
+   "score": 0.6631,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Affective visualization can influence how users perceive, interpret, and engage with data by embedding and conveying emotion through visual design. While sound is widely used in media to evoke emotions, little is known about how sonification can support affective visualization. In this work, we…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Sounds Uncertain: Exploring the Affective Aspects of Sonification for Uncertainty Visualization",
+   "url": "https://arxiv.org/abs/2608.18680v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Seongjun Ha",
+    "Md Rashedul Islam",
+    "Gaurav Nanda",
+    "Damon Lercel"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Proper use of the aircraft maintenance manual is essential for correct maintenance, providing procedures, diagrams, cautions, and specifications. However, technicians often avoid consulting it because it is difficult to navigate and time-consuming under strict schedules. Retrieval augmented generation (RAG) models have recently been introduced in aircraft maintenance, yet existing models focus solely on textual retrieval. This research therefore targeted the Cessna 172 Maintenance Manual…",
+    "arxiv_id": "2608.18465"
+   },
+   "id": "8ae0b77ed940999a",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-19T02:39:35Z",
+   "score": 0.6449,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Proper use of the aircraft maintenance manual is essential for correct maintenance, providing procedures, diagrams, cautions, and specifications. However, technicians often avoid consulting it because it is difficult to navigate and time-consuming under strict schedules. Retrieval augmented…",
+   "tags": [],
+   "title": "Reducing Technician Search Burden: A Multimodal RAG for Cessna 172 Maintenance Manual",
+   "url": "https://arxiv.org/abs/2608.18465v1",
+   "venue": "arXiv cs.HC"
   },
   {
    "authors": [
@@ -42,7 +354,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T00:00:00Z",
-   "score": 0.4657,
+   "score": 0.4627,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -73,7 +385,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T00:00:00Z",
-   "score": 0.4657,
+   "score": 0.4627,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -102,7 +414,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T00:00:00Z",
-   "score": 0.4657,
+   "score": 0.4627,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -131,7 +443,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.2802,
+   "score": 0.2779,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -159,7 +471,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.2802,
+   "score": 0.2779,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -187,7 +499,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.2802,
+   "score": 0.2779,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -216,7 +528,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.2802,
+   "score": 0.2779,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -240,7 +552,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.2802,
+   "score": 0.2779,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -268,7 +580,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.2802,
+   "score": 0.2779,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -294,7 +606,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.4177,
+   "score": 0.4154,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -323,7 +635,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.2802,
+   "score": 0.2779,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -349,7 +661,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.4177,
+   "score": 0.4154,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -380,7 +692,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.4177,
+   "score": 0.4154,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -394,19 +706,19 @@
   }
  ],
  "meta": {
-  "count": 14,
-  "generated_at": "2026-08-21T01:55:35Z",
+  "count": 25,
+  "generated_at": "2026-08-21T03:14:13Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
    {
     "category": "optional",
-    "count": 0,
-    "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60",
+    "count": 5,
+    "error": null,
     "full_text_count": 0,
     "id": "arxiv_datavis",
     "name": "arXiv cs.HC + cs.GR",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
@@ -461,12 +773,12 @@
    },
    {
     "category": "optional",
-    "count": 0,
-    "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC&sortBy=submittedDate&sortOrder=descending&max_results=40",
+    "count": 7,
+    "error": null,
     "full_text_count": 0,
     "id": "arxiv_hci_writing",
     "name": "arXiv cs.HC (writing & docs)",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"

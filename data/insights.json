@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "query": "snail racing championship OR World Snail Racing Championships",
   "source": {
-   "name": "kuban24.tv",
-   "published_at": "2026-08-20T12:45:00Z",
-   "title": "Гигантскую тыкву весом 400 кг вырастила жительница Славянского района",
-   "url": "https://kuban24.tv/item/gigantskuyu-tykvu-vesom-400-kg-vyrastila-zhitelnitsa-slavyanskogo-rajona"
+   "name": "GTPlanet",
+   "published_at": "2026-08-13T20:53:33Z",
+   "title": "Gran Turismo 7’s New Online Time Trial Raises Eyebrows Ahead of Update",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQR2lTLWZTUmxNVkxxaUhxbVJqTzloQmVYbEtJOHRrelN5RUZPYnRfT2NNY2NLMTVJMjJsaWZvUEVKQm9IblEwMUdDNjBySHVhdGpRZVpQaUxCb29RNDN4NGtBeEl1QlFlbHFLc3FfbGs1QzQ0RHpsRkNRcHJRZjZEU21nRi02SkhGVXV1cUpOeVdPSFlvVTJGQmJPVnU2NWYyc1ZaZ2RDdw?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A resident of Slavyansk region grew a giant pumpkin weighing 400 kg.",
-    "why_irrelevant": "A regional agricultural feat, far from typical urban tech or lifestyle content."
+    "summary": "Gran Turismo 7's upcoming online time trial is stirring debate among players before its release.",
+    "why_irrelevant": "It is a niche gaming update, far removed from daily tech or political news."
    },
    "zh": {
-    "summary": "斯拉维扬斯克区一位居民种出了一个重达400公斤的巨型南瓜。",
-    "why_irrelevant": "这是地区性农业趣闻，远离常见的都市科技或生活内容。"
+    "summary": "《GT赛车7》即将推出的线上计时赛在发布前就引发了玩家热议。",
+    "why_irrelevant": "它是小众游戏更新，与日常科技或政治新闻相距甚远。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "competitive snail racing"
  },
- "brief": "Political fallout and legal dramas dominate the news, while research on courtship, MRI diagnostics, and neuroimmune genetics highlights scientific progress.",
+ "brief": "Today's news centers on national security trials, US political maneuvering, and environmental concerns, while research focuses on human-computer interaction and visualization.",
  "meta": {
-  "generated_at": "2026-08-21T01:55:35Z"
+  "generated_at": "2026-08-21T03:14:13Z"
  },
- "news_summary": "US politics sees former Trump fixer Michael Cohen hosting the president after past criticisms, while Australian Catholic schools CEO is sacked post-Icac appearance; international stories include Somali piracy's resurgence, Harry and Meghan's return to Britain, and legal decisions on oil pipelines and police conduct.",
- "papers_summary": "Research covers fruit odors in fly courtship, MRI sequence evaluations, and HLA polymorphism links to neuroimmune diseases, among other studies on social networks and heat stress in plants.",
+ "news_summary": "News highlights include the Hong Kong subversion convictions, Trump's Iran threats, and the death of Nancy Kissinger, alongside stories on election logistics, Cuban sanctions, and Somali piracy.",
+ "papers_summary": "Papers explore how agents interact with docs, visualization education, and human-centered AI, with a focus on UX and evaluation methods.",
  "summaries": {
   "en": {
-   "brief": "Political fallout and legal dramas dominate the news, while research on courtship, MRI diagnostics, and neuroimmune genetics highlights scientific progress.",
-   "news_summary": "US politics sees former Trump fixer Michael Cohen hosting the president after past criticisms, while Australian Catholic schools CEO is sacked post-Icac appearance; international stories include Somali piracy's resurgence, Harry and Meghan's return to Britain, and legal decisions on oil pipelines and police conduct.",
-   "papers_summary": "Research covers fruit odors in fly courtship, MRI sequence evaluations, and HLA polymorphism links to neuroimmune diseases, among other studies on social networks and heat stress in plants."
+   "brief": "Today's news centers on national security trials, US political maneuvering, and environmental concerns, while research focuses on human-computer interaction and visualization.",
+   "news_summary": "News highlights include the Hong Kong subversion convictions, Trump's Iran threats, and the death of Nancy Kissinger, alongside stories on election logistics, Cuban sanctions, and Somali piracy.",
+   "papers_summary": "Papers explore how agents interact with docs, visualization education, and human-centered AI, with a focus on UX and evaluation methods."
   },
   "zh": {
-   "brief": "今日焦点包括台湾鞭刑公投与普发现金引发的争议、恒大许家印被判刑，以及哈里梅根可能返英的消息；研究方面涉及果蝇求偶、MRI诊断等。",
-   "news_summary": "台湾社会对鞭刑入法支持度高但遭人权团体反对，同时赖清德宣布普发一万元引发K型经济讨论；恒大许家印被判处无期徒刑并罚没财产。",
-   "papers_summary": "研究发现果蝇雄性利用水果气味提升求偶吸引力，另有研究评估对比增强T2-FLAIR在颅内病变诊断中的价值。"
+   "brief": "今日重點包括香港支聯會顛覆案定罪、恆大許家印被判無期，以及台灣鞭刑公投與普發現金引發討論；研究方面聚焦視覺化設計與coding agents的文檔使用。",
+   "news_summary": "香港高等法院裁定支聯會及李卓人等人煽動顛覆國家政權罪成，最高可囚10年；恆大許家印被判無期徒刑並沒收財產。台灣方面，鞭刑公投與普發現金政策引發社會辯論，反映K型經濟與政治算盤。",
+   "papers_summary": "研究顯示果蠅雄性可藉果實氣味提升吸引力，另有多篇人機互動論文探討coding agents與文檔互動、視覺化設計教學等主題。"
   }
  },
  "todays_image": {
-  "caption": "A fountain's water can change course and still flow together, much like Cohen and Trump's surprising reunion on air.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1938-88-7637MattFlynn",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/68640",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1938-88-7637MattFlynn",
-  "title": "Recto: A Fountain Group"
+  "caption": "The gavel's historic pound of justice echoes into Hong Kong's national security verdict, where the weight of law lands differently on Tiananmen memories.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-A2017_13_1_7_001",
+  "source_name": "National Museum of African American History and Culture",
+  "source_url": "https://nmaahc.si.edu/object/nmaahc_A2017.13.1.7",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-A2017_13_1_7_001",
+  "title": "Gavel used by Judge Robert Terrell"
  }
 }
