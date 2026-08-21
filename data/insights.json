@@ -1,28 +1,48 @@
 {
- "brief": "Today's news covers legal and political developments from Hong Kong's Tiananmen verdict to Trump's Iran threats, along with lighter stories like a python's cancer treatment and cash hoarding in the EU. Research focuses on visualization design, agent documentation, and human-AI interaction.",
- "meta": {
-  "generated_at": "2026-08-21T04:51:53Z"
+ "apropos_of_nothing": {
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "source": {
+   "name": "nintendoeverything.com",
+   "published_at": "2026-08-21T01:45:00Z",
+   "title": "Dragon Quest Monsters : The Withered World details Thespidor , King Withers , and Scruffy , Taiboku and Lushland , Waterwing Can",
+   "url": "https://nintendoeverything.com/dragon-quest-monsters-the-withered-world-details-thespidor-king-withers-and-scruffy-taiboku-and-lushland-waterwing-can/"
+  },
+  "summaries": {
+   "en": {
+    "summary": "A video game article details characters and worlds in Dragon Quest Monsters: The Withered World.",
+    "why_irrelevant": "Far removed from farming and regional news."
+   },
+   "zh": {
+    "summary": "一篇游戏文章介绍了《勇者斗恶龙怪物：枯萎世界》中的角色和世界。",
+    "why_irrelevant": "与农业和地区新闻相距甚远。"
+   }
+  },
+  "topic": "competitive pumpkin growing"
  },
- "news_summary": "Highlights include Hong Kong activists found guilty of subversion, Imran Khan returning to jail, and US sanctions on Cuba, alongside human-interest stories like a python's pioneering treatment and a former Liberal MP criticizing gambling reforms.",
- "papers_summary": "Papers explore topics from fruit odors affecting fly courtship to coding agents' use of documentation, and visualization education, highlighting the breadth of HCI and vis research.",
+ "brief": "Today's news spans global crises from Alaska to Australia, with the Panama Canal cutting traffic due to drought and political tensions rising from the West Bank to Hong Kong. Research highlights include fruit odors as natural perfumes for flies and a new concept inventory for visualization design.",
+ "meta": {
+  "generated_at": "2026-08-21T07:05:23Z"
+ },
+ "news_summary": "The news today is dominated by a mix of environmental, political, and human-interest stories, including the Panama Canal's El Niño-driven cutbacks, Alaska plane crash, Indiana power outages, and political scandals from Hong Kong to Australia.",
+ "papers_summary": "Research papers focus on how fruit odors enhance male fly attractiveness, agent-friendly documentation, and a concept inventory for teaching visualization design, among other HCI and visualization topics.",
  "summaries": {
   "en": {
-   "brief": "Today's news covers legal and political developments from Hong Kong's Tiananmen verdict to Trump's Iran threats, along with lighter stories like a python's cancer treatment and cash hoarding in the EU. Research focuses on visualization design, agent documentation, and human-AI interaction.",
-   "news_summary": "Highlights include Hong Kong activists found guilty of subversion, Imran Khan returning to jail, and US sanctions on Cuba, alongside human-interest stories like a python's pioneering treatment and a former Liberal MP criticizing gambling reforms.",
-   "papers_summary": "Papers explore topics from fruit odors affecting fly courtship to coding agents' use of documentation, and visualization education, highlighting the breadth of HCI and vis research."
+   "brief": "Today's news spans global crises from Alaska to Australia, with the Panama Canal cutting traffic due to drought and political tensions rising from the West Bank to Hong Kong. Research highlights include fruit odors as natural perfumes for flies and a new concept inventory for visualization design.",
+   "news_summary": "The news today is dominated by a mix of environmental, political, and human-interest stories, including the Panama Canal's El Niño-driven cutbacks, Alaska plane crash, Indiana power outages, and political scandals from Hong Kong to Australia.",
+   "papers_summary": "Research papers focus on how fruit odors enhance male fly attractiveness, agent-friendly documentation, and a concept inventory for teaching visualization design, among other HCI and visualization topics."
   },
   "zh": {
-   "brief": "今日焦点包括香港国安法下的颠覆罪判决、台湾鞭刑与普发现金的政治议题，以及恒大许家印被判刑；学术上探讨可视化教学与人机交互。",
-   "news_summary": "香港法院裁定支联会煽动颠覆罪成；台湾讨论鞭刑公投与普发现金；恒大许家印被判无期徒刑并罚款。",
-   "papers_summary": "研究揭示果蝇气味影响择偶，以及编码代理如何阅读技术文档；另有可视化设计概念清单和智能家居隐私期望等研究。"
+   "brief": "今日新闻聚焦香港国安法裁定、台湾经济与政治议题及巴拿马运河地缘角力；研究方面关注可视化教育、智能家居隐私及AI辅助文档等。",
+   "news_summary": "香港高等法院裁定支联会颠覆罪成立，台湾讨论鞭刑公投及普发现金政策，巴拿马运河因干旱削减通行量引发中美博弈。",
+   "papers_summary": "可视化设计教育、智能家居隐私期望及AI辅助文档研究成为关注点，涉及用户中心设计与评估方法。"
   }
  },
  "todays_image": {
-  "caption": "The frieze's \"Equity\" embodies the balanced scales of justice that today's allegations of foreign interference and far-right activism strain to tip.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-C8336A99DE972-000001",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/127771",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-C8336A99DE972-000001",
-  "title": "Study for \"Equity\" in \"The Common Law\" Frieze for \"The Reign of Law\" Mural at New York Appellate Division Courthouse"
+  "caption": "The brief royal buzz in that California town flew away as quickly as a fruit fly's fleeting visit.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m30d1635954c214039b0239a9f50c0f3da",
+  "source_name": "NMNH - Education & Outreach",
+  "source_url": "http://n2t.net/ark:/65665/3f0c8b660-3469-44b9-86dc-ce7e2436b962",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m30d1635954c214039b0239a9f50c0f3da/90",
+  "title": "Fruit Fly, Fruit Fly, Fruit Fly"
  }
 }
