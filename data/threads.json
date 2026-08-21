@@ -1,166 +1,164 @@
 {
  "meta": {
   "count": 4,
-  "generated_at": "2026-08-21T08:55:47Z",
+  "generated_at": "2026-08-21T10:45:02Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "1d14e4f44d5549f2",
-     "phrase": {
-      "en": "Trump threatens economic pressure campaign",
-      "zh": "特朗普威胁经济施压"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/21/nx-s1-5931262/morning-news-brief"
-    },
-    {
-     "item_id": "64045049bf080c3b",
-     "phrase": {
-      "en": "signals no return to war",
-      "zh": "信号不重返战争"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/20/world/europe/trump-iran-economy-sanctions-threats.html"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Trump threatens economic warfare against Iran, signaling deterrence over full conflict.",
-    "zh": "特朗普威胁对伊朗经济战，意在威慑而非全面冲突。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "economic pressure",
-    "zh": "经济施压"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You track geopolitics: today's threats redefine US-Iran dynamics, affecting global markets and AI supply chains.",
-    "zh": "你关注地缘政治：今日威胁重塑美伊关系，影响全球市场和AI供应链。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "1d14e4f44d5549f2",
-     "phrase": {
-      "en": "investors dump stocks and bonds",
-      "zh": "投资者抛售股票债券"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/21/nx-s1-5931262/morning-news-brief"
-    },
-    {
-     "item_id": "b7b1b9abb6b74f52",
-     "phrase": {
-      "en": "US economy rings alarm bells",
-      "zh": "美国经济敲响警钟"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c9d8z72nn02o?at_medium=RSS&at_campaign=rss"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Markets wobble and debt worries rise, but the picture is mixed.",
-    "zh": "市场波动，债务忧虑上升，但情况复杂。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "economic anxiety",
-    "zh": "经济焦虑"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow economic signals: today's headlines on stocks and debt are relevant to your work on data-driven decision making.",
-    "zh": "你关注经济信号：今日股市和债务头条与你的数据驱动决策工作相关。"
-   }
-  },
-  {
-   "angles": [
-    {
      "item_id": "ef3f33deabadc36f",
      "phrase": {
-      "en": "agents read and write docs",
-      "zh": "代理读写文档"
+      "en": "agents discover and write docs",
+      "zh": "智能体发现与编写文档"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
      "url": "https://arxiv.org/abs/2608.20195v1"
     },
     {
-     "item_id": "1ba527f236e3af20",
+     "item_id": "8ae0b77ed940999a",
      "phrase": {
-      "en": "toll booth for scraping agents",
-      "zh": "为抓取代理设收费亭"
+      "en": "multimodal RAG for manuals",
+      "zh": "多模态检索增强用于手册"
      },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://Argentic.network"
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.18465v1"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Coding agents are changing how technical docs are written and used.",
-    "zh": "编程代理正在改变技术文档的编写和使用方式。"
+    "en": "Coding agents now read the docs humans wrote, reshaping how software gets built.",
+    "zh": "编码智能体开始阅读人类撰写的文档，重塑软件开发方式。"
    },
-   "id": "t3",
+   "id": "t1",
    "keyword": {
-    "en": "AI agents documentation",
-    "zh": "AI代理文档"
+    "en": "Agent Documentation",
+    "zh": "智能体文档"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You work in technical communication: new research on agent-friendly docs is directly actionable for your projects.",
-    "zh": "你从事技术传播：关于代理友好文档的新研究可直接应用于你的项目。"
+    "en": "You study HCI and technical communication: new research shows agents need doc changes, not just tooling.",
+    "zh": "你研究人机交互与技术传播，新研究显示智能体需要文档变革，不仅是工具。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "9ca378a2c311a7bd",
+     "item_id": "a5218bfdf22069f9",
      "phrase": {
-      "en": "AI destroys books for data",
-      "zh": "AI为数据毁书"
+      "en": "concept inventory for design",
+      "zh": "设计概念清单"
      },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://annas-archive.gl/blog/physical-destruction.html"
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.20090v1"
     },
     {
-     "item_id": "ef3f33deabadc36f",
+     "item_id": "af17eb4931bad19b",
      "phrase": {
-      "en": "agents read docs differently",
-      "zh": "代理以不同方式读文档"
+      "en": "cognitive accessibility insights",
+      "zh": "认知无障碍见解"
+     },
+     "section": "papers",
+     "source": "Semantic Scholar · data visualization",
+     "url": "https://www.semanticscholar.org/paper/6dd07404ee8b436e9a3b701c536154e2753d9965"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "What should students learn about visualization? New tools and concepts reshape the classroom.",
+    "zh": "学生应学什么可视化？新工具与新概念重塑课堂。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "Visualization Pedagogy",
+    "zh": "可视化教学"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about data visualization and technical communication: new concept inventory and cognitive insights inform how to teach it.",
+    "zh": "你在意数据可视化与技术传播，新概念清单与认知见解为教学提供指导。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "aba75f6cc79d9d0a",
+     "phrase": {
+      "en": "sonification of uncertainty",
+      "zh": "不确定性的试听化"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.18680v1"
+    },
+    {
+     "item_id": "af17eb4931bad19b",
+     "phrase": {
+      "en": "affective visualization link",
+      "zh": "情感可视化关联"
+     },
+     "section": "papers",
+     "source": "Semantic Scholar · data visualization",
+     "url": "https://www.semanticscholar.org/paper/6dd07404ee8b436e9a3b701c536154e2753d9965"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Visualization isn't just cognition—sound and emotion shape how we feel data.",
+    "zh": "可视化不仅是认知，声音与情感塑造我们如何感知数据。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "Visualization Affect",
+    "zh": "可视化的情感"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You explore critical visualization: new research ties affective sonification to uncertainty, expanding the field's emotional dimension.",
+    "zh": "你探索批判可视化，新研究将情感试听与不确定性关联，扩展领域的情感维度。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "18f1a63eb69938ab",
+     "phrase": {
+      "en": "privacy expectations revealed",
+      "zh": "隐私期望被揭露"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.20195v1"
+     "url": "https://arxiv.org/abs/2608.19873v1"
+    },
+    {
+     "item_id": "a0691dfdc810824d",
+     "phrase": {
+      "en": "phone data privacy case",
+      "zh": "手机数据隐私案"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html"
     }
    ],
-   "convergence": "divergent",
+   "convergence": "convergent",
    "gloss": {
-    "en": "AI companies destroy books to scan them, raising preservation alarms.",
-    "zh": "AI公司毁书扫描，引发保护警报。"
+    "en": "Smart homes keep secrets; users react when they learn what devices do with data.",
+    "zh": "智能家居保守秘密，用户了解设备数据行为后做出反应。"
    },
    "id": "t4",
    "keyword": {
-    "en": "AI scraping books",
-    "zh": "AI抓取书籍"
+    "en": "Smart Home Privacy",
+    "zh": "智能家居隐私"
    },
-   "relates_to": [
-    "t3"
-   ],
+   "relates_to": [],
    "why_now": {
-    "en": "You value data and knowledge: this debate touches on ethics of AI data acquisition and preservation.",
-    "zh": "你重视数据和知识：这场辩论触及AI数据采集和保存的伦理。"
+    "en": "You're interested in HCI and ethics: a new study reveals how confirming privacy expectations changes user trust and coping.",
+    "zh": "你关注人机交互与伦理，新研究揭示确认隐私期望如何改变用户信任与应对。"
    }
   }
  ]
