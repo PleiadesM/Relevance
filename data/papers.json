@@ -2,31 +2,6 @@
  "items": [
   {
    "authors": [
-    "J. Otárola Jiménez",
-    "M. ; https://orcid.org/0000-0002-6710-1071 Knaden"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Highlights• Fruit-derived-odors act as natural perfumes for male vinegar flies • Female mating decisions are modulated by these fruit- derived male odors• Odors of some fruit enhance male attractiveness more than those of other fruit• The observed change in male attractiveness is independent of male pheromones",
-    "citations": 0,
-    "doi": null
-   },
-   "id": "08b1b7d275684310",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-21T00:00:00Z",
-   "score": 0.4343,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Highlights• Fruit-derived-odors act as natural perfumes for male vinegar flies • Female mating decisions are modulated by these fruit- derived male odors• Odors of some fruit enhance male attractiveness more than those of other fruit• The observed change in male attractiveness is independent of…",
-   "tags": [],
-   "title": "Fruit odors enhance attractiveness of male <i>Drosophila melanogaster</i> flies during courtship",
-   "url": "https://hdl.handle.net/21.11116/0000-0013-4C12-2",
-   "venue": "MPG.PuRe (Max Planck Society)"
-  },
-  {
-   "authors": [
     "Zhijun Gao",
     "Jing Chen"
    ],
@@ -39,7 +14,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T15:51:54Z",
-   "score": 0.7018,
+   "score": 0.6947,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -68,7 +43,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T14:23:07Z",
-   "score": 0.5432,
+   "score": 0.5362,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -97,7 +72,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T12:17:24Z",
-   "score": 0.6872,
+   "score": 0.6805,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -127,7 +102,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T10:35:00Z",
-   "score": 0.488,
+   "score": 0.4814,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -153,7 +128,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T09:27:56Z",
-   "score": 0.6762,
+   "score": 0.6696,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -181,7 +156,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T03:54:52Z",
-   "score": 0.463,
+   "score": 0.4568,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -208,7 +183,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T01:32:06Z",
-   "score": 0.4545,
+   "score": 0.4485,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -240,7 +215,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T19:51:36Z",
-   "score": 0.6678,
+   "score": 0.6622,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -270,7 +245,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T09:22:18Z",
-   "score": 0.443,
+   "score": 0.438,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -299,7 +274,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T08:31:09Z",
-   "score": 0.633,
+   "score": 0.6281,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -327,7 +302,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T02:39:35Z",
-   "score": 0.6168,
+   "score": 0.6123,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -336,378 +311,11 @@
    "title": "Reducing Technician Search Burden: A Multimodal RAG for Cessna 172 Maintenance Manual",
    "url": "https://arxiv.org/abs/2608.18465v1",
    "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Hemlata Sarkar",
-    "Sibani Patro",
-    "Neekita Meher",
-    "Adya Kinkar Panda"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "<title>Abstract</title> Background To demonstrate the diagnostic value of the CE-T2 FLAIR sequence in addition to CE-T1WI in MR imaging of intracranial pathologies. The CE-T2 FLAIR sequence is not widely utilised, but if included in standard MR acquisition protocols, it might enhance patient care by increasing diagnostic sensitivity and facilitating early diagnosis before an invasive CSF sample is obtained. Methods A total of sixty-four patients underwent Gadolinium contrast-enhanced MRI of the…",
-    "citations": 0,
-    "doi": "10.1186/s43055-026-01843-8"
-   },
-   "id": "b8aed1aaa0f69f70",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-19T00:00:00Z",
-   "score": 0.4415,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "<title>Abstract</title> Background To demonstrate the diagnostic value of the CE-T2 FLAIR sequence in addition to CE-T1WI in MR imaging of intracranial pathologies. The CE-T2 FLAIR sequence is not widely utilised, but if included in standard MR acquisition protocols, it might enhance patient care…",
-   "tags": [
-    "eval-study"
-   ],
-   "title": "Evaluation of the usefulness of post-contrast T2-FLAIR sequence MRI in the diagnosis of intracranial pathology",
-   "url": "https://doi.org/10.1186/s43055-026-01843-8",
-   "venue": "The Egyptian Journal of Radiology and Nuclear Medicine"
-  },
-  {
-   "authors": [
-    "Isabel García Real",
-    "Encarnación Fernández-Valle",
-    "David Castejón",
-    "Nerea Moreno",
-    "Pilar Pérez‐Lloret",
-    "Sara Jiménez"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Pseudopus apodus is an anguimorph lizard belonging to the order Squamata. Anatomical information on this species remains limited, particularly regarding soft tissues, and has primarily focused on the axial skeleton of both living and fossil specimens. Recently, the anatomy of its coelomic cavity has been described using dissection and multidetector computed tomography (CT), and its brain has been characterized neuroanatomically by combining ultra-high-resolution magnetic resonance imaging (MRI)…",
-    "citations": 0,
-    "doi": "10.20944/preprints202608.1269.v1"
-   },
-   "id": "abc06ad4461bec8d",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-19T00:00:00Z",
-   "score": 0.4415,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Pseudopus apodus is an anguimorph lizard belonging to the order Squamata. Anatomical information on this species remains limited, particularly regarding soft tissues, and has primarily focused on the axial skeleton of both living and fossil specimens. Recently, the anatomy of its coelomic cavity…",
-   "tags": [
-    "systems"
-   ],
-   "title": "MRI anatomy of Pseudopus apodus: A Descriptive and Comparative Study of High-Field and Low-Field MRI Systems",
-   "url": "https://doi.org/10.20944/preprints202608.1269.v1",
-   "venue": "Preprints.org"
-  },
-  {
-   "authors": [
-    "Daniel Redhead",
-    "Arlenys Hurtado Manyoma",
-    "Danier Hurtado Manyoma",
-    "Cody T. Ross"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract Social status regulates influence and well-being in most social animals. In humans, social status can be attained via distinct routes: prestige (tracking the ability of individuals to confer benefits) and dominance (tracking the ability of individuals to inflict costs). Although prestige and dominance are well studied from a psychological perspective, their influence on social behaviours, including social levelling, remains under-explored—especially in close-knit, rural or…",
-    "citations": 0,
-    "doi": "10.1098/rspb.2026.1504"
-   },
-   "id": "bbe4514b4657e1e6",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-19T00:00:00Z",
-   "score": 0.4415,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract Social status regulates influence and well-being in most social animals. In humans, social status can be attained via distinct routes: prestige (tracking the ability of individuals to confer benefits) and dominance (tracking the ability of individuals to inflict costs). Although prestige…",
-   "tags": [],
-   "title": "Social and economic consequences of prestige and dominance in rural Colombian social networks",
-   "url": "https://doi.org/10.1098/rspb.2026.1504",
-   "venue": "Proceedings of the Royal Society B Biological Sciences"
-  },
-  {
-   "authors": [
-    "Jun Wang",
-    "Xiujuan Wu",
-    "Zhou Zhou",
-    "Sitong Zheng",
-    "Minghui Hu",
-    "Yincui Xiao"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Heat stress (HS) has emerged as a significant environmental factor affecting plant growth and agricultural productivity. Alternative polyadenylation (APA) is a crucial co-transcriptional process that regulates developmental processes and stress responses in plants. However, the distinct roles of its resultant transcripts in plant HS response remain to be investigated. In this study, we employed poly(A) tag sequencing (PAT-seq) to identify over 1500 transcripts whose expression exhibited…",
-    "citations": 0,
-    "doi": "10.1007/s44154-026-00340-2"
-   },
-   "id": "d5890322323f0352",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.262,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Heat stress (HS) has emerged as a significant environmental factor affecting plant growth and agricultural productivity. Alternative polyadenylation (APA) is a crucial co-transcriptional process that regulates developmental processes and stress responses in plants. However, the distinct roles of…",
-   "tags": [],
-   "title": "Identification of specific transcripts for plant heat stress tolerance through genome-wide analysis of SIZ1-dependent alternative polyadenylation",
-   "url": "https://doi.org/10.1007/s44154-026-00340-2",
-   "venue": "Stress Biology"
-  },
-  {
-   "authors": [
-    "Yunxi Zhao",
-    "Yuhan Tu",
-    "Lingzhi Zhao",
-    "Chuanfeng Shao",
-    "Peilei Chen"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Background Pediatric departments in primary hospitals face challenges such as insufficient diagnostic capabilities, weak management systems, and a lack of guidance on medication use. These factors have led to persistently high rates of antimicrobial use and misuse, which seriously jeopardize the safety of pediatric care in primary hospitals. Clinical pharmacists play a key role in ensuring the appropriate use of medications. However, in primary hospitals, their role is often marginalized or…",
-    "citations": 0,
-    "doi": "10.3389/fmed.2026.1917853"
-   },
-   "id": "e79db8fd1d55adb1",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.262,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Background Pediatric departments in primary hospitals face challenges such as insufficient diagnostic capabilities, weak management systems, and a lack of guidance on medication use. These factors have led to persistently high rates of antimicrobial use and misuse, which seriously jeopardize the…",
-   "tags": [
-    "systems"
-   ],
-   "title": "The clinical value of PDCA cycle led by clinical pharmacists in optimizing the use of antimicrobial drugs in pediatric departments of primary hospitals",
-   "url": "https://doi.org/10.3389/fmed.2026.1917853",
-   "venue": "Frontiers in Medicine"
-  },
-  {
-   "authors": [
-    "Chipo Muganu",
-    "Mbuyu Germain Ntunka",
-    "Phakamile Ndlovu"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "citations": 0,
-    "doi": "10.21203/rs.3.rs-10711116/v1"
-   },
-   "id": "3e2305b00b6652f7",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.262,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "",
-   "tags": [],
-   "title": "Research Trends in the Valorisation of Potato Peels for Fermentative Biohydrogen Production: A Bibliometric Analysis (2015-2025)",
-   "url": "https://doi.org/10.21203/rs.3.rs-10711116/v1",
-   "venue": "Research Square"
-  },
-  {
-   "authors": [
-    "Gonçalo Farias",
-    "Arnaud Bude",
-    "Nektaria Karavas",
-    "Christelle Rossignol",
-    "Isabelle Lantier",
-    "Julie Suman"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Introduction The efficacy of nasal vaccination critically depends on the delivery method, which must ensure precise and reproducible deposition of the vaccine within the nasal cavity to effectively stimulate mucosal immune structures such as the nasal\\x{2011}associated lymphoid tissue (NALT). Transitioning from pre\\x{2011}clinical models to human applications is challenging because of anatomical and physiological differences in nasal structure and airflow dynamics. Methods We developed a…",
-    "citations": 0,
-    "doi": "10.3389/fddev.2026.1875011"
-   },
-   "id": "6f9415df361cf39c",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.262,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Introduction The efficacy of nasal vaccination critically depends on the delivery method, which must ensure precise and reproducible deposition of the vaccine within the nasal cavity to effectively stimulate mucosal immune structures such as the nasal\\x{2011}associated lymphoid tissue (NALT).…",
-   "tags": [],
-   "title": "Engineering a medical device for intranasal immunisation: ensuring targeted delivery and formulation stability",
-   "url": "https://doi.org/10.3389/fddev.2026.1875011",
-   "venue": "Frontiers in Drug Delivery"
-  },
-  {
-   "authors": [
-    "Nicolas Zadeh"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Networks of coupled resonate and fire neurons are studied in their mean-field limit through the formal derivation of a nonlinear kinetic Fokker-Planck equation in a half-plane with a threshold-reset mechanism. After structural considerations on the model and on the associated partial differential equation, an original finite-difference scheme is introduced and studied, with non-negativity and mass-preservation properties proved rigorously. A consistency analysis of the scheme is carried out,…",
-    "citations": 0,
-    "doi": "10.33774/coe-2026-n2ssp"
-   },
-   "id": "8907fe272221df0f",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.262,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Networks of coupled resonate and fire neurons are studied in their mean-field limit through the formal derivation of a nonlinear kinetic Fokker-Planck equation in a half-plane with a threshold-reset mechanism. After structural considerations on the model and on the associated partial differential…",
-   "tags": [],
-   "title": "Kinetic description and numerical study of a network of noisy resonate and fire neurons - long version",
-   "url": "https://doi.org/10.33774/coe-2026-n2ssp",
-   "venue": null
-  },
-  {
-   "authors": [
-    "Shuo Liu",
-    "Siwen Yang",
-    "Jing Hu",
-    "Tao Bai",
-    "Jian-Ping Li"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Human leukocyte antigen (HLA) polymorphism shapes antigen presentation and susceptibility to immune-mediated disease. In neuroimmune disorders, a central question is how HLA-dependent antigen visibility becomes disease-specific immunity and tissue injury. In this Review, we integrate genetic, molecular, cellular, and clinical evidence across multiple sclerosis (MS), neuromyelitis optica spectrum disorder, Guillain–Barré syndrome, narcolepsy, autoimmune encephalitis, and myasthenia gravis. The…",
-    "citations": 0,
-    "doi": "10.3389/fimmu.2026.1863697"
-   },
-   "id": "dcf79d0dd87aa1eb",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.262,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Human leukocyte antigen (HLA) polymorphism shapes antigen presentation and susceptibility to immune-mediated disease. In neuroimmune disorders, a central question is how HLA-dependent antigen visibility becomes disease-specific immunity and tissue injury. In this Review, we integrate genetic,…",
-   "tags": [],
-   "title": "HLA polymorphism in neuroimmune diseases: linking antigen presentation to neuroinflammatory programs",
-   "url": "https://doi.org/10.3389/fimmu.2026.1863697",
-   "venue": "Frontiers in Immunology"
-  },
-  {
-   "authors": [
-    "Siphesihle Siyamukela Masimula",
-    "Mpinane Flory Senekane",
-    "Nisha Naicker"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Background The availability of reliable information in the delivery of environmental health services (EHS) is crucial to identifying environmental health threats in communities and deploying targeted interventions. This requires environmental health information management practices and systems to be evaluated from time-to-time to bring efficiency and enable continuous improvement for improved public health outcomes. As a result, this study assesses environmental health information management in…",
-    "citations": 0,
-    "doi": "10.3389/frhs.2026.1890673"
-   },
-   "id": "41fdafe880cbd590",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.3995,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Background The availability of reliable information in the delivery of environmental health services (EHS) is crucial to identifying environmental health threats in communities and deploying targeted interventions. This requires environmental health information management practices and systems to…",
-   "tags": [
-    "systems"
-   ],
-   "title": "From data collection to action: environmental health information management practices in eleven municipalities in the east coast of South Africa",
-   "url": "https://doi.org/10.3389/frhs.2026.1890673",
-   "venue": "Frontiers in Health Services"
-  },
-  {
-   "authors": [
-    "Mohamed Ashour",
-    "Nada Fouad",
-    "Ngoc Diep Lai",
-    "Tarek Mohamed"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "citations": 0,
-    "doi": "10.1007/s11082-026-09052-3"
-   },
-   "id": "074bddd6848b7dfc",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.262,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "",
-   "tags": [],
-   "title": "Synthesis and characterization of size-controllable titanium dioxide nanocolloids via pulsed laser ablation in distilled water",
-   "url": "https://doi.org/10.1007/s11082-026-09052-3",
-   "venue": "Optical and Quantum Electronics"
-  },
-  {
-   "authors": [
-    "Quan Gao",
-    "Yan Zhou",
-    "Desheng Xue"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Attracting and retaining international migrant academics has become a priority for higher education systems worldwide. While existing research recognizes that their knowledge creation is shaped by the networks in which they are embedded, less is known about how international academics in China build such embeddedness and especially how they connect to different types and scales of collaborative ties. This study addresses this gap through mixed-methods research in China’s Sino-Foreign…",
-    "citations": 0,
-    "doi": "10.1007/s10734-026-01745-8"
-   },
-   "id": "9bdda4ba4152e4dd",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.3995,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Attracting and retaining international migrant academics has become a priority for higher education systems worldwide. While existing research recognizes that their knowledge creation is shaped by the networks in which they are embedded, less is known about how international academics in China…",
-   "tags": [
-    "systems"
-   ],
-   "title": "Network embeddedness of knowledge creation among international migrant academics in China’s Sino-Foreign Cooperative Universities",
-   "url": "https://doi.org/10.1007/s10734-026-01745-8",
-   "venue": "Higher Education"
-  },
-  {
-   "authors": [
-    "Pavlo Ardanov",
-    "Svitlana Sydorenko",
-    "Kyle A. Freedman",
-    "Maryna Kuzmenko",
-    "Jennifer B. Lauruol",
-    "Steffen Kolb"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Introduction Agroforestry systems offer substantial environmental, economic, and social benefits, yet their adoption is constrained by a lack of decision support tools aligned with farmer workflows. This study aimed to characterize farmer typologies, assess prioritization gaps between practitioners and researchers, and develop an Artificial Intelligence (AI)-guided design framework operationalizing farmer-derived logic. Methods We conducted semi-structured surveys with 23 horticulturists and 29…",
-    "citations": 0,
-    "doi": "10.3389/fsufs.2026.1899433"
-   },
-   "id": "858118c248e83567",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-18T00:00:00Z",
-   "score": 0.3995,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Introduction Agroforestry systems offer substantial environmental, economic, and social benefits, yet their adoption is constrained by a lack of decision support tools aligned with farmer workflows. This study aimed to characterize farmer typologies, assess prioritization gaps between practitioners…",
-   "tags": [
-    "systems"
-   ],
-   "title": "Enhancing decision support tools in agroforestry: Integrating farmers’ perspectives on goals, challenges, and experience",
-   "url": "https://doi.org/10.3389/fsufs.2026.1899433",
-   "venue": "Frontiers in Sustainable Food Systems"
   }
  ],
  "meta": {
-  "count": 25,
-  "generated_at": "2026-08-21T13:08:37Z",
+  "count": 11,
+  "generated_at": "2026-08-21T14:51:55Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -725,7 +333,7 @@
    },
    {
     "category": "optional",
-    "count": 50,
+    "count": 0,
     "error": null,
     "full_text_count": 0,
     "id": "openalex_datavis",
@@ -750,7 +358,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A1050-6519%2Cfrom-created-date%3A2026-07-24&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-24&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",

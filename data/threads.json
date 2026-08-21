@@ -1,48 +1,59 @@
 {
  "meta": {
-  "count": 5,
-  "generated_at": "2026-08-21T13:08:37Z",
+  "count": 4,
+  "generated_at": "2026-08-21T14:51:55Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "full_text_file": "articles/news/047e01752cead926.json",
+     "item_id": "047e01752cead926",
+     "phrase": {
+      "en": "creators face AI money backlash",
+      "zh": "创作者因AI资金遭反弹"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash"
+    },
+    {
+     "item_id": "8225f2e7c376cfb1",
+     "phrase": {
+      "en": "essay on becoming AI-blind",
+      "zh": "论变得AI盲"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://cymerys.com/w/im-becoming-ai-blind"
+    },
+    {
      "full_text_file": "articles/news/d82a2ef7b31b14d6.json",
      "item_id": "d82a2ef7b31b14d6",
      "phrase": {
-      "en": "framed as creepiness arms race",
-      "zh": "定义为令人不适的军备竞赛"
+      "en": "Meta glasses creepy recordings",
+      "zh": "Meta眼镜的惊悚录制"
      },
      "section": "news",
      "source": "Ars Technica · AI",
      "url": "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect/"
-    },
-    {
-     "item_id": "a0691dfdc810824d",
-     "phrase": {
-      "en": "framed as government privacy intrusion",
-      "zh": "定义为政府隐私侵犯"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Glasses that see for you, and apps that see the glasses.",
-    "zh": "能替你看的眼镜，和能看见眼镜的应用。"
+    "en": "Creators and users grapple with hidden AI influence.",
+    "zh": "创作者与用户面对隐藏的AI影响。"
    },
    "id": "t1",
    "keyword": {
-    "en": "weaponized visibility",
-    "zh": "可武器化的可见性"
+    "en": "AI transparency",
+    "zh": "AI透明度"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow embodied AI and privacy; today Meta AI glasses and anti-detection apps collide in public.",
-    "zh": "你关注具身AI与隐私，今日Meta AI眼镜与反检测应用在公共空间相撞。"
+    "en": "You care about AI and HCI: today's backlash and blind-spot essays show the human side of AI adoption.",
+    "zh": "你关注AI与人机交互，今日的反弹与盲点文章展示AI应用的人类面向。"
    }
   },
   {
@@ -50,8 +61,8 @@
     {
      "item_id": "de4e6ce5418a2c2f",
      "phrase": {
-      "en": "frames as unjust pressure",
-      "zh": "视为不公正施压"
+      "en": "Iran must plan for sanctions",
+      "zh": "伊朗需应对制裁"
      },
      "section": "news",
      "source": "The New York Times",
@@ -60,213 +71,117 @@
     {
      "item_id": "20de79c834281c78",
      "phrase": {
-      "en": "frames as failed militarism",
-      "zh": "视为军事失败"
+      "en": "US focus on economy fails",
+      "zh": "美国经济战失败"
      },
      "section": "news",
      "source": "NPR News",
      "url": "https://www.npr.org/2026/08/21/nx-s1-5940610/iran-us-threat-economic-warfare"
     },
     {
-     "item_id": "33fff008e8d0276e",
+     "item_id": "ab8894ad8fc1b9ae",
      "phrase": {
-      "en": "frames as navigational hazard",
-      "zh": "视为航行风险"
+      "en": "China thinks it can resist",
+      "zh": "中国认为可抵抗"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/21/business/iran-war-hormuz-oil-spill.html"
-    },
-    {
-     "item_id": "1d14e4f44d5549f2",
-     "phrase": {
-      "en": "frames as market worry",
-      "zh": "视为市场忧虑"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/21/nx-s1-5931262/morning-news-brief"
+     "url": "https://www.nytimes.com/2026/08/21/world/asia/china-iran-trump-economic-threats.html"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Sanctions tighten, ships go dark, and straits grow tense.",
-    "zh": "制裁收紧，船舶熄灯，海峡趋紧。"
+    "en": "Economic pressure meets strategic resistance.",
+    "zh": "经济压力遭遇战略抵抗。"
    },
    "id": "t2",
    "keyword": {
-    "en": "economic siege on Iran",
-    "zh": "对伊朗的经济围困"
+    "en": "Iran sanctions",
+    "zh": "伊朗制裁"
    },
    "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-08-21",
-     "item_id": "20de79c834281c78",
-     "label": {
-      "en": "Iran scorns sanctions",
-      "zh": "伊朗蔑视制裁"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/21/nx-s1-5940610/iran-us-threat-economic-warfare"
-    },
-    {
-     "date": "2026-08-21",
-     "item_id": "33fff008e8d0276e",
-     "label": {
-      "en": "Hormuz ships go dark",
-      "zh": "霍尔木兹船只熄灯"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/21/business/iran-war-hormuz-oil-spill.html"
-    }
-   ],
    "why_now": {
-    "en": "You track geopolitics and data; today Iran dismisses D-Day threats while oil-shipping risks spike.",
-    "zh": "你关注地缘政治与数据，今日伊朗蔑视D-Day威胁，而油运风险飙升。"
+    "en": "You track international tech and policy; today's Iran news affects global markets and AI supply chains.",
+    "zh": "你关注国际科技与政策，今日伊朗新闻影响全球市场与AI供应链。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "1ed0e114c7f5f2b0",
+     "item_id": "e7fb2f706f9459a6",
      "phrase": {
-      "en": "framed as urgent loss",
-      "zh": "视为紧迫损失"
+      "en": "Airbus bows to demands",
+      "zh": "空客屈服于要求"
      },
      "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://annas-archive.pk/blog/physical-destruction.html"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/business/2026/aug/21/airbus-bows-remote-working-strikes"
     },
     {
-     "item_id": "b819dfaed2d27951",
+     "full_text_file": "articles/news/047e01752cead926.json",
+     "item_id": "047e01752cead926",
      "phrase": {
-      "en": "framed as creative gains",
-      "zh": "视为创造性收益"
+      "en": "creators reject AI deals",
+      "zh": "创作者拒绝AI交易"
      },
      "section": "news",
-     "source": "Google DeepMind Blog",
-     "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/"
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Rare books are food for models, and then they vanish.",
-    "zh": "珍本成为模型的食粮，随后消失。"
+    "en": "Employees push back on workplace policies.",
+    "zh": "员工对工作政策提出异议。"
    },
    "id": "t3",
    "keyword": {
-    "en": "AI erases print heritage",
-    "zh": "AI清除印刷遗产"
+    "en": "worker voice",
+    "zh": "员工声音"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about technical communication and preservation; today a blog warns book scanning lags AI's appetite.",
-    "zh": "你关心技术传播与保存，今日博客警告书籍扫描落后于AI的胃口。"
+    "en": "You study HCI and organizational tech; today's remote work and AI tool adoption reflect power shifts.",
+    "zh": "你研究人机交互与组织技术，今日远程工作与AI工具采纳反映权力转变。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "ef3f33deabadc36f",
+     "item_id": "a0691dfdc810824d",
      "phrase": {
-      "en": "frames as behavioral study",
-      "zh": "视为行为研究"
+      "en": "deleting data risks privacy",
+      "zh": "删数据危及隐私"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html"
+    },
+    {
+     "item_id": "18f1a63eb69938ab",
+     "phrase": {
+      "en": "smart home privacy expectations",
+      "zh": "智能家居隐私期待"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.20195v1"
-    },
-    {
-     "item_id": "8ae0b77ed940999a",
-     "phrase": {
-      "en": "frames as retrieval aid",
-      "zh": "视为检索辅助"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.18465v1"
+     "url": "https://arxiv.org/abs/2608.19873v1"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "Manuals were for humans; now codes read them too.",
-    "zh": "手册曾为人而写，如今代码也读它们。"
+    "en": "Personal data becomes a legal battleground.",
+    "zh": "个人数据成为法律战场。"
    },
    "id": "t4",
    "keyword": {
-    "en": "documentation for agents",
-    "zh": "面向智能体的文档"
-   },
-   "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-08-20",
-     "item_id": "ef3f33deabadc36f",
-     "label": {
-      "en": "agent doc study",
-      "zh": "智能体文档研究"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.20195v1"
-    },
-    {
-     "date": "2026-08-20",
-     "item_id": "8ae0b77ed940999a",
-     "label": {
-      "en": "manual RAG system",
-      "zh": "手册RAG系统"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.18465v1"
-    }
-   ],
-   "why_now": {
-    "en": "You study HCI and technical writing; today research probes how coding agents use docs.",
-    "zh": "你研究人机交互与技术写作，今日研究探究编码智能体如何使用文档。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "9a5978e7a0cb6552",
-     "phrase": {
-      "en": "framed as stress intervention",
-      "zh": "视为压力干预"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.19826v1"
-    },
-    {
-     "item_id": "aba75f6cc79d9d0a",
-     "phrase": {
-      "en": "framed as affective sound",
-      "zh": "视为情感化声音"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.18680v1"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Robots speak, children tense; sound is a design lever.",
-    "zh": "机器人说话，孩子紧张；声音是设计杠杆。"
-   },
-   "id": "t5",
-   "keyword": {
-    "en": "AI voice affects us",
-    "zh": "AI语音影响情绪"
+    "en": "data privacy",
+    "zh": "数据隐私"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You study embodied interaction; today a robot-voice study shows pitch matters for stress.",
-    "zh": "你研究具身交互，今日机器人语音研究表明音调影响压力。"
+    "en": "You care about privacy and law; today's phone deletion case sets a precedent for digital rights.",
+    "zh": "你关注隐私与法律，今日删手机案为数字权利立下先例。"
    }
   }
  ]
