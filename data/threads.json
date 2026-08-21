@@ -1,0 +1,167 @@
+{
+ "meta": {
+  "count": 4,
+  "generated_at": "2026-08-21T08:55:47Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "1d14e4f44d5549f2",
+     "phrase": {
+      "en": "Trump threatens economic pressure campaign",
+      "zh": "特朗普威胁经济施压"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/21/nx-s1-5931262/morning-news-brief"
+    },
+    {
+     "item_id": "64045049bf080c3b",
+     "phrase": {
+      "en": "signals no return to war",
+      "zh": "信号不重返战争"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/20/world/europe/trump-iran-economy-sanctions-threats.html"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Trump threatens economic warfare against Iran, signaling deterrence over full conflict.",
+    "zh": "特朗普威胁对伊朗经济战，意在威慑而非全面冲突。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "economic pressure",
+    "zh": "经济施压"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track geopolitics: today's threats redefine US-Iran dynamics, affecting global markets and AI supply chains.",
+    "zh": "你关注地缘政治：今日威胁重塑美伊关系，影响全球市场和AI供应链。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "1d14e4f44d5549f2",
+     "phrase": {
+      "en": "investors dump stocks and bonds",
+      "zh": "投资者抛售股票债券"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/21/nx-s1-5931262/morning-news-brief"
+    },
+    {
+     "item_id": "b7b1b9abb6b74f52",
+     "phrase": {
+      "en": "US economy rings alarm bells",
+      "zh": "美国经济敲响警钟"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c9d8z72nn02o?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Markets wobble and debt worries rise, but the picture is mixed.",
+    "zh": "市场波动，债务忧虑上升，但情况复杂。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "economic anxiety",
+    "zh": "经济焦虑"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow economic signals: today's headlines on stocks and debt are relevant to your work on data-driven decision making.",
+    "zh": "你关注经济信号：今日股市和债务头条与你的数据驱动决策工作相关。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "ef3f33deabadc36f",
+     "phrase": {
+      "en": "agents read and write docs",
+      "zh": "代理读写文档"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.20195v1"
+    },
+    {
+     "item_id": "1ba527f236e3af20",
+     "phrase": {
+      "en": "toll booth for scraping agents",
+      "zh": "为抓取代理设收费亭"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://Argentic.network"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Coding agents are changing how technical docs are written and used.",
+    "zh": "编程代理正在改变技术文档的编写和使用方式。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "AI agents documentation",
+    "zh": "AI代理文档"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You work in technical communication: new research on agent-friendly docs is directly actionable for your projects.",
+    "zh": "你从事技术传播：关于代理友好文档的新研究可直接应用于你的项目。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "9ca378a2c311a7bd",
+     "phrase": {
+      "en": "AI destroys books for data",
+      "zh": "AI为数据毁书"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://annas-archive.gl/blog/physical-destruction.html"
+    },
+    {
+     "item_id": "ef3f33deabadc36f",
+     "phrase": {
+      "en": "agents read docs differently",
+      "zh": "代理以不同方式读文档"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.20195v1"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "AI companies destroy books to scan them, raising preservation alarms.",
+    "zh": "AI公司毁书扫描，引发保护警报。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "AI scraping books",
+    "zh": "AI抓取书籍"
+   },
+   "relates_to": [
+    "t3"
+   ],
+   "why_now": {
+    "en": "You value data and knowledge: this debate touches on ethics of AI data acquisition and preservation.",
+    "zh": "你重视数据和知识：这场辩论触及AI数据采集和保存的伦理。"
+   }
+  }
+ ]
+}

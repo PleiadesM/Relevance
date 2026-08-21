@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "query": "cheese rolling championship OR Gloucestershire cheese rolling",
   "source": {
-   "name": "nintendoeverything.com",
-   "published_at": "2026-08-21T01:45:00Z",
-   "title": "Dragon Quest Monsters : The Withered World details Thespidor , King Withers , and Scruffy , Taiboku and Lushland , Waterwing Can",
-   "url": "https://nintendoeverything.com/dragon-quest-monsters-the-withered-world-details-thespidor-king-withers-and-scruffy-taiboku-and-lushland-waterwing-can/"
+   "name": "Runner's World",
+   "published_at": "2026-07-27T07:00:00Z",
+   "title": "This Chaotic Cheese-Rolling Race Has No Permit, No Insurance, and No Plans to Stop",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNY2xQUWNoa29tNHVUU3JGYWlEdDZ0NXMwakF0RkhFQzkyZHdaY2ZKd1VTNnNGNTJKTHpFaHV0RjFEelk2cGZ3NWlXT2lGeWNUVWhzVjc0Z213d0pOck1vVGhIY3BTVHA0c3Z1RGhzRUs0Y01QZDJ6T2ZvWlpkTk94WHVJVQ?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A video game article details characters and worlds in Dragon Quest Monsters: The Withered World.",
-    "why_irrelevant": "Far removed from farming and regional news."
+    "summary": "A chaotic cheese-rolling race in Britain continues without permits or insurance, drawing thrill-seekers each year.",
+    "why_irrelevant": "It is a niche, chaotic local tradition far from typical feed topics."
    },
    "zh": {
-    "summary": "一篇游戏文章介绍了《勇者斗恶龙怪物：枯萎世界》中的角色和世界。",
-    "why_irrelevant": "与农业和地区新闻相距甚远。"
+    "summary": "英国一场混乱的滚奶酪比赛在没有许可和保险的情况下继续进行，每年吸引着寻求刺激的人。",
+    "why_irrelevant": "这是一种小众、混乱的本地传统，与日常信息流主题相距甚远。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "competitive cheese rolling"
  },
- "brief": "Today's news spans global crises from Alaska to Australia, with the Panama Canal cutting traffic due to drought and political tensions rising from the West Bank to Hong Kong. Research highlights include fruit odors as natural perfumes for flies and a new concept inventory for visualization design.",
+ "brief": "Today's news is dominated by extreme weather events from New York tornadoes to record rainfall in Asia, alongside US political and economic concerns, while research highlights the role of odors in fly courtship and advances in human-computer interaction.",
  "meta": {
-  "generated_at": "2026-08-21T07:05:23Z"
+  "generated_at": "2026-08-21T08:55:47Z"
  },
- "news_summary": "The news today is dominated by a mix of environmental, political, and human-interest stories, including the Panama Canal's El Niño-driven cutbacks, Alaska plane crash, Indiana power outages, and political scandals from Hong Kong to Australia.",
- "papers_summary": "Research papers focus on how fruit odors enhance male fly attractiveness, agent-friendly documentation, and a concept inventory for teaching visualization design, among other HCI and visualization topics.",
+ "news_summary": "Severe weather, including rare tornadoes in NYC, extreme rainfall in Japan and South Korea, and El Niño warnings, is headline news, alongside political developments like Trump's threats to Iran and UK budget deficit concerns.",
+ "papers_summary": "Research explores how fruit odors enhance male fly attractiveness, and several papers focus on improving human-AI interaction, including documentation for coding agents and visualization education.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans global crises from Alaska to Australia, with the Panama Canal cutting traffic due to drought and political tensions rising from the West Bank to Hong Kong. Research highlights include fruit odors as natural perfumes for flies and a new concept inventory for visualization design.",
-   "news_summary": "The news today is dominated by a mix of environmental, political, and human-interest stories, including the Panama Canal's El Niño-driven cutbacks, Alaska plane crash, Indiana power outages, and political scandals from Hong Kong to Australia.",
-   "papers_summary": "Research papers focus on how fruit odors enhance male fly attractiveness, agent-friendly documentation, and a concept inventory for teaching visualization design, among other HCI and visualization topics."
+   "brief": "Today's news is dominated by extreme weather events from New York tornadoes to record rainfall in Asia, alongside US political and economic concerns, while research highlights the role of odors in fly courtship and advances in human-computer interaction.",
+   "news_summary": "Severe weather, including rare tornadoes in NYC, extreme rainfall in Japan and South Korea, and El Niño warnings, is headline news, alongside political developments like Trump's threats to Iran and UK budget deficit concerns.",
+   "papers_summary": "Research explores how fruit odors enhance male fly attractiveness, and several papers focus on improving human-AI interaction, including documentation for coding agents and visualization education."
   },
   "zh": {
-   "brief": "今日新闻聚焦香港国安法裁定、台湾经济与政治议题及巴拿马运河地缘角力；研究方面关注可视化教育、智能家居隐私及AI辅助文档等。",
-   "news_summary": "香港高等法院裁定支联会颠覆罪成立，台湾讨论鞭刑公投及普发现金政策，巴拿马运河因干旱削减通行量引发中美博弈。",
-   "papers_summary": "可视化设计教育、智能家居隐私期望及AI辅助文档研究成为关注点，涉及用户中心设计与评估方法。"
+   "brief": "今日焦点：香港支聯會被裁定煽動顛覆罪成，台灣公投議題再起；美中在巴拿馬運河角力，全球氣候異常與經濟隱憂並存。研究方面，多項人機互動與數據可視化研究探討AI輔助、隱私與設計教育等議題。",
+   "news_summary": "香港法院裁定支聯會煽動顛覆罪成，台灣公投與鞭刑討論受關注，美中在巴拿馬運河交鋒。全球面對極端天氣、經濟警訊與多地衝突。",
+   "papers_summary": "多篇人機互動研究探討AI輔助決策、智能家居隱私、機器人語音對兒童影響，以及可視化設計教育與協作基礎設施。"
   }
  },
  "todays_image": {
-  "caption": "The brief royal buzz in that California town flew away as quickly as a fruit fly's fleeting visit.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m30d1635954c214039b0239a9f50c0f3da",
-  "source_name": "NMNH - Education & Outreach",
-  "source_url": "http://n2t.net/ark:/65665/3f0c8b660-3469-44b9-86dc-ce7e2436b962",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m30d1635954c214039b0239a9f50c0f3da/90",
-  "title": "Fruit Fly, Fruit Fly, Fruit Fly"
+  "caption": "A loose link: like the hardy grass Tridens flavus that thrives on disturbed ground, the court's ruling uproots what it deems subversive, leaving the political landscape reshaped.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b238dbd135a94da7a65727fda2a01554",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3e0d1498e-62ab-4e9f-a7a4-25202413f882",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b238dbd135a94da7a65727fda2a01554/90",
+  "title": "Tridens flavus (L.) Hitchc."
  }
 }
