@@ -1,0 +1,205 @@
+{
+ "meta": {
+  "count": 5,
+  "generated_at": "2026-08-21T22:39:01Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "a7a5f7fdfdf04024",
+     "phrase": {
+      "en": "Legal settlement over kids' privacy",
+      "zh": "儿童隐私法律和解"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/technology/2026/aug/21/tiktok-settlement-children-privacy"
+    },
+    {
+     "item_id": "18f1a63eb69938ab",
+     "phrase": {
+      "en": "Smart home privacy expectations",
+      "zh": "智能家居隐私预期"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.19873v1"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Tech giants face legal reckoning over how they handle children's data.",
+    "zh": "科技巨头因儿童数据处理面临法律清算。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI and children's data privacy",
+    "zh": "AI与儿童数据隐私"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about AI ethics: TikTok's $400m settlement and new privacy papers spotlight the stakes.",
+    "zh": "你关注AI伦理，TikTok的4亿美元和解及新论文凸显风险。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "ef3f33deabadc36f",
+     "phrase": {
+      "en": "Agents discover and write docs",
+      "zh": "代理发现与编写文档"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.20195v1"
+    },
+    {
+     "item_id": "890d7a69ea915f74",
+     "phrase": {
+      "en": "LLM tooling released, new versions",
+      "zh": "LLM工具发布新版本"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Aug/21/llm/"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Coding agents now read docs meant for humans, changing how we write them.",
+    "zh": "编程代理阅读人类文档，改变了写作方式。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "Human-AI interaction, documentation",
+    "zh": "人机交互与文档"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow HCI and tech comm: new research shows agents' doc habits.",
+    "zh": "你关注人机交互与技术传播，新研究揭示代理文档习惯。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "9a5978e7a0cb6552",
+     "phrase": {
+      "en": "Robot voice pitch affects kids' stress",
+      "zh": "机器人音调影响儿童压力"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.19826v1"
+    },
+    {
+     "item_id": "8dfc720b6fc19d25",
+     "phrase": {
+      "en": "Surveillance cameras in city council",
+      "zh": "监控摄像头市政会议"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/21/darth-vader-flock-cameras-san-diego"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "From drones to robot voices, AI meets public life, raising new dilemmas.",
+    "zh": "从无人机到机器声音，AI进入公共生活，带来新困境。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "AI in public policy and safety",
+    "zh": "AI在公共政策与安全"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You intersect AI and society: robot voice studies and surveillance debates are live.",
+    "zh": "你关注AI与社会，机器声音研究与监控辩论正热。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "full_text_file": "articles/news/37b8bbcd33b8b7e5.json",
+     "item_id": "37b8bbcd33b8b7e5",
+     "phrase": {
+      "en": "LinkedIn's AI slop button popular",
+      "zh": "领英AI垃圾按钮受欢迎"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message"
+    },
+    {
+     "item_id": "f3658c418345d162",
+     "phrase": {
+      "en": "Editor fired over censorship row",
+      "zh": "编辑因审查争议被解雇"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/live/2026/aug/21/democrats-progressive-election-politics-live"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Journalists and platforms wrestle with truth, from AI slop to censorship.",
+    "zh": "记者与平台在真伪间挣扎，从AI垃圾到审查。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "Media and misinformation",
+    "zh": "媒体与虚假信息"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You value critical thinking: today's stories on AI slop and military news shake trust.",
+    "zh": "你重视批判性思维，今日AI垃圾与军事新闻动摇信任。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "baac9cc8a9c4f35f",
+     "phrase": {
+      "en": "Railways prepare for extreme weather",
+      "zh": "铁路应对极端天气"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/environment/2026/aug/21/britains-railway-prepares-for-more-extreme-weather-as-intense-el-nino-develops"
+    },
+    {
+     "item_id": "48caf5a176f4cfea",
+     "phrase": {
+      "en": "Indiana powerless after floods",
+      "zh": "洪水后印第安纳断电"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/21/us/gary-indiana-power-outage.html"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Extreme weather tests rails, grids, and rivers, demanding adaptation.",
+    "zh": "极端天气考验铁路、电网与河流，亟需适应。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "Climate and infrastructure stress",
+    "zh": "气候与基础设施压力"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You see systems thinking: today's climate reports link to resilience.",
+    "zh": "你具备系统思维，今日气候报告关乎韧性。"
+   }
+  }
+ ]
+}
