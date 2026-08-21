@@ -1,187 +1,128 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-08-21T14:51:55Z",
+  "count": 3,
+  "generated_at": "2026-08-21T16:49:44Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "item_id": "dbfacc7620071076",
+     "phrase": {
+      "en": "AI helps homework, harms exams",
+      "zh": "AI助作业，碍考试"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://canews24.online/?p=71"
+    },
+    {
      "full_text_file": "articles/news/047e01752cead926.json",
      "item_id": "047e01752cead926",
      "phrase": {
       "en": "creators face AI money backlash",
-      "zh": "创作者因AI资金遭反弹"
+      "zh": "创作者遭AI资金反对"
      },
      "section": "news",
      "source": "The Verge · AI",
      "url": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash"
-    },
-    {
-     "item_id": "8225f2e7c376cfb1",
-     "phrase": {
-      "en": "essay on becoming AI-blind",
-      "zh": "论变得AI盲"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://cymerys.com/w/im-becoming-ai-blind"
-    },
-    {
-     "full_text_file": "articles/news/d82a2ef7b31b14d6.json",
-     "item_id": "d82a2ef7b31b14d6",
-     "phrase": {
-      "en": "Meta glasses creepy recordings",
-      "zh": "Meta眼镜的惊悚录制"
-     },
-     "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect/"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "Creators and users grapple with hidden AI influence.",
-    "zh": "创作者与用户面对隐藏的AI影响。"
+    "en": "AI boosts homework scores but may hurt exams.",
+    "zh": "AI提高作业分，但可能拉低考试成绩。"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI transparency",
-    "zh": "AI透明度"
+    "en": "AI in education",
+    "zh": "AI与教育"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about AI and HCI: today's backlash and blind-spot essays show the human side of AI adoption.",
-    "zh": "你关注AI与人机交互，今日的反弹与盲点文章展示AI应用的人类面向。"
+    "en": "You care about AI's real impact on learning; a new study shows a trade-off.",
+    "zh": "你关注AI对学习的真实影响，新研究揭示了权衡。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "de4e6ce5418a2c2f",
+     "item_id": "ef3f33deabadc36f",
      "phrase": {
-      "en": "Iran must plan for sanctions",
-      "zh": "伊朗需应对制裁"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/21/world/middleeast/iran-sanctions-united-states-ghalibaf.html"
-    },
-    {
-     "item_id": "20de79c834281c78",
-     "phrase": {
-      "en": "US focus on economy fails",
-      "zh": "美国经济战失败"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/21/nx-s1-5940610/iran-us-threat-economic-warfare"
-    },
-    {
-     "item_id": "ab8894ad8fc1b9ae",
-     "phrase": {
-      "en": "China thinks it can resist",
-      "zh": "中国认为可抵抗"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/21/world/asia/china-iran-trump-economic-threats.html"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Economic pressure meets strategic resistance.",
-    "zh": "经济压力遭遇战略抵抗。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "Iran sanctions",
-    "zh": "伊朗制裁"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You track international tech and policy; today's Iran news affects global markets and AI supply chains.",
-    "zh": "你关注国际科技与政策，今日伊朗新闻影响全球市场与AI供应链。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "e7fb2f706f9459a6",
-     "phrase": {
-      "en": "Airbus bows to demands",
-      "zh": "空客屈服于要求"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/business/2026/aug/21/airbus-bows-remote-working-strikes"
-    },
-    {
-     "full_text_file": "articles/news/047e01752cead926.json",
-     "item_id": "047e01752cead926",
-     "phrase": {
-      "en": "creators reject AI deals",
-      "zh": "创作者拒绝AI交易"
-     },
-     "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Employees push back on workplace policies.",
-    "zh": "员工对工作政策提出异议。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "worker voice",
-    "zh": "员工声音"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You study HCI and organizational tech; today's remote work and AI tool adoption reflect power shifts.",
-    "zh": "你研究人机交互与组织技术，今日远程工作与AI工具采纳反映权力转变。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "a0691dfdc810824d",
-     "phrase": {
-      "en": "deleting data risks privacy",
-      "zh": "删数据危及隐私"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html"
-    },
-    {
-     "item_id": "18f1a63eb69938ab",
-     "phrase": {
-      "en": "smart home privacy expectations",
-      "zh": "智能家居隐私期待"
+      "en": "agents read docs differently",
+      "zh": "代理阅读文档方式不同"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.19873v1"
+     "url": "https://arxiv.org/abs/2608.20195v1"
+    },
+    {
+     "item_id": "1ed65cbbd5dd3a6f",
+     "phrase": {
+      "en": "observability for AI agents",
+      "zh": "AI代理可观测性"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://github.com/alibaba/anolisa/blob/main/docs/user-guide/en/agent-observability/agentsight.md"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "Personal data becomes a legal battleground.",
-    "zh": "个人数据成为法律战场。"
+    "en": "Coding agents need docs written for them.",
+    "zh": "编码代理需要为它们编写的文档。"
    },
-   "id": "t4",
+   "id": "t2",
    "keyword": {
-    "en": "data privacy",
-    "zh": "数据隐私"
+    "en": "AI agent documentation",
+    "zh": "AI代理文档"
+   },
+   "relates_to": [
+    "t1"
+   ],
+   "why_now": {
+    "en": "You study human-AI interaction; this shows a shift in technical communication.",
+    "zh": "你研究人机交互，这显示技术沟通的转变。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "a5218bfdf22069f9",
+     "phrase": {
+      "en": "concept inventory for design",
+      "zh": "设计概念清单"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.20090v1"
+    },
+    {
+     "item_id": "af17eb4931bad19b",
+     "phrase": {
+      "en": "cognitive accessibility in viz",
+      "zh": "可视化中的认知可访问性"
+     },
+     "section": "papers",
+     "source": "Semantic Scholar · data visualization",
+     "url": "https://www.semanticscholar.org/paper/6dd07404ee8b436e9a3b701c536154e2753d9965"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Teachers define what students must learn in visualization.",
+    "zh": "教师定义学生在可视化中必须学什么。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "visualization pedagogy",
+    "zh": "可视化教学"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about privacy and law; today's phone deletion case sets a precedent for digital rights.",
-    "zh": "你关注隐私与法律，今日删手机案为数字权利立下先例。"
+    "en": "Your interest in data visualization education finds new curriculum tools.",
+    "zh": "你对数据可视化教育的兴趣找到了新课程工具。"
    }
   }
  ]

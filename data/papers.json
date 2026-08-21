@@ -2,6 +2,56 @@
  "items": [
   {
    "authors": [
+    "J. Otárola Jiménez",
+    "M. ; https://orcid.org/0000-0002-6710-1071 Knaden"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Highlights• Fruit-derived-odors act as natural perfumes for male vinegar flies • Female mating decisions are modulated by these fruit- derived male odors• Odors of some fruit enhance male attractiveness more than those of other fruit• The observed change in male attractiveness is independent of male pheromones",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "08b1b7d275684310",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-21T00:00:00Z",
+   "score": 0.4215,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Highlights• Fruit-derived-odors act as natural perfumes for male vinegar flies • Female mating decisions are modulated by these fruit- derived male odors• Odors of some fruit enhance male attractiveness more than those of other fruit• The observed change in male attractiveness is independent of…",
+   "tags": [],
+   "title": "Fruit odors enhance attractiveness of male <i>Drosophila melanogaster</i> flies during courtship",
+   "url": "https://hdl.handle.net/21.11116/0000-0013-4C12-2",
+   "venue": "MPG.PuRe (Max Planck Society)"
+  },
+  {
+   "authors": [
+    "Jo Mackiewicz",
+    "Jordan Smith"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.1109/tpc.2026.3712307"
+   },
+   "id": "eb0023540acd6671",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-20T19:09:52Z",
+   "score": 0.4204,
+   "section": "papers",
+   "source": "TechComm journals (CrossRef)",
+   "source_id": "crossref_techcomm_journals",
+   "summary": "",
+   "tags": [],
+   "title": "A Usage Item in the Making: How Do Editors View the Use of Male and Female to Describe Connector Ends?",
+   "url": "https://doi.org/10.1109/tpc.2026.3712307",
+   "venue": "IEEE Transactions on Professional Communication"
+  },
+  {
+   "authors": [
     "Zhijun Gao",
     "Jing Chen"
    ],
@@ -14,7 +64,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T15:51:54Z",
-   "score": 0.6947,
+   "score": 0.6868,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -43,7 +93,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T14:23:07Z",
-   "score": 0.5362,
+   "score": 0.5285,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -72,7 +122,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T12:17:24Z",
-   "score": 0.6805,
+   "score": 0.6729,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -102,7 +152,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T10:35:00Z",
-   "score": 0.4814,
+   "score": 0.4739,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -128,7 +178,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T09:27:56Z",
-   "score": 0.6696,
+   "score": 0.6623,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -156,7 +206,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T03:54:52Z",
-   "score": 0.4568,
+   "score": 0.45,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -183,7 +233,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T01:32:06Z",
-   "score": 0.4485,
+   "score": 0.4419,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -205,6 +255,10 @@
     "abstract_snippet": "Scientific visualization is an active site of infrastructuring with many layers of data and evidential claims. This paper reflects on collaborative Mars geoscience research conducted at the NASA Jet Propulsion Lab, which produced the PIXLISE spectroscopic analysis platform, through a retrospective analysis of a scientific discovery made by the team using PIXLISE. The history of infrastructuring in scientific visualization is exceedingly rich, which presents an opportunity for archival research.…",
     "also_in": [
      {
+      "source": "Semantic Scholar · data visualization",
+      "url": "https://www.semanticscholar.org/paper/29f89bd2d7274fd6317abe4adfd8e113727c1e6a"
+     },
+     {
       "source": "arXiv cs.HC (writing & docs)",
       "url": "https://arxiv.org/abs/2608.19413v1"
      }
@@ -215,7 +269,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T19:51:36Z",
-   "score": 0.6622,
+   "score": 0.656,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -226,6 +280,61 @@
    "title": "Scientific Visualization as a Collaborative Data Infrastructure",
    "url": "https://arxiv.org/abs/2608.19413v1",
    "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Belinda Oechsler",
+    "Yvonne Cleary",
+    "Sissi Closs"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.1109/tpc.2026.3712512"
+   },
+   "id": "1298dd5bfa7f35ff",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-19T19:06:57Z",
+   "score": 0.4906,
+   "section": "papers",
+   "source": "TechComm journals (CrossRef)",
+   "source_id": "crossref_techcomm_journals",
+   "summary": "",
+   "tags": [
+    "techcomm"
+   ],
+   "title": "Piloting Kenya’s First Master’s Program in Technical Communication: Digital Innovation, Intercultural Challenges, and Lessons for Higher Education in the Global South",
+   "url": "https://doi.org/10.1109/tpc.2026.3712512",
+   "venue": "IEEE Transactions on Professional Communication"
+  },
+  {
+   "authors": [
+    "Wenbin Liu",
+    "Saul Carliner"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.1109/tpc.2026.3712283"
+   },
+   "id": "5d5e7eece6a49e8d",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-19T19:05:14Z",
+   "score": 0.4905,
+   "section": "papers",
+   "source": "TechComm journals (CrossRef)",
+   "source_id": "crossref_techcomm_journals",
+   "summary": "",
+   "tags": [
+    "techcomm"
+   ],
+   "title": "Using the DACUM Approach to Identify the Roles of Cultures and Cultural Competence in Technical Communication",
+   "url": "https://doi.org/10.1109/tpc.2026.3712283",
+   "venue": "IEEE Transactions on Professional Communication"
   },
   {
    "authors": [
@@ -245,7 +354,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T09:22:18Z",
-   "score": 0.438,
+   "score": 0.4325,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -274,7 +383,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T08:31:09Z",
-   "score": 0.6281,
+   "score": 0.6227,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -302,7 +411,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T02:39:35Z",
-   "score": 0.6123,
+   "score": 0.6072,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -311,11 +420,613 @@
    "title": "Reducing Technician Search Burden: A Multimodal RAG for Cessna 172 Maintenance Manual",
    "url": "https://arxiv.org/abs/2608.18465v1",
    "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Hemlata Sarkar",
+    "Sibani Patro",
+    "Neekita Meher",
+    "Adya Kinkar Panda"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "<title>Abstract</title> Background To demonstrate the diagnostic value of the CE-T2 FLAIR sequence in addition to CE-T1WI in MR imaging of intracranial pathologies. The CE-T2 FLAIR sequence is not widely utilised, but if included in standard MR acquisition protocols, it might enhance patient care by increasing diagnostic sensitivity and facilitating early diagnosis before an invasive CSF sample is obtained. Methods A total of sixty-four patients underwent Gadolinium contrast-enhanced MRI of the…",
+    "citations": 0,
+    "doi": "10.1186/s43055-026-01843-8"
+   },
+   "id": "b8aed1aaa0f69f70",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-19T00:00:00Z",
+   "score": 0.4343,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "<title>Abstract</title> Background To demonstrate the diagnostic value of the CE-T2 FLAIR sequence in addition to CE-T1WI in MR imaging of intracranial pathologies. The CE-T2 FLAIR sequence is not widely utilised, but if included in standard MR acquisition protocols, it might enhance patient care…",
+   "tags": [
+    "eval-study"
+   ],
+   "title": "Evaluation of the usefulness of post-contrast T2-FLAIR sequence MRI in the diagnosis of intracranial pathology",
+   "url": "https://doi.org/10.1186/s43055-026-01843-8",
+   "venue": "The Egyptian Journal of Radiology and Nuclear Medicine"
+  },
+  {
+   "authors": [
+    "Isabel García Real",
+    "Encarnación Fernández-Valle",
+    "David Castejón",
+    "Nerea Moreno",
+    "Pilar Pérez‐Lloret",
+    "Sara Jiménez"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Pseudopus apodus is an anguimorph lizard belonging to the order Squamata. Anatomical information on this species remains limited, particularly regarding soft tissues, and has primarily focused on the axial skeleton of both living and fossil specimens. Recently, the anatomy of its coelomic cavity has been described using dissection and multidetector computed tomography (CT), and its brain has been characterized neuroanatomically by combining ultra-high-resolution magnetic resonance imaging (MRI)…",
+    "citations": 0,
+    "doi": "10.20944/preprints202608.1269.v1"
+   },
+   "id": "abc06ad4461bec8d",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-19T00:00:00Z",
+   "score": 0.4343,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Pseudopus apodus is an anguimorph lizard belonging to the order Squamata. Anatomical information on this species remains limited, particularly regarding soft tissues, and has primarily focused on the axial skeleton of both living and fossil specimens. Recently, the anatomy of its coelomic cavity…",
+   "tags": [
+    "systems"
+   ],
+   "title": "MRI anatomy of Pseudopus apodus: A Descriptive and Comparative Study of High-Field and Low-Field MRI Systems",
+   "url": "https://doi.org/10.20944/preprints202608.1269.v1",
+   "venue": "Preprints.org"
+  },
+  {
+   "authors": [
+    "Daniel Redhead",
+    "Arlenys Hurtado Manyoma",
+    "Danier Hurtado Manyoma",
+    "Cody T. Ross"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract Social status regulates influence and well-being in most social animals. In humans, social status can be attained via distinct routes: prestige (tracking the ability of individuals to confer benefits) and dominance (tracking the ability of individuals to inflict costs). Although prestige and dominance are well studied from a psychological perspective, their influence on social behaviours, including social levelling, remains under-explored—especially in close-knit, rural or…",
+    "citations": 0,
+    "doi": "10.1098/rspb.2026.1504"
+   },
+   "id": "bbe4514b4657e1e6",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-19T00:00:00Z",
+   "score": 0.4343,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract Social status regulates influence and well-being in most social animals. In humans, social status can be attained via distinct routes: prestige (tracking the ability of individuals to confer benefits) and dominance (tracking the ability of individuals to inflict costs). Although prestige…",
+   "tags": [],
+   "title": "Social and economic consequences of prestige and dominance in rural Colombian social networks",
+   "url": "https://doi.org/10.1098/rspb.2026.1504",
+   "venue": "Proceedings of the Royal Society B Biological Sciences"
+  },
+  {
+   "authors": [
+    "O. Dziadkowiec"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "arxiv_id": null,
+    "citations": 0,
+    "doi": "10.1016/j.jogn.2026.07.003"
+   },
+   "id": "2d0d233069418da6",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-19T00:00:00Z",
+   "score": 0.4193,
+   "section": "papers",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Principles and Best Practices for Data Visualization in Nursing Research.",
+   "url": "https://www.semanticscholar.org/paper/72cb29d04b5b0508a247af61ca778df34d62b736",
+   "venue": "Journal of Obstetric, Gynecologic and Neonatal Nursing"
+  },
+  {
+   "authors": [
+    "Jun Wang",
+    "Xiujuan Wu",
+    "Zhou Zhou",
+    "Sitong Zheng",
+    "Minghui Hu",
+    "Yincui Xiao"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Heat stress (HS) has emerged as a significant environmental factor affecting plant growth and agricultural productivity. Alternative polyadenylation (APA) is a crucial co-transcriptional process that regulates developmental processes and stress responses in plants. However, the distinct roles of its resultant transcripts in plant HS response remain to be investigated. In this study, we employed poly(A) tag sequencing (PAT-seq) to identify over 1500 transcripts whose expression exhibited…",
+    "citations": 0,
+    "doi": "10.1007/s44154-026-00340-2"
+   },
+   "id": "d5890322323f0352",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-18T00:00:00Z",
+   "score": 0.2566,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Heat stress (HS) has emerged as a significant environmental factor affecting plant growth and agricultural productivity. Alternative polyadenylation (APA) is a crucial co-transcriptional process that regulates developmental processes and stress responses in plants. However, the distinct roles of…",
+   "tags": [],
+   "title": "Identification of specific transcripts for plant heat stress tolerance through genome-wide analysis of SIZ1-dependent alternative polyadenylation",
+   "url": "https://doi.org/10.1007/s44154-026-00340-2",
+   "venue": "Stress Biology"
+  },
+  {
+   "authors": [
+    "Yunxi Zhao",
+    "Yuhan Tu",
+    "Lingzhi Zhao",
+    "Chuanfeng Shao",
+    "Peilei Chen"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Background Pediatric departments in primary hospitals face challenges such as insufficient diagnostic capabilities, weak management systems, and a lack of guidance on medication use. These factors have led to persistently high rates of antimicrobial use and misuse, which seriously jeopardize the safety of pediatric care in primary hospitals. Clinical pharmacists play a key role in ensuring the appropriate use of medications. However, in primary hospitals, their role is often marginalized or…",
+    "citations": 0,
+    "doi": "10.3389/fmed.2026.1917853"
+   },
+   "id": "e79db8fd1d55adb1",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-18T00:00:00Z",
+   "score": 0.2566,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Background Pediatric departments in primary hospitals face challenges such as insufficient diagnostic capabilities, weak management systems, and a lack of guidance on medication use. These factors have led to persistently high rates of antimicrobial use and misuse, which seriously jeopardize the…",
+   "tags": [
+    "systems"
+   ],
+   "title": "The clinical value of PDCA cycle led by clinical pharmacists in optimizing the use of antimicrobial drugs in pediatric departments of primary hospitals",
+   "url": "https://doi.org/10.3389/fmed.2026.1917853",
+   "venue": "Frontiers in Medicine"
+  },
+  {
+   "authors": [
+    "Chipo Muganu",
+    "Mbuyu Germain Ntunka",
+    "Phakamile Ndlovu"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.21203/rs.3.rs-10711116/v1"
+   },
+   "id": "3e2305b00b6652f7",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-18T00:00:00Z",
+   "score": 0.2566,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [],
+   "title": "Research Trends in the Valorisation of Potato Peels for Fermentative Biohydrogen Production: A Bibliometric Analysis (2015-2025)",
+   "url": "https://doi.org/10.21203/rs.3.rs-10711116/v1",
+   "venue": "Research Square"
+  },
+  {
+   "authors": [
+    "Gonçalo Farias",
+    "Arnaud Bude",
+    "Nektaria Karavas",
+    "Christelle Rossignol",
+    "Isabelle Lantier",
+    "Julie Suman"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Introduction The efficacy of nasal vaccination critically depends on the delivery method, which must ensure precise and reproducible deposition of the vaccine within the nasal cavity to effectively stimulate mucosal immune structures such as the nasal\\x{2011}associated lymphoid tissue (NALT). Transitioning from pre\\x{2011}clinical models to human applications is challenging because of anatomical and physiological differences in nasal structure and airflow dynamics. Methods We developed a…",
+    "citations": 0,
+    "doi": "10.3389/fddev.2026.1875011"
+   },
+   "id": "6f9415df361cf39c",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-18T00:00:00Z",
+   "score": 0.2566,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Introduction The efficacy of nasal vaccination critically depends on the delivery method, which must ensure precise and reproducible deposition of the vaccine within the nasal cavity to effectively stimulate mucosal immune structures such as the nasal\\x{2011}associated lymphoid tissue (NALT).…",
+   "tags": [],
+   "title": "Engineering a medical device for intranasal immunisation: ensuring targeted delivery and formulation stability",
+   "url": "https://doi.org/10.3389/fddev.2026.1875011",
+   "venue": "Frontiers in Drug Delivery"
+  },
+  {
+   "authors": [
+    "Nicolas Zadeh"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Networks of coupled resonate and fire neurons are studied in their mean-field limit through the formal derivation of a nonlinear kinetic Fokker-Planck equation in a half-plane with a threshold-reset mechanism. After structural considerations on the model and on the associated partial differential equation, an original finite-difference scheme is introduced and studied, with non-negativity and mass-preservation properties proved rigorously. A consistency analysis of the scheme is carried out,…",
+    "citations": 0,
+    "doi": "10.33774/coe-2026-n2ssp"
+   },
+   "id": "8907fe272221df0f",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-18T00:00:00Z",
+   "score": 0.2566,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Networks of coupled resonate and fire neurons are studied in their mean-field limit through the formal derivation of a nonlinear kinetic Fokker-Planck equation in a half-plane with a threshold-reset mechanism. After structural considerations on the model and on the associated partial differential…",
+   "tags": [],
+   "title": "Kinetic description and numerical study of a network of noisy resonate and fire neurons - long version",
+   "url": "https://doi.org/10.33774/coe-2026-n2ssp",
+   "venue": null
+  },
+  {
+   "authors": [
+    "Shuo Liu",
+    "Siwen Yang",
+    "Jing Hu",
+    "Tao Bai",
+    "Jian-Ping Li"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Human leukocyte antigen (HLA) polymorphism shapes antigen presentation and susceptibility to immune-mediated disease. In neuroimmune disorders, a central question is how HLA-dependent antigen visibility becomes disease-specific immunity and tissue injury. In this Review, we integrate genetic, molecular, cellular, and clinical evidence across multiple sclerosis (MS), neuromyelitis optica spectrum disorder, Guillain–Barré syndrome, narcolepsy, autoimmune encephalitis, and myasthenia gravis. The…",
+    "citations": 0,
+    "doi": "10.3389/fimmu.2026.1863697"
+   },
+   "id": "dcf79d0dd87aa1eb",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-18T00:00:00Z",
+   "score": 0.2566,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Human leukocyte antigen (HLA) polymorphism shapes antigen presentation and susceptibility to immune-mediated disease. In neuroimmune disorders, a central question is how HLA-dependent antigen visibility becomes disease-specific immunity and tissue injury. In this Review, we integrate genetic,…",
+   "tags": [],
+   "title": "HLA polymorphism in neuroimmune diseases: linking antigen presentation to neuroinflammatory programs",
+   "url": "https://doi.org/10.3389/fimmu.2026.1863697",
+   "venue": "Frontiers in Immunology"
+  },
+  {
+   "authors": [
+    "Siphesihle Siyamukela Masimula",
+    "Mpinane Flory Senekane",
+    "Nisha Naicker"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Background The availability of reliable information in the delivery of environmental health services (EHS) is crucial to identifying environmental health threats in communities and deploying targeted interventions. This requires environmental health information management practices and systems to be evaluated from time-to-time to bring efficiency and enable continuous improvement for improved public health outcomes. As a result, this study assesses environmental health information management in…",
+    "citations": 0,
+    "doi": "10.3389/frhs.2026.1890673"
+   },
+   "id": "41fdafe880cbd590",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-18T00:00:00Z",
+   "score": 0.3941,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Background The availability of reliable information in the delivery of environmental health services (EHS) is crucial to identifying environmental health threats in communities and deploying targeted interventions. This requires environmental health information management practices and systems to…",
+   "tags": [
+    "systems"
+   ],
+   "title": "From data collection to action: environmental health information management practices in eleven municipalities in the east coast of South Africa",
+   "url": "https://doi.org/10.3389/frhs.2026.1890673",
+   "venue": "Frontiers in Health Services"
+  },
+  {
+   "authors": [
+    "Mohamed Ashour",
+    "Nada Fouad",
+    "Ngoc Diep Lai",
+    "Tarek Mohamed"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.1007/s11082-026-09052-3"
+   },
+   "id": "074bddd6848b7dfc",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-18T00:00:00Z",
+   "score": 0.2566,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [],
+   "title": "Synthesis and characterization of size-controllable titanium dioxide nanocolloids via pulsed laser ablation in distilled water",
+   "url": "https://doi.org/10.1007/s11082-026-09052-3",
+   "venue": "Optical and Quantum Electronics"
+  },
+  {
+   "authors": [
+    "Quan Gao",
+    "Yan Zhou",
+    "Desheng Xue"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Attracting and retaining international migrant academics has become a priority for higher education systems worldwide. While existing research recognizes that their knowledge creation is shaped by the networks in which they are embedded, less is known about how international academics in China build such embeddedness and especially how they connect to different types and scales of collaborative ties. This study addresses this gap through mixed-methods research in China’s Sino-Foreign…",
+    "citations": 0,
+    "doi": "10.1007/s10734-026-01745-8"
+   },
+   "id": "9bdda4ba4152e4dd",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-18T00:00:00Z",
+   "score": 0.3941,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Attracting and retaining international migrant academics has become a priority for higher education systems worldwide. While existing research recognizes that their knowledge creation is shaped by the networks in which they are embedded, less is known about how international academics in China…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Network embeddedness of knowledge creation among international migrant academics in China’s Sino-Foreign Cooperative Universities",
+   "url": "https://doi.org/10.1007/s10734-026-01745-8",
+   "venue": "Higher Education"
+  },
+  {
+   "authors": [
+    "Pavlo Ardanov",
+    "Svitlana Sydorenko",
+    "Kyle A. Freedman",
+    "Maryna Kuzmenko",
+    "Jennifer B. Lauruol",
+    "Steffen Kolb"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Introduction Agroforestry systems offer substantial environmental, economic, and social benefits, yet their adoption is constrained by a lack of decision support tools aligned with farmer workflows. This study aimed to characterize farmer typologies, assess prioritization gaps between practitioners and researchers, and develop an Artificial Intelligence (AI)-guided design framework operationalizing farmer-derived logic. Methods We conducted semi-structured surveys with 23 horticulturists and 29…",
+    "citations": 0,
+    "doi": "10.3389/fsufs.2026.1899433"
+   },
+   "id": "858118c248e83567",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-18T00:00:00Z",
+   "score": 0.3941,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Introduction Agroforestry systems offer substantial environmental, economic, and social benefits, yet their adoption is constrained by a lack of decision support tools aligned with farmer workflows. This study aimed to characterize farmer typologies, assess prioritization gaps between practitioners…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Enhancing decision support tools in agroforestry: Integrating farmers’ perspectives on goals, challenges, and experience",
+   "url": "https://doi.org/10.3389/fsufs.2026.1899433",
+   "venue": "Frontiers in Sustainable Food Systems"
+  },
+  {
+   "authors": [
+    "Ruizhe Wang",
+    "Yixuan Dong",
+    "Bolin Yang",
+    "BingoWing-Kuen Ling",
+    "Fuji Yang",
+    "Zelin Zang"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Motivation: Low-dimensional embeddings are widely used to explore cell-state heterogeneity in single-cell and other high-dimensional biological data. Although many methods preserve local neighborhoods, they may distort the apparent sampling density of processed observations, altering the visual contrast between dense and sparse regions and complicating the interpretation of rare, transitional, or continuous cell-state populations. Results: We present DMT-Dens, a parametric…",
+    "arxiv_id": "2608.17571",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "fdb084a63cc74e64",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-18T00:00:00Z",
+   "score": 0.2416,
+   "section": "papers",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "Motivation: Low-dimensional embeddings are widely used to explore cell-state heterogeneity in single-cell and other high-dimensional biological data. Although many methods preserve local neighborhoods, they may distort the apparent sampling density of processed observations, altering the visual…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "DMT-Dens: Density-preserving manifold visualization for biological data",
+   "url": "https://www.semanticscholar.org/paper/56d8addf5622044d4f2b7e7621bb6aa344eb98ed",
+   "venue": null
+  },
+  {
+   "authors": [
+    "Timbwaoga A. J. Ouermi",
+    "N. Gottschling",
+    "Alex Gorczowski",
+    "Tushar M. Athawale"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Uncertainty visualization has been shown to be pivotal for conveying the reliability of features extracted from scalar fields. Features represented by isocontours, mean isocontours lack an indication of spatial uncertainty, whereas spaghetti isocontour plots can become cluttered and difficult to interpret. Existing methods relying on specific distribution assumptions, such as Gaussian and nonparametric bootstrap, to provide compact clutter-free spatial confidence bounds but may underestimate…",
+    "arxiv_id": "2608.18220",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "ccdc8576a6be7213",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-18T00:00:00Z",
+   "score": 0.3791,
+   "section": "papers",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "Uncertainty visualization has been shown to be pivotal for conveying the reliability of features extracted from scalar fields. Features represented by isocontours, mean isocontours lack an indication of spatial uncertainty, whereas spaghetti isocontour plots can become cluttered and difficult to…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Distribution-Agnostic Isocontour Confidence Bounds for Robust Uncertainty Visualization of Scalar Field Data",
+   "url": "https://www.semanticscholar.org/paper/885093037f5ea392e424b93121482a12dfffbc42",
+   "venue": null
+  },
+  {
+   "authors": [
+    "Mason T. Pellegrini"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.1109/tpc.2026.3711953"
+   },
+   "id": "b7d9d382ba644e93",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-17T19:12:23Z",
+   "score": 0.2648,
+   "section": "papers",
+   "source": "TechComm journals (CrossRef)",
+   "source_id": "crossref_techcomm_journals",
+   "summary": "",
+   "tags": [],
+   "title": "Pitching as Dialogue: The Development of Entrepreneurial Ventures Through Iterative Feedback at the Start-Up Chile Business Accelerator",
+   "url": "https://doi.org/10.1109/tpc.2026.3711953",
+   "venue": "IEEE Transactions on Professional Communication"
+  },
+  {
+   "authors": [
+    "Keke Wu",
+    "J. Feng",
+    "Jonathan Lazar"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Data visualization aims to augment human cognition and make data accessible to diverse audiences. As data increasingly shapes participation and decision-making across many domains, there is a growing need to examine whether prevailing assumptions in visualization adequately reflect the diversity of human abilities, experiences, and needs. We argue that cognitive accessibility provides a critical lens for examining these questions and functions as a stress test for visualization theory. Drawing…",
+    "arxiv_id": "2608.17039",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "af17eb4931bad19b",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-17T00:00:00Z",
+   "score": 0.4489,
+   "section": "papers",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "Data visualization aims to augment human cognition and make data accessible to diverse audiences. As data increasingly shapes participation and decision-making across many domains, there is a growing need to examine whether prevailing assumptions in visualization adequately reflect the diversity of…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "What Cognitive Accessibility Reveals About Data Visualization",
+   "url": "https://www.semanticscholar.org/paper/6dd07404ee8b436e9a3b701c536154e2753d9965",
+   "venue": null
+  },
+  {
+   "authors": [
+    "Sihan Li",
+    "M. Twidale",
+    "Jodi Schneider",
+    "Serap Gorucu",
+    "Paul C. Davidson",
+    "Bryan P. Weichelt"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Agricultural injuries remain a significant public health concern, emphasizing the critical need for effective surveillance systems and accessible data dissemination tools. Traditional databases and reporting systems often present barriers to ease of access, usability, and timely interpretation of injury data for various stakeholders. The objective of this study was to design and establish a dashboard for storing agricultural injury data sourced from AgInjuryNews.org. The dashboard design was…",
+    "arxiv_id": null,
+    "citations": 0,
+    "doi": "10.1080/1059924x.2026.2712970"
+   },
+   "id": "c3488febe530b3b9",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-17T00:00:00Z",
+   "score": 0.4489,
+   "section": "papers",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "Agricultural injuries remain a significant public health concern, emphasizing the critical need for effective surveillance systems and accessible data dissemination tools. Traditional databases and reporting systems often present barriers to ease of access, usability, and timely interpretation of…",
+   "tags": [
+    "systems",
+    "visualization"
+   ],
+   "title": "Design of an Interactive Agricultural Injury Dashboard: Enhancing Data Visualization and Stakeholder Engagement Using AgInjuryNews Data.",
+   "url": "https://www.semanticscholar.org/paper/af70c7bf76e8a67c84810849963644ab894299a6",
+   "venue": "Journal of Agromedicine"
+  },
+  {
+   "authors": [
+    "Julianne C. Yang",
+    "Jake Sauter",
+    "G. Adam",
+    "Richard Carr"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "MicroRNAs (miRNAs) are a class of small noncoding RNAs that inhibit the translation of target messenger RNAs (mRNAs). Given that a single miRNA can regulate the translation of many mRNAs, miRNAs have emerged as critical regulators of physiological processes. MiRNAs have been linked to the development and progression of cancers, neurodegenerative and other diseases, most recently using high-throughput miRNA “miRNome” sequencing. As miRNome sequencing represents a newer ‘omics application,…",
+    "arxiv_id": null,
+    "citations": 0,
+    "doi": "10.1186/s12859-026-06479-z"
+   },
+   "id": "ec3475acc26a6b1e",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-17T00:00:00Z",
+   "score": 0.2114,
+   "section": "papers",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "MicroRNAs (miRNAs) are a class of small noncoding RNAs that inhibit the translation of target messenger RNAs (mRNAs). Given that a single miRNA can regulate the translation of many mRNAs, miRNAs have emerged as critical regulators of physiological processes. MiRNAs have been linked to the…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "MiRQuery: a user-friendly web app for the interactive analysis and visualization of microRNA sequencing data",
+   "url": "https://www.semanticscholar.org/paper/679434f3daa096e43ff8490cee777b2c747ca5d1",
+   "venue": "BMC Bioinformatics"
+  },
+  {
+   "authors": [
+    "S. Shiu",
+    "F. Hsieh",
+    "Ting-Li Chen"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "This paper presents a framework for constructing structure-preserving representations of complex systems through discrete approximation, and demonstrates its use in studying the vertical temperature and salinity structures in the mesopelagic zone across the global ocean using the ARGO dataset. Clustering serves as a means of organizing complexity into a finite set of structures that approximate the overall oceanic conditions, and a color encoding design then integrates these structures into a…",
+    "arxiv_id": "2608.15013",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "3f22600249182bb6",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-15T00:00:00Z",
+   "score": 0.1716,
+   "section": "papers",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "This paper presents a framework for constructing structure-preserving representations of complex systems through discrete approximation, and demonstrates its use in studying the vertical temperature and salinity structures in the mesopelagic zone across the global ocean using the ARGO dataset.…",
+   "tags": [
+    "systems",
+    "visualization"
+   ],
+   "title": "Structure-Preserving Visualization of Complex Systems through Discrete Approximation: An Application to Argo Data",
+   "url": "https://www.semanticscholar.org/paper/2bbefa377fb8fba9e141d4dccc086d87293cd188",
+   "venue": null
   }
  ],
  "meta": {
-  "count": 11,
-  "generated_at": "2026-08-21T14:51:55Z",
+  "count": 36,
+  "generated_at": "2026-08-21T16:49:44Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -333,7 +1044,7 @@
    },
    {
     "category": "optional",
-    "count": 0,
+    "count": 50,
     "error": null,
     "full_text_count": 0,
     "id": "openalex_datavis",
@@ -345,7 +1056,7 @@
    },
    {
     "category": "optional",
-    "count": 0,
+    "count": 30,
     "error": null,
     "full_text_count": 0,
     "id": "s2_datavis",
@@ -357,12 +1068,12 @@
    },
    {
     "category": "optional",
-    "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-24&rows=12&sort=created&order=desc",
+    "count": 15,
+    "error": null,
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "crossref"
