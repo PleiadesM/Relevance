@@ -1,47 +1,57 @@
 {
  "meta": {
-  "count": 5,
-  "generated_at": "2026-08-22T20:37:09Z",
+  "count": 4,
+  "generated_at": "2026-08-22T22:36:13Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "item_id": "2d08fb47d155d908",
+     "phrase": {
+      "en": "Details rejected offer",
+      "zh": "拒绝的提案细节"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/22/business/economy/greer-us-canada-trade-deal.html"
+    },
+    {
      "item_id": "db8caa681be13da8",
      "phrase": {
-      "en": "tariffs as miscalculation",
-      "zh": "关税视为误判"
+      "en": "Canada calls tariffs miscalculation",
+      "zh": "加称关税是误判"
      },
      "section": "news",
      "source": "BBC World",
      "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "bfff87ad4f8ffd50",
-     "phrase": {
-      "en": "Carney's risky gamble",
-      "zh": "卡尼的冒险赌注"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c3040pn8lmmo?at_medium=RSS&at_campaign=rss"
-    },
-    {
      "item_id": "e6eb45d79f11817a",
      "phrase": {
-      "en": "slams proposal, retaliation",
-      "zh": "抨击提案，誓言报复"
+      "en": "Carney slams proposal, vows retaliation",
+      "zh": "卡尼抨击提案，誓言报复"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/08/22/world/canada/carney-tariffs-trade-trump.html"
     },
     {
+     "item_id": "bfff87ad4f8ffd50",
+     "phrase": {
+      "en": "Carney faces crucial test",
+      "zh": "卡尼面临关键考验"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c3040pn8lmmo?at_medium=RSS&at_campaign=rss"
+    },
+    {
      "item_id": "e07323edb6224247",
      "phrase": {
-      "en": "standing up, costly",
-      "zh": "挺身而出，代价高昂"
+      "en": "Costly but supported walkaway",
+      "zh": "退出谈判代价高但获支持"
      },
      "section": "news",
      "source": "The New York Times",
@@ -50,8 +60,8 @@
     {
      "item_id": "09f5b3c9b52aadca",
      "phrase": {
-      "en": "economy feels sting",
-      "zh": "经济感受到刺痛"
+      "en": "Economic sting from trade war",
+      "zh": "贸易战刺痛经济"
      },
      "section": "news",
      "source": "The New York Times",
@@ -60,130 +70,18 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Canada walks away from the table, bracing for a costly fight.",
-    "zh": "加拿大退出谈判，准备承受代价高昂的对抗。"
+    "en": "Trade talks collapse; both sides brace for tariffs.",
+    "zh": "谈判破裂，双方准备加征关税。"
    },
    "id": "t1",
    "keyword": {
-    "en": "Canada-US trade war",
-    "zh": "加美贸易战"
-   },
-   "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-08-22",
-     "item_id": "db8caa681be13da8",
-     "label": {
-      "en": "talks collapse, tariffs",
-      "zh": "谈判破裂加关税"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "date": "2026-08-22",
-     "item_id": "bfff87ad4f8ffd50",
-     "label": {
-      "en": "Carney vows retaliation",
-      "zh": "卡尼誓言报复"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c3040pn8lmmo?at_medium=RSS&at_campaign=rss"
-    }
-   ],
-   "why_now": {
-    "en": "You track geopolitics and policy: today Canada's PM rejected the deal and called tariffs a miscalculation, escalating the trade war.",
-    "zh": "你关注地缘政治与政策：今日加拿大总理拒绝协议并称关税误判，贸易战升级。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "5e296ad775ffd3b0",
-     "phrase": {
-      "en": "AI identifies nerves in surgery",
-      "zh": "AI手术中识别神经"
-     },
-     "section": "papers",
-     "source": "OpenAlex · information visualization",
-     "url": "https://doi.org/10.1093/dote/doag077.137"
-    },
-    {
-     "item_id": "9a5978e7a0cb6552",
-     "phrase": {
-      "en": "robot voice pitch affects stress",
-      "zh": "机器人音调影响压力"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.19826v1"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "AI helps surgeons see nerves, but the stakes are life and death.",
-    "zh": "AI帮助外科医生识别神经，但风险关乎生死。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "AI safety in healthcare",
-    "zh": "医疗AI安全"
+    "en": "US-Canada trade war",
+    "zh": "美加贸易战"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You're interested in embodied AI and HCI: a new AI surgical recognition system shows promise but raises safety questions you may want to examine.",
-    "zh": "你对具身AI与人机交互感兴趣：新的AI手术识别系统展示潜力，但引发值得审视的安全问题。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "79d54f54a4ef6d90",
-     "phrase": {
-      "en": "father leaves son on Fuji",
-      "zh": "父亲将儿子留在富士山"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c93403wg288o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "dc5e33285f562703",
-     "phrase": {
-      "en": "boy left with snacks",
-      "zh": "男孩留下零食"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/22/man-leaves-young-son-mount-fuji-japan"
-    },
-    {
-     "item_id": "e5f9a4c74f9cde81",
-     "phrase": {
-      "en": "girl killed in school attack",
-      "zh": "女孩在学校遇袭身亡"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/22/seventeen-year-old-girl-killed-in-sword-attack-at-school-in-sweden"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "A father leaves his son on a mountain; a girl dies in a school attack. Childhood vulnerability is in the open.",
-    "zh": "父亲将儿子留在山上；女孩在学校遇袭。童年的脆弱暴露无遗。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "children's safety outdoors",
-    "zh": "儿童户外安全"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "These stories resonate with your interest in human factors and risk perception: today's incidents highlight extreme lapses in judgment.",
-    "zh": "这些故事与你对人因与风险感知的兴趣相关：今日事件凸显极端判断失误。"
+    "en": "You follow geopolitics; today talks broke and Canada vows retaliation.",
+    "zh": "你关注地缘政治，今日谈判破裂，加拿大誓言报复。"
    }
   },
   {
@@ -191,8 +89,8 @@
     {
      "item_id": "e9fc45514f493814",
      "phrase": {
-      "en": "release 0.33 with upgrades",
-      "zh": "0.33版升级"
+      "en": "Frames as update highlights",
+      "zh": "更新亮点"
      },
      "section": "news",
      "source": "Simon Willison",
@@ -201,8 +99,8 @@
     {
      "item_id": "745505933bfa7f57",
      "phrase": {
-      "en": "local LLM feels dumber",
-      "zh": "本地LLM感觉更笨"
+      "en": "Explains perceived dumbness",
+      "zh": "解释感知变笨"
      },
      "section": "news",
      "source": "Hacker News (AI filter)",
@@ -211,57 +109,130 @@
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "A new LLM release and a nagging question: why does your local model seem dumber?",
-    "zh": "新LLM发布，以及一个困扰的问题：为什么本地模型显得更笨？"
+    "en": "Why your local model seems dumber than it is.",
+    "zh": "为何本地模型看似更笨。"
    },
-   "id": "t4",
+   "id": "t2",
    "keyword": {
-    "en": "LLM development updates",
-    "zh": "LLM开发更新"
+    "en": "local LLM performance",
+    "zh": "本地大模型性能"
    },
    "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-22",
+     "item_id": "e9fc45514f493814",
+     "label": {
+      "en": "llm 0.33 release",
+      "zh": "llm 0.33 发布"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Aug/22/llm/"
+    },
+    {
+     "date": "2026-08-22",
+     "item_id": "745505933bfa7f57",
+     "label": {
+      "en": "debate on local smarts",
+      "zh": "本地智能辩论"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917"
+    }
+   ],
    "why_now": {
-    "en": "You work with LLMs: the new release brings library upgrades, and the article explains a common performance pitfall.",
-    "zh": "你使用LLM：新版本带来库升级，文章解释了常见性能陷阱。"
+    "en": "You build with local LLMs; today's thread explains perception gaps.",
+    "zh": "你用本地大模型开发，今日主题解释感知差距。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "3b4971aebcffd1e4",
+     "item_id": "79d54f54a4ef6d90",
      "phrase": {
-      "en": "surveillance pricing hurts consumers",
-      "zh": "监控定价伤害消费者"
+      "en": "Father leaves son alone",
+      "zh": "父亲弃子独行"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c93403wg288o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "dc5e33285f562703",
+     "phrase": {
+      "en": "Abandons son with snacks",
+      "zh": "留下零食弃子"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/22/man-leaves-young-son-mount-fuji-japan"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Father leaves tired son to continue climb.",
+    "zh": "父亲留下疲惫儿子继续攀登。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "Mount Fuji child left",
+    "zh": "富士山弃童"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow human stories; today's news sparks ethics debate.",
+    "zh": "你关注人文故事，今日新闻引发伦理讨论。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "827ac5fa7bb5779e",
+     "phrase": {
+      "en": "Casting reportedly withdrawn",
+      "zh": "角色据悉被撤"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/film/2026/aug/22/meghan-markles-casting-in-the-gentlemen-reportedly-withdrawn-after-uk-backlash"
+    },
+    {
+     "item_id": "fd71b69eed718511",
+     "phrase": {
+      "en": "End of American dream?",
+      "zh": "美国梦终结？"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/news/ng-interactive/2026/aug/22/prince-harry-meghan-american-dream"
+    },
+    {
+     "item_id": "3b679095907c785f",
+     "phrase": {
+      "en": "Brand will live on",
+      "zh": "品牌继续存续"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/22/opinion/surveillance-pricing-data-companies.html"
-    },
-    {
-     "item_id": "18f1a63eb69938ab",
-     "phrase": {
-      "en": "smart home privacy expectations",
-      "zh": "智能家居隐私期望"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.19873v1"
+     "url": "https://www.nytimes.com/2026/08/22/style/meghan-markle-as-ever.html"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Companies tailor prices per person, and consumers are left in the dark.",
-    "zh": "公司为每个人定制价格，消费者被蒙在鼓里。"
+    "en": "Sussexes return to UK with reduced deals; brand persists.",
+    "zh": "苏塞克斯夫妇返英，交易缩减，品牌延续。"
    },
-   "id": "t5",
+   "id": "t4",
    "keyword": {
-    "en": "surveillance pricing",
-    "zh": "监控定价"
+    "en": "Meghan brand shift",
+    "zh": "梅根品牌转型"
    },
    "relates_to": [],
    "why_now": {
-    "en": "This touches your interest in HCI and technical communication: an op-ed argues for stronger laws against surveillance pricing, a practice that exploits…",
-    "zh": "这触及你对HCI和技术传播的兴趣：一篇评论主张加强立法禁止监控定价，该做法利用个人数据。"
+    "en": "You watch celebrity tech impact; today brand longevity is tested.",
+    "zh": "你关注名人科技影响，今日品牌持久性受考验。"
    }
   }
  ]
