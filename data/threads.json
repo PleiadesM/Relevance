@@ -1,66 +1,37 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-08-22T18:46:54Z",
+  "count": 5,
+  "generated_at": "2026-08-22T20:37:09Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "8ac41b6d11015bba",
-     "phrase": {
-      "en": "robot beats Bolt's record",
-      "zh": "机器人打破博尔特纪录"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/videos/cgljl9zp47xo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "1be99c1d86180827",
-     "phrase": {
-      "en": "Chinese robot sprints faster",
-      "zh": "中国机器人跑得更快"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://www.theguardian.com/sport/2026/aug/22/chinese-robot-runs-100m-sprint-quicker-usain-bolt-world-record"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Machines sprint past humans, rewriting the limits of speed.",
-    "zh": "机器奔跑超过人类，重写速度极限。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "humanoid robots",
-    "zh": "人形机器人"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You track embodied AI; today a humanoid beat Bolt's record, a concrete leap.",
-    "zh": "你关注具身智能；今日人形机器人超越博尔特，是具体突破。"
-   }
-  },
-  {
-   "angles": [
-    {
      "item_id": "db8caa681be13da8",
      "phrase": {
-      "en": "Carney calls tariffs miscalculation",
-      "zh": "卡尼称关税为误判"
+      "en": "tariffs as miscalculation",
+      "zh": "关税视为误判"
      },
      "section": "news",
      "source": "BBC World",
      "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss"
     },
     {
+     "item_id": "bfff87ad4f8ffd50",
+     "phrase": {
+      "en": "Carney's risky gamble",
+      "zh": "卡尼的冒险赌注"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c3040pn8lmmo?at_medium=RSS&at_campaign=rss"
+    },
+    {
      "item_id": "e6eb45d79f11817a",
      "phrase": {
-      "en": "Carney slams proposal, vows retaliation",
-      "zh": "卡尼抨击协议，誓言报复"
+      "en": "slams proposal, retaliation",
+      "zh": "抨击提案，誓言报复"
      },
      "section": "news",
      "source": "The New York Times",
@@ -69,8 +40,8 @@
     {
      "item_id": "e07323edb6224247",
      "phrase": {
-      "en": "Canada stands up, costly",
-      "zh": "加拿大反抗，代价高昂"
+      "en": "standing up, costly",
+      "zh": "挺身而出，代价高昂"
      },
      "section": "news",
      "source": "The New York Times",
@@ -79,38 +50,91 @@
     {
      "item_id": "09f5b3c9b52aadca",
      "phrase": {
-      "en": "US economy feels sting",
-      "zh": "美国经济感到刺痛"
+      "en": "economy feels sting",
+      "zh": "经济感受到刺痛"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/08/22/business/economy-trade-war-us-canada.html"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Canada walks away from the table, bracing for a costly fight.",
+    "zh": "加拿大退出谈判，准备承受代价高昂的对抗。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "Canada-US trade war",
+    "zh": "加美贸易战"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-22",
+     "item_id": "db8caa681be13da8",
+     "label": {
+      "en": "talks collapse, tariffs",
+      "zh": "谈判破裂加关税"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss"
     },
     {
+     "date": "2026-08-22",
      "item_id": "bfff87ad4f8ffd50",
-     "phrase": {
-      "en": "Carney faces crucial test",
-      "zh": "卡尼面临关键考验"
+     "label": {
+      "en": "Carney vows retaliation",
+      "zh": "卡尼誓言报复"
      },
      "section": "news",
      "source": "BBC World",
      "url": "https://www.bbc.co.uk/news/articles/c3040pn8lmmo?at_medium=RSS&at_campaign=rss"
     }
    ],
+   "why_now": {
+    "en": "You track geopolitics and policy: today Canada's PM rejected the deal and called tariffs a miscalculation, escalating the trade war.",
+    "zh": "你关注地缘政治与政策：今日加拿大总理拒绝协议并称关税误判，贸易战升级。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "5e296ad775ffd3b0",
+     "phrase": {
+      "en": "AI identifies nerves in surgery",
+      "zh": "AI手术中识别神经"
+     },
+     "section": "papers",
+     "source": "OpenAlex · information visualization",
+     "url": "https://doi.org/10.1093/dote/doag077.137"
+    },
+    {
+     "item_id": "9a5978e7a0cb6552",
+     "phrase": {
+      "en": "robot voice pitch affects stress",
+      "zh": "机器人音调影响压力"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.19826v1"
+    }
+   ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Canada walks away, tariffs rise, economies brace.",
-    "zh": "加拿大退出谈判，关税上升，经济承压。"
+    "en": "AI helps surgeons see nerves, but the stakes are life and death.",
+    "zh": "AI帮助外科医生识别神经，但风险关乎生死。"
    },
    "id": "t2",
    "keyword": {
-    "en": "trade war",
-    "zh": "贸易战"
+    "en": "AI safety in healthcare",
+    "zh": "医疗AI安全"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow geopolitics; today's collapse reshapes US-Canada ties.",
-    "zh": "你关注地缘政治；今日破裂重塑美加关系。"
+    "en": "You're interested in embodied AI and HCI: a new AI surgical recognition system shows promise but raises safety questions you may want to examine.",
+    "zh": "你对具身AI与人机交互感兴趣：新的AI手术识别系统展示潜力，但引发值得审视的安全问题。"
    }
   },
   {
@@ -118,8 +142,8 @@
     {
      "item_id": "79d54f54a4ef6d90",
      "phrase": {
-      "en": "father leaves son alone",
-      "zh": "父亲独留儿子"
+      "en": "father leaves son on Fuji",
+      "zh": "父亲将儿子留在富士山"
      },
      "section": "news",
      "source": "BBC World",
@@ -129,66 +153,115 @@
      "item_id": "dc5e33285f562703",
      "phrase": {
       "en": "boy left with snacks",
-      "zh": "男孩只留零食"
+      "zh": "男孩留下零食"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/world/2026/aug/22/man-leaves-young-son-mount-fuji-japan"
+    },
+    {
+     "item_id": "e5f9a4c74f9cde81",
+     "phrase": {
+      "en": "girl killed in school attack",
+      "zh": "女孩在学校遇袭身亡"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/22/seventeen-year-old-girl-killed-in-sword-attack-at-school-in-sweden"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "A father abandons a tired child on a peak.",
-    "zh": "父亲将疲惫孩子遗弃在山顶。"
+    "en": "A father leaves his son on a mountain; a girl dies in a school attack. Childhood vulnerability is in the open.",
+    "zh": "父亲将儿子留在山上；女孩在学校遇袭。童年的脆弱暴露无遗。"
    },
    "id": "t3",
    "keyword": {
-    "en": "Mount Fuji child",
-    "zh": "富士山儿童"
+    "en": "children's safety outdoors",
+    "zh": "儿童户外安全"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow human stories; this incident sparks ethical debate.",
-    "zh": "你关注人文故事；此事件引发伦理讨论。"
+    "en": "These stories resonate with your interest in human factors and risk perception: today's incidents highlight extreme lapses in judgment.",
+    "zh": "这些故事与你对人因与风险感知的兴趣相关：今日事件凸显极端判断失误。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "ef3f33deabadc36f",
+     "item_id": "e9fc45514f493814",
      "phrase": {
-      "en": "agents need doc-friendly formats",
-      "zh": "代理需要文档友好格式"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.20195v1"
-    },
-    {
-     "item_id": "ed1995b2946f1180",
-     "phrase": {
-      "en": "beyond code review skill",
-      "zh": "超越代码审查技能"
+      "en": "release 0.33 with upgrades",
+      "zh": "0.33版升级"
      },
      "section": "news",
      "source": "Simon Willison",
-     "url": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/"
+     "url": "https://simonwillison.net/2026/Aug/22/llm/"
+    },
+    {
+     "item_id": "745505933bfa7f57",
+     "phrase": {
+      "en": "local LLM feels dumber",
+      "zh": "本地LLM感觉更笨"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "AI now writes code, docs must adapt.",
-    "zh": "AI现在写代码，文档需适应。"
+    "en": "A new LLM release and a nagging question: why does your local model seem dumber?",
+    "zh": "新LLM发布，以及一个困扰的问题：为什么本地模型显得更笨？"
    },
    "id": "t4",
    "keyword": {
-    "en": "coding agents",
-    "zh": "编程代理"
+    "en": "LLM development updates",
+    "zh": "LLM开发更新"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You work with LLMs; new research shapes how agents use docs.",
-    "zh": "你使用大模型；新研究影响代理如何使用文档。"
+    "en": "You work with LLMs: the new release brings library upgrades, and the article explains a common performance pitfall.",
+    "zh": "你使用LLM：新版本带来库升级，文章解释了常见性能陷阱。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "3b4971aebcffd1e4",
+     "phrase": {
+      "en": "surveillance pricing hurts consumers",
+      "zh": "监控定价伤害消费者"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/22/opinion/surveillance-pricing-data-companies.html"
+    },
+    {
+     "item_id": "18f1a63eb69938ab",
+     "phrase": {
+      "en": "smart home privacy expectations",
+      "zh": "智能家居隐私期望"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.19873v1"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Companies tailor prices per person, and consumers are left in the dark.",
+    "zh": "公司为每个人定制价格，消费者被蒙在鼓里。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "surveillance pricing",
+    "zh": "监控定价"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "This touches your interest in HCI and technical communication: an op-ed argues for stronger laws against surveillance pricing, a practice that exploits…",
+    "zh": "这触及你对HCI和技术传播的兴趣：一篇评论主张加强立法禁止监控定价，该做法利用个人数据。"
    }
   }
  ]

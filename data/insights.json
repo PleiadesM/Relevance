@@ -1,40 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "yodeling competition OR Alpine yodeling festival",
-  "source": {
-   "name": "newschoolbeer.com",
-   "published_at": "2026-08-06T17:13:11Z",
-   "title": "The Pacific Northwest’s largest Oktoberfest returns",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE56UlFyUzZNd2hjMzJ2VWY2bmhnSkhyaWRQRWlPQlRSMEtXdktnYlVnc1hFdjBXNDdRbWtYcUVhQmx4aWVHRUd5aTRhRnVFZ1dqNVIzemllQXIzNXJlampMcW5uWF8yMlFJOFY5NnVNTElvRWkyRUU5WA?oc=5"
-  },
-  "summaries": {
-   "en": {
-    "summary": "The Pacific Northwest's largest Oktoberfest is set to return in August 2026, featuring traditional brews and festivities.",
-    "why_irrelevant": "it's a regional beer festival, far from the user's alpine yodeling interests."
-   },
-   "zh": {
-    "summary": "太平洋西北地区最大的十月节将于2026年8月回归，提供传统啤酒和庆祝活动。",
-    "why_irrelevant": "这是一个地区性啤酒节，与用户的高山约德尔兴趣相去甚远。"
-   }
-  },
-  "topic": "competitive yodeling championships in the Alps"
- },
- "brief": "Today's news centers on escalating U.S.-Canada trade tensions, D.C.'s Grand Prix disruptions, and a tragic school attack in Sweden, while research highlights AI in surgery and visualization education.",
+ "brief": "Canada's PM Carney retaliates against US tariffs after walking away from trade talks, while a humanoid robot breaks Usain Bolt's 100m record and research explores AI-assisted visualization and coding documentation.",
  "meta": {
-  "generated_at": "2026-08-22T18:46:54Z"
+  "generated_at": "2026-08-22T20:37:09Z"
  },
- "news_summary": "Canada's PM Carney calls Trump's tariffs a 'miscalculation' and vows retaliation after trade talks collapse, while D.C.'s Grand Prix causes local irritation, and a sword attack at a Swedish school kills a teenager.",
- "papers_summary": "Papers cover AI-based surgical recognition for esophageal surgery, dynamics-aware evolutionary profiling, and studies on visualization teaching, coding agents, and smart home privacy.",
+ "news_summary": "Canada's PM Mark Carney announced retaliatory tariffs against the US, calling Trump's fresh tariffs a miscalculation, after suspending trade talks. Meanwhile, a robot ran 100m in 9.39s, and USPS published a plan to restrict mail ballots.",
+ "papers_summary": "Research highlights include an AI surgical recognition system for esophageal cancer, a concept inventory for visualization design, and studies on coding agent documentation and user privacy expectations for smart home devices.",
  "summaries": {
   "en": {
-   "brief": "Today's news centers on escalating U.S.-Canada trade tensions, D.C.'s Grand Prix disruptions, and a tragic school attack in Sweden, while research highlights AI in surgery and visualization education.",
-   "news_summary": "Canada's PM Carney calls Trump's tariffs a 'miscalculation' and vows retaliation after trade talks collapse, while D.C.'s Grand Prix causes local irritation, and a sword attack at a Swedish school kills a teenager.",
-   "papers_summary": "Papers cover AI-based surgical recognition for esophageal surgery, dynamics-aware evolutionary profiling, and studies on visualization teaching, coding agents, and smart home privacy."
+   "brief": "Canada's PM Carney retaliates against US tariffs after walking away from trade talks, while a humanoid robot breaks Usain Bolt's 100m record and research explores AI-assisted visualization and coding documentation.",
+   "news_summary": "Canada's PM Mark Carney announced retaliatory tariffs against the US, calling Trump's fresh tariffs a miscalculation, after suspending trade talks. Meanwhile, a robot ran 100m in 9.39s, and USPS published a plan to restrict mail ballots.",
+   "papers_summary": "Research highlights include an AI surgical recognition system for esophageal cancer, a concept inventory for visualization design, and studies on coding agent documentation and user privacy expectations for smart home devices."
   },
   "zh": {
-   "brief": "今日全球新闻聚焦美加贸易战升级、加拿大总理反击特朗普关税，以及瑞典校园持剑袭击惨案；科研方面关注AI手术识别系统与可视化教学概念清单。",
-   "news_summary": "加拿大总理卡尼宣布反制关税并暂停与美国贸易谈判，称特朗普关税是“误判”；瑞典一所学校发生持剑袭击致一名少女死亡。",
-   "papers_summary": "AI手术识别系统（如喉返神经识别）在食管癌手术中受关注；可视化教学设计概念清单为教学评估提供新框架。"
+   "brief": "今日焦点集中在加拿大总理卡尼在贸易谈判破裂后宣布报复性关税，以及美国国内政策变动；科研方面关注AI在医疗和文档处理的应用。",
+   "news_summary": "加拿大总理卡尼拒绝美国贸易提案并誓言报复，引发贸易战担忧；美国邮政发布限制邮寄选票的最终计划；瑞典校园发生持剑袭击致一死三伤。",
+   "papers_summary": "研究涉及AI手术识别系统、机器人音调对儿童压力的影响、智能家居隐私预期等，以及编码代理对技术文档的利用研究。"
   }
+ },
+ "todays_image": {
+  "caption": "Just as \"Le Feu\" evokes destructive flames, Carney suggests Trump's tariffs are a fire-starting miscalculation that scorches trade ties.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-350FDC8081392-000001",
+  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/30627",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-350FDC8081392-000001",
+  "title": "Le Feu"
  }
 }
