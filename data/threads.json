@@ -1,0 +1,353 @@
+{
+ "meta": {
+  "count": 6,
+  "generated_at": "2026-08-22T04:47:00Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "f1adb024eca868c1",
+     "phrase": {
+      "en": "U.S. imposes 50% tariffs",
+      "zh": "美国加征50%关税"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs"
+    },
+    {
+     "item_id": "dd03b1b5ec7790c0",
+     "phrase": {
+      "en": "Canada vows retaliation after deal fails",
+      "zh": "加拿大誓言报复"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail"
+    },
+    {
+     "item_id": "8f1bb6ae40121ca1",
+     "phrase": {
+      "en": "Trade war escalates as talks collapse",
+      "zh": "贸易战升级"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/21/world/canada/trump-tariffs-trade-no-deal-carney-canada.html"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Tariffs escalate as talks collapse, both sides dig in.",
+    "zh": "关税升级，谈判破裂，双方互不退让。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "US-Canada trade war",
+    "zh": "美加贸易战"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": {
+      "en": "talks extend three days",
+      "zh": "谈判延长三天"
+     }
+    },
+    {
+     "date": "2026-08-22",
+     "item_id": "f1adb024eca868c1",
+     "label": {
+      "en": "tariffs imposed, talks fail",
+      "zh": "关税落地，谈判失败"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs"
+    }
+   ],
+   "why_now": {
+    "en": "You care about geopolitics: today's trade breakdown reshapes North American ties.",
+    "zh": "你关注地缘政治：今日贸易破裂重塑北美关系。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "6d5385cac65177b6",
+     "phrase": {
+      "en": "Postal Service finalizes restriction plan",
+      "zh": "邮政终版限制计划"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/21/us/politics/postal-service-rule-restrict-mail-ballots.html"
+    },
+    {
+     "item_id": "18eaa51928c827a0",
+     "phrase": {
+      "en": "rule tightens despite court orders",
+      "zh": "无视法院命令收紧规则"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/21/us-postal-service-mail-in-voter-rule"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Postal rules tighten despite court blocks, election battles heat.",
+    "zh": "法院受阻仍收紧邮政规则，选举角力升温。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "mail-in voting restrictions",
+    "zh": "邮寄投票限制"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-21",
+     "item_id": "6d5385cac65177b6",
+     "label": {
+      "en": "final rule published",
+      "zh": "最终规则公布"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/21/us/politics/postal-service-rule-restrict-mail-ballots.html"
+    },
+    {
+     "date": "2026-08-22",
+     "label": {
+      "en": "courts still weighing blocks",
+      "zh": "法院仍在权衡禁令"
+     }
+    }
+   ],
+   "why_now": {
+    "en": "You follow civic tech: new voting rules could reshape access.",
+    "zh": "你关注公民技术：新投票规则可能重塑参与。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "e1558fd1e4949f4f",
+     "phrase": {
+      "en": "Pentagon fires editors of military paper",
+      "zh": "五角大楼解雇军报编辑"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/21/us/politics/pentagon-fires-stars-stripes-editor.html"
+    },
+    {
+     "item_id": "571ed77e7ae5ef40",
+     "phrase": {
+      "en": "Trump sues critic over report",
+      "zh": "特朗普起诉批评者"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/21/us/politics/trump-lawsuit-liberal-think-tank.html"
+    },
+    {
+     "item_id": "31bb1dd7010c3326",
+     "phrase": {
+      "en": "Threatens $5bn lawsuit over policy report",
+      "zh": "威胁50亿美元诉讼"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/21/trump-lawsuit-threat-national-guard-deployment-report"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Pentagon fires editors, Trump sues critics, press independence squeezed.",
+    "zh": "五角大楼解雇编辑，特朗普起诉批评者，新闻独立受压。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "press freedom under attack",
+    "zh": "新闻自由受挑战"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-21",
+     "item_id": "571ed77e7ae5ef40",
+     "label": {
+      "en": "Trump threatens defamation suit",
+      "zh": "特朗普威胁诽谤诉讼"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/21/us/politics/trump-lawsuit-liberal-think-tank.html"
+    },
+    {
+     "date": "2026-08-22",
+     "item_id": "e1558fd1e4949f4f",
+     "label": {
+      "en": "Pentagon fires Stars and Stripes editors",
+      "zh": "五角大楼解雇星条旗编辑"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/21/us/politics/pentagon-fires-stars-stripes-editor.html"
+    }
+   ],
+   "why_now": {
+    "en": "You study media rhetoric: these moves test First Amendment limits.",
+    "zh": "你研究媒体修辞：这些举措考验第一修正案边界。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "ef3f33deabadc36f",
+     "phrase": {
+      "en": "agents discover, read, write docs",
+      "zh": "代理探索、阅读、撰写文档"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.20195v1"
+    },
+    {
+     "item_id": "a641552dd318aa79",
+     "phrase": {
+      "en": "shared brain for agents",
+      "zh": "代理共享知识大脑"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://ozbrain.com"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Coding agents now read docs, reshaping how software is written.",
+    "zh": "编码代理开始阅读文档，重塑软件编写方式。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "AI agent documentation",
+    "zh": "AI代理文档"
+   },
+   "relates_to": [
+    "t5"
+   ],
+   "why_now": {
+    "en": "You're into LLMs and HCI: this study shows agents need doc redesign.",
+    "zh": "你涉足LLM与人机交互：该研究显示代理需文档重设计。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "59053887296c854d",
+     "phrase": {
+      "en": "Anthropic could raise $100 billion",
+      "zh": "Anthropic拟募千亿美元"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/21/technology/anthropic-ipo-100-billion.html"
+    },
+    {
+     "item_id": "a7a5f7fdfdf04024",
+     "phrase": {
+      "en": "TikTok settles privacy lawsuit",
+      "zh": "TikTok和解隐私诉讼"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/technology/2026/aug/21/tiktok-settlement-children-privacy"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Anthropic eyes $100B IPO, AI investments surge.",
+    "zh": "Anthropic拟募千亿美元，AI投资激增。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "AI IPO ambitions",
+    "zh": "AI IPO雄心"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track AI industry: this milestone signals market confidence.",
+    "zh": "你关注AI行业：此里程碑显示市场信心。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "full_text_file": "articles/news/37b8bbcd33b8b7e5.json",
+     "item_id": "37b8bbcd33b8b7e5",
+     "phrase": {
+      "en": "LinkedIn's AI slop button clicked",
+      "zh": "领英AI垃圾按钮被点"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message"
+    },
+    {
+     "item_id": "8e2e5c7d95c1877b",
+     "phrase": {
+      "en": "human-mediated AI guidance",
+      "zh": "人工介导的AI引导"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.19950v1"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Users flag AI-generated content, tech companies respond.",
+    "zh": "用户标记AI生成内容，科技公司回应。"
+   },
+   "id": "t6",
+   "keyword": {
+    "en": "AI slop and UX",
+    "zh": "AI垃圾与体验"
+   },
+   "relates_to": [
+    "t4"
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-30",
+     "label": {
+      "en": "LinkedIn adds 'AI slop' button",
+      "zh": "领英添加'AI垃圾'按钮"
+     }
+    },
+    {
+     "date": "2026-08-21",
+     "full_text_file": "articles/news/37b8bbcd33b8b7e5.json",
+     "item_id": "37b8bbcd33b8b7e5",
+     "label": {
+      "en": "over 1M clicks",
+      "zh": "超百万点击"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message"
+    }
+   ],
+   "why_now": {
+    "en": "You care about HCI: this feedback shapes AI interface design.",
+    "zh": "你关注人机交互：此反馈塑造AI界面设计。"
+   }
+  }
+ ]
+}
