@@ -1,40 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
-  "source": {
-   "name": "kuban24.tv",
-   "published_at": "2026-08-20T12:45:00Z",
-   "title": "Гигантскую тыкву весом 400 кг вырастила жительница Славянского района",
-   "url": "https://kuban24.tv/item/gigantskuyu-tykvu-vesom-400-kg-vyrastila-zhitelnitsa-slavyanskogo-rajona"
-  },
-  "summaries": {
-   "en": {
-    "summary": "A woman in Slavyansky district grew a giant pumpkin weighing 400 kg.",
-    "why_irrelevant": "It's a regional oddity far from typical personalized news."
-   },
-   "zh": {
-    "summary": "斯拉维扬斯克区的一位女士种出了重达400公斤的巨型南瓜。",
-    "why_irrelevant": "这是一条远离常见个性化新闻的区域性奇闻。"
-   }
-  },
-  "topic": "competitive pumpkin growing"
- },
- "brief": "Today's headlines mix tragedy in Ukraine, trade tensions between Canada and the U.S., and shifts in celebrity life, while research explores health innovations and human-computer interaction.",
+ "brief": "Today's news spans geopolitical tensions, celebrity moves, and domestic debates, while research highlights innovative approaches in health, visualization, and human-computer interaction.",
  "meta": {
-  "generated_at": "2026-08-22T10:38:03Z"
+  "generated_at": "2026-08-22T12:58:24Z"
  },
- "news_summary": "Ukraine mourns after a deadly missile strike on a mall; Canada vows retaliatory tariffs against U.S.; Harry and Meghan's return to England generates discussion about their children and brand.",
- "papers_summary": "Studies on drug-delivering nanomotors for lung injury and fruit odors influencing fly courtship highlight biological and medical advances, alongside user experience research in technology.",
+ "news_summary": "Key stories include Canada's tariff response to the U.S., the aftermath of a Russian strike on Ukraine, and the Sussexes' return to the UK amid fading Hollywood fortunes, alongside domestic debates on vaccinations and political polling.",
+ "papers_summary": "Research covers nanomotors for lung injury, fruit odors affecting fly courtship, and studies on coding agents, visualization education, and smart home privacy, reflecting diverse interests in health, tech, and design.",
  "summaries": {
   "en": {
-   "brief": "Today's headlines mix tragedy in Ukraine, trade tensions between Canada and the U.S., and shifts in celebrity life, while research explores health innovations and human-computer interaction.",
-   "news_summary": "Ukraine mourns after a deadly missile strike on a mall; Canada vows retaliatory tariffs against U.S.; Harry and Meghan's return to England generates discussion about their children and brand.",
-   "papers_summary": "Studies on drug-delivering nanomotors for lung injury and fruit odors influencing fly courtship highlight biological and medical advances, alongside user experience research in technology."
+   "brief": "Today's news spans geopolitical tensions, celebrity moves, and domestic debates, while research highlights innovative approaches in health, visualization, and human-computer interaction.",
+   "news_summary": "Key stories include Canada's tariff response to the U.S., the aftermath of a Russian strike on Ukraine, and the Sussexes' return to the UK amid fading Hollywood fortunes, alongside domestic debates on vaccinations and political polling.",
+   "papers_summary": "Research covers nanomotors for lung injury, fruit odors affecting fly courtship, and studies on coding agents, visualization education, and smart home privacy, reflecting diverse interests in health, tech, and design."
   },
   "zh": {
-   "brief": "今日重点围绕台湾公投、香港国安法裁决及印度抗议；国际方面，乌克兰遭袭与美加贸易战升级。论文聚焦可视化教育、AI交互与用户隐私。",
-   "news_summary": "台湾时隔一年再办公投，聚焦三大议题；香港支联会被裁定煽动颠覆罪成；印度Z世代抗议演变为全国运动。",
-   "papers_summary": "可视化设计教学概念清单、AI辅助个性化应急准备及智能家居隐私期望研究，为人机交互领域提供新见解。"
+   "brief": "今日焦点集中在台湾公投、香港国安法相关判决，以及中美在巴拿马运河问题上的角力；研究方面则涉及可视化教学和智能家居隐私等议题。",
+   "news_summary": "台湾时隔一年再次举行公投，三大议题引发关注；香港高等法院裁定支联会煽动颠覆罪成，核心是\"结束一党专政\"纲领。",
+   "papers_summary": "研究中探讨了可视化设计的概念清单、智能家居隐私期望以及机器人音调对儿童压力的影响。"
   }
+ },
+ "todays_image": {
+  "caption": "Both the woodblock print and modern polling offer distorted views of a distant reality, where artistic perspective and flawed data each shape what we think we see.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1951-166-8MattFlynn",
+  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/103995",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1951-166-8MattFlynn",
+  "title": "Yoshiwara. Hidari Fuji (Yoshiwara with Mount Fuji), from Tokaido Gojusan Tsugi-na Uchi (Fifty-Three Stations on the Tokaido)"
  }
 }
