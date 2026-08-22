@@ -2,57 +2,169 @@
  "items": [
   {
    "authors": [
-    "Saiqi Li",
-    "Ziqiang Zhang",
-    "Qianyun Zhang",
-    "Yi Shen",
-    "Chong Zhang",
-    "Jia Huang"
+    "Masashi Takeuchi",
+    "Hirofumi Kawakubo",
+    "Yosuke Morimoto",
+    "Kazuaki Matsui",
+    "Satoru Matsuda",
+    "Yuko Kitagawa"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract Topic Esophageal Cancer: Surgical Treatment of Esophageal Cancer Background Artificial intelligence (AI) has rapidly advanced in medical imaging and diagnostics, and its application in surgery is expanding toward intraoperative guidance and skill assessment. For clinically meaningful implementation, surgeons must actively participate in development based on real-world needs. In particular, recurrent laryngeal nerve (RLN) injury remains a critical complication in esophagectomy. Methods…",
+    "citations": 0,
+    "doi": "10.1093/dote/doag077.137"
+   },
+   "id": "5e296ad775ffd3b0",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-22T00:00:00Z",
+   "score": 0.5667,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract Topic Esophageal Cancer: Surgical Treatment of Esophageal Cancer Background Artificial intelligence (AI) has rapidly advanced in medical imaging and diagnostics, and its application in surgery is expanding toward intraoperative guidance and skill assessment. For clinically meaningful…",
+   "tags": [
+    "systems"
+   ],
+   "title": "PD08.06. AI-Based Surgical Recognition System Developed by an Esophageal Surgeon: Recurrent Laryngeal Nerve Identification and Traction Detection",
+   "url": "https://doi.org/10.1093/dote/doag077.137",
+   "venue": "Diseases of the Esophagus"
+  },
+  {
+   "authors": [
+    "Zacharaih J. Madsen",
+    "Scott E. Nielsen"
    ],
    "category": "optional",
    "extra": {
     "abstract_snippet": "",
     "citations": 0,
-    "doi": "10.1016/j.isci.2026.117106"
+    "doi": "10.1007/s00035-026-00372-4"
    },
-   "id": "8ba30b07bef4eab9",
+   "id": "81a429451c410d0b",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-21T00:00:00Z",
-   "score": 0.3604,
+   "published_at": "2026-08-22T00:00:00Z",
+   "score": 0.5667,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
    "summary": "",
    "tags": [],
-   "title": "Tetracycline-loaded nanomotors target neutrophil activation and oxidative stress in acute lung injury.",
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42602995",
-   "venue": "PubMed"
+   "title": "Direct and indirect effects of terrain, snow, and shrubs on the structure of an alpine herbaceous community in the Canadian Rocky Mountains",
+   "url": "https://doi.org/10.1007/s00035-026-00372-4",
+   "venue": "Alpine Botany"
   },
   {
    "authors": [
-    "J. Otárola Jiménez",
-    "M. ; https://orcid.org/0000-0002-6710-1071 Knaden"
+    "Farhan Hidayat",
+    "Pujihana Nugraeni"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Highlights• Fruit-derived-odors act as natural perfumes for male vinegar flies • Female mating decisions are modulated by these fruit- derived male odors• Odors of some fruit enhance male attractiveness more than those of other fruit• The observed change in male attractiveness is independent of male pheromones",
+    "abstract_snippet": "This dataset provides a complete, reproducible, and standardized computational workflow for native ligand validation test (38Z/SCH772984) and comparative molecular docking analysis of five inhibitor compounds (ASN007, Tizaterkib, Temuterkib, Rineterkib, and Ravoxertinib) against wild-type Human Mitogen-Activated Protein Kinase 3 (MAPK3/ERK1, PDB ID: 4QTB). All docking simulations were conducted in independent quintuplicates (5 test runs per compound) using AutoDock-GPU v1.6 within a Google…",
     "citations": 0,
-    "doi": null
+    "doi": "10.5281/zenodo.22031357"
    },
-   "id": "08b1b7d275684310",
+   "id": "6b481d86603b93c1",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-21T00:00:00Z",
-   "score": 0.3604,
+   "score": 0.4936,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Highlights• Fruit-derived-odors act as natural perfumes for male vinegar flies • Female mating decisions are modulated by these fruit- derived male odors• Odors of some fruit enhance male attractiveness more than those of other fruit• The observed change in male attractiveness is independent of…",
+   "summary": "This dataset provides a complete, reproducible, and standardized computational workflow for native ligand validation test (38Z/SCH772984) and comparative molecular docking analysis of five inhibitor compounds (ASN007, Tizaterkib, Temuterkib, Rineterkib, and Ravoxertinib) against wild-type Human…",
    "tags": [],
-   "title": "Fruit odors enhance attractiveness of male Drosophila melanogaster flies during courtship",
-   "url": "https://hdl.handle.net/21.11116/0000-0013-4C12-2",
-   "venue": "MPG.PuRe (Max Planck Society)"
+   "title": "Molecular Docking Dataset for Native Ligand Validation (38Z/SCH772984) and Comparative Analysis of ASN007, Tizaterkib, Temuterkib, Rineterkib, and Ravoxertinib against Wild-Type Human MAPK3/ERK1 (PDB ID: 4QTB)",
+   "url": "https://doi.org/10.5281/zenodo.22031357",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)"
+  },
+  {
+   "authors": [
+    "Sandra Garcés Carrera",
+    "Jessica González Regalado",
+    "Mariel Guera",
+    "Sylvanus Odjo"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Smallholder farmers in Ecuador are the main producers of staple grains, yet postharvest losses remain one of the major constraints they face. This study aimed to document postharvest practices, identify key determinants of grain loss, and explore gendered perceptions of participation in postharvest activities among small-scale farmers in Ecuador. Stratified sampling was used to survey 613 farmers, collecting sociodemographic, production, postharvest, and gender-perception information. Maize…",
+    "citations": 0,
+    "doi": "10.1016/j.jspr.2026.103215"
+   },
+   "id": "d65b562f8de0a191",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-21T00:00:00Z",
+   "score": 0.4936,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Smallholder farmers in Ecuador are the main producers of staple grains, yet postharvest losses remain one of the major constraints they face. This study aimed to document postharvest practices, identify key determinants of grain loss, and explore gendered perceptions of participation in postharvest…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Postharvest grain system in Ecuador and small-scale farmers' perceptions of gender roles and postharvest loss",
+   "url": "https://doi.org/10.1016/j.jspr.2026.103215",
+   "venue": "Journal of Stored Products Research"
+  },
+  {
+   "authors": [
+    "Qichao Dong",
+    "Meiling Jiang",
+    "X Zheng",
+    "Zewen Yang",
+    "XinLei Wu",
+    "Hong Yu"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract Background Although the C-reactive protein-triglyceride-glucose index (CTI) and cholesterol-high-density lipoprotein-glucose index (CHG) have both been implicated in adverse cardiovascular outcomes, their comparative predictive performance for incident heart disease among individuals with cardiovascular-kidney-metabolic (CKM) syndrome stages 0–3 remains to be elucidated. Methods We analyzed 6,740 participants with CKM syndrome stages 0–3 from the China Health and Retirement…",
+    "citations": 0,
+    "doi": "10.1186/s12872-026-06485-2"
+   },
+   "id": "ccbc5637fea03892",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-21T00:00:00Z",
+   "score": 0.3561,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract Background Although the C-reactive protein-triglyceride-glucose index (CTI) and cholesterol-high-density lipoprotein-glucose index (CHG) have both been implicated in adverse cardiovascular outcomes, their comparative predictive performance for incident heart disease among individuals with…",
+   "tags": [],
+   "title": "Associations of C-reactive protein-triglyceride-glucose index and cholesterol-high-density lipoprotein-glucose index with heart disease risk in individuals with cardiovascular-kidney-metabolic syndrome stages 0–3: a cohort study from CHARLS",
+   "url": "https://doi.org/10.1186/s12872-026-06485-2",
+   "venue": "BMC Cardiovascular Disorders"
+  },
+  {
+   "authors": [
+    "Yannis Irid",
+    "Julian Hutin",
+    "Jean-François Toussaint",
+    "Adrien Sedeaud"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "This study investigated multidimensional worst-case scenarios (WCS) in elite youth male and female basketball players. Data were collected from 31 players (male: n = 20; female: n = 11) competing at the French National Institute of Sport across 40 official matches over two consecutive seasons. Player activity was monitored using a 20-Hz Local Positioning System and 100-Hz embedded accelerometers. For each player, match, and time window (10, 30, 60, and 120 s), eight external load variables were…",
+    "citations": 0,
+    "doi": "10.3389/fspor.2026.1895096"
+   },
+   "id": "91340603ea09e94a",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-21T00:00:00Z",
+   "score": 0.3561,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "This study investigated multidimensional worst-case scenarios (WCS) in elite youth male and female basketball players. Data were collected from 31 players (male: n = 20; female: n = 11) competing at the French National Institute of Sport across 40 official matches over two consecutive seasons.…",
+   "tags": [],
+   "title": "Characterizing multidimensional worst-case scenarios in elite youth basketball: effects of time window and playing position",
+   "url": "https://doi.org/10.3389/fspor.2026.1895096",
+   "venue": "Frontiers in Sports and Active Living"
   },
   {
    "authors": [
@@ -68,7 +180,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T15:51:54Z",
-   "score": 0.6155,
+   "score": 0.6105,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -97,7 +209,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T14:23:07Z",
-   "score": 0.4584,
+   "score": 0.4535,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -126,7 +238,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T12:17:24Z",
-   "score": 0.6046,
+   "score": 0.5997,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -156,7 +268,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T10:35:00Z",
-   "score": 0.407,
+   "score": 0.4023,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -182,7 +294,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T09:27:56Z",
-   "score": 0.5962,
+   "score": 0.5916,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -210,7 +322,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T03:54:52Z",
-   "score": 0.3881,
+   "score": 0.3838,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -237,7 +349,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T01:32:06Z",
-   "score": 0.3818,
+   "score": 0.3775,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -246,117 +358,6 @@
    "title": "Generating Diverse Personas for User Simulators to Test Interview Dialogue Systems",
    "url": "https://arxiv.org/abs/2608.19549v1",
    "venue": "arXiv cs.CL"
-  },
-  {
-   "authors": [
-    "Cheng Yang",
-    "Hengjian Liu",
-    "Daniel Alvarado",
-    "Pawan Kishore Ravindran",
-    "Max E. Keizer",
-    "Koos Hovinga"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract Purpose Skull base location has been associated with poorer progression-free survival (PFS), but whether specific anatomical locations within the skull base provide additional prognostic information beyond WHO grade and extent of resection (EOR) remains less well defined. Here, we evaluated the association between anatomical location and long-term tumor control in surgically treated skull base meningiomas (SBMs). Descriptive voxel-based heatmaps were generated to visualize the spatial…",
-    "citations": 0,
-    "doi": "10.1007/s00701-026-07009-9"
-   },
-   "id": "6cead6b965c45293",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-20T00:00:00Z",
-   "score": 0.4419,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract Purpose Skull base location has been associated with poorer progression-free survival (PFS), but whether specific anatomical locations within the skull base provide additional prognostic information beyond WHO grade and extent of resection (EOR) remains less well defined. Here, we…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "Anatomical location and long-term tumor control in skull base meningiomas: a cohort study with spatial visualization",
-   "url": "https://doi.org/10.1007/s00701-026-07009-9",
-   "venue": "Acta Neurochirurgica"
-  },
-  {
-   "authors": [
-    "Hannah McCalmon",
-    "George Cai",
-    "Constantine Tsibouris",
-    "Noé Hamou",
-    "Jo Hoskins",
-    "Farhad Pashakhanloo"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "In natural environments, animals must detect behaviorally relevant odors despite variability in both odor mixture composition and stimulus intensity. Although mice can identify salient odors embedded in complex mixtures, how target concentration and background complexity jointly constrain discrimination remains unclear. We trained mice in a two-alternative forced choice task to identify target odors embedded in mixtures containing up to 16 background components. After performance stabilized, we…",
-    "citations": 0,
-    "doi": "10.1016/j.celrep.2026.117883"
-   },
-   "id": "08a0208b93aa04ff",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-20T00:00:00Z",
-   "score": 0.4419,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "In natural environments, animals must detect behaviorally relevant odors despite variability in both odor mixture composition and stimulus intensity. Although mice can identify salient odors embedded in complex mixtures, how target concentration and background complexity jointly constrain…",
-   "tags": [],
-   "title": "Sparse input representations explain odor discrimination in complex, concentration-varying mixtures",
-   "url": "https://doi.org/10.1016/j.celrep.2026.117883",
-   "venue": "Cell Reports"
-  },
-  {
-   "authors": [
-    "József Sütő"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract The condition of road surfaces is a critical factor that impacts the technical state of vehicles, the distribution of passenger and freight traffic, and road safety, to name just a few aspects. This issue becomes increasingly important year by year as the automotive industry continues to develop, leading to a growing number of passenger and freight vehicles on the roads. Even though numerous articles have already been published on this topic, there is a lack of a validated, low-cost,…",
-    "citations": 0,
-    "doi": "10.1038/s41598-026-67203-8"
-   },
-   "id": "9590643f06b5dd43",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-20T00:00:00Z",
-   "score": 0.3044,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract The condition of road surfaces is a critical factor that impacts the technical state of vehicles, the distribution of passenger and freight traffic, and road safety, to name just a few aspects. This issue becomes increasingly important year by year as the automotive industry continues to…",
-   "tags": [
-    "eval-study"
-   ],
-   "title": "Inertial sensor-based road condition evaluation in laboratory and real environments",
-   "url": "https://doi.org/10.1038/s41598-026-67203-8",
-   "venue": "Scientific Reports"
-  },
-  {
-   "authors": [
-    "Fabian Senf",
-    "Roxana Cremer"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract. Global storm-resolving simulations with kilometer resolution are increasingly replacing traditional climate modeling approaches and show particular potential for resolving the dynamics and effects of deep moist convection. These modern modeling methods are moving toward sub-km scales, leading to extremely high energy and resource requirements. This makes iterations, parameter optimizations, and sensitivity studies no longer easily feasible. For the class of propagating, large-scale…",
-    "citations": 0,
-    "doi": "10.5194/gmd-19-7705-2026"
-   },
-   "id": "f466ac96c3d193a0",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-20T00:00:00Z",
-   "score": 0.3044,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract. Global storm-resolving simulations with kilometer resolution are increasingly replacing traditional climate modeling approaches and show particular potential for resolving the dynamics and effects of deep moist convection. These modern modeling methods are moving toward sub-km scales,…",
-   "tags": [],
-   "title": "Advancing the capabilities for efficient hurricane-centric simulations with the atmospheric model ICON",
-   "url": "https://doi.org/10.5194/gmd-19-7705-2026",
-   "venue": "Geoscientific model development"
   },
   {
    "authors": [
@@ -380,7 +381,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T19:51:36Z",
-   "score": 0.5998,
+   "score": 0.5958,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -410,7 +411,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T09:22:18Z",
-   "score": 0.383,
+   "score": 0.3794,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -439,7 +440,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T08:31:09Z",
-   "score": 0.5736,
+   "score": 0.5701,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -467,7 +468,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T02:39:35Z",
-   "score": 0.5614,
+   "score": 0.5582,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -480,7 +481,7 @@
  ],
  "meta": {
   "count": 17,
-  "generated_at": "2026-08-22T12:58:24Z",
+  "generated_at": "2026-08-22T14:35:53Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -523,7 +524,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-25&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-07-25&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",

@@ -1,24 +1,44 @@
 {
- "brief": "Today's news spans geopolitical tensions, celebrity moves, and domestic debates, while research highlights innovative approaches in health, visualization, and human-computer interaction.",
- "meta": {
-  "generated_at": "2026-08-22T12:58:24Z"
+ "apropos_of_nothing": {
+  "query": "snail racing event OR world snail racing championship",
+  "source": {
+   "name": "GTPlanet",
+   "published_at": "2026-08-06T07:00:00Z",
+   "title": "Gran Turismo 7 New Online Time Trials: Double Events, Double Bronze Credits",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNM0xSU2ltY3ItWFMwVFBVZzBCZ1QtTXNxTHhjVTBSbGM1RTVjdUsyUlBnckhFUmZvYTk5WFRWTTZwX3RpZGtlbWpWNzFwSG9IVjUzSlRVcWtFRDduLXlJRWMxWk4tWTBHdzFlTEhqYVlqZ19CZ1dCbF8tdERLM0lWRFU5RFBySVFfNDlnSldOOHZhSEZDX2N3ckczeVFUTmVDbTBuSG5GbE9BbzFH?oc=5"
+  },
+  "summaries": {
+   "en": {
+    "summary": "Gran Turismo 7 introduces double online time trial events with increased bronze credits.",
+    "why_irrelevant": "It's a niche gaming detail far from the user's typical interests."
+   },
+   "zh": {
+    "summary": "Gran Turismo 7 推出双倍在线限时挑战赛，青铜奖励增加。",
+    "why_irrelevant": "这是小众游戏细节，与用户日常关注点无关。"
+   }
+  },
+  "topic": "competitive snail racing"
  },
- "news_summary": "Key stories include Canada's tariff response to the U.S., the aftermath of a Russian strike on Ukraine, and the Sussexes' return to the UK amid fading Hollywood fortunes, alongside domestic debates on vaccinations and political polling.",
- "papers_summary": "Research covers nanomotors for lung injury, fruit odors affecting fly courtship, and studies on coding agents, visualization education, and smart home privacy, reflecting diverse interests in health, tech, and design.",
+ "brief": "Today's news spans international trade tensions, a child left on Mount Fuji, and advances in robotics, while research highlights include AI in surgery and human-centered computing.",
+ "meta": {
+  "generated_at": "2026-08-22T14:35:53Z"
+ },
+ "news_summary": "Key stories include Canada's retaliation against US tariffs, a father abandoning his son on Mount Fuji, a robot surpassing Bolt's record, and a deadly strike on a Myanmar monastery.",
+ "papers_summary": "Research features an AI surgical system for nerve identification, a concept inventory for visualization education, and a study on smart home privacy expectations.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans geopolitical tensions, celebrity moves, and domestic debates, while research highlights innovative approaches in health, visualization, and human-computer interaction.",
-   "news_summary": "Key stories include Canada's tariff response to the U.S., the aftermath of a Russian strike on Ukraine, and the Sussexes' return to the UK amid fading Hollywood fortunes, alongside domestic debates on vaccinations and political polling.",
-   "papers_summary": "Research covers nanomotors for lung injury, fruit odors affecting fly courtship, and studies on coding agents, visualization education, and smart home privacy, reflecting diverse interests in health, tech, and design."
+   "brief": "Today's news spans international trade tensions, a child left on Mount Fuji, and advances in robotics, while research highlights include AI in surgery and human-centered computing.",
+   "news_summary": "Key stories include Canada's retaliation against US tariffs, a father abandoning his son on Mount Fuji, a robot surpassing Bolt's record, and a deadly strike on a Myanmar monastery.",
+   "papers_summary": "Research features an AI surgical system for nerve identification, a concept inventory for visualization education, and a study on smart home privacy expectations."
   },
   "zh": {
-   "brief": "今日焦点集中在台湾公投、香港国安法相关判决，以及中美在巴拿马运河问题上的角力；研究方面则涉及可视化教学和智能家居隐私等议题。",
-   "news_summary": "台湾时隔一年再次举行公投，三大议题引发关注；香港高等法院裁定支联会煽动颠覆罪成，核心是\"结束一党专政\"纲领。",
-   "papers_summary": "研究中探讨了可视化设计的概念清单、智能家居隐私期望以及机器人音调对儿童压力的影响。"
+   "brief": "今日新闻聚焦于加拿大与美国贸易战的升级、富士山儿童被弃事件以及人形机器人跑步超越博尔特纪录的科技趣闻；论文方面则涉及可视化设计教学、AI智能家居隐私及编码代理文档研究。",
+   "news_summary": "加拿大总理卡尼在贸易谈判破裂后誓言对美国关税进行对等报复，引发政治与经济冲击；日本一父亲将7岁儿子遗弃在富士山继续登山引发谴责；中国机器人比赛中人形机器人跑步速度超越博尔特纪录，成为科技亮点。",
+   "papers_summary": "研究可视化设计教学的概念清单、智能家居设备隐私期望的实证评估，以及编码代理如何利用技术文档的实证研究，为相关领域提供了新见解。"
   }
  },
  "todays_image": {
-  "caption": "Both the woodblock print and modern polling offer distorted views of a distant reality, where artistic perspective and flawed data each shape what we think we see.",
+  "caption": "Just as Hiroshige’s print makes Mount Fuji a distant, indifferent backdrop to travelers, today’s father treats the mountain as his solo goal while his 7-year-old becomes an afterthought.",
   "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1951-166-8MattFlynn",
   "source_name": "Cooper Hewitt, Smithsonian Design Museum",
   "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/103995",
