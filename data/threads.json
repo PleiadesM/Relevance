@@ -1,0 +1,255 @@
+{
+ "meta": {
+  "count": 6,
+  "generated_at": "2026-08-22T10:38:03Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "dd03b1b5ec7790c0",
+     "phrase": {
+      "en": "Canada matches tariffs dollar for dollar",
+      "zh": "加拿大对等报复关税"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail"
+    },
+    {
+     "item_id": "e07323edb6224247",
+     "phrase": {
+      "en": "Carney walks away from bad deal",
+      "zh": "卡尼退出不利协议"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/22/world/canada/carney-trump-canada-tariffs.html"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Canada vows to hit back dollar for dollar as trade talks collapse.",
+    "zh": "贸易谈判破裂，加拿大誓言以牙还牙。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "Canada-US trade war",
+    "zh": "加美贸易战"
+   },
+   "relates_to": [
+    "t2"
+   ],
+   "why_now": {
+    "en": "You track policy shifts: Canada's reaction today reshapes North American trade dynamics.",
+    "zh": "你关注政策变化，今日加拿大反应重塑北美贸易格局。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "6d5385cac65177b6",
+     "phrase": {
+      "en": "Plan complies with Trump order",
+      "zh": "计划遵循特朗普命令"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/21/us/politics/postal-service-rule-restrict-mail-ballots.html"
+    },
+    {
+     "item_id": "18eaa51928c827a0",
+     "phrase": {
+      "en": "Rule tightens despite court orders",
+      "zh": "无视法院命令收紧规则"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/21/us-postal-service-mail-in-voter-rule"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Postal Service finalizes rule tightening mail ballots despite court blocks.",
+    "zh": "邮政局无视法院禁令，最终确定收紧邮寄选票规则。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "US postal voting restrictions",
+    "zh": "美国邮寄投票限制"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about democratic processes: this rule adds friction to voting in upcoming midterms.",
+    "zh": "你关注民主进程，此规则给中期选举投票增加阻力。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "ef3f33deabadc36f",
+     "phrase": {
+      "en": "Agents discover and read docs",
+      "zh": "智能体发现并阅读文档"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.20195v1"
+    },
+    {
+     "item_id": "890d7a69ea915f74",
+     "phrase": {
+      "en": "LLM depends on httpx fix",
+      "zh": "LLM依赖httpx修复"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Aug/21/llm/"
+    },
+    {
+     "item_id": "745806cdbb74788d",
+     "phrase": {
+      "en": "OpenRouter shows reasoning traces",
+      "zh": "OpenRouter显示推理轨迹"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Aug/21/llm-openrouter/"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Coding agents now read docs meant for humans; docs must adapt.",
+    "zh": "编码智能体开始阅读为人编写的文档，文档需要适应。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "AI documentation & agents",
+    "zh": "AI文档与智能体"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You work at the HCI-AI intersection: this study reveals a gap in how agents use documentation.",
+    "zh": "你工作在HCI与AI交叉点，此研究揭示智能体使用文档的缺口。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "a5218bfdf22069f9",
+     "phrase": {
+      "en": "Instructors want concept inventory",
+      "zh": "教师想要概念清单"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.20090v1"
+    },
+    {
+     "item_id": "af17eb4931bad19b",
+     "phrase": {
+      "en": "Cognitive accessibility in visualization",
+      "zh": "可视化中的认知可访问性"
+     },
+     "section": "papers",
+     "source": "Semantic Scholar · data visualization",
+     "url": "https://www.semanticscholar.org/paper/6dd07404ee8b436e9a3b701c536154e2753d9965"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "What should students learn in visualization design? A concept inventory emerges.",
+    "zh": "可视化设计应教什么？概念清单浮现。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "visualization education",
+    "zh": "可视化教育"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You teach or learn visualization: this inventory could reshape curricula and assessments.",
+    "zh": "你教授或学习可视化，此清单可能重塑课程与评估。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "9a5978e7a0cb6552",
+     "phrase": {
+      "en": "Lower pitch reduces stress",
+      "zh": "低音调降低压力"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.19826v1"
+    },
+    {
+     "item_id": "aba75f6cc79d9d0a",
+     "phrase": {
+      "en": "Sonification conveys uncertainty",
+      "zh": "声音化传达不确定性"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.18680v1"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Robot pitch influences children's stress; sound can convey uncertainty in data.",
+    "zh": "机器人音调影响儿童压力；声音可传达数据不确定性。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "robot voice & affect",
+    "zh": "机器人声音与情感"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You study embodied AI and HCI: intersected findings on voice and affect inform design.",
+    "zh": "你研究具身AI与HCI，声音与情感的交汇发现指导设计。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "c3488febe530b3b9",
+     "phrase": {
+      "en": "Interactive dashboard for stakeholders",
+      "zh": "面向利益相关者的交互仪表盘"
+     },
+     "section": "papers",
+     "source": "Semantic Scholar · data visualization",
+     "url": "https://www.semanticscholar.org/paper/af70c7bf76e8a67c84810849963644ab894299a6"
+    },
+    {
+     "item_id": "18f1a63eb69938ab",
+     "phrase": {
+      "en": "Revealing privacy expectations",
+      "zh": "揭示隐私预期"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.19873v1"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Visualization aids cognition and interaction, from smart homes to agriculture.",
+    "zh": "可视化辅助认知与交互，从智能家居到农业。"
+   },
+   "id": "t6",
+   "keyword": {
+    "en": "data dashboards & HCI",
+    "zh": "数据仪表盘与人机交互"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You design interfaces: these studies show how visualization can enhance user trust and engagement.",
+    "zh": "你设计界面，这些研究展示可视化如何增强用户信任与参与。"
+   }
+  }
+ ]
+}

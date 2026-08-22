@@ -9,40 +9,32 @@
   },
   "summaries": {
    "en": {
-    "summary": "A woman in Slavyansky district grew a 400 kg giant pumpkin.",
-    "why_irrelevant": "It's a local oddity far beyond typical news feeds."
+    "summary": "A woman in Slavyansky district grew a giant pumpkin weighing 400 kg.",
+    "why_irrelevant": "It's a regional oddity far from typical personalized news."
    },
    "zh": {
-    "summary": "斯拉维扬斯克区一名女子种出了重达400公斤的巨型南瓜。",
-    "why_irrelevant": "这是一则远离常见新闻推送的地方奇闻。"
+    "summary": "斯拉维扬斯克区的一位女士种出了重达400公斤的巨型南瓜。",
+    "why_irrelevant": "这是一条远离常见个性化新闻的区域性奇闻。"
    }
   },
   "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news focuses on the escalating US-Canada trade war, Trump's midterm electioneering, and labor issues in the UK, while research highlights advances in visualization and human-computer interaction.",
+ "brief": "Today's headlines mix tragedy in Ukraine, trade tensions between Canada and the U.S., and shifts in celebrity life, while research explores health innovations and human-computer interaction.",
  "meta": {
-  "generated_at": "2026-08-22T08:45:35Z"
+  "generated_at": "2026-08-22T10:38:03Z"
  },
- "news_summary": "US-Canada trade talks collapse, leading to tariffs, Trump campaigns for midterms, and UK labor disputes over zero-hours contracts. Also notable: Canadian retaliation, USPS mail ballot restrictions, and a judge strikes down Trump's visa ban.",
- "papers_summary": "Papers cover visualization design education, nanomotors for lung injury, robot voice pitch effects on children, and smart home privacy expectations.",
+ "news_summary": "Ukraine mourns after a deadly missile strike on a mall; Canada vows retaliatory tariffs against U.S.; Harry and Meghan's return to England generates discussion about their children and brand.",
+ "papers_summary": "Studies on drug-delivering nanomotors for lung injury and fruit odors influencing fly courtship highlight biological and medical advances, alongside user experience research in technology.",
  "summaries": {
   "en": {
-   "brief": "Today's news focuses on the escalating US-Canada trade war, Trump's midterm electioneering, and labor issues in the UK, while research highlights advances in visualization and human-computer interaction.",
-   "news_summary": "US-Canada trade talks collapse, leading to tariffs, Trump campaigns for midterms, and UK labor disputes over zero-hours contracts. Also notable: Canadian retaliation, USPS mail ballot restrictions, and a judge strikes down Trump's visa ban.",
-   "papers_summary": "Papers cover visualization design education, nanomotors for lung injury, robot voice pitch effects on children, and smart home privacy expectations."
+   "brief": "Today's headlines mix tragedy in Ukraine, trade tensions between Canada and the U.S., and shifts in celebrity life, while research explores health innovations and human-computer interaction.",
+   "news_summary": "Ukraine mourns after a deadly missile strike on a mall; Canada vows retaliatory tariffs against U.S.; Harry and Meghan's return to England generates discussion about their children and brand.",
+   "papers_summary": "Studies on drug-delivering nanomotors for lung injury and fruit odors influencing fly courtship highlight biological and medical advances, alongside user experience research in technology."
   },
   "zh": {
-   "brief": "今日新闻焦点集中在台湾公投、香港国安法判决以及中美在巴拿马运河的角力；研究方面则关注可视化教育、智能家居隐私等议题。",
-   "news_summary": "台湾举行近8年来第4次公投，香港支联会因「结束一党专政」纲领被判煽动颠覆罪，同时中美在巴拿马运河问题上的摩擦加剧。",
-   "papers_summary": "研究论文探讨了可视化设计的教学概念清单、智能家居设备的隐私预期以及儿童与机器人交互中的语音音调影响。"
+   "brief": "今日重点围绕台湾公投、香港国安法裁决及印度抗议；国际方面，乌克兰遭袭与美加贸易战升级。论文聚焦可视化教育、AI交互与用户隐私。",
+   "news_summary": "台湾时隔一年再办公投，聚焦三大议题；香港支联会被裁定煽动颠覆罪成；印度Z世代抗议演变为全国运动。",
+   "papers_summary": "可视化设计教学概念清单、AI辅助个性化应急准备及智能家居隐私期望研究，为人机交互领域提供新见解。"
   }
- },
- "todays_image": {
-  "caption": "The Tariff Building’s legacy as the Old General Post Office, where postal workers once unionized against precarity, now shadows unions' worry that Labour’s zero-hours plan could breach its own promise of secure work.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=SIA-SIA2010-1949",
-  "source_name": "Smithsonian Institution Archives",
-  "source_url": "https://siarchives.si.edu/collections/siris_arc_291744",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SIA-SIA2010-1949&max=150",
-  "title": "Tariff Building (also known as the Old General Post Office building)"
  }
 }
