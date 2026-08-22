@@ -1,48 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "turnip lantern festival OR carved turnip competition",
-  "source": {
-   "name": "WGBH",
-   "published_at": "2026-08-13T14:22:04Z",
-   "title": "20 Fall Food Festivals in New England",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUnc5M29KNXVfTjVmang4ZFpTenAtOHJXQ2w2UE9PbkN2b08tN19COUZDVE0ybFpWUzJmZS1TNjJNUjJGc05rX1FuR3U0NU42b0R6LV8wN1N0NmY2aEdqVWRCU1VLWWFJLTZxQ2kzRzBXbVJpS1pBVHZta3d3OXBKblczQnhiSndab2NqN05lZkJTeEt2R2c?oc=5"
-  },
-  "summaries": {
-   "en": {
-    "summary": "A guide lists 20 fall food festivals across New England, from apple harvests to seafood shacks.",
-    "why_irrelevant": "regional seasonal eating is far from your usual tech and urban topics."
-   },
-   "zh": {
-    "summary": "一份指南列出新英格兰地区的20个秋季美食节，从苹果采摘到海鲜小吃。",
-    "why_irrelevant": "地域性季节性饮食远离你常关注的科技和城市话题。"
-   }
-  },
-  "topic": "competitive carved turnip lantern festivals"
- },
- "brief": "Today's news spans legal battles over privacy and damages, geopolitical tensions, and infrastructure crises, while research explores AI documentation, visualization education, and olfactory science.",
+ "brief": "Deadly Russian strikes in Ukraine and US-Iran tensions over the Strait of Hormuz dominate headlines, while a major AI IPO and international trade negotiations also make waves. In research, studies on odor perception and nanomedicine stand out.",
  "meta": {
-  "generated_at": "2026-08-21T22:39:01Z"
+  "generated_at": "2026-08-22T01:48:18Z"
  },
- "news_summary": "Key stories include TikTok's $400m privacy settlement, a reduced damages award for Alex Jones, water cuts on the Colorado River, and a deadly drone strike in Ukraine, alongside lighter items like LinkedIn's AI slop button.",
- "papers_summary": "Research highlights include studies on robot voice pitch affecting children's stress, documentation for coding agents, and new insights into odor discrimination in fruit flies.",
+ "news_summary": "Russian drone attacks killed 16 in a Ukrainian mall, drawing international condemnation; Trump's comments on the Strait of Hormuz have escalated rhetoric with Iran. Meanwhile, US trade talks with Canada near a deadline, and Anthropic mulls a blockbuster IPO.",
+ "papers_summary": "Research highlights include nanomotors for treating acute lung injury, fruit odors enhancing fly courtship, and models of odor discrimination in complex mixtures.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans legal battles over privacy and damages, geopolitical tensions, and infrastructure crises, while research explores AI documentation, visualization education, and olfactory science.",
-   "news_summary": "Key stories include TikTok's $400m privacy settlement, a reduced damages award for Alex Jones, water cuts on the Colorado River, and a deadly drone strike in Ukraine, alongside lighter items like LinkedIn's AI slop button.",
-   "papers_summary": "Research highlights include studies on robot voice pitch affecting children's stress, documentation for coding agents, and new insights into odor discrimination in fruit flies."
+   "brief": "Deadly Russian strikes in Ukraine and US-Iran tensions over the Strait of Hormuz dominate headlines, while a major AI IPO and international trade negotiations also make waves. In research, studies on odor perception and nanomedicine stand out.",
+   "news_summary": "Russian drone attacks killed 16 in a Ukrainian mall, drawing international condemnation; Trump's comments on the Strait of Hormuz have escalated rhetoric with Iran. Meanwhile, US trade talks with Canada near a deadline, and Anthropic mulls a blockbuster IPO.",
+   "papers_summary": "Research highlights include nanomotors for treating acute lung injury, fruit odors enhancing fly courtship, and models of odor discrimination in complex mixtures."
   },
   "zh": {
-   "brief": "今日焦点集中在台湾公投、香港支联会案及中美巴拿马运河角力，同时印度Z世代抗议与特朗普对朝政策引发关注。",
-   "news_summary": "台湾时隔一年再举行公投，聚焦三大议题；香港支联会被裁定煽动颠覆罪成，核心为'结束一党专政'纲领；中美就巴拿马运河问题交峰，凸显战略水道重要性。",
-   "papers_summary": "研究探讨纳米马达治疗急性肺损伤、果蝇气味吸引配偶，以及编码代理与文档交互等主题，展现跨学科进展。"
+   "brief": "今日新聞聚焦香港支聯會顛覆案判決及台灣公投，而國際上美國與中國就巴拿馬運河交鋒、俄羅斯襲擊烏克蘭購物中心等事件亦受關注。科研方面，一項關於四環素納米馬達治療急性肺損傷的研究值得留意。",
+   "news_summary": "香港支聯會被裁定煽動顛覆國家政權罪成，台灣即將舉行公投，同時美中在巴拿馬運河及霍爾木茲海峽問題上持續角力，俄羅斯對烏克蘭的襲擊亦引發國際譴責。",
+   "papers_summary": "今日科研焦點為四環素納米馬達靶向中性粒細胞活化與氧化應激治療急性肺損傷的研究，該研究可能為ARDS提供新療法。"
   }
  },
  "todays_image": {
-  "caption": "From Patricia Banks challenging airline segregation to Meghan eyeing a role in \"The Gentlemen,\" both women have navigated exclusive industries on their own terms.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2018_50_23a-d_001",
-  "source_name": "National Museum of African American History and Culture",
-  "source_url": "https://nmaahc.si.edu/object/nmaahc_2018.50.23a-d",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2018_50_23a-d_001",
-  "title": "Copy of the ruling in \"Patricia Banks vs. Capital Airlines\""
+  "caption": "Like the adaptable sedge *Cyperus difformis* thriving in disturbed soil, Ukraine’s everyday spaces are being ruthlessly reshaped by war’s erratic violence.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3bda56200cdde4ae5a6918081c0b1f9b7",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/350a52be4-a889-473f-89fd-d9859a097448",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3bda56200cdde4ae5a6918081c0b1f9b7/90",
+  "title": "Cyperus difformis L."
  }
 }
