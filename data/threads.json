@@ -1,16 +1,55 @@
 {
  "meta": {
-  "count": 3,
-  "generated_at": "2026-08-22T16:38:09Z",
+  "count": 4,
+  "generated_at": "2026-08-22T18:46:54Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "item_id": "8ac41b6d11015bba",
+     "phrase": {
+      "en": "robot beats Bolt's record",
+      "zh": "机器人打破博尔特纪录"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/videos/cgljl9zp47xo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "1be99c1d86180827",
+     "phrase": {
+      "en": "Chinese robot sprints faster",
+      "zh": "中国机器人跑得更快"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://www.theguardian.com/sport/2026/aug/22/chinese-robot-runs-100m-sprint-quicker-usain-bolt-world-record"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Machines sprint past humans, rewriting the limits of speed.",
+    "zh": "机器奔跑超过人类，重写速度极限。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "humanoid robots",
+    "zh": "人形机器人"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track embodied AI; today a humanoid beat Bolt's record, a concrete leap.",
+    "zh": "你关注具身智能；今日人形机器人超越博尔特，是具体突破。"
+   }
+  },
+  {
+   "angles": [
+    {
      "item_id": "db8caa681be13da8",
      "phrase": {
-      "en": "Carney calls tariffs a miscalculation",
+      "en": "Carney calls tariffs miscalculation",
       "zh": "卡尼称关税为误判"
      },
      "section": "news",
@@ -18,89 +57,60 @@
      "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "8f1bb6ae40121ca1",
-     "phrase": {
-      "en": "Talks collapse, tariffs to proceed",
-      "zh": "谈判破裂，关税将实施"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/21/world/canada/trump-tariffs-trade-no-deal-carney-canada.html"
-    },
-    {
-     "item_id": "bfff87ad4f8ffd50",
-     "phrase": {
-      "en": "Carney's gamble faces test",
-      "zh": "卡尼的豪赌面临考验"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c3040pn8lmmo?at_medium=RSS&at_campaign=rss"
-    },
-    {
      "item_id": "e6eb45d79f11817a",
      "phrase": {
-      "en": "Carney addresses Canadians after collapse",
-      "zh": "卡尼在破裂后向国人讲话"
+      "en": "Carney slams proposal, vows retaliation",
+      "zh": "卡尼抨击协议，誓言报复"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/08/22/world/canada/carney-tariffs-trade-trump.html"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Trade talks collapse, tariffs loom, sovereignty at stake.",
-    "zh": "谈判破裂，关税将至，主权攸关。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "US-Canada trade war",
-    "zh": "美加贸易战"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You care about geopolitics and AI policy: today's breakdown reshapes North American tech supply chains.",
-    "zh": "你关注地缘政治与AI政策，今日破裂重塑北美科技供应链。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "ed1995b2946f1180",
-     "phrase": {
-      "en": "Key skill: instruct and verify",
-      "zh": "关键技能：指导与验证"
-     },
-     "section": "news",
-     "source": "Simon Willison",
-     "url": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/"
     },
     {
-     "item_id": "ef3f33deabadc36f",
+     "item_id": "e07323edb6224247",
      "phrase": {
-      "en": "Docs need to be agent-friendly",
-      "zh": "文档需方便代理"
+      "en": "Canada stands up, costly",
+      "zh": "加拿大反抗，代价高昂"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.20195v1"
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/22/world/canada/carney-trump-canada-tariffs.html"
+    },
+    {
+     "item_id": "09f5b3c9b52aadca",
+     "phrase": {
+      "en": "US economy feels sting",
+      "zh": "美国经济感到刺痛"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/22/business/economy-trade-war-us-canada.html"
+    },
+    {
+     "item_id": "bfff87ad4f8ffd50",
+     "phrase": {
+      "en": "Carney faces crucial test",
+      "zh": "卡尼面临关键考验"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c3040pn8lmmo?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "AI agents now read and write code, demanding new skills.",
-    "zh": "AI代理能读写代码，要求新技能。"
+    "en": "Canada walks away, tariffs rise, economies brace.",
+    "zh": "加拿大退出谈判，关税上升，经济承压。"
    },
    "id": "t2",
    "keyword": {
-    "en": "coding agents",
-    "zh": "编码代理"
+    "en": "trade war",
+    "zh": "贸易战"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You work with LLMs and HCI: this thread updates how you guide agents.",
-    "zh": "你使用LLM和人机交互，此线索更新你指导代理的方式。"
+    "en": "You follow geopolitics; today's collapse reshapes US-Canada ties.",
+    "zh": "你关注地缘政治；今日破裂重塑美加关系。"
    }
   },
   {
@@ -108,8 +118,8 @@
     {
      "item_id": "79d54f54a4ef6d90",
      "phrase": {
-      "en": "Father leaves son on Fuji",
-      "zh": "父亲将儿子留在富士山"
+      "en": "father leaves son alone",
+      "zh": "父亲独留儿子"
      },
      "section": "news",
      "source": "BBC World",
@@ -118,8 +128,8 @@
     {
      "item_id": "dc5e33285f562703",
      "phrase": {
-      "en": "Tired boy left with snacks",
-      "zh": "疲惫男孩留下零食"
+      "en": "boy left with snacks",
+      "zh": "男孩只留零食"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -128,18 +138,57 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "A father abandons his son on a mountain for a hike.",
-    "zh": "父亲为登山将儿子留在山上。"
+    "en": "A father abandons a tired child on a peak.",
+    "zh": "父亲将疲惫孩子遗弃在山顶。"
    },
    "id": "t3",
    "keyword": {
-    "en": "parenting risks",
-    "zh": "育儿风险"
+    "en": "Mount Fuji child",
+    "zh": "富士山儿童"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You think about human factors: this story underscores judgment under fatigue.",
-    "zh": "你思考人为因素，此故事强调疲劳下的判断力。"
+    "en": "You follow human stories; this incident sparks ethical debate.",
+    "zh": "你关注人文故事；此事件引发伦理讨论。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "ef3f33deabadc36f",
+     "phrase": {
+      "en": "agents need doc-friendly formats",
+      "zh": "代理需要文档友好格式"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.20195v1"
+    },
+    {
+     "item_id": "ed1995b2946f1180",
+     "phrase": {
+      "en": "beyond code review skill",
+      "zh": "超越代码审查技能"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "AI now writes code, docs must adapt.",
+    "zh": "AI现在写代码，文档需适应。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "coding agents",
+    "zh": "编程代理"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You work with LLMs; new research shapes how agents use docs.",
+    "zh": "你使用大模型；新研究影响代理如何使用文档。"
    }
   }
  ]

@@ -2,6 +2,113 @@
  "items": [
   {
    "authors": [
+    "Masashi Takeuchi",
+    "Hirofumi Kawakubo",
+    "Yosuke Morimoto",
+    "Kazuaki Matsui",
+    "Satoru Matsuda",
+    "Yuko Kitagawa"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract Topic Esophageal Cancer: Surgical Treatment of Esophageal Cancer Background Artificial intelligence (AI) has rapidly advanced in medical imaging and diagnostics, and its application in surgery is expanding toward intraoperative guidance and skill assessment. For clinically meaningful implementation, surgeons must actively participate in development based on real-world needs. In particular, recurrent laryngeal nerve (RLN) injury remains a critical complication in esophagectomy. Methods…",
+    "citations": 0,
+    "doi": "10.1093/dote/doag077.137"
+   },
+   "id": "5e296ad775ffd3b0",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-22T00:00:00Z",
+   "score": 0.5524,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract Topic Esophageal Cancer: Surgical Treatment of Esophageal Cancer Background Artificial intelligence (AI) has rapidly advanced in medical imaging and diagnostics, and its application in surgery is expanding toward intraoperative guidance and skill assessment. For clinically meaningful…",
+   "tags": [
+    "systems"
+   ],
+   "title": "PD08.06. AI-Based Surgical Recognition System Developed by an Esophageal Surgeon: Recurrent Laryngeal Nerve Identification and Traction Detection",
+   "url": "https://doi.org/10.1093/dote/doag077.137",
+   "venue": "Diseases of the Esophagus"
+  },
+  {
+   "authors": [
+    "Taner Karagöl",
+    "Alper Karagöl"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 3,
+    "doi": "10.1007/s10142-026-02013-9"
+   },
+   "id": "2c9dad0b567a76df",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-22T00:00:00Z",
+   "score": 0.465,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [],
+   "title": "Dynamics-aware evolutionary profiling uncouples structural rigidity from functional motion to enable enhanced variant interpretation",
+   "url": "https://doi.org/10.1007/s10142-026-02013-9",
+   "venue": "Functional & Integrative Genomics"
+  },
+  {
+   "authors": [
+    "Zacharaih J. Madsen",
+    "Scott E. Nielsen"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.1007/s00035-026-00372-4"
+   },
+   "id": "81a429451c410d0b",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-22T00:00:00Z",
+   "score": 0.5524,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [],
+   "title": "Direct and indirect effects of terrain, snow, and shrubs on the structure of an alpine herbaceous community in the Canadian Rocky Mountains",
+   "url": "https://doi.org/10.1007/s00035-026-00372-4",
+   "venue": "Alpine Botany"
+  },
+  {
+   "authors": [
+    "Abolfazl HaqiqiFar",
+    "Mohammad Amin Safaei",
+    "Gholamreza Jafari"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract The functional brain activity network is the result of the harmonious activity of different regions. Each harmonic activity requires feedback from different areas of activity to adjust itself. As a result, any disorder in this harmony can affect the functional brain activity network. In this study, we use transfer entropy (TE) to examine the information transfer patterns of brain activity in Healthy Controls (HC) and individuals with Autism Spectrum Disorder (ASD). The results indicate…",
+    "citations": 1,
+    "doi": "10.1038/s41598-026-66002-5"
+   },
+   "id": "6d94b813f2eb1bc1",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-22T00:00:00Z",
+   "score": 0.5775,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract The functional brain activity network is the result of the harmonious activity of different regions. Each harmonic activity requires feedback from different areas of activity to adjust itself. As a result, any disorder in this harmony can affect the functional brain activity network. In…",
+   "tags": [],
+   "title": "Patterns of information flow in autism canonical brain network by transfer entropy approach",
+   "url": "https://doi.org/10.1038/s41598-026-66002-5",
+   "venue": "Scientific Reports"
+  },
+  {
+   "authors": [
     "Zhijun Gao",
     "Jing Chen"
    ],
@@ -14,7 +121,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T15:51:54Z",
-   "score": 0.6043,
+   "score": 0.598,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -43,7 +150,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T14:23:07Z",
-   "score": 0.4474,
+   "score": 0.4412,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -72,7 +179,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T12:17:24Z",
-   "score": 0.5938,
+   "score": 0.5877,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -102,7 +209,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T10:35:00Z",
-   "score": 0.3965,
+   "score": 0.3905,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -128,7 +235,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T09:27:56Z",
-   "score": 0.5858,
+   "score": 0.5799,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -156,7 +263,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T03:54:52Z",
-   "score": 0.3784,
+   "score": 0.3729,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -183,7 +290,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T01:32:06Z",
-   "score": 0.3723,
+   "score": 0.367,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -215,7 +322,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T19:51:36Z",
-   "score": 0.5909,
+   "score": 0.5859,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -245,7 +352,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T09:22:18Z",
-   "score": 0.3751,
+   "score": 0.3707,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -274,7 +381,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T08:31:09Z",
-   "score": 0.5659,
+   "score": 0.5615,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -302,7 +409,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T02:39:35Z",
-   "score": 0.5542,
+   "score": 0.5501,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -314,8 +421,8 @@
   }
  ],
  "meta": {
-  "count": 11,
-  "generated_at": "2026-08-22T16:38:09Z",
+  "count": 15,
+  "generated_at": "2026-08-22T18:46:54Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -333,7 +440,7 @@
    },
    {
     "category": "optional",
-    "count": 0,
+    "count": 50,
     "error": null,
     "full_text_count": 0,
     "id": "openalex_datavis",
@@ -358,7 +465,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A1050-6519%2Cfrom-created-date%3A2026-07-25&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-07-25&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
@@ -369,7 +476,7 @@
    },
    {
     "category": "optional",
-    "count": 0,
+    "count": 40,
     "error": null,
     "full_text_count": 0,
     "id": "openalex_techcomm",
