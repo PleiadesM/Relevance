@@ -2,172 +2,6 @@
  "items": [
   {
    "authors": [
-    "Masashi Takeuchi",
-    "Hirofumi Kawakubo",
-    "Yosuke Morimoto",
-    "Kazuaki Matsui",
-    "Satoru Matsuda",
-    "Yuko Kitagawa"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract Topic Esophageal Cancer: Surgical Treatment of Esophageal Cancer Background Artificial intelligence (AI) has rapidly advanced in medical imaging and diagnostics, and its application in surgery is expanding toward intraoperative guidance and skill assessment. For clinically meaningful implementation, surgeons must actively participate in development based on real-world needs. In particular, recurrent laryngeal nerve (RLN) injury remains a critical complication in esophagectomy. Methods…",
-    "citations": 0,
-    "doi": "10.1093/dote/doag077.137"
-   },
-   "id": "5e296ad775ffd3b0",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-22T00:00:00Z",
-   "score": 0.5667,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract Topic Esophageal Cancer: Surgical Treatment of Esophageal Cancer Background Artificial intelligence (AI) has rapidly advanced in medical imaging and diagnostics, and its application in surgery is expanding toward intraoperative guidance and skill assessment. For clinically meaningful…",
-   "tags": [
-    "systems"
-   ],
-   "title": "PD08.06. AI-Based Surgical Recognition System Developed by an Esophageal Surgeon: Recurrent Laryngeal Nerve Identification and Traction Detection",
-   "url": "https://doi.org/10.1093/dote/doag077.137",
-   "venue": "Diseases of the Esophagus"
-  },
-  {
-   "authors": [
-    "Zacharaih J. Madsen",
-    "Scott E. Nielsen"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "citations": 0,
-    "doi": "10.1007/s00035-026-00372-4"
-   },
-   "id": "81a429451c410d0b",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-22T00:00:00Z",
-   "score": 0.5667,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "",
-   "tags": [],
-   "title": "Direct and indirect effects of terrain, snow, and shrubs on the structure of an alpine herbaceous community in the Canadian Rocky Mountains",
-   "url": "https://doi.org/10.1007/s00035-026-00372-4",
-   "venue": "Alpine Botany"
-  },
-  {
-   "authors": [
-    "Farhan Hidayat",
-    "Pujihana Nugraeni"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "This dataset provides a complete, reproducible, and standardized computational workflow for native ligand validation test (38Z/SCH772984) and comparative molecular docking analysis of five inhibitor compounds (ASN007, Tizaterkib, Temuterkib, Rineterkib, and Ravoxertinib) against wild-type Human Mitogen-Activated Protein Kinase 3 (MAPK3/ERK1, PDB ID: 4QTB). All docking simulations were conducted in independent quintuplicates (5 test runs per compound) using AutoDock-GPU v1.6 within a Google…",
-    "citations": 0,
-    "doi": "10.5281/zenodo.22031357"
-   },
-   "id": "6b481d86603b93c1",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-21T00:00:00Z",
-   "score": 0.4936,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "This dataset provides a complete, reproducible, and standardized computational workflow for native ligand validation test (38Z/SCH772984) and comparative molecular docking analysis of five inhibitor compounds (ASN007, Tizaterkib, Temuterkib, Rineterkib, and Ravoxertinib) against wild-type Human…",
-   "tags": [],
-   "title": "Molecular Docking Dataset for Native Ligand Validation (38Z/SCH772984) and Comparative Analysis of ASN007, Tizaterkib, Temuterkib, Rineterkib, and Ravoxertinib against Wild-Type Human MAPK3/ERK1 (PDB ID: 4QTB)",
-   "url": "https://doi.org/10.5281/zenodo.22031357",
-   "venue": "Zenodo (CERN European Organization for Nuclear Research)"
-  },
-  {
-   "authors": [
-    "Sandra Garcés Carrera",
-    "Jessica González Regalado",
-    "Mariel Guera",
-    "Sylvanus Odjo"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Smallholder farmers in Ecuador are the main producers of staple grains, yet postharvest losses remain one of the major constraints they face. This study aimed to document postharvest practices, identify key determinants of grain loss, and explore gendered perceptions of participation in postharvest activities among small-scale farmers in Ecuador. Stratified sampling was used to survey 613 farmers, collecting sociodemographic, production, postharvest, and gender-perception information. Maize…",
-    "citations": 0,
-    "doi": "10.1016/j.jspr.2026.103215"
-   },
-   "id": "d65b562f8de0a191",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-21T00:00:00Z",
-   "score": 0.4936,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Smallholder farmers in Ecuador are the main producers of staple grains, yet postharvest losses remain one of the major constraints they face. This study aimed to document postharvest practices, identify key determinants of grain loss, and explore gendered perceptions of participation in postharvest…",
-   "tags": [
-    "systems"
-   ],
-   "title": "Postharvest grain system in Ecuador and small-scale farmers' perceptions of gender roles and postharvest loss",
-   "url": "https://doi.org/10.1016/j.jspr.2026.103215",
-   "venue": "Journal of Stored Products Research"
-  },
-  {
-   "authors": [
-    "Qichao Dong",
-    "Meiling Jiang",
-    "X Zheng",
-    "Zewen Yang",
-    "XinLei Wu",
-    "Hong Yu"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract Background Although the C-reactive protein-triglyceride-glucose index (CTI) and cholesterol-high-density lipoprotein-glucose index (CHG) have both been implicated in adverse cardiovascular outcomes, their comparative predictive performance for incident heart disease among individuals with cardiovascular-kidney-metabolic (CKM) syndrome stages 0–3 remains to be elucidated. Methods We analyzed 6,740 participants with CKM syndrome stages 0–3 from the China Health and Retirement…",
-    "citations": 0,
-    "doi": "10.1186/s12872-026-06485-2"
-   },
-   "id": "ccbc5637fea03892",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-21T00:00:00Z",
-   "score": 0.3561,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract Background Although the C-reactive protein-triglyceride-glucose index (CTI) and cholesterol-high-density lipoprotein-glucose index (CHG) have both been implicated in adverse cardiovascular outcomes, their comparative predictive performance for incident heart disease among individuals with…",
-   "tags": [],
-   "title": "Associations of C-reactive protein-triglyceride-glucose index and cholesterol-high-density lipoprotein-glucose index with heart disease risk in individuals with cardiovascular-kidney-metabolic syndrome stages 0–3: a cohort study from CHARLS",
-   "url": "https://doi.org/10.1186/s12872-026-06485-2",
-   "venue": "BMC Cardiovascular Disorders"
-  },
-  {
-   "authors": [
-    "Yannis Irid",
-    "Julian Hutin",
-    "Jean-François Toussaint",
-    "Adrien Sedeaud"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "This study investigated multidimensional worst-case scenarios (WCS) in elite youth male and female basketball players. Data were collected from 31 players (male: n = 20; female: n = 11) competing at the French National Institute of Sport across 40 official matches over two consecutive seasons. Player activity was monitored using a 20-Hz Local Positioning System and 100-Hz embedded accelerometers. For each player, match, and time window (10, 30, 60, and 120 s), eight external load variables were…",
-    "citations": 0,
-    "doi": "10.3389/fspor.2026.1895096"
-   },
-   "id": "91340603ea09e94a",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-21T00:00:00Z",
-   "score": 0.3561,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "This study investigated multidimensional worst-case scenarios (WCS) in elite youth male and female basketball players. Data were collected from 31 players (male: n = 20; female: n = 11) competing at the French National Institute of Sport across 40 official matches over two consecutive seasons.…",
-   "tags": [],
-   "title": "Characterizing multidimensional worst-case scenarios in elite youth basketball: effects of time window and playing position",
-   "url": "https://doi.org/10.3389/fspor.2026.1895096",
-   "venue": "Frontiers in Sports and Active Living"
-  },
-  {
-   "authors": [
     "Zhijun Gao",
     "Jing Chen"
    ],
@@ -180,7 +14,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T15:51:54Z",
-   "score": 0.6105,
+   "score": 0.6043,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -209,7 +43,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T14:23:07Z",
-   "score": 0.4535,
+   "score": 0.4474,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -238,7 +72,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T12:17:24Z",
-   "score": 0.5997,
+   "score": 0.5938,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -268,7 +102,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T10:35:00Z",
-   "score": 0.4023,
+   "score": 0.3965,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -294,7 +128,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T09:27:56Z",
-   "score": 0.5916,
+   "score": 0.5858,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -322,7 +156,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T03:54:52Z",
-   "score": 0.3838,
+   "score": 0.3784,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -349,7 +183,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T01:32:06Z",
-   "score": 0.3775,
+   "score": 0.3723,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -381,7 +215,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T19:51:36Z",
-   "score": 0.5958,
+   "score": 0.5909,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -411,7 +245,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T09:22:18Z",
-   "score": 0.3794,
+   "score": 0.3751,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -440,7 +274,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T08:31:09Z",
-   "score": 0.5701,
+   "score": 0.5659,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -468,7 +302,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T02:39:35Z",
-   "score": 0.5582,
+   "score": 0.5542,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -480,8 +314,8 @@
   }
  ],
  "meta": {
-  "count": 17,
-  "generated_at": "2026-08-22T14:35:53Z",
+  "count": 11,
+  "generated_at": "2026-08-22T16:38:09Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -499,7 +333,7 @@
    },
    {
     "category": "optional",
-    "count": 50,
+    "count": 0,
     "error": null,
     "full_text_count": 0,
     "id": "openalex_datavis",
@@ -524,7 +358,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-07-25&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A1050-6519%2Cfrom-created-date%3A2026-07-25&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
@@ -535,7 +369,7 @@
    },
    {
     "category": "optional",
-    "count": 40,
+    "count": 0,
     "error": null,
     "full_text_count": 0,
     "id": "openalex_techcomm",

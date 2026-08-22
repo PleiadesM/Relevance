@@ -1,0 +1,146 @@
+{
+ "meta": {
+  "count": 3,
+  "generated_at": "2026-08-22T16:38:09Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "db8caa681be13da8",
+     "phrase": {
+      "en": "Carney calls tariffs a miscalculation",
+      "zh": "卡尼称关税为误判"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "8f1bb6ae40121ca1",
+     "phrase": {
+      "en": "Talks collapse, tariffs to proceed",
+      "zh": "谈判破裂，关税将实施"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/21/world/canada/trump-tariffs-trade-no-deal-carney-canada.html"
+    },
+    {
+     "item_id": "bfff87ad4f8ffd50",
+     "phrase": {
+      "en": "Carney's gamble faces test",
+      "zh": "卡尼的豪赌面临考验"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c3040pn8lmmo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "e6eb45d79f11817a",
+     "phrase": {
+      "en": "Carney addresses Canadians after collapse",
+      "zh": "卡尼在破裂后向国人讲话"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/22/world/canada/carney-tariffs-trade-trump.html"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Trade talks collapse, tariffs loom, sovereignty at stake.",
+    "zh": "谈判破裂，关税将至，主权攸关。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "US-Canada trade war",
+    "zh": "美加贸易战"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about geopolitics and AI policy: today's breakdown reshapes North American tech supply chains.",
+    "zh": "你关注地缘政治与AI政策，今日破裂重塑北美科技供应链。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "ed1995b2946f1180",
+     "phrase": {
+      "en": "Key skill: instruct and verify",
+      "zh": "关键技能：指导与验证"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/"
+    },
+    {
+     "item_id": "ef3f33deabadc36f",
+     "phrase": {
+      "en": "Docs need to be agent-friendly",
+      "zh": "文档需方便代理"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.20195v1"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "AI agents now read and write code, demanding new skills.",
+    "zh": "AI代理能读写代码，要求新技能。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "coding agents",
+    "zh": "编码代理"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You work with LLMs and HCI: this thread updates how you guide agents.",
+    "zh": "你使用LLM和人机交互，此线索更新你指导代理的方式。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "79d54f54a4ef6d90",
+     "phrase": {
+      "en": "Father leaves son on Fuji",
+      "zh": "父亲将儿子留在富士山"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c93403wg288o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "dc5e33285f562703",
+     "phrase": {
+      "en": "Tired boy left with snacks",
+      "zh": "疲惫男孩留下零食"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/22/man-leaves-young-son-mount-fuji-japan"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "A father abandons his son on a mountain for a hike.",
+    "zh": "父亲为登山将儿子留在山上。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "parenting risks",
+    "zh": "育儿风险"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You think about human factors: this story underscores judgment under fatigue.",
+    "zh": "你思考人为因素，此故事强调疲劳下的判断力。"
+   }
+  }
+ ]
+}

@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "snail racing event OR world snail racing championship",
+  "query": "snail racing championship OR world snail racing",
   "source": {
-   "name": "GTPlanet",
-   "published_at": "2026-08-06T07:00:00Z",
-   "title": "Gran Turismo 7 New Online Time Trials: Double Events, Double Bronze Credits",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNM0xSU2ltY3ItWFMwVFBVZzBCZ1QtTXNxTHhjVTBSbGM1RTVjdUsyUlBnckhFUmZvYTk5WFRWTTZwX3RpZGtlbWpWNzFwSG9IVjUzSlRVcWtFRDduLXlJRWMxWk4tWTBHdzFlTEhqYVlqZ19CZ1dCbF8tdERLM0lWRFU5RFBySVFfNDlnSldOOHZhSEZDX2N3ckczeVFUTmVDbTBuSG5GbE9BbzFH?oc=5"
+   "name": "BBC",
+   "published_at": "2026-07-28T07:00:00Z",
+   "title": "Chester Zoo staff rescue near-extinct snails from remote rock",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5aSEc1eUVZQUJndTdfc0VUNFRVWldpRnJTRy1kQXBEZHJlazhwNTdsTWpsSUFZb0lmVV91eFd5R2UtZm53c2g4em90cng3UlAzVHNMVWk0Qk4wQQ?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "Gran Turismo 7 introduces double online time trial events with increased bronze credits.",
-    "why_irrelevant": "It's a niche gaming detail far from the user's typical interests."
+    "summary": "Staff at Chester Zoo rescued near-extinct snails from a remote rock, aiding their conservation.",
+    "why_irrelevant": "It's about animal conservation, far from gaming, pop culture, or political commentary."
    },
    "zh": {
-    "summary": "Gran Turismo 7 推出双倍在线限时挑战赛，青铜奖励增加。",
-    "why_irrelevant": "这是小众游戏细节，与用户日常关注点无关。"
+    "summary": "切斯特动物园的工作人员从偏远岩石上救助了濒临灭绝的蜗牛。",
+    "why_irrelevant": "涉及动物保护，远离游戏、流行文化或政治评论。"
    }
   },
   "topic": "competitive snail racing"
  },
- "brief": "Today's news spans international trade tensions, a child left on Mount Fuji, and advances in robotics, while research highlights include AI in surgery and human-centered computing.",
+ "brief": "Today's news is dominated by the collapse of Canada-U.S. trade talks and escalating tariffs, with significant human-interest stories also emerging. In research, studies focus on improving human-AI interaction and visualization design.",
  "meta": {
-  "generated_at": "2026-08-22T14:35:53Z"
+  "generated_at": "2026-08-22T16:38:09Z"
  },
- "news_summary": "Key stories include Canada's retaliation against US tariffs, a father abandoning his son on Mount Fuji, a robot surpassing Bolt's record, and a deadly strike on a Myanmar monastery.",
- "papers_summary": "Research features an AI surgical system for nerve identification, a concept inventory for visualization education, and a study on smart home privacy expectations.",
+ "news_summary": "Canada-U.S. trade talks collapse, leading to mutual tariffs, with Prime Minister Mark Carney calling Trump's actions a miscalculation. Other notable stories include a fatal police crash in the UK, a Myanmar monastery strike, and a recall of eye drops in the US.",
+ "papers_summary": "Research papers explore coding agent documentation, visualization education, human-mediated AI guidance, and affective sonification, aiming to enhance human-computer interaction and data representation.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans international trade tensions, a child left on Mount Fuji, and advances in robotics, while research highlights include AI in surgery and human-centered computing.",
-   "news_summary": "Key stories include Canada's retaliation against US tariffs, a father abandoning his son on Mount Fuji, a robot surpassing Bolt's record, and a deadly strike on a Myanmar monastery.",
-   "papers_summary": "Research features an AI surgical system for nerve identification, a concept inventory for visualization education, and a study on smart home privacy expectations."
+   "brief": "Today's news is dominated by the collapse of Canada-U.S. trade talks and escalating tariffs, with significant human-interest stories also emerging. In research, studies focus on improving human-AI interaction and visualization design.",
+   "news_summary": "Canada-U.S. trade talks collapse, leading to mutual tariffs, with Prime Minister Mark Carney calling Trump's actions a miscalculation. Other notable stories include a fatal police crash in the UK, a Myanmar monastery strike, and a recall of eye drops in the US.",
+   "papers_summary": "Research papers explore coding agent documentation, visualization education, human-mediated AI guidance, and affective sonification, aiming to enhance human-computer interaction and data representation."
   },
   "zh": {
-   "brief": "今日新闻聚焦于加拿大与美国贸易战的升级、富士山儿童被弃事件以及人形机器人跑步超越博尔特纪录的科技趣闻；论文方面则涉及可视化设计教学、AI智能家居隐私及编码代理文档研究。",
-   "news_summary": "加拿大总理卡尼在贸易谈判破裂后誓言对美国关税进行对等报复，引发政治与经济冲击；日本一父亲将7岁儿子遗弃在富士山继续登山引发谴责；中国机器人比赛中人形机器人跑步速度超越博尔特纪录，成为科技亮点。",
-   "papers_summary": "研究可视化设计教学的概念清单、智能家居设备隐私期望的实证评估，以及编码代理如何利用技术文档的实证研究，为相关领域提供了新见解。"
+   "brief": "今日重点：美加贸易谈判破裂，加拿大总理卡尼称美国关税是“误判”，并宣布反制措施；同时，多篇关于人机交互、智能文档和编码代理的研究论文发表。",
+   "news_summary": "加拿大与美国的贸易谈判破裂，卡尼总理回应称此举是保护主权，并誓言“对等”回应。此外，还有英国性犯罪者药物抑制、美国眼药水召回等新闻。",
+   "papers_summary": "多篇人机交互研究关注编码代理文档、智能家居隐私、机器人音调对儿童压力的影响等；可视化领域则探讨概念清单、科学可视化和不确定性声化。"
   }
  },
  "todays_image": {
-  "caption": "Just as Hiroshige’s print makes Mount Fuji a distant, indifferent backdrop to travelers, today’s father treats the mountain as his solo goal while his 7-year-old becomes an afterthought.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1951-166-8MattFlynn",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/103995",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1951-166-8MattFlynn",
-  "title": "Yoshiwara. Hidari Fuji (Yoshiwara with Mount Fuji), from Tokaido Gojusan Tsugi-na Uchi (Fifty-Three Stations on the Tokaido)"
+  "caption": "Like the Wurttemberg postal chart once set rates for every letter, today's trade war sets tariffs on every good, redrawing borders through price lists.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-0_310642_10",
+  "source_name": "National Postal Museum",
+  "source_url": "https://postalmuseum.si.edu/object/npm_0.310642.10",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-0_310642_10",
+  "title": "Wurttemberg postal tariff table rate chart"
  }
 }
