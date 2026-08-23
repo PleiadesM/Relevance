@@ -1,293 +1,214 @@
 {
  "meta": {
   "count": 4,
-  "generated_at": "2026-08-23T14:36:27Z",
+  "generated_at": "2026-08-23T16:40:55Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "dff02ee5b0db2008",
+     "item_id": "5e5f5ce6f0d6a442",
      "phrase": {
-      "en": "Canada suspends talks, tariffs trigger",
-      "zh": "加拿大暂停谈判，关税触发"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/23/world/canada/canada-us-trade-war-trump-carney.html"
-    },
-    {
-     "item_id": "2d08fb47d155d908",
-     "phrase": {
-      "en": "US details rejected offer",
-      "zh": "美方详述被拒提案"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/22/business/economy/greer-us-canada-trade-deal.html"
-    },
-    {
-     "item_id": "db8caa681be13da8",
-     "phrase": {
-      "en": "Trump says Canada wants benefits",
-      "zh": "特朗普称加拿大想要好处"
+      "en": "Fedorov questions Zelensky's awareness",
+      "zh": "费多罗夫质疑泽连斯基知情"
      },
      "section": "news",
      "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/cwy4ypzvd7po?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "11a1f285bb57ffaa",
+     "item_id": "0127419f9ae91411",
      "phrase": {
-      "en": "odd items face tariffs",
-      "zh": "奇怪商品面临关税"
+      "en": "Russia withdraws ambassador",
+      "zh": "俄罗斯撤回大使"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/23/world/canada/canadian-goods-trump-tariffs-items-list.html"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/23/russia-withdraws-ambassador-uk-kremlin-pressure-ukraine-andrey-kelin"
+    },
+    {
+     "item_id": "6b204664e713a206",
+     "phrase": {
+      "en": "Zelensky rejects wartime elections",
+      "zh": "泽连斯基拒绝战时选举"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/23/ukraine-election-wartime-risk-russia-zelenskyy"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "US and Canada clash over tariffs, with details and strange items in the fray.",
-    "zh": "美加因关税起冲突，细节与奇怪商品卷入其中。"
+    "en": "Ukraine's wartime leadership and elections stir global tension.",
+    "zh": "乌克兰战时领导与选举引发全球紧张。"
    },
    "id": "t1",
    "keyword": {
-    "en": "trade war",
-    "zh": "贸易战"
+    "en": "Ukraine war politics",
+    "zh": "乌克兰战争政治"
    },
    "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-08-23",
-     "item_id": "dff02ee5b0db2008",
-     "label": {
-      "en": "talks collapse",
-      "zh": "谈判破裂"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/23/world/canada/canada-us-trade-war-trump-carney.html"
-    },
-    {
-     "date": "2026-08-23",
-     "item_id": "2d08fb47d155d908",
-     "label": {
-      "en": "US offer detailed",
-      "zh": "美方提案细节"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/22/business/economy/greer-us-canada-trade-deal.html"
-    },
-    {
-     "date": "2026-08-23",
-     "item_id": "db8caa681be13da8",
-     "label": {
-      "en": "retaliation set",
-      "zh": "报复性关税"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss"
-    }
-   ],
    "why_now": {
-    "en": "You track policy shifts: today's tariff escalation and negotiations directly affect markets and tech supply chains.",
-    "zh": "你关注政策变化，今日关税升级和谈判直接影响市场与科技供应链。"
+    "en": "You follow geopolitics; today's statements and withdrawals reshape the conflict.",
+    "zh": "你关注地缘政治，今日声明与撤使重塑冲突。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "5e5f5ce6f0d6a442",
+     "item_id": "9a1f9e0ab410e674",
      "phrase": {
-      "en": "Fedorov calls for elections",
-      "zh": "费多罗夫呼吁选举"
+      "en": "Tropical storm Moke hits Hawaii",
+      "zh": "热带风暴莫克袭击夏威夷"
      },
      "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cwy4ypzvd7po?at_medium=RSS&at_campaign=rss"
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/23/nx-s1-5941769/tropical-storm-moke-hawaii"
     },
     {
-     "item_id": "6b204664e713a206",
+     "item_id": "d5a89fbe2f3c6a08",
      "phrase": {
-      "en": "elections could split nation",
-      "zh": "选举或分裂国家"
+      "en": "French fires traced to 1857",
+      "zh": "法国火灾追溯至1857年"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/23/ukraine-election-wartime-risk-russia-zelenskyy"
+     "url": "https://www.theguardian.com/world/2026/aug/23/french-fires-150-years-in-the-making-visual-guide"
+    },
+    {
+     "item_id": "ef607a2c1dbafd6a",
+     "phrase": {
+      "en": "Western forests turn shrubland",
+      "zh": "西部森林变灌木地"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/23/climate/wildfire-forest-loss-california-southwest.html"
+    },
+    {
+     "item_id": "932d95dd27fc9bf2",
+     "phrase": {
+      "en": "Indiana still without power",
+      "zh": "印第安纳州仍断电"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/clyly8vdpdwo?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "convergence": "divergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "Zelenskyy rejects elections during war, while a sacked minister calls for them.",
-    "zh": "泽连斯基拒绝战时选举，被解职部长呼吁举行。"
+    "en": "Storms and wildfires batter communities, revealing climate stress.",
+    "zh": "风暴与野火侵袭社区，揭示气候压力。"
    },
    "id": "t2",
    "keyword": {
-    "en": "Ukraine wartime elections",
-    "zh": "乌克兰战时选举"
+    "en": "weather extremes",
+    "zh": "极端天气"
    },
-   "relates_to": [
-    "t3"
-   ],
-   "timeline": [
-    {
-     "date": "2026-08-23",
-     "item_id": "5e5f5ce6f0d6a442",
-     "label": {
-      "en": "sacked minister urges polls",
-      "zh": "被解职部长促选"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cwy4ypzvd7po?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "date": "2026-08-23",
-     "item_id": "6b204664e713a206",
-     "label": {
-      "en": "Zelenskyy warns of risk",
-      "zh": "泽连斯基警告风险"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/23/ukraine-election-wartime-risk-russia-zelenskyy"
-    }
-   ],
+   "relates_to": [],
    "why_now": {
-    "en": "You analyze political rhetoric: this clash sharpens the stakes of wartime governance and international support.",
-    "zh": "你分析政治话语，这一冲突凸显战时治理与国际支持的利害关系。"
+    "en": "You're interested in climate data; today's reports show ongoing impacts.",
+    "zh": "你关注气候数据，今日报道显示持续影响。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "d5a89fbe2f3c6a08",
+     "item_id": "ef3f33deabadc36f",
      "phrase": {
-      "en": "fires 170 years in making",
-      "zh": "火灾酝酿170年"
+      "en": "coding agents need docs",
+      "zh": "编程代理需要文档"
      },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/23/french-fires-150-years-in-the-making-visual-guide"
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.20195v1"
     },
     {
-     "item_id": "ef607a2c1dbafd6a",
+     "item_id": "18f1a63eb69938ab",
      "phrase": {
-      "en": "forests replaced by shrubs",
-      "zh": "森林被灌木取代"
+      "en": "smart home privacy expectations",
+      "zh": "智能家居隐私期望"
      },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/23/climate/wildfire-forest-loss-california-southwest.html"
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.19873v1"
+    },
+    {
+     "item_id": "9a5978e7a0cb6552",
+     "phrase": {
+      "en": "robot voice pitch affects kids",
+      "zh": "机器人音调影响儿童"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.19826v1"
+    },
+    {
+     "item_id": "aba75f6cc79d9d0a",
+     "phrase": {
+      "en": "sonification conveys uncertainty",
+      "zh": "声音化传达不确定性"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.18680v1"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "Wildfires transform forests into shrubland, with a visual guide to long-brewing fires.",
-    "zh": "山火将森林变为灌木地，长酿火灾有视觉指南。"
+    "en": "AI and data tools raise new questions in homes and schools.",
+    "zh": "AI与数据工具在家庭和学校引发新问题。"
    },
    "id": "t3",
    "keyword": {
-    "en": "climate wildfires",
-    "zh": "气候山火"
+    "en": "tech in society",
+    "zh": "科技与社会"
    },
    "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-08-23",
-     "item_id": "d5a89fbe2f3c6a08",
-     "label": {
-      "en": "fires now raging",
-      "zh": "火灾肆虐"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/23/french-fires-150-years-in-the-making-visual-guide"
-    },
-    {
-     "date": "2026-08-23",
-     "item_id": "ef607a2c1dbafd6a",
-     "label": {
-      "en": "forests become shrubland",
-      "zh": "森林变灌木地"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/23/climate/wildfire-forest-loss-california-southwest.html"
-    }
-   ],
    "why_now": {
-    "en": "You value data visualization: the visual guide and forest change maps show climate impacts in compelling ways.",
-    "zh": "你重视数据可视化，视觉指南和森林变化图生动呈现气候影响。"
+    "en": "Your interest in HCI and critical visualization: these studies probe trust and design.",
+    "zh": "你关注人机交互与批判可视化，这些研究探讨信任与设计。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "ef3f33deabadc36f",
+     "item_id": "c0dbb2af645e0cdc",
      "phrase": {
-      "en": "docs for coding agents",
-      "zh": "为编码代理写文档"
+      "en": "unions fight for clean jobs",
+      "zh": "工会争取清洁岗位"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.20195v1"
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/23/wind-energy-unions-trump"
     },
     {
-     "item_id": "a5218bfdf22069f9",
+     "item_id": "b2c15fcab7818925",
      "phrase": {
-      "en": "what visualization students learn",
-      "zh": "可视化学生学什么"
+      "en": "AI development affects pollution",
+      "zh": "AI发展影响污染"
      },
      "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.20090v1"
+     "source": "OpenAlex · information visualization",
+     "url": "https://doi.org/10.1007/s43621-026-04420-1"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Coding agents read documentation, and visualization instructors rethink what to teach.",
-    "zh": "编码代理阅读文档，可视化教师反思教学内容。"
+    "en": "Green jobs and pollution shift with technology and policy.",
+    "zh": "绿色就业与污染随技术和政策变化。"
    },
    "id": "t4",
    "keyword": {
-    "en": "AI and documentation",
-    "zh": "AI与文档"
+    "en": "energy and environment",
+    "zh": "能源与环境"
    },
    "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-08-20",
-     "item_id": "ef3f33deabadc36f",
-     "label": {
-      "en": "agent docs study",
-      "zh": "代理文档研究"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.20195v1"
-    },
-    {
-     "date": "2026-08-20",
-     "item_id": "a5218bfdf22069f9",
-     "label": {
-      "en": "instructors' concept inventory",
-      "zh": "教学设计清单"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.20090v1"
-    }
-   ],
    "why_now": {
-    "en": "You research HCI and technical communication: new studies reveal how AI changes human-document interaction and education.",
-    "zh": "你研究人机交互与技术传播，新研究揭示AI如何改变人与文档的互动及教育。"
+    "en": "Your interest in AI and environment: AI's impact on pollution is quantified today.",
+    "zh": "你关注AI与环境，今日量化AI对污染的影响。"
    }
   }
  ]
