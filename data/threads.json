@@ -1,0 +1,146 @@
+{
+ "meta": {
+  "count": 3,
+  "generated_at": "2026-08-23T13:00:04Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "5e5f5ce6f0d6a442",
+     "phrase": {
+      "en": "former minister demands elections",
+      "zh": "前部长要求选举"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cwy4ypzvd7po?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "6b204664e713a206",
+     "phrase": {
+      "en": "Zelenskyy rejects as tsunami",
+      "zh": "泽连斯基斥为海啸"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/23/ukraine-election-wartime-risk-russia-zelenskyy"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Ukraine's leader and a sacked minister clash over voting amid war.",
+    "zh": "乌克兰领导人与被解职部长就战时投票发生冲突。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "wartime elections",
+    "zh": "战时选举"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow political rhetoric: today two voices openly split Ukraine's direction.",
+    "zh": "你关注政治话语，今日两方公开分裂乌克兰方向。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "2d08fb47d155d908",
+     "phrase": {
+      "en": "US details rejected offer",
+      "zh": "美方详述被拒提议"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/22/business/economy/greer-us-canada-trade-deal.html"
+    },
+    {
+     "item_id": "dff02ee5b0db2008",
+     "phrase": {
+      "en": "tariffs and dollar-for-dollar retaliation",
+      "zh": "关税与对等报复"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/23/world/canada/canada-us-trade-war-trump-carney.html"
+    },
+    {
+     "item_id": "db8caa681be13da8",
+     "phrase": {
+      "en": "Trump mocks Canada's state benefits",
+      "zh": "特朗普嘲讽加拿大州好处"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "11a1f285bb57ffaa",
+     "phrase": {
+      "en": "strange items hit by tariffs",
+      "zh": "奇怪商品遭关税"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/23/world/canada/canadian-goods-trump-tariffs-items-list.html"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Washington and Ottawa trade blows over tariffs and talks collapse.",
+    "zh": "华盛顿与渥太华因关税和谈判破裂互相打击。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "US-Canada trade war",
+    "zh": "美加贸易战"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track economic policy: today's 50% tariffs shift the North American landscape.",
+    "zh": "你关注经济政策，今日50%关税改变北美格局。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "d5a89fbe2f3c6a08",
+     "phrase": {
+      "en": "French fires from 1857 decree",
+      "zh": "法国火灾源于1857年法令"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/23/french-fires-150-years-in-the-making-visual-guide"
+    },
+    {
+     "item_id": "ef607a2c1dbafd6a",
+     "phrase": {
+      "en": "forests become shrubland",
+      "zh": "森林变灌木丛"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/23/climate/wildfire-forest-loss-california-southwest.html"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Heat and dryness turn forests into shrubland, fueling infernos.",
+    "zh": "高温干燥使森林变灌木丛，助长烈火。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "climate and fire",
+    "zh": "气候与火灾"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow environmental change: today's reports show irreversible shifts in the West and Europe.",
+    "zh": "你关注环境变化，今日报道显示西部与欧洲不可逆转变。"
+   }
+  }
+ ]
+}

@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "query": "(\"sheep shearing competition\" OR \"golden shears\")",
   "source": {
-   "name": "nintendoeverything.com",
-   "published_at": "2026-08-21T01:45:00Z",
-   "title": "Dragon Quest Monsters : The Withered World details Thespidor , King Withers , and Scruffy , Taiboku and Lushland , Waterwing Can",
-   "url": "https://nintendoeverything.com/dragon-quest-monsters-the-withered-world-details-thespidor-king-withers-and-scruffy-taiboku-and-lushland-waterwing-can/"
+   "name": "nzherald.co.nz",
+   "published_at": "2026-08-18T01:15:00Z",
+   "title": "Laurie Keats dies at 92 after lifetime devoted to Golden Shears",
+   "url": "https://www.nzherald.co.nz/the-country/news/laurie-keats-dies-at-92-after-lifetime-devoted-to-golden-shears/J7CB5TDOKRBT7FDKQGWEDYJOQU/"
   },
   "summaries": {
    "en": {
-    "summary": "Dragon Quest Monsters: The Withered World reveals new details about characters and locations in a game preview.",
-    "why_irrelevant": "It's a niche gaming news item, far from typical personal dashboard topics."
+    "summary": "Laurie Keats, the man who founded New Zealand's Golden Shears shearing contest, passed away at 92, leaving a legacy in the niche sport.",
+    "why_irrelevant": "It is a niche rural sport story, far from mainstream global affairs."
    },
    "zh": {
-    "summary": "《勇者斗恶龙怪兽篇：枯萎世界》公布了新角色和地点细节的游戏预览。",
-    "why_irrelevant": "这是小众游戏新闻，远离常规个人仪表板主题。"
+    "summary": "创办新西兰金剪羊毛赛的劳里·基茨去世，享年92岁，为这项小众运动留下遗产。",
+    "why_irrelevant": "这是小众乡村运动新闻，远离主流全球话题。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "competitive sheep shearing championships"
  },
- "brief": "Coordinated arson in Thailand, US-Canada trade tensions, and political maneuvering dominate today's news, while robotics and AI research highlight advances in human-robot interaction and environmental monitoring.",
+ "brief": "Today's news spans geopolitical tensions, environmental crises, and technological showcases, while research highlights human-robot interaction and data visualization.",
  "meta": {
-  "generated_at": "2026-08-23T10:37:22Z"
+  "generated_at": "2026-08-23T13:00:04Z"
  },
- "news_summary": "Dozens of arson attacks in southern Thailand raise unrest concerns; US-Canada trade war escalates with new tariffs; Artemis II crew honored; midterms heat up with tech and data center backlash.",
- "papers_summary": "Research covers UAV-based crop monitoring, AI's environmental impact, and human-robot interaction, including a study on robot voice pitch and children's stress, plus coding agent documentation behaviors.",
+ "news_summary": "Major stories include Ukraine's wartime election debate, US-Canada trade war escalation, Iran's sanctions warnings to Gulf states, and Hawaii's flooding from Tropical Storm Moke, alongside lighter items like robot athletes and a medieval manuscript discovery.",
+ "papers_summary": "Research covers AI's environmental impact, urea adsorption materials, and several human-computer interaction studies on documentation, visualization education, and robot voice pitch effects on children.",
  "summaries": {
   "en": {
-   "brief": "Coordinated arson in Thailand, US-Canada trade tensions, and political maneuvering dominate today's news, while robotics and AI research highlight advances in human-robot interaction and environmental monitoring.",
-   "news_summary": "Dozens of arson attacks in southern Thailand raise unrest concerns; US-Canada trade war escalates with new tariffs; Artemis II crew honored; midterms heat up with tech and data center backlash.",
-   "papers_summary": "Research covers UAV-based crop monitoring, AI's environmental impact, and human-robot interaction, including a study on robot voice pitch and children's stress, plus coding agent documentation behaviors."
+   "brief": "Today's news spans geopolitical tensions, environmental crises, and technological showcases, while research highlights human-robot interaction and data visualization.",
+   "news_summary": "Major stories include Ukraine's wartime election debate, US-Canada trade war escalation, Iran's sanctions warnings to Gulf states, and Hawaii's flooding from Tropical Storm Moke, alongside lighter items like robot athletes and a medieval manuscript discovery.",
+   "papers_summary": "Research covers AI's environmental impact, urea adsorption materials, and several human-computer interaction studies on documentation, visualization education, and robot voice pitch effects on children."
   },
   "zh": {
-   "brief": "今日焦点包括中国机器人打破百米短跑世界纪录，以及关于睡眠和冒险心理学的报道；同时泰国发生协同纵火袭击，美加贸易战升级。",
-   "news_summary": "中国机器人“天工Ultra”在北京世界人形机器人运动会上以9.39秒跑完100米，刷新世界纪录。此外，文章探讨了如何自然起床和人们在金钱决策上的心理倾向。",
-   "papers_summary": "今日论文涉及无人机多光谱玉米数据集、人工智能与环境污染的关系，以及关于编码代理文档、可视化教学和人机交互的多项研究。"
+   "brief": "今日焦点涵盖美加贸易谈判破裂与加拿大总理卡尼面临的政治考验，以及中国机器人打破百米世界纪录、伊朗警告海湾国家等国际动态；科研成果聚焦AI与空气质量、儿童压力及智能家居隐私等主题。",
+   "news_summary": "美加贸易协议谈判破裂引发全球关注，加拿大总理卡尼面临信任危机；中国天工Ultra机器人以9.39秒打破百米世界纪录，成为科技亮点。",
+   "papers_summary": "新研究探讨AI发展对环境的影响、儿童与机器人互动时的压力反应，以及智能家居设备隐私期望的满足情况。"
   }
  },
  "todays_image": {
-  "caption": "While Robonaut 1A is designed to handle spacecraft fires, southern Thailand's coordinated arson attacks bring a fiery chaos of a very different kind.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2025-00372",
-  "source_name": "National Air and Space Museum",
-  "source_url": "http://n2t.net/ark:/65665/nv9971fdc5a-43bf-46ca-9b7a-bd8680991e22",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2025-00372",
-  "title": "Robonaut 1A"
+  "caption": "Thorpe’s stripped medals for rule-breaking echo the demand for Zelensky to answer for corruption, as both hinge on accountability for what was known.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPG-S_NPG_80_62_inex",
+  "source_name": "National Portrait Gallery",
+  "source_url": "https://npg.si.edu/object/npg_S_NPG.80.62",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPG-S_NPG_80_62_inex",
+  "title": "Jim Thorpe"
  }
 }
