@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "query": "barcode history OR first barcode scanned",
   "source": {
-   "name": "163.com",
-   "published_at": "2026-08-21T04:30:00Z",
-   "title": "大棚铺锦 沃野藏欢 孝义市临水村智慧农业观光园暑期人气旺",
-   "url": "https://www.163.com/dy/article/L4RRS5QV05149E7M.html"
+   "name": "MakeUseOf",
+   "published_at": "2026-08-21T15:00:13Z",
+   "title": "The QR code conquered the world because its inventor chose not to cash in",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcV94YUJnYmw3dkh5dkEtUWhTUnRLbElYMmVEVG90RTFzdUluQ19UcEhXaC1Pbk1INVotbzliNWhGNE5iUXYxdDB5ejJXQlM5dG0wTnpqSHlXVkFSeEl4VTlFa3JLc253QU1sRURYR1RONldFQkV4WFBId1FrMWIzVzc3T0RmVHU2Q2JQXzRBYWE2THNjMTlyaF90WXFFMXJNNWc?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A smart agriculture sightseeing park in Xiaoyi City attracts summer visitors.",
-    "why_irrelevant": "It's a local Chinese agri-tourism story, far from global tech or politics."
+    "summary": "The QR code conquered the world because its inventor chose not to cash in.",
+    "why_irrelevant": "A feel-good tech history nugget, far from your data-heavy feeds."
    },
    "zh": {
-    "summary": "孝义市临水村智慧农业观光园暑期人气旺。",
-    "why_irrelevant": "本地农旅新闻，远离全球科技或政治话题。"
+    "summary": "二维码风靡全球，因为其发明者选择不从中获利。",
+    "why_irrelevant": "一则温馨的科技史趣闻，与你的数据密集型信息流相去甚远。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "the history of the humble barcode"
  },
- "brief": "Today's news spans from local community aid for musicians in Austin to international trade tensions, cyber attacks, and a new world record in half marathon running. Research highlights innovations in visualization, human-AI interaction, and environmental monitoring, suggesting a focus on resilience and adaptation.",
+ "brief": "Today's news is dominated by a fast-moving wildfire near Reno forcing thousands to evacuate, alongside international headlines on a Guinea landfill collapse and French drowning spike linked to heatwaves. In research, studies explore AI's environmental impact, coding agent documentation, and visualization education.",
  "meta": {
-  "generated_at": "2026-08-23T16:40:55Z"
+  "generated_at": "2026-08-23T18:46:19Z"
  },
- "news_summary": "News covers diverse topics: community support in Austin, U.S.-Canada trade impacts, power outages in Indiana, legal trials, political meetings, health tech concerns, and international incidents like cyber attacks and trade wars.",
- "papers_summary": "Research spans visualization education, AI guidance for emergencies, smart home privacy, robot interactions with children, and environmental monitoring via UAV-based multispectral imaging.",
+ "news_summary": "The Hawk fire near Reno expands to over 10,000 acres, prompting evacuations of 14,000 homes and a state of emergency; Guinea reels from a landfill collapse killing 30; France reports a heatwave-linked rise in drownings.",
+ "papers_summary": "Papers cover a UAV multispectral maize dataset for water stress detection, a nonlinear relationship between AI development and environmental pollution, and human-computer interaction studies on coding agents, documentation, and smart home privacy.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans from local community aid for musicians in Austin to international trade tensions, cyber attacks, and a new world record in half marathon running. Research highlights innovations in visualization, human-AI interaction, and environmental monitoring, suggesting a focus on resilience and adaptation.",
-   "news_summary": "News covers diverse topics: community support in Austin, U.S.-Canada trade impacts, power outages in Indiana, legal trials, political meetings, health tech concerns, and international incidents like cyber attacks and trade wars.",
-   "papers_summary": "Research spans visualization education, AI guidance for emergencies, smart home privacy, robot interactions with children, and environmental monitoring via UAV-based multispectral imaging."
+   "brief": "Today's news is dominated by a fast-moving wildfire near Reno forcing thousands to evacuate, alongside international headlines on a Guinea landfill collapse and French drowning spike linked to heatwaves. In research, studies explore AI's environmental impact, coding agent documentation, and visualization education.",
+   "news_summary": "The Hawk fire near Reno expands to over 10,000 acres, prompting evacuations of 14,000 homes and a state of emergency; Guinea reels from a landfill collapse killing 30; France reports a heatwave-linked rise in drownings.",
+   "papers_summary": "Papers cover a UAV multispectral maize dataset for water stress detection, a nonlinear relationship between AI development and environmental pollution, and human-computer interaction studies on coding agents, documentation, and smart home privacy."
   },
   "zh": {
-   "brief": "今日焦点包括泰南连环纵火、美加贸易谈判破裂，以及中国机器人打破百米纪录；科研方面则关注AI发展与环境关系及智能家居隐私。",
-   "news_summary": "泰南50多起纵火被军方指为有组织破坏；美加贸易协议谈判破裂，加拿大总理卡尼面临考验；中国机器人以9.39秒打破百米纪录。",
-   "papers_summary": "研究揭示AI发展与环境污染呈现多阶段非线性关系，并探讨了智能家居设备隐私期望对用户信任的影响。"
+   "brief": "今日焦点包括泰国南部连环纵火引发动荡担忧、美加贸易谈判破裂以及中国机器人打破百米纪录；研究方面关注AI发展与环境污染的关系及智能家居隐私问题。",
+   "news_summary": "泰国南部一夜50多起纵火，军方称系有组织捣乱；美加贸易谈判破裂，加拿大总理卡尼面临考验；中国机器人以9.39秒刷新百米世界纪录。",
+   "papers_summary": "研究揭示了AI发展与环境污染之间的非线性关系，并探讨了智能家居设备隐私期望的符合度对用户信任的影响。"
   }
  },
  "todays_image": {
-  "caption": "Just as \"No. 4\" turns chaotic splatters into art, these nonprofits turn scattered gigs into a safety net for uninsured musicians.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-20C1AEAA818E2-000001",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/144532",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-20C1AEAA818E2-000001",
-  "title": "No. 4"
+  "caption": "Dry, fast-spreading Cynodon nlemfuensis is the kind of flammable grass that could turn a small spark into a fast-moving wildfire, forcing evacuations like those in Reno today.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3ddf4c144974e44ad8b92a76cd3e56fb5",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/32b655a26-a837-4b99-bf5c-983d0da6e812",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3ddf4c144974e44ad8b92a76cd3e56fb5/90",
+  "title": "Cynodon nlemfuensis Vanderyst"
  }
 }
