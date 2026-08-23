@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "snail racing championship OR world snail racing",
+  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
   "source": {
-   "name": "BBC",
-   "published_at": "2026-07-28T07:00:00Z",
-   "title": "Chester Zoo staff rescue near-extinct snails from remote rock",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5aSEc1eUVZQUJndTdfc0VUNFRVWldpRnJTRy1kQXBEZHJlazhwNTdsTWpsSUFZb0lmVV91eFd5R2UtZm53c2g4em90cng3UlAzVHNMVWk0Qk4wQQ?oc=5"
+   "name": "WDRB",
+   "published_at": "2026-08-22T22:21:00Z",
+   "title": "New Kentucky State Fair record set in annual giant pumpkin contest",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNcDN3Z0lWVmtxOE9jTjZQSXAtNmFNTHpnMGhyMTRJcGtlRmwyaWt0Qk11YlE1QW5ueVJYSEF1ckVZUEpZTEpVUFVyOUpaX05ObkVvQURnVy1GNVZEUjktZENONF9yVWZUbzdiZFJubzRHRFZMeWl4MG8yMkJaaFF6Zzl5aUFkOG9fbzRwSkhVWE9NMTY3U2dBYlZQMFJvMjBRaXNBaFZvNTVsS2NYN3M3aVJ1djB0d1hraXJjbk9ZTWtqTWk1UDhhQ2xMeUZPT2xvQmgwM2I3OTFVQQ?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "Chester Zoo staff rescued near-extinct snails from a remote rock, marking a conservation milestone.",
-    "why_irrelevant": "Off-profile due to niche conservation news far from typical tech and gaming feeds."
+    "summary": "A new Kentucky State Fair record was set in the annual giant pumpkin contest.",
+    "why_irrelevant": "This is a niche agricultural event far from typical tech or news feeds."
    },
    "zh": {
-    "summary": "切斯特动物园工作人员从偏远岩石上拯救了濒临灭绝的蜗牛，标志着保护工作的里程碑。",
-    "why_irrelevant": "与常规科技和游戏信息流相距甚远，属于小众生态保护新闻。"
+    "summary": "肯塔基州博览会在年度巨型南瓜比赛中创下了新纪录。",
+    "why_irrelevant": "这是一个小众的农业活动，远离典型的科技或新闻信息流。"
    }
   },
-  "topic": "competitive snail racing"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news covers a mix of Australian and global stories, from a Sydney Marathon medal error to US-Canada trade tensions and environmental warnings, while papers focus on AI in surgery, visualization education, and human-AI interaction.",
+ "brief": "Today's news spans a tragic police crash in the UK, storm warnings in Hawaii, political tensions in Australia, and a legal blow to Trump's visa ban, while research explores AI in surgery, visualization education, and smart home privacy.",
  "meta": {
-  "generated_at": "2026-08-23T03:13:20Z"
+  "generated_at": "2026-08-23T04:50:39Z"
  },
- "news_summary": "Australian stories include a marathon medal depicting the wrong stadium, a fatal bird flu case, and a medieval barn threat, alongside global items on Hawaii storms, US-Canada trade fallout, and a Swedish attack victim.",
- "papers_summary": "Papers highlight an AI surgical recognition system, a concept inventory for visualization design, and studies on human-AI interaction in smart homes and robot pitch effects on children.",
+ "news_summary": "The day's headlines feature the naming of two police officers killed in a North Yorkshire crash, Tropical Storm Moke threatening Hawaii, Australian political disputes over judiciary and migration, a US judge ruling Trump's visa ban illegal, and a Swedish sword attack victim identified.",
+ "papers_summary": "Research highlights include an AI-based surgical system for nerve identification, a study on how coding agents use documentation, and insights into visualization design education, alongside privacy expectations for smart home devices.",
  "summaries": {
   "en": {
-   "brief": "Today's news covers a mix of Australian and global stories, from a Sydney Marathon medal error to US-Canada trade tensions and environmental warnings, while papers focus on AI in surgery, visualization education, and human-AI interaction.",
-   "news_summary": "Australian stories include a marathon medal depicting the wrong stadium, a fatal bird flu case, and a medieval barn threat, alongside global items on Hawaii storms, US-Canada trade fallout, and a Swedish attack victim.",
-   "papers_summary": "Papers highlight an AI surgical recognition system, a concept inventory for visualization design, and studies on human-AI interaction in smart homes and robot pitch effects on children."
+   "brief": "Today's news spans a tragic police crash in the UK, storm warnings in Hawaii, political tensions in Australia, and a legal blow to Trump's visa ban, while research explores AI in surgery, visualization education, and smart home privacy.",
+   "news_summary": "The day's headlines feature the naming of two police officers killed in a North Yorkshire crash, Tropical Storm Moke threatening Hawaii, Australian political disputes over judiciary and migration, a US judge ruling Trump's visa ban illegal, and a Swedish sword attack victim identified.",
+   "papers_summary": "Research highlights include an AI-based surgical system for nerve identification, a study on how coding agents use documentation, and insights into visualization design education, alongside privacy expectations for smart home devices."
   },
   "zh": {
-   "brief": "今日焦点包括加拿大总理卡尼因美国关税谈判破裂而誓言报复，以及悉尼马拉松奖牌错印慕尼黑体育场等国际新闻；研究方面涉及AI辅助编程与可视化教育。",
-   "news_summary": "国际新闻涵盖加拿大贸易争端、澳大利亚悉尼马拉松奖牌错误、美国法官裁定签证禁令非法等；此外，英国、美国等地有地方性事件如风暴、停电等。",
-   "papers_summary": "研究论文涉及AI在手术识别、编程文档辅助、可视化教学及智能家居隐私等方面的应用，展现了AI与人类互动的多个维度。"
+   "brief": "今日新闻聚焦于风险决策心理、英国警察遇难、澳洲马拉松奖牌错误等；研究方面涉及AI手术识别、可视化教学等。",
+   "news_summary": "BBC中文探讨英国人对金钱风险的态度；国际新闻包括英国警察车祸遇难、悉尼马拉松奖牌错误、特朗普签证禁令被裁定非法等。",
+   "papers_summary": "研究涵盖AI手术识别系统、可视化设计教学、智能家居隐私、机器人语音对儿童压力影响等。"
   }
  },
  "todays_image": {
-  "caption": "Just as Sorbus sp. is commonly mistaken for an ash, the Sydney Marathon medal mistakenly showcased Munich's stadium.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3cb6dd5ca2a8b4a4cbdc883be8c68e63a",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/38ee9d0da-eaa0-4b45-8e9f-50cd30f5669e",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3cb6dd5ca2a8b4a4cbdc883be8c68e63a/90",
-  "title": "Sorbus sp."
+  "caption": "A medieval street’s cobblestones and a modern crash in North Yorkshire both prove that old roads keep the memory of those who travel them.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1948-47-30MattFlynn",
+  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/98815",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1948-47-30MattFlynn",
+  "title": "Street Scene with Medieval Houses"
  }
 }
