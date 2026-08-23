@@ -1,164 +1,135 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-08-23T18:46:19Z",
+  "count": 3,
+  "generated_at": "2026-08-23T20:36:54Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "5e5f5ce6f0d6a442",
+     "item_id": "db8caa681be13da8",
      "phrase": {
-      "en": "Sacked minister calls for elections",
-      "zh": "被解职部长呼吁选举"
+      "en": "Trump demands state benefits",
+      "zh": "特朗普索取州好处"
      },
      "section": "news",
      "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cwy4ypzvd7po?at_medium=RSS&at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "6b204664e713a206",
+     "item_id": "2fd8bd9372a3b876",
      "phrase": {
-      "en": "Zelenskyy says elections would split nation",
-      "zh": "泽连斯基称选举将分裂国家"
+      "en": "Carney vows dollar-for-dollar",
+      "zh": "卡尼誓言对等报复"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/23/ukraine-election-wartime-risk-russia-zelenskyy"
-    }
-   ],
-   "convergence": "divergent",
-   "gloss": {
-    "en": "Leaders clash over voting during war.",
-    "zh": "领导人对战时投票意见分歧。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "Ukraine war elections",
-    "zh": "乌克兰战时选举"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow geopolitics; today Zelenskyy rejects wartime elections.",
-    "zh": "关注地缘政治，今日泽连斯基反对战时选举。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "8aebad1ed0f9d486",
-     "phrase": {
-      "en": "Reno fire forces evacuations",
-      "zh": "雷诺火灾引发疏散"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/aug/23/wildfire-reno-nevada-hawk-fire"
+     "url": "https://www.theguardian.com/us-news/2026/aug/23/donald-trump-lashes-out-after-us-canada-talks-devolve-into-trade-war"
     },
     {
-     "item_id": "44cf36f46c7c3701",
+     "item_id": "dff02ee5b0db2008",
      "phrase": {
-      "en": "Hawk fire prompts state of emergency",
-      "zh": "霍克火引发紧急状态"
+      "en": "tariffs and negotiation breakdown",
+      "zh": "关税与谈判破裂"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/23/us/hawk-fire-reno-evacuations.html"
+     "url": "https://www.nytimes.com/2026/08/23/world/canada/canada-us-trade-war-trump-carney.html"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Flames force thousands from homes.",
-    "zh": "烈焰迫使数千人离家。"
+    "en": "US-Canada talks collapse into tariffs and retaliation.",
+    "zh": "美加谈判破裂，互征关税。"
    },
-   "id": "t2",
+   "id": "t1",
    "keyword": {
-    "en": "wildfire evacuation",
-    "zh": "野火疏散"
+    "en": "trade war escalation",
+    "zh": "贸易战升级"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about climate impacts; Reno fire escalates.",
-    "zh": "关注气候影响，雷诺火灾升级。"
+    "en": "You follow geopolitics: today's tariff clash reshapes North American trade.",
+    "zh": "你关注地缘政治，今日关税冲突重塑北美贸易。"
    }
   },
   {
    "angles": [
-    {
-     "item_id": "b2c15fcab7818925",
-     "phrase": {
-      "en": "AI development affects pollution",
-      "zh": "AI发展影响污染"
-     },
-     "section": "papers",
-     "source": "OpenAlex · information visualization",
-     "url": "https://doi.org/10.1007/s43621-026-04420-1"
-    },
-    {
-     "item_id": "d5a89fbe2f3c6a08",
-     "phrase": {
-      "en": "Monoculture and climate fuel fires",
-      "zh": "单一栽培与气候助燃火灾"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/23/french-fires-150-years-in-the-making-visual-guide"
-    }
-   ],
-   "convergence": "divergent",
-   "gloss": {
-    "en": "AI's footprint on nature gets scrutiny.",
-    "zh": "AI对自然的影响受到审视。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "AI environmental impact",
-    "zh": "AI环境影响"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You track AI ethics; new paper links AI to pollution.",
-    "zh": "关注AI伦理，新论文关联AI与污染。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "8ae0b77ed940999a",
-     "phrase": {
-      "en": "RAG reduces technician search burden",
-      "zh": "RAG减轻技术员搜索负担"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.18465v1"
-    },
     {
      "item_id": "ef3f33deabadc36f",
      "phrase": {
-      "en": "Coding agents read docs",
-      "zh": "编码代理读取文档"
+      "en": "agents' documentation habits",
+      "zh": "代理的文档习惯"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
      "url": "https://arxiv.org/abs/2608.20195v1"
+    },
+    {
+     "item_id": "8ae0b77ed940999a",
+     "phrase": {
+      "en": "RAG reduces search burden",
+      "zh": "RAG减轻搜索负担"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.18465v1"
     }
    ],
-   "convergence": "divergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "Systems blend text and images for better answers.",
-    "zh": "系统融合文本与图像以提升答案。"
+    "en": "Coding agents now read technical docs, changing how they're written.",
+    "zh": "编码代理阅读技术文档，改变撰写方式。"
    },
-   "id": "t4",
+   "id": "t2",
    "keyword": {
-    "en": "multimodal RAG",
-    "zh": "多模态RAG"
+    "en": "AI documentation",
+    "zh": "AI文档"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You work on AI; this paper applies RAG to manuals.",
-    "zh": "从事AI，此论文将RAG应用于手册。"
+    "en": "You study human-computer interaction: agent-friendly docs matter now.",
+    "zh": "你研究人机交互，代理友好文档正当时。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "aba75f6cc79d9d0a",
+     "phrase": {
+      "en": "sonifying uncertainty",
+      "zh": "声化不确定性"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.18680v1"
+    },
+    {
+     "item_id": "18f1a63eb69938ab",
+     "phrase": {
+      "en": "privacy expectations, trust",
+      "zh": "隐私期望与信任"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.19873v1"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Sound and emotion enter data visualization design.",
+    "zh": "声音与情感进入数据可视化设计。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "affective visualization",
+    "zh": "情感可视化"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "Your interest in critical viz: sonification studies broaden the field.",
+    "zh": "你关注批判性可视化，声化研究拓宽领域。"
    }
   }
  ]

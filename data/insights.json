@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "barcode history OR first barcode scanned",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "MakeUseOf",
-   "published_at": "2026-08-21T15:00:13Z",
-   "title": "The QR code conquered the world because its inventor chose not to cash in",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcV94YUJnYmw3dkh5dkEtUWhTUnRLbElYMmVEVG90RTFzdUluQ19UcEhXaC1Pbk1INVotbzliNWhGNE5iUXYxdDB5ejJXQlM5dG0wTnpqSHlXVkFSeEl4VTlFa3JLc253QU1sRURYR1RONldFQkV4WFBId1FrMWIzVzc3T0RmVHU2Q2JQXzRBYWE2THNjMTlyaF90WXFFMXJNNWc?oc=5"
+   "name": "wbko.com",
+   "published_at": "2026-08-23T04:00:00Z",
+   "title": "Record - smashing pumpkin crowned at Kentucky State Fair",
+   "url": "https://www.wbko.com/2026/08/22/record-smashing-pumpkin-crowned-kentucky-state-fair/"
   },
   "summaries": {
    "en": {
-    "summary": "The QR code conquered the world because its inventor chose not to cash in.",
-    "why_irrelevant": "A feel-good tech history nugget, far from your data-heavy feeds."
+    "summary": "A record-breaking giant pumpkin was crowned at the Kentucky State Fair, drawing local attention.",
+    "why_irrelevant": "This agricultural oddity is a niche local event, far from mainstream interests."
    },
    "zh": {
-    "summary": "二维码风靡全球，因为其发明者选择不从中获利。",
-    "why_irrelevant": "一则温馨的科技史趣闻，与你的数据密集型信息流相去甚远。"
+    "summary": "肯塔基州博览会上，一个创纪录的巨型南瓜夺冠，引发当地关注。",
+    "why_irrelevant": "这类农业趣味事件属小众地方新闻，远离主流视野。"
    }
   },
-  "topic": "the history of the humble barcode"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news is dominated by a fast-moving wildfire near Reno forcing thousands to evacuate, alongside international headlines on a Guinea landfill collapse and French drowning spike linked to heatwaves. In research, studies explore AI's environmental impact, coding agent documentation, and visualization education.",
+ "brief": "Today's news is marked by a major wildfire in Reno forcing mass evacuations, escalating US-Canada trade tensions, and a Guinea landfill collapse. Meanwhile, research highlights AI's environmental impact, advanced visualization education, and smart home privacy.",
  "meta": {
-  "generated_at": "2026-08-23T18:46:19Z"
+  "generated_at": "2026-08-23T20:36:54Z"
  },
- "news_summary": "The Hawk fire near Reno expands to over 10,000 acres, prompting evacuations of 14,000 homes and a state of emergency; Guinea reels from a landfill collapse killing 30; France reports a heatwave-linked rise in drownings.",
- "papers_summary": "Papers cover a UAV multispectral maize dataset for water stress detection, a nonlinear relationship between AI development and environmental pollution, and human-computer interaction studies on coding agents, documentation, and smart home privacy.",
+ "news_summary": "A fast-moving wildfire near Reno, Nevada, has forced 42,000 people to evacuate, while US-Canada trade talks collapsed, leading to retaliatory tariffs. Other notable events include a landfill collapse in Guinea and Iran's warning to Gulf states.",
+ "papers_summary": "Papers cover AI's nonlinear relationship with pollution, UAV-based maize stress detection, and human-centered AI topics like robot voice pitch and smart home privacy expectations, plus visualization concept inventory for education.",
  "summaries": {
   "en": {
-   "brief": "Today's news is dominated by a fast-moving wildfire near Reno forcing thousands to evacuate, alongside international headlines on a Guinea landfill collapse and French drowning spike linked to heatwaves. In research, studies explore AI's environmental impact, coding agent documentation, and visualization education.",
-   "news_summary": "The Hawk fire near Reno expands to over 10,000 acres, prompting evacuations of 14,000 homes and a state of emergency; Guinea reels from a landfill collapse killing 30; France reports a heatwave-linked rise in drownings.",
-   "papers_summary": "Papers cover a UAV multispectral maize dataset for water stress detection, a nonlinear relationship between AI development and environmental pollution, and human-computer interaction studies on coding agents, documentation, and smart home privacy."
+   "brief": "Today's news is marked by a major wildfire in Reno forcing mass evacuations, escalating US-Canada trade tensions, and a Guinea landfill collapse. Meanwhile, research highlights AI's environmental impact, advanced visualization education, and smart home privacy.",
+   "news_summary": "A fast-moving wildfire near Reno, Nevada, has forced 42,000 people to evacuate, while US-Canada trade talks collapsed, leading to retaliatory tariffs. Other notable events include a landfill collapse in Guinea and Iran's warning to Gulf states.",
+   "papers_summary": "Papers cover AI's nonlinear relationship with pollution, UAV-based maize stress detection, and human-centered AI topics like robot voice pitch and smart home privacy expectations, plus visualization concept inventory for education."
   },
   "zh": {
-   "brief": "今日焦点包括泰国南部连环纵火引发动荡担忧、美加贸易谈判破裂以及中国机器人打破百米纪录；研究方面关注AI发展与环境污染的关系及智能家居隐私问题。",
-   "news_summary": "泰国南部一夜50多起纵火，军方称系有组织捣乱；美加贸易谈判破裂，加拿大总理卡尼面临考验；中国机器人以9.39秒刷新百米世界纪录。",
-   "papers_summary": "研究揭示了AI发展与环境污染之间的非线性关系，并探讨了智能家居设备隐私期望的符合度对用户信任的影响。"
+   "brief": "今日焦点：美加贸易谈判破裂，加拿大总理卡尼面临考验；泰国南部遭连环纵火；中国机器人打破百米短跑世界纪录。研究方面，AI对环境影响呈非线性关系，智能文档设计需考虑机器人语音音调对儿童压力的影响。",
+   "news_summary": "美加贸易谈判破裂，双方互相加征关税，加拿大总理卡尼面临政治考验；泰国南部一夜发生50多起纵火，军方称系有组织破坏；中国“天工Ultra”机器人以9.39秒打破人形机器人百米世界纪录。",
+   "papers_summary": "研究显示AI发展与环境污染呈多阶段非线性关系；另有研究探讨机器人语音音调对儿童压力的影响，发现较低音调可能增加压力，建议智能设备设计考虑用户情感。"
   }
  },
  "todays_image": {
-  "caption": "Dry, fast-spreading Cynodon nlemfuensis is the kind of flammable grass that could turn a small spark into a fast-moving wildfire, forcing evacuations like those in Reno today.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3ddf4c144974e44ad8b92a76cd3e56fb5",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/32b655a26-a837-4b99-bf5c-983d0da6e812",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3ddf4c144974e44ad8b92a76cd3e56fb5/90",
-  "title": "Cynodon nlemfuensis Vanderyst"
+  "caption": "The same kind of helicopter that once served as a flying ambulance could now be swooping over Reno's smoky ridges, trading hospital wards for evacuation routes.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2019-07783",
+  "source_name": "National Air and Space Museum",
+  "source_url": "http://n2t.net/ark:/65665/nv9e0a63f17-28fa-4cc7-bd8d-aca4ac6e8a15",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2019-07783",
+  "title": "Sikorsky HO5S-1"
  }
 }
