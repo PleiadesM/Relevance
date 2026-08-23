@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "query": "yodeling competition OR Swiss yodeling festival",
   "source": {
-   "name": "wbko.com",
-   "published_at": "2026-08-23T04:00:00Z",
-   "title": "Record - smashing pumpkin crowned at Kentucky State Fair",
-   "url": "https://www.wbko.com/2026/08/22/record-smashing-pumpkin-crowned-kentucky-state-fair/"
+   "name": "WorldAtlas",
+   "published_at": "2026-08-03T07:00:00Z",
+   "title": "8 Fairy-Tale Small Towns In The United States",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOV050cl9tZDdmTGpfNXRjaVMwVkNVNnZGT0FyOGtnSFBPQkdjWmpkSzlwYkhUMXM4UFhuSF8xV29DN25MSkxRYnoxM3FRNG1oZmZSSlZkamhXNHdhZTIzQnBUVV9UVmV6M0txYzR1dnRnRGhibHVYV0lNajZEbEhQRHFRbnM1VHdUWURLT09YbURFRnotWU5Z?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A record-breaking giant pumpkin was crowned at the Kentucky State Fair, drawing local attention.",
-    "why_irrelevant": "This agricultural oddity is a niche local event, far from mainstream interests."
+    "summary": "WorldAtlas showcases eight fairy-tale small towns across the United States, highlighting their storybook charm.",
+    "why_irrelevant": "It's a whimsical travel listicle far removed from typical feed topics."
    },
    "zh": {
-    "summary": "肯塔基州博览会上，一个创纪录的巨型南瓜夺冠，引发当地关注。",
-    "why_irrelevant": "这类农业趣味事件属小众地方新闻，远离主流视野。"
+    "summary": "世界地图集展示了美国八座童话般的小镇，突出其如诗如画的魅力。",
+    "why_irrelevant": "这是一篇奇幻旅行清单，与日常信息流相去甚远。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "competitive yodeling championships"
  },
- "brief": "Today's news is marked by a major wildfire in Reno forcing mass evacuations, escalating US-Canada trade tensions, and a Guinea landfill collapse. Meanwhile, research highlights AI's environmental impact, advanced visualization education, and smart home privacy.",
+ "brief": "News today spans multiple tragedies and political tensions: a shark attack survivor's recovery, cyclist deaths in NYC, a child's death from a brain-eating amoeba, a landslide in Guinea, wildfires in Nevada, and escalating US-Canada trade disputes. Research highlights AI's environmental impact, coding agents and documentation, and visualization education.",
  "meta": {
-  "generated_at": "2026-08-23T20:36:54Z"
+  "generated_at": "2026-08-23T22:35:51Z"
  },
- "news_summary": "A fast-moving wildfire near Reno, Nevada, has forced 42,000 people to evacuate, while US-Canada trade talks collapsed, leading to retaliatory tariffs. Other notable events include a landfill collapse in Guinea and Iran's warning to Gulf states.",
- "papers_summary": "Papers cover AI's nonlinear relationship with pollution, UAV-based maize stress detection, and human-centered AI topics like robot voice pitch and smart home privacy expectations, plus visualization concept inventory for education.",
+ "news_summary": "Tragic events dominate: cyclist deaths, a child's amoeba infection, a Guinea landslide, and a Nevada wildfire. Politically, US-Canada trade talks collapse and Trump's economic approach draws GOP concern.",
+ "papers_summary": "Research covers AI's environmental effects, coding agents' interaction with documentation, and visualization design education, among other HCI topics.",
  "summaries": {
   "en": {
-   "brief": "Today's news is marked by a major wildfire in Reno forcing mass evacuations, escalating US-Canada trade tensions, and a Guinea landfill collapse. Meanwhile, research highlights AI's environmental impact, advanced visualization education, and smart home privacy.",
-   "news_summary": "A fast-moving wildfire near Reno, Nevada, has forced 42,000 people to evacuate, while US-Canada trade talks collapsed, leading to retaliatory tariffs. Other notable events include a landfill collapse in Guinea and Iran's warning to Gulf states.",
-   "papers_summary": "Papers cover AI's nonlinear relationship with pollution, UAV-based maize stress detection, and human-centered AI topics like robot voice pitch and smart home privacy expectations, plus visualization concept inventory for education."
+   "brief": "News today spans multiple tragedies and political tensions: a shark attack survivor's recovery, cyclist deaths in NYC, a child's death from a brain-eating amoeba, a landslide in Guinea, wildfires in Nevada, and escalating US-Canada trade disputes. Research highlights AI's environmental impact, coding agents and documentation, and visualization education.",
+   "news_summary": "Tragic events dominate: cyclist deaths, a child's amoeba infection, a Guinea landslide, and a Nevada wildfire. Politically, US-Canada trade talks collapse and Trump's economic approach draws GOP concern.",
+   "papers_summary": "Research covers AI's environmental effects, coding agents' interaction with documentation, and visualization design education, among other HCI topics."
   },
   "zh": {
-   "brief": "今日焦点：美加贸易谈判破裂，加拿大总理卡尼面临考验；泰国南部遭连环纵火；中国机器人打破百米短跑世界纪录。研究方面，AI对环境影响呈非线性关系，智能文档设计需考虑机器人语音音调对儿童压力的影响。",
-   "news_summary": "美加贸易谈判破裂，双方互相加征关税，加拿大总理卡尼面临政治考验；泰国南部一夜发生50多起纵火，军方称系有组织破坏；中国“天工Ultra”机器人以9.39秒打破人形机器人百米世界纪录。",
-   "papers_summary": "研究显示AI发展与环境污染呈多阶段非线性关系；另有研究探讨机器人语音音调对儿童压力的影响，发现较低音调可能增加压力，建议智能设备设计考虑用户情感。"
+   "brief": "今日焦点为美国与加拿大贸易谈判破裂，引发关税报复，同时中国机器人打破百米世界纪录，泰国南部遭连环纵火。研究方面，多项人机交互与可视化研究发布，涉及智能家居隐私、机器人声音与儿童压力等。",
+   "news_summary": "美加贸易谈判破裂，加拿大总理卡尼宣布报复性关税，特朗普称“不再忍了”。泰国南部一夜50多起纵火，军方称系有组织破坏。中国“天工Ultra”机器人以9.39秒打破百米世界纪录。",
+   "papers_summary": "arXiv多篇人机交互研究探讨智能家居隐私、机器人音调对儿童压力的影响，以及可视化教育概念清单。另有研究关注无人机多光谱数据与AI发展对环境的影响。"
   }
  },
  "todays_image": {
-  "caption": "The same kind of helicopter that once served as a flying ambulance could now be swooping over Reno's smoky ridges, trading hospital wards for evacuation routes.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2019-07783",
-  "source_name": "National Air and Space Museum",
-  "source_url": "http://n2t.net/ark:/65665/nv9e0a63f17-28fa-4cc7-bd8d-aca4ac6e8a15",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2019-07783",
-  "title": "Sikorsky HO5S-1"
+  "caption": "The fire truck door's red, like the shark attack survivor's ordeal and the fur seal's death, signals an emergency demanding attention.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-ET2011-46259",
+  "source_name": "National Museum of American History",
+  "source_url": null,
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-ET2011-46259&max=150",
+  "title": "Fire Truck Door"
  }
 }
