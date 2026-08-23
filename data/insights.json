@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "oyster shucking championship OR oyster opening contest",
+  "query": "\"sheep shearing championship\" OR \"golden shears\"",
   "source": {
-   "name": "WJHG",
-   "published_at": "2026-08-05T07:00:00Z",
-   "title": "Shucking oysters and talking the trade for National Oyster Day",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPOE10a1BlYlJGT1p2RHlzcFRjTEo2RGtkOFJDVF9XMTBQLWdzMURTSmFzUXdjalYwdW9sYXlDMS0wdHF0VDVOTjl3Z0ZUbE44YUdjdk43WkRvZExOQ204Rzg5OTFrWnBtbEhBTWtxTW9oUkxqOC1jczNWT2d1M09hLWlpTTJVV29qbHA40gGfAUFVX3lxTE1fZVktWmtJRlZkbWNLbVdlYlQteDVBMDZYOVNCMFhsYi1xVVRITlhiNXRzU2ZYeDA0QjZmaGdvU2JXSW9JYUdEQU8tclk0QVRLY3podDFLWDJBZ09QbzdNUWhvS2RSZTJBUXJRRm9ZakZaeUJYbGZHVU9zYS1BVDViVzhnZ1hBSHJUa1AyOUNjQXl2N1JwT1RkdEpnRXY0bw?oc=5"
+   "name": "farmersweekly.co.nz",
+   "published_at": "2026-08-18T04:22:37Z",
+   "title": "Golden Shears legend Laurie Keats dies at 92",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZHBfQklUWmVCblhUN3o0Z0hiWmw4TnFKNXUzVF8tZGVDM3pKRUtGQkY3SnBSRTlkczlmR05DTS16c295N1FINTZVTFhYRlZfQ1Q2Tkc1SGNlUGlRMnc4Nmt2NGJ2YmFJX0h5Y08zc0Q5aTM4dTBRUlpMLVp6aWRHNWp1M0g2bkVZRUtnVA?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A local news segment covers shucking techniques and trade talk for National Oyster Day.",
-    "why_irrelevant": "It's a regional, trade-focused broadcast far from your usual interests."
+    "summary": "Golden Shears legend Laurie Keats dies at 92, leaving a legacy in competitive sheep shearing.",
+    "why_irrelevant": "It's a niche rural sport obituary, far from typical urban feeds."
    },
    "zh": {
-    "summary": "当地新闻节目在牡蛎日介绍剥壳技巧与行业话题。",
-    "why_irrelevant": "这是区域性、以行业为主的内容，与您的日常关注相距甚远。"
+    "summary": "金剪刀传奇人物劳里·基茨去世，享年92岁，留下剪羊毛竞技的遗产。",
+    "why_irrelevant": "这是一个小众的乡村运动讣告，远离典型的城市信息流。"
    }
   },
-  "topic": "competitive oyster shucking championships"
+  "topic": "competitive sheep shearing"
  },
- "brief": "Today's news spans from political and social shifts—like the Barbie backlash and UK planning reforms—to alarming crime statistics and storm threats in Hawaii. Research highlights AI in surgery, visualization education, and smart home privacy, among other topics.",
+ "brief": "Today's news covers political tensions from Ukraine to trade disputes, while research highlights AI's evolving role in workflows and visualization education.",
  "meta": {
-  "generated_at": "2026-08-23T06:58:42Z"
+  "generated_at": "2026-08-23T08:46:17Z"
  },
- "news_summary": "Headlines include The Odyssey and Barbie sparking a cultural critique, London's unsolved murder disparity, a surge in onshore windfarm applications in England, UK homebuyer scam warnings, and US-Canada trade tensions. Also notable: a Mexican governor's departure, new mayor powers in the UK, a historical slavery revelation, and a tropical storm nearing Hawaii.",
- "papers_summary": "Research papers cover an AI surgical recognition system for esophageal surgery, evolutionary profiling for protein variants, alpine ecosystem structures, information flow in autism brain networks, and several HCI studies on documentation, visualization education, AI guidance, smart home privacy, robot voice pitch, and writing traces.",
+ "news_summary": "News focuses on Ukraine's political turmoil, UK local governance changes, US-Canada trade tensions, and various international incidents from Sydney to Iran.",
+ "papers_summary": "Papers explore AI's impact on leadership and documentation, smart home privacy, and visualization education, reflecting contemporary human-computer interaction themes.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans from political and social shifts—like the Barbie backlash and UK planning reforms—to alarming crime statistics and storm threats in Hawaii. Research highlights AI in surgery, visualization education, and smart home privacy, among other topics.",
-   "news_summary": "Headlines include The Odyssey and Barbie sparking a cultural critique, London's unsolved murder disparity, a surge in onshore windfarm applications in England, UK homebuyer scam warnings, and US-Canada trade tensions. Also notable: a Mexican governor's departure, new mayor powers in the UK, a historical slavery revelation, and a tropical storm nearing Hawaii.",
-   "papers_summary": "Research papers cover an AI surgical recognition system for esophageal surgery, evolutionary profiling for protein variants, alpine ecosystem structures, information flow in autism brain networks, and several HCI studies on documentation, visualization education, AI guidance, smart home privacy, robot voice pitch, and writing traces."
+   "brief": "Today's news covers political tensions from Ukraine to trade disputes, while research highlights AI's evolving role in workflows and visualization education.",
+   "news_summary": "News focuses on Ukraine's political turmoil, UK local governance changes, US-Canada trade tensions, and various international incidents from Sydney to Iran.",
+   "papers_summary": "Papers explore AI's impact on leadership and documentation, smart home privacy, and visualization education, reflecting contemporary human-computer interaction themes."
   },
   "zh": {
-   "brief": "今日新闻聚焦睡眠习惯、冒险心理学及国际上未破谋杀案、风电场等议题；同时研究关注AI手术识别技术与可视化教学。",
-   "news_summary": "BBC中文讨论无闹钟起床方法与金钱决策中的风险偏好；国际新闻涉及伦敦谋杀案种族差异、英格兰陆上风电申请激增、银行诈骗警告及美加贸易战等。",
-   "papers_summary": "研究论文涵盖AI手术识别、蛋白质变异解读、高山植物群落结构及自闭症脑网络信息流等主题。"
+   "brief": "今日新闻聚焦日常生活与心理决策，学术研究则关注AI对工作与技能发展的影响。",
+   "news_summary": "BBC中文探讨了无需闹钟的自然起床方法，以及关于金钱决策的心理调查。国际新闻涉及加拿大总理对美贸易战、乌克兰腐败质疑、悉尼马拉松奖牌错误等。",
+   "papers_summary": "学术研究涵盖了图书馆研究服务的转变、AI对领导力与追随力的影响，以及针对外科手术的AI识别系统。"
   }
  },
  "todays_image": {
-  "caption": "Just as a gold nugget hides its value in rough rock, the Barbie backlash uncovers the grit behind plastic perfection.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=SIA-98-4800",
-  "source_name": "National Museum of American History",
-  "source_url": null,
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SIA-98-4800&max=150",
-  "title": "Gold Nugget"
+  "caption": "Just as Meissonnier's intricate rococo flourishes masked the structural simplicity beneath, Zelensky's shiny wartime facade may be concealing a more tangled, corrupt framework.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-CHD4003",
+  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/26793",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-CHD4003",
+  "title": "Oeuvre de Juste-Aurèle Meissonnier"
  }
 }

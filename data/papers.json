@@ -2,6 +2,57 @@
  "items": [
   {
    "authors": [
+    "Nhat Phan Truong"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "ABSTRACT: Purpose – This study aims to examine the transformation of university library research support services from scholarly communication support to integrated research support services within the context of open science. By combining bibliometric analysis with a scoping review, the study explores the intellectual evolution of the field, identifies major research trends and thematic developments, synthesizes emerging service models and institutional practices, and examines the drivers,…",
+    "citations": 0,
+    "doi": "10.5281/zenodo.22059753"
+   },
+   "id": "f69638d758f3eefc",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-22T00:00:00Z",
+   "score": 0.5094,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "ABSTRACT: Purpose – This study aims to examine the transformation of university library research support services from scholarly communication support to integrated research support services within the context of open science. By combining bibliometric analysis with a scoping review, the study…",
+   "tags": [
+    "systems"
+   ],
+   "title": "From Scholarly Communication Support to the Transformation of Library Research Support Services: A Bibliometric Analysis and Scoping Review",
+   "url": "https://doi.org/10.5281/zenodo.22059753",
+   "venue": "Journal of Social Science and Human Research Studies"
+  },
+  {
+   "authors": [
+    "Maike Kugler",
+    "Laura S. Aichroth"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Emerging AI technologies are transforming work and redefining how leading and following unfold when humans collaborate with AI as tool, agent, teammate, and autonomous partner. This article uses an action-based organizational learning scenario technique to develop four future workplace constellations: (1) AI as collaborative tool, (2) AI as delegated agent, (3) AI as team member, and (4) AI as autonomous partner. For each, it examines implications for reversing the lens and co-creation…",
+    "citations": 0,
+    "doi": "10.1002/yd.70067"
+   },
+   "id": "b6895f82c0fdf5a6",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-22T00:00:00Z",
+   "score": 0.5094,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Emerging AI technologies are transforming work and redefining how leading and following unfold when humans collaborate with AI as tool, agent, teammate, and autonomous partner. This article uses an action-based organizational learning scenario technique to develop four future workplace…",
+   "tags": [],
+   "title": "AI is Here to Stay: A Scenario‐Based Exploration of Leadership, Followership, and the Impact on Skill Development",
+   "url": "https://doi.org/10.1002/yd.70067",
+   "venue": "New Directions for Student Leadership"
+  },
+  {
+   "authors": [
     "Masashi Takeuchi",
     "Hirofumi Kawakubo",
     "Yosuke Morimoto",
@@ -19,7 +70,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-22T00:00:00Z",
-   "score": 0.5145,
+   "score": 0.5094,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -30,82 +81,6 @@
    "title": "PD08.06. AI-Based Surgical Recognition System Developed by an Esophageal Surgeon: Recurrent Laryngeal Nerve Identification and Traction Detection",
    "url": "https://doi.org/10.1093/dote/doag077.137",
    "venue": "Diseases of the Esophagus"
-  },
-  {
-   "authors": [
-    "Taner Karagöl",
-    "Alper Karagöl"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "citations": 3,
-    "doi": "10.1007/s10142-026-02013-9"
-   },
-   "id": "2c9dad0b567a76df",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-22T00:00:00Z",
-   "score": 0.4272,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "",
-   "tags": [],
-   "title": "Dynamics-aware evolutionary profiling uncouples structural rigidity from functional motion to enable enhanced variant interpretation",
-   "url": "https://doi.org/10.1007/s10142-026-02013-9",
-   "venue": "Functional & Integrative Genomics"
-  },
-  {
-   "authors": [
-    "Zacharaih J. Madsen",
-    "Scott E. Nielsen"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "citations": 0,
-    "doi": "10.1007/s00035-026-00372-4"
-   },
-   "id": "81a429451c410d0b",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-22T00:00:00Z",
-   "score": 0.5145,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "",
-   "tags": [],
-   "title": "Direct and indirect effects of terrain, snow, and shrubs on the structure of an alpine herbaceous community in the Canadian Rocky Mountains",
-   "url": "https://doi.org/10.1007/s00035-026-00372-4",
-   "venue": "Alpine Botany"
-  },
-  {
-   "authors": [
-    "Abolfazl HaqiqiFar",
-    "Mohammad Amin Safaei",
-    "Gholamreza Jafari"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract The functional brain activity network is the result of the harmonious activity of different regions. Each harmonic activity requires feedback from different areas of activity to adjust itself. As a result, any disorder in this harmony can affect the functional brain activity network. In this study, we use transfer entropy (TE) to examine the information transfer patterns of brain activity in Healthy Controls (HC) and individuals with Autism Spectrum Disorder (ASD). The results indicate…",
-    "citations": 1,
-    "doi": "10.1038/s41598-026-66002-5"
-   },
-   "id": "6d94b813f2eb1bc1",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-22T00:00:00Z",
-   "score": 0.5396,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract The functional brain activity network is the result of the harmonious activity of different regions. Each harmonic activity requires feedback from different areas of activity to adjust itself. As a result, any disorder in this harmony can affect the functional brain activity network. In…",
-   "tags": [],
-   "title": "Patterns of information flow in autism canonical brain network by transfer entropy approach",
-   "url": "https://doi.org/10.1038/s41598-026-66002-5",
-   "venue": "Scientific Reports"
   },
   {
    "authors": [
@@ -121,7 +96,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T15:51:54Z",
-   "score": 0.5648,
+   "score": 0.5603,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -150,7 +125,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T14:23:07Z",
-   "score": 0.4086,
+   "score": 0.4042,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -179,7 +154,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T12:17:24Z",
-   "score": 0.5559,
+   "score": 0.5516,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -209,7 +184,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T10:35:00Z",
-   "score": 0.3593,
+   "score": 0.3551,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -235,7 +210,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T09:27:56Z",
-   "score": 0.5492,
+   "score": 0.5451,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -263,7 +238,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T03:54:52Z",
-   "score": 0.3441,
+   "score": 0.3402,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -290,7 +265,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T01:32:06Z",
-   "score": 0.339,
+   "score": 0.3352,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -322,7 +297,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T19:51:36Z",
-   "score": 0.5598,
+   "score": 0.5563,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -352,7 +327,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T09:22:18Z",
-   "score": 0.3477,
+   "score": 0.3445,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -381,7 +356,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T08:31:09Z",
-   "score": 0.5387,
+   "score": 0.5356,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -409,7 +384,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T02:39:35Z",
-   "score": 0.5288,
+   "score": 0.5259,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -421,8 +396,8 @@
   }
  ],
  "meta": {
-  "count": 15,
-  "generated_at": "2026-08-23T06:58:42Z",
+  "count": 14,
+  "generated_at": "2026-08-23T08:46:17Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
