@@ -1,88 +1,185 @@
 {
  "meta": {
-  "count": 2,
-  "generated_at": "2026-08-24T16:53:38Z",
+  "count": 4,
+  "generated_at": "2026-08-24T18:57:36Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "item_id": "33157bd2f0d9aa69",
+     "phrase": {
+      "en": "LLM appeals burden services",
+      "zh": "LLM申诉加重服务负担"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://arxiv.org/abs/2608.16603"
+    },
+    {
      "full_text_file": "articles/news/ce461231895c117b.json",
      "item_id": "ce461231895c117b",
      "phrase": {
-      "en": "practical tips for classroom AI",
-      "zh": "课堂AI实用建议"
+      "en": "smarter AI in classrooms",
+      "zh": "教室中更智能地使用AI"
      },
      "section": "news",
      "source": "MIT Technology Review · AI",
      "url": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/"
-    },
-    {
-     "item_id": "5d9003a1dcd5153b",
-     "phrase": {
-      "en": "LLMs explain coding errors adaptively",
-      "zh": "大模型自适应解释编程错误"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.20896v1"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "Chatbots enter classrooms, promising help but raising questions about how to use them wisely.",
-    "zh": "聊天机器人走进课堂，带来帮助也引发如何善用的问题。"
+    "en": "AI-written appeals strain public systems.",
+    "zh": "AI撰写的申诉给公共系统带来压力。"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI in Education",
-    "zh": "AI教育应用"
+    "en": "AI in public services",
+    "zh": "公共服务中的AI"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about human-AI interaction: today's MIT piece offers practical guidance for smarter AI use in teaching.",
-    "zh": "你关注人机交互，今日MIT文章为教学中的AI应用提供实用指引。"
+    "en": "You care about LLM applications: new research shows their impact on benefits.",
+    "zh": "你关注大模型应用，新研究显示其对福利的影响。"
    }
   },
   {
    "angles": [
     {
-     "full_text_file": "articles/news/2e470b823f390114.json",
-     "item_id": "2e470b823f390114",
+     "item_id": "34b964b7251b976a",
      "phrase": {
-      "en": "Nvidia manager indicted for smuggling",
-      "zh": "英伟达经理因走私被起诉"
+      "en": "coding expertise collapse",
+      "zh": "编程专业知识崩溃"
      },
      "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china/"
+     "source": "Hacker News (AI filter)",
+     "url": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise"
     },
     {
-     "item_id": "f1b8e7979ad2a5fb",
+     "item_id": "ef3f33deabadc36f",
      "phrase": {
-      "en": "tariffs on vehicles and steel",
-      "zh": "对汽车和钢铁加征关税"
+      "en": "agents read docs",
+      "zh": "代理阅读文档"
      },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/live/2026/aug/24/hakeem-jeffries-jared-kushner-democrats-midterm-elections-donald-trump-iran-war-sanctions-latest-news-updates"
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.20195v1"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Chips that power AI become pawns in geopolitical games, with smuggling and sanctions in the spotlight.",
-    "zh": "驱动AI的芯片沦为地缘政治棋子，走私与制裁成为焦点。"
+    "en": "Reliance on AI may erode coding skills.",
+    "zh": "依赖AI可能削弱编程技能。"
    },
    "id": "t2",
    "keyword": {
-    "en": "AI Chip Export Controls",
-    "zh": "AI芯片出口管制"
+    "en": "AI coding expertise",
+    "zh": "AI编程专业知识"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track tech policy: an Nvidia insider is indicted over smuggling AI servers to China, highlighting enforcement battles.",
-    "zh": "你关注技术政策，英伟达内部人员因向中国走私AI服务器被起诉，凸显执法博弈。"
+    "en": "You follow human-AI interaction: debate on coding expertise collapse is live.",
+    "zh": "你关注人机交互，关于编程技能衰退的讨论正在进行。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "e01486424740cdfc",
+     "phrase": {
+      "en": "AI for site protection",
+      "zh": "AI保护敏感地点"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/politics/2026/aug/24/uk-to-use-ukraine-battlefield-data-to-train-ai-to-protect-sensitive-sites"
+    },
+    {
+     "item_id": "fcfba4969c890a69",
+     "phrase": {
+      "en": "storm shadow game changer",
+      "zh": "风暴阴影改变游戏规则"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/videos/cx2znjly4dno?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "UK uses Ukraine data to train AI for security.",
+    "zh": "英国利用乌克兰数据训练安全AI。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "AI in defense",
+    "zh": "国防中的AI"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track AI policy: new defense AI deal signed today.",
+    "zh": "你关注AI政策，今日签署新国防AI协议。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "91994745f2f59a1a",
+     "phrase": {
+      "en": "first foreign trip",
+      "zh": "首次出访"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/24/world/europe/uk-andy-burnham-ukraine-russia.html"
+    },
+    {
+     "item_id": "ca8be239200fae07",
+     "phrase": {
+      "en": "vows support",
+      "zh": "誓言支持"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "c20cc72ecd345e8d",
+     "phrase": {
+      "en": "all the way",
+      "zh": "一路同行"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/aug/24/europe-ukraine-russia-war-kyiv-andy-burnham-volodymyr-zelenskyy-latest-news-updates"
+    },
+    {
+     "item_id": "46314a8ae935548c",
+     "phrase": {
+      "en": "renewal of support",
+      "zh": "支持复兴"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/politics/2026/aug/24/burnham-visit-kyiv-support-for-ukraine"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "UK stands by Ukraine despite Russian threats.",
+    "zh": "英国不顾俄罗斯威胁支持乌克兰。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "Ukraine support",
+    "zh": "乌克兰支持"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow geopolitics: Burnham's Kyiv visit renews alliance.",
+    "zh": "你关注地缘政治，伯纳姆基辅之行重振联盟。"
    }
   }
  ]

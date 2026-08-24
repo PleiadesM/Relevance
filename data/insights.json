@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "snail racing championship OR World Snail Racing Championships",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "GTPlanet",
-   "published_at": "2026-08-13T07:00:00Z",
-   "title": "Gran Turismo 7’s New Online Time Trial Raises Eyebrows Ahead of Update",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQR2lTLWZTUmxNVkxxaUhxbVJqTzloQmVYbEtJOHRrelN5RUZPYnRfT2NNY2NLMTVJMjJsaWZvUEVKQm9IblEwMUdDNjBySHVhdGpRZVpQaUxCb29RNDN4NGtBeEl1QlFlbHFLc3FfbGs1QzQ0RHpsRkNRcHJRZjZEU21nRi02SkhGVXV1cUpOeVdPSFlvVTJGQmJPVnU2NWYyc1ZaZ2RDdw?oc=5"
+   "name": "nintendoeverything.com",
+   "published_at": "2026-08-21T01:45:00Z",
+   "title": "Dragon Quest Monsters : The Withered World details Thespidor , King Withers , and Scruffy , Taiboku and Lushland , Waterwing Can",
+   "url": "https://nintendoeverything.com/dragon-quest-monsters-the-withered-world-details-thespidor-king-withers-and-scruffy-taiboku-and-lushland-waterwing-can/"
   },
   "summaries": {
    "en": {
-    "summary": "Gran Turismo 7 introduces a new online time trial mode, sparking debate among players ahead of the next update.",
-    "why_irrelevant": "It's a niche gaming detail, far from AI or geopolitical topics."
+    "summary": "A video game news article details new characters and worlds in 'Dragon Quest Monsters: The Withered World'.",
+    "why_irrelevant": "It is a niche gaming topic, far from gardening or local news."
    },
    "zh": {
-    "summary": "《跑车浪漫旅7》新增线上计时赛模式，在下次更新前引发玩家讨论。",
-    "why_irrelevant": "这是小众游戏细节，远离AI或地缘政治议题。"
+    "summary": "一篇游戏新闻文章介绍了《勇者斗恶龙怪兽篇：枯萎世界》中的新角色和世界。",
+    "why_irrelevant": "这是一个小众游戏话题，远离园艺或本地新闻。"
    }
   },
-  "topic": "competitive snail racing"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news spans from commemorations of 9/11 to escalating trade tensions, alongside research delving into AI-assisted programming and data privacy.",
+ "brief": "Today's news highlights escalating US sanctions on Iran and threats of new tariffs on Canada, alongside domestic stories on immigration and AI security. Research focuses on improving visualization and human-computer interaction, including adaptive error explanations and data donation framing.",
  "meta": {
-  "generated_at": "2026-08-24T16:53:38Z"
+  "generated_at": "2026-08-24T18:57:36Z"
  },
- "news_summary": "International politics dominates, with UK PM Burnham reaffirming support for Ukraine amid Russian threats, and Trump escalating tariffs on Canada. Other stories include New York tours of Ground Zero, Prince Harry stepping down from a wildlife charity, and cloud seeding efforts in water-scarce states.",
- "papers_summary": "Research explores AI's role in programming error explanations, visualization design pedagogy, and privacy expectations in smart homes, highlighting human-computer interaction challenges.",
+ "news_summary": "The US announced sweeping sanctions against Iran, while Trump threatened 50% tariffs on Canadian auto and steel imports, escalating trade tensions. Immigration enforcement and AI security also featured prominently.",
+ "papers_summary": "Research on visualization and human-computer interaction includes adaptive error explanations for programming, affective framing in data donation, and reflections on older adults in visualization research.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans from commemorations of 9/11 to escalating trade tensions, alongside research delving into AI-assisted programming and data privacy.",
-   "news_summary": "International politics dominates, with UK PM Burnham reaffirming support for Ukraine amid Russian threats, and Trump escalating tariffs on Canada. Other stories include New York tours of Ground Zero, Prince Harry stepping down from a wildlife charity, and cloud seeding efforts in water-scarce states.",
-   "papers_summary": "Research explores AI's role in programming error explanations, visualization design pedagogy, and privacy expectations in smart homes, highlighting human-computer interaction challenges."
+   "brief": "Today's news highlights escalating US sanctions on Iran and threats of new tariffs on Canada, alongside domestic stories on immigration and AI security. Research focuses on improving visualization and human-computer interaction, including adaptive error explanations and data donation framing.",
+   "news_summary": "The US announced sweeping sanctions against Iran, while Trump threatened 50% tariffs on Canadian auto and steel imports, escalating trade tensions. Immigration enforcement and AI security also featured prominently.",
+   "papers_summary": "Research on visualization and human-computer interaction includes adaptive error explanations for programming, affective framing in data donation, and reflections on older adults in visualization research."
   },
   "zh": {
-   "brief": "今日新闻聚焦乌克兰前防长呼吁战时选举、塔利班治理阿富汗、Shein赴港上市等；论文方面无中文优先级内容，但英文区关注AI与灾难错误信息、编程错误解释等研究。",
-   "news_summary": "乌克兰前防长费多罗夫呼吁举行战时选举，总统泽连斯基警告可能引发政治海啸；BBC观察塔利班五年执政如何重塑阿富汗；快时尚Shein估值降至270亿美元拟在港上市；老干妈陶华碧的故事及恐惧心理学文章亦受关注。",
-   "papers_summary": "今日无中文优先级论文，英文论文涉及灾难中错误信息严重性评估、大语言模型解释编程错误、可视化教学概念清单等主题。"
+   "brief": "今日要闻：烏克蘭前防長呼籲戰時選舉，與澤連斯基對峙；塔利班執政五年重塑阿富汗；Shein赴港上市估值大減。研究方面，關注AI代理對技術文檔的影響及災難中的虛假信息評估。",
+   "news_summary": "烏克蘭前防長費多羅夫公開質問澤連斯基對貪腐的知情程度，呼籲舉行戰時選舉，總統警告此舉將引發政治海嘯。此外，BBC深入報導塔利班治下的阿富汗，以及移英港人社區的編織小組活動。",
+   "papers_summary": "最新研究探討編碼AI代理如何發現和閱讀技術文檔，以及如何利用大型語言模型改進編程錯誤訊息。另有研究提出評估災難期間虛假信息嚴重性的兩階段框架。"
   }
  },
  "todays_image": {
-  "caption": "Both William McKinley and the woman turn a site of national tragedy into a guided story, one through a fatal handshake line, the other through Ground Zero's echoes.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_69_34McKinley_d1",
-  "source_name": "National Portrait Gallery",
-  "source_url": "https://npg.si.edu/object/npg_NPG.69.34",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_69_34McKinley_d1",
-  "title": "William McKinley"
+  "caption": "Just as the post route map traces the pathways of old mail delivery, the U.S. treasury's financial offensive maps out a network of sanctions aimed at cutting off Iran's economic routes.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-1982_0157_811a",
+  "source_name": "National Postal Museum",
+  "source_url": "https://postalmuseum.si.edu/object/npm_1982.0157.811",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-1982_0157_811a",
+  "title": "Post route map of Maryland, Delaware, and D.C."
  }
 }
