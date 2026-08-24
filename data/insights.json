@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "query": "(\"sheep shearing championship\" OR \"golden shears\")",
   "source": {
-   "name": "nintendoeverything.com",
-   "published_at": "2026-08-21T01:45:00Z",
-   "title": "Dragon Quest Monsters : The Withered World details Thespidor , King Withers , and Scruffy , Taiboku and Lushland , Waterwing Can",
-   "url": "https://nintendoeverything.com/dragon-quest-monsters-the-withered-world-details-thespidor-king-withers-and-scruffy-taiboku-and-lushland-waterwing-can/"
+   "name": "nzherald.co.nz",
+   "published_at": "2026-08-18T01:15:00Z",
+   "title": "Laurie Keats dies at 92 after lifetime devoted to Golden Shears",
+   "url": "https://www.nzherald.co.nz/the-country/news/laurie-keats-dies-at-92-after-lifetime-devoted-to-golden-shears/J7CB5TDOKRBT7FDKQGWEDYJOQU/"
   },
   "summaries": {
    "en": {
-    "summary": "A video game news article details new characters and worlds in 'Dragon Quest Monsters: The Withered World'.",
-    "why_irrelevant": "It is a niche gaming topic, far from gardening or local news."
+    "summary": "Laurie Keats, a stalwart of the Golden Shears shearing competition, passed away at 92 after a life dedicated to the sport.",
+    "why_irrelevant": "Obituary for a niche figure in a regional event, far from general tech or business feeds."
    },
    "zh": {
-    "summary": "一篇游戏新闻文章介绍了《勇者斗恶龙怪兽篇：枯萎世界》中的新角色和世界。",
-    "why_irrelevant": "这是一个小众游戏话题，远离园艺或本地新闻。"
+    "summary": "剪毛比赛重要人物劳里·基茨去世，享年92岁，一生奉献给金色剪刀比赛。",
+    "why_irrelevant": "地方性小众人物的讣告，与主流新闻或科技话题无关。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "sheep shearing competitions"
  },
- "brief": "Today's news highlights escalating US sanctions on Iran and threats of new tariffs on Canada, alongside domestic stories on immigration and AI security. Research focuses on improving visualization and human-computer interaction, including adaptive error explanations and data donation framing.",
+ "brief": "The US Treasury escalates sanctions against Iran, while Trump announces new tariffs on Canadian goods, intensifying trade tensions. In research, papers explore AI explanations, visualization design, and the impact of framing on data donation.",
  "meta": {
-  "generated_at": "2026-08-24T18:57:36Z"
+  "generated_at": "2026-08-24T20:46:00Z"
  },
- "news_summary": "The US announced sweeping sanctions against Iran, while Trump threatened 50% tariffs on Canadian auto and steel imports, escalating trade tensions. Immigration enforcement and AI security also featured prominently.",
- "papers_summary": "Research on visualization and human-computer interaction includes adaptive error explanations for programming, affective framing in data donation, and reflections on older adults in visualization research.",
+ "news_summary": "US Treasury Secretary Scott Bessent announces a major sanctions offensive against Iran, while Trump threatens new tariffs on Canadian cars, trucks, and steel. Other news includes a deadly US strike in the Pacific, an SEC probe into an AI hedge fund, and a Gatwick car park fire.",
+ "papers_summary": "Recent papers cover topics like adaptive explanations for programming errors, reflections on visualization research with older adults, and affective framing in data donation. Also featured are studies on AI documentation and a concept inventory for visualization design.",
  "summaries": {
   "en": {
-   "brief": "Today's news highlights escalating US sanctions on Iran and threats of new tariffs on Canada, alongside domestic stories on immigration and AI security. Research focuses on improving visualization and human-computer interaction, including adaptive error explanations and data donation framing.",
-   "news_summary": "The US announced sweeping sanctions against Iran, while Trump threatened 50% tariffs on Canadian auto and steel imports, escalating trade tensions. Immigration enforcement and AI security also featured prominently.",
-   "papers_summary": "Research on visualization and human-computer interaction includes adaptive error explanations for programming, affective framing in data donation, and reflections on older adults in visualization research."
+   "brief": "The US Treasury escalates sanctions against Iran, while Trump announces new tariffs on Canadian goods, intensifying trade tensions. In research, papers explore AI explanations, visualization design, and the impact of framing on data donation.",
+   "news_summary": "US Treasury Secretary Scott Bessent announces a major sanctions offensive against Iran, while Trump threatens new tariffs on Canadian cars, trucks, and steel. Other news includes a deadly US strike in the Pacific, an SEC probe into an AI hedge fund, and a Gatwick car park fire.",
+   "papers_summary": "Recent papers cover topics like adaptive explanations for programming errors, reflections on visualization research with older adults, and affective framing in data donation. Also featured are studies on AI documentation and a concept inventory for visualization design."
   },
   "zh": {
-   "brief": "今日要闻：烏克蘭前防長呼籲戰時選舉，與澤連斯基對峙；塔利班執政五年重塑阿富汗；Shein赴港上市估值大減。研究方面，關注AI代理對技術文檔的影響及災難中的虛假信息評估。",
-   "news_summary": "烏克蘭前防長費多羅夫公開質問澤連斯基對貪腐的知情程度，呼籲舉行戰時選舉，總統警告此舉將引發政治海嘯。此外，BBC深入報導塔利班治下的阿富汗，以及移英港人社區的編織小組活動。",
-   "papers_summary": "最新研究探討編碼AI代理如何發現和閱讀技術文檔，以及如何利用大型語言模型改進編程錯誤訊息。另有研究提出評估災難期間虛假信息嚴重性的兩階段框架。"
+   "brief": "今日焦點包括烏克蘭前防長呼籲戰時選舉、美國對伊朗發動金融攻勢、以及塔利班治理阿富汗五年觀察；科技方面有LLM安全性研究與數據視覺化新論文。",
+   "news_summary": "烏克蘭前防長費多羅夫呼籲舉行戰時選舉，澤連斯基警告恐致政治海嘯；美國財政部宣布對伊朗發動史上最大金融攻勢，威脅制裁任何與伊朗有經濟往來的國家。",
+   "papers_summary": "研究探討語言模型可透過推論引擎控制主機、程式錯誤訊息的LLM適應性解釋，以及災難中虛假訊息的嚴重性評估框架。"
   }
  },
  "todays_image": {
-  "caption": "Just as the post route map traces the pathways of old mail delivery, the U.S. treasury's financial offensive maps out a network of sanctions aimed at cutting off Iran's economic routes.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-1982_0157_811a",
-  "source_name": "National Postal Museum",
-  "source_url": "https://postalmuseum.si.edu/object/npm_1982.0157.811",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-1982_0157_811a",
-  "title": "Post route map of Maryland, Delaware, and D.C."
+  "caption": "Just as Eyamba V’s autograph note once sought to navigate the trade pressures of his era, Iran now faces a modern economic onslaught of sanctions.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2018_46_8_6_001",
+  "source_name": "National Museum of African American History and Culture",
+  "source_url": "https://nmaahc.si.edu/object/nmaahc_2018.46.8.6",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2018_46_8_6_001",
+  "title": "Autograph note written to William Turner by Eyamba V"
  }
 }
