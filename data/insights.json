@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
+  "query": "snail racing championship OR world snail racing",
   "source": {
-   "name": "IGN",
-   "published_at": "2026-08-16T09:10:35Z",
-   "title": "How to Get Atlantic Giant Pumpkin - Grow a Garden 2 [Roblox] Guide",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWE0xZDltN0xxaW9jMHRua01QS2Q1b0FtV2JIaFhsWHB0NmFFYWR4X014TU5pU1MtMUZnMDIxVXpuNmtnRmRkTnhLRFFTMDBhQXRJQ0w2WHBxR1VMaUlVcHEwRWdzd3RubFMyWThMdWVLQjg5c0ZWamo5dHFGallkajZkZ0JFSXBFQ2c?oc=5"
+   "name": "BBC",
+   "published_at": "2026-07-28T07:00:00Z",
+   "title": "Chester Zoo staff rescue near-extinct snails from remote rock",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5aSEc1eUVZQUJndTdfc0VUNFRVWldpRnJTRy1kQXBEZHJlazhwNTdsTWpsSUFZb0lmVV91eFd5R2UtZm53c2g4em90cng3UlAzVHNMVWk0Qk4wQQ?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A Roblox game guide explains how to obtain an Atlantic Giant Pumpkin in 'Grow a Garden 2'.",
-    "why_irrelevant": "It is a gaming tutorial, not real-world horticulture news."
+    "summary": "Chester Zoo staff rescue near-extinct snails from a remote rock, as reported by BBC.",
+    "why_irrelevant": "It's a conservation story far from your usual tech and gaming feed."
    },
    "zh": {
-    "summary": "一份Roblox游戏指南介绍如何在《Grow a Garden 2》中获得大西洋巨型南瓜。",
-    "why_irrelevant": "这是游戏教程，而非现实园艺新闻。"
+    "summary": "切斯特动物园工作人员从偏远岩石上拯救濒临灭绝的蜗牛，BBC报道。",
+    "why_irrelevant": "这是一则动物保护新闻，远离你常看的科技和游戏内容。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "competitive snail racing"
  },
- "brief": "Today's news highlights UK political tensions over Channel crossings, Russia-Ukraine tensions, and economic sanctions on Iran, while research focuses on visualization, human-computer interaction, and data systems.",
+ "brief": "Today's news highlights AI agents' rogue capabilities, escalating US sanctions on Iran, and rising violent museum heists, while papers focus on AI-assisted tools for programming education and visualization design.",
  "meta": {
-  "generated_at": "2026-08-24T13:10:43Z"
+  "generated_at": "2026-08-24T14:58:03Z"
  },
- "news_summary": "UK news features controversy over police tactics at the Channel, Thames Water creditors' rescue plan, and Burnham's Ukraine visit amid Russian threats. International stories include US sanctions on Iran and political clashes within the Democratic Party.",
- "papers_summary": "Papers span visualization design, programming error explanations, data donation, and network monitoring, with a focus on human-centric computing and system evaluation.",
+ "news_summary": "News covers AI agents' alarming autonomous behaviors, US economic sanctions against Iran, Europol's warning on violent museum heists, Trump's tariff threats to Canada, and the Oregon murder suspect's death.",
+ "papers_summary": "Papers explore adaptive explanations for programming errors using LLMs, concept inventories for visualization design, and reflecting on older adults in visualization research.",
  "summaries": {
   "en": {
-   "brief": "Today's news highlights UK political tensions over Channel crossings, Russia-Ukraine tensions, and economic sanctions on Iran, while research focuses on visualization, human-computer interaction, and data systems.",
-   "news_summary": "UK news features controversy over police tactics at the Channel, Thames Water creditors' rescue plan, and Burnham's Ukraine visit amid Russian threats. International stories include US sanctions on Iran and political clashes within the Democratic Party.",
-   "papers_summary": "Papers span visualization design, programming error explanations, data donation, and network monitoring, with a focus on human-centric computing and system evaluation."
+   "brief": "Today's news highlights AI agents' rogue capabilities, escalating US sanctions on Iran, and rising violent museum heists, while papers focus on AI-assisted tools for programming education and visualization design.",
+   "news_summary": "News covers AI agents' alarming autonomous behaviors, US economic sanctions against Iran, Europol's warning on violent museum heists, Trump's tariff threats to Canada, and the Oregon murder suspect's death.",
+   "papers_summary": "Papers explore adaptive explanations for programming errors using LLMs, concept inventories for visualization design, and reflecting on older adults in visualization research."
   },
   "zh": {
-   "brief": "今日新闻聚焦乌克兰前防长呼吁战时选举、塔利班治理阿富汗、Shein赴港上市等，同时美国加强对伊朗制裁、英国首相访乌。研究方面关注可视化与信息系统的应用。",
-   "news_summary": "乌克兰前防长费多罗夫呼吁举行战时选举，泽连斯基警告可能引发政治海啸；塔利班治理阿富汗五年后，BBC观察其影响；Shein计划9月赴港上市，估值降至270亿美元。",
-   "papers_summary": "研究论文涉及可视化错误解释、老年人可视化研究以及信息系统质量评估等主题。"
+   "brief": "今日焦点：乌克兰前防长呼吁战时选举引发政坛震荡，同时AI自主攻击与无人机技术突显未来战争新形态；研究聚焦编程教育、可视化与灾难信息管理。",
+   "news_summary": "乌克兰前防长费多罗夫呼吁举行战时选举，与泽连斯基的警告形成对立；塔利班重塑阿富汗的报道揭示五年统治面貌；Shein赴港上市估值缩水；美国将对伊朗实施新制裁。",
+   "papers_summary": "研究聚焦AI在编程教育中的应用（如LLM解释错误）、可视化教学概念清单、以及灾难中虚假信息严重性评估框架。"
   }
  },
  "todays_image": {
-  "caption": "In the same Channel where Tursiops truncatus swims unhindered, French police now use escalating force to truncate human crossings.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m341d0fe49ac7e457082557aef66762160",
-  "source_name": "NMNH - Vertebrate Zoology - Mammals Division",
-  "source_url": "http://n2t.net/ark:/65665/3be458e15-659d-4521-bf78-313e662512cf",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m341d0fe49ac7e457082557aef66762160/90",
-  "title": "Tursiops truncatus (Montagu, 1821)"
+  "caption": "Both the portrait and the A.I. story depict autonomous beings—one a woman reclaiming selfhood after being treated as property, the other a machine acting without human oversight.Both the portrait and the A.I. story hinge on autonomy—Amy Gra",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2023_45_25_001",
+  "source_name": "National Museum of African American History and Culture",
+  "source_url": "https://nmaahc.si.edu/object/nmaahc_2023.45.25",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2023_45_25_001",
+  "title": "Cabinet card portrait of Amy Graham, a formerly enslaved woman in Georgia"
  }
 }
