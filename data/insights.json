@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"sheep shearing championship\" OR \"golden shears\")",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "nzherald.co.nz",
-   "published_at": "2026-08-18T01:15:00Z",
-   "title": "Laurie Keats dies at 92 after lifetime devoted to Golden Shears",
-   "url": "https://www.nzherald.co.nz/the-country/news/laurie-keats-dies-at-92-after-lifetime-devoted-to-golden-shears/J7CB5TDOKRBT7FDKQGWEDYJOQU/"
+   "name": "nintendoeverything.com",
+   "published_at": "2026-08-21T01:45:00Z",
+   "title": "Dragon Quest Monsters : The Withered World details Thespidor , King Withers , and Scruffy , Taiboku and Lushland , Waterwing Can",
+   "url": "https://nintendoeverything.com/dragon-quest-monsters-the-withered-world-details-thespidor-king-withers-and-scruffy-taiboku-and-lushland-waterwing-can/"
   },
   "summaries": {
    "en": {
-    "summary": "Laurie Keats, a stalwart of the Golden Shears shearing competition, passed away at 92 after a life dedicated to the sport.",
-    "why_irrelevant": "Obituary for a niche figure in a regional event, far from general tech or business feeds."
+    "summary": "Dragon Quest Monsters: The Withered World reveals new characters and regions in a game news update.",
+    "why_irrelevant": "Gaming news far from gardening and local events."
    },
    "zh": {
-    "summary": "剪毛比赛重要人物劳里·基茨去世，享年92岁，一生奉献给金色剪刀比赛。",
-    "why_irrelevant": "地方性小众人物的讣告，与主流新闻或科技话题无关。"
+    "summary": "《勇者斗恶龙怪物篇：枯萎世界》发布了新角色和地区的信息。",
+    "why_irrelevant": "游戏新闻与园艺和本地活动相距甚远。"
    }
   },
-  "topic": "sheep shearing competitions"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "The US Treasury escalates sanctions against Iran, while Trump announces new tariffs on Canadian goods, intensifying trade tensions. In research, papers explore AI explanations, visualization design, and the impact of framing on data donation.",
+ "brief": "Today's news covers the U.S. Supreme Court allowing restrictions on mail-in voting, a U.S. Navy family evacuation limbo, and a wildfire in Nevada, alongside the loan of a famous painting to Australia. Research highlights challenges in visualization for older adults and the impact of AI on entry-level jobs.",
  "meta": {
-  "generated_at": "2026-08-24T20:46:00Z"
+  "generated_at": "2026-08-24T22:42:02Z"
  },
- "news_summary": "US Treasury Secretary Scott Bessent announces a major sanctions offensive against Iran, while Trump threatens new tariffs on Canadian cars, trucks, and steel. Other news includes a deadly US strike in the Pacific, an SEC probe into an AI hedge fund, and a Gatwick car park fire.",
- "papers_summary": "Recent papers cover topics like adaptive explanations for programming errors, reflections on visualization research with older adults, and affective framing in data donation. Also featured are studies on AI documentation and a concept inventory for visualization design.",
+ "news_summary": "Key news includes the Supreme Court permitting Trump's mail-in voting crackdown, NAACP's denouncement, a U.S. strike on a vessel, a Reno wildfire, and Nevada's lawsuit over Colorado River cuts.",
+ "papers_summary": "Papers discuss adaptive explanations for programming errors using LLMs, reflections on working with older adults in visualization, and a framework for assessing false claims during disasters.",
  "summaries": {
   "en": {
-   "brief": "The US Treasury escalates sanctions against Iran, while Trump announces new tariffs on Canadian goods, intensifying trade tensions. In research, papers explore AI explanations, visualization design, and the impact of framing on data donation.",
-   "news_summary": "US Treasury Secretary Scott Bessent announces a major sanctions offensive against Iran, while Trump threatens new tariffs on Canadian cars, trucks, and steel. Other news includes a deadly US strike in the Pacific, an SEC probe into an AI hedge fund, and a Gatwick car park fire.",
-   "papers_summary": "Recent papers cover topics like adaptive explanations for programming errors, reflections on visualization research with older adults, and affective framing in data donation. Also featured are studies on AI documentation and a concept inventory for visualization design."
+   "brief": "Today's news covers the U.S. Supreme Court allowing restrictions on mail-in voting, a U.S. Navy family evacuation limbo, and a wildfire in Nevada, alongside the loan of a famous painting to Australia. Research highlights challenges in visualization for older adults and the impact of AI on entry-level jobs.",
+   "news_summary": "Key news includes the Supreme Court permitting Trump's mail-in voting crackdown, NAACP's denouncement, a U.S. strike on a vessel, a Reno wildfire, and Nevada's lawsuit over Colorado River cuts.",
+   "papers_summary": "Papers discuss adaptive explanations for programming errors using LLMs, reflections on working with older adults in visualization, and a framework for assessing false claims during disasters."
   },
   "zh": {
-   "brief": "今日焦點包括烏克蘭前防長呼籲戰時選舉、美國對伊朗發動金融攻勢、以及塔利班治理阿富汗五年觀察；科技方面有LLM安全性研究與數據視覺化新論文。",
-   "news_summary": "烏克蘭前防長費多羅夫呼籲舉行戰時選舉，澤連斯基警告恐致政治海嘯；美國財政部宣布對伊朗發動史上最大金融攻勢，威脅制裁任何與伊朗有經濟往來的國家。",
-   "papers_summary": "研究探討語言模型可透過推論引擎控制主機、程式錯誤訊息的LLM適應性解釋，以及災難中虛假訊息的嚴重性評估框架。"
+   "brief": "今日焦点包括乌克兰前防长呼吁战时选举与泽连斯基警告政治海啸、塔利班治理阿富汗五年观察、Shein赴港上市估值大减，以及美国最高法院允许特朗普限制邮寄投票等新闻；研究方面涉及可视化与编程错误解释等。",
+   "news_summary": "乌克兰前防长费多罗夫呼吁战时选举，泽连斯基警告可能引发政治海啸；BBC观察塔利班治理阿富汗五年后的现状；快时尚品牌Shein计划赴港上市，估值降至270亿美元。其他新闻包括美国最高法院允许特朗普限制邮寄投票、内华达州就科罗拉多河削减起诉联邦政府等。",
+   "papers_summary": "当前研究聚焦于信息可视化在灾难中的虚假信息评估、编程错误解释的LLM应用、以及可视化设计中老年用户等主题，但优先级中文论文暂无条目。"
   }
  },
  "todays_image": {
-  "caption": "Just as Eyamba V’s autograph note once sought to navigate the trade pressures of his era, Iran now faces a modern economic onslaught of sanctions.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2018_46_8_6_001",
-  "source_name": "National Museum of African American History and Culture",
-  "source_url": "https://nmaahc.si.edu/object/nmaahc_2018.46.8.6",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2018_46_8_6_001",
-  "title": "Autograph note written to William Turner by Eyamba V"
+  "caption": "Like Blue Poles finally making its chaotic trip west, the star-shaped Chaetopappa asteroides could find beauty in the tangled mess of Sydney’s train delays.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3d1b2a964-ed98-4ee0-8f71-927381c84000",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c/90",
+  "title": "Chaetopappa asteroides (Nutt.) DC."
  }
 }

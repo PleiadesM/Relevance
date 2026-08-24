@@ -18,7 +18,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-24T00:00:00Z",
-   "score": 0.4083,
+   "score": 0.4021,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -46,7 +46,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-24T00:00:00Z",
-   "score": 0.4083,
+   "score": 0.4021,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -73,7 +73,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-24T00:00:00Z",
-   "score": 0.5458,
+   "score": 0.5396,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -101,7 +101,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-21T11:09:51Z",
-   "score": 0.5228,
+   "score": 0.519,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -128,7 +128,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-21T09:14:28Z",
-   "score": 0.659,
+   "score": 0.6552,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -154,7 +154,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-21T03:02:31Z",
-   "score": 0.5471,
+   "score": 0.5436,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -165,6 +165,36 @@
    "title": "Reflections on Working with Older Adults in Visualization Research",
    "url": "https://arxiv.org/abs/2608.20696v1",
    "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Daan H. de Groot",
+    "Sarah X Morillo Leonardo",
+    "M. Pachkov",
+    "E. van Nimwegen"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Single-cell omics methods provide sparse, noisy measurements of high-dimensional cell states, whose underlying distributions remain poorly understood, raising an urgent need for exploratory analysis and visualization methods. However, current methods are ad hoc and uninterpretable, and they distort the structure in the data. We overcome these challenges by representing data on trees and present Bonsai, a method that reconstructs the most likely tree relating any set of high-dimensional objects…",
+    "arxiv_id": null,
+    "citations": 0,
+    "doi": "10.1038/s41587-026-03220-2"
+   },
+   "id": "43e27fcc767d5ba2",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-21T00:00:00Z",
+   "score": 0.3709,
+   "section": "papers",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "Single-cell omics methods provide sparse, noisy measurements of high-dimensional cell states, whose underlying distributions remain poorly understood, raising an urgent need for exploratory analysis and visualization methods. However, current methods are ad hoc and uninterpretable, and they distort…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Bonsai reconstructs tree representations for distortion-free visualization and exploration of high-dimensional data.",
+   "url": "https://www.semanticscholar.org/paper/82b488101ccc8bb5b4493fffd90d935bea844c09",
+   "venue": "Nature Biotechnology"
   },
   {
    "authors": [
@@ -186,7 +216,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T19:36:01Z",
-   "score": 0.674,
+   "score": 0.6708,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -212,7 +242,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T15:51:54Z",
-   "score": 0.4879,
+   "score": 0.4848,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -241,7 +271,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T14:23:07Z",
-   "score": 0.333,
+   "score": 0.33,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -270,7 +300,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T12:17:24Z",
-   "score": 0.4822,
+   "score": 0.4793,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -300,7 +330,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T10:35:00Z",
-   "score": 0.2871,
+   "score": 0.2842,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -326,7 +356,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T09:27:56Z",
-   "score": 0.4779,
+   "score": 0.4751,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -354,7 +384,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T03:54:52Z",
-   "score": 0.2774,
+   "score": 0.2747,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -381,7 +411,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T01:32:06Z",
-   "score": 0.2741,
+   "score": 0.2715,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -390,6 +420,35 @@
    "title": "Generating Diverse Personas for User Simulators to Test Interview Dialogue Systems",
    "url": "https://arxiv.org/abs/2608.19549v1",
    "venue": "arXiv cs.CL"
+  },
+  {
+   "authors": [
+    "S. Savoska",
+    "Suzana Loshkovska"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Selecting an appropriate visualization technique for multidimensional and multivariate financial and accounting (F&A) data remains a complex, user-dependent task. The TaxUI&BV4FADA taxonomy previously organized this problem along four dimensions—visualization techniques, user intentions and analytical goals, interaction possibilities, and user groups—but as a human-readable structure, it could not be queried, validated, or integrated into semantic decision-support pipelines. This paper presents…",
+    "arxiv_id": null,
+    "citations": 0,
+    "doi": "10.3390/informatics13080135"
+   },
+   "id": "db38607bcd02e926",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-20T00:00:00Z",
+   "score": 0.4427,
+   "section": "papers",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "Selecting an appropriate visualization technique for multidimensional and multivariate financial and accounting (F&A) data remains a complex, user-dependent task. The TaxUI&BV4FADA taxonomy previously organized this problem along four dimensions—visualization techniques, user intentions and…",
+   "tags": [
+    "systems",
+    "visualization"
+   ],
+   "title": "An Ontological Framework for Multidimensional and Multivariate Data Visualization with Applications to Financial and Accounting Data",
+   "url": "https://www.semanticscholar.org/paper/a565877cac66b2362b37f72638afe2f062146480",
+   "venue": "Informatics"
   },
   {
    "authors": [
@@ -403,6 +462,10 @@
     "abstract_snippet": "Scientific visualization is an active site of infrastructuring with many layers of data and evidential claims. This paper reflects on collaborative Mars geoscience research conducted at the NASA Jet Propulsion Lab, which produced the PIXLISE spectroscopic analysis platform, through a retrospective analysis of a scientific discovery made by the team using PIXLISE. The history of infrastructuring in scientific visualization is exceedingly rich, which presents an opportunity for archival research.…",
     "also_in": [
      {
+      "source": "Semantic Scholar · data visualization",
+      "url": "https://www.semanticscholar.org/paper/29f89bd2d7274fd6317abe4adfd8e113727c1e6a"
+     },
+     {
       "source": "arXiv cs.HC (writing & docs)",
       "url": "https://arxiv.org/abs/2608.19413v1"
      }
@@ -413,7 +476,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T19:51:36Z",
-   "score": 0.4992,
+   "score": 0.4968,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -443,7 +506,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T09:22:18Z",
-   "score": 0.2942,
+   "score": 0.292,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -472,7 +535,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-19T08:31:09Z",
-   "score": 0.4857,
+   "score": 0.4836,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -483,11 +546,165 @@
    "title": "Sounds Uncertain: Exploring the Affective Aspects of Sonification for Uncertainty Visualization",
    "url": "https://arxiv.org/abs/2608.18680v1",
    "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Tomáš Šuvada",
+    "Matej Masný",
+    "Richard Kopáčik",
+    "Ján Spišiak"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "The study area is situated in the Low Tatras Mountains – a typical example of the Tatric crystalline basement of the Western Carpathians in Slovakia. The geological exploration took place between 1980 and 1991 and is considered one of the most complex and detailed tasks in Slovak ore-body exploration. As a result, a 2 km2 mineral deposit was delineated and studied for scheelite-gold ore bodies. The deposit was considered economically marginal and non-economic for further search and mining under…",
+    "arxiv_id": null,
+    "citations": 0,
+    "doi": "10.5194/egusphere-alpshop2026-44"
+   },
+   "id": "c087ccb787447a5e",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-19T00:00:00Z",
+   "score": 0.3215,
+   "section": "papers",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "The study area is situated in the Low Tatras Mountains – a typical example of the Tatric crystalline basement of the Western Carpathians in Slovakia. The geological exploration took place between 1980 and 1991 and is considered one of the most complex and detailed tasks in Slovak ore-body…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Digitalization and Spatial Visualization of Exploration Drillhole Data Using the Open-Source GIS Platform QGIS: A Case Study of the Jasenie-Kyslá W-Au Ore Deposit, Central Slovakia, Western Carpathians",
+   "url": "https://www.semanticscholar.org/paper/61886e300e82a8f544a42ae0b996f42099daf30e",
+   "venue": "17th EGU Émile Argand Conference on Alpine Geological Studies"
+  },
+  {
+   "authors": [
+    "Jiashuo Chen",
+    "Yi Zhang",
+    "Xinran Li"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "arxiv_id": null,
+    "citations": 0,
+    "doi": "10.1080/10447318.2026.2712808"
+   },
+   "id": "452ceabbec019f25",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-19T00:00:00Z",
+   "score": 0.184,
+   "section": "papers",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "",
+   "tags": [
+    "visualization"
+   ],
+   "title": "VizCouple: Automating Visualization Generation and Integration from Data-Rich Documents",
+   "url": "https://www.semanticscholar.org/paper/02394d8116ceb623a2fc75fbc468c3f7f5f317dc",
+   "venue": "International Journal of Human-Computer Interaction"
+  },
+  {
+   "authors": [
+    "Ruizhe Wang",
+    "Yixuan Dong",
+    "Bolin Yang",
+    "BingoWing-Kuen Ling",
+    "Fuji Yang",
+    "Zelin Zang"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Motivation: Low-dimensional embeddings are widely used to explore cell-state heterogeneity in single-cell and other high-dimensional biological data. Although many methods preserve local neighborhoods, they may distort the apparent sampling density of processed observations, altering the visual contrast between dense and sparse regions and complicating the interpretation of rare, transitional, or continuous cell-state populations. Results: We present DMT-Dens, a parametric…",
+    "arxiv_id": "2608.17571",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "fdb084a63cc74e64",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-18T00:00:00Z",
+   "score": 0.1681,
+   "section": "papers",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "Motivation: Low-dimensional embeddings are widely used to explore cell-state heterogeneity in single-cell and other high-dimensional biological data. Although many methods preserve local neighborhoods, they may distort the apparent sampling density of processed observations, altering the visual…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "DMT-Dens: Density-preserving manifold visualization for biological data",
+   "url": "https://www.semanticscholar.org/paper/56d8addf5622044d4f2b7e7621bb6aa344eb98ed",
+   "venue": null
+  },
+  {
+   "authors": [
+    "Nicolas F. Fernandez",
+    "Jaspreet Ishar",
+    "Huan Wang",
+    "Amin Ben Saad",
+    "Michal Lipinski",
+    "S. Farhi"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Spatial-transcriptomics integrates high-dimensional single-cell data with microscopy to reveal cellular states, communication, and tissue organization. Analyzing this data requires a combination of multi-modal data processing, high-dimensional data analysis, spatial analysis, and integrated visualization. However, computational analysis is increasingly becoming a bottleneck as approaches mature and dataset sizes increase. Additionally, visualization can be challenging as open-source…",
+    "arxiv_id": null,
+    "citations": 0,
+    "doi": "10.64898/2026.08.13.744672"
+   },
+   "id": "114411ef17cdaa55",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-18T00:00:00Z",
+   "score": 0.1681,
+   "section": "papers",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "Spatial-transcriptomics integrates high-dimensional single-cell data with microscopy to reveal cellular states, communication, and tissue organization. Analyzing this data requires a combination of multi-modal data processing, high-dimensional data analysis, spatial analysis, and integrated…",
+   "tags": [
+    "systems",
+    "visualization"
+   ],
+   "title": "Celldega: Integrated Toolkit for Visualization and Analysis of Spatial Data",
+   "url": "https://www.semanticscholar.org/paper/58f29f23bf82b1268ba5c8de570274bca21a16d2",
+   "venue": "bioRxiv"
+  },
+  {
+   "authors": [
+    "Timbwaoga A. J. Ouermi",
+    "N. Gottschling",
+    "Alex Gorczowski",
+    "Tushar M. Athawale"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Uncertainty visualization has been shown to be pivotal for conveying the reliability of features extracted from scalar fields. Features represented by isocontours, mean isocontours lack an indication of spatial uncertainty, whereas spaghetti isocontour plots can become cluttered and difficult to interpret. Existing methods relying on specific distribution assumptions, such as Gaussian and nonparametric bootstrap, to provide compact clutter-free spatial confidence bounds but may underestimate…",
+    "arxiv_id": "2608.18220",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "ccdc8576a6be7213",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-18T00:00:00Z",
+   "score": 0.3056,
+   "section": "papers",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "Uncertainty visualization has been shown to be pivotal for conveying the reliability of features extracted from scalar fields. Features represented by isocontours, mean isocontours lack an indication of spatial uncertainty, whereas spaghetti isocontour plots can become cluttered and difficult to…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Distribution-Agnostic Isocontour Confidence Bounds for Robust Uncertainty Visualization of Scalar Field Data",
+   "url": "https://www.semanticscholar.org/paper/885093037f5ea392e424b93121482a12dfffbc42",
+   "venue": null
   }
  ],
  "meta": {
-  "count": 17,
-  "generated_at": "2026-08-24T20:46:00Z",
+  "count": 24,
+  "generated_at": "2026-08-24T22:42:02Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -517,7 +734,7 @@
    },
    {
     "category": "optional",
-    "count": 0,
+    "count": 30,
     "error": null,
     "full_text_count": 0,
     "id": "s2_datavis",
