@@ -1,0 +1,89 @@
+{
+ "meta": {
+  "count": 2,
+  "generated_at": "2026-08-24T16:53:38Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "full_text_file": "articles/news/ce461231895c117b.json",
+     "item_id": "ce461231895c117b",
+     "phrase": {
+      "en": "practical tips for classroom AI",
+      "zh": "课堂AI实用建议"
+     },
+     "section": "news",
+     "source": "MIT Technology Review · AI",
+     "url": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/"
+    },
+    {
+     "item_id": "5d9003a1dcd5153b",
+     "phrase": {
+      "en": "LLMs explain coding errors adaptively",
+      "zh": "大模型自适应解释编程错误"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.20896v1"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Chatbots enter classrooms, promising help but raising questions about how to use them wisely.",
+    "zh": "聊天机器人走进课堂，带来帮助也引发如何善用的问题。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI in Education",
+    "zh": "AI教育应用"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about human-AI interaction: today's MIT piece offers practical guidance for smarter AI use in teaching.",
+    "zh": "你关注人机交互，今日MIT文章为教学中的AI应用提供实用指引。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "full_text_file": "articles/news/2e470b823f390114.json",
+     "item_id": "2e470b823f390114",
+     "phrase": {
+      "en": "Nvidia manager indicted for smuggling",
+      "zh": "英伟达经理因走私被起诉"
+     },
+     "section": "news",
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china/"
+    },
+    {
+     "item_id": "f1b8e7979ad2a5fb",
+     "phrase": {
+      "en": "tariffs on vehicles and steel",
+      "zh": "对汽车和钢铁加征关税"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/live/2026/aug/24/hakeem-jeffries-jared-kushner-democrats-midterm-elections-donald-trump-iran-war-sanctions-latest-news-updates"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Chips that power AI become pawns in geopolitical games, with smuggling and sanctions in the spotlight.",
+    "zh": "驱动AI的芯片沦为地缘政治棋子，走私与制裁成为焦点。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "AI Chip Export Controls",
+    "zh": "AI芯片出口管制"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track tech policy: an Nvidia insider is indicted over smuggling AI servers to China, highlighting enforcement battles.",
+    "zh": "你关注技术政策，英伟达内部人员因向中国走私AI服务器被起诉，凸显执法博弈。"
+   }
+  }
+ ]
+}

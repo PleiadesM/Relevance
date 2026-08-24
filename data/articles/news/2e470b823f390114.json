@@ -1,0 +1,28 @@
+{
+ "full_text": "Taiwan has indicted nine people— reportedly including an Nvidia senior manager and two Supermicro employees based in the country—who allegedly helped forge documents to cover up illegal exports of high-end AI servers to China in violation of US export controls.\n\nOn Monday, Reuters reported that prosecutors in Keelung did not release any names but confirmed that the suspects were “charged with breach of trust and document forgery.” One suspect linked to a related case remains at large, accused of the “siphoning of funds from a distributor company involved” in helping China get access to restricted Nvidia chips.\n\nSince 2022, the US has required a license to export semiconductors to China, with the intent of protecting national security by staying ahead of China in the AI race. But after the US arrested Supermicro co-founder Wally Liaw in March for allegedly funneling $2.5 billion in restricted AI servers to China since 2024, Taiwan launched a separate probe to learn more about the scheme.\n\nRead full article\n\nComments",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/2e470b823f390114.json",
+  "id": "2e470b823f390114",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-08-24T16:41:45Z",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai",
+  "summary": "Nvidia worker indicted after Jensen Huang scolded Supermicro for AI server smuggling.",
+  "tags": [],
+  "title": "Nvidia senior manager linked to Supermicro scheme smuggling AI servers to China",
+  "url": "https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china/"
+ },
+ "meta": {
+  "content_hash": "67b162af75d7390b",
+  "generated_at": "2026-08-24T16:53:38Z",
+  "item_id": "2e470b823f390114",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai"
+ }
+}

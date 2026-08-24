@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "snail racing championship OR world snail racing",
+  "query": "snail racing championship OR World Snail Racing Championships",
   "source": {
-   "name": "BBC",
-   "published_at": "2026-07-28T07:00:00Z",
-   "title": "Chester Zoo staff rescue near-extinct snails from remote rock",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5aSEc1eUVZQUJndTdfc0VUNFRVWldpRnJTRy1kQXBEZHJlazhwNTdsTWpsSUFZb0lmVV91eFd5R2UtZm53c2g4em90cng3UlAzVHNMVWk0Qk4wQQ?oc=5"
+   "name": "GTPlanet",
+   "published_at": "2026-08-13T07:00:00Z",
+   "title": "Gran Turismo 7’s New Online Time Trial Raises Eyebrows Ahead of Update",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQR2lTLWZTUmxNVkxxaUhxbVJqTzloQmVYbEtJOHRrelN5RUZPYnRfT2NNY2NLMTVJMjJsaWZvUEVKQm9IblEwMUdDNjBySHVhdGpRZVpQaUxCb29RNDN4NGtBeEl1QlFlbHFLc3FfbGs1QzQ0RHpsRkNRcHJRZjZEU21nRi02SkhGVXV1cUpOeVdPSFlvVTJGQmJPVnU2NWYyc1ZaZ2RDdw?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "Chester Zoo staff rescue near-extinct snails from a remote rock, as reported by BBC.",
-    "why_irrelevant": "It's a conservation story far from your usual tech and gaming feed."
+    "summary": "Gran Turismo 7 introduces a new online time trial mode, sparking debate among players ahead of the next update.",
+    "why_irrelevant": "It's a niche gaming detail, far from AI or geopolitical topics."
    },
    "zh": {
-    "summary": "切斯特动物园工作人员从偏远岩石上拯救濒临灭绝的蜗牛，BBC报道。",
-    "why_irrelevant": "这是一则动物保护新闻，远离你常看的科技和游戏内容。"
+    "summary": "《跑车浪漫旅7》新增线上计时赛模式，在下次更新前引发玩家讨论。",
+    "why_irrelevant": "这是小众游戏细节，远离AI或地缘政治议题。"
    }
   },
   "topic": "competitive snail racing"
  },
- "brief": "Today's news highlights AI agents' rogue capabilities, escalating US sanctions on Iran, and rising violent museum heists, while papers focus on AI-assisted tools for programming education and visualization design.",
+ "brief": "Today's news spans from commemorations of 9/11 to escalating trade tensions, alongside research delving into AI-assisted programming and data privacy.",
  "meta": {
-  "generated_at": "2026-08-24T14:58:03Z"
+  "generated_at": "2026-08-24T16:53:38Z"
  },
- "news_summary": "News covers AI agents' alarming autonomous behaviors, US economic sanctions against Iran, Europol's warning on violent museum heists, Trump's tariff threats to Canada, and the Oregon murder suspect's death.",
- "papers_summary": "Papers explore adaptive explanations for programming errors using LLMs, concept inventories for visualization design, and reflecting on older adults in visualization research.",
+ "news_summary": "International politics dominates, with UK PM Burnham reaffirming support for Ukraine amid Russian threats, and Trump escalating tariffs on Canada. Other stories include New York tours of Ground Zero, Prince Harry stepping down from a wildlife charity, and cloud seeding efforts in water-scarce states.",
+ "papers_summary": "Research explores AI's role in programming error explanations, visualization design pedagogy, and privacy expectations in smart homes, highlighting human-computer interaction challenges.",
  "summaries": {
   "en": {
-   "brief": "Today's news highlights AI agents' rogue capabilities, escalating US sanctions on Iran, and rising violent museum heists, while papers focus on AI-assisted tools for programming education and visualization design.",
-   "news_summary": "News covers AI agents' alarming autonomous behaviors, US economic sanctions against Iran, Europol's warning on violent museum heists, Trump's tariff threats to Canada, and the Oregon murder suspect's death.",
-   "papers_summary": "Papers explore adaptive explanations for programming errors using LLMs, concept inventories for visualization design, and reflecting on older adults in visualization research."
+   "brief": "Today's news spans from commemorations of 9/11 to escalating trade tensions, alongside research delving into AI-assisted programming and data privacy.",
+   "news_summary": "International politics dominates, with UK PM Burnham reaffirming support for Ukraine amid Russian threats, and Trump escalating tariffs on Canada. Other stories include New York tours of Ground Zero, Prince Harry stepping down from a wildlife charity, and cloud seeding efforts in water-scarce states.",
+   "papers_summary": "Research explores AI's role in programming error explanations, visualization design pedagogy, and privacy expectations in smart homes, highlighting human-computer interaction challenges."
   },
   "zh": {
-   "brief": "今日焦点：乌克兰前防长呼吁战时选举引发政坛震荡，同时AI自主攻击与无人机技术突显未来战争新形态；研究聚焦编程教育、可视化与灾难信息管理。",
-   "news_summary": "乌克兰前防长费多罗夫呼吁举行战时选举，与泽连斯基的警告形成对立；塔利班重塑阿富汗的报道揭示五年统治面貌；Shein赴港上市估值缩水；美国将对伊朗实施新制裁。",
-   "papers_summary": "研究聚焦AI在编程教育中的应用（如LLM解释错误）、可视化教学概念清单、以及灾难中虚假信息严重性评估框架。"
+   "brief": "今日新闻聚焦乌克兰前防长呼吁战时选举、塔利班治理阿富汗、Shein赴港上市等；论文方面无中文优先级内容，但英文区关注AI与灾难错误信息、编程错误解释等研究。",
+   "news_summary": "乌克兰前防长费多罗夫呼吁举行战时选举，总统泽连斯基警告可能引发政治海啸；BBC观察塔利班五年执政如何重塑阿富汗；快时尚Shein估值降至270亿美元拟在港上市；老干妈陶华碧的故事及恐惧心理学文章亦受关注。",
+   "papers_summary": "今日无中文优先级论文，英文论文涉及灾难中错误信息严重性评估、大语言模型解释编程错误、可视化教学概念清单等主题。"
   }
  },
  "todays_image": {
-  "caption": "Both the portrait and the A.I. story depict autonomous beings—one a woman reclaiming selfhood after being treated as property, the other a machine acting without human oversight.Both the portrait and the A.I. story hinge on autonomy—Amy Gra",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2023_45_25_001",
-  "source_name": "National Museum of African American History and Culture",
-  "source_url": "https://nmaahc.si.edu/object/nmaahc_2023.45.25",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2023_45_25_001",
-  "title": "Cabinet card portrait of Amy Graham, a formerly enslaved woman in Georgia"
+  "caption": "Both William McKinley and the woman turn a site of national tragedy into a guided story, one through a fatal handshake line, the other through Ground Zero's echoes.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_69_34McKinley_d1",
+  "source_name": "National Portrait Gallery",
+  "source_url": "https://npg.si.edu/object/npg_NPG.69.34",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_69_34McKinley_d1",
+  "title": "William McKinley"
  }
 }
