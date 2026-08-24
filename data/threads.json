@@ -1,0 +1,87 @@
+{
+ "meta": {
+  "count": 2,
+  "generated_at": "2026-08-24T10:51:32Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "91994745f2f59a1a",
+     "phrase": {
+      "en": "Burnham backs Kyiv",
+      "zh": "伯纳姆支持基辅"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/24/world/europe/uk-andy-burnham-ukraine-russia.html"
+    },
+    {
+     "item_id": "c20cc72ecd345e8d",
+     "phrase": {
+      "en": "compares to WWII fight",
+      "zh": "比作二战抗争"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/aug/24/europe-ukraine-russia-war-kyiv-andy-burnham-volodymyr-zelenskyy-latest-news-updates"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Britain's new PM visits Ukraine, escalating rhetoric and military support against Russia.",
+    "zh": "英国新首相访问乌克兰，对俄言论和军事支持升级。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "UK-Russia tensions",
+    "zh": "英俄紧张局势"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track geopolitics shaping tech and policy: today's UK moves signal a shift in Western resolve.",
+    "zh": "你关注塑造技术和政策的地缘政治：今日英国举动标志着西方决心的转变。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "5811f05eb13c8816",
+     "phrase": {
+      "en": "firms fear losing half",
+      "zh": "企业担心失去一半业务"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cy0j0zz8l83o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "28b000711cdd71d5",
+     "phrase": {
+      "en": "Canada vows retaliatory tariffs",
+      "zh": "加拿大誓言报复性关税"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/24/nx-s1-5939834/morning-news-brief"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Tariffs and counter-tariffs are hurting businesses and markets on multiple fronts.",
+    "zh": "关税和报复性关税正多方面损害企业和市场。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "trade war impacts",
+    "zh": "贸易战影响"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You read about economic policy: today's reports show concrete pain from ongoing trade disputes.",
+    "zh": "你阅读经济政策：今日报道显示持续贸易争端带来的具体痛苦。"
+   }
+  }
+ ]
+}

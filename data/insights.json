@@ -9,32 +9,40 @@
   },
   "summaries": {
    "en": {
-    "summary": "A guide on getting an Atlantic Giant Pumpkin in the Roblox game 'Grow a Garden 2'.",
-    "why_irrelevant": "Video game strategy far removed from real-world news."
+    "summary": "A Roblox game guide explains how to obtain an Atlantic Giant Pumpkin in the virtual gardening experience.",
+    "why_irrelevant": "A fictional game item far from real-world pumpkin contests."
    },
    "zh": {
-    "summary": "关于在Roblox游戏《Grow a Garden 2》中获得巨型南瓜的指南。",
-    "why_irrelevant": "游戏攻略，远离现实新闻。"
+    "summary": "一份Roblox游戏指南讲解如何在虚拟园艺体验中获得大西洋巨型南瓜。",
+    "why_irrelevant": "虚构游戏物品，远离现实南瓜比赛。"
    }
   },
   "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news covers a mix of tragedy, politics, and nature, from a deputy's death to wildfire evacuations and beaver births. Papers focus on human-centered computing, addressing false claims, programming errors, and AI guidance.",
+ "brief": "UK Prime Minister Andy Burnham's Ukraine visit and Russia's strikes on Ozon warehouses dominate, while US wildfires and trade tensions continue. Research highlights visualization design education and AI guidance for emergencies.",
  "meta": {
-  "generated_at": "2026-08-24T09:02:28Z"
+  "generated_at": "2026-08-24T10:51:32Z"
  },
- "news_summary": "Key news includes former deputy Sean Grayson's death, Shein's lowered IPO valuation, wildfire evacuation near Reno, UK politics on social media and Ukraine, and notable births of beaver kits in Norfolk.",
- "papers_summary": "Research papers explore human-computer interaction topics like assessing false claims during disasters, improving programming error explanations with LLMs, and designing AI guidance for emergency preparedness.",
+ "news_summary": "UK PM Burnham visits Ukraine, drawing Kremlin warnings; Russia strikes Ozon warehouses; US wildfires near Reno force evacuations; US and Canada trade tensions persist.",
+ "papers_summary": "Papers emphasize visualization design education, LLM-based programming error explanations, and AI guidance for personalized emergency preparedness.",
  "summaries": {
   "en": {
-   "brief": "Today's news covers a mix of tragedy, politics, and nature, from a deputy's death to wildfire evacuations and beaver births. Papers focus on human-centered computing, addressing false claims, programming errors, and AI guidance.",
-   "news_summary": "Key news includes former deputy Sean Grayson's death, Shein's lowered IPO valuation, wildfire evacuation near Reno, UK politics on social media and Ukraine, and notable births of beaver kits in Norfolk.",
-   "papers_summary": "Research papers explore human-computer interaction topics like assessing false claims during disasters, improving programming error explanations with LLMs, and designing AI guidance for emergency preparedness."
+   "brief": "UK Prime Minister Andy Burnham's Ukraine visit and Russia's strikes on Ozon warehouses dominate, while US wildfires and trade tensions continue. Research highlights visualization design education and AI guidance for emergencies.",
+   "news_summary": "UK PM Burnham visits Ukraine, drawing Kremlin warnings; Russia strikes Ozon warehouses; US wildfires near Reno force evacuations; US and Canada trade tensions persist.",
+   "papers_summary": "Papers emphasize visualization design education, LLM-based programming error explanations, and AI guidance for personalized emergency preparedness."
   },
   "zh": {
-   "brief": "今日焦点包括乌克兰前防长呼吁战时选举，以及Shein以270亿美元估值赴港上市；研究方面则关注AI在编程、可视化与家庭应急中的角色。",
-   "news_summary": "乌克兰前防长费多罗夫呼吁举行战时选举，总统泽连斯基警告此举可能引发政治海啸；快时尚Shein降低估值至270亿美元，计划9月1日在香港上市。",
-   "papers_summary": "多项研究探讨了LLM在编程错误解释中的应用、可视化教学的概念清单，以及AI在家庭应急准备中的设计。"
+   "brief": "今日焦点包括乌克兰前防长呼吁选举挑战泽连斯基、塔利班治理观察、以及美加贸易协议破裂。研究方面，人工智能与可视化技术在灾难应对和编程教育中的应用成为热点。",
+   "news_summary": "乌克兰前防长费多罗夫呼吁举行战时选举，泽连斯基警告可能引发政治海啸；塔利班重返执政五年后的治理方式引发关注；美加贸易协议破裂，加拿大总理卡尼面临考验。",
+   "papers_summary": "研究关注AI在灾难中虚假信息评估、编程错误解释中的应用，以及可视化研究中对老年群体的包容性设计。"
   }
+ },
+ "todays_image": {
+  "caption": "Like the spreading vines of Vicia ludoviciana choking a roadside, dangerous driving clips can entangle and devastate lives until ministers move to sever them.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3ac146ebdb22c447fa7130200cb4e33df",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3b2ad3cf6-71a6-482a-b9fc-eadb34482756",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3ac146ebdb22c447fa7130200cb4e33df/90",
+  "title": "Vicia ludoviciana Nutt. ex Torr. & A. Gray var. ludoviciana"
  }
 }
