@@ -1,48 +1,40 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
   "source": {
-   "name": "fox19.com",
-   "published_at": "2026-08-23T06:30:00Z",
-   "title": "Record - smashing pumpkin crowned at Kentucky State Fair",
-   "url": "https://www.fox19.com/2026/08/22/record-smashing-pumpkin-crowned-kentucky-state-fair/"
+   "name": "IGN",
+   "published_at": "2026-08-16T09:10:35Z",
+   "title": "How to Get Atlantic Giant Pumpkin - Grow a Garden 2 [Roblox] Guide",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWE0xZDltN0xxaW9jMHRua01QS2Q1b0FtV2JIaFhsWHB0NmFFYWR4X014TU5pU1MtMUZnMDIxVXpuNmtnRmRkTnhLRFFTMDBhQXRJQ0w2WHBxR1VMaUlVcHEwRWdzd3RubFMyWThMdWVLQjg5c0ZWamo5dHFGallkajZkZ0JFSXBFQ2c?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A record-breaking pumpkin was crowned at the Kentucky State Fair.",
-    "why_irrelevant": "This is a niche agricultural event, far from typical tech or personal news."
+    "summary": "A guide on getting an Atlantic Giant Pumpkin in the Roblox game 'Grow a Garden 2'.",
+    "why_irrelevant": "Video game strategy far removed from real-world news."
    },
    "zh": {
-    "summary": "肯塔基州博览会上诞生了创纪录的巨型南瓜。",
-    "why_irrelevant": "这是小众农业活动，远离常见科技或个人新闻。"
+    "summary": "关于在Roblox游戏《Grow a Garden 2》中获得巨型南瓜的指南。",
+    "why_irrelevant": "游戏攻略，远离现实新闻。"
    }
   },
   "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news covers Shein's IPO, UK graduate job decline, a historic ball auction, and notable wildlife milestones, while papers focus on AI's environmental impact and new visualization research.",
+ "brief": "Today's news covers a mix of tragedy, politics, and nature, from a deputy's death to wildfire evacuations and beaver births. Papers focus on human-centered computing, addressing false claims, programming errors, and AI guidance.",
  "meta": {
-  "generated_at": "2026-08-24T07:18:07Z"
+  "generated_at": "2026-08-24T09:02:28Z"
  },
- "news_summary": "Shein is set for a $27bn Hong Kong listing, UK graduate vacancies hit a decade low, Maradona's 'Hand of God' ball sold for £2.5m, and wild beavers return to Norfolk after 500 years, alongside other global stories.",
- "papers_summary": "Research includes a UAV maize dataset for water stress detection, a study on AI's nonlinear effect on pollution, and visualization studies on older adults and coding agents.",
+ "news_summary": "Key news includes former deputy Sean Grayson's death, Shein's lowered IPO valuation, wildfire evacuation near Reno, UK politics on social media and Ukraine, and notable births of beaver kits in Norfolk.",
+ "papers_summary": "Research papers explore human-computer interaction topics like assessing false claims during disasters, improving programming error explanations with LLMs, and designing AI guidance for emergency preparedness.",
  "summaries": {
   "en": {
-   "brief": "Today's news covers Shein's IPO, UK graduate job decline, a historic ball auction, and notable wildlife milestones, while papers focus on AI's environmental impact and new visualization research.",
-   "news_summary": "Shein is set for a $27bn Hong Kong listing, UK graduate vacancies hit a decade low, Maradona's 'Hand of God' ball sold for £2.5m, and wild beavers return to Norfolk after 500 years, alongside other global stories.",
-   "papers_summary": "Research includes a UAV maize dataset for water stress detection, a study on AI's nonlinear effect on pollution, and visualization studies on older adults and coding agents."
+   "brief": "Today's news covers a mix of tragedy, politics, and nature, from a deputy's death to wildfire evacuations and beaver births. Papers focus on human-centered computing, addressing false claims, programming errors, and AI guidance.",
+   "news_summary": "Key news includes former deputy Sean Grayson's death, Shein's lowered IPO valuation, wildfire evacuation near Reno, UK politics on social media and Ukraine, and notable births of beaver kits in Norfolk.",
+   "papers_summary": "Research papers explore human-computer interaction topics like assessing false claims during disasters, improving programming error explanations with LLMs, and designing AI guidance for emergency preparedness."
   },
   "zh": {
-   "brief": "今日焦点涵盖塔利班统治下的阿富汗、Shein在港上市、中国机器人破百米纪录，以及AI与环境、灾难中虚假信息等学术研究。",
-   "news_summary": "国际新闻关注塔利班治理阿富汗、Shein香港上市估值大减、中国机器人破百米纪录等；跨语言资讯包括Maradona‘上帝之手’球拍卖及澳洲小企鹅接种疫苗等。",
-   "papers_summary": "研究论文涉及无人机多光谱玉米数据集、AI与环境污染关系、灾难中虚假信息严重性评估，以及编程错误解释的LLM应用等。"
+   "brief": "今日焦点包括乌克兰前防长呼吁战时选举，以及Shein以270亿美元估值赴港上市；研究方面则关注AI在编程、可视化与家庭应急中的角色。",
+   "news_summary": "乌克兰前防长费多罗夫呼吁举行战时选举，总统泽连斯基警告此举可能引发政治海啸；快时尚Shein降低估值至270亿美元，计划9月1日在香港上市。",
+   "papers_summary": "多项研究探讨了LLM在编程错误解释中的应用、可视化教学的概念清单，以及AI在家庭应急准备中的设计。"
   }
- },
- "todays_image": {
-  "caption": "Like the hybrid oak Quercus x filialis, Afghanistan's governance grafts ancient control onto modern smartphones, branching into new forms of restraint.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m30543105adce543178c22c590c5f288db",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/37b40f41e-3f8d-419c-ab88-d8b9fb7bba0b",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m30543105adce543178c22c590c5f288db/90",
-  "title": "Quercus x filialis Little"
  }
 }
