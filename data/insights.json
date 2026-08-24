@@ -1,48 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
-  "source": {
-   "name": "IGN",
-   "published_at": "2026-08-16T09:10:35Z",
-   "title": "How to Get Atlantic Giant Pumpkin - Grow a Garden 2 [Roblox] Guide",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWE0xZDltN0xxaW9jMHRua01QS2Q1b0FtV2JIaFhsWHB0NmFFYWR4X014TU5pU1MtMUZnMDIxVXpuNmtnRmRkTnhLRFFTMDBhQXRJQ0w2WHBxR1VMaUlVcHEwRWdzd3RubFMyWThMdWVLQjg5c0ZWamo5dHFGallkajZkZ0JFSXBFQ2c?oc=5"
-  },
-  "summaries": {
-   "en": {
-    "summary": "A Roblox guide explains how to obtain an Atlantic Giant Pumpkin in the game 'Grow a Garden 2'.",
-    "why_irrelevant": "It's a video game tip, not agricultural news."
-   },
-   "zh": {
-    "summary": "一个Roblox指南讲解了如何在游戏《Grow a Garden 2》中获得大西洋巨型南瓜。",
-    "why_irrelevant": "这是游戏攻略，而非农业新闻。"
-   }
-  },
-  "topic": "competitive pumpkin growing"
- },
- "brief": "Today's news covers political tensions from US-Canada trade disputes and Trump's economic concerns, alongside tragic incidents like wildfires, landslides, and cyclist deaths. Research focuses on AI's environmental impact, disaster misinformation, and visualization design for diverse users.",
+ "brief": "Today's coverage spans from Australian corporate scandals and US trade tensions to public safety issues like cyclist deaths and wildfires, while research focuses on improving human-tech interactions, from coding aids to emergency preparedness.",
  "meta": {
-  "generated_at": "2026-08-24T01:55:44Z"
+  "generated_at": "2026-08-24T03:14:47Z"
  },
- "news_summary": "US-Canada trade talks collapse, Trump's economic policies draw GOP concern, and a wildfire in Reno forces evacuations; meanwhile, a Guinea landfill collapse kills 30, and three cyclists die in NYC hit-and-runs.",
- "papers_summary": "Papers examine AI's nonlinear effect on pollution, a framework for assessing false claims during disasters, and reflections on visualization research with older adults, among other topics.",
+ "news_summary": "News highlights include KPMG job cuts, a spike in NYC cyclist fatalities, US deep sea mining opposition, UK productivity insights, and escalating US-Canada trade disputes, alongside a deadly landslide in Guinea and a wildfire near Reno.",
+ "papers_summary": "Research papers explore adaptive programming error explanations, false information severity assessment, visualization education for older adults, and robot voice pitch effects on children's stress, among other human-computer interaction topics.",
  "summaries": {
   "en": {
-   "brief": "Today's news covers political tensions from US-Canada trade disputes and Trump's economic concerns, alongside tragic incidents like wildfires, landslides, and cyclist deaths. Research focuses on AI's environmental impact, disaster misinformation, and visualization design for diverse users.",
-   "news_summary": "US-Canada trade talks collapse, Trump's economic policies draw GOP concern, and a wildfire in Reno forces evacuations; meanwhile, a Guinea landfill collapse kills 30, and three cyclists die in NYC hit-and-runs.",
-   "papers_summary": "Papers examine AI's nonlinear effect on pollution, a framework for assessing false claims during disasters, and reflections on visualization research with older adults, among other topics."
+   "brief": "Today's coverage spans from Australian corporate scandals and US trade tensions to public safety issues like cyclist deaths and wildfires, while research focuses on improving human-tech interactions, from coding aids to emergency preparedness.",
+   "news_summary": "News highlights include KPMG job cuts, a spike in NYC cyclist fatalities, US deep sea mining opposition, UK productivity insights, and escalating US-Canada trade disputes, alongside a deadly landslide in Guinea and a wildfire near Reno.",
+   "papers_summary": "Research papers explore adaptive programming error explanations, false information severity assessment, visualization education for older adults, and robot voice pitch effects on children's stress, among other human-computer interaction topics."
   },
   "zh": {
-   "brief": "今日焦点包括美加贸易谈判破裂、泰国南部连环纵火、中国机器人破百米纪录，以及关于恐惧心理的科普；学术方面关注AI与环境、编程教育及可视化研究。",
-   "news_summary": "美加贸易谈判破裂，加拿大总理卡尼面临考验；泰国南部发生50多起纵火；中国机器人“天工Ultra”以9.39秒破百米纪录；BBC还探讨了恐惧的起源及自然醒的技巧。",
-   "papers_summary": "近期研究涉及无人机多光谱玉米数据集、AI发展与环境污染的非线性关系、以及利用LLM改进编程错误解释等；另有关于数据捐赠情感框架和可视化概念清单的探讨。"
+   "brief": "今日焦点包括Shein赴港上市、老乾媽的商業傳奇及泰國南部縱火事件；研究方面探討災難中虛假信息的嚴重性評估及編程錯誤的AI解釋。",
+   "news_summary": "Shein計劃9月1日在港交所掛牌，估值270億美元；老乾媽創辦人陶華碧的故事成為熱話；泰國南部一夜發生50多起縱火，軍方視為有組織騷亂。",
+   "papers_summary": "研究提出兩階段框架評估災害期間虛假信息的嚴重性，並探討用LLM提供適應性編程錯誤解釋，以助初學者理解。"
   }
  },
  "todays_image": {
-  "caption": "Like the tangled taxonomy of Vicia ludoviciana, the One Nation MP's migration policy error and the fur seal's bird flu death show that misnaming a species—plant, virus, or migrant—can have unexpected, cross-border consequences.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3ac146ebdb22c447fa7130200cb4e33df",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3b2ad3cf6-71a6-482a-b9fc-eadb34482756",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3ac146ebdb22c447fa7130200cb4e33df/90",
-  "title": "Vicia ludoviciana Nutt. ex Torr. & A. Gray var. ludoviciana"
+  "caption": "Like a fire engine racing to a blaze, Shein rushes to Hong Kong IPO, burning through trends at breakneck speed.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q00827",
+  "source_name": "National Museum of American History",
+  "source_url": null,
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q00827&max=150",
+  "title": "Fire Engine Plate, \"HIBERNIA\""
  }
 }
