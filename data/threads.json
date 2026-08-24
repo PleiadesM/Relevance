@@ -1,0 +1,136 @@
+{
+ "meta": {
+  "count": 3,
+  "generated_at": "2026-08-24T04:59:04Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "0c3031785a0b21a7",
+     "phrase": {
+      "en": "Shein targets $27bn valuation",
+      "zh": "希音估值270亿"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cdeweewjdxno?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "78f542ee75fb25e2",
+     "phrase": {
+      "en": "value drops amid scrutiny",
+      "zh": "审查下估值缩水"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/business/2026/aug/24/fashion-giant-shein-27bn-valuation-hong-kong-market-debut"
+    },
+    {
+     "item_id": "14edf82b9f0108df",
+     "phrase": {
+      "en": "Shein lists in Hong Kong",
+      "zh": "希音赴港上市"
+     },
+     "section": "news",
+     "source": "BBC 中文",
+     "url": "https://www.bbc.com/zhongwen/articles/cgqd22pp13lo/trad?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Fast-fashion Shein aims for a $27bn valuation as it lists in Hong Kong, but its worth has dropped from earlier highs.",
+    "zh": "快时尚希音赴港上市，估值270亿美元，较先前高点大幅缩水。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "Shein IPO",
+    "zh": "希音上市"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track business data: the listing shifts a major e-commerce player's financial outlook today.",
+    "zh": "你关注商业数据：今日上市改变重要电商的财务前景。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "ca8be239200fae07",
+     "phrase": {
+      "en": "Burnham reaffirms support",
+      "zh": "伯纳姆重申支持"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "2cc24a007ca7ba5a",
+     "phrase": {
+      "en": "promise on missiles",
+      "zh": "承诺导弹技术"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/politics/2026/aug/24/andy-burnham-ukraine-long-range-missile-technology-kyiv-visit"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Burnham visits Kyiv and promises missile technology sharing, while Russia warns of consequences.",
+    "zh": "伯纳姆访基辅，承诺分享导弹技术，俄方警告后果。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "UK support for Ukraine",
+    "zh": "英国支持乌克兰"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow geopolitics: this trip reshapes UK-Ukraine defense ties today.",
+    "zh": "你关注地缘政治：此行今日重塑英乌防务关系。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "5b1492a2d8506a2e",
+     "phrase": {
+      "en": "Reno wildfire forces evacuations",
+      "zh": "里诺野火强制撤离"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/23/g-s1-139729/thousands-forced-to-evacuate-parts-of-reno-nevada-as-new-wildfire-rages"
+    },
+    {
+     "item_id": "32b3531ec231dba4",
+     "phrase": {
+      "en": "El Niño intensifies fires",
+      "zh": "厄尔尼诺加剧野火"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/24/world/asia/indonesia-el-nino-borneo-fire.html"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Wildfires rage from Nevada to Indonesia, driven by heat and drought, forcing thousands to flee.",
+    "zh": "从内华达到印尼，野火肆虐，炎热干旱迫使数千人撤离。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "wildfires and climate",
+    "zh": "野火与气候"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track environmental data: today's fires highlight climate extremes affecting communities globally.",
+    "zh": "你关注环境数据：今日野火凸显气候极端影响全球社区。"
+   }
+  }
+ ]
+}

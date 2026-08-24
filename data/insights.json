@@ -1,28 +1,48 @@
 {
- "brief": "Today's coverage spans from Australian corporate scandals and US trade tensions to public safety issues like cyclist deaths and wildfires, while research focuses on improving human-tech interactions, from coding aids to emergency preparedness.",
- "meta": {
-  "generated_at": "2026-08-24T03:14:47Z"
+ "apropos_of_nothing": {
+  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
+  "source": {
+   "name": "IGN",
+   "published_at": "2026-08-16T09:10:35Z",
+   "title": "How to Get Atlantic Giant Pumpkin - Grow a Garden 2 [Roblox] Guide",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWE0xZDltN0xxaW9jMHRua01QS2Q1b0FtV2JIaFhsWHB0NmFFYWR4X014TU5pU1MtMUZnMDIxVXpuNmtnRmRkTnhLRFFTMDBhQXRJQ0w2WHBxR1VMaUlVcHEwRWdzd3RubFMyWThMdWVLQjg5c0ZWamo5dHFGallkajZkZ0JFSXBFQ2c?oc=5"
+  },
+  "summaries": {
+   "en": {
+    "summary": "A Roblox game guide explains how to obtain an Atlantic Giant Pumpkin in Grow a Garden 2.",
+    "why_irrelevant": "It's a video game tip, not real-world agriculture."
+   },
+   "zh": {
+    "summary": "一份 Roblox 游戏指南解释如何在《Grow a Garden 2》中获得大西洋巨型南瓜。",
+    "why_irrelevant": "这是游戏技巧，而非现实农业。"
+   }
+  },
+  "topic": "competitive pumpkin growing"
  },
- "news_summary": "News highlights include KPMG job cuts, a spike in NYC cyclist fatalities, US deep sea mining opposition, UK productivity insights, and escalating US-Canada trade disputes, alongside a deadly landslide in Guinea and a wildfire near Reno.",
- "papers_summary": "Research papers explore adaptive programming error explanations, false information severity assessment, visualization education for older adults, and robot voice pitch effects on children's stress, among other human-computer interaction topics.",
+ "brief": "Today's news spans fast-fashion IPOs, political controversies, environmental crises, and public health alerts, while research highlights AI's environmental impact, crisis informatics, and visualization design.",
+ "meta": {
+  "generated_at": "2026-08-24T04:59:04Z"
+ },
+ "news_summary": "Key stories include Shein's HK IPO valuation, AIPAC's political backing, wildfires in Indonesia and Nevada, UK health and safety findings, and a child's death from a brain-eating amoeba.",
+ "papers_summary": "Research covers AI's nonlinear relationship with pollution, UAV-based crop monitoring, adaptive error explanations for programmers, and frameworks for assessing false claims in disasters.",
  "summaries": {
   "en": {
-   "brief": "Today's coverage spans from Australian corporate scandals and US trade tensions to public safety issues like cyclist deaths and wildfires, while research focuses on improving human-tech interactions, from coding aids to emergency preparedness.",
-   "news_summary": "News highlights include KPMG job cuts, a spike in NYC cyclist fatalities, US deep sea mining opposition, UK productivity insights, and escalating US-Canada trade disputes, alongside a deadly landslide in Guinea and a wildfire near Reno.",
-   "papers_summary": "Research papers explore adaptive programming error explanations, false information severity assessment, visualization education for older adults, and robot voice pitch effects on children's stress, among other human-computer interaction topics."
+   "brief": "Today's news spans fast-fashion IPOs, political controversies, environmental crises, and public health alerts, while research highlights AI's environmental impact, crisis informatics, and visualization design.",
+   "news_summary": "Key stories include Shein's HK IPO valuation, AIPAC's political backing, wildfires in Indonesia and Nevada, UK health and safety findings, and a child's death from a brain-eating amoeba.",
+   "papers_summary": "Research covers AI's nonlinear relationship with pollution, UAV-based crop monitoring, adaptive error explanations for programmers, and frameworks for assessing false claims in disasters."
   },
   "zh": {
-   "brief": "今日焦点包括Shein赴港上市、老乾媽的商業傳奇及泰國南部縱火事件；研究方面探討災難中虛假信息的嚴重性評估及編程錯誤的AI解釋。",
-   "news_summary": "Shein計劃9月1日在港交所掛牌，估值270億美元；老乾媽創辦人陶華碧的故事成為熱話；泰國南部一夜發生50多起縱火，軍方視為有組織騷亂。",
-   "papers_summary": "研究提出兩階段框架評估災害期間虛假信息的嚴重性，並探討用LLM提供適應性編程錯誤解釋，以助初學者理解。"
+   "brief": "今日焦点包括Shein以约270亿美元估值赴港上市，以及老乾媽創始人陶華碧的成功故事；科技方面，中國機器人打破百米短跑世界紀錄。",
+   "news_summary": "Shein計劃9月1日在香港上市，估值約270億美元；老乾媽創始人陶華碧的勵志故事引發關注；另有泰國南部縱火、美加貿易談判破裂等國際新聞。",
+   "papers_summary": "今日研究涵蓋AI發展與環境污染的關係、災難中虛假信息的嚴重性評估，以及可視化研究中的老年人參與等主題。"
   }
  },
  "todays_image": {
-  "caption": "Like a fire engine racing to a blaze, Shein rushes to Hong Kong IPO, burning through trends at breakneck speed.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q00827",
-  "source_name": "National Museum of American History",
-  "source_url": null,
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q00827&max=150",
-  "title": "Fire Engine Plate, \"HIBERNIA\""
+  "caption": "Like Sphagnum squarrosum rooting firmly in its bog, Albanese holds WA's GST share steady while police dig into the CFMEU's turf.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m397d6206a8ddb4850952cbbc24a98d6ed",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3846a5d24-a00c-4c6a-8ec6-a7b47d863af0",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m397d6206a8ddb4850952cbbc24a98d6ed/90",
+  "title": "Sphagnum squarrosum Hampe"
  }
 }
