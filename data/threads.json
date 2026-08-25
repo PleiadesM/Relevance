@@ -1,0 +1,136 @@
+{
+ "meta": {
+  "count": 3,
+  "generated_at": "2026-08-25T16:52:39Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "10ed491ac4285422",
+     "phrase": {
+      "en": "EPA curbs public comment",
+      "zh": "EPA限制公众评论"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/25/climate/epa-data-centers-public-comment.html"
+    },
+    {
+     "item_id": "9e0782b3b071a162",
+     "phrase": {
+      "en": "Australia anticipates datacentre boom",
+      "zh": "澳洲预见数据中心繁荣"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/australia-news/2026/aug/26/australia-may-face-a-rush-of-datacentre-construction-as-ai-firms-look-to-dodge-upcoming-rules-experts-say"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Data centers power AI but strain the grid and the environment; rulemakers push back.",
+    "zh": "数据中心驱动AI，却也加重电网和环境负担，监管者开始反击。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI data centers regulation",
+    "zh": "AI数据中心监管"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track AI infrastructure and HCI: today the EPA cuts public input and Australia braces for a construction rush, redrawing the approval map.",
+    "zh": "你关注AI基础设施与人机交互，今日EPA削减公众参与、澳洲迎来建设潮，审批格局生变。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "5daf3ac9d289dcd8",
+     "phrase": {
+      "en": "Canada imposes up to 50% tariffs",
+      "zh": "加拿大征收高达50%关税"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/25/world/canada/canada-tariffs-trump-carney-retaliatory.html"
+    },
+    {
+     "item_id": "605d2c26042de66c",
+     "phrase": {
+      "en": "retaliatory tariffs on US goods",
+      "zh": "对美国商品征收报复性关税"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/live/2026/aug/25/donald-trump-tariffs-canada-midterms-primary-south-carolina-iran-ukraine-voting-rights-latest-news-updates"
+    },
+    {
+     "item_id": "0e64bd02a7cd7311",
+     "phrase": {
+      "en": "focused response after collapsed talks",
+      "zh": "谈判破裂后的聚焦回应"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/25/canada-retaliatory-tariffs-on-range-of-us-goods"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Canada hits back with steep tariffs, signaling a deeper rift in North American trade.",
+    "zh": "加拿大以高额关税回击，显示北美贸易裂痕加深。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "Canada-US trade war",
+    "zh": "加美贸易战"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow economic policy: today's retaliation escalates a dispute affecting tech supply chains you care about.",
+    "zh": "你关注经济政策，今日的报复行动加剧争端，影响你关心的科技供应链。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "c49d5eeb358f7feb",
+     "phrase": {
+      "en": "CIA chief in unannounced Moscow talks",
+      "zh": "中情局局长突访莫斯科会谈"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "40a757f2f9361896",
+     "phrase": {
+      "en": "first known visit as CIA director",
+      "zh": "任内首次已知访俄"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/25/cia-director-john-ratcliffe-moscow-russia"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "A CIA chief's quiet trip to Moscow hints at hidden diplomacy amid tensions.",
+    "zh": "中情局局长低调访俄，暗示紧张局势下的隐秘外交。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "US-Russia backchannel",
+    "zh": "美俄秘密渠道"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You watch geopolitics for tech policy signals: such talks often reset export controls and tech flows.",
+    "zh": "你关注地缘政治以捕捉科技政策信号，这类会谈常重置出口管制和技术流向。"
+   }
+  }
+ ]
+}

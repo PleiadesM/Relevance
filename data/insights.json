@@ -1,48 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "national oyster shucking contest OR oyster opening speed record",
-  "source": {
-   "name": "Medianet News Hub",
-   "published_at": "2026-08-13T01:19:41Z",
-   "title": "Sydney vision opportunity: Australia’s champion oyster shucker takes on Western Sydney amateurs",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNLVQzNk5ZUUZuVHdPbWtlZXFJRFVjbmM4cVZRSHNwUUNwalcwcWxwX2lvVWN0bW9XY3I3bUpEclRjLUVPM1JvUFY2QUdPUHpkTmduSHJwUWZkOC1wbG9TVFZBbzJwYVFGMmdVb21wSmhKeGJYZldIa21QSGFxR2FmWHBLWXJMUXpOQkJtbnBLZE4tU2M4d3pQc2cyTkxvdnlqLUl3ZWRYWmktOFRKRjJZcE4yN1pBaGROUjNDQ1pmNHUyNDlXdDVRWU5qZVpPVTVMTzBLUFJrRWU?oc=5"
-  },
-  "summaries": {
-   "en": {
-    "summary": "Australia's champion oyster shucker challenges Western Sydney amateurs in a Sydney-based event.",
-    "why_irrelevant": "A niche culinary competition far from your usual feed."
-   },
-   "zh": {
-    "summary": "澳大利亚开蚝冠军将在悉尼迎战西悉尼业余选手。",
-    "why_irrelevant": "小众烹饪比赛，远离你的日常信息。"
-   }
-  },
-  "topic": "competitive oyster shucking championships"
- },
- "brief": "Today's news covers geopolitical tensions, domestic policy debates, and public health concerns, while papers focus on AI ethics, human-computer interaction, and data visualization.",
+ "brief": "Today's news is dominated by escalating US-Canada trade tensions and a surprise CIA visit to Moscow, while papers explore AI disclosure, explainable AI, and visualization for health and urban safety.",
  "meta": {
-  "generated_at": "2026-08-25T15:02:18Z"
+  "generated_at": "2026-08-25T16:52:39Z"
  },
- "news_summary": "News highlights include Trump's threats to rename Lake Ontario, ICE raids in New Jersey, measles outbreaks in the US, and political maneuvers around housing and immigration.",
- "papers_summary": "Research papers explore AI disclosure norms, multi-persona writing support, worker guidance systems, and explainable AI challenges, alongside visualization studies on urban safety and data donation.",
+ "news_summary": "Canada retaliates with tariffs up to 50% on US goods as the trade war escalates, while the CIA director makes an unannounced visit to Moscow. Meanwhile, measles deaths in Pennsylvania highlight falling vaccination rates, and US consumer confidence dips amid high gas prices.",
+ "papers_summary": "Papers address AI disclosure practices in research, the selection problem in explainable AI, and worker guidance in assembly. Visualization research covers eye-tracking for urban safety, data issue detection, and reflections on working with older adults in visualization.",
  "summaries": {
   "en": {
-   "brief": "Today's news covers geopolitical tensions, domestic policy debates, and public health concerns, while papers focus on AI ethics, human-computer interaction, and data visualization.",
-   "news_summary": "News highlights include Trump's threats to rename Lake Ontario, ICE raids in New Jersey, measles outbreaks in the US, and political maneuvers around housing and immigration.",
-   "papers_summary": "Research papers explore AI disclosure norms, multi-persona writing support, worker guidance systems, and explainable AI challenges, alongside visualization studies on urban safety and data donation."
+   "brief": "Today's news is dominated by escalating US-Canada trade tensions and a surprise CIA visit to Moscow, while papers explore AI disclosure, explainable AI, and visualization for health and urban safety.",
+   "news_summary": "Canada retaliates with tariffs up to 50% on US goods as the trade war escalates, while the CIA director makes an unannounced visit to Moscow. Meanwhile, measles deaths in Pennsylvania highlight falling vaccination rates, and US consumer confidence dips amid high gas prices.",
+   "papers_summary": "Papers address AI disclosure practices in research, the selection problem in explainable AI, and worker guidance in assembly. Visualization research covers eye-tracking for urban safety, data issue detection, and reflections on working with older adults in visualization."
   },
   "zh": {
-   "brief": "今日要闻聚焦普京首访南千岛群岛以牵制日本，以及中国机器人革命悄然推进；研究方面关注AI在研究写作中的披露实践与多模态AI辅助工业操作。",
-   "news_summary": "普京首次踏足南千岛群岛，意在牵制日本；中国工厂机器人数量超两百万台，机器革命悄然进行。",
-   "papers_summary": "研究探讨了AI在研究写作中的披露期望与实践，以及多模态AI在装配拆卸作业中的工人指导。"
+   "brief": "今日重点：普京首登择捉岛显示俄中联手制日，美国对伊朗制裁未波及中国或为习近平访美铺路；同时中国机器人革命悄然推进。学术方面聚焦AI披露、可解释性及可视化研究。",
+   "news_summary": "普京首次踏足南千岛群岛，意在牵制日本并与中国协作；美国对伊朗新制裁对中国留有余地，或为习近平访美营造氛围。此外，台湾艺人损毁日本国宝引发台日关系讨论，中国工厂机器人数量超两百万台。",
+   "papers_summary": "多篇论文探讨AI在研究中的披露规范、多角色AI支持写作、可解释AI的选择问题，以及面向数据探索和可视化的多智能体与眼动追踪技术。"
   }
  },
  "todays_image": {
-  "caption": "Just as James Wilson's 1811 globe mapped the known world, Granite Speech 5.0 Turbo CTC maps the spoken word to text with blazing speed and precision.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q41426",
-  "source_name": "National Museum of American History",
-  "source_url": null,
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2011q41426&max=150",
-  "title": "James Wilson's Terrestrial Globe, 1811"
+  "caption": "Just as McKinley's presidency once opened a new era of American global reach, the CIA chief's secretive Moscow talks signal a similarly unannounced expansion of U.S. influence.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_69_34McKinley_d1",
+  "source_name": "National Portrait Gallery",
+  "source_url": "https://npg.si.edu/object/npg_NPG.69.34",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_69_34McKinley_d1",
+  "title": "William McKinley"
  }
 }
