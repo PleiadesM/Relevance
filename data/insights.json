@@ -1,40 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "washi paper workshop OR Japanese paper craft",
+  "query": "stone skipping championship OR skipping stones competition",
   "source": {
-   "name": "毎日新聞",
-   "published_at": "2026-08-23T04:01:20Z",
-   "title": "Cool for centuries: Traditional bamboo fans from Japan's Kumamoto Pref. go global",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5wRTNwb1dXM05OM0ZjQy1nQkRCWENsTXdZWkFPLUd6bVlsYk1hS1ZqUlRCR2VMSnJwVUtWS0lFYngtNm1JN0pQVDVaRkdrcE1mOUpHNVNzRV9ZbVliY21kbHRGTkZXT1lV?oc=5"
+   "name": "The Herald",
+   "published_at": "2026-08-24T11:32:34Z",
+   "title": "The unusual Scottish championship drawing competitors from across the globe",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcGJIZ2JuZ1d5WkZ2RVZNWjFoSjNmdUUwakVrT0V2QkRZYW5ON2NhdDlzeUN3dy1LMGJfX1l4YnJ1UnowWk1kYlQ3em1iS09ZOUc5Y2hYNC1RNTN1MnhsUnZUV211UTh1LThraTAyRXhHUDVkV1lhaXZDTzUzQ2lXbzgxcG16aHRBMHM4VzA1TURxVmExd29odWJhdw?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "Traditional bamboo fans from Kumamoto Prefecture are gaining international popularity.",
-    "why_irrelevant": "a niche cultural product with no connection to typical user interests."
+    "summary": "Scotland's quirky stone-skipping championship attracts global competitors.",
+    "why_irrelevant": "far from typical tech or news feeds."
    },
    "zh": {
-    "summary": "熊本县的传统竹扇正在国际上走红。",
-    "why_irrelevant": "小众文化产品，与用户常规兴趣无关。"
+    "summary": "苏格兰的奇特打水漂锦标赛吸引了全球选手。",
+    "why_irrelevant": "远离常见科技或新闻动态。"
    }
   },
-  "topic": "traditional Japanese washi paper making"
+  "topic": "stone skipping world championships"
  },
- "brief": "Today's news is dominated by environmental crises, from Europe's deadly heatwaves and Indonesia's haze to Australia's bird flu, alongside major political and economic developments. Meanwhile, research highlights AI's evolving role in disclosure, writing support, and data visualization.",
+ "brief": "Today's headlines span geopolitical tensions, environmental crises, and tech ethics, while research highlights AI disclosure and visualization challenges.",
  "meta": {
-  "generated_at": "2026-08-25T04:51:28Z"
+  "generated_at": "2026-08-25T07:06:20Z"
  },
- "news_summary": "News leads with severe heatwave impacts in Europe and Indonesia, plus Australia's bird flu outbreak and a major property collapse. Tariff disputes, political controversies, and cultural stories also feature prominently.",
- "papers_summary": "Research papers explore AI disclosure practices, multi-persona support for stance reflection, and agentic approaches to data visualization, alongside advances in sensor integration and monitoring systems.",
+ "news_summary": "Key stories include the Lockerbie trial delay, US-Iran economic tensions, Australia's property and energy shifts, and global wildfire impacts.",
+ "papers_summary": "Papers focus on AI disclosure norms, multi-persona support for stance reflection, and visualization systems for urban safety and data exploration.",
  "summaries": {
   "en": {
-   "brief": "Today's news is dominated by environmental crises, from Europe's deadly heatwaves and Indonesia's haze to Australia's bird flu, alongside major political and economic developments. Meanwhile, research highlights AI's evolving role in disclosure, writing support, and data visualization.",
-   "news_summary": "News leads with severe heatwave impacts in Europe and Indonesia, plus Australia's bird flu outbreak and a major property collapse. Tariff disputes, political controversies, and cultural stories also feature prominently.",
-   "papers_summary": "Research papers explore AI disclosure practices, multi-persona support for stance reflection, and agentic approaches to data visualization, alongside advances in sensor integration and monitoring systems."
+   "brief": "Today's headlines span geopolitical tensions, environmental crises, and tech ethics, while research highlights AI disclosure and visualization challenges.",
+   "news_summary": "Key stories include the Lockerbie trial delay, US-Iran economic tensions, Australia's property and energy shifts, and global wildfire impacts.",
+   "papers_summary": "Papers focus on AI disclosure norms, multi-persona support for stance reflection, and visualization systems for urban safety and data exploration."
   },
   "zh": {
-   "brief": "今日新闻聚焦台湾艺人涉日本国宝泼油事件及其对台日关系的影响，同时关注塔利班治下阿富汗现状、Shein赴港上市估值缩减等议题；论文方面无重大发现，主要涉及AI披露实践和可视化研究。",
-   "news_summary": "今日新闻涵盖台湾艺人潑油事件引发的台日关系讨论，塔利班治理阿富汗的观察，以及Shein港股上市估值大减至270亿美元等国际动态。",
-   "papers_summary": "今日论文无重大突破，主要围绕AI研究中的披露实践、多角色AI支持写作以及信息可视化系统的应用研究。"
+   "brief": "今日焦点包括中国机器人革命、台湾艺人事件、塔利班治理阿富汗等，英文新闻则关注贸易战、伊朗战争影响及澳大利亚动态。论文方面涉及AI披露、可视化系统等。",
+   "news_summary": "中文新闻聚焦中国机器人革命、台湾艺人涉损日本国宝事件、性早熟问题、口音偏见、乌克兰前防长言论及塔利班治理。英文新闻涵盖洛克比空难审判推迟、美国国债干预争议、伊朗制裁、澳大利亚房地产倒闭及AI音乐禁令等。",
+   "papers_summary": "论文主要涉及AI在科研中的披露实践、多人物AI支持、SU-8电极制造、教育信息系统评估、网络监控可视化、AI辅助组装指导、可解释AI选择问题、科学数据集探索、城市安全眼动追踪可视化及数据问题检测等技术研究。"
   }
+ },
+ "todays_image": {
+  "caption": "Just as Fimbristylis autumnalis signals autumn's arrival, the Lockerbie trial's postponement signals a season of waiting.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3ecb577a7614540d69e2e2e4cfb804149",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3cef205af-2a8a-411f-811d-f5dd1e5bd83c",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3ecb577a7614540d69e2e2e4cfb804149/90",
+  "title": "Fimbristylis autumnalis (L.) Roem. & Schult."
  }
 }
