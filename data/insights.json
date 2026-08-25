@@ -1,48 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
-  "source": {
-   "name": "nintendoeverything.com",
-   "published_at": "2026-08-21T01:45:00Z",
-   "title": "Dragon Quest Monsters : The Withered World details Thespidor , King Withers , and Scruffy , Taiboku and Lushland , Waterwing Can",
-   "url": "https://nintendoeverything.com/dragon-quest-monsters-the-withered-world-details-thespidor-king-withers-and-scruffy-taiboku-and-lushland-waterwing-can/"
-  },
-  "summaries": {
-   "en": {
-    "summary": "Dragon Quest Monsters: The Withered World reveals new characters and regions in a game news update.",
-    "why_irrelevant": "Gaming news far from gardening and local events."
-   },
-   "zh": {
-    "summary": "《勇者斗恶龙怪物篇：枯萎世界》发布了新角色和地区的信息。",
-    "why_irrelevant": "游戏新闻与园艺和本地活动相距甚远。"
-   }
-  },
-  "topic": "competitive pumpkin growing"
- },
- "brief": "Today's news covers the U.S. Supreme Court allowing restrictions on mail-in voting, a U.S. Navy family evacuation limbo, and a wildfire in Nevada, alongside the loan of a famous painting to Australia. Research highlights challenges in visualization for older adults and the impact of AI on entry-level jobs.",
+ "brief": "Today's news covers geopolitical tensions, domestic politics, and environmental crises, while research focuses on technological advancements in visualization and monitoring systems.",
  "meta": {
-  "generated_at": "2026-08-24T22:42:02Z"
+  "generated_at": "2026-08-25T01:50:14Z"
  },
- "news_summary": "Key news includes the Supreme Court permitting Trump's mail-in voting crackdown, NAACP's denouncement, a U.S. strike on a vessel, a Reno wildfire, and Nevada's lawsuit over Colorado River cuts.",
- "papers_summary": "Papers discuss adaptive explanations for programming errors using LLMs, reflections on working with older adults in visualization, and a framework for assessing false claims during disasters.",
+ "news_summary": "International tensions dominate with US threats against Iran and trade disputes with Canada, while domestic stories include California's legal battles over voting and a tornado in France.",
+ "papers_summary": "Research highlights include SU-8 pyrolyzed carbon electrodes for microfluidics, evaluation of an academic information system, and network monitoring with Grafana visualization.",
  "summaries": {
   "en": {
-   "brief": "Today's news covers the U.S. Supreme Court allowing restrictions on mail-in voting, a U.S. Navy family evacuation limbo, and a wildfire in Nevada, alongside the loan of a famous painting to Australia. Research highlights challenges in visualization for older adults and the impact of AI on entry-level jobs.",
-   "news_summary": "Key news includes the Supreme Court permitting Trump's mail-in voting crackdown, NAACP's denouncement, a U.S. strike on a vessel, a Reno wildfire, and Nevada's lawsuit over Colorado River cuts.",
-   "papers_summary": "Papers discuss adaptive explanations for programming errors using LLMs, reflections on working with older adults in visualization, and a framework for assessing false claims during disasters."
+   "brief": "Today's news covers geopolitical tensions, domestic politics, and environmental crises, while research focuses on technological advancements in visualization and monitoring systems.",
+   "news_summary": "International tensions dominate with US threats against Iran and trade disputes with Canada, while domestic stories include California's legal battles over voting and a tornado in France.",
+   "papers_summary": "Research highlights include SU-8 pyrolyzed carbon electrodes for microfluidics, evaluation of an academic information system, and network monitoring with Grafana visualization."
   },
   "zh": {
-   "brief": "今日焦点包括乌克兰前防长呼吁战时选举与泽连斯基警告政治海啸、塔利班治理阿富汗五年观察、Shein赴港上市估值大减，以及美国最高法院允许特朗普限制邮寄投票等新闻；研究方面涉及可视化与编程错误解释等。",
-   "news_summary": "乌克兰前防长费多罗夫呼吁战时选举，泽连斯基警告可能引发政治海啸；BBC观察塔利班治理阿富汗五年后的现状；快时尚品牌Shein计划赴港上市，估值降至270亿美元。其他新闻包括美国最高法院允许特朗普限制邮寄投票、内华达州就科罗拉多河削减起诉联邦政府等。",
-   "papers_summary": "当前研究聚焦于信息可视化在灾难中的虚假信息评估、编程错误解释的LLM应用、以及可视化设计中老年用户等主题，但优先级中文论文暂无条目。"
+   "brief": "今日焦点包括乌克兰前防长呼吁战时选举、塔利班执政五年重塑阿富汗、以及Shein赴港上市估值大减；同时，美国对伊朗实施前所未有的金融制裁，特朗普政府威胁对加拿大加征关税。",
+   "news_summary": "乌克兰前防长费多罗夫呼吁战时选举，泽连斯基警告可能引发政治海啸；BBC观察塔利班治理阿富汗的现状；Shein计划9月上市，估值降至270亿美元。",
+   "papers_summary": "今日暂无优先的中文论文，英文论文涉及光刻胶碳电极微流控检测、学术信息系统评估及网络监控可视化等主题。"
   }
  },
  "todays_image": {
-  "caption": "Like Blue Poles finally making its chaotic trip west, the star-shaped Chaetopappa asteroides could find beauty in the tangled mess of Sydney’s train delays.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3d1b2a964-ed98-4ee0-8f71-927381c84000",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c/90",
-  "title": "Chaetopappa asteroides (Nutt.) DC."
+  "caption": "Just as the old fortress once watched over a strategic waterway of empires, Burnham now stands firm at another geopolitical crossroads, defying Russia's threats.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-22543_02-000003",
+  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/22543",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-22543_02-000003",
+  "title": "Castle in the Dardanelles, Turkey"
  }
 }
