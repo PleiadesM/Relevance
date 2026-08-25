@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-25T16:52:39Z",
+ "generated_at": "2026-08-25T18:55:04Z",
  "private_summary": {
   "configured": 0,
   "total": 0
@@ -115,7 +115,7 @@
   },
   {
    "category": "open",
-   "count": 26,
+   "count": 27,
    "error": null,
    "full_text_count": 0,
    "id": "bbc_world",
@@ -151,7 +151,7 @@
   },
   {
    "category": "open",
-   "count": 27,
+   "count": 26,
    "error": null,
    "full_text_count": 0,
    "id": "nyt_homepage",
@@ -187,7 +187,7 @@
   },
   {
    "category": "optional",
-   "count": 50,
+   "count": 0,
    "error": null,
    "full_text_count": 0,
    "id": "openalex_datavis",
@@ -223,7 +223,7 @@
   },
   {
    "category": "optional",
-   "count": 40,
+   "count": 0,
    "error": null,
    "full_text_count": 0,
    "id": "openalex_techcomm",

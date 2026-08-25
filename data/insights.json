@@ -1,28 +1,48 @@
 {
- "brief": "Today's news is dominated by escalating US-Canada trade tensions and a surprise CIA visit to Moscow, while papers explore AI disclosure, explainable AI, and visualization for health and urban safety.",
- "meta": {
-  "generated_at": "2026-08-25T16:52:39Z"
+ "apropos_of_nothing": {
+  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
+  "source": {
+   "name": "IGN",
+   "published_at": "2026-08-16T07:00:00Z",
+   "title": "How to Get Atlantic Giant Pumpkin - Grow a Garden 2 [Roblox] Guide",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWE0xZDltN0xxaW9jMHRua01QS2Q1b0FtV2JIaFhsWHB0NmFFYWR4X014TU5pU1MtMUZnMDIxVXpuNmtnRmRkTnhLRFFTMDBhQXRJQ0w2WHBxR1VMaUlVcHEwRWdzd3RubFMyWThMdWVLQjg5c0ZWamo5dHFGallkajZkZ0JFSXBFQ2c?oc=5"
+  },
+  "summaries": {
+   "en": {
+    "summary": "A guide on how to get an Atlantic Giant Pumpkin in the Roblox game 'Grow a Garden 2'.",
+    "why_irrelevant": "It's about a video game mechanic, unrelated to current events or the user's interests."
+   },
+   "zh": {
+    "summary": "关于如何在Roblox游戏《Grow a Garden 2》中获得大西洋巨型南瓜的指南。",
+    "why_irrelevant": "它涉及电子游戏机制，与当前新闻或用户兴趣无关。"
+   }
+  },
+  "topic": "competitive pumpkin growing"
  },
- "news_summary": "Canada retaliates with tariffs up to 50% on US goods as the trade war escalates, while the CIA director makes an unannounced visit to Moscow. Meanwhile, measles deaths in Pennsylvania highlight falling vaccination rates, and US consumer confidence dips amid high gas prices.",
- "papers_summary": "Papers address AI disclosure practices in research, the selection problem in explainable AI, and worker guidance in assembly. Visualization research covers eye-tracking for urban safety, data issue detection, and reflections on working with older adults in visualization.",
+ "brief": "Today's news is dominated by the death of country music legend Dolly Parton at age 80, alongside major trade escalations between the US and Canada, while research focuses on AI disclosure, explainable AI, and visualization with older adults.",
+ "meta": {
+  "generated_at": "2026-08-25T18:55:04Z"
+ },
+ "news_summary": "Dolly Parton's passing headlines, with tributes to her musical legacy and philanthropy, while US-Canada trade tensions intensify with Canada's retaliatory tariffs, and other stories cover measles deaths, Iran sanctions, and political primaries.",
+ "papers_summary": "Papers explore AI disclosure in CS research, multi-persona support for stance reflection, AI-guided worker training, and visualization for older adults and urban safety, highlighting human-AI interaction and ethical considerations.",
  "summaries": {
   "en": {
-   "brief": "Today's news is dominated by escalating US-Canada trade tensions and a surprise CIA visit to Moscow, while papers explore AI disclosure, explainable AI, and visualization for health and urban safety.",
-   "news_summary": "Canada retaliates with tariffs up to 50% on US goods as the trade war escalates, while the CIA director makes an unannounced visit to Moscow. Meanwhile, measles deaths in Pennsylvania highlight falling vaccination rates, and US consumer confidence dips amid high gas prices.",
-   "papers_summary": "Papers address AI disclosure practices in research, the selection problem in explainable AI, and worker guidance in assembly. Visualization research covers eye-tracking for urban safety, data issue detection, and reflections on working with older adults in visualization."
+   "brief": "Today's news is dominated by the death of country music legend Dolly Parton at age 80, alongside major trade escalations between the US and Canada, while research focuses on AI disclosure, explainable AI, and visualization with older adults.",
+   "news_summary": "Dolly Parton's passing headlines, with tributes to her musical legacy and philanthropy, while US-Canada trade tensions intensify with Canada's retaliatory tariffs, and other stories cover measles deaths, Iran sanctions, and political primaries.",
+   "papers_summary": "Papers explore AI disclosure in CS research, multi-persona support for stance reflection, AI-guided worker training, and visualization for older adults and urban safety, highlighting human-AI interaction and ethical considerations."
   },
   "zh": {
-   "brief": "今日重点：普京首登择捉岛显示俄中联手制日，美国对伊朗制裁未波及中国或为习近平访美铺路；同时中国机器人革命悄然推进。学术方面聚焦AI披露、可解释性及可视化研究。",
-   "news_summary": "普京首次踏足南千岛群岛，意在牵制日本并与中国协作；美国对伊朗新制裁对中国留有余地，或为习近平访美营造氛围。此外，台湾艺人损毁日本国宝引发台日关系讨论，中国工厂机器人数量超两百万台。",
-   "papers_summary": "多篇论文探讨AI在研究中的披露规范、多角色AI支持写作、可解释AI的选择问题，以及面向数据探索和可视化的多智能体与眼动追踪技术。"
+   "brief": "今日焦点包括美国对伊朗制裁的调整及普京登岛引发的国际关系变动，同时中国机器人革命持续进展。学术方面关注AI在科研与可视化领域的应用与伦理。",
+   "news_summary": "美国对伊朗新制裁未全面限制中国，以避免影响习近平访美；普京首次登择捉岛，凸显中俄对日牵制；中国机器人数量超两百万台，工业自动化加速。",
+   "papers_summary": "多篇论文探讨AI在科研中的披露实践、多角色AI支持讨论、以及可视化中数据问题检测等，强调AI与人类协作的挑战。"
   }
  },
  "todays_image": {
-  "caption": "Just as McKinley's presidency once opened a new era of American global reach, the CIA chief's secretive Moscow talks signal a similarly unannounced expansion of U.S. influence.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_69_34McKinley_d1",
+  "caption": "Like the wistful gaze of \"Erstwhile Susan,\" Dolly Parton's songs immortalized the quiet strength of ordinary women, now mourned by millions.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_92_90",
   "source_name": "National Portrait Gallery",
-  "source_url": "https://npg.si.edu/object/npg_NPG.69.34",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_69_34McKinley_d1",
-  "title": "William McKinley"
+  "source_url": "https://npg.si.edu/object/npg_NPG.92.90",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_92_90",
+  "title": "Erstwhile Susan"
  }
 }
