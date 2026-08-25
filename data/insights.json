@@ -1,24 +1,44 @@
 {
- "brief": "Today's news covers geopolitical tensions, domestic politics, and environmental crises, while research focuses on technological advancements in visualization and monitoring systems.",
- "meta": {
-  "generated_at": "2026-08-25T01:50:14Z"
+ "apropos_of_nothing": {
+  "query": "hikiya castle moving OR Hirosaki Castle drag",
+  "source": {
+   "name": "The Guardian",
+   "published_at": "2026-08-25T01:11:00Z",
+   "title": "Japan enlists 1,800 people to drag a 360-tonne castle keep using ropes and rollers",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOT1k0QVl0QnZpNmUzN09YbnliSmJZQ0RaMkpBWmU3bGtxdHI2Tl80ZHlKN3I3MnlMQ3JTSHFwYzRBXzhWR3JTN21tdWdCQmtKQ2J0cFgtVjBlZHkwNVh3MnVjTWFTbzRLN0ZPajhHU3hvOU9WajhCWEN0SmVrS0ZWVnBjOW5FcVBBaGlCMEhxTFA0UklOTFFZSElHa3FLeGl0Z2w1dHRxcUNwVWhsMFQw?oc=5"
+  },
+  "summaries": {
+   "en": {
+    "summary": "Japan assembled 1,800 volunteers to manually drag a 360-tonne castle keep using traditional ropes and rollers, a feat of cooperative engineering.",
+    "why_irrelevant": "a niche historical construction technique far from modern politics and tech feeds."
+   },
+   "zh": {
+    "summary": "日本召集1800名志愿者用传统绳索和滚木人工拖拽重达360吨的城堡主楼，展现协作工程壮举。",
+    "why_irrelevant": "一项远离现代政治和科技动态的小众历史建造技艺。"
+   }
+  },
+  "topic": "traditional Japanese hikiya castle moving technique"
  },
- "news_summary": "International tensions dominate with US threats against Iran and trade disputes with Canada, while domestic stories include California's legal battles over voting and a tornado in France.",
- "papers_summary": "Research highlights include SU-8 pyrolyzed carbon electrodes for microfluidics, evaluation of an academic information system, and network monitoring with Grafana visualization.",
+ "brief": "Trade tensions escalate between the US and Canada, while domestic and international stories range from California wildfires to Syrian delisting. Research highlights AI ethics and visualization advances.",
+ "meta": {
+  "generated_at": "2026-08-25T03:11:02Z"
+ },
+ "news_summary": "US tariffs on Canadian goods threaten jobs and prompt retaliation considerations. Other major stories include the Hawk wildfire near Reno, California's lawsuit over mail-in voting, and the US removing Syria from terrorism list.",
+ "papers_summary": "Papers explore AI disclosure in research, explainable AI challenges, and multi-agent exploration of scientific datasets, plus a prototype for network monitoring visualization.",
  "summaries": {
   "en": {
-   "brief": "Today's news covers geopolitical tensions, domestic politics, and environmental crises, while research focuses on technological advancements in visualization and monitoring systems.",
-   "news_summary": "International tensions dominate with US threats against Iran and trade disputes with Canada, while domestic stories include California's legal battles over voting and a tornado in France.",
-   "papers_summary": "Research highlights include SU-8 pyrolyzed carbon electrodes for microfluidics, evaluation of an academic information system, and network monitoring with Grafana visualization."
+   "brief": "Trade tensions escalate between the US and Canada, while domestic and international stories range from California wildfires to Syrian delisting. Research highlights AI ethics and visualization advances.",
+   "news_summary": "US tariffs on Canadian goods threaten jobs and prompt retaliation considerations. Other major stories include the Hawk wildfire near Reno, California's lawsuit over mail-in voting, and the US removing Syria from terrorism list.",
+   "papers_summary": "Papers explore AI disclosure in research, explainable AI challenges, and multi-agent exploration of scientific datasets, plus a prototype for network monitoring visualization."
   },
   "zh": {
-   "brief": "今日焦点包括乌克兰前防长呼吁战时选举、塔利班执政五年重塑阿富汗、以及Shein赴港上市估值大减；同时，美国对伊朗实施前所未有的金融制裁，特朗普政府威胁对加拿大加征关税。",
-   "news_summary": "乌克兰前防长费多罗夫呼吁战时选举，泽连斯基警告可能引发政治海啸；BBC观察塔利班治理阿富汗的现状；Shein计划9月上市，估值降至270亿美元。",
-   "papers_summary": "今日暂无优先的中文论文，英文论文涉及光刻胶碳电极微流控检测、学术信息系统评估及网络监控可视化等主题。"
+   "brief": "今日新闻聚焦乌克兰政局、塔利班治理、性早熟与口音偏见，亦有Shein赴港上市等财经动态；研究方面多篇论文探讨AI在科研与可视化中的应用。",
+   "news_summary": "乌克兰前防长质疑泽连斯基对贪腐的知情，呼吁战时选举；BBC观察塔利班五年执政下的阿富汗；英国调查显示口音偏见仍存在于职场；快时尚Shein计划赴港上市。",
+   "papers_summary": "多篇arXiv论文关注AI在科研写作、数据可视化及可解释性中的角色，另有关于微流控电极与教育信息系统评估的研究。"
   }
  },
  "todays_image": {
-  "caption": "Just as the old fortress once watched over a strategic waterway of empires, Burnham now stands firm at another geopolitical crossroads, defying Russia's threats.",
+  "caption": "Just as the Dardanelles castle once guarded a strategic strait, Canada could fortify its own economic choke points to disrupt U.S. trade flows.",
   "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-22543_02-000003",
   "source_name": "Cooper Hewitt, Smithsonian Design Museum",
   "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/22543",
