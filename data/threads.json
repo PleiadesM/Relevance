@@ -1,56 +1,66 @@
 {
  "meta": {
-  "count": 6,
-  "generated_at": "2026-08-25T07:06:20Z",
+  "count": 5,
+  "generated_at": "2026-08-25T08:57:38Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "e33924880b740244",
+     "item_id": "d070cf979bc4fdb3",
      "phrase": {
-      "en": "detailed accounts of final hours",
-      "zh": "最后时刻的详细账目"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/25/world/canada/trump-carney-trade-war-tariffs.html"
-    },
-    {
-     "item_id": "2225d3db2cbd3dc5",
-     "phrase": {
-      "en": "Trump threatens vehicle tariff hike",
-      "zh": "特朗普威胁提高汽车关税"
+      "en": "AI songs banned from charts",
+      "zh": "AI歌曲被榜单禁入"
      },
      "section": "news",
      "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c93vpd60654o?at_medium=RSS&at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/c20vl4vm2pno?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "41c28b4258ba5754",
+     "phrase": {
+      "en": "expectations vs. practices gap",
+      "zh": "期望与实践的落差"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.23271v1"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "A spat over tariffs spirals into a full-blown trade war with threats of more.",
-    "zh": "关税口角升级为全面贸易战，威胁不断。"
+    "en": "As AI writes with us, journals and bands ask: who made this?",
+    "zh": "当AI与我们共写，期刊和乐队问：这是谁做的？"
    },
    "id": "t1",
    "keyword": {
-    "en": "US tariffs trade war Canada",
-    "zh": "美加关税贸易战"
+    "en": "AI disclosure in research",
+    "zh": "研究中的AI披露"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track geopolitics: today Trump escalated vehicle tariffs and Canada hit back.",
-    "zh": "你关注地缘政治：今日特朗普加码汽车关税，加拿大反击。"
+    "en": "You weigh AI in work: today a chart ruling and a paper probe where disclosure fails.",
+    "zh": "你权衡AI在工作中的角色，今日榜单规则与论文探讨披露的缺失。"
    }
   },
   {
    "angles": [
     {
+     "item_id": "5ed5bc7f35703f9e",
+     "phrase": {
+      "en": "sanctions and vow of retaliation",
+      "zh": "制裁与报复誓言"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/25/nx-s1-5942903/morning-news-brief"
+    },
+    {
      "item_id": "1be7ae2789401e1e",
      "phrase": {
-      "en": "depends on China's cooperation",
-      "zh": "取决于中国的合作"
+      "en": "China's cooperation key",
+      "zh": "中国的合作是关键"
      },
      "section": "news",
      "source": "The New York Times",
@@ -60,183 +70,154 @@
      "item_id": "80a104c216af0ffb",
      "phrase": {
       "en": "Iran says fully prepared",
-      "zh": "伊朗称已完全准备"
+      "zh": "伊朗称已充分准备"
      },
      "section": "news",
      "source": "BBC World",
      "url": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "US tightens economic noose on Iran; Tehran says it's ready.",
-    "zh": "美国收紧对伊经济绞索，德黑兰称已做好准备。"
+    "en": "Economic D-Day meets a nation that vows to bend, not break.",
+    "zh": "经济D日遇上誓言不屈之国。"
    },
    "id": "t2",
    "keyword": {
-    "en": "Iran sanctions economy",
-    "zh": "伊朗制裁经济"
+    "en": "Iran sanctions escalation",
+    "zh": "伊朗制裁升级"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow US foreign policy: new 'economic D-Day' sanctions target Iran's economy, with China's role key.",
-    "zh": "你关注美国外交政策：新一轮“经济D-Day”制裁直指伊朗经济，中国角色关键。"
+    "en": "You track geopolitics: today's widening sanctions and Iran's defiance reshape risk maps.",
+    "zh": "你追踪地缘政治，今日制裁扩大与伊朗反抗重塑风险地图。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "1d8befc4164afdac",
+     "item_id": "94bd968bbe619773",
      "phrase": {
-      "en": "scraps emissions and clean energy targets",
-      "zh": "放弃排放和清洁能源目标"
+      "en": "plea for US-made missiles",
+      "zh": "恳求美国制造导弹"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/australia-news/2026/aug/25/woodside-scraps-emissions-clean-energy-targets-australia"
+     "url": "https://www.theguardian.com/politics/2026/aug/25/andy-burnham-us-new-york-ukraine-patriot-missiles"
     },
     {
-     "item_id": "d8244e8dd46251fd",
+     "item_id": "2b8e1e93b4690908",
      "phrase": {
-      "en": "bird flu spreads to mammals",
-      "zh": "禽流感蔓延至哺乳动物"
+      "en": "UK shares classified tech",
+      "zh": "英国分享机密技术"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/25/world/australia/bird-flu-h5n1-mammals.html"
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/25/nx-s1-5944059/the-uk-will-help-ukraine-make-long-range-missiles-by-sharing-classified-tech-information"
+    },
+    {
+     "item_id": "c3c1653101461e64",
+     "phrase": {
+      "en": "drone factory attack warning",
+      "zh": "无人机工厂袭击警告"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cg598m3meeyo?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "convergence": "divergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "Australia's top gas firm ditches climate targets amid oil windfall.",
-    "zh": "澳大利亚最大天然气公司弃气候目标，油价获利丰厚。"
+    "en": "Blueprints cross borders as drones loom over factories.",
+    "zh": "蓝图跨越国界，无人机笼罩工厂。"
    },
    "id": "t3",
    "keyword": {
-    "en": "Australia energy emissions",
-    "zh": "澳大利亚能源排放"
+    "en": "Ukraine missile tech transfer",
+    "zh": "乌克兰导弹技术转让"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about climate strategy: Woodside's reversal signals corporate retreat from net-zero pledges.",
-    "zh": "你关注气候战略：伍德赛德倒退预示企业净零承诺退缩。"
+    "en": "You follow security tech: the UK's share of missile specs and drone threats change the game.",
+    "zh": "你关注安全科技，英国分享导弹规格与无人机威胁改变格局。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "d070cf979bc4fdb3",
+     "item_id": "e33924880b740244",
      "phrase": {
-      "en": "AI songs banned from charts",
-      "zh": "AI歌曲被禁止上榜"
+      "en": "all-out trade war details",
+      "zh": "全面贸易战细节"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/25/world/canada/trump-carney-trade-war-tariffs.html"
+    },
+    {
+     "item_id": "2225d3db2cbd3dc5",
+     "phrase": {
+      "en": "Trump threatens vehicle tariff",
+      "zh": "特朗普威胁汽车关税"
      },
      "section": "news",
      "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c20vl4vm2pno?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "41c28b4258ba5754",
-     "phrase": {
-      "en": "expectations and practices around AI disclosure",
-      "zh": "AI披露的期望与实践"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.23271v1"
+     "url": "https://www.bbc.co.uk/news/articles/c93vpd60654o?at_medium=RSS&at_campaign=rss"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Australia charts ban AI-created songs, months after a remix scandal.",
-    "zh": "澳大利亚榜单禁AI创作歌曲，此前混音丑闻数月。"
+    "en": "Tariffs rise, cars stall, and a friendship turns frosty at the border.",
+    "zh": "关税升高，汽车停滞，边境友谊转寒。"
    },
    "id": "t4",
    "keyword": {
-    "en": "AI music charts ban",
-    "zh": "AI音乐榜单禁令"
+    "en": "US-Canada trade war",
+    "zh": "美加贸易战"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You work on AI and creativity: this policy tests AI's place in cultural production.",
-    "zh": "你研究AI与创意：此政策考验AI在文化生产中的地位。"
+    "en": "You care about data viz of economics: today's tariff threats and Canadian anger show data in motion.",
+    "zh": "你关注经济数据可视化，今日关税威胁与加拿大愤怒呈现动态数据。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "d5337fd10bceedf9",
-     "phrase": {
-      "en": "multi-persona AI for stance reflection",
-      "zh": "多角色AI促进立场反思"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.23050v1"
-    },
-    {
      "item_id": "7271bb0a3a313d8f",
      "phrase": {
-      "en": "agentic approaches for data issues",
-      "zh": "智能体方法解决数据问题"
+      "en": "agentic data issue detection",
+      "zh": "智能体数据问题检测"
      },
      "section": "papers",
      "source": "arXiv cs.HC + cs.GR",
      "url": "https://arxiv.org/abs/2608.21602v1"
+    },
+    {
+     "item_id": "d63d4f7e2ae48c38",
+     "phrase": {
+      "en": "Grafana network visualization",
+      "zh": "Grafana网络可视化"
+     },
+     "section": "papers",
+     "source": "OpenAlex · information visualization",
+     "url": "https://doi.org/10.36050/vme53t62"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Papers explore how AI shapes writing, stance, and data analysis, from disclosure to agentic tools.",
-    "zh": "论文探索AI如何影响写作、立场和数据分析，从披露到智能工具。"
+    "en": "Machines spot data flaws, yet the human eye still leads.",
+    "zh": "机器发现数据缺陷，但人眼仍领航。"
    },
    "id": "t5",
    "keyword": {
-    "en": "AI-assisted research HCI",
-    "zh": "AI辅助研究人机交互"
+    "en": "AI-assisted visualization",
+    "zh": "AI辅助可视化"
    },
    "relates_to": [],
    "why_now": {
-    "en": "Your interests intersect: today's arXiv papers probe AI in research workflows and visualization.",
-    "zh": "你的兴趣交汇：今日arXiv论文探讨研究流程与可视化中的AI。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "f9adbb7cd1f94ebe",
-     "phrase": {
-      "en": "aims to revoke visas",
-      "zh": "旨在撤销签证"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/24/us/politics/trump-administration-aims-to-revoke-visas-of-foreign-citizens-applying-for-asylum.html"
-    },
-    {
-     "item_id": "fbc37a0f01995fb8",
-     "phrase": {
-      "en": "plans to revoke 200,000 visas",
-      "zh": "计划撤销20万签证"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/aug/24/trump-administration-revoke-asylum-visas"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "US moves to revoke up to 200,000 asylum-seekers' visas, stirring legal battles.",
-    "zh": "美国拟撤销多达20万庇护申请者签证，引发法律战。"
-   },
-   "id": "t6",
-   "keyword": {
-    "en": "asylum visas revoke",
-    "zh": "庇护签证撤销"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You note policy shifts affecting millions: visa revocations and voting limits dominate today's news.",
-    "zh": "你注意影响数百万人的政策变化：签证撤销和投票限制主导今日新闻。"
+    "en": "You merge AI and visualization: new agentic tools and ethical reflections land today.",
+    "zh": "你融合AI与可视化，今日新的智能工具与伦理反思登场。"
    }
   }
  ]
