@@ -2,6 +2,84 @@
  "items": [
   {
    "authors": [
+    "Flavius-Teofil Neaga",
+    "Denis Derycke",
+    "David Lo Buglio"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Digital three-dimensional reconstructions of architectural heritage have become increasingly used as research tools, yet their visually coherent representations often conceal the interpretive processes, uncertainties, and evidential gaps underlying their production. This paper proposes a method for visualising evidential proximity, defined as the distance between the reconstructed geometry and the documented sources that support it, within three-dimensional architectural restitution models. The…",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "5f9e7ed77ac71610",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-26T00:00:00Z",
+   "score": 0.6225,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Digital three-dimensional reconstructions of architectural heritage have become increasingly used as research tools, yet their visually coherent representations often conceal the interpretive processes, uncertainties, and evidential gaps underlying their production. This paper proposes a method for…",
+   "tags": [],
+   "title": "Building a reflexive space for scientific dialogue through the digital reconstruction case of the Palais Stoclet dining room",
+   "url": "http://hdl.handle.net/2013/ULB-DIPOT:oai:dipot.ulb.ac.be:2013/404568",
+   "venue": "Dépôt institutionnel de l'Université libre de Bruxelles (Université Libre de Bruxelles)"
+  },
+  {
+   "authors": [
+    "Eline Vandecruys",
+    "Andras Vanquaille",
+    "Els Verstrynge"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "status: Accepted",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "395413a02a30c6ad",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-26T00:00:00Z",
+   "score": 0.485,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "status: Accepted",
+   "tags": [],
+   "title": "Non-destructive wave-based detection of delamination in corroded RC panels",
+   "url": "https://lirias.kuleuven.be/handle/20.500.12942/788378",
+   "venue": "Lirias"
+  },
+  {
+   "authors": [
+    "Martin J. Gote"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "The dairy sector in Western Europe is undergoing a transition toward larger, more automated, and more data-intensive production systems. In response to labor constraints, global market competition, and increasing societal expectations regarding sustainable production and animal welfare, many often family-owned dairy farms are implementing automatic milking systems and precision dairy farming technologies. As the number of cows per farmer increases, the time available for direct animal…",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "5e94e143bd12c20b",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-26T00:00:00Z",
+   "score": 0.6225,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "The dairy sector in Western Europe is undergoing a transition toward larger, more automated, and more data-intensive production systems. In response to labor constraints, global market competition, and increasing societal expectations regarding sustainable production and animal welfare, many often…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Een methodologisch kader voor toekomstige beslissingsondersteuning in de melkveehouderij - contextuele dataintegratie en modellering van melkproductie op kwartierniveau",
+   "url": "https://lirias.kuleuven.be/handle/20.500.12942/790270",
+   "venue": "Lirias"
+  },
+  {
+   "authors": [
     "Arati Mohapatra",
     "Danish Pruthi"
    ],
@@ -14,7 +92,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-24T13:58:16Z",
-   "score": 0.6645,
+   "score": 0.6572,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -41,7 +119,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-24T09:55:10Z",
-   "score": 0.6498,
+   "score": 0.6429,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -68,7 +146,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-23T21:41:33Z",
-   "score": 0.6096,
+   "score": 0.6035,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -94,7 +172,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-23T10:42:03Z",
-   "score": 0.578,
+   "score": 0.5728,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -123,7 +201,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-22T17:16:29Z",
-   "score": 0.5758,
+   "score": 0.5715,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -150,7 +228,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-21T23:24:44Z",
-   "score": 0.5407,
+   "score": 0.5372,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -178,7 +256,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-21T20:08:03Z",
-   "score": 0.535,
+   "score": 0.5317,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -203,7 +281,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-21T03:02:31Z",
-   "score": 0.5088,
+   "score": 0.506,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -229,7 +307,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T19:36:01Z",
-   "score": 0.6389,
+   "score": 0.6364,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -243,8 +321,8 @@
   }
  ],
  "meta": {
-  "count": 9,
-  "generated_at": "2026-08-25T20:43:39Z",
+  "count": 12,
+  "generated_at": "2026-08-25T22:42:52Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -287,7 +365,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A1050-6519%2Cfrom-created-date%3A2026-07-28&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-07-28&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",

@@ -1,48 +1,40 @@
 {
  "apropos_of_nothing": {
-  "query": "noodle pulling competition OR hand pulled noodles championship",
+  "query": "(\"watermelon seed spitting contest\" OR \"world championship seed spitting\")",
   "source": {
-   "name": "The World of Chinese",
-   "published_at": "2026-08-21T07:25:21Z",
-   "title": "Who Owns China’s Ramen?",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMk5sUXFWVE1VVy1HNnhkS3dKeWZrNnJzYUJXcTNKODAwa1lQNFh3T1ZVLWVhTUxIQkpVblFtNjl0dnF3ajJHQ3JRSUZSRUJRRHVvV1FhQl9qUWxaU3dzMzA2MDVrZEhiZHJVZS1zVTBPaUcwZWdwZkFxVDZPRGx4SXBHcHg?oc=5"
+   "name": "sedaliademocrat.com",
+   "published_at": "2026-08-21T06:15:00Z",
+   "title": "Unmet expectations need not provoke aberrations",
+   "url": "http://sedaliademocrat.com/stories/unmet-expectations-need-not-provoke-aberrations,53919"
   },
   "summaries": {
    "en": {
-    "summary": "A deep dive into the origins and cultural ownership of Chinese ramen, tracing its evolution from Japanese imports to local reinvention.",
-    "why_irrelevant": "A niche food-history piece far from the usual tech and business chatter."
+    "summary": "An editorial argues that unfulfilled expectations do not justify unusual behavior, a philosophical stance far from typical personal dashboard content.",
+    "why_irrelevant": "A philosophical opinion piece unrelated to daily routines or trending topics."
    },
    "zh": {
-    "summary": "深入探讨中国拉面的起源与文化归属，追溯其从日本进口到本土重塑的演变。",
-    "why_irrelevant": "一篇小众饮食史文章，远离日常科技与商业话题。"
+    "summary": "一篇评论文章认为，未满足的期望不应引发异常行为，这一哲学立场远离常见的个人仪表盘内容。",
+    "why_irrelevant": "与日常事务或热门话题无关的哲学观点。"
    }
   },
-  "topic": "competitive noodle pulling championships"
+  "topic": "competitive watermelon seed spitting"
  },
- "brief": "The world mourns country legend Dolly Parton, whose bold style and songs broke barriers, while trade tensions escalate as Canada retaliates with high tariffs. In research, AI disclosure, explainability, and human-data interaction take center stage.",
+ "brief": "Today's news centers on the death of Dolly Parton at 80, with tributes pouring in, while Canada retaliates with tariffs up to 50% on U.S. goods. Meanwhile, research highlights advancements in scientific data exploration, AI in visualization, and non-destructive testing.",
  "meta": {
-  "generated_at": "2026-08-25T20:43:39Z"
+  "generated_at": "2026-08-25T22:42:52Z"
  },
- "news_summary": "Dolly Parton's death at 80 prompts tributes from stars and politicians, highlighting her impact on music and culture. Meanwhile, Canada imposes retaliatory tariffs up to 50% on US goods, escalating the trade war, and other global developments include measles deaths, military family deportations, and AI server smuggling charges.",
- "papers_summary": "Recent papers address AI disclosure in research, multi-persona AI for stance reflection, and AI guidance in assembly tasks. Other studies explore XAI selection problems, multi-agent dataset exploration, urban gaze visualization, data issue detection in AI-assisted visualization, and reflections on working with older adults in visualization research.",
+ "news_summary": "Dolly Parton's death dominates headlines, alongside Canada's imposition of retaliatory tariffs on U.S. goods, and other political and cultural stories like the Log Cabin Republicans' shift and a South Carolina runoff.",
+ "papers_summary": "Research includes new methods for autonomous scientific dataset exploration, AI-assisted visualization for data issue detection, and non-destructive wave-based testing for corrosion in concrete panels.",
  "summaries": {
   "en": {
-   "brief": "The world mourns country legend Dolly Parton, whose bold style and songs broke barriers, while trade tensions escalate as Canada retaliates with high tariffs. In research, AI disclosure, explainability, and human-data interaction take center stage.",
-   "news_summary": "Dolly Parton's death at 80 prompts tributes from stars and politicians, highlighting her impact on music and culture. Meanwhile, Canada imposes retaliatory tariffs up to 50% on US goods, escalating the trade war, and other global developments include measles deaths, military family deportations, and AI server smuggling charges.",
-   "papers_summary": "Recent papers address AI disclosure in research, multi-persona AI for stance reflection, and AI guidance in assembly tasks. Other studies explore XAI selection problems, multi-agent dataset exploration, urban gaze visualization, data issue detection in AI-assisted visualization, and reflections on working with older adults in visualization research."
+   "brief": "Today's news centers on the death of Dolly Parton at 80, with tributes pouring in, while Canada retaliates with tariffs up to 50% on U.S. goods. Meanwhile, research highlights advancements in scientific data exploration, AI in visualization, and non-destructive testing.",
+   "news_summary": "Dolly Parton's death dominates headlines, alongside Canada's imposition of retaliatory tariffs on U.S. goods, and other political and cultural stories like the Log Cabin Republicans' shift and a South Carolina runoff.",
+   "papers_summary": "Research includes new methods for autonomous scientific dataset exploration, AI-assisted visualization for data issue detection, and non-destructive wave-based testing for corrosion in concrete panels."
   },
   "zh": {
-   "brief": "国际新闻聚焦美伊制裁、普京登岛及美加贸易战，学术研究则关注AI在科研与可视化中的应用。",
-   "news_summary": "美国对伊朗新制裁未波及中国，学者分析或因习近平访美；普京首次登择捉岛，意在牵制日本；美加贸易战升级，加拿大报复性关税高达50%。",
-   "papers_summary": "今日论文主要探讨AI在科研写作与数据可视化中的应用，包括AI披露实践、多智能体数据探索及眼动数据可视化等。"
+   "brief": "今日焦点包括美国对伊朗制裁的调整、普京首次登岛、中国工厂机器人革命等新闻，以及AI在科研与可视化中的伦理与应用研究。",
+   "news_summary": "美国制裁伊朗新措施未对华施压，以避免影响习普会；普京首登择捉岛牵制日本；中国机器人数量激增引发关注。",
+   "papers_summary": "研究探讨AI在科研中的披露规范、多智能体系统探索科学数据集，以及可视化在安全感知等领域的应用，强调人机协同与伦理问题。"
   }
- },
- "todays_image": {
-  "caption": "Both the voodoo guitar and Dolly Parton’s style transform raw, discarded odds and ends into bold, spellbinding art that demands attention.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-759DA10C56372_5001",
-  "source_name": "National Museum of African American History and Culture",
-  "source_url": "https://nmaahc.si.edu/object/nmaahc_2015.119.1-.2",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-759DA10C56372_5001",
-  "title": "Voodoo Guitar \"Marie\" made by Don Moser with debris from Hurricane Katrina"
  }
 }

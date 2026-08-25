@@ -1,0 +1,226 @@
+{
+ "meta": {
+  "count": 4,
+  "generated_at": "2026-08-25T22:42:52Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "605d2c26042de66c",
+     "phrase": {
+      "en": "Canada hits back with up to 50% tariffs",
+      "zh": "加拿大以高达50%关税回击"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/live/2026/aug/25/donald-trump-tariffs-canada-midterms-primary-south-carolina-iran-ukraine-voting-rights-latest-news-updates"
+    },
+    {
+     "item_id": "5daf3ac9d289dcd8",
+     "phrase": {
+      "en": "NYT details new Canadian levies",
+      "zh": "纽约时报详述加拿大新税"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/25/world/canada/canada-tariffs-trump-carney-retaliatory.html"
+    },
+    {
+     "item_id": "8f52be6b558315aa",
+     "phrase": {
+      "en": "Defiance grows against Trump policies",
+      "zh": "对特朗普政策的反抗加剧"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/25/us/politics/trump-polls-tariffs-carney.html"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Canada strikes back with hefty tariffs, escalating the trade fight.",
+    "zh": "加拿大以高额关税回击，贸易战升级。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "Canada-US trade war",
+    "zh": "加美贸易战"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-25",
+     "item_id": "605d2c26042de66c",
+     "label": {
+      "en": "Canada announces tariffs",
+      "zh": "加拿大宣布关税"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/live/2026/aug/25/donald-trump-tariffs-canada-midterms-primary-south-carolina-iran-ukraine-voting-rights-latest-news-updates"
+    },
+    {
+     "date": "2026-08-25",
+     "item_id": "5daf3ac9d289dcd8",
+     "label": {
+      "en": "NYT reports on tariffs",
+      "zh": "纽约时报报道关税"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/25/world/canada/canada-tariffs-trump-carney-retaliatory.html"
+    }
+   ],
+   "why_now": {
+    "en": "You track global economic shifts: today Canada's retaliation reshapes trade dynamics.",
+    "zh": "你关注全球经济变化，今日加拿大反击重塑贸易格局。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "8f51c5b0deb0d6b5",
+     "phrase": {
+      "en": "Taiwan charges over AI server smuggling",
+      "zh": "台湾指控AI服务器走私"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/technology/2026/aug/25/taiwan-china-ai-smugglers"
+    },
+    {
+     "item_id": "2b1da352e8098d77",
+     "phrase": {
+      "en": "US-China AI rivalry flashpoint",
+      "zh": "美中AI竞争焦点"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/25/opinion/dolly-parton-death-america-legacy.html"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Taiwan charges nine over smuggling AI servers to China, stoking tech rivalry.",
+    "zh": "台湾指控九人走私AI服务器至中国，科技竞争加剧。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "AI server export controls",
+    "zh": "AI服务器出口管制"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about AI geopolitics: this case shows the frontline of AI hardware control.",
+    "zh": "你关心AI地缘政治，此案显示AI硬件管制前沿。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "full_text_file": "articles/news/b8078964cc0c9755.json",
+     "item_id": "b8078964cc0c9755",
+     "phrase": {
+      "en": "Humanoids at Shanghai carnival",
+      "zh": "上海嘉年华人形机器人"
+     },
+     "section": "news",
+     "source": "MIT Technology Review · AI",
+     "url": "https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/"
+    },
+    {
+     "item_id": "6df4b9ed4aa3f222",
+     "phrase": {
+      "en": "AI doctors hiring push",
+      "zh": "AI医生招聘推动"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://www.ycombinator.com/companies/clara-2/jobs/8snci6k-founding-full-stack-growth-engineer"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "A day at a robot carnival shows China's push to integrate humanoids into daily life.",
+    "zh": "机器人嘉年华一日游展示中国推动人形机器人融入日常生活。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "Humanoid robots in China",
+    "zh": "中国人形机器人"
+   },
+   "relates_to": [
+    "t2"
+   ],
+   "why_now": {
+    "en": "You track embodied AI: this report gives a ground-level view of its deployment.",
+    "zh": "你关注具身AI，此报道提供其部署的一线视角。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "c49d5eeb358f7feb",
+     "phrase": {
+      "en": "CIA chief's unannounced talks",
+      "zh": "中情局局长突访会谈"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "40a757f2f9361896",
+     "phrase": {
+      "en": "First known visit to Russia",
+      "zh": "首次已知访俄"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/25/cia-director-john-ratcliffe-moscow-russia"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "CIA director's unannounced Moscow visit signals quiet diplomacy amid tension.",
+    "zh": "中情局局长突访莫斯科，紧张中显静默外交。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "CIA-Moscow talks",
+    "zh": "中情局-莫斯科会谈"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-25",
+     "item_id": "c49d5eeb358f7feb",
+     "label": {
+      "en": "CIA chief visits Moscow",
+      "zh": "中情局局长访莫斯科"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "date": "2026-08-25",
+     "item_id": "40a757f2f9361896",
+     "label": {
+      "en": "Guardian confirms visit",
+      "zh": "卫报确认访问"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/25/cia-director-john-ratcliffe-moscow-russia"
+    }
+   ],
+   "why_now": {
+    "en": "You follow global affairs: this surprise trip could alter intelligence dynamics.",
+    "zh": "你关注全球事务，此意外访问或改变情报动态。"
+   }
+  }
+ ]
+}
