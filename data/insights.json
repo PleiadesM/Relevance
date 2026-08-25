@@ -1,48 +1,40 @@
 {
  "apropos_of_nothing": {
-  "query": "hikiya castle moving OR Hirosaki Castle drag",
+  "query": "washi paper workshop OR Japanese paper craft",
   "source": {
-   "name": "The Guardian",
-   "published_at": "2026-08-25T01:11:00Z",
-   "title": "Japan enlists 1,800 people to drag a 360-tonne castle keep using ropes and rollers",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOT1k0QVl0QnZpNmUzN09YbnliSmJZQ0RaMkpBWmU3bGtxdHI2Tl80ZHlKN3I3MnlMQ3JTSHFwYzRBXzhWR3JTN21tdWdCQmtKQ2J0cFgtVjBlZHkwNVh3MnVjTWFTbzRLN0ZPajhHU3hvOU9WajhCWEN0SmVrS0ZWVnBjOW5FcVBBaGlCMEhxTFA0UklOTFFZSElHa3FLeGl0Z2w1dHRxcUNwVWhsMFQw?oc=5"
+   "name": "毎日新聞",
+   "published_at": "2026-08-23T04:01:20Z",
+   "title": "Cool for centuries: Traditional bamboo fans from Japan's Kumamoto Pref. go global",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5wRTNwb1dXM05OM0ZjQy1nQkRCWENsTXdZWkFPLUd6bVlsYk1hS1ZqUlRCR2VMSnJwVUtWS0lFYngtNm1JN0pQVDVaRkdrcE1mOUpHNVNzRV9ZbVliY21kbHRGTkZXT1lV?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "Japan assembled 1,800 volunteers to manually drag a 360-tonne castle keep using traditional ropes and rollers, a feat of cooperative engineering.",
-    "why_irrelevant": "a niche historical construction technique far from modern politics and tech feeds."
+    "summary": "Traditional bamboo fans from Kumamoto Prefecture are gaining international popularity.",
+    "why_irrelevant": "a niche cultural product with no connection to typical user interests."
    },
    "zh": {
-    "summary": "日本召集1800名志愿者用传统绳索和滚木人工拖拽重达360吨的城堡主楼，展现协作工程壮举。",
-    "why_irrelevant": "一项远离现代政治和科技动态的小众历史建造技艺。"
+    "summary": "熊本县的传统竹扇正在国际上走红。",
+    "why_irrelevant": "小众文化产品，与用户常规兴趣无关。"
    }
   },
-  "topic": "traditional Japanese hikiya castle moving technique"
+  "topic": "traditional Japanese washi paper making"
  },
- "brief": "Trade tensions escalate between the US and Canada, while domestic and international stories range from California wildfires to Syrian delisting. Research highlights AI ethics and visualization advances.",
+ "brief": "Today's news is dominated by environmental crises, from Europe's deadly heatwaves and Indonesia's haze to Australia's bird flu, alongside major political and economic developments. Meanwhile, research highlights AI's evolving role in disclosure, writing support, and data visualization.",
  "meta": {
-  "generated_at": "2026-08-25T03:11:02Z"
+  "generated_at": "2026-08-25T04:51:28Z"
  },
- "news_summary": "US tariffs on Canadian goods threaten jobs and prompt retaliation considerations. Other major stories include the Hawk wildfire near Reno, California's lawsuit over mail-in voting, and the US removing Syria from terrorism list.",
- "papers_summary": "Papers explore AI disclosure in research, explainable AI challenges, and multi-agent exploration of scientific datasets, plus a prototype for network monitoring visualization.",
+ "news_summary": "News leads with severe heatwave impacts in Europe and Indonesia, plus Australia's bird flu outbreak and a major property collapse. Tariff disputes, political controversies, and cultural stories also feature prominently.",
+ "papers_summary": "Research papers explore AI disclosure practices, multi-persona support for stance reflection, and agentic approaches to data visualization, alongside advances in sensor integration and monitoring systems.",
  "summaries": {
   "en": {
-   "brief": "Trade tensions escalate between the US and Canada, while domestic and international stories range from California wildfires to Syrian delisting. Research highlights AI ethics and visualization advances.",
-   "news_summary": "US tariffs on Canadian goods threaten jobs and prompt retaliation considerations. Other major stories include the Hawk wildfire near Reno, California's lawsuit over mail-in voting, and the US removing Syria from terrorism list.",
-   "papers_summary": "Papers explore AI disclosure in research, explainable AI challenges, and multi-agent exploration of scientific datasets, plus a prototype for network monitoring visualization."
+   "brief": "Today's news is dominated by environmental crises, from Europe's deadly heatwaves and Indonesia's haze to Australia's bird flu, alongside major political and economic developments. Meanwhile, research highlights AI's evolving role in disclosure, writing support, and data visualization.",
+   "news_summary": "News leads with severe heatwave impacts in Europe and Indonesia, plus Australia's bird flu outbreak and a major property collapse. Tariff disputes, political controversies, and cultural stories also feature prominently.",
+   "papers_summary": "Research papers explore AI disclosure practices, multi-persona support for stance reflection, and agentic approaches to data visualization, alongside advances in sensor integration and monitoring systems."
   },
   "zh": {
-   "brief": "今日新闻聚焦乌克兰政局、塔利班治理、性早熟与口音偏见，亦有Shein赴港上市等财经动态；研究方面多篇论文探讨AI在科研与可视化中的应用。",
-   "news_summary": "乌克兰前防长质疑泽连斯基对贪腐的知情，呼吁战时选举；BBC观察塔利班五年执政下的阿富汗；英国调查显示口音偏见仍存在于职场；快时尚Shein计划赴港上市。",
-   "papers_summary": "多篇arXiv论文关注AI在科研写作、数据可视化及可解释性中的角色，另有关于微流控电极与教育信息系统评估的研究。"
+   "brief": "今日新闻聚焦台湾艺人涉日本国宝泼油事件及其对台日关系的影响，同时关注塔利班治下阿富汗现状、Shein赴港上市估值缩减等议题；论文方面无重大发现，主要涉及AI披露实践和可视化研究。",
+   "news_summary": "今日新闻涵盖台湾艺人潑油事件引发的台日关系讨论，塔利班治理阿富汗的观察，以及Shein港股上市估值大减至270亿美元等国际动态。",
+   "papers_summary": "今日论文无重大突破，主要围绕AI研究中的披露实践、多角色AI支持写作以及信息可视化系统的应用研究。"
   }
- },
- "todays_image": {
-  "caption": "Just as the Dardanelles castle once guarded a strategic strait, Canada could fortify its own economic choke points to disrupt U.S. trade flows.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-22543_02-000003",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/22543",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-22543_02-000003",
-  "title": "Castle in the Dardanelles, Turkey"
  }
 }
