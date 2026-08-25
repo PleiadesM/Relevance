@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "sand sledding OR dune surfing",
+  "query": "snail racing championship OR world snail race",
   "source": {
-   "name": "IGN",
-   "published_at": "2026-08-02T07:00:00Z",
-   "title": "Shield Surf Guide - The Legend of Zelda: Tears of the Kingdom Guide",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNeG5wU0VXbHNQT1N4cnhqNWdMRkllbkpCVWlTZEJRYzluZnJGNTM3YXctR3otSmdZcGZIVzFxOEhfMUVkemt1ZEhLcFZHNFNuMEM0dktLc3FBMk5oaElVdVY3Qk5Sd0xyeU1QajNZcjBTZjB4UmpQV2E5ZURiWnBSRW5SbkdlSWV6WE5mYg?oc=5"
+   "name": "GTPlanet",
+   "published_at": "2026-08-13T07:00:00Z",
+   "title": "Gran Turismo 7’s New Online Time Trial Raises Eyebrows Ahead of Update",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQR2lTLWZTUmxNVkxxaUhxbVJqTzloQmVYbEtJOHRrelN5RUZPYnRfT2NNY2NLMTVJMjJsaWZvUEVKQm9IblEwMUdDNjBySHVhdGpRZVpQaUxCb29RNDN4NGtBeEl1QlFlbHFLc3FfbGs1QzQ0RHpsRkNRcHJRZjZEU21nRi02SkhGVXV1cUpOeVdPSFlvVTJGQmJPVnU2NWYyc1ZaZ2RDdw?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A guide to shield surfing in the video game The Legend of Zelda: Tears of the Kingdom.",
-    "why_irrelevant": "Fictional gameplay, far outside real-world beach news."
+    "summary": "Gran Turismo 7's new online time trial has sparked curiosity among players ahead of the next update.",
+    "why_irrelevant": "It's a niche gaming detail, far removed from typical personal growth topics."
    },
    "zh": {
-    "summary": "《塞尔达传说：王国之泪》中盾牌滑行的游戏攻略。",
-    "why_irrelevant": "虚构游戏内容，远离现实海滩新闻。"
+    "summary": "《GT赛车7》的新在线计时赛在更新前引起玩家好奇。",
+    "why_irrelevant": "属于小众游戏细节，远离个人成长类话题。"
    }
   },
-  "topic": "sand dune sledding"
+  "topic": "competitive snail racing"
  },
- "brief": "Today's news covers UK housing policy tensions, a record-breaking nuclear-powered aircraft carrier port call, and a major NFL CTE study, while papers explore AI disclosure, multi-persona AI support, and visualization systems.",
+ "brief": "Apple's new Macs boost local AI, while OpenAI restores limits; geopolitics sees Trump's Canada trade war and Ukraine missile pleas; research focuses on AI disclosure and visualization.",
  "meta": {
-  "generated_at": "2026-08-25T10:47:38Z"
+  "generated_at": "2026-08-25T13:09:05Z"
  },
- "news_summary": "UK politics face housing plan contradictions and Patriot missile lobbying; international stories include US-Iran tensions, NFL CTE prevalence, and a record-setting kitten.",
- "papers_summary": "Research on AI disclosure in CS, multi-persona AI for stance reflection, and visualization systems for urban safety and scientific data exploration are highlighted.",
+ "news_summary": "Apple's Mac Studio and Mac mini target local AI inference, while OpenAI reimposes usage limits. Elsewhere, Trump's trade war with Canada and UK PM Burnham's Ukraine diplomacy dominate headlines.",
+ "papers_summary": "Research covers AI disclosure expectations, PFAS immunotoxicity, and visualization systems for urban safety and older adults, among other topics.",
  "summaries": {
   "en": {
-   "brief": "Today's news covers UK housing policy tensions, a record-breaking nuclear-powered aircraft carrier port call, and a major NFL CTE study, while papers explore AI disclosure, multi-persona AI support, and visualization systems.",
-   "news_summary": "UK politics face housing plan contradictions and Patriot missile lobbying; international stories include US-Iran tensions, NFL CTE prevalence, and a record-setting kitten.",
-   "papers_summary": "Research on AI disclosure in CS, multi-persona AI for stance reflection, and visualization systems for urban safety and scientific data exploration are highlighted."
+   "brief": "Apple's new Macs boost local AI, while OpenAI restores limits; geopolitics sees Trump's Canada trade war and Ukraine missile pleas; research focuses on AI disclosure and visualization.",
+   "news_summary": "Apple's Mac Studio and Mac mini target local AI inference, while OpenAI reimposes usage limits. Elsewhere, Trump's trade war with Canada and UK PM Burnham's Ukraine diplomacy dominate headlines.",
+   "papers_summary": "Research covers AI disclosure expectations, PFAS immunotoxicity, and visualization systems for urban safety and older adults, among other topics."
   },
   "zh": {
-   "brief": "今日焦点包括普京首次登择捉岛引发的地缘政治关注，以及中国工厂机器人数量快速增长带来的产业变革；研究方面，AI在科研和可视化中的应用成为热点。",
-   "news_summary": "普京首次踏足南千岛群岛，被视为对日本的牵制；中国工厂机器人数量超两百万台并快速增长，显示工业自动化加速。",
-   "papers_summary": "多项研究关注AI在学术写作、数据可视化和科研数据分析中的角色与挑战，包括AI披露实践、多智能体探索科学数据集等。"
+   "brief": "今日焦点：普京首访争议岛屿牵动日俄关系，中国机器人革命悄然推进；同时多项研究探讨AI在科研与可视化中的应用，以及PFAS的免疫毒性新发现。",
+   "news_summary": "普京首次踏足南千岛群岛，引发日俄关系关注；中国工厂机器人数量激增，预示制造业变革。",
+   "papers_summary": "研究揭示PFAS可能促进T细胞增殖，造成免疫失调；多项研究探讨AI辅助科研与可视化，以及可解释AI的挑战。"
   }
  },
  "todays_image": {
-  "caption": "The USS Enterprise model carries planes but no social housing, much like the government's housing plan carries promises but not the social renting pledge.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19830024000-NASM2018-10027",
-  "source_name": "National Air and Space Museum",
-  "source_url": "http://n2t.net/ark:/65665/nv9aba2da94-05c6-4161-9a40-455407b2163e",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19830024000-NASM2018-10027",
-  "title": "Model, Aircraft Carrier, USS Enterprise"
+  "caption": "Just as a fork's pentagonal terminal serves salad directly at the table, Apple's new Macs serve AI inference locally at the device's endpoint.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-CHP6818",
+  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/233773",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-CHP6818",
+  "title": "Salad Serving Fork with Pentagonal Terminal"
  }
 }

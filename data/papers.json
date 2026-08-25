@@ -2,6 +2,35 @@
  "items": [
   {
    "authors": [
+    "Allison Loan",
+    "Lauren M. Bradford",
+    "Andrée Nunnikhoven",
+    "Gong Zhang",
+    "Emily Dupuis",
+    "Eunnara Cho"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract Immunotoxicity has emerged as a key health concern for per- and polyfluoroalkyl substances (PFAS), with animal studies showing reduced T-dependent antibody responses (TDAR) and epidemiological studies reporting decreased vaccine antibody titres. Notably, immunotoxicity is considered one of the most sensitive endpoints for PFAS exposure and has been used to inform regulatory guidance and health-based values. Given that more than 14,000 PFAS exist and are highly environmentally…",
+    "citations": 0,
+    "doi": "10.1007/s00204-026-04525-6"
+   },
+   "id": "213b9efd5a7eca19",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-25T00:00:00Z",
+   "score": 0.4343,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract Immunotoxicity has emerged as a key health concern for per- and polyfluoroalkyl substances (PFAS), with animal studies showing reduced T-dependent antibody responses (TDAR) and epidemiological studies reporting decreased vaccine antibody titres. Notably, immunotoxicity is considered one of…",
+   "tags": [],
+   "title": "A human PBMC-based new approach method reveals PFAS-driven T-cell proliferation and immune dysregulation",
+   "url": "https://doi.org/10.1007/s00204-026-04525-6",
+   "venue": "Archives of Toxicology"
+  },
+  {
+   "authors": [
     "Arati Mohapatra",
     "Danish Pruthi"
    ],
@@ -14,7 +43,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-24T13:58:16Z",
-   "score": 0.7037,
+   "score": 0.694,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -41,7 +70,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-24T09:55:10Z",
-   "score": 0.6872,
+   "score": 0.6779,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -56,86 +85,32 @@
   },
   {
    "authors": [
-    "Hwi Yong Lee",
-    "Jessika Rogers",
-    "Chito Kendrick",
-    "Sanaz Habibi",
-    "Adrienne Minerick"
+    "Yueling Deng",
+    "Xiao Zhang",
+    "Zhidi Pan",
+    "Xiaoying Lv",
+    "Zhaoguo Lin",
+    "Yuan Feng"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "",
+    "abstract_snippet": "Mesothelin is highly expressed in ovarian cancer and represents a promising target for precision imaging and therapy. This study aimed to develop and evaluate ⁶⁸Ga-XH04, a novel mesothelin-targeted immuno-PET tracer for non-invasive imaging of mesothelin expression in preclinical models and patients. XH04, a high-affinity anti-mesothelin antigen-binding fragment (Fab), was engineered and conjugated with NOTA for radiolabeling with ⁶⁸Ga. Binding affinity and specificity were assessed in vitro…",
     "citations": 0,
-    "doi": "10.1007/s10544-026-00838-6"
+    "doi": "10.1186/s40364-026-00989-x"
    },
-   "id": "3005e7802c2f0b2f",
+   "id": "f99fd050c17e73b7",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-24T00:00:00Z",
-   "score": 0.3663,
+   "score": 0.4974,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "",
-   "tags": [
-    "systems"
-   ],
-   "title": "Fabrication of photoresist SU-8 pyrolyzed carbon electrodes and their integration in a microfluidic hematocrit detection system",
-   "url": "https://doi.org/10.1007/s10544-026-00838-6",
-   "venue": "Biomedical Microdevices"
-  },
-  {
-   "authors": [
-    "Muhammad Rifqi Anshory",
-    "Mulyadi S",
-    "Aji Supriyanto"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Educational administration in the digital era demands governance transformation through information technology; however, at State Vocational High School (Sekolah Menengah Kejuruan or SMK) Negeri 1 Sukoharjo, which possesses specific administrative complexities such as Field Work Practice (Praktik Kerja Lapangan or PKL) logbook management, comprehensive evaluation of service quality from the end-user perspective is still very minimal, potentially triggering inefficiencies in academic…",
-    "citations": 0,
-    "doi": "10.36050/1pn26718"
-   },
-   "id": "4c621a8755fa7e5a",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-24T00:00:00Z",
-   "score": 0.3663,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Educational administration in the digital era demands governance transformation through information technology; however, at State Vocational High School (Sekolah Menengah Kejuruan or SMK) Negeri 1 Sukoharjo, which possesses specific administrative complexities such as Field Work Practice (Praktik…",
+   "summary": "Mesothelin is highly expressed in ovarian cancer and represents a promising target for precision imaging and therapy. This study aimed to develop and evaluate ⁶⁸Ga-XH04, a novel mesothelin-targeted immuno-PET tracer for non-invasive imaging of mesothelin expression in preclinical models and…",
    "tags": [],
-   "title": "Evaluasi Kualitas Sistem Informasi Akademik SMK Negeri 1 Sukoharjo Menggunakan WebQual 4.0 dan (IPA)",
-   "url": "https://doi.org/10.36050/1pn26718",
-   "venue": "Jurnal Ilmiah Betrik"
-  },
-  {
-   "authors": [
-    "Ridho Affandi",
-    "Dedy Kiswanto",
-    "Syti Salwaa Nafiisah",
-    "Shaqila Rahmayani"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "The increasing complexity of information technology–based services has led to a growing demand for reliable and efficient network management. Network performance monitoring and bandwidth allocation control are critical aspects in maintaining network stability, availability, and quality of service. This paper presents the development of a network monitoring system prototype integrated with an automated bandwidth management mechanism in a virtualized environment. The system is designed to collect…",
-    "citations": 0,
-    "doi": "10.36050/vme53t62"
-   },
-   "id": "d63d4f7e2ae48c38",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-24T00:00:00Z",
-   "score": 0.5038,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "The increasing complexity of information technology–based services has led to a growing demand for reliable and efficient network management. Network performance monitoring and bandwidth allocation control are critical aspects in maintaining network stability, availability, and quality of service.…",
-   "tags": [],
-   "title": "Prototipe Sistem Monitoring Jaringan Dan Otomasi Bandwidth Manager Dengan Visualisasi Grafana Pada Lingkungan Virtual",
-   "url": "https://doi.org/10.36050/vme53t62",
-   "venue": "Jurnal Ilmiah Betrik"
+   "title": "Immuno-PET imaging of mesothelin in ovarian cancer with 68Ga-XH04: a first-in-human study",
+   "url": "https://doi.org/10.1186/s40364-026-00989-x",
+   "venue": "Biomarker Research"
   },
   {
    "authors": [
@@ -151,7 +126,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-23T21:41:33Z",
-   "score": 0.6418,
+   "score": 0.6338,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -177,7 +152,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-23T10:42:03Z",
-   "score": 0.6063,
+   "score": 0.5993,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -206,7 +181,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-22T17:16:29Z",
-   "score": 0.5988,
+   "score": 0.5931,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -233,7 +208,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-21T23:24:44Z",
-   "score": 0.5593,
+   "score": 0.5547,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -261,7 +236,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-21T20:08:03Z",
-   "score": 0.5529,
+   "score": 0.5484,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -286,7 +261,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-21T03:02:31Z",
-   "score": 0.5234,
+   "score": 0.5197,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -312,7 +287,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T19:36:01Z",
-   "score": 0.6523,
+   "score": 0.6489,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -326,8 +301,8 @@
   }
  ],
  "meta": {
-  "count": 12,
-  "generated_at": "2026-08-25T10:47:38Z",
+  "count": 11,
+  "generated_at": "2026-08-25T13:09:05Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -370,7 +345,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-28&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-07-28&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
