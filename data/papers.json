@@ -2,35 +2,6 @@
  "items": [
   {
    "authors": [
-    "Allison Loan",
-    "Lauren M. Bradford",
-    "Andrée Nunnikhoven",
-    "Gong Zhang",
-    "Emily Dupuis",
-    "Eunnara Cho"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract Immunotoxicity has emerged as a key health concern for per- and polyfluoroalkyl substances (PFAS), with animal studies showing reduced T-dependent antibody responses (TDAR) and epidemiological studies reporting decreased vaccine antibody titres. Notably, immunotoxicity is considered one of the most sensitive endpoints for PFAS exposure and has been used to inform regulatory guidance and health-based values. Given that more than 14,000 PFAS exist and are highly environmentally…",
-    "citations": 0,
-    "doi": "10.1007/s00204-026-04525-6"
-   },
-   "id": "213b9efd5a7eca19",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-25T00:00:00Z",
-   "score": 0.4343,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract Immunotoxicity has emerged as a key health concern for per- and polyfluoroalkyl substances (PFAS), with animal studies showing reduced T-dependent antibody responses (TDAR) and epidemiological studies reporting decreased vaccine antibody titres. Notably, immunotoxicity is considered one of…",
-   "tags": [],
-   "title": "A human PBMC-based new approach method reveals PFAS-driven T-cell proliferation and immune dysregulation",
-   "url": "https://doi.org/10.1007/s00204-026-04525-6",
-   "venue": "Archives of Toxicology"
-  },
-  {
-   "authors": [
     "Arati Mohapatra",
     "Danish Pruthi"
    ],
@@ -43,7 +14,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-24T13:58:16Z",
-   "score": 0.694,
+   "score": 0.6864,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -70,7 +41,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-24T09:55:10Z",
-   "score": 0.6779,
+   "score": 0.6707,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -82,35 +53,6 @@
    "title": "What Makes an Initial Reaction Ready for Discussion?: Multi-Persona AI Support for Stance Reflection and Writing",
    "url": "https://arxiv.org/abs/2608.23050v1",
    "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Yueling Deng",
-    "Xiao Zhang",
-    "Zhidi Pan",
-    "Xiaoying Lv",
-    "Zhaoguo Lin",
-    "Yuan Feng"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Mesothelin is highly expressed in ovarian cancer and represents a promising target for precision imaging and therapy. This study aimed to develop and evaluate ⁶⁸Ga-XH04, a novel mesothelin-targeted immuno-PET tracer for non-invasive imaging of mesothelin expression in preclinical models and patients. XH04, a high-affinity anti-mesothelin antigen-binding fragment (Fab), was engineered and conjugated with NOTA for radiolabeling with ⁶⁸Ga. Binding affinity and specificity were assessed in vitro…",
-    "citations": 0,
-    "doi": "10.1186/s40364-026-00989-x"
-   },
-   "id": "f99fd050c17e73b7",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-24T00:00:00Z",
-   "score": 0.4974,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Mesothelin is highly expressed in ovarian cancer and represents a promising target for precision imaging and therapy. This study aimed to develop and evaluate ⁶⁸Ga-XH04, a novel mesothelin-targeted immuno-PET tracer for non-invasive imaging of mesothelin expression in preclinical models and…",
-   "tags": [],
-   "title": "Immuno-PET imaging of mesothelin in ovarian cancer with 68Ga-XH04: a first-in-human study",
-   "url": "https://doi.org/10.1186/s40364-026-00989-x",
-   "venue": "Biomarker Research"
   },
   {
    "authors": [
@@ -126,7 +68,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-23T21:41:33Z",
-   "score": 0.6338,
+   "score": 0.6276,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -152,7 +94,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-23T10:42:03Z",
-   "score": 0.5993,
+   "score": 0.5938,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -181,7 +123,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-22T17:16:29Z",
-   "score": 0.5931,
+   "score": 0.5886,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -208,7 +150,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-21T23:24:44Z",
-   "score": 0.5547,
+   "score": 0.5511,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -236,7 +178,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-21T20:08:03Z",
-   "score": 0.5484,
+   "score": 0.545,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -261,7 +203,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-21T03:02:31Z",
-   "score": 0.5197,
+   "score": 0.5169,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -287,7 +229,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-20T19:36:01Z",
-   "score": 0.6489,
+   "score": 0.6464,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -301,8 +243,8 @@
   }
  ],
  "meta": {
-  "count": 11,
-  "generated_at": "2026-08-25T13:09:05Z",
+  "count": 9,
+  "generated_at": "2026-08-25T15:02:18Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -345,7 +287,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-07-28&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-28&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",

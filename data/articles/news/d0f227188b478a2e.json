@@ -1,0 +1,28 @@
+{
+ "full_text": "OpenAI says its new AI chip, Jalapeño, completes tasks more efficiently and returns responses faster than other AI systems, according to a blog post published on Tuesday . During a briefing with reporters, OpenAI hardware vice president Richard Ho said Jalapeño offers the \"best of both worlds\" with lower latency and higher throughput, as AI systems typically \"have to make a trade-off between the two.\"\n\nFirst introduced in June , Jalapeño is an Application-Specific Integrated Circuit (ASIC) made in partnership with Broadcom. It's designed for AI inference - the process of running a trained AI model to complete a task or deploy an agent.\n\nTo mea …\n\nRead the full story at The Verge.",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/d0f227188b478a2e.json",
+  "id": "d0f227188b478a2e",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-08-25T14:00:00Z",
+  "section": "news",
+  "source": "The Verge · AI",
+  "source_id": "verge_ai",
+  "summary": "OpenAI says its new AI chip, Jalapeño, completes tasks more efficiently and returns responses faster than other AI systems, according to a blog post published on Tuesday. During a briefing with reporters, OpenAI hardware vice president Richard Ho said Jalapeño offers the \"best of both worlds\" with…",
+  "tags": [],
+  "title": "OpenAI says its Jalapeño chip can power faster AI responses than the competition",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks"
+ },
+ "meta": {
+  "content_hash": "92ec759757e397cc",
+  "generated_at": "2026-08-25T15:02:18Z",
+  "item_id": "d0f227188b478a2e",
+  "section": "news",
+  "source": "The Verge · AI",
+  "source_id": "verge_ai"
+ }
+}
