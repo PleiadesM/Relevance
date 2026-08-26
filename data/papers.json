@@ -18,7 +18,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T00:00:00Z",
-   "score": 0.5483,
+   "score": 0.5371,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -47,7 +47,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T00:00:00Z",
-   "score": 0.4505,
+   "score": 0.4394,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -55,39 +55,6 @@
    "tags": [],
    "title": "A conserved small RNA-generating gene cluster undergoes sequence diversification and contributes to plant immunity",
    "url": "https://doi.org/10.1038/s41467-026-77164-1",
-   "venue": "Nature Communications"
-  },
-  {
-   "authors": [
-    "Olga Trofimova",
-    "Leah Böttger",
-    "Sacha Bors",
-    "Yating Pan",
-    "Bart Liefers",
-    "Jose D. Vargas-Quiros"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract Retinal fundus images offer a non-invasive window into systemic aging. Here, we fine-tune a foundation model (RETFound) to predict chronological age from color fundus images in 71,343 participants from the UK Biobank, achieving a mean absolute error of 2.85 years. The resulting retinal age gap, i.e. the difference between predicted and chronological age, is associated with cardiometabolic traits, inflammation, cognitive performance, all-cause mortality, dementia, cancer, and incident…",
-    "citations": 1,
-    "doi": "10.1038/s41467-026-77102-1"
-   },
-   "id": "1aea526c9b11efda",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-26T00:00:00Z",
-   "score": 0.4359,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract Retinal fundus images offer a non-invasive window into systemic aging. Here, we fine-tune a foundation model (RETFound) to predict chronological age from color fundus images in 71,343 participants from the UK Biobank, achieving a mean absolute error of 2.85 years. The resulting retinal age…",
-   "tags": [
-    "eval-study",
-    "systems",
-    "ml-vis"
-   ],
-   "title": "Deep learning aging marker from retinal images unveils sex-specific clinical and genetic signatures",
-   "url": "https://doi.org/10.1038/s41467-026-77102-1",
    "venue": "Nature Communications"
   },
   {
@@ -105,7 +72,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-25T16:35:42Z",
-   "score": 0.5247,
+   "score": 0.5115,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -141,7 +108,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-25T13:20:27Z",
-   "score": 0.8448,
+   "score": 0.8322,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -167,7 +134,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-24T13:58:16Z",
-   "score": 0.589,
+   "score": 0.5794,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -195,7 +162,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-24T09:55:10Z",
-   "score": 0.5778,
+   "score": 0.5687,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -222,7 +189,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-23T21:41:33Z",
-   "score": 0.5473,
+   "score": 0.5394,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -251,7 +218,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-22T17:16:29Z",
-   "score": 0.5314,
+   "score": 0.5258,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -260,11 +227,164 @@
    "title": "Multi-Agent Discovery and Resource-Aware Autonomous Exploration of Scientific Datasets",
    "url": "https://arxiv.org/abs/2608.22045v1",
    "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Parimal Kashireddy",
+    "Anna Fariha",
+    "Mahmood Jasim"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "AI is increasingly lowering the barrier to data analysis and creating visualization scripts. However, a key obstacle in AI-assisted visualization is that certain data issues can lead to visualizations that are plausible, but misrepresent the underlying data. These \\textit{visualization defects} are elusive and difficult to fix, particularly for non-experts who may not know what data issues cause them or how to guide AI systems to resolve them. We present findings of a preliminary empirical…",
+    "arxiv_id": "2608.21602",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "7271bb0a3a313d8f",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-21T00:00:00Z",
+   "score": 0.3209,
+   "section": "papers",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "AI is increasingly lowering the barrier to data analysis and creating visualization scripts. However, a key obstacle in AI-assisted visualization is that certain data issues can lead to visualizations that are plausible, but misrepresent the underlying data. These \\textit{visualization defects} are…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Exploring Agentic Approaches for Data Issue Detection and Repair in AI-Assisted Visualization",
+   "url": "https://www.semanticscholar.org/paper/6cf957b3b42bf6f5926b7b96ca627d41f7f4e93f",
+   "venue": null
+  },
+  {
+   "authors": [
+    "Nicolas F. Fernandez",
+    "Jaspreet Ishar",
+    "Huan Wang",
+    "Amin Ben Saad",
+    "Michal Lipinski",
+    "S. Farhi"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Spatial-transcriptomics integrates high-dimensional single-cell data with microscopy to reveal cellular states, communication, and tissue organization. Analyzing this data requires a combination of multi-modal data processing, high-dimensional data analysis, spatial analysis, and integrated visualization. However, computational analysis is increasingly becoming a bottleneck as approaches mature and dataset sizes increase. Additionally, visualization can be challenging as open-source…",
+    "arxiv_id": null,
+    "citations": 0,
+    "doi": "10.64898/2026.08.13.744672"
+   },
+   "id": "114411ef17cdaa55",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-21T00:00:00Z",
+   "score": 0.1834,
+   "section": "papers",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "Spatial-transcriptomics integrates high-dimensional single-cell data with microscopy to reveal cellular states, communication, and tissue organization. Analyzing this data requires a combination of multi-modal data processing, high-dimensional data analysis, spatial analysis, and integrated…",
+   "tags": [
+    "systems",
+    "visualization"
+   ],
+   "title": "Celldega: Integrated Toolkit for Visualization and Analysis of Spatial Data",
+   "url": "https://www.semanticscholar.org/paper/58f29f23bf82b1268ba5c8de570274bca21a16d2",
+   "venue": "bioRxiv"
+  },
+  {
+   "authors": [
+    "Daan H. de Groot",
+    "Sarah X Morillo Leonardo",
+    "M. Pachkov",
+    "E. van Nimwegen"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Single-cell omics methods provide sparse, noisy measurements of high-dimensional cell states, whose underlying distributions remain poorly understood, raising an urgent need for exploratory analysis and visualization methods. However, current methods are ad hoc and uninterpretable, and they distort the structure in the data. We overcome these challenges by representing data on trees and present Bonsai, a method that reconstructs the most likely tree relating any set of high-dimensional objects…",
+    "arxiv_id": null,
+    "citations": 0,
+    "doi": "10.1038/s41587-026-03220-2"
+   },
+   "id": "43e27fcc767d5ba2",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-21T00:00:00Z",
+   "score": 0.3209,
+   "section": "papers",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "Single-cell omics methods provide sparse, noisy measurements of high-dimensional cell states, whose underlying distributions remain poorly understood, raising an urgent need for exploratory analysis and visualization methods. However, current methods are ad hoc and uninterpretable, and they distort…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Bonsai reconstructs tree representations for distortion-free visualization and exploration of high-dimensional data.",
+   "url": "https://www.semanticscholar.org/paper/82b488101ccc8bb5b4493fffd90d935bea844c09",
+   "venue": "Nature Biotechnology"
+  },
+  {
+   "authors": [
+    "Andres De La Puente",
+    "Felipe Moreno",
+    "Luis Santé",
+    "Mauro Diaz",
+    "Jorge Poco"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Perceived safety in streetscapes depends on where people look, yet how gaze relates to visual cues of urban disorder remains poorly understood. Prior work treats safety as an image-level label, offering little insight into how attention to specific elements (e.g, buildings, greenery, people, signs of decay) shapes these judgments. We present a head-mounted eye-tracking study in which 30 participants viewed and rated the safety of 150 street-view images from Rio de Janeiro using a HoloLens 2…",
+    "arxiv_id": "2608.21686",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "da9e360a5fe8924a",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-21T00:00:00Z",
+   "score": 0.3209,
+   "section": "papers",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "Perceived safety in streetscapes depends on where people look, yet how gaze relates to visual cues of urban disorder remains poorly understood. Prior work treats safety as an image-level label, offering little insight into how attention to specific elements (e.g, buildings, greenery, people, signs…",
+   "tags": [
+    "systems",
+    "visualization"
+   ],
+   "title": "UrbanGazeVis: A Visualization System for Analyzing Eye-Tracking Data on Urban Safety Perception",
+   "url": "https://www.semanticscholar.org/paper/3a3008cb0f6c91d6c2a77ed8cbc71de4ced0e951",
+   "venue": null
+  },
+  {
+   "authors": [
+    "S. Savoska",
+    "Suzana Loshkovska"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Selecting an appropriate visualization technique for multidimensional and multivariate financial and accounting (F&A) data remains a complex, user-dependent task. The TaxUI&BV4FADA taxonomy previously organized this problem along four dimensions—visualization techniques, user intentions and analytical goals, interaction possibilities, and user groups—but as a human-readable structure, it could not be queried, validated, or integrated into semantic decision-support pipelines. This paper presents…",
+    "arxiv_id": null,
+    "citations": 0,
+    "doi": "10.3390/informatics13080135"
+   },
+   "id": "db38607bcd02e926",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-20T00:00:00Z",
+   "score": 0.4052,
+   "section": "papers",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "Selecting an appropriate visualization technique for multidimensional and multivariate financial and accounting (F&A) data remains a complex, user-dependent task. The TaxUI&BV4FADA taxonomy previously organized this problem along four dimensions—visualization techniques, user intentions and…",
+   "tags": [
+    "systems",
+    "visualization"
+   ],
+   "title": "An Ontological Framework for Multidimensional and Multivariate Data Visualization with Applications to Financial and Accounting Data",
+   "url": "https://www.semanticscholar.org/paper/a565877cac66b2362b37f72638afe2f062146480",
+   "venue": "Informatics"
   }
  ],
  "meta": {
-  "count": 9,
-  "generated_at": "2026-08-26T20:01:01Z",
+  "count": 13,
+  "generated_at": "2026-08-26T23:29:47Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -294,7 +414,7 @@
    },
    {
     "category": "optional",
-    "count": 0,
+    "count": 30,
     "error": null,
     "full_text_count": 0,
     "id": "s2_datavis",

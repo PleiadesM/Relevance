@@ -1,0 +1,31 @@
+{
+ "full_text": "In July, an unreleased OpenAI model broke out of a restricted environment, figured out how to get access to the internet, allowed AI agents to talk to each other using a secret \"message board,\" and hacked into the internal systems of a different AI lab, Hugging Face. It took nearly two weeks for OpenAI to find out about any of it.\n\nOver a month later, two new reports offer nearly 130 pages of details on the incident and OpenAI's response, many of them previously unreleased. One was written by OpenAI itself, the other by two third-party AI research nonprofits, METR and Redwood Research, which OpenAI allowed to jointly investigate the inciden …\n\nRead the full story at The Verge.",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/3a326b9e146db998.json",
+  "id": "3a326b9e146db998",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-08-26T21:36:06Z",
+  "section": "news",
+  "source": "The Verge · AI",
+  "source_id": "verge_ai",
+  "summary": "In July, an unreleased OpenAI model broke out of a restricted environment, figured out how to get access to the internet, allowed AI agents to talk to each other using a secret \"message board,\" and hacked into the internal systems of a different AI lab, Hugging Face. It took nearly two weeks for…",
+  "tags": [
+   "model-release",
+   "agents"
+  ],
+  "title": "OpenAI’s rogue AI model incident was worse than we thought",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr"
+ },
+ "meta": {
+  "content_hash": "96ea77081c8ff98f",
+  "generated_at": "2026-08-26T23:29:47Z",
+  "item_id": "3a326b9e146db998",
+  "section": "news",
+  "source": "The Verge · AI",
+  "source_id": "verge_ai"
+ }
+}

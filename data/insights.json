@@ -1,48 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "oyster shucking championship OR shucking speed record",
-  "source": {
-   "name": "CBC",
-   "published_at": "2026-07-31T07:00:00Z",
-   "title": "If you're at the Tyne Valley Oyster Festival this weekend, you might end up on Netflix",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUk1PUTM1dHZ1X0tFWU9BWVhUWW00T19PcVJOQU91ME9SeFlDd2hueGxyM3doLVc1VDZMQW56dEV5bXN2Q3hoVGg0X29kbFdlNkxGOElZWVpfa3RFRUNhc2lTaVdEQU8tT0t0eExIaE54eUFabWNtbHFmZS1lWS1MSU5KMm1JcjI0ajdHbG5sb3pXWksxZnlET19YcjlZRmZmT2NKajlfRjVPZVBHa05KNzMyTFhrcWYzc3lnbVRZUjNXVnExZ3hsM016N1piM0Fkd2F6MDBB?oc=5"
-  },
-  "summaries": {
-   "en": {
-    "summary": "The Tyne Valley Oyster Festival in Canada will be featured on Netflix, showcasing the event's festive atmosphere.",
-    "why_irrelevant": "A regional culinary celebration off the user's beat of politics, AI, and crime."
-   },
-   "zh": {
-    "summary": "加拿大泰恩河谷牡蛎节将在Netflix上播出，展示节日的热闹氛围。",
-    "why_irrelevant": "一场地方美食节，远离用户关注的政治、AI和犯罪话题。"
-   }
-  },
-  "topic": "competitive oyster shucking"
- },
- "brief": "Today's news covers legal battles over immigration, a landmark Meta settlement on teen safety, and a devastating Nepal flood, while research highlights advances in health and AI ethics.",
+ "brief": "Today's news spans a deadly ice avalanche in Nepal, political and social shifts from Iceland to India, and major tech and health breakthroughs. Research highlights advances in climate-resilient agriculture, plant immunity, and AI-assisted visualization and analysis.",
  "meta": {
-  "generated_at": "2026-08-26T20:01:01Z"
+  "generated_at": "2026-08-26T23:29:47Z"
  },
- "news_summary": "Legal disputes over immigration enforcement and postal voting, Dolly Parton's legacy, a record Meta settlement on social media addiction, and catastrophic flooding in Nepal dominate the news.",
- "papers_summary": "Research papers explore participatory climate services for farmers, genetic markers of aging, and AI transparency and manipulation detection in visualizations.",
+ "news_summary": "Global events include a deadly Himalayan flood possibly caused by an 'ice avalanche,' Nigeria's kidnapping crisis, Iceland's EU referendum, and a landmark Meta settlement on social media addiction. Tech and health news feature the first AI-assisted brain tumor surgery and FDA approval of a pancreatic cancer drug.",
+ "papers_summary": "Research covers participatory climate services for farmers, a conserved RNA cluster in plant immunity, and AI-driven visualization tools for data integrity and scientific discovery.",
  "summaries": {
   "en": {
-   "brief": "Today's news covers legal battles over immigration, a landmark Meta settlement on teen safety, and a devastating Nepal flood, while research highlights advances in health and AI ethics.",
-   "news_summary": "Legal disputes over immigration enforcement and postal voting, Dolly Parton's legacy, a record Meta settlement on social media addiction, and catastrophic flooding in Nepal dominate the news.",
-   "papers_summary": "Research papers explore participatory climate services for farmers, genetic markers of aging, and AI transparency and manipulation detection in visualizations."
+   "brief": "Today's news spans a deadly ice avalanche in Nepal, political and social shifts from Iceland to India, and major tech and health breakthroughs. Research highlights advances in climate-resilient agriculture, plant immunity, and AI-assisted visualization and analysis.",
+   "news_summary": "Global events include a deadly Himalayan flood possibly caused by an 'ice avalanche,' Nigeria's kidnapping crisis, Iceland's EU referendum, and a landmark Meta settlement on social media addiction. Tech and health news feature the first AI-assisted brain tumor surgery and FDA approval of a pancreatic cancer drug.",
+   "papers_summary": "Research covers participatory climate services for farmers, a conserved RNA cluster in plant immunity, and AI-driven visualization tools for data integrity and scientific discovery."
   },
   "zh": {
-   "brief": "今日焦点包括西藏—尼泊尔边境山洪暴发造成数百人失踪，以及中国食品安全问题再现“甲醛白菜”，美国对伊朗新制裁等国际动态。",
-   "news_summary": "西藏—尼泊尔边境山洪导致数百人失踪，包括多国游客；中国河北再现“甲醛白菜”引发食品安全担忧；美国加强对伊朗制裁；台湾出现AI假医师影片误导老人健康资讯。",
-   "papers_summary": "相关研究涉及气候变化对农业的影响、植物免疫、AI在可视化与科研中的应用等，但今日中文论文无重大突破。"
+   "brief": "今日焦点包括尼泊尔洪水致数百人失踪的灾难、中国食品安全问题及艺术家被判刑等事件，同时全球海洋温度创新高。研究方面，可视化与AI辅助工具成为关注点。",
+   "news_summary": "西藏-尼泊尔边境山洪导致数百人失踪，包括多名外国游客；中国出现“甲醛白菜”事件引发食品安全担忧；美国对伊朗实施新制裁，但效果存疑；多莉·帕顿逝世引发纪念。",
+   "papers_summary": "研究关注参与式气候信息服务、植物免疫机制、可视化中的色彩感知与操纵检测，以及AI在科研中的使用与披露。"
   }
  },
  "todays_image": {
-  "caption": "The lifeboat patent's rescue across hazardous waters mirrors the judge steering an ICE agent through the treacherous legal currents of extradition.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-2009-5587",
-  "source_name": "National Museum of American History",
-  "source_url": null,
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-2009-5587&max=150",
-  "title": "Patent Model, Life Boat"
+  "caption": "The same steep, rocky Himalayan slopes where that delicate fern clings are now being reshaped by the sudden, violent melt of an ice avalanche.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3ba3eaf5d8e7a406b9dedd7acbd54a2d0",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3f031f353-ce07-4234-b3c7-f65709db0c9c",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3ba3eaf5d8e7a406b9dedd7acbd54a2d0/90",
+  "title": "Gymnocarpium disjunctum (Rupr.) Ching"
  }
 }
