@@ -16,7 +16,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T00:00:00Z",
-   "score": 0.6027,
+   "score": 0.5941,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -42,7 +42,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T00:00:00Z",
-   "score": 0.4652,
+   "score": 0.4566,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -66,7 +66,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T00:00:00Z",
-   "score": 0.6027,
+   "score": 0.5941,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -80,33 +80,6 @@
   },
   {
    "authors": [
-    "Shadmaan Hye",
-    "Andrew M. McNutt",
-    "Katherine E. Isaacs"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Color discrimination is a fundamental aspect of visualization as it influences how people interpret visual encodings. Many visualization guidelines are informed by perceptual studies, yet relatively few have been replicated. Acknowledging that the interaction between human perception, visual tasks, and display technology can change over time, we replicate two crowdsourced color discrimination studies conducted 10 years earlier. Specifically, we replicated a visualization-focused color…",
-    "arxiv_id": "2608.24789"
-   },
-   "id": "b10e8ba91644310e",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-25T16:35:42Z",
-   "score": 0.5887,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Color discrimination is a fundamental aspect of visualization as it influences how people interpret visual encodings. Many visualization guidelines are informed by perceptual studies, yet relatively few have been replicated. Acknowledging that the interaction between human perception, visual tasks,…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "Ten Years Later: Replicating Two Color Discrimination Studies",
-   "url": "https://arxiv.org/abs/2608.24789v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
     "Xiaotian Zhang",
     "Huayuan Ye",
     "Haiyang Zhang",
@@ -117,24 +90,19 @@
    "category": "optional",
    "extra": {
     "abstract_snippet": "Data visualizations are widely used for communicating information, but they are also vulnerable to intentional manipulations that induce misleading interpretations. Existing methods focus on locating tampered regions or recovering hidden information, without explaining how the visualization has been manipulated or why the resulting changes may mislead viewers. We propose \\textbf{VizAnchor}, a framework for visualization manipulation understanding through dual-anchor evidence construction and…",
-    "also_in": [
-     {
-      "source": "arXiv cs.HC (writing & docs)",
-      "url": "https://arxiv.org/abs/2608.24535v1"
-     }
-    ],
     "arxiv_id": "2608.24535"
    },
    "id": "2a99aa2ee792d235",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-25T13:20:27Z",
-   "score": 0.9064,
+   "score": 0.8567,
    "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
    "summary": "Data visualizations are widely used for communicating information, but they are also vulnerable to intentional manipulations that induce misleading interpretations. Existing methods focus on locating tampered regions or recovering hidden information, without explaining how the visualization has…",
    "tags": [
+    "ai-writing",
     "visualization"
    ],
    "title": "VizAnchor: Decoding Manipulation Intent from Tampering Visualizations via Dual-Anchor Reasoning",
@@ -155,7 +123,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-24T13:58:16Z",
-   "score": 0.6356,
+   "score": 0.6283,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -183,7 +151,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-24T09:55:10Z",
-   "score": 0.6223,
+   "score": 0.6153,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -210,7 +178,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-23T21:41:33Z",
-   "score": 0.5857,
+   "score": 0.5797,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -221,49 +189,22 @@
    "title": "AI-based worker guidance in assembly and disassembly operations using multimodal ego/exo-centric data capture and structured task knowledge",
    "url": "https://arxiv.org/abs/2608.22617v1",
    "venue": "arXiv cs.CV"
-  },
-  {
-   "authors": [
-    "Aashish Panta",
-    "Hugo Lee",
-    "Giorgio Scorzelli",
-    "Kyongsik Yun",
-    "Valerio Pascucci"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Modern scientific facilities and instruments generate datasets at scales that are difficult for individual researchers to discover, access, and explore. Although many datasets are publicly available, using them often requires familiarity with repository organization, data formats, multiresolution structures, and visualization parameters. We present WebVisus, a constrained and resource-aware multi-agent system for discovering and autonomously exploring remote, multiresolution scientific…",
-    "arxiv_id": "2608.22045"
-   },
-   "id": "08270a80acb62131",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-22T17:16:29Z",
-   "score": 0.5588,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Modern scientific facilities and instruments generate datasets at scales that are difficult for individual researchers to discover, access, and explore. Although many datasets are publicly available, using them often requires familiarity with repository organization, data formats, multiresolution…",
-   "tags": [],
-   "title": "Multi-Agent Discovery and Resource-Aware Autonomous Exploration of Scientific Datasets",
-   "url": "https://arxiv.org/abs/2608.22045v1",
-   "venue": "arXiv cs.HC"
   }
  ],
  "meta": {
-  "count": 9,
-  "generated_at": "2026-08-26T04:53:50Z",
+  "count": 7,
+  "generated_at": "2026-08-26T07:06:33Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
    {
     "category": "optional",
-    "count": 3,
-    "error": null,
+    "count": 0,
+    "error": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60 (Caus",
     "full_text_count": 0,
     "id": "arxiv_datavis",
     "name": "arXiv cs.HC + cs.GR",
-    "ok": true,
+    "ok": false,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
@@ -295,7 +236,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-07-29&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-29&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",

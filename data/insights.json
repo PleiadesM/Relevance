@@ -1,48 +1,40 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "query": "lichen growing competition OR lichen horticulture",
   "source": {
-   "name": "fox19.com",
-   "published_at": "2026-08-23T06:30:00Z",
-   "title": "Record - smashing pumpkin crowned at Kentucky State Fair",
-   "url": "https://www.fox19.com/2026/08/22/record-smashing-pumpkin-crowned-kentucky-state-fair/"
+   "name": "Encyclopedia Britannica",
+   "published_at": "2026-08-05T07:00:00Z",
+   "title": "Fungus - Lichens, Symbiosis, Photosynthesis",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE15cVJrdmpIQndRVXhEOUhHcWh0YW1rVFhTdlkyVHJMdXN4VjZ3NXFCWC1PazJnbDJmcnk2ZC1JaERyamJvbktSNVNndy0yS3pfYUhYWldqc2JnbTRSX0E?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A record-smashing pumpkin was crowned at the Kentucky State Fair, highlighting the competitive side of pumpkin growing.",
-    "why_irrelevant": "It's a niche agricultural contest far from typical urban feed topics."
+    "summary": "Lichens are composite organisms formed by fungi and algae or cyanobacteria living in symbiosis, enabling photosynthesis.",
+    "why_irrelevant": "A science encyclopedia topic with no connection to daily personal feeds."
    },
    "zh": {
-    "summary": "肯塔基州博览会上打破纪录的南瓜加冕，展示了南瓜种植的竞赛性一面。",
-    "why_irrelevant": "这是一项小众农业竞赛，远离常见的城市话题。"
+    "summary": "地衣是由真菌与藻类或蓝细菌共生形成的复合生物，能够进行光合作用。",
+    "why_irrelevant": "科学百科条目，与个人日常信息流无关。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "competitive lichen growing"
  },
- "brief": "Today's news is marked by the passing of Dolly Parton, while political developments unfold in the US and Canada. Papers focus on visualization, AI disclosure, and scientific data exploration.",
+ "brief": "Today's news covers AI risks, political tensions, and social issues, while research focuses on visualization ethics and heritage reconstruction.",
  "meta": {
-  "generated_at": "2026-08-26T04:53:50Z"
+  "generated_at": "2026-08-26T07:06:33Z"
  },
- "news_summary": "Dolly Parton's death dominates headlines, alongside political races in Alaska, Oklahoma, and South Carolina, and escalating US-Canada trade tensions.",
- "papers_summary": "Research papers explore visualization integrity, AI disclosure in research, and autonomous exploration of scientific datasets.",
+ "news_summary": "Bill Gates warns about AI dangers; Australia faces inflation and firearms issues; Dolly Parton tributes follow her death; Haiti kidnapping crisis unfolds.",
+ "papers_summary": "Papers explore AI disclosure practices, visualization tampering detection, and non-destructive testing for corroded structures, along with heritage reconstruction methodology.",
  "summaries": {
   "en": {
-   "brief": "Today's news is marked by the passing of Dolly Parton, while political developments unfold in the US and Canada. Papers focus on visualization, AI disclosure, and scientific data exploration.",
-   "news_summary": "Dolly Parton's death dominates headlines, alongside political races in Alaska, Oklahoma, and South Carolina, and escalating US-Canada trade tensions.",
-   "papers_summary": "Research papers explore visualization integrity, AI disclosure in research, and autonomous exploration of scientific datasets."
+   "brief": "Today's news covers AI risks, political tensions, and social issues, while research focuses on visualization ethics and heritage reconstruction.",
+   "news_summary": "Bill Gates warns about AI dangers; Australia faces inflation and firearms issues; Dolly Parton tributes follow her death; Haiti kidnapping crisis unfolds.",
+   "papers_summary": "Papers explore AI disclosure practices, visualization tampering detection, and non-destructive testing for corroded structures, along with heritage reconstruction methodology."
   },
   "zh": {
-   "brief": "今日焦点包括AI假医疗影片在台湾传播、全球海洋温度创新高，以及美国制裁伊朗却对中国留有余地；研究方面关注可视化操纵与人机交互中的AI应用。",
-   "news_summary": "台湾长者受AI假医师影片困扰；厄尔尼诺致海洋温度破纪录；美国制裁伊朗时或为习近访美缓和对华态度；普京登岛欲牵制日本；中国工厂机器人数量激增。",
-   "papers_summary": "研究探讨了可视化中的色彩辨别复制、操纵检测及AI披露实践，并涉及多代理科学数据集探索。"
+   "brief": "今日简讯聚焦于中国青少年处方药滥用、艺术家高兟因“辱毛”被判刑，以及AI虚假医疗视频在台湾的传播；同时全球海洋温度创新高，普京首次登择捉岛，中国工厂机器人数量快速增加，AI安全与伦理问题亦引发国际关注。",
+   "news_summary": "中国新闻重点关注青少年药物滥用、艺术家因“侵害英雄烈士名誉罪”获刑、AI虚假健康视频在台湾流传，以及厄尔尼诺导致海洋温度破纪录；此外，美国对伊朗制裁放缓对华影响，普京首次登择捉岛，中国机器人革命悄然进行。",
+   "papers_summary": "今日论文主题包括数字重建建筑遗产、混凝土结构无损检测、奶牛场决策支持、可视化操纵识别、AI披露规范、多角色AI辅助写作以及AI辅助工人操作等。"
   }
- },
- "todays_image": {
-  "caption": "The salon's Oriental carpet and grand piano evoke the same clash of cultures and costly gestures as Japan's lavish melon gifts to the PM amid WA’s \"east coast clowns\" spat.The salon’s Oriental carpet and grand piano evoke an old-world elega",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1977-108-2MattFlynn",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/156749",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1977-108-2MattFlynn",
-  "title": "Salon, with Oriental carpet and grand piano"
  }
 }
