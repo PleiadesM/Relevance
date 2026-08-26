@@ -2,47 +2,39 @@
  "apropos_of_nothing": {
   "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "wbko.com",
-   "published_at": "2026-08-23T04:00:00Z",
-   "title": "Record - smashing pumpkin crowned at Kentucky State Fair",
-   "url": "https://www.wbko.com/2026/08/22/record-smashing-pumpkin-crowned-kentucky-state-fair/"
+   "name": "ampravda.ru",
+   "published_at": "2026-08-24T06:15:00Z",
+   "title": "Покажи свой урожай : « Амурская правда » ищет лучших садоводов и огородников",
+   "url": "https://ampravda.ru/2026/08/24/pokazi-svoi-urozai-amurskaia-pravda-ishhet-lucsix-sadovodov-i-ogorodnikov"
   },
   "summaries": {
    "en": {
-    "summary": "A record-smashing pumpkin was crowned at the Kentucky State Fair, drawing attention to giant gourd competitions.",
-    "why_irrelevant": "It is a niche agricultural contest far from typical tech and culture feeds."
+    "summary": "A Russian newspaper is seeking the best gardeners and vegetable growers for a harvest showcase.",
+    "why_irrelevant": "It's a regional call for amateur gardeners, far from typical tech or business updates."
    },
    "zh": {
-    "summary": "肯塔基州博览会上诞生了一个破纪录的巨型南瓜，吸引了人们对南瓜种植比赛的关注。",
-    "why_irrelevant": "这是一个小众的农业竞赛，远离通常的科技和文化动态。"
+    "summary": "一家俄罗斯报纸正在寻找最好的园丁和菜农来展示收成。",
+    "why_irrelevant": "这是一个面向业余园丁的地区性号召，远离常见的科技或商业动态。"
    }
   },
   "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news is dominated by the passing of country music legend Dolly Parton, with tributes pouring in from across the world, while political news covers Trump's immigration and nuclear policies, and a US Senate primary in South Carolina. In research, papers focus on digital reconstruction of cultural heritage and non-destructive testing methods.",
+ "brief": "Today's news is dominated by the death of country music legend Dolly Parton and escalating US trade tensions with Canada, while political primaries and AI-related stories also feature. In research, visualization and AI disclosure topics are prominent.",
  "meta": {
-  "generated_at": "2026-08-26T01:56:23Z"
+  "generated_at": "2026-08-26T03:16:21Z"
  },
- "news_summary": "The world mourns Dolly Parton's death, while US politics sees Trump's administration halting immigrant visas, sending a Saudi nuclear deal to Congress, and a Supreme Court ruling on mail-in voting. Other notable items include Australia's Suburban Rail Loop fare controversy and a Senate primary in South Carolina.",
- "papers_summary": "Research papers explore digital reconstruction of the Palais Stoclet dining room for scientific dialogue, non-destructive wave-based detection of delamination in concrete panels, and a methodological framework for dairy farming decision support.",
+ "news_summary": "The world mourns Dolly Parton's passing at 80, while Canada retaliates with steep tariffs in the trade war and US political primaries see Trump-backed wins. Typhoon Narra floods China, and immigration visas are paused.",
+ "papers_summary": "Papers explore digital heritage reconstruction, color perception in visualization, AI disclosure in research, and multi-agent scientific data exploration, among other topics.",
  "summaries": {
   "en": {
-   "brief": "Today's news is dominated by the passing of country music legend Dolly Parton, with tributes pouring in from across the world, while political news covers Trump's immigration and nuclear policies, and a US Senate primary in South Carolina. In research, papers focus on digital reconstruction of cultural heritage and non-destructive testing methods.",
-   "news_summary": "The world mourns Dolly Parton's death, while US politics sees Trump's administration halting immigrant visas, sending a Saudi nuclear deal to Congress, and a Supreme Court ruling on mail-in voting. Other notable items include Australia's Suburban Rail Loop fare controversy and a Senate primary in South Carolina.",
-   "papers_summary": "Research papers explore digital reconstruction of the Palais Stoclet dining room for scientific dialogue, non-destructive wave-based detection of delamination in concrete panels, and a methodological framework for dairy farming decision support."
+   "brief": "Today's news is dominated by the death of country music legend Dolly Parton and escalating US trade tensions with Canada, while political primaries and AI-related stories also feature. In research, visualization and AI disclosure topics are prominent.",
+   "news_summary": "The world mourns Dolly Parton's passing at 80, while Canada retaliates with steep tariffs in the trade war and US political primaries see Trump-backed wins. Typhoon Narra floods China, and immigration visas are paused.",
+   "papers_summary": "Papers explore digital heritage reconstruction, color perception in visualization, AI disclosure in research, and multi-agent scientific data exploration, among other topics."
   },
   "zh": {
-   "brief": "今日焦点：全球海洋温度创新高、美国制裁伊朗对华松手、普京首登择捉岛，以及台湾艺人泼油事件引发台日关系讨论。",
-   "news_summary": "厄尔尼诺导致海洋温度创新高；美国制裁伊朗但对中国留有空间；普京登岛引日本关注；台湾艺人事件牵动台日关系。",
-   "papers_summary": "研究关注数字重建和奶牛场决策支持，暂无中文论文。"
+   "brief": "今日要聞：全球海洋溫度創新高，氣候壓力加劇；美國制裁伊朗但對中國暫時鬆手，避免影響習近平訪美；俄羅斯總統普京首訪擇捉島強化對日立場；中國機器人數量快速增長。",
+   "news_summary": "厄爾尼諾增強導致全球海洋溫度創紀錄，氣候變化壓力明顯。美國制裁伊朗時對中國讓步，學者指因顧及習近平訪美。普京登擇捉島牽制日本，中國機器人革命悄然進行。",
+   "papers_summary": "研究探討視覺化中的顏色歧視、AI揭露倫理，以及多代理系統科學數據探索等主題，強調人機互動與可解釋性。"
   }
- },
- "todays_image": {
-  "caption": "Like James Brown’s signed guitar preserves the soul of a music legend, Dolly Parton’s legacy remains a cherished, personal keepsake in the hearts of Tennesseans who saw her as one of their own.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2008_7_2a_001",
-  "source_name": "National Museum of African American History and Culture",
-  "source_url": "https://nmaahc.si.edu/object/nmaahc_2008.7.2ab",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2008_7_2a_001",
-  "title": "Signed guitar and case owned by James Brown"
  }
 }

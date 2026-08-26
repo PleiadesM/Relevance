@@ -1,86 +1,17 @@
 {
  "meta": {
-  "count": 2,
-  "generated_at": "2026-08-26T01:56:23Z",
+  "count": 5,
+  "generated_at": "2026-08-26T03:16:21Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "6a8edb91335342ac",
-     "phrase": {
-      "en": "Tennesseans mourn a local icon",
-      "zh": "田纳西人哀悼本地偶像"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/25/us/nashville-mourns-dolly-parton.html"
-    },
-    {
-     "item_id": "316c7134f97155f5",
-     "phrase": {
-      "en": "Cancer battle ends her life",
-      "zh": "抗癌斗争终结生命"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/25/arts/music/dolly-parton-cancer-cause-death.html"
-    },
-    {
-     "item_id": "2b1da352e8098d77",
-     "phrase": {
-      "en": "Personal encounters with her grace",
-      "zh": "亲历她的优雅风范"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/25/opinion/dolly-parton-death-america-legacy.html"
-    },
-    {
-     "item_id": "dc54c0f065eff60a",
-     "phrase": {
-      "en": "Celebrities and leaders pay tribute",
-      "zh": "名人政要纷纷悼念"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/live/2026/aug/25/dolly-parton-dead-age-80-live"
-    },
-    {
-     "item_id": "c41acaacbde01ecf",
-     "phrase": {
-      "en": "Obituary celebrates her legacy",
-      "zh": "讣告赞颂她的遗产"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/25/arts/music/dolly-parton-dead.html"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "A beloved star's death unites fans and celebrities in shared memory.",
-    "zh": "一位深受爱戴的明星的离世让粉丝与名人共同缅怀。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "Dolly Parton tribute",
-    "zh": "多莉·帕顿致敬"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You cover cultural impact: today her passing dominates headlines from hometown to global tributes.",
-    "zh": "你关注文化影响，今日她的离世从家乡到全球致敬占据头条。"
-   }
-  },
-  {
-   "angles": [
-    {
      "item_id": "bf739ce5d939f5ad",
      "phrase": {
-      "en": "Court order sows election doubt",
-      "zh": "法院令播下选举疑虑"
+      "en": "court order boosts doubts",
+      "zh": "法院命令加剧疑虑"
      },
      "section": "news",
      "source": "The New York Times",
@@ -89,8 +20,8 @@
     {
      "item_id": "2dd4c5a72ee24d35",
      "phrase": {
-      "en": "Mail-in ruling adds confusion",
-      "zh": "邮寄裁决增添困惑"
+      "en": "ruling may confuse voters",
+      "zh": "裁决可能困惑选民"
      },
      "section": "news",
      "source": "The New York Times",
@@ -99,8 +30,8 @@
     {
      "item_id": "1cb1d2b092d52fec",
      "phrase": {
-      "en": "Executive order faces legal fight",
-      "zh": "行政令面临法律战"
+      "en": "legal fight continues",
+      "zh": "法律战持续"
      },
      "section": "news",
      "source": "The New York Times",
@@ -109,8 +40,8 @@
     {
      "item_id": "3a9721893033812e",
      "phrase": {
-      "en": "Noncitizen claims exaggerated",
-      "zh": "非公民说法夸大"
+      "en": "DHS admits inflated numbers",
+      "zh": "国安部承认虚高"
      },
      "section": "news",
      "source": "NPR News",
@@ -119,53 +50,175 @@
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Court battles and voter fraud claims stir confusion for the coming election.",
-    "zh": "法庭斗争与选民欺诈指控搅乱即将到来的选情。"
+    "en": "Claims of noncitizen voting collide with court orders and inflated numbers.",
+    "zh": "非公民投票指控与法院命令及虚高数字相撞。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "voter roll integrity",
+    "zh": "选民名册诚信"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow data-driven policy: today the DHS admits its touted noncitizen count was inflated, as courts shape the rules.",
+    "zh": "你关注数据政策，今日国安部承认夸大了非公民数据，法院定规则。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "1241ee79c91c48cd",
+     "phrase": {
+      "en": "investor uses AI, proud",
+      "zh": "投资人自豪用AI"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/25/scott-bessent-stanley-druckenmiller-ai"
+    },
+    {
+     "item_id": "41c28b4258ba5754",
+     "phrase": {
+      "en": "paper on AI disclosure",
+      "zh": "论文谈AI披露"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.23271v2"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "From investor critiques to research papers, owning up to AI use is becoming the new etiquette.",
+    "zh": "从投资人评论到研究论文，承认使用AI成为新礼仪。"
    },
    "id": "t2",
    "keyword": {
-    "en": "Trump election tactics",
-    "zh": "特朗普选举策略"
+    "en": "AI disclosure norms",
+    "zh": "AI披露规范"
    },
    "relates_to": [],
-   "timeline": [
+   "why_now": {
+    "en": "You study tech communication: today a billionaire proudly flags AI-written text while a CS paper maps disclosure debates.",
+    "zh": "你研究技术传播，今日亿万富翁自豪标注AI文本，论文梳理披露辩论。"
+   }
+  },
+  {
+   "angles": [
     {
-     "date": "2026-08-25",
-     "item_id": "1cb1d2b092d52fec",
-     "label": {
-      "en": "SCOTUS allows mail limits",
-      "zh": "最高法院允许邮件限制"
+     "item_id": "8f51c5b0deb0d6b5",
+     "phrase": {
+      "en": "charges over AI servers",
+      "zh": "指控AI服务器"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/technology/2026/aug/25/taiwan-china-ai-smugglers"
+    },
+    {
+     "item_id": "5daf3ac9d289dcd8",
+     "phrase": {
+      "en": "tariffs in trade war",
+      "zh": "贸易战关税"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/25/us/politics/what-to-know-trump-executive-order-mail-voting.html"
-    },
-    {
-     "date": "2026-08-25",
-     "item_id": "bf739ce5d939f5ad",
-     "label": {
-      "en": "Court order boosts doubts",
-      "zh": "法院令助长质疑"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/25/us/politics/trump-voting-doubt-mail-ballots.html"
-    },
-    {
-     "date": "2026-08-26",
-     "item_id": "3a9721893033812e",
-     "label": {
-      "en": "Noncitizen numbers inflated",
-      "zh": "非公民人数夸大"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/25/nx-s1-5940807/noncitizen-voters-trump-nevada-call"
+     "url": "https://www.nytimes.com/2026/08/25/world/canada/canada-tariffs-trump-carney-retaliatory.html"
     }
    ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Taiwan charges over smuggled AI servers, spotlighting the global fight for chip access.",
+    "zh": "台湾指控走私AI服务器，聚焦全球芯片争夺。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "AI hardware export",
+    "zh": "AI硬件出口"
+   },
+   "relates_to": [],
    "why_now": {
-    "en": "You track political communication: initial court orders and inflated noncitizen numbers muddy the voting narrative today.",
-    "zh": "你关注政治传播，今日法院令与夸大的非公民人数搅浑投票叙事。"
+    "en": "You track embodied AI and geopolitics: today's charges show how physical AI infrastructure is contested.",
+    "zh": "你关注具身AI与地缘政治，今日指控显示实体AI基建之争。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "full_text_file": "articles/news/b8078964cc0c9755.json",
+     "item_id": "b8078964cc0c9755",
+     "phrase": {
+      "en": "robot carnival in Shanghai",
+      "zh": "上海机器人嘉年华"
+     },
+     "section": "news",
+     "source": "MIT Technology Review · AI",
+     "url": "https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/"
+    },
+    {
+     "item_id": "7963c0eb0425926c",
+     "phrase": {
+      "en": "AI guidance in assembly",
+      "zh": "AI指导装配"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.22617v1"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "China's robot carnival shows humanoids stepping into daily routines, not just factories.",
+    "zh": "中国机器人嘉年华展示人形机器人进入日常，不止工厂。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "humanoid robots in life",
+    "zh": "人形机器人入生活"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about embodied AI: today's report from Shanghai shows real-world deployment and public interaction.",
+    "zh": "你在乎具身AI，今日上海报道展示真实部署与公众互动。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "1241ee79c91c48cd",
+     "phrase": {
+      "en": "proud of using it",
+      "zh": "自豪使用AI"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/25/scott-bessent-stanley-druckenmiller-ai"
+    },
+    {
+     "item_id": "41c28b4258ba5754",
+     "phrase": {
+      "en": "disclosure policies debated",
+      "zh": "披露政策辩论"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.23271v2"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Billionaire investor uses AI to pen a critique, stirring debate on authorship.",
+    "zh": "亿万富翁用AI写批评，引发作者身份讨论。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "AI writing critique",
+    "zh": "AI写作评论"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You teach technical communication: today's news offers a live case for discussing AI authorship.",
+    "zh": "你教授技术传播，今日新闻提供AI作者身份讨论案例。"
    }
   }
  ]

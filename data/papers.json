@@ -16,7 +16,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T00:00:00Z",
-   "score": 0.6145,
+   "score": 0.6091,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -42,7 +42,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T00:00:00Z",
-   "score": 0.477,
+   "score": 0.4716,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -66,7 +66,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T00:00:00Z",
-   "score": 0.6145,
+   "score": 0.6091,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -77,22 +77,193 @@
    "title": "Een methodologisch kader voor toekomstige beslissingsondersteuning in de melkveehouderij - contextuele dataintegratie en modellering van melkproductie op kwartierniveau",
    "url": "https://lirias.kuleuven.be/handle/20.500.12942/790270",
    "venue": "Lirias"
+  },
+  {
+   "authors": [
+    "Shadmaan Hye",
+    "Andrew M. McNutt",
+    "Katherine E. Isaacs"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Color discrimination is a fundamental aspect of visualization as it influences how people interpret visual encodings. Many visualization guidelines are informed by perceptual studies, yet relatively few have been replicated. Acknowledging that the interaction between human perception, visual tasks, and display technology can change over time, we replicate two crowdsourced color discrimination studies conducted 10 years earlier. Specifically, we replicated a visualization-focused color…",
+    "arxiv_id": "2608.24789"
+   },
+   "id": "b10e8ba91644310e",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-25T16:35:42Z",
+   "score": 0.5963,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Color discrimination is a fundamental aspect of visualization as it influences how people interpret visual encodings. Many visualization guidelines are informed by perceptual studies, yet relatively few have been replicated. Acknowledging that the interaction between human perception, visual tasks,…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Ten Years Later: Replicating Two Color Discrimination Studies",
+   "url": "https://arxiv.org/abs/2608.24789v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Xiaotian Zhang",
+    "Huayuan Ye",
+    "Haiyang Zhang",
+    "Chenhui Li",
+    "Changbo Wang",
+    "Sicheng Song"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Data visualizations are widely used for communicating information, but they are also vulnerable to intentional manipulations that induce misleading interpretations. Existing methods focus on locating tampered regions or recovering hidden information, without explaining how the visualization has been manipulated or why the resulting changes may mislead viewers. We propose \\textbf{VizAnchor}, a framework for visualization manipulation understanding through dual-anchor evidence construction and…",
+    "also_in": [
+     {
+      "source": "arXiv cs.HC (writing & docs)",
+      "url": "https://arxiv.org/abs/2608.24535v1"
+     }
+    ],
+    "arxiv_id": "2608.24535"
+   },
+   "id": "2a99aa2ee792d235",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-25T13:20:27Z",
+   "score": 0.9137,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Data visualizations are widely used for communicating information, but they are also vulnerable to intentional manipulations that induce misleading interpretations. Existing methods focus on locating tampered regions or recovering hidden information, without explaining how the visualization has…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "VizAnchor: Decoding Manipulation Intent from Tampering Visualizations via Dual-Anchor Reasoning",
+   "url": "https://arxiv.org/abs/2608.24535v1",
+   "venue": "arXiv cs.CV"
+  },
+  {
+   "authors": [
+    "Arati Mohapatra",
+    "Danish Pruthi"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "As generative AI tools find increasing use in research workflows, ongoing debates on their impact, appropriateness and responsible use have led policymakers to enact policies to disclose AI use at multiple publishing venues. However, are current AI disclosure policies and practices reflective of their purpose? In this work, we first investigate disclosure policies of top computer science venues and find that despite their prevalence, they remain highly under-specified. Secondly, through a…",
+    "arxiv_id": "2608.23271"
+   },
+   "id": "41c28b4258ba5754",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-24T13:58:16Z",
+   "score": 0.6411,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "As generative AI tools find increasing use in research workflows, ongoing debates on their impact, appropriateness and responsible use have led policymakers to enact policies to disclose AI use at multiple publishing venues. However, are current AI disclosure policies and practices reflective of…",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "Expectations and Practices around AI Disclosure in CS Research",
+   "url": "https://arxiv.org/abs/2608.23271v2",
+   "venue": "arXiv cs.CY"
+  },
+  {
+   "authors": [
+    "Sky Shih-Kai Hong",
+    "Mu-Tien Kuo",
+    "Wei-Ji Chen",
+    "Dennis Wang"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "An initial reaction to a social or community issue can feel meaningful before it is ready to become a message: people still need to clarify the claim, anticipate audience risks, and decide how much reasoning should become visible to others. We present StanceLab, a prototype for preparing a stance before entering a discussion. The prototype compares a three-persona mode, where an Interviewer, Mentor, and Opponent respond in parallel to help users diagnose and revise a stance, with a standalone…",
+    "arxiv_id": "2608.23050"
+   },
+   "id": "d5337fd10bceedf9",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-24T09:55:10Z",
+   "score": 0.6275,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "An initial reaction to a social or community issue can feel meaningful before it is ready to become a message: people still need to clarify the claim, anticipate audience risks, and decide how much reasoning should become visible to others. We present StanceLab, a prototype for preparing a stance…",
+   "tags": [
+    "ai-writing",
+    "techcomm"
+   ],
+   "title": "What Makes an Initial Reaction Ready for Discussion?: Multi-Persona AI Support for Stance Reflection and Writing",
+   "url": "https://arxiv.org/abs/2608.23050v2",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Vivek Chavan",
+    "Jörg Krüger"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Assembly and disassembly processes rely on expert knowledge that is difficult to document, reuse, and transfer. This paper presents a data-centric approach for extracting structured task knowledge from expert demonstrations using egocentric and exocentric recordings. Temporal and multimodal information from video and narration is jointly encoded to derive structured task representations that enable procedural documentation and context-aware worker guidance. The approach is evaluated on a…",
+    "arxiv_id": "2608.22617"
+   },
+   "id": "7963c0eb0425926c",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-23T21:41:33Z",
+   "score": 0.5903,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Assembly and disassembly processes rely on expert knowledge that is difficult to document, reuse, and transfer. This paper presents a data-centric approach for extracting structured task knowledge from expert demonstrations using egocentric and exocentric recordings. Temporal and multimodal…",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "AI-based worker guidance in assembly and disassembly operations using multimodal ego/exo-centric data capture and structured task knowledge",
+   "url": "https://arxiv.org/abs/2608.22617v1",
+   "venue": "arXiv cs.CV"
+  },
+  {
+   "authors": [
+    "Aashish Panta",
+    "Hugo Lee",
+    "Giorgio Scorzelli",
+    "Kyongsik Yun",
+    "Valerio Pascucci"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Modern scientific facilities and instruments generate datasets at scales that are difficult for individual researchers to discover, access, and explore. Although many datasets are publicly available, using them often requires familiarity with repository organization, data formats, multiresolution structures, and visualization parameters. We present WebVisus, a constrained and resource-aware multi-agent system for discovering and autonomously exploring remote, multiresolution scientific…",
+    "arxiv_id": "2608.22045"
+   },
+   "id": "08270a80acb62131",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-22T17:16:29Z",
+   "score": 0.562,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Modern scientific facilities and instruments generate datasets at scales that are difficult for individual researchers to discover, access, and explore. Although many datasets are publicly available, using them often requires familiarity with repository organization, data formats, multiresolution…",
+   "tags": [],
+   "title": "Multi-Agent Discovery and Resource-Aware Autonomous Exploration of Scientific Datasets",
+   "url": "https://arxiv.org/abs/2608.22045v1",
+   "venue": "arXiv cs.HC"
   }
  ],
  "meta": {
-  "count": 3,
-  "generated_at": "2026-08-26T01:56:23Z",
+  "count": 9,
+  "generated_at": "2026-08-26T03:16:21Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
    {
     "category": "optional",
-    "count": 0,
-    "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60",
+    "count": 3,
+    "error": null,
     "full_text_count": 0,
     "id": "arxiv_datavis",
     "name": "arXiv cs.HC + cs.GR",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
@@ -147,12 +318,12 @@
    },
    {
     "category": "optional",
-    "count": 0,
-    "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC&sortBy=submittedDate&sortOrder=descending&max_results=40",
+    "count": 4,
+    "error": null,
     "full_text_count": 0,
     "id": "arxiv_hci_writing",
     "name": "arXiv cs.HC (writing & docs)",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
