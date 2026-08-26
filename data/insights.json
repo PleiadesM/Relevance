@@ -2,39 +2,47 @@
  "apropos_of_nothing": {
   "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "ampravda.ru",
-   "published_at": "2026-08-24T06:15:00Z",
-   "title": "Покажи свой урожай : « Амурская правда » ищет лучших садоводов и огородников",
-   "url": "https://ampravda.ru/2026/08/24/pokazi-svoi-urozai-amurskaia-pravda-ishhet-lucsix-sadovodov-i-ogorodnikov"
+   "name": "fox19.com",
+   "published_at": "2026-08-23T06:30:00Z",
+   "title": "Record - smashing pumpkin crowned at Kentucky State Fair",
+   "url": "https://www.fox19.com/2026/08/22/record-smashing-pumpkin-crowned-kentucky-state-fair/"
   },
   "summaries": {
    "en": {
-    "summary": "A Russian newspaper is seeking the best gardeners and vegetable growers for a harvest showcase.",
-    "why_irrelevant": "It's a regional call for amateur gardeners, far from typical tech or business updates."
+    "summary": "A record-smashing pumpkin was crowned at the Kentucky State Fair, highlighting the competitive side of pumpkin growing.",
+    "why_irrelevant": "It's a niche agricultural contest far from typical urban feed topics."
    },
    "zh": {
-    "summary": "一家俄罗斯报纸正在寻找最好的园丁和菜农来展示收成。",
-    "why_irrelevant": "这是一个面向业余园丁的地区性号召，远离常见的科技或商业动态。"
+    "summary": "肯塔基州博览会上打破纪录的南瓜加冕，展示了南瓜种植的竞赛性一面。",
+    "why_irrelevant": "这是一项小众农业竞赛，远离常见的城市话题。"
    }
   },
   "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news is dominated by the death of country music legend Dolly Parton and escalating US trade tensions with Canada, while political primaries and AI-related stories also feature. In research, visualization and AI disclosure topics are prominent.",
+ "brief": "Today's news is marked by the passing of Dolly Parton, while political developments unfold in the US and Canada. Papers focus on visualization, AI disclosure, and scientific data exploration.",
  "meta": {
-  "generated_at": "2026-08-26T03:16:21Z"
+  "generated_at": "2026-08-26T04:53:50Z"
  },
- "news_summary": "The world mourns Dolly Parton's passing at 80, while Canada retaliates with steep tariffs in the trade war and US political primaries see Trump-backed wins. Typhoon Narra floods China, and immigration visas are paused.",
- "papers_summary": "Papers explore digital heritage reconstruction, color perception in visualization, AI disclosure in research, and multi-agent scientific data exploration, among other topics.",
+ "news_summary": "Dolly Parton's death dominates headlines, alongside political races in Alaska, Oklahoma, and South Carolina, and escalating US-Canada trade tensions.",
+ "papers_summary": "Research papers explore visualization integrity, AI disclosure in research, and autonomous exploration of scientific datasets.",
  "summaries": {
   "en": {
-   "brief": "Today's news is dominated by the death of country music legend Dolly Parton and escalating US trade tensions with Canada, while political primaries and AI-related stories also feature. In research, visualization and AI disclosure topics are prominent.",
-   "news_summary": "The world mourns Dolly Parton's passing at 80, while Canada retaliates with steep tariffs in the trade war and US political primaries see Trump-backed wins. Typhoon Narra floods China, and immigration visas are paused.",
-   "papers_summary": "Papers explore digital heritage reconstruction, color perception in visualization, AI disclosure in research, and multi-agent scientific data exploration, among other topics."
+   "brief": "Today's news is marked by the passing of Dolly Parton, while political developments unfold in the US and Canada. Papers focus on visualization, AI disclosure, and scientific data exploration.",
+   "news_summary": "Dolly Parton's death dominates headlines, alongside political races in Alaska, Oklahoma, and South Carolina, and escalating US-Canada trade tensions.",
+   "papers_summary": "Research papers explore visualization integrity, AI disclosure in research, and autonomous exploration of scientific datasets."
   },
   "zh": {
-   "brief": "今日要聞：全球海洋溫度創新高，氣候壓力加劇；美國制裁伊朗但對中國暫時鬆手，避免影響習近平訪美；俄羅斯總統普京首訪擇捉島強化對日立場；中國機器人數量快速增長。",
-   "news_summary": "厄爾尼諾增強導致全球海洋溫度創紀錄，氣候變化壓力明顯。美國制裁伊朗時對中國讓步，學者指因顧及習近平訪美。普京登擇捉島牽制日本，中國機器人革命悄然進行。",
-   "papers_summary": "研究探討視覺化中的顏色歧視、AI揭露倫理，以及多代理系統科學數據探索等主題，強調人機互動與可解釋性。"
+   "brief": "今日焦点包括AI假医疗影片在台湾传播、全球海洋温度创新高，以及美国制裁伊朗却对中国留有余地；研究方面关注可视化操纵与人机交互中的AI应用。",
+   "news_summary": "台湾长者受AI假医师影片困扰；厄尔尼诺致海洋温度破纪录；美国制裁伊朗时或为习近访美缓和对华态度；普京登岛欲牵制日本；中国工厂机器人数量激增。",
+   "papers_summary": "研究探讨了可视化中的色彩辨别复制、操纵检测及AI披露实践，并涉及多代理科学数据集探索。"
   }
+ },
+ "todays_image": {
+  "caption": "The salon's Oriental carpet and grand piano evoke the same clash of cultures and costly gestures as Japan's lavish melon gifts to the PM amid WA’s \"east coast clowns\" spat.The salon’s Oriental carpet and grand piano evoke an old-world elega",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1977-108-2MattFlynn",
+  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/156749",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1977-108-2MattFlynn",
+  "title": "Salon, with Oriental carpet and grand piano"
  }
 }

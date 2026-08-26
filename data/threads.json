@@ -1,76 +1,17 @@
 {
  "meta": {
-  "count": 5,
-  "generated_at": "2026-08-26T03:16:21Z",
+  "count": 2,
+  "generated_at": "2026-08-26T04:53:50Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "bf739ce5d939f5ad",
-     "phrase": {
-      "en": "court order boosts doubts",
-      "zh": "法院命令加剧疑虑"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/25/us/politics/trump-voting-doubt-mail-ballots.html"
-    },
-    {
-     "item_id": "2dd4c5a72ee24d35",
-     "phrase": {
-      "en": "ruling may confuse voters",
-      "zh": "裁决可能困惑选民"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/25/us/mail-in-voting-states.html"
-    },
-    {
-     "item_id": "1cb1d2b092d52fec",
-     "phrase": {
-      "en": "legal fight continues",
-      "zh": "法律战持续"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/25/us/politics/what-to-know-trump-executive-order-mail-voting.html"
-    },
-    {
-     "item_id": "3a9721893033812e",
-     "phrase": {
-      "en": "DHS admits inflated numbers",
-      "zh": "国安部承认虚高"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/25/nx-s1-5940807/noncitizen-voters-trump-nevada-call"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Claims of noncitizen voting collide with court orders and inflated numbers.",
-    "zh": "非公民投票指控与法院命令及虚高数字相撞。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "voter roll integrity",
-    "zh": "选民名册诚信"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow data-driven policy: today the DHS admits its touted noncitizen count was inflated, as courts shape the rules.",
-    "zh": "你关注数据政策，今日国安部承认夸大了非公民数据，法院定规则。"
-   }
-  },
-  {
-   "angles": [
-    {
      "item_id": "1241ee79c91c48cd",
      "phrase": {
-      "en": "investor uses AI, proud",
-      "zh": "投资人自豪用AI"
+      "en": "billionaire proud of AI writing",
+      "zh": "富豪自豪用AI写作"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -79,8 +20,8 @@
     {
      "item_id": "41c28b4258ba5754",
      "phrase": {
-      "en": "paper on AI disclosure",
-      "zh": "论文谈AI披露"
+      "en": "expectations around AI disclosure",
+      "zh": "AI披露的期望与实践"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
@@ -89,136 +30,57 @@
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "From investor critiques to research papers, owning up to AI use is becoming the new etiquette.",
-    "zh": "从投资人评论到研究论文，承认使用AI成为新礼仪。"
+    "en": "Who owns the words when a machine writes them?",
+    "zh": "机器代笔，谁为文字负责？"
    },
-   "id": "t2",
+   "id": "t1",
    "keyword": {
-    "en": "AI disclosure norms",
-    "zh": "AI披露规范"
+    "en": "AI disclosure in research",
+    "zh": "AI使用披露"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You study tech communication: today a billionaire proudly flags AI-written text while a CS paper maps disclosure debates.",
-    "zh": "你研究技术传播，今日亿万富翁自豪标注AI文本，论文梳理披露辩论。"
+    "en": "You care about technical communication: two sources today probe how AI authorship is — or isn't — disclosed.",
+    "zh": "你关注技术传播，今日两则来源探问AI署名的披露与否。"
    }
   },
   {
    "angles": [
-    {
-     "item_id": "8f51c5b0deb0d6b5",
-     "phrase": {
-      "en": "charges over AI servers",
-      "zh": "指控AI服务器"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/technology/2026/aug/25/taiwan-china-ai-smugglers"
-    },
-    {
-     "item_id": "5daf3ac9d289dcd8",
-     "phrase": {
-      "en": "tariffs in trade war",
-      "zh": "贸易战关税"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/25/world/canada/canada-tariffs-trump-carney-retaliatory.html"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Taiwan charges over smuggled AI servers, spotlighting the global fight for chip access.",
-    "zh": "台湾指控走私AI服务器，聚焦全球芯片争夺。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "AI hardware export",
-    "zh": "AI硬件出口"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You track embodied AI and geopolitics: today's charges show how physical AI infrastructure is contested.",
-    "zh": "你关注具身AI与地缘政治，今日指控显示实体AI基建之争。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "full_text_file": "articles/news/b8078964cc0c9755.json",
-     "item_id": "b8078964cc0c9755",
-     "phrase": {
-      "en": "robot carnival in Shanghai",
-      "zh": "上海机器人嘉年华"
-     },
-     "section": "news",
-     "source": "MIT Technology Review · AI",
-     "url": "https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/"
-    },
     {
      "item_id": "7963c0eb0425926c",
      "phrase": {
-      "en": "AI guidance in assembly",
-      "zh": "AI指导装配"
+      "en": "worker guidance multimodal capture",
+      "zh": "多模态捕捉指导工人"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
      "url": "https://arxiv.org/abs/2608.22617v1"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "China's robot carnival shows humanoids stepping into daily routines, not just factories.",
-    "zh": "中国机器人嘉年华展示人形机器人进入日常，不止工厂。"
-   },
-   "id": "t4",
-   "keyword": {
-    "en": "humanoid robots in life",
-    "zh": "人形机器人入生活"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You care about embodied AI: today's report from Shanghai shows real-world deployment and public interaction.",
-    "zh": "你在乎具身AI，今日上海报道展示真实部署与公众互动。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "1241ee79c91c48cd",
-     "phrase": {
-      "en": "proud of using it",
-      "zh": "自豪使用AI"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/aug/25/scott-bessent-stanley-druckenmiller-ai"
     },
     {
-     "item_id": "41c28b4258ba5754",
+     "item_id": "08270a80acb62131",
      "phrase": {
-      "en": "disclosure policies debated",
-      "zh": "披露政策辩论"
+      "en": "resource-aware autonomous exploration",
+      "zh": "资源感知自主探索"
      },
      "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.23271v2"
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.22045v1"
     }
    ],
-   "convergence": "divergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "Billionaire investor uses AI to pen a critique, stirring debate on authorship.",
-    "zh": "亿万富翁用AI写批评，引发作者身份讨论。"
+    "en": "Minds and machines learn by doing.",
+    "zh": "心智与机器皆在做中学。"
    },
-   "id": "t5",
+   "id": "t2",
    "keyword": {
-    "en": "AI writing critique",
-    "zh": "AI写作评论"
+    "en": "embodied AI and cognition",
+    "zh": "具身智能与认知"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You teach technical communication: today's news offers a live case for discussing AI authorship.",
-    "zh": "你教授技术传播，今日新闻提供AI作者身份讨论案例。"
+    "en": "Your interests in embodied AI and cognition: two papers today link action, data, and understanding.",
+    "zh": "你关注具身AI与认知，今日两篇论文串联行动、数据与理解。"
    }
   }
  ]
