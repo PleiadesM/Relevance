@@ -1,17 +1,27 @@
 {
  "meta": {
-  "count": 3,
-  "generated_at": "2026-08-26T09:00:09Z",
+  "count": 2,
+  "generated_at": "2026-08-26T10:49:55Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "item_id": "ce6647824728b45d",
+     "phrase": {
+      "en": "calls for human-reserved jobs",
+      "zh": "呼吁人类专属岗位"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/technology/2026/aug/26/bill-gates-human-reserved-jobs-ai-takeover"
+    },
+    {
      "item_id": "011b83c19138b053",
      "phrase": {
-      "en": "Gates says industry downplays AI risks",
-      "zh": "盖茨称业界低估AI风险"
+      "en": "downplays risks, including unemployment",
+      "zh": "淡化风险，包括失业"
      },
      "section": "news",
      "source": "The New York Times",
@@ -21,8 +31,8 @@
      "full_text_file": "articles/news/f0211923610f28db.json",
      "item_id": "f0211923610f28db",
      "phrase": {
-      "en": "MIT TR asks what now after thresholds",
-      "zh": "MIT科技评论追问阈值之后"
+      "en": "says we've passed danger thresholds",
+      "zh": "称已过危险阈值"
      },
      "section": "news",
      "source": "MIT Technology Review · AI",
@@ -31,57 +41,18 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Bill Gates warns AI's dangers are underestimated, sparking urgent debate.",
-    "zh": "比尔·盖茨警告AI风险被低估，引发紧迫讨论。"
+    "en": "Gates warns AI will reshape work; some jobs should stay human.",
+    "zh": "盖茨警告AI将改变工作，部分岗位应留给人类。"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI risk discourse",
-    "zh": "AI风险讨论"
+    "en": "AI job displacement",
+    "zh": "AI失业"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track AI ethics: Gates' interview and MIT Tech Review analysis push the conversation beyond hype.",
-    "zh": "你关注AI伦理：盖茨访谈和《麻省理工科技评论》分析将讨论推向深入。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "d8baf7a425e56626",
-     "phrase": {
-      "en": "AI fake doctors deceive Taiwan elders",
-      "zh": "AI假医生欺骗台湾老人"
-     },
-     "section": "news",
-     "source": "BBC 中文",
-     "url": "https://www.bbc.com/zhongwen/articles/c4gq4999446o/trad?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "99e449c947b07519",
-     "phrase": {
-      "en": "OpenAI disrupts Russian AI influence campaign",
-      "zh": "OpenAI瓦解俄罗斯AI影响行动"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia/"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "AI fakes spread from Taiwan seniors to Russian influence campaigns.",
-    "zh": "AI造假从台湾老年人蔓延到俄罗斯影响行动。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "AI-generated misinformation",
-    "zh": "AI生成错误信息"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow AI's societal impact: two concrete cases show manipulation reaching vulnerable populations.",
-    "zh": "你关注AI社会影响：两个案例显示操纵触及弱势群体。"
+    "en": "You care about AI's societal impact: Gates' essay and interview today sharpen the debate on human roles.",
+    "zh": "你关心AI的社会影响，今日盖茨的文章和访谈让人类岗位的辩论更尖锐。"
    }
   },
   {
@@ -89,38 +60,38 @@
     {
      "item_id": "7963c0eb0425926c",
      "phrase": {
-      "en": "AI guides assembly and disassembly workers",
-      "zh": "AI指导装配拆卸工人"
+      "en": "AI guides assembly tasks",
+      "zh": "AI指导装配任务"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
      "url": "https://arxiv.org/abs/2608.22617v1"
     },
     {
-     "item_id": "08270a80acb62131",
+     "item_id": "dd6b27624f9a238c",
      "phrase": {
-      "en": "Multi-agent autonomous scientific data exploration",
-      "zh": "多智能体自主科学数据探索"
+      "en": "robotaxi rollout delayed",
+      "zh": "机器人出租车推迟"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.22045v1"
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/technology/2026/aug/26/london-rollout-robotaxis-delayed-uber-wayve"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "AI assists workers and scientists, from assembly to data exploration.",
-    "zh": "AI辅助工人和科学家，从装配到数据探索。"
+    "en": "Robots learn from human actions, but London's robotaxis stall.",
+    "zh": "机器人从人类动作学习，但伦敦机器人出租车推迟。"
    },
-   "id": "t3",
+   "id": "t2",
    "keyword": {
-    "en": "human-AI collaboration",
-    "zh": "人机协作"
+    "en": "embodied AI robots",
+    "zh": "具身AI机器人"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You study embodied AI: these papers show AI guiding physical tasks and scientific discovery in practice.",
-    "zh": "你研究具身AI：这些论文展示AI在实践中的物理任务和科学发现引导。"
+    "en": "You follow embodied AI: a paper on worker guidance and a robotaxi delay hit today.",
+    "zh": "你关注具身AI，今日有工人指导论文和机器人出租车延迟。"
    }
   }
  ]

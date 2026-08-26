@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "oyster shucking contest OR national oyster shucking championship",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "Medianet News Hub",
-   "published_at": "2026-08-13T01:19:41Z",
-   "title": "Sydney vision opportunity: Australia’s champion oyster shucker takes on Western Sydney amateurs",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNLVQzNk5ZUUZuVHdPbWtlZXFJRFVjbmM4cVZRSHNwUUNwalcwcWxwX2lvVWN0bW9XY3I3bUpEclRjLUVPM1JvUFY2QUdPUHpkTmduSHJwUWZkOC1wbG9TVFZBbzJwYVFGMmdVb21wSmhKeGJYZldIa21QSGFxR2FmWHBLWXJMUXpOQkJtbnBLZE4tU2M4d3pQc2cyTkxvdnlqLUl3ZWRYWmktOFRKRjJZcE4yN1pBaGROUjNDQ1pmNHUyNDlXdDVRWU5qZVpPVTVMTzBLUFJrRWU?oc=5"
+   "name": "fox19.com",
+   "published_at": "2026-08-23T06:30:00Z",
+   "title": "Record - smashing pumpkin crowned at Kentucky State Fair",
+   "url": "https://www.fox19.com/2026/08/22/record-smashing-pumpkin-crowned-kentucky-state-fair/"
   },
   "summaries": {
    "en": {
-    "summary": "Australia's champion oyster shucker is set to challenge Western Sydney amateurs in a competitive shucking event.",
-    "why_irrelevant": "an obscure sporting niche far from tech and politics"
+    "summary": "A record-smashing pumpkin was crowned at the Kentucky State Fair, highlighting competitive pumpkin growing.",
+    "why_irrelevant": "This is a specific local event far from typical tech or business feed content."
    },
    "zh": {
-    "summary": "澳大利亚的牡蛎撬壳冠军将向西悉尼业余爱好者发起挑战。",
-    "why_irrelevant": "一个远离科技和政治的小众竞技项目"
+    "summary": "肯塔基州博览会上 crowned 了一个破纪录的南瓜，凸显了竞争性南瓜种植。",
+    "why_irrelevant": "这是远离常规科技或商业资讯的特定地方活动。"
    }
   },
-  "topic": "competitive oyster shucking championships"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news covers a mix of tragedy, politics, and culture, from a fatal hospital fire in Pakistan to energy prices and AI risks. Papers focus on visualization, AI ethics, and heritage reconstruction.",
+ "brief": "Today's news spans the passing of Dolly Parton, a Nepalese flood disaster, and US political shifts, while papers explore visualization integrity and AI's role in research and work.",
  "meta": {
-  "generated_at": "2026-08-26T09:00:09Z"
+  "generated_at": "2026-08-26T10:49:55Z"
  },
- "news_summary": "News highlights include a newborn fire in Pakistan, Raheem Sterling's charges, Dolly Parton tributes, and various political/economic updates. AI risks and energy prices also feature prominently.",
- "papers_summary": "Research papers explore visualization perception, AI disclosure practices, and digital heritage reconstruction, among other topics.",
+ "news_summary": "Dolly Parton's death at 80 draws tributes; Nepal flash floods kill 17 and leave hundreds missing; Darline Graham wins South Carolina GOP Senate nomination with Trump's backing.",
+ "papers_summary": "Research covers color discrimination replication, visualization manipulation detection, AI disclosure norms, and worker guidance systems, reflecting ongoing concerns about data integrity and human-AI interaction.",
  "summaries": {
   "en": {
-   "brief": "Today's news covers a mix of tragedy, politics, and culture, from a fatal hospital fire in Pakistan to energy prices and AI risks. Papers focus on visualization, AI ethics, and heritage reconstruction.",
-   "news_summary": "News highlights include a newborn fire in Pakistan, Raheem Sterling's charges, Dolly Parton tributes, and various political/economic updates. AI risks and energy prices also feature prominently.",
-   "papers_summary": "Research papers explore visualization perception, AI disclosure practices, and digital heritage reconstruction, among other topics."
+   "brief": "Today's news spans the passing of Dolly Parton, a Nepalese flood disaster, and US political shifts, while papers explore visualization integrity and AI's role in research and work.",
+   "news_summary": "Dolly Parton's death at 80 draws tributes; Nepal flash floods kill 17 and leave hundreds missing; Darline Graham wins South Carolina GOP Senate nomination with Trump's backing.",
+   "papers_summary": "Research covers color discrimination replication, visualization manipulation detection, AI disclosure norms, and worker guidance systems, reflecting ongoing concerns about data integrity and human-AI interaction."
   },
   "zh": {
-   "brief": "今日新聞聚焦美國對伊朗新制裁、中國青少年濫藥問題、AI假醫師影響台灣長者，以及海洋溫度創新高；研究方面則關注數據可視化操縱與AI揭露等議題。",
-   "news_summary": "美國對伊朗實施新制裁，但效果存疑，且對中國買家有所保留；中國青少年因壓力濫用處方藥，AI假健康影片在台灣流傳；普京首登擇捉島，厄爾尼諾導致海洋高溫。",
-   "papers_summary": "研究探討可視化被篡改的檢測方法（VizAnchor），以及AI在研究中的揭露實踐，另有關於色彩辨別複製研究。"
+   "brief": "今日焦点包括美国乡村音乐传奇Dolly Parton去世，国际社会悼念；同时美国对伊朗新制裁引发关注，中国反对；另有研究显示全球海洋温度创新高，以及AI生成虚假医疗信息在台湾传播。",
+   "news_summary": "美国乡村音乐女王Dolly Parton因癌症去世，享年80岁，引发全球悼念；美国宣布对伊朗实施新制裁，但中国反对，且因中美关系暂缓对华施压；全球海洋温度创历史新高，气候危机加剧。",
+   "papers_summary": "今日无中文论文摘要，但英文研究领域关注可视化操作检测、AI披露规范等议题。"
   }
  },
  "todays_image": {
-  "caption": "Just as an embroidered picture weaves threads into a pattern, the plan stitches 10,000 young people into the fabric of the workforce.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1976-100-1MattFlynn",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/155618",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1976-100-1MattFlynn",
-  "title": "Embroidered picture"
+  "caption": "Like Gustavia superba, whose brilliant flower emerges from the same root as its fallen predecessor, Darline Graham rises from her late brother's political legacy.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3a530b01c296c424784120ad8af158950",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3b542dd63-7125-4009-856b-16e307985166",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3a530b01c296c424784120ad8af158950/90",
+  "title": "Gustavia superba (Kunth) O. Berg"
  }
 }

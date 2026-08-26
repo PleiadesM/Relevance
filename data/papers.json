@@ -16,7 +16,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T00:00:00Z",
-   "score": 0.5869,
+   "score": 0.5802,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -42,7 +42,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T00:00:00Z",
-   "score": 0.4494,
+   "score": 0.4427,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -66,7 +66,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T00:00:00Z",
-   "score": 0.5869,
+   "score": 0.5802,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -93,7 +93,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-25T16:35:42Z",
-   "score": 0.5702,
+   "score": 0.5622,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -129,7 +129,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-25T13:20:27Z",
-   "score": 0.8886,
+   "score": 0.8809,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -155,7 +155,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-24T13:58:16Z",
-   "score": 0.6221,
+   "score": 0.6163,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -166,6 +166,32 @@
    "title": "Expectations and Practices around AI Disclosure in CS Research",
    "url": "https://arxiv.org/abs/2608.23271v2",
    "venue": "arXiv cs.CY"
+  },
+  {
+   "authors": [
+    "S. Scott Graham"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.1080/10572252.2026.2722659"
+   },
+   "id": "b7575d749f4c65cc",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-24T10:22:03Z",
+   "score": 0.4841,
+   "section": "papers",
+   "source": "TechComm journals (CrossRef)",
+   "source_id": "crossref_techcomm_journals",
+   "summary": "",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "Rehumanizing People of the Past: Bioarchaeology. Medical Museums and Archives, and the Human Remains Trade",
+   "url": "https://doi.org/10.1080/10572252.2026.2722659",
+   "venue": "Technical Communication Quarterly"
   },
   {
    "authors": [
@@ -183,7 +209,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-24T09:55:10Z",
-   "score": 0.6094,
+   "score": 0.6039,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -210,7 +236,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-23T21:41:33Z",
-   "score": 0.5746,
+   "score": 0.5698,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -239,7 +265,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-22T17:16:29Z",
-   "score": 0.5509,
+   "score": 0.5474,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -248,11 +274,91 @@
    "title": "Multi-Agent Discovery and Resource-Aware Autonomous Exploration of Scientific Datasets",
    "url": "https://arxiv.org/abs/2608.22045v1",
    "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Jo Mackiewicz",
+    "Jordan Smith"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 1,
+    "doi": "10.1109/tpc.2026.3712307"
+   },
+   "id": "eb0023540acd6671",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-20T19:09:52Z",
+   "score": 0.2447,
+   "section": "papers",
+   "source": "TechComm journals (CrossRef)",
+   "source_id": "crossref_techcomm_journals",
+   "summary": "",
+   "tags": [],
+   "title": "A Usage Item in the Making: How Do Editors View the Use of Male and Female to Describe Connector Ends?",
+   "url": "https://doi.org/10.1109/tpc.2026.3712307",
+   "venue": "IEEE Transactions on Professional Communication"
+  },
+  {
+   "authors": [
+    "Belinda Oechsler",
+    "Yvonne Cleary",
+    "Sissi Closs"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.1109/tpc.2026.3712512"
+   },
+   "id": "1298dd5bfa7f35ff",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-19T19:06:57Z",
+   "score": 0.3398,
+   "section": "papers",
+   "source": "TechComm journals (CrossRef)",
+   "source_id": "crossref_techcomm_journals",
+   "summary": "",
+   "tags": [
+    "techcomm"
+   ],
+   "title": "Piloting Kenya’s First Master’s Program in Technical Communication: Digital Innovation, Intercultural Challenges, and Lessons for Higher Education in the Global South",
+   "url": "https://doi.org/10.1109/tpc.2026.3712512",
+   "venue": "IEEE Transactions on Professional Communication"
+  },
+  {
+   "authors": [
+    "Wenbin Liu",
+    "Saul Carliner"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.1109/tpc.2026.3712283"
+   },
+   "id": "5d5e7eece6a49e8d",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-19T19:05:14Z",
+   "score": 0.3398,
+   "section": "papers",
+   "source": "TechComm journals (CrossRef)",
+   "source_id": "crossref_techcomm_journals",
+   "summary": "",
+   "tags": [
+    "techcomm"
+   ],
+   "title": "Using the DACUM Approach to Identify the Roles of Cultures and Cultural Competence in Technical Communication",
+   "url": "https://doi.org/10.1109/tpc.2026.3712283",
+   "venue": "IEEE Transactions on Professional Communication"
   }
  ],
  "meta": {
-  "count": 9,
-  "generated_at": "2026-08-26T09:00:09Z",
+  "count": 13,
+  "generated_at": "2026-08-26T10:49:55Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -294,12 +400,12 @@
    },
    {
     "category": "optional",
-    "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-29&rows=12&sort=created&order=desc",
+    "count": 16,
+    "error": null,
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "crossref"
