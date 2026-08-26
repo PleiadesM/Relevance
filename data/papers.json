@@ -2,81 +2,93 @@
  "items": [
   {
    "authors": [
-    "Flavius-Teofil Neaga",
-    "Denis Derycke",
-    "David Lo Buglio"
+    "Moriom Akter Mousumi",
+    "Spyridon Paparrizos",
+    "Md Kamrul Hasan",
+    "Md Ektear Uddin",
+    "Fulco Ludwig"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Digital three-dimensional reconstructions of architectural heritage have become increasingly used as research tools, yet their visually coherent representations often conceal the interpretive processes, uncertainties, and evidential gaps underlying their production. This paper proposes a method for visualising evidential proximity, defined as the distance between the reconstructed geometry and the documented sources that support it, within three-dimensional architectural restitution models. The…",
+    "abstract_snippet": "Risks of rice yield reduction due to climate change-induced diseases are increasing which is of great concern for coastal farmers of Bangladesh. The development of participatory climate information services (CIS) based on farmers’ needs could facilitate farmers to reduce these risks by obtaining disease forecasts. Here we report on how participatory CIS assists coastal rice farmers to take up rice disease forecasts and better manage rice diseases by improving their informed decision-making.…",
     "citations": 0,
-    "doi": null
+    "doi": "10.1016/j.heliyon.2026.e45332"
    },
-   "id": "5f9e7ed77ac71610",
+   "id": "7caadabd09c27092",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T00:00:00Z",
-   "score": 0.5585,
+   "score": 0.5483,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Digital three-dimensional reconstructions of architectural heritage have become increasingly used as research tools, yet their visually coherent representations often conceal the interpretive processes, uncertainties, and evidential gaps underlying their production. This paper proposes a method for…",
+   "summary": "Risks of rice yield reduction due to climate change-induced diseases are increasing which is of great concern for coastal farmers of Bangladesh. The development of participatory climate information services (CIS) based on farmers’ needs could facilitate farmers to reduce these risks by obtaining…",
    "tags": [],
-   "title": "Building a reflexive space for scientific dialogue through the digital reconstruction case of the Palais Stoclet dining room",
-   "url": "http://hdl.handle.net/2013/ULB-DIPOT:oai:dipot.ulb.ac.be:2013/404568",
-   "venue": "Dépôt institutionnel de l'Université libre de Bruxelles (Université Libre de Bruxelles)"
+   "title": "How participatory climate information services assist farmers to uptake rice disease forecasts and manage diseases in advance: Evidence from Coastal Bangladesh",
+   "url": "https://doi.org/10.1016/j.heliyon.2026.e45332",
+   "venue": "Heliyon"
   },
   {
    "authors": [
-    "Eline Vandecruys",
-    "Andras Vanquaille",
-    "Els Verstrynge"
+    "Feng Li",
+    "Yingnan Hou",
+    "AmirAli Toghani",
+    "Zhixue Wang",
+    "Bozeng Tang",
+    "Nicola Atkinson"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "status: Accepted",
-    "citations": 0,
-    "doi": null
+    "abstract_snippet": "Abstract Small RNA-mediated gene silencing contributes to plant immunity. The secondary small interfering RNA (siRNA) pathway promotes defense by silencing target genes in invading fungal and oomycete pathogens. Many secondary siRNAs are derived from transcripts potentially encoding pentatricopeptide repeat (PPR) proteins. Here, we report that siRNA production is an ancient function of a conserved clade of PPR genes that undergo extensive within-species diversification. In Arabidopsis thaliana…",
+    "citations": 2,
+    "doi": "10.1038/s41467-026-77164-1"
    },
-   "id": "395413a02a30c6ad",
+   "id": "f40efe21368164c7",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T00:00:00Z",
-   "score": 0.421,
+   "score": 0.4505,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "status: Accepted",
+   "summary": "Abstract Small RNA-mediated gene silencing contributes to plant immunity. The secondary small interfering RNA (siRNA) pathway promotes defense by silencing target genes in invading fungal and oomycete pathogens. Many secondary siRNAs are derived from transcripts potentially encoding…",
    "tags": [],
-   "title": "Non-destructive wave-based detection of delamination in corroded RC panels",
-   "url": "https://lirias.kuleuven.be/handle/20.500.12942/788378",
-   "venue": "Lirias"
+   "title": "A conserved small RNA-generating gene cluster undergoes sequence diversification and contributes to plant immunity",
+   "url": "https://doi.org/10.1038/s41467-026-77164-1",
+   "venue": "Nature Communications"
   },
   {
    "authors": [
-    "Martin J. Gote"
+    "Olga Trofimova",
+    "Leah Böttger",
+    "Sacha Bors",
+    "Yating Pan",
+    "Bart Liefers",
+    "Jose D. Vargas-Quiros"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "The dairy sector in Western Europe is undergoing a transition toward larger, more automated, and more data-intensive production systems. In response to labor constraints, global market competition, and increasing societal expectations regarding sustainable production and animal welfare, many often family-owned dairy farms are implementing automatic milking systems and precision dairy farming technologies. As the number of cows per farmer increases, the time available for direct animal…",
-    "citations": 0,
-    "doi": null
+    "abstract_snippet": "Abstract Retinal fundus images offer a non-invasive window into systemic aging. Here, we fine-tune a foundation model (RETFound) to predict chronological age from color fundus images in 71,343 participants from the UK Biobank, achieving a mean absolute error of 2.85 years. The resulting retinal age gap, i.e. the difference between predicted and chronological age, is associated with cardiometabolic traits, inflammation, cognitive performance, all-cause mortality, dementia, cancer, and incident…",
+    "citations": 1,
+    "doi": "10.1038/s41467-026-77102-1"
    },
-   "id": "5e94e143bd12c20b",
+   "id": "1aea526c9b11efda",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T00:00:00Z",
-   "score": 0.5585,
+   "score": 0.4359,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "The dairy sector in Western Europe is undergoing a transition toward larger, more automated, and more data-intensive production systems. In response to labor constraints, global market competition, and increasing societal expectations regarding sustainable production and animal welfare, many often…",
+   "summary": "Abstract Retinal fundus images offer a non-invasive window into systemic aging. Here, we fine-tune a foundation model (RETFound) to predict chronological age from color fundus images in 71,343 participants from the UK Biobank, achieving a mean absolute error of 2.85 years. The resulting retinal age…",
    "tags": [
-    "systems"
+    "eval-study",
+    "systems",
+    "ml-vis"
    ],
-   "title": "Een methodologisch kader voor toekomstige beslissingsondersteuning in de melkveehouderij - contextuele dataintegratie en modellering van melkproductie op kwartierniveau",
-   "url": "https://lirias.kuleuven.be/handle/20.500.12942/790270",
-   "venue": "Lirias"
+   "title": "Deep learning aging marker from retinal images unveils sex-specific clinical and genetic signatures",
+   "url": "https://doi.org/10.1038/s41467-026-77102-1",
+   "venue": "Nature Communications"
   },
   {
    "authors": [
@@ -93,7 +105,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-25T16:35:42Z",
-   "score": 0.5367,
+   "score": 0.5247,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -129,7 +141,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-25T13:20:27Z",
-   "score": 0.8564,
+   "score": 0.8448,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -155,7 +167,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-24T13:58:16Z",
-   "score": 0.5977,
+   "score": 0.589,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -183,7 +195,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-24T09:55:10Z",
-   "score": 0.5862,
+   "score": 0.5778,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -210,7 +222,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-23T21:41:33Z",
-   "score": 0.5545,
+   "score": 0.5473,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -239,7 +251,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-22T17:16:29Z",
-   "score": 0.5365,
+   "score": 0.5314,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -252,7 +264,7 @@
  ],
  "meta": {
   "count": 9,
-  "generated_at": "2026-08-26T16:57:30Z",
+  "generated_at": "2026-08-26T20:01:01Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
