@@ -1,40 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "lichen growing competition OR lichen horticulture",
+  "query": "oyster shucking contest OR national oyster shucking championship",
   "source": {
-   "name": "Encyclopedia Britannica",
-   "published_at": "2026-08-05T07:00:00Z",
-   "title": "Fungus - Lichens, Symbiosis, Photosynthesis",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE15cVJrdmpIQndRVXhEOUhHcWh0YW1rVFhTdlkyVHJMdXN4VjZ3NXFCWC1PazJnbDJmcnk2ZC1JaERyamJvbktSNVNndy0yS3pfYUhYWldqc2JnbTRSX0E?oc=5"
+   "name": "Medianet News Hub",
+   "published_at": "2026-08-13T01:19:41Z",
+   "title": "Sydney vision opportunity: Australia’s champion oyster shucker takes on Western Sydney amateurs",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNLVQzNk5ZUUZuVHdPbWtlZXFJRFVjbmM4cVZRSHNwUUNwalcwcWxwX2lvVWN0bW9XY3I3bUpEclRjLUVPM1JvUFY2QUdPUHpkTmduSHJwUWZkOC1wbG9TVFZBbzJwYVFGMmdVb21wSmhKeGJYZldIa21QSGFxR2FmWHBLWXJMUXpOQkJtbnBLZE4tU2M4d3pQc2cyTkxvdnlqLUl3ZWRYWmktOFRKRjJZcE4yN1pBaGROUjNDQ1pmNHUyNDlXdDVRWU5qZVpPVTVMTzBLUFJrRWU?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "Lichens are composite organisms formed by fungi and algae or cyanobacteria living in symbiosis, enabling photosynthesis.",
-    "why_irrelevant": "A science encyclopedia topic with no connection to daily personal feeds."
+    "summary": "Australia's champion oyster shucker is set to challenge Western Sydney amateurs in a competitive shucking event.",
+    "why_irrelevant": "an obscure sporting niche far from tech and politics"
    },
    "zh": {
-    "summary": "地衣是由真菌与藻类或蓝细菌共生形成的复合生物，能够进行光合作用。",
-    "why_irrelevant": "科学百科条目，与个人日常信息流无关。"
+    "summary": "澳大利亚的牡蛎撬壳冠军将向西悉尼业余爱好者发起挑战。",
+    "why_irrelevant": "一个远离科技和政治的小众竞技项目"
    }
   },
-  "topic": "competitive lichen growing"
+  "topic": "competitive oyster shucking championships"
  },
- "brief": "Today's news covers AI risks, political tensions, and social issues, while research focuses on visualization ethics and heritage reconstruction.",
+ "brief": "Today's news covers a mix of tragedy, politics, and culture, from a fatal hospital fire in Pakistan to energy prices and AI risks. Papers focus on visualization, AI ethics, and heritage reconstruction.",
  "meta": {
-  "generated_at": "2026-08-26T07:06:33Z"
+  "generated_at": "2026-08-26T09:00:09Z"
  },
- "news_summary": "Bill Gates warns about AI dangers; Australia faces inflation and firearms issues; Dolly Parton tributes follow her death; Haiti kidnapping crisis unfolds.",
- "papers_summary": "Papers explore AI disclosure practices, visualization tampering detection, and non-destructive testing for corroded structures, along with heritage reconstruction methodology.",
+ "news_summary": "News highlights include a newborn fire in Pakistan, Raheem Sterling's charges, Dolly Parton tributes, and various political/economic updates. AI risks and energy prices also feature prominently.",
+ "papers_summary": "Research papers explore visualization perception, AI disclosure practices, and digital heritage reconstruction, among other topics.",
  "summaries": {
   "en": {
-   "brief": "Today's news covers AI risks, political tensions, and social issues, while research focuses on visualization ethics and heritage reconstruction.",
-   "news_summary": "Bill Gates warns about AI dangers; Australia faces inflation and firearms issues; Dolly Parton tributes follow her death; Haiti kidnapping crisis unfolds.",
-   "papers_summary": "Papers explore AI disclosure practices, visualization tampering detection, and non-destructive testing for corroded structures, along with heritage reconstruction methodology."
+   "brief": "Today's news covers a mix of tragedy, politics, and culture, from a fatal hospital fire in Pakistan to energy prices and AI risks. Papers focus on visualization, AI ethics, and heritage reconstruction.",
+   "news_summary": "News highlights include a newborn fire in Pakistan, Raheem Sterling's charges, Dolly Parton tributes, and various political/economic updates. AI risks and energy prices also feature prominently.",
+   "papers_summary": "Research papers explore visualization perception, AI disclosure practices, and digital heritage reconstruction, among other topics."
   },
   "zh": {
-   "brief": "今日简讯聚焦于中国青少年处方药滥用、艺术家高兟因“辱毛”被判刑，以及AI虚假医疗视频在台湾的传播；同时全球海洋温度创新高，普京首次登择捉岛，中国工厂机器人数量快速增加，AI安全与伦理问题亦引发国际关注。",
-   "news_summary": "中国新闻重点关注青少年药物滥用、艺术家因“侵害英雄烈士名誉罪”获刑、AI虚假健康视频在台湾流传，以及厄尔尼诺导致海洋温度破纪录；此外，美国对伊朗制裁放缓对华影响，普京首次登择捉岛，中国机器人革命悄然进行。",
-   "papers_summary": "今日论文主题包括数字重建建筑遗产、混凝土结构无损检测、奶牛场决策支持、可视化操纵识别、AI披露规范、多角色AI辅助写作以及AI辅助工人操作等。"
+   "brief": "今日新聞聚焦美國對伊朗新制裁、中國青少年濫藥問題、AI假醫師影響台灣長者，以及海洋溫度創新高；研究方面則關注數據可視化操縱與AI揭露等議題。",
+   "news_summary": "美國對伊朗實施新制裁，但效果存疑，且對中國買家有所保留；中國青少年因壓力濫用處方藥，AI假健康影片在台灣流傳；普京首登擇捉島，厄爾尼諾導致海洋高溫。",
+   "papers_summary": "研究探討可視化被篡改的檢測方法（VizAnchor），以及AI在研究中的揭露實踐，另有關於色彩辨別複製研究。"
   }
+ },
+ "todays_image": {
+  "caption": "Just as an embroidered picture weaves threads into a pattern, the plan stitches 10,000 young people into the fabric of the workforce.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1976-100-1MattFlynn",
+  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/155618",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1976-100-1MattFlynn",
+  "title": "Embroidered picture"
  }
 }

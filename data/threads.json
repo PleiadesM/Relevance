@@ -1,7 +1,7 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-08-26T07:06:33Z",
+  "count": 3,
+  "generated_at": "2026-08-26T09:00:09Z",
   "scope": "public"
  },
  "threads": [
@@ -10,155 +10,117 @@
     {
      "item_id": "011b83c19138b053",
      "phrase": {
-      "en": "Gates warns of downplayed dangers",
-      "zh": "盖茨警告危险被低估"
+      "en": "Gates says industry downplays AI risks",
+      "zh": "盖茨称业界低估AI风险"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/08/26/technology/bill-gates-ai-risks.html"
     },
     {
+     "full_text_file": "articles/news/f0211923610f28db.json",
+     "item_id": "f0211923610f28db",
+     "phrase": {
+      "en": "MIT TR asks what now after thresholds",
+      "zh": "MIT科技评论追问阈值之后"
+     },
+     "section": "news",
+     "source": "MIT Technology Review · AI",
+     "url": "https://www.technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold/"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Bill Gates warns AI's dangers are underestimated, sparking urgent debate.",
+    "zh": "比尔·盖茨警告AI风险被低估，引发紧迫讨论。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI risk discourse",
+    "zh": "AI风险讨论"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track AI ethics: Gates' interview and MIT Tech Review analysis push the conversation beyond hype.",
+    "zh": "你关注AI伦理：盖茨访谈和《麻省理工科技评论》分析将讨论推向深入。"
+   }
+  },
+  {
+   "angles": [
+    {
      "item_id": "d8baf7a425e56626",
      "phrase": {
-      "en": "AI fake doctors deceive elderly",
-      "zh": "AI假医生欺骗老人"
+      "en": "AI fake doctors deceive Taiwan elders",
+      "zh": "AI假医生欺骗台湾老人"
      },
      "section": "news",
      "source": "BBC 中文",
      "url": "https://www.bbc.com/zhongwen/articles/c4gq4999446o/trad?at_medium=RSS&at_campaign=rss"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Prominent voices clash over how openly to address AI's dangers.",
-    "zh": "知名人士就如何公开应对AI危险展开交锋。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "AI risk debate",
-    "zh": "AI风险辩论"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow AI ethics: today a tech giant's warning and a scam expose the gap between hype and harm.",
-    "zh": "你关注AI伦理，今日科技巨头警告与诈骗案暴露炒作与危害的差距。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "5daf3ac9d289dcd8",
-     "phrase": {
-      "en": "Canada imposes 50% tariffs",
-      "zh": "加拿大征收50%关税"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/25/world/canada/canada-tariffs-trump-carney-retaliatory.html"
     },
     {
-     "item_id": "a8594ff10774be74",
+     "item_id": "99e449c947b07519",
      "phrase": {
-      "en": "Trade dispute as sovereignty defense",
-      "zh": "贸易争端视为主权防御"
+      "en": "OpenAI disrupts Russian AI influence campaign",
+      "zh": "OpenAI瓦解俄罗斯AI影响行动"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/26/wednesday-briefing-how-canada-has-turned-a-trade-dispute-into-a-defence-of-its-sovereignty"
+     "source": "Hacker News (AI filter)",
+     "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia/"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Canada pushes back with steep tariffs, turning trade into sovereignty.",
-    "zh": "加拿大以高额关税反击，将贸易化为主权之争。"
+    "en": "AI fakes spread from Taiwan seniors to Russian influence campaigns.",
+    "zh": "AI造假从台湾老年人蔓延到俄罗斯影响行动。"
    },
    "id": "t2",
    "keyword": {
-    "en": "Canada-US trade war",
-    "zh": "加美贸易战"
+    "en": "AI-generated misinformation",
+    "zh": "AI生成错误信息"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track geopolitical shifts: today Canada's defiance reshapes North American relations.",
-    "zh": "你关注地缘政治变动，今日加拿大反抗重塑北美关系。"
+    "en": "You follow AI's societal impact: two concrete cases show manipulation reaching vulnerable populations.",
+    "zh": "你关注AI社会影响：两个案例显示操纵触及弱势群体。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "2a99aa2ee792d235",
+     "item_id": "7963c0eb0425926c",
      "phrase": {
-      "en": "Decoding manipulation in visualizations",
-      "zh": "解码可视化中的操纵"
+      "en": "AI guides assembly and disassembly workers",
+      "zh": "AI指导装配拆卸工人"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2608.24535v1"
+     "url": "https://arxiv.org/abs/2608.22617v1"
     },
     {
-     "item_id": "5f9e7ed77ac71610",
+     "item_id": "08270a80acb62131",
      "phrase": {
-      "en": "Reconstructions conceal interpretations",
-      "zh": "重建掩盖解读"
+      "en": "Multi-agent autonomous scientific data exploration",
+      "zh": "多智能体自主科学数据探索"
      },
      "section": "papers",
-     "source": "OpenAlex · information visualization",
-     "url": "http://hdl.handle.net/2013/ULB-DIPOT:oai:dipot.ulb.ac.be:2013/404568"
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.22045v1"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "New research decodes how visualizations twist truth, and a 3D reconstruction questions digital certainty.",
-    "zh": "新研究解码可视化如何扭曲真相，3D重建质疑数字确定性。"
+    "en": "AI assists workers and scientists, from assembly to data exploration.",
+    "zh": "AI辅助工人和科学家，从装配到数据探索。"
    },
    "id": "t3",
    "keyword": {
-    "en": "data viz manipulation",
-    "zh": "数据可视化操纵"
+    "en": "human-AI collaboration",
+    "zh": "人机协作"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about critical visualization: today's papers link deception and interpretation in visual media.",
-    "zh": "你关注批判性可视化，今日论文连接视觉媒体的欺骗与解读。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "f5a561652d1a8826",
-     "phrase": {
-      "en": "Two Sullivans on ballot",
-      "zh": "两位苏利文同登选票"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/aug/26/alaska-dan-sullivan-senate"
-    },
-    {
-     "item_id": "02a912e253c555d8",
-     "phrase": {
-      "en": "Name confusion may aid Democrat",
-      "zh": "姓名混淆或助民主党"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/26/us/politics/dan-sullivan-alaska-senate-midterms.html"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Two Dan Sullivans on one ballot may confuse voters and shake Senate races.",
-    "zh": "两位丹·苏利文同登选票，或困惑选民并动摇参议院竞选。"
-   },
-   "id": "t4",
-   "keyword": {
-    "en": "election name confusion",
-    "zh": "选举姓名混淆"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You're into political data viz: this anomaly illustrates how names shape electoral outcomes.",
-    "zh": "你关注政治数据可视化，此异常显示姓名如何影响选举结果。"
+    "en": "You study embodied AI: these papers show AI guiding physical tasks and scientific discovery in practice.",
+    "zh": "你研究具身AI：这些论文展示AI在实践中的物理任务和科学发现引导。"
    }
   }
  ]
