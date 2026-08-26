@@ -1,40 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"watermelon seed spitting contest\" OR \"world championship seed spitting\")",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "sedaliademocrat.com",
-   "published_at": "2026-08-21T06:15:00Z",
-   "title": "Unmet expectations need not provoke aberrations",
-   "url": "http://sedaliademocrat.com/stories/unmet-expectations-need-not-provoke-aberrations,53919"
+   "name": "wbko.com",
+   "published_at": "2026-08-23T04:00:00Z",
+   "title": "Record - smashing pumpkin crowned at Kentucky State Fair",
+   "url": "https://www.wbko.com/2026/08/22/record-smashing-pumpkin-crowned-kentucky-state-fair/"
   },
   "summaries": {
    "en": {
-    "summary": "An editorial argues that unfulfilled expectations do not justify unusual behavior, a philosophical stance far from typical personal dashboard content.",
-    "why_irrelevant": "A philosophical opinion piece unrelated to daily routines or trending topics."
+    "summary": "A record-smashing pumpkin was crowned at the Kentucky State Fair, drawing attention to giant gourd competitions.",
+    "why_irrelevant": "It is a niche agricultural contest far from typical tech and culture feeds."
    },
    "zh": {
-    "summary": "一篇评论文章认为，未满足的期望不应引发异常行为，这一哲学立场远离常见的个人仪表盘内容。",
-    "why_irrelevant": "与日常事务或热门话题无关的哲学观点。"
+    "summary": "肯塔基州博览会上诞生了一个破纪录的巨型南瓜，吸引了人们对南瓜种植比赛的关注。",
+    "why_irrelevant": "这是一个小众的农业竞赛，远离通常的科技和文化动态。"
    }
   },
-  "topic": "competitive watermelon seed spitting"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news centers on the death of Dolly Parton at 80, with tributes pouring in, while Canada retaliates with tariffs up to 50% on U.S. goods. Meanwhile, research highlights advancements in scientific data exploration, AI in visualization, and non-destructive testing.",
+ "brief": "Today's news is dominated by the passing of country music legend Dolly Parton, with tributes pouring in from across the world, while political news covers Trump's immigration and nuclear policies, and a US Senate primary in South Carolina. In research, papers focus on digital reconstruction of cultural heritage and non-destructive testing methods.",
  "meta": {
-  "generated_at": "2026-08-25T22:42:52Z"
+  "generated_at": "2026-08-26T01:56:23Z"
  },
- "news_summary": "Dolly Parton's death dominates headlines, alongside Canada's imposition of retaliatory tariffs on U.S. goods, and other political and cultural stories like the Log Cabin Republicans' shift and a South Carolina runoff.",
- "papers_summary": "Research includes new methods for autonomous scientific dataset exploration, AI-assisted visualization for data issue detection, and non-destructive wave-based testing for corrosion in concrete panels.",
+ "news_summary": "The world mourns Dolly Parton's death, while US politics sees Trump's administration halting immigrant visas, sending a Saudi nuclear deal to Congress, and a Supreme Court ruling on mail-in voting. Other notable items include Australia's Suburban Rail Loop fare controversy and a Senate primary in South Carolina.",
+ "papers_summary": "Research papers explore digital reconstruction of the Palais Stoclet dining room for scientific dialogue, non-destructive wave-based detection of delamination in concrete panels, and a methodological framework for dairy farming decision support.",
  "summaries": {
   "en": {
-   "brief": "Today's news centers on the death of Dolly Parton at 80, with tributes pouring in, while Canada retaliates with tariffs up to 50% on U.S. goods. Meanwhile, research highlights advancements in scientific data exploration, AI in visualization, and non-destructive testing.",
-   "news_summary": "Dolly Parton's death dominates headlines, alongside Canada's imposition of retaliatory tariffs on U.S. goods, and other political and cultural stories like the Log Cabin Republicans' shift and a South Carolina runoff.",
-   "papers_summary": "Research includes new methods for autonomous scientific dataset exploration, AI-assisted visualization for data issue detection, and non-destructive wave-based testing for corrosion in concrete panels."
+   "brief": "Today's news is dominated by the passing of country music legend Dolly Parton, with tributes pouring in from across the world, while political news covers Trump's immigration and nuclear policies, and a US Senate primary in South Carolina. In research, papers focus on digital reconstruction of cultural heritage and non-destructive testing methods.",
+   "news_summary": "The world mourns Dolly Parton's death, while US politics sees Trump's administration halting immigrant visas, sending a Saudi nuclear deal to Congress, and a Supreme Court ruling on mail-in voting. Other notable items include Australia's Suburban Rail Loop fare controversy and a Senate primary in South Carolina.",
+   "papers_summary": "Research papers explore digital reconstruction of the Palais Stoclet dining room for scientific dialogue, non-destructive wave-based detection of delamination in concrete panels, and a methodological framework for dairy farming decision support."
   },
   "zh": {
-   "brief": "今日焦点包括美国对伊朗制裁的调整、普京首次登岛、中国工厂机器人革命等新闻，以及AI在科研与可视化中的伦理与应用研究。",
-   "news_summary": "美国制裁伊朗新措施未对华施压，以避免影响习普会；普京首登择捉岛牵制日本；中国机器人数量激增引发关注。",
-   "papers_summary": "研究探讨AI在科研中的披露规范、多智能体系统探索科学数据集，以及可视化在安全感知等领域的应用，强调人机协同与伦理问题。"
+   "brief": "今日焦点：全球海洋温度创新高、美国制裁伊朗对华松手、普京首登择捉岛，以及台湾艺人泼油事件引发台日关系讨论。",
+   "news_summary": "厄尔尼诺导致海洋温度创新高；美国制裁伊朗但对中国留有空间；普京登岛引日本关注；台湾艺人事件牵动台日关系。",
+   "papers_summary": "研究关注数字重建和奶牛场决策支持，暂无中文论文。"
   }
+ },
+ "todays_image": {
+  "caption": "Like James Brown’s signed guitar preserves the soul of a music legend, Dolly Parton’s legacy remains a cherished, personal keepsake in the hearts of Tennesseans who saw her as one of their own.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2008_7_2a_001",
+  "source_name": "National Museum of African American History and Culture",
+  "source_url": "https://nmaahc.si.edu/object/nmaahc_2008.7.2ab",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2008_7_2a_001",
+  "title": "Signed guitar and case owned by James Brown"
  }
 }
