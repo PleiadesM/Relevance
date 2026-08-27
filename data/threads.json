@@ -1,86 +1,185 @@
 {
  "meta": {
-  "count": 2,
-  "generated_at": "2026-08-27T09:42:59Z",
+  "count": 4,
+  "generated_at": "2026-08-27T20:28:15Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "9a03c66173195a90",
+     "item_id": "9ff5298fbd831b09",
      "phrase": {
-      "en": "NYT frames as pop art pioneer",
-      "zh": "《纽约时报》誉为波普先驱"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/26/arts/yayoi-kusama-dead.html"
-    },
-    {
-     "item_id": "fa6a4337ede86f79",
-     "phrase": {
-      "en": "Guardian notes global superstar",
-      "zh": "《卫报》称全球巨星"
+      "en": "climate destabilizing mountains",
+      "zh": "气候破坏山区稳定"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/artanddesign/2026/aug/27/yayoi-kusama-dies-aged-97-artist-dead"
+     "url": "https://www.theguardian.com/world/2026/aug/27/climate-crisis-mountain-areas-glaciers-nepal-tibet"
+    },
+    {
+     "item_id": "b7fc89ea43c6ffe6",
+     "phrase": {
+      "en": "Australians missing, rescue ongoing",
+      "zh": "澳游客失踪，救援进行中"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/australia-news/2026/aug/27/australian-tourists-reported-missing-nepal-tibet-floods"
+    },
+    {
+     "item_id": "4b11fe4633f0933f",
+     "phrase": {
+      "en": "race to deliver aid",
+      "zh": "竞相运送救援"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/27/nepal-tibet-flash-floods-aid"
+    },
+    {
+     "item_id": "f423a16f024f6559",
+     "phrase": {
+      "en": "warnings outpaced by water",
+      "zh": "预警不及水流速度"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/27/world/asia/speed-of-flash-floods-likely-overwhelmed-nepals-warning-system-experts-say.html"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Polka-dot visionary dies at 97, leaving a legacy of immersive art.",
-    "zh": "波点视觉巨匠97岁逝世，留下沉浸式艺术遗产。"
+    "en": "Flash floods sweep Nepal and Tibet, aid rushes in.",
+    "zh": "山洪席卷尼泊尔和西藏，救援紧急进行。"
    },
    "id": "t1",
    "keyword": {
-    "en": "Yayoi Kusama obituary",
-    "zh": "草间弥生逝世"
+    "en": "Nepal flood",
+    "zh": "尼泊尔洪水"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You value art and visual rhetoric; her death marks a cultural milestone.",
-    "zh": "你重视艺术与视觉修辞，她的离世是文化里程碑。"
+    "en": "You follow climate risks: the flood's speed overwhelmed warning systems — a wake-up call for vulnerable regions.",
+    "zh": "你关注气候风险：洪水速度超出预警系统，为脆弱地区敲响警钟。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "c068fc0abf5ceecf",
+     "full_text_file": "articles/news/b52be658bd17b00b.json",
+     "item_id": "b52be658bd17b00b",
      "phrase": {
-      "en": "Guardian notes Russia's oil scramble",
-      "zh": "《卫报》指俄罗斯抢油"
+      "en": "industry calls tax dumb",
+      "zh": "业界称税策愚蠢"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/27/ukraines-drone-attacks-have-left-russia-desperately-scrambling-for-oil-imports"
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/tech-policy/2026/08/ai-industry-says-trump-plans-to-tax-chips-in-the-single-dumbest-way-imaginable/"
     },
     {
-     "item_id": "59c249bd79826088",
+     "item_id": "8998e38e14b2ebf3",
      "phrase": {
-      "en": "NPR links diesel price to war",
-      "zh": "NPR关联油价与战争"
+      "en": "Nvidia PAC counters DC",
+      "zh": "英伟达游说对抗华盛顿"
      },
      "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/27/nx-s1-5944429/school-buses-fuel-diesel-prices"
+     "source": "Hacker News (AI filter)",
+     "url": "https://news.bgov.com/bloomberg-government-news/nvidia-starts-a-pac-as-ai-chip-maker-buids-influence-force-in-dc"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Iran war raises fuel prices, hitting economies from schools to refineries.",
-    "zh": "伊朗战争推高油价，冲击从学校到炼油厂的经济。"
+    "en": "Trump's chip tax plan baffles the AI industry.",
+    "zh": "特朗普芯片税计划令AI行业困惑。"
    },
    "id": "t2",
    "keyword": {
-    "en": "Mideast oil tensions",
-    "zh": "中东石油紧张"
+    "en": "AI chip tax",
+    "zh": "AI芯片税"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You connect global events; these stories show ripple effects on daily life.",
-    "zh": "你关联全球事件，这些故事展示对日常生活的涟漪效应。"
+    "en": "You track AI policy: the tax could reshape where AI compute lives.",
+    "zh": "你关注AI政策：该税可能重塑AI算力布局。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "7df22cdec36e014c",
+     "phrase": {
+      "en": "CIA chief bleak on war",
+      "zh": "中情局长对战争悲观"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/27/us/politics/cia-director-russia-ukraine.html"
+    },
+    {
+     "item_id": "ab4c3c5285283158",
+     "phrase": {
+      "en": "UK missiles 'playing with fire'",
+      "zh": "英导弹如同玩火"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/27/britain-ukraine-war-russia"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "UK and Russia trade threats over Ukraine missiles.",
+    "zh": "英俄就乌克兰导弹互放狠话。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "Russia warnings",
+    "zh": "俄罗斯警告"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow geopolitics: CIA chief's Moscow visit signals high-stakes diplomacy.",
+    "zh": "你关注地缘政治：中情局长访莫斯科凸显高风险外交。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "3a9c169174470985",
+     "phrase": {
+      "en": "Lake Ontario renamed Lake America",
+      "zh": "安大略湖改名美国湖"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/live/2026/aug/27/cia-moscow-nato-ratcliffe-rutte-colby-trump-paxton-voting-latest-news-updates"
+    },
+    {
+     "item_id": "56430f5201eabd77",
+     "phrase": {
+      "en": "retailer moves to dodge tariffs",
+      "zh": "零售商迁移避关税"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/27/business/ssense-canada-tariffs-trump.html"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Renaming landmarks, tariffs hit Canadian retailers.",
+    "zh": "改名地标、关税冲击加拿大零售商。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "Canada trade spat",
+    "zh": "加拿大贸易争端"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You study visual rhetoric: renaming a lake is a rhetorical move in trade warfare.",
+    "zh": "你研究视觉修辞：湖泊改名是贸易战中的修辞手法。"
    }
   }
  ]

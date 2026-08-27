@@ -1,28 +1,48 @@
 {
- "brief": "Yayoi Kusama's death marks the end of a prolific artistic era, while Nepal's flash floods highlight ongoing regional crises. In tech, research on Discord gaming communities and color perception studies offer fresh insights into human-computer interaction.",
- "meta": {
-  "generated_at": "2026-08-27T09:42:59Z"
+ "apropos_of_nothing": {
+  "query": "Isle of Man TT marshals OR TT race marshaling",
+  "source": {
+   "name": "IOM TT Races",
+   "published_at": "2026-08-22T18:31:44Z",
+   "title": "PAUL JORDAN TAKES HISTORIC JUNIOR CLASSIC TT VICTORY",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRnppOUdkazlMSHlsMXJONGw5cTBkV1I5NmlDekxEODFWRVlQeEEtWWZwRjNPY1NzV1E5Qkg0cURxWl9MQV80eFJyN0Nra3RDblo2NXJKSTNFR21KUTh2RGgzNS1FYUpLRU1WUjNZa3E1SmRReUJLcjdQTHJSbk10bE9ZRllmai1MYTBKMHFtc0wtSjNPYlczZmh2cFNNSXhRTHVr?oc=5"
+  },
+  "summaries": {
+   "en": {
+    "summary": "Paul Jordan wins the Historic Junior Classic TT at the 2026 Isle of Man TT races.",
+    "why_irrelevant": "A niche motorsport event far from mainstream news and HCI research."
+   },
+   "zh": {
+    "summary": "保罗·乔丹在2026年马恩岛TT赛事中赢得历史初级经典组冠军。",
+    "why_irrelevant": "小众赛车活动，远离主流新闻和人机交互研究。"
+   }
+  },
+  "topic": "Isle of Man TT motorcycle road race marshaling traditions"
  },
- "news_summary": "Japanese artist Yayoi Kusama dies at 97; Nepal flash floods claim hundreds with many missing. US politics, school costs, and royal family news also feature.",
- "papers_summary": "Papers explore Discord's role in teen gaming, stretchable interconnects for dual sensing, and replication of color discrimination studies, enhancing understanding of interactive systems.",
+ "brief": "Today's news is marked by geopolitical tensions (US-Canada trade and lake renaming, Russia-Ukraine peace efforts), a major Meta settlement over teen safety, and a deadly flash flood in Nepal. In research, papers explore human-computer interaction, from gaming communication to interpretable AI and data visualization integrity.",
+ "meta": {
+  "generated_at": "2026-08-27T20:28:15Z"
+ },
+ "news_summary": "Key stories include Trump's order to rename Lake Ontario and tax AI chips, Meta's $17.1B settlement deemed insufficient by parents, a Nepal flash flood with near 400 dead, and the death of actor Peter Cullen.",
+ "papers_summary": "Research highlights include Discord's role in teen gaming, stretchable electronics for sensing, concept bottleneck models for decision support, and methods to detect manipulated visualizations.",
  "summaries": {
   "en": {
-   "brief": "Yayoi Kusama's death marks the end of a prolific artistic era, while Nepal's flash floods highlight ongoing regional crises. In tech, research on Discord gaming communities and color perception studies offer fresh insights into human-computer interaction.",
-   "news_summary": "Japanese artist Yayoi Kusama dies at 97; Nepal flash floods claim hundreds with many missing. US politics, school costs, and royal family news also feature.",
-   "papers_summary": "Papers explore Discord's role in teen gaming, stretchable interconnects for dual sensing, and replication of color discrimination studies, enhancing understanding of interactive systems."
+   "brief": "Today's news is marked by geopolitical tensions (US-Canada trade and lake renaming, Russia-Ukraine peace efforts), a major Meta settlement over teen safety, and a deadly flash flood in Nepal. In research, papers explore human-computer interaction, from gaming communication to interpretable AI and data visualization integrity.",
+   "news_summary": "Key stories include Trump's order to rename Lake Ontario and tax AI chips, Meta's $17.1B settlement deemed insufficient by parents, a Nepal flash flood with near 400 dead, and the death of actor Peter Cullen.",
+   "papers_summary": "Research highlights include Discord's role in teen gaming, stretchable electronics for sensing, concept bottleneck models for decision support, and methods to detect manipulated visualizations."
   },
   "zh": {
-   "brief": "今日焦点为中尼边境山洪造成的重大伤亡，以及Meta儿童安全诉讼的巨额和解；同时，草间弥生和多莉·帕顿的逝世引发文化回响。",
-   "news_summary": "中尼边境山洪已致逾160人死亡，上千人失踪，救援持续；Meta就社交平台儿童安全诉讼达成180亿美元和解，或推动更严格监管。",
-   "papers_summary": "arXiv研究关注Discord游戏社群交流、可拉伸电子器件感知、概念瓶颈模型辅助决策等；其他研究涉及农业气候信息服务和植物免疫。"
+   "brief": "今日焦点为中尼边境山洪灾害，已致逾160人遇难，仍有上千人失踪；同时，日本艺术家草间弥生逝世，Meta以180亿美元和解社交平台儿童伤害诉讼。",
+   "news_summary": "中尼边境山洪造成重大伤亡，中国总理李强赴现场指挥救援；草间弥生去世引发全球艺术界哀悼；Meta巨额和解案或推动社交媒体安全改革。",
+   "papers_summary": "研究涉及Discord游戏社交、可拉伸电子、概念瓶颈模型等，另有关于可视化中颜色辨别复现研究，强调感知研究在可视化指南中的重要性。"
   }
  },
  "todays_image": {
-  "caption": "The polka dots that once adorned an anonymous vintage dress now echo the infinite, whimsical pattern that defined Yayoi Kusama's luminous vision.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1969.148_1",
+  "caption": "Just as tattoo flash promises permanent ink, parents see Meta's settlement as a temporary fix for lasting harm to kids.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1998.84.50E_1",
   "source_name": "Smithsonian American Art Museum",
-  "source_url": "https://americanart.si.edu/collections/search/artwork/?id=15249",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1969.148_1",
-  "title": "The Polka Dot Dress"
+  "source_url": "https://americanart.si.edu/collections/search/artwork/?id=78742",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1998.84.50E_1",
+  "title": "Tattoo Flash"
  }
 }

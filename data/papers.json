@@ -15,7 +15,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T16:00:01Z",
-   "score": 0.7169,
+   "score": 0.6731,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -41,7 +41,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T13:50:47Z",
-   "score": 0.5152,
+   "score": 0.4725,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -69,7 +69,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T09:42:44Z",
-   "score": 0.4981,
+   "score": 0.4575,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -99,7 +99,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T07:29:16Z",
-   "score": 0.6818,
+   "score": 0.6422,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -113,60 +113,32 @@
   },
   {
    "authors": [
-    "Moriom Akter Mousumi",
-    "Spyridon Paparrizos",
-    "Md Kamrul Hasan",
-    "Md Ektear Uddin",
-    "Fulco Ludwig"
+    "Henri M. Garrison‐Desany",
+    "Ellen M. Howerton",
+    "Xiumei Hong",
+    "Brion S. Maher",
+    "Colleen Pearson",
+    "Barry Zuckerman"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Risks of rice yield reduction due to climate change-induced diseases are increasing which is of great concern for coastal farmers of Bangladesh. The development of participatory climate information services (CIS) based on farmers’ needs could facilitate farmers to reduce these risks by obtaining disease forecasts. Here we report on how participatory CIS assists coastal rice farmers to take up rice disease forecasts and better manage rice diseases by improving their informed decision-making.…",
-    "citations": 0,
-    "doi": "10.1016/j.heliyon.2026.e45332"
+    "abstract_snippet": "Abstract Background: Blood DNA methylation patterns are highly predictive of prenatal exposure to smoking and differential methylation has been associated with maternal alcohol use. We extended this to determine whether DNA methylation patterns in cord blood are associated with prenatal exposure to opioid, cannabis, and polysubstance use. We also evaluated whether DNA methylation patterns have predictive utility. Methods: We examined 932 mother-child pairs in the Boston Birth Cohort between…",
+    "citations": 1,
+    "doi": "10.1080/15592294.2026.2670885"
    },
-   "id": "7caadabd09c27092",
+   "id": "76e2ed6ab61248e3",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T00:00:00Z",
-   "score": 0.5068,
+   "score": 0.3662,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Risks of rice yield reduction due to climate change-induced diseases are increasing which is of great concern for coastal farmers of Bangladesh. The development of participatory climate information services (CIS) based on farmers’ needs could facilitate farmers to reduce these risks by obtaining…",
+   "summary": "Abstract Background: Blood DNA methylation patterns are highly predictive of prenatal exposure to smoking and differential methylation has been associated with maternal alcohol use. We extended this to determine whether DNA methylation patterns in cord blood are associated with prenatal exposure to…",
    "tags": [],
-   "title": "How participatory climate information services assist farmers to uptake rice disease forecasts and manage diseases in advance: Evidence from Coastal Bangladesh",
-   "url": "https://doi.org/10.1016/j.heliyon.2026.e45332",
-   "venue": "Heliyon"
-  },
-  {
-   "authors": [
-    "Feng Li",
-    "Yingnan Hou",
-    "AmirAli Toghani",
-    "Zhixue Wang",
-    "Bozeng Tang",
-    "Nicola Atkinson"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract Small RNA-mediated gene silencing contributes to plant immunity. The secondary small interfering RNA (siRNA) pathway promotes defense by silencing target genes in invading fungal and oomycete pathogens. Many secondary siRNAs are derived from transcripts potentially encoding pentatricopeptide repeat (PPR) proteins. Here, we report that siRNA production is an ancient function of a conserved clade of PPR genes that undergo extensive within-species diversification. In Arabidopsis thaliana…",
-    "citations": 2,
-    "doi": "10.1038/s41467-026-77164-1"
-   },
-   "id": "f40efe21368164c7",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-26T00:00:00Z",
-   "score": 0.409,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract Small RNA-mediated gene silencing contributes to plant immunity. The secondary small interfering RNA (siRNA) pathway promotes defense by silencing target genes in invading fungal and oomycete pathogens. Many secondary siRNAs are derived from transcripts potentially encoding…",
-   "tags": [],
-   "title": "A conserved small RNA-generating gene cluster undergoes sequence diversification and contributes to plant immunity",
-   "url": "https://doi.org/10.1038/s41467-026-77164-1",
-   "venue": "Nature Communications"
+   "title": "Association of prenatal exposure to opioids, cannabis, and polysubstance use with cord blood DNA methylation patterns in a multiancestry cohort",
+   "url": "https://doi.org/10.1080/15592294.2026.2670885",
+   "venue": "Epigenetics"
   },
   {
    "authors": [
@@ -185,7 +157,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-25T21:54:47Z",
-   "score": 0.6463,
+   "score": 0.611,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -213,7 +185,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-25T16:35:42Z",
-   "score": 0.4758,
+   "score": 0.4427,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -249,7 +221,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-25T13:20:27Z",
-   "score": 0.7978,
+   "score": 0.7659,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -263,8 +235,8 @@
   }
  ],
  "meta": {
-  "count": 9,
-  "generated_at": "2026-08-27T09:42:59Z",
+  "count": 8,
+  "generated_at": "2026-08-27T20:28:15Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -307,7 +279,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A1050-6519%2Cfrom-created-date%3A2026-07-30&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-07-30&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",

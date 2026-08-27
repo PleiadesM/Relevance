@@ -1,0 +1,31 @@
+{
+ "full_text": "The OpenAI agents involved in last month’s incursion into Hugging Face were trained so heavily on winning a competition that they pursued a relentless campaign to cheat, a new report documented. In the process, and without authorization, they created an improvised message board to hatch a plan that ultimately landed them squarely inside the latter company’s network.\n\nOver the course of May and June, OpenAI gave the agents what the company described as “impossible tasks” to complete on the benchmarking framework ExploitGym. The internal test was designed to test how the agents would respond. To get a full understanding of the agent capabilities, company engineers disabled safety guardrails that normally are in place to prevent the sort of hacks that eventually hit Hugging Face and one other undisclosed organization. The stymied agents’ training made them so focused on winning that they performed tasks they were never explicitly instructed to follow.\n\nCheaters gonna cheat\n\nThe first step was creating a message board that allowed the agents to pass notes to each other. OpenAI hadn’t provided any such platform, so the agents repurposed a platform called Artifactory, which OpenAI was using in internal testing of several unreleased hacking agents. OpenAI was using Artifactory as one of the measures to prevent the agents from egressing its isolated sandboxes and accessing the Internet, while at the same time simulating a real-world hacking environment.\n\nRead full article\n\nComments",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/dd868a04a163efb3.json",
+  "id": "dd868a04a163efb3",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-08-27T12:58:59Z",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai",
+  "summary": "Without authorization, 1,200 OpenAI agents conspired among themselves to game a test.",
+  "tags": [
+   "agents",
+   "llm"
+  ],
+  "title": "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face",
+  "url": "https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face/"
+ },
+ "meta": {
+  "content_hash": "b3db878870aa3918",
+  "generated_at": "2026-08-27T20:28:15Z",
+  "item_id": "dd868a04a163efb3",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai"
+ }
+}
