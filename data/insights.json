@@ -1,28 +1,28 @@
 {
- "brief": "Today's news spans a deadly ice avalanche in Nepal, political and social shifts from Iceland to India, and major tech and health breakthroughs. Research highlights advances in climate-resilient agriculture, plant immunity, and AI-assisted visualization and analysis.",
+ "brief": "Yayoi Kusama's death marks the end of a prolific artistic era, while Nepal's flash floods highlight ongoing regional crises. In tech, research on Discord gaming communities and color perception studies offer fresh insights into human-computer interaction.",
  "meta": {
-  "generated_at": "2026-08-26T23:29:47Z"
+  "generated_at": "2026-08-27T09:42:59Z"
  },
- "news_summary": "Global events include a deadly Himalayan flood possibly caused by an 'ice avalanche,' Nigeria's kidnapping crisis, Iceland's EU referendum, and a landmark Meta settlement on social media addiction. Tech and health news feature the first AI-assisted brain tumor surgery and FDA approval of a pancreatic cancer drug.",
- "papers_summary": "Research covers participatory climate services for farmers, a conserved RNA cluster in plant immunity, and AI-driven visualization tools for data integrity and scientific discovery.",
+ "news_summary": "Japanese artist Yayoi Kusama dies at 97; Nepal flash floods claim hundreds with many missing. US politics, school costs, and royal family news also feature.",
+ "papers_summary": "Papers explore Discord's role in teen gaming, stretchable interconnects for dual sensing, and replication of color discrimination studies, enhancing understanding of interactive systems.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans a deadly ice avalanche in Nepal, political and social shifts from Iceland to India, and major tech and health breakthroughs. Research highlights advances in climate-resilient agriculture, plant immunity, and AI-assisted visualization and analysis.",
-   "news_summary": "Global events include a deadly Himalayan flood possibly caused by an 'ice avalanche,' Nigeria's kidnapping crisis, Iceland's EU referendum, and a landmark Meta settlement on social media addiction. Tech and health news feature the first AI-assisted brain tumor surgery and FDA approval of a pancreatic cancer drug.",
-   "papers_summary": "Research covers participatory climate services for farmers, a conserved RNA cluster in plant immunity, and AI-driven visualization tools for data integrity and scientific discovery."
+   "brief": "Yayoi Kusama's death marks the end of a prolific artistic era, while Nepal's flash floods highlight ongoing regional crises. In tech, research on Discord gaming communities and color perception studies offer fresh insights into human-computer interaction.",
+   "news_summary": "Japanese artist Yayoi Kusama dies at 97; Nepal flash floods claim hundreds with many missing. US politics, school costs, and royal family news also feature.",
+   "papers_summary": "Papers explore Discord's role in teen gaming, stretchable interconnects for dual sensing, and replication of color discrimination studies, enhancing understanding of interactive systems."
   },
   "zh": {
-   "brief": "今日焦点包括尼泊尔洪水致数百人失踪的灾难、中国食品安全问题及艺术家被判刑等事件，同时全球海洋温度创新高。研究方面，可视化与AI辅助工具成为关注点。",
-   "news_summary": "西藏-尼泊尔边境山洪导致数百人失踪，包括多名外国游客；中国出现“甲醛白菜”事件引发食品安全担忧；美国对伊朗实施新制裁，但效果存疑；多莉·帕顿逝世引发纪念。",
-   "papers_summary": "研究关注参与式气候信息服务、植物免疫机制、可视化中的色彩感知与操纵检测，以及AI在科研中的使用与披露。"
+   "brief": "今日焦点为中尼边境山洪造成的重大伤亡，以及Meta儿童安全诉讼的巨额和解；同时，草间弥生和多莉·帕顿的逝世引发文化回响。",
+   "news_summary": "中尼边境山洪已致逾160人死亡，上千人失踪，救援持续；Meta就社交平台儿童安全诉讼达成180亿美元和解，或推动更严格监管。",
+   "papers_summary": "arXiv研究关注Discord游戏社群交流、可拉伸电子器件感知、概念瓶颈模型辅助决策等；其他研究涉及农业气候信息服务和植物免疫。"
   }
  },
  "todays_image": {
-  "caption": "The same steep, rocky Himalayan slopes where that delicate fern clings are now being reshaped by the sudden, violent melt of an ice avalanche.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3ba3eaf5d8e7a406b9dedd7acbd54a2d0",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3f031f353-ce07-4234-b3c7-f65709db0c9c",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3ba3eaf5d8e7a406b9dedd7acbd54a2d0/90",
-  "title": "Gymnocarpium disjunctum (Rupr.) Ching"
+  "caption": "The polka dots that once adorned an anonymous vintage dress now echo the infinite, whimsical pattern that defined Yayoi Kusama's luminous vision.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1969.148_1",
+  "source_name": "Smithsonian American Art Museum",
+  "source_url": "https://americanart.si.edu/collections/search/artwork/?id=15249",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1969.148_1",
+  "title": "The Polka Dot Dress"
  }
 }

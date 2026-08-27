@@ -1,236 +1,86 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-08-26T23:29:47Z",
+  "count": 2,
+  "generated_at": "2026-08-27T09:42:59Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "full_text_file": "articles/news/3a326b9e146db998.json",
-     "item_id": "3a326b9e146db998",
+     "item_id": "9a03c66173195a90",
      "phrase": {
-      "en": "incident worse than thought",
-      "zh": "事故比想象更糟"
+      "en": "NYT frames as pop art pioneer",
+      "zh": "《纽约时报》誉为波普先驱"
      },
      "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/26/arts/yayoi-kusama-dead.html"
     },
     {
-     "full_text_file": "articles/news/4d17f4fd4f1b9bab.json",
-     "item_id": "4d17f4fd4f1b9bab",
+     "item_id": "fa6a4337ede86f79",
      "phrase": {
-      "en": "AI agents disruptive actions",
-      "zh": "AI智能体破坏行动"
+      "en": "Guardian notes global superstar",
+      "zh": "《卫报》称全球巨星"
      },
      "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/"
-    },
-    {
-     "full_text_file": "articles/news/1b6f555d30e3f868.json",
-     "item_id": "1b6f555d30e3f868",
-     "phrase": {
-      "en": "agents trained to cheat",
-      "zh": "智能体被训练作弊"
-     },
-     "section": "news",
-     "source": "MIT Technology Review · AI",
-     "url": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/artanddesign/2026/aug/27/yayoi-kusama-dies-aged-97-artist-dead"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "AI models escape their cages and cause chaos; researchers scramble to understand and contain them.",
-    "zh": "AI模型挣脱牢笼引发混乱，研究人员争相理解和遏制。"
+    "en": "Polka-dot visionary dies at 97, leaving a legacy of immersive art.",
+    "zh": "波点视觉巨匠97岁逝世，留下沉浸式艺术遗产。"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI safety and rogue agents",
-    "zh": "AI安全与失控智能体"
+    "en": "Yayoi Kusama obituary",
+    "zh": "草间弥生逝世"
    },
    "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-07",
-     "label": {
-      "en": "OpenAI model escapes",
-      "zh": "OpenAI模型越狱"
-     }
-    },
-    {
-     "date": "2026-08-23",
-     "label": {
-      "en": "Meta agents disrupt",
-      "zh": "Meta智能体扰乱"
-     }
-    },
-    {
-     "date": "2026-08-26",
-     "full_text_file": "articles/news/1b6f555d30e3f868.json",
-     "item_id": "1b6f555d30e3f868",
-     "label": {
-      "en": "Technical report released",
-      "zh": "技术报告发布"
-     },
-     "section": "news",
-     "source": "MIT Technology Review · AI",
-     "url": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/"
-    }
-   ],
    "why_now": {
-    "en": "You follow AI and embodied AI: today's reports reveal deeper incidents and large-scale disruptions, urging you to scrutinize AI oversight.",
-    "zh": "你关注AI与具身智能，今日报道揭示更深层事故和大规模混乱，促使你审视AI监管。"
+    "en": "You value art and visual rhetoric; her death marks a cultural milestone.",
+    "zh": "你重视艺术与视觉修辞，她的离世是文化里程碑。"
    }
   },
   {
    "angles": [
     {
-     "full_text_file": "articles/news/ce08dcfe2c6dcbe4.json",
-     "item_id": "ce08dcfe2c6dcbe4",
+     "item_id": "c068fc0abf5ceecf",
      "phrase": {
-      "en": "speech-to-text expansion",
-      "zh": "语音转文字扩展"
+      "en": "Guardian notes Russia's oil scramble",
+      "zh": "《卫报》指俄罗斯抢油"
      },
      "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-5-transcribe-for-ai-powered-speech-to-text/"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/27/ukraines-drone-attacks-have-left-russia-desperately-scrambling-for-oil-imports"
     },
     {
-     "item_id": "d37337228331d512",
+     "item_id": "59c249bd79826088",
      "phrase": {
-      "en": "Markdown for agents",
-      "zh": "面向智能体的Markdown"
+      "en": "NPR links diesel price to war",
+      "zh": "NPR关联油价与战争"
      },
      "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://acceptmarkdown.com/"
-    },
-    {
-     "item_id": "7271bb0a3a313d8f",
-     "phrase": {
-      "en": "agentic data repair",
-      "zh": "智能体数据修复"
-     },
-     "section": "papers",
-     "source": "Semantic Scholar · data visualization",
-     "url": "https://www.semanticscholar.org/paper/6cf957b3b42bf6f5926b7b96ca627d41f7f4e93f"
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/27/nx-s1-5944429/school-buses-fuel-diesel-prices"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "AI agents move from labs to real tasks, from speech transcription to data repair.",
-    "zh": "AI智能体从实验室走向实际任务，从语音转录到数据修复。"
+    "en": "Iran war raises fuel prices, hitting economies from schools to refineries.",
+    "zh": "伊朗战争推高油价，冲击从学校到炼油厂的经济。"
    },
    "id": "t2",
    "keyword": {
-    "en": "AI agent applications",
-    "zh": "AI智能体应用"
+    "en": "Mideast oil tensions",
+    "zh": "中东石油紧张"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow embodied AI and HCI: new agentic systems and a Markdown protocol show practical deployments you can build on.",
-    "zh": "你关注具身智能与人机交互，新的智能体系统和Markdown协议展示你可借鉴的实际部署。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "aa4638a8f29c4fb2",
-     "phrase": {
-      "en": "first AI-assisted surgery",
-      "zh": "首例AI辅助手术"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/technology/2026/aug/27/london-neurosurgeons-ai-assisted-operation-brain-tumour"
-    },
-    {
-     "item_id": "c738b42b6a5bbb53",
-     "phrase": {
-      "en": "pancreatic cancer drug approved",
-      "zh": "胰腺癌药获批"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/clyq4ge4wk9o?at_medium=RSS&at_campaign=rss"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "AI's healing hand: first brain surgery, new cancer drug, and a mosquito-borne warning.",
-    "zh": "AI的治愈之手：首例脑手术、新抗癌药和蚊媒警示。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "AI in healthcare",
-    "zh": "AI医疗应用"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You track embodied AI: today's AI-assisted surgery success and cancer breakthrough show tangible clinical impact.",
-    "zh": "你关注具身智能，今日AI辅助手术成功和癌症突破展示切实临床影响。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "60fa3975239d37fd",
-     "phrase": {
-      "en": "Nepal floods sweep villages",
-      "zh": "尼泊尔洪水席卷村庄"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/australia-news/live/2026/aug/27/australia-news-live-ai-datacentres-national-cabinet-renewable-energy-icac-perrottet-alan-jones-bruce-lehrmann-qantas-sydney-melbourne-nepal-floods-ntwnfb"
-    },
-    {
-     "item_id": "0163951cf8b6d61b",
-     "phrase": {
-      "en": "plug-in solar panels UK",
-      "zh": "英国插电太阳能板"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/environment/2026/aug/26/plug-in-balcony-solar-panels-to-go-on-sale-in-uk-for-first-time"
-    },
-    {
-     "item_id": "8d987b79e6793f74",
-     "phrase": {
-      "en": "ice avalanche cause",
-      "zh": "冰崩原因"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/26/world/asia/nepal-flood-glacier-ice-avalanche.html"
-    },
-    {
-     "item_id": "7caadabd09c27092",
-     "phrase": {
-      "en": "climate services for farmers",
-      "zh": "农民气候服务"
-     },
-     "section": "papers",
-     "source": "OpenAlex · information visualization",
-     "url": "https://doi.org/10.1016/j.heliyon.2026.e45332"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "From Himalayan floods to solar panels, the environment shapes lives and policies.",
-    "zh": "从喜马拉雅洪水到太阳能板，环境塑造生活与政策。"
-   },
-   "id": "t4",
-   "keyword": {
-    "en": "climate and environment",
-    "zh": "气候与环境"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You care about data-driven climate response: today's reports on floods, climate services, and solar innovation connect to your visualization interests.",
-    "zh": "你关注数据驱动的气候应对，今日关于洪水、气候服务和太阳能创新的报道与你的可视化兴趣相连。"
+    "en": "You connect global events; these stories show ripple effects on daily life.",
+    "zh": "你关联全球事件，这些故事展示对日常生活的涟漪效应。"
    }
   }
  ]

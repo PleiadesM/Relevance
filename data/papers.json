@@ -2,6 +2,117 @@
  "items": [
   {
    "authors": [
+    "Elena Koung",
+    "Xinning Gui",
+    "Yubo Kou"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Discord is one of the most popular communication platforms among gamers. While prior research has highlighted its role in community building, relatively little attention has been paid to its original gaming context-how it shapes gameplay and social experiences. To address this gap, we conducted semi-structured interviews with 16 teenage Discord users. Through reflexive thematic analysis, we show how players leverage Discord to create more collaborative and socially enriched experiences that…",
+    "arxiv_id": "2608.25942"
+   },
+   "id": "9616c81853a08bd7",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-26T16:00:01Z",
+   "score": 0.7169,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Discord is one of the most popular communication platforms among gamers. While prior research has highlighted its role in community building, relatively little attention has been paid to its original gaming context-how it shapes gameplay and social experiences. To address this gap, we conducted…",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "Gaming Together on Discord: Teen Gamer's Cross-Platform Practices",
+   "url": "https://arxiv.org/abs/2608.25942v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Yuji Isano",
+    "Hiroki Ota"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Stretchable hybrid electronics integrate rigid solid-state electronics with stretchable materials and structures to achieve both high deformability and stable electronic performance. However, most existing systems treat stretchability only as a mechanical attribute without exploiting device deformation to encode its own mechanical state. This problem arises from adapting conventional rigid circuit architectures to stretchable substrates, affording a loss in compatibility with the sensors…",
+    "arxiv_id": "2608.25801"
+   },
+   "id": "40eaa0f5eef60a22",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-26T13:50:47Z",
+   "score": 0.5152,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Stretchable hybrid electronics integrate rigid solid-state electronics with stretchable materials and structures to achieve both high deformability and stable electronic performance. However, most existing systems treat stretchability only as a mechanical attribute without exploiting device…",
+   "tags": [],
+   "title": "Simultaneous Digital Communication and Deformation Sensing over a Single Stretchable Interconnect",
+   "url": "https://arxiv.org/abs/2608.25801v1",
+   "venue": "arXiv cs.ET"
+  },
+  {
+   "authors": [
+    "Alessandro Bogani",
+    "Nicola Debole",
+    "Emanuele Marconato",
+    "Andrea Pugnana",
+    "Katya Tentori",
+    "Andrea Passerini"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Concept Bottleneck Models (CBMs) are interpretable-by-design neural networks that detect human-understandable concepts from the input and use them to generate predictions. By allowing users to inspect the concepts underlying a prediction and explore how predictions change under alternative concept configurations, CBMs have emerged as one of the most prominent approaches to supporting human-AI collaboration. However, user studies investigating their actual effectiveness as decision-support…",
+    "arxiv_id": "2608.25581"
+   },
+   "id": "c86167c6aa083387",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-26T09:42:44Z",
+   "score": 0.4981,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Concept Bottleneck Models (CBMs) are interpretable-by-design neural networks that detect human-understandable concepts from the input and use them to generate predictions. By allowing users to inspect the concepts underlying a prediction and explore how predictions change under alternative concept…",
+   "tags": [
+    "ux"
+   ],
+   "title": "Are Concept Bottleneck Models Effective as Decision-Support Systems?",
+   "url": "https://arxiv.org/abs/2608.25581v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Yuexin Sun",
+    "Zhaohui Wang",
+    "Ruiyang Liu",
+    "Demian Kong",
+    "Qian He",
+    "Gaofeng He"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Experience-driven manufacturing, such as garment pattern making, faces a severe generational skills gap because its core expertise relies on undocumented tacit knowledge forged through day-to-day practice. To address this challenge, we present TailorCoPilot, an agentic pattern-making system built upon a specially designed version-control backend TailorTrace. TailorTrace models sewing patterns as structured, discrete states and records their transformations during the pattern-making process as…",
+    "arxiv_id": "2608.25462"
+   },
+   "id": "bdb3d7fbab853678",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-26T07:29:16Z",
+   "score": 0.6818,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Experience-driven manufacturing, such as garment pattern making, faces a severe generational skills gap because its core expertise relies on undocumented tacit knowledge forged through day-to-day practice. To address this challenge, we present TailorCoPilot, an agentic pattern-making system built…",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "TailorCoPilot: Enabling Agentic Pattern Making with Version-Controlled State Tracking",
+   "url": "https://arxiv.org/abs/2608.25462v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
     "Moriom Akter Mousumi",
     "Spyridon Paparrizos",
     "Md Kamrul Hasan",
@@ -18,7 +129,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T00:00:00Z",
-   "score": 0.5371,
+   "score": 0.5068,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -47,7 +158,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T00:00:00Z",
-   "score": 0.4394,
+   "score": 0.409,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -56,6 +167,36 @@
    "title": "A conserved small RNA-generating gene cluster undergoes sequence diversification and contributes to plant immunity",
    "url": "https://doi.org/10.1038/s41467-026-77164-1",
    "venue": "Nature Communications"
+  },
+  {
+   "authors": [
+    "Arun-Balajiee Lekshmi-Narayanan",
+    "Mohammad Hassany",
+    "Kamil Akhuseyinoglu",
+    "Rully Hendrawan",
+    "Peter Brusilovsky"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Worked examples are a important part of introductory programming, but reading their expert explanations is passive. Self explanation, students explaining the problem and its solution to themselves with subgoal level analysis, turns that study into an active task, yet it is hard to scale because assessing free-text explanations and returning timely feedback has had no easy automated solution. We investigate whether a large language model (LLM) can fill that gap. We build a self-explanation tutor…",
+    "arxiv_id": "2608.25180"
+   },
+   "id": "89eb708837cf0f58",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-25T21:54:47Z",
+   "score": 0.6463,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Worked examples are a important part of introductory programming, but reading their expert explanations is passive. Self explanation, students explaining the problem and its solution to themselves with subgoal level analysis, turns that study into an active task, yet it is hard to scale because…",
+   "tags": [
+    "pedagogy",
+    "ai-writing"
+   ],
+   "title": "Self-Explanation Tutor for Active Study of CS1 Worked Examples",
+   "url": "https://arxiv.org/abs/2608.25180v1",
+   "venue": "arXiv cs.CY"
   },
   {
    "authors": [
@@ -72,7 +213,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-25T16:35:42Z",
-   "score": 0.5115,
+   "score": 0.4758,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -108,7 +249,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-25T13:20:27Z",
-   "score": 0.8322,
+   "score": 0.7978,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -119,278 +260,17 @@
    "title": "VizAnchor: Decoding Manipulation Intent from Tampering Visualizations via Dual-Anchor Reasoning",
    "url": "https://arxiv.org/abs/2608.24535v1",
    "venue": "arXiv cs.CV"
-  },
-  {
-   "authors": [
-    "Arati Mohapatra",
-    "Danish Pruthi"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "As generative AI tools find increasing use in research workflows, ongoing debates on their impact, appropriateness and responsible use have led policymakers to enact policies to disclose AI use at multiple publishing venues. However, are current AI disclosure policies and practices reflective of their purpose? In this work, we first investigate disclosure policies of top computer science venues and find that despite their prevalence, they remain highly under-specified. Secondly, through a…",
-    "arxiv_id": "2608.23271"
-   },
-   "id": "41c28b4258ba5754",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-24T13:58:16Z",
-   "score": 0.5794,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "As generative AI tools find increasing use in research workflows, ongoing debates on their impact, appropriateness and responsible use have led policymakers to enact policies to disclose AI use at multiple publishing venues. However, are current AI disclosure policies and practices reflective of…",
-   "tags": [
-    "ai-writing"
-   ],
-   "title": "Expectations and Practices around AI Disclosure in CS Research",
-   "url": "https://arxiv.org/abs/2608.23271v2",
-   "venue": "arXiv cs.CY"
-  },
-  {
-   "authors": [
-    "Sky Shih-Kai Hong",
-    "Mu-Tien Kuo",
-    "Wei-Ji Chen",
-    "Dennis Wang"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "An initial reaction to a social or community issue can feel meaningful before it is ready to become a message: people still need to clarify the claim, anticipate audience risks, and decide how much reasoning should become visible to others. We present StanceLab, a prototype for preparing a stance before entering a discussion. The prototype compares a three-persona mode, where an Interviewer, Mentor, and Opponent respond in parallel to help users diagnose and revise a stance, with a standalone…",
-    "arxiv_id": "2608.23050"
-   },
-   "id": "d5337fd10bceedf9",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-24T09:55:10Z",
-   "score": 0.5687,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "An initial reaction to a social or community issue can feel meaningful before it is ready to become a message: people still need to clarify the claim, anticipate audience risks, and decide how much reasoning should become visible to others. We present StanceLab, a prototype for preparing a stance…",
-   "tags": [
-    "ai-writing",
-    "techcomm"
-   ],
-   "title": "What Makes an Initial Reaction Ready for Discussion?: Multi-Persona AI Support for Stance Reflection and Writing",
-   "url": "https://arxiv.org/abs/2608.23050v2",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Vivek Chavan",
-    "Jörg Krüger"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Assembly and disassembly processes rely on expert knowledge that is difficult to document, reuse, and transfer. This paper presents a data-centric approach for extracting structured task knowledge from expert demonstrations using egocentric and exocentric recordings. Temporal and multimodal information from video and narration is jointly encoded to derive structured task representations that enable procedural documentation and context-aware worker guidance. The approach is evaluated on a…",
-    "arxiv_id": "2608.22617"
-   },
-   "id": "7963c0eb0425926c",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-23T21:41:33Z",
-   "score": 0.5394,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Assembly and disassembly processes rely on expert knowledge that is difficult to document, reuse, and transfer. This paper presents a data-centric approach for extracting structured task knowledge from expert demonstrations using egocentric and exocentric recordings. Temporal and multimodal…",
-   "tags": [
-    "ai-writing"
-   ],
-   "title": "AI-based worker guidance in assembly and disassembly operations using multimodal ego/exo-centric data capture and structured task knowledge",
-   "url": "https://arxiv.org/abs/2608.22617v1",
-   "venue": "arXiv cs.CV"
-  },
-  {
-   "authors": [
-    "Aashish Panta",
-    "Hugo Lee",
-    "Giorgio Scorzelli",
-    "Kyongsik Yun",
-    "Valerio Pascucci"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Modern scientific facilities and instruments generate datasets at scales that are difficult for individual researchers to discover, access, and explore. Although many datasets are publicly available, using them often requires familiarity with repository organization, data formats, multiresolution structures, and visualization parameters. We present WebVisus, a constrained and resource-aware multi-agent system for discovering and autonomously exploring remote, multiresolution scientific…",
-    "arxiv_id": "2608.22045"
-   },
-   "id": "08270a80acb62131",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-22T17:16:29Z",
-   "score": 0.5258,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Modern scientific facilities and instruments generate datasets at scales that are difficult for individual researchers to discover, access, and explore. Although many datasets are publicly available, using them often requires familiarity with repository organization, data formats, multiresolution…",
-   "tags": [],
-   "title": "Multi-Agent Discovery and Resource-Aware Autonomous Exploration of Scientific Datasets",
-   "url": "https://arxiv.org/abs/2608.22045v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Parimal Kashireddy",
-    "Anna Fariha",
-    "Mahmood Jasim"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "AI is increasingly lowering the barrier to data analysis and creating visualization scripts. However, a key obstacle in AI-assisted visualization is that certain data issues can lead to visualizations that are plausible, but misrepresent the underlying data. These \\textit{visualization defects} are elusive and difficult to fix, particularly for non-experts who may not know what data issues cause them or how to guide AI systems to resolve them. We present findings of a preliminary empirical…",
-    "arxiv_id": "2608.21602",
-    "citations": 0,
-    "doi": null
-   },
-   "id": "7271bb0a3a313d8f",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-21T00:00:00Z",
-   "score": 0.3209,
-   "section": "papers",
-   "source": "Semantic Scholar · data visualization",
-   "source_id": "s2_datavis",
-   "summary": "AI is increasingly lowering the barrier to data analysis and creating visualization scripts. However, a key obstacle in AI-assisted visualization is that certain data issues can lead to visualizations that are plausible, but misrepresent the underlying data. These \\textit{visualization defects} are…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "Exploring Agentic Approaches for Data Issue Detection and Repair in AI-Assisted Visualization",
-   "url": "https://www.semanticscholar.org/paper/6cf957b3b42bf6f5926b7b96ca627d41f7f4e93f",
-   "venue": null
-  },
-  {
-   "authors": [
-    "Nicolas F. Fernandez",
-    "Jaspreet Ishar",
-    "Huan Wang",
-    "Amin Ben Saad",
-    "Michal Lipinski",
-    "S. Farhi"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Spatial-transcriptomics integrates high-dimensional single-cell data with microscopy to reveal cellular states, communication, and tissue organization. Analyzing this data requires a combination of multi-modal data processing, high-dimensional data analysis, spatial analysis, and integrated visualization. However, computational analysis is increasingly becoming a bottleneck as approaches mature and dataset sizes increase. Additionally, visualization can be challenging as open-source…",
-    "arxiv_id": null,
-    "citations": 0,
-    "doi": "10.64898/2026.08.13.744672"
-   },
-   "id": "114411ef17cdaa55",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-21T00:00:00Z",
-   "score": 0.1834,
-   "section": "papers",
-   "source": "Semantic Scholar · data visualization",
-   "source_id": "s2_datavis",
-   "summary": "Spatial-transcriptomics integrates high-dimensional single-cell data with microscopy to reveal cellular states, communication, and tissue organization. Analyzing this data requires a combination of multi-modal data processing, high-dimensional data analysis, spatial analysis, and integrated…",
-   "tags": [
-    "systems",
-    "visualization"
-   ],
-   "title": "Celldega: Integrated Toolkit for Visualization and Analysis of Spatial Data",
-   "url": "https://www.semanticscholar.org/paper/58f29f23bf82b1268ba5c8de570274bca21a16d2",
-   "venue": "bioRxiv"
-  },
-  {
-   "authors": [
-    "Daan H. de Groot",
-    "Sarah X Morillo Leonardo",
-    "M. Pachkov",
-    "E. van Nimwegen"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Single-cell omics methods provide sparse, noisy measurements of high-dimensional cell states, whose underlying distributions remain poorly understood, raising an urgent need for exploratory analysis and visualization methods. However, current methods are ad hoc and uninterpretable, and they distort the structure in the data. We overcome these challenges by representing data on trees and present Bonsai, a method that reconstructs the most likely tree relating any set of high-dimensional objects…",
-    "arxiv_id": null,
-    "citations": 0,
-    "doi": "10.1038/s41587-026-03220-2"
-   },
-   "id": "43e27fcc767d5ba2",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-21T00:00:00Z",
-   "score": 0.3209,
-   "section": "papers",
-   "source": "Semantic Scholar · data visualization",
-   "source_id": "s2_datavis",
-   "summary": "Single-cell omics methods provide sparse, noisy measurements of high-dimensional cell states, whose underlying distributions remain poorly understood, raising an urgent need for exploratory analysis and visualization methods. However, current methods are ad hoc and uninterpretable, and they distort…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "Bonsai reconstructs tree representations for distortion-free visualization and exploration of high-dimensional data.",
-   "url": "https://www.semanticscholar.org/paper/82b488101ccc8bb5b4493fffd90d935bea844c09",
-   "venue": "Nature Biotechnology"
-  },
-  {
-   "authors": [
-    "Andres De La Puente",
-    "Felipe Moreno",
-    "Luis Santé",
-    "Mauro Diaz",
-    "Jorge Poco"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Perceived safety in streetscapes depends on where people look, yet how gaze relates to visual cues of urban disorder remains poorly understood. Prior work treats safety as an image-level label, offering little insight into how attention to specific elements (e.g, buildings, greenery, people, signs of decay) shapes these judgments. We present a head-mounted eye-tracking study in which 30 participants viewed and rated the safety of 150 street-view images from Rio de Janeiro using a HoloLens 2…",
-    "arxiv_id": "2608.21686",
-    "citations": 0,
-    "doi": null
-   },
-   "id": "da9e360a5fe8924a",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-21T00:00:00Z",
-   "score": 0.3209,
-   "section": "papers",
-   "source": "Semantic Scholar · data visualization",
-   "source_id": "s2_datavis",
-   "summary": "Perceived safety in streetscapes depends on where people look, yet how gaze relates to visual cues of urban disorder remains poorly understood. Prior work treats safety as an image-level label, offering little insight into how attention to specific elements (e.g, buildings, greenery, people, signs…",
-   "tags": [
-    "systems",
-    "visualization"
-   ],
-   "title": "UrbanGazeVis: A Visualization System for Analyzing Eye-Tracking Data on Urban Safety Perception",
-   "url": "https://www.semanticscholar.org/paper/3a3008cb0f6c91d6c2a77ed8cbc71de4ced0e951",
-   "venue": null
-  },
-  {
-   "authors": [
-    "S. Savoska",
-    "Suzana Loshkovska"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Selecting an appropriate visualization technique for multidimensional and multivariate financial and accounting (F&A) data remains a complex, user-dependent task. The TaxUI&BV4FADA taxonomy previously organized this problem along four dimensions—visualization techniques, user intentions and analytical goals, interaction possibilities, and user groups—but as a human-readable structure, it could not be queried, validated, or integrated into semantic decision-support pipelines. This paper presents…",
-    "arxiv_id": null,
-    "citations": 0,
-    "doi": "10.3390/informatics13080135"
-   },
-   "id": "db38607bcd02e926",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-20T00:00:00Z",
-   "score": 0.4052,
-   "section": "papers",
-   "source": "Semantic Scholar · data visualization",
-   "source_id": "s2_datavis",
-   "summary": "Selecting an appropriate visualization technique for multidimensional and multivariate financial and accounting (F&A) data remains a complex, user-dependent task. The TaxUI&BV4FADA taxonomy previously organized this problem along four dimensions—visualization techniques, user intentions and…",
-   "tags": [
-    "systems",
-    "visualization"
-   ],
-   "title": "An Ontological Framework for Multidimensional and Multivariate Data Visualization with Applications to Financial and Accounting Data",
-   "url": "https://www.semanticscholar.org/paper/a565877cac66b2362b37f72638afe2f062146480",
-   "venue": "Informatics"
   }
  ],
  "meta": {
-  "count": 13,
-  "generated_at": "2026-08-26T23:29:47Z",
+  "count": 9,
+  "generated_at": "2026-08-27T09:42:59Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
    {
     "category": "optional",
-    "count": 3,
+    "count": 2,
     "error": null,
     "full_text_count": 0,
     "id": "arxiv_datavis",
@@ -414,7 +294,7 @@
    },
    {
     "category": "optional",
-    "count": 30,
+    "count": 0,
     "error": null,
     "full_text_count": 0,
     "id": "s2_datavis",
@@ -427,7 +307,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-07-29&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A1050-6519%2Cfrom-created-date%3A2026-07-30&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
@@ -450,7 +330,7 @@
    },
    {
     "category": "optional",
-    "count": 4,
+    "count": 6,
     "error": null,
     "full_text_count": 0,
     "id": "arxiv_hci_writing",
