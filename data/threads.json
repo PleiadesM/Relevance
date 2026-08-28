@@ -1,166 +1,386 @@
 {
  "meta": {
-  "count": 3,
-  "generated_at": "2026-08-28T06:05:43Z",
+  "count": 5,
+  "generated_at": "2026-08-28T18:38:13Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "4b11fe4633f0933f",
+     "item_id": "2a99aa2ee792d235",
      "phrase": {
-      "en": "aid race amid lake burst warning",
-      "zh": "溃湖警报下救援竞赛"
+      "en": "detects manipulation intent",
+      "zh": "识别操纵意图"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.24535v1"
+    },
+    {
+     "item_id": "8993d904758570bb",
+     "phrase": {
+      "en": "frames as predatory vis",
+      "zh": "视为掠夺性视觉"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/27/nepal-tibet-flash-floods-aid"
-    },
-    {
-     "item_id": "71639b20a5d1c3d7",
-     "phrase": {
-      "en": "climate change raises disaster risk",
-      "zh": "气候变化加剧灾害风险"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/27/climate/nepal-flooding-climate-change.html"
-    },
-    {
-     "item_id": "7e9cdc17f25aad5d",
-     "phrase": {
-      "en": "survivors' disbelief and devastation",
-      "zh": "幸存者惊愕与满目疮痍"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/27/world/asia/nepal-flash-flood-dhunche.html"
-    },
-    {
-     "item_id": "aec37e5a5e045758",
-     "phrase": {
-      "en": "China warns high risk of second flood",
-      "zh": "中国预警二次洪水高风险"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/ckg8l2x8wr8o?at_medium=RSS&at_campaign=rss"
+     "url": "https://www.theguardian.com/world/2026/aug/28/us-venezuela-oil-gas-stake"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "A Himalayan flood kills hundreds; aid races against a bursting lake.",
-    "zh": "喜马拉雅洪水夺命数百，救援与溃湖赛跑。"
+    "en": "Visuals can lie, and new tools aim to expose the trickery.",
+    "zh": "图表能说谎，新工具旨在揭穿诡计。"
    },
    "id": "t1",
    "keyword": {
-    "en": "Nepal flood crisis",
-    "zh": "尼泊尔洪灾"
+    "en": "visualization manipulation",
+    "zh": "可视化操纵"
    },
-   "relates_to": [],
-   "why_now": {
-    "en": "You care about climate-driven disasters; today's updates show the human toll and imminent second risk.",
-    "zh": "你关注气候灾害，今日更新呈现伤亡与二次风险。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "58437e0c1a986c44",
-     "phrase": {
-      "en": "NPR: illegal and baseless measures",
-      "zh": "措施非法且无根据"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/28/nx-s1-5947761/judge-pentagon-anthropic-illegal"
-    },
-    {
-     "item_id": "739a17548d99e677",
-     "phrase": {
-      "en": "BBC: illegal retaliation ruling",
-      "zh": "BBC：报复行为非法"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cm2q7z5mlrmo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "5fadabe31cdd7cfd",
-     "phrase": {
-      "en": "NYT: retaliation for protected speech",
-      "zh": "因受保护言论遭报复"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html"
-    },
-    {
-     "full_text_file": "articles/news/32f37ee065be087c.json",
-     "item_id": "32f37ee065be087c",
-     "phrase": {
-      "en": "Verge: unconstitutional blacklist",
-      "zh": "违宪黑名单"
-     },
-     "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling"
-    }
+   "relates_to": [
+    "t2"
    ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Courts call the Pentagon's AI retaliation illegal — a win for speech.",
-    "zh": "法院裁定五角大楼报复AI公司违法——言论自由获胜。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "Anthropic blacklisting",
-    "zh": "Anthropic 遭拉黑"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You track AI governance; this ruling sets a precedent for state vs. AI companies.",
-    "zh": "你关注AI治理，此裁决为政府与AI公司关系立下先例。"
-   }
-  },
-  {
-   "angles": [
+   "timeline": [
     {
-     "item_id": "5314983952e6609b",
-     "phrase": {
-      "en": "NYT: judge bars restrictions again",
-      "zh": "法官再禁限制"
+     "date": "2026-08-25",
+     "item_id": "2a99aa2ee792d235",
+     "label": {
+      "en": "paper on tampered viz",
+      "zh": "篡改图表论文"
      },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/27/us/politics/judge-postal-service-mail-ballots.html"
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.24535v1"
     },
     {
-     "item_id": "c3c60786ca4e4eff",
-     "phrase": {
-      "en": "Guardian: halts executive order",
-      "zh": "叫停行政令"
+     "date": "2026-08-28",
+     "item_id": "8993d904758570bb",
+     "label": {
+      "en": "Venezuela stake furor",
+      "zh": "委内瑞拉股份风波"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/aug/28/federal-judge-halts-trump-executive-order-mail-voting-midterms"
+     "url": "https://www.theguardian.com/world/2026/aug/28/us-venezuela-oil-gas-stake"
+    }
+   ],
+   "why_now": {
+    "en": "You care about data viz integrity: today a paper dissects deceptive charts, and a real-world viz scandal unfolds in Venezuela.",
+    "zh": "你在意数据可视化诚信：今日有论文剖析欺骗性图表，而委内瑞拉的现实丑闻正在上演。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "full_text_file": "articles/news/4cf8685a87b5c307.json",
+     "item_id": "4cf8685a87b5c307",
+     "phrase": {
+      "en": "hides pollution via EPA",
+      "zh": "借环保署藏污"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit"
+    },
+    {
+     "item_id": "4a9ff3dbae180072",
+     "phrase": {
+      "en": "AI boom keeps growing",
+      "zh": "AI热潮持续增长"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/28/business/ai-stock-market-bull-rally.html"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "A judge again stops postal restrictions, keeping ballots flowing.",
-    "zh": "法官再阻邮政限制，确保选票流通。"
+    "en": "AI's hunger for power now hides its smoke behind red tape.",
+    "zh": "AI的耗电如今用繁文缛节掩盖其烟尘。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "data center pollution",
+    "zh": "数据中心污染"
+   },
+   "relates_to": [
+    "t3"
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-28",
+     "full_text_file": "articles/news/4cf8685a87b5c307.json",
+     "item_id": "4cf8685a87b5c307",
+     "label": {
+      "en": "EPA rule change",
+      "zh": "EPA规则变更"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit"
+    },
+    {
+     "date": "2026-08-28",
+     "item_id": "4a9ff3dbae180072",
+     "label": {
+      "en": "AI rally continues",
+      "zh": "AI涨势持续"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/28/business/ai-stock-market-bull-rally.html"
+    }
+   ],
+   "why_now": {
+    "en": "You track AI's physical footprint: today EPA moves to let data centers hide pollution, and an AI stock rally fuels more growth.",
+    "zh": "你追踪AI的实体足迹：今日环保署欲让数据中心藏匿污染，而AI股票涨势正助长扩张。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "bdb3d7fbab853678",
+     "phrase": {
+      "en": "embodied skill transfer",
+      "zh": "具身技能迁移"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.25462v2"
+    },
+    {
+     "item_id": "670fb552df5e1f30",
+     "phrase": {
+      "en": "immersive network view",
+      "zh": "沉浸网络视图"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.27194v1"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Learning with your body, not just your eyes, is getting a tech upgrade.",
+    "zh": "用身体而非仅用眼睛学习，正获技术升级。"
    },
    "id": "t3",
    "keyword": {
-    "en": "mail-in voting halt",
-    "zh": "邮寄投票受阻"
+    "en": "embodied learning",
+    "zh": "具身学习"
    },
    "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-25",
+     "item_id": "2a99aa2ee792d235",
+     "label": {
+      "en": "tampering paper",
+      "zh": "篡改论文"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.24535v1"
+    },
+    {
+     "date": "2026-08-26",
+     "item_id": "bdb3d7fbab853678",
+     "label": {
+      "en": "pattern making agent",
+      "zh": "打版智能体"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.25462v2"
+    },
+    {
+     "date": "2026-08-27",
+     "item_id": "670fb552df5e1f30",
+     "label": {
+      "en": "immersive layouts",
+      "zh": "沉浸布局"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.27194v1"
+    }
+   ],
    "why_now": {
-    "en": "You care about civic tech and HCI; this decision shapes voting access this midterm.",
-    "zh": "你关注公民技术与HCI，此决定影响中期选举投票渠道。"
+    "en": "You study embodied interaction: today's papers show how hands-on tasks and immersive environments reshape training and repair.",
+    "zh": "你研究具身交互：今日论文展示实操与沉浸环境如何重塑培训与维修。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "full_text_file": "articles/news/24ce00d8c82a55db.json",
+     "item_id": "24ce00d8c82a55db",
+     "phrase": {
+      "en": "limits covert recording",
+      "zh": "限制偷录"
+     },
+     "section": "news",
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain/"
+    },
+    {
+     "item_id": "827569b9dbf1453b",
+     "phrase": {
+      "en": "high-value theft",
+      "zh": "高价值失窃"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/artanddesign/2026/aug/28/egyptian-queen-diamond-necklace-stolen-vienna-raid"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Wearable cameras are learning to blink, but trust still hangs by a thread.",
+    "zh": "可穿戴相机学会眨眼，但信任仍岌岌可危。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "AI glasses privacy",
+    "zh": "AI眼镜隐私"
+   },
+   "relates_to": [
+    "t2"
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-28",
+     "full_text_file": "articles/news/24ce00d8c82a55db.json",
+     "item_id": "24ce00d8c82a55db",
+     "label": {
+      "en": "Meta privacy fix",
+      "zh": "Meta隐私修复"
+     },
+     "section": "news",
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain/"
+    },
+    {
+     "date": "2026-08-28",
+     "item_id": "827569b9dbf1453b",
+     "label": {
+      "en": "necklace heist",
+      "zh": "项链劫案"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/artanddesign/2026/aug/28/egyptian-queen-diamond-necklace-stolen-vienna-raid"
+    }
+   ],
+   "why_now": {
+    "en": "You watch embodied AI in the wild: today Meta's glasses limit secret recording, while a stolen diamond necklace reminds us of physical security gaps.",
+    "zh": "你关注具身AI现实应用：今日Meta眼镜限制偷录，而钻石项链失窃提醒物理安全缺口。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "ff82d0176b7af673",
+     "phrase": {
+      "en": "families' anxious wait",
+      "zh": "家人焦虑等待"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/28/family-missing-australians-nepal-tibet-flash-floods"
+    },
+    {
+     "item_id": "5e5e3cd25caa5cd0",
+     "phrase": {
+      "en": "Red Cross expects worse",
+      "zh": "红十字会预计恶化"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/28/nepal-tibet-flash-floods-red-cross-rescuers-death-toll"
+    },
+    {
+     "item_id": "7f6bdf5db5baff9f",
+     "phrase": {
+      "en": "Chinese media controls",
+      "zh": "中共媒体管控"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/28/chinese-controls-information-hamper-assessment-tibet-flood-damage"
+    },
+    {
+     "item_id": "a6cfe2961c4f6cee",
+     "phrase": {
+      "en": "experts say unpredictable",
+      "zh": "专家称难预测"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/28/world/australia/nepal-flood-glacier-collapse.html"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Rapid floods catch science and media off guard, exposing blind spots.",
+    "zh": "突发洪水令科学与媒体措手不及，暴露盲区。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "climate flood coverage",
+    "zh": "气候洪水报道"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-28",
+     "item_id": "ff82d0176b7af673",
+     "label": {
+      "en": "Nepal floods",
+      "zh": "尼泊尔洪水"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/28/family-missing-australians-nepal-tibet-flash-floods"
+    },
+    {
+     "date": "2026-08-28",
+     "item_id": "5e5e3cd25caa5cd0",
+     "label": {
+      "en": "Red Cross aid",
+      "zh": "红十字会援助"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/28/nepal-tibet-flash-floods-red-cross-rescuers-death-toll"
+    },
+    {
+     "date": "2026-08-28",
+     "item_id": "7f6bdf5db5baff9f",
+     "label": {
+      "en": "China info control",
+      "zh": "中国信息管控"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/28/chinese-controls-information-hamper-assessment-tibet-flood-damage"
+    },
+    {
+     "date": "2026-08-28",
+     "item_id": "d78fb64b988a5560",
+     "label": {
+      "en": "UK storm warnings",
+      "zh": "英国风暴警报"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/uk-news/2026/aug/28/england-braces-for-rainy-bank-holiday-weekend"
+    }
+   ],
+   "why_now": {
+    "en": "You value critical data: today Nepal floods show forecasting limits and Chinese information control, while UK braces for its own storms.",
+    "zh": "你重视批判性数据：今日尼泊尔洪水凸显预报局限与中国信息管控，英国也面临暴风雨。"
    }
   }
  ]
