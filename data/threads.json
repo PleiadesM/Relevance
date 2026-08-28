@@ -1,185 +1,166 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-08-27T20:28:15Z",
+  "count": 3,
+  "generated_at": "2026-08-28T06:05:43Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "9ff5298fbd831b09",
-     "phrase": {
-      "en": "climate destabilizing mountains",
-      "zh": "气候破坏山区稳定"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/27/climate-crisis-mountain-areas-glaciers-nepal-tibet"
-    },
-    {
-     "item_id": "b7fc89ea43c6ffe6",
-     "phrase": {
-      "en": "Australians missing, rescue ongoing",
-      "zh": "澳游客失踪，救援进行中"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/australia-news/2026/aug/27/australian-tourists-reported-missing-nepal-tibet-floods"
-    },
-    {
      "item_id": "4b11fe4633f0933f",
      "phrase": {
-      "en": "race to deliver aid",
-      "zh": "竞相运送救援"
+      "en": "aid race amid lake burst warning",
+      "zh": "溃湖警报下救援竞赛"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/world/2026/aug/27/nepal-tibet-flash-floods-aid"
     },
     {
-     "item_id": "f423a16f024f6559",
+     "item_id": "71639b20a5d1c3d7",
      "phrase": {
-      "en": "warnings outpaced by water",
-      "zh": "预警不及水流速度"
+      "en": "climate change raises disaster risk",
+      "zh": "气候变化加剧灾害风险"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/27/world/asia/speed-of-flash-floods-likely-overwhelmed-nepals-warning-system-experts-say.html"
+     "url": "https://www.nytimes.com/2026/08/27/climate/nepal-flooding-climate-change.html"
+    },
+    {
+     "item_id": "7e9cdc17f25aad5d",
+     "phrase": {
+      "en": "survivors' disbelief and devastation",
+      "zh": "幸存者惊愕与满目疮痍"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/27/world/asia/nepal-flash-flood-dhunche.html"
+    },
+    {
+     "item_id": "aec37e5a5e045758",
+     "phrase": {
+      "en": "China warns high risk of second flood",
+      "zh": "中国预警二次洪水高风险"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/ckg8l2x8wr8o?at_medium=RSS&at_campaign=rss"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Flash floods sweep Nepal and Tibet, aid rushes in.",
-    "zh": "山洪席卷尼泊尔和西藏，救援紧急进行。"
+    "en": "A Himalayan flood kills hundreds; aid races against a bursting lake.",
+    "zh": "喜马拉雅洪水夺命数百，救援与溃湖赛跑。"
    },
    "id": "t1",
    "keyword": {
-    "en": "Nepal flood",
-    "zh": "尼泊尔洪水"
+    "en": "Nepal flood crisis",
+    "zh": "尼泊尔洪灾"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow climate risks: the flood's speed overwhelmed warning systems — a wake-up call for vulnerable regions.",
-    "zh": "你关注气候风险：洪水速度超出预警系统，为脆弱地区敲响警钟。"
+    "en": "You care about climate-driven disasters; today's updates show the human toll and imminent second risk.",
+    "zh": "你关注气候灾害，今日更新呈现伤亡与二次风险。"
    }
   },
   {
    "angles": [
     {
-     "full_text_file": "articles/news/b52be658bd17b00b.json",
-     "item_id": "b52be658bd17b00b",
+     "item_id": "58437e0c1a986c44",
      "phrase": {
-      "en": "industry calls tax dumb",
-      "zh": "业界称税策愚蠢"
+      "en": "NPR: illegal and baseless measures",
+      "zh": "措施非法且无根据"
      },
      "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/tech-policy/2026/08/ai-industry-says-trump-plans-to-tax-chips-in-the-single-dumbest-way-imaginable/"
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/28/nx-s1-5947761/judge-pentagon-anthropic-illegal"
     },
     {
-     "item_id": "8998e38e14b2ebf3",
+     "item_id": "739a17548d99e677",
      "phrase": {
-      "en": "Nvidia PAC counters DC",
-      "zh": "英伟达游说对抗华盛顿"
+      "en": "BBC: illegal retaliation ruling",
+      "zh": "BBC：报复行为非法"
      },
      "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://news.bgov.com/bloomberg-government-news/nvidia-starts-a-pac-as-ai-chip-maker-buids-influence-force-in-dc"
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cm2q7z5mlrmo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "5fadabe31cdd7cfd",
+     "phrase": {
+      "en": "NYT: retaliation for protected speech",
+      "zh": "因受保护言论遭报复"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html"
+    },
+    {
+     "full_text_file": "articles/news/32f37ee065be087c.json",
+     "item_id": "32f37ee065be087c",
+     "phrase": {
+      "en": "Verge: unconstitutional blacklist",
+      "zh": "违宪黑名单"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "Trump's chip tax plan baffles the AI industry.",
-    "zh": "特朗普芯片税计划令AI行业困惑。"
+    "en": "Courts call the Pentagon's AI retaliation illegal — a win for speech.",
+    "zh": "法院裁定五角大楼报复AI公司违法——言论自由获胜。"
    },
    "id": "t2",
    "keyword": {
-    "en": "AI chip tax",
-    "zh": "AI芯片税"
+    "en": "Anthropic blacklisting",
+    "zh": "Anthropic 遭拉黑"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track AI policy: the tax could reshape where AI compute lives.",
-    "zh": "你关注AI政策：该税可能重塑AI算力布局。"
+    "en": "You track AI governance; this ruling sets a precedent for state vs. AI companies.",
+    "zh": "你关注AI治理，此裁决为政府与AI公司关系立下先例。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "7df22cdec36e014c",
+     "item_id": "5314983952e6609b",
      "phrase": {
-      "en": "CIA chief bleak on war",
-      "zh": "中情局长对战争悲观"
+      "en": "NYT: judge bars restrictions again",
+      "zh": "法官再禁限制"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/27/us/politics/cia-director-russia-ukraine.html"
+     "url": "https://www.nytimes.com/2026/08/27/us/politics/judge-postal-service-mail-ballots.html"
     },
     {
-     "item_id": "ab4c3c5285283158",
+     "item_id": "c3c60786ca4e4eff",
      "phrase": {
-      "en": "UK missiles 'playing with fire'",
-      "zh": "英导弹如同玩火"
+      "en": "Guardian: halts executive order",
+      "zh": "叫停行政令"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/27/britain-ukraine-war-russia"
+     "url": "https://www.theguardian.com/us-news/2026/aug/28/federal-judge-halts-trump-executive-order-mail-voting-midterms"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "UK and Russia trade threats over Ukraine missiles.",
-    "zh": "英俄就乌克兰导弹互放狠话。"
+    "en": "A judge again stops postal restrictions, keeping ballots flowing.",
+    "zh": "法官再阻邮政限制，确保选票流通。"
    },
    "id": "t3",
    "keyword": {
-    "en": "Russia warnings",
-    "zh": "俄罗斯警告"
+    "en": "mail-in voting halt",
+    "zh": "邮寄投票受阻"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow geopolitics: CIA chief's Moscow visit signals high-stakes diplomacy.",
-    "zh": "你关注地缘政治：中情局长访莫斯科凸显高风险外交。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "3a9c169174470985",
-     "phrase": {
-      "en": "Lake Ontario renamed Lake America",
-      "zh": "安大略湖改名美国湖"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/live/2026/aug/27/cia-moscow-nato-ratcliffe-rutte-colby-trump-paxton-voting-latest-news-updates"
-    },
-    {
-     "item_id": "56430f5201eabd77",
-     "phrase": {
-      "en": "retailer moves to dodge tariffs",
-      "zh": "零售商迁移避关税"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/27/business/ssense-canada-tariffs-trump.html"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Renaming landmarks, tariffs hit Canadian retailers.",
-    "zh": "改名地标、关税冲击加拿大零售商。"
-   },
-   "id": "t4",
-   "keyword": {
-    "en": "Canada trade spat",
-    "zh": "加拿大贸易争端"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You study visual rhetoric: renaming a lake is a rhetorical move in trade warfare.",
-    "zh": "你研究视觉修辞：湖泊改名是贸易战中的修辞手法。"
+    "en": "You care about civic tech and HCI; this decision shapes voting access this midterm.",
+    "zh": "你关注公民技术与HCI，此决定影响中期选举投票渠道。"
    }
   }
  ]

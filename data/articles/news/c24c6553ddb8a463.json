@@ -1,0 +1,30 @@
+{
+ "full_text": "For all the interest in and uptake of agentic AI systems over the past year or so , the world of automated AI has thus far been primarily limited to text, images, code, and other data and actions that take place inside a computer. Anthropic is now aiming to change that somewhat with what it's calling the Model Hardware Standard (MHS), a set of standardized drivers designed to let AI agents easily interface with and control arbitrary devices.\n\nFor now, the \"research preview\" of the MHS effort is being sold mainly as a way to help scientists streamline the arduous process of creating the custom software integrations that are often needed to get disparate components of an experiment working in concert. MHS can provide a common interface and common format for data sharing between these devices, Anthropic says, allowing them to talk to each other across a network \"without needing a bespoke 'translator' program in between.\" The standardized system could reduce weeks or months of exacting experimental setup down to \"hours or minutes,\" Anthropic writes.\n\nIn a video posted alongside the announcement , Anthropic Technical Staffer Alek Kemeny says the MHS effort was inspired by observing neuroscientist Arco Bast work through an experiment on memory formation in the brain at the HHMI Janelia Research Campus in Ashburn, Virginia. Kemeny said Bast had worked out an interface to get the rotating laser beams, microscopes, cameras, and myriad other components of the experiment to coordinate through a common interface. \"This idea could be used to have AI run any science experiment in the world,\" Kemeny recalls thinking at the time.\n\nRead full article\n\nComments",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/c24c6553ddb8a463.json",
+  "id": "c24c6553ddb8a463",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-08-27T22:15:43Z",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai",
+  "summary": "Standardized driver interface aims to let devices talk to AI and each other.",
+  "tags": [
+   "agents"
+  ],
+  "title": "Anthropic's new hardware standard lets AI agents control the physical world",
+  "url": "https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world/"
+ },
+ "meta": {
+  "content_hash": "caa709f8f2e1948d",
+  "generated_at": "2026-08-28T06:05:43Z",
+  "item_id": "c24c6553ddb8a463",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai"
+ }
+}
