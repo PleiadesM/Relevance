@@ -1,47 +1,106 @@
 {
  "meta": {
-  "count": 5,
-  "generated_at": "2026-08-29T16:41:13Z",
+  "count": 3,
+  "generated_at": "2026-08-29T20:53:17Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "item_id": "915b707019261590",
+     "phrase": {
+      "en": "frames as global spread",
+      "zh": "视作全球蔓延"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/video/us/politics/100000011104736/how-trumps-deportation-agenda-spreads-overseas.html"
+    },
+    {
+     "item_id": "7846af90735fa6fa",
+     "phrase": {
+      "en": "frames as individual case",
+      "zh": "视作个体案例"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cqlw52vr0dwo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "8ce8a18720d89850",
+     "phrase": {
+      "en": "frames as irony",
+      "zh": "视作讽刺"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/29/milo-yiannopoulos-deported-us-to-uk"
+    },
+    {
+     "item_id": "68a2e3af64ae587b",
+     "phrase": {
+      "en": "frames as fall from grace",
+      "zh": "视作失势"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/29/us/politics/milo-yiannopoulos-deported.html"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "From Yiannopoulos to Afghan allies, deportation policy hits individuals and spreads globally.",
+    "zh": "从亚诺普洛斯到阿富汗盟友，驱逐政策波及个体与全球。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "deportation",
+    "zh": "驱逐出境"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow policy and rhetoric: deportations are a live story with human faces.",
+    "zh": "你关注政策与修辞，驱逐是带有人性面孔的实时话题。"
+   }
+  },
+  {
+   "angles": [
+    {
      "item_id": "a9fc11dde51e0f93",
      "phrase": {
-      "en": "frames it as negligence",
-      "zh": "视为疏忽所致"
+      "en": "frames as tragedy and investigation",
+      "zh": "视作悲剧与调查"
      },
      "section": "news",
      "source": "BBC World",
      "url": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "c4e01df51e3c1f1f",
-     "phrase": {
-      "en": "frames it as drone warfare",
-      "zh": "视为无人机战"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/29/nx-s1-5948714/russian-strike-kyiv"
-    },
-    {
      "item_id": "e834b99e08d73f72",
      "phrase": {
-      "en": "frames it as civilian risk",
-      "zh": "聚焦平民风险"
+      "en": "frames as negligence blame",
+      "zh": "视作归咎疏忽"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/08/29/world/europe/russia-ukraine-strike-kyiv-drones.html"
     },
     {
+     "item_id": "c4e01df51e3c1f1f",
+     "phrase": {
+      "en": "frames as deadly attack",
+      "zh": "视作致命袭击"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/29/nx-s1-5948714/russian-strike-kyiv"
+    },
+    {
      "item_id": "600167c0e107b74e",
      "phrase": {
-      "en": "frames it as evacuation",
-      "zh": "强调疏散行动"
+      "en": "frames as evacuation",
+      "zh": "视作疏散"
      },
      "section": "news",
      "source": "BBC World",
@@ -50,205 +109,67 @@
     {
      "item_id": "650266311d21a640",
      "phrase": {
-      "en": "frames it as investigation",
-      "zh": "聚焦调查启动"
+      "en": "frames as investigation",
+      "zh": "视作调查"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/world/2026/aug/29/russian-strike-warehouse-near-kyiv-kills-at-least-37"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "One strike, many casualties, and questions of responsibility.",
-    "zh": "一次袭击，多人伤亡，责任成疑。"
+    "en": "Deadly strike on Kyiv warehouse sparks blame and evacuations, another grim milestone.",
+    "zh": "基辅仓库遭袭致多人死亡，引发指责与疏散，再添惨剧。"
    },
-   "id": "t1",
+   "id": "t2",
    "keyword": {
-    "en": "Ukraine strike",
-    "zh": "乌克兰空袭"
+    "en": "Ukraine war",
+    "zh": "乌克兰战争"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track geopolitics: today's deadliest strike reshapes the conflict's narrative.",
-    "zh": "你关注地缘政治，今日最致命袭击重塑冲突叙事。"
+    "en": "You read geopolitics: one of year's deadliest attacks shifts narratives.",
+    "zh": "你读地缘政治，年度最致命袭击之一改变叙事。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "dc18092e176ecd96",
+     "item_id": "c27321e884317f90",
      "phrase": {
-      "en": "frames it as body crisis",
-      "zh": "视为遗体危机"
+      "en": "frames as tunnel rescue",
+      "zh": "视作隧道救援"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/28/world/asia/nepal-bodies-morgues.html"
-    },
-    {
-     "item_id": "afe0b2cc7749cba8",
-     "phrase": {
-      "en": "frames it as energy risk",
-      "zh": "聚焦能源风险"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/29/business/nepal-hydropower-flood.html"
-    },
-    {
-     "item_id": "72d5877c53ac8189",
-     "phrase": {
-      "en": "frames it as missing people",
-      "zh": "强调失踪人口"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/29/world/asia/nepal-flood-rescue.html"
+     "url": "https://www.nytimes.com/2026/08/29/world/asia/nepal-flood-hydropower-tunnels-rescue-missing-workers.html"
     },
     {
      "item_id": "f219dcfc3c6adbe9",
      "phrase": {
-      "en": "frames it as rescue appeal",
-      "zh": "呼吁救援支持"
+      "en": "frames as missing and aid",
+      "zh": "视作失踪与援助"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/world/live/2026/aug/29/nepal-tibet-floods-latest-updates-death-toll-missing-search-and-rescue"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "Waters rise, bodies drift, a nation struggles.",
-    "zh": "洪水上涨，遗体漂流，举国挣扎。"
+    "en": "Rescuers dig through tunnels for hundreds missing after floods, regional aid pours in.",
+    "zh": "洪水后救援者挖隧道搜寻数百失踪者，区域援助涌入。"
    },
-   "id": "t2",
+   "id": "t3",
    "keyword": {
     "en": "Nepal floods",
     "zh": "尼泊尔洪灾"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about climate impact: this flood exposes infrastructure vulnerabilities.",
-    "zh": "你关注气候影响，洪灾暴露基建脆弱。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "a6ffea235ce3a01d",
-     "phrase": {
-      "en": "frames it as authenticity",
-      "zh": "强调真实性"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/29/opinion/dolly-parton-style-branding-personality.html"
-    },
-    {
-     "item_id": "6ef2114f35358e19",
-     "phrase": {
-      "en": "frames it as remembrance",
-      "zh": "视为追忆"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/29/nx-s1-5941650/opinion-remembering-dolly-parton"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "A fake persona that felt real.",
-    "zh": "虚假人设，真实感受。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "Dolly Parton legacy",
-    "zh": "多莉·帕顿遗产"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You study visual rhetoric: her crafted image offers a case study in authenticity.",
-    "zh": "你研究视觉修辞，她的形象是真实性个案。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "a304d05c78090f2f",
-     "phrase": {
-      "en": "frames it as policy decision",
-      "zh": "视为政策决策"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://lwn.net/Articles/1091231/"
-    },
-    {
-     "full_text_file": "articles/news/6cce11462a5eb789.json",
-     "item_id": "6cce11462a5eb789",
-     "phrase": {
-      "en": "frames it as fraud hunting",
-      "zh": "聚焦欺诈追查"
-     },
-     "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Machines create, humans hunt fakes.",
-    "zh": "机器创作，人类打假。"
-   },
-   "id": "t4",
-   "keyword": {
-    "en": "AI-generated content",
-    "zh": "AI生成内容"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You follow AI ethics: new practices emerge to police synthetic media.",
-    "zh": "你关注AI伦理，新实践监管合成媒体。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "712d86954c183a28",
-     "phrase": {
-      "en": "frames it as hidden payments",
-      "zh": "聚焦隐秘付费"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/29/us/politics/campaigns-paid-influencers.html"
-    },
-    {
-     "item_id": "04620ba629df04b5",
-     "phrase": {
-      "en": "frames it as false claims",
-      "zh": "强调虚假说法"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/aug/29/michigan-senate-candidate-mike-rogers-osama-bin-laden"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Campaigns whisper through influencers' voices.",
-    "zh": "竞选低语于网红之口。"
-   },
-   "id": "t5",
-   "keyword": {
-    "en": "political candidates",
-    "zh": "政治候选人"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You study HCI: hidden persuasion in digital spaces is reshaping politics.",
-    "zh": "你研究人机交互，数字空间的隐性说服重塑政治。"
+    "en": "Disaster tech and HCI: tunnel rescue highlights human-machine coordination.",
+    "zh": "灾难技术与HCI：隧道救援凸显人机协同。"
    }
   }
  ]

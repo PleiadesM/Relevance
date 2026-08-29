@@ -2,6 +2,69 @@
  "items": [
   {
    "authors": [
+    "Brian De La Cruz",
+    "Aaron Y. Zhao",
+    "Maitrey Gramopadhye",
+    "Sawyer J. Lazar",
+    "Xianming Tan",
+    "Daniel Szafir"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "In this study, we examined whether current 3D reconstruction methods can support the creation of realistic holographic representations of laboratory objects for educational use. In this regard, we compared four approaches: photogrammetry, a neural radiance field (NeRF)-based method, Gaussian splatting, and LiDAR. These methods were used to generate holographic models of common laboratory items and their fidelity was evaluated by graduate students. Participants assessed the models for shape,…",
+    "arxiv_id": "2608.27301"
+   },
+   "id": "5d763d7391a54930",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-27T16:05:33Z",
+   "score": 0.44,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "In this study, we examined whether current 3D reconstruction methods can support the creation of realistic holographic representations of laboratory objects for educational use. In this regard, we compared four approaches: photogrammetry, a neural radiance field (NeRF)-based method, Gaussian…",
+   "tags": [
+    "eval-study",
+    "ml-vis",
+    "visualization"
+   ],
+   "title": "Comparative Evaluation of 3D Reconstruction Methods for Immersive Visualization of Laboratory Objects",
+   "url": "https://arxiv.org/abs/2608.27301v1",
+   "venue": "arXiv cs.GR"
+  },
+  {
+   "authors": [
+    "Kentaro Takahira",
+    "Takanori Fujiwara",
+    "Wong Kam-Kwai",
+    "Kento Shigyo",
+    "Leni Yang",
+    "Hiroaki Natsukawa"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "This paper explores design considerations for egocentric network layouts in immersive environments, providing fresh empirical insights that enhance egocentric network analysis. An egocentric network focuses on the topological and semantic relationships around a focal node (ego) and its neighboring nodes (alters), targeting local sub-networks rather than the whole network. Traditional desktop environments, limited by display constraints, often face visual clutter as node numbers grow. Building…",
+    "arxiv_id": "2608.27194"
+   },
+   "id": "670fb552df5e1f30",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-27T14:38:43Z",
+   "score": 0.4359,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "This paper explores design considerations for egocentric network layouts in immersive environments, providing fresh empirical insights that enhance egocentric network analysis. An egocentric network focuses on the topological and semantic relationships around a focal node (ego) and its neighboring…",
+   "tags": [
+    "eval-study",
+    "visualization"
+   ],
+   "title": "Surrounded by Friends: Design and Evaluation of Immersive Layouts of Egocentric Network for Visual Analytics",
+   "url": "https://arxiv.org/abs/2608.27194v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
     "Yuta Kurotaki",
     "Shusuke Yamakoshi",
     "Reitaro Yoshida",
@@ -18,7 +81,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-27T12:36:09Z",
-   "score": 0.4021,
+   "score": 0.3903,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -47,7 +110,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-27T03:17:55Z",
-   "score": 0.3767,
+   "score": 0.3661,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -73,7 +136,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T17:28:36Z",
-   "score": 0.3528,
+   "score": 0.3434,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -100,7 +163,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T16:00:01Z",
-   "score": 0.5419,
+   "score": 0.5327,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -126,7 +189,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T13:50:47Z",
-   "score": 0.3446,
+   "score": 0.3356,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -154,7 +217,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T09:42:44Z",
-   "score": 0.3358,
+   "score": 0.3272,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -184,7 +247,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T07:29:16Z",
-   "score": 0.5237,
+   "score": 0.5153,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -213,7 +276,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-25T21:54:47Z",
-   "score": 0.5052,
+   "score": 0.4978,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -225,22 +288,79 @@
    "title": "Self-Explanation Tutor for Active Study of CS1 Worked Examples",
    "url": "https://arxiv.org/abs/2608.25180v1",
    "venue": "arXiv cs.CY"
+  },
+  {
+   "authors": [
+    "Shadmaan Hye",
+    "Andrew M. McNutt",
+    "Katherine E. Isaacs"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Color discrimination is a fundamental aspect of visualization as it influences how people interpret visual encodings. Many visualization guidelines are informed by perceptual studies, yet relatively few have been replicated. Acknowledging that the interaction between human perception, visual tasks, and display technology can change over time, we replicate two crowdsourced color discrimination studies conducted 10 years earlier. Specifically, we replicated a visualization-focused color…",
+    "arxiv_id": "2608.24789"
+   },
+   "id": "b10e8ba91644310e",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-25T16:35:42Z",
+   "score": 0.3364,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Color discrimination is a fundamental aspect of visualization as it influences how people interpret visual encodings. Many visualization guidelines are informed by perceptual studies, yet relatively few have been replicated. Acknowledging that the interaction between human perception, visual tasks,…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Ten Years Later: Replicating Two Color Discrimination Studies",
+   "url": "https://arxiv.org/abs/2608.24789v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Xiaotian Zhang",
+    "Huayuan Ye",
+    "Haiyang Zhang",
+    "Chenhui Li",
+    "Changbo Wang",
+    "Sicheng Song"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Data visualizations are widely used for communicating information, but they are also vulnerable to intentional manipulations that induce misleading interpretations. Existing methods focus on locating tampered regions or recovering hidden information, without explaining how the visualization has been manipulated or why the resulting changes may mislead viewers. We propose \\textbf{VizAnchor}, a framework for visualization manipulation understanding through dual-anchor evidence construction and…",
+    "arxiv_id": "2608.24535"
+   },
+   "id": "2a99aa2ee792d235",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-25T13:20:27Z",
+   "score": 0.6637,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Data visualizations are widely used for communicating information, but they are also vulnerable to intentional manipulations that induce misleading interpretations. Existing methods focus on locating tampered regions or recovering hidden information, without explaining how the visualization has…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "VizAnchor: Decoding Manipulation Intent from Tampering Visualizations via Dual-Anchor Reasoning",
+   "url": "https://arxiv.org/abs/2608.24535v1",
+   "venue": "arXiv cs.CV"
   }
  ],
  "meta": {
-  "count": 8,
-  "generated_at": "2026-08-29T16:41:13Z",
+  "count": 12,
+  "generated_at": "2026-08-29T20:53:17Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
    {
     "category": "optional",
-    "count": 0,
-    "error": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60 (Caus",
+    "count": 4,
+    "error": null,
     "full_text_count": 0,
     "id": "arxiv_datavis",
     "name": "arXiv cs.HC + cs.GR",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
@@ -272,7 +392,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-08-01&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-08-01&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
