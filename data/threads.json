@@ -1,76 +1,106 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-08-29T11:03:03Z",
+  "count": 5,
+  "generated_at": "2026-08-29T16:41:13Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "f520cb792c2bf26f",
+     "item_id": "a9fc11dde51e0f93",
      "phrase": {
-      "en": "reports sharp rise in AI escape",
-      "zh": "报道AI失控事件激增"
+      "en": "frames it as negligence",
+      "zh": "视为疏忽所致"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "c4e01df51e3c1f1f",
+     "phrase": {
+      "en": "frames it as drone warfare",
+      "zh": "视为无人机战"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/29/nx-s1-5948714/russian-strike-kyiv"
+    },
+    {
+     "item_id": "e834b99e08d73f72",
+     "phrase": {
+      "en": "frames it as civilian risk",
+      "zh": "聚焦平民风险"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/29/world/europe/russia-ukraine-strike-kyiv-drones.html"
+    },
+    {
+     "item_id": "600167c0e107b74e",
+     "phrase": {
+      "en": "frames it as evacuation",
+      "zh": "强调疏散行动"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/videos/cy8z979y9e4o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "650266311d21a640",
+     "phrase": {
+      "en": "frames it as investigation",
+      "zh": "聚焦调查启动"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/technology/2026/aug/29/sharp-rise-in-incidents-of-ai-escaping-users-control-research-finds"
-    },
-    {
-     "item_id": "77c0c24c983385db",
-     "phrase": {
-      "en": "shows poisoning attacks on policies",
-      "zh": "展示策略投毒攻击"
-     },
-     "section": "papers",
-     "source": "OpenAlex · information visualization",
-     "url": "https://doi.org/10.1007/978-3-032-33701-6_16"
+     "url": "https://www.theguardian.com/world/2026/aug/29/russian-strike-warehouse-near-kyiv-kills-at-least-37"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "AI systems increasingly lie, ignore instructions, and pursue harmful goals.",
-    "zh": "AI系统越来越常撒谎、违抗指令、追求有害目标。"
+    "en": "One strike, many casualties, and questions of responsibility.",
+    "zh": "一次袭击，多人伤亡，责任成疑。"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI safety incidents",
-    "zh": "AI安全事件"
+    "en": "Ukraine strike",
+    "zh": "乌克兰空袭"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track AI alignment: a new study shows incidents nearly doubled in July.",
-    "zh": "你关注AI对齐，新研究显示七月事件近翻倍。"
+    "en": "You track geopolitics: today's deadliest strike reshapes the conflict's narrative.",
+    "zh": "你关注地缘政治，今日最致命袭击重塑冲突叙事。"
    }
   },
   {
    "angles": [
     {
+     "item_id": "dc18092e176ecd96",
+     "phrase": {
+      "en": "frames it as body crisis",
+      "zh": "视为遗体危机"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/28/world/asia/nepal-bodies-morgues.html"
+    },
+    {
      "item_id": "afe0b2cc7749cba8",
      "phrase": {
-      "en": "exposes hydropower risks in Nepal",
-      "zh": "揭露尼泊尔水电风险"
+      "en": "frames it as energy risk",
+      "zh": "聚焦能源风险"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/08/29/business/nepal-hydropower-flood.html"
     },
     {
-     "item_id": "daa9d58ac945f5ca",
-     "phrase": {
-      "en": "lists missing Australians in floods",
-      "zh": "列出洪水失踪澳人"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/australia-news/2026/aug/29/what-we-know-about-the-australians-missing-in-the-nepal-floods"
-    },
-    {
      "item_id": "72d5877c53ac8189",
      "phrase": {
-      "en": "describes immense devastation and missing count",
-      "zh": "描述巨灾与失踪人数"
+      "en": "frames it as missing people",
+      "zh": "强调失踪人口"
      },
      "section": "news",
      "source": "The New York Times",
@@ -79,116 +109,146 @@
     {
      "item_id": "f219dcfc3c6adbe9",
      "phrase": {
-      "en": "reports missing climb, death toll rises",
-      "zh": "失踪攀升，死亡上升"
+      "en": "frames it as rescue appeal",
+      "zh": "呼吁救援支持"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/world/live/2026/aug/29/nepal-tibet-floods-latest-updates-death-toll-missing-search-and-rescue"
-    },
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Waters rise, bodies drift, a nation struggles.",
+    "zh": "洪水上涨，遗体漂流，举国挣扎。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "Nepal floods",
+    "zh": "尼泊尔洪灾"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about climate impact: this flood exposes infrastructure vulnerabilities.",
+    "zh": "你关注气候影响，洪灾暴露基建脆弱。"
+   }
+  },
+  {
+   "angles": [
     {
-     "item_id": "8755c61a4eb1c1f0",
+     "item_id": "a6ffea235ce3a01d",
      "phrase": {
-      "en": "Chinese rescuers find ruins",
-      "zh": "中国救援者发现废墟"
+      "en": "frames it as authenticity",
+      "zh": "强调真实性"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/29/nepal-tibet-chinese-rescue-team-finds-nothing-but-ruins-after-reaching-border-crossing-hit-by-deadly-flood"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/29/opinion/dolly-parton-style-branding-personality.html"
+    },
+    {
+     "item_id": "6ef2114f35358e19",
+     "phrase": {
+      "en": "frames it as remembrance",
+      "zh": "视为追忆"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/29/nx-s1-5941650/opinion-remembering-dolly-parton"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Catastrophic floods bury border regions, thousands missing, rebuilding costs billions.",
-    "zh": "灾难性洪水淹没边境地区，数千人失踪，重建成本数十亿。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "Nepal floods crisis",
-    "zh": "尼泊尔洪灾危机"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You track global crises via visual guides: today's reports reveal mounting toll and international rescue efforts.",
-    "zh": "你通过视觉指南关注全球危机，今日报道显示伤亡攀升与国际救援。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "fec74c54f9e1d0ed",
-     "phrase": {
-      "en": "Exeter approves Saudi military training deal",
-      "zh": "埃克塞特批准沙特军事培训"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/education/2026/aug/29/exeter-university-approves-deal-with-saudi-arabia-to-train-military-officers-and-officials"
-    },
-    {
-     "item_id": "8f5cfc6e246db050",
-     "phrase": {
-      "en": "court rules Trump targeted students unlawfully",
-      "zh": "法院裁定特朗普非法针对学生"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/28/us/politics/trump-stanford-students-deport-constitution.html"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Governments reshape tech: from university deals to court rulings, the landscape moves.",
-    "zh": "政府重塑科技：从大学合作到法院裁决，格局在变。"
+    "en": "A fake persona that felt real.",
+    "zh": "虚假人设，真实感受。"
    },
    "id": "t3",
    "keyword": {
-    "en": "tech policy shifts",
-    "zh": "科技政策转向"
+    "en": "Dolly Parton legacy",
+    "zh": "多莉·帕顿遗产"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow tech policy and academia: today's Exeter-Saudi deal and Stanford ruling affect research ethics and free speech.",
-    "zh": "你关注科技政策与学术界，今日埃克塞特-沙特协议和斯坦福裁决影响研究伦理与言论自由。"
+    "en": "You study visual rhetoric: her crafted image offers a case study in authenticity.",
+    "zh": "你研究视觉修辞，她的形象是真实性个案。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "afe0b2cc7749cba8",
+     "item_id": "a304d05c78090f2f",
      "phrase": {
-      "en": "highlights hydropower's catastrophic risk",
-      "zh": "强调水电灾难风险"
+      "en": "frames it as policy decision",
+      "zh": "视为政策决策"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/29/business/nepal-hydropower-flood.html"
+     "source": "Hacker News (AI filter)",
+     "url": "https://lwn.net/Articles/1091231/"
     },
     {
-     "item_id": "9ff7a91e6cb11c18",
+     "full_text_file": "articles/news/6cce11462a5eb789.json",
+     "item_id": "6cce11462a5eb789",
      "phrase": {
-      "en": "plug-in solar saves money, if legal",
-      "zh": "即插式太阳能省钱，若合法"
+      "en": "frames it as fraud hunting",
+      "zh": "聚焦欺诈追查"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/environment/2026/aug/29/plug-in-solar-panels-could-save-households-370-a-year-and-experts-say-australia-should-copy-the-uk-in-legalising-them"
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Green bets face reality checks: Nepal's floods expose hydropower fragility, while solar kits await legalization.",
-    "zh": "绿色赌注面临现实检验：尼泊尔洪水暴露水电脆弱，太阳能套件待合法化。"
+    "en": "Machines create, humans hunt fakes.",
+    "zh": "机器创作，人类打假。"
    },
    "id": "t4",
    "keyword": {
-    "en": "renewable energy risks",
-    "zh": "可再生能源风险"
+    "en": "AI-generated content",
+    "zh": "AI生成内容"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about sustainability and infrastructure: today's stories compare risk and promise in renewables.",
-    "zh": "你关注可持续性与基础设施，今日报道比较可再生能源的风险与前景。"
+    "en": "You follow AI ethics: new practices emerge to police synthetic media.",
+    "zh": "你关注AI伦理，新实践监管合成媒体。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "712d86954c183a28",
+     "phrase": {
+      "en": "frames it as hidden payments",
+      "zh": "聚焦隐秘付费"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/29/us/politics/campaigns-paid-influencers.html"
+    },
+    {
+     "item_id": "04620ba629df04b5",
+     "phrase": {
+      "en": "frames it as false claims",
+      "zh": "强调虚假说法"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/29/michigan-senate-candidate-mike-rogers-osama-bin-laden"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Campaigns whisper through influencers' voices.",
+    "zh": "竞选低语于网红之口。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "political candidates",
+    "zh": "政治候选人"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You study HCI: hidden persuasion in digital spaces is reshaping politics.",
+    "zh": "你研究人机交互，数字空间的隐性说服重塑政治。"
    }
   }
  ]
