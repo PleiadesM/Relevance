@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "hedge trimming competition OR topiary contest",
+  "query": "mushroom foraging championship OR wild mushroom contest",
   "source": {
-   "name": "Caledonian Record",
-   "published_at": "2026-08-22T03:46:06Z",
-   "title": "Vandals wanted for decapitating Peppa Pig hedge sculpture",
-   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQYnZnYlVlWC1mODVWbFE4QlBCV0kyUFVBQ1BCNXZxdHl3WlhGT1YwUnpidTZfcFFaM0FiLU1WbXc2ejlnQnN5M1oxZDBsTk8xeXBQb1AybFVpNkdVU0VoaVNBSDBnenNWRlpDTVdoQlR6UjBnanNMeVNVQzM0eUZkc0ZscVBIZ2VTQjNSY0l5RmlBcGpoNHQ3cU5HaEs2RjVEN2dwaUk2TVU0dDl6a3FrWWJjdXJYbnVBU3ZIR0FGZXpmdDE1a1dqdXhGYmxkR19LaUhHbWYxSkNqbnk3aU1vYW9ON2tZVVJabERGRnpUV2dMdnBuenhxUjNB?oc=5"
+   "name": "5280 - Denver's Mile High Magazine",
+   "published_at": "2026-08-11T07:00:00Z",
+   "title": "Telluride Mushroom Festival Honors the Legacy of Wild Foods and Lands Advocate Katrina Blair",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZzJYbVJLdnRxaTFlc0JSR2ZvV0pWRXRQMHBuR0N6NVJHaEM0dGZlWHRWV2pMcm9qM2xoWnFzMWRQUkRBdGo3eXNHMlRuVTgzTGZCOThLSjBfamNqS05JUmxxUDFoc051UzhSdzRpWS1ldEdsZHBfSklBUnhMNWQzVXkxSFRuOG8?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "Vandals are wanted for decapitating a Peppa Pig hedge sculpture in a bizarre act of garden vandalism.",
-    "why_irrelevant": "This is a quirky crime story, far from the user's typical content."
+    "summary": "The Telluride Mushroom Festival honors the legacy of wild foods advocate Katrina Blair.",
+    "why_irrelevant": "It's a local festival tribute, far from typical tech or news feeds."
    },
    "zh": {
-    "summary": "破坏者因斩首佩奇猪树篱雕塑而被通缉，这是一起奇怪的园艺术破坏事件。",
-    "why_irrelevant": "这是一个离奇的犯罪故事，远离用户的常规内容。"
+    "summary": "特柳赖德蘑菇节纪念野生食物倡导者卡特里娜·布莱尔的遗产。",
+    "why_irrelevant": "这是一个地方性节日致敬，远离典型科技或新闻资讯。"
    }
   },
-  "topic": "competitive hedge trimming contests"
+  "topic": "competitive mushroom foraging championships"
  },
- "brief": "Today's headlines focus on Trump's Venezuela oil deal, the Nepal-Tibet flood disaster with rising casualties, and ongoing geopolitical tensions. Meanwhile, research highlights advances in immersive visualization and human-computer interaction, from 3D reconstruction to emotional speech synthesis.",
+ "brief": "Today's news is dominated by catastrophic flooding in Nepal and Tibet, with thousands missing and a massive humanitarian crisis unfolding, alongside Meta's record $17.1 billion settlement and political tensions in the Middle East and US midterms. In research, papers focus on AI ethics, immersive visualization, and human-computer interaction.",
  "meta": {
-  "generated_at": "2026-08-29T02:48:07Z"
+  "generated_at": "2026-08-29T11:03:03Z"
  },
- "news_summary": "Trump announced a deal to control 65bn barrels of Venezuela's oil, while the Nepal-Tibet flash flood's missing count rises to 2,478, prompting international rescue efforts. Other news includes Somali piracy surge, Yosemite land swap controversy, and Dolly Parton's book charity.",
- "papers_summary": "Research covers diverse HCI topics: immersive network layouts, silent speech recognition via EMG, emotional text-to-speech for XR, and documentation review processes. Also, studies on dataset poisoning in behavioral cloning and 3D reconstruction for lab visualization.",
+ "news_summary": "The devastating floods in Nepal and Tibet have left thousands missing and triggered a major recovery effort, while Meta reached a historic $17.1 billion settlement with US states. Meanwhile, the Israel-Turkey rivalry and US midterm campaigns are heating up.",
+ "papers_summary": "Recent papers explore topics from dataset poisoning in AI to immersive 3D reconstruction and silent speech recognition, highlighting advances and ethical concerns in human-computer interaction.",
  "summaries": {
   "en": {
-   "brief": "Today's headlines focus on Trump's Venezuela oil deal, the Nepal-Tibet flood disaster with rising casualties, and ongoing geopolitical tensions. Meanwhile, research highlights advances in immersive visualization and human-computer interaction, from 3D reconstruction to emotional speech synthesis.",
-   "news_summary": "Trump announced a deal to control 65bn barrels of Venezuela's oil, while the Nepal-Tibet flash flood's missing count rises to 2,478, prompting international rescue efforts. Other news includes Somali piracy surge, Yosemite land swap controversy, and Dolly Parton's book charity.",
-   "papers_summary": "Research covers diverse HCI topics: immersive network layouts, silent speech recognition via EMG, emotional text-to-speech for XR, and documentation review processes. Also, studies on dataset poisoning in behavioral cloning and 3D reconstruction for lab visualization."
+   "brief": "Today's news is dominated by catastrophic flooding in Nepal and Tibet, with thousands missing and a massive humanitarian crisis unfolding, alongside Meta's record $17.1 billion settlement and political tensions in the Middle East and US midterms. In research, papers focus on AI ethics, immersive visualization, and human-computer interaction.",
+   "news_summary": "The devastating floods in Nepal and Tibet have left thousands missing and triggered a major recovery effort, while Meta reached a historic $17.1 billion settlement with US states. Meanwhile, the Israel-Turkey rivalry and US midterm campaigns are heating up.",
+   "papers_summary": "Recent papers explore topics from dataset poisoning in AI to immersive 3D reconstruction and silent speech recognition, highlighting advances and ethical concerns in human-computer interaction."
   },
   "zh": {
-   "brief": "今日焦点：中尼边境山洪泥石流致数千人伤亡失踪，总理李强赴前线；特朗普签署行政命令将安大略湖更名，并与委内瑞拉达成石油协议；研究聚焦3D重建、情感语音合成等。",
-   "news_summary": "中尼边境山洪泥石流造成重大伤亡，引发高层关注；特朗普签署将安大略湖更名，并与委内瑞拉达成石油协议，同时美加贸易谈判破裂。",
-   "papers_summary": "研究论文主要涉及行为克隆数据投毒攻击、实验室物体3D重建、沉浸式网络布局，以及情感语音合成和可拉伸互连技术。"
+   "brief": "尼泊尔—西藏泥石流灾害持续引发关注，死亡和失踪人数攀升，救援与重建面临巨大挑战；与此同时，国际新闻聚焦于Meta巨额和解、乌克兰冲突等多重议题。",
+   "news_summary": "尼泊尔—西藏泥石流已造成逾2000人遇难或失联，中国总理赴前线指挥救灾，凸显灾情严峻。国际方面，Meta同意支付171亿美元和解诉讼，乌克兰首都基辅遭袭击致至少27人死亡。",
+   "papers_summary": "近期研究关注沉浸式可视化、静默语音识别等前沿人机交互技术，同时探讨概念瓶颈模型在决策支持中的有效性，以及软件文档审查的过程与挑战。"
   }
  },
  "todays_image": {
-  "caption": "Just as the Apollo 8 rescue net caught a returning spacecraft, Trump's \"historic\" deal aims to snare Venezuela's vast oil reserves in a geopolitical net.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19700321000_PS01",
-  "source_name": "National Air and Space Museum",
-  "source_url": "http://n2t.net/ark:/65665/nv9bc553881-ab8d-4b7e-a89f-6c034d1ebc0f",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19700321000_PS01",
-  "title": "Rescue Net, Apollo 8"
+  "caption": "A lifeboat is an invention for rescue at sea, much like Meta’s $17.1 billion settlement is a financial lifeboat bailing out its social media ship.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-2009-5587",
+  "source_name": "National Museum of American History",
+  "source_url": null,
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-2009-5587&max=150",
+  "title": "Patent Model, Life Boat"
  }
 }

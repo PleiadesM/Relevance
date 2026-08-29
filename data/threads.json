@@ -1,217 +1,194 @@
 {
  "meta": {
-  "count": 3,
-  "generated_at": "2026-08-29T02:48:07Z",
+  "count": 4,
+  "generated_at": "2026-08-29T11:03:03Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "ace7ffeb9ea436d0",
+     "item_id": "f520cb792c2bf26f",
      "phrase": {
-      "en": "US-Venezuela oil deal announced",
-      "zh": "美委石油协议公布"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "b01c88e8759e5050",
-     "phrase": {
-      "en": "Trump touts Venezuela reserve access",
-      "zh": "特朗普宣扬获取委储量"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/28/nx-s1-5948229/trump-says-u-s-has-entered-deal-with-venezuela-to-take-control-of-65-billion-barrels-of-oil-reserves"
-    },
-    {
-     "item_id": "50719ade554385e0",
-     "phrase": {
-      "en": "Strait of Hormuz stockpiles dwindle",
-      "zh": "霍尔木兹库存缩减"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/28/business/energy-environment/oil-storage-iran-war.html"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Oil reserves shift hands as war and deals reshape energy maps.",
-    "zh": "战争与交易重塑能源版图，石油储备易主。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "oil geopolitics",
-    "zh": "石油地缘政治"
-   },
-   "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-02",
-     "label": {
-      "en": "US-Iran war starts",
-      "zh": "美伊战争爆发"
-     }
-    },
-    {
-     "date": "2026-06-15",
-     "label": {
-      "en": "oil tankers targeted",
-      "zh": "油轮遭袭"
-     }
-    },
-    {
-     "date": "2026-08-28",
-     "item_id": "50719ade554385e0",
-     "label": {
-      "en": "reserves drained to 22M",
-      "zh": "储备降至2200万桶"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/28/business/energy-environment/oil-storage-iran-war.html"
-    },
-    {
-     "date": "2026-08-29",
-     "item_id": "ace7ffeb9ea436d0",
-     "label": {
-      "en": "Venezuela deal signed",
-      "zh": "签署委内瑞拉协议"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss"
-    }
-   ],
-   "why_now": {
-    "en": "You track geopolitics and tech: new Venezuela deal and Hormuz stockpile draw new lines.",
-    "zh": "你关注地缘政治与科技，委内瑞拉协议与霍尔木兹库存划出新界线。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "eb703d2b45278b40",
-     "phrase": {
-      "en": "Yiannopoulos detained by ICE",
-      "zh": "扬诺普洛斯被ICE拘留"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cj06jgq62v9o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "50a710b7ccf82b24",
-     "phrase": {
-      "en": "NYT details arrest and mug shot",
-      "zh": "纽时详述被捕与嫌犯照"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/28/us/politics/milo-yiannopoulos-arrested-ice.html"
-    },
-    {
-     "item_id": "06cadd181fa5250f",
-     "phrase": {
-      "en": "Guardian notes far-right figure",
-      "zh": "卫报提及极右人物"
+      "en": "reports sharp rise in AI escape",
+      "zh": "报道AI失控事件激增"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/aug/28/milo-yiannopoulos-detained-ice"
+     "url": "https://www.theguardian.com/technology/2026/aug/29/sharp-rise-in-incidents-of-ai-escaping-users-control-research-finds"
+    },
+    {
+     "item_id": "77c0c24c983385db",
+     "phrase": {
+      "en": "shows poisoning attacks on policies",
+      "zh": "展示策略投毒攻击"
+     },
+     "section": "papers",
+     "source": "OpenAlex · information visualization",
+     "url": "https://doi.org/10.1007/978-3-032-33701-6_16"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "A provocateur's arrest sparks debate on who gets detained.",
-    "zh": "挑衅者被捕引发关于谁被拘留的争论。"
+    "en": "AI systems increasingly lie, ignore instructions, and pursue harmful goals.",
+    "zh": "AI系统越来越常撒谎、违抗指令、追求有害目标。"
    },
-   "id": "t2",
+   "id": "t1",
    "keyword": {
-    "en": "immigration enforcement",
-    "zh": "移民执法"
+    "en": "AI safety incidents",
+    "zh": "AI安全事件"
    },
    "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-08-28",
-     "item_id": "50a710b7ccf82b24",
-     "label": {
-      "en": "arrest at airport",
-      "zh": "机场被捕"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/28/us/politics/milo-yiannopoulos-arrested-ice.html"
-    },
-    {
-     "date": "2026-08-29",
-     "item_id": "eb703d2b45278b40",
-     "label": {
-      "en": "detention confirmed",
-      "zh": "拘留确认"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cj06jgq62v9o?at_medium=RSS&at_campaign=rss"
-    }
-   ],
    "why_now": {
-    "en": "You care about rhetoric and policy: the Milo case tests loyalty and law.",
-    "zh": "你关注修辞与政策，米洛案考验忠诚与法律。"
+    "en": "You track AI alignment: a new study shows incidents nearly doubled in July.",
+    "zh": "你关注AI对齐，新研究显示七月事件近翻倍。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "772ea16d91ab4f11",
+     "item_id": "afe0b2cc7749cba8",
      "phrase": {
-      "en": "StemDeck local AI separator",
-      "zh": "本地AI分离器"
+      "en": "exposes hydropower risks in Nepal",
+      "zh": "揭露尼泊尔水电风险"
      },
      "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://github.com/stemdeckapp/stemdeck"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/29/business/nepal-hydropower-flood.html"
     },
     {
-     "item_id": "67e9fc94154fc1ed",
+     "item_id": "daa9d58ac945f5ca",
      "phrase": {
-      "en": "bug rumors enable exploits",
-      "zh": "漏洞传闻助长利用"
+      "en": "lists missing Australians in floods",
+      "zh": "列出洪水失踪澳人"
      },
      "section": "news",
-     "source": "Simon Willison",
-     "url": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/australia-news/2026/aug/29/what-we-know-about-the-australians-missing-in-the-nepal-floods"
     },
     {
-     "item_id": "07e7e04269b60276",
+     "item_id": "72d5877c53ac8189",
      "phrase": {
-      "en": "LLM memory used for analysis",
-      "zh": "LLM记忆用于分析"
+      "en": "describes immense devastation and missing count",
+      "zh": "描述巨灾与失踪人数"
      },
      "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://pwning.systems/posts/llm-memory-program-analysis/"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/29/world/asia/nepal-flood-rescue.html"
+    },
+    {
+     "item_id": "f219dcfc3c6adbe9",
+     "phrase": {
+      "en": "reports missing climb, death toll rises",
+      "zh": "失踪攀升，死亡上升"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/aug/29/nepal-tibet-floods-latest-updates-death-toll-missing-search-and-rescue"
+    },
+    {
+     "item_id": "8755c61a4eb1c1f0",
+     "phrase": {
+      "en": "Chinese rescuers find ruins",
+      "zh": "中国救援者发现废墟"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/29/nepal-tibet-chinese-rescue-team-finds-nothing-but-ruins-after-reaching-border-crossing-hit-by-deadly-flood"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Catastrophic floods bury border regions, thousands missing, rebuilding costs billions.",
+    "zh": "灾难性洪水淹没边境地区，数千人失踪，重建成本数十亿。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "Nepal floods crisis",
+    "zh": "尼泊尔洪灾危机"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track global crises via visual guides: today's reports reveal mounting toll and international rescue efforts.",
+    "zh": "你通过视觉指南关注全球危机，今日报道显示伤亡攀升与国际救援。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "fec74c54f9e1d0ed",
+     "phrase": {
+      "en": "Exeter approves Saudi military training deal",
+      "zh": "埃克塞特批准沙特军事培训"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/education/2026/aug/29/exeter-university-approves-deal-with-saudi-arabia-to-train-military-officers-and-officials"
+    },
+    {
+     "item_id": "8f5cfc6e246db050",
+     "phrase": {
+      "en": "court rules Trump targeted students unlawfully",
+      "zh": "法院裁定特朗普非法针对学生"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/28/us/politics/trump-stanford-students-deport-constitution.html"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Open-source tools and hidden vulnerabilities shape AI's trust.",
-    "zh": "开源工具与隐藏漏洞塑造AI信任。"
+    "en": "Governments reshape tech: from university deals to court rulings, the landscape moves.",
+    "zh": "政府重塑科技：从大学合作到法院裁决，格局在变。"
    },
    "id": "t3",
    "keyword": {
-    "en": "AI transparency",
-    "zh": "AI透明度"
+    "en": "tech policy shifts",
+    "zh": "科技政策转向"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow LLM security: new exploits and separators change the game.",
-    "zh": "你关注LLM安全，新漏洞与分离器改变格局。"
+    "en": "You follow tech policy and academia: today's Exeter-Saudi deal and Stanford ruling affect research ethics and free speech.",
+    "zh": "你关注科技政策与学术界，今日埃克塞特-沙特协议和斯坦福裁决影响研究伦理与言论自由。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "afe0b2cc7749cba8",
+     "phrase": {
+      "en": "highlights hydropower's catastrophic risk",
+      "zh": "强调水电灾难风险"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/29/business/nepal-hydropower-flood.html"
+    },
+    {
+     "item_id": "9ff7a91e6cb11c18",
+     "phrase": {
+      "en": "plug-in solar saves money, if legal",
+      "zh": "即插式太阳能省钱，若合法"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/environment/2026/aug/29/plug-in-solar-panels-could-save-households-370-a-year-and-experts-say-australia-should-copy-the-uk-in-legalising-them"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Green bets face reality checks: Nepal's floods expose hydropower fragility, while solar kits await legalization.",
+    "zh": "绿色赌注面临现实检验：尼泊尔洪水暴露水电脆弱，太阳能套件待合法化。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "renewable energy risks",
+    "zh": "可再生能源风险"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about sustainability and infrastructure: today's stories compare risk and promise in renewables.",
+    "zh": "你关注可持续性与基础设施，今日报道比较可再生能源的风险与前景。"
    }
   }
  ]
