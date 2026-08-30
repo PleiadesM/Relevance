@@ -1,0 +1,205 @@
+{
+ "meta": {
+  "count": 4,
+  "generated_at": "2026-08-30T13:49:03Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "5f0cf23735430ee9",
+     "phrase": {
+      "en": "spreading online, easy to create",
+      "zh": "网上蔓延，易制作"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/30/nx-s1-5943190/jimmy-kimmel-deepfake-jon-stewart-abc-ai"
+    },
+    {
+     "item_id": "2a99aa2ee792d235",
+     "phrase": {
+      "en": "manipulation intent detection",
+      "zh": "操纵意图检测"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.24535v1"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Videos of late-night hosts are digitally faked, blurring trust.",
+    "zh": "深夜节目主持人视频被伪造，信任边界模糊。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI deepfakes",
+    "zh": "AI深度伪造"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You study visual rhetoric: a NPR piece today shows AI-created clips of Kimmel are proliferating, a case in point for manipulation.",
+    "zh": "你研究视觉修辞：今日NPR报道AI伪造Kimmel片段泛滥，正是操纵实例。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "6fa462d1a49a841b",
+     "phrase": {
+      "en": "drones testing aid delivery",
+      "zh": "无人机测试运送援助"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/30/world/asia/nepal-floods-aid-drone.html"
+    },
+    {
+     "item_id": "97e291c1f44541fa",
+     "phrase": {
+      "en": "fresh flooding warnings issued",
+      "zh": "发布新洪水警告"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/30/nx-s1-5949239/nepal-warns-fresh-flooding"
+    },
+    {
+     "item_id": "664abf94c3f45f74",
+     "phrase": {
+      "en": "pilgrims trek despite flood",
+      "zh": "朝圣者不顾洪水跋涉"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/30/us/nepal-floods-religious-tour.html"
+    },
+    {
+     "item_id": "41ee3c8d62ae887c",
+     "phrase": {
+      "en": "foreigners missing in Tibet",
+      "zh": "外国人在西藏失踪"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/30/world/asia/tibet-nepal-flood-death-toll-china.html"
+    },
+    {
+     "item_id": "6e739ce807e0d18e",
+     "phrase": {
+      "en": "family seeks missing woman",
+      "zh": "家属寻失踪女子"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/30/renee-gyirong-port-flood-nepal-family-australia-help-search"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Devastating floods isolate communities; rescue efforts adapt with drones and warnings.",
+    "zh": "毁灭性洪水隔离社区；救援用无人机并发出警告。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "Nepal floods",
+    "zh": "尼泊尔洪水"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow embodied AI: drone aid trials in Nepal (item 1) show how technology embeds in crisis response.",
+    "zh": "你关注具身AI：尼泊尔无人机救援试验体现技术嵌入危机应对。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "188ead9d4eb991a2",
+     "phrase": {
+      "en": "successful launch aims to identify planets",
+      "zh": "成功发射，识别行星"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/30/nx-s1-5948814/launch-nancy-grace-roman-space-telescope-nasa"
+    },
+    {
+     "item_id": "07fa4d7dc36c5b65",
+     "phrase": {
+      "en": "wide deep gaze to study dark universe",
+      "zh": "宽阔深空研究暗宇宙"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/30/science/spacex-roman-telescope-launch.html"
+    },
+    {
+     "item_id": "b1494757396a5961",
+     "phrase": {
+      "en": "breakthrough in cosmic exploration",
+      "zh": "宇宙探索突破"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/28/science/nasa-nancy-grace-roman-space-telescope.html"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Roman telescope launches to explore dark universe and exoplanets.",
+    "zh": "罗曼望远镜发射探索暗宇宙和系外行星。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "NASA telescope",
+    "zh": "NASA望远镜"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You appreciate data visualization: Roman's wide-field surveys will generate massive datasets needing new visual tools.",
+    "zh": "你重视数据可视化：罗曼巡天产生巨量数据，需新可视化工具。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "880adbed14b065fe",
+     "phrase": {
+      "en": "chatbots debunk falsehoods well",
+      "zh": "聊天机器人揭穿效果好"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/30/nx-s1-5876436/chatbots-search-propaganda"
+    },
+    {
+     "item_id": "8a02bcb0fd018715",
+     "phrase": {
+      "en": "plain wrong AI legal advice",
+      "zh": "完全错误的AI法律建议"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://www.abc.net.au/news/2026-08-29/fair-work-commission-condemns-ai-legal-advice/107089766"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Chatbots guard against propaganda better than search engines in tests.",
+    "zh": "测试中聊天机器人比搜索引擎更能抵御宣传。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "AI chatbots misinformation",
+    "zh": "AI聊天机器人误导"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about AI and rhetoric: NPR's test shows LLMs debunking foreign falsehoods, expanding your sense of their epistemic role.",
+    "zh": "你关心AI与修辞：NPR测试显示LLM揭穿外国谎言，拓宽认知角色。"
+   }
+  }
+ ]
+}
