@@ -1,48 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
-  "source": {
-   "name": "journal-news.com",
-   "published_at": "2026-08-27T22:00:00Z",
-   "title": "Fall festivals guide : Find something to do throughout the  ber months in southwest Ohio | More Communities",
-   "url": "https://www.journal-news.com/community/fall-festivals-guide-find-something-to-do-throughout-the-ber-months-in-southwest-ohio/article_897ced8d-a7e2-5ab4-ac9d-39b51cbdb768.html"
-  },
-  "summaries": {
-   "en": {
-    "summary": "A guide to autumn festivals in southwest Ohio suggests local activities for the 'ber' months.",
-    "why_irrelevant": "It is a regional events list, far from global art news."
-   },
-   "zh": {
-    "summary": "一份关于俄亥俄州西南部秋季节庆的指南，建议在“ber”月份参加当地活动。",
-    "why_irrelevant": "这是地区活动列表，远离全球艺术新闻。"
-   }
-  },
-  "topic": "competitive pumpkin growing"
- },
- "brief": "Today's news spans from human rights concerns in U.S. deportation practices to a devastating flood in Nepal-Tibet, with political and technological developments also making headlines. Papers focus on immersive tech, silent speech recognition, and software documentation.",
+ "brief": "Today's news spans tragic disasters from ferry capsizing in Cyprus to floods in Nepal and China, alongside political tensions and notable sports retirements. In research, advances in immersive technologies and human-computer interaction take center stage.",
  "meta": {
-  "generated_at": "2026-08-30T18:03:14Z"
+  "generated_at": "2026-08-30T21:01:53Z"
  },
- "news_summary": "Major stories include harrowing accounts of ICE treatment from deportees, a ferry disaster in Northern Cyprus, and a deadly shooting at a Swiss rave. The Nepal-Tibet flood disaster dominates with rising casualties and missing foreigners, while political news covers Trump's FCC threat and Iceland's EU vote.",
- "papers_summary": "Research highlights include 3D reconstruction for lab holograms, immersive egocentric networks, and a soft EMG interface for silent speech recognition. Also covered are emotional TTS for XR and documentation review challenges.",
+ "news_summary": "The news features disasters including a ferry capsizing off Cyprus and deadly floods in Nepal and Tibet causing many deaths and missing persons, alongside political stories like Trump's threats against a journalist and Canada-US lake naming spat, plus sports news of Aaron Donald's return and Tony Mundine's death.",
+ "papers_summary": "Research highlights include improvements in 3D reconstruction for holographic displays, design of immersive egocentric network visualizations, and developments in silent speech recognition and emotional TTS systems for XR.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans from human rights concerns in U.S. deportation practices to a devastating flood in Nepal-Tibet, with political and technological developments also making headlines. Papers focus on immersive tech, silent speech recognition, and software documentation.",
-   "news_summary": "Major stories include harrowing accounts of ICE treatment from deportees, a ferry disaster in Northern Cyprus, and a deadly shooting at a Swiss rave. The Nepal-Tibet flood disaster dominates with rising casualties and missing foreigners, while political news covers Trump's FCC threat and Iceland's EU vote.",
-   "papers_summary": "Research highlights include 3D reconstruction for lab holograms, immersive egocentric networks, and a soft EMG interface for silent speech recognition. Also covered are emotional TTS for XR and documentation review challenges."
+   "brief": "Today's news spans tragic disasters from ferry capsizing in Cyprus to floods in Nepal and China, alongside political tensions and notable sports retirements. In research, advances in immersive technologies and human-computer interaction take center stage.",
+   "news_summary": "The news features disasters including a ferry capsizing off Cyprus and deadly floods in Nepal and Tibet causing many deaths and missing persons, alongside political stories like Trump's threats against a journalist and Canada-US lake naming spat, plus sports news of Aaron Donald's return and Tony Mundine's death.",
+   "papers_summary": "Research highlights include improvements in 3D reconstruction for holographic displays, design of immersive egocentric network visualizations, and developments in silent speech recognition and emotional TTS systems for XR."
   },
   "zh": {
-   "brief": "今日焦点集中在尼泊尔-西藏洪灾的严重灾情，中国官方信息透明度受关注，同时其他国际新闻和科技研究亦有进展。",
-   "news_summary": "尼泊尔-西藏洪灾造成重大伤亡，中国对灾情信息管控严格，外媒报道卫星图像揭示尼泊尔侧灾情严重。其他新闻包括澳洲乌贼交配数量骤减、Dolly Parton的图书捐赠计划等。",
-   "papers_summary": "今日无优先中文论文，英文论文主要涉及人机交互领域，包括3D重建、沉浸式可视化、无声语音识别等技术研究。"
+   "brief": "今日焦點集中在尼泊爾與西藏的洪災與泥石流災難，死亡與失蹤人數攀升，而官方媒體畫面審查引發關注；同時，美國與加拿大的命名爭端、NASA新望遠鏡發射等國際新聞亦受矚目。研究方面，多篇論文探討沉浸式技術、人機互動與文件撰寫的創新方法。",
+   "news_summary": "尼泊爾與西藏的洪災造成數百人死亡，數千人失蹤，英國公民亦有失蹤，中國官方媒體審查災情畫面引發質疑。此外，澳洲烏賊交配活動銳減、Dolly Parton的圖書計畫等故事亦受關注。",
+   "papers_summary": "多篇arXiv論文聚焦於沉浸式視覺化、3D重建、情感語音合成等技術，並探討文件審查、遊戲社群及可伸展介面等主題，展現人機互動領域的多元進展。"
   }
  },
  "todays_image": {
-  "caption": "Like the 1927 floodwaters that swept away thousands of lives, ICE’s deportation machinery now violently washes people out of the country, leaving behind harrowing tales of displacement.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2011_13_1_001",
-  "source_name": "National Museum of African American History and Culture",
-  "source_url": "https://nmaahc.si.edu/object/nmaahc_2011.13.1",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2011_13_1_001",
-  "title": "Gelatin silver print of four 1927 Mississippi River flood images"
+  "caption": "The hawk's-beard's barbed, wind-scattered seeds mirror the deportees' forced uprooting and harsh exile across the ocean.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3c5c5adab287f44a982fdf56d3d735b3f",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3de345da3-b2e9-49c1-b88d-5a03d8a3c7a6",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3c5c5adab287f44a982fdf56d3d735b3f/90",
+  "title": "Crepis barbigera Leiberg"
  }
 }
