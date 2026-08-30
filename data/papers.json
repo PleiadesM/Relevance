@@ -2,365 +2,113 @@
  "items": [
   {
    "authors": [
-    "Brian De La Cruz",
-    "Aaron Y. Zhao",
-    "Maitrey Gramopadhye",
-    "Sawyer J. Lazar",
-    "Xianming Tan",
-    "Daniel Szafir"
+    "J. Keppel",
+    "Roman Heger",
+    "Robert Eustergerling",
+    "Marius Knubel",
+    "Erik Karger",
+    "Donald Degraen"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "In this study, we examined whether current 3D reconstruction methods can support the creation of realistic holographic representations of laboratory objects for educational use. In this regard, we compared four approaches: photogrammetry, a neural radiance field (NeRF)-based method, Gaussian splatting, and LiDAR. These methods were used to generate holographic models of common laboratory items and their fidelity was evaluated by graduate students. Participants assessed the models for shape,…",
-    "arxiv_id": "2608.27301"
+    "abstract_snippet": "Indoor cycling classes promote group exercise through an engaging gym instructor, combined with energizing music. To monitor training intensity and improve cyclists’ motivation, we enhanced mechanical bikes with sensor technology to enable future gamification in cycling classes. Our extensible, open-source system captures real-time heart rate, cadence, and braking resistance data, enabling interactive training environments synchronized with music. The system provides a flexible research toolkit…",
+    "arxiv_id": null,
+    "citations": 0,
+    "doi": "10.1145/3820253.3820265"
    },
-   "id": "5d763d7391a54930",
+   "id": "a2fa8fb7c185c4cc",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-27T16:05:33Z",
-   "score": 0.44,
+   "published_at": "2026-08-29T00:00:00Z",
+   "score": 0.6196,
    "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "In this study, we examined whether current 3D reconstruction methods can support the creation of realistic holographic representations of laboratory objects for educational use. In this regard, we compared four approaches: photogrammetry, a neural radiance field (NeRF)-based method, Gaussian…",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "Indoor cycling classes promote group exercise through an engaging gym instructor, combined with energizing music. To monitor training intensity and improve cyclists’ motivation, we enhanced mechanical bikes with sensor technology to enable future gamification in cycling classes. Our extensible,…",
    "tags": [
     "eval-study",
-    "ml-vis",
+    "systems",
     "visualization"
    ],
-   "title": "Comparative Evaluation of 3D Reconstruction Methods for Immersive Visualization of Laboratory Objects",
-   "url": "https://arxiv.org/abs/2608.27301v1",
-   "venue": "arXiv cs.GR"
+   "title": "Design and Evaluation of a Research Toolkit for Real-Time Data Visualization in Group Cycling Classes",
+   "url": "https://www.semanticscholar.org/paper/2e54f0237ed2e399cc4335bca3c1b7ad6e40b963",
+   "venue": "Proceedings of Mensch und Computer 2026"
   },
   {
    "authors": [
-    "Kentaro Takahira",
-    "Takanori Fujiwara",
-    "Wong Kam-Kwai",
-    "Kento Shigyo",
-    "Leni Yang",
-    "Hiroaki Natsukawa"
+    "D. Nogueira",
+    "Célia Azevedo Soares"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "This paper explores design considerations for egocentric network layouts in immersive environments, providing fresh empirical insights that enhance egocentric network analysis. An egocentric network focuses on the topological and semantic relationships around a focal node (ego) and its neighboring nodes (alters), targeting local sub-networks rather than the whole network. Traditional desktop environments, limited by display constraints, often face visual clutter as node numbers grow. Building…",
-    "arxiv_id": "2608.27194"
+    "abstract_snippet": "",
+    "arxiv_id": null,
+    "citations": 0,
+    "doi": "10.1007/s13187-026-02973-3"
    },
-   "id": "670fb552df5e1f30",
+   "id": "7652ed15cd1dbd6d",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-27T14:38:43Z",
-   "score": 0.4359,
+   "published_at": "2026-08-27T00:00:00Z",
+   "score": 0.4055,
    "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "This paper explores design considerations for egocentric network layouts in immersive environments, providing fresh empirical insights that enhance egocentric network analysis. An egocentric network focuses on the topological and semantic relationships around a focal node (ego) and its neighboring…",
-   "tags": [
-    "eval-study",
-    "visualization"
-   ],
-   "title": "Surrounded by Friends: Design and Evaluation of Immersive Layouts of Egocentric Network for Visual Analytics",
-   "url": "https://arxiv.org/abs/2608.27194v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Yuta Kurotaki",
-    "Shusuke Yamakoshi",
-    "Reitaro Yoshida",
-    "Yutaka Isoda",
-    "Tamami Takano",
-    "Yuji Isano"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Silent speech recognition (SSR) provides an alternative communication pathway in the absence of audible speech. However, conventional approaches are limited by the need for constant facial attachment, privacy concerns, and unstable signal acquisition. Here, we propose a soft, active electromyography (EMG) interface that enables word-level SSR using machine learning. Worn on the hand, the device uses a fingertip electrode that can be positioned near the lips to acquire EMG signals only when…",
-    "arxiv_id": "2608.27048"
-   },
-   "id": "2ebae9264840a785",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-27T12:36:09Z",
-   "score": 0.3903,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Silent speech recognition (SSR) provides an alternative communication pathway in the absence of audible speech. However, conventional approaches are limited by the need for constant facial attachment, privacy concerns, and unstable signal acquisition. Here, we propose a soft, active…",
-   "tags": [
-    "ai-writing"
-   ],
-   "title": "Soft Active Electromyography Interface for Machine Learning-Enabled Silent Speech Recognition",
-   "url": "https://arxiv.org/abs/2608.27048v1",
-   "venue": "arXiv cs.LG"
-  },
-  {
-   "authors": [
-    "Sikiru Ademola Adewale",
-    "Sunday D. Ubur",
-    "Nikitha Donekal Chandrashekar",
-    "Onyeka Emebo",
-    "Denis Gračanin"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "While contemporary neural text-to-speech (TTS) systems have achieved high levels of intelligibility, they frequently lack the emotional nuance required for authentic affective communication. This limitation is particularly critical in Extended Reality (XR), where the absence of emotionally expressive audio can diminish user presence and spatial immersion. We present EmoSay, an Artificial Intelligence-driven Text-to-Emotional-Speech (TTES) system designed to bridge the semantic-affective gap in…",
-    "arxiv_id": "2608.26566"
-   },
-   "id": "ec891e25003917b7",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-27T03:17:55Z",
-   "score": 0.3661,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "While contemporary neural text-to-speech (TTS) systems have achieved high levels of intelligibility, they frequently lack the emotional nuance required for authentic affective communication. This limitation is particularly critical in Extended Reality (XR), where the absence of emotionally…",
-   "tags": [],
-   "title": "EmoSay: Artificial Intelligence-Driven Text-to-Emotional-Speech System for Affective Communication in Extended Reality",
-   "url": "https://arxiv.org/abs/2608.26566v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Avinash Bhat",
-    "Ian Arawjo",
-    "Disha Shrivastava",
-    "Jin L. C. Guo"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Organizations assign documentation work to technical writers, yet the knowledge required to produce it is distributed across developers, managers, and other practitioners. Prior work has established quality criteria for judging \"good\" documentation, but it has not examined how practitioners bring that expertise to improve documentation quality or the challenges they face in doing so. Through semi-structured interviews with experienced technical writers ($n=31$) from different organizations, our…",
-    "arxiv_id": "2608.26232"
-   },
-   "id": "941026c8cf7e49b2",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-26T17:28:36Z",
-   "score": 0.3434,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Organizations assign documentation work to technical writers, yet the knowledge required to produce it is distributed across developers, managers, and other practitioners. Prior work has established quality criteria for judging \"good\" documentation, but it has not examined how practitioners bring…",
-   "tags": [
-    "techcomm"
-   ],
-   "title": "\"A Second Set of Eyes\": The Process and Challenges of Software Documentation Review",
-   "url": "https://arxiv.org/abs/2608.26232v1",
-   "venue": "arXiv cs.SE"
-  },
-  {
-   "authors": [
-    "Elena Koung",
-    "Xinning Gui",
-    "Yubo Kou"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Discord is one of the most popular communication platforms among gamers. While prior research has highlighted its role in community building, relatively little attention has been paid to its original gaming context-how it shapes gameplay and social experiences. To address this gap, we conducted semi-structured interviews with 16 teenage Discord users. Through reflexive thematic analysis, we show how players leverage Discord to create more collaborative and socially enriched experiences that…",
-    "arxiv_id": "2608.25942"
-   },
-   "id": "9616c81853a08bd7",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-26T16:00:01Z",
-   "score": 0.5327,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Discord is one of the most popular communication platforms among gamers. While prior research has highlighted its role in community building, relatively little attention has been paid to its original gaming context-how it shapes gameplay and social experiences. To address this gap, we conducted…",
-   "tags": [
-    "ai-writing"
-   ],
-   "title": "Gaming Together on Discord: Teen Gamer's Cross-Platform Practices",
-   "url": "https://arxiv.org/abs/2608.25942v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Yuji Isano",
-    "Hiroki Ota"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Stretchable hybrid electronics integrate rigid solid-state electronics with stretchable materials and structures to achieve both high deformability and stable electronic performance. However, most existing systems treat stretchability only as a mechanical attribute without exploiting device deformation to encode its own mechanical state. This problem arises from adapting conventional rigid circuit architectures to stretchable substrates, affording a loss in compatibility with the sensors…",
-    "arxiv_id": "2608.25801"
-   },
-   "id": "40eaa0f5eef60a22",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-26T13:50:47Z",
-   "score": 0.3356,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Stretchable hybrid electronics integrate rigid solid-state electronics with stretchable materials and structures to achieve both high deformability and stable electronic performance. However, most existing systems treat stretchability only as a mechanical attribute without exploiting device…",
-   "tags": [],
-   "title": "Simultaneous Digital Communication and Deformation Sensing over a Single Stretchable Interconnect",
-   "url": "https://arxiv.org/abs/2608.25801v1",
-   "venue": "arXiv cs.ET"
-  },
-  {
-   "authors": [
-    "Alessandro Bogani",
-    "Nicola Debole",
-    "Emanuele Marconato",
-    "Andrea Pugnana",
-    "Katya Tentori",
-    "Andrea Passerini"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Concept Bottleneck Models (CBMs) are interpretable-by-design neural networks that detect human-understandable concepts from the input and use them to generate predictions. By allowing users to inspect the concepts underlying a prediction and explore how predictions change under alternative concept configurations, CBMs have emerged as one of the most prominent approaches to supporting human-AI collaboration. However, user studies investigating their actual effectiveness as decision-support…",
-    "arxiv_id": "2608.25581"
-   },
-   "id": "c86167c6aa083387",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-26T09:42:44Z",
-   "score": 0.3272,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Concept Bottleneck Models (CBMs) are interpretable-by-design neural networks that detect human-understandable concepts from the input and use them to generate predictions. By allowing users to inspect the concepts underlying a prediction and explore how predictions change under alternative concept…",
-   "tags": [
-    "ux"
-   ],
-   "title": "Are Concept Bottleneck Models Effective as Decision-Support Systems?",
-   "url": "https://arxiv.org/abs/2608.25581v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Yuexin Sun",
-    "Zhaohui Wang",
-    "Ruiyang Liu",
-    "Demian Kong",
-    "Qian He",
-    "Gaofeng He"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Experience-driven manufacturing, such as garment pattern making, faces a severe generational skills gap because its core expertise relies on undocumented tacit knowledge forged through day-to-day practice. To address this challenge, we present TailorCoPilot, an agentic pattern-making system built upon a specially designed version-control backend TailorTrace. TailorTrace models sewing patterns as structured, discrete states and records their transformations during the pattern-making process as…",
-    "arxiv_id": "2608.25462"
-   },
-   "id": "bdb3d7fbab853678",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-26T07:29:16Z",
-   "score": 0.5153,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Experience-driven manufacturing, such as garment pattern making, faces a severe generational skills gap because its core expertise relies on undocumented tacit knowledge forged through day-to-day practice. To address this challenge, we present TailorCoPilot, an agentic pattern-making system built…",
-   "tags": [
-    "ai-writing"
-   ],
-   "title": "TailorCoPilot: Enabling Agentic Pattern Making with Version-Controlled State Tracking",
-   "url": "https://arxiv.org/abs/2608.25462v2",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Arun-Balajiee Lekshmi-Narayanan",
-    "Mohammad Hassany",
-    "Kamil Akhuseyinoglu",
-    "Rully Hendrawan",
-    "Peter Brusilovsky"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Worked examples are a important part of introductory programming, but reading their expert explanations is passive. Self explanation, students explaining the problem and its solution to themselves with subgoal level analysis, turns that study into an active task, yet it is hard to scale because assessing free-text explanations and returning timely feedback has had no easy automated solution. We investigate whether a large language model (LLM) can fill that gap. We build a self-explanation tutor…",
-    "arxiv_id": "2608.25180"
-   },
-   "id": "89eb708837cf0f58",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-25T21:54:47Z",
-   "score": 0.4978,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Worked examples are a important part of introductory programming, but reading their expert explanations is passive. Self explanation, students explaining the problem and its solution to themselves with subgoal level analysis, turns that study into an active task, yet it is hard to scale because…",
-   "tags": [
-    "pedagogy",
-    "ai-writing"
-   ],
-   "title": "Self-Explanation Tutor for Active Study of CS1 Worked Examples",
-   "url": "https://arxiv.org/abs/2608.25180v1",
-   "venue": "arXiv cs.CY"
-  },
-  {
-   "authors": [
-    "Shadmaan Hye",
-    "Andrew M. McNutt",
-    "Katherine E. Isaacs"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Color discrimination is a fundamental aspect of visualization as it influences how people interpret visual encodings. Many visualization guidelines are informed by perceptual studies, yet relatively few have been replicated. Acknowledging that the interaction between human perception, visual tasks, and display technology can change over time, we replicate two crowdsourced color discrimination studies conducted 10 years earlier. Specifically, we replicated a visualization-focused color…",
-    "arxiv_id": "2608.24789"
-   },
-   "id": "b10e8ba91644310e",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-25T16:35:42Z",
-   "score": 0.3364,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Color discrimination is a fundamental aspect of visualization as it influences how people interpret visual encodings. Many visualization guidelines are informed by perceptual studies, yet relatively few have been replicated. Acknowledging that the interaction between human perception, visual tasks,…",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "",
    "tags": [
     "visualization"
    ],
-   "title": "Ten Years Later: Replicating Two Color Discrimination Studies",
-   "url": "https://arxiv.org/abs/2608.24789v1",
-   "venue": "arXiv cs.HC"
+   "title": "Preference Does Not Match Use: A Pilot Study of Data Visualization Format and Cancer Risk Comprehension Across Educational Levels.",
+   "url": "https://www.semanticscholar.org/paper/cb32268937db9ad9c3054e137de7cc5e72d83173",
+   "venue": "Journal of Cancer Education"
   },
   {
    "authors": [
-    "Xiaotian Zhang",
-    "Huayuan Ye",
-    "Haiyang Zhang",
-    "Chenhui Li",
-    "Changbo Wang",
-    "Sicheng Song"
+    "Yin-Yue Zhu",
+    "K. Bemis",
+    "Sai Srikanth Lakkimsetty",
+    "M. Li",
+    "L. Meyer",
+    "Andreas Weber-Steinhilber"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Data visualizations are widely used for communicating information, but they are also vulnerable to intentional manipulations that induce misleading interpretations. Existing methods focus on locating tampered regions or recovering hidden information, without explaining how the visualization has been manipulated or why the resulting changes may mislead viewers. We propose \\textbf{VizAnchor}, a framework for visualization manipulation understanding through dual-anchor evidence construction and…",
-    "arxiv_id": "2608.24535"
+    "abstract_snippet": "SUMMARY Mass spectrometry imaging (MSI) enables high-throughput spatial mapping of molecules, but the lack of chromatographic separation limits its utility for complex biological samples. Ion mobility (IM) provides key orthogonal separation. However, open-source tools dedicated for IM-MSI data analysis remain scarce and the integration of ion mobility information into downstream analysis is underexplored. Here, we present TIMSImaging, an open-source workflow for processing and visualization of…",
+    "arxiv_id": null,
+    "citations": 0,
+    "doi": "10.1093/bioinformatics/btag624"
    },
-   "id": "2a99aa2ee792d235",
+   "id": "1cc780d71cd7c39b",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-25T13:20:27Z",
-   "score": 0.6637,
+   "published_at": "2026-08-25T00:00:00Z",
+   "score": 0.2036,
    "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Data visualizations are widely used for communicating information, but they are also vulnerable to intentional manipulations that induce misleading interpretations. Existing methods focus on locating tampered regions or recovering hidden information, without explaining how the visualization has…",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "SUMMARY Mass spectrometry imaging (MSI) enables high-throughput spatial mapping of molecules, but the lack of chromatographic separation limits its utility for complex biological samples. Ion mobility (IM) provides key orthogonal separation. However, open-source tools dedicated for IM-MSI data…",
    "tags": [
     "visualization"
    ],
-   "title": "VizAnchor: Decoding Manipulation Intent from Tampering Visualizations via Dual-Anchor Reasoning",
-   "url": "https://arxiv.org/abs/2608.24535v1",
-   "venue": "arXiv cs.CV"
+   "title": "TIMSImaging: An open and interoperable workflow for trapped ion mobility mass spectrometry imaging data processing and visualization.",
+   "url": "https://www.semanticscholar.org/paper/4f9dcfa61ba3910805b28ea5b69c22bceab1d453",
+   "venue": "Bioinformatics"
   }
  ],
  "meta": {
-  "count": 12,
-  "generated_at": "2026-08-29T20:53:17Z",
+  "count": 3,
+  "generated_at": "2026-08-30T00:17:40Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
    {
     "category": "optional",
-    "count": 4,
-    "error": null,
+    "count": 0,
+    "error": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60 (Caus",
     "full_text_count": 0,
     "id": "arxiv_datavis",
     "name": "arXiv cs.HC + cs.GR",
-    "ok": true,
+    "ok": false,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
@@ -379,7 +127,7 @@
    },
    {
     "category": "optional",
-    "count": 0,
+    "count": 30,
     "error": null,
     "full_text_count": 0,
     "id": "s2_datavis",
@@ -392,7 +140,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-08-01&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-08-02&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
@@ -415,12 +163,12 @@
    },
    {
     "category": "optional",
-    "count": 8,
-    "error": null,
+    "count": 0,
+    "error": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC&sortBy=submittedDate&sortOrder=descending&max_results=40 (Caused by ReadTimeo",
     "full_text_count": 0,
     "id": "arxiv_hci_writing",
     "name": "arXiv cs.HC (writing & docs)",
-    "ok": true,
+    "ok": false,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"

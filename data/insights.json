@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
   "source": {
-   "name": "journal-news.com",
-   "published_at": "2026-08-27T22:00:00Z",
-   "title": "Fall festivals guide : Find something to do throughout the  ber months in southwest Ohio | More Communities",
-   "url": "https://www.journal-news.com/community/fall-festivals-guide-find-something-to-do-throughout-the-ber-months-in-southwest-ohio/article_897ced8d-a7e2-5ab4-ac9d-39b51cbdb768.html"
+   "name": "Mshale",
+   "published_at": "2026-08-25T18:05:01Z",
+   "title": "Giant Pumpkin - Final Weighing Jordan Peterson (hkUzQaXxGW)",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9pOXhveWNMMmx0V1FTSFJNYVk4UUZSQlU3Y2h6MEZaTXBUQ2Z2VzhBd05iSjR0VlByUWVlWFM0Q2IzWG9QSW9pM0d6Umh5MmUyelZQQnVvT2IzSHF4b2wwMA?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A guide to autumn festivals in southwest Ohio offers local entertainment for the fall months.",
-    "why_irrelevant": "It is a regional events listing far from typical tech or global news feeds."
+    "summary": "A giant pumpkin's final weighing at an event oddly associated with Jordan Peterson.",
+    "why_irrelevant": "It mixes a niche hobby with a polarizing public figure."
    },
    "zh": {
-    "summary": "一份关于俄亥俄州西南部秋季节日的指南，为秋日提供本地娱乐活动。",
-    "why_irrelevant": "这是一个地区性活动列表，远离常见的科技或全球新闻动态。"
+    "summary": "一场与乔丹·彼得erson奇怪关联的巨型南瓜最终称重活动。",
+    "why_irrelevant": "它将小众爱好与争议公众人物混为一谈。"
    }
   },
   "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news covers Fed rate decisions, deadly strikes in Ukraine, Nepal flood rescue, and Dolly Parton airport naming, while research explores 3D reconstruction, silent speech recognition, and AI agents.",
+ "brief": "Nepal floods devastate the country, with thousands missing, while the U.S. faces political and technological shifts, from AI models to immigration policies.",
  "meta": {
-  "generated_at": "2026-08-29T20:53:17Z"
+  "generated_at": "2026-08-30T00:17:40Z"
  },
- "news_summary": "Key stories include Fed chair Warsh's rate dilemma, a strike on Kyiv weapons depot killing 37, Nepal's tunnel rescue for flood victims, and Tennessee's airport renaming for Dolly Parton.",
- "papers_summary": "Papers present advances in 3D reconstruction for immersive visualization, silent speech recognition via EMG, and AI-driven emotional speech for XR.",
+ "news_summary": "Nepal floods cause immense devastation with thousands missing, prompting international concern, while U.S. politics sees deportation of Milo Yiannopoulos and a controversial oil deal with Venezuela.",
+ "papers_summary": "Recent research papers explore data visualization in cycling classes and cancer risk communication, alongside a new tool for mass spectrometry imaging.",
  "summaries": {
   "en": {
-   "brief": "Today's news covers Fed rate decisions, deadly strikes in Ukraine, Nepal flood rescue, and Dolly Parton airport naming, while research explores 3D reconstruction, silent speech recognition, and AI agents.",
-   "news_summary": "Key stories include Fed chair Warsh's rate dilemma, a strike on Kyiv weapons depot killing 37, Nepal's tunnel rescue for flood victims, and Tennessee's airport renaming for Dolly Parton.",
-   "papers_summary": "Papers present advances in 3D reconstruction for immersive visualization, silent speech recognition via EMG, and AI-driven emotional speech for XR."
+   "brief": "Nepal floods devastate the country, with thousands missing, while the U.S. faces political and technological shifts, from AI models to immigration policies.",
+   "news_summary": "Nepal floods cause immense devastation with thousands missing, prompting international concern, while U.S. politics sees deportation of Milo Yiannopoulos and a controversial oil deal with Venezuela.",
+   "papers_summary": "Recent research papers explore data visualization in cycling classes and cancer risk communication, alongside a new tool for mass spectrometry imaging."
   },
   "zh": {
-   "brief": "今日要闻聚焦国际形势、自然灾害与科技发展，同时多篇研究探讨沉浸式技术与AI应用。",
-   "news_summary": "国际方面，美联储主席面临利率决策困境，乌克兰武器库遭袭致数十人死亡，尼泊尔洪水救援困难。国内社会新闻涉及名人效应、移民政策争议等。",
-   "papers_summary": "多篇论文关注沉浸式可视化、无声语音识别、情感语音合成等新兴技术，探索人机交互新可能。"
+   "brief": "今日重点：机器人披萨制作失败引发行业反思，同时国际新闻聚焦尼泊尔洪水救援、美国政治动态及加州山火；研究方面关注数据可视化在健康与运动领域的应用。",
+   "news_summary": "机器人披萨制造商接连失败，引发对自动化餐饮前景的质疑；国际新闻包括尼泊尔洪水失踪人员搜救、加州山火扩大、美国政治与外交事件等。",
+   "papers_summary": "研究论文探讨了数据可视化在团体单车课、癌症风险理解及质谱成像中的应用，强调可视化工具的设计与可及性。"
   }
  },
  "todays_image": {
-  "caption": "Like the stevengraph’s sea rescue, Warsh’s rate decision is a dramatic attempt to save the economy from inflation’s storm, with no clear victory in sight.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-A790AC1955542-000001",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/128642",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-A790AC1955542-000001",
-  "title": "Stevengraph, \"Called to the Rescue. Heroism at Sea\""
+  "caption": "Apollo 8's rescue net was for a safe splashdown, while robot pizza makers find their doughy dreams are the ones needing rescue from being overbaked.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19700321000_PS01",
+  "source_name": "National Air and Space Museum",
+  "source_url": "http://n2t.net/ark:/65665/nv9bc553881-ab8d-4b7e-a89f-6c034d1ebc0f",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19700321000_PS01",
+  "title": "Rescue Net, Apollo 8"
  }
 }

@@ -1,17 +1,66 @@
 {
  "meta": {
-  "count": 3,
-  "generated_at": "2026-08-29T20:53:17Z",
+  "count": 5,
+  "generated_at": "2026-08-30T00:17:40Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "item_id": "bb86ea1f43e95f4e",
+     "phrase": {
+      "en": "Tencent launches Hy4 open-weight LLM",
+      "zh": "腾讯发布开源权重模型Hy4"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Aug/29/hy4/"
+    },
+    {
+     "item_id": "d05aba7973618ac1",
+     "phrase": {
+      "en": "Domain-Driven Agents approach",
+      "zh": "领域驱动智能体方法"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://coldtake.dev/blog/domain-driven-agents"
+    },
+    {
+     "item_id": "14a7a48145d5c585",
+     "phrase": {
+      "en": "vLLM v0.28.0 release highlights",
+      "zh": "vLLM v0.28.0发布亮点"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "New open-weight model and AI tools land today, shaping the LLM landscape.",
+    "zh": "今日新开源模型与AI工具发布，塑造大模型格局。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI models and tools",
+    "zh": "AI模型与工具"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track LLM releases: Tencent's Hy4 and vLLM update expand your toolkit.",
+    "zh": "你关注大模型发布：腾讯Hy4与vLLM更新扩充你的工具箱。"
+   }
+  },
+  {
+   "angles": [
+    {
      "item_id": "915b707019261590",
      "phrase": {
-      "en": "frames as global spread",
-      "zh": "视作全球蔓延"
+      "en": "Third-country deportations expand overseas",
+      "zh": "第三国驱逐扩展海外"
      },
      "section": "news",
      "source": "The New York Times",
@@ -20,8 +69,8 @@
     {
      "item_id": "7846af90735fa6fa",
      "phrase": {
-      "en": "frames as individual case",
-      "zh": "视作个体案例"
+      "en": "Milo deported to UK",
+      "zh": "米洛被驱逐至英国"
      },
      "section": "news",
      "source": "BBC World",
@@ -30,8 +79,8 @@
     {
      "item_id": "8ce8a18720d89850",
      "phrase": {
-      "en": "frames as irony",
-      "zh": "视作讽刺"
+      "en": "Yiannopoulos deported by ICE",
+      "zh": "扬诺普洛斯被ICE驱逐"
      },
      "section": "news",
      "source": "The Guardian · World",
@@ -40,8 +89,8 @@
     {
      "item_id": "68a2e3af64ae587b",
      "phrase": {
-      "en": "frames as fall from grace",
-      "zh": "视作失势"
+      "en": "Right-wing agitator sent home",
+      "zh": "右翼煽动者被遣返"
      },
      "section": "news",
      "source": "The New York Times",
@@ -50,18 +99,18 @@
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "From Yiannopoulos to Afghan allies, deportation policy hits individuals and spreads globally.",
-    "zh": "从亚诺普洛斯到阿富汗盟友，驱逐政策波及个体与全球。"
+    "en": "Deportations spread globally, even hitting a right-wing agitator.",
+    "zh": "驱逐行动蔓延全球，甚至波及右翼煽动者。"
    },
-   "id": "t1",
+   "id": "t2",
    "keyword": {
-    "en": "deportation",
-    "zh": "驱逐出境"
+    "en": "Deportation and immigration",
+    "zh": "驱逐与移民"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow policy and rhetoric: deportations are a live story with human faces.",
-    "zh": "你关注政策与修辞，驱逐是带有人性面孔的实时话题。"
+    "en": "You follow geopolitics: today's deportation stories reveal policy reach.",
+    "zh": "你关注地缘政治：今日驱逐事件揭示政策影响范围。"
    }
   },
   {
@@ -69,28 +118,18 @@
     {
      "item_id": "a9fc11dde51e0f93",
      "phrase": {
-      "en": "frames as tragedy and investigation",
-      "zh": "视作悲剧与调查"
+      "en": "37 dead after Kyiv strike",
+      "zh": "基辅遭袭37人死亡"
      },
      "section": "news",
      "source": "BBC World",
      "url": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "e834b99e08d73f72",
-     "phrase": {
-      "en": "frames as negligence blame",
-      "zh": "视作归咎疏忽"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/29/world/europe/russia-ukraine-strike-kyiv-drones.html"
-    },
-    {
      "item_id": "c4e01df51e3c1f1f",
      "phrase": {
-      "en": "frames as deadly attack",
-      "zh": "视作致命袭击"
+      "en": "Deadliest attacks in a year",
+      "zh": "一年内最致命袭击"
      },
      "section": "news",
      "source": "NPR News",
@@ -99,77 +138,127 @@
     {
      "item_id": "600167c0e107b74e",
      "phrase": {
-      "en": "frames as evacuation",
-      "zh": "视作疏散"
+      "en": "Kyiv warehouse strike causes evacuations",
+      "zh": "基辅仓库遭袭引发撤离"
      },
      "section": "news",
      "source": "BBC World",
      "url": "https://www.bbc.co.uk/news/videos/cy8z979y9e4o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "650266311d21a640",
-     "phrase": {
-      "en": "frames as investigation",
-      "zh": "视作调查"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/29/russian-strike-warehouse-near-kyiv-kills-at-least-37"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Deadly strike on Kyiv warehouse sparks blame and evacuations, another grim milestone.",
-    "zh": "基辅仓库遭袭致多人死亡，引发指责与疏散，再添惨剧。"
+    "en": "Deadly strikes near Kyiv mark a grim escalation in the ongoing war.",
+    "zh": "基辅附近致命袭击标志战争升级。"
    },
-   "id": "t2",
+   "id": "t3",
    "keyword": {
-    "en": "Ukraine war",
-    "zh": "乌克兰战争"
+    "en": "Ukraine conflict",
+    "zh": "乌克兰冲突"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You read geopolitics: one of year's deadliest attacks shifts narratives.",
-    "zh": "你读地缘政治，年度最致命袭击之一改变叙事。"
+    "en": "You care about global stability: today's attacks are among the deadliest this year.",
+    "zh": "你关注全球稳定：今日袭击为年内最致命之一。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "c27321e884317f90",
+     "item_id": "712d86954c183a28",
      "phrase": {
-      "en": "frames as tunnel rescue",
-      "zh": "视作隧道救援"
+      "en": "Influencers quietly paid for politics",
+      "zh": "网红私下收钱谈政治"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/29/world/asia/nepal-flood-hydropower-tunnels-rescue-missing-workers.html"
+     "url": "https://www.nytimes.com/2026/08/29/us/politics/campaigns-paid-influencers.html"
     },
     {
-     "item_id": "f219dcfc3c6adbe9",
+     "item_id": "fa823f2c5c6a568b",
      "phrase": {
-      "en": "frames as missing and aid",
-      "zh": "视作失踪与援助"
+      "en": "El-Sayed apologizes for comment",
+      "zh": "萨耶德为言论道歉"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/29/us/politics/el-sayed-apology-jewish-democrats.html"
+    },
+    {
+     "item_id": "04620ba629df04b5",
+     "phrase": {
+      "en": "Rogers falsely claims saw Bin Laden",
+      "zh": "罗杰斯谎称亲眼见本拉登"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/aug/29/nepal-tibet-floods-latest-updates-death-toll-missing-search-and-rescue"
+     "url": "https://www.theguardian.com/us-news/2026/aug/29/michigan-senate-candidate-mike-rogers-osama-bin-laden"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "divergent",
    "gloss": {
-    "en": "Rescuers dig through tunnels for hundreds missing after floods, regional aid pours in.",
-    "zh": "洪水后救援者挖隧道搜寻数百失踪者，区域援助涌入。"
+    "en": "Politicians' claims and hidden influences stir debates on truth and ethics.",
+    "zh": "政客言论与隐性影响引发真相与伦理讨论。"
    },
-   "id": "t3",
+   "id": "t4",
    "keyword": {
-    "en": "Nepal floods",
-    "zh": "尼泊尔洪灾"
+    "en": "US politics and misinformation",
+    "zh": "美国政治与虚假信息"
    },
    "relates_to": [],
    "why_now": {
-    "en": "Disaster tech and HCI: tunnel rescue highlights human-machine coordination.",
-    "zh": "灾难技术与HCI：隧道救援凸显人机协同。"
+    "en": "You analyze rhetoric: today's stories expose misleading narratives.",
+    "zh": "你分析修辞：今日报道揭露误导性叙事。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "full_text_file": "articles/news/f1fa6513a4831704.json",
+     "item_id": "f1fa6513a4831704",
+     "phrase": {
+      "en": "Music labels sue Anthropic",
+      "zh": "唱片公司起诉Anthropic"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright"
+    },
+    {
+     "item_id": "7c5928fcb77b0b1b",
+     "phrase": {
+      "en": "Robot pizza makers fail",
+      "zh": "机器人披萨店失败"
+     },
+     "section": "news",
+     "source": "BBC 中文",
+     "url": "https://www.bbc.com/zhongwen/articles/c20ln8nrzn4o/trad?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "17a9a96b52b8c5f1",
+     "phrase": {
+      "en": "Culture over AI for productivity",
+      "zh": "文化胜过AI提升效率"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "AI's role in productivity and art faces legal and cultural scrutiny.",
+    "zh": "AI在生产力与艺术中的作用面临法律与文化审视。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "AI and culture",
+    "zh": "AI与文化"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You think about AI's societal impact: lawsuits and cultural critiques emerge.",
+    "zh": "你思考AI的社会影响：诉讼与文化批评涌现。"
    }
   }
  ]
