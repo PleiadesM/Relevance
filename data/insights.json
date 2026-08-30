@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "pigeon racing championship OR homing pigeon race results",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "ABC News & Headlines – Australian Broadcasting Corporation",
-   "published_at": "2026-08-29T01:08:51Z",
-   "title": "Pigeon race still on in Victoria's west despite bird flu outbreak",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQR3UweXJ2ZmdsajRPUTZZVDBLUWUteUxVMDdIbXl3RW81NGdsdFhXaGpGelpKYnRma1oxbFAxQWRmSXVlMDNuTS1XSFplUWpmcDRtai1sYmpBMGpRY0lxVFRkNkNrVGlkbjJMVmlSSUppcFdLTnh3bTE3ajVHRi1MR2M0Z21UY2JmQTI5cUVrUGpTMUs1Ti1MUDdKV2xvVWlYanJOcjVPLUxWdE9xYWFybTZB?oc=5"
+   "name": "journal-news.com",
+   "published_at": "2026-08-27T22:00:00Z",
+   "title": "Fall festivals guide : Find something to do throughout the  ber months in southwest Ohio | More Communities",
+   "url": "https://www.journal-news.com/community/fall-festivals-guide-find-something-to-do-throughout-the-ber-months-in-southwest-ohio/article_897ced8d-a7e2-5ab4-ac9d-39b51cbdb768.html"
   },
   "summaries": {
    "en": {
-    "summary": "A pigeon race proceeds in western Victoria despite an avian flu outbreak.",
-    "why_irrelevant": "It's a niche sport story, far from typical tech or business feed content."
+    "summary": "A guide to autumn festivals in southwest Ohio suggests local activities for the 'ber' months.",
+    "why_irrelevant": "It is a regional events list, far from global art news."
    },
    "zh": {
-    "summary": "尽管禽流感爆发，维多利亚西部的一场赛鸽比赛仍照常进行。",
-    "why_irrelevant": "这是小众体育新闻，远离常规科技或商业资讯。"
+    "summary": "一份关于俄亥俄州西南部秋季节庆的指南，建议在“ber”月份参加当地活动。",
+    "why_irrelevant": "这是地区活动列表，远离全球艺术新闻。"
    }
   },
-  "topic": "competitive pigeon racing"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "A ferry capsized off northern Cyprus and Nepal-Tibet flooding worsened, while NASA launched the Roman telescope to explore the cosmos. In research, advances in immersive visualization and silent speech recognition were highlighted.",
+ "brief": "Today's news spans from human rights concerns in U.S. deportation practices to a devastating flood in Nepal-Tibet, with political and technological developments also making headlines. Papers focus on immersive tech, silent speech recognition, and software documentation.",
  "meta": {
-  "generated_at": "2026-08-30T13:49:03Z"
+  "generated_at": "2026-08-30T18:03:14Z"
  },
- "news_summary": "A ferry capsized off northern Cyprus killing six, Nepal-Tibet flood toll rose, and Iceland voted against EU accession. NASA launched the Roman telescope, and other stories covered a manhunt in Switzerland, political apologies, and environmental safety concerns.",
- "papers_summary": "Research featured interactive systems for emotional speech, immersive network visualization, and silent speech recognition, along with a study on documentation review and a GPT-4 assisted tutorial system for CS education.",
+ "news_summary": "Major stories include harrowing accounts of ICE treatment from deportees, a ferry disaster in Northern Cyprus, and a deadly shooting at a Swiss rave. The Nepal-Tibet flood disaster dominates with rising casualties and missing foreigners, while political news covers Trump's FCC threat and Iceland's EU vote.",
+ "papers_summary": "Research highlights include 3D reconstruction for lab holograms, immersive egocentric networks, and a soft EMG interface for silent speech recognition. Also covered are emotional TTS for XR and documentation review challenges.",
  "summaries": {
   "en": {
-   "brief": "A ferry capsized off northern Cyprus and Nepal-Tibet flooding worsened, while NASA launched the Roman telescope to explore the cosmos. In research, advances in immersive visualization and silent speech recognition were highlighted.",
-   "news_summary": "A ferry capsized off northern Cyprus killing six, Nepal-Tibet flood toll rose, and Iceland voted against EU accession. NASA launched the Roman telescope, and other stories covered a manhunt in Switzerland, political apologies, and environmental safety concerns.",
-   "papers_summary": "Research featured interactive systems for emotional speech, immersive network visualization, and silent speech recognition, along with a study on documentation review and a GPT-4 assisted tutorial system for CS education."
+   "brief": "Today's news spans from human rights concerns in U.S. deportation practices to a devastating flood in Nepal-Tibet, with political and technological developments also making headlines. Papers focus on immersive tech, silent speech recognition, and software documentation.",
+   "news_summary": "Major stories include harrowing accounts of ICE treatment from deportees, a ferry disaster in Northern Cyprus, and a deadly shooting at a Swiss rave. The Nepal-Tibet flood disaster dominates with rising casualties and missing foreigners, while political news covers Trump's FCC threat and Iceland's EU vote.",
+   "papers_summary": "Research highlights include 3D reconstruction for lab holograms, immersive egocentric networks, and a soft EMG interface for silent speech recognition. Also covered are emotional TTS for XR and documentation review challenges."
   },
   "zh": {
-   "brief": "今日新闻聚焦中国西藏与尼泊尔洪灾的灾情与信息管控，以及全球范围内的灾害、政治与科技事件；论文方面重点关注沉浸式可视化、无声语音识别等前沿研究。",
-   "news_summary": "中国官方对西藏口岸洪灾画面进行审查，灾情信息有限；尼泊尔与西藏的洪水死亡人数上升，救援工作持续。同时，全球其他地区发生渡轮倾覆、枪击等事件，NASA的新型太空望远镜成功发射。",
-   "papers_summary": "近期研究探讨了用于沉浸式可视化的3D重建方法、基于机器学习的情感语音合成，以及无声语音识别接口等，为交互技术带来新进展。"
+   "brief": "今日焦点集中在尼泊尔-西藏洪灾的严重灾情，中国官方信息透明度受关注，同时其他国际新闻和科技研究亦有进展。",
+   "news_summary": "尼泊尔-西藏洪灾造成重大伤亡，中国对灾情信息管控严格，外媒报道卫星图像揭示尼泊尔侧灾情严重。其他新闻包括澳洲乌贼交配数量骤减、Dolly Parton的图书捐赠计划等。",
+   "papers_summary": "今日无优先中文论文，英文论文主要涉及人机交互领域，包括3D重建、沉浸式可视化、无声语音识别等技术研究。"
   }
  },
  "todays_image": {
-  "caption": "The reticulata's net-like leaf veins evoke the tangled rescue efforts surrounding the capsized ferry off Northern Cyprus.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m340ab817e0ef24d1698950905e27c8dab",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3b41c2e7f-9093-4ff8-9295-e0ba261d96bd",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m340ab817e0ef24d1698950905e27c8dab/90",
-  "title": "Viguiera reticulata S. Watson"
+  "caption": "Like the 1927 floodwaters that swept away thousands of lives, ICE’s deportation machinery now violently washes people out of the country, leaving behind harrowing tales of displacement.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2011_13_1_001",
+  "source_name": "National Museum of African American History and Culture",
+  "source_url": "https://nmaahc.si.edu/object/nmaahc_2011.13.1",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-2011_13_1_001",
+  "title": "Gelatin silver print of four 1927 Mississippi River flood images"
  }
 }

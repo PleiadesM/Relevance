@@ -1,204 +1,253 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-08-30T13:49:03Z",
+  "count": 6,
+  "generated_at": "2026-08-30T18:03:14Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "5f0cf23735430ee9",
-     "phrase": {
-      "en": "spreading online, easy to create",
-      "zh": "网上蔓延，易制作"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/30/nx-s1-5943190/jimmy-kimmel-deepfake-jon-stewart-abc-ai"
-    },
-    {
-     "item_id": "2a99aa2ee792d235",
-     "phrase": {
-      "en": "manipulation intent detection",
-      "zh": "操纵意图检测"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.24535v1"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Videos of late-night hosts are digitally faked, blurring trust.",
-    "zh": "深夜节目主持人视频被伪造，信任边界模糊。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "AI deepfakes",
-    "zh": "AI深度伪造"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You study visual rhetoric: a NPR piece today shows AI-created clips of Kimmel are proliferating, a case in point for manipulation.",
-    "zh": "你研究视觉修辞：今日NPR报道AI伪造Kimmel片段泛滥，正是操纵实例。"
-   }
-  },
-  {
-   "angles": [
-    {
      "item_id": "6fa462d1a49a841b",
      "phrase": {
-      "en": "drones testing aid delivery",
-      "zh": "无人机测试运送援助"
+      "en": "tests aid delivery by drone",
+      "zh": "测试无人机空投救援"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/08/30/world/asia/nepal-floods-aid-drone.html"
     },
     {
-     "item_id": "97e291c1f44541fa",
+     "item_id": "9694fa152401e991",
      "phrase": {
-      "en": "fresh flooding warnings issued",
-      "zh": "发布新洪水警告"
-     },
-     "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/30/nx-s1-5949239/nepal-warns-fresh-flooding"
-    },
-    {
-     "item_id": "664abf94c3f45f74",
-     "phrase": {
-      "en": "pilgrims trek despite flood",
-      "zh": "朝圣者不顾洪水跋涉"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/30/us/nepal-floods-religious-tour.html"
-    },
-    {
-     "item_id": "41ee3c8d62ae887c",
-     "phrase": {
-      "en": "foreigners missing in Tibet",
-      "zh": "外国人在西藏失踪"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/30/world/asia/tibet-nepal-flood-death-toll-china.html"
-    },
-    {
-     "item_id": "6e739ce807e0d18e",
-     "phrase": {
-      "en": "family seeks missing woman",
-      "zh": "家属寻失踪女子"
+      "en": "river took everything, drones help",
+      "zh": "河流摧毁一切，无人机助力"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/aug/30/renee-gyirong-port-flood-nepal-family-australia-help-search"
+     "url": "https://www.theguardian.com/world/2026/aug/30/people-return-remains-homes-nepal-floods-devighat-trishuli-river"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Devastating floods isolate communities; rescue efforts adapt with drones and warnings.",
-    "zh": "毁灭性洪水隔离社区；救援用无人机并发出警告。"
+    "en": "Drones drop aid where roads vanish, a quiet mercy from the sky.",
+    "zh": "无人机在道路中断处空投救援，来自天空的无声善意。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "drone disaster relief",
+    "zh": "无人机灾害救援"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow embodied AI: today Nepal tests drones for flood relief, showing real-world deployment.",
+    "zh": "你关注具身AI，今日尼泊尔测试无人机洪水救援，展示实际部署。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "09eff8cd6aa3f1c6",
+     "phrase": {
+      "en": "voters reject EU talks",
+      "zh": "选民拒绝欧盟谈判"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "99c6ab9d2da8b7d0",
+     "phrase": {
+      "en": "no camp wins, analysis",
+      "zh": "反对派获胜，分析"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/30/iceland-eu-accession-talks-referendum-result"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Iceland says no to EU again, a small nation's quiet distance.",
+    "zh": "冰岛再次对欧盟说不，小国的静默疏离。"
    },
    "id": "t2",
    "keyword": {
-    "en": "Nepal floods",
-    "zh": "尼泊尔洪水"
+    "en": "Iceland EU referendum",
+    "zh": "冰岛欧盟公投"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow embodied AI: drone aid trials in Nepal (item 1) show how technology embeds in crisis response.",
-    "zh": "你关注具身AI：尼泊尔无人机救援试验体现技术嵌入危机应对。"
+    "en": "You track political shifts: Iceland's vote today reshapes European integration dynamics.",
+    "zh": "你关注政治变化，今日冰岛投票重塑欧洲一体化动态。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "188ead9d4eb991a2",
+     "item_id": "9694fa152401e991",
      "phrase": {
-      "en": "successful launch aims to identify planets",
-      "zh": "成功发射，识别行星"
+      "en": "people return to remains",
+      "zh": "人们回到废墟"
      },
      "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/30/nx-s1-5948814/launch-nancy-grace-roman-space-telescope-nasa"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/30/people-return-remains-homes-nepal-floods-devighat-trishuli-river"
     },
     {
-     "item_id": "07fa4d7dc36c5b65",
+     "item_id": "03f302bd82e37e8d",
      "phrase": {
-      "en": "wide deep gaze to study dark universe",
-      "zh": "宽阔深空研究暗宇宙"
+      "en": "head teacher saves 900",
+      "zh": "校长救出900人"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/30/science/spacex-roman-telescope-launch.html"
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c5ymvdm5520o?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "b1494757396a5961",
+     "item_id": "58d8be3b22f17ffb",
      "phrase": {
-      "en": "breakthrough in cosmic exploration",
-      "zh": "宇宙探索突破"
+      "en": "headteacher's timely evacuation",
+      "zh": "校长及时疏散"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/08/28/science/nasa-nancy-grace-roman-space-telescope.html"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/aug/30/headteacher-saves-children-flash-flood-nepal"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Roman telescope launches to explore dark universe and exoplanets.",
-    "zh": "罗曼望远镜发射探索暗宇宙和系外行星。"
+    "en": "Water takes homes, a teacher saves hundreds, and the missing count grows.",
+    "zh": "洪水吞噬家园，教师挽救数百生命，失踪人数仍在增加。"
    },
    "id": "t3",
    "keyword": {
-    "en": "NASA telescope",
-    "zh": "NASA望远镜"
+    "en": "Nepal flood disaster",
+    "zh": "尼泊尔洪水灾难"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You appreciate data visualization: Roman's wide-field surveys will generate massive datasets needing new visual tools.",
-    "zh": "你重视数据可视化：罗曼巡天产生巨量数据，需新可视化工具。"
+    "en": "You value human stories: today's Nepal flood reveals both heroism and scale of loss.",
+    "zh": "你重视人文故事，今日尼泊尔洪灾展现英雄与损失规模。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "880adbed14b065fe",
+     "full_text_file": "articles/news/b0cdf813627871ed.json",
+     "item_id": "b0cdf813627871ed",
      "phrase": {
-      "en": "chatbots debunk falsehoods well",
-      "zh": "聊天机器人揭穿效果好"
+      "en": "Abbott blocks funding",
+      "zh": "阿博特冻结资金"
      },
      "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/08/30/nx-s1-5876436/chatbots-search-propaganda"
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras"
     },
     {
-     "item_id": "8a02bcb0fd018715",
+     "item_id": "a047510e4b0f4f20",
      "phrase": {
-      "en": "plain wrong AI legal advice",
-      "zh": "完全错误的AI法律建议"
+      "en": "Haiku release irrelevant? no link",
+      "zh": "无直接关联"
      },
      "section": "news",
      "source": "Hacker News (AI filter)",
-     "url": "https://www.abc.net.au/news/2026-08-29/fair-work-commission-condemns-ai-legal-advice/107089766"
+     "url": "https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6"
     }
    ],
-   "convergence": "divergent",
+   "convergence": "convergent",
    "gloss": {
-    "en": "Chatbots guard against propaganda better than search engines in tests.",
-    "zh": "测试中聊天机器人比搜索引擎更能抵御宣传。"
+    "en": "AI cameras face a freeze, as trust in constant watching cracks.",
+    "zh": "AI摄像头遭遇冻结，对持续监视的信任出现裂痕。"
    },
    "id": "t4",
    "keyword": {
-    "en": "AI chatbots misinformation",
-    "zh": "AI聊天机器人误导"
+    "en": "AI surveillance backlash",
+    "zh": "AI监控反弹"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about AI and rhetoric: NPR's test shows LLMs debunking foreign falsehoods, expanding your sense of their epistemic role.",
-    "zh": "你关心AI与修辞：NPR测试显示LLM揭穿外国谎言，拓宽认知角色。"
+    "en": "You study human-computer interaction: Texas halts Flock funding today, a key test for AI ethics in public space.",
+    "zh": "你研究人机交互，今日德州暂停Flock资金，公共场所AI伦理关键测试。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "5f0cf23735430ee9",
+     "phrase": {
+      "en": "deepfakes spreading online",
+      "zh": "深度伪造在线传播"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/08/30/nx-s1-5943190/jimmy-kimmel-deepfake-jon-stewart-abc-ai"
+    },
+    {
+     "item_id": "90e115046a509c51",
+     "phrase": {
+      "en": "shooting at rave, no link",
+      "zh": "无直接关联"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c9qr750je1go?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Fake clips of late-night hosts spread, blurring what we saw.",
+    "zh": "深夜秀主持人的伪造片段传播，模糊了我们的所见。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "AI deepfakes in media",
+    "zh": "媒体AI深度伪造"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about visual rhetoric: today's deepfake report exposes how AI distorts trust in media.",
+    "zh": "你关注视觉修辞，今日深度伪造报告揭示AI如何扭曲媒体信任。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "8557dab634d924ca",
+     "phrase": {
+      "en": "deportees recount abuse",
+      "zh": "被驱逐者详述虐待"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/08/30/world/africa/us-deportation-flight-ice-detention-liberia.html"
+    },
+    {
+     "item_id": "876af796e83ef722",
+     "phrase": {
+      "en": "Milo deported, struggle",
+      "zh": "米洛被驱逐，融入困境"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/30/milo-yiannopoulos-struggle-fit-uk-right-wing"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Deportees speak of harsh treatment, a human toll behind policy.",
+    "zh": "被驱逐者讲述严酷待遇，政策背后的人道代价。"
+   },
+   "id": "t6",
+   "keyword": {
+    "en": "immigration enforcement abuse",
+    "zh": "移民执法虐待"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow policy impacts: first-person accounts today reveal ICE practices, relevant to social justice.",
+    "zh": "你关注政策影响，今日第一人称揭露ICE做法，关乎社会正义。"
    }
   }
  ]
