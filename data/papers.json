@@ -2,6 +2,1061 @@
  "items": [
   {
    "authors": [
+    "Rosa Maria Delicado Moll",
+    "Gemma Huguet",
+    "Pau Clusella Coberó"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Understanding the dynamics of large-scale brain models remains a central challenge due to the inherent complexity of these systems. In this work, we explore the emergence of complex spatiotemporal patterns in a large-scale brain model composed of 90 interconnected brain regions coupled through empirically derived anatomical connectivity. An important aspect of our formulation is that the local dynamics of each brain region are described by a next-generation neural mass model, which explicitly…",
+    "citations": 1,
+    "doi": "10.1016/j.physd.2026.135232"
+   },
+   "id": "69195bb1fdf445d0",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.6476,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Understanding the dynamics of large-scale brain models remains a central challenge due to the inherent complexity of these systems. In this work, we explore the emergence of complex spatiotemporal patterns in a large-scale brain model composed of 90 interconnected brain regions coupled through…",
+   "tags": [
+    "systems",
+    "ml-vis"
+   ],
+   "title": "Emergent spatiotemporal dynamics in large-scale brain networks with next generation neural mass models",
+   "url": "https://hdl.handle.net/2117/461894",
+   "venue": "UPCommons institutional repository (Universitat Politècnica de Catalunya)"
+  },
+  {
+   "authors": [
+    "Sarah Laurence",
+    "A. Mike Burton",
+    "Camilla Düring",
+    "Jen Pink",
+    "Lucy Wilson",
+    "Mila Mileva"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "32046dc6448881f2",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.485,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [],
+   "title": "Longstanding mental representations of familiar faces",
+   "url": "https://orcid.org/0000-0002-2035-2084>,",
+   "venue": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)"
+  },
+  {
+   "authors": [
+    "Omar Dewidar",
+    "Mouad Elganga",
+    "Martin Ringsten",
+    "Miranda Langendam",
+    "KM Saif‐Ur‐Rahman",
+    "Malgorzata M. Bala"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Objectives To identify and describe frameworks for systematically identifying research gaps from evidence syntheses, framing research needs, and establishing priorities, with emphasis on their use of GRADE (Grading of Recommendations Assessment, Development and Evaluation) certainty of evidence (CoE) domains and evidence-to-decision (EtD) criteria. Study Design and Setting We conducted a scoping review following JBI guidance, searching MEDLINE, PsycINFO, and Web of Science on July 14, 2025, for…",
+    "citations": 0,
+    "doi": "10.1016/j.jclinepi.2026.112342"
+   },
+   "id": "dbaddcc029da2833",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.6225,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Objectives To identify and describe frameworks for systematically identifying research gaps from evidence syntheses, framing research needs, and establishing priorities, with emphasis on their use of GRADE (Grading of Recommendations Assessment, Development and Evaluation) certainty of evidence…",
+   "tags": [
+    "eval-study",
+    "systems"
+   ],
+   "title": "Frameworks to identify research gaps, frame research needs, and derive research priorities from evidence syntheses:a scoping review",
+   "url": "https://pure.amsterdamumc.nl/en/publications/36cbca97-77d1-42b0-a034-b260684b67cc",
+   "venue": "Pure Amsterdam UMC"
+  },
+  {
+   "authors": [
+    "Y. Xue",
+    "Shehub Bin Hasan",
+    "Muhammad Kabir"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.1016/j.intfin.2026.102356"
+   },
+   "id": "c2fcc9a3b563cf2e",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.485,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [],
+   "title": "Climate change exposure and M&A: global evidence",
+   "url": "https://centaur.reading.ac.uk/view/creators/90011419.html>",
+   "venue": "CentAUR (University of Reading)"
+  },
+  {
+   "authors": [
+    "Vesa Putkinen",
+    "Andreas Hahn",
+    "Jouni Tuisku",
+    "Harri Harju",
+    "Kerttu Seppälä",
+    "Anna K. Kirjavainen"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Functional magnetic resonance imaging (fMRI) studies have demonstrated music-induced activation of the blood-oxygen-level-dependent (BOLD) signal across brain networks associated with auditory perception, motor control, and emotion. However, BOLD-fMRI reflects vascular responses that may not fully capture underlying neural activity. Here, we used simultaneous [ 18F]fluorodeoxyglucose (FDG) functional positron emission tomography (fPET) and fMRI to examine glucose metabolism closely linked to…",
+    "citations": 0,
+    "doi": "10.1016/j.neuroimage.2026.122035"
+   },
+   "id": "15c84650455f1568",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.6225,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Functional magnetic resonance imaging (fMRI) studies have demonstrated music-induced activation of the blood-oxygen-level-dependent (BOLD) signal across brain networks associated with auditory perception, motor control, and emotion. However, BOLD-fMRI reflects vascular responses that may not fully…",
+   "tags": [],
+   "title": "Cerebral glucose utilisation during musical emotions: A multimodal functional PET/MRI study:A multimodal functional PET/MRI study",
+   "url": "https://research.abo.fi/en/publications/567b10bb-2466-4d05-8a6b-2fba55bf501f",
+   "venue": "Åbo Akademi University Research Portal"
+  },
+  {
+   "authors": [
+    "J Z Berman",
+    "G Overton",
+    "D Effron"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "ba920d59ed4c5129",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.485,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [],
+   "title": "Hypocrisy either way: judgements of moral actors who choose between conflicting commitments",
+   "url": "https://lbsresearch.london.edu/view/lbs_authors/f2130282578d200c154484bf52ad95f2.html>,",
+   "venue": "London Business School Research Online (London Business School)"
+  },
+  {
+   "authors": [
+    "Agata D. Misiaszek",
+    "Esther Griesbach",
+    "Egle Jaugaite",
+    "Aurelio Ortale",
+    "Jan Eglinger",
+    "Tobias Hochstoeger"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Single-molecule imaging of translation sites in living cells has enabled the dynamics of protein synthesis to be investigated with high spatial and temporal resolution. These methodologies utilize the interaction between a multimerized epitope tag and its cognate fluorescent single-chain variable fragment or nanobody to detect nascent polypeptides as they emerge from the ribosome. Here, we present a systematic comparison of current methodologies and determine that the ALFA-tag reduces…",
+    "citations": 0,
+    "doi": "10.1261/rna.080881.125"
+   },
+   "id": "e9aa0efbef0bafbc",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.6225,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Single-molecule imaging of translation sites in living cells has enabled the dynamics of protein synthesis to be investigated with high spatial and temporal resolution. These methodologies utilize the interaction between a multimerized epitope tag and its cognate fluorescent single-chain variable…",
+   "tags": [],
+   "title": "Quantitative comparison of methodologies for translation site imaging in living cells",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13492120/",
+   "venue": "PubMed Central"
+  },
+  {
+   "authors": [
+    "Che Mohd Nasril Che Mohd Nassir",
+    "Hafizah Abdul Hamid",
+    "Nurfatihah Pahdin",
+    "Izzatul Farhanis Abdul Halim",
+    "Laurasharwini Sivakumar",
+    "Mohd Khairi Hussain"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "fb853b3b250866fc",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.485,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [],
+   "title": "Preserved diffusion MRI measures despite subtle behavioral and hippocampal CA3 alterations in a preclinical model of cerebral small vessel disease",
+   "url": "http://psasir.upm.edu.my/id/eprint/126125/1/126125.pdf",
+   "venue": "Universiti Putra Malaysia Institutional Repository (Universiti Putra Malaysia)"
+  },
+  {
+   "authors": [
+    "Andrea Papadia",
+    "David Escamilla‐Guerrero",
+    "Ariell Zimran"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "We study the eﬀects of immigration during the Age of Mass Migration (1855–1920) on Brazil’s agricultural development in 1920. Instrumenting for a municipality’s immigrant share using the interaction of aggregate immigrant inflows and the expansion of Brazil’s railway network, we find that a greater share of European immigrants in a municipality led to an increase in farm values. The bulk of the effect was the product of more intense cultivation of land. We also find that it is unlikely that…",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "0e9fcdddaf9169c6",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.6225,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "We study the eﬀects of immigration during the Age of Mass Migration (1855–1920) on Brazil’s agricultural development in 1920. Instrumenting for a municipality’s immigrant share using the interaction of aggregate immigrant inflows and the expansion of Brazil’s railway network, we find that a greater…",
+   "tags": [],
+   "title": "The Effects of Immigration on Agricultural Development: Brazil in the Age of Mass Migration",
+   "url": "https://eprints.whiterose.ac.uk/id/eprint/242520/",
+   "venue": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)"
+  },
+  {
+   "authors": [
+    "Jukka Ruohonen"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "The paper examines quantitatively whether the directives and regulations (DaRs) enacted in the European Union (EU) between 1990 and 2024 show signs of increased complexity. In total, a little over 1,7 thousand DaRs are examined based on snowball sampling. Nine metrics are used: a readability index and counts of articles, recitals, references, tokens, words, nouns, verbs, and adjectives. All except the readability index scores indicated increased complexity. With a caveat of…",
+    "also_in": [
+     {
+      "source": "OpenAlex · technical communication",
+      "url": "https://portal.findresearcher.sdu.dk/da/publications/cd084f15-d0a3-4c25-b7c2-d149e7d3fc54"
+     }
+    ],
+    "citations": 0,
+    "doi": "10.1016/j.clsr.2026.106371"
+   },
+   "id": "97d8ab10c9487a21",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.485,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "The paper examines quantitatively whether the directives and regulations (DaRs) enacted in the European Union (EU) between 1990 and 2024 show signs of increased complexity. In total, a little over 1,7 thousand DaRs are examined based on snowball sampling. Nine metrics are used: a readability index…",
+   "tags": [],
+   "title": "Has Complexity of EU Law Increased?",
+   "url": "https://portal.findresearcher.sdu.dk/da/publications/cd084f15-d0a3-4c25-b7c2-d149e7d3fc54",
+   "venue": "University of Southern Denmark Research Portal (University of Southern Denmark)"
+  },
+  {
+   "authors": [
+    "S. Rastani",
+    "M. Keskin",
+    "T. Yüksel",
+    "B. Çatay"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "8a5d030948430986",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.6225,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [],
+   "title": "Uphill struggles, downhill gains: How road gradients and load dynamics influence electric vehicle routing decisions?",
+   "url": "https://orcid.org/0000-0002-2742-1433>,",
+   "venue": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)"
+  },
+  {
+   "authors": [
+    "Zheng Tang",
+    "Yao Deng",
+    "Shichao Xie",
+    "Wenhao Zhan",
+    "Hongyu Peng",
+    "Yinqiu Tian"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "< 0.05), while reducing oxidative stress-tolerant, anaerobic, and potentially pathogenic bacteria in the intestine. These findings indicate that juvenile mud crab have a limited capacity for FA synthesis and require dietary supplementation. A dietary FA level of 4.26 mg/kg supported optimal growth and physiological functions, while two-slope broken-line regression of PWG against dietary FA levels estimated an optimal dietary requirement of 3.86 mg/kg for juvenile mud crab.",
+    "citations": 0,
+    "doi": "10.1016/j.aninu.2026.01.019"
+   },
+   "id": "02c961d48e5ef5c3",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.6225,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "< 0.05), while reducing oxidative stress-tolerant, anaerobic, and potentially pathogenic bacteria in the intestine. These findings indicate that juvenile mud crab have a limited capacity for FA synthesis and require dietary supplementation. A dietary FA level of 4.26 mg/kg supported optimal growth…",
+   "tags": [],
+   "title": "Dietary folic acid coordinates growth and lipid metabolism through gut microbial and one-carbon networks in juvenile mud crab (Scylla paramamosain).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42602490",
+   "venue": "PubMed"
+  },
+  {
+   "authors": [
+    "Benedikt P Fuhr",
+    "Yonatan Sanz Perl",
+    "Ines Severino",
+    "Morten L Kringelbach",
+    "Gustavo Deco",
+    "Henricus G Ruhé"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Background: Prevailing theories propose that autism is characterized by local cortical overconnectivity and long-range underconnectivity, but empirical evidence remains mixed. Methods: = 1009) to examine how functional synchronization profiles dynamically change over time and across the cortex over different spatial scales. Results: Autistic individuals showed increased short-range and reduced long-range functional synchronization variability over time, as well as reduced synchronization…",
+    "citations": 0,
+    "doi": "10.1016/j.bpsgos.2026.100787"
+   },
+   "id": "63467864c7e0d438",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.6225,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Background: Prevailing theories propose that autism is characterized by local cortical overconnectivity and long-range underconnectivity, but empirical evidence remains mixed. Methods: = 1009) to examine how functional synchronization profiles dynamically change over time and across the cortex over…",
+   "tags": [],
+   "title": "Dynamic Functional Synchronization Profiles in Autism Differ by Spatial Scale and Along Hierarchical Cortical Gradients.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42602560",
+   "venue": "PubMed"
+  },
+  {
+   "authors": [
+    "Lauren Alex O'Hagan"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "also_in": [
+     {
+      "source": "OpenAlex · technical communication",
+      "url": "https://oro.open.ac.uk/view/person/lao76.html>"
+     }
+    ],
+    "citations": 0,
+    "doi": null
+   },
+   "id": "943fc860157c01bc",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.6225,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [],
+   "title": "The Commercial South Pole: Brands, Consumer Culture and the Commodification of Captain Scott’s British Antarctic Expedition (1910-13)",
+   "url": "https://oro.open.ac.uk/view/person/lao76.html>",
+   "venue": "Open Research Online (The Open University)"
+  },
+  {
+   "authors": [
+    "C. Feng",
+    "A.A. Tunyi",
+    "K. Tolikas"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "e01ee33b260b34ca",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.485,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [],
+   "title": "M&A-induced shifts in earnings management: Evidence from US acquirers",
+   "url": "https://orcid.org/0000-0003-3085-4173>,",
+   "venue": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)"
+  },
+  {
+   "authors": [
+    "Nukman Mochamad",
+    "Rofiqul Umam",
+    "Siregar Rahmat Nawi",
+    "Marwa Ulum",
+    "Suharno Suharno",
+    "Takahashi Hirotaka"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "The Sipoholon geothermal area in North Sumatra, Indonesia, is located within a tectonically active pull-apart basin in the central segment of the Sumatra Fault System, providing an excellent setting to investigate isotopic depletion and lithium (Li) enrichment in a structurally controlled geothermal system. This study evaluates the origin, evolution, and geochemical behavior of thermal waters using an integrated approach combining major ions, trace elements (Li and B), and stable isotopes (518O…",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "1d66faad65876f72",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.485,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "The Sipoholon geothermal area in North Sumatra, Indonesia, is located within a tectonically active pull-apart basin in the central segment of the Sumatra Fault System, providing an excellent setting to investigate isotopic depletion and lithium (Li) enrichment in a structurally controlled…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Stable isotope depletion and lithium enrichment due to accumulation processes in a structural controlled geothermal field : Evidence of meteoric water heated at shallow reservoir depths in the Sipoholon geothermal area, North Sumatra, Indonesia",
+   "url": "https://tsukuba.repo.nii.ac.jp/records/2024965",
+   "venue": "Institutional Repositories DataBase (IRDB)"
+  },
+  {
+   "authors": [
+    "Hiraga Taichi",
+    "Shimoda Ryo",
+    "Hata Toshiaki",
+    "Torma Ferenc",
+    "Okamoto Masahiro",
+    "Soya Hideaki"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Exercise has gained attention as a low-cost, non-pharmacological approach for stress-related disorders such as post-traumatic stress disorder (PTSD). Regular light-intensity exercise (LIE), which is feasible even for vulnerable populations, has been reported to promote contextual fear memory (CFM) extinction learning, a critical process for alleviating PTSD. However, its underlying neural signatures remain unclear. Given that LIE effectively promotes hippocampal brain-derived neurotrophic…",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "cb83c5352615c61b",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.6225,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Exercise has gained attention as a low-cost, non-pharmacological approach for stress-related disorders such as post-traumatic stress disorder (PTSD). Regular light-intensity exercise (LIE), which is feasible even for vulnerable populations, has been reported to promote contextual fear memory (CFM)…",
+   "tags": [],
+   "title": "Regular light-intensity exercise accelerates contextual fear extinction with reduced dorsal CA3 activation in male rats",
+   "url": "https://tsukuba.repo.nii.ac.jp/records/2024949",
+   "venue": "Institutional Repositories DataBase (IRDB)"
+  },
+  {
+   "authors": [
+    "Yao Chang",
+    "André J. A. van Roij",
+    "Stach Kuijpers",
+    "Sven Herbers",
+    "Etienne F. Walraven",
+    "Tijs Karman"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Data for submission of \"Evolution of dipole-dipole dynamics in cold ammonia collisions\" Authors: Yao Chang1, Andr´e J.A. van Roij1, Stach Kuijpers1, Sven Herbers, Etienne F. Walraven1,Tijs Karman1∗∗, Sebastiaan Y.T. van de Meerakker1∗∗1Radboud University, Institute for Molecules and MaterialsHeijendaalseweg 135, 6525 AJ Nijmegen, the Netherlands∗∗To whom correspondence should be addressed;E-mail: basvdm@science.ru.nl, t.karman@science.ru.nl",
+    "citations": 0,
+    "doi": "10.5281/zenodo.21620549"
+   },
+   "id": "a55c3f80c45e5e11",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.485,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Data for submission of \"Evolution of dipole-dipole dynamics in cold ammonia collisions\" Authors: Yao Chang1, Andr´e J.A. van Roij1, Stach Kuijpers1, Sven Herbers, Etienne F. Walraven1,Tijs Karman1∗∗, Sebastiaan Y.T. van de Meerakker1∗∗1Radboud University, Institute for Molecules and…",
+   "tags": [],
+   "title": "Evolution of dipole-dipole dynamics in cold ammonia collisions",
+   "url": "https://arxiv.org/abs/2607.24239",
+   "venue": "arXiv (Cornell University)"
+  },
+  {
+   "authors": [
+    "Martha Topete",
+    "Nathan Betancourt",
+    "Flore Bridoux",
+    "Zuzana Sasovova"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Prior research has found that brokers, those who stand between two disconnected parties, may access non-redundant information that is conducive to higher innovation. However, research has also shown that occupying brokering network positions does not systematically translate into higher innovation; that is, structural opportunity does not always lead to advantage. To better understand the conditions under which brokers innovate, we adopt a contingency approach and theorize that the relationship…",
+    "citations": 0,
+    "doi": "10.1016/j.technovation.2026.103662"
+   },
+   "id": "f36542a683baf443",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.485,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Prior research has found that brokers, those who stand between two disconnected parties, may access non-redundant information that is conducive to higher innovation. However, research has also shown that occupying brokering network positions does not systematically translate into higher innovation;…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Brokerage, power and individual innovation:When do brokers act on their structural advantage?",
+   "url": "https://pure.eur.nl/en/publications/a044b12e-22a2-4ba0-aa21-c800d6425d95",
+   "venue": "EUR Research Repository (Erasmus University Rotterdam)"
+  },
+  {
+   "authors": [
+    "Maurizio Vassallo"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "The energy transition faces a bottleneck at the distribution level, where the rapid integration of distributed energy resources (DER), such as solar photovoltaics (PV), electric vehicles (EV), and heat pumps (HP), outpaces the capabilities of current distribution networks. Low-voltage (LV) grids, historically designed as passive infrastructure, are now subjected to stress that exceeds their original design. Consequently, distribution system operators (DSO) must evolve into active managers,…",
+    "also_in": [
+     {
+      "source": "OpenAlex · technical communication",
+      "url": "https://orbi.uliege.be/handle/2268/347656"
+     }
+    ],
+    "citations": 0,
+    "doi": null
+   },
+   "id": "506cc4fe34e99d44",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.6225,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "The energy transition faces a bottleneck at the distribution level, where the rapid integration of distributed energy resources (DER), such as solar photovoltaics (PV), electric vehicles (EV), and heat pumps (HP), outpaces the capabilities of current distribution networks. Low-voltage (LV) grids,…",
+   "tags": [
+    "systems"
+   ],
+   "title": "See, Balance, Exchange: Building an Operational Toolkit for Active Distribution Networks under High DER Penetration",
+   "url": "https://orbi.uliege.be/handle/2268/347656",
+   "venue": "Open Repository and Bibliography (University of Liège)"
+  },
+  {
+   "authors": [
+    "Tanaka Keita",
+    "Miyashita Yasuomi",
+    "Kenji Iwasaki",
+    "Saito Tetsuichiro",
+    "Yamada Yusuke",
+    "Murata Takeshi"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Accurate determination of ligand structures in protein-ligand complexes is essential for elucidating molecular recognition mechanisms and advancing structure-based drug discovery. Cryogenic electron microscopy (cryo-EM) has emerged as a powerful technique for determining macromolecular structures; however, reliable identification of small-molecule ligands from cryo-EM maps remains challenging, particularly in the absence of accurate initial ligand models. Here, we present MLAC (MicroED-assisted…",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "2adb984bb454a633",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.485,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Accurate determination of ligand structures in protein-ligand complexes is essential for elucidating molecular recognition mechanisms and advancing structure-based drug discovery. Cryogenic electron microscopy (cryo-EM) has emerged as a powerful technique for determining macromolecular structures;…",
+   "tags": [],
+   "title": "MLAC: MicroED-assisted ligand structure analysis in complexes and its application to hERG-ligand complexes",
+   "url": "https://tsukuba.repo.nii.ac.jp/records/2025299",
+   "venue": "Institutional Repositories DataBase (IRDB)"
+  },
+  {
+   "authors": [
+    "Kano Mayuko",
+    "Onodera Naoko",
+    "Tomoto Ura",
+    "Tanigaki Satone",
+    "Nishino Teppei",
+    "Miyamoto Takafumi"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Disruption of mitochondrial morphology occurs during various diseases, but the biological significance is not entirely clear. Here, we describe a detailed step-bystep protocol for a chemically inducible dimerization (CID) system-based synthetic protein device, termed inducible counter mitochondrial morphology (iCMM). This system allows artificial manipulation of mitochondrial morphology on a timescale of minutes in living mammalian cells. We also describe an AI-assisted image processing…",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "8f3721ce9ca0d5e3",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.6225,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Disruption of mitochondrial morphology occurs during various diseases, but the biological significance is not entirely clear. Here, we describe a detailed step-bystep protocol for a chemically inducible dimerization (CID) system-based synthetic protein device, termed inducible counter mitochondrial…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Protocol update to: Protocol for rapid manipulation of mitochondrial morphology in living cells using inducible counter mitochondrial morphology",
+   "url": "https://tsukuba.repo.nii.ac.jp/records/2025250",
+   "venue": "Institutional Repositories DataBase (IRDB)"
+  },
+  {
+   "authors": [
+    "Tsujimoto Eda",
+    "Eom Sunyong",
+    "Suzuki Tsutomu"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Accurate pixel-level segmentation of post-disaster road damage is important for decision-support applications that require reliable and spatially explicit road-scene understanding. This study proposes a deep-learning framework for localizing visible road-damage regions in post-disaster imagery. The framework integrates a Road-Oriented Multi-Level Attention (RO-MLA) module into a DeepLabV3+ backbone, where channel-, spatial-, and pixel-level attention are guided by an average road-mask prior to…",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "491ce51969dc5323",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.485,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Accurate pixel-level segmentation of post-disaster road damage is important for decision-support applications that require reliable and spatially explicit road-scene understanding. This study proposes a deep-learning framework for localizing visible road-damage regions in post-disaster imagery. The…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Road-oriented attention and class-balanced learning for post-disaster road damage segmentation",
+   "url": "https://tsukuba.repo.nii.ac.jp/records/2025257",
+   "venue": "Institutional Repositories DataBase (IRDB)"
+  },
+  {
+   "authors": [
+    "Kenia E Segura Abá",
+    "Paulo Izquierdo",
+    "Gustavo de Los Campos",
+    "Melissa D. Lehti‐Shiu",
+    "Shin‐Han Shiu"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "population. Models revealed that the predictive ability of genetic variants varied across environments, with copy number variants explaining the majority of fitness variation in most cases. Model interpretation showed that different variant types identified distinct gene sets associated with predictive variants. These gene sets were significantly enriched in experimentally validated genes affecting fitness in only a subset of environments, indicating that many genes influencing fitness remain…",
+    "citations": 0,
+    "doi": "10.1093/nargab/lqag084"
+   },
+   "id": "7c79bcfc397c2714",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.6225,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "population. Models revealed that the predictive ability of genetic variants varied across environments, with copy number variants explaining the majority of fitness variation in most cases. Model interpretation showed that different variant types identified distinct gene sets associated with…",
+   "tags": [],
+   "title": "Predictive models of the genetic bases underlying budding yeast fitness in multiple environments.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42582802",
+   "venue": "PubMed"
+  },
+  {
+   "authors": [
+    "Devin K. P. Adair"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Cranial nerves provide afferent pathways that enable bottom-up modulation of central autonomic and cognitive neural pathways. Because these pathways project to brainstem nuclei such as the nucleus tractus solitarius and engage neuromodulatory systems, including the locus coeruleus, electrical stimulation offers a mechanistically grounded approach to influencing brain function. This thesis tested whether active transcutaneous auricular vagus nerve stimulation (taVNS) produces physiological…",
+    "also_in": [
+     {
+      "source": "OpenAlex · technical communication",
+      "url": "https://academicworks.cuny.edu/gc_etds/6819"
+     }
+    ],
+    "citations": 0,
+    "doi": null
+   },
+   "id": "d24f636273a12912",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.6225,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Cranial nerves provide afferent pathways that enable bottom-up modulation of central autonomic and cognitive neural pathways. Because these pathways project to brainstem nuclei such as the nucleus tractus solitarius and engage neuromodulatory systems, including the locus coeruleus, electrical…",
+   "tags": [
+    "systems",
+    "ml-vis"
+   ],
+   "title": "The Cranial Nerves and Electrical Stimulation",
+   "url": "https://academicworks.cuny.edu/gc_etds/6819",
+   "venue": "CUNY Academic Works (City University of New York)"
+  },
+  {
+   "authors": [
+    "X. Q. Wang",
+    "Ran Liu",
+    "Yifan Feng"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Vibrotactile feedback is often used to simulate material properties on interactive surfaces, but less is known about how it can help users interpret visual differences during touchscreen exploration. We present RelicTouch, a finger-worn system that converts image-derived features into movement-contingent vibration. Study 1 was a controlled within-subject experiment (n=20) examining how vibration intensity, stripe spacing, and finger configuration affected haptic--visual congruence and…",
+    "also_in": [
+     {
+      "source": "OpenAlex · technical communication",
+      "url": "https://ualresearchonline.arts.ac.uk/view/creators/Wang=3AXiaosong=3A=3A.html>"
+     }
+    ],
+    "citations": 0,
+    "doi": null
+   },
+   "id": "fe9bbc761933d53a",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.485,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Vibrotactile feedback is often used to simulate material properties on interactive surfaces, but less is known about how it can help users interpret visual differences during touchscreen exploration. We present RelicTouch, a finger-worn system that converts image-derived features into…",
+   "tags": [
+    "systems"
+   ],
+   "title": "RelicTouch: Exploring Fingertip Vibrotactile Feedback for Image Interpretation",
+   "url": "https://ualresearchonline.arts.ac.uk/view/creators/Wang=3AXiaosong=3A=3A.html>",
+   "venue": "University of the Arts London Research Online (University of the Arts London)"
+  },
+  {
+   "authors": [
+    "Quin Armstrong"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Following the 2020 Black Lives Matter and Anti-Police movements, there were many discussions across the nation about possible changes to law enforcement operations. Among these discussions included specific discussions about what to do about law enforcement officers stationed in schools. These law enforcement officers are known as school resource officers, or SROs. The focus of this thesis is specifically on Portland, Oregon’s Portland Public School (PPS) district’s decision to sever ties with…",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "8d9cafb0c95a61c4",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.485,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Following the 2020 Black Lives Matter and Anti-Police movements, there were many discussions across the nation about possible changes to law enforcement operations. Among these discussions included specific discussions about what to do about law enforcement officers stationed in schools. These law…",
+   "tags": [],
+   "title": "The Cross-Section of Empirical Evidence and Personal Experience: A Deeper Look at School Resource Officers Through the Lens of Demarcus A. Jenkins’ Research on the Public Opinion of Their Potential Removal From Public Schools",
+   "url": "https://pdxscholar.library.pdx.edu/honorstheses/1909",
+   "venue": "PDXScholar  (Portland State University)"
+  },
+  {
+   "authors": [
+    "L. Liu",
+    "L. Bogachev",
+    "N. Onyiaji",
+    "L. Čironis",
+    "J. Gyarmati‐Szabó",
+    "R.A. Ruddle"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Evaluating synthetic data produced by generative models remains a critical challenge in sensitive domains such as healthcare and finance. Ensuring that such data is ‘faithful’ to real data is essential for downstream applications and decision-making, including regulatory compliance. This paper introduces an AI-powered interactive visual system—AISyst—designed to assess the fidelity of synthetic tabular datasets. The system supports multilevel comparisons with real datasets, spanning…",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "0ebfb091d61b56ca",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.6225,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Evaluating synthetic data produced by generative models remains a critical challenge in sensitive domains such as healthcare and finance. Ensuring that such data is ‘faithful’ to real data is essential for downstream applications and decision-making, including regulatory compliance. This paper…",
+   "tags": [
+    "systems"
+   ],
+   "title": "AISyst: AI‐Powered Interactive Visual System to Assist With Fidelity Assessment of Synthetic Tabular Data",
+   "url": "https://orcid.org/0000-0002-9236-3380>,",
+   "venue": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)"
+  },
+  {
+   "authors": [
+    "Nancy Lin"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Most high school math classrooms in Long Island use the Texas Instruments TI-84+ CE graphing calculator in the three Regents math courses. Texas Instruments holds approximately 80% of the market share of the international graphing calculator market. At a manufacturer's suggested retail price of $150 per TI-84+ CE, an inequitable situation exists for math learning, as underfunded schools and students from lower socioeconomic backgrounds cannot afford to purchase one for home use. Such students…",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "34eabc15bddd8f96",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.6225,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Most high school math classrooms in Long Island use the Texas Instruments TI-84+ CE graphing calculator in the three Regents math courses. Texas Instruments holds approximately 80% of the market share of the international graphing calculator market. At a manufacturer's suggested retail price of…",
+   "tags": [],
+   "title": "Shifting to Using Desmos or GeoGebra Graphing Calculators in High School Mathematics Classrooms",
+   "url": "https://academicworks.cuny.edu/gc_etds/6826",
+   "venue": "CUNY Academic Works (City University of New York)"
+  },
+  {
+   "authors": [
+    "Antoine Laurent",
+    "Sameer Khurana",
+    "Anthony Larcher",
+    "Dominik Klement",
+    "Mickaël Rouvier",
+    "Santiago Cuervo"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "This report describe the research done during the third ESPERANTO/JSALT workshop from the 10th June 2024 to the 2nd of August 2024.",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "cd75c18d8ed2071c",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.485,
+   "section": "papers",
+   "source": "OpenAlex · technical communication",
+   "source_id": "openalex_techcomm",
+   "summary": "This report describe the research done during the third ESPERANTO/JSALT workshop from the 10th June 2024 to the 2nd of August 2024.",
+   "tags": [],
+   "title": "Universal Audio Generation",
+   "url": "https://hal.science/hal-05110014",
+   "venue": "HAL (Le Centre pour la Communication Scientifique Directe)"
+  },
+  {
+   "authors": [
+    "Gabrielle Selcoe",
+    "Ben Hayes"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "This sequential mixed methods study explored experiences and perceptions of perfectionism in a sample of secondary aged children and adolescents. Phase 1 assessed the relationship between different domains of perfectionism and depression and anxiety in 114 pupils reporting high levels of perfectionism aged between 11-15 years (M= 12.73) attending six secondary schools in two English counties. Phase 2 employed thematic analysis (TA) to explore factors pupils perceived as drivers of their…",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "44c3c30634c0db84",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.6225,
+   "section": "papers",
+   "source": "OpenAlex · technical communication",
+   "source_id": "openalex_techcomm",
+   "summary": "This sequential mixed methods study explored experiences and perceptions of perfectionism in a sample of secondary aged children and adolescents. Phase 1 assessed the relationship between different domains of perfectionism and depression and anxiety in 114 pupils reporting high levels of…",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "Perfectionism: Secondary pupils’ perceptions of pressures contributing to perfectionism, and its relationship with emotional wellbeing",
+   "url": "https://discovery.ucl.ac.uk/id/eprint/10219562/",
+   "venue": "UCL Discovery (University College London)"
+  },
+  {
+   "authors": [
+    "B.J. Gibson",
+    "N. Martin",
+    "B. El‐Dhuwaib",
+    "G. McKenna",
+    "S. Clifford",
+    "A. Lomax"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Introduction This paper describes the development and preliminary validation of the Partial Denture Experience Questionnaire (P-DEQ), a new, condition-specific instrument designed to measure the multifaceted impacts of living with removable dentures. Methods The P-DEQ was developed using a multi-phase, mixed-methods design. Item generation was informed by qualitative interviews (n = 20) with denture wearers in the UK and guided by the World Health Organisation's International Classification of…",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "c9a5523c20ba92de",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.6225,
+   "section": "papers",
+   "source": "OpenAlex · technical communication",
+   "source_id": "openalex_techcomm",
+   "summary": "Introduction This paper describes the development and preliminary validation of the Partial Denture Experience Questionnaire (P-DEQ), a new, condition-specific instrument designed to measure the multifaceted impacts of living with removable dentures. Methods The P-DEQ was developed using a…",
+   "tags": [
+    "ai-writing",
+    "ux"
+   ],
+   "title": "The development and validation of the partial denture experience questionnaire (P-DEQ): reliability and validity",
+   "url": "https://orcid.org/0000-0003-1413-4950>,",
+   "venue": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)"
+  },
+  {
+   "authors": [
+    "S. Yang",
+    "J. Waverley"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "82597ace09e8b8ca",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.485,
+   "section": "papers",
+   "source": "OpenAlex · technical communication",
+   "source_id": "openalex_techcomm",
+   "summary": "",
+   "tags": [],
+   "title": "Influencing differently: how Chinese male beauty influencers develop influencer marketing beyond Silicon Valley",
+   "url": "https://orcid.org/0000-0003-2634-2028>",
+   "venue": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)"
+  },
+  {
+   "authors": [
+    "Michael Lucinda Jane Greer"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Allies have faced several critiques in feminist philosophy. Some have argued that they lack the requisite political interests to be motivated to dismantle the social structures from which they stand to benefit. Others have argued that the epistemic limitations resulting from their social privilege are insurmountable. Yet others have argued that allyship is too individualistic a concept, preferring a more collectivist concept like solidarity. However, there remain privileged individuals who…",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "d205be96f95ea8ce",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.485,
+   "section": "papers",
+   "source": "OpenAlex · technical communication",
+   "source_id": "openalex_techcomm",
+   "summary": "Allies have faced several critiques in feminist philosophy. Some have argued that they lack the requisite political interests to be motivated to dismantle the social structures from which they stand to benefit. Others have argued that the epistemic limitations resulting from their social privilege…",
+   "tags": [],
+   "title": "Allyship and Affect: Qualitative Investigations into Social Transformation",
+   "url": "https://academicworks.cuny.edu/gc_etds/6807",
+   "venue": "CUNY Academic Works (City University of New York)"
+  },
+  {
+   "authors": [
+    "Thomas S. Bryden",
+    "Daniel J. Rogers",
+    "Andrew J. Hutchinson",
+    "Daniel T. Gladwin",
+    "Arman Alahyari",
+    "Tanuj Rawat"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "In this paper, it is demonstrated how the coordinated control of heterogeneous grid-connected Energy Storage Systems (ESSs) can result in increased profits compared to operating the ESSs independently when participating in the UK frequency market. A heterogeneous set of ESSs is made up of varying storage technology types, such as batteries, compressed air, and flywheels. The future mix of grid connected ESS technologies is likely to be increasingly heterogeneous and so effective coordination…",
+    "citations": 0,
+    "doi": "10.1016/j.segan.2026.102476"
+   },
+   "id": "58faa2629bbade4b",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.485,
+   "section": "papers",
+   "source": "OpenAlex · technical communication",
+   "source_id": "openalex_techcomm",
+   "summary": "In this paper, it is demonstrated how the coordinated control of heterogeneous grid-connected Energy Storage Systems (ESSs) can result in increased profits compared to operating the ESSs independently when participating in the UK frequency market. A heterogeneous set of ESSs is made up of varying…",
+   "tags": [],
+   "title": "Coordinated control of heterogeneous grid-connected energy storage systems",
+   "url": "https://research.birmingham.ac.uk/en/publications/67753831-fc15-41d8-b706-6b068af105e0",
+   "venue": "University of Birmingham Research Portal (University of Birmingham)"
+  },
+  {
+   "authors": [
+    "Ferdinal Mensana",
+    "Jefri Setyawan"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "This qualitative study examines work engagement among baristas in franchise and nonfranchise coffee shop ventures in Surabaya, Indonesia, viewed through an entrepreneurial lens on small-business human resource management in the food and beverage (F&B) sector. The Job Demands-Resources (JD-R) model serves as the grand theory explaining how job demands and job resources shape baristas' engagement, while an entrepreneurship perspective is used to extend the model toward understanding how…",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "d96a73afe5ca011d",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.485,
+   "section": "papers",
+   "source": "OpenAlex · technical communication",
+   "source_id": "openalex_techcomm",
+   "summary": "This qualitative study examines work engagement among baristas in franchise and nonfranchise coffee shop ventures in Surabaya, Indonesia, viewed through an entrepreneurial lens on small-business human resource management in the food and beverage (F&B) sector. The Job Demands-Resources (JD-R) model…",
+   "tags": [],
+   "title": "Entrepreneurial Work Engagement among Baristas in Franchise and Nonfranchise Coffee Shop Ventures",
+   "url": "http://repository.ubaya.ac.id/51166/",
+   "venue": "Ubaya Repository (University of Surabaya)"
+  },
+  {
+   "authors": [
+    "Emilien Wansart",
+    "Maxime Goffart",
+    "Benoît Donnet"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "peer reviewed",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "acac68a042c32bf2",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.485,
+   "section": "papers",
+   "source": "OpenAlex · technical communication",
+   "source_id": "openalex_techcomm",
+   "summary": "peer reviewed",
+   "tags": [],
+   "title": "Whole Lotta Holes: A Systematic Security Analysis of IOAM",
+   "url": "https://orbi.uliege.be/handle/2268/347830",
+   "venue": "Open Repository and Bibliography (University of Liège)"
+  },
+  {
+   "authors": [
     "Grigoris Tsopouridis",
     "Ioannis Fudos"
    ],
@@ -14,7 +1069,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-28T13:18:35Z",
-   "score": 0.574,
+   "score": 0.5631,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -49,7 +1104,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-28T11:44:23Z",
-   "score": 0.5706,
+   "score": 0.5599,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -78,7 +1133,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-28T10:20:07Z",
-   "score": 0.5276,
+   "score": 0.5171,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -114,7 +1169,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-28T05:19:43Z",
-   "score": 0.5575,
+   "score": 0.5476,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -152,7 +1207,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-28T02:21:07Z",
-   "score": 0.3593,
+   "score": 0.3497,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -182,7 +1237,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-27T19:32:08Z",
-   "score": 0.3468,
+   "score": 0.338,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -212,7 +1267,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-27T18:58:45Z",
-   "score": 0.3459,
+   "score": 0.3371,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -240,7 +1295,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-27T16:05:33Z",
-   "score": 0.3409,
+   "score": 0.3325,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -272,7 +1327,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-27T14:38:43Z",
-   "score": 0.3385,
+   "score": 0.3302,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -303,7 +1358,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-27T12:36:09Z",
-   "score": 0.2952,
+   "score": 0.2871,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -332,7 +1387,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-27T03:17:55Z",
-   "score": 0.281,
+   "score": 0.2738,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -358,7 +1413,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T17:28:36Z",
-   "score": 0.2677,
+   "score": 0.2612,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -385,7 +1440,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T16:00:01Z",
-   "score": 0.4583,
+   "score": 0.452,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -411,7 +1466,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T13:50:47Z",
-   "score": 0.2631,
+   "score": 0.2569,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -423,8 +1478,8 @@
   }
  ],
  "meta": {
-  "count": 14,
-  "generated_at": "2026-08-31T17:36:13Z",
+  "count": 51,
+  "generated_at": "2026-08-31T22:48:14Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -467,7 +1522,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0741-0883%2Cfrom-created-date%3A2026-08-03&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-08-03&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",

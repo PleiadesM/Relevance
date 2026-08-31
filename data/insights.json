@@ -1,48 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "(\"sheep shearing competition\" OR \"world sheep shearing championship\")",
-  "source": {
-   "name": "echolive.ie",
-   "published_at": "2026-08-25T07:30:00Z",
-   "title": "The Pubs of Cork :  It not always about the drink , it about the cuppa and chat",
-   "url": "https://www.echolive.ie/corklives/arid-41899387.html"
-  },
-  "summaries": {
-   "en": {
-    "summary": "A piece in the Echo explores how Cork's pubs now serve tea and conversation as much as pints, centering on community warmth.",
-    "why_irrelevant": "Local lifestyle content far from global politics, tech, or crisis."
-   },
-   "zh": {
-    "summary": "《回声报》文章称，科克酒吧如今不仅提供啤酒，更以茶和闲聊为核心，展现社区温情。",
-    "why_irrelevant": "本地生活话题，远离政治、科技或危机报道。"
-   }
-  },
-  "topic": "competitive sheep shearing championships"
- },
- "brief": "Today's news is dominated by severe floods in Nepal and the US Grand Canyon, alongside escalating US-Iran tensions and Trump's threats. In research, new papers explore transparency in CAD, AI alignment with Hinduism, and immersive visualization techniques.",
+ "brief": "Today's news is dominated by the US Supreme Court allowing White House ballroom construction, while natural disasters in the Grand Canyon and Nepal draw attention. In research, papers explore brain dynamics, immigration effects, and EU law complexity.",
  "meta": {
-  "generated_at": "2026-08-31T17:36:13Z"
+  "generated_at": "2026-08-31T22:48:14Z"
  },
- "news_summary": "Major stories include catastrophic flooding in Nepal with over 900 dead and many missing, a flash flood at the Grand Canyon, and renewed US-Iran hostilities with Trump threatening further action. Also notable are political developments like the House spending bill and debates over bike path funding.",
- "papers_summary": "Research highlights include a survey on transparency rendering in CAD, a study on aligning generative AI with Hindu theology, and multiple papers on immersive visualization and AR for medical and data analytics applications.",
+ "news_summary": "Key stories include the Supreme Court's 5-4 ruling on the White House ballroom, a fatal stabbing in Times Square, and the FTC's lawsuit against Amazon. Additionally, floods at the Grand Canyon and in Nepal highlight climate change impacts.",
+ "papers_summary": "Research papers cover topics from brain network modeling to the effects of immigration on agriculture in Brazil, and the increasing complexity of EU law.",
  "summaries": {
   "en": {
-   "brief": "Today's news is dominated by severe floods in Nepal and the US Grand Canyon, alongside escalating US-Iran tensions and Trump's threats. In research, new papers explore transparency in CAD, AI alignment with Hinduism, and immersive visualization techniques.",
-   "news_summary": "Major stories include catastrophic flooding in Nepal with over 900 dead and many missing, a flash flood at the Grand Canyon, and renewed US-Iran hostilities with Trump threatening further action. Also notable are political developments like the House spending bill and debates over bike path funding.",
-   "papers_summary": "Research highlights include a survey on transparency rendering in CAD, a study on aligning generative AI with Hindu theology, and multiple papers on immersive visualization and AR for medical and data analytics applications."
+   "brief": "Today's news is dominated by the US Supreme Court allowing White House ballroom construction, while natural disasters in the Grand Canyon and Nepal draw attention. In research, papers explore brain dynamics, immigration effects, and EU law complexity.",
+   "news_summary": "Key stories include the Supreme Court's 5-4 ruling on the White House ballroom, a fatal stabbing in Times Square, and the FTC's lawsuit against Amazon. Additionally, floods at the Grand Canyon and in Nepal highlight climate change impacts.",
+   "papers_summary": "Research papers cover topics from brain network modeling to the effects of immigration on agriculture in Brazil, and the increasing complexity of EU law."
   },
   "zh": {
-   "brief": "今日焦点为NASA罗曼太空望远镜发射，以及尼泊尔洪灾救援与创伤；同时中国在中亚影响力持续上升，区域地缘政治动态值得关注。",
-   "news_summary": "NASA罗曼太空望远镜升空，将革新宇宙观测；尼泊尔洪灾死亡人数超900，救援持续进行，同时一位校长因及时疏散数百名学生获赞。",
-   "papers_summary": "本次无中文论文，但英文研究关注AR/VR在医疗与可视化中的应用，以及生成式AI对齐问题。"
+   "brief": "今日焦點：NASA羅曼太空望遠鏡發射升空，有望改寫宇宙認知；尼泊爾洪災逾900人罹難，校長果斷疏散師生成佳話。研究方面，大腦網絡建模與移民農業影響等論文引發關注。",
+   "news_summary": "NASA的羅曼太空望遠鏡成功發射，將探索暗能量與系外行星；尼泊爾洪災造成嚴重傷亡，但一名校長在洪水來襲前迅速疏散900名師生，避免更大災難。",
+   "papers_summary": "近期研究涵蓋大腦網絡動態建模、氣候變化對併購的影響，以及移民對巴西農業發展的長期效應，為相關領域提供新見解。"
   }
  },
  "todays_image": {
-  "caption": "The same life-saving ingenuity behind a patent lifeboat model drives Nepal’s rescuers to blast through rock, racing time to bring trapped workers safely home.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-2009-5587",
-  "source_name": "National Museum of American History",
-  "source_url": null,
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-2009-5587&max=150",
-  "title": "Patent Model, Life Boat"
+  "caption": "Like the Parus bicolor builds its nest, Trump is feathering his White House ballroom.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m31afc29685a514ac698f12f93ed16b940",
+  "source_name": "NMNH - Vertebrate Zoology - Birds Division",
+  "source_url": "http://n2t.net/ark:/65665/37639ca45-5aff-44f6-ab95-3fc3d2b2efa7",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m31afc29685a514ac698f12f93ed16b940/90",
+  "title": "Parus bicolor"
  }
 }
