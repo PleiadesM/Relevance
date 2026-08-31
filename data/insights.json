@@ -1,20 +1,28 @@
 {
- "brief": "Today's headlines span flash floods in the Grand Canyon and Nepal, US-Iran strikes, and a ferry disaster off Cyprus, while research highlights advances in human-computer interaction and 3D reconstruction.",
+ "brief": "US-Iran strikes escalate in the Strait of Hormuz, while catastrophic floods hit Nepal and the Grand Canyon, highlighting climate risks. Research focuses on AI alignment with religious plurality and immersive visualization techniques.",
  "meta": {
-  "generated_at": "2026-08-31T00:35:21Z"
+  "generated_at": "2026-08-31T08:36:43Z"
  },
- "news_summary": "Major stories include search efforts for missing hikers in the Grand Canyon, flooding in Nepal with thousands missing, US strikes on Iranian launchers, and a ferry capsizing off Cyprus.",
- "papers_summary": "Papers explore immersive visualization, silent speech recognition, and tools for software documentation and education.",
+ "news_summary": "US and Iran exchanged strikes for the first time in weeks, with Iran retaliating against US airbases. Meanwhile, flash floods in Nepal and the Grand Canyon caused deaths and missing persons, and Turkmenistan began fixing methane leaks.",
+ "papers_summary": "Papers explore transparency rendering in CAD, AI alignment with Hinduism, and mixed reality in medical visualization, among other human-computer interaction topics.",
  "summaries": {
   "en": {
-   "brief": "Today's headlines span flash floods in the Grand Canyon and Nepal, US-Iran strikes, and a ferry disaster off Cyprus, while research highlights advances in human-computer interaction and 3D reconstruction.",
-   "news_summary": "Major stories include search efforts for missing hikers in the Grand Canyon, flooding in Nepal with thousands missing, US strikes on Iranian launchers, and a ferry capsizing off Cyprus.",
-   "papers_summary": "Papers explore immersive visualization, silent speech recognition, and tools for software documentation and education."
+   "brief": "US-Iran strikes escalate in the Strait of Hormuz, while catastrophic floods hit Nepal and the Grand Canyon, highlighting climate risks. Research focuses on AI alignment with religious plurality and immersive visualization techniques.",
+   "news_summary": "US and Iran exchanged strikes for the first time in weeks, with Iran retaliating against US airbases. Meanwhile, flash floods in Nepal and the Grand Canyon caused deaths and missing persons, and Turkmenistan began fixing methane leaks.",
+   "papers_summary": "Papers explore transparency rendering in CAD, AI alignment with Hinduism, and mixed reality in medical visualization, among other human-computer interaction topics."
   },
   "zh": {
-   "brief": "今日重点涵盖尼泊尔-西藏洪灾的严重后果与救援困难，以及台湾公视的预算争议；同时，美国对伊朗的新军事行动与大型乌贼交配活动骤减也值得关注。",
-   "news_summary": "尼泊尔与西藏边境的洪灾导致数千人失踪，救援工作因持续降雨受阻；台湾公视的预算与人事问题再次引发朝野争议。",
-   "papers_summary": "今日研究聚焦于沉浸式3D重建、无声语音识别及XR中的情感语音合成等前沿人机交互技术。"
+   "brief": "今日新闻焦点包括尼泊尔洪灾、美国与伊朗的冲突升级，以及台湾公视预算争议；研究方面，多篇论文探讨可视化与人工智能在医疗、宗教等领域的应用。",
+   "news_summary": "尼泊尔洪水造成大量失踪，同时美国与伊朗在霍尔木兹海峡交火；中国审查西藏灾情画面引发关注。",
+   "papers_summary": "多篇论文关注可视化与人工智能，如CAD透明度渲染、AR医疗可视化、生成式AI与宗教对齐等。"
   }
+ },
+ "todays_image": {
+  "caption": "Like Apollo 8's rescue net, the US-Iran strikes show both sides reaching for a safety measure that could still let them slip through.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19700321000_PS01",
+  "source_name": "National Air and Space Museum",
+  "source_url": "http://n2t.net/ark:/65665/nv9bc553881-ab8d-4b7e-a89f-6c034d1ebc0f",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19700321000_PS01",
+  "title": "Rescue Net, Apollo 8"
  }
 }

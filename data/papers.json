@@ -2,6 +2,228 @@
  "items": [
   {
    "authors": [
+    "Grigoris Tsopouridis",
+    "Ioannis Fudos"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "This paper surveys the state of transparency rendering in Computer-Aided Design (CAD), with a focus on both practical deployment in industrial systems and the underlying algorithms. We first review current approaches to transparency rendering in CAD environments and outline application scenarios in which accurate and performant transparency is critical for design inspection, communication, and decision-making. We then analyze the trade-offs between approximate and exact transparency techniques,…",
+    "arxiv_id": "2608.28310"
+   },
+   "id": "a9d64a7e8465605b",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-28T13:18:35Z",
+   "score": 0.5945,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "This paper surveys the state of transparency rendering in Computer-Aided Design (CAD), with a focus on both practical deployment in industrial systems and the underlying algorithms. We first review current approaches to transparency rendering in CAD environments and outline application scenarios in…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Transparency Rendering in Computer-Aided Design: Methodologies, Trade-offs, and Challenges",
+   "url": "https://arxiv.org/abs/2608.28310v1",
+   "venue": "arXiv cs.GR"
+  },
+  {
+   "authors": [
+    "Dipto Das",
+    "Arpita Kundu",
+    "Nusrat Jahan Mim",
+    "Shion Guha",
+    "Syed Ishtiaque Ahmed"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Generative AI systems are increasingly used to answer personal questions and mediate everyday practices, including religion. However, existing discussions around AI alignment and ethics have largely centered secular, Western, and Abrahamic assumptions about religion, offering limited attention to other faith-based traditions. In this paper, we examine how Hindu users engage with generative AI systems in relation to their religious knowledge, belief, and practice. Drawing on 15 semi-structured…",
+    "also_in": [
+     {
+      "source": "arXiv cs.HC (writing & docs)",
+      "url": "https://arxiv.org/abs/2608.28228v1"
+     }
+    ],
+    "arxiv_id": "2608.28228"
+   },
+   "id": "77cd289efb2559c2",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-28T11:44:23Z",
+   "score": 0.5907,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Generative AI systems are increasingly used to answer personal questions and mediate everyday practices, including religion. However, existing discussions around AI alignment and ethics have largely centered secular, Western, and Abrahamic assumptions about religion, offering limited attention to…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Generative AI Alignment with Hinduism's Theological Plurality and Sacred Representation",
+   "url": "https://arxiv.org/abs/2608.28228v1",
+   "venue": "arXiv cs.AI"
+  },
+  {
+   "authors": [
+    "Mary Kong",
+    "Yuqin Zhao",
+    "Semih Vazgecen",
+    "Cristian Sestito",
+    "Themis Prodromakis"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "FPGA-GPP heterogeneous systems combine software flexibility with the performance and energy efficiency of reconfigurable hardware. However, determining which application tasks should execute on the GPP or FPGA requires extensive expertise and design-space exploration, particularly when user objectives vary across latency, communication, resource utilisation, and power. This paper proposes Gen-TAS, a knowledge-grounded LLM framework for user-specific FPGA-GPP task allocation. By combining…",
+    "arxiv_id": "2608.28160"
+   },
+   "id": "fcb3ff64633eab65",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-28T10:20:07Z",
+   "score": 0.5474,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "FPGA-GPP heterogeneous systems combine software flexibility with the performance and energy efficiency of reconfigurable hardware. However, determining which application tasks should execute on the GPP or FPGA requires extensive expertise and design-space exploration, particularly when user…",
+   "tags": [
+    "ai-writing",
+    "ux"
+   ],
+   "title": "Gen-TAS: A Generative AI-Aided Hardware-Software Task Allocation Framework for FPGA-GPP Heterogeneous Systems",
+   "url": "https://arxiv.org/abs/2608.28160v1",
+   "venue": "arXiv cs.AR"
+  },
+  {
+   "authors": [
+    "Xinru Wang",
+    "Zhexuan Ma",
+    "Ming Yin",
+    "Shuai Ma",
+    "Thomas W Malone"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Large Language Models (LLMs) are increasingly equipped with augmented reasoning capabilities to generate rationales that support human decision-making. Yet these text-dense rationales often impose substantial cognitive burdens. Building on a formative co-design study that identified user preferences for non-linear reasoning representations, we developed Graphionale as a testbed for empirically studying argument-map-style rationale visualization. This system transforms linear LLM rationales into…",
+    "also_in": [
+     {
+      "source": "arXiv cs.HC (writing & docs)",
+      "url": "https://arxiv.org/abs/2608.27932v1"
+     }
+    ],
+    "arxiv_id": "2608.27932"
+   },
+   "id": "524e8b4d7e483cef",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-28T05:19:43Z",
+   "score": 0.5761,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Large Language Models (LLMs) are increasingly equipped with augmented reasoning capabilities to generate rationales that support human decision-making. Yet these text-dense rationales often impose substantial cognitive burdens. Building on a formative co-design study that identified user…",
+   "tags": [
+    "ml-vis",
+    "llm",
+    "visualization"
+   ],
+   "title": "Graphionale: How Graph Visualizations of LLM Rationales Affect Human Decision Making",
+   "url": "https://arxiv.org/abs/2608.27932v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Anna L. Chinni",
+    "Md Dilshadur Rahman",
+    "Bon Adriel Aseniero",
+    "Petra Isenberg",
+    "Kushin Mukherjee",
+    "Ghulam Jilani Quadri"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "A common expectation in visualization research is that outcomes recommend how researchers and practitioners take action or make design decisions. We often express these as \"guidelines.\" Yet, the term \"guideline\" is both ambiguous and loosely defined, and what one researcher considers a guideline may be too broad, too loose, or too strict for another. We take a closer look at a broader set of terms that can express desirable results around visualization research, and untangle how these words are…",
+    "also_in": [
+     {
+      "source": "arXiv cs.HC (writing & docs)",
+      "url": "https://arxiv.org/abs/2608.27842v1"
+     }
+    ],
+    "arxiv_id": "2608.27842"
+   },
+   "id": "d6eea0976d897768",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-28T02:21:07Z",
+   "score": 0.3773,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "A common expectation in visualization research is that outcomes recommend how researchers and practitioners take action or make design decisions. We often express these as \"guidelines.\" Yet, the term \"guideline\" is both ambiguous and loosely defined, and what one researcher considers a guideline…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Guidelines Are Not Rules: Characterizing Terminologies around Visualization Design Guidelines",
+   "url": "https://arxiv.org/abs/2608.27842v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Xinrui Zou",
+    "Mingxu Liu",
+    "Hongchao Shu",
+    "Ruixing Liang",
+    "Mathias Unberath",
+    "Alejandro Martin-Gomez"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "The discovery and evolution of medical imaging technologies have enabled non-invasive visualization of internal anatomy that has be- come essential for supporting diagnosis, monitoring, and treatment. However, because medical imaging relies on complex physical processes and contrast mechanisms for image formation, imaging alone is not sufficient to enable humans to leverage the resulting in- formation fully. In addition, traditional methods to visualize the resulting information use…",
+    "arxiv_id": "2608.27644"
+   },
+   "id": "f108f84c652abeae",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-27T19:32:08Z",
+   "score": 0.3634,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "The discovery and evolution of medical imaging technologies have enabled non-invasive visualization of internal anatomy that has be- come essential for supporting diagnosis, monitoring, and treatment. However, because medical imaging relies on complex physical processes and contrast mechanisms for…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "The Role of Mixed and Augmented Reality in Medical Visualization: Literature Review and A Context-Aware Taxonomy",
+   "url": "https://arxiv.org/abs/2608.27644v1",
+   "venue": "arXiv cs.GR"
+  },
+  {
+   "authors": [
+    "Xinrui Zou",
+    "Mingxu Liu",
+    "Thomas T. Jones",
+    "Braden Millan",
+    "Sandeep Gurram",
+    "Peter A. Pinto"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Despite the apparent simplicity of the motor action involved during percutaneous needle procedures, manipulating the tool's direction becomes challenging when clinicians cannot directly visualize internal anatomy and must rely on ultrasound images, which increase cognitive demand. Augmented reality (AR) offers the promise to assist with these tasks by providing pertinent visual information in the clinician's field of view. However, simply providing visual information that ignores meaningful…",
+    "arxiv_id": "2608.27620"
+   },
+   "id": "5f1a62261ea422b6",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-27T18:58:45Z",
+   "score": 0.3624,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Despite the apparent simplicity of the motor action involved during percutaneous needle procedures, manipulating the tool's direction becomes challenging when clinicians cannot directly visualize internal anatomy and must rely on ultrasound images, which increase cognitive demand. Augmented reality…",
+   "tags": [],
+   "title": "Visual Cue Interactions in AR-Guided Needle Insertion: A Prostate Biopsy-Inspired Phantom Study",
+   "url": "https://arxiv.org/abs/2608.27620v1",
+   "venue": "arXiv cs.GR"
+  },
+  {
+   "authors": [
     "Brian De La Cruz",
     "Aaron Y. Zhao",
     "Maitrey Gramopadhye",
@@ -18,7 +240,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-27T16:05:33Z",
-   "score": 0.3726,
+   "score": 0.3569,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -50,7 +272,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-27T14:38:43Z",
-   "score": 0.3696,
+   "score": 0.3542,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -81,7 +303,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-27T12:36:09Z",
-   "score": 0.3256,
+   "score": 0.3105,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -110,7 +332,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-27T03:17:55Z",
-   "score": 0.3082,
+   "score": 0.2947,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -136,7 +358,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T17:28:36Z",
-   "score": 0.2919,
+   "score": 0.2798,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -163,7 +385,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T16:00:01Z",
-   "score": 0.4821,
+   "score": 0.4703,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -189,7 +411,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-26T13:50:47Z",
-   "score": 0.2863,
+   "score": 0.2748,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -198,164 +420,17 @@
    "title": "Simultaneous Digital Communication and Deformation Sensing over a Single Stretchable Interconnect",
    "url": "https://arxiv.org/abs/2608.25801v1",
    "venue": "arXiv cs.ET"
-  },
-  {
-   "authors": [
-    "Alessandro Bogani",
-    "Nicola Debole",
-    "Emanuele Marconato",
-    "Andrea Pugnana",
-    "Katya Tentori",
-    "Andrea Passerini"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Concept Bottleneck Models (CBMs) are interpretable-by-design neural networks that detect human-understandable concepts from the input and use them to generate predictions. By allowing users to inspect the concepts underlying a prediction and explore how predictions change under alternative concept configurations, CBMs have emerged as one of the most prominent approaches to supporting human-AI collaboration. However, user studies investigating their actual effectiveness as decision-support…",
-    "arxiv_id": "2608.25581"
-   },
-   "id": "c86167c6aa083387",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-26T09:42:44Z",
-   "score": 0.2802,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Concept Bottleneck Models (CBMs) are interpretable-by-design neural networks that detect human-understandable concepts from the input and use them to generate predictions. By allowing users to inspect the concepts underlying a prediction and explore how predictions change under alternative concept…",
-   "tags": [
-    "ux"
-   ],
-   "title": "Are Concept Bottleneck Models Effective as Decision-Support Systems?",
-   "url": "https://arxiv.org/abs/2608.25581v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Yuexin Sun",
-    "Zhaohui Wang",
-    "Ruiyang Liu",
-    "Demian Kong",
-    "Qian He",
-    "Gaofeng He"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Experience-driven manufacturing, such as garment pattern making, faces a severe generational skills gap because its core expertise relies on undocumented tacit knowledge forged through day-to-day practice. To address this challenge, we present TailorCoPilot, an agentic pattern-making system built upon a specially designed version-control backend TailorTrace. TailorTrace models sewing patterns as structured, discrete states and records their transformations during the pattern-making process as…",
-    "arxiv_id": "2608.25462"
-   },
-   "id": "bdb3d7fbab853678",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-26T07:29:16Z",
-   "score": 0.4696,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Experience-driven manufacturing, such as garment pattern making, faces a severe generational skills gap because its core expertise relies on undocumented tacit knowledge forged through day-to-day practice. To address this challenge, we present TailorCoPilot, an agentic pattern-making system built…",
-   "tags": [
-    "ai-writing"
-   ],
-   "title": "TailorCoPilot: Enabling Agentic Pattern Making with Version-Controlled State Tracking",
-   "url": "https://arxiv.org/abs/2608.25462v2",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Arun-Balajiee Lekshmi-Narayanan",
-    "Mohammad Hassany",
-    "Kamil Akhuseyinoglu",
-    "Rully Hendrawan",
-    "Peter Brusilovsky"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Worked examples are a important part of introductory programming, but reading their expert explanations is passive. Self explanation, students explaining the problem and its solution to themselves with subgoal level analysis, turns that study into an active task, yet it is hard to scale because assessing free-text explanations and returning timely feedback has had no easy automated solution. We investigate whether a large language model (LLM) can fill that gap. We build a self-explanation tutor…",
-    "arxiv_id": "2608.25180"
-   },
-   "id": "89eb708837cf0f58",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-25T21:54:47Z",
-   "score": 0.457,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Worked examples are a important part of introductory programming, but reading their expert explanations is passive. Self explanation, students explaining the problem and its solution to themselves with subgoal level analysis, turns that study into an active task, yet it is hard to scale because…",
-   "tags": [
-    "pedagogy",
-    "ai-writing"
-   ],
-   "title": "Self-Explanation Tutor for Active Study of CS1 Worked Examples",
-   "url": "https://arxiv.org/abs/2608.25180v1",
-   "venue": "arXiv cs.CY"
-  },
-  {
-   "authors": [
-    "Shadmaan Hye",
-    "Andrew M. McNutt",
-    "Katherine E. Isaacs"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Color discrimination is a fundamental aspect of visualization as it influences how people interpret visual encodings. Many visualization guidelines are informed by perceptual studies, yet relatively few have been replicated. Acknowledging that the interaction between human perception, visual tasks, and display technology can change over time, we replicate two crowdsourced color discrimination studies conducted 10 years earlier. Specifically, we replicated a visualization-focused color…",
-    "arxiv_id": "2608.24789"
-   },
-   "id": "b10e8ba91644310e",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-25T16:35:42Z",
-   "score": 0.2981,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Color discrimination is a fundamental aspect of visualization as it influences how people interpret visual encodings. Many visualization guidelines are informed by perceptual studies, yet relatively few have been replicated. Acknowledging that the interaction between human perception, visual tasks,…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "Ten Years Later: Replicating Two Color Discrimination Studies",
-   "url": "https://arxiv.org/abs/2608.24789v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Xiaotian Zhang",
-    "Huayuan Ye",
-    "Haiyang Zhang",
-    "Chenhui Li",
-    "Changbo Wang",
-    "Sicheng Song"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Data visualizations are widely used for communicating information, but they are also vulnerable to intentional manipulations that induce misleading interpretations. Existing methods focus on locating tampered regions or recovering hidden information, without explaining how the visualization has been manipulated or why the resulting changes may mislead viewers. We propose \\textbf{VizAnchor}, a framework for visualization manipulation understanding through dual-anchor evidence construction and…",
-    "arxiv_id": "2608.24535"
-   },
-   "id": "2a99aa2ee792d235",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-25T13:20:27Z",
-   "score": 0.6268,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Data visualizations are widely used for communicating information, but they are also vulnerable to intentional manipulations that induce misleading interpretations. Existing methods focus on locating tampered regions or recovering hidden information, without explaining how the visualization has…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "VizAnchor: Decoding Manipulation Intent from Tampering Visualizations via Dual-Anchor Reasoning",
-   "url": "https://arxiv.org/abs/2608.24535v1",
-   "venue": "arXiv cs.CV"
   }
  ],
  "meta": {
-  "count": 12,
-  "generated_at": "2026-08-31T00:35:21Z",
+  "count": 14,
+  "generated_at": "2026-08-31T08:36:43Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
    {
     "category": "optional",
-    "count": 4,
+    "count": 8,
     "error": null,
     "full_text_count": 0,
     "id": "arxiv_datavis",
@@ -367,7 +442,7 @@
    },
    {
     "category": "optional",
-    "count": 50,
+    "count": 0,
     "error": null,
     "full_text_count": 0,
     "id": "openalex_datavis",
@@ -392,7 +467,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A1050-6519%2Cfrom-created-date%3A2026-08-03&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-08-03&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
@@ -403,7 +478,7 @@
    },
    {
     "category": "optional",
-    "count": 40,
+    "count": 0,
     "error": null,
     "full_text_count": 0,
     "id": "openalex_techcomm",
@@ -415,7 +490,7 @@
    },
    {
     "category": "optional",
-    "count": 8,
+    "count": 9,
     "error": null,
     "full_text_count": 0,
     "id": "arxiv_hci_writing",
