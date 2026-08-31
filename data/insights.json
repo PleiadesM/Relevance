@@ -1,28 +1,48 @@
 {
- "brief": "US-Iran strikes escalate in the Strait of Hormuz, while catastrophic floods hit Nepal and the Grand Canyon, highlighting climate risks. Research focuses on AI alignment with religious plurality and immersive visualization techniques.",
- "meta": {
-  "generated_at": "2026-08-31T08:36:43Z"
+ "apropos_of_nothing": {
+  "query": "(\"sheep shearing competition\" OR \"world sheep shearing championship\")",
+  "source": {
+   "name": "echolive.ie",
+   "published_at": "2026-08-25T07:30:00Z",
+   "title": "The Pubs of Cork :  It not always about the drink , it about the cuppa and chat",
+   "url": "https://www.echolive.ie/corklives/arid-41899387.html"
+  },
+  "summaries": {
+   "en": {
+    "summary": "A piece in the Echo explores how Cork's pubs now serve tea and conversation as much as pints, centering on community warmth.",
+    "why_irrelevant": "Local lifestyle content far from global politics, tech, or crisis."
+   },
+   "zh": {
+    "summary": "《回声报》文章称，科克酒吧如今不仅提供啤酒，更以茶和闲聊为核心，展现社区温情。",
+    "why_irrelevant": "本地生活话题，远离政治、科技或危机报道。"
+   }
+  },
+  "topic": "competitive sheep shearing championships"
  },
- "news_summary": "US and Iran exchanged strikes for the first time in weeks, with Iran retaliating against US airbases. Meanwhile, flash floods in Nepal and the Grand Canyon caused deaths and missing persons, and Turkmenistan began fixing methane leaks.",
- "papers_summary": "Papers explore transparency rendering in CAD, AI alignment with Hinduism, and mixed reality in medical visualization, among other human-computer interaction topics.",
+ "brief": "Today's news is dominated by severe floods in Nepal and the US Grand Canyon, alongside escalating US-Iran tensions and Trump's threats. In research, new papers explore transparency in CAD, AI alignment with Hinduism, and immersive visualization techniques.",
+ "meta": {
+  "generated_at": "2026-08-31T17:36:13Z"
+ },
+ "news_summary": "Major stories include catastrophic flooding in Nepal with over 900 dead and many missing, a flash flood at the Grand Canyon, and renewed US-Iran hostilities with Trump threatening further action. Also notable are political developments like the House spending bill and debates over bike path funding.",
+ "papers_summary": "Research highlights include a survey on transparency rendering in CAD, a study on aligning generative AI with Hindu theology, and multiple papers on immersive visualization and AR for medical and data analytics applications.",
  "summaries": {
   "en": {
-   "brief": "US-Iran strikes escalate in the Strait of Hormuz, while catastrophic floods hit Nepal and the Grand Canyon, highlighting climate risks. Research focuses on AI alignment with religious plurality and immersive visualization techniques.",
-   "news_summary": "US and Iran exchanged strikes for the first time in weeks, with Iran retaliating against US airbases. Meanwhile, flash floods in Nepal and the Grand Canyon caused deaths and missing persons, and Turkmenistan began fixing methane leaks.",
-   "papers_summary": "Papers explore transparency rendering in CAD, AI alignment with Hinduism, and mixed reality in medical visualization, among other human-computer interaction topics."
+   "brief": "Today's news is dominated by severe floods in Nepal and the US Grand Canyon, alongside escalating US-Iran tensions and Trump's threats. In research, new papers explore transparency in CAD, AI alignment with Hinduism, and immersive visualization techniques.",
+   "news_summary": "Major stories include catastrophic flooding in Nepal with over 900 dead and many missing, a flash flood at the Grand Canyon, and renewed US-Iran hostilities with Trump threatening further action. Also notable are political developments like the House spending bill and debates over bike path funding.",
+   "papers_summary": "Research highlights include a survey on transparency rendering in CAD, a study on aligning generative AI with Hindu theology, and multiple papers on immersive visualization and AR for medical and data analytics applications."
   },
   "zh": {
-   "brief": "今日新闻焦点包括尼泊尔洪灾、美国与伊朗的冲突升级，以及台湾公视预算争议；研究方面，多篇论文探讨可视化与人工智能在医疗、宗教等领域的应用。",
-   "news_summary": "尼泊尔洪水造成大量失踪，同时美国与伊朗在霍尔木兹海峡交火；中国审查西藏灾情画面引发关注。",
-   "papers_summary": "多篇论文关注可视化与人工智能，如CAD透明度渲染、AR医疗可视化、生成式AI与宗教对齐等。"
+   "brief": "今日焦点为NASA罗曼太空望远镜发射，以及尼泊尔洪灾救援与创伤；同时中国在中亚影响力持续上升，区域地缘政治动态值得关注。",
+   "news_summary": "NASA罗曼太空望远镜升空，将革新宇宙观测；尼泊尔洪灾死亡人数超900，救援持续进行，同时一位校长因及时疏散数百名学生获赞。",
+   "papers_summary": "本次无中文论文，但英文研究关注AR/VR在医疗与可视化中的应用，以及生成式AI对齐问题。"
   }
  },
  "todays_image": {
-  "caption": "Like Apollo 8's rescue net, the US-Iran strikes show both sides reaching for a safety measure that could still let them slip through.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19700321000_PS01",
-  "source_name": "National Air and Space Museum",
-  "source_url": "http://n2t.net/ark:/65665/nv9bc553881-ab8d-4b7e-a89f-6c034d1ebc0f",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19700321000_PS01",
-  "title": "Rescue Net, Apollo 8"
+  "caption": "The same life-saving ingenuity behind a patent lifeboat model drives Nepal’s rescuers to blast through rock, racing time to bring trapped workers safely home.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-2009-5587",
+  "source_name": "National Museum of American History",
+  "source_url": null,
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-2009-5587&max=150",
+  "title": "Patent Model, Life Boat"
  }
 }

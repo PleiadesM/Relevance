@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T08:36:43Z",
+ "generated_at": "2026-08-31T17:36:13Z",
  "private_summary": {
   "configured": 0,
   "total": 0
@@ -79,12 +79,12 @@
   },
   {
    "category": "open",
-   "count": 20,
-   "error": null,
-   "full_text_count": 20,
+   "count": 0,
+   "error": "403 Client Error: Forbidden for url: https://arstechnica.com/ai/feed/",
+   "full_text_count": 0,
    "id": "ars_ai",
    "name": "Ars Technica · AI",
-   "ok": true,
+   "ok": false,
    "section": "news",
    "skip_reason": null,
    "type": "rss"
@@ -115,7 +115,7 @@
   },
   {
    "category": "open",
-   "count": 30,
+   "count": 26,
    "error": null,
    "full_text_count": 0,
    "id": "bbc_world",
@@ -151,7 +151,7 @@
   },
   {
    "category": "open",
-   "count": 12,
+   "count": 19,
    "error": null,
    "full_text_count": 0,
    "id": "nyt_homepage",
@@ -163,7 +163,7 @@
   },
   {
    "category": "open",
-   "count": 38,
+   "count": 42,
    "error": null,
    "full_text_count": 0,
    "id": "bbc_zhongwen",
@@ -187,7 +187,7 @@
   },
   {
    "category": "optional",
-   "count": 0,
+   "count": 50,
    "error": null,
    "full_text_count": 0,
    "id": "openalex_datavis",
@@ -212,7 +212,7 @@
   {
    "category": "optional",
    "count": 0,
-   "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-08-03&rows=12&sort=created&order=desc",
+   "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0741-0883%2Cfrom-created-date%3A2026-08-03&rows=12&sort=created&order=desc",
    "full_text_count": 0,
    "id": "crossref_techcomm_journals",
    "name": "TechComm journals (CrossRef)",
@@ -223,7 +223,7 @@
   },
   {
    "category": "optional",
-   "count": 0,
+   "count": 40,
    "error": null,
    "full_text_count": 0,
    "id": "openalex_techcomm",
