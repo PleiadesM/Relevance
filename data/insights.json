@@ -1,28 +1,20 @@
 {
- "brief": "Today's news spans tragic disasters from ferry capsizing in Cyprus to floods in Nepal and China, alongside political tensions and notable sports retirements. In research, advances in immersive technologies and human-computer interaction take center stage.",
+ "brief": "Today's headlines span flash floods in the Grand Canyon and Nepal, US-Iran strikes, and a ferry disaster off Cyprus, while research highlights advances in human-computer interaction and 3D reconstruction.",
  "meta": {
-  "generated_at": "2026-08-30T21:01:53Z"
+  "generated_at": "2026-08-31T00:35:21Z"
  },
- "news_summary": "The news features disasters including a ferry capsizing off Cyprus and deadly floods in Nepal and Tibet causing many deaths and missing persons, alongside political stories like Trump's threats against a journalist and Canada-US lake naming spat, plus sports news of Aaron Donald's return and Tony Mundine's death.",
- "papers_summary": "Research highlights include improvements in 3D reconstruction for holographic displays, design of immersive egocentric network visualizations, and developments in silent speech recognition and emotional TTS systems for XR.",
+ "news_summary": "Major stories include search efforts for missing hikers in the Grand Canyon, flooding in Nepal with thousands missing, US strikes on Iranian launchers, and a ferry capsizing off Cyprus.",
+ "papers_summary": "Papers explore immersive visualization, silent speech recognition, and tools for software documentation and education.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans tragic disasters from ferry capsizing in Cyprus to floods in Nepal and China, alongside political tensions and notable sports retirements. In research, advances in immersive technologies and human-computer interaction take center stage.",
-   "news_summary": "The news features disasters including a ferry capsizing off Cyprus and deadly floods in Nepal and Tibet causing many deaths and missing persons, alongside political stories like Trump's threats against a journalist and Canada-US lake naming spat, plus sports news of Aaron Donald's return and Tony Mundine's death.",
-   "papers_summary": "Research highlights include improvements in 3D reconstruction for holographic displays, design of immersive egocentric network visualizations, and developments in silent speech recognition and emotional TTS systems for XR."
+   "brief": "Today's headlines span flash floods in the Grand Canyon and Nepal, US-Iran strikes, and a ferry disaster off Cyprus, while research highlights advances in human-computer interaction and 3D reconstruction.",
+   "news_summary": "Major stories include search efforts for missing hikers in the Grand Canyon, flooding in Nepal with thousands missing, US strikes on Iranian launchers, and a ferry capsizing off Cyprus.",
+   "papers_summary": "Papers explore immersive visualization, silent speech recognition, and tools for software documentation and education."
   },
   "zh": {
-   "brief": "今日焦點集中在尼泊爾與西藏的洪災與泥石流災難，死亡與失蹤人數攀升，而官方媒體畫面審查引發關注；同時，美國與加拿大的命名爭端、NASA新望遠鏡發射等國際新聞亦受矚目。研究方面，多篇論文探討沉浸式技術、人機互動與文件撰寫的創新方法。",
-   "news_summary": "尼泊爾與西藏的洪災造成數百人死亡，數千人失蹤，英國公民亦有失蹤，中國官方媒體審查災情畫面引發質疑。此外，澳洲烏賊交配活動銳減、Dolly Parton的圖書計畫等故事亦受關注。",
-   "papers_summary": "多篇arXiv論文聚焦於沉浸式視覺化、3D重建、情感語音合成等技術，並探討文件審查、遊戲社群及可伸展介面等主題，展現人機互動領域的多元進展。"
+   "brief": "今日重点涵盖尼泊尔-西藏洪灾的严重后果与救援困难，以及台湾公视的预算争议；同时，美国对伊朗的新军事行动与大型乌贼交配活动骤减也值得关注。",
+   "news_summary": "尼泊尔与西藏边境的洪灾导致数千人失踪，救援工作因持续降雨受阻；台湾公视的预算与人事问题再次引发朝野争议。",
+   "papers_summary": "今日研究聚焦于沉浸式3D重建、无声语音识别及XR中的情感语音合成等前沿人机交互技术。"
   }
- },
- "todays_image": {
-  "caption": "The hawk's-beard's barbed, wind-scattered seeds mirror the deportees' forced uprooting and harsh exile across the ocean.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3c5c5adab287f44a982fdf56d3d735b3f",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3de345da3-b2e9-49c1-b88d-5a03d8a3c7a6",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3c5c5adab287f44a982fdf56d3d735b3f/90",
-  "title": "Crepis barbigera Leiberg"
  }
 }
