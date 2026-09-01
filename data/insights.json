@@ -1,28 +1,48 @@
 {
- "brief": "Today's news is dominated by the US Supreme Court allowing White House ballroom construction, while natural disasters in the Grand Canyon and Nepal draw attention. In research, papers explore brain dynamics, immigration effects, and EU law complexity.",
- "meta": {
-  "generated_at": "2026-08-31T22:48:14Z"
+ "apropos_of_nothing": {
+  "query": "cheese rolling championship OR Gloucester cheese rolling",
+  "source": {
+   "name": "BBC",
+   "published_at": "2026-08-05T07:00:00Z",
+   "title": "Watch: Bike gang jailed for attack on rival",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE01LUJGYkhZSjhOb3VRaEpnaURxZHdaaTJiX2VGWDY1dFB5WFV5c0l4UEtJSFBXS1ZCNzdmQ1g2Z3V5ZDNXc2pqbjNyeVctekdrYl9Ecmx3SQ?oc=5"
+  },
+  "summaries": {
+   "en": {
+    "summary": "A bike gang in the UK was jailed for attacking a rival group, a story of violence and legal consequences.",
+    "why_irrelevant": "Far from your usual topics, involving crime and local news."
+   },
+   "zh": {
+    "summary": "英国一自行车团伙因袭击对手而入狱，涉及暴力与法律后果。",
+    "why_irrelevant": "涉及犯罪与地方新闻，与你的日常话题相去甚远。"
+   }
+  },
+  "topic": "competitive cheese rolling"
  },
- "news_summary": "Key stories include the Supreme Court's 5-4 ruling on the White House ballroom, a fatal stabbing in Times Square, and the FTC's lawsuit against Amazon. Additionally, floods at the Grand Canyon and in Nepal highlight climate change impacts.",
- "papers_summary": "Research papers cover topics from brain network modeling to the effects of immigration on agriculture in Brazil, and the increasing complexity of EU law.",
+ "brief": "Today's news spans from high-profile murder convictions and military resignations to environmental and infrastructure crises, while research highlights brain dynamics and agricultural impacts of immigration.",
+ "meta": {
+  "generated_at": "2026-09-01T05:03:17Z"
+ },
+ "news_summary": "Notable events include the conviction in Tupac Shakur's murder, the resignation of Army Secretary Dan Driscoll, and the Nepal flood disaster with hundreds trapped, alongside lighter stories like the kākāpō population boom and Madrid's F1 circuit controversy.",
+ "papers_summary": "Research papers cover topics from neural mass models in brain networks to the effects of immigration on Brazil's agriculture, with a scoping review on research gap frameworks.",
  "summaries": {
   "en": {
-   "brief": "Today's news is dominated by the US Supreme Court allowing White House ballroom construction, while natural disasters in the Grand Canyon and Nepal draw attention. In research, papers explore brain dynamics, immigration effects, and EU law complexity.",
-   "news_summary": "Key stories include the Supreme Court's 5-4 ruling on the White House ballroom, a fatal stabbing in Times Square, and the FTC's lawsuit against Amazon. Additionally, floods at the Grand Canyon and in Nepal highlight climate change impacts.",
-   "papers_summary": "Research papers cover topics from brain network modeling to the effects of immigration on agriculture in Brazil, and the increasing complexity of EU law."
+   "brief": "Today's news spans from high-profile murder convictions and military resignations to environmental and infrastructure crises, while research highlights brain dynamics and agricultural impacts of immigration.",
+   "news_summary": "Notable events include the conviction in Tupac Shakur's murder, the resignation of Army Secretary Dan Driscoll, and the Nepal flood disaster with hundreds trapped, alongside lighter stories like the kākāpō population boom and Madrid's F1 circuit controversy.",
+   "papers_summary": "Research papers cover topics from neural mass models in brain networks to the effects of immigration on Brazil's agriculture, with a scoping review on research gap frameworks."
   },
   "zh": {
-   "brief": "今日焦點：NASA羅曼太空望遠鏡發射升空，有望改寫宇宙認知；尼泊爾洪災逾900人罹難，校長果斷疏散師生成佳話。研究方面，大腦網絡建模與移民農業影響等論文引發關注。",
-   "news_summary": "NASA的羅曼太空望遠鏡成功發射，將探索暗能量與系外行星；尼泊爾洪災造成嚴重傷亡，但一名校長在洪水來襲前迅速疏散900名師生，避免更大災難。",
-   "papers_summary": "近期研究涵蓋大腦網絡動態建模、氣候變化對併購的影響，以及移民對巴西農業發展的長期效應，為相關領域提供新見解。"
+   "brief": "今天的新聞焦點在尼泊爾洪災的持續救援與嚴重傷亡，以及NASA新望遠鏡的發射；論文方面則涵蓋大腦網絡動態、氣候變遷與併購等多元研究。",
+   "news_summary": "尼泊爾洪災死亡人數已超過900人，數百名水力發電工人仍受困隧道，救援工作持續進行；同時，NASA的羅曼太空望遠鏡成功發射，將有助於改寫我們對宇宙的理解。",
+   "papers_summary": "近期研究包括大腦網絡的湧現動態、氣候變遷對企業併購的影響，以及移民對巴西農業發展的效應等，展現了從神經科學到經濟學的多元領域探索。"
   }
  },
  "todays_image": {
-  "caption": "Like the Parus bicolor builds its nest, Trump is feathering his White House ballroom.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m31afc29685a514ac698f12f93ed16b940",
-  "source_name": "NMNH - Vertebrate Zoology - Birds Division",
-  "source_url": "http://n2t.net/ark:/65665/37639ca45-5aff-44f6-ab95-3fc3d2b2efa7",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m31afc29685a514ac698f12f93ed16b940/90",
-  "title": "Parus bicolor"
+  "caption": "The hawk-headed parrot’s fierce stare and powerful beak loosely echo today’s charged confrontations over diplomatic “bullying” and police use of force.",
+  "image_url": "http://ids.si.edu/ids/deliveryService?id=NZP-20181114-4286SB",
+  "source_name": "Smithsonian's National Zoo & Conservation Biology Institute",
+  "source_url": "https://nationalzoo.si.edu/object/nzp_NZP-20181114-4286SB",
+  "thumbnail_url": "http://ids.si.edu/ids/deliveryService?max=90&id=NZP-20181114-4286SB",
+  "title": "Hawk-headed Parrot"
  }
 }
