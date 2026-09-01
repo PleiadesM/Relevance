@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T11:35:50Z",
+ "generated_at": "2026-09-01T16:36:28Z",
  "private_summary": {
   "configured": 0,
   "total": 0
@@ -115,7 +115,7 @@
   },
   {
    "category": "open",
-   "count": 38,
+   "count": 42,
    "error": null,
    "full_text_count": 0,
    "id": "bbc_world",
@@ -151,7 +151,7 @@
   },
   {
    "category": "open",
-   "count": 24,
+   "count": 22,
    "error": null,
    "full_text_count": 0,
    "id": "nyt_homepage",
@@ -175,12 +175,12 @@
   },
   {
    "category": "optional",
-   "count": 9,
-   "error": null,
+   "count": 0,
+   "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60",
    "full_text_count": 0,
    "id": "arxiv_datavis",
    "name": "arXiv cs.HC + cs.GR",
-   "ok": true,
+   "ok": false,
    "section": "papers",
    "skip_reason": null,
    "type": "arxiv"
@@ -235,12 +235,12 @@
   },
   {
    "category": "optional",
-   "count": 10,
-   "error": null,
+   "count": 0,
+   "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC&sortBy=submittedDate&sortOrder=descending&max_results=40",
    "full_text_count": 0,
    "id": "arxiv_hci_writing",
    "name": "arXiv cs.HC (writing & docs)",
-   "ok": true,
+   "ok": false,
    "section": "papers",
    "skip_reason": null,
    "type": "arxiv"

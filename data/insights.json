@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "oyster shucking championship OR world oyster opening contest",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "The BayNet",
-   "published_at": "2026-08-31T17:28:03Z",
-   "title": "60 Years Of Shucking For A Cause: U.S. Oyster Festival Gives Back Across St. Mary’s",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMVk0RlZ3TDk3RVA5TjFGYlIwM3BWUFdVczlsWnVidlFpdkdJbFpFakFKQ1U2R0cwWW5ZUG1iV3dzQXZTM25IcmtyenJ2aFN1RktOdTBuSG9KdXhSaV9nUFFnRF9MUUh4d2NnTThHd09LTlFOSy0tWEZ2Qk1qanpvMTBURmZfY0hQM0RuYUdwNWEwUENaOExsRE84cS01b25ibFVpNQ?oc=5"
+   "name": "abnews.ru",
+   "published_at": "2026-08-31T07:30:00Z",
+   "title": "Гигантскую тыкву в Астраханской области торжественно взвесят 5 сентября",
+   "url": "https://abnews.ru/ug/news/astrakhan/2026/8/31/v-astrahanskom-pitomnike-sozrevaet-gigantskaya-tykva-k-festivalyu-kraski-oseni-gigantskuyu-tykvu-v-astrahanskoj-oblasti-torzhestvenno-vzvesyat-5-sentyabrya"
   },
   "summaries": {
    "en": {
-    "summary": "The U.S. Oyster Festival marks its 60th year of charitable shucking in St. Mary's County, celebrating community giving through oyster-related events.",
-    "why_irrelevant": "A local festival story far removed from the user's tech and politics feed."
+    "summary": "A colossal pumpkin in Russia's Astrakhan region is set to be ceremoniously weighed on September 5.",
+    "why_irrelevant": "It's a niche agricultural event unlikely to appear in a general feed."
    },
    "zh": {
-    "summary": "美国牡蛎节在圣玛丽县迎来第60届，通过牡蛎相关活动回馈社区。",
-    "why_irrelevant": "本地节日故事，远离用户关注的科技与政治。"
+    "summary": "俄罗斯阿斯特拉罕地区的一只巨型南瓜将于9月5日举行隆重称重仪式。",
+    "why_irrelevant": "这是一个小众农业活动，不太可能出现在常规信息流中。"
    }
   },
-  "topic": "competitive oyster shucking"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Global bond markets are under strain, and political reshuffles and legal verdicts dominate the news, while research highlights brain dynamics and EU legal complexity.",
+ "brief": "Today's news is dominated by geopolitical tensions, with incidents in the Falklands, Germany, Iran, and the Strait of Hormuz, alongside domestic political shifts in the UK and US. Research highlights include studies on brain dynamics, immigration's economic impact, and EU legal complexity.",
  "meta": {
-  "generated_at": "2026-09-01T11:35:50Z"
+  "generated_at": "2026-09-01T16:36:28Z"
  },
- "news_summary": "Global bond sell-off raises borrowing costs, with UK yields at 28-year highs; SCOTUS allows Trump's ballroom project, Army Secretary resigns, and Tupac's murderer is convicted.",
- "papers_summary": "Papers cover brain network dynamics, immigration's agricultural impact, and EU law complexity, offering insights into neural systems and policy evolution.",
+ "news_summary": "Geopolitical flashpoints include the Falklands status review, Russian-linked sabotage in Germany, and tanker attacks near Oman. US political news features Trump's surveillance concerns, a Times Square stabbing, and economic warfare threats, while UK sees a new PM's first address and a donation to a hard-right party.",
+ "papers_summary": "Research spans neuroscience (brain network dynamics, face recognition), climate-finance links, EU legal complexity, and historical immigration effects, offering diverse academic insights.",
  "summaries": {
   "en": {
-   "brief": "Global bond markets are under strain, and political reshuffles and legal verdicts dominate the news, while research highlights brain dynamics and EU legal complexity.",
-   "news_summary": "Global bond sell-off raises borrowing costs, with UK yields at 28-year highs; SCOTUS allows Trump's ballroom project, Army Secretary resigns, and Tupac's murderer is convicted.",
-   "papers_summary": "Papers cover brain network dynamics, immigration's agricultural impact, and EU law complexity, offering insights into neural systems and policy evolution."
+   "brief": "Today's news is dominated by geopolitical tensions, with incidents in the Falklands, Germany, Iran, and the Strait of Hormuz, alongside domestic political shifts in the UK and US. Research highlights include studies on brain dynamics, immigration's economic impact, and EU legal complexity.",
+   "news_summary": "Geopolitical flashpoints include the Falklands status review, Russian-linked sabotage in Germany, and tanker attacks near Oman. US political news features Trump's surveillance concerns, a Times Square stabbing, and economic warfare threats, while UK sees a new PM's first address and a donation to a hard-right party.",
+   "papers_summary": "Research spans neuroscience (brain network dynamics, face recognition), climate-finance links, EU legal complexity, and historical immigration effects, offering diverse academic insights."
   },
   "zh": {
-   "brief": "今日焦点集中在香港公民科改革五周年、中尼边境洪灾及上合组织25周年；同时，Shein香港上市首日股价下跌，梅西宣布退出阿根廷国家队。",
-   "news_summary": "香港公民科推行五年，考察团成课程一部分；尼泊尔与西藏边境洪灾致逾千人死亡，救援持续；上合组织被指为“中国工具箱”，成员各取所需；Shein上市首日破发；梅西退出国家队。",
-   "papers_summary": "今日研究摘要涉及脑网络动力学、移民对农业的影响、欧盟法律复杂性等主题，涵盖神经科学、经济学与法学领域。"
+   "brief": "今日焦点集中在西藏泥石流灾难及其对尼泊尔边境的影响，同时上合组织25周年引发对中俄关系的讨论。",
+   "news_summary": "西藏吉隆口岸泥石流造成大量人员失踪，尼泊尔方面也受影响。上合组织25周年引发对中俄关系的讨论，而Shein香港上市首日股价下跌。",
+   "papers_summary": "今日论文摘要暂无优先中文内容。"
   }
  },
  "todays_image": {
-  "caption": "The gavel's swing from judicial order to political fallout mirrors how the Court's ruling lets Trump's project proceed even as the Army secretary’s resignation signals a different kind of power shift.The gavel's authority echoes in the Supr",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-A2017_13_1_7_001",
-  "source_name": "National Museum of African American History and Culture",
-  "source_url": "https://nmaahc.si.edu/object/nmaahc_A2017.13.1.7",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-A2017_13_1_7_001",
-  "title": "Gavel used by Judge Robert Terrell"
+  "caption": "Just as Lobophora sp. clings to a rock with its holdfast, the Falklands' sovereignty is a grip the US review could loosen.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3a20dbcaf-62f6-4dd2-b936-69074b28dad5",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7/90",
+  "title": "Lobophora sp."
  }
 }
