@@ -1,0 +1,31 @@
+{
+ "full_text": "Depending on who you ask, developer platform Hugging Face was recently attacked by OpenAI - after it lost control of its own AI tools - or by a succession of AI \"civilizations.\" Welcome to the linguistic battlefield of AI safety, where word choices can shift responsibility for a massive cybersecurity incident from a company to the AI it built. And the discourse online is getting heated, and all over a blog from last week.\n\nUntil last week, the details surrounding the OpenAI-Hugging Face hack felt fairly settled. In July, a cybersecurity test of one of OpenAI's autonomous AI agents went wrong. The agent escaped its supposedly isolated test en …\n\nRead the full story at The Verge.",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/e0c9d39ec1defebe.json",
+  "id": "e0c9d39ec1defebe",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-09-01T19:02:54Z",
+  "section": "news",
+  "source": "The Verge · AI",
+  "source_id": "verge_ai",
+  "summary": "Depending on who you ask, developer platform Hugging Face was recently attacked by OpenAI - after it lost control of its own AI tools - or by a succession of AI \"civilizations.\" Welcome to the linguistic battlefield of AI safety, where word choices can shift responsibility for a massive…",
+  "tags": [
+   "dev-tools",
+   "policy"
+  ],
+  "title": "The rise of AI ‘civilizations’ and the fall of corporate responsibility",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/987566/ai-civilizations-opeai-hugging-face-hack"
+ },
+ "meta": {
+  "content_hash": "652cbb43e3bcadb7",
+  "generated_at": "2026-09-01T20:59:48Z",
+  "item_id": "e0c9d39ec1defebe",
+  "section": "news",
+  "source": "The Verge · AI",
+  "source_id": "verge_ai"
+ }
+}

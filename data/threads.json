@@ -1,0 +1,253 @@
+{
+ "meta": {
+  "count": 5,
+  "generated_at": "2026-09-01T20:59:48Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "c08b362b933181c2",
+     "phrase": {
+      "en": "Tools orchestrated for science",
+      "zh": "科学工具编排"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.30696v1"
+    },
+    {
+     "item_id": "b7678c8ad36d7156",
+     "phrase": {
+      "en": "LLMs mimic community dynamics",
+      "zh": "LLM模拟社群动态"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.28989v1"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "LLMs increasingly direct tools and workflows, shaping how work gets done.",
+    "zh": "LLM日益主导工具与流程，重塑工作方式。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "LLM orchestration",
+    "zh": "LLM编排"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-29",
+     "label": {
+      "en": "Reddit dynamics paper",
+      "zh": "Reddit动态论文"
+     }
+    },
+    {
+     "date": "2026-08-31",
+     "label": {
+      "en": "scientific orchestration",
+      "zh": "科学编排"
+     }
+    }
+   ],
+   "why_now": {
+    "en": "You study AI and HCI: new papers and industry moves show LLMs as orchestrators, not just chatbots.",
+    "zh": "你研究AI与人机交互：新论文和行业动态显示LLM正成为编排者，而非仅聊天机器人。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "c88bbe9d00f91731",
+     "phrase": {
+      "en": "Germany blames Russia",
+      "zh": "德国怪罪俄罗斯"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c5ylm3m67n2o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "24f3a6c6092ba9c0",
+     "phrase": {
+      "en": "Russia's hybrid attack",
+      "zh": "俄混合攻击"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/sep/01/germany-blames-russia-drone-attack-leipzig-airport"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "AI tools are weaponized in geopolitical rivalries, from drones to cyberattacks.",
+    "zh": "AI工具在地缘对抗中被武器化，从无人机到网络攻击。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "geopolitical AI conflict",
+    "zh": "地缘AI冲突"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-04",
+     "label": {
+      "en": "drone found",
+      "zh": "发现无人机"
+     }
+    },
+    {
+     "date": "2026-09-01",
+     "label": {
+      "en": "Germany blames Russia",
+      "zh": "德国指责俄罗斯"
+     }
+    }
+   ],
+   "why_now": {
+    "en": "You follow embodied AI and tech policy: drone attacks and hybrid warfare show AI's physical-world impact today.",
+    "zh": "你关注具身AI和科技政策：无人机攻击和混合战展示AI在物理世界的影响。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "5a0fdcd3cf8ae9e3",
+     "phrase": {
+      "en": "MacBook evidence shock",
+      "zh": "MacBook证据震惊"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/"
+    },
+    {
+     "full_text_file": "articles/news/a50bad29118f98b0.json",
+     "item_id": "a50bad29118f98b0",
+     "phrase": {
+      "en": "Apple accuses destruction",
+      "zh": "苹果指销毁证据"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/tech/987575/apple-openai-destroying-evidence-trade-secrets-lawsuit"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Legal battles over AI companies heat up, with accusations of evidence tampering.",
+    "zh": "围绕AI公司的法律战升温，指控证据篡改。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "AI evidence disputes",
+    "zh": "AI证据争议"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-08-31",
+     "label": {
+      "en": "evidence revealed",
+      "zh": "证据曝光"
+     }
+    },
+    {
+     "date": "2026-09-01",
+     "label": {
+      "en": "Apple accuses",
+      "zh": "苹果指控"
+     }
+    }
+   ],
+   "why_now": {
+    "en": "You track AI and technical communication: Apple-OpenAI case is a key example of AI accountability in court.",
+    "zh": "你关注AI和技术传播：苹果与OpenAI案是AI在法庭问责的典型案例。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "361fbbaa868f9e4f",
+     "phrase": {
+      "en": "Hand-outline for VR",
+      "zh": "手轮廓用于VR"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2608.29040v1"
+    },
+    {
+     "item_id": "0eb98a0fd7993b36",
+     "phrase": {
+      "en": "Expert gaze visualization",
+      "zh": "专家凝视可视化"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2608.30352v1"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Visual cues bridge sensory gaps, improving shared understanding in VR and clinical settings.",
+    "zh": "视觉线索弥合感官差距，提升VR和临床中的共同理解。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "visualization in collaboration",
+    "zh": "协作可视化"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You specialize in data visualization and HCI: these papers show novel visualizations for real-world challenges.",
+    "zh": "你专长数据可视化和人机交互：这些论文展示应对现实挑战的新颖可视化。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "389d9efd70bc3f53",
+     "phrase": {
+      "en": "AI-native workflows",
+      "zh": "AI原生工作流"
+     },
+     "section": "news",
+     "source": "OpenAI News",
+     "url": "https://openai.com/index/ai-native-company-workflows"
+    },
+    {
+     "item_id": "2bcd6e15383de166",
+     "phrase": {
+      "en": "Codex bundles LibreOffice",
+      "zh": "Codex捆绑LibreOffice"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Companies adopt AI agents to transform workflows into operational strength.",
+    "zh": "企业采用AI代理将工作流转化为运营优势。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "AI agents in enterprise",
+    "zh": "企业AI代理"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow LLM applications: enterprise AI agents are a direct frontier of AI in practice.",
+    "zh": "你关注LLM应用：企业AI代理是AI实践的直接前沿。"
+   }
+  }
+ ]
+}

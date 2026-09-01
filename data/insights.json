@@ -1,44 +1,44 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "query": "world sheep shearing record OR sheep shearing championship 2026",
   "source": {
-   "name": "abnews.ru",
-   "published_at": "2026-08-31T07:30:00Z",
-   "title": "Гигантскую тыкву в Астраханской области торжественно взвесят 5 сентября",
-   "url": "https://abnews.ru/ug/news/astrakhan/2026/8/31/v-astrahanskom-pitomnike-sozrevaet-gigantskaya-tykva-k-festivalyu-kraski-oseni-gigantskuyu-tykvu-v-astrahanskoj-oblasti-torzhestvenno-vzvesyat-5-sentyabrya"
+   "name": "Herald.Wales",
+   "published_at": "2026-08-28T13:39:08Z",
+   "title": "“Ronaldo of sheep shearing” aims for lamb slide victory as thousands flock to North Wales championships",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOYW9vR0VXUDNsNXFwbkVaVllWVDBKUVNFaHp5dzFqYkJzNWMyMHBmR1JrbUlsT0ZWRVhnRng0TTJ5MFhXQ2l1RXFzQWtzcDZVRXRFLVprSjZtNkdBdVVzYzZTbV9yMXE0Wmw5dUZpNnVoUzlNSFEyTnlBZWZJaHVQWGhFYVhMeTZDZUMxQzFtYWpDVVAza1FjWjRwZVZnNXdDQUZyYlE2aFNFTlZ0UEd1TnBfZmxnZE9hcmc2RE9sdEtHelJrMFU0dkxLM210TWxGZWY0c2NTc2lsSWUySXltaHZn?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "A colossal pumpkin in Russia's Astrakhan region is set to be ceremoniously weighed on September 5.",
-    "why_irrelevant": "It's a niche agricultural event unlikely to appear in a general feed."
+    "summary": "A champion shearer, dubbed the 'Ronaldo of sheep shearing,' aims to break records at the North Wales championships, drawing large crowds.",
+    "why_irrelevant": "A niche rural sport event unrelated to typical digital or urban feed topics."
    },
    "zh": {
-    "summary": "俄罗斯阿斯特拉罕地区的一只巨型南瓜将于9月5日举行隆重称重仪式。",
-    "why_irrelevant": "这是一个小众农业活动，不太可能出现在常规信息流中。"
+    "summary": "被誉为“剪羊毛界的罗纳尔多”的冠军剪毛手，将在北威尔士锦标赛上冲击纪录，吸引大批观众。",
+    "why_irrelevant": "小众乡村运动事件，与日常数字或城市话题无关。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "competitive sheep shearing records"
  },
- "brief": "Today's news is dominated by geopolitical tensions, with incidents in the Falklands, Germany, Iran, and the Strait of Hormuz, alongside domestic political shifts in the UK and US. Research highlights include studies on brain dynamics, immigration's economic impact, and EU legal complexity.",
+ "brief": "Today's news is dominated by escalating US-Iran tensions over Strait of Hormuz attacks, domestic US political and social issues, and AI industry developments, while papers explore brain dynamics, immigration effects, and legal complexity.",
  "meta": {
-  "generated_at": "2026-09-01T16:36:28Z"
+  "generated_at": "2026-09-01T20:59:48Z"
  },
- "news_summary": "Geopolitical flashpoints include the Falklands status review, Russian-linked sabotage in Germany, and tanker attacks near Oman. US political news features Trump's surveillance concerns, a Times Square stabbing, and economic warfare threats, while UK sees a new PM's first address and a donation to a hard-right party.",
- "papers_summary": "Research spans neuroscience (brain network dynamics, face recognition), climate-finance links, EU legal complexity, and historical immigration effects, offering diverse academic insights.",
+ "news_summary": "US strikes on Iran and attacks on oil tankers escalate Mideast tensions; domestic stories include a Times Square stabbing, USPS voting concerns, immigration arrests, and political clashes. AI news features OpenAI delays post-hack, Google's Gemini updates, and Apple's evidence in OpenAI suit.",
+ "papers_summary": "Research highlights include brain network dynamics, immigration's impact on Brazilian agriculture, EU law complexity, and studies on facial recognition, climate change and M&A, and moral judgments.",
  "summaries": {
   "en": {
-   "brief": "Today's news is dominated by geopolitical tensions, with incidents in the Falklands, Germany, Iran, and the Strait of Hormuz, alongside domestic political shifts in the UK and US. Research highlights include studies on brain dynamics, immigration's economic impact, and EU legal complexity.",
-   "news_summary": "Geopolitical flashpoints include the Falklands status review, Russian-linked sabotage in Germany, and tanker attacks near Oman. US political news features Trump's surveillance concerns, a Times Square stabbing, and economic warfare threats, while UK sees a new PM's first address and a donation to a hard-right party.",
-   "papers_summary": "Research spans neuroscience (brain network dynamics, face recognition), climate-finance links, EU legal complexity, and historical immigration effects, offering diverse academic insights."
+   "brief": "Today's news is dominated by escalating US-Iran tensions over Strait of Hormuz attacks, domestic US political and social issues, and AI industry developments, while papers explore brain dynamics, immigration effects, and legal complexity.",
+   "news_summary": "US strikes on Iran and attacks on oil tankers escalate Mideast tensions; domestic stories include a Times Square stabbing, USPS voting concerns, immigration arrests, and political clashes. AI news features OpenAI delays post-hack, Google's Gemini updates, and Apple's evidence in OpenAI suit.",
+   "papers_summary": "Research highlights include brain network dynamics, immigration's impact on Brazilian agriculture, EU law complexity, and studies on facial recognition, climate change and M&A, and moral judgments."
   },
   "zh": {
-   "brief": "今日焦点集中在西藏泥石流灾难及其对尼泊尔边境的影响，同时上合组织25周年引发对中俄关系的讨论。",
-   "news_summary": "西藏吉隆口岸泥石流造成大量人员失踪，尼泊尔方面也受影响。上合组织25周年引发对中俄关系的讨论，而Shein香港上市首日股价下跌。",
-   "papers_summary": "今日论文摘要暂无优先中文内容。"
+   "brief": "今日焦点为中尼边境泥石流灾害、上合组织25周年及Shein港股上市；科研方面关注大规模脑网络建模与AI安全。",
+   "news_summary": "中尼边境泥石流致数百人失踪，吉隆口岸受损严重；上合组织25周年被指为‘中国工具箱’；Shein港股上市首日下跌。",
+   "papers_summary": "研究涉及脑网络动态模拟、移民对农业的影响及欧盟法律复杂性，AI安全与模型发布延迟引发关注。"
   }
  },
  "todays_image": {
-  "caption": "Just as Lobophora sp. clings to a rock with its holdfast, the Falklands' sovereignty is a grip the US review could loosen.",
+  "caption": "Like Lobophora's drifting, branching fronds, the strikes ripple outward with unpredictable reach and no clear end in sight.",
   "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7",
   "source_name": "NMNH - Botany Dept.",
   "source_url": "http://n2t.net/ark:/65665/3a20dbcaf-62f6-4dd2-b936-69074b28dad5",
