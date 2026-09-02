@@ -1,47 +1,47 @@
 {
  "meta": {
   "count": 4,
-  "generated_at": "2026-09-02T04:28:14Z",
+  "generated_at": "2026-09-02T11:13:37Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "bce1a556d3b7e533",
+     "item_id": "55b08cd526d58fbb",
      "phrase": {
-      "en": "US strikes Iran over mines",
-      "zh": "美国打击伊朗水雷"
+      "en": "Markets waver amid war",
+      "zh": "战争令市场波动"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/09/01/us/politics/us-launches-air-strikes-iran.html"
+     "url": "https://www.nytimes.com/2026/09/02/business/oil-bond-yields-iran.html"
     },
     {
-     "item_id": "0d6c00a8c99132a7",
+     "item_id": "e1e9a5eccc08eacc",
      "phrase": {
-      "en": "Exchange fuels wider war fears",
-      "zh": "交锋加剧全面战争担忧"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/sep/01/us-iran-airstrikes-launch"
-    },
-    {
-     "item_id": "9c68612e01821915",
-     "phrase": {
-      "en": "Putin pledges support for Iran",
-      "zh": "普京承诺支持伊朗"
+      "en": "Damage after intense strikes",
+      "zh": "猛烈打击后的破坏"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/09/01/world/europe/putin-ukraine-iran.html"
+     "url": "https://www.nytimes.com/2026/09/02/world/middleeast/us-iran-strikes.html"
+    },
+    {
+     "item_id": "decd892578f132dd",
+     "phrase": {
+      "en": "Military strikes and retaliation",
+      "zh": "军事打击与报复"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/09/02/g-s1-141500/us-iran-war"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "The US and Iran trade strikes, escalating toward wider war.",
-    "zh": "美伊互相打击，战事可能扩大。"
+    "en": "Strikes and counterstrikes between the U.S. and Iran escalate war and oil prices.",
+    "zh": "美伊相互打击，战争与油价同步升级。"
    },
    "id": "t1",
    "keyword": {
@@ -50,127 +50,135 @@
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow geopolitics: today new airstrikes mark a dangerous escalation you should track.",
-    "zh": "你关注地缘政治，今日新一轮空袭标志危险升级。"
+    "en": "You follow global risk and markets: fresh U.S.-Iran attacks today are moving oil and bonds.",
+    "zh": "你关注全球风险和市场，今日美伊新攻击正影响油价和债券。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "dc4071fc2bb4ec30",
+     "item_id": "54ef22e501d4a490",
      "phrase": {
-      "en": "Efficient frontier of LLM inference",
-      "zh": "LLM推理效率前沿"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference/"
-    },
-    {
-     "item_id": "c8e09717a9b2a001",
-     "phrase": {
-      "en": "Google announces Gemini 3.7 Flash",
-      "zh": "谷歌发布Gemini 3.7 Flash"
-     },
-     "section": "news",
-     "source": "Google AI Blog",
-     "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Making large language models faster and cheaper at serving time.",
-    "zh": "让大语言模型在服务时更快更便宜。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "LLM inference optimization",
-    "zh": "LLM推理优化"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You work on LLM systems: today's posts discuss the efficiency frontier, directly affecting your deployment choices.",
-    "zh": "你从事LLM系统，今日讨论效率前沿，直接影响部署选择。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "c88bbe9d00f91731",
-     "phrase": {
-      "en": "Germany says Russia behind attack",
-      "zh": "德国称俄罗斯是幕后黑手"
+      "en": "Airlines should avoid Russian airspace",
+      "zh": "航空公司应避开俄领空"
      },
      "section": "news",
      "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c5ylm3m67n2o?at_medium=RSS&at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/c9v9yydy2wvo?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "24f3a6c6092ba9c0",
+     "item_id": "2d2cc23a6b608acf",
      "phrase": {
-      "en": "Part of hybrid attack effort",
-      "zh": "混合攻击的一部分"
+      "en": "Russian airspace unsafe",
+      "zh": "俄领空不再安全"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/sep/01/germany-blames-russia-drone-attack-leipzig-airport"
+     "url": "https://www.theguardian.com/world/2026/sep/02/russian-airspace-unsafe-commercial-airlines-zelenskyy"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Germany blames Moscow for a drone attack on Leipzig airport.",
-    "zh": "德国指责莫斯科发动莱比锡机场无人机袭击。"
+    "en": "Ukraine escalates drone strikes, prompting warnings about Russian airspace safety.",
+    "zh": "乌克兰加强无人机打击，引发俄领空安全警告。"
    },
-   "id": "t3",
+   "id": "t2",
    "keyword": {
-    "en": "Russia hybrid attacks",
-    "zh": "俄罗斯混合攻击"
+    "en": "Ukraine drone threat",
+    "zh": "乌克兰无人机威胁"
    },
-   "relates_to": [
-    "t1"
-   ],
+   "relates_to": [],
    "why_now": {
-    "en": "You follow international security: today's attribution highlights new hybrid warfare tactics.",
-    "zh": "你关注国际安全，今日归因揭示新型混合战策略。"
+    "en": "You care about global security shifts: today Zelensky warns airlines, linking war to civil aviation.",
+    "zh": "你关全球安全态势，今日泽连斯基警告航空公司，将战争与民航相连。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "5665ad1d58b8f0bf",
+     "item_id": "0fa68c7f764b0fa5",
      "phrase": {
-      "en": "House censures Edwards",
-      "zh": "众议院谴责爱德华兹"
+      "en": "Strikes threaten grain supply",
+      "zh": "打击威胁粮食供应"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/09/01/us/politics/house-censure-chuck-edwards.html"
+     "url": "https://www.nytimes.com/2026/09/02/world/europe/russia-ukraine-port-attacks-farmers-grain.html"
     },
     {
-     "item_id": "9521e98ba6394b3d",
+     "item_id": "cc45f3769ed7298e",
      "phrase": {
-      "en": "Censure over harassment allegations",
-      "zh": "因骚扰指控遭谴责"
+      "en": "Oil prices affect air fares",
+      "zh": "油价影响航空票价"
      },
      "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/09/01/nx-s1-5951561/chuck-edwards-house-censure-vote"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/business/2026/sep/02/ryanair-warns-air-fares-europe-jump-next-year-oil-price-stays-high"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Lawmakers formally rebuke a colleague over harassment allegations.",
-    "zh": "议员正式谴责同事的性骚扰指控。"
+    "en": "Attacks in the Black Sea threaten global grain supplies and food security.",
+    "zh": "黑海遇袭威胁全球粮食供应与安全。"
    },
-   "id": "t4",
+   "id": "t3",
    "keyword": {
-    "en": "Political censorship",
-    "zh": "政治谴责"
+    "en": "Black Sea grain",
+    "zh": "黑海粮食"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track governance trends: today's bipartisan censure signals shifting norms in accountability.",
-    "zh": "你关注治理趋势，今日两党谴责标志问责规范转变。"
+    "en": "You monitor food systems: today reports link war to possible world food shock.",
+    "zh": "你关注粮食系统，今日报道将战争与全球粮食冲击相连。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "54ef22e501d4a490",
+     "phrase": {
+      "en": "Airlines avoid airspace",
+      "zh": "航空公司避开领空"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c9v9yydy2wvo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "cc45f3769ed7298e",
+     "phrase": {
+      "en": "Fares jump due to oil",
+      "zh": "油价推高票价"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/business/2026/sep/02/ryanair-warns-air-fares-europe-jump-next-year-oil-price-stays-high"
+    },
+    {
+     "item_id": "2d2cc23a6b608acf",
+     "phrase": {
+      "en": "Airspace unsafe",
+      "zh": "领空不安全"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/sep/02/russian-airspace-unsafe-commercial-airlines-zelenskyy"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "From drones to fares, aviation faces heightened safety and economic pressures today.",
+    "zh": "从无人机到票价，今日航空业面临安全与经济双重压力。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "Aviation risks",
+    "zh": "航空风险"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You watch systemic risks: today's reports tie geopolitical drone threats to airline profitability.",
+    "zh": "你关注系统性风险，今日报道将地缘无人机威胁与航空盈利相连。"
    }
   }
  ]
