@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "world sheep shearing record OR sheep shearing championship 2026",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "Herald.Wales",
-   "published_at": "2026-08-28T13:39:08Z",
-   "title": "“Ronaldo of sheep shearing” aims for lamb slide victory as thousands flock to North Wales championships",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOYW9vR0VXUDNsNXFwbkVaVllWVDBKUVNFaHp5dzFqYkJzNWMyMHBmR1JrbUlsT0ZWRVhnRng0TTJ5MFhXQ2l1RXFzQWtzcDZVRXRFLVprSjZtNkdBdVVzYzZTbV9yMXE0Wmw5dUZpNnVoUzlNSFEyTnlBZWZJaHVQWGhFYVhMeTZDZUMxQzFtYWpDVVAza1FjWjRwZVZnNXdDQUZyYlE2aFNFTlZ0UEd1TnBfZmxnZE9hcmc2RE9sdEtHelJrMFU0dkxLM210TWxGZWY0c2NTc2lsSWUySXltaHZn?oc=5"
+   "name": "deseret.com",
+   "published_at": "2026-08-30T21:15:00Z",
+   "title": "Opinion : My son found wonder in Yayoi Kusama art – Deseret News",
+   "url": "https://www.deseret.com/opinion/2026/08/29/what-my-son-saw-in-artist-yayoi-kasuma/"
   },
   "summaries": {
    "en": {
-    "summary": "A champion shearer, dubbed the 'Ronaldo of sheep shearing,' aims to break records at the North Wales championships, drawing large crowds.",
-    "why_irrelevant": "A niche rural sport event unrelated to typical digital or urban feed topics."
+    "summary": "An opinion piece describes how a parent's visit to a Yayoi Kusama exhibit sparked wonder in their child.",
+    "why_irrelevant": "It reflects on art and personal memory, far from competitive pumpkin growing."
    },
    "zh": {
-    "summary": "被誉为“剪羊毛界的罗纳尔多”的冠军剪毛手，将在北威尔士锦标赛上冲击纪录，吸引大批观众。",
-    "why_irrelevant": "小众乡村运动事件，与日常数字或城市话题无关。"
+    "summary": "一篇评论文章讲述一位家长参观草间弥生展览时，孩子感受到奇妙。",
+    "why_irrelevant": "它关乎艺术与个人回忆，远离南瓜种植竞赛。"
    }
   },
-  "topic": "competitive sheep shearing records"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news is dominated by escalating US-Iran tensions over Strait of Hormuz attacks, domestic US political and social issues, and AI industry developments, while papers explore brain dynamics, immigration effects, and legal complexity.",
+ "brief": "Today's news is dominated by escalating US-Iran tensions, domestic political strife in the US, and the aftermath of the Nepal-Tibet floods, while AI advancements like Claude 5.1 continue to shape the tech landscape.",
  "meta": {
-  "generated_at": "2026-09-01T20:59:48Z"
+  "generated_at": "2026-09-02T00:10:17Z"
  },
- "news_summary": "US strikes on Iran and attacks on oil tankers escalate Mideast tensions; domestic stories include a Times Square stabbing, USPS voting concerns, immigration arrests, and political clashes. AI news features OpenAI delays post-hack, Google's Gemini updates, and Apple's evidence in OpenAI suit.",
- "papers_summary": "Research highlights include brain network dynamics, immigration's impact on Brazilian agriculture, EU law complexity, and studies on facial recognition, climate change and M&A, and moral judgments.",
+ "news_summary": "US strikes on Iran and Iran's retaliatory attacks signal renewed conflict, while domestic issues like postal voting concerns and defense leadership turmoil dominate US news; the Nepal-Tibet flood aftermath remains a major international story.",
+ "papers_summary": "Selected papers cover diverse topics from brain network dynamics and face recognition to immigration's agricultural impact and EU legal complexity, reflecting a broad scientific and social research landscape.",
  "summaries": {
   "en": {
-   "brief": "Today's news is dominated by escalating US-Iran tensions over Strait of Hormuz attacks, domestic US political and social issues, and AI industry developments, while papers explore brain dynamics, immigration effects, and legal complexity.",
-   "news_summary": "US strikes on Iran and attacks on oil tankers escalate Mideast tensions; domestic stories include a Times Square stabbing, USPS voting concerns, immigration arrests, and political clashes. AI news features OpenAI delays post-hack, Google's Gemini updates, and Apple's evidence in OpenAI suit.",
-   "papers_summary": "Research highlights include brain network dynamics, immigration's impact on Brazilian agriculture, EU law complexity, and studies on facial recognition, climate change and M&A, and moral judgments."
+   "brief": "Today's news is dominated by escalating US-Iran tensions, domestic political strife in the US, and the aftermath of the Nepal-Tibet floods, while AI advancements like Claude 5.1 continue to shape the tech landscape.",
+   "news_summary": "US strikes on Iran and Iran's retaliatory attacks signal renewed conflict, while domestic issues like postal voting concerns and defense leadership turmoil dominate US news; the Nepal-Tibet flood aftermath remains a major international story.",
+   "papers_summary": "Selected papers cover diverse topics from brain network dynamics and face recognition to immigration's agricultural impact and EU legal complexity, reflecting a broad scientific and social research landscape."
   },
   "zh": {
-   "brief": "今日焦点为中尼边境泥石流灾害、上合组织25周年及Shein港股上市；科研方面关注大规模脑网络建模与AI安全。",
-   "news_summary": "中尼边境泥石流致数百人失踪，吉隆口岸受损严重；上合组织25周年被指为‘中国工具箱’；Shein港股上市首日下跌。",
-   "papers_summary": "研究涉及脑网络动态模拟、移民对农业的影响及欧盟法律复杂性，AI安全与模型发布延迟引发关注。"
+   "brief": "今日焦點為尼泊爾—西藏泥石流災害，導致嚴重傷亡與失蹤，並引發對冰川湖潰決的擔憂；同時，Shein香港上市首日股價下跌，日本企業加碼投資印度。",
+   "news_summary": "尼泊爾—西藏泥石流造成逾千人死亡，數千人失蹤，包括多名印度朝聖者，並形成堰塞湖，專家警告冰川湖恐成「定時炸彈」；Shein在香港上市首日股價下跌，表現疲弱；日本企業因中國風險升高，轉向印度尋求成長。",
+   "papers_summary": "今日論文涵蓋大型腦網絡動力學、氣候變遷與併購、移民對農業發展的影響等多元主題，但無重大突破性發現。"
   }
  },
  "todays_image": {
-  "caption": "Like Lobophora's drifting, branching fronds, the strikes ripple outward with unpredictable reach and no clear end in sight.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7",
+  "caption": "The primula’s delicate Himalayan bloom shares the same fragile, high-altitude terrain now menaced by the region’s unstable glacial lakes and landslide-choked rivers.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m38d393bef238f41dd9d13591276f60e08",
   "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3a20dbcaf-62f6-4dd2-b936-69074b28dad5",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3026e0dcfbfe94328a44f8aa80712e8e7/90",
-  "title": "Lobophora sp."
+  "source_url": "http://n2t.net/ark:/65665/32631b6ee-8b74-4cd1-b9e7-c8bf69ebd109",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m38d393bef238f41dd9d13591276f60e08/90",
+  "title": "Primula pinnatifida Franch."
  }
 }
