@@ -1,0 +1,31 @@
+{
+ "full_text": "Google hasn't released a frontier-level Gemini Pro AI model since early 2026, but it sure loves rolling out new Gemini Flash variants. Today, Google is announcing its third Flash model release in just six weeks , making it more likely that we'll never see the promised Gemini 3.5 Pro. But no matter, says Google, because Gemini 3.8 Flash is its best reasoning and coding model yet.\n\nGemini 3.8 Flash comes in two variations. There's the standard Flash, which Google describes as a \"workhorse\" model that's good for anything from agentic tasks to software development. Then we have Gemini 3.8 Flash Cyber, which runs on the same foundations but has been tuned for vulnerability detection and mitigation.\n\nFor developers, Google has the same pitch as it did for the 3.7 Flash release just a couple of weeks ago. API access to the model is available at an \"introductory rate\" through the end of the year: $0.75 per million input tokens and $3.75 per million output tokens. The regular price will be $1.50 / $7.50, but it's likely there will be new models available long before the price changes. Google probably sees the lower prices as a necessity given that other AI labs have recently dropped token pricing to keep increasingly wary businesses engaged with AI tools.\n\nRead full article\n\nComments",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/8fe8b03417ec4ecd.json",
+  "id": "8fe8b03417ec4ecd",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-09-02T18:13:54Z",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai",
+  "summary": "Google's Pro model updates are seemingly paused, but there's yet another Gemini Flash today.",
+  "tags": [
+   "model-release",
+   "llm"
+  ],
+  "title": "Google releases Gemini 3.8 Flash, its third Flash model in six weeks",
+  "url": "https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/"
+ },
+ "meta": {
+  "content_hash": "7985383031302554",
+  "generated_at": "2026-09-02T21:00:12Z",
+  "item_id": "8fe8b03417ec4ecd",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai"
+ }
+}

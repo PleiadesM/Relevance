@@ -1,28 +1,48 @@
 {
- "brief": "Today's news blends geopolitical tension with domestic political strife and technological advances, while research focuses on AI interfaces and cognitive models.",
- "meta": {
-  "generated_at": "2026-09-02T16:32:07Z"
+ "apropos_of_nothing": {
+  "query": "\"snail racing championship\" OR \"world snail racing\"",
+  "source": {
+   "name": "Turkmenportal.com",
+   "published_at": "2026-08-31T19:52:37Z",
+   "title": "The world snail racing championship was held in an English village",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOaHhkcnFVTlIzMDFCZ3ZaNmxvdEpTbkZmZXgyQm9hY1JFc2NqLXVYdlNrY3Jtdzc5aDJSb2tyZU5Ncy1vbmVVb0g4ZXJLMDItWV9YSmZqcGZ2RjJwSFBNTkVCVkdzSXN6U1A5Z1pqRkFIN29idVlRc1V2TEFRVWlLcnI5SGF4U3hjeVkxRkwzaUdLQXg1dUE1YjFsekxaOGxMNXlNUWV2NUVKdHFuUktlWHFET2ZQcnBMOWhDX3BXV09JSWZTbjJ5QU5KYTBIWGRzRnZ3WXQxMnl5SW1NcmtVQ0l1MmE3c1JneEczWA?oc=5"
+  },
+  "summaries": {
+   "en": {
+    "summary": "The world snail racing championship took place in an English village, where snails competed in a quirky annual event.",
+    "why_irrelevant": "It is a whimsical niche sport far from typical news or personal interests."
+   },
+   "zh": {
+    "summary": "世界蜗牛赛跑锦标赛在英国一个村庄举行，蜗牛们参加了这场古怪的年度赛事。",
+    "why_irrelevant": "这是一项异想天开的小众运动，远离常规新闻或个人兴趣。"
+   }
+  },
+  "topic": "competitive snail racing"
  },
- "news_summary": "US-Iran strikes escalate, UK and US politics see internal fractures, tech giants deepen school influence, and AI models advance.",
- "papers_summary": "Papers explore proactive writing AI, AR interfaces for robot collaboration, and brain network dynamics, reflecting human-AI interaction and visualization trends.",
+ "brief": "Google wins ad tech case avoiding breakup; jury deadlocked in Lindsay Clancy trial; Trump supports OpenAI in NYT lawsuit; papers explore new genetic and environmental research frontiers.",
+ "meta": {
+  "generated_at": "2026-09-02T21:00:12Z"
+ },
+ "news_summary": "Google avoids antitrust breakup as judge orders unspecified ad tech changes; Lindsay Clancy jury deadlocked again; Trump administration backs OpenAI against NYT; USPS builds mail-in ballot screening amid legal challenges.",
+ "papers_summary": "Research highlights include a Parkinson's progression GWAS implicating TRIM2, and a study on DEM resolution impacts on flood applications; symbolic regression and waterlogging mitigation also feature.",
  "summaries": {
   "en": {
-   "brief": "Today's news blends geopolitical tension with domestic political strife and technological advances, while research focuses on AI interfaces and cognitive models.",
-   "news_summary": "US-Iran strikes escalate, UK and US politics see internal fractures, tech giants deepen school influence, and AI models advance.",
-   "papers_summary": "Papers explore proactive writing AI, AR interfaces for robot collaboration, and brain network dynamics, reflecting human-AI interaction and visualization trends."
+   "brief": "Google wins ad tech case avoiding breakup; jury deadlocked in Lindsay Clancy trial; Trump supports OpenAI in NYT lawsuit; papers explore new genetic and environmental research frontiers.",
+   "news_summary": "Google avoids antitrust breakup as judge orders unspecified ad tech changes; Lindsay Clancy jury deadlocked again; Trump administration backs OpenAI against NYT; USPS builds mail-in ballot screening amid legal challenges.",
+   "papers_summary": "Research highlights include a Parkinson's progression GWAS implicating TRIM2, and a study on DEM resolution impacts on flood applications; symbolic regression and waterlogging mitigation also feature."
   },
   "zh": {
-   "brief": "香港民主派人士黃之鋒在國安法下認罪，判刑押後，引發外界對其命運的關注；同時，阿富汗遣返潮、委內瑞拉油田爭議等國際事件持續發酵，尼泊爾泥石流災情亦引發對冰川湖風險的擔憂。",
-   "news_summary": "黃之鋒因「串謀勾結外國勢力」罪認罪，可能面臨終身監禁，其案件成為今日焦點；此外，阿富汗被驅逐者人數增加、委內瑞拉油田開採權爭議、尼泊爾冰川湖威脅等新聞也值得關注。",
-   "papers_summary": "今日研究重點聚焦於人機協作、可視化與寫作輔助等領域，例如主動式寫作夥伴的設計、AR用於人機協作的情境感知，以及生物醫學可視化的可用性評估。"
+   "brief": "香港民主派领袖黄之锋就国安法罪行认罪，面临最高终身监禁；同时，阿富汗遣返潮、委内瑞拉油田争议及尼泊尔冰川湖风险成为区域焦点。",
+   "news_summary": "黄之锋认罪案件及阿富汗、委内瑞拉、尼泊尔等地事件占据今日头条，突显区域紧张局势。",
+   "papers_summary": "今日无优先论文，但背景中提及之研究涵盖生物标记、水文学及机器学习应用等议题，反映科研多样性。"
   }
  },
  "todays_image": {
-  "caption": "A flatbed intaglio press applies immense pressure to make an impression, just as Jeffries is now pressing his caucus to avoid leaving any cracks in the Democratic message.A flatbed intaglio press applies pressure to make a unified impressio",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPM-R.2004-142",
-  "source_name": "National Postal Museum",
-  "source_url": "https://postalmuseum.si.edu/object/npm_0.243014.1",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPM-R.2004-142",
-  "title": "Flatbed Intaglio Printing Press"
+  "caption": "Just as a Bleakney shock tube contains explosive pressure without shattering, Google’s ad tech business absorbs the court’s ruling and holds together.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2017q065557",
+  "source_name": "National Museum of American History",
+  "source_url": null,
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2017q065557&max=150",
+  "title": "Bleakney Shock Tube"
  }
 }

@@ -1,221 +1,162 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-09-02T16:32:07Z",
+  "count": 3,
+  "generated_at": "2026-09-02T21:00:12Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "36bb18fb574996d8",
+     "item_id": "fedcad2faa9d611b",
      "phrase": {
-      "en": "NYC bans student AI until high school",
-      "zh": "纽约禁止学生AI使用至高中"
+      "en": "Release notes and support details",
+      "zh": "发布说明与支持细节"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/technology/2026/sep/02/new-york-city-school-ai-ban"
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Sep/2/llm-gemini/"
     },
     {
-     "item_id": "8498d3063f02c019",
+     "full_text_file": "articles/news/f1ccabd10d92052c.json",
+     "item_id": "f1ccabd10d92052c",
      "phrase": {
-      "en": "Tech giants embed in schools",
-      "zh": "科技巨头渗透学校"
+      "en": "More reasoning work, higher cost",
+      "zh": "更多推理工作，更高成本"
      },
      "section": "news",
-     "source": "NPR News",
-     "url": "https://www.npr.org/2026/09/02/nx-s1-5953878/understanding-the-tech-giants-oversized-influence-in-american-schools"
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "Schools are deciding where AI belongs in learning, from bans to embedded tech.",
-    "zh": "学校正在决定AI在学习中的位置，从禁令到嵌入式技术。"
+    "en": "New AI models keep getting smarter and faster, but may cost more for those who use them heavily.",
+    "zh": "新的AI模型更聪明、更快，但重度使用可能花费更多。"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI in education",
-    "zh": "教育中的AI"
+    "en": "AI reasoning + speed",
+    "zh": "推理与速度"
    },
-   "relates_to": [],
+   "relates_to": [
+    "t2"
+   ],
+   "timeline": [
+    {
+     "date": "2026-08",
+     "label": {
+      "en": "Gemini 3.7 Flash",
+      "zh": "Gemini 3.7 Flash"
+     }
+    },
+    {
+     "date": "2026-09-02",
+     "full_text_file": "articles/news/f1ccabd10d92052c.json",
+     "item_id": "f1ccabd10d92052c",
+     "label": {
+      "en": "Gemini 3.8 Flash",
+      "zh": "Gemini 3.8 Flash"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash"
+    }
+   ],
    "why_now": {
-    "en": "You care about HCI and learning: NYC's AI ban and tech giants' school influence both shape how young users meet AI.",
-    "zh": "你关注人机交互与学习：纽约的AI禁令和科技巨头在学校的影响力，共同塑造年轻用户接触AI的方式。"
+    "en": "You track AI releases: today's Gemini 3.8 Flash launch marks a notable step in reasoning-class small models.",
+    "zh": "你关注AI发布，今天Gemini 3.8 Flash发布是推理型小模型的重要一步。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "ea3f35f903600545",
+     "item_id": "9d88507e1dec010f",
      "phrase": {
-      "en": "Claude prompt resists song lyrics",
-      "zh": "Claude提示词拒绝歌词"
+      "en": "Google wins ad tech case",
+      "zh": "谷歌赢得广告技术案"
      },
      "section": "news",
-     "source": "Simon Willison",
-     "url": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/09/02/technology/google-ad-tech-remedies.html"
     },
     {
-     "item_id": "fa70790af3765d4f",
+     "item_id": "6184a7681ffdb6c5",
      "phrase": {
-      "en": "WebLLM runs LLMs in browser",
-      "zh": "WebLLM在浏览器运行LLM"
+      "en": "Trump backs OpenAI in copyright suit",
+      "zh": "特朗普支持OpenAI版权案"
      },
      "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://github.com/mlc-ai/web-llm"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/technology/2026/sep/02/trump-new-york-times-lawsuit-ai"
+    },
+    {
+     "full_text_file": "articles/news/4d231f197efbe298.json",
+     "item_id": "4d231f197efbe298",
+     "phrase": {
+      "en": "Lawsuit demands transparency in AI testing",
+      "zh": "诉讼要求AI测试透明"
+     },
+     "section": "news",
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/tech-policy/2026/09/trump-may-be-forced-to-reveal-secret-rules-feds-use-for-ai-safety-testing/"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "AI labs reveal the hidden rules guiding their chatbots.",
-    "zh": "AI实验室揭示聊天机器人的隐藏规则。"
+    "en": "Courts and governments are shaping how AI companies use copyrighted material and how models are tested.",
+    "zh": "法院和政府正在塑造AI使用版权材料的方式及模型测试。"
    },
    "id": "t2",
    "keyword": {
-    "en": "LLM system prompts",
-    "zh": "LLM系统提示词"
+    "en": "AI legal battles",
+    "zh": "AI法律战"
    },
    "relates_to": [
     "t1"
    ],
    "why_now": {
-    "en": "You build with LLMs: Claude's published prompt constraints directly affect what you can make it do.",
-    "zh": "你用LLM开发：Claude公开的提示词限制直接影响你能让它做什么。"
+    "en": "You care about AI regulation: today's court decision and lawsuit briefs reveal key tensions in AI policy we face now.",
+    "zh": "你关注AI监管，今日法院判决与诉讼简报揭示了当前AI政策的紧张点。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "6bf83d88b2ceb810",
+     "item_id": "121e9450f5cfbaea",
      "phrase": {
-      "en": "EU sees state-sponsored terrorism",
-      "zh": "欧盟视为国家恐怖主义"
+      "en": "Digital homecage tracks mouse behavior",
+      "zh": "数字家居笼追踪小鼠行为"
      },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/sep/02/europe-eu-germany-leipzig-drone-attack-russia-ukraine-macron-latest-news-updates"
+     "section": "papers",
+     "source": "OpenAlex · information visualization",
+     "url": "https://doi.org/10.1038/s41598-026-69041-0"
     },
     {
-     "item_id": "246d795fcdd06e1b",
+     "item_id": "7dabd2c4e4cc1f64",
      "phrase": {
-      "en": "NATO steps up pressure",
-      "zh": "北约加大压力"
+      "en": "Survived floods—not tech monitoring",
+      "zh": "洪水幸存——非技术监控"
      },
      "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/ce9e810pg7ko?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "54ef22e501d4a490",
-     "phrase": {
-      "en": "Zelensky warns airline safety",
-      "zh": "泽连斯基警告航空安全"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c9v9yydy2wvo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "2d2cc23a6b608acf",
-     "phrase": {
-      "en": "Russian airspace unsafe for airlines",
-      "zh": "俄领空对航空不安全"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/sep/02/russian-airspace-unsafe-commercial-airlines-zelenskyy"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/09/02/world/asia/nepal-flood-miracle-house-dhunge-bazaar.html"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "divergent",
    "gloss": {
-    "en": "Drone incidents stretch from Leipzig to Ukrainian skies, raising fears for civilians and airlines.",
-    "zh": "无人机事件从莱比锡延伸到乌克兰上空，引发对平民和航空的担忧。"
+    "en": "Long-term tracking of animal and human behavior at home promises richer data for studying complex conditions like stress and disease.",
+    "zh": "在家庭环境中长期追踪行为，可为研究压力和疾病等复杂状况提供更丰富的数据。"
    },
    "id": "t3",
    "keyword": {
-    "en": "Russia drone escalation",
-    "zh": "俄罗斯无人机升级"
-   },
-   "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-09-01",
-     "item_id": "6bf83d88b2ceb810",
-     "label": {
-      "en": "Drone hits Leipzig",
-      "zh": "无人机袭击莱比锡"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/sep/02/europe-eu-germany-leipzig-drone-attack-russia-ukraine-macron-latest-news-updates"
-    },
-    {
-     "date": "2026-09-02",
-     "item_id": "6bf83d88b2ceb810",
-     "label": {
-      "en": "EU accuses Russia",
-      "zh": "欧盟指控俄罗斯"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/sep/02/europe-eu-germany-leipzig-drone-attack-russia-ukraine-macron-latest-news-updates"
-    },
-    {
-     "date": "2026-09-02",
-     "item_id": "54ef22e501d4a490",
-     "label": {
-      "en": "Zelensky warns airlines",
-      "zh": "泽连斯基警告航空公司"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c9v9yydy2wvo?at_medium=RSS&at_campaign=rss"
-    }
-   ],
-   "why_now": {
-    "en": "You track geopolitics: today's drone blame game may reshape European security and airspace rules.",
-    "zh": "你关注地缘政治：今日无人机指责可能重塑欧洲安全与空域规则。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "5b99f7b9ca72f68f",
-     "phrase": {
-      "en": "Proactive writing thought partners",
-      "zh": "主动式写作思考伙伴"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2609.01588v1"
-    },
-    {
-     "item_id": "c08b362b933181c2",
-     "phrase": {
-      "en": "Domain-grounded tool orchestration",
-      "zh": "领域工具编排"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2608.30696v1"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "AI aims to assist writers proactively, but design must respect human creativity.",
-    "zh": "AI旨在主动辅助写作者，但设计须尊重人类创造力。"
-   },
-   "id": "t4",
-   "keyword": {
-    "en": "AI in writing tools",
-    "zh": "写作工具中的AI"
+    "en": "Home-based monitoring",
+    "zh": "家庭监护"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You study HCI and writing: new proactive writing assistants could change how you ideate and revise.",
-    "zh": "你研究人机交互与写作：新的主动写作助手可能改变你的构思与修改方式。"
+    "en": "You find embodied cognition interesting: these studies highlight how continuous, naturalistic data can reveal patterns that lab tests miss.",
+    "zh": "你对具身认知感兴趣，这些研究强调连续自然数据能揭示实验室测试错过的模式。"
    }
   }
  ]
