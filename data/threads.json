@@ -1,7 +1,7 @@
 {
  "meta": {
   "count": 4,
-  "generated_at": "2026-09-02T00:10:17Z",
+  "generated_at": "2026-09-02T04:28:14Z",
   "scope": "public"
  },
  "threads": [
@@ -10,8 +10,8 @@
     {
      "item_id": "bce1a556d3b7e533",
      "phrase": {
-      "en": "US strikes over mines, Trump says",
-      "zh": "美国因水雷打击伊朗"
+      "en": "US strikes Iran over mines",
+      "zh": "美国打击伊朗水雷"
      },
      "section": "news",
      "source": "The New York Times",
@@ -20,28 +20,28 @@
     {
      "item_id": "0d6c00a8c99132a7",
      "phrase": {
-      "en": "new airstrikes quash hopes",
-      "zh": "新一轮空袭打破希望"
+      "en": "Exchange fuels wider war fears",
+      "zh": "交锋加剧全面战争担忧"
      },
      "section": "news",
      "source": "The Guardian · World",
      "url": "https://www.theguardian.com/world/2026/sep/01/us-iran-airstrikes-launch"
     },
     {
-     "item_id": "fce8460b2740a46e",
+     "item_id": "9c68612e01821915",
      "phrase": {
-      "en": "Iran retaliates after wedding strike",
-      "zh": "婚礼遭袭后伊朗报复"
+      "en": "Putin pledges support for Iran",
+      "zh": "普京承诺支持伊朗"
      },
      "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/09/01/world/europe/putin-ukraine-iran.html"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "Strikes and retaliation flare as diplomacy stalls.",
-    "zh": "空袭与报复交火，外交陷僵局。"
+    "en": "The US and Iran trade strikes, escalating toward wider war.",
+    "zh": "美伊互相打击，战事可能扩大。"
    },
    "id": "t1",
    "keyword": {
@@ -50,87 +50,88 @@
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track geopolitical shifts: the US-Iran hostilities directly affect global stability and tech supply chains.",
-    "zh": "你关注地缘政治变化：美伊冲突直接影响全球稳定与科技供应链。"
+    "en": "You follow geopolitics: today new airstrikes mark a dangerous escalation you should track.",
+    "zh": "你关注地缘政治，今日新一轮空袭标志危险升级。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "fa68bd6f647b7cb5",
+     "item_id": "dc4071fc2bb4ec30",
      "phrase": {
-      "en": "Extension hides AI-labeled videos",
-      "zh": "扩展隐藏AI标注视频"
+      "en": "Efficient frontier of LLM inference",
+      "zh": "LLM推理效率前沿"
      },
      "section": "news",
      "source": "Hacker News (AI filter)",
-     "url": "https://masteranza.github.io/weedout/"
+     "url": "https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference/"
     },
     {
-     "full_text_file": "articles/news/93cd0bdabf743bef.json",
-     "item_id": "93cd0bdabf743bef",
+     "item_id": "c8e09717a9b2a001",
      "phrase": {
-      "en": "Google seeks AI licensing deals",
-      "zh": "谷歌寻求AI许可协议"
+      "en": "Google announces Gemini 3.7 Flash",
+      "zh": "谷歌发布Gemini 3.7 Flash"
      },
      "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/tech/987429/google-needs-hollywood-more-than-the-studios-need-ai"
-    }
-   ],
-   "convergence": "mixed",
-   "gloss": {
-    "en": "Tools emerge to filter AI-generated videos as concerns grow.",
-    "zh": "随着担忧增加，出现过滤AI生成视频的工具。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "AI content moderation",
-    "zh": "AI内容审核"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You study HCI and visual rhetoric: a new extension tackles AI-video misinformation, a key design challenge.",
-    "zh": "你研究人机交互和视觉修辞：新扩展应对AI视频误导，一个关键设计挑战。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "24f3a6c6092ba9c0",
-     "phrase": {
-      "en": "Germany blames Russia for drone attack",
-      "zh": "德国指责俄罗斯无人机攻击"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/sep/01/germany-blames-russia-drone-attack-leipzig-airport"
-    },
-    {
-     "item_id": "c88bbe9d00f91731",
-     "phrase": {
-      "en": "drone found near Ukrainian planes",
-      "zh": "乌克兰飞机附近发现无人机"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c5ylm3m67n2o?at_medium=RSS&at_campaign=rss"
+     "source": "Google AI Blog",
+     "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Germany blames Russia for drone incidents, citing dangerous behavior.",
-    "zh": "德国指责俄罗斯无人机事件，称其行为危险。"
+    "en": "Making large language models faster and cheaper at serving time.",
+    "zh": "让大语言模型在服务时更快更便宜。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "LLM inference optimization",
+    "zh": "LLM推理优化"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You work on LLM systems: today's posts discuss the efficiency frontier, directly affecting your deployment choices.",
+    "zh": "你从事LLM系统，今日讨论效率前沿，直接影响部署选择。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "c88bbe9d00f91731",
+     "phrase": {
+      "en": "Germany says Russia behind attack",
+      "zh": "德国称俄罗斯是幕后黑手"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c5ylm3m67n2o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "24f3a6c6092ba9c0",
+     "phrase": {
+      "en": "Part of hybrid attack effort",
+      "zh": "混合攻击的一部分"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/sep/01/germany-blames-russia-drone-attack-leipzig-airport"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Germany blames Moscow for a drone attack on Leipzig airport.",
+    "zh": "德国指责莫斯科发动莱比锡机场无人机袭击。"
    },
    "id": "t3",
    "keyword": {
     "en": "Russia hybrid attacks",
     "zh": "俄罗斯混合攻击"
    },
-   "relates_to": [],
+   "relates_to": [
+    "t1"
+   ],
    "why_now": {
-    "en": "You track global tech security: drone attacks signal new hybrid warfare tactics relevant to your security interests.",
-    "zh": "你关注全球技术安全：无人机攻击显示混合战新战术，与你的安全兴趣相关。"
+    "en": "You follow international security: today's attribution highlights new hybrid warfare tactics.",
+    "zh": "你关注国际安全，今日归因揭示新型混合战策略。"
    }
   },
   {
@@ -138,8 +139,8 @@
     {
      "item_id": "5665ad1d58b8f0bf",
      "phrase": {
-      "en": "House censures Rep. over harassment",
-      "zh": "众议院谴责骚扰议员"
+      "en": "House censures Edwards",
+      "zh": "众议院谴责爱德华兹"
      },
      "section": "news",
      "source": "The New York Times",
@@ -148,8 +149,8 @@
     {
      "item_id": "9521e98ba6394b3d",
      "phrase": {
-      "en": "bipartisan censure vote",
-      "zh": "两党谴责投票"
+      "en": "Censure over harassment allegations",
+      "zh": "因骚扰指控遭谴责"
      },
      "section": "news",
      "source": "NPR News",
@@ -158,18 +159,18 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Political figures face censure and ethics questions.",
-    "zh": "政治人物面临谴责和道德问题。"
+    "en": "Lawmakers formally rebuke a colleague over harassment allegations.",
+    "zh": "议员正式谴责同事的性骚扰指控。"
    },
    "id": "t4",
    "keyword": {
-    "en": "political scandals",
-    "zh": "政治丑闻"
+    "en": "Political censorship",
+    "zh": "政治谴责"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow political communication: censure and ethics probes highlight accountability in public discourse.",
-    "zh": "你关注政治传播：谴责和道德调查突显公共话语中的问责。"
+    "en": "You track governance trends: today's bipartisan censure signals shifting norms in accountability.",
+    "zh": "你关注治理趋势，今日两党谴责标志问责规范转变。"
    }
   }
  ]

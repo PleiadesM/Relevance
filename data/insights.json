@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
+  "query": "moss gardening OR moss art competition",
   "source": {
-   "name": "deseret.com",
-   "published_at": "2026-08-30T21:15:00Z",
-   "title": "Opinion : My son found wonder in Yayoi Kusama art – Deseret News",
-   "url": "https://www.deseret.com/opinion/2026/08/29/what-my-son-saw-in-artist-yayoi-kasuma/"
+   "name": "WRIC ABC 8News",
+   "published_at": "2026-08-26T17:19:55Z",
+   "title": "From a theme park to moss: The things named after Dolly Parton",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTnlkcFQ1LTRkT0pPRGx4UTRIOWdQbk94NVBBTm9lckxmYjNGdVowT1VISlZjbUpyUzgzZXJQc29wMFdLMEp2RnNocENqX3FaVFpNTGk3QVFzNzJhaE5VWGNnanIwa2ttMWd5bS1RQnR1X0lFeDc0OGY2cjUya1BnUlFKRVpCVG80UWRuWjBraFFOZ9IBlwFBVV95cUxPRy13SmNxT2ExRFhRamM5TGlxbjBoZmRoMXZEZlh5NDFoekUxNnM2VHdQZkFsdWVudGJCdGRCMkVUZmdBb25ZeHUzNkdEVm1LTjVBTFlXbXlTWE81SkdtcjlIOVJvV1RYbENOTFhQODhsaFdhOS1WR1FLWTZheWRySEhfTWpYSGJWb2tYMzNMdjlNTTBpVVFR?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "An opinion piece describes how a parent's visit to a Yayoi Kusama exhibit sparked wonder in their child.",
-    "why_irrelevant": "It reflects on art and personal memory, far from competitive pumpkin growing."
+    "summary": "A news article lists various things named after Dolly Parton, including a theme park and a type of moss.",
+    "why_irrelevant": "A celebrity trivia piece far from typical tech or personal interests."
    },
    "zh": {
-    "summary": "一篇评论文章讲述一位家长参观草间弥生展览时，孩子感受到奇妙。",
-    "why_irrelevant": "它关乎艺术与个人回忆，远离南瓜种植竞赛。"
+    "summary": "一篇新闻列举了以多莉·帕顿命名的各种事物，包括主题公园和一种苔藓。",
+    "why_irrelevant": "名人轶事远离常见科技或个人兴趣。"
    }
   },
-  "topic": "competitive pumpkin growing"
+  "topic": "competitive moss growing"
  },
- "brief": "Today's news is dominated by escalating US-Iran tensions, domestic political strife in the US, and the aftermath of the Nepal-Tibet floods, while AI advancements like Claude 5.1 continue to shape the tech landscape.",
+ "brief": "News spans climate warnings, AI governance, US politics, and international tensions, while papers explore human-AI collaboration and visualization tools.",
  "meta": {
-  "generated_at": "2026-09-02T00:10:17Z"
+  "generated_at": "2026-09-02T04:28:14Z"
  },
- "news_summary": "US strikes on Iran and Iran's retaliatory attacks signal renewed conflict, while domestic issues like postal voting concerns and defense leadership turmoil dominate US news; the Nepal-Tibet flood aftermath remains a major international story.",
- "papers_summary": "Selected papers cover diverse topics from brain network dynamics and face recognition to immigration's agricultural impact and EU legal complexity, reflecting a broad scientific and social research landscape.",
+ "news_summary": "UN warns of missed climate targets; UK AI architect joins Anthropic; US primaries show generational divides; Iran strikes US bases; Germany blames Russia for drone attack.",
+ "papers_summary": "Research on proactive writing assistants, AR interfaces for robot collaboration, and a benchmark for agentic claim verification in visualizations.",
  "summaries": {
   "en": {
-   "brief": "Today's news is dominated by escalating US-Iran tensions, domestic political strife in the US, and the aftermath of the Nepal-Tibet floods, while AI advancements like Claude 5.1 continue to shape the tech landscape.",
-   "news_summary": "US strikes on Iran and Iran's retaliatory attacks signal renewed conflict, while domestic issues like postal voting concerns and defense leadership turmoil dominate US news; the Nepal-Tibet flood aftermath remains a major international story.",
-   "papers_summary": "Selected papers cover diverse topics from brain network dynamics and face recognition to immigration's agricultural impact and EU legal complexity, reflecting a broad scientific and social research landscape."
+   "brief": "News spans climate warnings, AI governance, US politics, and international tensions, while papers explore human-AI collaboration and visualization tools.",
+   "news_summary": "UN warns of missed climate targets; UK AI architect joins Anthropic; US primaries show generational divides; Iran strikes US bases; Germany blames Russia for drone attack.",
+   "papers_summary": "Research on proactive writing assistants, AR interfaces for robot collaboration, and a benchmark for agentic claim verification in visualizations."
   },
   "zh": {
-   "brief": "今日焦點為尼泊爾—西藏泥石流災害，導致嚴重傷亡與失蹤，並引發對冰川湖潰決的擔憂；同時，Shein香港上市首日股價下跌，日本企業加碼投資印度。",
-   "news_summary": "尼泊爾—西藏泥石流造成逾千人死亡，數千人失蹤，包括多名印度朝聖者，並形成堰塞湖，專家警告冰川湖恐成「定時炸彈」；Shein在香港上市首日股價下跌，表現疲弱；日本企業因中國風險升高，轉向印度尋求成長。",
-   "papers_summary": "今日論文涵蓋大型腦網絡動力學、氣候變遷與併購、移民對農業發展的影響等多元主題，但無重大突破性發現。"
+   "brief": "今日焦点：尼泊尔—西藏泥石流导致严重灾情，冰川湖隐患成定时炸弹；日本企业转向印度，避开中国风险；香港公民科推行五年，学生赴陆考察引热议。",
+   "news_summary": "尼泊尔—西藏泥石流造成大量伤亡和失踪，堰塞湖与冰湖带来持续威胁；日本企业因中国风险升高而加大印度投资；香港高中公民科五年，大陆考察团引发课堂内外的讨论。",
+   "papers_summary": "今日论文主要关注交互式可视化、AR辅助人机协作、生物医学可视化的可用性评估等，以及大型脑网络动力学和信息可视化研究缺口识别框架。"
   }
  },
  "todays_image": {
-  "caption": "The primula’s delicate Himalayan bloom shares the same fragile, high-altitude terrain now menaced by the region’s unstable glacial lakes and landslide-choked rivers.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m38d393bef238f41dd9d13591276f60e08",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/32631b6ee-8b74-4cd1-b9e7-c8bf69ebd109",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m38d393bef238f41dd9d13591276f60e08/90",
-  "title": "Primula pinnatifida Franch."
+  "caption": "Like Wallerstein’s polkas, meant for fleeting enjoyment rather than lasting memorial, the Victorian premier dismisses statues as a transient, costly performance rather than a meaningful tribute.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=SIL-SIL40-0483-01_crop-000001&max=1000",
+  "source_name": "Smithsonian Libraries",
+  "source_url": "https://siris-libraries.si.edu/ipac20/ipac.jsp?&profile=liball&source=~!silibraries&uri=full=3100001~!980173~!0#focus",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=SIL-SIL40-0483-01_crop-000001&max=150",
+  "title": "4 polkas for the piano forte A. Wallerstein"
  }
 }
