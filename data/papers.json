@@ -1,485 +1,335 @@
 {
  "items": [
   {
-   "authors": [],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "The Tech and Strategy Hub will have booths related to the following areas VoiceThread (Michelle Holland): Moving Past Silent Screens to Hearing Student Voices with VoiceThread - This session will introduce VoiceThread as a simple, effective tool for increasing student interaction, especially in asynchronous and online courses. For those who may feel unfamiliar with or hesitant about using new technology, VoiceThread offers an accessible way to move beyond text-based participation and foster…",
-    "citations": 0,
-    "doi": null
-   },
-   "id": "cfe27994ebed63ec",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-03T00:00:00Z",
-   "score": 0.4841,
-   "section": "papers",
-   "source": "OpenAlex · technical communication",
-   "source_id": "openalex_techcomm",
-   "summary": "The Tech and Strategy Hub will have booths related to the following areas VoiceThread (Michelle Holland): Moving Past Silent Screens to Hearing Student Voices with VoiceThread - This session will introduce VoiceThread as a simple, effective tool for increasing student interaction, especially in…",
-   "tags": [],
-   "title": "Nexus Point: The Tech & Strategy Hub",
-   "url": "https://scholarworks.harding.edu/fts/2026/events/8",
-   "venue": "Scholar Works at Harding (Harding University Main Campus)"
-  },
-  {
    "authors": [
-    "Ruijia Cao",
-    "Florian Schaefer"
+    "Naoto Nishida",
+    "Yoshio Ishiguro"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Abstract. Shock waves in gas dynamics feature jump discontinuities that hinder numerical simulations. Viscous regularizations are prone to excessive dissipation of fine-scale structures. In this work, we propose the first inviscid regularization of the multidimensional Euler equation based on ideas from semidefinite programming, information geometry, geometric hydrodynamics, and nonlinear elasticity. The Lagrangian flow maps of Euler solutions are a dynamical system on the manifold of…",
-    "citations": 0,
-    "doi": "10.1137/25m1777918"
+    "abstract_snippet": "We study body-only, 12-class acted-emotion classification from skeleton motion under leave-performer-out (LPO) evaluation, a hard, underdetermined setting: chance is 8.3%, and a protocol-matched reproduced STGCN++ baseline reaches only 25.73 +/- 4.03% Macro-F1. We show that reliable gains come not from a new architecture but from combining eleven models with orthogonal error modes: under 10-fold LPO cross-validation on the labeled training performers, an equal-weight logit-mean ensemble reaches…",
+    "arxiv_id": "2609.02510"
    },
-   "id": "772861552e9f77b5",
+   "id": "3c9b8e5c2c108ecb",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.3974,
+   "published_at": "2026-09-02T12:15:11Z",
+   "score": 0.7241,
    "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract. Shock waves in gas dynamics feature jump discontinuities that hinder numerical simulations. Viscous regularizations are prone to excessive dissipation of fine-scale structures. In this work, we propose the first inviscid regularization of the multidimensional Euler equation based on ideas…",
-   "tags": [],
-   "title": "Information Geometric Regularization of the Barotropic Euler Equation",
-   "url": "https://doi.org/10.1137/25m1777918",
-   "venue": "SIAM Journal on Scientific Computing"
-  },
-  {
-   "authors": [
-    "Ameya Kulkarni",
-    "Daniel J. Apicco",
-    "Saleh Tamim",
-    "Lauren Gibilisco",
-    "Layan Nahlawi",
-    "Rachel M. Lucia"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "ABSTRACT Parkinson’s Disease (PD) is a progressive neurodegenerative disorder, affecting 10 million people worldwide. While genome-wide association studies (GWAS) have identified many genetic variants associated with PD incidence, the genetics underlying PD progression are poorly understood. Here, we aim to address this gap by performing GWAS on longitudinal clinical metrics from well-defined PD cohorts. Specifically, we identify 8 novel GWAS genes for PD progression, including TRIM2, which…",
-    "citations": 0,
-    "doi": "10.1038/s41598-026-67630-7"
-   },
-   "id": "1046c9a94d6dec3e",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.3974,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "ABSTRACT Parkinson’s Disease (PD) is a progressive neurodegenerative disorder, affecting 10 million people worldwide. While genome-wide association studies (GWAS) have identified many genetic variants associated with PD incidence, the genetics underlying PD progression are poorly understood. Here,…",
-   "tags": [],
-   "title": "Progression GWAS followed by functional characterization implicates E3 ubiquitin ligase TRIM2 as a potential genetic modifier of Parkinson’s disease progression",
-   "url": "https://doi.org/10.1038/s41598-026-67630-7",
-   "venue": "Scientific Reports"
-  },
-  {
-   "authors": [
-    "Nicolette Ognjanovski",
-    "Anjesh Ghimire",
-    "Pho J. Hale",
-    "David Kim",
-    "Ivo H. Cerda",
-    "Ethan Goldiez"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Long-term monitoring of behavioral and physiological processes is essential for elucidating complex brain-based phenomena and disorders that develop over extended periods, such as chronic stress, circadian disruption, and metabolic syndromes. Though digital phenotyping is well-established in humans via smart devices, comparable solutions for rodent models remain limited. To address this gap, we present the Digital Homecage (DHC) system, an open-source platform that enables uninterrupted,…",
-    "citations": 0,
-    "doi": "10.1038/s41598-026-69041-0"
-   },
-   "id": "121e9450f5cfbaea",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.5349,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Long-term monitoring of behavioral and physiological processes is essential for elucidating complex brain-based phenomena and disorders that develop over extended periods, such as chronic stress, circadian disruption, and metabolic syndromes. Though digital phenotyping is well-established in humans…",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "We study body-only, 12-class acted-emotion classification from skeleton motion under leave-performer-out (LPO) evaluation, a hard, underdetermined setting: chance is 8.3%, and a protocol-matched reproduced STGCN++ baseline reaches only 25.73 +/- 4.03% Macro-F1. We show that reliable gains come not…",
    "tags": [
-    "systems"
+    "ai-writing"
    ],
-   "title": "Mouse bio-behavioral phenotyping using a digital homecage framework for long-timescale, high-resolution, and multi-factor data collection and analytics",
-   "url": "https://doi.org/10.1038/s41598-026-69041-0",
-   "venue": "Scientific Reports"
+   "title": "Orthogonal Ensembles and Tested Explanations for Performer-Independent Body-Motion Emotion Recognition",
+   "url": "https://arxiv.org/abs/2609.02510v1",
+   "venue": "arXiv cs.CV"
   },
   {
    "authors": [
-    "Aalok Sharma Kafle",
-    "K C Kushum",
-    "E. Annette Hernandez",
-    "Venkatesh Uddameri"
+    "Xinyu Fu",
+    "Narayan Ramasubbu",
+    "Dennis Galletta"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Digital elevation models (DEM) form the backbone of flood related studies. Proper selection of the DEM product is critical to obtain reliable estimates. Most studies aimed at understanding DEM resolution impacts focus on geometric comparisons. A comprehensive structural and functional assessment framework for DEM comparisons is developed here. The structural differences in DEM are used to understand how DEM products produce differing estimates of flooding susceptibility, rainfall-runoff…",
-    "citations": 1,
-    "doi": "10.3390/w18172162"
+    "abstract_snippet": "Large language models (LLMs) are increasingly embedded in organizational work, yet their errors often pass human review. Prior research locates such failures in users' capability to review LLM output or their engagement in doing so. We develop an alternative, retrieval-based account of human oversight and posit that error detection is more effective when oversight-relevant information is accessible to users at the moment of review. Across two randomized lab-in-the-field experiments with 640…",
+    "arxiv_id": "2609.01976"
    },
-   "id": "8406d160fcff9613",
+   "id": "fa1e6b3ce68d793f",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.5599,
+   "published_at": "2026-09-02T01:25:47Z",
+   "score": 0.8192,
    "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Digital elevation models (DEM) form the backbone of flood related studies. Proper selection of the DEM product is critical to obtain reliable estimates. Most studies aimed at understanding DEM resolution impacts focus on geometric comparisons. A comprehensive structural and functional assessment…",
-   "tags": [],
-   "title": "DEMands of Precision: How DEM Resolution Shapes Various Flood Applications",
-   "url": "https://doi.org/10.3390/w18172162",
-   "venue": "Water"
-  },
-  {
-   "authors": [
-    "Daniel J. MacGuigan",
-    "Hannah Waterman",
-    "Jessie A. Pelosi",
-    "Nathan J. C. Backenstose",
-    "Sarah L. Chang",
-    "Milton Tan"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "ABSTRACT While genomic data are powerfully informative for phylogenetic inference, traditional sequence-based analyses can be confounded by issues like homoplasy and incomplete lineage sorting, leaving deep nodes unresolved. Synteny, the conservation of gene order along a chromosome, presents a promising alternative source of phylogenetic information that is potentially less prone to these issues. Here we compare sequence and synteny phylogenetic phylogenomic approaches to unravel the…",
-    "citations": 2,
-    "doi": "10.1093/sysbio/syag068"
-   },
-   "id": "d950f790c3ee4720",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.4371,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "ABSTRACT While genomic data are powerfully informative for phylogenetic inference, traditional sequence-based analyses can be confounded by issues like homoplasy and incomplete lineage sorting, leaving deep nodes unresolved. Synteny, the conservation of gene order along a chromosome, presents a…",
-   "tags": [],
-   "title": "Microsynteny Analysis Clarifies the Early Diversification of Cypriniform Fishes",
-   "url": "https://doi.org/10.1093/sysbio/syag068",
-   "venue": "Systematic Biology"
-  },
-  {
-   "authors": [
-    "Andrea Schievano",
-    "Camille Rubeaud",
-    "Margret Köthke",
-    "Beatrice Landoni",
-    "Damien Beillouin",
-    "Marta Pérez‐Soba"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract. Agroforestry systems are promoted as multifunctional land-use strategies, yet evidence of their benefits, especially in temperate regions, remains fragmented. This umbrella review maps 42 meta-analyses to quantify the effects of agroforestry on environmental, climate, and productivity outcomes, with a focus on temperate pedo-climates. Our evidence map reveals a strong consensus on key regulating ecosystem services: a clear majority of assessments (over 65 %) reported significantly…",
-    "citations": 1,
-    "doi": "10.1016/j.ecoser.2026.101905"
-   },
-   "id": "a5aef770e580b968",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.5599,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract. Agroforestry systems are promoted as multifunctional land-use strategies, yet evidence of their benefits, especially in temperate regions, remains fragmented. This umbrella review maps 42 meta-analyses to quantify the effects of agroforestry on environmental, climate, and productivity…",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Large language models (LLMs) are increasingly embedded in organizational work, yet their errors often pass human review. Prior research locates such failures in users' capability to review LLM output or their engagement in doing so. We develop an alternative, retrieval-based account of human…",
    "tags": [
-    "systems"
+    "ai-writing",
+    "llm"
    ],
-   "title": "Potential of temperate agroforestry systems to deliver ecosystem services: An evidence map",
-   "url": "https://doi.org/10.1016/j.ecoser.2026.101905",
-   "venue": "Ecosystem Services"
+   "title": "Knowing Is Not Enough: Information Retrievability as a Precondition to Effective LLM Oversight",
+   "url": "https://arxiv.org/abs/2609.01976v1",
+   "venue": "arXiv cs.HC"
   },
   {
    "authors": [
-    "Tolulope O Akinyemi",
-    "Ilaria Pola",
-    "Kübra Tan",
-    "Oladotun Olalusi",
-    "Joseph Yaria",
-    "Gabriel Ogunde"
+    "Aarthy Nagarajan"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Background: In low- and middle-income countries, Alzheimer's disease and related dementias (ADRD) constitute a growing public health burden. Indeed, the lack of awareness and easy screening tools, such as blood-based biomarkers, leaves many patients undiagnosed. In this study, we explored the core biomarkers of AD in an indigenous African cohort (VALIANT) to assess their relevance and potential utility to aid clinical diagnosis. Methods: Nigerian African older adults (n = 967; ≥50 years)…",
-    "citations": 0,
-    "doi": "10.1038/s44400-026-00136-1"
+    "abstract_snippet": "Artificial intelligence (AI) is transforming brain-computer interfaces (BCIs) from task-specific neural decoders into adaptive systems that complete language, smooth movement, regulate rehabilitation support and adjust stimulation. These capabilities can increase speed, fluency, usability and clinical reach, yet conventional performance metrics may overlook losses in intent fidelity, authorship, agency, therapeutic challenge and durable clinical benefit. I define neuroadaptive overfitting as a…",
+    "arxiv_id": "2609.01767"
    },
-   "id": "ba0bd5c6818c2308",
+   "id": "dcb38e8fe3ec58b9",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.3974,
+   "published_at": "2026-09-01T18:37:23Z",
+   "score": 0.6538,
    "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Background: In low- and middle-income countries, Alzheimer's disease and related dementias (ADRD) constitute a growing public health burden. Indeed, the lack of awareness and easy screening tools, such as blood-based biomarkers, leaves many patients undiagnosed. In this study, we explored the core…",
-   "tags": [],
-   "title": "Blood-based biomarkers of Alzheimer’s disease and neurodegeneration in an indigenous African cohort using both Simoa and NULISA platforms",
-   "url": "https://doi.org/10.1038/s44400-026-00136-1",
-   "venue": "npj Dementia"
-  },
-  {
-   "authors": [
-    "Zhida Song",
-    "Zeyu Cai",
-    "Shutao Zhang",
-    "Jiaoyun Wei",
-    "Jichen Pan",
-    "Ｑｉｎｇｈｏｎｇ Ｃａｏ"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract Symbolic regression (SR), the automated discovery of mathematical expressions from data, is a cornerstone of scientific inquiry. However, it is often hindered by the combinatorial explosion of the search space and a tendency to overfit. Popular methods, rooted in genetic programming, explore this space syntactically, often yielding overly complex, uninterpretable models. This paper introduces IdeaSearchFitter, a framework that employs Large Language Models (LLMs) as semantic operators…",
-    "citations": 0,
-    "doi": "10.1088/1572-9494/aea105"
-   },
-   "id": "84a46903d1189b63",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.3974,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract Symbolic regression (SR), the automated discovery of mathematical expressions from data, is a cornerstone of scientific inquiry. However, it is often hindered by the combinatorial explosion of the search space and a tendency to overfit. Popular methods, rooted in genetic programming,…",
-   "tags": [],
-   "title": "Iterated Agent for Symbolic Regression",
-   "url": "https://doi.org/10.1088/1572-9494/aea105",
-   "venue": "Communications in Theoretical Physics"
-  },
-  {
-   "authors": [
-    "Bolanle Adefowoke Ojokoh",
-    "Oluwafemi A. Sarumi",
-    "Sadura Priscilla Akinrinwa",
-    "Abimbola H. Afolayan",
-    "Tobore Igbe",
-    "Abiola Ezekiel Taiwo"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract The COVID-19 pandemic has posed significant challenges to developing countries like Nigeria due to limited resources. Accurate prediction of disease spread is crucial for effective containment measures. This study investigates the application of statistical and machine learning (ML) techniques in modelling and predicting COVID-19 cases in Nigeria, using data from January 2020 through December 2021. By analyzing demographic data (age, gender, location), symptom patterns, and contact…",
-    "citations": 0,
-    "doi": "10.1186/s12982-026-02745-w"
-   },
-   "id": "45f412bcac9a5ba1",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.5349,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract The COVID-19 pandemic has posed significant challenges to developing countries like Nigeria due to limited resources. Accurate prediction of disease spread is crucial for effective containment measures. This study investigates the application of statistical and machine learning (ML)…",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Artificial intelligence (AI) is transforming brain-computer interfaces (BCIs) from task-specific neural decoders into adaptive systems that complete language, smooth movement, regulate rehabilitation support and adjust stimulation. These capabilities can increase speed, fluency, usability and…",
    "tags": [
-    "ml-vis"
+    "ai-writing",
+    "ux"
    ],
-   "title": "Machine learning analysis of COVID-19 transmission dynamics demographic risk and contact tracing outcomes in Nigeria",
-   "url": "https://doi.org/10.1186/s12982-026-02745-w",
-   "venue": "Discover Public Health"
+   "title": "Slow-Fast Brain-Computer Interfaces: Preventing Neuroadaptive Overfitting in AI-Mediated Neural Interfaces",
+   "url": "https://arxiv.org/abs/2609.01767v1",
+   "venue": "arXiv q-bio.NC"
   },
   {
    "authors": [
-    "Mosisa Tujuba Wakjira",
-    "Péter Molnár",
-    "Ruud P. Bartholomeus",
-    "Teklu Erkossa",
-    "Katrien Descheemaeker"
+    "Chao Zhang",
+    "Abe Davis",
+    "Chih-Wei Chen",
+    "Chin-Chia Hsu"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Abstract Waterlogging is a major yet understudied constraint to cropland productivity. Here, we apply an agrohydrological modeling framework to assess the climatology of waterlogging (1981–2010), its yield impacts on major grain crops, and the potential for mitigation across Ethiopia’s rainfed agriculture (RFA) region. We estimate that 39\\% of the RFA is prone to waterlogging. Chickpea is the most sensitive crop, with average yield losses from 34\\% under low-severity to 97\\% under…",
-    "citations": 0,
-    "doi": "10.1038/s44264-026-00179-0"
+    "abstract_snippet": "Writing involves diverse cognitive activities, from ideation to revision, and writers' needs vary across individuals and moments. Proactive AI promises to provide the right support at the right time, yet existing proactive tools largely focus on generic textual assistance, such as autocomplete. This paper studies the design space of proactive thought partners: AI agents that proactively offer customizable, higher-level cognitive support during writing. We instantiated this concept in a…",
+    "arxiv_id": "2609.01588"
    },
-   "id": "59a0c28041741d69",
+   "id": "5b99f7b9ca72f68f",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.5349,
+   "published_at": "2026-09-01T17:54:32Z",
+   "score": 0.6512,
    "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract Waterlogging is a major yet understudied constraint to cropland productivity. Here, we apply an agrohydrological modeling framework to assess the climatology of waterlogging (1981–2010), its yield impacts on major grain crops, and the potential for mitigation across Ethiopia’s rainfed…",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Writing involves diverse cognitive activities, from ideation to revision, and writers' needs vary across individuals and moments. Proactive AI promises to provide the right support at the right time, yet existing proactive tools largely focus on generic textual assistance, such as autocomplete.…",
    "tags": [
-    "systems"
+    "ai-writing",
+    "ux",
+    "techcomm"
    ],
-   "title": "Agrohydrological analysis of waterlogging impacts and mitigation in Ethiopia",
-   "url": "https://doi.org/10.1038/s44264-026-00179-0",
-   "venue": "npj Sustainable Agriculture"
+   "title": "Designing Proactive Thought Partners for Writing",
+   "url": "https://arxiv.org/abs/2609.01588v1",
+   "venue": "arXiv cs.HC"
   },
   {
    "authors": [
-    "Philip Gutberlet",
-    "Aron Kirchhoff",
-    "Eike Bolmer",
-    "Philipp Schmidt",
-    "Fabio Hellmann",
-    "Johannes Grün"
+    "Yulia A. Levites Strekalova",
+    "Rachel Liu Galvin",
+    "Jessica M. Ray",
+    "Samuel P. Border",
+    "Mishal Khan",
+    "Samantha Hoffman"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Abstract Evaluating hand and wrist radiographs is essential in pediatric endocrinology and clinical genetics, particularly for the assessment of suspected skeletal anomalies. In this study, we present Auto-Bone-Caliper, an automated system for the segmentation and length measurement of metacarpal and phalangeal (M&P) bones, trained and evaluated on public datasets comprising both normal and dysmorphic cases. We first introduce InstanceSAM, a two-stage framework that detects and segments all 19…",
-    "citations": 1,
-    "doi": "10.1038/s41598-026-69557-5"
+    "abstract_snippet": "Introduction: Clinical research informatics (CRI) platforms support biomedical discovery by integrating advanced computational tools into research workflows. Emerging technologies such as spatial omics and AI-enabled imaging expand research capabilities but introduce complex interfaces that increase cognitive burden and alter established analytical processes. Traditional usability frameworks identify general usability issues but often miss challenges specific to high-dimensional biomedical…",
+    "arxiv_id": "2609.01569"
    },
-   "id": "10b363b4be358775",
+   "id": "a3fb5f5f9369d68d",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.4224,
+   "published_at": "2026-09-01T17:36:29Z",
+   "score": 0.6901,
    "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract Evaluating hand and wrist radiographs is essential in pediatric endocrinology and clinical genetics, particularly for the assessment of suspected skeletal anomalies. In this study, we present Auto-Bone-Caliper, an automated system for the segmentation and length measurement of metacarpal…",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Introduction: Clinical research informatics (CRI) platforms support biomedical discovery by integrating advanced computational tools into research workflows. Emerging technologies such as spatial omics and AI-enabled imaging expand research capabilities but introduce complex interfaces that…",
    "tags": [
     "eval-study",
-    "systems"
+    "visualization"
    ],
-   "title": "Automated segmentation and length measurement of metacarpal and phalangeal bones for hand radiograph evaluation",
-   "url": "https://doi.org/10.1038/s41598-026-69557-5",
-   "venue": "Scientific Reports"
+   "title": "Evaluating Usability in Biomedical Visualization: Rethinking Heuristic Evaluation for Spatial Omics and Multidisciplinary Research Platforms",
+   "url": "https://arxiv.org/abs/2609.01569v1",
+   "venue": "arXiv cs.HC"
   },
   {
    "authors": [
-    "Chaofan Wang",
-    "Huiying Ma",
-    "Xiaosi Wang",
-    "Yongkang Hao",
-    "Junwen Zhu",
-    "Houpeng Wang"
+    "Zhehan Qu",
+    "Christian Fronk",
+    "Jaewoong Jeong",
+    "Pavel Manakhov",
+    "Maria Gorlatova"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "",
-    "citations": 1,
-    "doi": "10.1007/s42995-026-00410-4"
+    "abstract_snippet": "Augmented reality (AR) facilitates human-robot collaboration (HRC) by enabling in-situ spatial visualizations of the robot and the joint task. However, in safety-critical HRC scenarios such as search-and-rescue, spatial visualizations may also reshape visual attention in ways that create competing situational awareness (SA) demands, potentially introducing new safety concerns. While prior AR-HRC work suggests potential benefits for SA, rigorous evaluations that jointly consider robot and…",
+    "arxiv_id": "2609.01461"
    },
-   "id": "c1f46d6cb4c92c2f",
+   "id": "abd2804ef004fc1c",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.4224,
+   "published_at": "2026-09-01T16:01:57Z",
+   "score": 0.4921,
    "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "",
-   "tags": [],
-   "title": "Ultra-fast genetic recovery of dead fish through cross-family germline stem cell transplantation",
-   "url": "https://doi.org/10.1007/s42995-026-00410-4",
-   "venue": "Marine Life Science & Technology"
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Augmented reality (AR) facilitates human-robot collaboration (HRC) by enabling in-situ spatial visualizations of the robot and the joint task. However, in safety-critical HRC scenarios such as search-and-rescue, spatial visualizations may also reshape visual attention in ways that create competing…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Better Situational Awareness in AR-HRC? A Comparative Study of Augmented Reality and Mobile Interfaces for Human-Robot Collaboration",
+   "url": "https://arxiv.org/abs/2609.01461v1",
+   "venue": "arXiv cs.HC"
   },
   {
    "authors": [
-    "Karin Konzett",
-    "Cleo-Cosima Spoerl",
-    "Barbara Fußenegger",
-    "Lisa Kessler",
-    "Anne C. Wunderlich",
-    "Burkhard Simma"
+    "Maeve Hutchinson",
+    "Syed Mahbubul Huq",
+    "Mohammad Albinhassan",
+    "Radu Jianu",
+    "Aidan Slingsby",
+    "Pranava Madhyastha"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "",
-    "citations": 0,
-    "doi": "10.1007/s00431-026-07367-7"
+    "abstract_snippet": "Vision Language Models have demonstrated remarkable proficiency in interpreting static visual artifacts, but modern data analysis is inherently dynamic, requiring the active interrogation of interactive environments. Existing benchmarks are predominantly constrained to static imagery and one-shot question answering and fail to capture the epistemic demands of this domain, where evidence is frequently occluded, distributed across linked views, or conditionally revealed through user agency. In…",
+    "arxiv_id": "2609.01383"
    },
-   "id": "32274017c77a0e5e",
+   "id": "7d32fadb7be306af",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.3974,
+   "published_at": "2026-09-01T15:15:30Z",
+   "score": 0.6819,
    "section": "papers",
-   "source": "OpenAlex · technical communication",
-   "source_id": "openalex_techcomm",
-   "summary": "",
-   "tags": [],
-   "title": "Eye-tracking in the delivery room: visual and communication patterns during neonatal transition",
-   "url": "https://doi.org/10.1007/s00431-026-07367-7",
-   "venue": "European Journal of Pediatrics"
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Vision Language Models have demonstrated remarkable proficiency in interpreting static visual artifacts, but modern data analysis is inherently dynamic, requiring the active interrogation of interactive environments. Existing benchmarks are predominantly constrained to static imagery and one-shot…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "InSight: A Benchmark for Agentic Claim Verification in Interactive Visualizations",
+   "url": "https://arxiv.org/abs/2609.01383v1",
+   "venue": "arXiv cs.CL"
   },
   {
    "authors": [
-    "Xinyu Song",
-    "Chaohu Pan",
-    "Zongjuan Li",
-    "Xuanyu Zhou",
-    "A. Xiong",
-    "Zhikai Zhao"
+    "Taiga Mori",
+    "Koji Inoue",
+    "Mikey Elmers",
+    "Divesh Lala",
+    "Tatsuya Kawahara"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Abstract Background Resistance to therapy is a frequent occurrence in patients with epidermal growth factor receptor (EGFR)-mutant non-small-cell lung cancer (NSCLC) who are treated with EGFR tyrosine kinase inhibitors (EGFR-TKIs). However, spatial information on how the tumor microenvironment (TME) changes within the same patient from baseline to resistance to first- and then third-generation EGFR-TKIs is scarce. Here, we used rare consecutive re-biopsies to build a longitudinal,…",
-    "citations": 0,
-    "doi": "10.1186/s12967-026-08897-2"
+    "abstract_snippet": "Multi-party interaction is a central setting for human communication and a necessary target for human-agent interaction systems that must participate in group conversation. Yet available corpora often focus on meetings, task-oriented interaction, text-based interaction, or acted scenarios, and fewer resources support cross-linguistic comparison of spontaneous face-to-face triadic discussion. This paper presents TEIDAN, a multilingual multimodal corpus that currently consists of Japanese and…",
+    "arxiv_id": "2609.00802"
    },
-   "id": "4f30cc7439c38ed2",
+   "id": "a29b1281172c8cef",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.3974,
+   "published_at": "2026-09-01T06:59:09Z",
+   "score": 0.6148,
    "section": "papers",
-   "source": "OpenAlex · technical communication",
-   "source_id": "openalex_techcomm",
-   "summary": "Abstract Background Resistance to therapy is a frequent occurrence in patients with epidermal growth factor receptor (EGFR)-mutant non-small-cell lung cancer (NSCLC) who are treated with EGFR tyrosine kinase inhibitors (EGFR-TKIs). However, spatial information on how the tumor microenvironment…",
-   "tags": [],
-   "title": "Longitudinal spatial multi-omics delineates tumor microenvironment remodeling across sequential EGFR-TKIs in EGFR-mutant NSCLC",
-   "url": "https://doi.org/10.1186/s12967-026-08897-2",
-   "venue": "Journal of Translational Medicine"
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Multi-party interaction is a central setting for human communication and a necessary target for human-agent interaction systems that must participate in group conversation. Yet available corpora often focus on meetings, task-oriented interaction, text-based interaction, or acted scenarios, and…",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "TEIDAN: A Multilingual Multiparty Dialogue Corpus",
+   "url": "https://arxiv.org/abs/2609.00802v1",
+   "venue": "arXiv cs.CL"
   },
   {
    "authors": [
-    "Matthew J. Beck",
-    "Michiel C.J. Bliemer",
-    "John M. Rose"
+    "Kenji Tojo",
+    "Ariel Shamir",
+    "Nobuyuki Umetani",
+    "Bernd Bickel"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Declining revenue from traditional road funding sources, rising infrastructure costs, and the transition to electric vehicles have increased the urgency of road user charging reform as a key demand management strategy. While such schemes can improve transport system efficiency by pricing congestion and other externalities, their implementation requires careful balancing with concerns around fairness and affordability. Public acceptability therefore remains a critical constraint on policy…",
-    "citations": 0,
-    "doi": "10.1016/j.tra.2026.105229"
+    "abstract_snippet": "Faithfully capturing diverse real-world objects with fuzzy, anisotropic structures, such as hair, fur, fibers, and textiles, for efficient real-time visualization remains challenging. Recent radiance field reconstruction methods capture these structures from multi-view images using translucent volumetric primitives such as 3D Gaussians rather than opaque low-dimensional primitives (e.g., triangles, line segments, and polylines), thereby limiting compatibility with standard depth-tested…",
+    "arxiv_id": "2609.00625"
    },
-   "id": "d1e5c7e97cc2f777",
+   "id": "e7e57b78102239d1",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.3974,
+   "published_at": "2026-09-01T03:05:52Z",
+   "score": 0.6429,
    "section": "papers",
-   "source": "OpenAlex · technical communication",
-   "source_id": "openalex_techcomm",
-   "summary": "Declining revenue from traditional road funding sources, rising infrastructure costs, and the transition to electric vehicles have increased the urgency of road user charging reform as a key demand management strategy. While such schemes can improve transport system efficiency by pricing congestion…",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Faithfully capturing diverse real-world objects with fuzzy, anisotropic structures, such as hair, fur, fibers, and textiles, for efficient real-time visualization remains challenging. Recent radiance field reconstruction methods capture these structures from multi-view images using translucent…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Inverse Rendering for Modeling with Line Primitives",
+   "url": "https://arxiv.org/abs/2609.00625v1",
+   "venue": "arXiv cs.GR"
+  },
+  {
+   "authors": [
+    "Shishi Xiao",
+    "Adam J. Coscia",
+    "David H. Laidlaw"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Graphic designers often blend visual concepts to communicate multiple ideas within a single image, leveraging positive and negative space to create balance, emphasis, and aesthetic appeal. While computational methods have begun to support automatic concept blending, they largely overlook the role of spatial composition in the design. To address this gap, we present an automatic pipeline that explicitly applies positive and negative space throughout the blending process. Our approach first…",
+    "arxiv_id": "2609.00476"
+   },
+   "id": "0d214d13b2f590dd",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-31T23:25:28Z",
+   "score": 0.4397,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Graphic designers often blend visual concepts to communicate multiple ideas within a single image, leveraging positive and negative space to create balance, emphasis, and aesthetic appeal. While computational methods have begun to support automatic concept blending, they largely overlook the role…",
    "tags": [],
-   "title": "Ready to begin: driving towards the best and steering away from the worst in road pricing policy reform",
-   "url": "https://doi.org/10.1016/j.tra.2026.105229",
-   "venue": "Transportation Research Part A Policy and Practice"
+   "title": "Less Is More: Balancing Positive and Negative Space in Visual Concept Blending",
+   "url": "https://arxiv.org/abs/2609.00476v1",
+   "venue": "arXiv cs.CV"
+  },
+  {
+   "authors": [
+    "Mohammad Abolnejadian",
+    "Matthew Brehmer"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Missing institutional context during meetings can impede effective participation. Retrieving relevant information, often scattered across heterogeneous internal and external sources, requires costly task-switching that disrupts both individual focus and collective conversational flow, particularly detrimental during cognitively demanding tasks such as decision-making. We introduce InsightToast, a mixed-initiative application that monitors verbal discourse in real time, identifies topics and…",
+    "arxiv_id": "2608.31115"
+   },
+   "id": "b543bfcb68acc9ba",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-31T17:22:43Z",
+   "score": 0.4231,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Missing institutional context during meetings can impede effective participation. Retrieving relevant information, often scattered across heterogeneous internal and external sources, requires costly task-switching that disrupts both individual focus and collective conversational flow, particularly…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "InsightToast: Proactive Information Retrieval & Glanceable Visualization in the Side Channel of Data-Rich Meetings",
+   "url": "https://arxiv.org/abs/2608.31115v1",
+   "venue": "arXiv cs.HC"
   }
  ],
  "meta": {
-  "count": 16,
-  "generated_at": "2026-09-03T00:12:38Z",
+  "count": 11,
+  "generated_at": "2026-09-03T04:19:57Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
    {
     "category": "optional",
-    "count": 0,
-    "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60",
+    "count": 6,
+    "error": null,
     "full_text_count": 0,
     "id": "arxiv_datavis",
     "name": "arXiv cs.HC + cs.GR",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
    },
    {
     "category": "optional",
-    "count": 50,
+    "count": 0,
     "error": null,
     "full_text_count": 0,
     "id": "openalex_datavis",
@@ -504,7 +354,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-08-06&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-08-06&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
@@ -515,7 +365,7 @@
    },
    {
     "category": "optional",
-    "count": 40,
+    "count": 0,
     "error": null,
     "full_text_count": 0,
     "id": "openalex_techcomm",
@@ -527,12 +377,12 @@
    },
    {
     "category": "optional",
-    "count": 0,
-    "error": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC&sortBy=submittedDate&sortOrder=descending&max_results=40 (Caused by ReadTimeo",
+    "count": 5,
+    "error": null,
     "full_text_count": 0,
     "id": "arxiv_hci_writing",
     "name": "arXiv cs.HC (writing & docs)",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
