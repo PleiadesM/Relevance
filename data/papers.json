@@ -1,6 +1,28 @@
 {
  "items": [
   {
+   "authors": [],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "The Tech and Strategy Hub will have booths related to the following areas VoiceThread (Michelle Holland): Moving Past Silent Screens to Hearing Student Voices with VoiceThread - This session will introduce VoiceThread as a simple, effective tool for increasing student interaction, especially in asynchronous and online courses. For those who may feel unfamiliar with or hesitant about using new technology, VoiceThread offers an accessible way to move beyond text-based participation and foster…",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "cfe27994ebed63ec",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-03T00:00:00Z",
+   "score": 0.4841,
+   "section": "papers",
+   "source": "OpenAlex · technical communication",
+   "source_id": "openalex_techcomm",
+   "summary": "The Tech and Strategy Hub will have booths related to the following areas VoiceThread (Michelle Holland): Moving Past Silent Screens to Hearing Student Voices with VoiceThread - This session will introduce VoiceThread as a simple, effective tool for increasing student interaction, especially in…",
+   "tags": [],
+   "title": "Nexus Point: The Tech & Strategy Hub",
+   "url": "https://scholarworks.harding.edu/fts/2026/events/8",
+   "venue": "Scholar Works at Harding (Harding University Main Campus)"
+  },
+  {
    "authors": [
     "Ruijia Cao",
     "Florian Schaefer"
@@ -15,7 +37,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.4076,
+   "score": 0.3974,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -44,7 +66,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.4076,
+   "score": 0.3974,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -73,7 +95,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.5451,
+   "score": 0.5349,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -102,7 +124,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.5702,
+   "score": 0.5599,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -131,7 +153,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.4473,
+   "score": 0.4371,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -160,7 +182,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.5702,
+   "score": 0.5599,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -191,7 +213,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.4076,
+   "score": 0.3974,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -220,7 +242,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.4076,
+   "score": 0.3974,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -249,7 +271,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.5451,
+   "score": 0.5349,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -279,7 +301,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.5451,
+   "score": 0.5349,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -310,7 +332,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.4327,
+   "score": 0.4224,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -342,7 +364,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.4327,
+   "score": 0.4224,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -354,398 +376,103 @@
   },
   {
    "authors": [
-    "Chao Zhang",
-    "Abe Davis",
-    "Chih-Wei Chen",
-    "Chin-Chia Hsu"
+    "Karin Konzett",
+    "Cleo-Cosima Spoerl",
+    "Barbara Fußenegger",
+    "Lisa Kessler",
+    "Anne C. Wunderlich",
+    "Burkhard Simma"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Writing involves diverse cognitive activities, from ideation to revision, and writers' needs vary across individuals and moments. Proactive AI promises to provide the right support at the right time, yet existing proactive tools largely focus on generic textual assistance, such as autocomplete. This paper studies the design space of proactive thought partners: AI agents that proactively offer customizable, higher-level cognitive support during writing. We instantiated this concept in a…",
-    "arxiv_id": "2609.01588"
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.1007/s00431-026-07367-7"
    },
-   "id": "5b99f7b9ca72f68f",
+   "id": "32274017c77a0e5e",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-09-01T17:54:32Z",
-   "score": 0.6784,
+   "published_at": "2026-09-02T00:00:00Z",
+   "score": 0.3974,
    "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Writing involves diverse cognitive activities, from ideation to revision, and writers' needs vary across individuals and moments. Proactive AI promises to provide the right support at the right time, yet existing proactive tools largely focus on generic textual assistance, such as autocomplete.…",
-   "tags": [
-    "ai-writing",
-    "ux",
-    "techcomm"
-   ],
-   "title": "Designing Proactive Thought Partners for Writing",
-   "url": "https://arxiv.org/abs/2609.01588v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Yulia A. Levites Strekalova",
-    "Rachel Liu Galvin",
-    "Jessica M. Ray",
-    "Samuel P. Border",
-    "Mishal Khan",
-    "Samantha Hoffman"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Introduction: Clinical research informatics (CRI) platforms support biomedical discovery by integrating advanced computational tools into research workflows. Emerging technologies such as spatial omics and AI-enabled imaging expand research capabilities but introduce complex interfaces that increase cognitive burden and alter established analytical processes. Traditional usability frameworks identify general usability issues but often miss challenges specific to high-dimensional biomedical…",
-    "arxiv_id": "2609.01569"
-   },
-   "id": "a3fb5f5f9369d68d",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-01T17:36:29Z",
-   "score": 0.7173,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Introduction: Clinical research informatics (CRI) platforms support biomedical discovery by integrating advanced computational tools into research workflows. Emerging technologies such as spatial omics and AI-enabled imaging expand research capabilities but introduce complex interfaces that…",
-   "tags": [
-    "eval-study",
-    "visualization"
-   ],
-   "title": "Evaluating Usability in Biomedical Visualization: Rethinking Heuristic Evaluation for Spatial Omics and Multidisciplinary Research Platforms",
-   "url": "https://arxiv.org/abs/2609.01569v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Zhehan Qu",
-    "Christian Fronk",
-    "Jaewoong Jeong",
-    "Pavel Manakhov",
-    "Maria Gorlatova"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Augmented reality (AR) facilitates human-robot collaboration (HRC) by enabling in-situ spatial visualizations of the robot and the joint task. However, in safety-critical HRC scenarios such as search-and-rescue, spatial visualizations may also reshape visual attention in ways that create competing situational awareness (SA) demands, potentially introducing new safety concerns. While prior AR-HRC work suggests potential benefits for SA, rigorous evaluations that jointly consider robot and…",
-    "arxiv_id": "2609.01461"
-   },
-   "id": "abd2804ef004fc1c",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-01T16:01:57Z",
-   "score": 0.5187,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Augmented reality (AR) facilitates human-robot collaboration (HRC) by enabling in-situ spatial visualizations of the robot and the joint task. However, in safety-critical HRC scenarios such as search-and-rescue, spatial visualizations may also reshape visual attention in ways that create competing…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "Better Situational Awareness in AR-HRC? A Comparative Study of Augmented Reality and Mobile Interfaces for Human-Robot Collaboration",
-   "url": "https://arxiv.org/abs/2609.01461v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Maeve Hutchinson",
-    "Syed Mahbubul Huq",
-    "Mohammad Albinhassan",
-    "Radu Jianu",
-    "Aidan Slingsby",
-    "Pranava Madhyastha"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Vision Language Models have demonstrated remarkable proficiency in interpreting static visual artifacts, but modern data analysis is inherently dynamic, requiring the active interrogation of interactive environments. Existing benchmarks are predominantly constrained to static imagery and one-shot question answering and fail to capture the epistemic demands of this domain, where evidence is frequently occluded, distributed across linked views, or conditionally revealed through user agency. In…",
-    "arxiv_id": "2609.01383"
-   },
-   "id": "7d32fadb7be306af",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-01T15:15:30Z",
-   "score": 0.7083,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Vision Language Models have demonstrated remarkable proficiency in interpreting static visual artifacts, but modern data analysis is inherently dynamic, requiring the active interrogation of interactive environments. Existing benchmarks are predominantly constrained to static imagery and one-shot…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "InSight: A Benchmark for Agentic Claim Verification in Interactive Visualizations",
-   "url": "https://arxiv.org/abs/2609.01383v1",
-   "venue": "arXiv cs.CL"
-  },
-  {
-   "authors": [
-    "Taiga Mori",
-    "Koji Inoue",
-    "Mikey Elmers",
-    "Divesh Lala",
-    "Tatsuya Kawahara"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Multi-party interaction is a central setting for human communication and a necessary target for human-agent interaction systems that must participate in group conversation. Yet available corpora often focus on meetings, task-oriented interaction, text-based interaction, or acted scenarios, and fewer resources support cross-linguistic comparison of spontaneous face-to-face triadic discussion. This paper presents TEIDAN, a multilingual multimodal corpus that currently consists of Japanese and…",
-    "arxiv_id": "2609.00802"
-   },
-   "id": "a29b1281172c8cef",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-01T06:59:09Z",
-   "score": 0.6387,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Multi-party interaction is a central setting for human communication and a necessary target for human-agent interaction systems that must participate in group conversation. Yet available corpora often focus on meetings, task-oriented interaction, text-based interaction, or acted scenarios, and…",
-   "tags": [
-    "ai-writing"
-   ],
-   "title": "TEIDAN: A Multilingual Multiparty Dialogue Corpus",
-   "url": "https://arxiv.org/abs/2609.00802v1",
-   "venue": "arXiv cs.CL"
-  },
-  {
-   "authors": [
-    "Kenji Tojo",
-    "Ariel Shamir",
-    "Nobuyuki Umetani",
-    "Bernd Bickel"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Faithfully capturing diverse real-world objects with fuzzy, anisotropic structures, such as hair, fur, fibers, and textiles, for efficient real-time visualization remains challenging. Recent radiance field reconstruction methods capture these structures from multi-view images using translucent volumetric primitives such as 3D Gaussians rather than opaque low-dimensional primitives (e.g., triangles, line segments, and polylines), thereby limiting compatibility with standard depth-tested…",
-    "arxiv_id": "2609.00625"
-   },
-   "id": "e7e57b78102239d1",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-01T03:05:52Z",
-   "score": 0.6657,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Faithfully capturing diverse real-world objects with fuzzy, anisotropic structures, such as hair, fur, fibers, and textiles, for efficient real-time visualization remains challenging. Recent radiance field reconstruction methods capture these structures from multi-view images using translucent…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "Inverse Rendering for Modeling with Line Primitives",
-   "url": "https://arxiv.org/abs/2609.00625v1",
-   "venue": "arXiv cs.GR"
-  },
-  {
-   "authors": [
-    "Shishi Xiao",
-    "Adam J. Coscia",
-    "David H. Laidlaw"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Graphic designers often blend visual concepts to communicate multiple ideas within a single image, leveraging positive and negative space to create balance, emphasis, and aesthetic appeal. While computational methods have begun to support automatic concept blending, they largely overlook the role of spatial composition in the design. To address this gap, we present an automatic pipeline that explicitly applies positive and negative space throughout the blending process. Our approach first…",
-    "arxiv_id": "2609.00476"
-   },
-   "id": "0d214d13b2f590dd",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-31T23:25:28Z",
-   "score": 0.4616,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Graphic designers often blend visual concepts to communicate multiple ideas within a single image, leveraging positive and negative space to create balance, emphasis, and aesthetic appeal. While computational methods have begun to support automatic concept blending, they largely overlook the role…",
+   "source": "OpenAlex · technical communication",
+   "source_id": "openalex_techcomm",
+   "summary": "",
    "tags": [],
-   "title": "Less Is More: Balancing Positive and Negative Space in Visual Concept Blending",
-   "url": "https://arxiv.org/abs/2609.00476v1",
-   "venue": "arXiv cs.CV"
+   "title": "Eye-tracking in the delivery room: visual and communication patterns during neonatal transition",
+   "url": "https://doi.org/10.1007/s00431-026-07367-7",
+   "venue": "European Journal of Pediatrics"
   },
   {
    "authors": [
-    "Mohammad Abolnejadian",
-    "Matthew Brehmer"
+    "Xinyu Song",
+    "Chaohu Pan",
+    "Zongjuan Li",
+    "Xuanyu Zhou",
+    "A. Xiong",
+    "Zhikai Zhao"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Missing institutional context during meetings can impede effective participation. Retrieving relevant information, often scattered across heterogeneous internal and external sources, requires costly task-switching that disrupts both individual focus and collective conversational flow, particularly detrimental during cognitively demanding tasks such as decision-making. We introduce InsightToast, a mixed-initiative application that monitors verbal discourse in real time, identifies topics and…",
-    "arxiv_id": "2608.31115"
+    "abstract_snippet": "Abstract Background Resistance to therapy is a frequent occurrence in patients with epidermal growth factor receptor (EGFR)-mutant non-small-cell lung cancer (NSCLC) who are treated with EGFR tyrosine kinase inhibitors (EGFR-TKIs). However, spatial information on how the tumor microenvironment (TME) changes within the same patient from baseline to resistance to first- and then third-generation EGFR-TKIs is scarce. Here, we used rare consecutive re-biopsies to build a longitudinal,…",
+    "citations": 0,
+    "doi": "10.1186/s12967-026-08897-2"
    },
-   "id": "b543bfcb68acc9ba",
+   "id": "4f30cc7439c38ed2",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-31T17:22:43Z",
-   "score": 0.4434,
+   "published_at": "2026-09-02T00:00:00Z",
+   "score": 0.3974,
    "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Missing institutional context during meetings can impede effective participation. Retrieving relevant information, often scattered across heterogeneous internal and external sources, requires costly task-switching that disrupts both individual focus and collective conversational flow, particularly…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "InsightToast: Proactive Information Retrieval & Glanceable Visualization in the Side Channel of Data-Rich Meetings",
-   "url": "https://arxiv.org/abs/2608.31115v1",
-   "venue": "arXiv cs.HC"
+   "source": "OpenAlex · technical communication",
+   "source_id": "openalex_techcomm",
+   "summary": "Abstract Background Resistance to therapy is a frequent occurrence in patients with epidermal growth factor receptor (EGFR)-mutant non-small-cell lung cancer (NSCLC) who are treated with EGFR tyrosine kinase inhibitors (EGFR-TKIs). However, spatial information on how the tumor microenvironment…",
+   "tags": [],
+   "title": "Longitudinal spatial multi-omics delineates tumor microenvironment remodeling across sequential EGFR-TKIs in EGFR-mutant NSCLC",
+   "url": "https://doi.org/10.1186/s12967-026-08897-2",
+   "venue": "Journal of Translational Medicine"
   },
   {
    "authors": [
-    "Jeff Lee",
-    "Sebastien Jourdain",
-    "Cory Quammen",
-    "Patrick O'Leary",
-    "Berk Geveci"
+    "Matthew J. Beck",
+    "Michiel C.J. Bliemer",
+    "John M. Rose"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Scientific analysis workflows encode deep domain knowledge through sequences of tightly coupled operations where correctness depends on tool selection, execution order, and parameterization. A CFD engineer investigating flow separation must extract wall shear stress, identify zero-crossings in skin friction, and confirm with boundary-layer profiles: a chain that requires both domain expertise and proficiency with visualization tools. Current approaches to LLM-assisted scientific visualization…",
-    "also_in": [
-     {
-      "source": "arXiv cs.HC (writing & docs)",
-      "url": "https://arxiv.org/abs/2608.30696v1"
-     }
-    ],
-    "arxiv_id": "2608.30696"
+    "abstract_snippet": "Declining revenue from traditional road funding sources, rising infrastructure costs, and the transition to electric vehicles have increased the urgency of road user charging reform as a key demand management strategy. While such schemes can improve transport system efficiency by pricing congestion and other externalities, their implementation requires careful balancing with concerns around fairness and affordability. Public acceptability therefore remains a critical constraint on policy…",
+    "citations": 0,
+    "doi": "10.1016/j.tra.2026.105229"
    },
-   "id": "c08b362b933181c2",
+   "id": "d1e5c7e97cc2f777",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-08-31T12:32:11Z",
-   "score": 0.7623,
+   "published_at": "2026-09-02T00:00:00Z",
+   "score": 0.3974,
    "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Scientific analysis workflows encode deep domain knowledge through sequences of tightly coupled operations where correctness depends on tool selection, execution order, and parameterization. A CFD engineer investigating flow separation must extract wall shear stress, identify zero-crossings in skin…",
-   "tags": [
-    "ml-vis",
-    "llm"
-   ],
-   "title": "Domain-Grounded Tool Orchestration for LLM-Guided Scientific Analysis",
-   "url": "https://arxiv.org/abs/2608.30696v1",
-   "venue": "arXiv cs.CE"
-  },
-  {
-   "authors": [
-    "Einari Vaaras",
-    "Manu Airaksinen",
-    "Okko Räsänen"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "We present TSExplorer, a cross-platform tool for interactive annotation and exploration of time-series data. The tool enables users to inspect high-dimensional datasets through multiple complementary 2D visualizations derived from high-dimensional feature representations. TSExplorer is designed as a general-purpose research tool supporting a wide range of workflows, including exploratory data analysis, annotation of unlabeled or partially-labeled datasets, comparison of feature representations,…",
-    "arxiv_id": "2608.30514"
-   },
-   "id": "f5068e66fe3698d4",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-31T09:48:35Z",
-   "score": 0.4224,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "We present TSExplorer, a cross-platform tool for interactive annotation and exploration of time-series data. The tool enables users to inspect high-dimensional datasets through multiple complementary 2D visualizations derived from high-dimensional feature representations. TSExplorer is designed as…",
-   "tags": [
-    "visualization"
-   ],
-   "title": "TSExplorer: An interactive data annotation and exploration tool for time-series data",
-   "url": "https://arxiv.org/abs/2608.30514v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Masahiro Yoshida",
-    "Atsuya Kobayashi",
-    "Kei Tateno",
-    "Xiang 'Anthony' Chen"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Large language models can support writing, but existing tools require users to explicitly articulate prompts-particularly burdensome in creative writing, where intentions are often ambiguous. Proactive support that infers users' needs from writing interactions could alleviate this burden, but raises two challenges: determining what support to provide and when to intervene. This work focuses on the former. We hypothesize that Flower and Hayes' cognitive process theory of writing-which…",
-    "arxiv_id": "2608.30424"
-   },
-   "id": "492a85c8f94d33ee",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-31T08:21:11Z",
-   "score": 0.3786,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Large language models can support writing, but existing tools require users to explicitly articulate prompts-particularly burdensome in creative writing, where intentions are often ambiguous. Proactive support that infers users' needs from writing interactions could alleviate this burden, but…",
-   "tags": [
-    "llm",
-    "techcomm"
-   ],
-   "title": "Towards Cognitive Process-Aware Proactive Writing Support",
-   "url": "https://arxiv.org/abs/2608.30424v1",
-   "venue": "arXiv cs.HC"
-  },
-  {
-   "authors": [
-    "Ziheng \"Leo\" Li",
-    "Benjamin Freeman",
-    "Akshay Raman",
-    "Kavin Aravindhan Rajkumar",
-    "Xinxin Fang",
-    "Rishabh Srivastava"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Clinical AI often optimizes predictive performance without engaging how clinicians decide where to look and what to write. We present Co-Annotator, which distills expert gaze and dictation into two guidance components: a gaze-aligned Vision Transformer producing fixation-aligned areas of interest (AOIs), and an ontology-bounded vision-language model (VLM) that pre-fills editable biomarker summaries for retinal optical coherence tomography (OCT). We first collect expert gaze and dictations (US1)…",
-    "arxiv_id": "2608.30352"
-   },
-   "id": "0eb98a0fd7993b36",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-31T07:09:05Z",
-   "score": 0.568,
-   "section": "papers",
-   "source": "arXiv cs.HC (writing & docs)",
-   "source_id": "arxiv_hci_writing",
-   "summary": "Clinical AI often optimizes predictive performance without engaging how clinicians decide where to look and what to write. We present Co-Annotator, which distills expert gaze and dictation into two guidance components: a gaze-aligned Vision Transformer producing fixation-aligned areas of interest…",
-   "tags": [
-    "ai-writing",
-    "techcomm"
-   ],
-   "title": "Co-Annotator: Expert-Distilled ViT and VLM for Visual and Documentation Guidance in Age-Related Macular Degeneration",
-   "url": "https://arxiv.org/abs/2608.30352v1",
-   "venue": "arXiv cs.AI"
-  },
-  {
-   "authors": [
-    "Khalil Chakal",
-    "Tero Kaarlela",
-    "Jose Outeiro",
-    "Carlos Andrade"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Digital Twins (DTs) have emerged as a key technology for improving the monitoring, optimization, and automation of manufacturing systems. However, existing Cyber-Physical Machine Tool (CPMT) implementations primarily represent the machine tool, while the machining process remains only partially synchronized with its physical counterpart. This paper extends a previously presented CPMT framework by introducing a hierarchical DT framework that simultaneously maintains DTs of both the machine tool…",
-    "arxiv_id": "2608.29955"
-   },
-   "id": "6f0dc3305a29a53b",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-08-30T18:37:36Z",
-   "score": 0.5781,
-   "section": "papers",
-   "source": "arXiv cs.HC + cs.GR",
-   "source_id": "arxiv_datavis",
-   "summary": "Digital Twins (DTs) have emerged as a key technology for improving the monitoring, optimization, and automation of manufacturing systems. However, existing Cyber-Physical Machine Tool (CPMT) implementations primarily represent the machine tool, while the machining process remains only partially…",
-   "tags": [
-    "systems"
-   ],
-   "title": "A Cyber-Physical Machine Tool Framework with a Real-Time Machining Process Digital Twin",
-   "url": "https://arxiv.org/abs/2608.29955v1",
-   "venue": "arXiv cs.HC"
+   "source": "OpenAlex · technical communication",
+   "source_id": "openalex_techcomm",
+   "summary": "Declining revenue from traditional road funding sources, rising infrastructure costs, and the transition to electric vehicles have increased the urgency of road user charging reform as a key demand management strategy. While such schemes can improve transport system efficiency by pricing congestion…",
+   "tags": [],
+   "title": "Ready to begin: driving towards the best and steering away from the worst in road pricing policy reform",
+   "url": "https://doi.org/10.1016/j.tra.2026.105229",
+   "venue": "Transportation Research Part A Policy and Practice"
   }
  ],
  "meta": {
-  "count": 25,
-  "generated_at": "2026-09-02T21:00:12Z",
+  "count": 16,
+  "generated_at": "2026-09-03T00:12:38Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
    {
     "category": "optional",
-    "count": 9,
-    "error": null,
+    "count": 0,
+    "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60",
     "full_text_count": 0,
     "id": "arxiv_datavis",
     "name": "arXiv cs.HC + cs.GR",
-    "ok": true,
+    "ok": false,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
@@ -777,7 +504,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-08-05&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0361-1434%2Cfrom-created-date%3A2026-08-06&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
@@ -788,7 +515,7 @@
    },
    {
     "category": "optional",
-    "count": 0,
+    "count": 40,
     "error": null,
     "full_text_count": 0,
     "id": "openalex_techcomm",
@@ -800,12 +527,12 @@
    },
    {
     "category": "optional",
-    "count": 5,
-    "error": null,
+    "count": 0,
+    "error": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC&sortBy=submittedDate&sortOrder=descending&max_results=40 (Caused by ReadTimeo",
     "full_text_count": 0,
     "id": "arxiv_hci_writing",
     "name": "arXiv cs.HC (writing & docs)",
-    "ok": true,
+    "ok": false,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"

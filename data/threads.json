@@ -1,17 +1,164 @@
 {
  "meta": {
-  "count": 3,
-  "generated_at": "2026-09-02T21:00:12Z",
+  "count": 6,
+  "generated_at": "2026-09-03T00:12:38Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "item_id": "631ebdc2a6b6dcf2",
+     "phrase": {
+      "en": "Frames as tragedy",
+      "zh": "视为悲剧"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/09/02/video/iran-us-attack-wedding.html"
+    },
+    {
+     "item_id": "fcf923acbf081504",
+     "phrase": {
+      "en": "Frames as bogged down",
+      "zh": "视为陷入困境"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/09/02/us/politics/trump-iran-strait-of-hormuz.html"
+    },
+    {
+     "item_id": "8026e9f3c56afb83",
+     "phrase": {
+      "en": "Frames as attack",
+      "zh": "视为袭击"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cx2zxgg4mx9o?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "US strikes and tanker attacks escalate despite claims of dominance.",
+    "zh": "美方打击与油轮袭击升级，尽管宣称主导。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "Iran conflict",
+    "zh": "伊朗冲突"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track geopolitics and visual rhetoric: today's events show framing gaps in media coverage.",
+    "zh": "你关注地缘政治与视觉修辞，今日事件揭示媒体报道的框架差异。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "f53251cbca4b1bf7",
+     "phrase": {
+      "en": "Frames as states sue",
+      "zh": "各州起诉"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/09/02/us/politics/youth-gender-transition-lawsuit-federal-money.html"
+    },
+    {
+     "item_id": "cabf3df6c9dfcd1e",
+     "phrase": {
+      "en": "Frames as tariff war",
+      "zh": "关税战"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/live/2026/sep/02/us-politics-latest-news-updates-donald-trump-iran"
+    },
+    {
+     "item_id": "c8f99bd6d6f34403",
+     "phrase": {
+      "en": "Frames as future",
+      "zh": "未来方向"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/09/02/opinion/steve-hilton-california-trump.html"
+    },
+    {
+     "item_id": "c3e1eabf743863ed",
+     "phrase": {
+      "en": "Frames as hunt",
+      "zh": "搜索行动"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/09/02/us/politics/trump-election-voter-fraud.html"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "From transgender care bans to trade wars and election battles.",
+    "zh": "从跨性别医疗禁令到贸易战和选举斗争。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "US political tensions",
+    "zh": "美国政治紧张"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow policy and communication: these items shape contentious narratives you analyze.",
+    "zh": "你关注政策与传播，这些议题塑造你分析的对立叙事。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "2cc3edc53225249d",
+     "phrase": {
+      "en": "Frames by NPR",
+      "zh": "NPR报道"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/09/02/nx-s1-5954825/nba-suspends-clippers-owner-ballmer-fines-team-30m-kawhi-leonard-700k-in-cap-circumvention-case"
+    },
+    {
+     "item_id": "12973cec60a16aeb",
+     "phrase": {
+      "en": "Frames by Guardian",
+      "zh": "卫报报道"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/sport/2026/sep/02/la-clippers-kawhi-leonard-fine-salary-cap-nba"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Clippers and Leonard face heavy penalties for salary cap circumvention.",
+    "zh": "快船队和伦纳德因薪资规避面临重罚。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "NBA punishment",
+    "zh": "NBA处罚"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You enjoy data and rules; this case shows analytical stakes in sports.",
+    "zh": "你欣赏数据和规则，此案例显示体育中的分析利害。"
+   }
+  },
+  {
+   "angles": [
+    {
      "item_id": "fedcad2faa9d611b",
      "phrase": {
-      "en": "Release notes and support details",
-      "zh": "发布说明与支持细节"
+      "en": "Release notes",
+      "zh": "发布说明"
      },
      "section": "news",
      "source": "Simon Willison",
@@ -21,8 +168,8 @@
      "full_text_file": "articles/news/f1ccabd10d92052c.json",
      "item_id": "f1ccabd10d92052c",
      "phrase": {
-      "en": "More reasoning work, higher cost",
-      "zh": "更多推理工作，更高成本"
+      "en": "Claims works harder",
+      "zh": "声称更努力"
      },
      "section": "news",
      "source": "The Verge · AI",
@@ -31,132 +178,96 @@
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "New AI models keep getting smarter and faster, but may cost more for those who use them heavily.",
-    "zh": "新的AI模型更聪明、更快，但重度使用可能花费更多。"
+    "en": "New model works harder, potentially smarter but more costly.",
+    "zh": "新模型更努力，可能更聪明但更贵。"
    },
-   "id": "t1",
+   "id": "t4",
    "keyword": {
-    "en": "AI reasoning + speed",
-    "zh": "推理与速度"
+    "en": "Gemini 3.8 Flash",
+    "zh": "Gemini 3.8 Flash"
    },
-   "relates_to": [
-    "t2"
-   ],
-   "timeline": [
-    {
-     "date": "2026-08",
-     "label": {
-      "en": "Gemini 3.7 Flash",
-      "zh": "Gemini 3.7 Flash"
-     }
-    },
-    {
-     "date": "2026-09-02",
-     "full_text_file": "articles/news/f1ccabd10d92052c.json",
-     "item_id": "f1ccabd10d92052c",
-     "label": {
-      "en": "Gemini 3.8 Flash",
-      "zh": "Gemini 3.8 Flash"
-     },
-     "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash"
-    }
-   ],
+   "relates_to": [],
    "why_now": {
-    "en": "You track AI releases: today's Gemini 3.8 Flash launch marks a notable step in reasoning-class small models.",
-    "zh": "你关注AI发布，今天Gemini 3.8 Flash发布是推理型小模型的重要一步。"
+    "en": "You track LLMs: a new flash model affects cost and reasoning trade-offs.",
+    "zh": "你关注LLM，新flash模型影响成本与推理权衡。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "9d88507e1dec010f",
+     "item_id": "246d795fcdd06e1b",
      "phrase": {
-      "en": "Google wins ad tech case",
-      "zh": "谷歌赢得广告技术案"
+      "en": "Frames as escalation",
+      "zh": "视为升级"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/09/02/technology/google-ad-tech-remedies.html"
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/ce9e810pg7ko?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "6184a7681ffdb6c5",
+     "item_id": "45f412bcac9a5ba1",
      "phrase": {
-      "en": "Trump backs OpenAI in copyright suit",
-      "zh": "特朗普支持OpenAI版权案"
+      "en": "Frames ML analysis",
+      "zh": "ML分析"
+     },
+     "section": "papers",
+     "source": "OpenAlex · information visualization",
+     "url": "https://doi.org/10.1186/s12982-026-02745-w"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Russia blamed for drone attack in Germany, EU and NATO react.",
+    "zh": "俄罗斯被指无人机袭击德国，欧盟和北约回应。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "drone attacks",
+    "zh": "无人机袭击"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You follow security tech: drone attacks link geopolitics and autonomous systems",
+    "zh": "你关注安全技术，无人机袭击联系地缘政治与自主系统。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "f9ccc3ed7a1b0e0a",
+     "phrase": {
+      "en": "Frames as protests",
+      "zh": "视为抗议"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c1mvn2yp9n2o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "26c106556475d64d",
+     "phrase": {
+      "en": "Frames as targeting",
+      "zh": "视为目标"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/technology/2026/sep/02/trump-new-york-times-lawsuit-ai"
-    },
-    {
-     "full_text_file": "articles/news/4d231f197efbe298.json",
-     "item_id": "4d231f197efbe298",
-     "phrase": {
-      "en": "Lawsuit demands transparency in AI testing",
-      "zh": "诉讼要求AI测试透明"
-     },
-     "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/tech-policy/2026/09/trump-may-be-forced-to-reveal-secret-rules-feds-use-for-ai-safety-testing/"
+     "url": "https://www.theguardian.com/politics/2026/sep/02/andy-burnham-migrant-crisis-macron-downing-street"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Courts and governments are shaping how AI companies use copyrighted material and how models are tested.",
-    "zh": "法院和政府正在塑造AI使用版权材料的方式及模型测试。"
+    "en": "Spain and UK grapple with migrant influx, political blame shifts.",
+    "zh": "西班牙和英国应对移民涌入，政治指责转移。"
    },
-   "id": "t2",
+   "id": "t6",
    "keyword": {
-    "en": "AI legal battles",
-    "zh": "AI法律战"
-   },
-   "relates_to": [
-    "t1"
-   ],
-   "why_now": {
-    "en": "You care about AI regulation: today's court decision and lawsuit briefs reveal key tensions in AI policy we face now.",
-    "zh": "你关注AI监管，今日法院判决与诉讼简报揭示了当前AI政策的紧张点。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "121e9450f5cfbaea",
-     "phrase": {
-      "en": "Digital homecage tracks mouse behavior",
-      "zh": "数字家居笼追踪小鼠行为"
-     },
-     "section": "papers",
-     "source": "OpenAlex · information visualization",
-     "url": "https://doi.org/10.1038/s41598-026-69041-0"
-    },
-    {
-     "item_id": "7dabd2c4e4cc1f64",
-     "phrase": {
-      "en": "Survived floods—not tech monitoring",
-      "zh": "洪水幸存——非技术监控"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/09/02/world/asia/nepal-flood-miracle-house-dhunge-bazaar.html"
-    }
-   ],
-   "convergence": "divergent",
-   "gloss": {
-    "en": "Long-term tracking of animal and human behavior at home promises richer data for studying complex conditions like stress and disease.",
-    "zh": "在家庭环境中长期追踪行为，可为研究压力和疾病等复杂状况提供更丰富的数据。"
-   },
-   "id": "t3",
-   "keyword": {
-    "en": "Home-based monitoring",
-    "zh": "家庭监护"
+    "en": "migrant crisis",
+    "zh": "移民危机"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You find embodied cognition interesting: these studies highlight how continuous, naturalistic data can reveal patterns that lab tests miss.",
-    "zh": "你对具身认知感兴趣，这些研究强调连续自然数据能揭示实验室测试错过的模式。"
+    "en": "You care about communication framing: crises highlight rhetoric's power.",
+    "zh": "你关注传播框架，危机凸显修辞的力量。"
    }
   }
  ]
