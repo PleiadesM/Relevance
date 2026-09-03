@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "world sandcastle championship OR sand sculpture techniques",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "My Modern Met",
-   "published_at": "2026-08-31T16:45:25Z",
-   "title": "Sand Castle Artist Elevates a Classic Beach Activity Into Unbelievable Art and Architecture",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBTbnI1b2REN2NTUFZoV1k3YU14Zk5NU216YlJzbkliTVk1MzJiNFpaeXc0TDdORDJId1lHUDQyUTJjUDFqWm9rM190VlU3azJfRXZqbFBvbG5vSllFY2syVUlDNld3ZlE?oc=5"
+   "name": "dailyhive.com",
+   "published_at": "2026-09-02T01:30:00Z",
+   "title": "Over 40 fun and fantastic things to do in Vancouver in September | Daily Hive",
+   "url": "https://dailyhive.com/vancouver/vancouver-events-september-2026"
   },
   "summaries": {
    "en": {
-    "summary": "A sand castle artist transforms a traditional beach pastime into astonishing, elaborate sculptures.",
-    "why_irrelevant": "A whimsical, hands-on craft story far from political or tech-heavy discussions."
+    "summary": "A list of September events in Vancouver includes a pumpkin festival, but the core item is the Saratoga Pumpkinfest, a competitive giant pumpkin weigh-off.",
+    "why_irrelevant": "It is a niche hobby event far from typical tech or political feeds."
    },
    "zh": {
-    "summary": "一位沙雕艺术家将传统的海滩活动转化为令人惊叹的复杂雕塑。",
-    "why_irrelevant": "一则轻松的手工艺故事，远离政治或科技话题。"
+    "summary": "温哥华九月活动清单提及南瓜节，但核心是萨拉托加巨型南瓜称重比赛。",
+    "why_irrelevant": "这是远离常规科技或政治信息流的冷门爱好事件。"
    }
   },
-  "topic": "competitive sandcastle construction"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Today's news covers violent incidents, trade tensions, political strife, and cultural tributes, while research explores AI oversight, brain-computer interfaces, and visualization.",
+ "brief": "Gloria Steinem's passing and escalating Russia-Ukraine conflict headline the news, while research spans emotion recognition, flood modeling, and neurodegenerative biomarkers.",
  "meta": {
-  "generated_at": "2026-09-03T04:19:57Z"
+  "generated_at": "2026-09-03T11:09:39Z"
  },
- "news_summary": "US news features Minneapolis shooting, drone tariffs, and political feuds, while UK/Australia report on education, domestic violence, and environmental controversies.",
- "papers_summary": "Research highlights AI oversight, BCI innovations, and visualization tools, with a focus on human-centered computing.",
+ "news_summary": "The world mourns feminist icon Gloria Steinem at 92, while the Russia-Ukraine war shows no signs of abating. Political shifts in the US and UK, a Canary Islands migrant tragedy, and a train-chase centennial also feature.",
+ "papers_summary": "Research covers emotion recognition from body motion using leave-performer-out evaluation, LLM oversight challenges, Parkinson's disease genetic modifiers, and precision in flood modeling with digital elevation models.",
  "summaries": {
   "en": {
-   "brief": "Today's news covers violent incidents, trade tensions, political strife, and cultural tributes, while research explores AI oversight, brain-computer interfaces, and visualization.",
-   "news_summary": "US news features Minneapolis shooting, drone tariffs, and political feuds, while UK/Australia report on education, domestic violence, and environmental controversies.",
-   "papers_summary": "Research highlights AI oversight, BCI innovations, and visualization tools, with a focus on human-centered computing."
+   "brief": "Gloria Steinem's passing and escalating Russia-Ukraine conflict headline the news, while research spans emotion recognition, flood modeling, and neurodegenerative biomarkers.",
+   "news_summary": "The world mourns feminist icon Gloria Steinem at 92, while the Russia-Ukraine war shows no signs of abating. Political shifts in the US and UK, a Canary Islands migrant tragedy, and a train-chase centennial also feature.",
+   "papers_summary": "Research covers emotion recognition from body motion using leave-performer-out evaluation, LLM oversight challenges, Parkinson's disease genetic modifiers, and precision in flood modeling with digital elevation models."
   },
   "zh": {
-   "brief": "今日國際焦點包括印度總理莫迪呼籲普京結束烏克蘭戰爭，香港黃之鋒認罪及判刑押後，以及阿富汗遣返潮等新聞。研究方面，多篇論文探討人機協作中的感知與信任問題。",
-   "news_summary": "國際新聞聚焦於莫迪訪俄勸說普京停戰、黃之鋒國安法案件認罪，以及委內瑞拉油田開採權爭議；阿富汗遣返人數持續增加，引發人道關切。",
-   "papers_summary": "本日研究論文集中於人機互動與人工智慧，探討身體動作情緒識別、大型語言模型監督、腦機介面適應等議題，並提出新方法與資料集。"
+   "brief": "今日新闻焦点包括聯合國對超大型厄爾尼諾的警告、美國航母長航後靠岸、莫迪呼籲普京結束戰爭，以及黃之鋒案認罪等；研究方面則涉及AI監督、情感識別等技術。",
+   "news_summary": "聯合國警告可能出現超大型厄爾尼諾現象，需各國應對；美國林肯號航母航行250天後抵泰國；莫迪再促普京結束烏克蘭戰爭；黃之鋒認罪勾結外國勢力罪。",
+   "papers_summary": "研究探討大型語言模型的可監督性與信息可獲取性，以及身體動作情感識別的分類挑戰，另有多項生物醫學與環境研究。"
   }
  },
  "todays_image": {
-  "caption": "Like rats driven from a collapsing nest, the sudden violence at the Minneapolis apartment building scattered lives into chaos.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m344b8fe9f723f4e07bf675555cb98b6da",
-  "source_name": "NMNH - Vertebrate Zoology - Mammals Division",
-  "source_url": "http://n2t.net/ark:/65665/356635feb-755c-42b9-b751-ae493cf600be",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m344b8fe9f723f4e07bf675555cb98b6da/90",
-  "title": "Rattus tanezumi mindanensis"
+  "caption": "The repetitive, interlocking pattern of the \"Sidewall\" mirrors the endless, spiraling escalation between Russia and Ukraine.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1970-26-8-a_bMattFlynn",
+  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/146562",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1970-26-8-a_bMattFlynn",
+  "title": "Sidewall"
  }
 }

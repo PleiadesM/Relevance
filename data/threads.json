@@ -1,86 +1,165 @@
 {
  "meta": {
-  "count": 2,
-  "generated_at": "2026-09-03T04:19:57Z",
+  "count": 3,
+  "generated_at": "2026-09-03T11:09:39Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "fa1e6b3ce68d793f",
+     "item_id": "3b65ce8ca9d50393",
      "phrase": {
-      "en": "retrievability as oversight precondition",
-      "zh": "可检索性作为监管前提"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2609.01976v1"
-    },
-    {
-     "item_id": "fedcad2faa9d611b",
-     "phrase": {
-      "en": "new Gemini model release",
-      "zh": "新Gemini模型发布"
+      "en": "Reports her peaceful passing",
+      "zh": "报道她安详离世"
      },
      "section": "news",
-     "source": "Simon Willison",
-     "url": "https://simonwillison.net/2026/Sep/2/llm-gemini/"
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/clyeq3ngwe4o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "2187d5989792c6a4",
+     "phrase": {
+      "en": "Personified the women's movement",
+      "zh": "女性运动的化身"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/09/03/us/politics/gloria-steinem-dead.html"
+    },
+    {
+     "item_id": "d206c5e8ac55a333",
+     "phrase": {
+      "en": "Changed generations of women",
+      "zh": "改变数代女性"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cqv5wxyp5xwo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "9b0efe511c7c3375",
+     "phrase": {
+      "en": "Groundbreaking feminist campaigner dies",
+      "zh": "开创性女权活动家去世"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/books/2026/sep/03/gloria-steinem-groundbreaking-feminist-campaigner-dies-aged-92"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "How to catch what LLMs get wrong when humans can't see it.",
-    "zh": "当人眼难以察觉时，如何发现大模型的错误。"
+    "en": "A life that redefined womanhood is remembered across the world.",
+    "zh": "一个重新定义女性身份的生命被世界铭记。"
    },
    "id": "t1",
    "keyword": {
-    "en": "LLM oversight",
-    "zh": "大模型监管"
+    "en": "Gloria Steinem legacy",
+    "zh": "格洛丽亚·斯泰纳姆遗产"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You study LLM errors: new work says retrievability is the missing precondition for oversight.",
-    "zh": "你研究大模型错误，新研究表明可检索性是有效监管的前提。"
+    "en": "You follow visual rhetoric and media narratives; her iconic imagery shaped feminist discourse.",
+    "zh": "你研究视觉修辞与媒体叙事，她的标志性形象塑造了女权话语。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "7d32fadb7be306af",
+     "item_id": "c7aa3db8f1b77ab5",
      "phrase": {
-      "en": "benchmark for agentic claims",
-      "zh": "智能体声明基准"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2609.01383v1"
-    },
-    {
-     "item_id": "fa70790af3765d4f",
-     "phrase": {
-      "en": "in-browser LLM inference",
-      "zh": "浏览器内大模型推理"
+      "en": "Sees escalating spiral",
+      "zh": "看到不断升级的螺旋"
      },
      "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://github.com/mlc-ai/web-llm"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/09/03/world/europe/russia-ukraine-escalation.html"
+    },
+    {
+     "item_id": "f874f813ff63a424",
+     "phrase": {
+      "en": "New jet drones breed anxiety",
+      "zh": "新型喷气无人机引发焦虑"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/09/03/world/europe/ukraine-russia-jet-powered-drones.html"
+    },
+    {
+     "item_id": "246d795fcdd06e1b",
+     "phrase": {
+      "en": "EU and NATO vow pressure",
+      "zh": "欧盟北约誓言施压"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/ce9e810pg7ko?at_medium=RSS&at_campaign=rss"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Interactive charts need new ways to verify and explain.",
-    "zh": "交互图表需要新的验证与解释方式。"
+    "en": "Drones and missiles intensify a war without end in sight.",
+    "zh": "无人机与导弹加剧了看不到尽头的战争。"
    },
    "id": "t2",
    "keyword": {
-    "en": "data visualization",
-    "zh": "数据可视化"
+    "en": "Russia-Ukraine escalation",
+    "zh": "俄乌冲突升级"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You work in data vis: benchmarks and tools for dynamic claims are emerging.",
-    "zh": "你从事数据可视化，动态声明基准与工具正涌现。"
+    "en": "You track geopolitical shifts; new drone tech changes warfare dynamics.",
+    "zh": "你关注地缘政治变化，新型无人机技术改变战争动态。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "4d9cb81d90af7cb8",
+     "phrase": {
+      "en": "First living president on coin",
+      "zh": "首位在世总统上硬币"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c7507g9v992o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "c83f221b08a389bf",
+     "phrase": {
+      "en": "Judge blocks citizenship order",
+      "zh": "法官阻止公民权命令"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/live/2026/sep/03/donald-trump-immigration-tariffs-canada-trade-iran-jd-vance-latest-news-updates"
+    },
+    {
+     "item_id": "1ad9c6faf343b12b",
+     "phrase": {
+      "en": "Ranks himself greatest president",
+      "zh": "自评为最伟大总统"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/sep/03/greatest-president-trump-historians-disagree"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "From coins to courts, Trump still dominates US news cycles.",
+    "zh": "从硬币到法庭，特朗普仍主导美国新闻。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "Trump politics",
+    "zh": "特朗普政治"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You analyze media narratives; his currency and ranking stories are rhetorical moves.",
+    "zh": "你分析媒体叙事，他的货币和排名故事是修辞手法。"
    }
   }
  ]
