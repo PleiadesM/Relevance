@@ -1,165 +1,298 @@
 {
  "meta": {
-  "count": 3,
-  "generated_at": "2026-09-03T11:09:39Z",
+  "count": 6,
+  "generated_at": "2026-09-03T16:23:02Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "item_id": "3b65ce8ca9d50393",
+     "full_text_file": "articles/news/d15e528fef154467.json",
+     "item_id": "d15e528fef154467",
      "phrase": {
-      "en": "Reports her peaceful passing",
-      "zh": "报道她安详离世"
+      "en": "ChatGPT, Grok, Claude all down",
+      "zh": "三大聊天机器人同时宕机"
      },
      "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/clyeq3ngwe4o?at_medium=RSS&at_campaign=rss"
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down"
     },
+    {
+     "item_id": "ba4224baf3b37162",
+     "phrase": {
+      "en": "Ask HN: Why all down simultaneously?",
+      "zh": "问HN：为何同时宕机？"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://news.ycombinator.com/item?id=49551096"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "ChatGPT, Grok, Claude all fail at once, sparking questions about shared infrastructure.",
+    "zh": "ChatGPT、Grok、Claude同时故障，引发对共享基础设施的质疑。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "AI outage",
+    "zh": "AI宕机"
+   },
+   "relates_to": [
+    "t5"
+   ],
+   "why_now": {
+    "en": "You track AI reliability: today's simultaneous outage reveals fragility in the AI stack you build on.",
+    "zh": "你关注AI可靠性：今日同时宕机揭示了你所依赖的AI栈的脆弱性。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "9b6fe269bdb363ad",
+     "phrase": {
+      "en": "most advanced global weather AI",
+      "zh": "最先进的全球天气AI"
+     },
+     "section": "news",
+     "source": "Google DeepMind Blog",
+     "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/"
+    },
+    {
+     "full_text_file": "articles/news/c20151f90b9a689f.json",
+     "item_id": "c20151f90b9a689f",
+     "phrase": {
+      "en": "better at rain and snow prediction",
+      "zh": "雨雪预报更准"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/tech/988921/weather-forecast-ai-model-google-satellite-update"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Google unveils a sharper AI weather model, promising better forecasts amid climate extremes.",
+    "zh": "谷歌推出更精准的AI天气模型，气候极端下预报更可靠。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "AI weather model",
+    "zh": "AI天气预报"
+   },
+   "relates_to": [],
+   "timeline": [
+    {
+     "date": "2026-09-03",
+     "item_id": "9b6fe269bdb363ad",
+     "label": {
+      "en": "Google launches WeatherNext 3",
+      "zh": "谷歌发布WeatherNext 3"
+     },
+     "section": "news",
+     "source": "Google DeepMind Blog",
+     "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/"
+    },
+    {
+     "date": "2026-09-03",
+     "full_text_file": "articles/news/c20151f90b9a689f.json",
+     "item_id": "c20151f90b9a689f",
+     "label": {
+      "en": "Verge covers accuracy gains",
+      "zh": "The Verge报道精度提升"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/tech/988921/weather-forecast-ai-model-google-satellite-update"
+    }
+   ],
+   "why_now": {
+    "en": "Your interest in AI applications: today's launch advances state-of-the-art in predictive modeling with real-world impact.",
+    "zh": "你对AI应用感兴趣，今日发布推进了预测建模的前沿，具有现实影响。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "full_text_file": "articles/news/054cb9e74fe6c322.json",
+     "item_id": "054cb9e74fe6c322",
+     "phrase": {
+      "en": "links idle computers into AI data center",
+      "zh": "闲置电脑组成AI数据中心"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook"
+    },
+    {
+     "full_text_file": "articles/news/4f4cfc3a4021cb09.json",
+     "item_id": "4f4cfc3a4021cb09",
+     "phrase": {
+      "en": "Nvidia buys Hugging Face for $13B",
+      "zh": "英伟达130亿美元收购HF"
+     },
+     "section": "news",
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/ai/2026/09/nvidia-buys-hugging-face-the-github-of-ai-for-13-billion/"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Nvidia advances consumer AI tools and acquires Hugging Face, strengthening its grip on the ecosystem.",
+    "zh": "英伟达发布消费级AI工具并收购Hugging Face，强化其生态掌控。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "Nvidia AI expansion",
+    "zh": "英伟达AI扩张"
+   },
+   "relates_to": [
+    "t1",
+    "t5"
+   ],
+   "why_now": {
+    "en": "You follow AI industry moves: today's dual announcements reshape tooling and platform control you depend on.",
+    "zh": "你关注AI行业动态，今日两项公告重塑了你依赖的工具和平台控制。"
+   }
+  },
+  {
+   "angles": [
     {
      "item_id": "2187d5989792c6a4",
      "phrase": {
-      "en": "Personified the women's movement",
-      "zh": "女性运动的化身"
+      "en": "dies at 92, personification of feminism",
+      "zh": "逝世享年92，女权象征"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/09/03/us/politics/gloria-steinem-dead.html"
     },
     {
-     "item_id": "d206c5e8ac55a333",
+     "item_id": "3b65ce8ca9d50393",
      "phrase": {
-      "en": "Changed generations of women",
-      "zh": "改变数代女性"
+      "en": "passes peacefully at home",
+      "zh": "在家中安详离世"
      },
      "section": "news",
      "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/cqv5wxyp5xwo?at_medium=RSS&at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/clyeq3ngwe4o?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "9b0efe511c7c3375",
+     "item_id": "f3f8f6ff943b26bf",
      "phrase": {
-      "en": "Groundbreaking feminist campaigner dies",
-      "zh": "开创性女权活动家去世"
+      "en": "glamour as a means",
+      "zh": "魅力作为手段"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/09/03/style/gloria-steinem-style-feminism.html"
+    },
+    {
+     "item_id": "d1dbbfda72c6341a",
+     "phrase": {
+      "en": "tributes from Clinton and others",
+      "zh": "克林顿等人悼念"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/books/2026/sep/03/gloria-steinem-groundbreaking-feminist-campaigner-dies-aged-92"
+     "url": "https://www.theguardian.com/books/2026/sep/03/gloria-steinem-tributes"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "A life that redefined womanhood is remembered across the world.",
-    "zh": "一个重新定义女性身份的生命被世界铭记。"
+    "en": "Feminist icon Gloria Steinem passes at 92, prompting tributes and reflections on her legacy.",
+    "zh": "女权主义偶像斯泰纳姆92岁去世，引发悼念与遗产反思。"
    },
-   "id": "t1",
+   "id": "t4",
    "keyword": {
-    "en": "Gloria Steinem legacy",
-    "zh": "格洛丽亚·斯泰纳姆遗产"
+    "en": "Gloria Steinem death",
+    "zh": "格洛丽亚·斯泰纳姆逝世"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow visual rhetoric and media narratives; her iconic imagery shaped feminist discourse.",
-    "zh": "你研究视觉修辞与媒体叙事，她的标志性形象塑造了女权话语。"
+    "en": "Your interests in social movements and media: today marks the end of an era, with coverage analyzing her cultural impact.",
+    "zh": "你关注社会运动和媒体，今日一个时代落幕，报道分析其文化影响。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "c7aa3db8f1b77ab5",
+     "item_id": "a7e1f34b2d367c8f",
      "phrase": {
-      "en": "Sees escalating spiral",
-      "zh": "看到不断升级的螺旋"
+      "en": "rival units open fire in Kyiv",
+      "zh": "基辅内讧交火"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/09/03/world/europe/russia-ukraine-escalation.html"
+     "url": "https://www.nytimes.com/2026/09/03/world/europe/rival-ukrainian-intelligence-units-open-fire-against-each-other-in-kyiv.html"
     },
     {
-     "item_id": "f874f813ff63a424",
+     "item_id": "45d19034223bdf1a",
      "phrase": {
-      "en": "New jet drones breed anxiety",
-      "zh": "新型喷气无人机引发焦虑"
+      "en": "Zelenskyy calls it 'disgraceful'",
+      "zh": "泽连斯基称'可耻'"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/09/03/world/europe/ukraine-russia-jet-powered-drones.html"
-    },
-    {
-     "item_id": "246d795fcdd06e1b",
-     "phrase": {
-      "en": "EU and NATO vow pressure",
-      "zh": "欧盟北约誓言施压"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/ce9e810pg7ko?at_medium=RSS&at_campaign=rss"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/sep/03/zelenskyy-shootout-kyiv-between-ukrainian-spy-services-disgraceful-"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "convergent",
    "gloss": {
-    "en": "Drones and missiles intensify a war without end in sight.",
-    "zh": "无人机与导弹加剧了看不到尽头的战争。"
+    "en": "Rival Ukrainian intelligence units clash in Kyiv, exposing internal fractures during wartime.",
+    "zh": "乌克兰情报部门内讧，暴露战时内部裂痕。"
    },
-   "id": "t2",
+   "id": "t5",
    "keyword": {
-    "en": "Russia-Ukraine escalation",
-    "zh": "俄乌冲突升级"
+    "en": "Ukraine internal conflict",
+    "zh": "乌克兰内部冲突"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track geopolitical shifts; new drone tech changes warfare dynamics.",
-    "zh": "你关注地缘政治变化，新型无人机技术改变战争动态。"
+    "en": "You monitor geopolitical stability: today's incident signals internal vulnerabilities beyond external threats.",
+    "zh": "你关注地缘政治稳定，今日事件暴露外部威胁之外的内部分歧。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "4d9cb81d90af7cb8",
+     "item_id": "156e1687433d84cb",
      "phrase": {
-      "en": "First living president on coin",
-      "zh": "首位在世总统上硬币"
+      "en": "Musk spends $100M to boost Republicans",
+      "zh": "马斯克花1亿美元助共和党"
      },
      "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c7507g9v992o?at_medium=RSS&at_campaign=rss"
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/09/03/us/elon-musk-republican-spending.html"
     },
     {
-     "item_id": "c83f221b08a389bf",
+     "item_id": "9e4aa3c8ee0a7200",
      "phrase": {
-      "en": "Judge blocks citizenship order",
-      "zh": "法官阻止公民权命令"
+      "en": "John Lewis chatshow to improve AI search",
+      "zh": "John Lewis利用聊天节目优化AI搜索"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/live/2026/sep/03/donald-trump-immigration-tariffs-canada-trade-iran-jd-vance-latest-news-updates"
-    },
-    {
-     "item_id": "1ad9c6faf343b12b",
-     "phrase": {
-      "en": "Ranks himself greatest president",
-      "zh": "自评为最伟大总统"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/sep/03/greatest-president-trump-historians-disagree"
+     "url": "https://www.theguardian.com/business/2026/sep/03/john-lewis-youtube-chat-show-angela-scanlon"
     }
    ],
-   "convergence": "mixed",
+   "convergence": "divergent",
    "gloss": {
-    "en": "From coins to courts, Trump still dominates US news cycles.",
-    "zh": "从硬币到法庭，特朗普仍主导美国新闻。"
+    "en": "Tech billionaires and companies intertwine with politics, from Musk's spending to Google's AI moves.",
+    "zh": "科技亿万富翁和公司与政治交织，从马斯克花钱到谷歌AI动作。"
    },
-   "id": "t3",
+   "id": "t6",
    "keyword": {
-    "en": "Trump politics",
-    "zh": "特朗普政治"
+    "en": "politics and AI",
+    "zh": "政治与AI"
    },
-   "relates_to": [],
+   "relates_to": [
+    "t3"
+   ],
    "why_now": {
-    "en": "You analyze media narratives; his currency and ranking stories are rhetorical moves.",
-    "zh": "你分析媒体叙事，他的货币和排名故事是修辞手法。"
+    "en": "You care about the intersection of tech and power: today's items show AI industry increasingly entangled with political landscapes.",
+    "zh": "你关注科技与权力的交汇，今日条目显示AI行业与政治日益纠缠。"
    }
   }
  ]

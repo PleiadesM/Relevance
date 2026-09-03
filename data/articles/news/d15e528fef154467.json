@@ -1,0 +1,30 @@
+{
+ "full_text": "OpenAI's ChatGPT, xAI's Grok, and Anthropic's Claude are all experiencing issues. At around 11AM ET, ChatGPT started returning error messages for users trying to use the chatbot, with its status page saying there are currently \"elevated errors across ChatGPT and Codex.\"\n\nIn addition to preventing users from having conversations with ChatGPT, the outage is also affecting logins, file uploads, voice mode, search, deep research, image generation, and more. OpenAI says it has \"applied a mitigation\" and is \"monitoring recovery,\" though its AI tools are still experiencing \"degraded performance.\" The outage comes as OpenAI teases the launch of Astr …\n\nRead the full story at The Verge.",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/d15e528fef154467.json",
+  "id": "d15e528fef154467",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-09-03T15:35:14Z",
+  "section": "news",
+  "source": "The Verge · AI",
+  "source_id": "verge_ai",
+  "summary": "OpenAI's ChatGPT, xAI's Grok, and Anthropic's Claude are all experiencing issues. At around 11AM ET, ChatGPT started returning error messages for users trying to use the chatbot, with its status page saying there are currently \"elevated errors across ChatGPT and Codex.\" In addition to preventing…",
+  "tags": [
+   "llm"
+  ],
+  "title": "ChatGPT, Grok, and Claude all went down at the same time",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down"
+ },
+ "meta": {
+  "content_hash": "11959d02476ac6ff",
+  "generated_at": "2026-09-03T16:23:02Z",
+  "item_id": "d15e528fef154467",
+  "section": "news",
+  "source": "The Verge · AI",
+  "source_id": "verge_ai"
+ }
+}

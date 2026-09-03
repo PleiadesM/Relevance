@@ -1,6 +1,111 @@
 {
  "items": [
   {
+   "authors": [
+    "Ke Shi",
+    "Clara Calia",
+    "Zsófia K. Takács"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract Brief mindfulness inductions are expected to enhance executive functioning and reduce mind-wandering, but empirical findings are mixed. The present study examined the effects of a 10-min mindfulness induction on executive functions and mind-wandering, and explored whether these effects were moderated by individual differences. Hypothesized moderators included trait mindfulness, prior meditation experience, and Big-Five personality traits; exploratory moderators included trait anxiety,…",
+    "citations": 0,
+    "doi": "10.1186/s40359-026-05331-6"
+   },
+   "id": "e82812c17bd709e9",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-03T00:00:00Z",
+   "score": 0.423,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract Brief mindfulness inductions are expected to enhance executive functioning and reduce mind-wandering, but empirical findings are mixed. The present study examined the effects of a 10-min mindfulness induction on executive functions and mind-wandering, and explored whether these effects…",
+   "tags": [],
+   "title": "For whom does a brief mindfulness induction work? An exploration of the moderating role of individual differences in the effect of mindfulness induction on executive functioning and mind-wandering",
+   "url": "https://doi.org/10.1186/s40359-026-05331-6",
+   "venue": "BMC Psychology"
+  },
+  {
+   "authors": [
+    "Kelly L. Sovacool",
+    "Philip Homan",
+    "Vishal N. Kopardé",
+    "Samantha Sevilla"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Multi-Omics Suite provides a suite of functions to clean, filter, batch-correct, normalize, visualize, and perform differential analysis. While the package is designed for differential RNA-seq analysis and multi-omics datasets, it can be used for any data represented in a counts table. See the website for more information, documentation, and examples at .",
+    "citations": 0,
+    "doi": "10.5281/zenodo.22262260"
+   },
+   "id": "2b7c1125ca06c172",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-03T00:00:00Z",
+   "score": 0.423,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Multi-Omics Suite provides a suite of functions to clean, filter, batch-correct, normalize, visualize, and perform differential analysis. While the package is designed for differential RNA-seq analysis and multi-omics datasets, it can be used for any data represented in a counts table. See the…",
+   "tags": [],
+   "title": "MOSuite: R package for differential multi-omics analysis",
+   "url": "https://doi.org/10.5281/zenodo.22262260",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)"
+  },
+  {
+   "authors": [
+    "Anna-Larissa N. Niemeijer"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Summary The aim of this thesis was to investigate new biomarkers for immunotherapy in patients with non-small cell lung cancer (NSCLC). Although the use of immune checkpoint inhibitors in NSCLC has expanded considerably, the currently used biomarker PD-L1 expression is not sufficiently reliable. Not all patients with PD-L1-positive tumors respond to immunotherapy, while durable responses can also occur in PD-L1-negative patients. Therefore, additional biomarkers are needed to improve treatment…",
+    "citations": 0,
+    "doi": "10.5463/thesis.1530"
+   },
+   "id": "c6fffc08900628a6",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-03T00:00:00Z",
+   "score": 0.5605,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Summary The aim of this thesis was to investigate new biomarkers for immunotherapy in patients with non-small cell lung cancer (NSCLC). Although the use of immune checkpoint inhibitors in NSCLC has expanded considerably, the currently used biomarker PD-L1 expression is not sufficiently reliable.…",
+   "tags": [],
+   "title": "Tissue and imaging biomarkers in the treatment of NSCLC",
+   "url": "https://doi.org/10.5463/thesis.1530",
+   "venue": null
+  },
+  {
+   "authors": [
+    "Zhaoxia Ma",
+    "Liu Mp",
+    "Shengyuan Wang",
+    "Siyuan Wang",
+    "Chongzhi Zang"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Spatial organization of the genome plays a vital role in defining cell identity and regulating gene expression. The three-dimensional (3D) genome structure can be measured by sequencing-based techniques such as Hi-C usually on the cell population level or by imaging-based techniques such as chromatin tracing at the single-cell level. Chromatin tracing is a multiplexed DNA fluorescence in situ hybridization (FISH)-based method that can directly map the 3D positions of genomic loci along…",
+    "citations": 0,
+    "doi": "10.1186/s13059-026-04264-y"
+   },
+   "id": "429a98438d386d58",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-03T00:00:00Z",
+   "score": 0.423,
+   "section": "papers",
+   "source": "OpenAlex · technical communication",
+   "source_id": "openalex_techcomm",
+   "summary": "Spatial organization of the genome plays a vital role in defining cell identity and regulating gene expression. The three-dimensional (3D) genome structure can be measured by sequencing-based techniques such as Hi-C usually on the cell population level or by imaging-based techniques such as…",
+   "tags": [],
+   "title": "Differential analysis of image-based chromatin tracing data with Dory",
+   "url": "https://doi.org/10.1186/s13059-026-04264-y",
+   "venue": "Genome biology"
+  },
+  {
    "authors": [],
    "category": "optional",
    "extra": {
@@ -12,7 +117,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-03T00:00:00Z",
-   "score": 0.4415,
+   "score": 0.423,
    "section": "papers",
    "source": "OpenAlex · technical communication",
    "source_id": "openalex_techcomm",
@@ -36,7 +141,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-02T12:15:11Z",
-   "score": 0.6951,
+   "score": 0.6744,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -63,7 +168,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-02T01:25:47Z",
-   "score": 0.7937,
+   "score": 0.7755,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -91,7 +196,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.3653,
+   "score": 0.3514,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -120,7 +225,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.3653,
+   "score": 0.3514,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -149,7 +254,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.5028,
+   "score": 0.4889,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -160,6 +265,64 @@
    "title": "Mouse bio-behavioral phenotyping using a digital homecage framework for long-timescale, high-resolution, and multi-factor data collection and analytics",
    "url": "https://doi.org/10.1038/s41598-026-69041-0",
    "venue": "Scientific Reports"
+  },
+  {
+   "authors": [
+    "Kwame Owusu-Nyantakyi",
+    "Lashaka Sierra Hamlette",
+    "Go Ashida",
+    "Sonia R. Weimann",
+    "Stefan N. Oline",
+    "R. Michael Burger"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Sensory neurons are equipped with physiological properties vital for accurate signal processing. The functional importance of such properties is exemplified in auditory circuits where intrinsic excitability is optimized to detect frequency-specific features. In birds, the neurons of nucleus magnocellularis (NM) receive primary auditory input (Rubel and Parks, 1975a; Parks and Rubel, 1978; Jackson et al., 1982) and are arranged tonotopically. NM comprises a superficially homogenous neural…",
+    "citations": 1,
+    "doi": "10.1523/jneurosci.1323-25.2026"
+   },
+   "id": "f8c565d17dd480b8",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-02T00:00:00Z",
+   "score": 0.3765,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Sensory neurons are equipped with physiological properties vital for accurate signal processing. The functional importance of such properties is exemplified in auditory circuits where intrinsic excitability is optimized to detect frequency-specific features. In birds, the neurons of nucleus…",
+   "tags": [],
+   "title": "Hyperpolarization-activated cation channels confer tonotopic specialization for temporal encoding of sound frequency in the cochlear nucleus",
+   "url": "https://doi.org/10.1523/jneurosci.1323-25.2026",
+   "venue": "Journal of Neuroscience"
+  },
+  {
+   "authors": [
+    "Krista E. Perks",
+    "Mariela D. Petkova",
+    "Salomon Z. Muller",
+    "Michael Genecin",
+    "Adishree Ghatare",
+    "Richard Schalek"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 2,
+    "doi": "10.1038/s41586-026-10690-6"
+   },
+   "id": "761c73b99f67ff6f",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-02T00:00:00Z",
+   "score": 0.3912,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [],
+   "title": "Connectome analysis of a cerebellum-like circuit for sensory prediction",
+   "url": "https://doi.org/10.1038/s41586-026-10690-6",
+   "venue": "Nature"
   },
   {
    "authors": [
@@ -178,7 +341,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.5279,
+   "score": 0.514,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -199,7 +362,7 @@
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "ABSTRACT While genomic data are powerfully informative for phylogenetic inference, traditional sequence-based analyses can be confounded by issues like homoplasy and incomplete lineage sorting, leaving deep nodes unresolved. Synteny, the conservation of gene order along a chromosome, presents a promising alternative source of phylogenetic information that is potentially less prone to these issues. Here we compare sequence and synteny phylogenetic phylogenomic approaches to unravel the…",
+    "abstract_snippet": "While genomic data are powerfully informative for phylogenetic inference, traditional sequence-based analyses can be confounded by issues like homoplasy and incomplete lineage sorting, leaving deep nodes unresolved. Synteny, the conservation of gene order along a chromosome, presents a promising alternative source of phylogenetic information that is potentially less prone to these issues. Here we compare sequence and synteny phylogenomic approaches to unravel the evolutionary history of…",
     "citations": 2,
     "doi": "10.1093/sysbio/syag068"
    },
@@ -207,15 +370,44 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.4051,
+   "score": 0.3912,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "ABSTRACT While genomic data are powerfully informative for phylogenetic inference, traditional sequence-based analyses can be confounded by issues like homoplasy and incomplete lineage sorting, leaving deep nodes unresolved. Synteny, the conservation of gene order along a chromosome, presents a…",
+   "summary": "While genomic data are powerfully informative for phylogenetic inference, traditional sequence-based analyses can be confounded by issues like homoplasy and incomplete lineage sorting, leaving deep nodes unresolved. Synteny, the conservation of gene order along a chromosome, presents a promising…",
    "tags": [],
    "title": "Microsynteny Analysis Clarifies the Early Diversification of Cypriniform Fishes",
    "url": "https://doi.org/10.1093/sysbio/syag068",
    "venue": "Systematic Biology"
+  },
+  {
+   "authors": [
+    "Veronika Bókony",
+    "Emese Balogh",
+    "Nikolett Ujhegyi",
+    "Zsanett Mikó",
+    "Andrea Kásler",
+    "János Ujszegi"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Sex reversal, when the environment overrides genotypic sex determination, may hasten or delay climate-driven extinction in ectothermic animals, depending on sex-reversed individuals’ reproductive ability and offspring viability. Empirically, next to nothing is known about these traits in natural populations. Here, we present a comprehensive dataset of wild frogs to compare sex-reversed and sex-concordant males for fertility, attractiveness to females, intrasexual competitiveness, and offspring…",
+    "citations": 0,
+    "doi": "10.1126/sciadv.aeg3488"
+   },
+   "id": "75c113667a048703",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-02T00:00:00Z",
+   "score": 0.4889,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Sex reversal, when the environment overrides genotypic sex determination, may hasten or delay climate-driven extinction in ectothermic animals, depending on sex-reversed individuals’ reproductive ability and offspring viability. Empirically, next to nothing is known about these traits in natural…",
+   "tags": [],
+   "title": "Complex effects of sex reversal on reproductive success in wild frogs",
+   "url": "https://doi.org/10.1126/sciadv.aeg3488",
+   "venue": "Science Advances"
   },
   {
    "authors": [
@@ -236,7 +428,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.5279,
+   "score": 0.514,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -250,267 +442,31 @@
   },
   {
    "authors": [
-    "Tolulope O Akinyemi",
-    "Ilaria Pola",
-    "Kübra Tan",
-    "Oladotun Olalusi",
-    "Joseph Yaria",
-    "Gabriel Ogunde"
+    "Zhi Cao",
+    "Pavel Mozgunov",
+    "Haiyan Zheng"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Background: In low- and middle-income countries, Alzheimer's disease and related dementias (ADRD) constitute a growing public health burden. Indeed, the lack of awareness and easy screening tools, such as blood-based biomarkers, leaves many patients undiagnosed. In this study, we explored the core biomarkers of AD in an indigenous African cohort (VALIANT) to assess their relevance and potential utility to aid clinical diagnosis. Methods: Nigerian African older adults (n = 967; ≥50 years)…",
+    "abstract_snippet": "Basket trials have gained increasing attention for their efficiency, as multiple patient subgroups are evaluated simultaneously. Conducted basket trials focus primarily on establishing the early efficacy of a treatment, yet continued monitoring of toxicity is essential. In this article, we propose two Bayesian hierarchical models that enable bivariate analyses of toxicity and efficacy, while accounting for heterogeneity present in the treatment effects across patient subgroups. Specifically,…",
     "citations": 0,
-    "doi": "10.1038/s44400-026-00136-1"
+    "doi": "10.1177/09622802261465336"
    },
-   "id": "ba0bd5c6818c2308",
+   "id": "7e2cf4f2ea94a762",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.3653,
+   "score": 0.4889,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Background: In low- and middle-income countries, Alzheimer's disease and related dementias (ADRD) constitute a growing public health burden. Indeed, the lack of awareness and easy screening tools, such as blood-based biomarkers, leaves many patients undiagnosed. In this study, we explored the core…",
-   "tags": [],
-   "title": "Blood-based biomarkers of Alzheimer’s disease and neurodegeneration in an indigenous African cohort using both Simoa and NULISA platforms",
-   "url": "https://doi.org/10.1038/s44400-026-00136-1",
-   "venue": "npj Dementia"
-  },
-  {
-   "authors": [
-    "Zhida Song",
-    "Zeyu Cai",
-    "Shutao Zhang",
-    "Jiaoyun Wei",
-    "Jichen Pan",
-    "Ｑｉｎｇｈｏｎｇ Ｃａｏ"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract Symbolic regression (SR), the automated discovery of mathematical expressions from data, is a cornerstone of scientific inquiry. However, it is often hindered by the combinatorial explosion of the search space and a tendency to overfit. Popular methods, rooted in genetic programming, explore this space syntactically, often yielding overly complex, uninterpretable models. This paper introduces IdeaSearchFitter, a framework that employs Large Language Models (LLMs) as semantic operators…",
-    "citations": 0,
-    "doi": "10.1088/1572-9494/aea105"
-   },
-   "id": "84a46903d1189b63",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.3653,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract Symbolic regression (SR), the automated discovery of mathematical expressions from data, is a cornerstone of scientific inquiry. However, it is often hindered by the combinatorial explosion of the search space and a tendency to overfit. Popular methods, rooted in genetic programming,…",
-   "tags": [],
-   "title": "Iterated Agent for Symbolic Regression",
-   "url": "https://doi.org/10.1088/1572-9494/aea105",
-   "venue": "Communications in Theoretical Physics"
-  },
-  {
-   "authors": [
-    "Bolanle Adefowoke Ojokoh",
-    "Oluwafemi A. Sarumi",
-    "Sadura Priscilla Akinrinwa",
-    "Abimbola H. Afolayan",
-    "Tobore Igbe",
-    "Abiola Ezekiel Taiwo"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract The COVID-19 pandemic has posed significant challenges to developing countries like Nigeria due to limited resources. Accurate prediction of disease spread is crucial for effective containment measures. This study investigates the application of statistical and machine learning (ML) techniques in modelling and predicting COVID-19 cases in Nigeria, using data from January 2020 through December 2021. By analyzing demographic data (age, gender, location), symptom patterns, and contact…",
-    "citations": 0,
-    "doi": "10.1186/s12982-026-02745-w"
-   },
-   "id": "45f412bcac9a5ba1",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.5028,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract The COVID-19 pandemic has posed significant challenges to developing countries like Nigeria due to limited resources. Accurate prediction of disease spread is crucial for effective containment measures. This study investigates the application of statistical and machine learning (ML)…",
+   "summary": "Basket trials have gained increasing attention for their efficiency, as multiple patient subgroups are evaluated simultaneously. Conducted basket trials focus primarily on establishing the early efficacy of a treatment, yet continued monitoring of toxicity is essential. In this article, we propose…",
    "tags": [
-    "ml-vis"
+    "eval-study"
    ],
-   "title": "Machine learning analysis of COVID-19 transmission dynamics demographic risk and contact tracing outcomes in Nigeria",
-   "url": "https://doi.org/10.1186/s12982-026-02745-w",
-   "venue": "Discover Public Health"
-  },
-  {
-   "authors": [
-    "Mosisa Tujuba Wakjira",
-    "Péter Molnár",
-    "Ruud P. Bartholomeus",
-    "Teklu Erkossa",
-    "Katrien Descheemaeker"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract Waterlogging is a major yet understudied constraint to cropland productivity. Here, we apply an agrohydrological modeling framework to assess the climatology of waterlogging (1981–2010), its yield impacts on major grain crops, and the potential for mitigation across Ethiopia’s rainfed agriculture (RFA) region. We estimate that 39\\% of the RFA is prone to waterlogging. Chickpea is the most sensitive crop, with average yield losses from 34\\% under low-severity to 97\\% under…",
-    "citations": 0,
-    "doi": "10.1038/s44264-026-00179-0"
-   },
-   "id": "59a0c28041741d69",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.5028,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract Waterlogging is a major yet understudied constraint to cropland productivity. Here, we apply an agrohydrological modeling framework to assess the climatology of waterlogging (1981–2010), its yield impacts on major grain crops, and the potential for mitigation across Ethiopia’s rainfed…",
-   "tags": [
-    "systems"
-   ],
-   "title": "Agrohydrological analysis of waterlogging impacts and mitigation in Ethiopia",
-   "url": "https://doi.org/10.1038/s44264-026-00179-0",
-   "venue": "npj Sustainable Agriculture"
-  },
-  {
-   "authors": [
-    "Philip Gutberlet",
-    "Aron Kirchhoff",
-    "Eike Bolmer",
-    "Philipp Schmidt",
-    "Fabio Hellmann",
-    "Johannes Grün"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract Evaluating hand and wrist radiographs is essential in pediatric endocrinology and clinical genetics, particularly for the assessment of suspected skeletal anomalies. In this study, we present Auto-Bone-Caliper, an automated system for the segmentation and length measurement of metacarpal and phalangeal (M&P) bones, trained and evaluated on public datasets comprising both normal and dysmorphic cases. We first introduce InstanceSAM, a two-stage framework that detects and segments all 19…",
-    "citations": 1,
-    "doi": "10.1038/s41598-026-69557-5"
-   },
-   "id": "10b363b4be358775",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.3904,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract Evaluating hand and wrist radiographs is essential in pediatric endocrinology and clinical genetics, particularly for the assessment of suspected skeletal anomalies. In this study, we present Auto-Bone-Caliper, an automated system for the segmentation and length measurement of metacarpal…",
-   "tags": [
-    "eval-study",
-    "systems"
-   ],
-   "title": "Automated segmentation and length measurement of metacarpal and phalangeal bones for hand radiograph evaluation",
-   "url": "https://doi.org/10.1038/s41598-026-69557-5",
-   "venue": "Scientific Reports"
-  },
-  {
-   "authors": [
-    "Chaofan Wang",
-    "Huiying Ma",
-    "Xiaosi Wang",
-    "Yongkang Hao",
-    "Junwen Zhu",
-    "Houpeng Wang"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "citations": 1,
-    "doi": "10.1007/s42995-026-00410-4"
-   },
-   "id": "c1f46d6cb4c92c2f",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.3904,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "",
-   "tags": [],
-   "title": "Ultra-fast genetic recovery of dead fish through cross-family germline stem cell transplantation",
-   "url": "https://doi.org/10.1007/s42995-026-00410-4",
-   "venue": "Marine Life Science & Technology"
-  },
-  {
-   "authors": [
-    "Karin Konzett",
-    "Cleo-Cosima Spoerl",
-    "Barbara Fußenegger",
-    "Lisa Kessler",
-    "Anne C. Wunderlich",
-    "Burkhard Simma"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "citations": 0,
-    "doi": "10.1007/s00431-026-07367-7"
-   },
-   "id": "32274017c77a0e5e",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.3653,
-   "section": "papers",
-   "source": "OpenAlex · technical communication",
-   "source_id": "openalex_techcomm",
-   "summary": "",
-   "tags": [],
-   "title": "Eye-tracking in the delivery room: visual and communication patterns during neonatal transition",
-   "url": "https://doi.org/10.1007/s00431-026-07367-7",
-   "venue": "European Journal of Pediatrics"
-  },
-  {
-   "authors": [
-    "Xinyu Song",
-    "Chaohu Pan",
-    "Zongjuan Li",
-    "Xuanyu Zhou",
-    "A. Xiong",
-    "Zhikai Zhao"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract Background Resistance to therapy is a frequent occurrence in patients with epidermal growth factor receptor (EGFR)-mutant non-small-cell lung cancer (NSCLC) who are treated with EGFR tyrosine kinase inhibitors (EGFR-TKIs). However, spatial information on how the tumor microenvironment (TME) changes within the same patient from baseline to resistance to first- and then third-generation EGFR-TKIs is scarce. Here, we used rare consecutive re-biopsies to build a longitudinal,…",
-    "citations": 0,
-    "doi": "10.1186/s12967-026-08897-2"
-   },
-   "id": "4f30cc7439c38ed2",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.3653,
-   "section": "papers",
-   "source": "OpenAlex · technical communication",
-   "source_id": "openalex_techcomm",
-   "summary": "Abstract Background Resistance to therapy is a frequent occurrence in patients with epidermal growth factor receptor (EGFR)-mutant non-small-cell lung cancer (NSCLC) who are treated with EGFR tyrosine kinase inhibitors (EGFR-TKIs). However, spatial information on how the tumor microenvironment…",
-   "tags": [],
-   "title": "Longitudinal spatial multi-omics delineates tumor microenvironment remodeling across sequential EGFR-TKIs in EGFR-mutant NSCLC",
-   "url": "https://doi.org/10.1186/s12967-026-08897-2",
-   "venue": "Journal of Translational Medicine"
-  },
-  {
-   "authors": [
-    "Matthew J. Beck",
-    "Michiel C.J. Bliemer",
-    "John M. Rose"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Declining revenue from traditional road funding sources, rising infrastructure costs, and the transition to electric vehicles have increased the urgency of road user charging reform as a key demand management strategy. While such schemes can improve transport system efficiency by pricing congestion and other externalities, their implementation requires careful balancing with concerns around fairness and affordability. Public acceptability therefore remains a critical constraint on policy…",
-    "citations": 0,
-    "doi": "10.1016/j.tra.2026.105229"
-   },
-   "id": "d1e5c7e97cc2f777",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.3653,
-   "section": "papers",
-   "source": "OpenAlex · technical communication",
-   "source_id": "openalex_techcomm",
-   "summary": "Declining revenue from traditional road funding sources, rising infrastructure costs, and the transition to electric vehicles have increased the urgency of road user charging reform as a key demand management strategy. While such schemes can improve transport system efficiency by pricing congestion…",
-   "tags": [],
-   "title": "Ready to begin: driving towards the best and steering away from the worst in road pricing policy reform",
-   "url": "https://doi.org/10.1016/j.tra.2026.105229",
-   "venue": "Transportation Research Part A Policy and Practice"
+   "title": "Robust Bayesian hierarchical models for basket trials enabling joint evaluation of toxicity and efficacy",
+   "url": "https://doi.org/10.1177/09622802261465336",
+   "venue": "Statistical Methods in Medical Research"
   },
   {
    "authors": [
@@ -525,7 +481,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-01T18:37:23Z",
-   "score": 0.6302,
+   "score": 0.6135,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -554,7 +510,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-01T17:54:32Z",
-   "score": 0.6279,
+   "score": 0.6113,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -586,7 +542,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-01T17:36:29Z",
-   "score": 0.6669,
+   "score": 0.6504,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -616,7 +572,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-01T16:01:57Z",
-   "score": 0.4693,
+   "score": 0.4531,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -646,7 +602,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-01T15:15:30Z",
-   "score": 0.6593,
+   "score": 0.6432,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -675,7 +631,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-01T06:59:09Z",
-   "score": 0.5943,
+   "score": 0.5797,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -703,7 +659,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-01T03:05:52Z",
-   "score": 0.6234,
+   "score": 0.6094,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -730,7 +686,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-31T23:25:28Z",
-   "score": 0.421,
+   "score": 0.4077,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -754,7 +710,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-08-31T17:22:43Z",
-   "score": 0.4056,
+   "score": 0.3932,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -768,8 +724,8 @@
   }
  ],
  "meta": {
-  "count": 27,
-  "generated_at": "2026-09-03T11:09:39Z",
+  "count": 26,
+  "generated_at": "2026-09-03T16:23:02Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
