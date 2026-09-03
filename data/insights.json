@@ -1,48 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
-  "source": {
-   "name": "abnews.ru",
-   "published_at": "2026-08-31T07:30:00Z",
-   "title": "Гигантскую тыкву в Астраханской области торжественно взвесят 5 сентября",
-   "url": "https://abnews.ru/ug/news/astrakhan/2026/8/31/v-astrahanskom-pitomnike-sozrevaet-gigantskaya-tykva-k-festivalyu-kraski-oseni-gigantskuyu-tykvu-v-astrahanskoj-oblasti-torzhestvenno-vzvesyat-5-sentyabrya"
-  },
-  "summaries": {
-   "en": {
-    "summary": "A giant pumpkin in Astrakhan, Russia will be ceremonially weighed on September 5.",
-    "why_irrelevant": "Geographically and culturally distant from typical feed content."
-   },
-   "zh": {
-    "summary": "俄罗斯阿斯特拉罕的一只巨型南瓜将于9月5日举行称重仪式。",
-    "why_irrelevant": "地理位置和文化背景与常规信息流相距甚远。"
-   }
-  },
-  "topic": "competitive pumpkin growing"
- },
- "brief": "Trump's Washington makeover plans face legal scrutiny, while AI disruptions hit major chatbots and Nvidia expands via Hugging Face, alongside scientific reconstructions of Jurassic soundscapes and research on mindfulness and AI oversight.",
+ "brief": "Today's news spans from US political controversies over mail-in voting and ICE actions, to global economic shifts in mortgages and gold reserves, alongside tributes to Gloria Steinem and major tech announcements like GPT-6 Astra. Research highlights include mindfulness effects, multi-omics analysis, and emotional recognition from body motion.",
  "meta": {
-  "generated_at": "2026-09-03T16:23:02Z"
+  "generated_at": "2026-09-03T20:59:27Z"
  },
- "news_summary": "US politics dominate with Trump's tax and spending measures, while AI industry sees outages and major acquisitions, and international stories cover Venezuela oil deals and UK political disputes.",
- "papers_summary": "Research spans AI oversight challenges and mindfulness effects, with methods for multi-omics analysis and gene studies in Parkinson's disease.",
+ "news_summary": "US headlines feature legal battles over mail-in voting restrictions and an ICE agent's charges, while mortgage rates hit a new high. Internationally, Volkswagen plans massive job cuts, the Dutch central bank moves gold from the US, and tributes pour in for Gloria Steinem.",
+ "papers_summary": "Papers cover diverse topics: mindfulness induction moderators, a new R package for multi-omics, biomarkers in NSCLC, chromatin tracing analysis, emotion recognition from body motion, and more.",
  "summaries": {
   "en": {
-   "brief": "Trump's Washington makeover plans face legal scrutiny, while AI disruptions hit major chatbots and Nvidia expands via Hugging Face, alongside scientific reconstructions of Jurassic soundscapes and research on mindfulness and AI oversight.",
-   "news_summary": "US politics dominate with Trump's tax and spending measures, while AI industry sees outages and major acquisitions, and international stories cover Venezuela oil deals and UK political disputes.",
-   "papers_summary": "Research spans AI oversight challenges and mindfulness effects, with methods for multi-omics analysis and gene studies in Parkinson's disease."
+   "brief": "Today's news spans from US political controversies over mail-in voting and ICE actions, to global economic shifts in mortgages and gold reserves, alongside tributes to Gloria Steinem and major tech announcements like GPT-6 Astra. Research highlights include mindfulness effects, multi-omics analysis, and emotional recognition from body motion.",
+   "news_summary": "US headlines feature legal battles over mail-in voting restrictions and an ICE agent's charges, while mortgage rates hit a new high. Internationally, Volkswagen plans massive job cuts, the Dutch central bank moves gold from the US, and tributes pour in for Gloria Steinem.",
+   "papers_summary": "Papers cover diverse topics: mindfulness induction moderators, a new R package for multi-omics, biomarkers in NSCLC, chromatin tracing analysis, emotion recognition from body motion, and more."
   },
   "zh": {
-   "brief": "今日全球要闻聚焦超大型厄尔尼诺警告、美国航母靠岸及莫迪对普京的呼吁；科技领域，英伟达收购Hugging Face，AI服务大规模宕机引发关注。",
-   "news_summary": "联合国警告可能发生超大型厄尔尼诺，需全球准备；美国林肯号航母结束250天航行抵泰；莫迪再促普京结束战争。科技方面，英伟达129亿美元收购Hugging Face，ChatGPT、Claude等AI服务同现故障。",
-   "papers_summary": "今日中文论文无重点；英文研究涵盖正念、多组学分析、AI监督等，其中一篇探讨信息可检索性对LLM监督的作用。"
+   "brief": "今日重點：聯合國警告可能出現超大型厄爾尼諾現象，各國需準備應對；美國航母林肯號結束250天部署；莫迪再促普京結束戰爭。",
+   "news_summary": "聯合國世界氣象組織警告可能出現「超大型」厄爾尼諾現象，衝擊全球經濟；美國航母林肯號歷經250天航行後抵泰國，船員得以休息；印度總理莫迪敦促普京結束烏克蘭戰爭，但效果存疑。",
+   "papers_summary": "研究論文探討正念誘導對執行功能及心遊的影響、多組學差異分析方法、非小細胞肺癌生物標記等，以及大型語言模型監督的可檢索性問題。"
   }
  },
  "todays_image": {
-  "caption": "Just as the apparatus turns a proposed rotational path into tangible motion, Trump’s D.C. makeover ideas swing from mere notion to physical reality.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2017q125357",
-  "source_name": "National Museum of American History",
-  "source_url": null,
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2017q125357&max=150",
-  "title": "Harmonic Motion of Rotation Apparatus"
+  "caption": "Like the resilient aster that can sprout anew from fire-scorched earth, Hawaiians are fighting to regrow their razed mail delivery lifeline.",
+  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c",
+  "source_name": "NMNH - Botany Dept.",
+  "source_url": "http://n2t.net/ark:/65665/3d1b2a964-ed98-4ee0-8f71-927381c84000",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c/90",
+  "title": "Chaetopappa asteroides (Nutt.) DC."
  }
 }

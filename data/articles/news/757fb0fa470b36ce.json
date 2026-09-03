@@ -1,0 +1,30 @@
+{
+ "full_text": "Cloud-based AI models operated by OpenAI, Anthropic, xAI, and Google suffered a rare and overlapping set of significant service interruptions over a period of hours Thursday morning.\n\nAnthropic first reported a \"partial outage\" related to \"elevated errors on requests to Claude Mythos 5.1, Claude Fable 5.1, and Claude Opus 5\" at 9:23 am (all times Eastern). The company reported that it had \"identified the cause\" of the error roughly 15 minutes later, before reporting that \"a fix has been deployed\" and the issue was resolved by 12:16 pm. A separate incident report indicated \"elevated errors on requests to Claude Sonnet 5\" for a brief period just after noon.\n\nOpenAI, meanwhile, reported \"elevated errors across ChatGPT and Codex\" were resulting in \"degraded performance\" as of 10:43 am Thursday morning. A mitigation put in place a little more than half an hour later led to the issue being marked as \"resolved\" by 12:55 pm.\n\nRead full article\n\nComments",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/757fb0fa470b36ce.json",
+  "id": "757fb0fa470b36ce",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-09-03T18:10:19Z",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai",
+  "summary": "Service interruptions hit ChatGPT, Claude, Grok, and Gemini practically simultaneously.",
+  "tags": [
+   "llm"
+  ],
+  "title": "Four major AI models suffer rare overlapping downtime",
+  "url": "https://arstechnica.com/ai/2026/09/four-major-ai-models-suffer-rare-overlapping-downtime/"
+ },
+ "meta": {
+  "content_hash": "220c635fb7953309",
+  "generated_at": "2026-09-03T20:59:27Z",
+  "item_id": "757fb0fa470b36ce",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai"
+ }
+}

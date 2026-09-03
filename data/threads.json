@@ -1,115 +1,79 @@
 {
  "meta": {
-  "count": 6,
-  "generated_at": "2026-09-03T16:23:02Z",
+  "count": 5,
+  "generated_at": "2026-09-03T20:59:27Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "full_text_file": "articles/news/d15e528fef154467.json",
-     "item_id": "d15e528fef154467",
+     "item_id": "688acf9aa78c2a32",
      "phrase": {
-      "en": "ChatGPT, Grok, Claude all down",
-      "zh": "三大聊天机器人同时宕机"
+      "en": "rolling out now to all tiers",
+      "zh": "向各层级全面推出"
      },
      "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down"
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra/"
     },
     {
-     "item_id": "ba4224baf3b37162",
+     "item_id": "a19affd8219164e1",
      "phrase": {
-      "en": "Ask HN: Why all down simultaneously?",
-      "zh": "问HN：为何同时宕机？"
+      "en": "solves ARC-AGI-3 puzzles",
+      "zh": "解决 ARC-AGI-3 谜题"
      },
      "section": "news",
      "source": "Hacker News (AI filter)",
-     "url": "https://news.ycombinator.com/item?id=49551096"
+     "url": "https://arcprize.org/blog/astra"
+    },
+    {
+     "item_id": "cf9ae221292f65a8",
+     "phrase": {
+      "en": "system card shows safety trade-offs",
+      "zh": "系统卡显示安全取舍"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://openai.com/index/gpt-6-astra/"
+    },
+    {
+     "full_text_file": "articles/news/5667f8a3f3c366e5.json",
+     "item_id": "5667f8a3f3c366e5",
+     "phrase": {
+      "en": "'entered the AGI era'",
+      "zh": "“进入AGI时代”"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release"
+    },
+    {
+     "full_text_file": "articles/news/757fb0fa470b36ce.json",
+     "item_id": "757fb0fa470b36ce",
+     "phrase": {
+      "en": "model suffers rare downtime",
+      "zh": "遭遇罕见宕机"
+     },
+     "section": "news",
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/ai/2026/09/four-major-ai-models-suffer-rare-overlapping-downtime/"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "ChatGPT, Grok, Claude all fail at once, sparking questions about shared infrastructure.",
-    "zh": "ChatGPT、Grok、Claude同时故障，引发对共享基础设施的质疑。"
+    "en": "OpenAI's newest model claims to enter the AGI era, with both capability leaps and system-card caution.",
+    "zh": "OpenAI 最新模型声称进入 AGI 时代，既有能力飞跃也有系统卡片警示。"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI outage",
-    "zh": "AI宕机"
-   },
-   "relates_to": [
-    "t5"
-   ],
-   "why_now": {
-    "en": "You track AI reliability: today's simultaneous outage reveals fragility in the AI stack you build on.",
-    "zh": "你关注AI可靠性：今日同时宕机揭示了你所依赖的AI栈的脆弱性。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "9b6fe269bdb363ad",
-     "phrase": {
-      "en": "most advanced global weather AI",
-      "zh": "最先进的全球天气AI"
-     },
-     "section": "news",
-     "source": "Google DeepMind Blog",
-     "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/"
-    },
-    {
-     "full_text_file": "articles/news/c20151f90b9a689f.json",
-     "item_id": "c20151f90b9a689f",
-     "phrase": {
-      "en": "better at rain and snow prediction",
-      "zh": "雨雪预报更准"
-     },
-     "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/tech/988921/weather-forecast-ai-model-google-satellite-update"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "Google unveils a sharper AI weather model, promising better forecasts amid climate extremes.",
-    "zh": "谷歌推出更精准的AI天气模型，气候极端下预报更可靠。"
-   },
-   "id": "t2",
-   "keyword": {
-    "en": "AI weather model",
-    "zh": "AI天气预报"
+    "en": "GPT-6 Astra",
+    "zh": "GPT-6 阿斯特拉"
    },
    "relates_to": [],
-   "timeline": [
-    {
-     "date": "2026-09-03",
-     "item_id": "9b6fe269bdb363ad",
-     "label": {
-      "en": "Google launches WeatherNext 3",
-      "zh": "谷歌发布WeatherNext 3"
-     },
-     "section": "news",
-     "source": "Google DeepMind Blog",
-     "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/"
-    },
-    {
-     "date": "2026-09-03",
-     "full_text_file": "articles/news/c20151f90b9a689f.json",
-     "item_id": "c20151f90b9a689f",
-     "label": {
-      "en": "Verge covers accuracy gains",
-      "zh": "The Verge报道精度提升"
-     },
-     "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/tech/988921/weather-forecast-ai-model-google-satellite-update"
-    }
-   ],
    "why_now": {
-    "en": "Your interest in AI applications: today's launch advances state-of-the-art in predictive modeling with real-world impact.",
-    "zh": "你对AI应用感兴趣，今日发布推进了预测建模的前沿，具有现实影响。"
+    "en": "You track LLM frontiers; today GPT-6 Astra rolls out, and independent tests show it solving ARC-AGI-3 while also taking a rare downtime.",
+    "zh": "你关注大模型前沿，今日 GPT-6 Astra 发布，独立测试显示其解决 ARC-AGI-3，但同时也出现罕见宕机。"
    }
   },
   {
@@ -118,42 +82,90 @@
      "full_text_file": "articles/news/054cb9e74fe6c322.json",
      "item_id": "054cb9e74fe6c322",
      "phrase": {
-      "en": "links idle computers into AI data center",
-      "zh": "闲置电脑组成AI数据中心"
+      "en": "free tool for home AI grid",
+      "zh": "免费工具构建家庭AI网格"
      },
      "section": "news",
      "source": "The Verge · AI",
      "url": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook"
     },
     {
-     "full_text_file": "articles/news/4f4cfc3a4021cb09.json",
-     "item_id": "4f4cfc3a4021cb09",
+     "item_id": "4c26bddf2e873f43",
      "phrase": {
-      "en": "Nvidia buys Hugging Face for $13B",
-      "zh": "英伟达130亿美元收购HF"
+      "en": "open model 1500 tokens/s on Cerebras",
+      "zh": "开源模型在Cerebras每秒1500 tokens"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://inference-docs.cerebras.ai/models/overview"
+    },
+    {
+     "full_text_file": "articles/news/757fb0fa470b36ce.json",
+     "item_id": "757fb0fa470b36ce",
+     "phrase": {
+      "en": "cloud AI outage hits major models",
+      "zh": "云AI宕机影响主要模型"
      },
      "section": "news",
      "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/ai/2026/09/nvidia-buys-hugging-face-the-github-of-ai-for-13-billion/"
+     "url": "https://arstechnica.com/ai/2026/09/four-major-ai-models-suffer-rare-overlapping-downtime/"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Nvidia links idle home PCs into an AI data center while Qwen runs fast on Cerebras, and OpenAI's giant model still needs the cloud.",
+    "zh": "英伟达将闲置家用电脑组成 AI 数据中心，Qwen 在 Cerebras 上高速运行，而 OpenAI 的巨型模型仍需云端。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "AI infrastructure and local computing",
+    "zh": "AI 基础设施与本地计算"
+   },
+   "relates_to": [
+    "t1"
+   ],
+   "why_now": {
+    "en": "You care about embodied AI and practical systems: today Nvidia made personal AI clusters free, and an open model hit 1500 tokens/s, expanding local inference…",
+    "zh": "你关注具身AI和实用系统，今日英伟达免费提供个人AI集群，开源模型达到每秒1500 tokens，扩展本地推理选项。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "e902753249e1b5e1",
+     "phrase": {
+      "en": "asks Supreme Court to lift block",
+      "zh": "请求最高法院解除禁令"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/09/03/nx-s1-5955614/trump-mail-in-voting-ruling-court-usps"
+    },
+    {
+     "item_id": "656c77dbc227c7f2",
+     "phrase": {
+      "en": "judge warns of disenfranchisement",
+      "zh": "法官警告剥夺选举权"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/09/03/us/politics/mail-ballots-usps-restraining-order.html"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Nvidia advances consumer AI tools and acquires Hugging Face, strengthening its grip on the ecosystem.",
-    "zh": "英伟达发布消费级AI工具并收购Hugging Face，强化其生态掌控。"
+    "en": "The U.S. Postal Service is at the center of a legal fight over restricting mail-in voting, with a judge warning of 'major disenfranchisement.'",
+    "zh": "美国邮政局成为限制邮寄投票法律斗争的中心，法官警告可能“大规模剥夺选举权”。"
    },
    "id": "t3",
    "keyword": {
-    "en": "Nvidia AI expansion",
-    "zh": "英伟达AI扩张"
+    "en": "USPS mail voting restrictions",
+    "zh": "USPS 邮寄投票限制"
    },
-   "relates_to": [
-    "t1",
-    "t5"
-   ],
+   "relates_to": [],
    "why_now": {
-    "en": "You follow AI industry moves: today's dual announcements reshape tooling and platform control you depend on.",
-    "zh": "你关注AI行业动态，今日两项公告重塑了你依赖的工具和平台控制。"
+    "en": "You follow civic tech and HCI-related policy: the Supreme Court is now asked to intervene, and a federal judge sees risks of valid ballots tossed.",
+    "zh": "你关注公民技术与人机交互相关政策，最高法院被要求介入，联邦法官认为有效选票可能被丢弃。"
    }
   },
   {
@@ -161,138 +173,97 @@
     {
      "item_id": "2187d5989792c6a4",
      "phrase": {
-      "en": "dies at 92, personification of feminism",
-      "zh": "逝世享年92，女权象征"
+      "en": "dies at 92, challenged sexist assumptions",
+      "zh": "享年92岁，挑战性别偏见"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/09/03/us/politics/gloria-steinem-dead.html"
     },
     {
-     "item_id": "3b65ce8ca9d50393",
-     "phrase": {
-      "en": "passes peacefully at home",
-      "zh": "在家中安详离世"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/clyeq3ngwe4o?at_medium=RSS&at_campaign=rss"
-    },
-    {
      "item_id": "f3f8f6ff943b26bf",
      "phrase": {
-      "en": "glamour as a means",
-      "zh": "魅力作为手段"
+      "en": "glamour was a means to an end",
+      "zh": "魅力是实现目标的工具"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/09/03/style/gloria-steinem-style-feminism.html"
     },
     {
-     "item_id": "d1dbbfda72c6341a",
+     "item_id": "3b65ce8ca9d50393",
      "phrase": {
-      "en": "tributes from Clinton and others",
-      "zh": "克林顿等人悼念"
+      "en": "died peacefully surrounded by loved ones",
+      "zh": "在亲人陪伴下安详离世"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/books/2026/sep/03/gloria-steinem-tributes"
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/clyeq3ngwe4o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "5b8f47deb00cc231",
+     "phrase": {
+      "en": "found freedom from gender demands in later life",
+      "zh": "晚年摆脱性别要求束缚"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/09/03/nx-s1-5955479/gloria-steinem-fresh-air"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Feminist icon Gloria Steinem passes at 92, prompting tributes and reflections on her legacy.",
-    "zh": "女权主义偶像斯泰纳姆92岁去世，引发悼念与遗产反思。"
+    "en": "Feminist icon Gloria Steinem dies at 92, prompting reflections on her life and the evolving meaning of gender.",
+    "zh": "女权主义偶像格洛丽亚·斯泰纳姆去世，享年92岁，引发对她一生及性别意义演变的反思。"
    },
    "id": "t4",
    "keyword": {
-    "en": "Gloria Steinem death",
-    "zh": "格洛丽亚·斯泰纳姆逝世"
+    "en": "Gloria Steinem legacy",
+    "zh": "格洛丽亚·斯泰纳姆遗产"
    },
    "relates_to": [],
    "why_now": {
-    "en": "Your interests in social movements and media: today marks the end of an era, with coverage analyzing her cultural impact.",
-    "zh": "你关注社会运动和媒体，今日一个时代落幕，报道分析其文化影响。"
+    "en": "You explore visual rhetoric and identity: Steinem's life shows how style and words craft social change; her death invites re-reading that craft.",
+    "zh": "你探索视觉修辞与身份认同，斯泰纳姆的一生展现风格与言辞如何塑造社会变革，她的去世促使重新解读这种技艺。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "a7e1f34b2d367c8f",
+     "item_id": "9b6fe269bdb363ad",
      "phrase": {
-      "en": "rival units open fire in Kyiv",
-      "zh": "基辅内讧交火"
+      "en": "new global weather AI model",
+      "zh": "新的全球天气AI模型"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/09/03/world/europe/rival-ukrainian-intelligence-units-open-fire-against-each-other-in-kyiv.html"
+     "source": "Google DeepMind Blog",
+     "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/"
     },
     {
-     "item_id": "45d19034223bdf1a",
+     "item_id": "afa590e954208021",
      "phrase": {
-      "en": "Zelenskyy calls it 'disgraceful'",
-      "zh": "泽连斯基称'可耻'"
+      "en": "stock up for El Niño emergency",
+      "zh": "为厄尔尼诺紧急情况囤货"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/sep/03/zelenskyy-shootout-kyiv-between-ukrainian-spy-services-disgraceful-"
+     "url": "https://www.theguardian.com/environment/2026/sep/03/angela-eagle-uk-stock-up-supplies-el-nino-warning"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "Rival Ukrainian intelligence units clash in Kyiv, exposing internal fractures during wartime.",
-    "zh": "乌克兰情报部门内讧，暴露战时内部裂痕。"
+    "en": "AI models like WeatherNext aim to predict extreme weather, while governments urge citizens to stock up for emergencies like El Niño.",
+    "zh": "WeatherNext 等 AI 模型旨在预测极端天气，而政府敦促民众为厄尔尼诺等紧急情况囤货。"
    },
    "id": "t5",
    "keyword": {
-    "en": "Ukraine internal conflict",
-    "zh": "乌克兰内部冲突"
+    "en": "AI for weather and resilience",
+    "zh": "AI 天气预测与韧性"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You monitor geopolitical stability: today's incident signals internal vulnerabilities beyond external threats.",
-    "zh": "你关注地缘政治稳定，今日事件暴露外部威胁之外的内部分歧。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "156e1687433d84cb",
-     "phrase": {
-      "en": "Musk spends $100M to boost Republicans",
-      "zh": "马斯克花1亿美元助共和党"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/09/03/us/elon-musk-republican-spending.html"
-    },
-    {
-     "item_id": "9e4aa3c8ee0a7200",
-     "phrase": {
-      "en": "John Lewis chatshow to improve AI search",
-      "zh": "John Lewis利用聊天节目优化AI搜索"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/business/2026/sep/03/john-lewis-youtube-chat-show-angela-scanlon"
-    }
-   ],
-   "convergence": "divergent",
-   "gloss": {
-    "en": "Tech billionaires and companies intertwine with politics, from Musk's spending to Google's AI moves.",
-    "zh": "科技亿万富翁和公司与政治交织，从马斯克花钱到谷歌AI动作。"
-   },
-   "id": "t6",
-   "keyword": {
-    "en": "politics and AI",
-    "zh": "政治与AI"
-   },
-   "relates_to": [
-    "t3"
-   ],
-   "why_now": {
-    "en": "You care about the intersection of tech and power: today's items show AI industry increasingly entangled with political landscapes.",
-    "zh": "你关注科技与权力的交汇，今日条目显示AI行业与政治日益纠缠。"
+    "en": "You connect AI to real-world impact: today's launch of Google's weather model and the UK's El Niño warning together highlight AI's role in disaster readiness.",
+    "zh": "你将AI与现实影响关联，今日谷歌天气模型发布与英国厄尔尼诺警告共同凸显AI在灾难应对中的作用。"
    }
   }
  ]
