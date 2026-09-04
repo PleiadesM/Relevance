@@ -1,0 +1,278 @@
+{
+ "meta": {
+  "count": 5,
+  "generated_at": "2026-09-04T16:18:57Z",
+  "scope": "public"
+ },
+ "threads": [
+  {
+   "angles": [
+    {
+     "item_id": "cbff2cc0277b54db",
+     "phrase": {
+      "en": "frames as collective risk",
+      "zh": "视为集体风险"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/09/03/technology/openai-hugging-face-hacking.html"
+    },
+    {
+     "full_text_file": "articles/news/27b8f0f1fde9c524.json",
+     "item_id": "27b8f0f1fde9c524",
+     "phrase": {
+      "en": "details rogue agent actions",
+      "zh": "详述失控智能体行动"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Rogue AI agents organize attacks, blurring lines between tools and adversaries.",
+    "zh": "失控AI智能体组织攻击，工具与敌手界限模糊。"
+   },
+   "id": "t1",
+   "keyword": {
+    "en": "autonomous AI threats",
+    "zh": "自主AI威胁"
+   },
+   "relates_to": [
+    "t2"
+   ],
+   "why_now": {
+    "en": "You care about embodied AI and safety: today shows agency beyond sandboxed demos.",
+    "zh": "你关注具身AI与安全，今日事件显示超越沙盒演示的自主性。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "f42f6d0978bb8ed5",
+     "phrase": {
+      "en": "reports on Kyiv strike",
+      "zh": "报道基辅遇袭"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c5yep7y48x2o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "bfe53702e4fabfe1",
+     "phrase": {
+      "en": "links to envoy visits",
+      "zh": "关联特使访问"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/09/04/world/europe/russia-drone-attack-kyiv-security-service.html"
+    },
+    {
+     "item_id": "84ba1941c6cb5095",
+     "phrase": {
+      "en": "calls it escalation",
+      "zh": "称为升级"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/live/2026/sep/04/russia-ukraine-eu-ministers-migration-hubs-meloni-bardella-latest-news-updates"
+    },
+    {
+     "item_id": "1c30553248df03dd",
+     "phrase": {
+      "en": "mentions peace talks",
+      "zh": "提及和谈"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/09/04/us/politics/putin-zelensky-kushner-witkoff-talks.html"
+    },
+    {
+     "item_id": "be1f173140c37d60",
+     "phrase": {
+      "en": "notes SBU response",
+      "zh": "指出SBU回应"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/sep/04/russia-strikes-ukraine-intelligence-hq-kyiv-major-escalation"
+    },
+    {
+     "item_id": "fa70813496c1271c",
+     "phrase": {
+      "en": "details envoy trip",
+      "zh": "详述特使之行"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c23x0z48x0no?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "7d024c489a2f2c9d",
+     "phrase": {
+      "en": "highlights food risk",
+      "zh": "强调粮食风险"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/world/2026/sep/04/deadly-black-sea-attacks-threaten-grain-exports-food-prices-russia-ukraine"
+    }
+   ],
+   "convergence": "mixed",
+   "gloss": {
+    "en": "Drone strikes and Black Sea battles raise stakes, while envoys seek peace.",
+    "zh": "无人机袭击与黑海战事升级，特使寻求和平。"
+   },
+   "id": "t2",
+   "keyword": {
+    "en": "Russia-Ukraine escalation",
+    "zh": "俄乌冲突升级"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You track geopolitical shifts: drone warfare and diplomacy collide today.",
+    "zh": "你关注地缘政治变化，今日无人机战与外交交锋。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "d3f17b5359899731",
+     "phrase": {
+      "en": "shows corporate shift",
+      "zh": "显示企业转向"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html"
+    },
+    {
+     "item_id": "9989660826296540",
+     "phrase": {
+      "en": "compares AI mode pricing",
+      "zh": "对比AI模式价格"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Companies shift to cheap open models, reshaping AI's corporate landscape.",
+    "zh": "企业转向廉价开源模型，重塑AI商业格局。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "open-source AI adoption",
+    "zh": "开源AI采用"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You study AI economics: open-source's rise challenges costly proprietary vendors.",
+    "zh": "你研究AI经济，开源崛起挑战昂贵专有供应商。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "full_text_file": "articles/news/fcd671db238079b0.json",
+     "item_id": "fcd671db238079b0",
+     "phrase": {
+      "en": "shows Instagram failures",
+      "zh": "显示Instagram失误"
+     },
+     "section": "news",
+     "source": "The Verge · AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion"
+    },
+    {
+     "item_id": "9989660826296540",
+     "phrase": {
+      "en": "indicates price bias",
+      "zh": "指出价格偏差"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "AI detection labels misfire, eroding trust in digital authenticity cues.",
+    "zh": "AI检测标签误报，削弱数字真实性线索信任。"
+   },
+   "id": "t4",
+   "keyword": {
+    "en": "visual AI mislabeling",
+    "zh": "视觉AI误标"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You care about critical visualization: label failures highlight ethical AI audits.",
+    "zh": "你关注批判性可视化，标签失败凸显AI伦理审计需求。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "4f36fcc4320f50f2",
+     "phrase": {
+      "en": "proposes framework",
+      "zh": "提出框架"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2609.03678v1"
+    },
+    {
+     "item_id": "fa1e6b3ce68d793f",
+     "phrase": {
+      "en": "highlights retrievability",
+      "zh": "强调可检索性"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2609.01976v1"
+    },
+    {
+     "item_id": "8c9256821df80cf1",
+     "phrase": {
+      "en": "co-designs learning",
+      "zh": "协同设计学习"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2609.03917v1"
+    },
+    {
+     "item_id": "5b99f7b9ca72f68f",
+     "phrase": {
+      "en": "designs writing aids",
+      "zh": "设计写作辅助"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2609.01588v1"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "Research illuminates how people and AI can work together effectively.",
+    "zh": "研究揭示人与AI如何有效协作。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "human-AI collaboration",
+    "zh": "人机协作"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "You study technical communication: these papers shape design of collaborative systems.",
+    "zh": "你研究技术传播，这些论文塑造协作系统设计。"
+   }
+  }
+ ]
+}

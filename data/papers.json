@@ -2,6 +2,88 @@
  "items": [
   {
    "authors": [
+    "Eun-Sol Park",
+    "Miso Park",
+    "Yong-Goo Shin"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.1007/s00138-026-01919-5"
+   },
+   "id": "4607c2ade7ad66bd",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-04T00:00:00Z",
+   "score": 0.4232,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [],
+   "title": "Fspgd: rethinking black-box attacks on semantic segmentation",
+   "url": "https://doi.org/10.1007/s00138-026-01919-5",
+   "venue": "Machine Vision and Applications"
+  },
+  {
+   "authors": [
+    "Micha J. Birklbauer",
+    "Louise Marie Buur",
+    "Sabrina Kaser",
+    "Fränze Müller",
+    "Manuel Matzinger",
+    "Karl Mechtler"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract Crosslinking mass spectrometry has become the method of choice for the identification of protein-protein interactions and for gaining insight into the structures of proteins in vivo. However, connecting crosslink search engine results with down-stream analysis tools, and therefore gaining biological insight from crosslink identifications, has remained a manual and cumbersome step in the analysis that often requires expert bioinformatics knowledge. Here we introduce pyXLMS, a python…",
+    "citations": 1,
+    "doi": "10.1038/s41467-026-77407-1"
+   },
+   "id": "0ba02e56c5144c91",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-04T00:00:00Z",
+   "score": 0.5858,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract Crosslinking mass spectrometry has become the method of choice for the identification of protein-protein interactions and for gaining insight into the structures of proteins in vivo. However, connecting crosslink search engine results with down-stream analysis tools, and therefore gaining…",
+   "tags": [],
+   "title": "Unified down-stream analysis of crosslinking mass spectrometry results with pyXLMS",
+   "url": "https://doi.org/10.1038/s41467-026-77407-1",
+   "venue": "Nature Communications"
+  },
+  {
+   "authors": [
+    "Yue-Hua Feng",
+    "S W Zhang",
+    "Xiao-Ying Yan",
+    "J. W. Shi"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract Combination therapy offers a promising strategy for cancer treatment by reducing toxicity and overcoming drug resistance. However, existing substructure-based prediction methods may struggle to effectively capture the scale-specific features of substructure interactions and often overlook cell-line-specific substructure selection, which can limit mechanistic interpretability. To address this issue, we propose HSSynergy, a hierarchical substructure-aware deep learning framework for…",
+    "citations": 0,
+    "doi": "10.1186/s13321-026-01293-4"
+   },
+   "id": "5500b13ac8f06ce0",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-04T00:00:00Z",
+   "score": 0.4232,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract Combination therapy offers a promising strategy for cancer treatment by reducing toxicity and overcoming drug resistance. However, existing substructure-based prediction methods may struggle to effectively capture the scale-specific features of substructure interactions and often overlook…",
+   "tags": [],
+   "title": "HSSynergy: scale-aware hierarchical attention for interpretable drug synergy prediction",
+   "url": "https://doi.org/10.1186/s13321-026-01293-4",
+   "venue": "Journal of Cheminformatics"
+  },
+  {
+   "authors": [
     "Yue Wang",
     "ANDY MARVIN",
     "SIMON JONATHAN BALE",
@@ -19,7 +101,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-04T00:00:00Z",
-   "score": 0.4412,
+   "score": 0.4232,
    "section": "papers",
    "source": "OpenAlex · technical communication",
    "source_id": "openalex_techcomm",
@@ -28,6 +110,35 @@
    "title": "Investigation of the feasibility of near-field magnetic shielding measurements in the 10 MHz to 200 MHz frequency range",
    "url": "https://orcid.org/0000-0003-2590-5335>,",
    "venue": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)"
+  },
+  {
+   "authors": [
+    "Chunlian Wu",
+    "Nur Ainil Sulaiman",
+    "Wahiza Wahi",
+    "Ruhil Amal Azmuddin"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Vocabulary plays a significant role in language learning and language development. It is important to acquire sufficient vocabulary to ensure effective communication. Some studies show the efficiency of narrow reading for general and academic vocabulary learning, but fewer studies investigate the effects of narrow reading on technical vocabulary, such as Business English vocabulary. This study aimed to investigate Business English vocabulary acquisition through theme-based narrow reading. The…",
+    "citations": 0,
+    "doi": "10.24093/awej/vol17no3.16"
+   },
+   "id": "b6268bded3578068",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-04T00:00:00Z",
+   "score": 0.4232,
+   "section": "papers",
+   "source": "OpenAlex · technical communication",
+   "source_id": "openalex_techcomm",
+   "summary": "Vocabulary plays a significant role in language learning and language development. It is important to acquire sufficient vocabulary to ensure effective communication. Some studies show the efficiency of narrow reading for general and academic vocabulary learning, but fewer studies investigate the…",
+   "tags": [
+    "pedagogy"
+   ],
+   "title": "The Effects of Theme-Based Narrow Reading on Business English Vocabulary Acquisition among Chinese EFL College Students",
+   "url": "https://doi.org/10.24093/awej/vol17no3.16",
+   "venue": "Arab World English Journal"
   },
   {
    "authors": [
@@ -45,7 +156,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-03T14:33:30Z",
-   "score": 0.7043,
+   "score": 0.6837,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -77,7 +188,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-03T11:16:58Z",
-   "score": 0.7309,
+   "score": 0.711,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -108,7 +219,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-03T09:17:32Z",
-   "score": 0.4904,
+   "score": 0.471,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -134,7 +245,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-03T02:42:03Z",
-   "score": 0.658,
+   "score": 0.6401,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -149,130 +260,257 @@
   },
   {
    "authors": [
-    "Ke Shi",
-    "Clara Calia",
-    "Zsófia K. Takács"
+    "I. L. Nikulin",
+    "V. A. Demin",
+    "S. A. Nukulina"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Abstract Brief mindfulness inductions are expected to enhance executive functioning and reduce mind-wandering, but empirical findings are mixed. The present study examined the effects of a 10-min mindfulness induction on executive functions and mind-wandering, and explored whether these effects were moderated by individual differences. Hypothesized moderators included trait mindfulness, prior meditation experience, and Big-Five personality traits; exploratory moderators included trait anxiety,…",
+    "abstract_snippet": "",
     "citations": 0,
-    "doi": "10.1186/s40359-026-05331-6"
+    "doi": "10.1007/s00162-026-00795-z"
    },
-   "id": "e82812c17bd709e9",
+   "id": "2068f85bf211444e",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-03T00:00:00Z",
-   "score": 0.3651,
+   "score": 0.3516,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Abstract Brief mindfulness inductions are expected to enhance executive functioning and reduce mind-wandering, but empirical findings are mixed. The present study examined the effects of a 10-min mindfulness induction on executive functions and mind-wandering, and explored whether these effects…",
+   "summary": "",
    "tags": [],
-   "title": "For whom does a brief mindfulness induction work? An exploration of the moderating role of individual differences in the effect of mindfulness induction on executive functioning and mind-wandering",
-   "url": "https://doi.org/10.1186/s40359-026-05331-6",
-   "venue": "BMC Psychology"
+   "title": "Rupture of thin film covering the liquid metal stirred by alternating magnetic field. Numerical simulation",
+   "url": "https://doi.org/10.1007/s00162-026-00795-z",
+   "venue": "Theoretical and Computational Fluid Dynamics"
   },
   {
    "authors": [
-    "Kelly L. Sovacool",
-    "Philip Homan",
-    "Vishal N. Kopardé",
-    "Samantha Sevilla"
+    "Maria-Theresa Gehling",
+    "Emanuel H. W. Bruckisch",
+    "Fynn Eggersmann",
+    "Konrad Benting",
+    "Lianne H.C. Jacobs",
+    "Elmar Behrmann"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Multi-Omics Suite provides a suite of functions to clean, filter, batch-correct, normalize, visualize, and perform differential analysis. While the package is designed for differential RNA-seq analysis and multi-omics datasets, it can be used for any data represented in a counts table. See the website for more information, documentation, and examples at .",
-    "citations": 0,
-    "doi": "10.5281/zenodo.22262260"
+    "abstract_snippet": "ABSTRACT Reactive oxygen species (ROS) play a central role in enhancing inhibitory signal transmission, thus extending their role beyond oxidative stress in disease and aging. However, the underlying molecular mechanisms mediating these functions have remained elusive. At inhibitory synapses, the scaffolding protein gephyrin clusters glycine and GABA type A receptors. Since gephyrin harbors multiple surface-exposed cysteines, we investigated the regulatory influence of ROS on gephyrin. We show…",
+    "also_in": [
+     {
+      "source": "OpenAlex · technical communication",
+      "url": "https://doi.org/10.1038/s41467-026-77147-2"
+     }
+    ],
+    "citations": 2,
+    "doi": "10.1038/s41467-026-77147-2"
    },
-   "id": "2b7c1125ca06c172",
+   "id": "3a8764f62af67571",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-03T00:00:00Z",
-   "score": 0.3651,
+   "score": 0.5288,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Multi-Omics Suite provides a suite of functions to clean, filter, batch-correct, normalize, visualize, and perform differential analysis. While the package is designed for differential RNA-seq analysis and multi-omics datasets, it can be used for any data represented in a counts table. See the…",
+   "summary": "ABSTRACT Reactive oxygen species (ROS) play a central role in enhancing inhibitory signal transmission, thus extending their role beyond oxidative stress in disease and aging. However, the underlying molecular mechanisms mediating these functions have remained elusive. At inhibitory synapses, the…",
    "tags": [],
-   "title": "MOSuite: R package for differential multi-omics analysis",
-   "url": "https://doi.org/10.5281/zenodo.22262260",
-   "venue": "Zenodo (CERN European Organization for Nuclear Research)"
+   "title": "Redox-dependent synaptic clustering of gephyrin",
+   "url": "https://doi.org/10.1038/s41467-026-77147-2",
+   "venue": "Nature Communications"
   },
   {
    "authors": [
-    "Anna-Larissa N. Niemeijer"
+    "Alicja W. Wojciechowska",
+    "Jakub W. Wojciechowski",
+    "Gert Vriend",
+    "Malgorzata Kotulska"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Summary The aim of this thesis was to investigate new biomarkers for immunotherapy in patients with non-small cell lung cancer (NSCLC). Although the use of immune checkpoint inhibitors in NSCLC has expanded considerably, the currently used biomarker PD-L1 expression is not sufficiently reliable. Not all patients with PD-L1-positive tumors respond to immunotherapy, while durable responses can also occur in PD-L1-negative patients. Therefore, additional biomarkers are needed to improve treatment…",
-    "citations": 0,
-    "doi": "10.5463/thesis.1530"
+    "abstract_snippet": "Abstract While three-dimensional structures of globular and transmembrane forms are available for many amyloid proteins, structures of their amyloid forms are scarce in the PDB. Amyloids pose major challenges for both experimental structure determination and computational modelling. We evaluated the amyloid-modelling performance of the current top modelling software, AlphaFold 3 (AF3), using three datasets. Dataset 1 contains 153 proteins and peptides that are known to form fibrils, but their…",
+    "citations": 12,
+    "doi": "10.1038/s41598-026-68041-4"
    },
-   "id": "c6fffc08900628a6",
+   "id": "8e325415b07be403",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-03T00:00:00Z",
-   "score": 0.5026,
+   "score": 0.5819,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Summary The aim of this thesis was to investigate new biomarkers for immunotherapy in patients with non-small cell lung cancer (NSCLC). Although the use of immune checkpoint inhibitors in NSCLC has expanded considerably, the currently used biomarker PD-L1 expression is not sufficiently reliable.…",
-   "tags": [],
-   "title": "Tissue and imaging biomarkers in the treatment of NSCLC",
-   "url": "https://doi.org/10.5463/thesis.1530",
-   "venue": null
+   "summary": "Abstract While three-dimensional structures of globular and transmembrane forms are available for many amyloid proteins, structures of their amyloid forms are scarce in the PDB. Amyloids pose major challenges for both experimental structure determination and computational modelling. We evaluated…",
+   "tags": [
+    "eval-study"
+   ],
+   "title": "Non-standard proteins in the lens of AlphaFold 3: a case study of amyloids",
+   "url": "https://doi.org/10.1038/s41598-026-68041-4",
+   "venue": "Scientific Reports"
   },
   {
    "authors": [
-    "Zhaoxia Ma",
-    "Liu Mp",
-    "Shengyuan Wang",
-    "Siyuan Wang",
-    "Chongzhi Zang"
+    "Ava Khosravi",
+    "Mehdy Roayaei"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Spatial organization of the genome plays a vital role in defining cell identity and regulating gene expression. The three-dimensional (3D) genome structure can be measured by sequencing-based techniques such as Hi-C usually on the cell population level or by imaging-based techniques such as chromatin tracing at the single-cell level. Chromatin tracing is a multiplexed DNA fluorescence in situ hybridization (FISH)-based method that can directly map the 3D positions of genomic loci along…",
+    "abstract_snippet": "",
     "citations": 0,
-    "doi": "10.1186/s13059-026-04264-y"
+    "doi": "10.1007/s00500-025-10788-5"
    },
-   "id": "429a98438d386d58",
+   "id": "f655c9a3e9830703",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-03T00:00:00Z",
-   "score": 0.3651,
+   "score": 0.3516,
    "section": "papers",
-   "source": "OpenAlex · technical communication",
-   "source_id": "openalex_techcomm",
-   "summary": "Spatial organization of the genome plays a vital role in defining cell identity and regulating gene expression. The three-dimensional (3D) genome structure can be measured by sequencing-based techniques such as Hi-C usually on the cell population level or by imaging-based techniques such as…",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
    "tags": [],
-   "title": "Differential analysis of image-based chromatin tracing data with Dory",
-   "url": "https://doi.org/10.1186/s13059-026-04264-y",
-   "venue": "Genome biology"
+   "title": "MOAC-RT: Personalized multi-objective radiotherapy using actor-critic deep reinforcement learning",
+   "url": "https://doi.org/10.1007/s00500-025-10788-5",
+   "venue": "Soft Computing"
   },
   {
-   "authors": [],
+   "authors": [
+    "Lauren Coombe",
+    "René L. Warren",
+    "İnanç Birol"
+   ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "The Tech and Strategy Hub will have booths related to the following areas VoiceThread (Michelle Holland): Moving Past Silent Screens to Hearing Student Voices with VoiceThread - This session will introduce VoiceThread as a simple, effective tool for increasing student interaction, especially in asynchronous and online courses. For those who may feel unfamiliar with or hesitant about using new technology, VoiceThread offers an accessible way to move beyond text-based participation and foster…",
-    "citations": 0,
-    "doi": null
+    "abstract_snippet": "Abstract With the explosion of chromosome-scale genome assemblies being generated in recent years, there is vast potential for comparative genomics analyses through detecting multi-genome synteny. While existing tools can detect synteny blocks between multiple genomes, their text-based outputs make it challenging to intuitively explore large-scale synteny patterns. Interpretable, information-rich and easy-to-use synteny visualization tools are imperative to enable important biological insights…",
+    "citations": 21,
+    "doi": "10.1093/jeb/voag079"
    },
-   "id": "cfe27994ebed63ec",
+   "id": "2e9d9d7dd80cccfd",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-03T00:00:00Z",
-   "score": 0.3651,
+   "score": 0.4635,
    "section": "papers",
-   "source": "OpenAlex · technical communication",
-   "source_id": "openalex_techcomm",
-   "summary": "The Tech and Strategy Hub will have booths related to the following areas VoiceThread (Michelle Holland): Moving Past Silent Screens to Hearing Student Voices with VoiceThread - This session will introduce VoiceThread as a simple, effective tool for increasing student interaction, especially in…",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract With the explosion of chromosome-scale genome assemblies being generated in recent years, there is vast potential for comparative genomics analyses through detecting multi-genome synteny. While existing tools can detect synteny blocks between multiple genomes, their text-based outputs make…",
    "tags": [],
-   "title": "Nexus Point: The Tech & Strategy Hub",
-   "url": "https://scholarworks.harding.edu/fts/2026/events/8",
-   "venue": "Scholar Works at Harding (Harding University Main Campus)"
+   "title": "ntSynt-viz: Visualizing synteny patterns across multiple genomes",
+   "url": "https://doi.org/10.1093/jeb/voag079",
+   "venue": "Journal of Evolutionary Biology"
+  },
+  {
+   "authors": [
+    "Brittany Jimena",
+    "Daniel Kazimierczyk",
+    "Simon Kazimierczyk",
+    "Haley Moya",
+    "Eva Shin",
+    "Li Li"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Summary Vertically transferred maternal cells or maternal microchimeric cells (MMCs) engraft the fetus and persist in offspring for long periods of time. How altered maternal immune states arising from infection affect MMCs and their function in offspring is poorly understood. Here, we show that pregnancy-associated transient maternal infection alters MMCs to differentially regulate immunity in offspring. In male offspring of dams previously infected with Yersinia pseudotuberculosis , MMCs…",
+    "citations": 0,
+    "doi": "10.3389/fimmu.2026.1869048"
+   },
+   "id": "01583400aa8ecdf3",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-03T00:00:00Z",
+   "score": 0.3516,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Summary Vertically transferred maternal cells or maternal microchimeric cells (MMCs) engraft the fetus and persist in offspring for long periods of time. How altered maternal immune states arising from infection affect MMCs and their function in offspring is poorly understood. Here, we show that…",
+   "tags": [],
+   "title": "Prenatal maternal infection promotes maternal microchimeric cells to alter infection risk in male offspring",
+   "url": "https://doi.org/10.3389/fimmu.2026.1869048",
+   "venue": "Frontiers in Immunology"
+  },
+  {
+   "authors": [
+    "Binnu Gangadharan",
+    "Daniel L. Kober",
+    "Luke M. Rice"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract Defining quantitative biochemical mechanisms of microtubule dynamics and regulation is a current challenge. Stu2/XMAP215-family polymerases use tubulin-binding TOG domains to catalyze microtubule growth, but how polymerase activity results from the number and tubulinbinding properties of TOGs is not understood. We tested whether an enzyme-like biochemical model for the unrelated actin polymerase Ena/VASP could be applied to quantitatively relate Stu2 microtubule polymerase activity to…",
+    "citations": 1,
+    "doi": "10.7554/elife.107818.3"
+   },
+   "id": "6bc7932bb92d067e",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-03T00:00:00Z",
+   "score": 0.5142,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract Defining quantitative biochemical mechanisms of microtubule dynamics and regulation is a current challenge. Stu2/XMAP215-family polymerases use tubulin-binding TOG domains to catalyze microtubule growth, but how polymerase activity results from the number and tubulinbinding properties of…",
+   "tags": [],
+   "title": "A biochemical mechanism for Stu2/XMAP215-family microtubule polymerases",
+   "url": "https://doi.org/10.7554/elife.107818.3",
+   "venue": "eLife"
+  },
+  {
+   "authors": [
+    "Chee Chew Yip",
+    "Zheng Xian Thng",
+    "Yan Yee Hah",
+    "Andrew Shi-Jie Yap",
+    "Sean Pin Ng",
+    "Nicola Y. Gan"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract Background Guided Mental Rehearsal (GMR), underpinned by the Theory of Motor Simulation, supports the learning of psychomotor skills. We hypothesized that (a) GMR would be comparable to Guided Physical Practice (GPP) for learning Pupillary Examination (PE), and (b) Mental Imagery (MI) ability would improve with GMR practice. Methods This assessor-blinded, randomized controlled study included 53 pre-clinical students (GMR n = 26, GPP n = 27), with sample size calculated from pilot data…",
+    "citations": 0,
+    "doi": "10.29060/taps.2026-11-4/oa3941"
+   },
+   "id": "37c288296d63a28f",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-03T00:00:00Z",
+   "score": 0.3516,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract Background Guided Mental Rehearsal (GMR), underpinned by the Theory of Motor Simulation, supports the learning of psychomotor skills. We hypothesized that (a) GMR would be comparable to Guided Physical Practice (GPP) for learning Pupillary Examination (PE), and (b) Mental Imagery (MI)…",
+   "tags": [],
+   "title": "Investigating mental rehearsal’s applicability in guiding independent e-learning of eye examination skills during the pandemic – Part II (IMAGINE-II)",
+   "url": "https://doi.org/10.29060/taps.2026-11-4/oa3941",
+   "venue": "The Asia Pacific Scholar"
+  },
+  {
+   "authors": [
+    "Maximilian Woollard",
+    "Pratibha Panwar",
+    "Luke Harland",
+    "Jeremy Mo",
+    "Hanyun Zhang",
+    "Alexander Swarbrick"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract With the dramatic take-up of spatially resolved transcriptomics biotechnologies, performing spatially-aware analysis of the resulting data is crucial to maximise advances in biological understanding. Dimensionality reduction is a first step in almost any analysis of spatial transcriptomics data, regardless of whether the data is collected at the single-cell or spot level. While common approaches, such as principal component analysis, aim to identify low-dimensional scores that preserve…",
+    "citations": 1,
+    "doi": "10.1038/s41467-026-76871-z"
+   },
+   "id": "ed7bcaa1f70a4819",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-03T00:00:00Z",
+   "score": 0.3767,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract With the dramatic take-up of spatially resolved transcriptomics biotechnologies, performing spatially-aware analysis of the resulting data is crucial to maximise advances in biological understanding. Dimensionality reduction is a first step in almost any analysis of spatial transcriptomics…",
+   "tags": [],
+   "title": "Weighted sliced inverse regression for scalable supervised dimensionality reduction of spatial transcriptomics data",
+   "url": "https://doi.org/10.1038/s41467-026-76871-z",
+   "venue": "Nature Communications"
   },
   {
    "authors": [
@@ -288,7 +526,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-02T12:15:11Z",
-   "score": 0.6097,
+   "score": 0.5946,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -315,7 +553,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-02T01:25:47Z",
-   "score": 0.7186,
+   "score": 0.7054,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -330,293 +568,6 @@
   },
   {
    "authors": [
-    "Ruijia Cao",
-    "Florian Schaefer"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract. Shock waves in gas dynamics feature jump discontinuities that hinder numerical simulations. Viscous regularizations are prone to excessive dissipation of fine-scale structures. In this work, we propose the first inviscid regularization of the multidimensional Euler equation based on ideas from semidefinite programming, information geometry, geometric hydrodynamics, and nonlinear elasticity. The Lagrangian flow maps of Euler solutions are a dynamical system on the manifold of…",
-    "citations": 0,
-    "doi": "10.1137/25m1777918"
-   },
-   "id": "772861552e9f77b5",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.3079,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract. Shock waves in gas dynamics feature jump discontinuities that hinder numerical simulations. Viscous regularizations are prone to excessive dissipation of fine-scale structures. In this work, we propose the first inviscid regularization of the multidimensional Euler equation based on ideas…",
-   "tags": [],
-   "title": "Information Geometric Regularization of the Barotropic Euler Equation",
-   "url": "https://doi.org/10.1137/25m1777918",
-   "venue": "SIAM Journal on Scientific Computing"
-  },
-  {
-   "authors": [
-    "Ameya Kulkarni",
-    "Daniel J. Apicco",
-    "Saleh Tamim",
-    "Lauren Gibilisco",
-    "Layan Nahlawi",
-    "Rachel M. Lucia"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "ABSTRACT Parkinson’s Disease (PD) is a progressive neurodegenerative disorder, affecting 10 million people worldwide. While genome-wide association studies (GWAS) have identified many genetic variants associated with PD incidence, the genetics underlying PD progression are poorly understood. Here, we aim to address this gap by performing GWAS on longitudinal clinical metrics from well-defined PD cohorts. Specifically, we identify 8 novel GWAS genes for PD progression, including TRIM2, which…",
-    "citations": 0,
-    "doi": "10.1038/s41598-026-67630-7"
-   },
-   "id": "1046c9a94d6dec3e",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.3079,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "ABSTRACT Parkinson’s Disease (PD) is a progressive neurodegenerative disorder, affecting 10 million people worldwide. While genome-wide association studies (GWAS) have identified many genetic variants associated with PD incidence, the genetics underlying PD progression are poorly understood. Here,…",
-   "tags": [],
-   "title": "Progression GWAS followed by functional characterization implicates E3 ubiquitin ligase TRIM2 as a potential genetic modifier of Parkinson’s disease progression",
-   "url": "https://doi.org/10.1038/s41598-026-67630-7",
-   "venue": "Scientific Reports"
-  },
-  {
-   "authors": [
-    "Nicolette Ognjanovski",
-    "Anjesh Ghimire",
-    "Pho J. Hale",
-    "David Kim",
-    "Ivo H. Cerda",
-    "Ethan Goldiez"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Long-term monitoring of behavioral and physiological processes is essential for elucidating complex brain-based phenomena and disorders that develop over extended periods, such as chronic stress, circadian disruption, and metabolic syndromes. Though digital phenotyping is well-established in humans via smart devices, comparable solutions for rodent models remain limited. To address this gap, we present the Digital Homecage (DHC) system, an open-source platform that enables uninterrupted,…",
-    "citations": 0,
-    "doi": "10.1038/s41598-026-69041-0"
-   },
-   "id": "121e9450f5cfbaea",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.4454,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Long-term monitoring of behavioral and physiological processes is essential for elucidating complex brain-based phenomena and disorders that develop over extended periods, such as chronic stress, circadian disruption, and metabolic syndromes. Though digital phenotyping is well-established in humans…",
-   "tags": [
-    "systems"
-   ],
-   "title": "Mouse bio-behavioral phenotyping using a digital homecage framework for long-timescale, high-resolution, and multi-factor data collection and analytics",
-   "url": "https://doi.org/10.1038/s41598-026-69041-0",
-   "venue": "Scientific Reports"
-  },
-  {
-   "authors": [
-    "Kwame Owusu-Nyantakyi",
-    "Lashaka Sierra Hamlette",
-    "Go Ashida",
-    "Sonia R. Weimann",
-    "Stefan N. Oline",
-    "R. Michael Burger"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Sensory neurons are equipped with physiological properties vital for accurate signal processing. The functional importance of such properties is exemplified in auditory circuits where intrinsic excitability is optimized to detect frequency-specific features. In birds, the neurons of nucleus magnocellularis (NM) receive primary auditory input (Rubel and Parks, 1975a; Parks and Rubel, 1978; Jackson et al., 1982) and are arranged tonotopically. NM comprises a superficially homogenous neural…",
-    "citations": 1,
-    "doi": "10.1523/jneurosci.1323-25.2026"
-   },
-   "id": "f8c565d17dd480b8",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.333,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Sensory neurons are equipped with physiological properties vital for accurate signal processing. The functional importance of such properties is exemplified in auditory circuits where intrinsic excitability is optimized to detect frequency-specific features. In birds, the neurons of nucleus…",
-   "tags": [],
-   "title": "Hyperpolarization-activated cation channels confer tonotopic specialization for temporal encoding of sound frequency in the cochlear nucleus",
-   "url": "https://doi.org/10.1523/jneurosci.1323-25.2026",
-   "venue": "Journal of Neuroscience"
-  },
-  {
-   "authors": [
-    "Krista E. Perks",
-    "Mariela D. Petkova",
-    "Salomon Z. Muller",
-    "Michael Genecin",
-    "Adishree Ghatare",
-    "Richard Schalek"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "",
-    "citations": 2,
-    "doi": "10.1038/s41586-026-10690-6"
-   },
-   "id": "761c73b99f67ff6f",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.3477,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "",
-   "tags": [],
-   "title": "Connectome analysis of a cerebellum-like circuit for sensory prediction",
-   "url": "https://doi.org/10.1038/s41586-026-10690-6",
-   "venue": "Nature"
-  },
-  {
-   "authors": [
-    "Aalok Sharma Kafle",
-    "K C Kushum",
-    "E. Annette Hernandez",
-    "Venkatesh Uddameri"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Digital elevation models (DEM) form the backbone of flood related studies. Proper selection of the DEM product is critical to obtain reliable estimates. Most studies aimed at understanding DEM resolution impacts focus on geometric comparisons. A comprehensive structural and functional assessment framework for DEM comparisons is developed here. The structural differences in DEM are used to understand how DEM products produce differing estimates of flooding susceptibility, rainfall-runoff…",
-    "citations": 1,
-    "doi": "10.3390/w18172162"
-   },
-   "id": "8406d160fcff9613",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.4705,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Digital elevation models (DEM) form the backbone of flood related studies. Proper selection of the DEM product is critical to obtain reliable estimates. Most studies aimed at understanding DEM resolution impacts focus on geometric comparisons. A comprehensive structural and functional assessment…",
-   "tags": [],
-   "title": "DEMands of Precision: How DEM Resolution Shapes Various Flood Applications",
-   "url": "https://doi.org/10.3390/w18172162",
-   "venue": "Water"
-  },
-  {
-   "authors": [
-    "Daniel J. MacGuigan",
-    "Hannah Waterman",
-    "Jessie A. Pelosi",
-    "Nathan J. C. Backenstose",
-    "Sarah L. Chang",
-    "Milton Tan"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "While genomic data are powerfully informative for phylogenetic inference, traditional sequence-based analyses can be confounded by issues like homoplasy and incomplete lineage sorting, leaving deep nodes unresolved. Synteny, the conservation of gene order along a chromosome, presents a promising alternative source of phylogenetic information that is potentially less prone to these issues. Here we compare sequence and synteny phylogenomic approaches to unravel the evolutionary history of…",
-    "citations": 2,
-    "doi": "10.1093/sysbio/syag068"
-   },
-   "id": "d950f790c3ee4720",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.3477,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "While genomic data are powerfully informative for phylogenetic inference, traditional sequence-based analyses can be confounded by issues like homoplasy and incomplete lineage sorting, leaving deep nodes unresolved. Synteny, the conservation of gene order along a chromosome, presents a promising…",
-   "tags": [],
-   "title": "Microsynteny Analysis Clarifies the Early Diversification of Cypriniform Fishes",
-   "url": "https://doi.org/10.1093/sysbio/syag068",
-   "venue": "Systematic Biology"
-  },
-  {
-   "authors": [
-    "Veronika Bókony",
-    "Emese Balogh",
-    "Nikolett Ujhegyi",
-    "Zsanett Mikó",
-    "Andrea Kásler",
-    "János Ujszegi"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Sex reversal, when the environment overrides genotypic sex determination, may hasten or delay climate-driven extinction in ectothermic animals, depending on sex-reversed individuals’ reproductive ability and offspring viability. Empirically, next to nothing is known about these traits in natural populations. Here, we present a comprehensive dataset of wild frogs to compare sex-reversed and sex-concordant males for fertility, attractiveness to females, intrasexual competitiveness, and offspring…",
-    "citations": 0,
-    "doi": "10.1126/sciadv.aeg3488"
-   },
-   "id": "75c113667a048703",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.4454,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Sex reversal, when the environment overrides genotypic sex determination, may hasten or delay climate-driven extinction in ectothermic animals, depending on sex-reversed individuals’ reproductive ability and offspring viability. Empirically, next to nothing is known about these traits in natural…",
-   "tags": [],
-   "title": "Complex effects of sex reversal on reproductive success in wild frogs",
-   "url": "https://doi.org/10.1126/sciadv.aeg3488",
-   "venue": "Science Advances"
-  },
-  {
-   "authors": [
-    "Andrea Schievano",
-    "Camille Rubeaud",
-    "Margret Köthke",
-    "Beatrice Landoni",
-    "Damien Beillouin",
-    "Marta Pérez‐Soba"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract. Agroforestry systems are promoted as multifunctional land-use strategies, yet evidence of their benefits, especially in temperate regions, remains fragmented. This umbrella review maps 42 meta-analyses to quantify the effects of agroforestry on environmental, climate, and productivity outcomes, with a focus on temperate pedo-climates. Our evidence map reveals a strong consensus on key regulating ecosystem services: a clear majority of assessments (over 65 %) reported significantly…",
-    "citations": 1,
-    "doi": "10.1016/j.ecoser.2026.101905"
-   },
-   "id": "a5aef770e580b968",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.4705,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract. Agroforestry systems are promoted as multifunctional land-use strategies, yet evidence of their benefits, especially in temperate regions, remains fragmented. This umbrella review maps 42 meta-analyses to quantify the effects of agroforestry on environmental, climate, and productivity…",
-   "tags": [
-    "systems"
-   ],
-   "title": "Potential of temperate agroforestry systems to deliver ecosystem services: An evidence map",
-   "url": "https://doi.org/10.1016/j.ecoser.2026.101905",
-   "venue": "Ecosystem Services"
-  },
-  {
-   "authors": [
-    "Zhi Cao",
-    "Pavel Mozgunov",
-    "Haiyan Zheng"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Basket trials have gained increasing attention for their efficiency, as multiple patient subgroups are evaluated simultaneously. Conducted basket trials focus primarily on establishing the early efficacy of a treatment, yet continued monitoring of toxicity is essential. In this article, we propose two Bayesian hierarchical models that enable bivariate analyses of toxicity and efficacy, while accounting for heterogeneity present in the treatment effects across patient subgroups. Specifically,…",
-    "citations": 0,
-    "doi": "10.1177/09622802261465336"
-   },
-   "id": "7e2cf4f2ea94a762",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-02T00:00:00Z",
-   "score": 0.4454,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Basket trials have gained increasing attention for their efficiency, as multiple patient subgroups are evaluated simultaneously. Conducted basket trials focus primarily on establishing the early efficacy of a treatment, yet continued monitoring of toxicity is essential. In this article, we propose…",
-   "tags": [
-    "eval-study"
-   ],
-   "title": "Robust Bayesian hierarchical models for basket trials enabling joint evaluation of toxicity and efficacy",
-   "url": "https://doi.org/10.1177/09622802261465336",
-   "venue": "Statistical Methods in Medical Research"
-  },
-  {
-   "authors": [
     "Aarthy Nagarajan"
    ],
    "category": "optional",
@@ -628,7 +579,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-01T18:37:23Z",
-   "score": 0.561,
+   "score": 0.5488,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -657,7 +608,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-01T17:54:32Z",
-   "score": 0.5593,
+   "score": 0.5471,
    "section": "papers",
    "source": "arXiv cs.HC (writing & docs)",
    "source_id": "arxiv_hci_writing",
@@ -689,7 +640,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-01T17:36:29Z",
-   "score": 0.5985,
+   "score": 0.5864,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -719,7 +670,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-01T16:01:57Z",
-   "score": 0.4022,
+   "score": 0.3903,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -749,7 +700,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-01T15:15:30Z",
-   "score": 0.5928,
+   "score": 0.5811,
    "section": "papers",
    "source": "arXiv cs.HC + cs.GR",
    "source_id": "arxiv_datavis",
@@ -760,11 +711,189 @@
    "title": "InSight: A Benchmark for Agentic Claim Verification in Interactive Visualizations",
    "url": "https://arxiv.org/abs/2609.01383v1",
    "venue": "arXiv cs.CL"
+  },
+  {
+   "authors": [
+    "Faruk Aksoy",
+    "Resul Daş"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "arxiv_id": null,
+    "citations": 0,
+    "doi": "10.1016/j.knosys.2026.116575"
+   },
+   "id": "4beb04d036b26510",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.3798,
+   "section": "papers",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "",
+   "tags": [
+    "systems",
+    "ml-vis",
+    "llm",
+    "visualization"
+   ],
+   "title": "A hybrid framework integrating graph neural networks and large language models for automated data visualization",
+   "url": "https://www.semanticscholar.org/paper/19443b2d673ab5845aed9863529d634787bf3bbf",
+   "venue": "Knowledge-Based Systems"
+  },
+  {
+   "authors": [
+    "Jan Jastrzębski",
+    "Xiao Chen"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "arxiv_id": null,
+    "citations": 0,
+    "doi": "10.1016/j.softx.2026.102765"
+   },
+   "id": "66a39af621c914cf",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.2423,
+   "section": "papers",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "",
+   "tags": [
+    "visualization"
+   ],
+   "title": "AQUADA BDM - A modular software for centralized management and 3D visualization of wind turbine blade damage inspection data",
+   "url": "https://www.semanticscholar.org/paper/75e4b65be78268146fb3af6fce76b28473e68acc",
+   "venue": "SoftwareX"
+  },
+  {
+   "authors": [
+    "Kerem Düzenli",
+    "Abdallah Alhamad",
+    "Attila Gilányi"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "arxiv_id": null,
+    "citations": 0,
+    "doi": "10.1016/j.softx.2026.102773"
+   },
+   "id": "b26755406da82b5e",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.2423,
+   "section": "papers",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "",
+   "tags": [
+    "systems",
+    "visualization"
+   ],
+   "title": "A python pipeline for interactive visualization of systematic literature review data",
+   "url": "https://www.semanticscholar.org/paper/cd0b7ec751880f20aa56f7ab6eb1f16464ba9beb",
+   "venue": "SoftwareX"
+  },
+  {
+   "authors": [
+    "Van-Hoan Le"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "arxiv_id": null,
+    "citations": 0,
+    "doi": "10.1016/j.softx.2026.102862"
+   },
+   "id": "bd925ba89a5ffaf6",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T00:00:00Z",
+   "score": 0.2423,
+   "section": "papers",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "",
+   "tags": [
+    "visualization"
+   ],
+   "title": "SPECTROview: An open-source application for interactive spectroscopic data processing, fitting, and visualization",
+   "url": "https://www.semanticscholar.org/paper/d5fd6503351cf0a3aaaafbce071583e81a216285",
+   "venue": "SoftwareX"
+  },
+  {
+   "authors": [
+    "Mohammad Abolnejadian",
+    "Matthew Brehmer"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Missing institutional context during meetings can impede effective participation. Retrieving relevant information, often scattered across heterogeneous internal and external sources, requires costly task-switching that disrupts both individual focus and collective conversational flow, particularly detrimental during cognitively demanding tasks such as decision-making. We introduce InsightToast, a mixed-initiative application that monitors verbal discourse in real time, identifies topics and…",
+    "arxiv_id": "2608.31115",
+    "citations": 0,
+    "doi": "10.1145/3830398.3830522"
+   },
+   "id": "d33e46617d830bf5",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-31T00:00:00Z",
+   "score": 0.2119,
+   "section": "papers",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "Missing institutional context during meetings can impede effective participation. Retrieving relevant information, often scattered across heterogeneous internal and external sources, requires costly task-switching that disrupts both individual focus and collective conversational flow, particularly…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "InsightToast: Proactive Information Retrieval&Glanceable Visualization in the Side Channel of Data-Rich Meetings",
+   "url": "https://www.semanticscholar.org/paper/c949d155024650d3d8f7925fd226ce44806aefdc",
+   "venue": null
+  },
+  {
+   "authors": [
+    "J. Keppel",
+    "Roman Heger",
+    "Robert Eustergerling",
+    "Marius Knubel",
+    "Erik Karger",
+    "Donald Degraen"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Indoor cycling classes promote group exercise through an engaging gym instructor, combined with energizing music. To monitor training intensity and improve cyclists’ motivation, we enhanced mechanical bikes with sensor technology to enable future gamification in cycling classes. Our extensible, open-source system captures real-time heart rate, cadence, and braking resistance data, enabling interactive training environments synchronized with music. The system provides a flexible research toolkit…",
+    "arxiv_id": null,
+    "citations": 0,
+    "doi": "10.1145/3820253.3820265"
+   },
+   "id": "a2fa8fb7c185c4cc",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-08-29T00:00:00Z",
+   "score": 0.4094,
+   "section": "papers",
+   "source": "Semantic Scholar · data visualization",
+   "source_id": "s2_datavis",
+   "summary": "Indoor cycling classes promote group exercise through an engaging gym instructor, combined with energizing music. To monitor training intensity and improve cyclists’ motivation, we enhanced mechanical bikes with sensor technology to enable future gamification in cycling classes. Our extensible,…",
+   "tags": [
+    "eval-study",
+    "systems",
+    "visualization"
+   ],
+   "title": "Design and Evaluation of a Research Toolkit for Real-Time Data Visualization in Group Cycling Classes",
+   "url": "https://www.semanticscholar.org/paper/2e54f0237ed2e399cc4335bca3c1b7ad6e40b963",
+   "venue": "Proceedings of Mensch und Computer 2026"
   }
  ],
  "meta": {
-  "count": 27,
-  "generated_at": "2026-09-04T11:13:52Z",
+  "count": 31,
+  "generated_at": "2026-09-04T16:18:57Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
@@ -794,7 +923,7 @@
    },
    {
     "category": "optional",
-    "count": 0,
+    "count": 30,
     "error": null,
     "full_text_count": 0,
     "id": "s2_datavis",

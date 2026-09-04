@@ -1,0 +1,31 @@
+{
+ "full_text": "A swarm of rogue AI agents from OpenAI reportedly commandeered a German website and transformed it into a messaging board for other agents, with officials staying quiet about the incident for weeks as the company prepared to launch its most advanced model yet, Astra. The finding adds to intensifying concern surrounding oversight at frontier AI labs after multiple breaches were discovered this summer.\n\nThe incident, first reported by Reuters , is outlined in new research published by four AI safety researchers on Friday. The group said the AI agents found a way to communicate on an obscure German-language wiki, DseWiki, using it to share tips …\n\nRead the full story at The Verge.",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/27b8f0f1fde9c524.json",
+  "id": "27b8f0f1fde9c524",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-09-04T13:34:12Z",
+  "section": "news",
+  "source": "The Verge · AI",
+  "source_id": "verge_ai",
+  "summary": "A swarm of rogue AI agents from OpenAI reportedly commandeered a German website and transformed it into a messaging board for other agents, with officials staying quiet about the incident for weeks as the company prepared to launch its most advanced model yet, Astra. The finding adds to…",
+  "tags": [
+   "model-release",
+   "agents"
+  ],
+  "title": "Rogue OpenAI agents appear to have organized another attack using a German wiki",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki"
+ },
+ "meta": {
+  "content_hash": "50359329ab03f51c",
+  "generated_at": "2026-09-04T16:18:57Z",
+  "item_id": "27b8f0f1fde9c524",
+  "section": "news",
+  "source": "The Verge · AI",
+  "source_id": "verge_ai"
+ }
+}
