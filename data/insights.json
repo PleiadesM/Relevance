@@ -1,28 +1,48 @@
 {
- "brief": "Today's news spans from political shifts and legal battles to social media concerns and AI developments, while research papers explore human-AI collaboration, emotion recognition in VR, and advanced data analysis techniques.",
- "meta": {
-  "generated_at": "2026-09-04T04:27:04Z"
+ "apropos_of_nothing": {
+  "query": "\"sand sculpture championship\" OR \"sand sculpting contest\"",
+  "source": {
+   "name": "AOL.co.uk",
+   "published_at": "2026-09-01T05:20:00Z",
+   "title": "TV tonight: join the jury as a teenager goes on trial for murder",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZzZ0YnBOY3hXdWNlNUgxZ2dOUGk0WWl2M2FEcjBLQnZPaWJyYTZjRE0yYWJJYlZqbGZtRlRGYVM5ZmM3UERSN2Y4ZVNrYzRqaTVmZTBvcVViY2s1RDdwcmhueXY3eFZ3U1RHUFRJUm01QW5IVFZqUGliVmVCNS10Ng?oc=5"
+  },
+  "summaries": {
+   "en": {
+    "summary": "A teen murder trial airs tonight, inviting viewers to serve as armchair jurors.",
+    "why_irrelevant": "A grim legal drama far from the user's light personal dashboard."
+   },
+   "zh": {
+    "summary": "今晚播出一档青少年谋杀案审判节目，邀请观众充当陪审团。",
+    "why_irrelevant": "沉重的法律剧情，与用户轻松的私人面板内容无关。"
+   }
+  },
+  "topic": "competitive sand sculpting"
  },
- "news_summary": "Key stories include Germany's potential far-right win, US political maneuvers, Australia's EV sales milestone and social media safety issues, as well as international tensions over the Falklands and UN map resolution.",
- "papers_summary": "Research highlights include studies on human-AI collaboration in data analysis and co-design, multimodal emotion recognition in VR, and a mindfulness induction study, alongside technical papers on shielding measurements and multi-omics analysis.",
+ "brief": "Today's news spans political upheavals and conflicts, from far-right gains in Germany to U.S. diesel price spikes, while AI advancements are marred by rollout issues and security concerns. Research highlights innovations in VR emotion recognition and AI-augmented science education, alongside technical advances in multi-omics and magnetic shielding.",
+ "meta": {
+  "generated_at": "2026-09-04T11:13:52Z"
+ },
+ "news_summary": "Political tensions dominate: Germany's far-right AfD nears power, U.S. politics face redistricting battles and harsh immigration policies, and international disputes escalate over Iran and Venezuela. Additionally, diesel prices hit record highs and investigations into figures like Andrew Tate and Reform UK officials surface.",
+ "papers_summary": "Research spans human-computer interaction (e.g., VR emotion recognition, AI co-design in education), biomedical imaging (e.g., NSCLC biomarkers, chromatin tracing), and technical fields (e.g., magnetic shielding measurements, multi-omics analysis).",
  "summaries": {
   "en": {
-   "brief": "Today's news spans from political shifts and legal battles to social media concerns and AI developments, while research papers explore human-AI collaboration, emotion recognition in VR, and advanced data analysis techniques.",
-   "news_summary": "Key stories include Germany's potential far-right win, US political maneuvers, Australia's EV sales milestone and social media safety issues, as well as international tensions over the Falklands and UN map resolution.",
-   "papers_summary": "Research highlights include studies on human-AI collaboration in data analysis and co-design, multimodal emotion recognition in VR, and a mindfulness induction study, alongside technical papers on shielding measurements and multi-omics analysis."
+   "brief": "Today's news spans political upheavals and conflicts, from far-right gains in Germany to U.S. diesel price spikes, while AI advancements are marred by rollout issues and security concerns. Research highlights innovations in VR emotion recognition and AI-augmented science education, alongside technical advances in multi-omics and magnetic shielding.",
+   "news_summary": "Political tensions dominate: Germany's far-right AfD nears power, U.S. politics face redistricting battles and harsh immigration policies, and international disputes escalate over Iran and Venezuela. Additionally, diesel prices hit record highs and investigations into figures like Andrew Tate and Reform UK officials surface.",
+   "papers_summary": "Research spans human-computer interaction (e.g., VR emotion recognition, AI co-design in education), biomedical imaging (e.g., NSCLC biomarkers, chromatin tracing), and technical fields (e.g., magnetic shielding measurements, multi-omics analysis)."
   },
   "zh": {
-   "brief": "今日重点包括睡眠追踪可能引发睡眠失调、亲俄虚假宣传网络利用虚假性暴力消息引流，以及联合国厄尔尼诺警告；论文方面无新增中文内容。",
-   "news_summary": "简体中文新闻关注睡眠分数与健康矛盾、俄罗斯利用假消息吸引用户、厄尔尼诺风险及美国航母船员休整。",
-   "papers_summary": "本次没有简体中文论文摘要。"
+   "brief": "今日聚焦光州雙年展台灣館更名風波導致中國退展，另有多項國際與科技新聞；論文方面以AI與人機互動研究為主。",
+   "news_summary": "光州雙年展因台灣館名稱改動引發爭議，中國宣布退出，台灣藝術家抗議後主辦方恢復原名，但中方不滿。其他新聞包括尼泊爾洪災、加拿大新鈔、福克蘭爭議、美國柴油價格創新高、俄羅斯破壞活動等。",
+   "papers_summary": "論文研究涵蓋AI教育應用、虛擬實境情緒識別、急診室AR協作、多體學分析工具等，聚焦人機互動與醫學影像技術進展。"
   }
  },
  "todays_image": {
-  "caption": "Both the 2000 voting machine and social media algorithms show how quickly flawed systems can steer decisive outcomes—ballots or beliefs—before anyone realizes what happened.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-26CAD039D1FF2_5001-000002",
-  "source_name": "National Museum of African American History and Culture",
-  "source_url": "https://nmaahc.si.edu/object/nmaahc_2013.181.1a-h",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-26CAD039D1FF2_5001-000002",
-  "title": "Voting machine used in the 2000 Presidential election"
+  "caption": "Like the 1915 exposition reframed San Francisco as a Pacific gateway, Texas’s new anthem insists on an identity that isn’t simply Southern.",
+  "image_url": "http://ids.si.edu/ids/deliveryService?id=SIA-SIA_000095_B63_F06_008&max=1024",
+  "source_name": "Smithsonian Institution Archives",
+  "source_url": "https://siarchives.si.edu/collections/siris_arc_400527",
+  "thumbnail_url": "http://ids.si.edu/ids/deliveryService?id=SIA-SIA_000095_B63_F06_008&max=150",
+  "title": "Panama-Pacific International Exposition, San Francisco, California, 1915"
  }
 }
