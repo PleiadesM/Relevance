@@ -1,48 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "\"snail racing championship\" OR \"World Snail Racing Championships\"",
-  "source": {
-   "name": "Turkmenportal.com",
-   "published_at": "2026-08-31T19:52:37Z",
-   "title": "The world snail racing championship was held in an English village",
-   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOaHhkcnFVTlIzMDFCZ3ZaNmxvdEpTbkZmZXgyQm9hY1JFc2NqLXVYdlNrY3Jtdzc5aDJSb2tyZU5Ncy1vbmVVb0g4ZXJLMDItWV9YSmZqcGZ2RjJwSFBNTkVCVkdzSXN6U1A5Z1pqRkFIN29idVlRc1V2TEFRVWlLcnI5SGF4U3hjeVkxRkwzaUdLQXg1dUE1YjFsekxaOGxMNXlNUWV2NUVKdHFuUktlWHFET2ZQcnBMOWhDX3BXV09JSWZTbjJ5QU5KYTBIWGRzRnZ3WXQxMnl5SW1NcmtVQ0l1MmE3c1JneEczWA?oc=5"
-  },
-  "summaries": {
-   "en": {
-    "summary": "The world snail racing championship was held in an English village, as reported by Turkmenportal on August 31, 2026.",
-    "why_irrelevant": "It’s a whimsical niche event far from typical feeds."
-   },
-   "zh": {
-    "summary": "世界蜗牛赛跑锦标赛在一个英国村庄举行，据土库曼门户网站2026年8月31日报道。",
-    "why_irrelevant": "这是一个异想天开的小众活动，远离日常信息流。"
-   }
-  },
-  "topic": "competitive snail racing"
- },
- "brief": "Today's news covers political, legal, automotive, medical, and environmental developments, including court rulings on redistricting and mail voting, Volkswagen's massive job cuts, a record pig kidney transplant, and Tesla's new driverless cab.",
+ "brief": "Today's news spans from political shifts and legal battles to social media concerns and AI developments, while research papers explore human-AI collaboration, emotion recognition in VR, and advanced data analysis techniques.",
  "meta": {
-  "generated_at": "2026-09-04T00:03:37Z"
+  "generated_at": "2026-09-04T04:27:04Z"
  },
- "news_summary": "Key stories include the Missouri Supreme Court blocking GOP-drawn maps, the Trump administration's Supreme Court appeal on mail-in voting restrictions, Volkswagen's plan to cut up to 100,000 jobs, and a pig kidney keeping a patient alive for a record 271 days.",
- "papers_summary": "No papers were provided in the priority or context feeds.",
+ "news_summary": "Key stories include Germany's potential far-right win, US political maneuvers, Australia's EV sales milestone and social media safety issues, as well as international tensions over the Falklands and UN map resolution.",
+ "papers_summary": "Research highlights include studies on human-AI collaboration in data analysis and co-design, multimodal emotion recognition in VR, and a mindfulness induction study, alongside technical papers on shielding measurements and multi-omics analysis.",
  "summaries": {
   "en": {
-   "brief": "Today's news covers political, legal, automotive, medical, and environmental developments, including court rulings on redistricting and mail voting, Volkswagen's massive job cuts, a record pig kidney transplant, and Tesla's new driverless cab.",
-   "news_summary": "Key stories include the Missouri Supreme Court blocking GOP-drawn maps, the Trump administration's Supreme Court appeal on mail-in voting restrictions, Volkswagen's plan to cut up to 100,000 jobs, and a pig kidney keeping a patient alive for a record 271 days.",
-   "papers_summary": "No papers were provided in the priority or context feeds."
+   "brief": "Today's news spans from political shifts and legal battles to social media concerns and AI developments, while research papers explore human-AI collaboration, emotion recognition in VR, and advanced data analysis techniques.",
+   "news_summary": "Key stories include Germany's potential far-right win, US political maneuvers, Australia's EV sales milestone and social media safety issues, as well as international tensions over the Falklands and UN map resolution.",
+   "papers_summary": "Research highlights include studies on human-AI collaboration in data analysis and co-design, multimodal emotion recognition in VR, and a mindfulness induction study, alongside technical papers on shielding measurements and multi-omics analysis."
   },
   "zh": {
-   "brief": "今日国际新闻关注厄尔尼诺现象预警、美国航母停靠泰国、莫迪呼吁普京结束战争及《肖申克的救赎》在中国上映的翻译争议。",
-   "news_summary": "联合国警告可能出现超大型厄尔尼诺现象，需各国做好准备；美国林肯号航母在海上航行250天后抵达泰国。",
-   "papers_summary": "今日暂无相关论文。"
+   "brief": "今日重点包括睡眠追踪可能引发睡眠失调、亲俄虚假宣传网络利用虚假性暴力消息引流，以及联合国厄尔尼诺警告；论文方面无新增中文内容。",
+   "news_summary": "简体中文新闻关注睡眠分数与健康矛盾、俄罗斯利用假消息吸引用户、厄尔尼诺风险及美国航母船员休整。",
+   "papers_summary": "本次没有简体中文论文摘要。"
   }
  },
  "todays_image": {
-  "caption": "As a triumphal arch marks a grand exit from a piazza, Maria Bartiromo's departure from Fox News marks a dramatic passage out of her media empire.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-CHD2754",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/64733",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-CHD2754",
-  "title": "Triumphal Arch on an Ideal Piazza"
+  "caption": "Both the 2000 voting machine and social media algorithms show how quickly flawed systems can steer decisive outcomes—ballots or beliefs—before anyone realizes what happened.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-26CAD039D1FF2_5001-000002",
+  "source_name": "National Museum of African American History and Culture",
+  "source_url": "https://nmaahc.si.edu/object/nmaahc_2013.181.1a-h",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-26CAD039D1FF2_5001-000002",
+  "title": "Voting machine used in the 2000 Presidential election"
  }
 }
