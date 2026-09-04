@@ -1,48 +1,28 @@
 {
- "apropos_of_nothing": {
-  "query": "\"pumpkin championship\" OR \"giant pumpkin\"",
-  "source": {
-   "name": "Cowboy State Daily",
-   "published_at": "2026-08-28T17:44:00Z",
-   "title": "Wyoming's Pumpkin Kings See Potential For Three 2,000-Pound Behemoths At Weigh-Off",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMEp1Z2kxdlVOQV9mTjF5WmxQbVFLQlRlSHU5b1ZaaGV5UXZDa0o5MGM0Um0wQ1hLekVrcVBjT3J6WnNiZzlNd2M0cEVDNjFSMWxhc3lwMmNlX0Q2XzRUWjRfWk1FaGRGMkxPQ2NXcTNfWTdMNGUydEZYMWpfY3NXcHprb2EwazE2VEtTVVlSSGlnVTNEbjNKZFdsNWQxU1RQb25uY0lkblBHYkh1a3FyaGJXSWg0UklXQjExT3Zubw?oc=5"
-  },
-  "summaries": {
-   "en": {
-    "summary": "Wyoming's pumpkin growers anticipate three pumpkins exceeding 2,000 pounds at the upcoming weigh-off.",
-    "why_irrelevant": "An obscure agricultural competition far from typical news."
-   },
-   "zh": {
-    "summary": "怀俄明州的南瓜种植者预计在即将到来的称重赛中有三个南瓜超过2000磅。",
-    "why_irrelevant": "一个与日常新闻无关的冷门农业赛事。"
-   }
-  },
-  "topic": "competitive pumpkin growing"
- },
- "brief": "Today's news features police shootings, political scandals, military escalations in Ukraine and the Middle East, and AI security concerns; research covers topics from semantic segmentation attacks to drug synergy prediction.",
+ "brief": "Today's news highlights U.S. political tensions, including Trump's threats over trade and the Falklands, and a mistrial in the Lindsay Clancy case. Research focuses on AI in design and human-computer interaction.",
  "meta": {
-  "generated_at": "2026-09-04T16:18:57Z"
+  "generated_at": "2026-09-04T20:43:31Z"
  },
- "news_summary": "NYPD fatally shoots a knife-wielding man on Brooklyn Bridge; Reform UK faces investigations over donations; Russia strikes Ukraine's security HQ; Trump threatens trade actions over Fed rates; mistrial declared in Lindsay Clancy case.",
- "papers_summary": "Papers explore black-box attacks on semantic segmentation, crosslinking mass spec analysis, drug synergy prediction with hierarchical attention, and emerging topics in human-AI collaboration and VR emotion recognition.",
+ "news_summary": "Trump threatens trade halts over Fed rates and hints at supporting Argentina in the Falklands, while a mistrial is declared in the Lindsay Clancy case. Other stories cover U.S. Open crowd behavior, voter data subpoenas, and a measles death in Pennsylvania.",
+ "papers_summary": "Research papers explore AI for circuit design, human-AI collaboration in data analysis, and VR emotion recognition, among other topics.",
  "summaries": {
   "en": {
-   "brief": "Today's news features police shootings, political scandals, military escalations in Ukraine and the Middle East, and AI security concerns; research covers topics from semantic segmentation attacks to drug synergy prediction.",
-   "news_summary": "NYPD fatally shoots a knife-wielding man on Brooklyn Bridge; Reform UK faces investigations over donations; Russia strikes Ukraine's security HQ; Trump threatens trade actions over Fed rates; mistrial declared in Lindsay Clancy case.",
-   "papers_summary": "Papers explore black-box attacks on semantic segmentation, crosslinking mass spec analysis, drug synergy prediction with hierarchical attention, and emerging topics in human-AI collaboration and VR emotion recognition."
+   "brief": "Today's news highlights U.S. political tensions, including Trump's threats over trade and the Falklands, and a mistrial in the Lindsay Clancy case. Research focuses on AI in design and human-computer interaction.",
+   "news_summary": "Trump threatens trade halts over Fed rates and hints at supporting Argentina in the Falklands, while a mistrial is declared in the Lindsay Clancy case. Other stories cover U.S. Open crowd behavior, voter data subpoenas, and a measles death in Pennsylvania.",
+   "papers_summary": "Research papers explore AI for circuit design, human-AI collaboration in data analysis, and VR emotion recognition, among other topics."
   },
   "zh": {
-   "brief": "今日要闻聚焦韩国光州双年展因台湾馆改名引发的争议，中国退展及台湾抗议凸显两岸角力；同时国际关注俄罗斯无人机袭击乌克兰情报总部、美国纽约警察枪击事件，以及健康与科技方面的报道。研究方面暂无重点中文论文。",
-   "news_summary": "光州双年展台湾馆改名风波持续发酵，中国宣布退展；尼泊尔洪水引发人道危机；加拿大新钞首印查尔斯国王肖像；福克兰群岛争议升温，特朗普言论引发关注。",
-   "papers_summary": "暂无重点中文论文，英文论文涉及AI安全、药物协同预测、语义分割攻击等，但非今日焦点。"
+   "brief": "今日焦点包括光州双年展的台湾馆名称风波及其引发的中国退展事件，以及多起国际政治与科技新闻。",
+   "news_summary": "光州双年展因台湾馆名称改动引发争议，中方宣布退展，台湾艺术家抗议后名称恢复。此外，加拿大新钞印有查尔斯三世肖像，特朗普暗示可能调整对福克兰群岛的立场。",
+   "papers_summary": "研究论文涉及AI安全、计算社会科学、人机交互等主题，包括红队测试揭示AI系统脆弱性，以及COVID-19对在线行为的影响。"
   }
  },
  "todays_image": {
-  "caption": "The Brooklyn Bridge's iconic nighttime glow now casts a stark, ironic shadow over a tragedy where its illuminated arches framed a fatal confrontation instead of a peaceful postcard scene.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-3033CF0EC60F2-000001",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/129723",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-3033CF0EC60F2-000001",
-  "title": "Brooklyn Bridge at Night"
+  "caption": "Both Bill Tilden and the Steinem quote involve people whose actions or identities were reduced to dismissive stereotypes about gender and motive rather than taken on their own terms.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_80_233_ext",
+  "source_name": "National Portrait Gallery",
+  "source_url": "https://npg.si.edu/object/npg_NPG.80.233",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_80_233_ext",
+  "title": "Bill Tilden"
  }
 }

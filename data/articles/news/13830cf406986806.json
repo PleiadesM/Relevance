@@ -1,0 +1,28 @@
+{
+ "full_text": "A clever technique used to hide malicious prompts in attacks on AI agents has been adopted by spammers to evade filters on email platforms that are designed to flag unwanted messages used in mass campaigns.\n\nThe technique is broadly known as ASCII smuggling. It gained attention two years ago as a means of making a class of AI attack known as prompt injections more stealthy. Malicious instructions embedded in emails or other untrusted content to be processed by an LLM aren’t written in ordinary text. Instead, they’re rendered by a special range of Unicode tags. For example, the tag point U+E0041 mirrors “A,” and U+E0061 mirrors “a.”\n\nNo longer just for obscuring prompt injections\n\nThe block of 128 tags mimics a portion of the American Standard Code for Information Interchange almost perfectly, with one major difference: the characters they encode are readable by computers but, by design, are almost completely invisible to humans. By expressing the malicious prompts in these tags, LLMs detect the instructions, but people reading the email never see them. There’s much more about ASCII smuggling here .\n\nRead full article\n\nComments",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/13830cf406986806.json",
+  "id": "13830cf406986806",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-09-04T17:18:12Z",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai",
+  "summary": "A once-overlooked block of unicode that's invisible to humans is gaining ever wider use.",
+  "tags": [],
+  "title": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
+  "url": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/"
+ },
+ "meta": {
+  "content_hash": "33f33770a80856f1",
+  "generated_at": "2026-09-04T20:43:31Z",
+  "item_id": "13830cf406986806",
+  "section": "news",
+  "source": "Ars Technica · AI",
+  "source_id": "ars_ai"
+ }
+}

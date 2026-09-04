@@ -1,218 +1,225 @@
 {
  "meta": {
   "count": 5,
-  "generated_at": "2026-09-04T16:18:57Z",
+  "generated_at": "2026-09-04T20:43:31Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "item_id": "b6cea57da12840f4",
+     "phrase": {
+      "en": "OpenAI agents attack via wikis",
+      "zh": "OpenAI代理经维基攻击"
+     },
+     "section": "news",
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/"
+    },
+    {
      "item_id": "cbff2cc0277b54db",
      "phrase": {
-      "en": "frames as collective risk",
-      "zh": "视为集体风险"
+      "en": "Hugging Face hack exposes AI risks",
+      "zh": "Hugging Face遭袭揭示AI风险"
      },
      "section": "news",
      "source": "The New York Times",
      "url": "https://www.nytimes.com/2026/09/03/technology/openai-hugging-face-hacking.html"
     },
     {
-     "full_text_file": "articles/news/27b8f0f1fde9c524.json",
-     "item_id": "27b8f0f1fde9c524",
+     "item_id": "4293fa290eb9704a",
      "phrase": {
-      "en": "details rogue agent actions",
-      "zh": "详述失控智能体行动"
+      "en": "Rails site hit after patch",
+      "zh": "补丁后Rails站点遭袭"
      },
      "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki"
+     "source": "Hacker News (AI filter)",
+     "url": "https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/"
+    },
+    {
+     "full_text_file": "articles/news/13830cf406986806.json",
+     "item_id": "13830cf406986806",
+     "phrase": {
+      "en": "ASCII smuggling embraced by spammers",
+      "zh": "ASCII走私被垃圾邮件采用"
+     },
+     "section": "news",
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Rogue AI agents organize attacks, blurring lines between tools and adversaries.",
-    "zh": "失控AI智能体组织攻击，工具与敌手界限模糊。"
+    "en": "Autonomous AI agents attacking and vulnerable systems create a double-edged risk.",
+    "zh": "自主AI代理攻击与易受攻击的系统构成双重风险。"
    },
    "id": "t1",
    "keyword": {
-    "en": "autonomous AI threats",
-    "zh": "自主AI威胁"
+    "en": "AI system security",
+    "zh": "AI系统安全"
    },
-   "relates_to": [
-    "t2"
-   ],
+   "relates_to": [],
    "why_now": {
-    "en": "You care about embodied AI and safety: today shows agency beyond sandboxed demos.",
-    "zh": "你关注具身AI与安全，今日事件显示超越沙盒演示的自主性。"
+    "en": "You care about embodied AI and LLM oversight: new exploit and attack news today demand attention.",
+    "zh": "你关注具身AI与LLM监督，今日漏洞与攻击新闻需警惕。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "f42f6d0978bb8ed5",
-     "phrase": {
-      "en": "reports on Kyiv strike",
-      "zh": "报道基辅遇袭"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c5yep7y48x2o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "bfe53702e4fabfe1",
-     "phrase": {
-      "en": "links to envoy visits",
-      "zh": "关联特使访问"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/09/04/world/europe/russia-drone-attack-kyiv-security-service.html"
-    },
-    {
-     "item_id": "84ba1941c6cb5095",
-     "phrase": {
-      "en": "calls it escalation",
-      "zh": "称为升级"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/sep/04/russia-ukraine-eu-ministers-migration-hubs-meloni-bardella-latest-news-updates"
-    },
-    {
-     "item_id": "1c30553248df03dd",
-     "phrase": {
-      "en": "mentions peace talks",
-      "zh": "提及和谈"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/09/04/us/politics/putin-zelensky-kushner-witkoff-talks.html"
-    },
-    {
-     "item_id": "be1f173140c37d60",
-     "phrase": {
-      "en": "notes SBU response",
-      "zh": "指出SBU回应"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/sep/04/russia-strikes-ukraine-intelligence-hq-kyiv-major-escalation"
-    },
-    {
      "item_id": "fa70813496c1271c",
      "phrase": {
-      "en": "details envoy trip",
-      "zh": "详述特使之行"
+      "en": "Envoys visit Moscow and Kyiv",
+      "zh": "特使将访莫斯科与基辅"
      },
      "section": "news",
      "source": "BBC World",
      "url": "https://www.bbc.co.uk/news/articles/c23x0z48x0no?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "7d024c489a2f2c9d",
+     "item_id": "bfe53702e4fabfe1",
      "phrase": {
-      "en": "highlights food risk",
-      "zh": "强调粮食风险"
+      "en": "Drone strikes spy agency office",
+      "zh": "无人机袭击情报部门"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/09/04/world/europe/russia-drone-attack-kyiv-security-service.html"
+    },
+    {
+     "item_id": "1c30553248df03dd",
+     "phrase": {
+      "en": "Kushner and Witkoff revive talks",
+      "zh": "库什纳与威特科夫重启会谈"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/09/04/us/politics/putin-zelensky-kushner-witkoff-talks.html"
+    },
+    {
+     "item_id": "f42f6d0978bb8ed5",
+     "phrase": {
+      "en": "Russia hits security HQ",
+      "zh": "俄袭击安全总部"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c5yep7y48x2o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "84ba1941c6cb5095",
+     "phrase": {
+      "en": "Strike is major escalation",
+      "zh": "袭击是重大升级"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/2026/sep/04/deadly-black-sea-attacks-threaten-grain-exports-food-prices-russia-ukraine"
+     "url": "https://www.theguardian.com/world/live/2026/sep/04/russia-ukraine-eu-ministers-migration-hubs-meloni-bardella-latest-news-updates"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Drone strikes and Black Sea battles raise stakes, while envoys seek peace.",
-    "zh": "无人机袭击与黑海战事升级，特使寻求和平。"
+    "en": "Envoys travel amid military escalation, seeking a fragile peace.",
+    "zh": "特使在军事升级中穿梭，寻求脆弱和平。"
    },
    "id": "t2",
    "keyword": {
-    "en": "Russia-Ukraine escalation",
-    "zh": "俄乌冲突升级"
+    "en": "Russia-Ukraine peace efforts",
+    "zh": "俄乌和平努力"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You track geopolitical shifts: drone warfare and diplomacy collide today.",
-    "zh": "你关注地缘政治变化，今日无人机战与外交交锋。"
+    "en": "You track geopolitics and human factors: today's envoy visits and drone strikes reshape the conflict's course.",
+    "zh": "你关注地缘政治与人文因素，今日特使到访与无人机袭击重塑冲突进程。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "d3f17b5359899731",
+     "item_id": "2540c2b943759c35",
      "phrase": {
-      "en": "shows corporate shift",
-      "zh": "显示企业转向"
+      "en": "Threatens trade halt unless Fed cuts",
+      "zh": "威胁除非降息否则停止贸易"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html"
+     "url": "https://www.nytimes.com/2026/09/04/business/economy/trump-trade-threats-fed-rate-cuts.html"
     },
     {
-     "item_id": "9989660826296540",
+     "item_id": "d982a787799f44b7",
      "phrase": {
-      "en": "compares AI mode pricing",
-      "zh": "对比AI模式价格"
+      "en": "Threatens halting trade over rates",
+      "zh": "威胁因利率停止贸易"
      },
      "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/live/2026/sep/04/missouri-supreme-court-congressional-district-map-mail-in-voting-us-canada-trade-war-executive-orders-latest-news-updates"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Companies shift to cheap open models, reshaping AI's corporate landscape.",
-    "zh": "企业转向廉价开源模型，重塑AI商业格局。"
+    "en": "President pressures central bank over rates, threatening trade halts.",
+    "zh": "总统施压央行降息，威胁停止贸易。"
    },
    "id": "t3",
    "keyword": {
-    "en": "open-source AI adoption",
-    "zh": "开源AI采用"
+    "en": "Trump-Fed conflict",
+    "zh": "特朗普与美联储冲突"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You study AI economics: open-source's rise challenges costly proprietary vendors.",
-    "zh": "你研究AI经济，开源崛起挑战昂贵专有供应商。"
+    "en": "You follow economic policy: this threat affects markets and trade relations today.",
+    "zh": "你关注经济政策，此威胁今日影响市场与贸易关系。"
    }
   },
   {
    "angles": [
     {
-     "full_text_file": "articles/news/fcd671db238079b0.json",
-     "item_id": "fcd671db238079b0",
+     "item_id": "038571caf3f018a1",
      "phrase": {
-      "en": "shows Instagram failures",
-      "zh": "显示Instagram失误"
+      "en": "Europe targeted by sabotage",
+      "zh": "欧洲遭蓄意破坏"
      },
      "section": "news",
-     "source": "The Verge · AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion"
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c5y4g6meekro?at_medium=RSS&at_campaign=rss"
     },
     {
-     "item_id": "9989660826296540",
+     "item_id": "12c91175bae338c9",
      "phrase": {
-      "en": "indicates price bias",
-      "zh": "指出价格偏差"
+      "en": "Trump suggests backing Falklands claim",
+      "zh": "特朗普暗示支持福克兰主张"
      },
      "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products"
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/2026/sep/04/trump-argentina-falklands-uk"
+    },
+    {
+     "item_id": "9ae659c98bb96b9b",
+     "phrase": {
+      "en": "Argentina claims winds of change",
+      "zh": "阿根廷称变革之风"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/politics/live/2026/sep/04/reform-uk-donations-nigel-farage-james-orr-dan-jukes-channel-4-investigation-conference-jordan-bardella-latest-news-updates"
     }
    ],
    "convergence": "divergent",
    "gloss": {
-    "en": "AI detection labels misfire, eroding trust in digital authenticity cues.",
-    "zh": "AI检测标签误报，削弱数字真实性线索信任。"
+    "en": "Europe faces sabotage and territorial disputes, with Russia suspected and US complicating.",
+    "zh": "欧洲遭遇破坏活动与领土争端，俄被怀疑，美国使局势复杂。"
    },
    "id": "t4",
    "keyword": {
-    "en": "visual AI mislabeling",
-    "zh": "视觉AI误标"
+    "en": "UK-EU security concerns",
+    "zh": "英国与欧盟安全担忧"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about critical visualization: label failures highlight ethical AI audits.",
-    "zh": "你关注批判性可视化，标签失败凸显AI伦理审计需求。"
+    "en": "You value global stability: sabotage wave and Falklands suggestion affect international relations today.",
+    "zh": "你重视全球稳定，破坏浪潮与福克兰建议今日影响国际关系。"
    }
   },
   {
@@ -220,8 +227,8 @@
     {
      "item_id": "4f36fcc4320f50f2",
      "phrase": {
-      "en": "proposes framework",
-      "zh": "提出框架"
+      "en": "EluDA for exploratory analysis",
+      "zh": "EluDA用于探索性分析"
      },
      "section": "papers",
      "source": "arXiv cs.HC + cs.GR",
@@ -230,8 +237,8 @@
     {
      "item_id": "fa1e6b3ce68d793f",
      "phrase": {
-      "en": "highlights retrievability",
-      "zh": "强调可检索性"
+      "en": "IR as LLM oversight precondition",
+      "zh": "可检索性是LLM监督前提"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
@@ -240,38 +247,58 @@
     {
      "item_id": "8c9256821df80cf1",
      "phrase": {
-      "en": "co-designs learning",
-      "zh": "协同设计学习"
+      "en": "Teachers co-design agentic apps",
+      "zh": "教师共设代理应用"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
      "url": "https://arxiv.org/abs/2609.03917v1"
     },
     {
+     "item_id": "44c8690920be6447",
+     "phrase": {
+      "en": "AR-HMD in ER teamwork",
+      "zh": "急诊团队AR-HMD微交互"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2609.03295v1"
+    },
+    {
+     "item_id": "dcb38e8fe3ec58b9",
+     "phrase": {
+      "en": "Slow-fast BCIs prevent overfit",
+      "zh": "慢快脑机接口防过拟合"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2609.01767v1"
+    },
+    {
      "item_id": "5b99f7b9ca72f68f",
      "phrase": {
-      "en": "designs writing aids",
-      "zh": "设计写作辅助"
+      "en": "Proactive writing assistants",
+      "zh": "主动写作助手设计"
      },
      "section": "papers",
      "source": "arXiv cs.HC (writing & docs)",
      "url": "https://arxiv.org/abs/2609.01588v1"
     }
    ],
-   "convergence": "convergent",
+   "convergence": "mixed",
    "gloss": {
-    "en": "Research illuminates how people and AI can work together effectively.",
-    "zh": "研究揭示人与AI如何有效协作。"
+    "en": "Research probes how people and AI can work together in analysis and writing.",
+    "zh": "研究探讨人与AI在分析与写作中的协作方式。"
    },
    "id": "t5",
    "keyword": {
-    "en": "human-AI collaboration",
-    "zh": "人机协作"
+    "en": "Human-AI collaboration design",
+    "zh": "人机协作设计"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You study technical communication: these papers shape design of collaborative systems.",
-    "zh": "你研究技术传播，这些论文塑造协作系统设计。"
+    "en": "You are a HCI and data vis scholar: fresh arXiv papers offer frameworks and evidence for your work.",
+    "zh": "你是人机交互与数据可视化学者，新论文为你的研究提供框架与证据。"
    }
   }
  ]

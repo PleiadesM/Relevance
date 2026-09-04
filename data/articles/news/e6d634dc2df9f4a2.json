@@ -1,0 +1,30 @@
+{
+ "full_text": "Microsoft's Copilot rarely reproduces even full sentences from news articles and books, let alone substantive chunks that could substitute for the original, the company says in new legal filings as it fights copyright claims from publishers including The New York Times and book authors .\n\nAs part of the lawsuit's discovery, Microsoft provided 8.2 million Copilot chat logs to an expert hired by news publishers. The logs, it claims, were specifically chosen \"because they hit on keywords implicating use of News Plaintiffs' websites, and therefore the most likely to contain News Plaintiffs' works.\" It says the resulting analysis shows that 59,545 …\n\nRead the full story at The Verge.",
+ "item": {
+  "category": "open",
+  "extra": {},
+  "full_text_available": true,
+  "full_text_file": "articles/news/e6d634dc2df9f4a2.json",
+  "id": "e6d634dc2df9f4a2",
+  "kind": "news",
+  "lang": "en",
+  "published_at": "2026-09-04T16:05:57Z",
+  "section": "news",
+  "source": "The Verge · AI",
+  "source_id": "verge_ai",
+  "summary": "Microsoft's Copilot rarely reproduces even full sentences from news articles and books, let alone substantive chunks that could substitute for the original, the company says in new legal filings as it fights copyright claims from publishers including The New York Times and book authors. As part of…",
+  "tags": [
+   "policy"
+  ],
+  "title": "Microsoft says virtually nobody was grabbing NYT articles through its chatbot",
+  "url": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit"
+ },
+ "meta": {
+  "content_hash": "a4efdea736c7105d",
+  "generated_at": "2026-09-04T20:43:31Z",
+  "item_id": "e6d634dc2df9f4a2",
+  "section": "news",
+  "source": "The Verge · AI",
+  "source_id": "verge_ai"
+ }
+}
