@@ -1,28 +1,48 @@
 {
- "brief": "Today's news spans from US political controversies over mail-in voting and ICE actions, to global economic shifts in mortgages and gold reserves, alongside tributes to Gloria Steinem and major tech announcements like GPT-6 Astra. Research highlights include mindfulness effects, multi-omics analysis, and emotional recognition from body motion.",
- "meta": {
-  "generated_at": "2026-09-03T20:59:27Z"
+ "apropos_of_nothing": {
+  "query": "\"snail racing championship\" OR \"World Snail Racing Championships\"",
+  "source": {
+   "name": "Turkmenportal.com",
+   "published_at": "2026-08-31T19:52:37Z",
+   "title": "The world snail racing championship was held in an English village",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOaHhkcnFVTlIzMDFCZ3ZaNmxvdEpTbkZmZXgyQm9hY1JFc2NqLXVYdlNrY3Jtdzc5aDJSb2tyZU5Ncy1vbmVVb0g4ZXJLMDItWV9YSmZqcGZ2RjJwSFBNTkVCVkdzSXN6U1A5Z1pqRkFIN29idVlRc1V2TEFRVWlLcnI5SGF4U3hjeVkxRkwzaUdLQXg1dUE1YjFsekxaOGxMNXlNUWV2NUVKdHFuUktlWHFET2ZQcnBMOWhDX3BXV09JSWZTbjJ5QU5KYTBIWGRzRnZ3WXQxMnl5SW1NcmtVQ0l1MmE3c1JneEczWA?oc=5"
+  },
+  "summaries": {
+   "en": {
+    "summary": "The world snail racing championship was held in an English village, as reported by Turkmenportal on August 31, 2026.",
+    "why_irrelevant": "It’s a whimsical niche event far from typical feeds."
+   },
+   "zh": {
+    "summary": "世界蜗牛赛跑锦标赛在一个英国村庄举行，据土库曼门户网站2026年8月31日报道。",
+    "why_irrelevant": "这是一个异想天开的小众活动，远离日常信息流。"
+   }
+  },
+  "topic": "competitive snail racing"
  },
- "news_summary": "US headlines feature legal battles over mail-in voting restrictions and an ICE agent's charges, while mortgage rates hit a new high. Internationally, Volkswagen plans massive job cuts, the Dutch central bank moves gold from the US, and tributes pour in for Gloria Steinem.",
- "papers_summary": "Papers cover diverse topics: mindfulness induction moderators, a new R package for multi-omics, biomarkers in NSCLC, chromatin tracing analysis, emotion recognition from body motion, and more.",
+ "brief": "Today's news covers political, legal, automotive, medical, and environmental developments, including court rulings on redistricting and mail voting, Volkswagen's massive job cuts, a record pig kidney transplant, and Tesla's new driverless cab.",
+ "meta": {
+  "generated_at": "2026-09-04T00:03:37Z"
+ },
+ "news_summary": "Key stories include the Missouri Supreme Court blocking GOP-drawn maps, the Trump administration's Supreme Court appeal on mail-in voting restrictions, Volkswagen's plan to cut up to 100,000 jobs, and a pig kidney keeping a patient alive for a record 271 days.",
+ "papers_summary": "No papers were provided in the priority or context feeds.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans from US political controversies over mail-in voting and ICE actions, to global economic shifts in mortgages and gold reserves, alongside tributes to Gloria Steinem and major tech announcements like GPT-6 Astra. Research highlights include mindfulness effects, multi-omics analysis, and emotional recognition from body motion.",
-   "news_summary": "US headlines feature legal battles over mail-in voting restrictions and an ICE agent's charges, while mortgage rates hit a new high. Internationally, Volkswagen plans massive job cuts, the Dutch central bank moves gold from the US, and tributes pour in for Gloria Steinem.",
-   "papers_summary": "Papers cover diverse topics: mindfulness induction moderators, a new R package for multi-omics, biomarkers in NSCLC, chromatin tracing analysis, emotion recognition from body motion, and more."
+   "brief": "Today's news covers political, legal, automotive, medical, and environmental developments, including court rulings on redistricting and mail voting, Volkswagen's massive job cuts, a record pig kidney transplant, and Tesla's new driverless cab.",
+   "news_summary": "Key stories include the Missouri Supreme Court blocking GOP-drawn maps, the Trump administration's Supreme Court appeal on mail-in voting restrictions, Volkswagen's plan to cut up to 100,000 jobs, and a pig kidney keeping a patient alive for a record 271 days.",
+   "papers_summary": "No papers were provided in the priority or context feeds."
   },
   "zh": {
-   "brief": "今日重點：聯合國警告可能出現超大型厄爾尼諾現象，各國需準備應對；美國航母林肯號結束250天部署；莫迪再促普京結束戰爭。",
-   "news_summary": "聯合國世界氣象組織警告可能出現「超大型」厄爾尼諾現象，衝擊全球經濟；美國航母林肯號歷經250天航行後抵泰國，船員得以休息；印度總理莫迪敦促普京結束烏克蘭戰爭，但效果存疑。",
-   "papers_summary": "研究論文探討正念誘導對執行功能及心遊的影響、多組學差異分析方法、非小細胞肺癌生物標記等，以及大型語言模型監督的可檢索性問題。"
+   "brief": "今日国际新闻关注厄尔尼诺现象预警、美国航母停靠泰国、莫迪呼吁普京结束战争及《肖申克的救赎》在中国上映的翻译争议。",
+   "news_summary": "联合国警告可能出现超大型厄尔尼诺现象，需各国做好准备；美国林肯号航母在海上航行250天后抵达泰国。",
+   "papers_summary": "今日暂无相关论文。"
   }
  },
  "todays_image": {
-  "caption": "Like the resilient aster that can sprout anew from fire-scorched earth, Hawaiians are fighting to regrow their razed mail delivery lifeline.",
-  "image_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c",
-  "source_name": "NMNH - Botany Dept.",
-  "source_url": "http://n2t.net/ark:/65665/3d1b2a964-ed98-4ee0-8f71-927381c84000",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3b4efb1b7ba324866b5ce210f1b8ae00c/90",
-  "title": "Chaetopappa asteroides (Nutt.) DC."
+  "caption": "As a triumphal arch marks a grand exit from a piazza, Maria Bartiromo's departure from Fox News marks a dramatic passage out of her media empire.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-CHD2754",
+  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/64733",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-CHD2754",
+  "title": "Triumphal Arch on an Ideal Piazza"
  }
 }
