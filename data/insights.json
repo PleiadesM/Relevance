@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "pizza acrobatics competition OR world pizza champions",
+  "query": "world sheep shearing record OR golden shears competition",
   "source": {
-   "name": "Yahoo Sports",
-   "published_at": "2026-09-01T15:13:01Z",
-   "title": "Tony Gemignani and the competitive world of pizza acrobatics",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPd1NEVmJLdGJ0eWRRXzk0Rk1OdGFmNFBNNnNaZzRUWjlKS0tfVjZERGJwSHBoMVdfVG8tbzdWc3lhR1MzTnQ3UERZUjRPYkpmc0VHMHFJRWNXZ3NIQ0hyeV9ZV29yd1EzSlM1N2tKemx6LTlFUUZ6ZllRN2R0eHhUSmZndTNDeTZIcWI2OXp0Z1I?oc=5"
+   "name": "The Post (Wellington)",
+   "published_at": "2026-08-20T10:00:12Z",
+   "title": "Obituary: Shearing world mourns Golden Shears founder Laurie Keats ‘a man of extraordinary vision’",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNUEd4OFZtcEM2eHZEMzZzekRUMkNiRFpGQTNZYXZlRFRfMGZUMGR6MnZrXzZPWmFLb3ZpTVVKLWpUNFozcGl6dS1vS0pfR2g2M0lObEkxU185Slk2TXRJOFJVbHlmdENFV2cxTzhnY2RnelBKYUxxTjdadDhCWGFDMGg1dUN0eXhCOGhiNTQyTkdtX1lHX3l2ZTlBVFE2MDNyRlA0N09iMEpNY0FjcVdNYWFUbUpneERrd3pKS1psQmlFdWsxZjBJZW1ndkNYamc?oc=5"
   },
   "summaries": {
    "en": {
-    "summary": "Tony Gemignani, a world-champion pizza tosser, showcases competitive pizza acrobatics in a recent Yahoo Sports feature.",
-    "why_irrelevant": "A dough-spinning niche far from typical tech or news feeds."
+    "summary": "An obituary honors Laurie Keats, founder of the Golden Shears shearing championship, who died at 92.",
+    "why_irrelevant": "A niche rural tribute with no link to mainstream topics."
    },
    "zh": {
-    "summary": "世界披萨杂技冠军托尼·杰米尼亚尼在雅虎体育的报道中展示了竞技披萨抛接技艺。",
-    "why_irrelevant": "面团旋转的冷门领域远离常规科技或新闻流。"
+    "summary": "讣告悼念剪羊毛锦标赛创始人Laurie Keats，享年92岁。",
+    "why_irrelevant": "小众乡村内容，与主流话题无关。"
    }
   },
-  "topic": "competitive pizza tossing"
+  "topic": "competitive sheep shearing record attempts"
  },
- "brief": "Today's news spans international conflicts, political maneuvers, scientific setbacks, and legal dramas, while AI developments show models attempting to escape sandboxes.",
+ "brief": "Global news today covers geopolitical tensions from West Africa to the Falklands, domestic political shifts in Germany and the US, and notable scientific advances in medical research. Papers highlight progress in black-box AI attacks, drug synergy prediction, and protein structure analysis.",
  "meta": {
-  "generated_at": "2026-09-05T00:01:47Z"
+  "generated_at": "2026-09-05T04:22:08Z"
  },
- "news_summary": "Headlines cover the fallout from the Israeli strike on aid workers, Trump's remarks on Iran and clemency grants, a mistrial in the Lindsay Clancy case, U.S. economic resilience, and controversies over voting restrictions and maps of Africa.",
- "papers_summary": "No specific research papers were highlighted in today's feed.",
+ "news_summary": "International stories include Russian involvement in Niger, far-right gains in Germany, and escalating US-Canada trade tensions. Domestically, legal battles over mail-in voting and military press freedom unfold, while a UN map vote sees the US isolated. The Tate brothers face new charges, and Bolivia mourns after a barracks explosion.",
+ "papers_summary": "Research papers focus on cybersecurity (black-box attacks on semantic segmentation), biomedical breakthroughs (drug synergy, gephyrin clustering, AlphaFold 3 for amyloids), and visualization tools for genomics. Notable is the failure of heart drug pelacarsen, underscoring challenges in clinical trials.",
  "summaries": {
   "en": {
-   "brief": "Today's news spans international conflicts, political maneuvers, scientific setbacks, and legal dramas, while AI developments show models attempting to escape sandboxes.",
-   "news_summary": "Headlines cover the fallout from the Israeli strike on aid workers, Trump's remarks on Iran and clemency grants, a mistrial in the Lindsay Clancy case, U.S. economic resilience, and controversies over voting restrictions and maps of Africa.",
-   "papers_summary": "No specific research papers were highlighted in today's feed."
+   "brief": "Global news today covers geopolitical tensions from West Africa to the Falklands, domestic political shifts in Germany and the US, and notable scientific advances in medical research. Papers highlight progress in black-box AI attacks, drug synergy prediction, and protein structure analysis.",
+   "news_summary": "International stories include Russian involvement in Niger, far-right gains in Germany, and escalating US-Canada trade tensions. Domestically, legal battles over mail-in voting and military press freedom unfold, while a UN map vote sees the US isolated. The Tate brothers face new charges, and Bolivia mourns after a barracks explosion.",
+   "papers_summary": "Research papers focus on cybersecurity (black-box attacks on semantic segmentation), biomedical breakthroughs (drug synergy, gephyrin clustering, AlphaFold 3 for amyloids), and visualization tools for genomics. Notable is the failure of heart drug pelacarsen, underscoring challenges in clinical trials."
   },
   "zh": {
-   "brief": "今日焦點包括光州雙年展台灣館名稱風波導致中國退展，以及尼泊爾洪災的持續救援。",
-   "news_summary": "光州雙年展因台灣館名稱爭議，中國宣布退展，事件反映政治角力。此外，尼泊爾洪災造成嚴重傷亡，救援仍在進行。",
-   "papers_summary": "今日無重要論文發表。"
+   "brief": "今日焦点主要集中在韩国光州双年展的台湾馆命名争议，中国宣布退出展览，以及全球其他政治、社会和环境新闻。",
+   "news_summary": "光州双年展因台湾馆更名引发风波，中国退出展览，但主办方最终恢复台湾馆名称。其他新闻包括尼泊尔洪水救援、加拿大新钞印查尔斯国王肖像、福克兰群岛争端升级等。",
+   "papers_summary": "今日无重点论文，但英文论文涉及语义分割攻击、药物协同预测、基因组可视化等技术研究。"
   }
  },
  "todays_image": {
-  "caption": "A timer counting down to an end, like the Skylab mission's clock, mirrors the fatal countdown that the World Central Kitchen convoy never got to finish on the road to Rafah.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19761052000_PS01",
-  "source_name": "National Air and Space Museum",
-  "source_url": "http://n2t.net/ark:/65665/nv99fab0fce-530d-4569-abae-e41dd382545b",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19761052000_PS01",
-  "title": "Timer, Skylab"
+  "caption": "Just as a textile weaves threads into a resilient fabric, Russia appears better at weaving protective ties with West African allies than at unraveling its enemies in direct combat.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1953-152-1MattFlynn",
+  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
+  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/107649",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1953-152-1MattFlynn",
+  "title": "Textile"
  }
 }

@@ -1,15 +1,410 @@
 {
- "items": [],
+ "items": [
+  {
+   "authors": [
+    "Eun-Sol Park",
+    "Miso Park",
+    "Yong-Goo Shin"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.1007/s00138-026-01919-5"
+   },
+   "id": "4607c2ade7ad66bd",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-04T00:00:00Z",
+   "score": 0.3847,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [],
+   "title": "Fspgd: rethinking black-box attacks on semantic segmentation",
+   "url": "https://doi.org/10.1007/s00138-026-01919-5",
+   "venue": "Machine Vision and Applications"
+  },
+  {
+   "authors": [
+    "Micha J. Birklbauer",
+    "Louise Marie Buur",
+    "Sabrina Kaser",
+    "Fränze Müller",
+    "Manuel Matzinger",
+    "Karl Mechtler"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract Crosslinking mass spectrometry has become the method of choice for the identification of protein-protein interactions and for gaining insight into the structures of proteins in vivo. However, connecting crosslink search engine results with down-stream analysis tools, and therefore gaining biological insight from crosslink identifications, has remained a manual and cumbersome step in the analysis that often requires expert bioinformatics knowledge. Here we introduce pyXLMS, a python…",
+    "citations": 1,
+    "doi": "10.1038/s41467-026-77407-1"
+   },
+   "id": "0ba02e56c5144c91",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-04T00:00:00Z",
+   "score": 0.5473,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract Crosslinking mass spectrometry has become the method of choice for the identification of protein-protein interactions and for gaining insight into the structures of proteins in vivo. However, connecting crosslink search engine results with down-stream analysis tools, and therefore gaining…",
+   "tags": [],
+   "title": "Unified down-stream analysis of crosslinking mass spectrometry results with pyXLMS",
+   "url": "https://doi.org/10.1038/s41467-026-77407-1",
+   "venue": "Nature Communications"
+  },
+  {
+   "authors": [
+    "Yue-Hua Feng",
+    "S W Zhang",
+    "Xiao-Ying Yan",
+    "J. W. Shi"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract Combination therapy offers a promising strategy for cancer treatment by reducing toxicity and overcoming drug resistance. However, existing substructure-based prediction methods may struggle to effectively capture the scale-specific features of substructure interactions and often overlook cell-line-specific substructure selection, which can limit mechanistic interpretability. To address this issue, we propose HSSynergy, a hierarchical substructure-aware deep learning framework for…",
+    "citations": 0,
+    "doi": "10.1186/s13321-026-01293-4"
+   },
+   "id": "5500b13ac8f06ce0",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-04T00:00:00Z",
+   "score": 0.3847,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract Combination therapy offers a promising strategy for cancer treatment by reducing toxicity and overcoming drug resistance. However, existing substructure-based prediction methods may struggle to effectively capture the scale-specific features of substructure interactions and often overlook…",
+   "tags": [],
+   "title": "HSSynergy: scale-aware hierarchical attention for interpretable drug synergy prediction",
+   "url": "https://doi.org/10.1186/s13321-026-01293-4",
+   "venue": "Journal of Cheminformatics"
+  },
+  {
+   "authors": [
+    "Yue Wang",
+    "ANDY MARVIN",
+    "SIMON JONATHAN BALE",
+    "Ali Ghaffarlouy Raef",
+    "J Dawson",
+    "Martin P. Robinson"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "The use of electrostatically shielded loops for the near-field measurement of Shielding Effectiveness (SE) of planar conducting materials at frequencies above those covered by current standards is examined by simulation and measurement.The transverse wave impedances of the shielded loops are shown to be dependent on the loop orientation as are resulting measured shielding effectiveness values.",
+    "citations": 0,
+    "doi": null
+   },
+   "id": "ab1f356b682caaf0",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-04T00:00:00Z",
+   "score": 0.3847,
+   "section": "papers",
+   "source": "OpenAlex · technical communication",
+   "source_id": "openalex_techcomm",
+   "summary": "The use of electrostatically shielded loops for the near-field measurement of Shielding Effectiveness (SE) of planar conducting materials at frequencies above those covered by current standards is examined by simulation and measurement.The transverse wave impedances of the shielded loops are shown…",
+   "tags": [],
+   "title": "Investigation of the feasibility of near-field magnetic shielding measurements in the 10 MHz to 200 MHz frequency range",
+   "url": "https://orcid.org/0000-0003-2590-5335>,",
+   "venue": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)"
+  },
+  {
+   "authors": [
+    "Chunlian Wu",
+    "Nur Ainil Sulaiman",
+    "Wahiza Wahi",
+    "Ruhil Amal Azmuddin"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Vocabulary plays a significant role in language learning and language development. It is important to acquire sufficient vocabulary to ensure effective communication. Some studies show the efficiency of narrow reading for general and academic vocabulary learning, but fewer studies investigate the effects of narrow reading on technical vocabulary, such as Business English vocabulary. This study aimed to investigate Business English vocabulary acquisition through theme-based narrow reading. The…",
+    "citations": 0,
+    "doi": "10.24093/awej/vol17no3.16"
+   },
+   "id": "b6268bded3578068",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-04T00:00:00Z",
+   "score": 0.3847,
+   "section": "papers",
+   "source": "OpenAlex · technical communication",
+   "source_id": "openalex_techcomm",
+   "summary": "Vocabulary plays a significant role in language learning and language development. It is important to acquire sufficient vocabulary to ensure effective communication. Some studies show the efficiency of narrow reading for general and academic vocabulary learning, but fewer studies investigate the…",
+   "tags": [
+    "pedagogy"
+   ],
+   "title": "The Effects of Theme-Based Narrow Reading on Business English Vocabulary Acquisition among Chinese EFL College Students",
+   "url": "https://doi.org/10.24093/awej/vol17no3.16",
+   "venue": "Arab World English Journal"
+  },
+  {
+   "authors": [
+    "I. L. Nikulin",
+    "V. A. Demin",
+    "S. A. Nukulina"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.1007/s00162-026-00795-z"
+   },
+   "id": "2068f85bf211444e",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-03T00:00:00Z",
+   "score": 0.3226,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [],
+   "title": "Rupture of thin film covering the liquid metal stirred by alternating magnetic field. Numerical simulation",
+   "url": "https://doi.org/10.1007/s00162-026-00795-z",
+   "venue": "Theoretical and Computational Fluid Dynamics"
+  },
+  {
+   "authors": [
+    "Maria-Theresa Gehling",
+    "Emanuel H. W. Bruckisch",
+    "Fynn Eggersmann",
+    "Konrad Benting",
+    "Lianne H.C. Jacobs",
+    "Elmar Behrmann"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "ABSTRACT Reactive oxygen species (ROS) play a central role in enhancing inhibitory signal transmission, thus extending their role beyond oxidative stress in disease and aging. However, the underlying molecular mechanisms mediating these functions have remained elusive. At inhibitory synapses, the scaffolding protein gephyrin clusters glycine and GABA type A receptors. Since gephyrin harbors multiple surface-exposed cysteines, we investigated the regulatory influence of ROS on gephyrin. We show…",
+    "also_in": [
+     {
+      "source": "OpenAlex · technical communication",
+      "url": "https://doi.org/10.1038/s41467-026-77147-2"
+     }
+    ],
+    "citations": 2,
+    "doi": "10.1038/s41467-026-77147-2"
+   },
+   "id": "3a8764f62af67571",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-03T00:00:00Z",
+   "score": 0.4999,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "ABSTRACT Reactive oxygen species (ROS) play a central role in enhancing inhibitory signal transmission, thus extending their role beyond oxidative stress in disease and aging. However, the underlying molecular mechanisms mediating these functions have remained elusive. At inhibitory synapses, the…",
+   "tags": [],
+   "title": "Redox-dependent synaptic clustering of gephyrin",
+   "url": "https://doi.org/10.1038/s41467-026-77147-2",
+   "venue": "Nature Communications"
+  },
+  {
+   "authors": [
+    "Alicja W. Wojciechowska",
+    "Jakub W. Wojciechowski",
+    "Gert Vriend",
+    "Malgorzata Kotulska"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract While three-dimensional structures of globular and transmembrane forms are available for many amyloid proteins, structures of their amyloid forms are scarce in the PDB. Amyloids pose major challenges for both experimental structure determination and computational modelling. We evaluated the amyloid-modelling performance of the current top modelling software, AlphaFold 3 (AF3), using three datasets. Dataset 1 contains 153 proteins and peptides that are known to form fibrils, but their…",
+    "citations": 12,
+    "doi": "10.1038/s41598-026-68041-4"
+   },
+   "id": "8e325415b07be403",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-03T00:00:00Z",
+   "score": 0.553,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract While three-dimensional structures of globular and transmembrane forms are available for many amyloid proteins, structures of their amyloid forms are scarce in the PDB. Amyloids pose major challenges for both experimental structure determination and computational modelling. We evaluated…",
+   "tags": [
+    "eval-study"
+   ],
+   "title": "Non-standard proteins in the lens of AlphaFold 3: a case study of amyloids",
+   "url": "https://doi.org/10.1038/s41598-026-68041-4",
+   "venue": "Scientific Reports"
+  },
+  {
+   "authors": [
+    "Ava Khosravi",
+    "Mehdy Roayaei"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "",
+    "citations": 0,
+    "doi": "10.1007/s00500-025-10788-5"
+   },
+   "id": "f655c9a3e9830703",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-03T00:00:00Z",
+   "score": 0.3226,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "",
+   "tags": [],
+   "title": "MOAC-RT: Personalized multi-objective radiotherapy using actor-critic deep reinforcement learning",
+   "url": "https://doi.org/10.1007/s00500-025-10788-5",
+   "venue": "Soft Computing"
+  },
+  {
+   "authors": [
+    "Lauren Coombe",
+    "René L. Warren",
+    "İnanç Birol"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract With the explosion of chromosome-scale genome assemblies being generated in recent years, there is vast potential for comparative genomics analyses through detecting multi-genome synteny. While existing tools can detect synteny blocks between multiple genomes, their text-based outputs make it challenging to intuitively explore large-scale synteny patterns. Interpretable, information-rich and easy-to-use synteny visualization tools are imperative to enable important biological insights…",
+    "citations": 21,
+    "doi": "10.1093/jeb/voag079"
+   },
+   "id": "2e9d9d7dd80cccfd",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-03T00:00:00Z",
+   "score": 0.4345,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract With the explosion of chromosome-scale genome assemblies being generated in recent years, there is vast potential for comparative genomics analyses through detecting multi-genome synteny. While existing tools can detect synteny blocks between multiple genomes, their text-based outputs make…",
+   "tags": [],
+   "title": "ntSynt-viz: Visualizing synteny patterns across multiple genomes",
+   "url": "https://doi.org/10.1093/jeb/voag079",
+   "venue": "Journal of Evolutionary Biology"
+  },
+  {
+   "authors": [
+    "Brittany Jimena",
+    "Daniel Kazimierczyk",
+    "Simon Kazimierczyk",
+    "Haley Moya",
+    "Eva Shin",
+    "Li Li"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Summary Vertically transferred maternal cells or maternal microchimeric cells (MMCs) engraft the fetus and persist in offspring for long periods of time. How altered maternal immune states arising from infection affect MMCs and their function in offspring is poorly understood. Here, we show that pregnancy-associated transient maternal infection alters MMCs to differentially regulate immunity in offspring. In male offspring of dams previously infected with Yersinia pseudotuberculosis , MMCs…",
+    "citations": 0,
+    "doi": "10.3389/fimmu.2026.1869048"
+   },
+   "id": "01583400aa8ecdf3",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-03T00:00:00Z",
+   "score": 0.3226,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Summary Vertically transferred maternal cells or maternal microchimeric cells (MMCs) engraft the fetus and persist in offspring for long periods of time. How altered maternal immune states arising from infection affect MMCs and their function in offspring is poorly understood. Here, we show that…",
+   "tags": [],
+   "title": "Prenatal maternal infection promotes maternal microchimeric cells to alter infection risk in male offspring",
+   "url": "https://doi.org/10.3389/fimmu.2026.1869048",
+   "venue": "Frontiers in Immunology"
+  },
+  {
+   "authors": [
+    "Binnu Gangadharan",
+    "Daniel L. Kober",
+    "Luke M. Rice"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract Defining quantitative biochemical mechanisms of microtubule dynamics and regulation is a current challenge. Stu2/XMAP215-family polymerases use tubulin-binding TOG domains to catalyze microtubule growth, but how polymerase activity results from the number and tubulinbinding properties of TOGs is not understood. We tested whether an enzyme-like biochemical model for the unrelated actin polymerase Ena/VASP could be applied to quantitatively relate Stu2 microtubule polymerase activity to…",
+    "citations": 1,
+    "doi": "10.7554/elife.107818.3"
+   },
+   "id": "6bc7932bb92d067e",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-03T00:00:00Z",
+   "score": 0.4852,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract Defining quantitative biochemical mechanisms of microtubule dynamics and regulation is a current challenge. Stu2/XMAP215-family polymerases use tubulin-binding TOG domains to catalyze microtubule growth, but how polymerase activity results from the number and tubulinbinding properties of…",
+   "tags": [],
+   "title": "A biochemical mechanism for Stu2/XMAP215-family microtubule polymerases",
+   "url": "https://doi.org/10.7554/elife.107818.3",
+   "venue": "eLife"
+  },
+  {
+   "authors": [
+    "Chee Chew Yip",
+    "Zheng Xian Thng",
+    "Yan Yee Hah",
+    "Andrew Shi-Jie Yap",
+    "Sean Pin Ng",
+    "Nicola Y. Gan"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract Background Guided Mental Rehearsal (GMR), underpinned by the Theory of Motor Simulation, supports the learning of psychomotor skills. We hypothesized that (a) GMR would be comparable to Guided Physical Practice (GPP) for learning Pupillary Examination (PE), and (b) Mental Imagery (MI) ability would improve with GMR practice. Methods This assessor-blinded, randomized controlled study included 53 pre-clinical students (GMR n = 26, GPP n = 27), with sample size calculated from pilot data…",
+    "citations": 0,
+    "doi": "10.29060/taps.2026-11-4/oa3941"
+   },
+   "id": "37c288296d63a28f",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-03T00:00:00Z",
+   "score": 0.3226,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract Background Guided Mental Rehearsal (GMR), underpinned by the Theory of Motor Simulation, supports the learning of psychomotor skills. We hypothesized that (a) GMR would be comparable to Guided Physical Practice (GPP) for learning Pupillary Examination (PE), and (b) Mental Imagery (MI)…",
+   "tags": [],
+   "title": "Investigating mental rehearsal’s applicability in guiding independent e-learning of eye examination skills during the pandemic – Part II (IMAGINE-II)",
+   "url": "https://doi.org/10.29060/taps.2026-11-4/oa3941",
+   "venue": "The Asia Pacific Scholar"
+  },
+  {
+   "authors": [
+    "Maximilian Woollard",
+    "Pratibha Panwar",
+    "Luke Harland",
+    "Jeremy Mo",
+    "Hanyun Zhang",
+    "Alexander Swarbrick"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract With the dramatic take-up of spatially resolved transcriptomics biotechnologies, performing spatially-aware analysis of the resulting data is crucial to maximise advances in biological understanding. Dimensionality reduction is a first step in almost any analysis of spatial transcriptomics data, regardless of whether the data is collected at the single-cell or spot level. While common approaches, such as principal component analysis, aim to identify low-dimensional scores that preserve…",
+    "citations": 1,
+    "doi": "10.1038/s41467-026-76871-z"
+   },
+   "id": "ed7bcaa1f70a4819",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-03T00:00:00Z",
+   "score": 0.3477,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract With the dramatic take-up of spatially resolved transcriptomics biotechnologies, performing spatially-aware analysis of the resulting data is crucial to maximise advances in biological understanding. Dimensionality reduction is a first step in almost any analysis of spatial transcriptomics…",
+   "tags": [],
+   "title": "Weighted sliced inverse regression for scalable supervised dimensionality reduction of spatial transcriptomics data",
+   "url": "https://doi.org/10.1038/s41467-026-76871-z",
+   "venue": "Nature Communications"
+  }
+ ],
  "meta": {
-  "count": 0,
-  "generated_at": "2026-09-05T00:01:47Z",
+  "count": 14,
+  "generated_at": "2026-09-05T04:22:08Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
    {
     "category": "optional",
     "count": 0,
-    "error": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60 (Caus",
+    "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60",
     "full_text_count": 0,
     "id": "arxiv_datavis",
     "name": "arXiv cs.HC + cs.GR",
@@ -20,7 +415,7 @@
    },
    {
     "category": "optional",
-    "count": 0,
+    "count": 50,
     "error": null,
     "full_text_count": 0,
     "id": "openalex_datavis",
@@ -45,7 +440,7 @@
    {
     "category": "optional",
     "count": 0,
-    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A0047-2816%2Cfrom-created-date%3A2026-08-08&rows=12&sort=created&order=desc",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?filter=issn%3A1050-6519%2Cfrom-created-date%3A2026-08-08&rows=12&sort=created&order=desc",
     "full_text_count": 0,
     "id": "crossref_techcomm_journals",
     "name": "TechComm journals (CrossRef)",
@@ -56,7 +451,7 @@
    },
    {
     "category": "optional",
-    "count": 0,
+    "count": 40,
     "error": null,
     "full_text_count": 0,
     "id": "openalex_techcomm",
