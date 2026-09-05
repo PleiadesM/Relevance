@@ -2,6 +2,112 @@
  "items": [
   {
    "authors": [
+    "Anuj Kumar",
+    "Debabrata Pramanik"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract The cytoskeletal protein plays a major role in various cellular processes. Understanding the interactions of small molecules with cytoskeletal protein therefore might help in the development of therapeutics. Employing combined molecular docking, all-atom molecular dynamics (MD), and enhanced sampling technique, we studied bacterial inhibitor A22 and actin protein interaction. Five probable A22 binding sites (S1–S5) were observed in actin and unbiased MD simulations of 100 ns to 1000 ns…",
+    "citations": 0,
+    "doi": "10.1021/acs.jcim.6c01530"
+   },
+   "id": "d0a3e3f1a13c3a61",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-05T00:00:00Z",
+   "score": 0.4438,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract The cytoskeletal protein plays a major role in various cellular processes. Understanding the interactions of small molecules with cytoskeletal protein therefore might help in the development of therapeutics. Employing combined molecular docking, all-atom molecular dynamics (MD), and…",
+   "tags": [],
+   "title": "Thermodynamics and Unbinding Kinetics of A22 at Multiple Actin-Binding Sites Revealed by Enhanced Sampling Simulations",
+   "url": "https://doi.org/10.1021/acs.jcim.6c01530",
+   "venue": "Journal of Chemical Information and Modeling"
+  },
+  {
+   "authors": [
+    "Tianxiao Peng"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract Residential Demand Response (DR) is a critical mechanism for maintaining the supply-demand balance in modern smart grids. While gamification has recently emerged as a promising strategy to incentivize residential participation, existing programs suffer from severe long-term user fatigue. Once the initial \"novelty effect\" wears off, users rapidly habituate to static rewards, leading to a precipitous decline in DR reliability. Furthermore, traditional pricing models and standard Deep…",
+    "citations": 0,
+    "doi": "10.1186/s44147-026-01209-x"
+   },
+   "id": "9e165942e25ee49f",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-05T00:00:00Z",
+   "score": 0.5813,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract Residential Demand Response (DR) is a critical mechanism for maintaining the supply-demand balance in modern smart grids. While gamification has recently emerged as a promising strategy to incentivize residential participation, existing programs suffer from severe long-term user fatigue.…",
+   "tags": [],
+   "title": "Trans-SAC: gamification design for sustained user engagement in residential demand response",
+   "url": "https://doi.org/10.1186/s44147-026-01209-x",
+   "venue": "Journal of Engineering and Applied Science"
+  },
+  {
+   "authors": [
+    "Mohammad Atari",
+    "Firat Seker",
+    "Aliah Zewail"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Efforts to develop “empathic AI” often assume a universal definition for empathy—a singular, objective understanding of “human” experiences. This implies that achieving empathic AI is only a matter of optimization difficulty, where researchers should find the “correct” way to align AI systems with human-like empathy—essentially an engineering problem. In this chapter, we challenge this assumption. We begin by emphasizing the multifaceted nature of empathy. Then, we explore how variations in (1)…",
+    "citations": 0,
+    "doi": "10.1017/9781009639057.008"
+   },
+   "id": "3e2581ea64427ea2",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-05T00:00:00Z",
+   "score": 0.5813,
+   "section": "papers",
+   "source": "OpenAlex · technical communication",
+   "source_id": "openalex_techcomm",
+   "summary": "Efforts to develop “empathic AI” often assume a universal definition for empathy—a singular, objective understanding of “human” experiences. This implies that achieving empathic AI is only a matter of optimization difficulty, where researchers should find the “correct” way to align AI systems with…",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "Is Empathic AI Possible?",
+   "url": "https://doi.org/10.1017/9781009639057.008",
+   "venue": "Cambridge University Press eBooks"
+  },
+  {
+   "authors": [
+    "Hyunwoo Cho",
+    "Sung Woong Cho",
+    "Hyeontae Jo",
+    "Hyung Ju Hwang"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Abstract. Differential equations (DEs) are widely used to model the evolution of natural or engineered systems. Traditionally, the parameters in DEs are adjusted to fit data obtained through system observations. However, in fields such as politics, economics, and biology, the observed data points are often collected independently (i.e., repeated cross-sectional (RCS) data). In this paper, we first demonstrate that conventional optimization techniques struggle to accurately estimate DE…",
+    "citations": 0,
+    "doi": "10.1137/25m1820679"
+   },
+   "id": "2462be4dc4b97e2a",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-04T00:00:00Z",
+   "score": 0.5046,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "Abstract. Differential equations (DEs) are widely used to model the evolution of natural or engineered systems. Traditionally, the parameters in DEs are adjusted to fit data obtained through system observations. However, in fields such as politics, economics, and biology, the observed data points…",
+   "tags": [
+    "systems"
+   ],
+   "title": "Estimation of System Parameters Including Repeated Cross-Sectional Data through Emulator-Informed Deep Generative Model",
+   "url": "https://doi.org/10.1137/25m1820679",
+   "venue": "SIAM Journal on Scientific Computing"
+  },
+  {
+   "authors": [
     "Eun-Sol Park",
     "Miso Park",
     "Yong-Goo Shin"
@@ -16,7 +122,7 @@
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-04T00:00:00Z",
-   "score": 0.3847,
+   "score": 0.3671,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
@@ -28,387 +134,619 @@
   },
   {
    "authors": [
-    "Micha J. Birklbauer",
-    "Louise Marie Buur",
-    "Sabrina Kaser",
-    "Fränze Müller",
-    "Manuel Matzinger",
-    "Karl Mechtler"
+    "Tejas Savalia",
+    "Jeffrey J. Starns",
+    "Andrew L. Cohen"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Abstract Crosslinking mass spectrometry has become the method of choice for the identification of protein-protein interactions and for gaining insight into the structures of proteins in vivo. However, connecting crosslink search engine results with down-stream analysis tools, and therefore gaining biological insight from crosslink identifications, has remained a manual and cumbersome step in the analysis that often requires expert bioinformatics knowledge. Here we introduce pyXLMS, a python…",
-    "citations": 1,
-    "doi": "10.1038/s41467-026-77407-1"
+    "abstract_snippet": "Changes in temporal context have been shown to impact episodic memory of the \"boundary\" items involved in creating this temporal context. However, in most prior studies, changes in temporal context have been operationalised explicitly, typically through perceptually obvious visual or auditory stimuli that form a boundary between the previous and current context. In this work, we explore how recognition of items is impacted when temporal context change is operationalised implicitly through the…",
+    "citations": 0,
+    "doi": "10.1080/09658211.2026.2719605"
    },
-   "id": "0ba02e56c5144c91",
+   "id": "55a5ba32f5a6f6f2",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-04T00:00:00Z",
-   "score": 0.5473,
+   "score": 0.3671,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Abstract Crosslinking mass spectrometry has become the method of choice for the identification of protein-protein interactions and for gaining insight into the structures of proteins in vivo. However, connecting crosslink search engine results with down-stream analysis tools, and therefore gaining…",
+   "summary": "Changes in temporal context have been shown to impact episodic memory of the \"boundary\" items involved in creating this temporal context. However, in most prior studies, changes in temporal context have been operationalised explicitly, typically through perceptually obvious visual or auditory…",
    "tags": [],
-   "title": "Unified down-stream analysis of crosslinking mass spectrometry results with pyXLMS",
-   "url": "https://doi.org/10.1038/s41467-026-77407-1",
-   "venue": "Nature Communications"
+   "title": "Implicit boundaries are remembered better than non-boundaries in statistical learning",
+   "url": "https://doi.org/10.1080/09658211.2026.2719605",
+   "venue": "Memory"
   },
   {
    "authors": [
-    "Yue-Hua Feng",
-    "S W Zhang",
-    "Xiao-Ying Yan",
-    "J. W. Shi"
+    "Benjamin Silver",
+    "Christopher Baldassano",
+    "Lila Davachi",
+    "Kevin N. Ochsner"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Abstract Combination therapy offers a promising strategy for cancer treatment by reducing toxicity and overcoming drug resistance. However, existing substructure-based prediction methods may struggle to effectively capture the scale-specific features of substructure interactions and often overlook cell-line-specific substructure selection, which can limit mechanistic interpretability. To address this issue, we propose HSSynergy, a hierarchical substructure-aware deep learning framework for…",
+    "abstract_snippet": "Abstract When we think about the start of a successful close relationship, we often imagine two people independently evaluating each other. But what if how much we like someone depends on how much we think they like us? In the current study, we asked how social feedback changes how one thinks about potential romantic partners, as well as how often one thinks about them. We hypothesized that the mentalizing network would play a role in both of these processes. During an fMRI scan, participants…",
     "citations": 0,
-    "doi": "10.1186/s13321-026-01293-4"
+    "doi": "10.1093/scan/nsag074"
    },
-   "id": "5500b13ac8f06ce0",
+   "id": "0daee0ed616a582c",
    "kind": "paper",
    "lang": "en",
    "published_at": "2026-09-04T00:00:00Z",
-   "score": 0.3847,
+   "score": 0.3671,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Abstract Combination therapy offers a promising strategy for cancer treatment by reducing toxicity and overcoming drug resistance. However, existing substructure-based prediction methods may struggle to effectively capture the scale-specific features of substructure interactions and often overlook…",
-   "tags": [],
-   "title": "HSSynergy: scale-aware hierarchical attention for interpretable drug synergy prediction",
-   "url": "https://doi.org/10.1186/s13321-026-01293-4",
-   "venue": "Journal of Cheminformatics"
-  },
-  {
-   "authors": [
-    "Yue Wang",
-    "ANDY MARVIN",
-    "SIMON JONATHAN BALE",
-    "Ali Ghaffarlouy Raef",
-    "J Dawson",
-    "Martin P. Robinson"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "The use of electrostatically shielded loops for the near-field measurement of Shielding Effectiveness (SE) of planar conducting materials at frequencies above those covered by current standards is examined by simulation and measurement.The transverse wave impedances of the shielded loops are shown to be dependent on the loop orientation as are resulting measured shielding effectiveness values.",
-    "citations": 0,
-    "doi": null
-   },
-   "id": "ab1f356b682caaf0",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-04T00:00:00Z",
-   "score": 0.3847,
-   "section": "papers",
-   "source": "OpenAlex · technical communication",
-   "source_id": "openalex_techcomm",
-   "summary": "The use of electrostatically shielded loops for the near-field measurement of Shielding Effectiveness (SE) of planar conducting materials at frequencies above those covered by current standards is examined by simulation and measurement.The transverse wave impedances of the shielded loops are shown…",
-   "tags": [],
-   "title": "Investigation of the feasibility of near-field magnetic shielding measurements in the 10 MHz to 200 MHz frequency range",
-   "url": "https://orcid.org/0000-0003-2590-5335>,",
-   "venue": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)"
-  },
-  {
-   "authors": [
-    "Chunlian Wu",
-    "Nur Ainil Sulaiman",
-    "Wahiza Wahi",
-    "Ruhil Amal Azmuddin"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Vocabulary plays a significant role in language learning and language development. It is important to acquire sufficient vocabulary to ensure effective communication. Some studies show the efficiency of narrow reading for general and academic vocabulary learning, but fewer studies investigate the effects of narrow reading on technical vocabulary, such as Business English vocabulary. This study aimed to investigate Business English vocabulary acquisition through theme-based narrow reading. The…",
-    "citations": 0,
-    "doi": "10.24093/awej/vol17no3.16"
-   },
-   "id": "b6268bded3578068",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-04T00:00:00Z",
-   "score": 0.3847,
-   "section": "papers",
-   "source": "OpenAlex · technical communication",
-   "source_id": "openalex_techcomm",
-   "summary": "Vocabulary plays a significant role in language learning and language development. It is important to acquire sufficient vocabulary to ensure effective communication. Some studies show the efficiency of narrow reading for general and academic vocabulary learning, but fewer studies investigate the…",
+   "summary": "Abstract When we think about the start of a successful close relationship, we often imagine two people independently evaluating each other. But what if how much we like someone depends on how much we think they like us? In the current study, we asked how social feedback changes how one thinks about…",
    "tags": [
-    "pedagogy"
+    "ml-vis"
    ],
-   "title": "The Effects of Theme-Based Narrow Reading on Business English Vocabulary Acquisition among Chinese EFL College Students",
-   "url": "https://doi.org/10.24093/awej/vol17no3.16",
-   "venue": "Arab World English Journal"
+   "title": "The mentalizing network updates neural representations of romantic interest in response to social feedback",
+   "url": "https://doi.org/10.1093/scan/nsag074",
+   "venue": "Social Cognitive and Affective Neuroscience"
   },
   {
    "authors": [
-    "I. L. Nikulin",
-    "V. A. Demin",
-    "S. A. Nukulina"
+    "Edward V. McAssey",
+    "Erika R. Moore‐Pollard",
+    "Cassidy Downs",
+    "Karolina Heyduk"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "",
+    "abstract_snippet": "Abstract Plant species face myriad threats to their survival, including climate change and habitat destruction. On Oʻahu in Hawaiʻi, Scaevola taccada L., a coastal dune shrub, is highly impacted by human activities and environmental threats. Despite its ubiquity across Pacific islands, the extent and distribution of genetic diversity within individual islands is unclear. We surveyed genomic diversity using double digest restriction associated DNA sequencing (ddRAD-seq) in eight populations of…",
     "citations": 0,
-    "doi": "10.1007/s00162-026-00795-z"
+    "doi": "10.1093/aobpla/plag042"
    },
-   "id": "2068f85bf211444e",
+   "id": "f01222fbfe113fe3",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-09-03T00:00:00Z",
-   "score": 0.3226,
+   "published_at": "2026-09-04T00:00:00Z",
+   "score": 0.5046,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "",
+   "summary": "Abstract Plant species face myriad threats to their survival, including climate change and habitat destruction. On Oʻahu in Hawaiʻi, Scaevola taccada L., a coastal dune shrub, is highly impacted by human activities and environmental threats. Despite its ubiquity across Pacific islands, the extent…",
    "tags": [],
-   "title": "Rupture of thin film covering the liquid metal stirred by alternating magnetic field. Numerical simulation",
-   "url": "https://doi.org/10.1007/s00162-026-00795-z",
-   "venue": "Theoretical and Computational Fluid Dynamics"
+   "title": "Island-wide population genomic analysis of the coastal shrub, beach naupaka ( Scaevola taccada L.), on Oʻahu",
+   "url": "https://doi.org/10.1093/aobpla/plag042",
+   "venue": "AoB Plants"
   },
   {
    "authors": [
-    "Maria-Theresa Gehling",
-    "Emanuel H. W. Bruckisch",
-    "Fynn Eggersmann",
-    "Konrad Benting",
-    "Lianne H.C. Jacobs",
-    "Elmar Behrmann"
+    "Iain R. Konigsberg",
+    "Luciana B. Vargas",
+    "Katherine Pratte",
+    "Daniel E. Guzman",
+    "Tess D. Pottinger",
+    "Kristina L. Buschur"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "ABSTRACT Reactive oxygen species (ROS) play a central role in enhancing inhibitory signal transmission, thus extending their role beyond oxidative stress in disease and aging. However, the underlying molecular mechanisms mediating these functions have remained elusive. At inhibitory synapses, the scaffolding protein gephyrin clusters glycine and GABA type A receptors. Since gephyrin harbors multiple surface-exposed cysteines, we investigated the regulatory influence of ROS on gephyrin. We show…",
-    "also_in": [
-     {
-      "source": "OpenAlex · technical communication",
-      "url": "https://doi.org/10.1038/s41467-026-77147-2"
-     }
-    ],
+    "abstract_snippet": "Background: Chronic obstructive pulmonary disease (COPD) exhibits marked heterogeneity in lung function decline, mortality, exacerbations, and other disease-related outcomes. Omic risk scores (ORS) estimate the cumulative contribution of omics, such as the transcriptome, proteome, and metabolome, to a particular trait. This study evaluates the predictive value of ORS for COPD-related traits in both smoking-enriched and general population cohorts. Methods: ORS were developed and tested in 3,339…",
     "citations": 2,
-    "doi": "10.1038/s41467-026-77147-2"
+    "doi": "10.1186/s12931-026-03890-1"
    },
-   "id": "3a8764f62af67571",
+   "id": "f730a9f6ac15f236",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-09-03T00:00:00Z",
-   "score": 0.4999,
+   "published_at": "2026-09-04T00:00:00Z",
+   "score": 0.5443,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "ABSTRACT Reactive oxygen species (ROS) play a central role in enhancing inhibitory signal transmission, thus extending their role beyond oxidative stress in disease and aging. However, the underlying molecular mechanisms mediating these functions have remained elusive. At inhibitory synapses, the…",
+   "summary": "Background: Chronic obstructive pulmonary disease (COPD) exhibits marked heterogeneity in lung function decline, mortality, exacerbations, and other disease-related outcomes. Omic risk scores (ORS) estimate the cumulative contribution of omics, such as the transcriptome, proteome, and metabolome,…",
    "tags": [],
-   "title": "Redox-dependent synaptic clustering of gephyrin",
-   "url": "https://doi.org/10.1038/s41467-026-77147-2",
-   "venue": "Nature Communications"
+   "title": "Omic risk scores are associated with COPD-related traits across three cohorts",
+   "url": "https://doi.org/10.1186/s12931-026-03890-1",
+   "venue": "Respiratory Research"
   },
   {
    "authors": [
-    "Alicja W. Wojciechowska",
-    "Jakub W. Wojciechowski",
-    "Gert Vriend",
-    "Malgorzata Kotulska"
+    "Igor Larrañaga",
+    "Miguel Rujas",
+    "Itxaso Alayo",
+    "Irati Erreguerena",
+    "M. Capo",
+    "Laura López-Pérez"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Abstract While three-dimensional structures of globular and transmembrane forms are available for many amyloid proteins, structures of their amyloid forms are scarce in the PDB. Amyloids pose major challenges for both experimental structure determination and computational modelling. We evaluated the amyloid-modelling performance of the current top modelling software, AlphaFold 3 (AF3), using three datasets. Dataset 1 contains 153 proteins and peptides that are known to form fibrils, but their…",
-    "citations": 12,
-    "doi": "10.1038/s41598-026-68041-4"
+    "abstract_snippet": "Background Falls represent a major clinical and financial challenge for healthcare systems. Accurately predicting first falls remains challenging, especially when using routinely collected data. Objective Develop and evaluate a predictive model to identify elderly people at risk of first fall in the Basque Country using routinely collected health records. Method A retrospective study included patients aged ≥65 with at least two chronic conditions among heart failure, chronic obstructive…",
+    "citations": 0,
+    "doi": "10.3389/frai.2026.1852439"
    },
-   "id": "8e325415b07be403",
+   "id": "452f14ff0ffa661a",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-09-03T00:00:00Z",
-   "score": 0.553,
+   "published_at": "2026-09-04T00:00:00Z",
+   "score": 0.5046,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Abstract While three-dimensional structures of globular and transmembrane forms are available for many amyloid proteins, structures of their amyloid forms are scarce in the PDB. Amyloids pose major challenges for both experimental structure determination and computational modelling. We evaluated…",
+   "summary": "Background Falls represent a major clinical and financial challenge for healthcare systems. Accurately predicting first falls remains challenging, especially when using routinely collected data. Objective Develop and evaluate a predictive model to identify elderly people at risk of first fall in…",
    "tags": [
-    "eval-study"
+    "systems"
    ],
-   "title": "Non-standard proteins in the lens of AlphaFold 3: a case study of amyloids",
-   "url": "https://doi.org/10.1038/s41598-026-68041-4",
-   "venue": "Scientific Reports"
+   "title": "Predicting first falls among older adults with chronic conditions and polypharmacy using routinely collected health records",
+   "url": "https://doi.org/10.3389/frai.2026.1852439",
+   "venue": "Frontiers in Artificial Intelligence"
   },
   {
    "authors": [
-    "Ava Khosravi",
-    "Mehdy Roayaei"
+    "Axel O. Vera",
+    "Franklin J. Avilés-Vázquez",
+    "Taekjip Ha",
+    "Amit Choudhary",
+    "Ronald T. Raines"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "ABSTRACT Precise regulation of Cas9 activity is essential to minimize off-target effects, mosaicism, chromosomal alterations, immunogenicity, and genotoxicity in genome editing. Although type II anti-CRISPR proteins (Acrs) can inhibit and regulate Cas9, their size and anionic charge generally prevent them from crossing the cell membrane. Existing Acr delivery methods employing vectors or electroporation are either slow and persistent or require external equipment, limiting their therapeutic…",
+    "citations": 0,
+    "doi": "10.1021/jacs.5c19089"
+   },
+   "id": "5281ff1c636846ef",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-04T00:00:00Z",
+   "score": 0.5046,
+   "section": "papers",
+   "source": "OpenAlex · information visualization",
+   "source_id": "openalex_datavis",
+   "summary": "ABSTRACT Precise regulation of Cas9 activity is essential to minimize off-target effects, mosaicism, chromosomal alterations, immunogenicity, and genotoxicity in genome editing. Although type II anti-CRISPR proteins (Acrs) can inhibit and regulate Cas9, their size and anionic charge generally…",
+   "tags": [],
+   "title": "Nuclear Localization Signals Enable the Cellular Delivery of an Anti-CRISPR Protein to Control Genome Editing",
+   "url": "https://doi.org/10.1021/jacs.5c19089",
+   "venue": "Journal of the American Chemical Society"
+  },
+  {
+   "authors": [
+    "Yifan Hu",
+    "Yuante Li",
+    "Peiyuan Liu",
+    "Yuxia Zhu",
+    "Naiqi Li",
+    "Tao Dai"
    ],
    "category": "optional",
    "extra": {
     "abstract_snippet": "",
-    "citations": 0,
-    "doi": "10.1007/s00500-025-10788-5"
+    "citations": 1,
+    "doi": "10.1007/s11704-026-51064-5"
    },
-   "id": "f655c9a3e9830703",
+   "id": "8a6f3cb57a2dd452",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-09-03T00:00:00Z",
-   "score": 0.3226,
+   "published_at": "2026-09-04T00:00:00Z",
+   "score": 0.3921,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
    "summary": "",
    "tags": [],
-   "title": "MOAC-RT: Personalized multi-objective radiotherapy using actor-critic deep reinforcement learning",
-   "url": "https://doi.org/10.1007/s00500-025-10788-5",
-   "venue": "Soft Computing"
+   "title": "A comprehensive and practical benchmark for financial time series forecasting",
+   "url": "https://doi.org/10.1007/s11704-026-51064-5",
+   "venue": "Frontiers of Computer Science"
   },
   {
    "authors": [
-    "Lauren Coombe",
-    "René L. Warren",
-    "İnanç Birol"
+    "Jiali Wang",
+    "Ane Landajuela",
+    "Joseph Santos-Sacchi",
+    "Erdem Karatekin",
+    "David Zenisek"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Abstract With the explosion of chromosome-scale genome assemblies being generated in recent years, there is vast potential for comparative genomics analyses through detecting multi-genome synteny. While existing tools can detect synteny blocks between multiple genomes, their text-based outputs make it challenging to intuitively explore large-scale synteny patterns. Interpretable, information-rich and easy-to-use synteny visualization tools are imperative to enable important biological insights…",
-    "citations": 21,
-    "doi": "10.1093/jeb/voag079"
-   },
-   "id": "2e9d9d7dd80cccfd",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-03T00:00:00Z",
-   "score": 0.4345,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract With the explosion of chromosome-scale genome assemblies being generated in recent years, there is vast potential for comparative genomics analyses through detecting multi-genome synteny. While existing tools can detect synteny blocks between multiple genomes, their text-based outputs make…",
-   "tags": [],
-   "title": "ntSynt-viz: Visualizing synteny patterns across multiple genomes",
-   "url": "https://doi.org/10.1093/jeb/voag079",
-   "venue": "Journal of Evolutionary Biology"
-  },
-  {
-   "authors": [
-    "Brittany Jimena",
-    "Daniel Kazimierczyk",
-    "Simon Kazimierczyk",
-    "Haley Moya",
-    "Eva Shin",
-    "Li Li"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Summary Vertically transferred maternal cells or maternal microchimeric cells (MMCs) engraft the fetus and persist in offspring for long periods of time. How altered maternal immune states arising from infection affect MMCs and their function in offspring is poorly understood. Here, we show that pregnancy-associated transient maternal infection alters MMCs to differentially regulate immunity in offspring. In male offspring of dams previously infected with Yersinia pseudotuberculosis , MMCs…",
+    "abstract_snippet": "Abstract Hair cells of the zebrafish lateral line have proven to be a good model for studying hair cell function in a system that is easily genetically manipulated, rapidly develops and is experimentally accessible. However, characterization of potential developmental changes, and possible differences along lateral line position are lacking. Here, we used in vivo patch clamp to investigate the electrophysiological and exocytic properties of neuromast hair cells over early development across…",
     "citations": 0,
-    "doi": "10.3389/fimmu.2026.1869048"
+    "doi": "10.1523/eneuro.0479-25.2026"
    },
-   "id": "01583400aa8ecdf3",
+   "id": "fc4ba81480cbe952",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-09-03T00:00:00Z",
-   "score": 0.3226,
+   "published_at": "2026-09-04T00:00:00Z",
+   "score": 0.5046,
    "section": "papers",
    "source": "OpenAlex · information visualization",
    "source_id": "openalex_datavis",
-   "summary": "Summary Vertically transferred maternal cells or maternal microchimeric cells (MMCs) engraft the fetus and persist in offspring for long periods of time. How altered maternal immune states arising from infection affect MMCs and their function in offspring is poorly understood. Here, we show that…",
-   "tags": [],
-   "title": "Prenatal maternal infection promotes maternal microchimeric cells to alter infection risk in male offspring",
-   "url": "https://doi.org/10.3389/fimmu.2026.1869048",
-   "venue": "Frontiers in Immunology"
+   "summary": "Abstract Hair cells of the zebrafish lateral line have proven to be a good model for studying hair cell function in a system that is easily genetically manipulated, rapidly develops and is experimentally accessible. However, characterization of potential developmental changes, and possible…",
+   "tags": [
+    "eval-study",
+    "systems"
+   ],
+   "title": "Electrophysiological profiling of exocytosis during early-stage development of the zebrafish lateral line",
+   "url": "https://doi.org/10.1523/eneuro.0479-25.2026",
+   "venue": "eNeuro"
   },
   {
    "authors": [
-    "Binnu Gangadharan",
-    "Daniel L. Kober",
-    "Luke M. Rice"
+    "Yanqin Fan",
+    "Yigit Okar",
+    "Xuetao Shi"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Abstract Defining quantitative biochemical mechanisms of microtubule dynamics and regulation is a current challenge. Stu2/XMAP215-family polymerases use tubulin-binding TOG domains to catalyze microtubule growth, but how polymerase activity results from the number and tubulinbinding properties of TOGs is not understood. We tested whether an enzyme-like biochemical model for the unrelated actin polymerase Ena/VASP could be applied to quantitatively relate Stu2 microtubule polymerase activity to…",
-    "citations": 1,
-    "doi": "10.7554/elife.107818.3"
-   },
-   "id": "6bc7932bb92d067e",
-   "kind": "paper",
-   "lang": "en",
-   "published_at": "2026-09-03T00:00:00Z",
-   "score": 0.4852,
-   "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract Defining quantitative biochemical mechanisms of microtubule dynamics and regulation is a current challenge. Stu2/XMAP215-family polymerases use tubulin-binding TOG domains to catalyze microtubule growth, but how polymerase activity results from the number and tubulinbinding properties of…",
-   "tags": [],
-   "title": "A biochemical mechanism for Stu2/XMAP215-family microtubule polymerases",
-   "url": "https://doi.org/10.7554/elife.107818.3",
-   "venue": "eLife"
-  },
-  {
-   "authors": [
-    "Chee Chew Yip",
-    "Zheng Xian Thng",
-    "Yan Yee Hah",
-    "Andrew Shi-Jie Yap",
-    "Sean Pin Ng",
-    "Nicola Y. Gan"
-   ],
-   "category": "optional",
-   "extra": {
-    "abstract_snippet": "Abstract Background Guided Mental Rehearsal (GMR), underpinned by the Theory of Motor Simulation, supports the learning of psychomotor skills. We hypothesized that (a) GMR would be comparable to Guided Physical Practice (GPP) for learning Pupillary Examination (PE), and (b) Mental Imagery (MI) ability would improve with GMR practice. Methods This assessor-blinded, randomized controlled study included 53 pre-clinical students (GMR n = 26, GPP n = 27), with sample size calculated from pilot data…",
+    "abstract_snippet": "This article introduces an iterative distributed computing estimator for the multinomial logistic regression model with large choice sets. Compared to the maximum likelihood estimator, the proposed iterative distributed estimator achieves significantly faster computation and, when initialized with a consistent estimator, attains asymptotic efficiency under a weak dominance condition. Additionally, we propose a parametric bootstrap inference procedure based on the iterative distributed estimator…",
     "citations": 0,
-    "doi": "10.29060/taps.2026-11-4/oa3941"
+    "doi": "10.1016/j.jeconom.2026.106334"
    },
-   "id": "37c288296d63a28f",
+   "id": "c29471d30fc964e4",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-09-03T00:00:00Z",
-   "score": 0.3226,
+   "published_at": "2026-09-04T00:00:00Z",
+   "score": 0.3671,
    "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract Background Guided Mental Rehearsal (GMR), underpinned by the Theory of Motor Simulation, supports the learning of psychomotor skills. We hypothesized that (a) GMR would be comparable to Guided Physical Practice (GPP) for learning Pupillary Examination (PE), and (b) Mental Imagery (MI)…",
+   "source": "OpenAlex · technical communication",
+   "source_id": "openalex_techcomm",
+   "summary": "This article introduces an iterative distributed computing estimator for the multinomial logistic regression model with large choice sets. Compared to the maximum likelihood estimator, the proposed iterative distributed estimator achieves significantly faster computation and, when initialized with…",
    "tags": [],
-   "title": "Investigating mental rehearsal’s applicability in guiding independent e-learning of eye examination skills during the pandemic – Part II (IMAGINE-II)",
-   "url": "https://doi.org/10.29060/taps.2026-11-4/oa3941",
-   "venue": "The Asia Pacific Scholar"
+   "title": "Iterative distributed multinomial regression",
+   "url": "https://doi.org/10.1016/j.jeconom.2026.106334",
+   "venue": "Journal of Econometrics"
   },
   {
    "authors": [
-    "Maximilian Woollard",
-    "Pratibha Panwar",
-    "Luke Harland",
-    "Jeremy Mo",
-    "Hanyun Zhang",
-    "Alexander Swarbrick"
+    "Sheryn See",
+    "Aaron Opdyke",
+    "Susan Banki"
    ],
    "category": "optional",
    "extra": {
-    "abstract_snippet": "Abstract With the dramatic take-up of spatially resolved transcriptomics biotechnologies, performing spatially-aware analysis of the resulting data is crucial to maximise advances in biological understanding. Dimensionality reduction is a first step in almost any analysis of spatial transcriptomics data, regardless of whether the data is collected at the single-cell or spot level. While common approaches, such as principal component analysis, aim to identify low-dimensional scores that preserve…",
-    "citations": 1,
-    "doi": "10.1038/s41467-026-76871-z"
+    "abstract_snippet": "Abstract Disasters and conflict increasingly overlap, yet siloed humanitarian reporting often leaves complex displacement overlooked. Little is known about who is left out and how reporting gaps occur. We conduct a comparative analysis of data reporting in the Philippines, examining cases of the Marawi Siege and Severe Tropical Storm Tembin (Vinta) in 2017 and Severe Tropical Storm Nalgae (Paeng) in 2022. We present disparities in the frequency, timing, and spatial coverage of complex…",
+    "citations": 0,
+    "doi": "10.1186/s41018-026-00209-z"
    },
-   "id": "ed7bcaa1f70a4819",
+   "id": "1610c5a8713a87e9",
    "kind": "paper",
    "lang": "en",
-   "published_at": "2026-09-03T00:00:00Z",
-   "score": 0.3477,
+   "published_at": "2026-09-04T00:00:00Z",
+   "score": 0.3671,
    "section": "papers",
-   "source": "OpenAlex · information visualization",
-   "source_id": "openalex_datavis",
-   "summary": "Abstract With the dramatic take-up of spatially resolved transcriptomics biotechnologies, performing spatially-aware analysis of the resulting data is crucial to maximise advances in biological understanding. Dimensionality reduction is a first step in almost any analysis of spatial transcriptomics…",
+   "source": "OpenAlex · technical communication",
+   "source_id": "openalex_techcomm",
+   "summary": "Abstract Disasters and conflict increasingly overlap, yet siloed humanitarian reporting often leaves complex displacement overlooked. Little is known about who is left out and how reporting gaps occur. We conduct a comparative analysis of data reporting in the Philippines, examining cases of the…",
    "tags": [],
-   "title": "Weighted sliced inverse regression for scalable supervised dimensionality reduction of spatial transcriptomics data",
-   "url": "https://doi.org/10.1038/s41467-026-76871-z",
-   "venue": "Nature Communications"
+   "title": "Overlapping disaster and conflict events reveal gaps in displacement reporting in the Philippines",
+   "url": "https://doi.org/10.1186/s41018-026-00209-z",
+   "venue": "Journal of International Humanitarian Action"
+  },
+  {
+   "authors": [
+    "Nizam Kadir",
+    "Wei Ting Liow",
+    "Sumbul Khan",
+    "Lay Kee Ang"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Science educators increasingly encounter AI tools that generate content, yet disciplinary teaching depends on eliciting learners' models, diagnosing misconceptions, interpreting evidence, and preserving professional judgment. This study asks how science teachers translate such epistemic work into specifications for agentic learning applications. It contributes to the conference theme, \"Innovating Pedagogies, Inspiring Minds: Transforming Science Learning,\" and the Teachers' Professional…",
+    "arxiv_id": "2609.03917"
+   },
+   "id": "8c9256821df80cf1",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-03T14:33:30Z",
+   "score": 0.6191,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Science educators increasingly encounter AI tools that generate content, yet disciplinary teaching depends on eliciting learners' models, diagnosing misconceptions, interpreting evidence, and preserving professional judgment. This study asks how science teachers translate such epistemic work into…",
+   "tags": [
+    "pedagogy",
+    "ai-writing",
+    "ux"
+   ],
+   "title": "From Misconceptions to Evidence: What Science Teachers Make Visible When Co-Designing Agentic Learning Apps",
+   "url": "https://arxiv.org/abs/2609.03917v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Johannes Eschner",
+    "Dominik Eitler",
+    "Max Irendorfer",
+    "Patrick Kramml",
+    "Matthias Zeppelzauer",
+    "Manuela Waldner"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "We propose a conceptual framework for exploratory data analysis of (large) unstructured data (EluDA), combining classical elements (querying, visualization) with active knowledge construction in the \"search for structure\". In a formative study, users conceptualized a structure for an image dataset during exploration. We found that users conceptualize by building faceted classifications bottom-up and rarely create meaningful spatial categorization during this process. We also evaluated CLIP for…",
+    "arxiv_id": "2609.03678"
+   },
+   "id": "4f36fcc4320f50f2",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-03T11:16:58Z",
+   "score": 0.6489,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "We propose a conceptual framework for exploratory data analysis of (large) unstructured data (EluDA), combining classical elements (querying, visualization) with active knowledge construction in the \"search for structure\". In a formative study, users conceptualized a structure for an image dataset…",
+   "tags": [
+    "systems",
+    "visualization"
+   ],
+   "title": "Exploratory Unstructured Data Analysis: A Formative Study and Implications for Human-AI Collaboration",
+   "url": "https://arxiv.org/abs/2609.03678v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Birgit Nierula",
+    "Karam Tomotaki-Dawoud",
+    "Mert Akguel",
+    "Mustafa Tevfik Lafci",
+    "David Przewozny",
+    "Anna Hilsmann"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Head-mounted displays (HMDs) fundamentally limit emotion recognition in virtual reality (VR): by occluding the upper face, they render conventional image-based facial expression analysis incomplete, particularly for applications requiring real-time affective assessment. We address this challenge by fusing lower-face video with facial electromyography (EMG) from the occluded upper face to classify seven emotional categories (six basic emotions plus neutral). We introduce a synchronized…",
+    "arxiv_id": "2609.03569"
+   },
+   "id": "b04957c6135cb6e4",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-03T09:17:32Z",
+   "score": 0.4104,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Head-mounted displays (HMDs) fundamentally limit emotion recognition in virtual reality (VR): by occluding the upper face, they render conventional image-based facial expression analysis incomplete, particularly for applications requiring real-time affective assessment. We address this challenge by…",
+   "tags": [],
+   "title": "Occlusion-Robust Multimodal Emotion Recognition in VR via Fusion of Facial Images and EMG",
+   "url": "https://arxiv.org/abs/2609.03569v1",
+   "venue": "arXiv cs.CV"
+  },
+  {
+   "authors": [
+    "Jonathan Segal",
+    "Jalynn Nicoly",
+    "Francisco Ortega",
+    "Angelique Taylor"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Emergency Department (ED) teams coordinate shifting roles, medication decisions, and time-critical interventions under uncertainty. Augmented reality head-mounted displays (AR-HMDs) have shown potential to spatially anchor information during care, creating opportunities to examine how spatial interfaces might support teamwork. We conducted a speculative co-design study with 12 healthcare workers (HCWs) using an editable, desktop-mediated Unity-based 3D design probe to visualize and refine…",
+    "arxiv_id": "2609.03295"
+   },
+   "id": "44c8690920be6447",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-03T02:42:03Z",
+   "score": 0.584,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Emergency Department (ED) teams coordinate shifting roles, medication decisions, and time-critical interventions under uncertainty. Augmented reality head-mounted displays (AR-HMDs) have shown potential to spatially anchor information during care, creating opportunities to examine how spatial…",
+   "tags": [
+    "ai-writing",
+    "ux"
+   ],
+   "title": "Code Black: Desktop-Mediated Co-Design of AR-HMD Microinteractions for Emergency Department Teamwork",
+   "url": "https://arxiv.org/abs/2609.03295v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Naoto Nishida",
+    "Yoshio Ishiguro"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "We study body-only, 12-class acted-emotion classification from skeleton motion under leave-performer-out (LPO) evaluation, a hard, underdetermined setting: chance is 8.3%, and a protocol-matched reproduced STGCN++ baseline reaches only 25.73 +/- 4.03% Macro-F1. We show that reliable gains come not from a new architecture but from combining eleven models with orthogonal error modes: under 10-fold LPO cross-validation on the labeled training performers, an equal-weight logit-mean ensemble reaches…",
+    "arxiv_id": "2609.02510"
+   },
+   "id": "3c9b8e5c2c108ecb",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-02T12:15:11Z",
+   "score": 0.5475,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "We study body-only, 12-class acted-emotion classification from skeleton motion under leave-performer-out (LPO) evaluation, a hard, underdetermined setting: chance is 8.3%, and a protocol-matched reproduced STGCN++ baseline reaches only 25.73 +/- 4.03% Macro-F1. We show that reliable gains come not…",
+   "tags": [
+    "ai-writing"
+   ],
+   "title": "Orthogonal Ensembles and Tested Explanations for Performer-Independent Body-Motion Emotion Recognition",
+   "url": "https://arxiv.org/abs/2609.02510v1",
+   "venue": "arXiv cs.CV"
+  },
+  {
+   "authors": [
+    "Xinyu Fu",
+    "Narayan Ramasubbu",
+    "Dennis Galletta"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Large language models (LLMs) are increasingly embedded in organizational work, yet their errors often pass human review. Prior research locates such failures in users' capability to review LLM output or their engagement in doing so. We develop an alternative, retrieval-based account of human oversight and posit that error detection is more effective when oversight-relevant information is accessible to users at the moment of review. Across two randomized lab-in-the-field experiments with 640…",
+    "arxiv_id": "2609.01976"
+   },
+   "id": "fa1e6b3ce68d793f",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-02T01:25:47Z",
+   "score": 0.6639,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Large language models (LLMs) are increasingly embedded in organizational work, yet their errors often pass human review. Prior research locates such failures in users' capability to review LLM output or their engagement in doing so. We develop an alternative, retrieval-based account of human…",
+   "tags": [
+    "ai-writing",
+    "llm"
+   ],
+   "title": "Knowing Is Not Enough: Information Retrievability as a Precondition to Effective LLM Oversight",
+   "url": "https://arxiv.org/abs/2609.01976v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Aarthy Nagarajan"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Artificial intelligence (AI) is transforming brain-computer interfaces (BCIs) from task-specific neural decoders into adaptive systems that complete language, smooth movement, regulate rehabilitation support and adjust stimulation. These capabilities can increase speed, fluency, usability and clinical reach, yet conventional performance metrics may overlook losses in intent fidelity, authorship, agency, therapeutic challenge and durable clinical benefit. I define neuroadaptive overfitting as a…",
+    "arxiv_id": "2609.01767"
+   },
+   "id": "dcb38e8fe3ec58b9",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T18:37:23Z",
+   "score": 0.5105,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Artificial intelligence (AI) is transforming brain-computer interfaces (BCIs) from task-specific neural decoders into adaptive systems that complete language, smooth movement, regulate rehabilitation support and adjust stimulation. These capabilities can increase speed, fluency, usability and…",
+   "tags": [
+    "ai-writing",
+    "ux"
+   ],
+   "title": "Slow-Fast Brain-Computer Interfaces: Preventing Neuroadaptive Overfitting in AI-Mediated Neural Interfaces",
+   "url": "https://arxiv.org/abs/2609.01767v1",
+   "venue": "arXiv q-bio.NC"
+  },
+  {
+   "authors": [
+    "Chao Zhang",
+    "Abe Davis",
+    "Chih-Wei Chen",
+    "Chin-Chia Hsu"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Writing involves diverse cognitive activities, from ideation to revision, and writers' needs vary across individuals and moments. Proactive AI promises to provide the right support at the right time, yet existing proactive tools largely focus on generic textual assistance, such as autocomplete. This paper studies the design space of proactive thought partners: AI agents that proactively offer customizable, higher-level cognitive support during writing. We instantiated this concept in a…",
+    "arxiv_id": "2609.01588"
+   },
+   "id": "5b99f7b9ca72f68f",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T17:54:32Z",
+   "score": 0.5092,
+   "section": "papers",
+   "source": "arXiv cs.HC (writing & docs)",
+   "source_id": "arxiv_hci_writing",
+   "summary": "Writing involves diverse cognitive activities, from ideation to revision, and writers' needs vary across individuals and moments. Proactive AI promises to provide the right support at the right time, yet existing proactive tools largely focus on generic textual assistance, such as autocomplete.…",
+   "tags": [
+    "ai-writing",
+    "ux",
+    "techcomm"
+   ],
+   "title": "Designing Proactive Thought Partners for Writing",
+   "url": "https://arxiv.org/abs/2609.01588v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Yulia A. Levites Strekalova",
+    "Rachel Liu Galvin",
+    "Jessica M. Ray",
+    "Samuel P. Border",
+    "Mishal Khan",
+    "Samantha Hoffman"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Introduction: Clinical research informatics (CRI) platforms support biomedical discovery by integrating advanced computational tools into research workflows. Emerging technologies such as spatial omics and AI-enabled imaging expand research capabilities but introduce complex interfaces that increase cognitive burden and alter established analytical processes. Traditional usability frameworks identify general usability issues but often miss challenges specific to high-dimensional biomedical…",
+    "arxiv_id": "2609.01569"
+   },
+   "id": "a3fb5f5f9369d68d",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T17:36:29Z",
+   "score": 0.5486,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Introduction: Clinical research informatics (CRI) platforms support biomedical discovery by integrating advanced computational tools into research workflows. Emerging technologies such as spatial omics and AI-enabled imaging expand research capabilities but introduce complex interfaces that…",
+   "tags": [
+    "eval-study",
+    "visualization"
+   ],
+   "title": "Evaluating Usability in Biomedical Visualization: Rethinking Heuristic Evaluation for Spatial Omics and Multidisciplinary Research Platforms",
+   "url": "https://arxiv.org/abs/2609.01569v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Zhehan Qu",
+    "Christian Fronk",
+    "Jaewoong Jeong",
+    "Pavel Manakhov",
+    "Maria Gorlatova"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Augmented reality (AR) facilitates human-robot collaboration (HRC) by enabling in-situ spatial visualizations of the robot and the joint task. However, in safety-critical HRC scenarios such as search-and-rescue, spatial visualizations may also reshape visual attention in ways that create competing situational awareness (SA) demands, potentially introducing new safety concerns. While prior AR-HRC work suggests potential benefits for SA, rigorous evaluations that jointly consider robot and…",
+    "arxiv_id": "2609.01461"
+   },
+   "id": "abd2804ef004fc1c",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T16:01:57Z",
+   "score": 0.3532,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Augmented reality (AR) facilitates human-robot collaboration (HRC) by enabling in-situ spatial visualizations of the robot and the joint task. However, in safety-critical HRC scenarios such as search-and-rescue, spatial visualizations may also reshape visual attention in ways that create competing…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "Better Situational Awareness in AR-HRC? A Comparative Study of Augmented Reality and Mobile Interfaces for Human-Robot Collaboration",
+   "url": "https://arxiv.org/abs/2609.01461v1",
+   "venue": "arXiv cs.HC"
+  },
+  {
+   "authors": [
+    "Maeve Hutchinson",
+    "Syed Mahbubul Huq",
+    "Mohammad Albinhassan",
+    "Radu Jianu",
+    "Aidan Slingsby",
+    "Pranava Madhyastha"
+   ],
+   "category": "optional",
+   "extra": {
+    "abstract_snippet": "Vision Language Models have demonstrated remarkable proficiency in interpreting static visual artifacts, but modern data analysis is inherently dynamic, requiring the active interrogation of interactive environments. Existing benchmarks are predominantly constrained to static imagery and one-shot question answering and fail to capture the epistemic demands of this domain, where evidence is frequently occluded, distributed across linked views, or conditionally revealed through user agency. In…",
+    "arxiv_id": "2609.01383"
+   },
+   "id": "7d32fadb7be306af",
+   "kind": "paper",
+   "lang": "en",
+   "published_at": "2026-09-01T15:15:30Z",
+   "score": 0.5443,
+   "section": "papers",
+   "source": "arXiv cs.HC + cs.GR",
+   "source_id": "arxiv_datavis",
+   "summary": "Vision Language Models have demonstrated remarkable proficiency in interpreting static visual artifacts, but modern data analysis is inherently dynamic, requiring the active interrogation of interactive environments. Existing benchmarks are predominantly constrained to static imagery and one-shot…",
+   "tags": [
+    "visualization"
+   ],
+   "title": "InSight: A Benchmark for Agentic Claim Verification in Interactive Visualizations",
+   "url": "https://arxiv.org/abs/2609.01383v1",
+   "venue": "arXiv cs.CL"
   }
  ],
  "meta": {
-  "count": 14,
-  "generated_at": "2026-09-05T04:22:08Z",
+  "count": 26,
+  "generated_at": "2026-09-05T10:31:07Z",
   "kind": "papers",
   "section": "papers",
   "sources": [
    {
     "category": "optional",
-    "count": 0,
-    "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+OR+cat%3Acs.GR&sortBy=submittedDate&sortOrder=descending&max_results=60",
+    "count": 4,
+    "error": null,
     "full_text_count": 0,
     "id": "arxiv_datavis",
     "name": "arXiv cs.HC + cs.GR",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"
@@ -463,12 +801,12 @@
    },
    {
     "category": "optional",
-    "count": 0,
-    "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.HC&sortBy=submittedDate&sortOrder=descending&max_results=40",
+    "count": 7,
+    "error": null,
     "full_text_count": 0,
     "id": "arxiv_hci_writing",
     "name": "arXiv cs.HC (writing & docs)",
-    "ok": false,
+    "ok": true,
     "section": "papers",
     "skip_reason": null,
     "type": "arxiv"

@@ -1,48 +1,48 @@
 {
  "apropos_of_nothing": {
-  "query": "world sheep shearing record OR golden shears competition",
+  "query": "(\"pumpkin championship\" OR \"giant pumpkin\")",
   "source": {
-   "name": "The Post (Wellington)",
-   "published_at": "2026-08-20T10:00:12Z",
-   "title": "Obituary: Shearing world mourns Golden Shears founder Laurie Keats ‘a man of extraordinary vision’",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNUEd4OFZtcEM2eHZEMzZzekRUMkNiRFpGQTNZYXZlRFRfMGZUMGR6MnZrXzZPWmFLb3ZpTVVKLWpUNFozcGl6dS1vS0pfR2g2M0lObEkxU185Slk2TXRJOFJVbHlmdENFV2cxTzhnY2RnelBKYUxxTjdadDhCWGFDMGg1dUN0eXhCOGhiNTQyTkdtX1lHX3l2ZTlBVFE2MDNyRlA0N09iMEpNY0FjcVdNYWFUbUpneERrd3pKS1psQmlFdWsxZjBJZW1ndkNYamc?oc=5"
+   "name": "i38.ru",
+   "published_at": "2026-09-04T05:00:00Z",
+   "title": "Юный агроном из - под Ангарска вырастил 800 - килограммовую тыкву",
+   "url": "https://i38.ru/obschestvo-obichnie/uniy-agronom-iz-pod-angarska-virastil-800-kilogrammovuiu-tikvu"
   },
   "summaries": {
    "en": {
-    "summary": "An obituary honors Laurie Keats, founder of the Golden Shears shearing championship, who died at 92.",
-    "why_irrelevant": "A niche rural tribute with no link to mainstream topics."
+    "summary": "A young grower near Angarsk harvested an 800-kilogram pumpkin.",
+    "why_irrelevant": "A regional Russian feat far from your usual interests."
    },
    "zh": {
-    "summary": "讣告悼念剪羊毛锦标赛创始人Laurie Keats，享年92岁。",
-    "why_irrelevant": "小众乡村内容，与主流话题无关。"
+    "summary": "安加尔斯克附近的一位年轻种植者收获了一个800公斤的南瓜。",
+    "why_irrelevant": "一个远离你日常兴趣的俄罗斯地方新闻。"
    }
   },
-  "topic": "competitive sheep shearing record attempts"
+  "topic": "competitive pumpkin growing"
  },
- "brief": "Global news today covers geopolitical tensions from West Africa to the Falklands, domestic political shifts in Germany and the US, and notable scientific advances in medical research. Papers highlight progress in black-box AI attacks, drug synergy prediction, and protein structure analysis.",
+ "brief": "Ukraine peace talks resume amid escalating airstrikes, while the Lindsay Clancy trial stirs US debate. Research explores empathic AI limits and actin-binding dynamics.",
  "meta": {
-  "generated_at": "2026-09-05T04:22:08Z"
+  "generated_at": "2026-09-05T10:31:07Z"
  },
- "news_summary": "International stories include Russian involvement in Niger, far-right gains in Germany, and escalating US-Canada trade tensions. Domestically, legal battles over mail-in voting and military press freedom unfold, while a UN map vote sees the US isolated. The Tate brothers face new charges, and Bolivia mourns after a barracks explosion.",
- "papers_summary": "Research papers focus on cybersecurity (black-box attacks on semantic segmentation), biomedical breakthroughs (drug synergy, gephyrin clustering, AlphaFold 3 for amyloids), and visualization tools for genomics. Notable is the failure of heart drug pelacarsen, underscoring challenges in clinical trials.",
+ "news_summary": "US envoys head to Moscow to revive Ukraine negotiations amid renewed strikes, while political scandals and policy shifts dominate headlines from the Pentagon to Sweden.",
+ "papers_summary": "Studies probe empathic AI feasibility, gamified energy engagement, and predictive health models for falls and COPD, alongside genetic and cognitive research.",
  "summaries": {
   "en": {
-   "brief": "Global news today covers geopolitical tensions from West Africa to the Falklands, domestic political shifts in Germany and the US, and notable scientific advances in medical research. Papers highlight progress in black-box AI attacks, drug synergy prediction, and protein structure analysis.",
-   "news_summary": "International stories include Russian involvement in Niger, far-right gains in Germany, and escalating US-Canada trade tensions. Domestically, legal battles over mail-in voting and military press freedom unfold, while a UN map vote sees the US isolated. The Tate brothers face new charges, and Bolivia mourns after a barracks explosion.",
-   "papers_summary": "Research papers focus on cybersecurity (black-box attacks on semantic segmentation), biomedical breakthroughs (drug synergy, gephyrin clustering, AlphaFold 3 for amyloids), and visualization tools for genomics. Notable is the failure of heart drug pelacarsen, underscoring challenges in clinical trials."
+   "brief": "Ukraine peace talks resume amid escalating airstrikes, while the Lindsay Clancy trial stirs US debate. Research explores empathic AI limits and actin-binding dynamics.",
+   "news_summary": "US envoys head to Moscow to revive Ukraine negotiations amid renewed strikes, while political scandals and policy shifts dominate headlines from the Pentagon to Sweden.",
+   "papers_summary": "Studies probe empathic AI feasibility, gamified energy engagement, and predictive health models for falls and COPD, alongside genetic and cognitive research."
   },
   "zh": {
-   "brief": "今日焦点主要集中在韩国光州双年展的台湾馆命名争议，中国宣布退出展览，以及全球其他政治、社会和环境新闻。",
-   "news_summary": "光州双年展因台湾馆更名引发风波，中国退出展览，但主办方最终恢复台湾馆名称。其他新闻包括尼泊尔洪水救援、加拿大新钞印查尔斯国王肖像、福克兰群岛争端升级等。",
-   "papers_summary": "今日无重点论文，但英文论文涉及语义分割攻击、药物协同预测、基因组可视化等技术研究。"
+   "brief": "今日焦点围绕韩国光州双年展的“台湾馆”更名纠纷，中国宣布退展，引发两岸与国际艺术界的关注。",
+   "news_summary": "韩国光州双年展因“台湾馆”更名为“中国台湾”引发台湾艺术家抗议，中方宣布退出，事件升温。",
+   "papers_summary": "学术研究方面，无相关中文条目，但英文文献涵盖跨学科议题，如肌动蛋白结合、AI共情等。"
   }
  },
  "todays_image": {
-  "caption": "Just as a textile weaves threads into a resilient fabric, Russia appears better at weaving protective ties with West African allies than at unraveling its enemies in direct combat.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1953-152-1MattFlynn",
-  "source_name": "Cooper Hewitt, Smithsonian Design Museum",
-  "source_url": "https://collection.cooperhewitt.org/view/objects/asitem/id/107649",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=CHSDM-1953-152-1MattFlynn",
-  "title": "Textile"
+  "caption": "Just as John Bigelow once navigated delicate diplomacy to keep a war from widening, today's negotiators face their own fragile moment in Ukraine peace talks.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_78_125Bigelow-000001",
+  "source_name": "National Portrait Gallery",
+  "source_url": "https://npg.si.edu/object/npg_NPG.78.125",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_78_125Bigelow-000001",
+  "title": "John Bigelow"
  }
 }

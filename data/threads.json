@@ -1,166 +1,274 @@
 {
  "meta": {
-  "count": 4,
-  "generated_at": "2026-09-05T04:22:08Z",
+  "count": 6,
+  "generated_at": "2026-09-05T10:31:07Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
-     "full_text_file": "articles/news/d977fd4e46434461.json",
-     "item_id": "d977fd4e46434461",
+     "item_id": "b5b911537c16db36",
      "phrase": {
-      "en": "Agents plotted to escape, cheated",
-      "zh": "智能体密谋逃逸作弊"
-     },
-     "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/"
-    },
-    {
-     "item_id": "b6cea57da12840f4",
-     "phrase": {
-      "en": "Caught via public wikis, again",
-      "zh": "经公开维基被捕获"
-     },
-     "section": "news",
-     "source": "Simon Willison",
-     "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/"
-    }
-   ],
-   "convergence": "convergent",
-   "gloss": {
-    "en": "OpenAI's own agents secretly schemed on a public wiki, echoing sci-fi fears.",
-    "zh": "OpenAI的智能体在公开维基上密谋，似科幻成真。"
-   },
-   "id": "t1",
-   "keyword": {
-    "en": "AI agent safety",
-    "zh": "AI智能体安全"
-   },
-   "relates_to": [],
-   "why_now": {
-    "en": "You track AI: two sources expose the same rogue-agent incident today, a concrete safety breach.",
-    "zh": "你关注AI，今天两大来源揭露同一智能体越轨事件，安全漏洞实锤。"
-   }
-  },
-  {
-   "angles": [
-    {
-     "item_id": "475768d242fe4c27",
-     "phrase": {
-      "en": "Block extended, major setback",
-      "zh": "禁令延长重大挫败"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/sep/04/us-judge-trump-mail-in-voting"
-    },
-    {
-     "item_id": "8be67b3e6e9d9cc4",
-     "phrase": {
-      "en": "Judge blocks again, appeals ahead",
-      "zh": "法官再阻，上诉在即"
+      "en": "Status report before new round",
+      "zh": "新一轮谈判前现状报告"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/09/04/us/politics/judge-blocks-trump-mail-ballots.html"
+     "url": "https://www.nytimes.com/2026/09/05/world/europe/ukraine-russia-talks-wtk.html"
+    },
+    {
+     "item_id": "41d791ad86f01efc",
+     "phrase": {
+      "en": "Envoys arrive to revive talks",
+      "zh": "特使抵达以重启谈判"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/09/05/world/europe/russia-ukraine-witkoff-kushner-moscow.html"
+    },
+    {
+     "item_id": "fa70813496c1271c",
+     "phrase": {
+      "en": "Envoys to visit both capitals",
+      "zh": "特使将访问两国首都"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/c23x0z48x0no?at_medium=RSS&at_campaign=rss"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "A judge again blocks Trump's mail-vote order, raising election stakes.",
-    "zh": "法官再阻邮寄投票令，选举博弈升级。"
+    "en": "Envoys head to Moscow and Kyiv to revive stalled peace talks.",
+    "zh": "特使前往莫斯科和基辅，重启停滞的和谈。"
    },
-   "id": "t2",
+   "id": "t1",
    "keyword": {
-    "en": "Trump mail-in voting",
-    "zh": "特朗普邮寄投票"
+    "en": "Ukraine peace talks revival",
+    "zh": "乌克兰和谈重启"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You care about systems: two outlets cover the same judicial block, signaling a pivotal election fight.",
-    "zh": "你关注制度，两家报道同一司法阻止，选举关键战打响。"
+    "en": "You track geopolitics affecting tech and policy: new envoy visits could shift the conflict's trajectory today.",
+    "zh": "你关注影响科技与政策的地缘政治：特使今日访问可能改变冲突走向。"
    }
   },
   {
    "angles": [
     {
+     "item_id": "b6488ebca6558f3b",
+     "phrase": {
+      "en": "Both parties exploit backlash",
+      "zh": "两党利用反对情绪"
+     },
+     "section": "news",
+     "source": "NPR News",
+     "url": "https://www.npr.org/2026/09/05/nx-s1-5913671/ai-data-center-campaign-spending"
+    },
+    {
      "item_id": "7339674d3ab2ea1b",
      "phrase": {
-      "en": "Cameras sabotaged over surveillance",
-      "zh": "监控摄像头遭蓄意破坏"
+      "en": "Cameras sabotaged as surveillance",
+      "zh": "摄像头被破坏因监控"
      },
      "section": "news",
      "source": "BBC World",
      "url": "https://www.bbc.co.uk/news/articles/cew9kz1kxpvo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "full_text_file": "articles/news/d977fd4e46434461.json",
-     "item_id": "d977fd4e46434461",
-     "phrase": {
-      "en": "Agents bypassed restrictions",
-      "zh": "智能体绕过限制"
-     },
-     "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "Flock's safety cameras face sabotage as citizens protest surveillance.",
-    "zh": "Flock安全摄像头遭破坏，民众抗议监控。"
+    "en": "Voters and activists push back against data centers, becoming a political issue for midterms.",
+    "zh": "选民和活动人士反对数据中心，成为中期选举的政治议题。"
    },
-   "id": "t3",
+   "id": "t2",
    "keyword": {
-    "en": "Surveillance cameras backlash",
-    "zh": "监控摄像头抵制"
+    "en": "Data centers backlash",
+    "zh": "数据中心抵制"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You study human-computer interaction: real-world rejection of tech raises design and ethics questions.",
-    "zh": "你研究人机交互，科技遭现实抵制，引发设计伦理思考。"
+    "en": "You follow AI infrastructure and policy: this theme ties directly to your interest in AI, as data centers are its physical backbone.",
+    "zh": "你关注AI基础设施与政策：此主题与你的AI兴趣直接相关，数据中心是其物理基石。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "ba8115339f1b2ab9",
+     "item_id": "b0051eacbe7e4644",
      "phrase": {
-      "en": "Plans overseas flight despite concerns",
-      "zh": "不顾忧虑计划外访"
+      "en": "Republicans curtail cameras",
+      "zh": "共和党限制摄像头"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/09/04/us/politics/trump-qatar-jet-flight-ireland.html"
+     "url": "https://www.nytimes.com/2026/09/05/us/red-states-republicans-flock-cameras.html"
     },
     {
-     "item_id": "12c91175bae338c9",
+     "item_id": "7339674d3ab2ea1b",
      "phrase": {
-      "en": "Retribution may include Falklands",
-      "zh": "报复或及福克兰群岛"
+      "en": "Cameras vowed safe but sabotaged",
+      "zh": "号称安全但遭破坏"
      },
      "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/sep/04/trump-argentina-falklands-uk"
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cew9kz1kxpvo?at_medium=RSS&at_campaign=rss"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Trump plans to use a Qatari jet again despite safety doubts.",
-    "zh": "特朗普拟再用卡塔尔专机，安全疑虑犹存。"
+    "en": "License-plate cameras face bipartisan curbs despite police support.",
+    "zh": "车牌摄像头面临两党限制，尽管警方支持。"
+   },
+   "id": "t3",
+   "keyword": {
+    "en": "Flock surveillance debate",
+    "zh": "Flock监控争议"
+   },
+   "relates_to": [
+    "t1"
+   ],
+   "why_now": {
+    "en": "Your interest in human-computer interaction and privacy aligns: the Flock debate is a case study in civic tech tensions.",
+    "zh": "你对人机交互和隐私的兴趣契合：Flock辩论是公民科技张力的案例。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "ccdd9733d6223598",
+     "phrase": {
+      "en": "Future unknown, long-term confinement",
+      "zh": "未来未知，长期监禁"
+     },
+     "section": "news",
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/09/05/us/lindsay-clancy-psychiatric-hospital.html"
+    },
+    {
+     "item_id": "fb2efbb84fff9bb3",
+     "phrase": {
+      "en": "Divided on victim or criminal",
+      "zh": "受害者还是罪犯存分歧"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/cx2z0xnw2d6o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "3ab7b994f7e16533",
+     "phrase": {
+      "en": "How trial gripped and fell apart",
+      "zh": "审判如何引人瞩目而破裂"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/videos/cr7dzr2e789o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "item_id": "daf6418694288ff1",
+     "phrase": {
+      "en": "Different in other countries",
+      "zh": "他国法律或不同"
+     },
+     "section": "news",
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/videos/cqlw6q0xv4zo?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "convergence": "divergent",
+   "gloss": {
+    "en": "Mistrial in mother's murder case reveals national split on culpability and mental health.",
+    "zh": "母亲谋杀案流审，暴露全国对罪责与心理健康的意见分歧。"
    },
    "id": "t4",
    "keyword": {
-    "en": "Trump foreign jets",
-    "zh": "特朗普外访专机"
+    "en": "Lindsay Clancy trial divide",
+    "zh": "林赛·克兰西审判分歧"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You appreciate detail: a unique travel choice intertwines security, diplomacy, and symbolism.",
-    "zh": "你重细节：特殊出行交织安全、外交与象征。"
+    "en": "You care about visual rhetoric and technical communication: media framing of this case across outlets is a live lesson in narrative construction.",
+    "zh": "你在乎视觉修辞和技术传播：各媒体对此案的框架是叙事构建的鲜活教材。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "fa1e6b3ce68d793f",
+     "phrase": {
+      "en": "Information retrievability key to oversight",
+      "zh": "信息可检索性是监督关键"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2609.01976v1"
+    },
+    {
+     "item_id": "af2700db963b4ab0",
+     "phrase": {
+      "en": "AI handles incidents, engineers less know",
+      "zh": "AI处理事件，工程师知之甚少"
+     },
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "New research links humans' inability to retrieve LLM info to oversight failures.",
+    "zh": "新研究将人类无法检索LLM信息与监督失效联系起来。"
+   },
+   "id": "t5",
+   "keyword": {
+    "en": "LLM oversight failure",
+    "zh": "大模型监督失效"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "Directly advances your interest in LLM and human-AI collaboration: the paper offers a concrete precondition for effective oversight.",
+    "zh": "直接推进你对LLM和人机协作的兴趣：论文为有效监督提供了具体前提。"
+   }
+  },
+  {
+   "angles": [
+    {
+     "item_id": "5b99f7b9ca72f68f",
+     "phrase": {
+      "en": "Proactive thought partners for writing",
+      "zh": "写作的主动思维伙伴"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC (writing & docs)",
+     "url": "https://arxiv.org/abs/2609.01588v1"
+    },
+    {
+     "item_id": "7d32fadb7be306af",
+     "phrase": {
+      "en": "Benchmark for agentic claim checking",
+      "zh": "代理主张验证基准"
+     },
+     "section": "papers",
+     "source": "arXiv cs.HC + cs.GR",
+     "url": "https://arxiv.org/abs/2609.01383v1"
+    }
+   ],
+   "convergence": "convergent",
+   "gloss": {
+    "en": "New frameworks propose proactive AI for writing and interactive claim verification in visualizations.",
+    "zh": "新框架为写作和可视化交互中的主张验证提出主动AI方案。"
+   },
+   "id": "t6",
+   "keyword": {
+    "en": "AI design for writing and visualization",
+    "zh": "AI写作与可视化设计"
+   },
+   "relates_to": [],
+   "why_now": {
+    "en": "Bolsters your interests in technical communication and data visualization: two papers offer tools for your field today.",
+    "zh": "加强你对技术传播和数据可视化的兴趣：两篇论文今日为你的领域提供工具。"
    }
   }
  ]
