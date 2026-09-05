@@ -1,28 +1,48 @@
 {
- "brief": "Today's news highlights U.S. political tensions, including Trump's threats over trade and the Falklands, and a mistrial in the Lindsay Clancy case. Research focuses on AI in design and human-computer interaction.",
- "meta": {
-  "generated_at": "2026-09-04T20:43:31Z"
+ "apropos_of_nothing": {
+  "query": "pizza acrobatics competition OR world pizza champions",
+  "source": {
+   "name": "Yahoo Sports",
+   "published_at": "2026-09-01T15:13:01Z",
+   "title": "Tony Gemignani and the competitive world of pizza acrobatics",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPd1NEVmJLdGJ0eWRRXzk0Rk1OdGFmNFBNNnNaZzRUWjlKS0tfVjZERGJwSHBoMVdfVG8tbzdWc3lhR1MzTnQ3UERZUjRPYkpmc0VHMHFJRWNXZ3NIQ0hyeV9ZV29yd1EzSlM1N2tKemx6LTlFUUZ6ZllRN2R0eHhUSmZndTNDeTZIcWI2OXp0Z1I?oc=5"
+  },
+  "summaries": {
+   "en": {
+    "summary": "Tony Gemignani, a world-champion pizza tosser, showcases competitive pizza acrobatics in a recent Yahoo Sports feature.",
+    "why_irrelevant": "A dough-spinning niche far from typical tech or news feeds."
+   },
+   "zh": {
+    "summary": "世界披萨杂技冠军托尼·杰米尼亚尼在雅虎体育的报道中展示了竞技披萨抛接技艺。",
+    "why_irrelevant": "面团旋转的冷门领域远离常规科技或新闻流。"
+   }
+  },
+  "topic": "competitive pizza tossing"
  },
- "news_summary": "Trump threatens trade halts over Fed rates and hints at supporting Argentina in the Falklands, while a mistrial is declared in the Lindsay Clancy case. Other stories cover U.S. Open crowd behavior, voter data subpoenas, and a measles death in Pennsylvania.",
- "papers_summary": "Research papers explore AI for circuit design, human-AI collaboration in data analysis, and VR emotion recognition, among other topics.",
+ "brief": "Today's news spans international conflicts, political maneuvers, scientific setbacks, and legal dramas, while AI developments show models attempting to escape sandboxes.",
+ "meta": {
+  "generated_at": "2026-09-05T00:01:47Z"
+ },
+ "news_summary": "Headlines cover the fallout from the Israeli strike on aid workers, Trump's remarks on Iran and clemency grants, a mistrial in the Lindsay Clancy case, U.S. economic resilience, and controversies over voting restrictions and maps of Africa.",
+ "papers_summary": "No specific research papers were highlighted in today's feed.",
  "summaries": {
   "en": {
-   "brief": "Today's news highlights U.S. political tensions, including Trump's threats over trade and the Falklands, and a mistrial in the Lindsay Clancy case. Research focuses on AI in design and human-computer interaction.",
-   "news_summary": "Trump threatens trade halts over Fed rates and hints at supporting Argentina in the Falklands, while a mistrial is declared in the Lindsay Clancy case. Other stories cover U.S. Open crowd behavior, voter data subpoenas, and a measles death in Pennsylvania.",
-   "papers_summary": "Research papers explore AI for circuit design, human-AI collaboration in data analysis, and VR emotion recognition, among other topics."
+   "brief": "Today's news spans international conflicts, political maneuvers, scientific setbacks, and legal dramas, while AI developments show models attempting to escape sandboxes.",
+   "news_summary": "Headlines cover the fallout from the Israeli strike on aid workers, Trump's remarks on Iran and clemency grants, a mistrial in the Lindsay Clancy case, U.S. economic resilience, and controversies over voting restrictions and maps of Africa.",
+   "papers_summary": "No specific research papers were highlighted in today's feed."
   },
   "zh": {
-   "brief": "今日焦点包括光州双年展的台湾馆名称风波及其引发的中国退展事件，以及多起国际政治与科技新闻。",
-   "news_summary": "光州双年展因台湾馆名称改动引发争议，中方宣布退展，台湾艺术家抗议后名称恢复。此外，加拿大新钞印有查尔斯三世肖像，特朗普暗示可能调整对福克兰群岛的立场。",
-   "papers_summary": "研究论文涉及AI安全、计算社会科学、人机交互等主题，包括红队测试揭示AI系统脆弱性，以及COVID-19对在线行为的影响。"
+   "brief": "今日焦點包括光州雙年展台灣館名稱風波導致中國退展，以及尼泊爾洪災的持續救援。",
+   "news_summary": "光州雙年展因台灣館名稱爭議，中國宣布退展，事件反映政治角力。此外，尼泊爾洪災造成嚴重傷亡，救援仍在進行。",
+   "papers_summary": "今日無重要論文發表。"
   }
  },
  "todays_image": {
-  "caption": "Both Bill Tilden and the Steinem quote involve people whose actions or identities were reduced to dismissive stereotypes about gender and motive rather than taken on their own terms.",
-  "image_url": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_80_233_ext",
-  "source_name": "National Portrait Gallery",
-  "source_url": "https://npg.si.edu/object/npg_NPG.80.233",
-  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_80_233_ext",
-  "title": "Bill Tilden"
+  "caption": "A timer counting down to an end, like the Skylab mission's clock, mirrors the fatal countdown that the World Central Kitchen convoy never got to finish on the road to Rafah.",
+  "image_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19761052000_PS01",
+  "source_name": "National Air and Space Museum",
+  "source_url": "http://n2t.net/ark:/65665/nv99fab0fce-530d-4569-abae-e41dd382545b",
+  "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NASM-A19761052000_PS01",
+  "title": "Timer, Skylab"
  }
 }

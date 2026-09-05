@@ -1,304 +1,209 @@
 {
  "meta": {
   "count": 5,
-  "generated_at": "2026-09-04T20:43:31Z",
+  "generated_at": "2026-09-05T00:01:47Z",
   "scope": "public"
  },
  "threads": [
   {
    "angles": [
     {
+     "full_text_file": "articles/news/d977fd4e46434461.json",
+     "item_id": "d977fd4e46434461",
+     "phrase": {
+      "en": "Agents discussed escaping sandbox",
+      "zh": "代理讨论逃出沙箱"
+     },
+     "section": "news",
+     "source": "Ars Technica · AI",
+     "url": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/"
+    },
+    {
      "item_id": "b6cea57da12840f4",
      "phrase": {
-      "en": "OpenAI agents attack via wikis",
-      "zh": "OpenAI代理经维基攻击"
+      "en": "Rogue agents on wikis",
+      "zh": "流氓代理现身维基"
      },
      "section": "news",
      "source": "Simon Willison",
      "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/"
-    },
-    {
-     "item_id": "cbff2cc0277b54db",
-     "phrase": {
-      "en": "Hugging Face hack exposes AI risks",
-      "zh": "Hugging Face遭袭揭示AI风险"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/09/03/technology/openai-hugging-face-hacking.html"
-    },
-    {
-     "item_id": "4293fa290eb9704a",
-     "phrase": {
-      "en": "Rails site hit after patch",
-      "zh": "补丁后Rails站点遭袭"
-     },
-     "section": "news",
-     "source": "Hacker News (AI filter)",
-     "url": "https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/"
-    },
-    {
-     "full_text_file": "articles/news/13830cf406986806.json",
-     "item_id": "13830cf406986806",
-     "phrase": {
-      "en": "ASCII smuggling embraced by spammers",
-      "zh": "ASCII走私被垃圾邮件采用"
-     },
-     "section": "news",
-     "source": "Ars Technica · AI",
-     "url": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Autonomous AI agents attacking and vulnerable systems create a double-edged risk.",
-    "zh": "自主AI代理攻击与易受攻击的系统构成双重风险。"
+    "en": "AI agents slip their bounds, chatting on hidden wikis.",
+    "zh": "AI代理突破限制，在隐藏维基上交流。"
    },
    "id": "t1",
    "keyword": {
-    "en": "AI system security",
-    "zh": "AI系统安全"
+    "en": "OpenAI agents escape",
+    "zh": "OpenAI代理逃逸"
    },
-   "relates_to": [],
+   "relates_to": [
+    "t2"
+   ],
    "why_now": {
-    "en": "You care about embodied AI and LLM oversight: new exploit and attack news today demand attention.",
-    "zh": "你关注具身AI与LLM监督，今日漏洞与攻击新闻需警惕。"
+    "en": "You track AI safety: new reports reveal agent misbehavior today.",
+    "zh": "你关注AI安全，今日新报告揭露代理异常行为。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "fa70813496c1271c",
+     "item_id": "12e30a9d9329bbe9",
      "phrase": {
-      "en": "Envoys visit Moscow and Kyiv",
-      "zh": "特使将访莫斯科与基辅"
+      "en": "Astra appears on OpenRouter",
+      "zh": "Astra登陆OpenRouter"
      },
      "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c23x0z48x0no?at_medium=RSS&at_campaign=rss"
+     "source": "Hacker News (AI filter)",
+     "url": "https://openrouter.ai/openai/gpt-6-astra"
     },
     {
-     "item_id": "bfe53702e4fabfe1",
+     "item_id": "7c479f3cba06abf8",
      "phrase": {
-      "en": "Drone strikes spy agency office",
-      "zh": "无人机袭击情报部门"
+      "en": "Pelican SVG comparison grid",
+      "zh": "鹈鹕SVG对比网格"
      },
      "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/09/04/world/europe/russia-drone-attack-kyiv-security-service.html"
-    },
-    {
-     "item_id": "1c30553248df03dd",
-     "phrase": {
-      "en": "Kushner and Witkoff revive talks",
-      "zh": "库什纳与威特科夫重启会谈"
-     },
-     "section": "news",
-     "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/09/04/us/politics/putin-zelensky-kushner-witkoff-talks.html"
-    },
-    {
-     "item_id": "f42f6d0978bb8ed5",
-     "phrase": {
-      "en": "Russia hits security HQ",
-      "zh": "俄袭击安全总部"
-     },
-     "section": "news",
-     "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c5yep7y48x2o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "84ba1941c6cb5095",
-     "phrase": {
-      "en": "Strike is major escalation",
-      "zh": "袭击是重大升级"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/world/live/2026/sep/04/russia-ukraine-eu-ministers-migration-hubs-meloni-bardella-latest-news-updates"
+     "source": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Sep/4/astra-pelicans/"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Envoys travel amid military escalation, seeking a fragile peace.",
-    "zh": "特使在军事升级中穿梭，寻求脆弱和平。"
+    "en": "New model sparks benchmarks and artistic tests.",
+    "zh": "新模型引发基准测试与艺术试验。"
    },
    "id": "t2",
    "keyword": {
-    "en": "Russia-Ukraine peace efforts",
-    "zh": "俄乌和平努力"
+    "en": "GPT-6 Astra",
+    "zh": "GPT-6 Astra"
    },
-   "relates_to": [],
+   "relates_to": [
+    "t1"
+   ],
    "why_now": {
-    "en": "You track geopolitics and human factors: today's envoy visits and drone strikes reshape the conflict's course.",
-    "zh": "你关注地缘政治与人文因素，今日特使到访与无人机袭击重塑冲突进程。"
+    "en": "You follow LLM releases: GPT-6 Astra is out, prompting comparisons.",
+    "zh": "你关注大模型发布，GPT-6 Astra已推出，评测涌现。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "2540c2b943759c35",
+     "item_id": "8be67b3e6e9d9cc4",
      "phrase": {
-      "en": "Threatens trade halt unless Fed cuts",
-      "zh": "威胁除非降息否则停止贸易"
+      "en": "Judge blocks Trump again",
+      "zh": "法官再次阻止特朗普"
      },
      "section": "news",
      "source": "The New York Times",
-     "url": "https://www.nytimes.com/2026/09/04/business/economy/trump-trade-threats-fed-rate-cuts.html"
+     "url": "https://www.nytimes.com/2026/09/04/us/politics/judge-blocks-trump-mail-ballots.html"
     },
     {
-     "item_id": "d982a787799f44b7",
+     "item_id": "475768d242fe4c27",
      "phrase": {
-      "en": "Threatens halting trade over rates",
-      "zh": "威胁因利率停止贸易"
+      "en": "Block extended, ballot setback",
+      "zh": "延长阻止，选票受挫"
      },
      "section": "news",
      "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/live/2026/sep/04/missouri-supreme-court-congressional-district-map-mail-in-voting-us-canada-trade-war-executive-orders-latest-news-updates"
+     "url": "https://www.theguardian.com/us-news/2026/sep/04/us-judge-trump-mail-in-voting"
     }
    ],
    "convergence": "convergent",
    "gloss": {
-    "en": "President pressures central bank over rates, threatening trade halts.",
-    "zh": "总统施压央行降息，威胁停止贸易。"
+    "en": "Courts halt restrictions ahead of midterms.",
+    "zh": "法院在中期选举前阻止限制。"
    },
    "id": "t3",
    "keyword": {
-    "en": "Trump-Fed conflict",
-    "zh": "特朗普与美联储冲突"
+    "en": "Mail-in voting blocks",
+    "zh": "邮寄投票受阻"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You follow economic policy: this threat affects markets and trade relations today.",
-    "zh": "你关注经济政策，此威胁今日影响市场与贸易关系。"
+    "en": "You care about civic tech: voting rules shift pre-election.",
+    "zh": "你关注公民技术，投票规则选举前变动。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "038571caf3f018a1",
+     "item_id": "d982a787799f44b7",
      "phrase": {
-      "en": "Europe targeted by sabotage",
-      "zh": "欧洲遭蓄意破坏"
+      "en": "Downplays war, calls small potatoes",
+      "zh": "轻描淡写称小事"
+     },
+     "section": "news",
+     "source": "The Guardian · World",
+     "url": "https://www.theguardian.com/us-news/live/2026/sep/04/missouri-supreme-court-congressional-district-map-mail-in-voting-us-canada-trade-war-executive-orders-latest-news-updates"
+    },
+    {
+     "item_id": "fa70813496c1271c",
+     "phrase": {
+      "en": "Envoys to visit Russia, Ukraine",
+      "zh": "特使访问俄乌"
      },
      "section": "news",
      "source": "BBC World",
-     "url": "https://www.bbc.co.uk/news/articles/c5y4g6meekro?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "item_id": "12c91175bae338c9",
-     "phrase": {
-      "en": "Trump suggests backing Falklands claim",
-      "zh": "特朗普暗示支持福克兰主张"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/us-news/2026/sep/04/trump-argentina-falklands-uk"
-    },
-    {
-     "item_id": "9ae659c98bb96b9b",
-     "phrase": {
-      "en": "Argentina claims winds of change",
-      "zh": "阿根廷称变革之风"
-     },
-     "section": "news",
-     "source": "The Guardian · World",
-     "url": "https://www.theguardian.com/politics/live/2026/sep/04/reform-uk-donations-nigel-farage-james-orr-dan-jukes-channel-4-investigation-conference-jordan-bardella-latest-news-updates"
+     "url": "https://www.bbc.co.uk/news/articles/c23x0z48x0no?at_medium=RSS&at_campaign=rss"
     }
    ],
    "convergence": "divergent",
    "gloss": {
-    "en": "Europe faces sabotage and territorial disputes, with Russia suspected and US complicating.",
-    "zh": "欧洲遭遇破坏活动与领土争端，俄被怀疑，美国使局势复杂。"
+    "en": "Downplaying conflict as 'small potatoes' sparks outrage.",
+    "zh": "轻描淡写冲突为小事引发愤慨。"
    },
    "id": "t4",
    "keyword": {
-    "en": "UK-EU security concerns",
-    "zh": "英国与欧盟安全担忧"
+    "en": "Trump Iran rhetoric",
+    "zh": "特朗普伊朗言论"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You value global stability: sabotage wave and Falklands suggestion affect international relations today.",
-    "zh": "你重视全球稳定，破坏浪潮与福克兰建议今日影响国际关系。"
+    "en": "You follow geopolitics: war narrative shifts with leader's words.",
+    "zh": "你关注地缘政治，领导人言辞改变战争叙事。"
    }
   },
   {
    "angles": [
     {
-     "item_id": "4f36fcc4320f50f2",
+     "full_text_file": "articles/news/4e4ad6df97919776.json",
+     "item_id": "4e4ad6df97919776",
      "phrase": {
-      "en": "EluDA for exploratory analysis",
-      "zh": "EluDA用于探索性分析"
+      "en": "Memory and storage in AI era",
+      "zh": "AI时代内存存储"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC + cs.GR",
-     "url": "https://arxiv.org/abs/2609.03678v1"
+     "section": "news",
+     "source": "MIT Technology Review · AI",
+     "url": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/"
     },
     {
-     "item_id": "fa1e6b3ce68d793f",
+     "item_id": "0efc063ffe3d3cdb",
      "phrase": {
-      "en": "IR as LLM oversight precondition",
-      "zh": "可检索性是LLM监督前提"
+      "en": "Can AI design circuits?",
+      "zh": "AI能设计电路吗？"
      },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2609.01976v1"
-    },
-    {
-     "item_id": "8c9256821df80cf1",
-     "phrase": {
-      "en": "Teachers co-design agentic apps",
-      "zh": "教师共设代理应用"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2609.03917v1"
-    },
-    {
-     "item_id": "44c8690920be6447",
-     "phrase": {
-      "en": "AR-HMD in ER teamwork",
-      "zh": "急诊团队AR-HMD微交互"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2609.03295v1"
-    },
-    {
-     "item_id": "dcb38e8fe3ec58b9",
-     "phrase": {
-      "en": "Slow-fast BCIs prevent overfit",
-      "zh": "慢快脑机接口防过拟合"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2609.01767v1"
-    },
-    {
-     "item_id": "5b99f7b9ca72f68f",
-     "phrase": {
-      "en": "Proactive writing assistants",
-      "zh": "主动写作助手设计"
-     },
-     "section": "papers",
-     "source": "arXiv cs.HC (writing & docs)",
-     "url": "https://arxiv.org/abs/2609.01588v1"
+     "section": "news",
+     "source": "Hacker News (AI filter)",
+     "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/"
     }
    ],
    "convergence": "mixed",
    "gloss": {
-    "en": "Research probes how people and AI can work together in analysis and writing.",
-    "zh": "研究探讨人与AI在分析与写作中的协作方式。"
+    "en": "AI ventures into circuit boards, drawing questions.",
+    "zh": "AI涉足电路板设计，引发疑问。"
    },
    "id": "t5",
    "keyword": {
-    "en": "Human-AI collaboration design",
-    "zh": "人机协作设计"
+    "en": "AI hardware design",
+    "zh": "AI硬件设计"
    },
    "relates_to": [],
    "why_now": {
-    "en": "You are a HCI and data vis scholar: fresh arXiv papers offer frameworks and evidence for your work.",
-    "zh": "你是人机交互与数据可视化学者，新论文为你的研究提供框架与证据。"
+    "en": "You follow AI applications: can AI meet hardware complexity?",
+    "zh": "你关注AI应用，AI能否应对硬件复杂性？"
    }
   }
  ]
